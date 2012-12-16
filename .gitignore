@@ -1,0 +1,4 @@
+$ cat .ignore
+
+# Can ignore specific files
+.DS_Store
