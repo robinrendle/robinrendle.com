@@ -1,4 +1,4 @@
-robinrendle.com
-===============
+robinrendle.com v2
+==================
 
-The redesign of my personal blog and website
+The redesign of my personal site.
