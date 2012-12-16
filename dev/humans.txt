@@ -1,0 +1,15 @@
+/* Team */
+Design and code by: Robin Rendle
+Contact: desk@robinrendle.com
+Twitter: @robinrendle
+Location: Nottingham, England
+Stardate: 2012
+Current AI IQ: Toaster
+
+/* Tech */
+Standards: HTML, SCSS
+Software: Sublime Text 2
+
+
+
+
