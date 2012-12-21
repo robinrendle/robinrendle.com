@@ -1,4 +1,11 @@
-$ cat .ignore
 
-# Can ignore specific files
+!.gitignore
+!.htaccess
+
+composer.lock
+/vendor
+/web/static/css/
+
+.DS_Store
+
 .DS_Store
