@@ -13,3 +13,5 @@ composer.lock
 *.scssc
 
 *.scssc
+
+*.css
