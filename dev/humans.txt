@@ -4,12 +4,18 @@ Contact: desk@robinrendle.com
 Twitter: @robinrendle
 Location: Nottingham, England
 Stardate: 2012
-Current AI IQ: Toaster
+
 
 /* Tech */
-Standards: HTML, SCSS
-Software: Sublime Text 2
+Standards: 
+    • HAML
+    • SCSS
+    • Markdown
+
+Software: Sublime Text 2, Codekit, iA Writer
 
 
-
-
+/* Acknowledgements */
+Thanks to: 
+    • Andy Clarke and his 320 boilerplate
+    • Erskine Design and their Ultimate Package
