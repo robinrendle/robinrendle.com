@@ -1,14 +1,13 @@
-
-!.gitignore
-!.htaccess
-
 composer.lock
 /vendor
 /web/static/css/
 
+# OS generated files #
+######################
 .DS_Store
 .DS_Store?
 
+# Stylesheets #
+##############
 *.scssc
-
 *.css
