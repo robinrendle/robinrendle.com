@@ -7,10 +7,7 @@ composer.lock
 /web/static/css/
 
 .DS_Store
-
-.DS_Store
-
-*.scssc
+.DS_Store?
 
 *.scssc
 
