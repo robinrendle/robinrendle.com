@@ -1,3 +1,4 @@
+/* ===================== */
 /* Team */
 Design and code by: Robin Rendle
 Contact: desk@robinrendle.com
@@ -5,16 +6,25 @@ Twitter: @robinrendle
 Location: Nottingham, England
 Stardate: 2012
 
-
+/* ===================== */
 /* Tech */
 Standards: 
     • HAML
+        (http://haml.info/)
     • SCSS
+        (http://sass-lang.com/)
+    • COMPASS
+        (http://compass-style.org/)
     • Markdown
+        (http://daringfireball.net/projects/markdown/)
 
-Software: Sublime Text 2, Codekit, iA Writer
 
+Software: 
+    • Sublime Text 2
+    • Codekit
+    • iA Writer
 
+/* ===================== */
 /* Acknowledgements */
 Thanks to: 
     • Andy Clarke and his 320 boilerplate
