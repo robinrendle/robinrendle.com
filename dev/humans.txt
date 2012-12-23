@@ -18,4 +18,10 @@ Software: Sublime Text 2, Codekit, iA Writer
 /* Acknowledgements */
 Thanks to: 
     • Andy Clarke and his 320 boilerplate
-    • Erskine Design and their Ultimate Package
+        (http://stuffandnonsense.co.uk/projects/320andup)
+
+    • Erskine Design and their Ultimate Package 
+        (https://github.com/erskinedesign/ed.ultimate_package)
+        
+    • Ian Devlin for his work on HTML5 Bones 
+        (http://html5bones.com/)
