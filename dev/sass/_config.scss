@@ -48,9 +48,9 @@
 
     // @start COLOURS -------------------- //
     $primary:#AC0000;
-    $secondary:;
+    $secondary:#333;
 
-    $border:;
+    $border:1px solid $secondary;
 
     $black:#000;
     $white:#FFF;
