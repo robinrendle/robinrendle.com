@@ -1,0 +1,142 @@
+// SCSS CONFIGURATION LIBRARY
+
+// @author: Robin Rendle
+
+// CONTENTS ------------
+//  - DEFAULT VARIABLES
+//      - FONT STACKS
+//      - FONT SIZES
+//      - FONT WEIGHTS
+//      - COLOURS
+//      - SPRITE
+//  - FUNCTIONS
+//      - EM CALC
+//  - MIXINS
+//      - SPRITE BACKGROUND
+//      - LINEAR GRADIENT
+//      - MICRO CLEARFIX
+//      - INLINE BLOCK
+//      - BOX SIZING
+// ---------------------
+
+
+// @start DEFAULT VARIABLES -------------------- //
+
+    // @start FONT STACKS -------------------- //
+
+    $serif1:Georgia, serif;
+    $serif2:Georgia, serif;
+
+    // @end FONT STACKS //
+
+    // @start FONT SIZES -------------------- //
+
+        $baseh1:36;
+        $baseh2:28;
+        $baseh3:22;
+        $baseh4:17;
+        $basefont:17;
+
+    // @end FONT SIZES -------------------- //
+
+    // @start FONT WEIGHTS -------------------- //
+    $lighter:300;
+    $normal:400;
+    $semibold:600;
+    $bold:700;
+    // @end FONT WEIGHTS //
+
+    // @start COLOURS -------------------- //
+    $primary:#AC0000;
+    $secondary:#333;
+
+    $border:1px solid $secondary;
+
+    $black:#000;
+    $white:#FFF;
+
+    $pink:#D71379; // Error
+    // @end COLOURS //
+
+    // @start HEADLINES -------------------- //
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+
+    }
+
+    h1 {
+        font-size:calc-em($baseh1);
+        // line-height:;
+        // margin-bottom:calc-em(20, $baseh1);
+    }
+
+    h2 {
+        font-size:calc-em($baseh2);
+        // line-height:;
+        // margin-bottom:calc-em(20, $baseh2);
+    }
+
+    h3 {
+        font-size:calc-em($baseh3);
+        // line-height:;
+        // margin-bottom:calc-em(20, $baseh3);
+    }
+
+    h4 {
+        font-size:calc-em($baseh4);
+        // line-height:;
+        // margin-bottom:calc-em(20, $baseh4);
+    }
+    // @end HEADLINES //
+// @end DEFAULT VARIABLES //
+
+
+
+// @start MIXINS -------------------- //
+    // @start INLINE BLOCK (http://bit.ly/thoughtbot-bourbon-inline-block) -------------------- //
+    @mixin inline-block {
+        display:inline-block;
+        vertical-align:baseline;
+        zoom:1;
+        *display:inline;
+        *vertical-align:auto;
+    }
+    // @end INLINE BLOCK //
+
+    // @start LINEAR GRADIENT -------------------- //
+    @mixin gradient($from, $to, $fallback: $to) {
+        background-color:$fallback;
+        background-image:       -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+        background-image:-webkit-linear-gradient(top, $from, $to);
+        background-image:   -moz-linear-gradient(top, $from, $to);
+        background-image:    -ms-linear-gradient(top, $from, $to);
+        background-image:     -o-linear-gradient(top, $from, $to);
+        background:              linear-gradient(to left bottom, $from, $to);
+    }
+    // @end LINEAR GRADIENT //
+
+    // @start MICRO CLEARFIX (http://bit.ly/thoughtbot-bourbon-clearfix) -------------------- //
+    @mixin clearfix {
+        &:before,
+        &:after {
+            content:"";
+            display:table;
+        }
+        &:after {
+            clear:both;
+        }
+        zoom:1;
+    }
+    // @end MICRO CLEARFIX /
+// @end MIXINS -------------------- //
+
+// @end LINKS //
+
+
+
+
+

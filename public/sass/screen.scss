@@ -1,0 +1,58 @@
+@import "reset", "config", "components";
+
+
+
+/*
+
+    [ROBINRENDLE.COM V2]
+
+    @version: 1.0
+    @author: Robin Rendle
+
+    CONTENTS ----------
+
+        - BODY
+            - ACCESSIBILITY NAVIGATION
+        - DEFAULT STYLING
+            - FORMS
+            - TABLES
+        - HEADLINES
+        - LINKS
+        - LAYOUT
+            - HEADER & BRANDING
+            - FOOTER
+        - NAVIGATION
+            - HORIZONTAL CLASS
+            - PRIMARY NAVIGATION
+        - GLOBAL ELEMENTS & COMPONENTS
+
+    -------------------
+
+*/
+
+
+
+// @start BODY -------------------- //
+    html {
+        overflow-y:scroll;
+    }
+
+    body {
+        background-color:$white;
+        color:$black;
+        font:$normal percentage($basefont/16) $serif1;
+        line-height:(20 / $basefont);
+    }
+// @end BODY -------------------- //
+
+
+// @start LINKS -------------------- //
+a {
+
+
+    &:hover,
+    &:focus {
+
+    }
+}
+// @end LINKS -------------------- //
