@@ -11,3 +11,5 @@ composer.lock
 ##############
 *.scssc
 *.css
+
+app/_cache/
