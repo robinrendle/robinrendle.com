@@ -1,0 +1,8 @@
+{% for image in page.images %}
+  <div class="image">
+    <img src="{{ image.url }}" alt="{{ image.title }}" width="{{ image.width }}" height="{{ image.height }}">
+    {% if image.description %}
+      <em>{{ image.description }}</em>
+    {% endif %}
+  </div>
+{% endfor %}

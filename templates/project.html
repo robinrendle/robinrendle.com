@@ -1,0 +1,36 @@
+{% include 'partials/header.html' %}
+  <section role="main">
+      <h1 class="col three">
+        <a href="{{ page.root_path }}">{{ page.name }}</a>
+      </h1>
+      <em class="col three">{{ page.email }}</em>
+      <hr>
+      {% include 'partials/navigation/navigation.html' %}
+      <div id="content" class="col eight">
+        <time datetime="{{ page.date | date("Y, m, d") }}" class="date col one">{{ page.date | date("F, j, Y") }}</p>
+        <div class="description col six">
+          <h2 class="col six"><a href="{{ page.root_path }}">{{ page.title }}</a></h2>
+          {{ page.content }}
+        </div>
+        <hr>
+        <p id="project-count" class="col one"><em>&#8470;</em> {{ page.index }}/{{ page.siblings_count }}</p>
+        <p id="gallery-count" class="col one">
+          <em>&#8470;</em> <span>1/1</span>
+        </p>
+        <div id="gallery-navigation" class="col three">
+          <p><a href="#" id="next-image">Next image</a> <em>&rarr;</em></p>
+          <p><a href="#" id="previous-image">Previous image</a> <em>&larr;</em></p>
+        </div>
+        <div class="col four">
+          {% if page.siblings %}
+            {% include 'partials/next-page.html' %}
+            {% include 'partials/previous-page.html' %}
+          {% endif %}
+        </div>
+        {% include 'partials/assets/media.html' %}
+      </div>
+      <hr>
+      <p id="footer" class="col six">&copy; Copyright {{ page.name }} {{ page.current_year }} <a class="atom-rss" href="{{ page.root_path }}/?/feed/">RSS</a><br>
+        <em>Content managed by <a href="http://www.staceyapp.com">stacey</a></em></p>
+  </section>
+{% include 'partials/footer.html' %}

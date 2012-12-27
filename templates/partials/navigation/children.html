@@ -1,0 +1,10 @@
+{% if page.children %}
+  <ol class="children">
+    {% for child in page.children %}
+      <li>
+        <a href="{{ child.url }}">{{ child.page_name }}</a>
+        {% include 'partials/navigation/children.html' with { 'page' : child } %}
+      </li>
+    {% endfor %}
+  </ol>
+{% endif %}

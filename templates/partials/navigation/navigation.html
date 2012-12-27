@@ -1,0 +1,8 @@
+<ul id="navigation" class="col two">
+  {% for child in page.root %}
+    <li>
+      <a href="{{ child.url }}">{{ child.title }}</a>
+      {% include 'partials/navigation/children.html' with { 'page' : child } %}
+    </li>
+  {% endfor %}
+</ul>
