@@ -5,14 +5,14 @@
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<!--[if gt IE 8]><html class="no-js" lang="en"><![endif]-->
 
   <head>
     <meta charset='utf-8' />
 
     <title>{{ page.title }} › {{ page.name }}</title>
 
-    <meta name="description" content='This is the personal website of Robin Rendle'>
+    <meta name="description" content="This is the personal website of Robin Rendle">
     <meta name="author" content="Robin Rendle">
 
     <meta name="HandheldFriendly" content="True">
@@ -22,33 +22,24 @@
 
     <!-- For all browsers -->
     <link rel="stylesheet" href="{{ page.root_path }}/public/stylesheets/screen.css">
-
     <link rel="stylesheet" media="print" href="{{ page.root_path }}/public/stylesheets/print.css">
 
     <!--[if lt IE 9]>
-    <script src="../js/html5shiv.js" media="all"></script>
-    <script src="../js/html5shiv-printshiv.js" media="print"></script>
+      <script src="{{ page.root_path }}/public/js/html5shiv.js" media="all"></script>
+      <script src="{{ page.root_path }}/public/js/html5shiv-printshiv.js" media="print"></script>
     <![endif]-->    
 
     <!-- JavaScript -->
-
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <script src="{{ page.root_path }}/public/js/selectivizr.js"></script>
+    <![endif]-->
     <!-- Favicon -->
     <link rel="shortcut icon" href="/favicon.ico">
-
-
+  </head>
   <body>
-    <header role='banner'>
-      <h1>Robin Rendle</h1>
-      <nav role='navigation'>
-        <ul>
-          <li>
-            <a href='#'>Articles</a>
-          </li>
-          <li>
-            <a href='#'>Notes</a>
-          </li>
-          <li>
-            <a href='#'>About</a>
-          </li>
-        </ul>
-      </nav>
+    <header>
+        <h1>Robin Rendle</h1>
+        {% include 'partials/navigation/navigation.html' %}
+    </header>
+
+
