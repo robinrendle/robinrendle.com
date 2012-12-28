@@ -1,0 +1,9 @@
+{% include 'partials/header.html' %}
+  <section role="main">
+      <div id="content">
+        <time datetime="{{ page.date | date("Y, m, d") }}" class="date col one">{{ page.date | date("F, j, Y") }}</p>
+          <h1 class="col six">{{ page.title }}</h1>
+          {{ page.content }}
+      </div>
+  </section>
+{% include 'partials/footer.html' %}
