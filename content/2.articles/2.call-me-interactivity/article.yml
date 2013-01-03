@@ -1,13 +1,15 @@
+hero: |
+
+  <figure>
+    <img src="/content/2.articles/2.call-me-interactivity/moby.jpeg">
+  </figure>
+
 title: Call Me Interactivity
 
 date: March 10 2012
 
 content: |
 
-  <figure>
-    <img src="/content/2.articles/2.call-me-interactivity/moby.jpeg">
-    <figcaption>Image courtesy of Nick Sherman</figcaption>
-  </figure>
   What do we want from storytelling machines? When publishers use terms such as ‘interactivity’ or ‘immersion’, what do they really mean? These terms either describe a genuine glimpse of the future, or a new form of commercial and technological chutzpah. But what is it that we’re really hunting? What’s our digital Moby Dick?
 
   On returning home at the start of the Christmas holidays I found the [Arion Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition of Moby Dick waiting for me. However, unlike the majority of other books, you cannot but instantly remark upon how special it is.
@@ -72,3 +74,5 @@ content: |
   We are all tempted by interactivity; video and audio snippets, data charts that can be flicked and pushed, letters that can be popped and pinched. But how many of these features enhance the relationship between reader and writer? Due to the constraints I mentioned previously, we most likely won’t recognise the digital book in a decade. This is because they won’t be built in the same way, they won’t be written in the same way and they won’t be funded and published in the same way either. These problems, some economic, some technical, will force us to consider alternative methods of thinking about content, space, storytelling and time.
 
   The line that borders pixel and paper has been crossed, boundaries have been muddied, but the future swells with opportunity. And so these uncharted, digital spaces demand not only new types of thinking, publishing and design, but also a new form of storytelling, new kinds of heroes and monsters, new worlds to explore. This frontier lies beyond the easy and the kitsch; the truly interactive.
+
+  <em>Image courtesy of Nick Sherman. Read more about the design of the book over at [Fonts In Use](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition)</em>
