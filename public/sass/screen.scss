@@ -39,9 +39,9 @@
 
     body {
         background-color:$white;
-        color:$black;
-        font:$normal percentage($basefont/16) $serif1;
-        line-height:(20 / $basefont);
+        color:$text;
+        font:$normal percentage($basefont/17) $serif1;
+        line-height:1.55;
     }
 // @end BODY -------------------- //
 
@@ -56,3 +56,39 @@ a {
     }
 }
 // @end LINKS -------------------- //
+
+// @start GLOBAL -------------------- //
+
+img {
+    max-width:100%;
+}
+
+figure,
+p, 
+blockquote, 
+h3, 
+ol, 
+ul, 
+pre,
+form,
+table,
+dl {
+    margin-bottom:1.55em;
+}
+
+
+
+section[role="main"] {
+    header {
+        margin-bottom:2em;
+        text-align:center;
+
+        time {
+            color:$lightgrey;
+        }
+    }
+}
+// @end GLOBAL -------------------- //
+
+
+

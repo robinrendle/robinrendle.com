@@ -24,27 +24,23 @@
 
     // @start FONT STACKS -------------------- //
 
-    $serif1:Georgia, serif;
-    $serif2:Georgia, serif;
-
-    // @end FONT STACKS //
+    $serif1:"Greta Text Light", Georgia, serif;
+    $title:"Greta Display Medium", Georgia, serif;
 
     // @start FONT SIZES -------------------- //
 
-        $baseh1:36;
-        $baseh2:28;
-        $baseh3:22;
-        $baseh4:17;
-        $basefont:17;
-
-    // @end FONT SIZES -------------------- //
+    $baseh1:50;
+    $baseh2:28;
+    $baseh3:22;
+    $baseh4:17;
+    $basefont:21;
 
     // @start FONT WEIGHTS -------------------- //
+
     $lighter:300;
     $normal:400;
     $semibold:600;
     $bold:700;
-    // @end FONT WEIGHTS //
 
     // @start COLOURS -------------------- //
     $primary:#AC0000;
@@ -53,10 +49,12 @@
     $border:1px solid $secondary;
 
     $black:#000;
+    $text:#222;
+    $lightgrey:#888;
+
     $white:#FFF;
 
     $pink:#D71379; // Error
-    // @end COLOURS //
 
     // @start HEADLINES -------------------- //
     h1,
@@ -69,7 +67,11 @@
     }
 
     h1 {
-        font-size:calc-em($baseh1);
+        font-family:$title;
+        font-style:normal;
+        font-weight:normal;
+        font-size:2.05em;
+        line-height:1.2;
         // line-height:;
         // margin-bottom:calc-em(20, $baseh1);
     }
@@ -91,10 +93,6 @@
         // line-height:;
         // margin-bottom:calc-em(20, $baseh4);
     }
-    // @end HEADLINES //
-// @end DEFAULT VARIABLES //
-
-
 
 // @start MIXINS -------------------- //
     // @start INLINE BLOCK (http://bit.ly/thoughtbot-bourbon-inline-block) -------------------- //
@@ -105,7 +103,6 @@
         *display:inline;
         *vertical-align:auto;
     }
-    // @end INLINE BLOCK //
 
     // @start LINEAR GRADIENT -------------------- //
     @mixin gradient($from, $to, $fallback: $to) {
@@ -117,7 +114,6 @@
         background-image:     -o-linear-gradient(top, $from, $to);
         background:              linear-gradient(to left bottom, $from, $to);
     }
-    // @end LINEAR GRADIENT //
 
     // @start MICRO CLEARFIX (http://bit.ly/thoughtbot-bourbon-clearfix) -------------------- //
     @mixin clearfix {
@@ -131,12 +127,7 @@
         }
         zoom:1;
     }
-    // @end MICRO CLEARFIX /
-// @end MIXINS -------------------- //
-
-// @end LINKS //
-
-
-
-
-
+    
+// @start CONTENT -------------------- //
+    $default:1.6em;
+// @end CONTENT -------------------- //
