@@ -3,7 +3,8 @@ title: Components
 date: December 29 2011
 
 content: |
-  <p>Introduction paragraph text here sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet,<strong>consectetur adipisicing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <em>commodo consequat.</em> Duis aute irure <a>dolor in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Introduction paragraph text here sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <em>commodo consequat.</em> Duis aute irure <a>dolor in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <h2>This is a level 2 heading</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
@@ -42,7 +43,7 @@ content: |
     <p><q>Whenever you feel like criticizing anyone,</q> he told me, <q>just remember that all the people in this world haven’t had the advantages that you’ve had.</q> He didn’t say any more, but we’ve always been unusually communicative in a reserved way.</p>
   </figure>
 
-  For regular passages of text that need citation, then use the <code>blockquote</code> element in conjunction with the <code>footer</code> element for referencing. For ultimate cool guy points, make sure <code>cite</code> is used to reference the title and a link to the original is available:
+  For regular passages of text that need citation, then use the <code>blockquote</code> element in conjunction with the <code>footer</code> element for referencing. Make sure that <code>cite</code> is used to reference the title and a link to the original is available:
 
   <figure class="example">
     <blockquote>
@@ -55,44 +56,29 @@ content: |
         Save what is in destroying, other joy<br>
         To me is lost.
       </p>
-      <footer>
-        <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite>, John Milton
-      </footer>
+      <footer>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></footer>
     </blockquote>
   </figure>
 
   <h3>Sample output</h3>
-  The <code>samp</samp> tag is used for computer output, such as when the screen screamed <samp>Ouch! Press 3 for less noise</samp> and then terminated the program.
+  The <code>samp</code> tag is used for computer output, such as when the screen screamed <samp>Ouch! Press 3 for less noise</samp> and then terminated the program.
 
   <h3>Defining</h3>
-  The <code>dfn</code> tag is used for indicating a definition or a word used for the first time. The <code>title</code> attribute can be used for highlighting the <dfn title="Pungent, angry and bitter">acrimonious</dfn> description.
+  The <code>dfn</code> tag is used for indicating a definition or a word used for the first time. The <code>title</code> attribute can be used for highlighting an <dfn title="Pungent, angry and bitter">acrimonious</dfn> description.
 
   <h3>Superscript and subscript</h3>
   The <code>sub</code> tag defines subscript text that should appear half a character below the baseline. Subscript text can be used for chemical formulas, such as H<sub>2</sub>O. Likewise, the <code>sup</code> tag defines superscript text and should appear half a character above the baseline. Superscript text appears half a character above the baseline. Superscript text can be used for footnotes, like WWW <sup>[1]</sup>.
 
   <h3>Highlighted Text</h3>
-  The <code>mark</code> element is used to represent a run of text marked or highlighted for reference purposes. Within a body of text, <mark>highlighted text will always appear like this.</mark>
+  The <code>mark</code> element is used to represent a run of text marked or highlighted for reference purposes. Within a body of text, <mark>highlighted sections will always appear like this.</mark>
 
   <h3>Code</h3>
-  The <code>code</code> element is used whenever a fragment of computer code is referenced. For larger pieces of code, the <code>ol</code> element with line numbers can be used such as below:
+  The <code>code</code> element is used whenever a fragment of computer code is referenced. For longer sections, place code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, or some sort of computer code. Such as:
 
-  <ol class="code">
-    <li><code>section {</code></li>
-    <li class="tab-1"><code>color: $branding;</code></li>
-    <li class="tab-1"><code>font-size: 1.3em;</code></li>
-    <li>}</code></li>
-  </ol>
-
-  Alternatively, if line numbers are not necessary, place all code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, or some sort of computer code. Such as:
-
-  <pre>
-    <code>
-      section {
-        color:$branding;
-        font-size: 1.3em;
-      }
-    </code>
-  </pre>
+  <pre><code>section {
+    color:$branding;
+    font-size: 1.3em;
+  }</code></pre>
 
   If there is any larger, unique code samples then place an inline <a href="https://gist.github.com/">gist</a> into the document for later reuse and reference.
 
@@ -100,8 +86,19 @@ content: |
   <hr>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <h1>You only live twice</h1>
+  <h2>Jeopardy and lemony snicket</h2>
+  <h3>Jump and june and frivilous panderings</h3>
+  <h4>About this website</h4>
+
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
   <h2>Figure element</h2>
-  Images are always marked up with <code>figure</code>, captions should be contained within a <code>figcaption</code>.
+  Images are always marked up with <code>figure</code>, captions with <code>figcaption</code>. Not every image needs a description or a <code>h3</code> but this might sometimes help clarify the reason why the image was included.
 
   <figure>
     <img alt="all teh kittys" src="http://placekitten.com/g/800/450">
@@ -111,9 +108,9 @@ content: |
     </figcaption>
   </figure>
   <h2>Retracted text</h2>
-  The <code>del</code> element is used for retracted text.
+  The <code>del</code> element is used for retracted text, whilst <code>ins</code> is used for the replacement. Furthermore, the <code>datetime</code> within each element should specify the time of deletion and creation.
   <figure class="example">
-    <p>When I came back from the <del datetime="2012-12-28">East last autumn</del> <ins datetime="2012-12-28">West last spring</ins> I felt that I wanted the world to be in uniform and at a sort of moral attention forever; No – Gatsby turned out all right at the end; wake of his dreams that temporarily closed out my interest in the abortive sorrows and shortwinded elations of men.</p>
+    <p>When I came back from the <del datetime="2012-12-28">East last autumn</del> <ins datetime="2012-12-28">West last spring</ins> I felt that I wanted the world to be in uniform and at a sort of moral attention forever.</p>
   </figure>
   <form>
     <fieldset>
