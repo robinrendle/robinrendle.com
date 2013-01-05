@@ -24,36 +24,39 @@
 
     // @start FONT STACKS -------------------- //
 
-    $serif1:"Greta Text Light", Georgia, serif;
-    $title:"Greta Display Medium", Georgia, serif;
+    $text:"Greta Text Light", Georgia, serif;
+    $italic:"Greta Text Light Italic", Georgia, serif;
+    $bold:"Greta Text Medium", Georgia, serif;
+
+    $code:"Fedra Mono Screen Regular",'Lucida Console', Monaco, sans-serif;
+
+    $title :"Greta Display Medium", Georgia, serif;
 
     // @start FONT SIZES -------------------- //
 
-    $baseh1:50;
-    $baseh2:28;
-    $baseh3:22;
+    $baseh1:2em;
+    $baseh2:1.3em;
+    $baseh3:1.2em;
     $baseh4:17;
     $basefont:21;
 
-    // @start FONT WEIGHTS -------------------- //
-
-    $lighter:300;
-    $normal:400;
-    $semibold:600;
-    $bold:700;
 
     // @start COLOURS -------------------- //
-    $primary:#AC0000;
-    $secondary:#333;
 
+    $primary:#C35E5E;
+    $secondary:#CCC;
+
+    $highlight:#FEFED0;
     $border:1px solid $secondary;
 
     $black:#000;
-    $text:#222;
-    $lightgrey:#888;
-
+    $offblack:#222;
+    $lightgrey:#aaa;
+    $offwhite:#FEFEFE;
     $white:#FFF;
 
+
+    $purple:rgb(160,97,245);
     $pink:#D71379; // Error
 
     // @start HEADLINES -------------------- //
@@ -63,21 +66,24 @@
     h4,
     h5,
     h6 {
-
+        text-align:center;
+        width:100%;
     }
 
     h1 {
         font-family:$title;
         font-style:normal;
         font-weight:normal;
-        font-size:2.05em;
+        font-size:$baseh1;
         line-height:1.2;
         // line-height:;
         // margin-bottom:calc-em(20, $baseh1);
     }
 
     h2 {
-        font-size:calc-em($baseh2);
+        font-size:$baseh2;
+        font-weight:bold;
+        font-family:$bold;
         // line-height:;
         // margin-bottom:calc-em(20, $baseh2);
     }
@@ -127,7 +133,4 @@
         }
         zoom:1;
     }
-    
-// @start CONTENT -------------------- //
-    $default:1.6em;
-// @end CONTENT -------------------- //
+
