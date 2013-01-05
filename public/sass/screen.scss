@@ -1,4 +1,4 @@
-@import "reset", "config", "components";
+@import "reset", "config", "components", "compass";
 
 
 
@@ -18,6 +18,7 @@
             - TABLES
         - HEADLINES
         - LINKS
+        - MICRO
         - LAYOUT
             - HEADER & BRANDING
             - FOOTER
@@ -33,29 +34,108 @@
 
 
 // @start BODY -------------------- //
+
+* {
+    box-sizing:border-box;
+}
     html {
         overflow-y:scroll;
     }
 
     body {
-        background-color:$white;
-        color:$text;
-        font:$normal percentage($basefont/17) $serif1;
+        background-color:$offwhite;
+        color:$offblack;
+        font:400 110% $text;
         line-height:1.55;
     }
-// @end BODY -------------------- //
-
 
 // @start LINKS -------------------- //
 a {
-
+    color:$primary;
+    text-decoration:none;
+    @include transition-property(color);
+    @include transition-duration(.2s);
 
     &:hover,
     &:focus {
-
+        text-decoration:underline;
+        color:$lightgrey;
     }
 }
-// @end LINKS -------------------- //
+// @start MICRO -------------------- //
+
+em, i, cite, figcaption {
+    font-style:italic;
+    font-family:$italic;
+}
+
+s {
+    text-decoration:line-through;
+}
+
+code {
+    color:$purple;
+    font-family:$code;
+    font-size:.8em;
+}
+
+samp {
+    font-family:$code;
+    font-size:.8em;
+}
+
+strong,
+b {
+    font-weight:bold;
+    font-family:$bold;
+}
+
+dfn {
+    border-bottom:1px dashed $secondary;
+}
+
+mark {
+    background-color:$highlight;
+    color:#333;
+}
+
+blockquote footer cite {
+    :before {
+        content:"";
+    }
+}
+
+dl {
+    dt {
+        font-family:$bold;
+        font-weight:bold;
+    }
+
+    dd {
+        margin-left:1em;
+    }
+}
+
+sub {
+    line-height:90%;
+    font-size:smaller;
+    vertical-align:sub;
+}
+
+sup {
+    vertical-align:super;
+}
+
+kbd {
+    font-size:.8em;
+    line-height:80%;
+    background-color:#FCFCFC;
+    @include background(linear-gradient(top, #FCFCFC, #EEEEEE));
+    border:1px solid #E6E6E6;
+    border-radius:3px;
+    padding:.2em 0.4em .1em 0.4em;
+    font-family:$code;
+}
 
 // @start GLOBAL -------------------- //
 
@@ -63,21 +143,57 @@ img {
     max-width:100%;
 }
 
-figure,
 p, 
 blockquote, 
 h3, 
-ol, 
-ul, 
+ol,
+hr,
+ul,
 pre,
 form,
 table,
 dl {
-    margin-bottom:1.55em;
+    width:90%;
+    margin:0 auto 1.55em auto;
 }
 
+figure {
+    margin-bottom:1.55em;
 
+    .example {
+        border:1px dashed $secondary;
+        padding:1em;
 
+        figure,
+        p, 
+        blockquote, 
+        h3, 
+        ol, 
+        ul, 
+        pre,
+        form,
+        table,
+        dl {
+            margin:0;
+        }
+    }
+}
+
+blockquote footer {
+    :before {
+        content:"—";
+    }
+}
+
+p {
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -o-hyphens:auto;
+    hyphens:auto;
+}
+
+// @start CONTENT -------------------- //
 section[role="main"] {
     header {
         margin-bottom:2em;
@@ -88,7 +204,3 @@ section[role="main"] {
         }
     }
 }
-// @end GLOBAL -------------------- //
-
-
-
