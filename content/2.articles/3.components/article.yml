@@ -3,47 +3,47 @@ title: Components
 date: December 29 2011
 
 content: |
-  <p>Introduction paragraph text here sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <em>commodo consequat.</em> Duis aute irure <a>dolor in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  This is the go-to style guide for my website. It contains all of the basic semantic elements and visual styles you might expect. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for encouraging me to sit down and make sure that everything can be broken down and moved about so effortlessly.
+
+  ## Headings
+  Introduction paragraph text here sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  Lorem ipsum dolor sit amet, <strong>consectetur adipisicing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <em>commodo consequat.</em> Duis aute irure <a>dolor in reprehenderit</a> in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  <hgroup>
   <h2>This is a level 2 heading</h2>
+  <h3>This is a level 3 heading</h3>
+  </hgroup>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
+  ### What the what
+
   In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
 
-  ‘Whenever you feel like criticizing anyone,’ he told me, ‘just remember that all the people in this world haven’t had the advantages that you’ve had.’
-
-  He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgements, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores.
-
-  And, after boasting this way of my tolerance, I come to the admission that it has a limit. Conduct may be founded on the hard rock or the wet marshes, but after a certain point I don’t care what it’s founded on. When I came back from the East last autumn I felt that I wanted the world to be in uniform and at a sort of moral attention forever; I wanted
-
-  <blockquote>
-    <p>This is a blockquote, a blockquote style here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-    <footer>
-      <cite>Smith &amp; Wesson</cite>, Omar
-    </footer>
-  </blockquote>
-
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <h3>This is a level 3 heading</h3>
-  <h4>This is a level 4 heading</h4>
 
-  <h3>Citing and referencing</h3>
-  To highlight the title of a film, a newspaper, a book or an essay then use the <code>cite</code> element.
+  #### This is a level 4 heading 
+  In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+
+  In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
+
+  <hgroup>
+    <h4>This is a level 4 heading</h4>
+    <h3>Citing and referencing</h3>
+  </hgroup>
+  To highlight the title of a film, a newspaper, a book or an essay use the <code>cite</code> element. There doesn’t seem to much consensus about how to properly cite a text with basic <span>html</span> yet, and I’ve looked at this semantic problem a lot, but it still seems that things are in an awful <a href="http://adactio.com/journal/4675/">state of flux</a>.
+
+  <figure class="example"><p>F.Scott Fitzgerald, <cite>The Great Gatsby</cite>, Wordsworth Classics, London, 1993.</p></figure>
+
+  In other instances it might be best to quote a passage of text inline. The <code>q</code> element can be used to  do so, for example:
 
   <figure class="example">
-    <cite>The Great Gatsby</cite>, F.Scott Fitzgerald, Wordsworth Classics, London, 1993.
-  </figure>
-
-  The <code>q</code> element can be used to reference a passage of text within the text, such as:
-
-  <figure class="example">
-    <p>In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.</p>
     <p><q>Whenever you feel like criticizing anyone,</q> he told me, <q>just remember that all the people in this world haven’t had the advantages that you’ve had.</q> He didn’t say any more, but we’ve always been unusually communicative in a reserved way.</p>
   </figure>
 
-  For regular passages of text that need citation, then use the <code>blockquote</code> element in conjunction with the <code>footer</code> element for referencing. Make sure that <code>cite</code> is used to reference the title and a link to the original is available:
+  For regular passages of text that need citation, use the <code>blockquote</code> element in conjunction with the <code>footer</code> element for referencing. Make sure that <code>cite</code> is used to reference the title and a link to the original is available. If the original is not pointable then make sure that the page number, author, edition and publisher is cited correctly. The margins between the text and the citation is half that of the regular margins (to preserve loveliness):
 
   <figure class="example">
     <blockquote>
@@ -56,7 +56,7 @@ content: |
         Save what is in destroying, other joy<br>
         To me is lost.
       </p>
-      <footer>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></footer>
+      <footer><p>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></p></footer>
     </blockquote>
   </figure>
 
@@ -67,20 +67,22 @@ content: |
   The <code>dfn</code> tag is used for indicating a definition or a word used for the first time. The <code>title</code> attribute can be used for highlighting an <dfn title="Pungent, angry and bitter">acrimonious</dfn> description.
 
   <h3>Superscript and subscript</h3>
-  The <code>sub</code> tag defines subscript text that should appear half a character below the baseline. Subscript text can be used for chemical formulas, such as H<sub>2</sub>O. Likewise, the <code>sup</code> tag defines superscript text and should appear half a character above the baseline. Superscript text appears half a character above the baseline. Superscript text can be used for footnotes, like WWW <sup>[1]</sup>.
+  The <code>sub</code> tag defines subscript text that should appear half a character below the baseline. Subscript text can be used for chemical formulas, such as H<sub>2</sub>O. Likewise, the <code>sup</code> tag defines superscript text and should appear half a character above the baseline. Superscript text appears half a character above the baseline. Superscript text can be used for footnotes, such as WWW <sup><a href="#">[1]</a></sup>.
 
   <h3>Highlighted Text</h3>
-  The <code>mark</code> element is used to represent a run of text marked or highlighted for reference purposes. Within a body of text, <mark>highlighted sections will always appear like this.</mark>
+  The <code>mark</code> element is used to represent a run of text marked or highlighted for reference purposes. Within a body of text, <mark>highlighted sections will always appear like this.</mark> Expect these yellow scribbles all over the place.
 
   <h3>Code</h3>
-  The <code>code</code> element is used whenever a fragment of computer code is referenced. For longer sections, place code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, or some sort of computer code. Such as:
+  The <code>code</code> element is used whenever a fragment of computer code is referenced. For longer sections, place code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, such as a type specimen or some sort of computer output.
 
-  <pre><code>section {
-    color:$branding;
-    font-size: 1.3em;
-  }</code></pre>
+  <figure class="example">
+    <pre><code>section {
+      color:$branding;
+      font-size: 1.3em;
+    }</code></pre>
+  </figure>
 
-  If there is any larger, unique code samples then place an inline <a href="https://gist.github.com/">gist</a> into the document for later reuse and reference.
+  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs).
 
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   <hr>
@@ -237,10 +239,10 @@ content: |
   </dl>
 
   <h3>Strong importance</h3>
-  The <code>strong</code> element is used to highlight text that has a higher semantic importance than the surrounding text. If a word should simply be stylisticly heavier,  the <code>b</code> element should be used instead.
+  The <code>strong</code> element is used to highlight text that has a higher semantic importance than the surrounding text. If a word should simply be stylisticly heavier, the <code>b</code> element should be used instead. Small caps can be used with the <code>span</code> element for purely stylistic, yet <span>deliciously crunchy</span> reasons.
 
   <figure class="example">
-    <p>And, after <strong>boasting</strong> this way of my tolerance, I wanted no more riotous excursions with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction.
+    <p><span>And, after boasting</span> this way of my tolerance, <b>I wanted no more riotous excursions</b> with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction.
   </figure>
 
   <h3>Keyboard commands</h3>
