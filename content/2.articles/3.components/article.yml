@@ -99,10 +99,10 @@ content: |
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
-  <h2>Figure element</h2>
+  <h3>Figure element</h3>
   Images are always marked up with <code>figure</code>, captions with <code>figcaption</code>. Not every image needs a description or a <code>h3</code> but this might sometimes help clarify the reason why the image was included.
 
-  <figure>
+  <figure class="example">
     <img alt="all teh kittys" src="http://placekitten.com/g/800/450">
     <figcaption>
       <h4>Super amazing kitteh</h4>
@@ -138,10 +138,11 @@ content: |
         <label for="email">Email address</label>
         <input id="email" class="text" type="email">
         <em>Note about this field</em>
+        <label class="error">This field is required.</label>
       </div>
       <div>
         <label for="search">Search</label>
-        <input id="search" class="text" type="search">
+        <input id="search" class="text" type="search" placeholder="Search this website">
         <input id="password" class="search button" type="submit">
         <em>Note about this field</em>
       </div>
@@ -168,7 +169,7 @@ content: |
         <em>Note about this field</em>
       </div>
       <div class="submit">
-        <input class="button" type="submit" value="Post Comment">
+        <input class="button" type="submit" value="Post">
         <input class="button" type="button" value="Preview">
         <a href="#">Cancel</a>
       </div>
@@ -226,7 +227,7 @@ content: |
     </li>
     <li>This is a list item</li>
   </ol>
-  ## Definition List
+  ### Definition List
   The <code>dl</code>, or definition list, generally consists of a series of term/definition pairs. More detail can be found about the use of this element from the <a href="http://www.w3.org/TR/html401/struct/lists.html">W3C recommendation</a>.
 
   <dl>
