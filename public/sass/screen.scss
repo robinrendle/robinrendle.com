@@ -48,7 +48,6 @@
         font:400 116% $text;
         line-height:1.6;
     }
-
 // @start LINKS -------------------- //
 a {
     color:$primary;
@@ -62,8 +61,7 @@ a {
         color:$lightgrey;
     }
 }
-  // @start HEADLINES -------------------- //
-
+// @start HEADLINES -------------------- //
     h1,
     h2,
     h3,
@@ -74,7 +72,7 @@ a {
         width:100%;
     }
 
-    h1 {
+    h1, .h1 {
         @include headline-one;
         font-feature-settings: "liga" on;   
         /* vendor-prefixes */
@@ -85,18 +83,21 @@ a {
         text-rendering: optimizeLegibility;
     }
 
-    h2 {
+    h2, .h2 {
         @include headline-two;
     }
 
-    h3 {
+    h3, .h3 {
         @include headline-three;
     }
 
-    h4 {   
+    h4, .h4 {   
         @include headline-four;
     }
 
+    h5, .h5 {   
+        @include headline-five;
+    }
 // @start MARGINS -------------------- //
 
 p, 
@@ -150,7 +151,7 @@ figcaption {
     margin-top:1em;
     color:$grey;
 
-    h4 {
+    h5 {
         margin:0 auto;
     }
 
@@ -427,6 +428,8 @@ blockquote {
 
     >p:only-of-type {
         margin-bottom:.775em;
+        padding-left: 15px;
+        border-left:4px solid #eee;
         }
 
     footer {
@@ -460,7 +463,8 @@ pre {
 hgroup {
     margin:2.5em auto 1.55em auto;
     
-    h1,h2,h3,h4 {
+    h1,h2,h3,h4,
+    .h1,.h2,.h3,.h4,.h5 {
         width:100%;
         margin:0 auto;
     }

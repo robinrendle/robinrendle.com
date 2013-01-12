@@ -5,7 +5,7 @@
 
     PRINT STYLESHEET
 
-    @author: Erskine Design
+    @author: Robin Rendle
 
     CONTENTS ----------
 
@@ -20,7 +20,6 @@
 
 
 // @start BODY -------------------- //
-
 body {
     font-family:16px/1.375em Georgia,serif;
     margin:0;
@@ -31,13 +30,10 @@ form,
 .pagination {
     display:none;
 }
-
 // @end BODY //
 
 
-
 // @start HEADLINES -------------------- //
-
 h1,h2,h3,h4 { 
     font-weight:normal;
     line-height:1.2em;
