@@ -30,7 +30,7 @@ content: |
   In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since.
 
   <hgroup>
-    <h4>This is a level 4 heading</h4>
+    <h4 class="h5">This is a level 4 heading</h4>
     <h3>Citing and referencing</h3>
   </hgroup>
   To highlight the title of a film, a newspaper, a book or an essay use the <code>cite</code> element. There doesn’t seem to much consensus about how to properly cite a text with basic <span>html</span> yet, and I’ve looked at this semantic problem a lot, but it still seems that things are in an awful <a href="http://adactio.com/journal/4675/">state of flux</a>.
@@ -93,6 +93,7 @@ content: |
   <h2>Jeopardy and lemony snicket</h2>
   <h3>Jump and june and frivilous panderings</h3>
   <h4>About this website</h4>
+  <h5>What is going on?</h5>
 
 
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -105,11 +106,11 @@ content: |
   <figure class="example">
     <img alt="all teh kittys" src="http://placekitten.com/g/800/450">
     <figcaption>
-      <h4>Super amazing kitteh</h4>
+      <h5>Super amazing kitteh</h5>
       Cats are valued by humans for companionship and their ability to hunt vermin and household pests.
     </figcaption>
   </figure>
-  <h2>Retracted text</h2>
+  ### Retracted text
   The <code>del</code> element is used for retracted text, whilst <code>ins</code> is used for the replacement. Furthermore, the <code>datetime</code> within each element should specify the time of deletion and creation.
   <figure class="example">
     <p>When I came back from the <del datetime="2012-12-28">East last autumn</del> <ins datetime="2012-12-28">West last spring</ins> I felt that I wanted the world to be in uniform and at a sort of moral attention forever.</p>
