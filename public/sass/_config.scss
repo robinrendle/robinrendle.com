@@ -58,7 +58,7 @@
 
     $baseh1:2.3em;
     $baseh2:1.6em;
-    $baseh3:1.2em;
+    $baseh3:1.3em;
     $baseh4:1.1em;
     $baseh5:1em;
     $basefont:1em;
@@ -66,47 +66,7 @@
     // @start HIERARCHY -------------------- //
 
     $margin:1.55em;
-
-    @mixin red-gradient {
-        background-image:darken($primary,15%);
-        background-image: -webkit-linear-gradient(top, $primary, darken($primary, 10%));
-        background-image: -o-linear-gradient(top, $primary, darken($primary, 10%));
-        background-image: -moz-linear-gradient(top, $primary, darken($primary, 10%));
-        background-image: -webkit-linear-gradient(top, $primary, darken($primary, 10%));
-        background-image: -ms-linear-gradient(top, $primary, darken($primary, 10%));
-    }
-    @mixin cream-gradient {
-        background-image:darken($secondary,15%);
-        background-image: -webkit-linear-gradient(top, $secondary, darken($secondary, 10%));
-        background-image: -o-linear-gradient(top, $secondary, darken($secondary, 10%));
-        background-image: -moz-linear-gradient(top, $secondary, darken($secondary, 10%));
-        background-image: -webkit-linear-gradient(top, $secondary, darken($secondary, 10%));
-        background-image: -ms-linear-gradient(top, $secondary, darken($secondary, 10%));
-    }
-    @mixin button {
-        margin-top:.2em;
-        border-radius:3px;
-        width:25%;
-        float:right;
-        padding:0 .35em;
-        border:none;
-        color:$offwhite;
-        padding:.3em 0 .15em 0;
-        text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25); 
-        @include transition-property(all);
-        @include transition-duration(.5s);  
-    }
-    @mixin red-button {
-        @include red-gradient;
-        @include button;       
-    }
-    @mixin cream-button {
-        @include cream-gradient;
-        @include button;
-    }
-    @mixin cream-button {
-
-    }
+    
     @mixin space {
         margin-bottom:$margin;
     }
@@ -122,10 +82,11 @@
         font-weight:bold;
         font-family:$bold;
         margin:1.8em auto 1em auto;
-        line-height:1.2;
+        line-height:1.15;
     }
     @mixin headline-three {
         font-size:$baseh3;
+        font-family:$text;
         font-weight:normal;
         color:$black;
         line-height:1.3;
@@ -151,10 +112,6 @@
         color:$darkgrey;
         // margin-bottom:calc-em(20, $baseh4);
     }
-
-
-
-
 
 // @start MIXINS -------------------- //
     // @start INLINE BLOCK (http://bit.ly/thoughtbot-bourbon-inline-block) -------------------- //
@@ -189,4 +146,3 @@
         }
         zoom:1;
     }
-
