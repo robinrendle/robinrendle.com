@@ -82,23 +82,66 @@
 
 // @start CTA BUTTONS -------------------- //
 
-.cta_button {
-    clear:both;
-    text-align:center;
-
-    a,
-    button {
-        display:block;
-        text-decoration:none;
-
-        &:hover,
-        &:focus {
-            
-        }
-    } // .cta_button a, .cta_button button
-
+@mixin red-gradient {
+    background-image:darken($primary,15%);
+    background-image: -webkit-linear-gradient(top, $primary, darken($primary, 10%));
+    background-image: -o-linear-gradient(top, $primary, darken($primary, 10%));
+    background-image: -moz-linear-gradient(top, $primary, darken($primary, 10%));
+    background-image: -webkit-linear-gradient(top, $primary, darken($primary, 10%));
+    background-image: -ms-linear-gradient(top, $primary, darken($primary, 10%));
+}
+@mixin cream-gradient {
+    background-image:darken($secondary,15%);
+    background-image: -webkit-linear-gradient(top, $secondary, darken($secondary, 10%));
+    background-image: -o-linear-gradient(top, $secondary, darken($secondary, 10%));
+    background-image: -moz-linear-gradient(top, $secondary, darken($secondary, 10%));
+    background-image: -webkit-linear-gradient(top, $secondary, darken($secondary, 10%));
+    background-image: -ms-linear-gradient(top, $secondary, darken($secondary, 10%));
+}
+@mixin button {
+    border-radius:3px;
+    width:25%;
+    float:right;
+    padding:0 .35em;
+    border:none;
+    color:$offwhite;
+    padding:.3em 0 .15em 0;
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25); 
+    @include transition-property(all);
+    @include transition-duration(.5s);  
+}
+@mixin red-button {
+    @include red-gradient;
+    @include button;       
+}
+@mixin cream-button {
+    @include cream-gradient;
+    @include button;
 }
 
-// @end CTA BUTTONS //
 
+// @start CONTENTS -------------------- //
+nav {
+    &.contents {
+        width:100%;
+        float:left;
+        ul {
+            li {
+                list-style-type:none;
+                float:left;
+                font-size:.9em;
+                line-height:80%;
+                background-color:#FCFCFC;
+                background-image: -webkit-linear-gradient(top, #FCFCFC, #EEEEEE);
+                background-image: -o-linear-gradient(top, #FCFCFC, #EEEEEE);
+                background-image: -moz-linear-gradient(top, #FCFCFC, #EEEEEE);
+                background-image: -webkit-linear-gradient(top, #FCFCFC, #EEEEEE);
+                background-image: -ms-linear-gradient(top, #FCFCFC, #EEEEEE);
+                border:1px solid #E6E6E6;
+                border-radius:3px;
+                padding:.4em .8em;
+            }
+        }
+    }
+}
 
