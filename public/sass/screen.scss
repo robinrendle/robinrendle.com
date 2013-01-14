@@ -307,7 +307,7 @@ fieldset {
                 content:"";
                 left:50%;
                 position:absolute;
-                bottom:0;
+                bottom:-1px;
                 margin-left:-6px;
             }
         }
@@ -494,6 +494,10 @@ section[role="main"] {
 
 iframe {
     width:100%;
+
+    &.map {
+        min-height:18em;
+    }
 }
 
 img {
