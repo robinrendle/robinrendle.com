@@ -53,7 +53,6 @@ content: |
     <p><a href="https://www.youtube.com/watch?v=IcQKtl3MGCE">This song by Johnny Cash</a>, called <cite>A Boy Named Sue</cite>, is kinda punk rock.</p>
   </figure>
 
-
   ### Code
   The <code>code</code> element is used whenever a fragment of computer code is referenced. For longer sections, place code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, such as a type specimen or some sort of computer output.
 
@@ -65,7 +64,8 @@ content: |
     }</code></pre>
   </figure>
 
-  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs).
+  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs). Alternatively, to denote user input on a keyboard the <code>kbd</code> element should be used: for more information hit <kbd>⌘ Cmd</kbd> + <kbd>;</kbd>. 
+
 
   ### Horizontal rule
 
@@ -156,7 +156,7 @@ content: |
   </figure>
 
   <figure class="example">
-    <iframe frameBorder='0' src='http://a.tiles.mapbox.com/v3/robinrendle.map-be54lp9e.html#4/51.77415144124745/2.884859750000035'></iframe>
+    <iframe class="map" frameBorder='0' src='http://a.tiles.mapbox.com/v3/robinrendle.map-be54lp9e.html#4/53.11/2.0100000000000304'></iframe>
   </figure>
 
   ### Forms and Labels
@@ -286,9 +286,6 @@ content: |
       <dd>The network has a structure, and that structure stands upon a paradox. Everything is close, and everything is far, at the same time. This is why cyberspace can feel not just crowded but lonely. You can drop a stone into a well and never hear a splash.
     </dl>
   </figure>
-
-  ### Keyboard commands
-  To denote user input on a keyboard the <code>kbd</code> element should be used: for more information hit <kbd>⌘ Cmd</kbd> + <kbd>;</kbd>. 
 
   ### Copyright and disclaimers
   The <code>small</code> element is used to denote legal restrictions, notices, side comments, disclaimers, caveats, and small print. For example this sort of information might be placed at the very end of the webpage:
