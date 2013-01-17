@@ -16,14 +16,8 @@
 
 
 // @start BLOCK -------------------- //
-
-.block {
-    
+.block {   
 }
-
-// @end BLOCK //
-
-
 
 // @start LISTINGS -------------------- //
 
@@ -58,27 +52,15 @@
 
     }
 
-    // @end ITEM LISTING //
-
     // @start BLOCK LISTING (Base: item_listing) -------------------- //
 
     .block_listing {
-        
     }
-
-    // @end BLOCK LISTING //
-
     // @start ARTICLE LISTING (Base: item_listing) -------------------- //
 
     .article_listing {
         
     }
-
-    // @end ARTICLE LISTING //
-
-// @end LISTINGS //
-
-
 
 // @start CTA BUTTONS -------------------- //
 
@@ -123,13 +105,11 @@
 // @start CONTENTS -------------------- //
 nav {
     &.contents {
-        width:100%;
-        float:left;
+        display:block;
         background-color:$offgrey;
-        border-top:1px solid #ddd;
-        border-bottom:1px solid #ddd;
+        border:1px solid #ddd;
         margin-bottom:$margin*2;
-        padding-bottom:1.5em;
+        padding-bottom:1em;
         background:url("/public/images/pattern.jpg");
 
         h3 {
@@ -142,8 +122,8 @@ nav {
         }
 
         ol {
+            margin-bottom:.5em;
             li {
-                float:left;
                 font-size:1em;
                 list-style:none;
                 width:100%;
@@ -160,6 +140,14 @@ nav {
 
                 &:last-child:after {
                     content:"";
+                }
+
+                a {
+                    color:#999;
+
+                    &:hover {
+                        color:#bbb;
+                    }
                 }
             }
         }
