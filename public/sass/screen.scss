@@ -111,6 +111,7 @@ h4,
 h3,
 h2,
 h1,
+nav.contents,
 hgroup {
     width:90%;
     margin-left:auto;
@@ -229,7 +230,7 @@ kbd {
     @include background(linear-gradient(top, #FCFCFC, #EEEEEE));
     border:1px solid #E6E6E6;
     border-radius:3px;
-    padding:.2em 0.4em .1em 0.4em;
+    padding:.4em 0.4em .1em 0.4em;
     font-family:$code;
 }
 
@@ -449,7 +450,6 @@ table {
         width:100%;
     }
 }
-
 // @start LISTS -------------------- //
 ul {
     li {
@@ -477,9 +477,6 @@ ol {
         margin-bottom:0;
     }
 }
-
-
-
 // @start GLOBAL -------------------- //
 section[role="main"] {
     header {
@@ -557,7 +554,6 @@ figure {
         }
     }
 }
-
 blockquote {
     p {
         width:100%;
@@ -614,3 +610,5 @@ hgroup {
         margin:0 auto;
     }
 }
+
+
