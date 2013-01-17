@@ -1,9 +1,3 @@
-hero: |
-
-  <figure>
-    <img src="/content/2.articles/2.call-me-interactivity/moby.jpeg">
-  </figure>
-
 title: Call Me Interactivity
 
 date: March 10 2012
@@ -11,6 +5,12 @@ date: March 10 2012
 location: Reading, <span>UK</span>
 
 season: Spring 2012
+
+hero: |
+
+  <figure class="hero">
+    <img src="/content/2.articles/2.call-me-interactivity/moby.jpeg">
+  </figure>
 
 content: |
 
