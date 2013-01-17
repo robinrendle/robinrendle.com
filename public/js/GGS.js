@@ -101,7 +101,7 @@ ender.domReady(function () {
         .ggs-14{left:83.33333333333333%;}\
         .ggs-15{left:88.88888888888889%;}\
         .ggs-16{right:0;}\
-        .ggs-0,.ggs-16{width:5.555555555555555%;padding-right:0.75em;border:0;margin:0;}\
+        .ggs-0,.ggs-16{width:4.555555555555555%;padding-right:0.75em;border:0;margin:0;}\
         .ggs-guide div{background:'+guideInnerColor+';width:2px;height:100%;position:absolute;left:-1px;top:0;}\
         .ggs-0 div{left:auto;right:0.75em;}\
         .ggs-16 div{left:0.75em;}\
