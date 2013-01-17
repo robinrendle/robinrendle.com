@@ -11,7 +11,7 @@ content: |
     <h3 class="h5">Contents</h3>
     <ol>
       <li><a href="#style">Style guide</a></li>
-      <li><a href="#grid">The Typographic Grid</a></li>
+      <li><a href="#grid">Colophon</a></li>
       <li><a href="#">Chapter 3</a></li>
     </ol>
   </nav>
@@ -49,7 +49,7 @@ content: |
   All paragraphs of text are contained within <code>p</code> tags. This should only be for original content, otherwise <code>p</code> tags should always be contained within a <code>blockquote</code> when referring to another’s statement.
 
   ### Links
-  Links to websites or sections of the current page should be marked up with the <code>a</code> element. Links use the primary color used across the website and so this should be used for other elements such as buttons, banners or other graphic sections.
+  Links to websites or sections of the current page should be marked up with the <code>a</code> element. Links employ the primary color used across the website and so this should likewise be chosen for other elements such as buttons, banners or graphics.
 
   <figure class="example">
     <p><a href="https://www.youtube.com/watch?v=IcQKtl3MGCE">This song by Johnny Cash</a>, called <cite>A Boy Named Sue</cite>, is kinda punk rock.</p>
@@ -58,7 +58,6 @@ content: |
   ### Code
   The <code>code</code> element is used whenever a fragment of computer code is referenced. For longer sections, place code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, such as a type specimen or some sort of computer output.
 
-
   <figure class="example">
     <pre><code>section {
       color:$branding;
@@ -66,7 +65,7 @@ content: |
     }</code></pre>
   </figure>
 
-  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs). Alternatively, to denote user input on a keyboard, the <code>kbd</code> element should be used instead. 
+  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs). For computer output, such as when the screen screamed <samp>Ouch! Press 3 for less noise</samp>, do not use <code>code</code> but <code>samp</code> instead. Likewise, to denote user input on a keyboard, the <code>kbd</code> element should be used in this instance. 
 
   <figure class="example">
   To make the application window fill half of the screen space, press <kbd>⌘ Cmd</kbd> + <kbd>⌥ Alt</kbd> + <kbd>←</kbd>. 
@@ -110,9 +109,6 @@ content: |
       <footer><p>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></p></footer>
     </blockquote>
   </figure>
-
-  ### Sample output
-  The <code>samp</code> tag is used for computer output, such as when the screen screamed <samp>Ouch! Press 3 for less noise</samp> and then terminated the program.
 
   ### Defining terms
   The <code>dfn</code> tag is used for indicating a definition or a word used for the first time. The <code>title</code> attribute can be used for highlighting an <dfn title="Pungent, angry and bitter">acrimonious</dfn> description. Likewise the <code>abbr</code> tag is used to describe abbreviations such as <span><abbr title="North Atlantic Treaty Organization">Nato</abbr></span> or <span><abbr title="Hypertext Markup Language">HTML</abbr></span>.
@@ -206,7 +202,7 @@ content: |
   </form>
 
   ### Tables
-  Tabular data should be placed within a <code>table</code>. The <code>thead</code> and <code>tbody</code> elements can be used to separate the sections of the table. At the end a <code>caption</code> can be used in order to further identify the presented data.
+  Tabular data should be placed within a <code>table</code>. The <code>thead</code> and <code>tbody</code> elements can be used to separate the sections of the table. At the end a <code>caption</code> can be used in order to further identify the presented data. Unfortunately this element is not suitably responsive, as I dislike many of the current styling methods for doing so.
 
   <figure class="example">
     <table>
@@ -298,7 +294,15 @@ content: |
     <small>Copyright © 2011-2012. Orsen Welles. All Rights Reserved.</small>
   </figure>
 
-  <h2 id="grid"> The Typographic Grid</h2>
+  <h2 id="grid">Colophon</h2>
+
+  <ul>
+    <li>The fonts served here are by <a href="www.typotheque.com">Typotheque</a>. Greta Text Light is employed for the body copy, Greta Display for the titling styles whilst Fedra Sans Screen is for <code>code</code>.</li>
+    <li>The front end magic that this site is built on can be viewed on <a href="https://github.com/robinrendle/robinrendle.com.git">GitHub</a>. All sorts of bugs and issues will be sorted and filed over there.</li>
+    <li>Maps are served by the wonderful folks at <a href="www.mapbox.com">MapBox</a>. It frightens me that all of our location data might one day be owned by a single corporate entity and so yay <a href="http://en.wikipedia.org/wiki/OpenStreetMap"><abbr title="Open Street Map">OSM</abbr></a>!</li>
+    <li>Stacey app is the content management system. Unlike its clunky, slow and inefficient competitors, Stacey is a breath of fresh air in comparison; she’s the Panasonic <span>GF1</span> of CMSs. There’s never any need to fight any PHP and the organisational hierarchy makes sense, as all files are simply kept in folders.</li>
+  </ul>
+
   The Golden Gridlet by <a href="www.twitter.com/jonikorpi">Joni Korpi</a> is a neat tool for setting the proportions and widths of elements.
 
 
