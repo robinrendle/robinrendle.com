@@ -5,18 +5,20 @@ date: December 29 2011
 location: Nottingham, <span>UK</span>
 
 content: |
-  This is the go-to component page for my website. It contains all of the basic semantic elements and visual styles you might expect but also descriptions of the block elements and configuration settings. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for encouraging me to sit down and make sure that everything can be broken down and moved about so effortlessly.
+  This is the go-to component page for my website. It contains all of the basic semantic elements and visual styles you might expect as well as some descriptions of the block elements and configuration settings. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for encouraging me to sit down and make sure that everything can be broken down and moved about so effortlessly. Initially this is my first attempt at making a website with elements and styles that are independent of their location.
 
   <nav class="contents">
-    <ul>
-      <li>Style guide</li>
-      <li>The Grid</li>
-    </ul>
+    <h3 class="h5">Contents</h3>
+    <ol>
+      <li><a href="#style">Style guide</a></li>
+      <li><a href="#grid">The Typographic Grid</a></li>
+      <li><a href="#">Chapter 3</a></li>
+    </ol>
   </nav>
 
-  ## Style guide
+  <h2 id="style">Style guide</h2>
 
-  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. This will hopefully make sure that content can be moved around easily and so that the layout styles are not depenedent upon their location within the stylesheet or the markup.
+  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. Here are the basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, that will be combined in a variety of different ways. Examples of these are placed within the <code>figure</code> element.
 
   ### Headings
 
@@ -64,12 +66,16 @@ content: |
     }</code></pre>
   </figure>
 
-  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs). Alternatively, to denote user input on a keyboard the <code>kbd</code> element should be used: for more information hit <kbd>⌘ Cmd</kbd> + <kbd>;</kbd>. 
+  If there are any larger, unique code samples that are necessary then use an inline <a href="https://gist.github.com/">gist</a> for later reuse and reference (and to make it easier for others to fix bugs). Alternatively, to denote user input on a keyboard, the <code>kbd</code> element should be used instead. 
+
+  <figure class="example">
+  To make the application window fill half of the screen space, press <kbd>⌘ Cmd</kbd> + <kbd>⌥ Alt</kbd> + <kbd>←</kbd>. 
+  </figure>
 
 
   ### Horizontal rule
 
-  The hr element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. This small quote from <cite>Kokoro</cite> by the <a href="http://www.wabisabi-press.co.uk/">Wabi Sabi Press</a> is an example of when to use such a rule:
+  The <code>hr</code> element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. This small quote from <cite>Kokoro</cite> by the <a href="http://www.wabisabi-press.co.uk/">Wabi Sabi Press</a> is an example of when to use such a rule:
 
   <figure class="example">
     I wish the paper of my shōji could have been, like a photographic plate, sensitive to that first delicious impression cast by a level sun. I am already regretting distortions: the beautiful silhouette has begun to lengthen.
@@ -78,7 +84,7 @@ content: |
   </figure>
 
   ### Citing and referencing
-  To highlight the title of a film, a newspaper, a book or an essay use the <code>cite</code> element. There doesn’t seem to be much consensus about how to properly cite a text with basic <span>html</span> yet and, although I’ve looked at this semantic problem a lot, it seems that things are still in an awful <a href="http://adactio.com/journal/4675/">state of flux</a>. Here is an example however:
+  To highlight the title of a film, a newspaper, a book or an essay use the <code>cite</code> element. There doesn’t seem to be much consensus about how to properly cite a text with basic <span>html</span> yet and, although I’ve looked at this semantic problem a lot, it seems that things are still in an awful <a href="http://adactio.com/journal/4675/">state of flux</a>. Here is an example of how this site will be referencing a text for the time being:
 
   <figure class="example"><p>F.Scott Fitzgerald, <cite>The Great Gatsby</cite>, Wordsworth Classics, London, 1993.</p></figure>
 
@@ -114,11 +120,10 @@ content: |
   ### Superscript and subscript numbers
   The <code>sub</code> tag defines subscript text that should appear half a character below the baseline. Subscript text can be used for chemical formulas, such as H<sub>2</sub>O. Likewise, the <code>sup</code> tag defines superscript text and should appear half a character above the baseline. Superscript text can be used for footnotes, such as WWW <sup><a href="#">[1]</a></sup>.
 
-  ### Highlighted Text
-  The <code>mark</code> element is used to represent a run of text marked or highlighted for reference purposes. Within a body of text, <mark>highlighted sections will always appear like this.</mark> Expect these yellow scribbles all over the place.
+  <h3>Highlighted Text &amp; Emphasis</h3>
+  The <code>mark</code> element is used to represent a run of text marked or highlighted for reference purposes. Within a body of text, <mark>highlighted sections will always appear like this</mark>, so expect these yellow scribbles all over the place.
 
-  ### Emphasis
-  The <code>em</code> element is intended for emphasis, or for words you would want to <em>stress differently</em>. On the other hand, <code>i</code> should be used for transliterated foreign words, technical terms, and typographically italicized text. <i>Oui, c’est le vie</i>.
+  The <code>em</code> element is intended for emphasis, or for words that ought to be <em>stressed differently</em>. On the other hand, <code>i</code> should be used for transliterated foreign words, technical terms, and typographically italicized text. <i>Oui, c’est le vie</i>.
 
   ### Retracted text
   The <code>del</code> element is used for retracted text, whilst <code>ins</code> is used for the replacement. Furthermore, the <code>datetime</code> within each element should specify the time of deletion and creation.
@@ -127,18 +132,17 @@ content: |
     When I came back from the <del datetime="2012-12-28">East last autumn</del> <ins datetime="2012-12-28">West last spring</ins> I felt that I wanted the world to be in uniform and at a sort of moral attention forever.</p>
   </figure>
 
-  ### Strikethrough
-  For representing content that is no longer valid, use the <code>s</code> element. This is for document <s>reddits</s> edits only.
+  For representing content that is no longer valid though, use the <code>s</code> element. This is for document <s>reddits</s> edits only.
 
   ### Time
   The <code>datetime</code> element is used to denote the time of certain elements. For material that is published and dated here, use the <code>pubdate</code> attribute in order to identify the time as the publication date.
 
   <figure class="example">
-    <p>Moby-Dick; or, The Whale is a novel by Herman Melville, first published on the <datetime="1851-10-18">18th October 1851</date>.</p>
+    <p><cite>Moby-Dick; or, The Whale</cite> is a novel by Herman Melville, first published on the <datetime="1851-10-18">18th October 1851</date>.</p>
   </figure>
 
   <h3>Strong importance</h3>
-  The <code>strong</code> element is used to highlight text that has a higher semantic importance than the surrounding text. If a word should simply be stylisticly heavier, the <code>b</code> element should be used instead. Small caps can be used with the <code>span</code> element for purely stylistic, yet <span>deliciously crunchy</span> reasons.</dd>
+  The <code>strong</code> element is used to highlight text that has a higher semantic importance than the surrounding text. If a word should simply be stylisticly heavier then the <code>b</code> element should be used instead. Small caps can be used with the <code>span</code> element for purely stylistic, yet <span>deliciously crunchy</span> reasons.</dd>
 
   <figure class="example">
     <p><span>And, after boasting</span> this way of my tolerance, <b>I wanted no more riotous excursions</b> with privileged glimpses into the human heart. Only Gatsby, the man who gives his name to this book, was exempt from my reaction.
@@ -157,6 +161,9 @@ content: |
 
   <figure class="example">
     <iframe class="map" frameBorder='0' src='http://a.tiles.mapbox.com/v3/robinrendle.map-be54lp9e.html#4/53.11/2.0100000000000304'></iframe>
+    <figcaption>
+      Nottingham City has always had a traditionally tightly-drawn city boundary, accounting for its relatively small population of 305,700
+    </figcaption>
   </figure>
 
   ### Forms and Labels
@@ -186,10 +193,7 @@ content: |
         <label class="error">This field is required.</label>
       </div>
       <div>
-        <label for="search">Search</label>
-        <input id="search" class="text" type="search" placeholder="Search this website">
-        <input id="password" class="search button" type="submit">
-        <em>Note about this field</em>
+        <input id="search" class="text" type="search" placeholder="Search">
       </div>
       <div>
         <label for="textarea">Textarea</label>
@@ -216,7 +220,7 @@ content: |
       </thead>
       <tbody>
         <tr>
-          <td>Milk and some other things about the stuff</td>
+          <td>A cornicopia of vegetables</td>
           <td>1 quart</td>
           <td>2 quart</td>
           <td>13</td>
@@ -294,7 +298,8 @@ content: |
     <small>Copyright © 2011-2012. Orsen Welles. All Rights Reserved.</small>
   </figure>
 
-  ## The Typographic Grid
+  <h2 id="grid"> The Typographic Grid</h2>
+  The Golden Gridlet by <a href="www.twitter.com/jonikorpi">Joni Korpi</a> is a neat tool for setting the proportions and widths of elements.
 
 
 
