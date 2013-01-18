@@ -42,7 +42,7 @@
     $border:1px solid $secondary;
 
     $black:#000;
-    $offblack:#222;
+    $offblack:#111;
     $darkgrey:#444;
     $grey:#777;
     $lightgrey:#aaa;
@@ -57,8 +57,8 @@
     // @start FONT SIZES -------------------- //
 
     $baseh1:2.3em;
-    $baseh2:1.6em;
-    $baseh3:1.3em;
+    $baseh2:1.4em;
+    $baseh3:1.2em;
     $baseh4:1.1em;
     $baseh5:1em;
     $basefont:1em;
@@ -81,7 +81,7 @@
         font-size:$baseh2;
         font-weight:bold;
         font-family:$bold;
-        margin:1.8em auto 1em auto;
+        margin:1.8em auto .8em auto;
         line-height:1.15;
     }
     @mixin headline-three {
