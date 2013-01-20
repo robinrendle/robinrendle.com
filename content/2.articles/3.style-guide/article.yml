@@ -1,6 +1,8 @@
 title: Style Guide
 
-date: December 29 2011
+date: December 29 2012
+
+season: Winter 2012
 
 location: Nottingham, <span>UK</span>
 
@@ -10,18 +12,18 @@ content: |
   <nav class="contents">
     <h3 class="h5">Contents</h3>
     <ol>
-      <li><a href="#style">Style guide</a></li>
-      <li><a href="#grid">Colophon</a></li>
-      <li><a href="#">Chapter 3</a></li>
+      <li><a href="#headings">Headings</a></li>
+      <li><a href="#para">Paragraphs</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#code">Code</a></li>
+      <li><a href="#rule">Horizontal rule</a></li>
+      <li><a href="#citation">Citing and referencing</a></li>
     </ol>
   </nav>
 
-  <h2 id="style">Style guide</h2>
+  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. Here are the basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, that will be combined in a variety of different ways. Examples of these are placed within the <code>figure</code> element. You can also <a href="/about">read more about the design</a>.
 
-  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. Here are the basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, that will be combined in a variety of different ways. Examples of these are placed within the <code>figure</code> element.
-
-  ### Headings
-
+  <h3 id="headings">Headings</h3>
   All pages begin with a <code>h1</code> contained within a <code>header</code>. Additional information about the document, such as the time, location, comments or other such material about the document can be placed directly inside. 
 
   Often these headings will stand alone, but sometimes it might be necessary for multiple headings to be used at the same time. In this instance use the <code>hgroup</code> element. For styling purposes it’s also possible to add the <code class="class">.h1</code>, <code class="class">.h2</code>, <code class="class">.h3</code>, <code class="class">.h4</code>, <code class="class">.h5</code> classes to an element in order to give one heading the visual style of another.
@@ -45,17 +47,17 @@ content: |
     </hgroup>
   </figure>
 
-  ### Paragraphs
+  <h3 id="para">Paragraphs</h3>
   All paragraphs of text are contained within <code>p</code> tags. This should only be for original content, otherwise <code>p</code> tags should always be contained within a <code>blockquote</code> when referring to another’s statement.
 
-  ### Links
+  <h3 id="links">Links</h3>
   Links to websites or sections of the current page should be marked up with the <code>a</code> element. Links employ the primary color used across the website and so this should likewise be chosen for other elements such as buttons, banners or graphics.
 
   <figure class="example">
     <p><a href="https://www.youtube.com/watch?v=IcQKtl3MGCE">This song by Johnny Cash</a>, called <cite>A Boy Named Sue</cite>, is kinda punk rock.</p>
   </figure>
 
-  ### Code
+  <h3 id="code">Code</h3>
   The <code>code</code> element is used whenever a fragment of computer code is referenced. For longer sections, place code within the <code>pre</code> element. Use this element elsewhere when displaying text with unusual formatting, such as a type specimen or some sort of computer output.
 
   <figure class="example">
@@ -72,7 +74,7 @@ content: |
   </figure>
 
 
-  ### Horizontal rule
+  <h3 id="rule">Horizontal rule</h3>
 
   The <code>hr</code> element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. This small quote from <cite>Kokoro</cite> by the <a href="http://www.wabisabi-press.co.uk/">Wabi Sabi Press</a> is an example of when to use such a rule:
 
@@ -82,7 +84,7 @@ content: |
     Of all peculiarly beautiful things in Japan, the most beautiful are the approaches to high places of worship or of rest, – the Ways that go to Nowhere and the Steps that lead to Nothing.
   </figure>
 
-  ### Citing and referencing
+  <h3 id="citation">Citing and referencing</h3>
   To highlight the title of a film, a newspaper, a book or an essay use the <code>cite</code> element. There doesn’t seem to be much consensus about how to properly cite a text with basic <span>html</span> yet and, although I’ve looked at this semantic problem a lot, it seems that things are still in an awful <a href="http://adactio.com/journal/4675/">state of flux</a>. Here is an example of how this site will be referencing a text for the time being:
 
   <figure class="example"><p>F.Scott Fitzgerald, <cite>The Great Gatsby</cite>, Wordsworth Classics, London, 1993.</p></figure>
@@ -234,7 +236,6 @@ content: |
           <td>67</td>
         </tr>
       </tbody>
-      <caption>This is a caption about the table</caption>
     </table>
   </figure>
 
@@ -293,18 +294,5 @@ content: |
   <figure class="example">
     <small>Copyright © 2011-2012. Orsen Welles. All Rights Reserved.</small>
   </figure>
-
-  <h2 id="grid">Colophon</h2>
-
-  <ul>
-    <li>The fonts served here are by <a href="www.typotheque.com">Typotheque</a>. Greta Text Light is employed for the body copy, Greta Display for the titling styles whilst Fedra Sans Screen is for <code>code</code>.</li>
-    <li>The front end magic that this site is built on can be viewed on <a href="https://github.com/robinrendle/robinrendle.com.git">GitHub</a>. All sorts of bugs and issues will be sorted and filed over there.</li>
-    <li>Maps are served by the wonderful folks at <a href="www.mapbox.com">MapBox</a>. It frightens me that all of our location data might one day be owned by a single corporate entity and so yay <a href="http://en.wikipedia.org/wiki/OpenStreetMap"><abbr title="Open Street Map">OSM</abbr></a>!</li>
-    <li>Stacey app is the content management system. Unlike its clunky, slow and inefficient competitors, Stacey is a breath of fresh air in comparison; she’s the Panasonic <span>GF1</span> of CMSs. There’s never any need to fight any PHP and the organisational hierarchy makes sense, as all files are simply kept in folders.</li>
-  </ul>
-
-  The Golden Gridlet by <a href="www.twitter.com/jonikorpi">Joni Korpi</a> is a neat tool for setting the proportions and widths of elements.
-
-
 
 
