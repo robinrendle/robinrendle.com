@@ -1,5 +1,4 @@
-{% for child in page.root %}
-  {% if child.children %}
+{% for child in slice (page.root, 0,2) %}
     <ul>
     {% for child in child.children %}
       <li>
@@ -10,5 +9,4 @@
       </li>
     {% endfor %}
     </ul>
-  {% endif %}
 {% endfor %}
