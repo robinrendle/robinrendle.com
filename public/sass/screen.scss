@@ -282,6 +282,7 @@ input .button {
 }
 
 fieldset {
+    background:url("/public/images/pattern.jpg");
     background-color:#FBFAFA;
     border:1px solid #ddd;
     padding:1em;
@@ -516,7 +517,7 @@ img {
 
 figure {
     margin: 0 auto;
-    @include space;
+    margin-bottom:2em;
 
     img + img {
         margin-top:1em;
