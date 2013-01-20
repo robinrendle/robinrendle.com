@@ -1,6 +1,14 @@
 title: About
 content: |
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore 
-  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
-  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  <h2 id="grid">Colophon</h2>
+
+  <ul>
+    <li>The fonts served here are by <a href="www.typotheque.com">Typotheque</a>. Greta Text Light is employed for the body copy, Greta Display for the titling styles whilst Fedra Sans Screen is for <code>code</code>.</li>
+    <li>The front end magic that this site is built on can be viewed on <a href="https://github.com/robinrendle/robinrendle.com.git">GitHub</a>. All sorts of bugs and issues will be sorted and filed over there.</li>
+    <li>Maps are served by the wonderful folks at <a href="www.mapbox.com">MapBox</a>. It frightens me that all of our location data might one day be owned by a single corporate entity and so yay <a href="http://en.wikipedia.org/wiki/OpenStreetMap"><abbr title="Open Street Map">OSM</abbr></a>!</li>
+    <li>Stacey app is the content management system. Unlike its clunky, slow and inefficient competitors, Stacey is a breath of fresh air in comparison; she’s the Panasonic <span>GF1</span> of CMSs. There’s never any need to fight any PHP and the organisational hierarchy makes sense, as all files are simply kept in folders.</li>
+  </ul>
+
+  The Golden Gridlet by <a href="www.twitter.com/jonikorpi">Joni Korpi</a> is a neat tool for setting the proportions and widths of elements.
+
