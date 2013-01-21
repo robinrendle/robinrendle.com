@@ -357,8 +357,10 @@ fieldset {
         &[type="search"] {
             box-sizing:border-box;
             width:100%;
-            background:url("/public/images/icons/search.png") no-repeat 97% 2px;
+            background:url("/public/images/icons/search.png") no-repeat 3% 4px;
             background-color:$offwhite;
+            padding-left:2.6em;
+            padding-top:.4em;
 
             .svg & {
                 background-image:url("/public/images/icons/search.svg");
