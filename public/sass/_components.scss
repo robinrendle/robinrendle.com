@@ -103,54 +103,83 @@
 
 
 // @start CONTENTS -------------------- //
-nav {
-    &.contents {
-        display:block;
-        background-color:$offgrey;
-        border:1px solid #ddd;
-        margin-bottom:$margin*2;
-        padding-bottom:1em;
-        background:url("/public/images/pattern.jpg");
+nav.contents {
+    display:block;
+    background-color:$offgrey;
+    border:1px solid #ddd;
+    margin-bottom:$margin*2;
+    padding-bottom:1em;
+    background:url("/public/images/pattern.jpg");
 
-        h3 {
-            border-bottom:1px solid #ebebeb;
-            -moz-box-shadow:0 1px #fff;
-            -webkit-box-shadow:0 1px #fff;
-            box-shadow:0 1px #fff;
-            color:#555;
-            margin-top:.5em;
-        }
+    h3 {
+        border-bottom:1px solid #ebebeb;
+        -moz-box-shadow:0 1px #fff;
+        -webkit-box-shadow:0 1px #fff;
+        box-shadow:0 1px #fff;
+        color:#555;
+        margin-top:.5em;
+    }
 
-        ol {
-            margin-bottom:.5em;
-            li {
-                font-size:1em;
-                list-style:none;
-                width:100%;
-                text-align: center;
-                margin:0;
-                font-family:$italic;
-                font-style:italic;
-                line-height:1.4;
+    ol {
+        margin-bottom:.5em;
+        li {
+            font-size:1em;
+            list-style:none;
+            width:100%;
+            text-align: center;
+            margin:0;
+            font-family:$italic;
+            font-style:italic;
+            line-height:1.4;
 
-                &:after {
-                    display:block;
-                    content:"—";
+            &:after {
+                display:block;
+                content:"—";
+                color:#bbb;
+            }
+
+            &:last-child:after {
+                content:"";
+            }
+
+            a {
+                color:#999;
+
+                &:hover {
                     color:#bbb;
                 }
-
-                &:last-child:after {
-                    content:"";
-                }
-
-                a {
-                    color:#999;
-
-                    &:hover {
-                        color:#bbb;
-                    }
-                }
             }
+        }
+    }
+}
+
+// if js, hide the contents navigation
+.js {
+    nav.contents {
+        ol {
+            display:block;
+            -webkit-transition: opacity 1s ease-out;
+            opacity:0;
+            height:0;
+            overflow:hidden;
+        }
+    }
+
+    &.contents {
+        nav.contents {
+            ol {
+                opacity:1;
+                height:auto;
+            }
+        }
+    }
+}
+
+// if no js, show the contents navigation
+.no-js {
+    nav.contents {
+        ol {
+            display:block;
         }
     }
 }
