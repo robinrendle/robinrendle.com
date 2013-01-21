@@ -10,7 +10,7 @@ content: |
   This is the go-to component page for my website. It contains all of the basic semantic elements and visual styles you might expect as well as some descriptions of the block elements and configuration settings. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for encouraging me to sit down and make sure that everything can be broken down and moved about so effortlessly. Initially this is my first attempt at making a website with elements and styles that are independent of their location.
 
   <nav class="contents">
-    <h3 class="h5">Contents</h3>
+    <h3 class="h5 contents">Contents</h3>
     <ol>
       <li><a href="#headings">Headings</a></li>
       <li><a href="#para">Paragraphs</a></li>
