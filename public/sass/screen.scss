@@ -43,9 +43,18 @@
     body {
         background-color:$offwhite;
         color:$offblack;
-        font:400 116% $text;
-        line-height:1.6;
+
+        .no-js {
+            font:400 110% $offblack;
+            line-height:1.7;
+        }
+
+        .js {
+            font:400 116% $offblack;
+            line-height:1.6;
+        }
     }
+
 // @start LINKS -------------------- //
 a {
     color:$primary;
