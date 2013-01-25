@@ -42,16 +42,16 @@
 
     body {
         background-color:$offwhite;
+        font-size: 100%;
+        line-height:1.6;
         color:$offblack;
+        font-family: Georgia, serif;
 
-        .no-js {
-            font:400 110% $offblack;
-            line-height:1.7;
-        }
-
-        .js {
-            font:400 116% $offblack;
-            line-height:1.6;
+        .js & {
+            @include turnip;
+            font-size: 95%;
+            line-height:1.75;
+            color:$offblack;
         }
     }
 
@@ -149,11 +149,11 @@ dl {
 
 em, i, cite, figcaption {
     font-style:italic;
-    font-family:$italic;
 }
 
 figcaption {
-    line-height:1.35;
+    font-size:.9em;
+    line-height:1.5;
     margin-bottom:0;
     text-align:center;
     margin-top:1em;
@@ -185,6 +185,10 @@ code {
     font-family:$code;
     font-size:.8em;
 
+    .js & {
+        font-size:.95em;
+    }
+
     &.class {
         color:#47CA26;
     }
@@ -198,7 +202,6 @@ samp {
 strong,
 b {
     font-weight:bold;
-    font-family:$bold;
 }
 
 dfn {
@@ -212,7 +215,6 @@ mark {
 
 dl {
     dt {
-        font-family:$bold;
         font-weight:bold;
     }
 
@@ -230,6 +232,7 @@ sub {
 sup {
     vertical-align:super;
     line-height:0;
+    font-size:.9em;
 }
 
 kbd {
@@ -246,14 +249,10 @@ kbd {
 q:before {content: '“'; content: open-quote;}
 q:after {content: '”'; content: close-quote;}
 
-span {
-    font-family:$smallcaps;
-}
-
 hr {
     border:none;
     color:$lightgrey;
-    font-size:1.5em;
+    font-size:1.2em;
     margin-bottom:.25em;
     text-align:center;
     display:block;
@@ -348,7 +347,7 @@ fieldset {
         font-size:.9em;
         border:1px solid #ddd;
         color:$darkgrey;
-        font-family:$text;
+        @include turnip;
         width:100%;
         box-sizing:border-box;
         ::-webkit-input-placeholder {
@@ -366,9 +365,9 @@ fieldset {
         &[type="search"] {
             box-sizing:border-box;
             width:100%;
-            background:url("/public/images/icons/search.png") no-repeat 3% 4px;
+            background:url("/public/images/icons/search.png") no-repeat 3% 2px;
             background-color:$offwhite;
-            padding-left:2.6em;
+            padding-left:3em;
             padding-top:.4em;
 
             .svg & {
@@ -409,7 +408,7 @@ fieldset {
 }
 textarea {
     background-color:$offwhite;
-    font-family:$text;
+    @include turnip;
     max-width:100%;
     width:100%;
     border-radius:3px;
@@ -446,7 +445,6 @@ table {
         }
 
         th {
-            font-family:$smallcaps;
             border-bottom:1px solid #ccc;
             color:$offwhite;
             background-color:$darkgrey;
@@ -456,7 +454,6 @@ table {
 
     caption {
         font-style:italic;
-        font-family:$italic;
         display:block;
         margin-top:1.55em;
         width:100%;
@@ -490,10 +487,18 @@ ol {
     }
 }
 // @start GLOBAL -------------------- //
+
+
+
+
 section[role="main"] {
     header {
         margin-bottom:2em;
         text-align:center;
+
+        h1 {
+            margin-bottom:.1em;
+        }
 
         .meta {
             time, 
@@ -503,7 +508,7 @@ section[role="main"] {
             }
 
             p:after {
-                content:"◊";
+                content:"•";
                 display:block;
                 margin-left:.35em;
                 margin-right:.1em;
@@ -569,14 +574,13 @@ figure {
 blockquote {
     p {
         width:100%;
-        color:lighten($offblack,15%);
+        color:$textgrey;
         font-style:italic;
-        font-family:$italic;
     }
 
     em {
         font-style:normal;
-        font-family:$text;
+        @include turnip;
     }
 
     >p:only-of-type {
@@ -593,7 +597,7 @@ blockquote {
 
         p {
             font-style:normal;
-            font-family:$text;
+            @include turnip;
             margin-bottom:0;
             color:$offblack;
         }
