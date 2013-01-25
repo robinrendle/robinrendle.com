@@ -9,6 +9,10 @@
             <time datetime="{{ page.date | date("Y, m, d") }}" pubdate>{{ page.season }}</time>
         </div>
     </header>
-          {{ page.content }}
+    <!-- Main content block -->
+    {{ page.intro }}
+    {{ page.content }}
+    <!-- Extra information about the post-->
+    {{ page.meta }}
   </section>
 {% include 'partials/footer.html' %}
