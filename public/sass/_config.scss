@@ -22,16 +22,21 @@
 
 // @start DEFAULT VARIABLES -------------------- //
 
-    // @start FONT STACKS -------------------- //
+    // @start FONT STACKS -------------------- /
+    $code:'Lucida Console', Monaco, sans-serif;
 
-    $text:"Greta Text Light",Georgia,serif;
-    $italic:"Greta Text Light Italic",Georgia, serif;
-    $bold:"Greta Text Medium",Georgia,serif;
+    @mixin trilby {
+      font-family: Trilby, Georgia, serif;
+      font-style: normal;
+      font-weight: normal;
+    }
 
-    $smallcaps:"Greta Text Light 2", Georgia,serif;
-    $code:"Fedra Mono Screen Regular",'Lucida Console', Monaco, sans-serif;
+    @mixin turnip {
+      font-family: Turnip RE,Georgia, serif;;
+      font-style: normal;
+      font-weight: normal;
+    }
 
-    $title :"Greta Display Medium", Georgia, serif;
 
     // @start COLOURS -------------------- //
 
@@ -44,6 +49,7 @@
     $black:#000;
     $offblack:#222;
     $darkgrey:#444;
+    $textgrey:rgb(102, 102, 102);
     $grey:#777;
     $lightgrey:#aaa;
     $offgrey:#fbfafa;
@@ -70,42 +76,45 @@
         margin-bottom:$margin;
     }
     @mixin headline-one {
-        font-family:$title;
-        font-style:normal;
-        font-weight:normal;
+        @include trilby;
         font-size:$baseh1;
+        font-weight:500;
         line-height:1.1;
     }
     @mixin headline-two {
+        @include turnip;
         font-size:$baseh2;
         font-weight:bold;
-        font-family:$bold;
         margin:1.8em auto .8em auto;
         line-height:1.15;
+
+        .js & {
+            line-height:1.3;
+        }
+
     }
     @mixin headline-three {
         font-size:$baseh3;
-        font-family:$text;
+        @include turnip;
         font-weight:normal;
         color:$black;
         line-height:1.3;
         margin:1.5em auto .8em auto;
-        // line-height:;
-        // margin-bottom:calc-em(20, $baseh3);
     }
+
     @mixin headline-four {
+        @include turnip;
         font-size:$baseh4;
         font-style:italic;
         line-height:1.4;
         margin:1.55em auto 1.4em auto;
         color:$darkgrey;
-        font-family:$italic;
         // margin-bottom:calc-em(20, $baseh4);
     }
     @mixin headline-five {
+        @include turnip;
         font-size:$baseh5;
         font-style:normal;
-        font-family:$smallcaps;
         line-height:1.4;
         margin:1.55em auto 1.4em auto;
         color:$darkgrey;
