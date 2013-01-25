@@ -165,7 +165,7 @@ content: |
   </figure>
 
   ### Forms and Labels
-  For information that needs to be colleced from the user, such as comments, names or addresses, use the <code>fieldset</code> element. Each form requires a separate <code>label</code> that is styled similarly to the <code>h3</code> heading.
+  For information that needs to be collected from the user, such as comments, names or addresses, use the <code>fieldset</code> element. Each form requires a separate <code>label</code> that is styled similarly to the <code>h3</code> heading.
 
   <form>
     <fieldset>
