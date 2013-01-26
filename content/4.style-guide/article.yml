@@ -21,7 +21,7 @@ content: |
     </ol>
   </nav>
 
-  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. Here are the basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, that will be combined in a variety of different ways. Examples of these are placed within the <code>figure</code> element. You can also <a href="/about">read more about the design</a>.
+  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. Here are the basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, that will be combined in a variety of different ways. Examples of these are placed within the <code>figure</code> element.
 
   <h3 id="headings">Headings</h3>
   All pages begin with a <code>h1</code> contained within a <code>header</code>. Additional information about the document, such as the time, location, comments or other such material about the document can be placed directly inside. 
