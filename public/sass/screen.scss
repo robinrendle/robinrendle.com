@@ -236,13 +236,13 @@ sup {
 }
 
 kbd {
-    font-size:.7em;
+    font-size:.8em;
     line-height:80%;
     background-color:#FCFCFC;
     @include background(linear-gradient(top, #FCFCFC, #EEEEEE));
     border:1px solid #E6E6E6;
     border-radius:3px;
-    padding:.4em 0.4em .1em 0.4em;
+    padding:.3em 0.4em .2em 0.4em;
     font-family:$code;
 }
 
