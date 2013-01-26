@@ -61,7 +61,7 @@
 
     // @start FONT SIZES -------------------- //
 
-    $baseh1:2.3em;
+    $baseh1:2.5em;
     $baseh2:1.45em;
     $baseh3:1.25em;
     $baseh4:1.1em;
@@ -98,7 +98,7 @@
         @include turnip;
         font-weight:normal;
         color:$black;
-        line-height:1.3;
+        line-height:1.4;
         margin:1.5em auto .8em auto;
     }
 
