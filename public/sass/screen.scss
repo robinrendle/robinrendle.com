@@ -51,8 +51,8 @@
 
         .js & {
             @include turnip;
-            font-size: 95%;
-            line-height:1.8;
+            font-size: 90%;
+            line-height:1.9;
             color:$offblack;
         }
     }
@@ -142,8 +142,8 @@ dl {
     @include space;
 
     & + h3 {
-        margin-top:2em;
-        margin-bottom:1em;
+        margin-top:2.4em;
+        margin-bottom:1.2em;
     }
 }
 
@@ -163,6 +163,7 @@ figcaption {
 
     h5 {
         margin:0 auto;
+        line-height:1.8;
     }
 
     p {
