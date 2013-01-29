@@ -1,4 +1,4 @@
-@import "compass/css3/transition", "config";
+@import "config";
 
 /*
     COMPONENTS LIBRARY
@@ -106,12 +106,14 @@ nav.contents {
     border:1px solid #ddd;
     margin-bottom:1.8em;
     background:url("/public/images/pattern.jpg");
-    opacity:.6;
+    opacity:.7;
+    @include transition(all 0.3s ease-in, all 0.35s ease-out);
 
     &:hover,
     &:focus {
         opacity:1;
         border:1px solid #ddd;
+        @include transition(all 0.3s ease-in, all 0.35s ease-out);
     }
 
     html.contents & {
@@ -119,7 +121,6 @@ nav.contents {
     }
 
     h3 {
-        color:#555;
         margin-top:.5em;
         margin-bottom:0;
 
@@ -128,13 +129,13 @@ nav.contents {
             cursor:pointer;
         }
 
-
         html.contents &{
             border-bottom:1px solid #ebebeb;
             -moz-box-shadow:0 1px #fff;
             -webkit-box-shadow:0 1px #fff;
             box-shadow:0 1px #fff;  
             margin-bottom:1.1em;
+            padding-bottom:.3em;
         }
     }
 
@@ -147,7 +148,7 @@ nav.contents {
             text-align: center;
             margin:0;
             font-style:italic;
-            line-height:1.4;
+            line-height:1.5;
 
             &:after {
                 display:block;
@@ -175,8 +176,7 @@ nav.contents {
     nav.contents {
         ol {
             display:block;
-            -webkit-transition: opacity 1s ease-out;
-            opacity:0;
+            @include transition(all 1s ease-in, all 1s ease-out);
             height:0;
             overflow:hidden;
         }
@@ -185,8 +185,9 @@ nav.contents {
     &.contents {
         nav.contents {
             ol {
-                opacity:1;
-                height:auto;
+                @include transition(all 1s ease-in, all 1s ease-out);
+                height:initial;
+                max-height:30em;
             }
         }
     }
