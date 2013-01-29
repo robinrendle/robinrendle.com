@@ -8,10 +8,6 @@ season: Spring 2012
 
 hero: |
 
-  <figure class="hero">
-    <img src="/content/2.essays/2.call-me-interactivity/moby.jpeg">
-  </figure>
-
 intro: |
 
   What do we want from storytelling machines? When publishers use terms such as ‘interactivity’ or ‘immersion’, what do they really mean? These terms either describe a genuine glimpse of the future, or a new form of commercial and technological chutzpah. But what is it that we’re really hunting? What’s our digital Moby Dick?
@@ -29,6 +25,11 @@ content: |
   </blockquote>
 
   This book sure has plenty of ‘live weight’, but there is no other way to describe it; it’s a paper Leviathan. The typefaces were carved from whalebone whilst hidden in some dark corner of this tome most probably lies a gigantic pair of white, fishy lungs. It could be said that I was swallowed by its sheer physicalness, gobbled up by this imaginary landscape. And yet in these delicious moments of storytelling and design you suddenly become a part of the story – one of the crew. Cutting the flesh, draining the skull, eating the steak, sleeping on the boat in the middle of the storm. You are Ishmael. You are the Pequod. You are the whale. You are Moby Dick.
+  
+  <figure class="hero">
+    <img src="/content/2.essays/2.call-me-interactivity/moby.jpeg">
+  </figure>
+
 
   To put it simply this book haunts me. It’s not necessarily the literary brilliance of it, or that the object itself is the consummate model for what a book should be (although it is). It’s because I can’t shake this feeling, this question. That ethereal bond between content and form asks something from me. I’m reminded of this question whenever I leave the paper world and enter the one made of pixels and then I realise that I’ve never had a similar experience with a machine or with a piece of software, and so I begin to ask: how can this experience, this feeling, be translated into a digital space?
 
