@@ -65,8 +65,8 @@
     // @start FONT SIZES -------------------- //
 
     $baseh1:2.5em;
-    $baseh2:1.5em;
-    $baseh3:1.25em;
+    $baseh2:1.7em;
+    $baseh3:1.2em;
     $baseh4:1.1em;
     $baseh5:1em;
     
@@ -87,10 +87,10 @@
         line-height:1.25;
     }
     @mixin headline-two {
-        @include turnip;
+        @include trilby;
         font-size:$baseh2;
         font-weight:normal;
-        font-style:italic;
+        font-style:normal;
         margin:1.8em auto .8em auto;
         line-height:1.25;
         color:$black;
