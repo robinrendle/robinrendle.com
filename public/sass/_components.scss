@@ -121,7 +121,8 @@ nav.contents {
     }
 
     h3 {
-        margin-top:.5em;
+        padding:.5em 0 .5em 0;
+        margin-top:0;
         margin-bottom:0;
 
         &:hover,
@@ -140,7 +141,7 @@ nav.contents {
     }
 
     ol {
-        margin-bottom:.5em;
+        margin-bottom:0;
         li {
             font-size:.95em;
             list-style:none;
@@ -179,6 +180,7 @@ nav.contents {
             @include transition(all 1s ease-in, all 1s ease-out);
             height:0;
             overflow:hidden;
+            margin-bottom:0;
         }
     }
 
@@ -188,6 +190,7 @@ nav.contents {
                 @include transition(all 1s ease-in, all 1s ease-out);
                 height:initial;
                 max-height:30em;
+                margin-bottom:.5em;
             }
         }
     }
