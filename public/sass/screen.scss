@@ -178,7 +178,7 @@ s {
 
 small {
     font-size:.85em;
-    line-height: 1.35;
+    line-height: 1.5;
     display:inline-block;
     margin-bottom:0;
 }
@@ -594,10 +594,16 @@ figure {
     }
 }
 blockquote {
+    margin-bottom:0;
+
     p {
         width:100%;
         color:$textgrey;
         font-style:italic;
+        padding-left: 1.2em;
+        border-left:4px solid #eee;
+        margin-bottom:0;
+        padding-bottom:$margin;
     }
 
     em {
@@ -605,24 +611,32 @@ blockquote {
         @include turnip;
     }
 
-    >p:only-of-type {
+    >p:last-of-type {
+        margin-bottom:0;
+        padding-bottom:0;
+    }
+
+    footer.cite {
         margin-bottom:.775em;
-        padding-left: 15px;
-        border-left:4px solid #eee;
-        }
+    }
+}
 
-    footer {
-        >:before {
-            content:"—";
-            padding-right:.2em;
-        }
 
-        p {
-            font-style:normal;
-            @include turnip;
-            margin-bottom:0;
-            color:$offblack;
-        }
+footer.cite {
+    >:before {
+        content:"—";
+        padding-right:.2em;
+    }
+
+    p {
+        font-style:normal;
+        @include turnip;
+        margin-bottom:0;
+        color:$offblack;
+    }
+
+    blockquote+& {
+        margin-top:.775em;
     }
 }
 
