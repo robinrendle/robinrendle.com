@@ -21,7 +21,7 @@ content: |
     </ol>
   </nav>
 
-  This section of the document is meant to serve as a guide to the mark-up styles used throughout the site. Here are the basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, that will be combined in a variety of different ways. Examples of these are placed within the <code>figure</code> element.
+  The basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, can be found below. Examples of each are placed within the <code>figure</code> element.
 
   <h3 id="headings">Headings</h3>
   All pages begin with a <code>h1</code> contained within a <code>header</code>. Additional information about the document, such as the time, location, comments or other such material about the document can be placed directly inside. 
@@ -42,7 +42,7 @@ content: |
 
   <figure class="example">
     <hgroup>
-      <h2 class="h3">This is a level 2 heading</h2>
+      <h2 class="h4">This is a level 2 heading</h2>
       <h3 class="h2">This is a level 3 heading</h3>
     </hgroup>
   </figure>
@@ -95,7 +95,7 @@ content: |
     <p><q>Whenever you feel like criticizing anyone,</q> he told me, <q>just remember that all the people in this world haven’t had the advantages that you’ve had.</q> He didn’t say any more, but we’ve always been unusually communicative in a reserved way.</p>
   </figure>
 
-  For regular passages of text that need citation, use the <code>blockquote</code> element in conjunction with the <code>footer</code> element for referencing the original author. Make sure that <code>cite</code> is used to reference the title and a link to the original is available. If this is not possible then make sure that the page number, author, edition and publisher is cited correctly. The margins between the text and the citation is half that of the regular margins (to preserve loveliness):
+  For regular passages of text that need citation, the <code>figure</code> element should be used to contain both the <code>blockquote</code> element (the quotation or excerpt) and the <code>footer</code> element (for referencing the original author/location). Make sure that <code>cite</code> is used to reference the title and a link to the original is available. If this is not possible then make sure that the page number, author, edition and publisher is cited correctly. The margins between the text and the citation is half that of the regular margins (to preserve loveliness):
 
   <figure class="example">
     <blockquote>
@@ -108,8 +108,17 @@ content: |
         Save what is in destroying, other joy<br>
         To me is lost.
       </p>
-      <footer><p>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></p></footer>
+      <p>
+        Thoughts, whither have ye led me, with what sweet<br>
+        Compulsion thus transported to forget<br>
+        What hither brought us, hate, not love, nor hope<br>
+        Of Paradise for Hell, hope here to taste<br>
+        Of pleasure, but all pleasure to destroy,<br>
+        Save what is in destroying, other joy<br>
+        To me is lost.
+      </p>
     </blockquote>
+    <footer class="cite"><p>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></p></footer>
   </figure>
 
   ### Defining terms
