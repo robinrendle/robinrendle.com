@@ -26,10 +26,7 @@
         - GLOBAL ELEMENTS & COMPONENTS
 
     -------------------
-
 */
-
-
 
 // @start BODY -------------------- //
 
@@ -122,7 +119,6 @@ h4,
 h3,
 h2,
 h1,
-nav.contents,
 hgroup {
     width:90%;
     margin-left:auto;
@@ -187,6 +183,7 @@ code {
     color:$purple;
     font-family:$code;
     font-size:.8em;
+    line-height:1.6;
 
     .js & {
         font-size:.95em;
@@ -467,7 +464,7 @@ ul {
     li {
         list-style:none;
         padding-left:1em;
-        background:url("/public/images/icons/list.png") no-repeat 0 8px;
+        background:url("/public/images/icons/list.png") no-repeat 0 11px;
 
         .svg & {
             background-image:url("/public/images/icons/list.svg");
@@ -483,7 +480,7 @@ ol {
     li {
         list-style:decimal;
         list-style-position:outside;
-        margin-left:1.5em;
+        margin-left:1em;
     }
     ol {
         margin-bottom:0;
@@ -492,27 +489,30 @@ ol {
 
 // @start BRANDING -------------------- //
 .banner {
-    margin:2em auto 1.5em auto;
-    height:10em;
+    margin:0 auto 4em auto;
 }
 
 .branding {
-    height:5em;
-    width:4.1em;
-    text-indent:100%;
-    white-space:nowrap;
-    overflow:hidden;
-    background:url("/public/images/logo/campfire.png") no-repeat 0 0;
+    width:100%;
+    @include text;
+    background-color:$tertiary;
+    padding:.5em 0 .4em 0;
+    border-bottom:1px solid #ddd;
+    font-size:95%;
 
-    .svg & {
-        background-image:url("/public/images/logo/campfire.svg");
+    a {
+        color:$lightgrey;
+
+        &:hover,
+        &:focus {
+            color:$primary;
+            text-decoration:none;
+        }
     }
 }
 
 
 // @start GLOBAL -------------------- //
-
-
 section[role="main"] {
     header {
         margin-bottom:2em;
@@ -555,7 +555,7 @@ img {
 
 figure {
     margin: 0 auto;
-    margin-bottom:2em;
+    margin-bottom:$margin;
 
     img + img {
         margin-top:1em;
@@ -577,7 +577,7 @@ figure {
 
         figure,
         p, 
-        blockquote, 
+        blockquote,
         h3, 
         ol, 
         ul, 
@@ -593,6 +593,7 @@ figure {
         }
     }
 }
+
 blockquote {
     margin-bottom:0;
 
@@ -600,10 +601,9 @@ blockquote {
         width:100%;
         color:$textgrey;
         font-style:italic;
-        padding-left: 1.2em;
+        padding-left: 1em;
         border-left:4px solid #eee;
         margin-bottom:0;
-        padding-bottom:$margin;
     }
 
     em {
@@ -615,24 +615,25 @@ blockquote {
         margin-bottom:0;
         padding-bottom:0;
     }
-
-    footer.cite {
-        margin-bottom:.775em;
-    }
 }
 
 
-footer.cite {
+figcaption.cite {
+    font-size:1em;
+
     >:before {
         content:"—";
         padding-right:.2em;
     }
-
     p {
+        font-size:1em;    
         font-style:normal;
         @include turnip;
         margin-bottom:0;
         color:$offblack;
+        text-align:left;
+        font-style:normal;
+        width:100%;
     }
 
     blockquote+& {
@@ -664,18 +665,35 @@ hgroup {
 }
 
 footer[role="contentinfo"] {
+    margin-top:2em;
+
+    section {
+        margin-bottom:1em;
+        background-color:$tertiary;
+        border:1px solid #ddd;
+        width:90%;
+        margin:0 auto 2em auto;
+        font-size:.9em;
+    }
+
     nav {
-        background-color:$lightcream;
-        border-top:1px solid darken($lightcream, 10);
-        padding:2em 0;
-        width:100%;
-        margin:0;
+        background-size:100%;
+        padding:3em 0 2em 0;
+        width:90%;
+        margin:0 auto;
         text-align:center;
         font-size:90%;
+        background:url("/public/images/logo/footer-border.png") no-repeat center 0;
+        background-size:100%;
+
+        .svg & {
+            background-image:url("/public/images/logo/footer-border.svg");
+        }
 
         ul {
-            margin:0;
+            margin:1em 0 0 0;
             width:100%;
+            padding-top:10%;
 
             li {
                 display:inline-block;
