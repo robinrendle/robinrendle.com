@@ -10,7 +10,11 @@ content: |
 
   Another book on this list of forgotten things is <em><a href="http://www.amazon.co.uk/Greatest-Show-Earth-Evidence-Evolution/dp/055277524X/ref=sr_1_1?ie=UTF8&amp;qid=1315871508&amp;sr=8-1">The Greatest Show on Earth</a></em> by Richard Dawkins. It explores, in exquisite detail, the wonder of evolution and natural selection, and investigates the ways in which every living thing that walked the earth fought, adapted and died so their genes could live on. Where <em>Hitch-22</em> is the description of a single man’s life, <em>The Greatest Show on Earth </em>is the description of life itself:
 
-  > Hummingbird eyes, hawk-moth eyes, butterfly eyes, hover-fly eyes, bee eyes are critically cast over wild flowers, generation after generation, shaping them, colouring them, swelling them, patterning and striping them, in almost exactly the same way as human eyes later did with our garden varieties...
+  <figure>
+    <blockquote>
+     <p>Hummingbird eyes, hawk-moth eyes, butterfly eyes, hover-fly eyes, bee eyes are critically cast over wild flowers, generation after generation, shaping them, colouring them, swelling them, patterning and striping them, in almost exactly the same way as human eyes later did with our garden varieties...</p>
+    </blockquote>
+  </figure>
 
   And yet *The Greatest Show on Earth* is just as ignorantly designed as *Hitch-22*. The object is uncomfortable, ugly and ultimately disrespectful of the eloquent ideas contained within. The photographic pages, spread liberally throughout, fail horribly in their role and ultimately cause confusion or misery to anyone that attempts to decipher them.
 
@@ -20,9 +24,12 @@ content: |
 
   Some believe that there are two things in an object that must come together in order for it to be a good product of design. We have all heard that these things must be in balance and must be carefully considered by the designer before anything is made. These two ethereal things are commonly referred to as function and form. However I believe that these ideas are inadequate to describe this situation. Instead I think that the problem with these things is much more interesting than a simple miscalculation between function (must be suitable for mass production) and form (dull if not painful typesetting &amp; uninspired cover design). The real problem with these books and their design has nothing to do with the limits of mass production or function outweighing form. Instead it is the complete disregard for the content’s emotional information. So you might ask me to be more specific; what exactly is emotional information? Here we can turn to Robert Bringhurst in the [Elements of Typographic Style](http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1315871728&amp;sr=1-1) where he writes:
 
-  <blockquote>
-    <p>A book is a flexible mirror of the mind. It's overall size and proportions, the color and texture of the paper, the sound it makes as the pages turn, and the smell of the paper, adhesive and ink, all blend with the size and form and placement of the type to reveal a little about the world in which it was made. If the book appears to be only a paper machine, produced at their own convenience by other machines, only machines will want to read it.</p>
-  </blockquote>
+  <figure>
+    <blockquote>
+      <p>A book is a flexible mirror of the mind. It's overall size and proportions, the color and texture of the paper, the sound it makes as the pages turn, and the smell of the paper, adhesive and ink, all blend with the size and form and placement of the type to reveal a little about the world in which it was made. If the book appears to be only a paper machine, produced at their own convenience by other machines, only machines will want to read it.</p>
+    </blockquote>
+    <figcaption class="cite"></figcaption>
+  </figure>
 
   An example that sets itself apart and uses emotional information to it’s advantage would be the recently published books by the [Wabi-Sabi Press](http://www.wabisabi-press.co.uk/). They are cheap, small paperbacks and contain various essays by Patrick Lafcadio Hearn, an early 20th century author that wrote extensively about Japanese culture.
 
