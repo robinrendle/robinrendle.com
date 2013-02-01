@@ -1,4 +1,4 @@
-@import 'compass';
+@import 'compass/css3';
 
 // SCSS CONFIGURATION LIBRARY
 
@@ -44,6 +44,7 @@
 
     $primary:#C35E5E;
     $secondary:#CCC;
+    $tertiary:#FAFAFA;
 
     $highlight:#FEFED0;
     $border:1px solid $secondary;
@@ -51,12 +52,13 @@
     $black:#000;
     $offblack:#222;
     $darkgrey:#444;
-    $textgrey:rgb(102, 102, 102);
+    $textgrey:#555;
     $grey:#777;
     $lightgrey:#aaa;
     $offgrey:#fbfafa;
     $offwhite:#FEFEFE;
     $white:#FFF;
+
 
     $lightcream:#efefef;
     $purple:rgb(140,87,235);
@@ -98,8 +100,8 @@
         .js & {
             line-height:1.45;
         }
-
     }
+
     @mixin headline-three {
         font-size:$baseh3;
         @include turnip;
@@ -118,6 +120,7 @@
         color:$darkgrey;
         // margin-bottom:calc-em(20, $baseh4);
     }
+
     @mixin headline-five {
         @include turnip;
         font-size:$baseh5;
@@ -126,6 +129,13 @@
         margin:1.55em auto 1.4em auto;
         color:$darkgrey;
         // margin-bottom:calc-em(20, $baseh4);
+    }
+    
+    @mixin text {
+        @include turnip;
+        font-size:$base-font-size;
+        line-height:$base-line-height;
+
     }
 
 // @start MIXINS -------------------- //
