@@ -7,7 +7,9 @@ season: Winter 2012
 location: Nottingham, <span>UK</span>
 
 content: |
-  This is the go-to component page for my website. It contains all of the basic semantic elements and visual styles you might expect as well as some descriptions of the block elements and configuration settings. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for encouraging me to sit down and make sure that everything can be broken down and moved about so effortlessly. Initially this is my first attempt at making a website with elements and styles that are independent of their location.
+  This document contains all of the basic semantic elements and visual styles you might well find in a larger website, but this is a good place as any to start practicing the styling and development of a larger visual system. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for their wisdom in this uncharted area of content strategy / systems design. 
+
+  The basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, can be found below. Examples of each are placed within the <code>figure</code> element.
 
   <nav class="contents">
     <h3 class="h5 contents">Contents</h3>
@@ -21,12 +23,8 @@ content: |
     </ol>
   </nav>
 
-  The basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, can be found below. Examples of each are placed within the <code>figure</code> element.
-
   <h3 id="headings">Headings</h3>
   All pages begin with a <code>h1</code> contained within a <code>header</code>. Additional information about the document, such as the time, location, comments or other such material about the document can be placed directly inside. 
-
-  Often these headings will stand alone, but sometimes it might be necessary for multiple headings to be used at the same time. In this instance use the <code>hgroup</code> element. For styling purposes it’s also possible to add the <code class="class">.h1</code>, <code class="class">.h2</code>, <code class="class">.h3</code>, <code class="class">.h4</code>, <code class="class">.h5</code> classes to an element in order to give one heading the visual style of another.
 
   ## Level 2 heading
   The header above is an <code>h2</code> element, which may be used for any form of page-level header which falls below the <code>h1</code> header in a document hierarchy.
@@ -39,6 +37,8 @@ content: |
 
   ##### Level 5 heading
   The header above is an <code>h5</code> element, which may be used for any form of page-level header which falls below the <code>h4</code> header in a document hierarchy.
+
+  Often these headings will stand alone, but sometimes it might be necessary for multiple headings to be used at the same time. In this instance use the <code>hgroup</code> element. For styling purposes it’s also possible to add the <code class="class">.h1</code>, <code class="class">.h2</code>, <code class="class">.h3</code>, <code class="class">.h4</code>, <code class="class">.h5</code> classes to an element in order to give one heading the visual style of another.
 
   <figure class="example">
     <hgroup>
@@ -108,17 +108,10 @@ content: |
         Save what is in destroying, other joy<br>
         To me is lost.
       </p>
-      <p>
-        Thoughts, whither have ye led me, with what sweet<br>
-        Compulsion thus transported to forget<br>
-        What hither brought us, hate, not love, nor hope<br>
-        Of Paradise for Hell, hope here to taste<br>
-        Of pleasure, but all pleasure to destroy,<br>
-        Save what is in destroying, other joy<br>
-        To me is lost.
-      </p>
     </blockquote>
-    <footer class="cite"><p>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></p></footer>
+    <figcaption class="cite">
+      <p>John Milton, <cite><a href="http://www.dartmouth.edu/~milton/reading_room/pl/book_9/text.shtml">Paradise Lost</a></cite></p>
+    </figcaption>
   </figure>
 
   ### Defining terms
@@ -298,7 +291,7 @@ content: |
   </figure>
 
   ### Copyright and disclaimers
-  The <code>small</code> element is used to denote legal restrictions, notices, side comments, disclaimers, caveats, and small print. For example this sort of information might be placed at the very end of the webpage:
+  The <code>small</code> element is used to denote legal restrictions, notices, side comments, disclaimers, caveats, and small print. For example:
 
   <figure class="example">
     <small>Copyright © 2011-2012. Orsen Welles. All Rights Reserved.</small>
