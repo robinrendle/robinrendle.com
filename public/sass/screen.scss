@@ -117,10 +117,12 @@ table,
 dl,
 h4,
 h3,
+footer section,
 h2,
 h1,
 hgroup {
     width:90%;
+    max-width:40em;
     margin-left:auto;
     margin-right:auto;
 } // default widths and margins
@@ -371,7 +373,7 @@ fieldset {
         &[type="search"] {
             box-sizing:border-box;
             width:100%;
-            background:url("/public/images/icons/search.png") no-repeat 3% 2px;
+            background:url("/public/images/icons/search.png") no-repeat 7px 2px;
             background-color:$offwhite;
             padding-left:3em;
             padding-top:.4em;
@@ -499,11 +501,12 @@ ol {
 
 // @start BRANDING -------------------- //
 .banner {
-    margin:0 auto 4em auto;
+    margin:0 auto 5em auto;
 }
 
 .branding {
     width:100%;
+    max-width:none;
     @include text;
     background-color:$tertiary;
     padding:.5em 0 .4em 0;
@@ -525,7 +528,7 @@ ol {
 // @start GLOBAL -------------------- //
 section[role="main"] {
     header {
-        margin-bottom:2em;
+        margin-bottom:2.5em;
         text-align:center;
 
         h1 {
@@ -575,6 +578,13 @@ figure {
     }
 
     &.example {
+        border:1px dashed $secondary;
+        padding:.8em 2.5% .6em 2.5%;
+        margin:0 auto 1.7em auto;
+        background-color:$offgrey;
+        width:90%;
+        max-width:40em;
+
         figcaption {
             width:100%;
         }
@@ -582,11 +592,6 @@ figure {
         hgroup {
             margin:0 auto;
         }
-
-        border:1px dashed $secondary;
-        padding:.8em 2.5% .6em 2.5%;
-        margin:0 5% 1.7em 5%;
-        background-color:$offgrey;
 
         figure,
         p, 
@@ -650,7 +655,7 @@ figcaption.cite {
     }
 
     blockquote+& {
-        margin-top:.775em;
+        margin-top:$margin/2;
     }
 }
 
@@ -684,9 +689,11 @@ footer[role="contentinfo"] {
         padding-bottom:.5em;
         background-color:$tertiary;
         border:1px solid #ddd;
-        width:90%;
         margin:0 auto 2em auto;
-        font-size:.9em;
+        
+        p {
+            font-size:.9em;
+        }
     }
 
     nav {
@@ -695,17 +702,19 @@ footer[role="contentinfo"] {
         width:90%;
         margin:0 auto;
         text-align:center;
-        font-size:90%;
         background:url("/public/images/logo/footer-border.png") no-repeat center 0;
         background-size:100%;
+        max-width:40em;
 
         .svg & {
             background-image:url("/public/images/logo/footer-border.svg");
         }
 
         ul {
+            font-size:90%;
             margin:1em 0 0 0;
             width:100%;
+            max-width:none;
             padding-top:10%;
 
             li {
@@ -713,6 +722,7 @@ footer[role="contentinfo"] {
                 list-style:none;
                 background:none;
                 text-align:center;
+                padding-left:.7em;
 
                 &:after {
                     content:"|";
