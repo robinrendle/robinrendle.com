@@ -19,7 +19,7 @@ content: |
 
   An unusual thing happened whilst I read it though. The story became, over time, somehow indivisible with the shape and format of its container. The way that pages creak as they’re turned, their thickness, the initials that sink into wide columns of text, they all blend deeply into the narrative. These individual pieces combine to give the book both graceful and savage characterises, oozing with the memories of those horrifying and blood curling moments of man, ocean and beast. The fear of what lurks beneath those depths, but the simultaneous wonder of it too, is captured by the format, by the design. That complex emotional bombardment is further intensified by the hand carved illustrations and the weight of the object; the book feels as if it’s pushing back as you read it, and so I can’t help but think of Leon Weiseltier’s description of his own personal library here:
 
-  <figure>
+  <figure class="quote">
     <blockquote>
       <p>My books are not dead weight, they are live weight — matter infused by spirit, every one of them, even the silliest. They do not block the horizon; they draw it. They free me from the prison of contemporaneity: one should not live only in one’s own time.</p>
     </blockquote>
@@ -52,7 +52,7 @@ content: |
 
   We have to acknowledge the sheer volume of devices that will soon be available. At what screen size does a piece of text become a digital book? And at what resolution? 320x800? 720x1024? Is an iPad an ebook, but a phone just a single column of scrollable text? What about the plethora of Android devices, the Kindles, the PlayBooks, the other tablets that will soon occupy this marketplace? How are digital books affected by the multiplicity of materials they’re made from and the buttons that skirt their edges? How does this effect the reader?
 
-  <figure>
+  <figure class="quote">
     <blockquote>
       <p>Am I the only one who asks himself whether it is appropriate to read Melville on a tablet in Georgia or Times? Is “Moby Dick” the same text in a liquid browser window set in Arial or Courier as in a carefully set printed publication? I doubt it.</p>
     </blockquote>
@@ -73,7 +73,7 @@ content: |
 
   With a public book you could read it in the morning and by the time you come back from work the entire thing has been rewritten, redesigned, republished, transformed. A thing capable of an infinite number of experiences. Mandy Brown criticised the current state of interactivity in an article entitled [Deploy](http://aworkinglibrary.com/library/archives/deploy/):
 
-  <figure>
+  <figure class="quote">
     <blockquote>
       <p>Ebooks can be updated, but only dumbly: a new file will wipe out annotations made to an earlier version, and no useful convention yet exists for communicating what was changed and why. Our content management systems know of only two states—draft and published—either privately in progress or publicly neglected. Nowhere is there a third state—in the world, but still evolving.</p>
     </blockquote>
@@ -95,5 +95,5 @@ content: |
 meta: |
 
   <footer>
-    <p><em>The image of the book here is courtesy of <a href="http://www.nicksherman.com">Nick Sherman</a>. Read more about the design of the book over at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts In Use</a></em></p>
+    <p><em>The image of the book here is courtesy of <a href="http://www.nicksherman.com">Nick Sherman</a>. Read more about the design of the book over at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts In Use</a></em>.</p>
   </footer>

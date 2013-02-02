@@ -73,7 +73,6 @@ content: |
   To make the application window fill half of the screen space, press <kbd>⌘ Cmd</kbd> + <kbd>⌥ Alt</kbd> + <kbd>←</kbd>. 
   </figure>
 
-
   <h3 id="rule">Horizontal rule</h3>
 
   The <code>hr</code> element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. This small quote from <cite>Kokoro</cite> by the <a href="http://www.wabisabi-press.co.uk/">Wabi Sabi Press</a> is an example of when to use such a rule:
