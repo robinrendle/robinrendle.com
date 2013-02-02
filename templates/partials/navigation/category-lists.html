@@ -1,12 +1,9 @@
 {% for child in slice (page.root, 0,2) %}
-    <ul>
-    {% for child in child.children %}
-      <li>
-        <time datetime="{{ child.date | date("Y, m, d") }}">{{ child.date | date("F j, Y") }}</time>
-        <h2>
-          <a href="{{ child.url }}">{{ child.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-    </ul>
+  {% for child in child.children %}
+  <article>
+      <h2><a href="{{ child.url }}">{{ child.title }}</a></h2>
+      <time datetime="{{ child.date | date("Y, m, d") }}">{{ child.date | date("F j, Y") }}</time>
+      {{ child.intro }}
+  </article>
+  {% endfor %}
 {% endfor %}
