@@ -1,5 +1,14 @@
 {% include 'partials/header.html' %}
+  
   <section role="main">
-  {% include 'partials/navigation/category-lists.html' %}
+     <header>
+        <h1>Blank</h1>
+        <div class="meta">
+            <p>{{page.location}}</p>
+            <time datetime="{{ page.date | date("Y, m, d") }}" pubdate>{{ page.season }}</time>
+        </div>
+    </header>
+    {% include 'partials/navigation/category-lists.html' %}
   </section>
+
 {% include 'partials/footer.html' %}
