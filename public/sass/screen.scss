@@ -196,7 +196,8 @@ code {
 
 samp {
     font-family:$code;
-    font-size:.8em;
+    font-size:.9em;
+    color:$darkgrey;
 }
 
 strong,
@@ -204,8 +205,13 @@ b {
     font-weight:bold;
 }
 
+abbr, span {
+    font-size:.8em;
+    text-transform:uppercase;
+}
+
 dfn {
-    border-bottom:1px dashed $secondary;
+    border-bottom:1px dashed darken($secondary,10);
 }
 
 mark {
@@ -253,7 +259,7 @@ hr {
     border:none;
     color:$lightgrey;
     font-size:1.2em;
-    margin-bottom:.25em;
+    margin: 1em 0;
     text-align:center;
     display:block;
 
@@ -463,7 +469,7 @@ table {
 ul {
     li {
         list-style:none;
-        padding-left:1em;
+        padding-left:1.4em;
         background:url("/public/images/icons/list.png") no-repeat 0 11px;
 
         .svg & {
@@ -480,10 +486,14 @@ ol {
     li {
         list-style:decimal;
         list-style-position:outside;
-        margin-left:1em;
+        margin-left:1.4em;
     }
     ol {
         margin-bottom:0;
+
+        li {
+            list-style:lower-roman;
+        }
     }
 }
 
@@ -554,8 +564,11 @@ img {
 }
 
 figure {
-    margin: 0 auto;
-    margin-bottom:$margin;
+    margin: $margin*2 auto;
+
+    &.quote {
+        margin: $margin auto;
+    }
 
     img + img {
         margin-top:1em;
@@ -668,7 +681,7 @@ footer[role="contentinfo"] {
     margin-top:2em;
 
     section {
-        margin-bottom:1em;
+        padding-bottom:.5em;
         background-color:$tertiary;
         border:1px solid #ddd;
         width:90%;
