@@ -27,16 +27,22 @@
     // @start FONT STACKS -------------------- /
     $code:'Lucida Console', Monaco, sans-serif;
 
-    @mixin trilby {
-      font-family: Trilby, Georgia, serif;
-      font-style: normal;
-      font-weight: normal;
+    @mixin miller-semibold {
+        font-family:"Miller Headline Semi Bold", Georgia, serif;
+        font-style:normal;
+        font-weight:bold;
     }
 
-    @mixin turnip {
-      font-family: Turnip RE,Georgia, serif;;
-      font-style: normal;
-      font-weight: normal;
+    @mixin miller {
+        font-family:MillerDisplay, Georgia, serif;
+        font-style:normal;
+        font-weight:bold;
+    }
+
+    @mixin poynter {
+      font-family:"Poynter Serif RE",Georgia, serif;;
+      font-style:normal;
+      font-weight:normal;
     }
 
 
@@ -50,15 +56,14 @@
     $border:1px solid $secondary;
 
     $black:#000;
-    $offblack:#222;
+    $offblack:#333;
     $darkgrey:#444;
     $textgrey:#555;
-    $grey:#777;
+    $grey:#888;
     $lightgrey:#aaa;
     $offgrey:#fbfafa;
     $offwhite:#FEFEFE;
     $white:#FFF;
-
 
     $lightcream:#efefef;
     $purple:rgb(140,87,235);
@@ -66,8 +71,8 @@
 
     // @start FONT SIZES -------------------- //
 
-    $baseh1:2.3em;
-    $baseh2:1.7em;
+    $baseh1:2.2em;
+    $baseh2:1.6em;
     $baseh3:1.2em;
     $baseh4:1.1em;
     $baseh5:1em;
@@ -77,19 +82,19 @@
 
     // @start HIERARCHY -------------------- //
 
-    $margin:1.65em;
+    $margin:1.6em;
     
     @mixin space {
         margin-bottom:$margin;
     }
     @mixin headline-one {
-        @include trilby;
+        @include miller;
         font-size:$baseh1;
-        font-weight:500;
+        font-weight:normal;
         line-height:1.25;
     }
     @mixin headline-two {
-        @include trilby;
+        @include miller;
         font-size:$baseh2;
         font-weight:normal;
         font-style:normal;
@@ -98,13 +103,13 @@
         color:$black;
 
         .js & {
-            line-height:1.45;
+            line-height:1.35;
         }
     }
 
     @mixin headline-three {
         font-size:$baseh3;
-        @include turnip;
+        @include poynter;
         font-weight:normal;
         color:$black;
         line-height:1.4;
@@ -112,7 +117,7 @@
     }
 
     @mixin headline-four {
-        @include turnip;
+        @include poynter;
         font-size:$baseh4;
         font-style:italic;
         line-height:1.4;
@@ -122,7 +127,7 @@
     }
 
     @mixin headline-five {
-        @include turnip;
+        @include poynter;
         font-size:$baseh5;
         font-style:normal;
         line-height:1.4;
@@ -132,7 +137,7 @@
     }
     
     @mixin text {
-        @include turnip;
+        @include poynter;
         font-size:$base-font-size;
         line-height:$base-line-height;
 
