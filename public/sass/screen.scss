@@ -40,16 +40,16 @@
     body {
         background-color:$offwhite;
         font-size: 100%;
-        line-height:1.6;
+        line-height:1.5;
         color:$offblack;
         font-family: Georgia, serif;
         border-top:4px solid $primary;
         border-bottom:4px solid $primary;
 
         .js & {
-            @include turnip;
-            font-size: 90%;
-            line-height:1.85;
+            @include poynter;
+            font-size: 105%;
+            line-height:1.65;
             color:$offblack;
         }
     }
@@ -120,9 +120,11 @@ h3,
 footer section,
 h2,
 h1,
+.content,
+.about,
 hgroup {
     width:90%;
-    max-width:40em;
+    max-width:37em;
     margin-left:auto;
     margin-right:auto;
 } // default widths and margins
@@ -142,6 +144,16 @@ dl {
     & + h3 {
         margin-top:2.4em;
         margin-bottom:1.2em;
+    }
+}
+
+footer.about {
+    font-style:italic;
+
+    p {
+        font-size:.9em;
+        width:100%;
+        max-width:none;
     }
 }
 
@@ -355,7 +367,7 @@ fieldset {
         font-size:.9em;
         border:1px solid #ddd;
         color:$darkgrey;
-        @include turnip;
+        @include poynter;
         width:100%;
         box-sizing:border-box;
         ::-webkit-input-placeholder {
@@ -416,7 +428,7 @@ fieldset {
 }
 textarea {
     background-color:$offwhite;
-    @include turnip;
+    @include poynter;
     max-width:100%;
     width:100%;
     border-radius:3px;
@@ -508,7 +520,7 @@ ol {
 
 // @start BRANDING -------------------- //
 .banner {
-    margin:0 auto 5em auto;
+    margin:0 auto 4em auto;
 }
 
 .branding {
@@ -545,12 +557,15 @@ section[role="main"] {
         .meta {
             time, 
             p {
+                font-style:italic;
+                font-size:.95em;
                 color:$grey;
                 display:inline;
             }
 
             p:after {
-                content:"•";
+                content:"~";
+                color:#bbb;
                 display:block;
                 margin-left:.35em;
                 margin-right:.1em;
@@ -574,7 +589,7 @@ img {
 }
 
 figure {
-    margin: $margin*2 auto;
+    margin: $margin*1.5 auto;
 
     &.quote {
         margin: $margin auto;
@@ -590,7 +605,7 @@ figure {
         margin:0 auto 1.7em auto;
         background-color:$offgrey;
         width:90%;
-        max-width:40em;
+        max-width:37em;
 
         figcaption {
             width:100%;
@@ -627,13 +642,13 @@ blockquote {
         color:$textgrey;
         font-style:italic;
         padding-left: 1em;
-        border-left:4px solid #eee;
+        border-left:2px solid #eee;
         margin-bottom:0;
     }
 
     em {
         font-style:normal;
-        @include turnip;
+        @include poynter;
     }
 
     >p:last-of-type {
@@ -653,7 +668,7 @@ figcaption.cite {
     p {
         font-size:1em;    
         font-style:normal;
-        @include turnip;
+        @include poynter;
         margin-bottom:0;
         color:$offblack;
         text-align:left;
@@ -711,7 +726,7 @@ footer[role="contentinfo"] {
         text-align:center;
         background:url("/public/images/logo/footer-border.png") no-repeat center 0;
         background-size:100%;
-        max-width:40em;
+        max-width:37em;
 
         .svg & {
             background-image:url("/public/images/logo/footer-border.svg");
