@@ -207,3 +207,57 @@ nav.contents {
     }
 }
 
+
+// @start LISTING -------------------- //
+
+section[role="main"] {
+    .listing {
+        article {
+            header {
+                margin-bottom:0;
+
+                &:after{
+                    content:"—";
+                    color:#ddd;
+                }
+
+
+                h3 {
+                    margin-bottom:0;
+                    font-size:$baseh3+.3;
+                    line-height:1.3;
+                }
+            }
+
+            .content {
+                border-bottom:1px solid #eee;
+                padding-bottom:$margin;
+
+                p {
+                    margin-bottom:0;
+                    display:inline;
+                }
+
+                a {
+                    display:inline;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
