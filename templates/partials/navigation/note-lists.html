@@ -3,9 +3,7 @@
     {% for child in child.children %}
       <li>
         <time datetime="{{ child.date | date("Y, m, d") }}">{{ child.date | date("F j, Y") }}</time>
-        <h2>
-          <a href="{{ child.url }}">{{ child.title }}</a>
-        </h2>
+        <h3><a href="{{ child.url }}">{{ child.title }}</a></h3>
       </li>
     {% endfor %}
     </ul>
