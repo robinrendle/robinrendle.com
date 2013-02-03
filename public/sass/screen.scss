@@ -1,4 +1,4 @@
-@import "reset", "components", "compass", "compass/css3";
+@import "reset", "components", "compass";
 
 /*
 
@@ -29,7 +29,6 @@
 */
 
 // @start BODY -------------------- //
-
 * {
     box-sizing:border-box;
 }
@@ -49,7 +48,7 @@
         .js & {
             @include poynter;
             font-size: 105%;
-            line-height:1.65;
+            line-height:1.6;
             color:$offblack;
         }
     }
@@ -104,8 +103,8 @@ a {
     h5, .h5 {   
         @include headline-five;
     }
-// @start MARGINS -------------------- //
 
+// @start MARGINS -------------------- //
 p, 
 blockquote,
 ol,
@@ -151,7 +150,7 @@ footer.about {
     font-style:italic;
 
     p {
-        font-size:.9em;
+        font-size:.95em;
         width:100%;
         max-width:none;
     }
@@ -271,8 +270,8 @@ q:after {content: '”'; content: close-quote;}
 
 hr {
     border:none;
-    color:$lightgrey;
-    font-size:1.2em;
+    color:#ccc;
+    font-size:1.3em;
     margin: 1em 0;
     text-align:center;
     display:block;
