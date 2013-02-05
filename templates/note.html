@@ -1,9 +1,19 @@
 {% include 'partials/header.html' %}
   <section role="main">
-    <header>
+    {{ page.hero }}
+    <header class="hero">
         <h1>{{ page.title }}</h1>
-        <time datetime="{{ page.date | date("Y, m, d") }}" pubdate>{{ page.season }}</time>
+
+        <div class="meta">
+            <time datetime="{{ page.date | date("Y, m, d") }}" pubdate>{{ page.date }}</time>
+        </div>
     </header>
-          {{ page.content }}
+    <!-- Main content block -->
+    {{ page.content }}
+
+    <footer class="about">
+        <!-- Extra information about the post-->
+        {{ page.meta }}
+    </aside>
   </section>
 {% include 'partials/footer.html' %}
