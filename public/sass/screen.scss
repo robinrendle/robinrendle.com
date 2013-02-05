@@ -32,26 +32,26 @@
 * {
     box-sizing:border-box;
 }
-    html {
-        overflow-y:scroll;
-    }
+html {
+    overflow-y:scroll;
+}
 
-    body {
-        background-color:$offwhite;
-        font-size: 100%;
-        line-height:1.5;
+body {
+    background-color:$offwhite;
+    font-size: 105%;
+    line-height:1.6;
+    color:$offblack;
+    font-family: Georgia, serif;
+    border-top:4px solid $primary;
+    border-bottom:4px solid $primary;
+
+    .js & {
+        @include poynter;
+        font-size: 105%;
+        line-height:1.55;
         color:$offblack;
-        font-family: Georgia, serif;
-        border-top:4px solid $primary;
-        border-bottom:4px solid $primary;
-
-        .js & {
-            @include poynter;
-            font-size: 105%;
-            line-height:1.6;
-            color:$offblack;
-        }
     }
+}
 
 // @start LINKS -------------------- //
 a {
@@ -67,42 +67,42 @@ a {
     }
 }
 // @start HEADLINES -------------------- //
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        text-align:center;
-        width:100%;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align:center;
+    width:100%;
+}
 
-    h1, .h1 {
-        @include headline-one;
-        font-feature-settings: "liga" on;   
-        /* vendor-prefixes */
-        -moz-font-feature-settings: 'liga=1';
-        -ms-font-feature-settings: "liga" on;
-        -webkit-font-feature-settings: "liga" on;
-        -o-font-feature-settings: "liga" on;
-        text-rendering: optimizeLegibility;
-    }
+h1, .h1 {
+    @include headline-one;
+    font-feature-settings: "liga" on;   
+    /* vendor-prefixes */
+    -moz-font-feature-settings: 'liga=1';
+    -ms-font-feature-settings: "liga" on;
+    -webkit-font-feature-settings: "liga" on;
+    -o-font-feature-settings: "liga" on;
+    text-rendering: optimizeLegibility;
+}
 
-    h2, .h2 {
-        @include headline-two;
-    }
+h2, .h2 {
+    @include headline-two;
+}
 
-    h3, .h3 {
-        @include headline-three;
-    }
+h3, .h3 {
+    @include headline-three;
+}
 
-    h4, .h4 {   
-        @include headline-four;
-    }
+h4, .h4 {   
+    @include headline-four;
+}
 
-    h5, .h5 {   
-        @include headline-five;
-    }
+h5, .h5 {   
+    @include headline-five;
+}
 
 // @start MARGINS -------------------- //
 p, 
@@ -123,7 +123,7 @@ h1,
 .about,
 hgroup {
     width:90%;
-    max-width:37em;
+    max-width:35em;
     margin-left:auto;
     margin-right:auto;
 } // default widths and margins
@@ -195,12 +195,8 @@ small {
 code {
     color:$purple;
     font-family:$code;
-    font-size:.8em;
+    font-size:.85em;
     line-height:1.6;
-
-    .js & {
-        font-size:.95em;
-    }
 
     &.class {
         color:#47CA26;
@@ -219,7 +215,7 @@ b {
 }
 
 abbr, span {
-    font-size:.8em;
+    font-size:.9em;
     text-transform:uppercase;
 }
 
@@ -244,18 +240,18 @@ dl {
 
 sub {
     line-height:90%;
-    font-size:smaller;
+    font-size:.8em;
     vertical-align:sub;
 }
 
 sup {
     vertical-align:super;
     line-height:0;
-    font-size:.9em;
+    font-size:.8em;
 }
 
 kbd {
-    font-size:.8em;
+    font-size:.6em;
     line-height:80%;
     background-color:#FCFCFC;
     @include background(linear-gradient(top, #FCFCFC, #EEEEEE));
@@ -482,8 +478,8 @@ table {
 ul {
     li {
         list-style:none;
-        padding-left:1.4em;
-        background:url("/public/images/icons/list.png") no-repeat 0 11px;
+        padding-left:1em;
+        background:url("/public/images/icons/list.png") no-repeat 0 12px;
 
         .svg & {
             background-image:url("/public/images/icons/list.svg");
@@ -492,10 +488,6 @@ ul {
 
     ul,ol {
         margin-bottom:0;
-
-        li {
-            margin-left:.4em;
-        }
     }
 }
 
@@ -503,7 +495,7 @@ ol {
     li {
         list-style:decimal;
         list-style-position:outside;
-        margin-left:1.4em;
+        margin-left:1em;
         padding-left:0;
     }
 
@@ -512,14 +504,13 @@ ol {
 
         li {
             list-style:lower-roman;
-            margin-left:2em;
         }
     }
 }
 
 // @start BRANDING -------------------- //
 .banner {
-    margin:0 auto 4em auto;
+    margin:0 auto 0 auto;
 }
 
 .branding {
@@ -527,17 +518,28 @@ ol {
     max-width:none;
     @include text;
     background-color:$tertiary;
-    padding:.5em 0 .4em 0;
     border-bottom:1px solid #ddd;
     font-size:95%;
 
     a {
         color:$lightgrey;
+        margin:0 auto;
+        padding:.5em 1em .4em;
+        display:block;
+        width:9em;
+        background-color:#eee;
+        border-right:1px solid #ddd;
+        border-left:1px solid #ddd;
+        @include transition-property(all);
+        @include transition-duration(.1s);
 
         &:hover,
         &:focus {
-            color:$primary;
+            color:darken($lightgrey,10);
+            background-color:darken(#eee, 2);
             text-decoration:none;
+            @include transition-property(all);
+            @include transition-duration(.1s);
         }
     }
 }
@@ -545,9 +547,14 @@ ol {
 
 // @start GLOBAL -------------------- //
 section[role="main"] {
+
     header {
-        margin-bottom:2.5em;
         text-align:center;
+
+        &.hero {
+            padding-top:5em;
+            padding-bottom:2.5em;
+        }
 
         h1 {
             margin-bottom:.1em;
@@ -604,7 +611,7 @@ figure {
         margin:0 auto 1.7em auto;
         background-color:$offgrey;
         width:90%;
-        max-width:37em;
+        max-width:35em;
 
         figcaption {
             width:100%;
@@ -725,7 +732,7 @@ footer[role="contentinfo"] {
         text-align:center;
         background:url("/public/images/logo/footer-border.png") no-repeat center 0;
         background-size:100%;
-        max-width:37em;
+        max-width:35em;
 
         .svg & {
             background-image:url("/public/images/logo/footer-border.svg");
