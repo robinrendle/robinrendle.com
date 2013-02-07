@@ -13,3 +13,5 @@ composer.lock
 *.css
 
 app/_cache/
+
+public/codekit-config.json
