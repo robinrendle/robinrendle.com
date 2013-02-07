@@ -1,4 +1,6 @@
-@import 'compass/css3';
+@import "compass";
+
+
 
 // SCSS CONFIGURATION LIBRARY
 
@@ -71,8 +73,8 @@
 
     // @start FONT SIZES -------------------- //
 
-    $baseh1:2.2em;
-    $baseh2:1.5em;
+    $baseh1:2.6em;
+    $baseh2:1.6em;
     $baseh3:1.2em;
     $baseh4:1.1em;
     $baseh5:1em;
@@ -88,7 +90,7 @@
         margin-bottom:$margin;
     }
     @mixin headline-one {
-        @include miller;
+        @include miller-semibold;
         font-size:$baseh1;
         font-weight:normal;
         line-height:1.25;
@@ -98,12 +100,12 @@
         }
     }
     @mixin headline-two {
-        @include poynter;
+        @include miller;
         font-size:$baseh2;
         font-weight:normal;
         font-style:normal;
         margin:1.8em auto .8em auto;
-        line-height:1.25;
+        line-height:1.3;
         color:$black;
     }
 
