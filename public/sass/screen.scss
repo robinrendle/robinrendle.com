@@ -1,7 +1,6 @@
-@import "reset", "components", "compass";
+@import "reset", "components";
 
 /*
-
     [ROBINRENDLE.COM V2]
 
     @version: 1.0
@@ -48,7 +47,7 @@ body {
     .js & {
         @include poynter;
         font-size: 105%;
-        line-height:1.55;
+        line-height:1.6;
         color:$offblack;
     }
 }
@@ -119,6 +118,7 @@ h3,
 footer section,
 h2,
 h1,
+header.hero,
 .content,
 .about,
 hgroup {
@@ -441,7 +441,6 @@ table {
     margin:0 auto 1.55em auto;
     border-radius:3px;
 
-
     tr {
         font-size:.9em;
         border-bottom:1px solid #ddd;
@@ -544,20 +543,24 @@ ol {
     }
 }
 
-
 // @start GLOBAL -------------------- //
 section[role="main"] {
+    min-height:50em;
 
     header {
         text-align:center;
-
-        &.hero {
-            padding-top:5em;
-            padding-bottom:2.5em;
-        }
+        padding-top:4em;
+        padding-bottom:3.5em;
 
         h1 {
-            margin-bottom:.1em;
+            margin-bottom:.2em;
+        }
+        
+        p {
+            font-size:.95em;
+            color:$grey;
+            margin-bottom:0;
+            font-style:italic;
         }
 
         .meta {
@@ -648,7 +651,7 @@ blockquote {
         color:$textgrey;
         font-style:italic;
         padding-left: 1em;
-        border-left:2px solid #eee;
+        border-left:3px solid #eee;
         margin-bottom:0;
     }
 
@@ -706,6 +709,10 @@ hgroup {
     h1,h2,h3,h4,
     .h1,.h2,.h3,.h4,.h5 {
         width:100%;
+        margin:0 auto;
+    }
+
+    header & {
         margin:0 auto;
     }
 }
