@@ -9,7 +9,7 @@ header: hero
 location: Nottingham, <span>UK</span>
 
 content: |
-  This document contains all of the basic semantic elements and visual styles you might well find in a larger website, but this is a good place as any to start practicing the styling and development of a larger visual system. The basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, can be found below. Examples of each are placed within the <code>figure</code> element.
+  This document contains all of the basic semantic elements and visual styles you might well find in a larger website, but this is a good place as any to start practicing the styling and development of a larger visual system. The basic typographic components, such as headings, paragraphs, hyperlinks, rules, blockquotes and figures, can be found below. Examples of each are placed within the <code>figure</code> element. Beneath is a how a contents navigational element should be styled.
 
   <nav class="contents">
     <h3 class="h5 contents">Contents</h3>
@@ -296,4 +296,4 @@ content: |
     <small>Copyright © 2011-2012. Orsen Welles. All Rights Reserved.</small>
   </figure>
 
-  That about raps it up for this small style guide. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for inspiring me to do this. I’m sure the site will be more flexible, efficient and useful in the long term thanks to defining these essential, yet basic characteristics and styles.
+  That about wraps it up for this small style guide. Thanks to <a href="http://www.mezzoblue.com/downloads/markupguide/">Dave Shea</a>, <a href="http://www.paulrobertlloyd.com/about/styleguide/">Paul Robert Lloyd</a> and <a href="http://karenmcgrane.com/">Karen McGrane</a> for inspiring me to do this. I’m sure the site will be more flexible, efficient and useful in the long term thanks to defining these essential, yet basic characteristics and styles from the offset.
