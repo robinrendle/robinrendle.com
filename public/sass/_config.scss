@@ -107,6 +107,8 @@
         margin:1.8em auto .8em auto;
         line-height:1.3;
         color:$black;
+        width:90%;
+        max-width:21.875em;
     }
 
     @mixin headline-three {
@@ -116,6 +118,8 @@
         color:$black;
         line-height:1.4;
         margin:1.5em auto .8em auto;
+        max-width:29.166666667em;
+        width:90%;
     }
 
     @mixin headline-four {
