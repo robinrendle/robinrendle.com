@@ -57,7 +57,7 @@
 
 // @start CTA BUTTONS -------------------- //
 
-@mixin red-gradient {
+ %red-gradient {
     background-image:darken($primary,15%);
     background-image: -webkit-linear-gradient(top, $primary, darken($primary, 10%));
     background-image: -o-linear-gradient(top, $primary, darken($primary, 10%));
@@ -65,7 +65,7 @@
     background-image: -webkit-linear-gradient(top, $primary, darken($primary, 10%));
     background-image: -ms-linear-gradient(top, $primary, darken($primary, 10%));
 }
-@mixin cream-gradient {
+%cream-gradient {
     background-image:darken($secondary,15%);
     background-image: -webkit-linear-gradient(top, $secondary, darken($secondary, 10%));
     background-image: -o-linear-gradient(top, $secondary, darken($secondary, 10%));
@@ -73,25 +73,25 @@
     background-image: -webkit-linear-gradient(top, $secondary, darken($secondary, 10%));
     background-image: -ms-linear-gradient(top, $secondary, darken($secondary, 10%));
 }
-@mixin button {
+%button {
     border-radius:3px;
     width:25%;
     float:right;
     padding:0 .35em;
     border:none;
     color:$offwhite;
-    padding:.3em 0 .15em 0;
+    padding:.3em 0 .3em 0;
     text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25); 
     @include transition-property(all);
     @include transition-duration(.5s);  
 }
 @mixin red-button {
-    @include red-gradient;
-    @include button;       
+    @extend %red-gradient;
+    @extend %button;       
 }
 @mixin cream-button {
-    @include cream-gradient;
-    @include button;
+    @extend %cream-gradient;
+    @extend %button;
 }
 
 
