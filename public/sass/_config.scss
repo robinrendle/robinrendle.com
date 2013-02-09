@@ -29,19 +29,19 @@
     // @start FONT STACKS -------------------- /
     $code:'Lucida Console', Monaco, sans-serif;
 
-    @mixin miller-semibold {
+    %miller-semibold {
         font-family:"Miller Headline Semi Bold", Georgia, serif;
         font-style:normal;
         font-weight:bold;
     }
 
-    @mixin miller {
+    %miller {
         font-family:MillerDisplay, Georgia, serif;
         font-style:normal;
         font-weight:bold;
     }
 
-    @mixin poynter {
+    %poynter {
       font-family:"Poynter Serif RE",Georgia, serif;;
       font-style:normal;
       font-weight:normal;
@@ -90,7 +90,7 @@
         margin-bottom:$margin;
     }
     @mixin headline-one {
-        @include miller-semibold;
+        @extend %miller-semibold;
         font-size:$baseh1;
         font-weight:normal;
         line-height:1.25;
@@ -100,7 +100,7 @@
         }
     }
     @mixin headline-two {
-        @include miller;
+        @extend %miller;
         font-size:$baseh2;
         font-weight:normal;
         font-style:normal;
@@ -112,7 +112,7 @@
     }
 
     @mixin headline-three {
-        @include poynter;
+        @extend %poynter; 
         font-size:$baseh3;
         font-weight:normal;
         color:$black;
@@ -123,7 +123,7 @@
     }
 
     @mixin headline-four {
-        @include poynter;
+        @extend %poynter;
         font-size:$baseh4;
         font-style:italic;
         line-height:1.4;
@@ -133,7 +133,7 @@
     }
 
     @mixin headline-five {
-        @include poynter;
+        @extend %poynter;
         font-size:$baseh5;
         font-style:normal;
         line-height:1.4;
@@ -143,7 +143,7 @@
     }
     
     @mixin text {
-        @include poynter;
+        @extend %poynter;
         font-size:$base-font-size;
         line-height:$base-line-height;
 
@@ -181,4 +181,18 @@
             clear:both;
         }
         zoom:1;
+    }
+
+    // @start MEDIA QUERIES -------------------- //
+
+    @mixin respond-to($media) {
+      @if $media == medium {
+        @media screen and (min-width: 30.25em) { @content; }
+      }
+      @if $media == grande {
+        @media screen and (min-width: 42em) { @content; }
+      }
+      @else if $media == large {
+        @media screen and (min-width: 991px) { @content; }
+      }
     }
