@@ -45,17 +45,17 @@ body {
 
     .js & {
         @extend %poynter;
-        font-size: 100%;
-        line-height:1.6;
+        font-size: 105%;
+        line-height:1.55;
         color:$offblack;
 
-        @include respond-to(medium){
+        @include respond-to(medium) {
             font-size:105%;
             line-height:1.55;
         }
 
-        @include respond-to(grande){
-            line-height:1.6;
+        @include respond-to(grande) {
+            line-height:1.65;
             font-size:110%;
         }
     }
