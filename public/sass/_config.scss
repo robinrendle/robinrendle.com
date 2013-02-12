@@ -47,7 +47,6 @@
       font-weight:normal;
     }
 
-
     // @start COLOURS -------------------- //
 
     $primary:#C35E5E;
@@ -66,6 +65,8 @@
     $offgrey:#fbfafa;
     $offwhite:#FEFEFE;
     $white:#FFF;
+
+    $border:#eee;
 
     $lightcream:#efefef;
     $purple:rgb(140,87,235);
@@ -89,12 +90,12 @@
     @mixin space {
         margin-bottom:$margin;
     }
+
     @mixin headline-one {
         @extend %miller-semibold;
         font-size:$baseh1;
         font-weight:normal;
         line-height:1.25;
-
         .js & {
             line-height:1.15;
         }
