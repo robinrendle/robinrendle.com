@@ -1,0 +1,32 @@
+title: Setting up a default type stylesheet
+
+date: February 13 2013
+
+content: |
+
+    I’ve noticed that many websites break down poorly as their webfonts fail to load for whatever reasons and subsequently fall back onto the system fonts. This is quite common, especially on mobile devices with slow connections and yet it’s strange to see websites that have great typography with vendor fonts, but fall to bits when the slightest problem occurs. The measure might be too wide or the line-height too tall for that particular font; what is required of one typeface can sometimes mean actively fighting the typographic requirements of another. As the x-height of one typeface might call for a shorter line-height in the paragraph, the fallback may be something like Verdana that requires a considerable amount of space between each line.
+
+    What we really need here is to define two rules for typography in our stylesheets; one for the core fonts, the other for those from a vendor. Thankfully this is a relatively simple task so long as we use [Modernizr’s secret magic](http://modernizr.com/).
+
+    What is Modernizr, you might ask? Well, it’s what’s called a feature detection library which will add a class to the <code>html</code> element, depending on a browser's features. This might be support for <code>svg</code>, <code>audio</code> or even javascript itself.  On a modern Webkit browser you’ll probably see something like this if you view the source of a website that is using it:
+
+    <code>html class=<code class="class">"js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"</code></code>
+
+    If we’re using a series of fonts from a vendor that relies on javascript to our document then all we really need here is the <code class="class">js</code> bit. Now we can begin to set the styles for lovely optimized webfonts and our default stylesheet like this in <abbr title="syntactically awesome style sheets">SASS</abbr>:
+
+    <pre><code>body {
+        .no-js {
+            font-size: 100%;
+            font-family: Georgia, serif;
+            line-height:1.55;
+        }
+
+        .js {
+            font-size:105%;
+            font-family:"Poynter", Georgia, serif;
+            line-height:1.65;
+        }
+    }
+    </code></pre>
+
+    And there we have it. Since Modernizr requires us to have the <code class="class">.no-js</code> class appended to the <code>html</code> element before anything happens, it will swap that out as it detects the device’s capabilities. We can then be rest assured that this will work in scriptless environments and we can begin to break down all of our typographic styles into two factions as necessary. Ideally this would go further, so that as a browser moves through the array of the <code class="class">font-family</code> it would automatically pass through an array of predetermined styles. I’m not so sure if that’s really feasible at the moment, nor am I certain that this will work with mobile browsers with poor connections since Modernizr might append the <code class="class">.js</code> class to the head <em>and then</em> fail to fully load the webfonts afterwards. This is a promising start though and since I haven’t read anything elsewhere about this technique I thought I might share it here.
