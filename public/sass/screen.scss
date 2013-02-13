@@ -91,7 +91,7 @@ h6 {
 
 h1, .h1 {
     @include headline-one;
-    font-feature-settings: "liga" on;   
+    font-feature-settings: "liga" on;
     /* vendor-prefixes */
     -moz-font-feature-settings: 'liga=1';
     -ms-font-feature-settings: "liga" on;
@@ -108,16 +108,16 @@ h3, .h3 {
     @include headline-three;
 }
 
-h4, .h4 {   
+h4, .h4 {
     @include headline-four;
 }
 
-h5, .h5 {   
+h5, .h5 {
     @include headline-five;
 }
 
 // @start MARGINS -------------------- //
-p, 
+p,
 blockquote,
 ol,
 ul,
@@ -143,10 +143,10 @@ hgroup {
     }
 
     @include respond-to(grande) {
-        max-width:38em;
+        max-width:37em;
     }
 } // default widths and margins
-p, 
+p,
 blockquote,
 ol,
 ul,
@@ -223,6 +223,10 @@ code {
 
     &.class {
         color:#47CA26;
+    }
+
+    code {
+        font-size:1em;
     }
 }
 
@@ -321,7 +325,7 @@ input {
     margin-bottom:0;
 }
 
-button, 
+button,
 .button,
 input .button {
     @include cream-button;
@@ -392,8 +396,8 @@ fieldset {
            font-weight:400;
         }
 
-        :-moz-placeholder {  
-           font-weight:400; 
+        :-moz-placeholder {
+           font-weight:400;
         }
 
         .text {
@@ -501,7 +505,7 @@ ul {
     li {
         list-style:none;
         padding-left:1em;
-        background:url("/public/images/icons/list.png") no-repeat 0 12px;
+        background:url("/public/images/icons/list.png") no-repeat 0 14px;
 
         .svg & {
             background-image:url("/public/images/icons/list.svg");
@@ -585,7 +589,7 @@ section[role="main"] {
         h1 {
             margin-bottom:.2em;
         }
-        
+
         p {
             font-size:.95em;
             color:$grey;
@@ -594,7 +598,7 @@ section[role="main"] {
         }
 
         .meta {
-            time, 
+            time,
             p {
                 font-style:italic;
                 font-size:.95em;
@@ -659,11 +663,11 @@ figure {
         }
 
         figure,
-        p, 
+        p,
         blockquote,
-        h3, 
-        ol, 
-        ul, 
+        h3,
+        ol,
+        ul,
         pre,
         form,
         table,
@@ -709,7 +713,7 @@ figcaption.cite {
         padding-right:.2em;
     }
     p {
-        font-size:1em;    
+        font-size:1em;
         font-style:normal;
         @extend %poynter;
         margin-bottom:0;
@@ -739,7 +743,7 @@ pre {
 
 hgroup {
     margin:2.5em auto 1.55em auto;
-    
+
     h1,h2,h3,h4,
     .h1,.h2,.h3,.h4,.h5 {
         width:100%;
@@ -759,7 +763,7 @@ footer[role="contentinfo"] {
         background-color:$tertiary;
         border:1px solid #ddd;
         margin:0 auto 2em auto;
-        
+
         p {
             font-size:.9em;
         }
@@ -805,7 +809,7 @@ footer[role="contentinfo"] {
                     padding-left:.9em;
                     margin-left:.2em;
                 }
-                
+
                 &:last-child:after {
                     content:"";
                     padding-right:0;
