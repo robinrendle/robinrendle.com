@@ -79,14 +79,14 @@
     $baseh3:1.2em;
     $baseh4:1.1em;
     $baseh5:1em;
-    
+
     $base-font-size:16px;
     $base-line-height:24px;
 
     // @start HIERARCHY -------------------- //
 
     $margin:1.55em;
-    
+
     @mixin space {
         margin-bottom:$margin;
     }
@@ -97,7 +97,7 @@
         font-weight:normal;
         line-height:1.25;
         .js & {
-            line-height:1.15;
+            line-height:1.2;
         }
     }
     @mixin headline-two {
@@ -113,7 +113,7 @@
     }
 
     @mixin headline-three {
-        @extend %poynter; 
+        @extend %poynter;
         font-size:$baseh3;
         font-weight:normal;
         color:$black;
@@ -142,7 +142,7 @@
         color:$darkgrey;
         // margin-bottom:calc-em(20, $baseh4);
     }
-    
+
     @mixin text {
         @extend %poynter;
         font-size:$base-font-size;
