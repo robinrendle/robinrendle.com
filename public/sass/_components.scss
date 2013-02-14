@@ -18,7 +18,7 @@
 
 
 // @start BLOCK -------------------- //
-.block {   
+.block {
 }
 
 // @start LISTINGS -------------------- //
@@ -36,15 +36,15 @@
 
         a {
             &:hover,
-            &:focus {     
+            &:focus {
             }
         }
 
         .item_meta {
-            
+
         }
         .item_content {
-            
+
         }
 
     }
@@ -81,13 +81,13 @@
     border:none;
     color:$offwhite;
     padding:.3em 0 .3em 0;
-    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25); 
+    text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);
     @include transition-property(all);
-    @include transition-duration(.5s);  
+    @include transition-duration(.5s);
 }
 @mixin red-button {
     @extend %red-gradient;
-    @extend %button;       
+    @extend %button;
 }
 @mixin cream-button {
     @extend %cream-gradient;
@@ -132,7 +132,7 @@ nav.contents {
             border-bottom:1px solid #ebebeb;
             -moz-box-shadow:0 1px #fff;
             -webkit-box-shadow:0 1px #fff;
-            box-shadow:0 1px #fff;  
+            box-shadow:0 1px #fff;
             margin-bottom:1.1em;
             padding-bottom:.3em;
         }
@@ -217,7 +217,7 @@ section[role="main"] {
                     margin-top:0;
                 }
             }
-            
+
             &:last-child .content {
                 border-bottom:none;
             }
@@ -261,7 +261,11 @@ section[role="main"] .notes {
         width:90%;
         max-width:35em;
         margin:0 auto;
-        
+
+        &:only-child {
+            border:none;
+        }
+
         @include respond-to(medium) {
             width:85%;
         }
