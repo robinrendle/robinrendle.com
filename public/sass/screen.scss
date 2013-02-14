@@ -33,17 +33,22 @@
 }
 html {
     overflow-y:scroll;
+    -webkit-font-smoothing: antialiased;
 }
 body {
     background-color:$offwhite;
-    font-size: 105%;
+    font-size: 110%;
     line-height:1.6;
     color:$offblack;
     font-family: Georgia, serif;
     border-top:4px solid $primary;
     border-bottom:4px solid $primary;
 
-    .js & {
+    @include respond-to(grande){
+        font-size:120%;
+    }
+
+    .fontface & {
         @extend %poynter;
         font-size: 105%;
         line-height:1.55;
@@ -218,8 +223,12 @@ small {
 code {
     color:$purple;
     font-family:$code;
-    font-size:.85em;
+    font-size:.8em;
     line-height:1.6;
+
+    .fontface &{
+        font-size:.85em;
+    }
 
     &.class {
         color:#47CA26;
@@ -227,6 +236,10 @@ code {
 
     code {
         font-size:1em;
+
+        .fontface & {
+            font-size:1em;
+        }
     }
 }
 
@@ -554,6 +567,10 @@ ol {
     border-bottom:1px solid #ddd;
     font-size:95%;
 
+    .fontface & {
+        font-size:95%;
+        }
+
     a {
         color:$lightgrey;
         margin:0 auto;
@@ -644,7 +661,7 @@ figure {
 
     &.example {
         border:1px dashed $secondary;
-        padding:.8em 2.5% .6em 2.5%;
+        padding:.7em 2.5% .8em 2.5%;
         margin:0 auto 1.7em auto;
         background-color:$offgrey;
         width:90%;
@@ -782,7 +799,6 @@ footer[role="contentinfo"] {
         .svg & {
             background-image:url("/public/images/logo/footer-border.svg");
         }
-
 
         @include respond-to(medium){
             padding-top:2.5em;
