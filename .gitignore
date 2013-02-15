@@ -15,3 +15,5 @@ composer.lock
 app/_cache/
 
 public/codekit-config.json
+
+*.rb
