@@ -78,7 +78,7 @@
     $baseh2:1.6em;
     $baseh3:1.2em;
     $baseh4:1.1em;
-    $baseh5:1em;
+    $baseh5:.9em;
 
     $base-font-size:16px;
     $base-line-height:24px;
@@ -111,6 +111,10 @@
         color:$black;
         width:90%;
         max-width:19.875em;
+
+        @media screen and (min-width:50em) {
+            max-width:21.677419355em;
+        }
     }
 
     @mixin headline-three {
@@ -131,6 +135,7 @@
         line-height:1.4;
         margin:1.55em auto 1.4em auto;
         color:$darkgrey;
+        max-width:32em;
         // margin-bottom:calc-em(20, $baseh4);
     }
 
@@ -141,6 +146,8 @@
         line-height:1.4;
         margin:1.55em auto 1.2em auto;
         color:$darkgrey;
+        max-width:39em;
+        text-transform:uppercase;
         // margin-bottom:calc-em(20, $baseh4);
     }
 

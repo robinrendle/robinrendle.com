@@ -65,6 +65,11 @@ body {
             line-height:1.65;
             font-size:115%;
         }
+
+        @media screen and (min-width:50em) {
+            font-size:120%;
+            line-height:1.6;
+        }
     }
 }
 
@@ -134,7 +139,6 @@ form,
 table,
 .centre,
 dl,
-h4,
 footer section,
 header.hero,
 .content,
@@ -152,6 +156,13 @@ hgroup {
     @include respond-to(grande) {
         max-width:37em;
     }
+
+
+    @media screen and (min-width:50em) {
+        max-width:35em;
+    }
+
+
 } // default widths and margins
 p,
 blockquote,
@@ -542,9 +553,6 @@ ol {
         list-style-position:outside;
         margin-left:1em;
         padding-left:0;
-        @include respond-to(grande){
-            margin-left:0;
-        }
     }
 
     ol,ul {
@@ -669,8 +677,8 @@ figure {
         width:90%;
         max-width:35em;
 
-        @include respond-to(grande) {
-            max-width:38em;
+        @include respond-to(medium) {
+            width:85%;
         }
 
         figcaption {

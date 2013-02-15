@@ -1,22 +1,24 @@
 {% include 'partials/header.html' %}
-  <section role="main">
-    {% for child in slice (page.root, 1,1) %}
-        {% for child in slice (child.children|reverse, start,1) %}
-        <article>
-            <header>
-                <h1><a href="{{ child.url }}">{{ child.title }}</a></h1>
 
-                <div class="meta">
-                    <p>{{child.location}}</p>
-                    <time datetime="{{ child.date | date("Y, m, d") }}" pubdate>{{ child.season }}</time>
-                </div>
-            </header>
 
-            {{ child.intro }}
-            {{ child.content }}
-        </article>
+    <section role="main">
+        {% for child in slice (page.root, 1,1) %}
+            {% for child in slice (child.children|reverse, start,1) %}
+            <article>
+                <header>
+                    <h1><a href="{{ child.url }}">{{ child.title }}</a></h1>
+
+                    <div class="meta">
+                        <p>{{child.location}}</p>
+                        <time datetime="{{ child.date | date("Y, m, d") }}" pubdate>{{ child.season }}</time>
+                    </div>
+                </header>
+
+                {{ child.intro }}
+                {{ child.content }}
+            </article>
+            {% endfor %}
         {% endfor %}
-    {% endfor %}
-  </section>
+      </section>
 
-{% include 'partials/footer.html' %}
+    {% include 'partials/footer.html' %}
