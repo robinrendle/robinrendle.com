@@ -16,6 +16,31 @@
     -------------------
 */
 
+.test {
+    width:100%;
+    margin-top:13em;
+    li {
+        float:left;
+        width:25%;
+        height:10em;
+        @extend %hide-text;
+        list-style:none;
+        background-image:none;
+
+        .svg & {
+            background-image:none;
+        }
+
+        a {
+            display:block;
+            height:4.6em;
+        }
+
+
+    }
+}
+
+
 
 // @start BLOCK -------------------- //
 .block {

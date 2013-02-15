@@ -185,6 +185,12 @@
         zoom:1;
     }
 
+    %hide-text {
+        text-indent:100%;
+        white-space:nowrap;
+        overflow:hidden;
+    }
+
     // @start MEDIA QUERIES -------------------- //
 
     @mixin respond-to($media) {
@@ -198,3 +204,5 @@
         @media screen and (min-width: 991px) { @content; }
       }
     }
+
+

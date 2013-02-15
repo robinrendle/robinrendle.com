@@ -27,6 +27,8 @@
     -------------------
 */
 
+
+
 // @start BODY -------------------- //
 * {
     box-sizing:border-box;
@@ -61,7 +63,7 @@ body {
 
         @include respond-to(grande) {
             line-height:1.65;
-            font-size:110%;
+            font-size:115%;
         }
     }
 }
