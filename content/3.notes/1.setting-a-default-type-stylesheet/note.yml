@@ -15,10 +15,10 @@ content: |
     These classes are a standard listing of the capabilities of the device but it’s also possible to configure particular tests that we want Modernizr to run. In this case we’ll be using <code class="class">fontface</code> to detect whether the custom webfonts in our stylesheets are running. If a browser does not detect those <code>@fontface</code> rules in our <abbr title="cascading style sheets">css</abbr> then Modernizr will do nothing and the <code>html</code> element won’t have this class added to it. But now we can begin to separate the two styles like this with <abbr title="syntactically awesome style sheets">SASS</abbr>:
 
     <pre><code>body {
-            font-size: 100%;
-            font-family: Georgia, serif;
-            line-height: 1.55;
-            font-weight: 600;
+        font-size: 100%;
+        font-family: Georgia, serif;
+        line-height: 1.55;
+        font-weight: 600;
 
         .fontface & {
             font-size: 105%;
@@ -31,4 +31,4 @@ content: |
 
     And there we have it. Since Modernizr requires us to have the <code class="class">.no-js</code> class appended to the <code>html</code> element before anything happens, it will swap that out as it detects the device’s capabilities. This means that we’ve provided alternatives for environments that don’t support <code>@fontface</code> declarations and we can begin to break down all of our typographic styles into two factions as necessary.
 
-    Ideally this would go further, so that as a browser moves through the array of the <code class="class">font-family</code> it would automatically pass through an array of predetermined styles. I’m not so sure if that’s really feasible at the moment, nor am I certain that this will work with mobile browsers with poor connections since Modernizr might append the <code class="class">fontface</code> class to the element <em>and then</em> fail to fully load the webfonts afterwards. This is a promising start though and since I haven’t read anything elsewhere about this technique I thought I might share it here.
+    Ideally this would go further, so that as a browser moves through the array of the <code>font-family</code> it would automatically pass through an array of predetermined styles. I’m not so sure if that’s really feasible at the moment, nor am I certain that this will work with mobile browsers with poor connections (since Modernizr might append the <code class="class">fontface</code> class to the element <em>and then</em> fail to fully load the webfonts afterwards). This is a promising start though and since I haven’t read anything elsewhere about this technique I thought I might share it here.
