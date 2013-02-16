@@ -44,9 +44,6 @@
         <h1 class="branding"><a href="/">Robin Rendle</a></h1>
     </header>
 
-
-
-
     <section role="main">
         {% for child in slice (page.root, 1,1) %}
             {% for child in slice (child.children|reverse, start,1) %}
@@ -66,6 +63,6 @@
             </article>
             {% endfor %}
         {% endfor %}
-      </section>
+    </section>
 
     {% include 'partials/footer.html' %}

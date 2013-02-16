@@ -10,7 +10,7 @@ header: bookmarking
 
 hero: |
 
-  <figure class="hero">
+  <figure class="hero bookmark">
     <img src="/content/2.essays/3.bookmarking/marking.jpg">
   </figure>
 
