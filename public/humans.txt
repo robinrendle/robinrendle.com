@@ -1,0 +1,43 @@
+/* ===================== */
+/* Team */
+Design and code by: Robin Rendle
+Contact: desk@robinrendle.com
+Twitter: @robinrendle
+Location: Nottingham, England
+Stardate: 2012
+
+/* ===================== */
+/* Tech */
+Standards: 
+    • HAML
+        (http://haml.info/)
+    • SCSS
+        (http://sass-lang.com/)
+    • COMPASS
+        (http://compass-style.org/)
+    • Markdown
+        (http://daringfireball.net/projects/markdown/)
+
+
+Software: 
+    • Sublime Text 2
+    • Codekit
+    • iA Writer
+    • Stacey app
+
+/* ===================== */
+/* Acknowledgements */
+Thanks to: 
+    • Andy Clarke and his 320 boilerplate
+        (http://stuffandnonsense.co.uk/projects/320andup)
+
+    • Erskine Design and their Ultimate Package 
+        (https://github.com/erskinedesign/ed.ultimate_package)
+        
+    • Ian Devlin for his work on HTML5 Bones 
+        (http://html5bones.com/)
+
+    • Casey Gollan for pointing me to the wonderfully sparse Stacey app
+        (https://github.com/caseyg/caseyagollan.com#about-this-site)
+
+

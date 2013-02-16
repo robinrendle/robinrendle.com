@@ -1,0 +1,9 @@
+{% if page.children %}
+  <ol class="children">
+    {% for child in page.children %}
+      <li>
+        <a href="{{ child.url }}">{{ child.page_name }}</a>
+      </li>
+    {% endfor %}
+  </ol>
+{% endif %}
