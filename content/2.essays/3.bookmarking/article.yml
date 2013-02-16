@@ -10,6 +10,10 @@ header: bookmarking
 
 hero: |
 
+  <figure class="hero">
+    <img src="/content/2.essays/3.bookmarking/marking.jpg">
+  </figure>
+
 intro: |
 
     Designed by the author Joost Grootens, <cite><a href="http://www.amazon.com/Swear-Use-No-Art-All/dp/9064507198">I swear I use no art at all</a></cite> is a secret, work-in-progress love letter to book design. Borderline autobiographical in nature, the author revisits his notes and diagrams of the dozens of printed materials and thousands of pages he published over the years, each meticulously and elaborately detailed.
