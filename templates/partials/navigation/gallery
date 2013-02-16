@@ -1,0 +1,16 @@
+  <p id="project-count" class="col one"><em>&#8470;</em> {{ page.index }}/{{ page.siblings_count }}</p>
+        <p id="gallery-count" class="col one">
+          <em>&#8470;</em> <span>1/1</span>
+        </p>
+        <div id="gallery-navigation" class="col three">
+          <p><a href="#" id="next-image">Next image</a> <em>&rarr;</em></p>
+          <p><a href="#" id="previous-image">Previous image</a> <em>&larr;</em></p>
+        </div>
+        <div class="col four">
+          {% if page.siblings %}
+            {% include 'partials/next-page.html' %}
+            {% include 'partials/previous-page.html' %}
+          {% endif %}
+        </div>
+        {% include 'partials/assets/media.html' %}
+      </div>

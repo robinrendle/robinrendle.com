@@ -1,0 +1,19 @@
+composer.lock
+/vendor
+/web/static/css/
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+
+# Stylesheets #
+##############
+*.scssc
+*.css
+
+app/_cache/
+
+public/codekit-config.json
+
+*.rb

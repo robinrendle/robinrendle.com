@@ -1,0 +1,16 @@
+{% for child in slice (page.root, 0,2) %}
+    {% for child in child.children|reverse %}
+        <article>
+            <header>
+                <h3><a href="{{ child.url }}">{{ child.title }}</a></h3>
+                
+                <div class="meta">
+                    <time datetime="{{ child.date | date("Y, m, d") }}">{{ child.season }}</time>
+                </div>
+            </header>
+            <div class="content">
+                {{ child.intro }}<a href="{{ child.url }}">Read more »</a>
+            </div>
+        </article>
+    {% endfor %}
+{% endfor %}
