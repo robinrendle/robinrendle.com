@@ -1,4 +1,4 @@
-@import "reset", "components";
+@import "reset", "components", "custom-post";
 
 /*
     [ROBINRENDLE.COM V2]
@@ -640,29 +640,6 @@ section[role="main"] {
                 display:inline;
                 margin-left:.35em;
                 margin-right:.1em;
-            }
-        }
-// @start HEADER CUSTOM POST STYLES -------------------- //
-
-        &.bookmarking {
-            @include respond-to(grande){
-                margin-top:-2.5em;
-                margin-bottom:3em;
-
-                h1 {
-                    font-size:3.2em;
-                    text-align:left;
-                    float:left;
-                    width:55%;
-                }
-
-                .meta {
-                    margin-top:1.8em;
-                    padding-bottom:.1em;
-                    width:45%;
-                    text-align:right;
-                    float:right;
-                }
             }
         }
     }
