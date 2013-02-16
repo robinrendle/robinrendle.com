@@ -1,24 +1,35 @@
 // @start HEADER CUSTOM POST STYLES -------------------- //
-header {
-    &.bookmarking {
-        @include respond-to(grande){
-            margin-top:-2.5em;
-            margin-bottom:3em;
 
-            h1 {
-                font-size:3.2em;
-                text-align:left;
-                float:left;
-                width:55%;
-            }
+// @start BOOKMARKING -------------------- //
+    header {
+        &.bookmarking {
+            position:relative;
 
             .meta {
-                margin-top:1.8em;
-                padding-bottom:.1em;
-                width:45%;
-                text-align:right;
-                float:right;
+                margin-top:-.3em;
+            }
+
+            @include respond-to(grande){
+                margin-top:-2.5em;
+                margin-bottom:-.5em;
+
+                h1 {
+                    font-size:3em;
+                    margin-bottom:0;
+                }
+
+                .meta {
+                    margin-top:-.8em;
+                    padding-bottom:.1em;
+                }
             }
         }
     }
-}
+
+    figure {
+        @include respond-to(grande){
+            &.hero.bookmark {
+                max-height:20em;
+            }
+        }
+    }

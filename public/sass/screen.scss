@@ -67,7 +67,6 @@ body {
         }
 
         @media screen and (min-width:50em) {
-            font-size:120%;
             line-height:1.6;
         }
     }
@@ -585,7 +584,7 @@ ol {
     a {
         color:$lightgrey;
         margin:0 auto;
-        padding:.5em 1em .4em;
+        padding:1em 1em .4em;
         display:block;
         width:9em;
         background-color:#eee;
@@ -593,6 +592,16 @@ ol {
         border-left:1px solid #ddd;
         @include transition-property(all);
         @include transition-duration(.1s);
+        opacity:.4;
+        height:4em;
+        @extend %hide-text;
+        background:url("/public/images/header/logo.png") no-repeat center .7em;
+        background-size:3em;
+
+        .svg & {
+            background-image:url("/public/images/header/logo.svg");
+            background-size:2.3em;
+        }
 
         &:hover,
         &:focus {
