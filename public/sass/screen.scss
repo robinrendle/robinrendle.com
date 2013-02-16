@@ -143,6 +143,7 @@ footer section,
 header.hero,
 .content,
 .about,
+.bookmarking,
 hgroup {
     width:90%;
     max-width:35em;
@@ -641,6 +642,29 @@ section[role="main"] {
                 margin-right:.1em;
             }
         }
+// @start HEADER CUSTOM POST STYLES -------------------- //
+
+        &.bookmarking {
+            @include respond-to(grande){
+                margin-top:-2.5em;
+                margin-bottom:3em;
+
+                h1 {
+                    font-size:3.2em;
+                    text-align:left;
+                    float:left;
+                    width:55%;
+                }
+
+                .meta {
+                    margin-top:1.8em;
+                    padding-bottom:.1em;
+                    width:45%;
+                    text-align:right;
+                    float:right;
+                }
+            }
+        }
     }
 }
 
@@ -669,8 +693,15 @@ figure {
         margin-top:1em;
     }
 
+    &.hero {
+        margin:0 0 -1.5em 0;
+        max-height:15em;
+        overflow:hidden;
+        border-bottom:1px solid darken($border,5);
+    }
+
     &.example {
-        border:1px dashed $secondary;
+        border:1px dashed lighten($secondary,5);
         padding:.7em 2.5% .8em 2.5%;
         margin:0 auto 1.7em auto;
         background-color:$offgrey;
