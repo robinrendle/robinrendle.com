@@ -1,35 +1,51 @@
 // @start HEADER CUSTOM POST STYLES -------------------- //
 
 // @start BOOKMARKING -------------------- //
-    header {
-        &.bookmarking {
-            position:relative;
+section[role="main"] header {
+    &.bookmarking {
+        position:relative;
+        padding-top:2.5em;
+
+        .meta {
+            margin-top:-.3em;
+        }
+
+        @include respond-to(grande){
+            padding-top:3em;
+
+            h1 {
+                font-size:3em;
+                margin-bottom:0;
+            }
 
             .meta {
-                margin-top:-.3em;
-            }
-
-            @include respond-to(grande){
-                margin-top:-2.5em;
-                margin-bottom:-.5em;
-
-                h1 {
-                    font-size:3em;
-                    margin-bottom:0;
-                }
-
-                .meta {
-                    margin-top:-.8em;
-                    padding-bottom:.1em;
-                }
+                margin-top:-.2em;
+                padding-bottom:.1em;
             }
         }
     }
+}
 
-    figure {
-        @include respond-to(grande){
-            &.hero.bookmark {
-                max-height:20em;
-            }
+figure {
+    @include respond-to(grande){
+        &.hero.bookmark {
+            max-height:20em;
         }
     }
+}
+
+
+
+// @start ABOUT -------------------- //
+section[role="main"] header {
+    .about {
+        h1 {
+            margin-bottom:0;
+        }
+        .h3 {
+            font-style:italic;
+            color:$lightgrey;
+            font-size:1.05em;
+        }
+    }
+}
