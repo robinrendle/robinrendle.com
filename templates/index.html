@@ -1,45 +1,4 @@
-<!doctype html>
-<!-- HTML5 Boilerplate -->
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
-
-  <head>
-    <meta charset="UTF-8">
-
-    <title>{{ page.name }} is a writer and designer</title>
-
-    <meta name="description" content="This is the personal website of Robin Rendle">
-    <meta name="author" content="Robin Rendle">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
-
-    <!-- For all browsers -->
-    <link rel="stylesheet" href="{{ page.root_path }}/public/css/screen.css">
-    <link rel="stylesheet" media="print" href="{{ page.root_path }}/public/css/print.css">
-
-    <!--[if lt IE 9]>
-      <script src="{{ page.root_path }}/public/js/html5shiv.js" media="all"></script>
-    <![endif]-->
-
-    <!--[if (lt IE 9) & (!IEMobile)]>
-      <script src="{{ page.root_path }}/public/js/selectivizr.js"></script>
-    <![endif]-->
-
-    <!-- WebType fonts -->
-    <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
-
-    <!-- JavaScript -->
-    <script src="{{ page.root_path }}/public/js/modernizr-2.5.3-min.js"></script>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico">
-  </head>
-  <body>
+{% include 'partials/header.html' %}
     <section role="main">
         {% for child in slice (page.root, 1,1) %}
             {% for child in slice (child.children|reverse, start,1) %}
