@@ -40,10 +40,6 @@
     <link rel="shortcut icon" href="/favicon.ico">
   </head>
   <body>
-    <header class="banner">
-        <h1 class="branding"><a href="/">Robin Rendle</a></h1>
-    </header>
-
     <section role="main">
         {% for child in slice (page.root, 1,1) %}
             {% for child in slice (child.children|reverse, start,1) %}
@@ -53,7 +49,7 @@
                     <h1><a href="{{ child.url }}">{{ child.title }}</a></h1>
 
                     <div class="meta">
-                        <p>{{child.location}}</p>
+                        <p>By Robin Rendle</p>
                         <time datetime="{{ child.date | date("Y, m, d") }}" pubdate>{{ child.season }}</time>
                     </div>
                 </header>
