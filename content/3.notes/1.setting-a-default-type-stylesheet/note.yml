@@ -8,7 +8,7 @@ content: |
 
     What we really need here is to define two rules for typography in our stylesheets; one for the core fonts, the other for those from a vendor. Thankfully this is relatively easy if we use [Modernizr](http://modernizr.com/).
 
-    If you haven’t fooled around with Modernizr before then it’s best to describe it as magic, but <em>technically</em> it’s a feature detection library which will add a class to the <code>html</code> element depending on a browser's features. This might be support for <code>svg</code>, <code>audio</code> or even Javascript itself.  On a modern Webkit browser you’ll probably see something like this appended to the <code>html</code> element if Javascript is running:
+    If you haven’t fooled around with Modernizr before then it’s best to describe it as magic, but <em>technically</em> it’s a feature detection library which will add a class to the <code>html</code> element depending on a browser's features. This might be support for <code>svg</code>, <code>audio</code> or even Javascript itself.  On a modern Webkit browser you’ll probably see something like this appended to the <code>html</code> element if Javascript and Modernizr are running properly:
 
     <code>html class=<code class="class">"js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"</code></code>
 
