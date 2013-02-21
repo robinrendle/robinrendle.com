@@ -80,8 +80,8 @@
     $baseh4:1.1em;
     $baseh5:.85em;
 
-    $base-font-size:16px;
-    $base-line-height:24px;
+    $base-font-size:1em;
+    $base-line-height:4em;
 
     // @start HIERARCHY -------------------- //
 
@@ -110,13 +110,8 @@
         line-height:1.3;
         color:$black;
         width:90%;
-        max-width:19.875em;
-
-        @media screen and (min-width:50em) {
-            max-width:21.677419355em;
-        }
+        max-width:21em;
     }
-
     @mixin headline-three {
         @extend %poynter;
         font-size:$baseh3;
@@ -127,7 +122,6 @@
         max-width:29.166666667em;
         width:90%;
     }
-
     @mixin headline-four {
         @extend %poynter;
         font-size:$baseh4;
@@ -138,7 +132,6 @@
         max-width:32em;
         // margin-bottom:calc-em(20, $baseh4);
     }
-
     @mixin headline-five {
         @extend %poynter;
         font-size:$baseh5;
@@ -150,12 +143,10 @@
         text-transform:uppercase;
         // margin-bottom:calc-em(20, $baseh4);
     }
-
     @mixin text {
         @extend %poynter;
         font-size:$base-font-size;
         line-height:$base-line-height;
-
     }
 
 // @start MIXINS -------------------- //
@@ -199,7 +190,6 @@
     }
 
     // @start MEDIA QUERIES -------------------- //
-
     @mixin respond-to($media) {
       @if $media == medium {
         @media screen and (min-width: 30.25em) { @content; }
@@ -211,5 +201,3 @@
         @media screen and (min-width: 991px) { @content; }
       }
     }
-
-
