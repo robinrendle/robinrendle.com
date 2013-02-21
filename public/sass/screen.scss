@@ -62,12 +62,8 @@ body {
         }
 
         @include respond-to(grande) {
-            line-height:1.65;
-            font-size:115%;
-        }
-
-        @media screen and (min-width:50em) {
             line-height:1.6;
+            font-size:115%;
         }
     }
 }
@@ -139,10 +135,8 @@ table,
 .centre,
 dl,
 footer section,
-header.hero,
 .content,
 .about,
-.bookmarking,
 hgroup {
     width:90%;
     max-width:35em;
@@ -161,9 +155,9 @@ hgroup {
     @media screen and (min-width:50em) {
         max-width:35em;
     }
-
-
 } // default widths and margins
+
+
 p,
 blockquote,
 ol,
@@ -205,7 +199,7 @@ em, i, cite, figcaption {
 
 figcaption {
     font-size:.9em;
-    line-height:1.55;
+    line-height:1.5;
     margin-bottom:0;
     text-align:center;
     margin-top:.5em;
@@ -268,7 +262,7 @@ b {
 }
 
 abbr, span {
-    font-size:.9em;
+    font-size:.8em;
     text-transform:uppercase;
 }
 
@@ -433,7 +427,7 @@ fieldset {
         &[type="search"] {
             box-sizing:border-box;
             width:100%;
-            background:url("/public/images/icons/search.png") no-repeat 7px 2px;
+            background:url("/public/images/icons/search.png") no-repeat 7px 3px;
             background-color:$offwhite;
             padding-left:3em;
             padding-top:.4em;
@@ -531,7 +525,7 @@ ul {
     li {
         list-style:none;
         padding-left:1em;
-        background:url("/public/images/icons/list.png") no-repeat 0 14px;
+        background:url("/public/images/icons/list.png") no-repeat 0 13px;
 
         .svg & {
             background-image:url("/public/images/icons/list.svg");
@@ -566,50 +560,102 @@ ol {
 
 // @start BRANDING -------------------- //
 .banner {
-    margin:0 auto 0 auto;
-}
-
-.branding {
     width:100%;
     max-width:none;
     @include text;
     background-color:$tertiary;
-    border-bottom:1px solid #ddd;
-    font-size:95%;
+    border-bottom:1px solid $border;
+    float:left;
 
-    .fontface & {
-        font-size:95%;
-        }
 
-    a {
-        color:$lightgrey;
+    .shell {
         margin:0 auto;
-        padding:1em 1em .4em;
-        display:block;
-        width:9em;
-        background-color:#eee;
-        border-right:1px solid #ddd;
-        border-left:1px solid #ddd;
-        @include transition-property(all);
-        @include transition-duration(.1s);
-        opacity:.4;
-        height:4em;
-        @extend %hide-text;
-        background:url("/public/images/header/logo.png") no-repeat center .7em;
-        background-size:3em;
-
-        .svg & {
-            background-image:url("/public/images/header/logo.svg");
-            background-size:2.3em;
+        padding-top:0;
+        @include respond-to(medium) {
+            width:85%;
         }
 
-        &:hover,
-        &:focus {
-            color:darken($lightgrey,10);
-            background-color:darken(#eee, 2);
-            text-decoration:none;
+        @include respond-to(grande) {
+            max-width:37em;
+        }
+
+        img {
+            position:relative;
+            max-width:5em;
+            border:1px solid #eee;
             @include transition-property(all);
             @include transition-duration(.1s);
+
+            &:hover,
+            &:focus {
+                @include transition-property(all);
+                @include transition-duration(.1s);
+                @include simple-transform( $scale: 1.1 );
+            }
+        }
+
+        h1 {
+            @include text;
+            font-weight:bold;
+        }
+
+        p {
+            text-align:center;
+            margin-top:1.6em;
+            line-height:1.35;
+            color:#888;
+            font-style:italic;
+
+            @include respond-to(grande) {
+                display:block;
+                margin-left:3%;
+                margin-bottom:0;
+                width:50%;
+            }
+        }
+
+        nav {
+            width:100%;
+            float:left;
+            border-top:1px solid $border;
+            border-bottom:1px solid $border;
+
+            ul {
+                margin:0 auto;
+                width:100%;
+                float:left;
+
+                li {
+                    float:left;
+                    list-style:none;
+                    padding:0;
+                    margin:0;
+                    width:initial;
+                    text-align:center;
+                    background-image:none;
+                    font-size:90%;
+                    width:33.3333%;
+                    height:3.8em;
+
+                    a {
+                        margin-bottom:0;
+                        height:3.8em;
+                        color:#888;
+                        float:left;
+                        width:100%;
+                        padding-top:1.1em;
+
+                        &:hover,
+                        &:focus {
+                            color:darken($lightgrey,15);
+                            background-color:darken(#eee, 2);
+                            text-decoration:none;
+                            @include transition-property(all);
+                            @include transition-duration(.1s);
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -619,12 +665,38 @@ section[role="main"] {
     min-height:50em;
 
     header {
+        float:left;
+        width:100%;
         text-align:center;
-        padding-top:4.5em;
-        padding-bottom:2.5em;
+        padding-top:3em;
+        padding-bottom:2em;
+
+        &.hero {
+            padding-top:5em;
+
+            @include respond-to(grande){
+                padding-top:6em;
+            }
+        }
+
 
         h1 {
-            margin-bottom:.2em;
+            margin:0 auto .2em auto;
+            margin-bottom:.1em;
+            width:90%;
+
+            @include respond-to(medium) {
+                width:85%;
+            }
+
+            @include respond-to(grande) {
+                max-width:30em;
+            }
+
+
+            @media screen and (min-width:50em) {
+                max-width:13.5em;
+            }
         }
 
         p {
@@ -680,10 +752,16 @@ figure {
     }
 
     &.hero {
-        margin:0 0 -1.5em 0;
+        margin:0;
+        width:100%;
+        float:left;
         max-height:15em;
         overflow:hidden;
         border-bottom:1px solid darken($border,5);
+
+        img {
+            width:100%;
+        }
     }
 
     &.example {
