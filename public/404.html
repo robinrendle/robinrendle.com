@@ -1,73 +1,65 @@
 <!doctype html>
-<!-- HTML5 Boilerplate -->
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
   <head>
     <meta charset="UTF-8">
 
-    <title>Robin Rendle › 404</title>
+    <title>Robin Rendle › Page not found</title>
 
-    <meta name="description" content="This is the personal website of Robin Rendle">
+    <meta name="description" content="Robin R">
     <meta name="author" content="Robin Rendle">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="public/images/icons/favicon.ico">
+    <link rel="shortcut icon" href="public/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/images/icons/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/images/icons/apple-touch-icon-144.png">
 
     <!-- For all browsers -->
-    <link rel="stylesheet" href="/css/screen.css">
-    <link rel="stylesheet" media="print" href="/css/print.css">
-
-    <!--[if lt IE 9]>
-      <script src="{{ page.root_path }}/public/js/html5shiv.js" media="all"></script>
-    <![endif]-->    
-
-    <!--[if (lt IE 9) & (!IEMobile)]>
-      <script src="{{ page.root_path }}/public/js/selectivizr.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="public/css/screen.css">
+    <link rel="stylesheet" media="print" href="public/css/print.css">
+    <!--[if IE]><link href="public/css/ie.css" rel="stylesheet" /><![endif]-->
 
     <!-- WebType fonts -->
     <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
 
-    <!-- JavaScript -->
-    <script src="/js/modernizr-2.5.3-min.js"></script>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Modernizr -->
+    <script src="../public/js/modernizr-2.5.3-min.js"></script>
   </head>
-  
+
+
   <body>
-    <header class="banner">
-        <h1 class="branding"><a href="/">Robin Rendle</a></h1>
-    </header>
+        <section role="main">
+            <figure class="hero video">
+                <iframe class="video" src="http://www.youtube.com/embed/85LUuF6ZXaU" frameborder="0" allowfullscreen></iframe>
+            </figure>
+            <header>
+                <h1>Holy 404!</h1>
+            </header>
+            <p>Perhaps you were looking for <a href="http://www.robinrendle.com/essays">something to read?</a> Maybe you were searching for an essay about <a href="http://www.robinrendle.com/essays/call-me-interactivity">books</a>, or typography, or maybe the <a href="http://www.robinrendle.com/essays/bookmarking">act of writing itself?</a> If this wasn’t what you were looking for or if there is a problem with the site, then please don’t hesitate to <a href="/about">contact me.</a></p>
+            <p><em>Holy amnesia!</em> You were just looking for <a href="http://www.youtube.com/watch?v=zQVfOguNWBw">more of this</a>, weren”t you?</p>
+
+        </section>
 
 
-    <section role="main">
-     <header class="hero">
-        <h1>404: Not found</h1>
-    </header>
 
-<p>Oops. Sorry about that. Were you looking for things to read? Why not check out an <a href="essays">essay</a> or two.</p>
 
-<p>Or perhaps you’re searching for a way to make web design easier? Take a look at my <a href="notes/web-design-toolkit">web deisgn toolkit.</a><p>
+    <footer role="contentinfo">
+        <nav>
+            <ul>
+                <li><a href="/notes">Notes</a></li>
+                <li><a href="/essays">Essays</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
+    </footer>
 
-  </section>
 
-        <footer role="contentinfo">
-            <nav>
-                <ul>
-                    <li><a href="/notes">Notes</a></li>
-                    <li><a href="/essays">Essays</a></li>
-                    <li><a href="/about">About</a></li>
-                </ul>
-            </nav>
-        </footer>
-    <script src="{{ page.root_path }}/public/js/jquery.js"></script>
-    <script src="{{ page.root_path }}/public/js/onload.js"></script>
-    <script src="{{ page.root_path }}/public/js/jquery.fitvids.js"></script>
+    <script src="../public/js/jquery.js"></script>
+    <script src="../public/js/onload.js"></script>
+    <script src="../public/js/jquery.fitvids.js"></script>
   </body>
+
 </html>
