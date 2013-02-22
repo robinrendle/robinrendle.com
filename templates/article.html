@@ -6,7 +6,7 @@
 
         <div class="meta">
             <p>By Robin Rendle</p>
-            <time datetime="{{ page.date | date("Y, m, d") }}" pubdate>{{ page.season }}</time>
+            <time datetime="{{ page.date | date("Y-m-d") }}">{{ page.season }}</time>
         </div>
     </header>
     <!-- Main content block -->
@@ -16,6 +16,6 @@
     <footer class="about">
         <!-- Extra information about the post-->
         {{ page.meta }}
-    </aside>
+    </footer>
   </section>
 {% include 'partials/footer.html' %}
