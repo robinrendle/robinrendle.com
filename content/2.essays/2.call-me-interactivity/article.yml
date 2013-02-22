@@ -8,7 +8,7 @@ season: Spring 2012
 
 hero: |
 
-  <figure class="hero bookmark">
+  <figure class="hero">
     <img src="/content/2.essays/2.call-me-interactivity/moby.jpg" alt="The Arion Press edition of Mody Dick">
   </figure>
 
@@ -95,5 +95,5 @@ content: |
 meta: |
 
   <footer>
-    <p><em>The image above is courtesy of <a href="http://www.nicksherman.com">Nick Sherman</a>. Care to read more about some badass typography? Head on over to <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts In Use</a></em> for more.</p>
+    <p><em>The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick Sherman</a>. Care to read more about the wonderful typography within? Head on over to the book review at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts In Use</a></em> for more.</p>
   </footer>
