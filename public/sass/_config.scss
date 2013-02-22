@@ -60,7 +60,7 @@
     $offblack:#333;
     $darkgrey:#444;
     $textgrey:#555;
-    $grey:#888;
+    $grey:#999;
     $lightgrey:#aaa;
     $offgrey:#fbfafa;
     $offwhite:#FEFEFE;
@@ -111,6 +111,9 @@
         color:$black;
         width:90%;
         max-width:21em;
+        @include respond-to(medium) {
+            width:85%;
+        }
     }
     @mixin headline-three {
         @extend %poynter;
@@ -191,13 +194,16 @@
 
     // @start MEDIA QUERIES -------------------- //
     @mixin respond-to($media) {
-      @if $media == medium {
-        @media screen and (min-width: 30.25em) { @content; }
-      }
-      @if $media == grande {
-        @media screen and (min-width: 42em) { @content; }
-      }
-      @else if $media == large {
-        @media screen and (min-width: 991px) { @content; }
-      }
+        @if $media == medium {
+            @media screen and (min-width: 30.25em) { @content; }
+        }
+        @if $media == grande {
+            @media screen and (min-width: 42em) { @content; }
+        }
+        @else if $media == large {
+            @media screen and (min-width: 991px) { @content; }
+        }
+        @else if $media == leviathan {
+            @media screen and (min-width: 1300px) { @content; }
+        }
     }
