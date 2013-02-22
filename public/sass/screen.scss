@@ -65,6 +65,11 @@ body {
             line-height:1.6;
             font-size:115%;
         }
+
+        @include respond-to(leviathan){
+            font-size:120%;
+            line-height:1.6;
+        }
     }
 }
 
@@ -151,10 +156,14 @@ hgroup {
         max-width:37em;
     }
 
-
     @media screen and (min-width:50em) {
         max-width:35em;
     }
+
+    @include respond-to(leviathan){
+        max-width:38em;
+    }
+
 } // default widths and margins
 
 
@@ -707,12 +716,14 @@ section[role="main"] {
         }
 
         .meta {
+            font-style:italic;
             time,
             p {
                 font-style:italic;
                 font-size:.95em;
                 color:$grey;
-                display:inline;
+                width:initial;
+                display:inline-block;
             }
 
             p:after {
@@ -755,9 +766,13 @@ figure {
         margin:0;
         width:100%;
         float:left;
-        max-height:15em;
+        max-height:18em;
         overflow:hidden;
         border-bottom:1px solid darken($border,5);
+
+        @include respond-to(leviathan){
+            max-height:22em;
+        }
 
         img {
             width:100%;
