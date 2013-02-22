@@ -29,7 +29,7 @@ section[role="main"] header {
 figure {
     @include respond-to(grande){
         &.hero.bookmark {
-            max-height:20em;
+            max-height:22em;
         }
     }
 }
@@ -44,8 +44,17 @@ section[role="main"] header {
         }
         .h3 {
             font-style:italic;
-            color:$lightgrey;
+            color:$grey;
             font-size:1.05em;
         }
+    }
+}
+
+section[role="main"] figure.video {
+    max-height:26em;
+    border:none;
+
+    iframe {
+        height:22em;
     }
 }
