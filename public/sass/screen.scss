@@ -62,7 +62,7 @@ body {
         }
 
         @include respond-to(grande) {
-            line-height:1.6;
+            line-height:1.55;
             font-size:115%;
         }
 
@@ -72,7 +72,6 @@ body {
         }
     }
 }
-
 // @start LINKS -------------------- //
 a {
     color:$primary;
@@ -127,7 +126,6 @@ h4, .h4 {
 h5, .h5 {
     @include headline-five;
 }
-
 // @start MARGINS -------------------- //
 p,
 blockquote,
@@ -156,7 +154,7 @@ hgroup {
         max-width:37em;
     }
 
-    @media screen and (min-width:50em) {
+    @media screen and (min-width:48em) {
         max-width:35em;
     }
 
