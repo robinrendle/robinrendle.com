@@ -9,4 +9,16 @@
         font-style:italic;
         width:20%;
     }
+
+    p {
+        text-align:right;
+    }
+
+    time {
+        text-align:left;
+    }
+}
+
+footer[role="contentinfo"] nav {
+    padding-top:8em;
 }
