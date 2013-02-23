@@ -62,7 +62,7 @@ body {
         }
 
         @include respond-to(grande) {
-            line-height:1.55;
+            line-height:1.6;
             font-size:115%;
         }
 
@@ -155,11 +155,11 @@ hgroup {
     }
 
     @media screen and (min-width:48em) {
-        max-width:35em;
+        max-width:36em;
     }
 
     @include respond-to(leviathan){
-        max-width:38em;
+        max-width:36em;
     }
 
 } // default widths and margins
