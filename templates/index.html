@@ -1,4 +1,36 @@
-{% include 'partials/header.html' %}
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+    <head>
+        <meta charset="UTF-8">
+
+        <title>{{ page.name }}</title>
+
+        <meta name="description" content="Robin R">
+        <meta name="author" content="Robin Rendle">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="public/images/icons/favicon.ico">
+        <link rel="shortcut icon" href="public/images/icons/favicon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="public/images/icons/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="public/images/icons/apple-touch-icon-144.png">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="public/css/screen.css">
+        <link rel="stylesheet" media="print" href="public/css/print.css">
+        <!--[if IE]><link href="public/css/ie.css" rel="stylesheet" /><![endif]-->
+
+        <!-- WebType fonts -->
+        <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
+
+        <!-- Modernizr and HTML5 Shiv -->
+        <script src="public/js/modernizr-2.5.3-min.js"></script>
+        <script src="public/js/html5shiv.js"></script>
+    </head>
+
+    <body>
     <section role="main">
         {% for child in slice (page.root, 1,1) %}
             {% for child in slice (child.children|reverse, start,1) %}
