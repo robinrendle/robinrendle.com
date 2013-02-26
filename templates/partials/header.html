@@ -7,7 +7,7 @@
 
     <title>{{ page.name }} › {{ page.title }}</title>
 
-    <meta name="description" content="Robin R">
+    <meta name="description" content="Robin Rendle">
     <meta name="author" content="Robin Rendle">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -25,9 +25,15 @@
     <!-- WebType fonts -->
     <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
 
-    <!-- Modernizr and HTML5 Shiv -->
+    <!-- Modernizr -->
     <script src="public/js/modernizr-2.5.3-min.js"></script>
-    <script src="public/js/html5shiv.js"></script>
 
-  </head>
-  <body>
+    </head>
+
+    <body class="{{ page.class }}">
+
+        <header role="banner">
+            <figure class="avatar">
+                <a href="/"><img src="public/images/logo/campfire.jpg"/></a>
+            </figure>
+        </header>

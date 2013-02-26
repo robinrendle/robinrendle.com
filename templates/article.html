@@ -1,21 +1,65 @@
-{% include 'partials/header.html' %}
-  <section role="main">
-    {{ page.hero }}
-    <header class="{{page.header}}">
-        <h1>{{ page.title }}</h1>
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
-        <div class="meta">
-            <p>By Robin Rendle</p>
-            <time datetime="{{ page.date | date("Y-m-d") }}">{{ page.season }}</time>
-        </div>
-    </header>
-    <!-- Main content block -->
-    {{ page.intro }}
-    {{ page.content }}
+  <head>
+    <meta charset="UTF-8">
 
-    <footer class="about">
-        <!-- Extra information about the post-->
-        {{ page.meta }}
-    </footer>
-  </section>
-{% include 'partials/footer.html' %}
+    <title>{{ page.name }} › {{ page.title }}</title>
+
+    <meta name="description" content="Robin Rendle">
+    <meta name="author" content="Robin Rendle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicons -->
+    <link rel="shortcut icon" href="public/images/icons/favicon.ico">
+    <link rel="shortcut icon" href="public/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/images/icons/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/images/icons/apple-touch-icon-144.png">
+
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="public/css/screen.css">
+    <link rel="stylesheet" media="print" href="public/css/print.css">
+    <!--[if IE]><link href="public/css/ie.css" rel="stylesheet" /><![endif]-->
+
+    <!-- WebType fonts -->
+    <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
+
+    <!-- Modernizr -->
+    <script src="public/js/modernizr-2.5.3-min.js"></script>
+
+    </head>
+
+    <body class="{{ page.class }}">
+
+        <header role="banner">
+            <figure class="avatar">
+                <a href="/"><img src="public/images/logo/campfire.jpg"/></a>
+            </figure>
+        </header>
+
+          <section role="main">
+
+            {{ page.hero }}
+
+            <header class="{{page.header}}">
+                <h1>{{ page.title }}</h1>
+
+                <div class="meta">
+                    <p>By Robin Rendle</p>
+                    <time datetime="{{ page.date | date("Y-m-d") }}">{{ page.season }}</time>
+                </div>
+            </header>
+
+            <!-- Main content block -->
+            {{ page.intro }}
+            {{ page.content }}
+
+            {% if page.meta %}
+                <footer class="about">
+                    <!-- Extra information about the post-->
+                    {{ page.meta }}
+                </footer>
+            {% endif %}
+          </section>
+        {% include 'partials/footer.html' %}

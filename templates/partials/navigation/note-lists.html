@@ -3,9 +3,9 @@
     <article>
         <header>
             <h3><a href="{{ child.url }}">{{ child.title }}</a></h3>
-            
+
             <div class="meta">
-                <time datetime="{{ child.date | date("Y, m, d") }}">{{ child.date | date("F j, Y") }}</time>
+                <time datetime="{{ child.date | date("Y-m-d") }}">{{ child.date | date("F j, Y") }}</time>
             </div>
         </header>
     </article>

@@ -7,7 +7,7 @@
 
         <title>{{ page.name }}</title>
 
-        <meta name="description" content="Robin R">
+        <meta name="description" content="Robin Rendle">
         <meta name="author" content="Robin Rendle">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -25,17 +25,22 @@
         <!-- WebType fonts -->
         <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
 
-        <!-- Modernizr and HTML5 Shiv -->
+        <!-- Modernizr -->
         <script src="public/js/modernizr-2.5.3-min.js"></script>
-        <script src="public/js/html5shiv.js"></script>
     </head>
 
     <body>
-    <section role="main">
         {% for child in slice (page.root, 1,1) %}
-            {% for child in slice (child.children|reverse, start,1) %}
+        {% for child in slice (child.children|reverse, start,1) %}
+        <header role="banner">
+            <figure class="avatar">
+                <a href="/"><img src="public/images/logo/campfire.jpg"/></a>
+            </figure>
+        </header>
+
+        <section role="main">
+            {{ child.hero }}
             <article>
-                {{ child.hero }}
                 <header class="{{child.header}}">
                     <h1><a href="{{ child.url }}">{{ child.title }}</a></h1>
 
@@ -48,8 +53,8 @@
                 {{ child.intro }}
                 {{ child.content }}
             </article>
-            {% endfor %}
-        {% endfor %}
     </section>
+    {% endfor %}
+    {% endfor %}
 
     {% include 'partials/footer.html' %}
