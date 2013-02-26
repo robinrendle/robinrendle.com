@@ -573,19 +573,25 @@ ol {
     padding:0;
 
     .avatar {
-        margin:0;
+        margin:0 auto;
         position:absolute;
+        width:4.5em;
+
 
         img {
             margin: 0 auto;
             border:5px solid $primary;
             border-top:1px;
-            @include transition-property(opacity);
+            @include transition-property(border-color);
             @include transition-duration(.2s);
 
             &:hover,
             &:focus {
-                opacity:.7;
+                border-color:lighten($primary, 15);
+
+                body {
+                    border-top:lighten($primary, 15);
+                }
             }
         }
     }
@@ -612,18 +618,12 @@ header {
         margin:0 auto .2em auto;
         margin-bottom:.1em;
         width:90%;
+        max-width:14.4em;
 
         @include respond-to(medium) {
             width:85%;
         }
 
-        @include respond-to(grande) {
-            max-width:17.7em;
-        }
-
-        @media screen and (min-width:50em) {
-            max-width:13.9em;
-        }
     }
 
     p {
@@ -686,9 +686,10 @@ figure {
 
     &.hero {
         margin:0 0 .5em 0;
+        z-index:-9999;
         width:100%;
         float:left;
-        max-height:25em;
+        max-height:26em;
         overflow:hidden;
         border-bottom:1px solid #ddd;
 
