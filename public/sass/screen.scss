@@ -134,6 +134,7 @@ blockquote,
 ol,
 ul,
 pre,
+nav,
 figcaption,
 form,
 table,
@@ -848,15 +849,14 @@ footer[role="contentinfo"] {
     nav {
         background-size:100%;
         padding:2em 0 1.3em 0;
-        width:90%;
         margin:0 auto;
         text-align:center;
         background:url("/public/images/logo/footer-border.png") no-repeat center 0;
         background-size:100%;
-        max-width:35em;
 
         .svg & {
-            background-image:url("/public/images/logo/footer-border.svg");
+            background:url("/public/images/logo/footer-border.svg") no-repeat center 0;
+            background-size:100%;
         }
 
         @include respond-to(medium){
