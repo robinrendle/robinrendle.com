@@ -5,9 +5,9 @@
   <head>
     <meta charset="UTF-8">
 
-    <title>Robin Rendle › Page not found</title>
+    <title>{{ page.name }} › {{ page.title }}</title>
 
-    <meta name="description" content="Robin R">
+    <meta name="description" content="Robin Rendle">
     <meta name="author" content="Robin Rendle">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -26,19 +26,28 @@
     <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
 
     <!-- Modernizr -->
-    <script src="../public/js/modernizr-2.5.3-min.js"></script>
-  </head>
+    <script src="public/js/modernizr-2.5.3-min.js"></script>
 
+    </head>
 
-  <body>
+    <body class="{{ page.class }}">
+
+        <header role="banner">
+            <figure class="avatar">
+                <a href="/"><img src="public/images/logo/campfire.jpg"/></a>
+            </figure>
+        </header>
+
         <section role="main">
             <figure class="hero video">
                 <iframe class="video" src="http://www.youtube.com/embed/85LUuF6ZXaU" frameborder="0" allowfullscreen></iframe>
             </figure>
+
             <header>
                 <h1>Holy 404!</h1>
             </header>
-            <p>Sorry, what you were searching for could not be found. Perhaps you were looking for <a href="http://www.robinrendle.com/essays">something to read?</a> Maybe you were searching for an essay about <a href="http://www.robinrendle.com/essays/call-me-interactivity">books</a>, or typography, or maybe on the <a href="http://www.robinrendle.com/essays/bookmarking">act of writing itself?</a> If this wasn’t what you were looking for or if there is a problem with the site, then please don’t hesitate to <a href="/about">contact me.</a></p>
+
+            <p>Sorry about that, but what you were searching for could not be found. Perhaps you were looking for <a href="http://www.robinrendle.com/essays">something to read?</a> Maybe you were searching for an essay about <a href="http://www.robinrendle.com/essays/call-me-interactivity">books</a>, or typography, or maybe on the <a href="http://www.robinrendle.com/essays/bookmarking">act of writing itself?</a> If this wasn’t what you were looking for or if there is a problem with the site, then please don’t hesitate to <a href="/about">contact me.</a></p>
             <p><em>Holy amnesia!</em> You were just looking for <a href="http://www.youtube.com/watch?v=zQVfOguNWBw">more of this</a>, weren’t you?</p>
 
         </section>
