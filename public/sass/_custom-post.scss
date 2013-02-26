@@ -1,22 +1,21 @@
-// @start HEADER CUSTOM POST STYLES -------------------- //
+// HEADER CUSTOM POST STYLES -------------------- //
+
+
+// 1. BOOKMARKING
+// 2. ABOUT
+
+
 
 // @start BOOKMARKING -------------------- //
 section[role="main"] header {
     &.bookmarking {
         position:relative;
-        padding-top:2.5em;
 
         .meta {
             margin-top:-.3em;
         }
 
         @include respond-to(grande){
-            padding-top:3em;
-
-            h1 {
-                font-size:3em;
-                margin-bottom:0;
-            }
 
             .meta {
                 margin-top:-.2em;
@@ -29,11 +28,10 @@ section[role="main"] header {
 figure {
     @include respond-to(grande){
         &.hero.bookmark {
-            max-height:22em;
+            max-height:30em;
         }
     }
 }
-
 
 
 // @start ABOUT -------------------- //
@@ -55,6 +53,6 @@ section[role="main"] figure.video {
     border:none;
 
     iframe {
-        height:22em;
+        height:28em;
     }
 }

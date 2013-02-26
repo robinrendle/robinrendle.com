@@ -207,6 +207,8 @@ nav.contents {
 // @start LISTING -------------------- //
 section[role="main"] {
     .listing {
+        float:left;
+        width:100%;
         article {
             margin:2.4em 0;
 
@@ -250,36 +252,26 @@ section[role="main"] {
                 }
             }
         }
-    }
-}
 
-section[role="main"] .notes {
-    article {
-        border-bottom:1px solid $border;
-        padding:1.55em 0;
-        width:90%;
-        max-width:35em;
-        margin:0 auto;
+        &.notes {
+            padding-top:1em;
 
-        &:only-child {
-            border:none;
-        }
+            article {
+                float:left;
+                width:100%;
+                margin:0;
 
-        @include respond-to(medium) {
-            width:85%;
-        }
+                header {
 
-        @include respond-to(grande) {
-            max-width:38em;
-        }
+                    &:after {
+                        padding:.5em 0;
+                        display:block;
+                    }
+                }
 
-        header {
-            h3 {
-                margin-top:0;
-            }
-
-            &:after {
-                content:none;
+                &:last-child header:after {
+                    content:"";
+                }
             }
         }
     }

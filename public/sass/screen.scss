@@ -45,6 +45,8 @@ body {
     font-family: Georgia, serif;
     border-top:4px solid $primary;
     border-bottom:4px solid $primary;
+    float:left;
+    width:100%;
 
     @include respond-to(grande){
         font-size:120%;
@@ -137,6 +139,7 @@ form,
 table,
 .centre,
 dl,
+.meta,
 footer section,
 .content,
 .about,
@@ -155,10 +158,6 @@ hgroup {
     }
 
     @media screen and (min-width:48em) {
-        max-width:36em;
-    }
-
-    @include respond-to(leviathan){
         max-width:36em;
     }
 
@@ -322,7 +321,7 @@ hr {
     border:none;
     color:#ccc;
     font-size:1.3em;
-    margin:1em 0 .6em 0;
+    margin:-.4em 0 0.6em 0;
     text-align:center;
     display:block;
 
@@ -566,174 +565,99 @@ ol {
 }
 
 // @start BRANDING -------------------- //
-.banner {
-    width:100%;
-    max-width:none;
-    @include text;
-    background-color:$tertiary;
-    border-bottom:1px solid $border;
+[role="banner"]{
+    max-width:5em;
+    float:none;
+    margin:0 auto;
+    position:relative;
+    padding:0;
+
+    .avatar {
+        margin:0;
+        position:absolute;
+
+        img {
+            margin: 0 auto;
+            border:5px solid $primary;
+            border-top:1px;
+            @include transition-property(opacity);
+            @include transition-duration(.2s);
+
+            &:hover,
+            &:focus {
+                opacity:.7;
+            }
+        }
+    }
+}
+
+
+// @start GLOBAL -------------------- //
+section[role="main"] {
+    min-height:50em;
+}
+
+header {
     float:left;
+    width:100%;
+    text-align:center;
+    padding-top:2.5em;
+    padding-bottom:2em;
 
+    @include respond-to(medium){
+        padding-top:2em;
+    }
 
-    .shell {
-        margin:0 auto;
-        padding-top:0;
+    h1 {
+        margin:0 auto .2em auto;
+        margin-bottom:.1em;
+        width:90%;
+
         @include respond-to(medium) {
             width:85%;
         }
 
         @include respond-to(grande) {
-            max-width:37em;
+            max-width:17.7em;
         }
 
-        img {
-            position:relative;
-            max-width:5em;
-            border:1px solid #eee;
-            @include transition-property(all);
-            @include transition-duration(.1s);
-
-            &:hover,
-            &:focus {
-                @include transition-property(all);
-                @include transition-duration(.1s);
-                @include simple-transform( $scale: 1.1 );
-            }
-        }
-
-        h1 {
-            @include text;
-            font-weight:bold;
-        }
-
-        p {
-            text-align:center;
-            margin-top:1.6em;
-            line-height:1.35;
-            color:#888;
-            font-style:italic;
-
-            @include respond-to(grande) {
-                display:block;
-                margin-left:3%;
-                margin-bottom:0;
-                width:50%;
-            }
-        }
-
-        nav {
-            width:100%;
-            float:left;
-            border-top:1px solid $border;
-            border-bottom:1px solid $border;
-
-            ul {
-                margin:0 auto;
-                width:100%;
-                float:left;
-
-                li {
-                    float:left;
-                    list-style:none;
-                    padding:0;
-                    margin:0;
-                    width:initial;
-                    text-align:center;
-                    background-image:none;
-                    font-size:90%;
-                    width:33.3333%;
-                    height:3.8em;
-
-                    a {
-                        margin-bottom:0;
-                        height:3.8em;
-                        color:#888;
-                        float:left;
-                        width:100%;
-                        padding-top:1.1em;
-
-                        &:hover,
-                        &:focus {
-                            color:darken($lightgrey,15);
-                            background-color:darken(#eee, 2);
-                            text-decoration:none;
-                            @include transition-property(all);
-                            @include transition-duration(.1s);
-                        }
-                    }
-                }
-            }
+        @media screen and (min-width:50em) {
+            max-width:13.9em;
         }
     }
-}
 
-// @start GLOBAL -------------------- //
-section[role="main"] {
-    min-height:50em;
+    p {
+        font-size:.95em;
+        color:$grey;
+        margin-bottom:0;
+        font-style:italic;
+    }
 
-    header {
-        float:left;
-        width:100%;
-        text-align:center;
-        padding-top:3em;
-        padding-bottom:2em;
-
-        &.hero {
-            padding-top:5em;
-
-            @include respond-to(grande){
-                padding-top:6em;
-            }
-        }
-
-
-        h1 {
-            margin:0 auto .2em auto;
-            margin-bottom:.1em;
-            width:90%;
-
-            @include respond-to(medium) {
-                width:85%;
-            }
-
-            @include respond-to(grande) {
-                max-width:30em;
-            }
-
-
-            @media screen and (min-width:50em) {
-                max-width:13.5em;
-            }
-        }
-
+    .meta {
+        font-style:italic;
+        time,
         p {
+            font-style:italic;
             font-size:.95em;
             color:$grey;
-            margin-bottom:0;
-            font-style:italic;
+            width:auto;
+            display:inline-block;
         }
 
-        .meta {
-            font-style:italic;
-            time,
-            p {
-                font-style:italic;
-                font-size:.95em;
-                color:$grey;
-                width:initial;
-                display:inline-block;
-            }
-
-            p:after {
-                content:"~";
-                color:#bbb;
-                display:inline;
-                margin-left:.35em;
-                margin-right:.1em;
-            }
+        p:after {
+            content:"~";
+            color:#bbb;
+            display:inline;
+            margin-left:.35em;
+            margin-right:.1em;
         }
     }
+
+    &.hero {
+        margin-top:6.5em;
+    }
 }
+
 
 iframe {
     width:100%;
@@ -761,15 +685,15 @@ figure {
     }
 
     &.hero {
-        margin:0;
+        margin:0 0 .5em 0;
         width:100%;
         float:left;
-        max-height:18em;
+        max-height:25em;
         overflow:hidden;
-        border-bottom:1px solid darken($border,5);
+        border-bottom:1px solid #ddd;
 
         @include respond-to(leviathan){
-            max-height:22em;
+            max-height:28em;
         }
 
         img {
@@ -787,14 +711,21 @@ figure {
 
         @include respond-to(medium) {
             width:85%;
+            max-width:36em;
         }
 
         figcaption {
             width:100%;
         }
 
-        hgroup {
+        hgroup,
+        header hgroup {
             margin:0 auto;
+
+            h1,h2,h3,h4,h5 {
+                width:100%;
+                max-width:none;
+            }
         }
 
         figure,
@@ -813,6 +744,10 @@ figure {
                 margin-bottom:0;
             }
         }
+    }
+
+    &.centre {
+        clear:both;
     }
 }
 
@@ -883,15 +818,20 @@ hgroup {
     .h1,.h2,.h3,.h4,.h5 {
         width:100%;
         margin:0 auto;
+        max-width:none;
     }
 
     header & {
         margin:0 auto;
+        max-width:none;
+        width:100%;
     }
 }
 
 footer[role="contentinfo"] {
-    margin-top:2em;
+    margin-top:0;
+    float:left;
+    width:100%;
 
     section {
         padding-bottom:.5em;
