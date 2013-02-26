@@ -1,14 +1,13 @@
 hero: |
 
-  <figure class="hero bookmark">
-    <img src="/content/1.about/robin.jpg" alt="Robin Rendle">
-  </figure>
+title: "About Me"
 
-title: About
+hero: |
+    <figure class="hero">
+        <img src="/content/1.about/robin.jpg" alt="Forest">
+    </figure>
 
 subtitle: |
-
-    <h2 class="h3">Writer, designer &amp; feral reader</h2>
 
 content: |
 
