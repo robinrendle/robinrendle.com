@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-  <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Robin Rendle</title>
+    <subtitle>The journal and blog of Robin Rendle</subtitle>
 
-  <title>{{ page.name }}'s {{ page.feed_name }}</title>
-  <link href="http://{{ page.base_url }}/{{ page.permalink }}" hreflang="en" rel="self" type="application/atom+xml"/>
-  <link href="http://{{ page.base_url }}/" hreflang="en" rel="alternate" type="text/html"/>
+    <link href="http://{{ page.base_url }}/{{ page.permalink }}" hreflang="en" rel="self" type="application/atom+xml"/>
+    <link href="http://{{ page.base_url }}/" hreflang="en" rel="alternate" type="text/html"/>
+    <updated>{{ page.site_updated }}</updated>
+    <generator uri="http://staceyapp.com/" version="{{ page.stacey_version }}">Stacey</generator>
+    <id>tag:{{ page.domain_name }},{{ page.current_year }}:/{{ page.permalink }}</id>
 
-  <updated>{{ page.site_updated }}</updated>
-  <generator uri="http://staceyapp.com/" version="{{ page.stacey_version }}">Stacey</generator>
 
-  <author>
-    <name>{{ page.name }}</name>
+    <author>
+    <name>Robin Rendle</name>
     <uri>http://{{ page.base_url }}</uri>
-  </author>
+    </author>
 
-  <id>tag:{{ page.domain_name }},{{ page.current_year }}:/{{ page.permalink }}</id>
-  <rights>©{{ page.current_year }} {{ page.name }}</rights>
-  {% include 'partials/feed/feed-loop.atom' %}
+    {% include 'partials/feed/feed-loop.atom' %}
 
 </feed>
