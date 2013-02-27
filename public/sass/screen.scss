@@ -36,6 +36,7 @@
 html {
     overflow-y:scroll;
     -webkit-font-smoothing: antialiased;
+     -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
 }
 body {
     background-color:$offwhite;
@@ -55,8 +56,12 @@ body {
     .fontface & {
         @extend %poynter;
         font-size: 105%;
-        line-height:1.55;
+        line-height:1.5;
         color:$offblack;
+
+        @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+            font-size:105%;
+        }
 
         @include respond-to(medium) {
             font-size:105%;
@@ -154,12 +159,20 @@ hgroup {
         width:85%;
     }
 
+    /* iPads (portrait and landscape) ----------- */
+
+
     @include respond-to(grande) {
         max-width:37em;
+        width:85%;
     }
 
     @media screen and (min-width:48em) {
         max-width:36em;
+    }
+
+    @include respond-to(widescreen){
+        width:77%;
     }
 
 } // default widths and margins
@@ -237,11 +250,11 @@ small {
 code {
     color:$purple;
     font-family:$code;
-    font-size:.8em;
+    font-size:.9em;
     line-height:1.6;
 
     .fontface &{
-        font-size:.85em;
+        font-size:.95em;
     }
 
     &.class {
@@ -625,6 +638,9 @@ header {
             width:85%;
         }
 
+        @include respond-to(widescreen){
+            width:77%;
+        }
     }
 
     p {
@@ -655,7 +671,11 @@ header {
     }
 
     &.hero {
-        margin-top:6.5em;
+        margin-top:5em;
+
+        @include respond-to(medium){
+            margin-top:6em;
+        }
     }
 }
 
@@ -714,6 +734,10 @@ figure {
         @include respond-to(medium) {
             width:85%;
             max-width:36em;
+        }
+
+        @include respond-to(widescreen){
+            width:77%;
         }
 
         figcaption {
@@ -810,6 +834,7 @@ p {
 
 pre {
     line-height:1.3;
+    overflow:hidden;
     font-size:.95em;
 }
 

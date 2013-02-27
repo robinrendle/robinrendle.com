@@ -27,7 +27,7 @@
 // @start DEFAULT VARIABLES -------------------- //
 
     // @start FONT STACKS -------------------- /
-    $code:'Lucida Console', Monaco, sans-serif;
+    $code:Courier, Monaco, sans-serif;
 
     %miller-headline {
         font-family:"Miller Headline Semi Bold", Georgia, serif;
@@ -74,8 +74,8 @@
 
     // @start FONT SIZES -------------------- //
 
-    $baseh1:2.5em;
-    $baseh2:1.65em;
+    $baseh1:2.2em;
+    $baseh2:1.5em;
     $baseh3:1.15em;
     $baseh4:1.1em;
     $baseh5:.85em;
@@ -93,15 +93,25 @@
 
     @mixin headline-one {
         @extend %miller-headline;
-        font-size:$baseh1 / .3;
+        font-size:$baseh1;
         font-weight:normal;
         line-height:1.25;
         .fontface & {
             font-size:$baseh1;
+            line-height:1.2;
 
-            @include respond-to(medium){
+            @include respond-to(medium) {
                 line-height:1.3;
+                font-size:2.5em;
             }
+
+            @include respond-to(large){
+                font-size:2.6em;
+            }
+        }
+
+        @include respond-to(widescreen){
+            width:77%;
         }
     }
     @mixin headline-two {
@@ -116,6 +126,10 @@
         max-width:21em;
         @include respond-to(medium) {
             width:85%;
+            font-size:1.6em;
+        }
+        @include respond-to(widescreen){
+            width:77%;
         }
     }
     @mixin headline-three {
@@ -127,10 +141,12 @@
         margin:1.5em auto .8em auto;
         max-width:29.166666667em;
         width:90%;
-
         @include respond-to(grande){
             width:85%;
             max-width:31.166666667em;
+        }
+        @include respond-to(widescreen){
+            width:77%;
         }
     }
     @mixin headline-four {
@@ -210,6 +226,9 @@
         }
         @else if $media == large {
             @media screen and (min-width: 991px) { @content; }
+        }
+        @else if $media == widescreen {
+            @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { @content; }
         }
         @else if $media == leviathan {
             @media screen and (min-width: 1300px) { @content; }
