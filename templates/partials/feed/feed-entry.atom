@@ -8,9 +8,6 @@
 
     <content type="xhtml" xml:lang="en">
         <div xmlns="http://www.w3.org/1999/xhtml">
-          {% include 'partials/feed/assets/feed-images.atom' %}
-
-            {{ page.hero }}
             {{ page.intro }}
             {{ page.content }}
         </div>
