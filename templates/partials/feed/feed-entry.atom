@@ -8,6 +8,7 @@
 
     <content type="xhtml" xml:lang="en">
         <div xmlns="http://www.w3.org/1999/xhtml">
+            {{ page.hero }}
             {{ page.intro }}
             {{ page.content }}
         </div>

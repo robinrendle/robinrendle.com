@@ -10,10 +10,7 @@
     <id>tag:{{ page.domain_name }},{{ page.current_year }}:/{{ page.permalink }}</id>
 
 
-    <author>
-    <name>Robin Rendle</name>
-    <uri>http://{{ page.base_url }}</uri>
-    </author>
+    <author><name>Robin Rendle</name><uri>http://robinrendle.com</uri></author>
 
     {% include 'partials/feed/feed-loop.atom' %}
 

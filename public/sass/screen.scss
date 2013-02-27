@@ -56,6 +56,7 @@ body {
     .fontface & {
         @extend %poynter;
         font-size: 105%;
+        line-height:1.5;
         color:$offblack;
 
         @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
