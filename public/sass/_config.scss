@@ -57,6 +57,7 @@
     $border:1px solid $secondary;
 
     $black:#000;
+    $title-black:#111;
     $offblack:#333;
     $darkgrey:#444;
     $textgrey:#555;
@@ -94,6 +95,7 @@
     @mixin headline-one {
         @extend %miller-headline;
         font-size:$baseh1;
+        color:$offblack;
         font-weight:normal;
         line-height:1.25;
         .fontface & {
@@ -121,7 +123,7 @@
         font-style:normal;
         margin:1.8em auto .8em auto;
         line-height:1.35;
-        color:$black;
+        color:$title-black;
         width:90%;
         max-width:21em;
         @include respond-to(medium) {
@@ -136,7 +138,7 @@
         @extend %poynter;
         font-size:$baseh3;
         font-weight:normal;
-        color:$black;
+        color:$title-black;
         line-height:1.4;
         margin:1.5em auto .8em auto;
         max-width:29.166666667em;
@@ -155,7 +157,7 @@
         font-style:italic;
         line-height:1.4;
         margin:1.55em auto 1.4em auto;
-        color:$darkgrey;
+        color:$title-black;
         max-width:32em;
         // margin-bottom:calc-em(20, $baseh4);
     }
@@ -165,7 +167,7 @@
         font-style:normal;
         line-height:1.4;
         margin:1.55em auto 1.2em auto;
-        color:$darkgrey;
+        color:$title-black;
         max-width:39em;
         text-transform:uppercase;
         // margin-bottom:calc-em(20, $baseh4);
