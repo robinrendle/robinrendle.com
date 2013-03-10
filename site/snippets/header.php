@@ -21,6 +21,9 @@
         <link rel="stylesheet" media="print" href="/assets/css/print.css">
         <!--[if IE]><link href="/public/css/ie.css" rel="stylesheet" /><![endif]-->
 
+        <!-- RSS -->
+        <link rel="alternate" type="application/rss+xml" href="<?php echo url('/feed') ?>" title="Essays, articles and notes feed " />
+
         <!-- WebType fonts -->
         <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
 

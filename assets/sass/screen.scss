@@ -638,7 +638,7 @@ header {
         margin:0 auto .2em auto;
         margin-bottom:.1em;
         width:90%;
-        max-width:14.4em;
+        max-width:15em;
 
         @include respond-to(medium) {
             width:85%;
@@ -874,13 +874,13 @@ footer[role="contentinfo"] {
         padding:2em 0 1.3em 0;
         margin:0 auto;
         text-align:center;
-        background:url("/assets/images/logo/footer-border.png") no-repeat center 0;
+        background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
         background-size:100%;
 
-        .svg & {
-            background:url("/assets/images/logo/footer-border.svg") no-repeat center 0;
-            background-size:100%;
-        }
+        // .svg & {
+        //     background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
+        //     background-size:100%;
+        // }
 
         @include respond-to(medium){
             padding-top:2.5em;

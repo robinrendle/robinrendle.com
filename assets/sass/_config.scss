@@ -106,10 +106,6 @@
                 line-height:1.3;
                 font-size:2.5em;
             }
-
-            @include respond-to(large){
-                font-size:2.6em;
-            }
         }
 
         @include respond-to(widescreen){
