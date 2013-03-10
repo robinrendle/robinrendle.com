@@ -2,6 +2,9 @@ composer.lock
 /vendor
 /web/static/css/
 
+/site/cache
+site/cache/7ecb9812e507ad9f91804947318ab2f9.php
+
 # OS generated files #
 ######################
 .DS_Store
@@ -17,3 +20,4 @@ app/_cache/
 public/codekit-config.json
 
 *.rb
+site/cache/7ecb9812e507ad9f91804947318ab2f9.php
