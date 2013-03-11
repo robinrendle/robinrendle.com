@@ -55,12 +55,12 @@ body {
 
     .fontface & {
         @extend %poynter;
-        font-size: 105%;
+        font-size: 100%;
         line-height:1.5;
         color:$offblack;
 
         @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-            font-size:105%;
+            font-size:100%;
         }
 
         @include respond-to(medium) {
@@ -71,11 +71,6 @@ body {
         @include respond-to(grande) {
             line-height:1.6;
             font-size:115%;
-        }
-
-        @media only screen and (-webkit-min-device-pixel-ratio : 1.5) and (min-width : 600px),
-        only screen and (min-device-pixel-ratio : 1.5) and (min-width : 600px) {
-            font-size:110%;
         }
     }
 }
@@ -877,10 +872,10 @@ footer[role="contentinfo"] {
         background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
         background-size:100%;
 
-        // .svg & {
-        //     background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
-        //     background-size:100%;
-        // }
+        .svg & {
+            background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
+            background-size:100%;
+        }
 
         @include respond-to(medium){
             padding-top:2.5em;
