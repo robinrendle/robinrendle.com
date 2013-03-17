@@ -3,7 +3,7 @@
 <section role="main">
 
     <header class="listing">
-        <h1>Quick notes and ramblings</h1>
+        <h1>Quick Notes and Ramblings</h1>
     </header>
 
     <section class="listing notes">
