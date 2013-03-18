@@ -119,6 +119,10 @@ h2, .h2 {
 
 h3, .h3 {
     @include headline-three;
+
+    hgroup h2~& {
+        color:$grey;
+    }
 }
 
 h4, .h4 {
@@ -353,6 +357,9 @@ legend {
     -moz-box-shadow:0 1px #fff;
     -webkit-box-shadow:0 1px #fff;
     box-shadow:0 1px #fff;
+    @include respond-to(grande){
+        width:100%;
+    }
 }
 
 input {
@@ -514,7 +521,7 @@ table {
 
         td,
         th {
-            padding:6px;
+            padding:.7em;
             color:#666;
             text-align:left;
             border:1px solid #ccc;
@@ -690,6 +697,17 @@ img {
 figure {
     margin: $margin*1.5 auto;
 
+    &.full {
+        overflow:hidden;
+        max-height:31em;
+        min-height:16em;
+
+        img {
+            width:100%;
+            float:left;
+        }
+    }
+
     &.quote {
         margin: $margin auto;
     }
@@ -779,8 +797,14 @@ blockquote {
         font-style:italic;
         padding-left: 1em;
         border-left:2px solid #eee;
+        padding-bottom:1.5em;
         margin-bottom:0;
+
+        &:only-child {
+            padding-bottom:0;
+        }
     }
+
 
     em {
         font-style:normal;
