@@ -2,13 +2,13 @@
 
 <section role="main">
     <!-- Big image -->
-        <?php $hero = $page->images()->find ( html($page->hero()) ) ?>
+    <?php $hero = $page->images()->find ( html($page->hero()) ) ?>
 
-        <?php if ($page->images()->find ( html($page->hero()) ) ) { ?>
-            <figure class="hero">
-                <img src="<?php echo $hero->url() ?>" alt="<?php echo $hero->title() ?>" />
-            </figure>
-        <?php } ?>
+    <?php if ($page->hero() ) : ?>
+        <figure class="hero">
+            <img src="<?php echo $hero->url() ?>" alt="<?php echo $hero->title() ?>" />
+        </figure>
+    <?php endif ?>
 
     <!-- Main content -->
     <article>

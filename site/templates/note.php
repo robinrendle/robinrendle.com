@@ -2,6 +2,14 @@
 
 <section role="main">
 
+    <?php $hero = $page->images()->find ( html($page->hero()) ) ?>
+
+    <?php if ($page->hero() ) : ?>
+        <figure class="hero">
+            <img src="<?php echo $hero->url() ?>" alt="<?php echo $hero->title() ?>" />
+        </figure>
+    <?php endif ?>
+
     <!-- Main content -->
     <article>
         <header class="<?php echo $page->header() ?>">

@@ -57,7 +57,7 @@
 
                 <?php $hero = $featured->images()->find ( html($featured->hero()) ) ?>
 
-                <?php if ($featured->images()->find ( html($featured->hero()) ) ) : ?>
+                <?php if ($featured->hero() ) : ?>
                     <figure class="hero">
                         <img src="<?php echo $hero->url() ?>" alt="<?php echo $hero->title() ?>" />
                     </figure>
