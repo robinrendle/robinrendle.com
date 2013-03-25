@@ -9,6 +9,5 @@
         </footer>
     <script src="/assets/js/jquery-ck.js"></script>
     <script src="/assets/js/jquery.fitvids-ck.js"></script>
-    <script src="/assets/js/onload-ck.js"></script>
   </body>
 </html>

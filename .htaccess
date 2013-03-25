@@ -40,7 +40,6 @@ RewriteRule ^(.*) index.php [L]
 </IfModule>
 
 
-
 # ----------------------------------------------------------------------
 # Proper MIME type for all files
 # ----------------------------------------------------------------------
@@ -89,6 +88,14 @@ AddType text/x-component                    htc
 AddType text/x-vcard                        vcf
 
 
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
+
+
 # ----------------------------------------------------------------------
 # Gzip compression
 # ----------------------------------------------------------------------
@@ -117,9 +124,8 @@ AddType text/x-vcard                        vcf
                                   application/xhtml+xml \
                                   application/xml \
                                   font/opentype \
-                                  image/x-icon \
                                   image/svg+xml \
-
+                                  image/x-icon \
                                   text/css \
                                   text/html \
                                   text/plain \
@@ -146,7 +152,7 @@ AddType text/x-vcard                        vcf
   ExpiresActive on
 
 # Perhaps better to whitelist expires rules? Perhaps.
-  ExpiresDefault                          "access plus 1 month"
+  ExpiresDefault                          "access plus 1 week"
 
 # cache.appcache needs re-requests in FF 3.6 (thanks Remy ~Introducing HTML5)
   ExpiresByType text/cache-manifest       "access plus 0 seconds"
@@ -168,9 +174,9 @@ AddType text/x-vcard                        vcf
 
 # Media: images, video, audio
   ExpiresByType audio/ogg                 "access plus 1 month"
-  ExpiresByType image/gif                 "access plus 1 month"
-  ExpiresByType image/jpeg                "access plus 1 month"
-  ExpiresByType image/png                 "access plus 1 month"
+  ExpiresByType image/gif                 "access plus 1 week"
+  ExpiresByType image/jpeg                "access plus 1 week"
+  ExpiresByType image/png                 "access plus 1 week"
   ExpiresByType video/mp4                 "access plus 1 month"
   ExpiresByType video/ogg                 "access plus 1 month"
   ExpiresByType video/webm                "access plus 1 month"
@@ -186,8 +192,7 @@ AddType text/x-vcard                        vcf
   ExpiresByType image/svg+xml             "access plus 1 month"
 
 # CSS and JavaScript
-  ExpiresByType application/javascript    "access plus 1 year"
-  ExpiresByType text/css                  "access plus 1 year"
+  ExpiresByType application/javascript    "access plus 1 week"
+  ExpiresByType text/css                  "access plus 1 week"
 
 </IfModule>
-

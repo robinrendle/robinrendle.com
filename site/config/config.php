@@ -439,7 +439,7 @@ content files/folders in all content folders.
 Just add them to the array here. By default
 the following files are being ignored:
 
-array('.', '..', '.DS_Store', '.svn', '.git', '.htaccess');
+array('.', '..', '.DS_Store', '.svn', '.git');
 
 …so you don't have to add them.
 

@@ -894,23 +894,31 @@ footer[role="contentinfo"] {
         margin:0 auto;
         text-align:center;
         background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
-        background-size:100%;
 
         .svg & {
             background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
-            background-size:100%;
+            background-size:170%;
+
+            @include respond-to(medium){
+                background-size:100%;
+            }
         }
 
         @include respond-to(medium){
             padding-top:2.5em;
+            background-size:100%;
         }
 
         ul {
             font-size:90%;
-            margin:1em 0 0 0;
+            margin:4em 0 0 0;
             width:100%;
             max-width:none;
             padding-top:10%;
+
+            @include respond-to(medium){
+                margin:1.2em 0 0 0;
+            }
 
             li {
                 display:inline-block;
