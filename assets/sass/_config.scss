@@ -1,4 +1,4 @@
-@import "bourbon/bourbon";
+@import "bourbon/bourbon", "neat/neat", "grid-settings";
 
 
 
@@ -121,7 +121,7 @@
         line-height:1.35;
         color:$title-black;
         width:90%;
-        max-width:21em;
+        max-width:22.4em;
         @include respond-to(medium) {
             width:85%;
             font-size:1.6em;
