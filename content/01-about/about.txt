@@ -1,7 +1,5 @@
 Title: About me
 ----
-Hero: robin.jpg
-----
 Text:
 My name’s Robin and currently I’m interning as a designer and front-end developer with the cool guys at [Erskine design](http://erskinedesign.com/) in Nottingham. This is where I [work in public](http://snarkmarket.com/2011/7189), and try to wrap my head around the current state of publishing and the web.
 
