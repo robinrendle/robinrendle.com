@@ -72,6 +72,9 @@ body {
             line-height:1.6;
             font-size:115%;
         }
+
+        @include respond-to(large) {
+        }
     }
 }
 // @start LINKS -------------------- //
@@ -150,7 +153,6 @@ footer section,
 .about,
 hgroup {
     width:90%;
-    max-width:35em;
     margin-left:auto;
     margin-right:auto;
 
@@ -325,6 +327,7 @@ kbd {
     border-radius:3px;
     padding:.3em 0.4em .2em 0.4em;
     font-family:$code;
+    white-space:nowrap;
 }
 
 q:before {content: '“'; content: open-quote;}
@@ -547,7 +550,7 @@ ul {
     li {
         list-style:none;
         padding-left:1em;
-        background:url("/assets/images/icons/list.png") no-repeat 0 13px;
+        background:url("/assets/images/icons/list.png") no-repeat 0 14px;
 
         .svg & {
             background-image:url("/assets/images/icons/list.svg");
