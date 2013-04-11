@@ -122,7 +122,7 @@
         line-height:1.35;
         color:$title-black;
         width:90%;
-        max-width:22.4em;
+        max-width:20.77em;
         @include respond-to(medium) {
             width:85%;
             font-size:1.6em;
@@ -165,7 +165,7 @@
         line-height:1.4;
         margin:1.55em auto 1.2em auto;
         color:$title-black;
-        max-width:39em;
+        max-width:42em;
         text-transform:uppercase;
         // margin-bottom:calc-em(20, $baseh4);
     }
