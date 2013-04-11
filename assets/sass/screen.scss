@@ -74,6 +74,7 @@ body {
         }
 
         @include respond-to(large) {
+            font-size:120%;
         }
     }
 }
@@ -153,6 +154,7 @@ footer section,
 .about,
 hgroup {
     width:90%;
+    max-width:33.5em;
     margin-left:auto;
     margin-right:auto;
 
