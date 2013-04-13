@@ -108,10 +108,6 @@
                 font-size:2.5em;
             }
         }
-
-        @include respond-to(widescreen){
-            width:77%;
-        }
     }
     @mixin headline-two {
         @extend %miller;
@@ -122,13 +118,10 @@
         line-height:1.35;
         color:$title-black;
         width:90%;
-        max-width:20.77em;
+        max-width:20.7em;
         @include respond-to(medium) {
             width:85%;
             font-size:1.6em;
-        }
-        @include respond-to(widescreen){
-            width:77%;
         }
     }
     @mixin headline-three {
@@ -138,14 +131,10 @@
         color:$title-black;
         line-height:1.4;
         margin:1.5em auto .8em auto;
-        max-width:29.166666667em;
+        max-width:28.8em;
         width:90%;
         @include respond-to(grande){
             width:85%;
-            max-width:31.166666667em;
-        }
-        @include respond-to(widescreen){
-            width:77%;
         }
     }
     @mixin headline-four {

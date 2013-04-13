@@ -154,28 +154,12 @@ footer section,
 .about,
 hgroup {
     width:90%;
-    max-width:33.5em;
+    max-width:34em;
     margin-left:auto;
     margin-right:auto;
 
     @include respond-to(medium) {
         width:85%;
-    }
-
-    /* iPads (portrait and landscape) ----------- */
-
-
-    @include respond-to(grande) {
-        max-width:37em;
-        width:85%;
-    }
-
-    @media screen and (min-width:48em) {
-        max-width:36em;
-    }
-
-    @include respond-to(widescreen){
-        width:77%;
     }
 
 } // default widths and margins
@@ -625,7 +609,6 @@ section[role="main"] {
 }
 
 header {
-    float:left;
     width:100%;
     text-align:center;
     padding-top:2.5em;
@@ -645,7 +628,7 @@ header {
         margin:0 auto .2em auto;
         margin-bottom:.1em;
         width:90%;
-        max-width:15em;
+        max-width:13.3em;
 
         @include respond-to(medium) {
             width:85%;
@@ -725,7 +708,6 @@ figure {
         margin:0 0 .5em 0;
         z-index:-9999;
         width:100%;
-        float:left;
         max-height:26em;
         overflow:hidden;
         border-bottom:1px solid #ddd;
