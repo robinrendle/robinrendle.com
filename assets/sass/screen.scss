@@ -72,10 +72,6 @@ body {
             line-height:1.6;
             font-size:115%;
         }
-
-        @include respond-to(large) {
-            font-size:120%;
-        }
     }
 }
 // @start LINKS -------------------- //
