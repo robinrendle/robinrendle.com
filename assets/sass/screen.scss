@@ -72,6 +72,10 @@ body {
             line-height:1.6;
             font-size:115%;
         }
+
+        @include respond-to(large) {
+            font-size:118%;
+        }
     }
 }
 // @start LINKS -------------------- //
@@ -607,17 +611,17 @@ section[role="main"] {
 header {
     width:100%;
     text-align:center;
-    padding-top:2.5em;
+    padding-top:8em;
     padding-bottom:2em;
-    margin-top:5em;
+    margin-top:0;
 
     @include respond-to(medium){
-        padding-top:2em;
-        margin-top:6em;
+        margin-top:0;
     }
 
     &.hero {
         margin-top:0;
+        padding-top:2em;
     }
 
     h1 {
@@ -679,7 +683,7 @@ img {
 }
 
 figure {
-    margin: $margin*1.5 auto;
+    margin:2.325em auto 2.1em auto;
 
     &.full {
         overflow:hidden;
@@ -873,7 +877,7 @@ footer[role="contentinfo"] {
 
     nav {
         background-size:100%;
-        padding:2em 0 1.3em 0;
+        padding:1.5em 0 1.3em 0;
         margin:0 auto;
         text-align:center;
         background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
