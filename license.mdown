@@ -5,6 +5,7 @@ This End User License Agreement (the "Agreement") is a binding legal agreement b
 
 Revised on: 30 December, 2011
 
+
 ##Usage
 
 This Agreement grants a non-exclusive, non-transferable license to install and use a single instance of the Software on a specific Website. Additional Software licenses must be purchased in order to install and use the Software on additional Websites. The Author reserves the right to determine whether use of the Software qualifies under this Agreement. The Author owns all rights, title and interest to the Software (including all intellectual property rights) and reserves all rights to the Software that are not expressly granted in this Agreement.
