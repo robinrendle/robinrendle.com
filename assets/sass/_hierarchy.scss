@@ -1,0 +1,125 @@
+// @start HIERARCHY -------------------- //
+
+$margin:1.55em;
+
+@mixin space {
+    margin-bottom:$margin;
+}
+
+@mixin headline-one {
+    @extend %miller-headline;
+    font-size:$baseh1;
+    color:$offblack;
+    font-weight:normal;
+    line-height:1.25;
+    .fontface & {
+        font-size:$baseh1;
+        line-height:1.2;
+
+        @include respond-to(medium) {
+            font-size:2.4em;
+        }
+
+        @include respond-to(large) {
+            font-size:2.5em;
+        }
+    }
+}
+
+@mixin headline-two {
+    @extend %miller;
+    font-size:$baseh2;
+    font-weight:normal;
+    font-style:normal;
+    margin:1.8em auto .8em auto;
+    line-height:1.35;
+    color:$title-black;
+    width:90%;
+    max-width:20.7em;
+    @include respond-to(medium) {
+        width:85%;
+        font-size:1.6em;
+    }
+}
+
+@mixin headline-three {
+    @extend %poynter;
+    font-size:$baseh3;
+    font-weight:normal;
+    color:$title-black;
+    line-height:1.4;
+    margin:1.5em auto .8em auto;
+    max-width:28.8em;
+    width:90%;
+    @include respond-to(grande){
+        width:85%;
+    }
+}
+
+@mixin headline-four {
+    @extend %poynter;
+    font-size:$baseh4;
+    font-style:italic;
+    line-height:1.4;
+    margin:1.55em auto 1.4em auto;
+    color:$title-black;
+}
+
+@mixin headline-five {
+    @extend %poynter;
+    font-size:$baseh5;
+    font-style:normal;
+    line-height:1.4;
+    margin:1.55em auto 1.2em auto;
+    color:$title-black;
+    text-transform:uppercase;
+}
+
+@mixin text {
+    @extend %poynter;
+    font-size:$base-font-size;
+    line-height:$base-line-height;
+}
+
+
+// @start HEADLINES -------------------- //
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align:center;
+    width:100%;
+}
+
+h1, .h1 {
+    @include headline-one;
+    font-feature-settings: "liga" on;
+    /* vendor-prefixes */
+    -moz-font-feature-settings: 'liga=1';
+    -ms-font-feature-settings: "liga" on;
+    -webkit-font-feature-settings: "liga" on;
+    -o-font-feature-settings: "liga" on;
+    text-rendering: optimizeLegibility;
+}
+
+h2, .h2 {
+    @include headline-two;
+}
+
+h3, .h3 {
+    @include headline-three;
+
+    hgroup h2~& {
+        color:$grey;
+    }
+}
+
+h4, .h4 {
+    @include headline-four;
+}
+
+h5, .h5 {
+    @include headline-five;
+}

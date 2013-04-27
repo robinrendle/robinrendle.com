@@ -28,7 +28,6 @@
 */
 
 
-
 // @start BODY -------------------- //
 * {
     box-sizing:border-box;
@@ -69,12 +68,8 @@ body {
         }
 
         @include respond-to(grande) {
-            line-height:1.6;
-            font-size:115%;
-        }
-
-        @include respond-to(large) {
-            font-size:118%;
+            line-height:1.55;
+            font-size:119%;
         }
     }
 }
@@ -95,76 +90,10 @@ a {
         color:$offblack;
     }
 }
-// @start HEADLINES -------------------- //
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align:center;
-    width:100%;
-}
+// @end LINKS -------------------- //
 
-h1, .h1 {
-    @include headline-one;
-    font-feature-settings: "liga" on;
-    /* vendor-prefixes */
-    -moz-font-feature-settings: 'liga=1';
-    -ms-font-feature-settings: "liga" on;
-    -webkit-font-feature-settings: "liga" on;
-    -o-font-feature-settings: "liga" on;
-    text-rendering: optimizeLegibility;
-}
 
-h2, .h2 {
-    @include headline-two;
-}
-
-h3, .h3 {
-    @include headline-three;
-
-    hgroup h2~& {
-        color:$grey;
-    }
-}
-
-h4, .h4 {
-    @include headline-four;
-}
-
-h5, .h5 {
-    @include headline-five;
-}
 // @start MARGINS -------------------- //
-p,
-blockquote,
-ol,
-ul,
-pre,
-nav,
-figcaption,
-form,
-table,
-.centre,
-dl,
-.meta,
-footer section,
-.content,
-.about,
-hgroup {
-    width:90%;
-    max-width:34em;
-    margin-left:auto;
-    margin-right:auto;
-
-    @include respond-to(medium) {
-        width:85%;
-    }
-
-} // default widths and margins
-
-
 p,
 blockquote,
 ol,
@@ -182,6 +111,7 @@ dl {
         margin-bottom:1.2em;
     }
 }
+
 footer.about {
     font-style:italic;
 
@@ -191,13 +121,8 @@ footer.about {
         max-width:none;
     }
 }
-.centre {
-    figcaption {
-        margin:.5em 0 0 0;
-        width:100%;
-        text-align:left;
-    }
-}
+
+// @end MARGINS -------------------- //
 
 // @start MICRO -------------------- //
 em, i, cite, figcaption {
@@ -208,7 +133,6 @@ figcaption {
     font-size:.9em;
     line-height:1.5;
     margin-bottom:0;
-    text-align:center;
     margin-top:.5em;
     color:$textgrey;
 
@@ -536,11 +460,16 @@ ul {
     li {
         list-style:none;
         padding-left:1em;
-        background:url("/assets/images/icons/list.png") no-repeat 0 14px;
+        background:url("/assets/images/icons/list.png") no-repeat 0 .8em;
 
         .svg & {
             background-image:url("/assets/images/icons/list.svg");
         }
+
+        @include respond-to(grande){
+            background-position:0 .7em;
+        }
+
 
         @include respond-to(grande){
             margin-left:-1em;
@@ -604,6 +533,10 @@ ol {
 
 
 // @start GLOBAL -------------------- //
+.container {
+    @extend %main_column;
+}
+
 section[role="main"] {
     min-height:50em;
 }
@@ -625,18 +558,7 @@ header {
     }
 
     h1 {
-        margin:0 auto .2em auto;
-        margin-bottom:.1em;
-        width:90%;
-        max-width:13.3em;
-
-        @include respond-to(medium) {
-            width:85%;
-        }
-
-        @include respond-to(widescreen){
-            width:77%;
-        }
+        margin:0 auto;
     }
 
     p {
@@ -646,15 +568,19 @@ header {
         font-style:italic;
     }
 
-    .meta {
-        font-style:italic;
+   .meta  {
+        line-height:1.5;
         time,
         p {
-            font-style:italic;
-            font-size:.95em;
+            font-style: normal;
             color:$grey;
             width:auto;
             display:inline-block;
+            font-size:.9em;
+
+            @include respond-to(large){
+                font-size:.85em;
+            }
         }
 
         p:after {
@@ -666,7 +592,6 @@ header {
         }
     }
 }
-
 
 iframe {
     width:100%;
@@ -861,14 +786,12 @@ hgroup {
 
 footer[role="contentinfo"] {
     margin-top:0;
-    float:left;
     width:100%;
 
     section {
         padding-bottom:.5em;
         background-color:$tertiary;
         border:1px solid #ddd;
-        margin:0 auto 2em auto;
 
         p {
             font-size:.9em;
@@ -876,6 +799,7 @@ footer[role="contentinfo"] {
     }
 
     nav {
+        @extend %main_column;
         background-size:100%;
         padding:1.5em 0 1.3em 0;
         margin:0 auto;
@@ -887,13 +811,29 @@ footer[role="contentinfo"] {
             background-size:170%;
 
             @include respond-to(medium){
-                background-size:100%;
+                background-size:150%;
+            }
+
+            @include respond-to(grande){
+                background-size:130%;
             }
         }
 
-        @include respond-to(medium){
+        @media screen and(min-width:26.6875em){
             padding-top:2.5em;
+        }
+
+        @include respond-to(medium){
+            padding-top:3.3em;
             background-size:100%;
+        }
+
+        @media screen and(min-width:35.6875em){
+            padding-top:4em;
+        }
+
+        @include respond-to(grande){
+            padding-top:3em;
         }
 
         ul {
@@ -904,7 +844,7 @@ footer[role="contentinfo"] {
             padding-top:10%;
 
             @include respond-to(medium){
-                margin:1.2em 0 0 0;
+                margin:2em 0 0 0;
             }
 
             li {

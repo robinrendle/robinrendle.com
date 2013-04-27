@@ -1,11 +1,10 @@
-@import "config";
+@import "config","grid-settings", "hierarchy";
 
 /*
     COMPONENTS LIBRARY
     @author: Robin Rendle
 
     CONTENTS ----------
-
         - BLOCK
         - LISTINGS
             - ITEM LISTING
@@ -207,11 +206,10 @@ nav.contents {
 // @start LISTING -------------------- //
 section[role="main"] {
     .listing {
-        float:left;
         width:100%;
 
         article {
-            margin:2.4em 0;
+            margin-top:2.4em;
 
             &:first-child {
                 margin-top: 0;
@@ -258,9 +256,8 @@ section[role="main"] {
             padding-top:1em;
 
             article {
-                float:left;
+                margin-top:0;
                 width:100%;
-                margin:0;
 
                 header {
 

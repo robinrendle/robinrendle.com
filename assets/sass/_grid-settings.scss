@@ -1,40 +1,13 @@
-@import "neat/neat-helpers";
-
-// Change the grid settings
-$column:100px;
-$gutter:25px;
-$grid-columns:10;
-
-// Define your breakpoints
-$small:new-breakpoint(min-width 500px 4);
-$medium:new-breakpoint(min-width 900px 8);
-$large:new-breakpoint(min-width 1400px 8);
 
 
-.grid {
-    @include span-columns(10);
-    background-color:transparent;
-    position:absolute;
-    overflow:hidden;
-    height:100%;
-}
+// @start MARGINS -------------------- //
+%main_column{
+    width:90%;
+    max-width:32em;
+    margin:0 auto;
 
-
-.column {
-    background-color:green;
-    opacity:.1;
-    height:4000px;
-
-
-    @include media($small) {
-        @include span-columns(1);
-    }
-
-    @include media($medium) {
-        @include span-columns(1);
-    }
-
-    @include media($large) {
-        @include span-columns(1);
+    @include respond-to(medium) {
+        width:85%;
     }
 }
+
