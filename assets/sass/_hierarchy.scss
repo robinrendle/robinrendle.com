@@ -34,10 +34,9 @@ $margin:1.55em;
     margin:1.8em auto .8em auto;
     line-height:1.35;
     color:$title-black;
-    width:90%;
     max-width:20.7em;
+
     @include respond-to(medium) {
-        width:85%;
         font-size:1.6em;
     }
 }
@@ -49,11 +48,6 @@ $margin:1.55em;
     color:$title-black;
     line-height:1.4;
     margin:1.5em auto .8em auto;
-    max-width:28.8em;
-    width:90%;
-    @include respond-to(grande){
-        width:85%;
-    }
 }
 
 @mixin headline-four {

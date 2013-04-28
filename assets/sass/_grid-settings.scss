@@ -3,7 +3,7 @@
 // @start MARGINS -------------------- //
 %main_column{
     width:90%;
-    max-width:32em;
+    max-width:33em;
     margin:0 auto;
 
     @include respond-to(medium) {
@@ -11,3 +11,29 @@
     }
 }
 
+
+%pull_left {
+    @media screen and(min-width:68em){
+        width:40%;
+        float:left;
+        position:relative;
+        margin-left:-45%;
+    }
+}
+
+%pull_right {
+    @media screen and(min-width:68em){
+        width:40%;
+        float:right;
+        position:relative;
+        margin-right:-45%;
+    }
+}
+
+.pull_left {
+    @extend %pull_left;
+}
+
+.pull_right {
+    @extend %pull_right;
+}

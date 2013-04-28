@@ -68,8 +68,8 @@ body {
         }
 
         @include respond-to(grande) {
-            line-height:1.55;
-            font-size:119%;
+            line-height:1.6;
+            font-size:116%;
         }
     }
 }
@@ -135,6 +135,12 @@ figcaption {
     margin-bottom:0;
     margin-top:.5em;
     color:$textgrey;
+
+    &.cite {
+        font-weight:bold;
+        font-style:normal;
+        font-size:.9em;
+    }
 
     h5 {
         margin:0 auto;
@@ -260,7 +266,7 @@ hr {
 
 // @start FORM -------------------- //
 legend {
-    @include headline-three;
+    @extend headline-three;
     margin:0 auto 1em auto;
     text-align:center;
     padding-bottom:.3em;
@@ -467,11 +473,7 @@ ul {
         }
 
         @include respond-to(grande){
-            background-position:0 .7em;
-        }
-
-
-        @include respond-to(grande){
+            background-position:0 .8em;
             margin-left:-1em;
         }
     }
@@ -539,6 +541,7 @@ ol {
 
 section[role="main"] {
     min-height:50em;
+    overflow:hidden;
 }
 
 header {
@@ -569,7 +572,7 @@ header {
     }
 
    .meta  {
-        line-height:1.5;
+        line-height:1.6;
         time,
         p {
             font-style: normal;
@@ -608,22 +611,6 @@ img {
 }
 
 figure {
-    margin:2.325em auto 2.1em auto;
-
-    &.full {
-        overflow:hidden;
-        max-height:31em;
-        min-height:16em;
-
-        img {
-            width:100%;
-            float:left;
-        }
-    }
-
-    &.quote {
-        margin: $margin auto;
-    }
 
     img + img {
         margin-top:1em;
@@ -639,10 +626,6 @@ figure {
 
         @include respond-to(leviathan){
             max-height:28em;
-        }
-
-        img {
-            width:100%;
         }
     }
 
@@ -700,6 +683,27 @@ figure {
     }
 }
 
+.cite {
+    >:before {
+        content:"—";
+        padding-right:.2em;
+    }
+    p {
+        font-size:1em;
+        font-style:normal;
+        @extend %poynter;
+        margin-bottom:0;
+        color:$offblack;
+        text-align:left;
+        font-style:normal;
+        width:100%;
+    }
+
+    blockquote+& {
+        margin-top:$margin/2;
+    }
+}
+
 blockquote {
     margin-bottom:0;
 
@@ -726,30 +730,6 @@ blockquote {
     >p:last-of-type {
         margin-bottom:0;
         padding-bottom:0;
-    }
-}
-
-
-figcaption.cite {
-    font-size:1em;
-
-    >:before {
-        content:"—";
-        padding-right:.2em;
-    }
-    p {
-        font-size:1em;
-        font-style:normal;
-        @extend %poynter;
-        margin-bottom:0;
-        color:$offblack;
-        text-align:left;
-        font-style:normal;
-        width:100%;
-    }
-
-    blockquote+& {
-        margin-top:$margin/2;
     }
 }
 
