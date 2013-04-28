@@ -11,7 +11,7 @@
     <?php endif ?>
 
     <!-- Main content -->
-    <article>
+    <article class="container">
         <header class="<?php echo $page->header() ?>">
             <h1><?php echo html($page->title()) ?></h1>
             <div class="meta">
@@ -28,6 +28,7 @@
                 <?php echo markdown($page->meta()) ?>
             </footer>
         <?php } ?>
+
     </article>
 </section>
 

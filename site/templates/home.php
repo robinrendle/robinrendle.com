@@ -40,7 +40,7 @@
         </header>
 
         <section role="main">
-            <article>
+            <article class="container">
             <?php $featured = $pages->children()->last(); ?>
 
                 <?php $hero = $featured->images()->find ( html($featured->hero()) ) ?>

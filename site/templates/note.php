@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <section role="main">
-
+    <!-- Big image -->
     <?php $hero = $page->images()->find ( html($page->hero()) ) ?>
 
     <?php if ($page->hero() ) : ?>
@@ -11,7 +11,7 @@
     <?php endif ?>
 
     <!-- Main content -->
-    <article>
+    <article class="container">
         <header class="<?php echo $page->header() ?>">
             <h1><?php echo html($page->title()) ?></h1>
             <div class="meta">

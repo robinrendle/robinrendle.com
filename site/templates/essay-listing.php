@@ -7,7 +7,7 @@
     </header>
     <section class="essays listing">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
-            <article>
+            <article class="container">
                 <header>
                     <h3>
                         <a href="<?php echo $article->url() ?>">

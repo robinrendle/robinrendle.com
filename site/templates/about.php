@@ -10,11 +10,13 @@
         </figure>
     <?php endif ?>
 
-    <header class="<?php echo $page->header() ?>">
-        <h1><?php echo html($page->title()) ?></h1>
-    </header>
+    <article class="container">
+        <header class="<?php echo $page->header() ?>">
+            <h1><?php echo html($page->title()) ?></h1>
+        </header>
 
-    <?php echo markdown($page->text()) ?>
+        <?php echo markdown($page->text()) ?>
+    </article>
 
 </section>
 
