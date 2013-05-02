@@ -13,7 +13,7 @@
 
 
 %pull_left {
-    @media screen and(min-width:68em){
+    @media screen and(min-width:74em){
         width:40%;
         float:left;
         position:relative;
@@ -22,7 +22,7 @@
 }
 
 %pull_right {
-    @media screen and(min-width:68em){
+    @media screen and(min-width:72em){
         width:40%;
         float:right;
         position:relative;
@@ -32,6 +32,16 @@
 
 .pull_left {
     @extend %pull_left;
+}
+
+p.pull_left {
+
+    @media screen and(min-width:72em) {
+        text-align:right;
+        font-size:.8em;
+        line-height:1.5;
+        color:#777;
+    }
 }
 
 .pull_right {

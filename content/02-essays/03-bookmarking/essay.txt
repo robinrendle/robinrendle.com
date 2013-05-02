@@ -30,7 +30,7 @@ We sneak in and we sneak out again. We spend our time between modules and subsec
 
 Things are improving though. What was once considered daring typographically is now the status quo; web fonts are infinitely more powerful and exploratory, the sheer quality of our screens is phenomenally better, whilst those once common and useless elements of a webpage seem to have finally met their maker. As reading experiences on a screen have improved exponentially over the past five years, the same cannot really be said for marking, highlighting and recording a text. Our travels and readings leave only the faintest memory of our presence, our likes and thumbs are now tools for advertisers instead of trying to be the digital equivalent of a pen and pencil. On a similar note, Grootens seems to suggest that the marks and traces of the reader should be left intact. Wistfully hinting at the matter, he argues that:
 
-<figure class="quote">
+<figure>
 <blockquote>
 <p>Architectural representation has always interested me more than the actual buildings. It is through representation that the architect’s ambitions are articulated and show us who he considers to be his peers. Sketches, models and the way in which buildings are photographed or described all evoke the published collective memory of a profession.</p>
 </blockquote>

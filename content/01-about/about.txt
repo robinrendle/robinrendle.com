@@ -1,7 +1,7 @@
 Title: About me
 ----
 Text:
-My name’s Robin and currently I’m interning as a designer and front-end developer with the cool guys at [Erskine design](http://erskinedesign.com/) in Nottingham. This is where I [work in public](http://snarkmarket.com/2011/7189), and try to wrap my head around the current state of publishing and the web.
+My name’s Robin and currently I’m a designer and front-end developer at [Erskine design](http://erskinedesign.com/) in Nottingham. This is where I [work in public](http://snarkmarket.com/2011/7189), and try to wrap my head around the current state of publishing and the web.
 
 Sometimes I’ll write a small thing or two that’s [rough and messy](/notes), whilst building up to larger, [more complete thoughts](/essays). This is also where I’m learning how to do front-end web development right; from thinking in components, to testing design solutions and building good workflow habits etc., so things might be a little janky from time to time.
 
