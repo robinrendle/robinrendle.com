@@ -1,0 +1,19 @@
+@if $use-grids == true{
+
+/*------------------------------------*\
+    $GRIDS
+\*------------------------------------*/
+/**
+* Grid system coming soon! I can get away with a single column for now (12 June 2013)
+**/
+     %main_column{
+        width:90%;
+        max-width:33em;
+        margin:0 auto;
+
+        @include respond-to(medium) {
+            width:85%;
+        }
+    }
+
+}//endif

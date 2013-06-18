@@ -1,0 +1,112 @@
+/*------------------------------------*\
+    $DEFAULTS
+\*------------------------------------*/
+/**
+ * inuit.css’ default variables. Redefine these in your `_vars.scss` file (found
+ * in the inuit.css-web-template) to override them.
+ */
+
+
+
+
+
+/*------------------------------------*\
+    $BORDER-BOX
+\*------------------------------------*/
+/**
+ * Do you want all elements to adopt `box-sizing:border-box;` as per
+ * paulirish.com/2012/box-sizing-border-box-ftw ?
+ */
+$global-border-box: true!default;
+
+
+
+
+
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/**
+ * Base stuff
+ */
+$base-font-size:    16px!default;
+$base-line-height:  24px!default;
+
+/**
+ * Base font-family.
+ */
+$base-font-family:  serif!default;
+
+/**
+ * Default colour for objects’ borders etc.
+ */
+$base-ui-color:     #ccc!default;
+
+
+
+
+
+
+/*------------------------------------*\
+    $FONT-SIZES
+\*------------------------------------*/
+/**
+ * Default font sizes: !change these to pixels (18/06/2013)!
+ */
+    $baseh1:2.2em;
+    $baseh2:1.5em;
+    $baseh3:1.15em;
+    $baseh4:1.1em;
+    $baseh5:.85em;
+
+    $base-font-size:1em;
+    $base-line-height:4em;
+
+
+
+/*------------------------------------*\
+    $QUOTES
+\*------------------------------------*/
+/**
+ * English quote marks?
+ */
+$english-quotes:    true!default;
+
+
+
+/*------------------------------------*\
+    $OBJECTS AND ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+$use-grids:         false!default;
+$use-flexbox:       false!default;
+$use-columns:       false!default;
+$use-nav:           false!default;
+$use-options:       false!default;
+$use-pagination:    false!default;
+$use-breadcrumb:    false!default;
+$use-media:         false!default;
+$use-marginalia:    false!default;
+$use-island:        false!default;
+$use-block-list:    false!default;
+$use-matrix:        false!default;
+$use-split:         false!default;
+$use-this-or-this:  false!default;
+$use-link-complex:  false!default;
+$use-flyout:        false!default;
+$use-sprite:        false!default;
+
+
+/*------------------------------------*\
+    $FRAMEWORK
+\*------------------------------------*/
+/**
+ * inuit.css will work these next ones out for use within the framework.
+ *
+ * Assign our `$base-line-height` to a new spacing var for more transparency.
+ */
+$base-spacing-unit: $base-line-height!default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
+$line-height-ratio: $base-line-height / $base-font-size;
