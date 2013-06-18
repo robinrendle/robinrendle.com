@@ -15,18 +15,13 @@
         <link rel="shortcut icon" href="/assets/images/icons/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon_144.png">
 
-
-        <!-- For all browsers -->
-        <?php echo css('/assets/css/screen.css') ?>
+        <!-- Styles -->
+        <link href="/assets/css/screen.css" rel="stylesheet">
         <link rel="stylesheet" media="print" href="/assets/css/print.css">
-        <!--[if IE]><link href="/public/css/ie.css" rel="stylesheet" /><![endif]-->
-
         <!-- RSS -->
         <link rel="alternate" type="application/rss+xml" href="<?php echo url('/feed') ?>" title="Essays, articles and notes feed " />
-
-        <!-- WebType fonts -->
+        <!-- Fonts -->
         <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
-
         <!-- Modernizr -->
         <script src="/assets/js/modernizr-2.5.3-min.js"></script>
     </head>

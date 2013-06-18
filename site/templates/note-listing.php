@@ -6,9 +6,9 @@
         <h1>Quick Notes and Ramblings</h1>
     </header>
 
-    <section class="listing notes">
+    <section class="block-list--notes">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
-            <article class="container">
+            <article class="container block-list__item--note">
                 <header>
                     <h3>
                         <a href="<?php echo $article->url() ?>">

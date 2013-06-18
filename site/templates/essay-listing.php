@@ -5,9 +5,9 @@
     <header class="listing">
         <h1>Essays &amp; Articles</h1>
     </header>
-    <section class="essays listing">
+    <section class="essays block-list">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
-            <article class="container">
+            <article class="container block-list--item">
                 <header>
                     <h3>
                         <a href="<?php echo $article->url() ?>">
