@@ -24,10 +24,10 @@ Recently I’ve found that a number of books have dipped in and out of conversat
 
 <figure><img src="/content/03-notes/04-book-by-book/razor.png" alt="The Gillette patent for the first razor"></figure>
 
-<hgroup>
+<div class="hgroup">
     <h2>The Humane Interface</h2>
     <h3>by Jef Raskin</h3>
-</hgroup>
+</div>
 
 <figure><blockquote><p>Instead of icons explaining, we have found that icons often require explanation. If you wanted to obscure or encode an idea to keep it from prying eyes, substituting icons for words might not be a bad start. The interface presents an icon, but the meaning of the icon is not visible&hellip;</p></blockquote></figure>
 
@@ -39,10 +39,10 @@ From the use of icons and metaphors to habit forming commands and button gradien
 <figure><img src="/content/03-notes/04-book-by-book/typewriter.png" alt="The typewriter that was patented by Thomas Oliver"></figure>
 
 
-<hgroup>
+<div class="hgroup">
     <h2>If on a Winter’s Night a Traveller</h2>
     <h3>by Italo Calvino</h3>
-</hgroup>
+</div>
 
 <figure><blockquote><p>On the wall facing my desk hangs a poster somebody game me. The dog Snoopy is sitting at a typewriter, and in the cartoon you read the sentence, “It was a dark and stormy night…”. Every time I sit down here and I read “It was a dark and stormy night…” and the impersonality of that <em>incipit</em> seems to open the passage from one world to the other, from the time and space of here and now to the time and space of the written word; I feel the thrill of a beginning that can be followed by multiple developments, inexhaustibly; I am convinced there is nothing better than a conventional opening, an attack from which you can expect everything and nothing; and I realise also that this mythomane dog will never succeed in adding to the first seven words another seven or another twelve without breaking the spell. The facility of the entrance into another world is an illusion: you start writing in a rush, anticipating the happiness of a future reading, and the void yawns on the white page.</p></blockquote></figure>
 
@@ -52,10 +52,10 @@ It’s a novel about storytelling, about words and characters and beginnings and
 
 <figure><img src="/content/03-notes/04-book-by-book/telegraph.png" alt="A picture of a Chappe telegraph tower"></figure>
 
-<hgroup>
+<div class="hgroup">
     <h2>The Information</h2>
     <h3>by James Gleick</h3>
-</hgroup>
+</div>
 <figure><blockquote><p>The invention of writing had catalysed logic, by making it possible to reason about reasoning — to hold a train of thought up before the eyes for examination — and now, all these centuries later, logic was reanimated with the invention of machinery that could work upon symbols. In logic and mathematics, the highest forms of reasoning, everything seems to be coming together.</p></blockquote></figure>
 
 Found in the stream of brilliance that is Mandy Brown’s [working library](www.aworkinglibrary.com), *The Information* is a history of data, machines and code. Gleick focuses on the innovative and spellbinding events of how communication has developed, but he also questions their knock on effects within a culture. Whilst *If on a winter’s night a traveller* focuses on the reading, this book primarily deals with all of the processes leading up to and surrounding it.
@@ -64,10 +64,10 @@ Unlike the previous books mentioned here though, *The Information* is much broad
 
 <figure><img src="/content/03-notes/04-book-by-book/babbage.png" alt="An illustration of Thomas Babbage’s difference machine, widely believed to be the first computer"></figure>
 
-<hgroup>
+<div class="hgroup">
     <h2>Close to the Machine</h2>
     <h3>by Ellen Ullman</h3>
-</hgroup>
+</div>
 
 So I haven’t read this novel on programming and computers yet but I feel the need to talk about it since *what I’ve read* appears to share so many similarities with *what I’ll read*. The novel is written by [Ellen Ullman](http://en.wikipedia.org/wiki/Ellen_Ullman), who was a programmer before she became a novelist, so her bio had peeked my curiosity before I had even heard of her book. But it was this excellent review by the writer and developer [Paul Ford](http://www.twitter.com/ftrain) that’s pushed it to the top of my to-read list.
 

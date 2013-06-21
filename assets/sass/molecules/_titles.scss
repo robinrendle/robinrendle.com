@@ -1,0 +1,60 @@
+/*------------------------------------*\
+    $TITLE
+\*------------------------------------*/
+/**
+ *
+ * These styles define the layout and stlyes of the main heading: ie. the title of a blog post
+ */
+
+
+.title {
+    width:100%;
+    text-align:center;
+    padding-top:8em;
+    padding-bottom:2em;
+    margin-top:0;
+
+    @include respond-to(medium){
+        margin-top:0;
+    }
+
+    &.hero {
+        margin-top:0;
+        padding-top:2em;
+    }
+
+    h1 {
+        margin:0 auto;
+    }
+
+    p {
+        font-size:.95em;
+        color:$grey;
+        margin-bottom:0;
+        font-style:italic;
+    }
+
+   .meta  {
+        line-height:1.6;
+        time,
+        p {
+            font-style: normal;
+            color:$grey;
+            width:auto;
+            display:inline-block;
+            font-size:.9em;
+
+            @include respond-to(large){
+                font-size:.85em;
+            }
+        }
+
+        p:after {
+            content:"~";
+            color:#bbb;
+            display:inline;
+            margin-left:.35em;
+            margin-right:.1em;
+        }
+    }
+}

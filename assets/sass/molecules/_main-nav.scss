@@ -1,0 +1,29 @@
+
+.main-nav{
+    font-size:90%;
+    margin:4em 0 0 0;
+    width:100%;
+    max-width:none;
+    padding-top:10%;
+
+    li {
+        display:inline-block;
+        list-style:none;
+        background:none;
+        text-align:center;
+        padding-left:.7em;
+        margin-left:0;
+
+        &:after {
+            content:"|";
+            color:darken($lightcream, 20);
+            padding-left:.9em;
+            margin-left:.2em;
+        }
+
+        &:last-child:after {
+            content:"";
+            padding-right:0;
+        }
+
+    }

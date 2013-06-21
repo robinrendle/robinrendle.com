@@ -1,0 +1,44 @@
+/*------------------------------------*\
+    $TABLES
+\*------------------------------------*/
+/**/
+
+table {
+    line-height:1.2;
+    padding:.8em 0;
+    border-collapse:collapse;
+    margin:0 auto 1.55em auto;
+    border-radius:3px;
+
+    tr {
+        font-size:.9em;
+        border-bottom:1px solid #ddd;
+        padding: .3em 1%;
+
+        &:nth-of-type(odd) {
+            background:#F0F0F0;
+        }
+
+        td,
+        th {
+            padding:.7em;
+            color:#666;
+            text-align:left;
+            border:1px solid #ccc;
+        }
+
+        th {
+            border-bottom:1px solid #ccc;
+            color:$offwhite;
+            background-color:$darkgrey;
+            padding:6px;
+        }
+    }
+
+    caption {
+        font-style:italic;
+        display:block;
+        margin-top:1.55em;
+        width:100%;
+    }
+}

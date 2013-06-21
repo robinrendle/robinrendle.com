@@ -1,12 +1,74 @@
-@import "reset", "components", "custom-post";
+/*------------------------------------*\
+    ROBIN RENDLE
+\*------------------------------------*/
+/*!*
+ * A great deal of the modulisation, documentation, BEM and object orientated stuff
+ * here is thanks to the great work of:
+ * inuitcss.com -- @inuitcss -- @csswizardry - Harry Roberts 2013
+ *
+ * As with Inuit CSS, this code is written in the following standard: github.com/csswizardry/CSS-Guidelines
+ *
+ * This design marks version 3 of my blog. It’s also my first attempt to create a
+ * modular website from scratch using OOCSS and component based thinking.
+ *
+ * Atoms are the objects that are the building blocks — molecules are combinations of
+ * these styles to form more complex layout organisms, whilst generic styles are system
+ * wide, basic plumbing code.
+ */
 
-@import "bourbon/bourbon", "neat/neat";
+
+/*------------------------------------*\
+    $CONTENTS
+\*------------------------------------*/
+/**
+ * CONTENTS............You’re reading it!
+ * IMPORTS.............Begin importing the sections below
+ *
+ * Utility ---------------------------------------------------------
+ *
+ * MIXINS..............Adding all the mixins
+ * NORMALIZE...........normalize.css
+ * CLEARFIX............
+ * RESET...............Set defaults
+ * SHARED..............Shared declarations
+ *
+ * Quarks ----------------------------------------------------------
+ *
+ * MAIN................High-level elements like `html`, `body`, etc.
+ * BANNER..............Banner molecule
+ * HEADINGS............Double-stranded heading hierarchy
+ * PARAGRAPHS..........
+ * SMALLPRINT..........Smaller text elements like `small`
+ * BLOCKQUOTES.........
+ * FIGURES.............
+ * QUOTES..............
+ * CODE................
+ * LISTS...............
+ * LINKS...............
+ * IMAGES..............
+ * TABLES..............
+ * FORMS...............
+ * MICRO...............Micro-typographic elements like 'span', 'kbd', etc.
+ *
+ * Atoms -----------------------------------------------------------
+ *
+ * GRIDS...............Coming soon!
+ *
+ *
+ *
+ *
+ *
+ *
+
+**/
+
+
 
 
 /*
-    [ROBINRENDLE.COM V2]
+    [ROBINRENDLE.COM]
 
-    @version: 1.0
+    @version: 3.0
     @author: Robin Rendle
 
     CONTENTS ----------
@@ -32,661 +94,8 @@
 
 
 
+@import "reset", "components", "custom-post";
 
+@import "bourbon/bourbon", "neat/neat";
 
 
-
-
-
-// @start BODY -------------------- //
-* {
-    box-sizing:border-box;
-}
-html {
-    overflow-y:scroll;
-    -webkit-font-smoothing: antialiased;
-}
-body {
-    background-color:$offwhite;
-    font-size: 110%;
-    line-height:1.6;
-    color:$offblack;
-    font-family: Georgia, serif;
-    border-top:4px solid $primary;
-    border-bottom:4px solid $primary;
-    float:left;
-    width:100%;
-
-    @include respond-to(grande){
-        font-size:120%;
-    }
-
-    .fontface & {
-        @extend %poynter;
-        font-size: 100%;
-        line-height:1.5;
-        color:$offblack;
-
-        @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-            font-size:100%;
-        }
-
-        @media screen and (min-width:26.25em){
-            font-size:105%;
-        }
-
-        @media screen and (min-width:36.352941176em) {
-            font-size:110%;
-            line-height:1.6;
-        }
-
-        @include respond-to(grande) {
-            font-size:116%;
-        }
-    }
-}
-// @start LINKS -------------------- //
-a {
-    color:$primary;
-    text-decoration:none;
-    @include transition-property(color);
-    @include transition-duration(.2s);
-
-    &:hover,
-    &:focus {
-        text-decoration:underline;
-        color:$lightgrey;
-    }
-
-    h1 &{
-        color:$offblack;
-    }
-}
-// @end LINKS -------------------- //
-
-
-// @start MARGINS -------------------- //
-p,
-blockquote,
-ol,
-ul,
-pre,
-figure,
-figcaption,
-form,
-table,
-dl {
-    @include space;
-
-    & + h3 {
-        margin-top:2.4em;
-        margin-bottom:1.2em;
-    }
-}
-
-footer.about {
-    font-style:italic;
-
-    p {
-        font-size:.95em;
-        width:100%;
-        max-width:none;
-    }
-}
-
-// @end MARGINS -------------------- //
-
-// @start MICRO -------------------- //
-em, i, cite, figcaption {
-    font-style:italic;
-}
-
-figcaption {
-    font-size:.95em;
-    line-height:1.5;
-    margin-bottom:0;
-    margin-top:.5em;
-    color:$textgrey;
-
-    &.cite {
-        font-weight:bold;
-        font-style:normal;
-
-        .quote & {
-            font-size:.9em;
-        }
-    }
-
-    h5 {
-        margin:0 auto;
-        line-height:1.8;
-    }
-
-    p {
-        margin-bottom:0;
-        text-align: center;
-    }
-}
-
-s {
-    text-decoration:line-through;
-}
-
-small {
-    font-size:.85em;
-    line-height: 1.5;
-    display:inline-block;
-    margin-bottom:0;
-}
-
-samp {
-    font-family:$code;
-    font-size:.9em;
-    color:$darkgrey;
-}
-
-strong,
-b {
-    font-weight:bold;
-}
-
-abbr, span {
-    font-size:.8em;
-    text-transform:uppercase;
-}
-
-dfn {
-    border-bottom:1px dashed darken($secondary,10);
-}
-
-mark {
-    background-color:$highlight;
-    color:#333;
-}
-
-dl {
-    dt {
-        font-weight:bold;
-    }
-
-    dd {
-        margin-left:1.5em;
-    }
-}
-
-sub {
-    line-height:90%;
-    font-size:.8em;
-    vertical-align:sub;
-}
-
-sup {
-    vertical-align:super;
-    line-height:0;
-    font-size:.8em;
-}
-
-kbd {
-    font-size:.6em;
-    line-height:80%;
-    background-color:#FCFCFC;
-    @include background(linear-gradient(top, #FCFCFC, #EEEEEE));
-    border:1px solid #E6E6E6;
-    border-radius:3px;
-    padding:.3em 0.4em .2em 0.4em;
-    font-family:$code;
-    white-space:nowrap;
-}
-
-q:before {content: '“'; content: open-quote;}
-q:after {content: '”'; content: close-quote;}
-
-hr {
-    border:none;
-    color:#ccc;
-    font-size:1.3em;
-    margin:-.3em 0 0.6em 0;
-    text-align:center;
-    display:block;
-
-    &:after {
-        content:"* * *";
-        letter-spacing:.2em;
-        height:0;
-    }
-}
-
-// @start TABLE -------------------- //
-table {
-    line-height:1.2;
-    padding:.8em 0;
-    border-collapse:collapse;
-    margin:0 auto 1.55em auto;
-    border-radius:3px;
-
-    tr {
-        font-size:.9em;
-        border-bottom:1px solid #ddd;
-        padding: .3em 1%;
-
-        &:nth-of-type(odd) {
-            background:#F0F0F0;
-        }
-
-        td,
-        th {
-            padding:.7em;
-            color:#666;
-            text-align:left;
-            border:1px solid #ccc;
-        }
-
-        th {
-            border-bottom:1px solid #ccc;
-            color:$offwhite;
-            background-color:$darkgrey;
-            padding:6px;
-        }
-    }
-
-    caption {
-        font-style:italic;
-        display:block;
-        margin-top:1.55em;
-        width:100%;
-    }
-}
-// @start LISTS -------------------- //
-ul {
-    li {
-        list-style:none;
-        padding-left:1em;
-        background:url("/assets/images/icons/list.png") no-repeat 0 .8em;
-
-        .svg & {
-            background-image:url("/assets/images/icons/list.svg");
-        }
-
-        @include respond-to(grande){
-            background-position:0 .8em;
-            margin-left:-1em;
-        }
-    }
-
-    ul,ol {
-        margin-bottom:0;
-    }
-}
-
-ol {
-    li {
-        list-style:decimal;
-        list-style-position:outside;
-        margin-left:1em;
-        padding-left:0;
-    }
-
-    ol,ul {
-        margin-bottom:0;
-
-        li {
-            list-style:lower-roman;
-        }
-    }
-}
-
-// @start BRANDING -------------------- //
-[role="banner"]{
-    max-width:5em;
-    float:none;
-    margin:0 auto;
-    position:relative;
-    padding:0;
-
-    .avatar {
-        margin:0 auto;
-        position:absolute;
-        width:4.5em;
-
-
-        img {
-            margin: 0 auto;
-            border:5px solid $primary;
-            border-top:1px;
-            @include transition-property(border-color);
-            @include transition-duration(.2s);
-
-            &:hover,
-            &:focus {
-                border-color:lighten($primary, 15);
-
-                body {
-                    border-top:lighten($primary, 15);
-                }
-            }
-        }
-    }
-}
-
-
-// @start GLOBAL -------------------- //
-.container {
-    @extend %main_column;
-}
-
-section[role="main"] {
-    min-height:50em;
-    overflow:hidden;
-}
-
-header {
-    width:100%;
-    text-align:center;
-    padding-top:8em;
-    padding-bottom:2em;
-    margin-top:0;
-
-    @include respond-to(medium){
-        margin-top:0;
-    }
-
-    &.hero {
-        margin-top:0;
-        padding-top:2em;
-    }
-
-    h1 {
-        margin:0 auto;
-    }
-
-    p {
-        font-size:.95em;
-        color:$grey;
-        margin-bottom:0;
-        font-style:italic;
-    }
-
-   .meta  {
-        line-height:1.6;
-        time,
-        p {
-            font-style: normal;
-            color:$grey;
-            width:auto;
-            display:inline-block;
-            font-size:.9em;
-
-            @include respond-to(large){
-                font-size:.85em;
-            }
-        }
-
-        p:after {
-            content:"~";
-            color:#bbb;
-            display:inline;
-            margin-left:.35em;
-            margin-right:.1em;
-        }
-    }
-}
-
-iframe {
-    width:100%;
-
-    &.map {
-        min-height:18em;
-        margin-bottom:-.4em;
-    }
-}
-
-img {
-    max-width:100%;
-    margin:0 auto;
-}
-
-figure {
-
-    img + img {
-        margin-top:1em;
-    }
-
-    &.hero {
-        margin:0 0 .5em 0;
-        z-index:-9999;
-        width:100%;
-        max-height:26em;
-        overflow:hidden;
-        border-bottom:1px solid #ddd;
-
-        @include respond-to(leviathan){
-            max-height:28em;
-        }
-
-        img {
-            width:100%;
-        }
-    }
-
-    &.example {
-        border:1px dashed lighten($secondary,5);
-        padding:.7em 2.5% .8em 2.5%;
-        margin:0 auto 1.7em auto;
-        background-color:$offgrey;
-        width:90%;
-        max-width:35em;
-
-        @include respond-to(medium) {
-            width:85%;
-            max-width:36em;
-        }
-
-        @include respond-to(widescreen){
-            width:77%;
-        }
-
-        figcaption {
-            width:100%;
-        }
-
-        hgroup,
-        header hgroup {
-            margin:0 auto;
-
-            h1,h2,h3,h4,h5 {
-                width:100%;
-                max-width:none;
-            }
-        }
-
-        figure,
-        p,
-        blockquote,
-        h3,
-        ol,
-        ul,
-        pre,
-        form,
-        table,
-        dl {
-            width:100%;
-            margin:0 0 1.55em 0;
-            &:last-child {
-                margin-bottom:0;
-            }
-        }
-    }
-
-    &.centre {
-        clear:both;
-    }
-}
-
-.cite {
-    >:before {
-        content:"—";
-        padding-right:.2em;
-    }
-    p {
-        font-size:1em;
-        font-style:normal;
-        @extend %poynter;
-        margin-bottom:0;
-        color:$offblack;
-        text-align:left;
-        font-style:normal;
-        width:100%;
-    }
-
-    blockquote+& {
-        margin-top:$margin/2;
-    }
-}
-
-blockquote {
-    margin-bottom:0;
-
-    p {
-        width:100%;
-        color:$textgrey;
-        font-style:italic;
-        padding-left: 1em;
-        border-left:2px solid #eee;
-        padding-bottom:1.5em;
-        margin-bottom:0;
-
-        &:only-child {
-            padding-bottom:0;
-        }
-    }
-
-
-    em {
-        font-style:normal;
-        @extend %poynter;
-    }
-
-    >p:last-of-type {
-        margin-bottom:0;
-        padding-bottom:0;
-    }
-}
-
-p {
-    -webkit-hyphens:auto;
-    -moz-hyphens:auto;
-    -ms-hyphens:auto;
-    -o-hyphens:auto;
-    hyphens:auto;
-}
-
-pre {
-    line-height:1.3;
-    overflow:hidden;
-    font-size:.95em;
-}
-
-hgroup {
-    margin:2.5em auto 1.55em auto;
-
-    h1,h2,h3,h4,
-    .h1,.h2,.h3,.h4,.h5 {
-        width:100%;
-        margin:0 auto;
-        max-width:none;
-    }
-
-    header & {
-        margin:0 auto;
-        max-width:none;
-        width:100%;
-    }
-}
-
-footer[role="contentinfo"] {
-    margin-top:0;
-    width:100%;
-
-    section {
-        padding-bottom:.5em;
-        background-color:$tertiary;
-        border:1px solid #ddd;
-
-        p {
-            font-size:.9em;
-        }
-    }
-
-    nav {
-        @extend %main_column;
-        background-size:100%;
-        padding:1.5em 0 1.3em 0;
-        margin:0 auto;
-        text-align:center;
-        background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
-
-        .svg & {
-            background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
-            background-size:170%;
-
-            @include respond-to(medium){
-                background-size:150%;
-            }
-
-            @include respond-to(grande){
-                background-size:130%;
-            }
-        }
-
-        @media screen and(min-width:26.6875em){
-            padding-top:2.5em;
-        }
-
-        @include respond-to(medium){
-            padding-top:3.3em;
-            background-size:100%;
-        }
-
-        @media screen and(min-width:35.6875em){
-            padding-top:4em;
-        }
-
-        @include respond-to(grande){
-            padding-top:3em;
-        }
-
-        ul {
-            font-size:90%;
-            margin:4em 0 0 0;
-            width:100%;
-            max-width:none;
-            padding-top:10%;
-
-            @include respond-to(medium){
-                margin:2em 0 0 0;
-            }
-
-            li {
-                display:inline-block;
-                list-style:none;
-                background:none;
-                text-align:center;
-                padding-left:.7em;
-                margin-left:0;
-
-                &:after {
-                    content:"|";
-                    color:darken($lightcream, 20);
-                    padding-left:.9em;
-                    margin-left:.2em;
-                }
-
-                &:last-child:after {
-                    content:"";
-                    padding-right:0;
-                }
-
-            }
-        }
-    }
-}

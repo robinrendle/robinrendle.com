@@ -25,11 +25,11 @@ $margin:1.55em;
         font-size:$baseh1;
         line-height:1.2;
 
-        @include respond-to(medium) {
+        @include respond-to($medium) {
             font-size:2.4em;
         }
 
-        @include respond-to(large) {
+        @include respond-to($large) {
             font-size:2.5em;
         }
     }
@@ -128,3 +128,23 @@ h5, .h5 {
 }
 
 
+
+/**
+ * Headings can be combined together with this class
+ */
+.hgroup {
+    margin:2.5em auto 1.55em auto;
+
+    h1,h2,h3,h4,
+    .h1,.h2,.h3,.h4,.h5 {
+        width:100%;
+        margin:0 auto;
+        max-width:none;
+    }
+
+    header & {
+        margin:0 auto;
+        max-width:none;
+        width:100%;
+    }
+}

@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+
+a {
+    color:$primary;
+    text-decoration:none;
+    @include transition-property(color);
+    @include transition-duration(.2s);
+
+    &:hover,
+    &:focus {
+        text-decoration:underline;
+        color:$lightgrey;
+    }
+
+    h1 & {
+        color:$offblack;
+    }
+}

@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+* {
+    box-sizing:border-box;
+}
+
+html{
+    overflow-y:scroll;
+    min-height:100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color:$offwhite;
+    font-size: 110%;
+    line-height:1.6;
+    color:$offblack;
+    font-family: Georgia, serif;
+    border-top:4px solid $primary;
+    border-bottom:4px solid $primary;
+    float:left;
+    width:100%;
+
+    @include respond-to($grande){
+        font-size:120%;
+    }
+
+    .fontface & {
+        @extend %poynter;
+        font-size: 100%;
+        line-height:1.5;
+        color:$offblack;
+
+        @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+            font-size:100%;
+        }
+
+        @media screen and (min-width:26.25em){
+            font-size:105%;
+        }
+
+        @media screen and (min-width:36.352941176em) {
+            font-size:110%;
+            line-height:1.6;
+        }
+
+        @include respond-to($grande) {
+            font-size:116%;
+        }
+    }
+}

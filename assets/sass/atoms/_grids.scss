@@ -15,5 +15,13 @@
             width:85%;
         }
     }
+    .container {
+        @extend %main_column;
+    }
+
+    section[role="main"] {
+        min-height:50em;
+        overflow:hidden;
+    }
 
 }//endif

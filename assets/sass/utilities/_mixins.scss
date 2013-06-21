@@ -1,0 +1,55 @@
+/*------------------------------------*\
+    $MIXINS
+\*------------------------------------*/
+
+    /**
+     * Inline block: http://bit.ly/thoughtbot-bourbon-inline-block
+     */
+    @mixin inline-block {
+        display:inline-block;
+        vertical-align:baseline;
+        zoom:1;
+        *display:inline;
+        *vertical-align:auto;
+    }
+
+    /**
+     * Gradient mixin: add a color -> get your lovely gradient
+     */
+    @mixin gradient($default, $from, $to){
+        background-image:$default;
+        background-image: -webkit-linear-gradient(top, $from, $to);
+        background-image: -o-linear-gradient(top, $from, $to);
+        background-image: -moz-linear-gradient(top, $from, $to);
+        background-image: -webkit-linear-gradient(top, $from, $to);
+        background-image: -ms-linear-gradient(top, $from, $to);
+    }
+
+    /**
+     * Media query magic
+     */
+
+
+    @mixin respond-to($media) {
+        @if type_of($media) == number {
+            @media screen and (min-width: $media) { @content; }
+        }
+        @if type_of($media) == string {
+            @if $media == hidpi {
+                @media  only screen and (-webkit-min-device-pixel-ratio: 2),
+                        only screen and (   min--moz-device-pixel-ratio: 2),
+                        only screen and (     -o-min-device-pixel-ratio: 2/1),
+                        only screen and (        min-device-pixel-ratio: 2),
+                        only screen and (                min-resolution: 192dpi),
+                        only screen and (                min-resolution: 2dppx) { @content; }
+            }
+        }
+    }
+
+
+    @mixin transitions(@transition){
+        -webkit-transition: @transition;
+        -moz-transition: @transition;
+        -o-transition: @transition;
+        transition: @transition;
+    }

@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    $BANNER
+\*------------------------------------*/
+/**
+ *
+ * For the time being this is how we’ll sort out the logo situation -- note to self: make this more OO
+ */
+
+
+[role="banner"]{
+    max-width:5em;
+    float:none;
+    margin:0 auto;
+    position:relative;
+    padding:0;
+
+    .avatar {
+        margin:0 auto;
+        position:absolute;
+        width:4.5em;
+
+        img {
+            margin: 0 auto;
+            border: 5px solid $primary;
+            border-top: 1px;
+            @include transition(border-color , .2s, ease-in);
+
+            &:hover,
+            &:focus {
+                border-color:lighten($primary, 15);
+
+                body {
+                    border-top:lighten($primary, 15);
+                }
+            }
+        }
+    }
+}
