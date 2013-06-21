@@ -29,9 +29,9 @@
     <body class="<?php echo html($page->title()) ?>">
 
         <header role="banner">
-            <figure class="avatar">
-                <a href="/"><img src="/assets/images/logo/campfire.jpg"/></a>
-            </figure>
+            <h1 class="avatar">
+                <a href="/">Robin Rendle</a>
+            </h1>
         </header>
 
         <section role="main">
@@ -46,7 +46,7 @@
                     </figure>
                 <?php endif ?>
 
-                <header class="<?php echo $featured->header() ?>">
+                <header class="<?php echo $featured->header() ?> title">
                     <h1 class="hero"><?php echo $featured->title() ?></h1>
                     <div class="meta">
                         <p>By Robin Rendle</p>

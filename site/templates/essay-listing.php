@@ -2,7 +2,7 @@
 
 <section role="main">
 
-    <header class="listing">
+    <header class="listing title">
         <h1>Essays &amp; Articles</h1>
     </header>
     <section class="essays block-list">

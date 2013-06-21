@@ -2,14 +2,14 @@
 
 <section role="main">
 
-    <header class="listing">
+    <header class="listing title">
         <h1>Quick Notes and Ramblings</h1>
     </header>
 
     <section class="block-list--notes">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
             <article class="container block-list__item--note">
-                <header>
+                <header class="title">
                     <h3>
                         <a href="<?php echo $article->url() ?>">
                             <?php echo html($article->title()) ?>

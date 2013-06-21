@@ -11,7 +11,7 @@
     <?php endif ?>
 
     <article class="container">
-        <header class="<?php echo $page->header() ?>">
+        <header class="<?php echo $page->header() ?> title">
             <h1><?php echo html($page->title()) ?></h1>
         </header>
 
