@@ -74,14 +74,11 @@
     Note listing requires a bit of layout fiddling to look right
     */
     .block-list--notes {
-        @extend .block_list;
         margin-top:0;
         }
     }
 
     .block-list--item__note {
-        @extend .block-list--item;
-
         header:after {
             padding:.5em 0;
             display:block;
