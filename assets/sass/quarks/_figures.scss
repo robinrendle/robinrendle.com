@@ -15,10 +15,6 @@ figure {
         overflow:hidden;
         border-bottom:1px solid #ddd;
 
-        @include breakpoint($leviathan) {
-            max-height:28em;
-        }
-
         img {
             width:100%;
         }
@@ -96,7 +92,7 @@ figure {
     }
 
     blockquote+& {
-        margin-top:$margin/2;
+        margin-top:$base-spacing-unit/2;
     }
 }
 

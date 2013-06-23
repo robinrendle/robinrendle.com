@@ -20,7 +20,7 @@
             border:none;
             padding-left:0;
 
-            @include respond-to(medium){
+            @include breakpoint($medium){
                 font-size:.95em;
             }
         }

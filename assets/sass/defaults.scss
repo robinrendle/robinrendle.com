@@ -22,9 +22,6 @@ $widescreen: 109.375em;
 
 
 
-
-
-
 /*------------------------------------*\
     $BASE
 \*------------------------------------*/
@@ -36,19 +33,19 @@ $h2-size: 24px!default;
 $h3-size: 18px!default;
 $h4-size: 14px!default;
 
-$base-font-size: 16px!default;
+$base-font-size: 17px!default;
 $base-line-height: 24px!default;
 
 
 /**
  * Base font-family.
- */
+*/
 $base-font-family: serif!default;
 
 
 /**
  * Base ui colors.
- */
+*/
 $base-ui-color: #ccc!default;
 
 
@@ -63,27 +60,21 @@ $english-quotes:    true!default;
 
 
 /*------------------------------------*\
-    $OBJECTS AND ABSTRACTIONS
+    $ATOMS AND ABSTRACTIONS
 \*------------------------------------*/
 /**
  * Which objects and abstractions would you like to use?
  */
-$use-grids:         false!default;
-$use-flexbox:       false!default;
-$use-columns:       false!default;
-$use-nav:           false!default;
-$use-options:       false!default;
-$use-pagination:    false!default;
-$use-breadcrumb:    false!default;
-$use-media:         false!default;
-$use-marginalia:    false!default;
-$use-island:        false!default;
+$use-beautons:      false!default;
 $use-block-list:    false!default;
-$use-matrix:        false!default;
-$use-split:         false!default;
-$use-this-or-this:  false!default;
-$use-link-complex:  false!default;
-$use-flyout:        false!default;
+$use-item-list:    false!default;
+$use-grids:         false!default;
+$use-icon-text:     false!default;
+$use-island:        false!default;
+$use-marginalia:    false!default;
+$use-media:         false!default;
+$use-nav:           false!default;
+$use-rules:         false!default;
 $use-sprite:        false!default;
 
 

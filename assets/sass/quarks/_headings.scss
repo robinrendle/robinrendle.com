@@ -8,25 +8,18 @@
  * heading hierarchy.
  */
 
-
-$margin:1.55em;
-
-@mixin space {
-    margin-bottom:$margin;
-}
-
 @mixin headline-one {
     @extend %miller-headline;
-    font-size:$baseh1;
+    font-size:$h1-size;
     color:$offblack;
     font-weight:normal;
     line-height:1.25;
     .fontface & {
-        font-size:$baseh1;
+        font-size:$h1-size;
         line-height:1.2;
 
         @include breakpoint($medium) {
-            font-size:2.4em;
+            font-size:calc($h1-size*1.1);
         }
 
         @include breakpoint($large) {
@@ -37,7 +30,7 @@ $margin:1.55em;
 
 @mixin headline-two {
     @extend %miller;
-    font-size:$baseh2;
+    font-size:$h2-size;
     font-weight:normal;
     font-style:normal;
     margin:1.8em auto .8em auto;
@@ -52,7 +45,7 @@ $margin:1.55em;
 
 @mixin headline-three {
     @extend %poynter;
-    font-size:$baseh3;
+    font-size:$h3-size;
     font-weight:normal;
     color:$title-black;
     line-height:1.4;
@@ -61,7 +54,7 @@ $margin:1.55em;
 
 @mixin headline-four {
     @extend %poynter;
-    font-size:$baseh4;
+    font-size:$h3-size;
     font-style:italic;
     line-height:1.4;
     margin:1.55em auto 1.4em auto;
@@ -70,7 +63,7 @@ $margin:1.55em;
 
 @mixin headline-five {
     @extend %poynter;
-    font-size:$baseh5;
+    font-size:$h4-size;
     font-style:normal;
     line-height:1.4;
     margin:1.55em auto 1.2em auto;

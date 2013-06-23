@@ -10,17 +10,31 @@
  * Thanks to @redclov3r for the `line-height` Sass:
  * twitter.com/redclov3r/status/250301539321798657
  */
-
+@mixin font-size($font-size, $line-height:true){
+    font-size:$font-size;
+    font-size:($font-size / $base-font-size)*1rem;
+    @if $line-height == true{
+        line-height:ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
+    }
+}
 
 /**
 * Convert to REM
 **/
 
+// what we need is to enter is this:
+// font-size: @include calc-rem(16);
+//
+// and for it to output this:
+// font-size: 16px;
+// font-size: 1rem;
+//
+//
+// currently this sucks a whole bunch:
 @function calc-rem($target, $context: $base-font-size) {
     //pixel values here
     @return ($target / $context) * 1rem;
 }
-
 
 /**
 * Using the Kellum method to hide text from an element and serving it as a placeholder.

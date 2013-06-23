@@ -42,7 +42,7 @@
     }
 
     %red-gradient {
-        @include gradient(darken($primary, 15%), $primary, darken($primary), 10%);
+        @include gradient(darken($primary, 15%), $primary, darken($primary, 10%));
     }
 
     %cream-gradient {

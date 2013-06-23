@@ -7,19 +7,6 @@
  * As per: csswizardry.com/2011/10/reset-restarted
  */
 
-@if $global-border-box == true{
-    /**
-    * Let’s make the box model all nice, shall we...?
-    */
-    *{
-        &,
-        &:before,
-        &:after{
-            @include vendor(box-sizing, border-box);
-        }
-    }
-}
-
 /**
  * The usual...
  */

@@ -11,7 +11,7 @@ html{
 
 body {
     background-color:$offwhite;
-    font-size: 110%;
+    font-size:100%;
     line-height:1.6;
     color:$offblack;
     font-family: Georgia, serif;
@@ -20,15 +20,13 @@ body {
     float:left;
     width:100%;
 
-    @include respond-to($grande){
+    @include breakpoint($grande){
         font-size:120%;
     }
 
     .fontface & {
         @extend %poynter;
-        font-size: 100%;
         line-height:1.5;
-        color:$offblack;
 
         @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
             font-size:100%;
@@ -43,7 +41,7 @@ body {
             line-height:1.6;
         }
 
-        @include breakpoitn($grande) {
+        @include breakpoint($grande) {
             font-size:116%;
         }
     }

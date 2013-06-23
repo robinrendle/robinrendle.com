@@ -21,7 +21,7 @@ ul {
             background-image:url("/assets/images/icons/list.svg");
         }
 
-        @include respond-to(grande){
+        @include breakpoint($grande){
             background-position:0 .8em;
             margin-left:-1em;
         }
