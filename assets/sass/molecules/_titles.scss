@@ -14,7 +14,7 @@
     padding-bottom:2em;
     margin-top:0;
 
-    @include respond-to(medium){
+    @include breakpoint($medium) {
         margin-top:0;
     }
 
@@ -44,7 +44,7 @@
             display:inline-block;
             font-size:.9em;
 
-            @include respond-to(large){
+            @include breakpoint($large) {
                 font-size:.85em;
             }
         }
