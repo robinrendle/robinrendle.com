@@ -15,7 +15,7 @@ figure {
         overflow:hidden;
         border-bottom:1px solid #ddd;
 
-        @include respond-to(leviathan){
+        @include breakpoint($leviathan) {
             max-height:28em;
         }
 
@@ -32,12 +32,12 @@ figure {
         width:90%;
         max-width:35em;
 
-        @include respond-to(medium) {
+        @include breakpoint($medium) {
             width:85%;
             max-width:36em;
         }
 
-        @include respond-to(widescreen){
+        @include breakpoint($widescreen) {
             width:77%;
         }
 

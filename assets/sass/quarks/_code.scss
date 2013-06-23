@@ -2,7 +2,7 @@
     $CODE
 \*------------------------------------*/
 /**
- * Use an explicit font stack to ensure browsers render correct `line-height`.
+ *
  */
 
  pre{
@@ -13,7 +13,6 @@
         border-bottom:1px solid;
         color:inherit;
     }
-
 
 code {
     color:$purple;

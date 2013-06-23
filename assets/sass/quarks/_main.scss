@@ -1,9 +1,7 @@
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
-* {
-    box-sizing:border-box;
-}
+* { @include box-sizing('border-box'); }
 
 html{
     overflow-y:scroll;
@@ -36,16 +34,16 @@ body {
             font-size:100%;
         }
 
-        @media screen and (min-width:26.25em){
+        @include breakpoint(26.25em) {
             font-size:105%;
         }
 
-        @media screen and (min-width:36.352941176em) {
+        @include breakpoint(36.352941176em) {
             font-size:110%;
             line-height:1.6;
         }
 
-        @include respond-to($grande) {
+        @include breakpoitn($grande) {
             font-size:116%;
         }
     }

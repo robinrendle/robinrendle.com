@@ -25,11 +25,11 @@ $margin:1.55em;
         font-size:$baseh1;
         line-height:1.2;
 
-        @include respond-to($medium) {
+        @include breakpoint($medium) {
             font-size:2.4em;
         }
 
-        @include respond-to($large) {
+        @include breakpoint($large) {
             font-size:2.5em;
         }
     }
@@ -45,7 +45,7 @@ $margin:1.55em;
     color:$title-black;
     max-width:20.7em;
 
-    @include respond-to(medium) {
+    @include breakpoint($medium) {
         font-size:1.6em;
     }
 }
@@ -99,11 +99,8 @@ h6 {
 h1, .h1 {
     @include headline-one;
     font-feature-settings: "liga" on;
-    /* vendor-prefixes */
     -moz-font-feature-settings: 'liga=1';
-    -ms-font-feature-settings: "liga" on;
     -webkit-font-feature-settings: "liga" on;
-    -o-font-feature-settings: "liga" on;
     text-rendering: optimizeLegibility;
 }
 

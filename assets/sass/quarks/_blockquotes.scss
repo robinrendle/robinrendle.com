@@ -19,7 +19,6 @@ blockquote {
         }
     }
 
-
     em {
         font-style:normal;
         @extend %poynter;
@@ -28,63 +27,5 @@ blockquote {
     >p:last-of-type {
         margin-bottom:0;
         padding-bottom:0;
-    }
-}
-
-footer[role="contentinfo"] {
-    margin-top:0;
-    width:100%;
-
-    section {
-        padding-bottom:.5em;
-        background-color:$tertiary;
-        border:1px solid #ddd;
-
-        p {
-            font-size:.9em;
-        }
-    }
-
-    nav {
-        @extend %main_column;
-        background-size:100%;
-        padding:1.5em 0 1.3em 0;
-        margin:0 auto;
-        text-align:center;
-        background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
-
-        .svg & {
-            background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
-            background-size:170%;
-
-            @include respond-to(medium){
-                background-size:150%;
-            }
-
-            @include respond-to(grande){
-                background-size:130%;
-            }
-        }
-
-        @media screen and(min-width:26.6875em){
-            padding-top:2.5em;
-        }
-
-        @include respond-to(medium){
-            padding-top:3.3em;
-            background-size:100%;
-        }
-
-        @media screen and(min-width:35.6875em){
-            padding-top:4em;
-        }
-
-        @include respond-to(grande){
-            padding-top:3em;
-        }
-
-        ul {
-            @extend %horizontal-list;
-        }
     }
 }
