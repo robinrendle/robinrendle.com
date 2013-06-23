@@ -4,16 +4,24 @@
 /*!*
  * A great deal of the modulisation, documentation, BEM and object orientated stuff
  * here is thanks to the great work of:
- * inuitcss.com -- @inuitcss -- @csswizardry - Harry Roberts 2013
  *
- * As with Inuit CSS, this code is written in the following standard: github.com/csswizardry/CSS-Guidelines
+ * inuitcss.com -- @inuitcss -- @csswizardry - Harry Roberts ©2013
+ *
+ * As with Inuit CSS, this code is written with the following standards: github.com/csswizardry/CSS-Guidelines
  *
  * This design marks version 3 of my blog. It’s also my first attempt to create a
- * modular website from scratch using OOCSS and component based thinking.
+ * modular website from scratch using OOCSS and component based thinking. Here’s a
+ * breakdown of the modules I’m using:
  *
- * Atoms are the objects that are the building blocks — molecules are combinations of
- * these styles to form more complex layout organisms, whilst generic styles are system
- * wide, basic plumbing code.
+ * Quarks are classless, styling of default HTML elements.
+ *
+ * Atoms are the objects that we can use as building blocks to create molecules.
+ *
+ * Molecules are combinations of atoms to create more complicated structures.
+ *
+ * Utilities are system wide styles such as normalize and reset, colors, font-stacks etc.
+ * that can be used anywhere and at any time.
+ *
  */
 
 
@@ -24,79 +32,132 @@
  * CONTENTS............You’re reading it!
  * IMPORTS.............Begin importing the sections below
  *
- * Utility ---------------------------------------------------------
+ * Utilities ---------------------------------------------------------
  *
- * MIXINS..............Adding all the mixins
  * NORMALIZE...........normalize.css
- * CLEARFIX............
  * RESET...............Set defaults
+ * CLEARFIX............
  * SHARED..............Shared declarations
+ * FONT-STACK..........Font stack settings
+ * HELPER..............Handy layout classes for classless items
+ * MIXINS..............Cool guy mixins
+ *
+ * External compass includes ---------------------------------------
+ *
+ * TOOLKIT.............
+ * BREAKPOINT..........
  *
  * Quarks ----------------------------------------------------------
  *
  * MAIN................High-level elements like `html`, `body`, etc.
- * BANNER..............Banner molecule
  * HEADINGS............Double-stranded heading hierarchy
  * PARAGRAPHS..........
- * SMALLPRINT..........Smaller text elements like `small`
  * BLOCKQUOTES.........
- * FIGURES.............
- * QUOTES..............
  * CODE................
+ * FIGURES.............
+ * FORMS...............
  * LISTS...............
  * LINKS...............
  * IMAGES..............
  * TABLES..............
- * FORMS...............
+ * QUOTES..............
+ * SMALLPRINT..........Smaller text elements like `small`
  * MICRO...............Micro-typographic elements like 'span', 'kbd', etc.
  *
  * Atoms -----------------------------------------------------------
  *
  * GRIDS...............Coming soon!
- * NAV.................A simple abstraction to put a list in horizontal nav mode
+ * NAV.................Put a list in horizontal nav mode
  * MEDIA...............Media object
+ * MARGINALIA..........Simple marginalia content
  * ISLAND..............Boxed off content
+ * BLOCK-LIST..........Blocky lists of content
+ * ITEM-LIST...........Item of articles ie. RSS feed style
+ * SPRITE..............Generic spriting element
+ * ICON-TEXT...........Icon and text couplings
+ * BEAUTONS............Use the beautons micro library for buttons
+ * RULES...............Horizontal rules
+ *
+ * Molecules ------------------------------------------------------
+ *
+ * BANNER..............Top banner
+ * CUSTOM-POST.........Artisinal styles for individual essays
+ * FOOTER-NAV.......... // REQUIRES FIXINGS
+ * TITLES..............Layout styles of the main introductory heading
  *
  *
- *
- *
-
 **/
 
 
 
+/*------------------------------------*\
+    $IMPORTS
+\*------------------------------------*/
 
-/*
-    [ROBINRENDLE.COM]
-
-    @version: 3.0
-    @author: Robin Rendle
-
-    CONTENTS ----------
-
-        - BODY
-            - ACCESSIBILITY NAVIGATION
-        - DEFAULT STYLING
-            - FORMS
-            - TABLES
-            - LISTS
-        - LINKS
-        - MICRO
-        - LAYOUT
-            - HEADER & BRANDING
-            - FOOTER
-        - NAVIGATION
-            - HORIZONTAL CLASS
-            - PRIMARY NAVIGATION
-        - GLOBAL ELEMENTS & COMPONENTS
-
-    -------------------
-*/
+/**
+ * Utilities; generic utility styles etc.
+ */
+@import "utlities/normalize";
+@import "utlities/reset";
+@import "utlities/clearfix";
+@import "utlities/shared";
+@import "utlities/font-stack";
+@import "utlities/helper";
+@import "utlities/mixins";
 
 
 
-@import "reset", "components", "custom-post";
+/**
+ * External compass includes; make sure to update the config.rb
+ */
+@import "toolkit"; // http://cl.ly/2u3h1u0W0x1D
+@import "breakpoint"; // http://cl.ly/1F112q0Q0D28
 
-@import "bourbon/bourbon", "neat/neat";
+
+
+/**
+ * Quarks; classless styling of default elements
+ */
+ @import "quarks/main";
+ @import "quarks/headings";
+ @import "quarks/paragraphs";
+ @import "quarks/blockquotes";
+ @import "quarks/code";
+ @import "quarks/figures";
+ @import "quarks/forms";
+ @import "quarks/lists";
+ @import "quarks/links";
+ @import "quarks/images";
+ @import "quarks/tables";
+ @import "quarks/quotes";
+ @import "quarks/small-print";
+ @import "quarks/micro";
+
+
+
+ /**
+ * Atoms; objects and abstractions
+ */
+@import "atoms/grids";
+@import "atoms/nav";
+@import "atoms/media";
+@import "atoms/marginalia";
+@import "atoms/island";
+@import "atoms/block-list";
+@import "atoms/item-list";
+@import "atoms/sprite";
+@import "atoms/icon-text";
+@import "atoms/beautons";
+@import "atoms/rules";
+
+
+
+ /**
+ * Molecules; combinations of atoms into one-of-a-kind styles (main-nav, etc)
+ */
+@import "molecules/banner";
+@import "molecules/custom-post";
+@import "molecules/footer-nav";
+@import "molecules/titles";
 
 
