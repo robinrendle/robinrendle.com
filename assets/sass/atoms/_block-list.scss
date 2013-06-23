@@ -1,5 +1,3 @@
-
-
 @if $use-block-list == true or $use-matrix == true{
 
 /*------------------------------------*\
@@ -20,72 +18,27 @@
  * Demo: jsfiddle.net/inuitcss/hR57q
  *
  */
+.block-list{
 
-
-.block-list {
-    width:100%;
+    &,
+    > li{
+        border:0 solid $base-ui-color;
+    }
 }
-    .block-list__item {
-        margin-top:2.4em;
+.block-list{
+    list-style:none;
+    margin-left:0;
+    border-top-width:1px;
 
-        &:first-child {
-            margin-top: 0;
-
-            h3 {
-                margin-top:0;
-            }
-        }
-
-        &:last-child .content {
-            border-bottom:none;
-        }
-
-        header {
-            margin:0 auto;
-            padding:0;
-
-            &:after{
-                content:"—";
-                color:#ddd;
-            }
-
-            h3 {
-                margin:0 auto;
-                font-size:$baseh3+.2;
-                line-height:1.3;
-            }
-        }
-        .content {
-            border-bottom:1px solid $border;
-            padding-bottom:2em;
-
-            p {
-                margin-bottom:0;
-                display:inline;
-            }
-            a {
-                display:inline;
-            }
-        }
+    > li{
+        border-bottom-width:1px;
+        padding:$half-spacing-unit;
     }
-
-
-    /*
-    Note listing requires a bit of layout fiddling to look right
-    */
-    .block-list--notes {
-        margin-top:0;
-        }
-    }
-
-    .block-list--item__note {
-        header:after {
-            padding:.5em 0;
+}
+        .block-list__link{
             display:block;
+            padding:$half-spacing-unit;
+            margin:-$half-spacing-unit;
         }
 
-        &:last-child header:after {
-            content:"";
-        }
-    }
 }//endif
