@@ -1,0 +1,94 @@
+/*------------------------------------*\
+    $FOOTER NAV
+\*------------------------------------*/
+
+.main-nav{
+    font-size:90%;
+    margin:4em 0 0 0;
+    width:100%;
+    max-width:none;
+    padding-top:10%;
+
+    li {
+        display:inline-block;
+        list-style:none;
+        background:none;
+        text-align:center;
+        padding-left:.7em;
+        margin-left:0;
+
+        &:after {
+            content:"|";
+            color:darken($lightcream, 20);
+            padding-left:.9em;
+            margin-left:.2em;
+        }
+
+        &:last-child:after {
+            content:"";
+            padding-right:0;
+        }
+
+    }
+}
+
+
+
+
+footer[role="contentinfo"] {
+    margin-top:0;
+    width:100%;
+
+    section {
+        padding-bottom:.5em;
+        background-color:$tertiary;
+        border:1px solid #ddd;
+
+        p {
+            font-size:.9em;
+        }
+    }
+
+    nav {
+        @extend %main_column;
+        background-size:100%;
+        padding:1.5em 0 1.3em 0;
+        margin:0 auto;
+        text-align:center;
+        background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
+
+        .svg & {
+            background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
+            background-size:170%;
+
+            @include breakpoint ($medium) {
+                background-size:150%;
+            }
+
+            @include breakpoint ($grande) {
+                background-size:130%;
+            }
+        }
+
+        @include breakpoint (26.6875em) {
+            padding-top:2.5em;
+        }
+
+        @include breakpoint($medium) {
+            padding-top:3.3em;
+            background-size:100%;
+        }
+
+        @include breakpoint(35.6875em) {
+            padding-top:4em;
+        }
+
+        @include breakpoint($grande) {
+            padding-top:3em;
+        }
+
+        ul {
+            @extend %horizontal-list;
+        }
+    }
+}
