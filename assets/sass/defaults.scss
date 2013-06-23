@@ -2,22 +2,24 @@
     $DEFAULTS
 \*------------------------------------*/
 /**
- * inuit.css’ default variables. Redefine these in your `_vars.scss` file (found
- * in the inuit.css-web-template) to override them.
+ * Quickly set your default variables
  */
-
-
 
 
 
 /*------------------------------------*\
-    $BORDER-BOX
+    $BREAKPOINTS
 \*------------------------------------*/
 /**
- * Do you want all elements to adopt `box-sizing:border-box;` as per
- * paulirish.com/2012/box-sizing-border-box-ftw ?
+ * Enter breakpoint variables here
  */
-$global-border-box: true!default;
+
+$medium: 30.25em;
+$grande: 42em;
+$large: 61.9375em;
+$desktop: 64.4375em;
+$widescreen: 109.375em;
+
 
 
 
@@ -27,41 +29,27 @@ $global-border-box: true!default;
     $BASE
 \*------------------------------------*/
 /**
- * Base stuff
+ * Font-sizes (in pixels). Refer to relevant sections for their implementations.
  */
-$base-font-size:    16px!default;
-$base-line-height:  24px!default;
+$h1-size: 35px!default;
+$h2-size: 24px!default;
+$h3-size: 18px!default;
+$h4-size: 14px!default;
+
+$base-font-size: 16px!default;
+$base-line-height: 24px!default;
+
 
 /**
  * Base font-family.
  */
-$base-font-family:  serif!default;
+$base-font-family: serif!default;
+
 
 /**
- * Default colour for objects’ borders etc.
+ * Base ui colors.
  */
-$base-ui-color:     #ccc!default;
-
-
-
-
-
-
-/*------------------------------------*\
-    $FONT-SIZES
-\*------------------------------------*/
-/**
- * Default font sizes: !change these to pixels (18/06/2013)!
- */
-    $baseh1:2.2em;
-    $baseh2:1.5em;
-    $baseh3:1.15em;
-    $baseh4:1.1em;
-    $baseh5:.85em;
-
-    $base-font-size:1em;
-    $base-line-height:4em;
-
+$base-ui-color: #ccc!default;
 
 
 /*------------------------------------*\
@@ -97,6 +85,7 @@ $use-this-or-this:  false!default;
 $use-link-complex:  false!default;
 $use-flyout:        false!default;
 $use-sprite:        false!default;
+
 
 
 /*------------------------------------*\
