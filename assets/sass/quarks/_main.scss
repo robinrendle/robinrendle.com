@@ -11,16 +11,16 @@ html{
 
 body {
     background-color:$offwhite;
-    font-size:100%;
+    font-size:104%;
     line-height:1.6;
-    color:$offblack;
+    color: $offblack;
     font-family: Georgia, serif;
     border-top:4px solid $primary;
     border-bottom:4px solid $primary;
     float:left;
     width:100%;
 
-    @include breakpoint($grande){
+    @include breakpoint($grande) {
         font-size:120%;
     }
 
@@ -32,13 +32,13 @@ body {
             font-size:100%;
         }
 
-        @include breakpoint(26.25em) {
+        @include breakpoint(26.25) {
             font-size:105%;
         }
 
-        @include breakpoint(36.352941176em) {
+        @include breakpoint(36.352941176) {
             font-size:110%;
-            line-height:1.6;
+            line-height:1.65;
         }
 
         @include breakpoint($grande) {
