@@ -11,7 +11,7 @@
 @mixin headline-one {
     @extend %miller-headline;
     font-size:$h1-size;
-    color:$offblack;
+    color:$title-black;
     font-weight:normal;
     line-height:1.25;
     .fontface & {
