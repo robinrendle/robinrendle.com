@@ -2,13 +2,13 @@
 
 <section role="main">
 
-    <header class="listing title">
+    <header class="title container">
         <h1>Quick Notes and Ramblings</h1>
     </header>
 
-    <section class="block-list--notes">
+    <section class="item-list item-list--notes">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
-            <article class="container block-list__item--note">
+            <article class="container item-list__item item-list__item--notes">
                 <header class="title">
                     <h3>
                         <a href="<?php echo $article->url() ?>">
