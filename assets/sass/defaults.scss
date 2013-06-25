@@ -34,7 +34,7 @@ $h3-size: 18px!default;
 $h4-size: 14px!default;
 
 $base-font-size: 17px!default;
-$base-line-height: 24px!default;
+$base-line-height: 28px!default;
 
 
 /**
@@ -65,10 +65,10 @@ $english-quotes:    true!default;
 /**
  * Which objects and abstractions would you like to use?
  */
-$use-beautons:      false!default;
-$use-block-list:    false!default;
-$use-item-list:    false!default;
-$use-grids:         false!default;
+$use-beautons:      true!default;
+$use-block-list:    true!default;
+$use-item-list:     true!default;
+$use-grids:         true!default;
 $use-icon-text:     false!default;
 $use-island:        false!default;
 $use-marginalia:    false!default;
