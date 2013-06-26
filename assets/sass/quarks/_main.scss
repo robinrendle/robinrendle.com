@@ -32,17 +32,17 @@ body {
             font-size:100%;
         }
 
-        @include breakpoint(26.25) {
+        @include breakpoint(26.25em) {
             font-size:105%;
         }
 
-        @include breakpoint(36.352941176) {
+        @include breakpoint(36.352941176em) {
             font-size:110%;
             line-height:1.65;
         }
 
         @include breakpoint($grande) {
-            font-size:116%;
+            font-size:118%;
         }
     }
 }

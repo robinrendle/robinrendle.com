@@ -11,7 +11,7 @@
         max-width:33em;
         margin:0 auto;
 
-        @include respond-to(medium) {
+        @include breakpoint($medium) {
             width:85%;
         }
     }
