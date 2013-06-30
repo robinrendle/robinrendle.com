@@ -19,10 +19,6 @@
         line-height:1.2;
 
         @include breakpoint($medium) {
-            font-size:2em;
-        }
-
-        @include breakpoint($large) {
             font-size:2.5em;
         }
     }

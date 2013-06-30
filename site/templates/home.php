@@ -13,7 +13,7 @@
         <!-- favicons -->
         <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
         <link rel="shortcut icon" href="/assets/images/icons/favicon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon_144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
 
         <!-- Styles -->
         <link href="/assets/css/screen.css" rel="stylesheet">
@@ -29,9 +29,7 @@
     <body class="<?php echo html($page->title()) ?>">
 
         <header role="banner">
-            <h1 class="avatar">
-                <a href="/">Robin Rendle</a>
-            </h1>
+            <h1 class="avatar">Robin Rendle</h1>
         </header>
 
         <section role="main">

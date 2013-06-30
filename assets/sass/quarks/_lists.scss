@@ -12,18 +12,19 @@ li{
 }
 
 ul {
+    margin-left: $base-spacing-unit;
+
     li {
         list-style:none;
-        padding-left:1em;
-        background:url("/assets/images/icons/list.png") no-repeat 0 .8em;
+        position:relative;
 
-        .svg & {
-            background-image:url("/assets/images/icons/list.svg");
-        }
-
-        @include breakpoint($grande){
-            background-position:0 .8em;
-            margin-left:-1em;
+        &:before {
+            content:"•";
+            color: #C96F6F;
+            left:(- $half-spacing-unit - 3px);
+            padding:0;
+            margin:0;
+            position:absolute;
         }
     }
 

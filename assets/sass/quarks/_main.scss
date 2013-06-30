@@ -12,7 +12,7 @@ html{
 body {
     background-color:$offwhite;
     font-size:104%;
-    line-height:1.6;
+    line-height: $line-height-ratio;
     color: $offblack;
     font-family: Georgia, serif;
     border-top:4px solid $primary;
@@ -26,7 +26,6 @@ body {
 
     .fontface & {
         @extend %poynter;
-        line-height:1.5;
 
         @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
             font-size:100%;
@@ -38,7 +37,6 @@ body {
 
         @include breakpoint(36.352941176em) {
             font-size:110%;
-            line-height:1.65;
         }
 
         @include breakpoint($grande) {

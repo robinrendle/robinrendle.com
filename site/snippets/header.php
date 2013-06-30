@@ -30,7 +30,7 @@
     <body class="<?php echo html($page->title()) ?>">
 
         <header role="banner">
-            <figure class="avatar">
-                <a href="/"><img src="/assets/images/logo/campfire.jpg"/></a>
-            </figure>
+            <h1>
+                <a class="avatar" href="/">Robin Rendle</a>
+            </h1>
         </header>

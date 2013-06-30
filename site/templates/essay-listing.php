@@ -2,13 +2,14 @@
 
 <section role="main">
 
-    <header class="listing title">
+    <header class="title">
         <h1>Essays &amp; Articles</h1>
     </header>
-    <section class="essays block-list">
+
+    <section class="essays item-list">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
-            <article class="container block-list--item">
-                <header>
+            <article class="container item-list__item item-list__item--essays">
+                <header class="hgroup">
                     <h3>
                         <a href="<?php echo $article->url() ?>">
                             <?php echo html($article->title()) ?>
@@ -20,9 +21,9 @@
                     </div>
                 </header>
 
-                <div class="content">
+                <div class="item-content">
                     <p><?php echo markdown($article->excerpt()) ?></p>
-                    <a href="<?php echo $article->url() ?>">Read more &raquo;</a>
+                    <a class="item-content__read-more" href="<?php echo $article->url() ?>">Read more &raquo;</a>
                 </div>
 
             </article>

@@ -89,4 +89,5 @@ $use-sprite:        true!default;
  */
 $base-spacing-unit: $base-line-height!default;
 $half-spacing-unit: $base-spacing-unit / 2!default;
+$quarter-spacing-unit: $half-spacing-unit / 2!default;
 $line-height-ratio: $base-line-height / $base-font-size;

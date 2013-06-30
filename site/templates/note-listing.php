@@ -9,7 +9,7 @@
     <section class="item-list item-list--notes">
         <?php foreach($page->children()->visible()->flip() as $article): ?>
             <article class="container item-list__item item-list__item--notes">
-                <header class="title">
+                <header class="hgroup">
                     <h3>
                         <a href="<?php echo $article->url() ?>">
                             <?php echo html($article->title()) ?>

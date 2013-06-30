@@ -2,35 +2,6 @@
     $FOOTER NAV
 \*------------------------------------*/
 
-.main-nav{
-    font-size:90%;
-    margin:4em 0 0 0;
-    width:100%;
-    max-width:none;
-    padding-top:10%;
-
-    li {
-        display:inline-block;
-        list-style:none;
-        background:none;
-        text-align:center;
-        padding-left:.7em;
-        margin-left:0;
-
-        &:after {
-            content:"|";
-            color:darken($lightcream, 20);
-            padding-left:.9em;
-            margin-left:.2em;
-        }
-
-        &:last-child:after {
-            content:"";
-            padding-right:0;
-        }
-
-    }
-}
 
 
 
@@ -52,8 +23,8 @@ footer[role="contentinfo"] {
     nav {
         @extend %main_column;
         background-size:100%;
-        padding:1.5em 0 1.3em 0;
         margin:0 auto;
+        padding: 4em 0 2em 0;
         text-align:center;
         background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
 
@@ -70,25 +41,59 @@ footer[role="contentinfo"] {
             }
         }
 
-        @include breakpoint (26.6875em) {
-            padding-top:2.5em;
-        }
-
-        @include breakpoint($medium) {
-            padding-top:3.3em;
-            background-size:100%;
-        }
-
-        @include breakpoint(35.6875em) {
+        @include breakpoint(420px) {
             padding-top:4em;
         }
 
-        @include breakpoint($grande) {
-            padding-top:3em;
+        @include breakpoint (450px) {
+            padding-top:4em;
         }
 
-        ul {
-            @extend %horizontal-list;
+        @include breakpoint(480px) {
+            padding-top:4.5em;
         }
+
+        @include breakpoint(500px) {
+            padding-top:5.3em;
+        }
+
+        @include breakpoint(550px) {
+            padding-top:4.5em;
+        }
+    }
+}
+
+
+
+.nav--main {
+    font-size:90%;
+    margin:4em 0 0 0;
+    width:100%;
+    max-width:none;
+
+    li {
+        display:inline-block;
+        list-style:none;
+        background:none;
+        text-align:center;
+        padding-left:.7em;
+        margin-left:0;
+
+        &:before {
+            content:none;
+        }
+
+        &:after {
+            content:"|";
+            color:darken($lightcream, 20);
+            padding-left:.9em;
+            margin-left:.2em;
+        }
+
+        &:last-child:after {
+            content:"";
+            padding-right:0;
+        }
+
     }
 }

@@ -88,7 +88,7 @@ hr {
     color:#ccc;
     font-size:1.3em;
     text-align:center;
-    display:block;
+    height: $base-spacing-unit;
 
     &:after {
         content:"* * *";

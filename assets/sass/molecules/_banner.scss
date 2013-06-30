@@ -14,25 +14,38 @@
     position:relative;
     padding:0;
 
-    .avatar {
+    h1 {
         margin:0 auto;
-        position:absolute;
-        width:4.5em;
+    }
 
-        img {
-            margin: 0 auto;
-            border: 5px solid $primary;
-            border-top: 1px;
-            @include transition(border-color , .2s, ease-in);
+    .avatar {
+        @include transition(all .2s ease-in);
+        margin: 0 auto;
+        position: absolute;
+        width: 85px;
+        width: calc-rem(85px);
+        height: 103px;
+        height: calc-rem(103px);
+        background-image: url("/assets/images/logo/campfire.jpg");
+        background-repeat: no-repeat;
+        background-size:100%;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 5px solid $primary;
+        border-top: 1px;
+        left:0;
 
-            &:hover,
-            &:focus {
-                border-color:lighten($primary, 15);
+        @include breakpoint(750px) {
+            width: 100px;
+            width: calc-rem(100px);
+            height: 123px;
+            height: calc-rem(123px);
+        }
 
-                body {
-                    border-top:lighten($primary, 15);
-                }
-            }
+        &:hover,
+        &:focus {
+            border-color:lighten($primary, 15);
         }
     }
 }

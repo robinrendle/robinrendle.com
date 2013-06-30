@@ -4,14 +4,18 @@
 
 a {
     color:$primary;
-    text-decoration:none;
-    @include transition-property(color);
+    line-height:1;
+    text-decoration: none;
+    border-bottom: 1px dotted transparent;
+    @include transition-property(color, border);
     @include transition-duration(.2s);
 
     &:hover,
     &:focus {
-        text-decoration:underline;
-        color:$lightgrey;
+        color: darken($primary, 10);
+        text-decoration: none;
+        line-height:1;
+        border-bottom: 1px dotted darken($primary, 10);
     }
 
     h1 & {

@@ -37,11 +37,11 @@
  * NORMALIZE...........normalize.css
  * RESET...............Set defaults
  * CLEARFIX............
- * SHARED..............Shared declarations
  * FONT-STACK..........Font stack settings
  * HELPER..............Handy layout classes for classless items
  * COLORS..............System wide colors
  * MIXINS..............Cool guy mixins
+ * BASE-SPACING........Shared margins
  *
  * External compass includes ---------------------------------------
  *
@@ -102,11 +102,11 @@
 @import "utilities/normalize";
 @import "utilities/reset";
 @import "utilities/clearfix";
-@import "utilities/shared";
 @import "utilities/font-stack";
 @import "utilities/helper";
 @import "utilities/colors";
 @import "utilities/mixins";
+@import "utilities/base-spacing";
 
 
 
@@ -162,5 +162,6 @@
 @import "molecules/custom-post";
 @import "molecules/footer-nav";
 @import "molecules/titles";
+@import "molecules/item-content";
 
 
