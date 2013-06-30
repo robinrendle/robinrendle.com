@@ -35,6 +35,13 @@ b {
 abbr, span {
     font-size:.8em;
     text-transform:uppercase;
+    text-decoration: none;
+    border:none;
+    cursor: none;
+}
+
+abbr[title] {
+    border:none;
 }
 
 dfn {

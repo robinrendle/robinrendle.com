@@ -12,7 +12,7 @@ li{
 }
 
 ul {
-    margin-left: $base-spacing-unit;
+    margin-left:0;
 
     li {
         list-style:none;
@@ -34,10 +34,12 @@ ul {
 }
 
 ol {
+    margin-left: 0;
+    list-style-position: outside;
+
     li {
         list-style:decimal;
         list-style-position:outside;
-        margin-left:1em;
         padding-left:0;
     }
 

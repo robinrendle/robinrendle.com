@@ -3,9 +3,6 @@
 \*------------------------------------*/
 
 
-
-
-
 footer[role="contentinfo"] {
     margin-top:0;
     width:100%;
@@ -46,7 +43,7 @@ footer[role="contentinfo"] {
         }
 
         @include breakpoint (450px) {
-            padding-top:4em;
+            padding-top:4.7em;
         }
 
         @include breakpoint(480px) {
@@ -54,15 +51,18 @@ footer[role="contentinfo"] {
         }
 
         @include breakpoint(500px) {
-            padding-top:5.3em;
+            padding-top:4.6em;
         }
 
         @include breakpoint(550px) {
-            padding-top:4.5em;
+            padding-top:5.6em;
+        }
+
+        @include breakpoint(610px) {
+            padding-top: 5em;
         }
     }
 }
-
 
 
 .nav--main {

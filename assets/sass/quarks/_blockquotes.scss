@@ -3,15 +3,15 @@
 \*------------------------------------*/
 
 blockquote {
-    margin-bottom:0;
+    margin-bottom:$base-spacing-unit;
 
     p {
         width:100%;
         color:$textgrey;
         font-style:italic;
-        padding-left: 1em;
+        padding-left: $base-spacing-unit;
         border-left:2px solid #eee;
-        padding-bottom:1.5em;
+        padding-bottom: $base-spacing-unit;
         margin-bottom:0;
 
         &:only-child {
@@ -24,7 +24,7 @@ blockquote {
         @extend %poynter;
     }
 
-    >p:last-of-type {
+    >p:last-child {
         margin-bottom:0;
         padding-bottom:0;
     }
