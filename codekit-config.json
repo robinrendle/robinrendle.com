@@ -2,17 +2,6 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8300",
   "files" : {
-    "\/content\/03-notes\/04-book-by-book\/typewriter.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content\/03-notes\/04-book-by-book\/typewriter.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/content\/03-notes\/04-book-by-book\/typewriter.png",
-      "initialSize" : 452296,
-      "fileType" : 8192
-    },
     "\/content\/03-notes\/06-between-shelves\/calvino.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -22,6 +11,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/content\/03-notes\/06-between-shelves\/calvino.png",
       "initialSize" : 452199,
+      "fileType" : 8192
+    },
+    "\/content\/03-notes\/04-book-by-book\/typewriter.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content\/03-notes\/04-book-by-book\/typewriter.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/content\/03-notes\/04-book-by-book\/typewriter.png",
+      "initialSize" : 452296,
       "fileType" : 8192
     },
     "\/content\/01-about\/robin.jpg" : {
@@ -35,15 +35,6 @@
       "initialSize" : 305982,
       "fileType" : 4096
     },
-    "\/site\/templates\/feed.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/templates\/feed.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/js\/selectivizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -54,6 +45,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/selectivizr-ck.js",
       "fileType" : 64
+    },
+    "\/site\/templates\/feed.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/site\/templates\/feed.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/kirby\/lib\/pages.php" : {
       "ignoreWasSetByUser" : 0,
@@ -381,6 +381,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/assets\/images\/pattern.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/images\/pattern.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/images\/pattern.jpg",
+      "initialSize" : 1472,
+      "fileType" : 4096
+    },
     "\/content\/03-notes\/04-book-by-book\/telegraph.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -391,15 +402,6 @@
       "outputAbbreviatedPath" : "\/content\/03-notes\/04-book-by-book\/telegraph.png",
       "initialSize" : 79910,
       "fileType" : 8192
-    },
-    "\/site\/templates\/default.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/templates\/default.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/sass\/atoms\/_rules.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -434,16 +436,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/assets\/images\/pattern.jpg" : {
+    "\/site\/templates\/default.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/images\/pattern.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/images\/pattern.jpg",
-      "initialSize" : 1472,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/site\/templates\/default.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/sass\/quarks\/_micro.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -774,15 +774,6 @@
       "initialSize" : 99963,
       "fileType" : 4096
     },
-    "\/site\/templates\/essay-listing.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/templates\/essay-listing.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/sass\/atoms\/_block-list.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -795,24 +786,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/sass\/atoms\/_marginalia.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/atoms\/_marginalia.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_marginalia.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/kirby\/parsers\/smartypants.php" : {
+    "\/site\/templates\/essay-listing.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kirby\/parsers\/smartypants.php",
+      "inputAbbreviatedPath" : "\/site\/templates\/essay-listing.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -824,6 +803,27 @@
       "inputAbbreviatedPath" : "\/kirby\/modals\/mbstring.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/kirby\/parsers\/smartypants.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/kirby\/parsers\/smartypants.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/assets\/sass\/atoms\/_marginalia.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/atoms\/_marginalia.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_marginalia.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/assets\/sass\/quarks\/_paragraphs.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -906,15 +906,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/site\/snippets\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/site\/snippets\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/assets\/sass\/quarks\/_small-print.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -926,6 +917,15 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_small-print.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/site\/snippets\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/site\/snippets\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -960,12 +960,23 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/kirby\/lib\/uri.php" : {
+    "\/content\/03-notes\/09-mistaking-the-tool-for-the-process\/axe.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kirby\/lib\/uri.php",
+      "inputAbbreviatedPath" : "\/content\/03-notes\/09-mistaking-the-tool-for-the-process\/axe.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/content\/03-notes\/09-mistaking-the-tool-for-the-process\/axe.png",
+      "initialSize" : 314262,
+      "fileType" : 8192
+    },
+    "\/kirby\/lib\/cache.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/kirby\/lib\/cache.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -981,25 +992,14 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/kirby\/lib\/cache.php" : {
+    "\/kirby\/lib\/uri.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kirby\/lib\/cache.php",
+      "inputAbbreviatedPath" : "\/kirby\/lib\/uri.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/content\/03-notes\/09-mistaking-the-tool-for-the-process\/axe.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content\/03-notes\/09-mistaking-the-tool-for-the-process\/axe.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/content\/03-notes\/09-mistaking-the-tool-for-the-process\/axe.png",
-      "initialSize" : 314262,
-      "fileType" : 8192
     },
     "\/assets\/sass\/screen.scss" : {
       "ignoreWasSetByUser" : 1,
@@ -1035,51 +1035,12 @@
       "initialSize" : 192823,
       "fileType" : 8192
     },
-    "\/kirby\/lib\/variables.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kirby\/lib\/variables.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/kirby\/lib\/obj.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/kirby\/lib\/obj.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/assets\/sass\/atoms\/_nav.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/atoms\/_nav.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/_nav.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/kirby\/parsers\/yaml.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kirby\/parsers\/yaml.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/kirby\/lib\/template.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/kirby\/lib\/template.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1094,6 +1055,45 @@
       "outputAbbreviatedPath" : "\/assets\/css\/_banner.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/assets\/sass\/atoms\/_nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/atoms\/_nav.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/_nav.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/kirby\/lib\/variables.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/kirby\/lib\/variables.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/kirby\/lib\/template.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/kirby\/lib\/template.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/kirby\/parsers\/yaml.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/kirby\/parsers\/yaml.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/js\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
