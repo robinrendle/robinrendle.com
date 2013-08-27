@@ -7,17 +7,8 @@ figure {
         margin-top:1em;
     }
 
-    &.hero {
-        margin:0 0 .5em 0;
-        z-index:-9999;
-        width:100%;
-        max-height:26em;
-        overflow:hidden;
-        border-bottom:1px solid #ddd;
-
-        img {
-            width:100%;
-        }
+    img + blockquote {
+        @include rem(margin-top, $base-spacing-unit);
     }
 
     &.example {
@@ -74,28 +65,6 @@ figure {
     }
 }
 
-// make sure you give proper recognition to other people’s work!
-.cite {
-    >:before {
-        content:"—";
-        padding-right:.2em;
-    }
-    p {
-        font-size:1em;
-        font-style:normal;
-        @extend %poynter;
-        margin-bottom:0;
-        color:$offblack;
-        text-align:left;
-        font-style:normal;
-        width:100%;
-    }
-
-    blockquote+& {
-        margin-top:$base-spacing-unit/2;
-    }
-}
-
 
 figcaption {
     font-size:.95em;
@@ -103,15 +72,6 @@ figcaption {
     margin-bottom:0;
     margin-top:.5em;
     color:$textgrey;
-
-    &.cite {
-        font-weight:bold;
-        font-style:normal;
-
-        .quote & {
-            font-size:.9em;
-        }
-    }
 
     h5 {
         margin:0 auto;

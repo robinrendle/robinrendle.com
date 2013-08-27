@@ -18,23 +18,18 @@
     }
 }
 
-/**
-* Convert to REM
-**/
 
-// what we need is to enter is this:
-// font-size: @include calc-rem(16);
-//
-// and for it to output this:
-// font-size: 16px;
-// font-size: 1rem;
-//
-//
-// currently this sucks a whole bunch:
-@function calc-rem($target, $context: $base-font-size) {
-    //pixel values here
-    @return ($target / $context) * 1rem;
+/**
+ * Calculate rems. $target = pixel size. $context = base pixel size
+ */
+$rem-ratio: $base-font-size / 1rem;
+
+@mixin rem($key,$px) {
+  #{$key}: $px;
+  #{$key}: $px/$rem-ratio;
 }
+
+
 
 /**
 * Using the Kellum method to hide text from an element and serving it as a placeholder.

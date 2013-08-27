@@ -3,19 +3,18 @@
 \*------------------------------------*/
 
 a {
-    color:$primary;
-    line-height:1;
+    @include transition(all .3s ease-in-out);
+    color: $primary;
+    line-height: 1;
     text-decoration: none;
-    border-bottom: 1px dotted transparent;
-    @include transition-property(color, border);
-    @include transition-duration(.2s);
+    border-bottom: 1px dotted darken($primary, 10);
 
     &:hover,
     &:focus {
         color: darken($primary, 10);
         text-decoration: none;
         line-height:1;
-        border-bottom: 1px dotted darken($primary, 10);
+        border-bottom: 1px solid darken($primary, 10);
     }
 
     h1 & {

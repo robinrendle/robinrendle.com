@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    $HERO-IMAGE
+\*------------------------------------*/
+/**
+ * Main type used as introduction pieces in essays.
+ */
+
+
+.hero {
+    margin:0 0 .5em 0;
+    z-index:-9999;
+    width:100%;
+    max-height:26em;
+    overflow:hidden;
+    border-bottom:1px solid #ddd;
+
+    img {
+        width:100%;
+    }
+
+    & + .container {
+        padding-top: $base-spacing-unit * 2;
+    }
+}

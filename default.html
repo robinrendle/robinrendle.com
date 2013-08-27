@@ -1,0 +1,94 @@
+{% include 'components/header' %}
+
+<!-- POST -->
+<!-- Default post styles -->
+    {% if type == "post" %}
+
+        {% if meta.Hero %}
+            <figure class="hero">
+                <img src="{{meta.Hero.value}}" alt="">
+            </figure>
+        {% endif %}
+
+        <article class="container">
+            <header class="heading-group">
+                <h1>{{title}}</h1>
+                <div class="meta-info-block">
+
+                    <p class="meta-info-block__item">
+                        {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
+                    </p>
+
+                    <div class="meta-info-block__item">
+                        {{ date | date: "%d %B %Y"}}
+                    </div>
+                </div>
+            </header>
+
+            {% if meta.Update %}
+                <aside class="island island--meta">
+                    {{meta.Update.value | markdown:true }}
+                </aside>
+            {% endif %}
+
+            {{body}}
+
+            {% if meta.Aside %}
+                <aside class="island island--meta">
+                    {{meta.Aside.value | markdown:true }}
+                </aside>
+            {% endif %}
+
+        </article>
+
+    {% endif %}
+
+
+
+    <!-- PAGE -->
+    <!-- Default page styles -->
+    {% if type == "page" %}
+        <div class="container">
+            <header class="heading-group">
+                <h1>{{title}}</h1>
+            </header>
+
+            {{body}}
+
+        </div>
+
+        <section class="item-list">
+            {% for post in posts %}
+                <article class="container item-list__item">
+                    <header class="hgroup hgroup--listing">
+                        <div class="meta-info-block">
+                            <div class="meta-info-block__item">
+                                {{ post.date | date: "%d %B %Y"}}
+                            </div>
+                        </div>
+                        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                    </header>
+
+                    <div class="item-list__content">
+                        <p>{{post.meta.Extract.value}}</p>
+                    </div>
+                </article>
+            {% endfor %}
+        </section>
+
+    {% endif %}
+
+{% include 'components/footer' %}
+
+
+
+
+
+
+
+
+
+
+
+
+

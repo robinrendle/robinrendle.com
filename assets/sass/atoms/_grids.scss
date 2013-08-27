@@ -16,10 +16,25 @@
         }
     }
 
-    .container {
+    .container--standard {
         width:90%;
-        max-width:33em;
+        max-width:34em;
         margin:0 auto;
+
+        @include breakpoint($medium) {
+            @include rem(padding-left, $base-spacing-unit*1);
+            @include rem(padding-right, $base-spacing-unit*1);
+            margin-top:0;
+        }
+    }
+
+    .container {
+        @extend .container--standard;
+        padding-top:8em;
+
+        @include breakpoint(700px) {
+            padding-top:8.25em;
+        }
     }
 
     section[role="main"] {

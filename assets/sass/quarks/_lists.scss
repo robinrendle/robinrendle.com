@@ -19,9 +19,9 @@ ul {
         position:relative;
 
         &:before {
+            @include rem(left, - ($half-spacing-unit));
             content:"•";
             color: #C96F6F;
-            left:(- $half-spacing-unit - 3px);
             padding:0;
             margin:0;
             position:absolute;

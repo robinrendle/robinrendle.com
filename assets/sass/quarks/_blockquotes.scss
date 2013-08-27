@@ -28,4 +28,8 @@ blockquote {
         margin-bottom:0;
         padding-bottom:0;
     }
+
+    & + img {
+        margin-top: $base-spacing-unit;
+    }
 }

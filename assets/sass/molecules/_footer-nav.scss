@@ -24,18 +24,14 @@ footer[role="contentinfo"] {
         padding: 4em 0 2em 0;
         text-align:center;
         background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
+        background-size:180%;
 
-        .svg & {
-            background:url("/assets/images/logo/footer-logo.svg") no-repeat center 0;
-            background-size:170%;
+        @include breakpoint ($medium) {
+            background-size:150%;
+        }
 
-            @include breakpoint ($medium) {
-                background-size:150%;
-            }
-
-            @include breakpoint ($grande) {
-                background-size:130%;
-            }
+        @include breakpoint ($grande) {
+            background-size:130%;
         }
 
         @include breakpoint(420px) {
@@ -95,5 +91,14 @@ footer[role="contentinfo"] {
             padding-right:0;
         }
 
+        a {
+            @include transition(all .3s ease-in-out);
+            border-bottom: 1px solid transparent;
+
+            &:hover,
+            &:focus {
+                border-bottom: 1px solid $primary;
+            }
+        }
     }
 }

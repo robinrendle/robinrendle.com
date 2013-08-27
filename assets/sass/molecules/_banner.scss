@@ -7,7 +7,7 @@
  */
 
 
-[role="banner"]{
+.banner {
     max-width:5em;
     float:none;
     margin:0 auto;
@@ -20,12 +20,10 @@
 
     .avatar {
         @include transition(all .2s ease-in);
+        @include rem(width, 85px);
+        @include rem(height, 103px);
         margin: 0 auto;
         position: absolute;
-        width: 85px;
-        width: calc-rem(85px);
-        height: 103px;
-        height: calc-rem(103px);
         background-image: url("/assets/images/logo/campfire.jpg");
         background-repeat: no-repeat;
         background-size:100%;
@@ -37,10 +35,8 @@
         left:0;
 
         @include breakpoint(750px) {
-            width: 100px;
-            width: calc-rem(100px);
-            height: 123px;
-            height: calc-rem(123px);
+            @include rem(width, 95px);
+            @include rem(height, 114px);
         }
 
         &:hover,

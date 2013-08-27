@@ -19,11 +19,11 @@
  *
  */
 .nav{
-    list-style:none;
-    margin-left:0;
     @extend .cf;
+    list-style:none;
 
-    > li{
+    > li, dd, dt {
+        margin-left: 0;
 
         &,
         > a{
@@ -32,6 +32,27 @@
             zoom:1;
         }
     }
+}
+
+
+.nav--tags {
+    font-size: $milli-size;
+    font-size: calc-rem($milli-size);
+    background-color: lighten($color__border, 4);
+    border: 1px solid $color__border;
+    margin-top: $base-spacing-unit * 2;
+    margin-top: calc-rem($base-spacing-unit * 2);
+    padding: $half-spacing-unit;
+    padding: calc-rem($half-spacing-unit);
+
+    dt, dd {
+        font-weight: normal;
+        margin-left:0;
+        margin-right: $half-spacing-unit;
+        margin-right: calc-rem($half-spacing-unit);
+
+    }
+
 }
 
 

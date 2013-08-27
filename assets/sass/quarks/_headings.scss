@@ -10,7 +10,7 @@
 
 @mixin headline-one {
     @extend %miller-headline;
-    font-size:$h1-size;
+    @include rem(font-size, $h1-size);
     color:$title-black;
     font-weight:normal;
     line-height:1.25;
@@ -26,7 +26,7 @@
 
 @mixin headline-two {
     @extend %miller;
-    font-size:$h2-size;
+    @include rem(font-size, $h2-size);
     font-weight:normal;
     font-style:normal;
     margin:1.8em auto .8em auto;
@@ -41,16 +41,20 @@
 
 @mixin headline-three {
     @extend %poynter;
-    font-size:$h3-size;
-    font-weight:normal;
+    @include rem(font-size, $h3-size);
+    font-weight: bold;
     color:$title-black;
     line-height:1.4;
     margin:1.5em auto .8em auto;
+
+    @include breakpoint($medium){
+        @include rem(font-size, 21px);
+    }
 }
 
 @mixin headline-four {
     @extend %poynter;
-    font-size:$h3-size;
+    @include rem(font-size, $h4-size);
     font-style:italic;
     line-height:1.4;
     margin:1.55em auto 1.4em auto;
@@ -59,7 +63,7 @@
 
 @mixin headline-five {
     @extend %poynter;
-    font-size:$h4-size;
+    @include rem(font-size, $h4-size);
     font-style:normal;
     line-height:1.4;
     margin:1.55em auto 1.2em auto;
@@ -69,6 +73,7 @@
 
 @mixin text {
     @extend %poynter;
+    @include rem(font-size, $base-font-size);
     font-size:$base-font-size;
     line-height:$base-line-height;
 }

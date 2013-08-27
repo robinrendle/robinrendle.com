@@ -1,3 +1,0 @@
-# Blog redesign
-
-This site uses [Kirby](<http://getkirby.com>), a file-based CMS.

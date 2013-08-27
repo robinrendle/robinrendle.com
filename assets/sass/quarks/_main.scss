@@ -10,9 +10,9 @@ html{
 }
 
 body {
-    background-color:$offwhite;
+    background-color: $offwhite;
     font-size:104%;
-    line-height: $line-height-ratio;
+    line-height: ($line-height-ratio - .1);
     color: $offblack;
     font-family: Georgia, serif;
     border-top:4px solid $primary;
@@ -29,6 +29,7 @@ body {
 
         @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
             font-size:100%;
+            line-height: $line-height-ratio;
         }
 
         @include breakpoint(26.25em) {
@@ -37,10 +38,11 @@ body {
 
         @include breakpoint(36.352941176em) {
             font-size:110%;
+            line-height: $line-height-ratio;
         }
 
         @include breakpoint($grande) {
-            font-size:118%;
+            font-size:120%;
         }
     }
 }

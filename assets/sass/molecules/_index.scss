@@ -1,0 +1,32 @@
+/*------------------------------------*\
+    $HOME PAGE CUSTOM STYLES
+\*------------------------------------*/
+
+.home__about-me {
+    @include rem(margin-bottom, $base-spacing-unit * 1.5);
+    @include rem(padding-bottom, $half-spacing-unit);
+    text-align: left;
+    font-style: italic;
+    border-bottom: 1px solid darken($color__border,5);
+    position: relative;
+
+    @include breakpoint(500px){
+        @include rem(margin-bottom, $base-spacing-unit * 2);
+        @include rem(padding-bottom, $base-spacing-unit);
+    }
+
+    &:after {
+        @include rem(font-size, $h1-size);
+        @include rem(height, $base-spacing-unit);
+        @include rem(width, $base-spacing-unit);
+        @include rem(bottom, - $half-spacing-unit);
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        line-height: .7;
+        content: "¶";
+        color: $border2;
+        font-style: normal;
+        background-color: $offwhite;
+    }
+}

@@ -1,7 +1,7 @@
 /*------------------------------------*\
     ROBIN RENDLE
 \*------------------------------------*/
-/*!*
+/*
  * A great deal of the modulisation, documentation, BEM and object orientated stuff
  * here is thanks to the great work of:
  *
@@ -83,8 +83,8 @@
  *
  * BANNER..............Top banner
  * CUSTOM-POST.........Artisinal styles for individual essays
- * FOOTER-NAV.......... // REQUIRES FIXINGS
- * TITLES..............Layout styles of the main introductory heading
+ * FOOTER-NAV..........Footer navigation styles
+ * HEADING-GROUP........Layout styles of the main introductory heading
  *
  *
 **/
@@ -132,7 +132,6 @@
  @import "quarks/links";
  @import "quarks/images";
  @import "quarks/tables";
- @import "quarks/quotes";
  @import "quarks/small-print";
  @import "quarks/micro";
 
@@ -152,6 +151,8 @@
 @import "atoms/icon-text";
 @import "atoms/beautons";
 @import "atoms/rules";
+@import "atoms/meta-info-block";
+@import "atoms/cite";
 
 
 
@@ -161,7 +162,9 @@
 @import "molecules/banner";
 @import "molecules/custom-post";
 @import "molecules/footer-nav";
-@import "molecules/titles";
+@import "molecules/heading-group";
 @import "molecules/item-content";
+@import "molecules/hero-image";
+@import "molecules/index";
 
 
