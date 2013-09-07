@@ -1,43 +1,13 @@
-# Kirby .htaccess
+# ------------------------------------------------------------------------------
+# | Custom error messages / pages                                              |
+# ------------------------------------------------------------------------------
 
-# rewrite rules
-<IfModule mod_rewrite.c>
+# You can customize what Apache returns to the client in case of an error (see
+# http://httpd.apache.org/docs/current/mod/core.html#errordocument), e.g.:
 
-# enable awesome urls. i.e.:
-# http://yourdomain.com/about-us/team
-RewriteEngine on
+ErrorDocument 404 /404.html
 
-# make sure to set the RewriteBase correctly
-# if you are running the site in a subfolder.
-# Otherwise links or the entire site will break.
-#
-# If your homepage is http://yourdomain.com/mysite
-# Set the RewriteBase to:
-#
-# RewriteBase /mysite
-#
-RewriteBase /
 
-# block text files in the content folder from being accessed directly
-RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
-
-# block all files in the site folder from being accessed directly
-RewriteRule ^site/(.*) error [R=301,L]
-
-# block all files in the kirby folder from being accessed directly
-RewriteRule ^kirby/(.*) error [R=301,L]
-
-# make panel links work
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^panel/(.*) panel/index.php [L]
-
-# make site links work
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*) index.php [L]
-
-</IfModule>
 
 
 # ----------------------------------------------------------------------
@@ -86,6 +56,80 @@ AddType text/cache-manifest                 appcache manifest
 AddType text/vtt                            vtt
 AddType text/x-component                    htc
 AddType text/x-vcard                        vcf
+
+
+
+# ------------------------------------------------------------------------------
+# | UTF-8 encoding                                                             |
+# ------------------------------------------------------------------------------
+
+# Use UTF-8 encoding for anything served as `text/html` or `text/plain`.
+AddDefaultCharset utf-8
+
+# Force UTF-8 for certain file formats.
+<IfModule mod_mime.c>
+    AddCharset utf-8 .atom .css .js .json .rss .vtt .webapp .xml
+</IfModule>
+
+
+
+# ------------------------------------------------------------------------------
+# | Suppressing / Forcing the "www." at the beginning of URLs                  |
+# ------------------------------------------------------------------------------
+
+# The same content should never be available under two different URLs especially
+# not with and without "www." at the beginning. This can cause SEO problems
+# (duplicate content), therefore, you should choose one of the alternatives and
+# redirect the other one.
+
+# Rewrite www.example.com → example.com
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+
+# ------------------------------------------------------------------------------
+# | File access                                                                |
+# ------------------------------------------------------------------------------
+
+# Block access to directories without a default document.
+# Usually you should leave this uncommented because you shouldn't allow anyone
+# to surf through every directory on your server (which may includes rather
+# private places like the CMS's directories).
+
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Block access to hidden files and directories.
+# This includes directories used by version control systems such as Git and SVN.
+
+<IfModule mod_rewrite.c>
+    RewriteCond %{SCRIPT_FILENAME} -d [OR]
+    RewriteCond %{SCRIPT_FILENAME} -f
+    RewriteRule "(^|/)\." - [F]
+</IfModule>
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Block access to backup and source files.
+# These files may be left by some text editors and can pose a great security
+# danger when anyone has access to them.
+
+<FilesMatch "(^#.*#|\.(bak|config|dist|fla|inc|ini|log|psd|sh|sql|sw[op])|~)$">
+    Order allow,deny
+    Deny from all
+    Satisfy All
+</FilesMatch>
+
+
+
+
 
 
 

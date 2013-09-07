@@ -4,7 +4,7 @@
     $GRIDS
 \*------------------------------------*/
 /**
-* Grid system coming soon! I can get away with a single column for now (12 June 2013)
+* Grid system coming soon! I can get away with a single column design for now (12 June 2013)
 **/
     %main_column{
         width:90%;
@@ -25,6 +25,12 @@
             @include rem(padding-left, $base-spacing-unit*1);
             @include rem(padding-right, $base-spacing-unit*1);
             margin-top:0;
+        }
+
+        @include breakpoint($large){
+            max-width:32em;
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 

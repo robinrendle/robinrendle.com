@@ -6,9 +6,9 @@ require 'breakpoint';
 # Set this to the root of your project when deployed:
 http_path = "/"
 css_dir = "assets/css"
-sass_dir = "assets/sass"
+sass_dir = "static/sass"
 images_dir = "assets/images"
-javascripts_dir = "assets/js"
+javascripts_dir = "static/js"
 fonts_dir = "assets/fonts"
 
 output_style = :compressed

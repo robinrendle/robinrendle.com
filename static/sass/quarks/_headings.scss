@@ -13,14 +13,10 @@
     @include rem(font-size, $h1-size);
     color:$title-black;
     font-weight:normal;
-    line-height:1.25;
-    .fontface & {
-        font-size:$h1-size;
-        line-height:1.2;
+    line-height:1.2;
 
-        @include breakpoint($medium) {
-            font-size:2.3em;
-        }
+    @include breakpoint($medium) {
+        font-size:2.3em;
     }
 }
 

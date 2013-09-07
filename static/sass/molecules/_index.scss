@@ -21,7 +21,7 @@
         @include rem(width, $base-spacing-unit);
         @include rem(bottom, - $half-spacing-unit);
         position: absolute;
-        left: 50%;
+        left: 48%;
         text-align: center;
         line-height: .7;
         content: "¶";

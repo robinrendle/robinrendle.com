@@ -27,14 +27,11 @@
                 @include rem(font-size, 22px);
                 text-align: left;
                 font-weight: normal;
+                text-align: center;
 
                 @include breakpoint(600px) {
                     @include rem(font-size, 25px);
                 }
-            }
-
-            .meta-info-block {
-                text-align: left;
             }
         }
 
@@ -45,14 +42,14 @@
 
     .item-list__content {
 
+        @include breakpoint(500px){
+            @include rem(font-size, 19px);
+            line-height: 1.5;
+        }
+
         > p {
             margin-bottom:0;
             display:inline;
-
-
-            @include breakpoint(500px){
-                @include rem(font-size, 19px);
-            }
         }
 
         a {
