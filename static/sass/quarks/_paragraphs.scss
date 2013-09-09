@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    $PARAGRAPHS
+\*------------------------------------*/
+/**
+ * The `.lede` class is used to make the introductory text (usually a paragraph)
+ * of a document slightly larger.
+ */
+.lede{
+}
+
+p {
+    -webkit-hyphens:auto;
+    -moz-hyphens:auto;
+    -ms-hyphens:auto;
+    -o-hyphens:auto;
+    hyphens:auto;
+}

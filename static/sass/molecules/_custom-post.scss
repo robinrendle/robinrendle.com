@@ -1,0 +1,61 @@
+/*------------------------------------*\
+    $CUSTOM POST STYLES
+\*------------------------------------*/
+
+
+// 1. BOOKMARKING
+// 2. ABOUT
+
+
+
+// @start BOOKMARKING -------------------- //
+section[role="main"] header {
+    &.bookmarking {
+        position:relative;
+
+        .meta {
+            margin-top:-.3em;
+        }
+
+        @include respond-to(grande){
+
+            .meta {
+                margin-top:-.2em;
+                padding-bottom:.1em;
+            }
+        }
+    }
+}
+
+figure {
+    @include respond-to(grande){
+        &.hero.bookmark {
+            max-height:30em;
+        }
+    }
+}
+
+
+// @start ABOUT -------------------- //
+section[role="main"] header {
+    .about {
+        h1 {
+            margin-bottom:0;
+        }
+        .h3 {
+            font-style:italic;
+            color:$grey;
+            font-size:1.05em;
+        }
+    }
+}
+
+// @start COUNTERPUNCH -------------------- //
+
+.serif_illustration {
+    text-align:center;
+    font-size:6em;
+    margin-bottom:.3em;
+    line-height:1;
+    color:#B8B8B8;
+}

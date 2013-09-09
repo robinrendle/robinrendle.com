@@ -1,0 +1,95 @@
+/*------------------------------------*\
+    $DEFAULTS
+\*------------------------------------*/
+/**
+ * Quickly set your default variables
+ */
+
+
+
+/*------------------------------------*\
+    $BREAKPOINTS
+\*------------------------------------*/
+/**
+ * Enter breakpoint variables here
+ */
+
+$medium: 30.25em;
+$grande: 42em;
+$large: 61.9375em;
+$desktop: 64.4375em;
+$widescreen: 109.375em;
+
+
+
+/*------------------------------------*\
+    $BASE
+\*------------------------------------*/
+/**
+ * Font-sizes (in pixels). Refer to relevant sections for their implementations.
+ */
+$h1-size: 36px!default;
+$h2-size: 24px!default;
+$h3-size: 18px!default;
+$h4-size: 14px!default;
+$micro-size: 16px!default;
+$milli-size: 15px!default;
+
+$base-font-size: 17px!default;
+$base-line-height: 27px!default;
+
+
+/**
+ * Base font-family.
+*/
+$base-font-family: serif!default;
+
+
+/**
+ * Base ui colors.
+*/
+$base-ui-color: #ccc!default;
+
+
+/*------------------------------------*\
+    $QUOTES
+\*------------------------------------*/
+/**
+ * English quote marks?
+ */
+$english-quotes:    true!default;
+
+
+
+/*------------------------------------*\
+    $ATOMS AND ABSTRACTIONS
+\*------------------------------------*/
+/**
+ * Which objects and abstractions would you like to use?
+ */
+$use-beautons:      true!default;
+$use-block-list:    true!default;
+$use-item-list:     true!default;
+$use-grids:         true!default;
+$use-icon-text:     true!default;
+$use-island:        true!default;
+$use-marginalia:    true!default;
+$use-media:         true!default;
+$use-nav:           true!default;
+$use-rules:         true!default;
+$use-sprite:        true!default;
+
+
+
+/*------------------------------------*\
+    $FRAMEWORK
+\*------------------------------------*/
+/**
+ * inuit.css will work these next ones out for use within the framework.
+ *
+ * Assign our `$base-line-height` to a new spacing var for more transparency.
+ */
+$base-spacing-unit: $base-line-height!default;
+$half-spacing-unit: $base-spacing-unit / 2!default;
+$quarter-spacing-unit: $half-spacing-unit / 2!default;
+$line-height-ratio: $base-line-height / $base-font-size;

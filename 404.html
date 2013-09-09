@@ -1,0 +1,18 @@
+{% include 'components/header' %}
+
+        {% if meta.Hero %}
+            <figure class="hero">
+                <img src="{{meta.Hero.value}}" alt="">
+            </figure>
+        {% endif %}
+
+        <article class="container">
+            <header class="heading-group">
+                <h1>404</h1>
+            </header>
+
+            {{body}}
+
+        </article>
+
+{% include 'components/footer' %}

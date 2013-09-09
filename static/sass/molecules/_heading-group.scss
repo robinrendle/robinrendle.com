@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    $HEADING-GROUP
+\*------------------------------------*/
+/**
+ *
+ * These styles define the layout and stlyes of the main heading: ie. the title of a blog post
+ */
+
+
+.heading-group {
+    width:100%;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:2em;
+
+    &.hero {
+        margin-top:0;
+        padding-top:2em;
+    }
+
+    h1 {
+        margin:0 auto;
+    }
+}

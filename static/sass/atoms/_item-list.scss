@@ -1,0 +1,71 @@
+@if $use-item-list == true{
+
+/*------------------------------------*\
+    $ITEM-LIST
+\*------------------------------------*/
+/**
+* Create a list of articles
+**/
+
+.item-list {
+    width:100%;
+}
+    .item-list__item {
+        @include rem(margin-bottom, $base-spacing-unit * 2);
+        margin-top: 0;
+        padding-top: 0;
+
+        .hgroup {
+            margin:0;
+            @include rem(margin-bottom, $half-spacing-unit);
+
+            @include breakpoint(560px){
+                @include rem(margin-bottom, $half-spacing-unit / 1.5);
+            }
+
+            h3 {
+                @include rem(font-size, 22px);
+                font-weight: normal;
+                text-align: center;
+
+                @include breakpoint(600px) {
+                    @include rem(font-size, 25px);
+                }
+            }
+        }
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    .item-list__content {
+
+        @include breakpoint(500px){
+            @include rem(font-size, 19px);
+            line-height: 1.5;
+        }
+
+        > p {
+            margin-bottom:0;
+            display:inline;
+        }
+
+        a {
+            display:inline;
+        }
+    }
+
+
+    /*
+    Note listing requires a bit of layout fiddling to look right
+    */
+    .item-list__item--notes {
+        margin-bottom:$base-spacing-unit*1.5;
+
+        h3 {
+            @include rem(font-size, 21px);
+        }
+    }
+
+} //endif

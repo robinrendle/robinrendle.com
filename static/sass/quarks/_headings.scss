@@ -1,0 +1,137 @@
+/*------------------------------------*\
+    $HEADINGS
+\*------------------------------------*/
+/**
+ *
+ * When we define a heading we also define a corresponding class to go with it.
+ * This allows us to apply, say, `class=h1` to a `h3`; a double-stranded
+ * heading hierarchy.
+ */
+
+@mixin headline-one {
+    @extend %miller-headline;
+    @include rem(font-size, $h1-size);
+    color:$title-black;
+    font-weight:normal;
+    line-height:1.2;
+
+    @include breakpoint($medium) {
+        font-size:2.3em;
+    }
+}
+
+@mixin headline-two {
+    @extend %miller;
+    @include rem(font-size, $h2-size);
+    font-weight:normal;
+    font-style:normal;
+    margin:1.8em auto .8em auto;
+    line-height:1.35;
+    color:$title-black;
+    max-width:20.7em;
+
+    @include breakpoint($medium) {
+        font-size:1.6em;
+    }
+}
+
+@mixin headline-three {
+    @extend %poynter;
+    @include rem(font-size, $h3-size);
+    font-weight: bold;
+    color:$title-black;
+    line-height:1.4;
+    margin:1.5em auto .8em auto;
+
+    @include breakpoint($medium){
+        @include rem(font-size, 21px);
+    }
+}
+
+@mixin headline-four {
+    @extend %poynter;
+    @include rem(font-size, $h4-size);
+    font-style:italic;
+    line-height:1.4;
+    margin:1.55em auto 1.4em auto;
+    color:$title-black;
+}
+
+@mixin headline-five {
+    @extend %poynter;
+    @include rem(font-size, $h4-size);
+    font-style:normal;
+    line-height:1.4;
+    margin:1.55em auto 1.2em auto;
+    color:$title-black;
+    text-transform:uppercase;
+}
+
+@mixin text {
+    @extend %poynter;
+    @include rem(font-size, $base-font-size);
+    font-size:$base-font-size;
+    line-height:$base-line-height;
+}
+
+
+// @start HEADLINES -------------------- //
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align:center;
+    width:100%;
+}
+
+h1, .h1 {
+    @include headline-one;
+    font-feature-settings: "liga" on;
+    -moz-font-feature-settings: 'liga=1';
+    -webkit-font-feature-settings: "liga" on;
+    text-rendering: optimizeLegibility;
+}
+
+h2, .h2 {
+    @include headline-two;
+}
+
+h3, .h3 {
+    @include headline-three;
+
+    hgroup h2~& {
+        color:$grey;
+    }
+}
+
+h4, .h4 {
+    @include headline-four;
+}
+
+h5, .h5 {
+    @include headline-five;
+}
+
+
+
+/**
+ * Headings can be combined together with this class
+ */
+.hgroup {
+    margin:2.5em auto 1.55em auto;
+
+    h1,h2,h3,h4,
+    .h1,.h2,.h3,.h4,.h5 {
+        width:100%;
+        margin:0 auto;
+        max-width:none;
+    }
+
+    header & {
+        margin:0 auto;
+        max-width:none;
+        width:100%;
+    }
+}

@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    $META-INFO-BLOCK
+\*------------------------------------*/
+/**
+ *
+ * This object styles any artice meta info elements
+ */
+
+    .meta-info-block  {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+        .meta-info-block__item {
+            font-style: normal;
+            color:$grey;
+            width:auto;
+            display:inline-block;
+            font-size:.9em;
+            margin-bottom: 0;
+
+            @include breakpoint($large) {
+                font-size:.85em;
+            }
+
+
+            &:first-of-type:after {
+                content:"~";
+                color:#bbb;
+                display:inline;
+                margin-left:.15em;
+                margin-right:.1em;
+            }
+
+            &:nth-child(2):after,
+            &:only-child:after {
+                content:"";
+                display:none;
+            }
+        }

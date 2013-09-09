@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+* { @include box-sizing('border-box'); }
+
+html{
+    overflow-y:scroll;
+    min-height:100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    @extend %poynter;
+    background-color: $offwhite;
+    line-height: ($line-height-ratio - .1);
+    color: $offblack;
+    border-top:4px solid $primary;
+    border-bottom:4px solid $primary;
+    float:left;
+    width:100%;
+
+
+    @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+        font-size:100%;
+        line-height: $line-height-ratio;
+    }
+
+    @include breakpoint(26.25em) {
+        font-size:105%;
+    }
+
+    @include breakpoint(36.352941176em) {
+        font-size:110%;
+        line-height: $line-height-ratio;
+    }
+
+    @include breakpoint($grande) {
+        font-size:120%;
+    }
+}

@@ -1,0 +1,51 @@
+@if $use-grids == true{
+
+/*------------------------------------*\
+    $GRIDS
+\*------------------------------------*/
+/**
+* Grid system coming soon! I can get away with a single column design for now (12 June 2013)
+**/
+    %main_column{
+        width:90%;
+        max-width:33em;
+        margin:0 auto;
+
+        @include breakpoint($medium) {
+            width:85%;
+        }
+    }
+
+    .container--standard {
+        width:90%;
+        max-width:34em;
+        margin:0 auto;
+
+        @include breakpoint($medium) {
+            @include rem(padding-left, $base-spacing-unit*1);
+            @include rem(padding-right, $base-spacing-unit*1);
+            margin-top:0;
+        }
+
+        @include breakpoint($large){
+            max-width:32em;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .container {
+        @extend .container--standard;
+        padding-top:8em;
+
+        @include breakpoint(700px) {
+            padding-top:8.25em;
+        }
+    }
+
+    section[role="main"] {
+        min-height:50em;
+        overflow:hidden;
+    }
+
+}//endif

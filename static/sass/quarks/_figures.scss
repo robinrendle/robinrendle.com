@@ -1,0 +1,85 @@
+/*------------------------------------*\
+    $FIGURES
+\*------------------------------------*/
+
+figure {
+    img + img {
+        margin-top:1em;
+    }
+
+    img + blockquote {
+        @include rem(margin-top, $base-spacing-unit);
+    }
+
+    &.example {
+        border:1px dashed lighten($secondary,5);
+        padding:.7em 2.5% .8em 2.5%;
+        margin:0 auto 1.7em auto;
+        background-color:$offgrey;
+        width:90%;
+        max-width:35em;
+
+        @include breakpoint($medium) {
+            width:85%;
+            max-width:36em;
+        }
+
+        @include breakpoint($widescreen) {
+            width:77%;
+        }
+
+        figcaption {
+            width:100%;
+        }
+
+        hgroup,
+        header hgroup {
+            margin:0 auto;
+
+            h1,h2,h3,h4,h5 {
+                width:100%;
+                max-width:none;
+            }
+        }
+
+        figure,
+        p,
+        blockquote,
+        h3,
+        ol,
+        ul,
+        pre,
+        form,
+        table,
+        dl {
+            width:100%;
+            margin:0 0 1.55em 0;
+            &:last-child {
+                margin-bottom:0;
+            }
+        }
+    }
+
+    &.centre {
+        clear:both;
+    }
+}
+
+
+figcaption {
+    font-size:.95em;
+    line-height:1.5;
+    margin-bottom:0;
+    margin-top:.5em;
+    color:$textgrey;
+
+    h5 {
+        margin:0 auto;
+        line-height:1.8;
+    }
+
+    p {
+        margin-bottom:0;
+        text-align: center;
+    }
+}

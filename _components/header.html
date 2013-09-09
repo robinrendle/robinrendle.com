@@ -1,0 +1,39 @@
+
+
+{% if slug == '404' %}
+    {% assign post = post.first %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{{site.title}} › {{title}}</title>
+
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/104389809267012182640">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon_144.png">
+    <!-- Feed -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <!-- Fonts -->
+    <link href="//cloud.webtype.com/css/4d2bc22e-add9-4624-b921-366855a4f74c.css" rel="stylesheet" type="text/css" />
+    <!-- Modernizr -->
+    <script src="/static/js/modernizr-2.5.3-min.js"></script>
+</head>
+
+<body>
+    <header class="banner" role="banner">
+        <h1>
+            <a class="avatar" href="/">Robin Rendle</a>
+        </h1>
+    </header>
+
+    <section role="main">

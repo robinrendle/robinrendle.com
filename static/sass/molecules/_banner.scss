@@ -1,0 +1,47 @@
+/*------------------------------------*\
+    $BANNER
+\*------------------------------------*/
+/**
+ *
+ * For the time being this is how we’ll sort out the logo situation -- note to self: make this more OO
+ */
+
+
+.banner {
+    max-width:5em;
+    float:none;
+    margin:0 auto;
+    position:relative;
+    padding:0;
+
+    h1 {
+        margin:0 auto;
+    }
+
+    .avatar {
+        @include transition(all .2s ease-in);
+        @include rem(width, 85px);
+        @include rem(height, 103px);
+        margin: 0 auto;
+        position: absolute;
+        background-image: url("/assets/images/logo/campfire.jpg");
+        background-repeat: no-repeat;
+        background-size:100%;
+        text-indent: 200%;
+        white-space: nowrap;
+        overflow: hidden;
+        border: 5px solid $primary;
+        border-top: 1px;
+        left:0;
+
+        @include breakpoint(750px) {
+            @include rem(width, 95px);
+            @include rem(height, 114px);
+        }
+
+        &:hover,
+        &:focus {
+            border-color:lighten($primary, 15);
+        }
+    }
+}

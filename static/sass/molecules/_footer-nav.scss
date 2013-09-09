@@ -1,0 +1,104 @@
+/*------------------------------------*\
+    $FOOTER NAV
+\*------------------------------------*/
+
+
+footer[role="contentinfo"] {
+    margin-top:0;
+    width:100%;
+
+    section {
+        padding-bottom:.5em;
+        background-color:$tertiary;
+        border:1px solid #ddd;
+
+        p {
+            font-size:.9em;
+        }
+    }
+
+    nav {
+        @extend %main_column;
+        background-size:100%;
+        margin:0 auto;
+        padding: 4em 0 2em 0;
+        text-align:center;
+        background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
+        background-size:180%;
+
+        @include breakpoint ($medium) {
+            background-size:150%;
+        }
+
+        @include breakpoint ($grande) {
+            background-size:130%;
+        }
+
+        @include breakpoint(420px) {
+            padding-top:4em;
+        }
+
+        @include breakpoint (450px) {
+            padding-top:4.7em;
+        }
+
+        @include breakpoint(480px) {
+            padding-top:4.5em;
+        }
+
+        @include breakpoint(500px) {
+            padding-top:4.6em;
+        }
+
+        @include breakpoint(550px) {
+            padding-top:5.6em;
+        }
+
+        @include breakpoint(610px) {
+            padding-top: 5em;
+        }
+    }
+}
+
+
+.nav--main {
+    font-size:90%;
+    margin:4em 0 0 0;
+    width:100%;
+    max-width:none;
+
+    li {
+        display:inline-block;
+        list-style:none;
+        background:none;
+        text-align:center;
+        padding-left:.7em;
+        margin-left:0;
+
+        &:before {
+            content:none;
+        }
+
+        &:after {
+            content:"|";
+            color:darken($lightcream, 20);
+            padding-left:.9em;
+            margin-left:.2em;
+        }
+
+        &:last-child:after {
+            content:"";
+            padding-right:0;
+        }
+
+        a {
+            @include transition(all .3s ease-in-out);
+            border-bottom: 1px solid transparent;
+
+            &:hover,
+            &:focus {
+                border-bottom: 1px solid $primary;
+            }
+        }
+    }
+}

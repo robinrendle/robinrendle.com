@@ -1,0 +1,35 @@
+/*------------------------------------*\
+    $BLOCKQUOTES
+\*------------------------------------*/
+
+blockquote {
+    margin-bottom:$base-spacing-unit;
+
+    p {
+        width:100%;
+        color:$textgrey;
+        font-style:italic;
+        padding-left: $half-spacing-unit;
+        border-left:2px solid #eee;
+        padding-bottom: $base-spacing-unit;
+        margin-bottom:0;
+
+        &:only-child {
+            padding-bottom:0;
+        }
+    }
+
+    em {
+        font-style:normal;
+        @extend %poynter;
+    }
+
+    >p:last-child {
+        margin-bottom:0;
+        padding-bottom:0;
+    }
+
+    & + img {
+        margin-top: $base-spacing-unit;
+    }
+}

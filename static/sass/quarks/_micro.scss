@@ -1,0 +1,119 @@
+/*------------------------------------*\
+    $MICRO
+\*------------------------------------*/
+/**
+* Micro typographic styles
+*
+**/
+
+em, i, cite, figcaption {
+    font-style:italic;
+}
+
+s {
+    text-decoration:line-through;
+}
+
+small {
+    font-size:.85em;
+    line-height: 1.5;
+    display:inline-block;
+    margin-bottom:0;
+}
+
+samp {
+    font-family:$code;
+    font-size:.9em;
+    color:$darkgrey;
+}
+
+strong,
+b {
+    font-weight:bold;
+}
+
+abbr, span {
+    font-size:.8em;
+    text-transform:uppercase;
+    text-decoration: none;
+    border:none;
+    cursor: none;
+}
+
+abbr[title] {
+    border:none;
+}
+
+dfn {
+    border-bottom:1px dashed darken($secondary,10);
+}
+
+mark {
+    background-color:$highlight;
+    color:#333;
+}
+
+dl {
+    dt {
+        font-weight:bold;
+    }
+
+    dd {
+        margin-left:1.5em;
+    }
+}
+
+sub {
+    line-height:90%;
+    font-size:.8em;
+    vertical-align:sub;
+}
+
+sup {
+    vertical-align:super;
+    line-height:0;
+    font-size:.8em;
+}
+
+kbd {
+    font-size:.6em;
+    line-height:80%;
+    background-color:#FCFCFC;
+    @include background(linear-gradient(top, #FCFCFC, #EEEEEE));
+    border:1px solid #E6E6E6;
+    border-radius:3px;
+    padding:.3em 0.4em .2em 0.4em;
+    font-family:$code;
+    white-space:nowrap;
+}
+
+q:before {content: '“'; content: open-quote;}
+q:after {content: '”'; content: close-quote;}
+
+hr {
+    border:none;
+    color:#ccc;
+    font-size:1.3em;
+    text-align:center;
+    height: $base-spacing-unit;
+
+    &:after {
+        content:"* * *";
+        letter-spacing:.2em;
+        height:0;
+    }
+}
+
+hr.border {
+    border-bottom: 1px dashed $border2;
+
+    &:after {
+        content: "";
+    }
+}
+
+pre {
+    line-height:1.3;
+    overflow:hidden;
+    font-size:.95em;
+}

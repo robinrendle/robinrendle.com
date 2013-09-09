@@ -1,0 +1,46 @@
+@if $use-island == true{
+
+/*------------------------------------*\
+    $ISLAND
+\*------------------------------------*/
+/**
+ * Simple, boxed off content, as per: csswizardry.com/2011/10/the-island-object
+ * E.g.:
+ *
+   <div class=island>
+       I am boxed off.
+   </div>
+ *
+ * Demo: jsfiddle.net/inuitcss/u8pV3
+ *
+ */
+    .island,
+    .islet{
+        @extend .cf;
+        display:block;
+        background-color: $color__island;
+        border: 1px solid darken($color__border, 5);
+    }
+    .island {
+        @include rem(padding, $base-spacing-unit);
+    }
+
+        .island > :last-child,
+        .islet > :last-child{
+            margin-bottom:0;
+        }
+
+    .island--meta {
+        @include rem(font-size, $micro-size);
+        font-style: italic;
+
+        h1,h2,h3,h4,h5 {
+            margin: 0;
+            text-align: left;
+        }
+
+        @include breakpoint(600px){
+            @include rem(font-size, ($micro-size + 2px));
+        }
+    }
+}//endif
