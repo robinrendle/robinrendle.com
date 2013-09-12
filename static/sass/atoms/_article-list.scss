@@ -9,9 +9,13 @@
     width:100%;
 }
     .article-list__item {
-        @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        @include rem(margin-bottom, $base-spacing-unit * 1);
         margin-top: 0;
         padding-top: 0;
+
+        @include breakpoint($medium){
+            @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        }
 
         .hgroup {
             margin:0;
@@ -45,12 +49,16 @@
     }
 
     .article-list__content {
-        @include rem(padding-bottom, $base-spacing-unit * 1.5);
+        @include rem(padding-bottom, $base-spacing-unit * 1);
         border-bottom: 1px dotted $color__border--dark;
 
         @include breakpoint(500px){
             @include rem(font-size, 19px);
             line-height: 1.5;
+        }
+
+        @include breakpoint($medium){
+            @include rem(padding-bottom, $base-spacing-unit * 1.5);
         }
 
         > p {
