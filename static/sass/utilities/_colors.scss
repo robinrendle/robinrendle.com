@@ -2,7 +2,7 @@
     $COLORS
 \*------------------------------------*/
 
-    $primary:#C35E5E;
+    $color__red--primary:#C35E5E;
     $secondary:#CCC;
     $tertiary:#FAFAFA;
 
@@ -16,14 +16,15 @@
     $darkgrey:#444;
     $textgrey:#575757;
 
-    $grey:#777777;
-    $lightgrey:#aaa;
-    $offgrey:#fbfafa;
+    $color__meta: #888888;
+    $lightgrey: #AAAAAA;
+    $offgrey: #FBFAFA;
     $offwhite:#FEFEFE;
     $white:#FFF;
 
-    $color__border:#eee;
-    $border2:#ddd;
+    $color__border--light: #EEEEEE;
+    $color__border--dark: #DDDDDD;
+
 
     $color__island: #F7F7F7;
 
@@ -45,7 +46,7 @@
     }
 
     %red-gradient {
-        @include gradient(darken($primary, 15%), $primary, darken($primary, 10%));
+        @include gradient(darken($color__red--primary, 15%), $color__red--primary, darken($color__red--primary, 10%));
     }
 
     %cream-gradient {

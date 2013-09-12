@@ -19,7 +19,7 @@
         @extend .cf;
         display:block;
         background-color: $color__island;
-        border: 1px solid darken($color__border, 5);
+        border: 1px solid darken($color__border--light, 5);
     }
     .island {
         @include rem(padding, $base-spacing-unit);

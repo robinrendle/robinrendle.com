@@ -105,7 +105,7 @@ hr {
 }
 
 hr.border {
-    border-bottom: 1px dashed $border2;
+    border-bottom: 1px dashed $color__border--light;
 
     &:after {
         content: "";

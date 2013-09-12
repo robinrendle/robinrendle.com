@@ -15,6 +15,7 @@ ul {
     margin-left:0;
 
     li {
+        @include rem(margin-bottom, $half-spacing-unit);
         list-style:none;
         position:relative;
 
@@ -35,12 +36,26 @@ ul {
 
 ol {
     margin-left: 0;
-    list-style-position: outside;
+    list-style: none;
+    counter-reset: list-counter;
 
     li {
-        list-style:decimal;
-        list-style-position:outside;
-        padding-left:0;
+        @include rem(margin-bottom, $half-spacing-unit);
+        position: relative;
+        list-style: none;
+
+        &:before {
+            @include rem(left, - ($half-spacing-unit * 1));
+            top: 0;
+            content: counter(list-counter);
+            counter-increment: list-counter;
+            position: absolute;
+            color: $color__red--primary;
+
+            @include breakpoint($medium){
+                @include rem(left, - ($half-spacing-unit * 1.5));
+            }
+        }
     }
 
     ol,ul {

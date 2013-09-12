@@ -7,7 +7,7 @@
     @include rem(padding-bottom, $half-spacing-unit);
     text-align: left;
     font-style: italic;
-    border-bottom: 1px solid darken($color__border,5);
+    border-bottom: 1px solid $color__border--light;
     position: relative;
 
     @include breakpoint(500px){
@@ -25,7 +25,7 @@
         text-align: center;
         line-height: .7;
         content: "¶";
-        color: $border2;
+        color: $color__border--light;
         font-style: normal;
         background-color: $offwhite;
     }

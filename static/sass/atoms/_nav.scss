@@ -38,8 +38,8 @@
 .nav--tags {
     font-size: $milli-size;
     font-size: calc-rem($milli-size);
-    background-color: lighten($color__border, 4);
-    border: 1px solid $color__border;
+    background-color: lighten($color__border--dark, 4);
+    border: 1px solid $color__border--dark;
     margin-top: $base-spacing-unit * 2;
     margin-top: calc-rem($base-spacing-unit * 2);
     padding: $half-spacing-unit;

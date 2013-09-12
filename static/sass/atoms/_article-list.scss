@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    $ARTICLE-LIST
+\*------------------------------------*/
+/**
+* Create a standard list for articles and posts
+**/
+
+.article-list {
+    width:100%;
+}
+    .article-list__item {
+        @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        margin-top: 0;
+        padding-top: 0;
+
+        .hgroup {
+            margin:0;
+            @include rem(margin-bottom, $half-spacing-unit);
+
+            @include breakpoint(560px){
+                @include rem(margin-bottom, $half-spacing-unit / 1.5);
+            }
+
+            h3 {
+                @include rem(font-size, 22px);
+                font-weight: normal;
+                text-align: center;
+
+                @include breakpoint(600px) {
+                    @include rem(font-size, 25px);
+                }
+            }
+        }
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-of-type {
+            .article-list__content {
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+    }
+
+    .article-list__content {
+        @include rem(padding-bottom, $base-spacing-unit * 1.5);
+        border-bottom: 1px dotted $color__border--dark;
+
+        @include breakpoint(500px){
+            @include rem(font-size, 19px);
+            line-height: 1.5;
+        }
+
+        > p {
+            margin-bottom:0;
+            display:inline;
+        }
+
+        a {
+            display:inline;
+        }
+    }

@@ -44,7 +44,7 @@
         </div><!-- //end.container -->
 
         {% for post in site.posts limit: 3 %}
-            <article class="container item-list__item">
+            <article class="container article-list__item">
 
                 <header class="hgroup hgroup--listing">
                     <h3><a href="{{post.url}}">{{post.title}}</a></h3>
@@ -55,7 +55,7 @@
                     </div>
                 </header>
 
-                <div class="item-list__content">
+                <div class="article-list__content">
                     <p>{{post.meta.Extract.value}}</p>
                 </div>
             </article>

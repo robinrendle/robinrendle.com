@@ -30,7 +30,7 @@
         text-indent: 200%;
         white-space: nowrap;
         overflow: hidden;
-        border: 5px solid $primary;
+        border: 5px solid $color__red--primary;
         border-top: 1px;
         left:0;
 
@@ -41,7 +41,7 @@
 
         &:hover,
         &:focus {
-            border-color:lighten($primary, 15);
+            border-color:lighten($color__red--primary, 15);
         }
     }
 }

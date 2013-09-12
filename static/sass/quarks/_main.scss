@@ -14,8 +14,8 @@ body {
     background-color: $offwhite;
     line-height: ($line-height-ratio - .1);
     color: $offblack;
-    border-top:4px solid $primary;
-    border-bottom:4px solid $primary;
+    border-top:4px solid $color__red--primary;
+    border-bottom:4px solid $color__red--primary;
     float:left;
     width:100%;
 
@@ -35,6 +35,6 @@ body {
     }
 
     @include breakpoint($grande) {
-        font-size:120%;
+        font-size:117%;
     }
 }

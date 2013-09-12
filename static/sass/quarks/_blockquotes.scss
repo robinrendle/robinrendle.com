@@ -3,16 +3,16 @@
 \*------------------------------------*/
 
 blockquote {
-    margin-bottom:$base-spacing-unit;
+    @include rem(margin-bottom, $base-spacing-unit);
 
     p {
+        @include rem(padding-left, $half-spacing-unit);
+        @include rem(padding-bottom, $base-spacing-unit);
+        margin-bottom:0;
         width:100%;
         color:$textgrey;
         font-style:italic;
-        padding-left: $half-spacing-unit;
         border-left:2px solid #eee;
-        padding-bottom: $base-spacing-unit;
-        margin-bottom:0;
 
         &:only-child {
             padding-bottom:0;
@@ -30,6 +30,6 @@ blockquote {
     }
 
     & + img {
-        margin-top: $base-spacing-unit;
+        @include rem(margin-top, $base-spacing-unit);
     }
 }
