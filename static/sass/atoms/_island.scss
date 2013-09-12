@@ -23,6 +23,10 @@
     }
     .island {
         @include rem(padding, $base-spacing-unit);
+
+        ul > li {
+            margin-bottom: 0;
+        }
     }
 
         .island > :last-child,
