@@ -9,66 +9,67 @@
  */
 
 @mixin headline-one {
-    @extend %miller-headline;
+    @extend %font__headline;
     @include rem(font-size, $h1-size);
-    color:$title-black;
-    font-weight:normal;
+    color:$color__lightblack;
     line-height:1.2;
 
-    @include breakpoint($medium) {
-        font-size:2.3em;
+    @include breakpoint($breakpoint__medium) {
+        @include rem(font-size, ($h1-size + 10px));
     }
 }
 
 @mixin headline-two {
-    @extend %miller;
+    @extend %font__headline;
     @include rem(font-size, $h2-size);
-    font-weight:normal;
-    font-style:normal;
-    margin:1.8em auto .8em auto;
-    line-height:1.35;
-    color:$title-black;
+    @include rem(margin, $base-spacing-unit*2), 0, $base-spacing-unit, 0);
+    font-weight: $font-weight--bold;
+    font-style: normal;
+    line-height:1.2;
+    color: $color__lightblack;
     max-width:20.7em;
 
-    @include breakpoint($medium) {
+    @include breakpoint($breakpoint__medium) {
         font-size:1.6em;
     }
 }
 
 @mixin headline-three {
-    @extend %poynter;
-    @include rem(font-size, $h3-size);
-    font-weight: bold;
-    color:$title-black;
-    line-height:1.4;
-    margin:1.5em auto .8em auto;
+    @extend %font__text;
+    @include rem(font-size, $base-font-size);
+    @include rem(margin-top, $base-spacing-unit);
+    margin-bottom: 0;
+    font-weight: $font-weight--bold;
+    color: $color__lightblack;
+    line-height: $line-height-ratio - .2;
 
-    @include breakpoint($medium){
-        @include rem(font-size, 21px);
+    @include breakpoint($breakpoint__medium){
+        @include rem(font-size, $base-font-size + 1px);
     }
 }
 
 @mixin headline-four {
-    @extend %poynter;
+    @extend %font__text;
     @include rem(font-size, $h4-size);
-    font-style:italic;
-    line-height:1.4;
-    margin:1.55em auto 1.4em auto;
-    color:$title-black;
+    font-style: italic;
+    color: $color__meta;
+    border-bottom: 1px solid $secondary;
+    @include rem(margin-bottom, $quarter-spacing-unit);
+    @include rem(padding-bottom, $quarter-spacing-unit);
 }
 
 @mixin headline-five {
-    @extend %poynter;
+    @extend %font__text;
     @include rem(font-size, $h4-size);
     font-style:normal;
     line-height:1.4;
     margin:1.55em auto 1.2em auto;
-    color:$title-black;
+    color:$color__lightblack;
     text-transform:uppercase;
 }
 
 @mixin text {
-    @extend %poynter;
+    @extend %font__text;
     @include rem(font-size, $base-font-size);
     font-size:$base-font-size;
     line-height:$base-line-height;
@@ -82,7 +83,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-align:center;
     width:100%;
 }
 
@@ -91,7 +91,7 @@ h1, .h1 {
     font-feature-settings: "liga" on;
     -moz-font-feature-settings: 'liga=1';
     -webkit-font-feature-settings: "liga" on;
-    text-rendering: optimizeLegibility;
+    text-align: center;
 }
 
 h2, .h2 {

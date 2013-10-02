@@ -11,7 +11,7 @@
         max-width:33em;
         margin:0 auto;
 
-        @include breakpoint($medium) {
+        @include breakpoint($breakpoint__medium) {
             width:85%;
         }
     }
@@ -21,16 +21,11 @@
         max-width:31.5em;
         margin:0 auto;
 
-        @include breakpoint($medium) {
-            @include rem(padding-left, $base-spacing-unit*1);
-            @include rem(padding-right, $base-spacing-unit*1);
+        @include breakpoint($breakpoint__medium) {
+            @include rem(padding-left, $half-spacing-unit);
+            @include rem(padding-right, $half-spacing-unit);
             margin-top:0;
-        }
-
-        @include breakpoint($large){
-            max-width:32em;
-            padding-left: 0;
-            padding-right: 0;
+            @include rem(max-width, 700px);
         }
     }
 

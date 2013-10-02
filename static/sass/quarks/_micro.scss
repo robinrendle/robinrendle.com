@@ -24,17 +24,17 @@ small {
 samp {
     font-family:$code;
     font-size:.9em;
-    color:$darkgrey;
+    color:$color__darkgrey;
 }
 
-strong,
-b {
-    font-weight:bold;
+b,
+strong {
+    font-weight: $font-weight--bold;
 }
+
 
 abbr, span {
-    font-size:.8em;
-    text-transform:uppercase;
+    @extend %font__text--sc;
     text-decoration: none;
     border:none;
     cursor: none;
@@ -49,7 +49,7 @@ dfn {
 }
 
 mark {
-    background-color:$highlight;
+    background-color:$color__highlight;
     color:#333;
 }
 

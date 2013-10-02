@@ -14,11 +14,10 @@
  * Enter breakpoint variables here
  */
 
-$medium: 30.25em;
-$grande: 42em;
-$large: 61.9375em;
-$desktop: 64.4375em;
-$widescreen: 109.375em;
+$breakpoint__medium: 30.25em;
+$breakpoint__grande: 42em;
+$breakpoint__large: 61.9375em;
+$breakpoint__widescreen: 109.375em;
 
 
 
@@ -28,15 +27,15 @@ $widescreen: 109.375em;
 /**
  * Font-sizes (in pixels). Refer to relevant sections for their implementations.
  */
-$h1-size: 36px!default;
-$h2-size: 24px!default;
-$h3-size: 18px!default;
-$h4-size: 14px!default;
-$micro-size: 16px!default;
-$milli-size: 15px!default;
+$h1-size: 40!default;
+$h2-size: 32!default;
+$h3-size: 18!default;
+$h4-size: 17!default;
+$micro-size: 16!default;
+$milli-size: 15!default;
 
-$base-font-size: 17px!default;
-$base-line-height: 27px!default;
+$base-font-size: 17!default;
+$base-line-height: 33!default;
 
 
 /**

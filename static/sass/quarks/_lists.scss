@@ -20,7 +20,7 @@ ul {
         position:relative;
 
         &:before {
-            @include rem(left, - ($half-spacing-unit));
+            @include rem(left, - 13px);
             content:"•";
             color: #C96F6F;
             padding:0;
@@ -45,14 +45,14 @@ ol {
         list-style: none;
 
         &:before {
-            @include rem(left, - ($half-spacing-unit * 1));
+            @include rem(left, - 13px);
             top: 0;
             content: counter(list-counter);
             counter-increment: list-counter;
             position: absolute;
             color: $color__red--primary;
 
-            @include breakpoint($medium){
+            @include breakpoint($breakpoint__medium){
                 @include rem(left, - ($half-spacing-unit * 1.5));
             }
         }

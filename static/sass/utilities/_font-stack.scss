@@ -11,22 +11,28 @@
 
     // @start FONT STACKS -------------------- /
 
-    $code:Courier, Monaco, sans-serif;
+    $code: Courier, Monaco, sans-serif;
 
-    %miller-headline {
-        font-family:"Miller Headline Semi Bold", Georgia, serif;
-        font-style:normal;
-        font-weight:bold;
+    $font-weight--light: 300;
+    $font-weight--regular: 400;
+    $font-weight--medium: 500;
+    $font-weight--bold: 600;
+    $font-weight--black: 700;
+
+    %font__headline {
+        font-family: 'Whitney Cond A', 'Whitney Cond B', Georgia, serif;
+        font-weight: $font-weight--bold;
+        font-style: normal;
     }
 
-    %miller {
-        font-family:MillerDisplay, Georgia, serif;
-        font-style:normal;
-        font-weight:normal;
+    %font__text {
+      font-family:'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
+      font-weight: $font-weight--regular;
+      font-style: normal;
     }
 
-    %poynter {
-      font-family:"Poynter Serif RE",Georgia, serif;
-      font-style:normal;
-      font-weight:normal;
+    %font__text--sc {
+        font-family: 'Chronicle SSm SC A', 'Chronicle SSm SC B', Georgia, serif;
+        font-style: normal;
+        font-weight: $font-weight--regular;
     }

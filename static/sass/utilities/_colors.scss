@@ -2,35 +2,37 @@
     $COLORS
 \*------------------------------------*/
 
-    $color__red--primary:#C35E5E;
-    $secondary:#CCC;
-    $tertiary:#FAFAFA;
+    $color__red--primary: #c35e5e;
+    $secondary: #cccccc;
+    $tertiary: #fafafa;
 
 
-    $highlight:#FEFED0;
-    $border:1px solid $secondary;
+    $color__highlight: #fefed0;
 
-    $black:#000;
-    $title-black:#252525;
-    $offblack:#252525;
-    $darkgrey:#444;
-    $textgrey:#575757;
+    $color__black: #000;
+    $color__lightblack: #252525;
+    $color__offblack: #343434;
+
+    $color__darkgrey: #444;
+    $color__textgrey: #434343;
 
     $color__meta: #888888;
-    $lightgrey: #AAAAAA;
-    $offgrey: #FBFAFA;
-    $offwhite:#FEFEFE;
-    $white:#FFF;
 
-    $color__border--light: #EEEEEE;
-    $color__border--dark: #DDDDDD;
 
+    $lightgrey: #aaaaaa;
+    $offgrey: #fbfafa;
+    $offwhite: #fefefe;
+    $white: #ffffff;
+
+
+    $color__border--light: #eeeeee;
+    $color__border--dark: #dddddd;
 
     $color__island: #F7F7F7;
 
-    $lightcream:#efefef;
-    $purple:rgb(140,87,235);
-    $pink:#D71379; // Error
+    $lightcream: #efefef;
+    $purple: rgb(140,87,235);
+    $pink: #D71379; // Error
 
 
     /**

@@ -19,12 +19,12 @@ figure {
         width:90%;
         max-width:35em;
 
-        @include breakpoint($medium) {
+        @include breakpoint($breakpoint__medium) {
             width:85%;
             max-width:36em;
         }
 
-        @include breakpoint($widescreen) {
+        @include breakpoint($breakpoint__widescreen) {
             width:77%;
         }
 
@@ -71,7 +71,7 @@ figcaption {
     line-height:1.5;
     margin-bottom:0;
     margin-top:.5em;
-    color:$textgrey;
+    color:$color__textgrey;
 
     h5 {
         margin:0 auto;

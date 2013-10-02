@@ -5,12 +5,13 @@
 blockquote {
     @include rem(margin-bottom, $base-spacing-unit);
 
+
     p {
         @include rem(padding-left, $half-spacing-unit);
         @include rem(padding-bottom, $base-spacing-unit);
         margin-bottom:0;
         width:100%;
-        color:$textgrey;
+        color:$color__textgrey;
         font-style:italic;
         border-left:2px solid #eee;
 
@@ -21,7 +22,7 @@ blockquote {
 
     em {
         font-style:normal;
-        @extend %poynter;
+        @extend %font__text;
     }
 
     >p:last-child {

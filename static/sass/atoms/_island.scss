@@ -22,7 +22,11 @@
         border: 1px solid darken($color__border--light, 5);
     }
     .island {
-        @include rem(padding, $base-spacing-unit);
+        @include rem(padding, $half-spacing-unit);
+
+        @include breakpoint($breakpoint__medium) {
+            @include rem(padding, $base-spacing-unit);
+        }
 
         ul > li {
             margin-bottom: 0;
@@ -36,7 +40,6 @@
 
     .island--meta {
         @include rem(font-size, $micro-size);
-        font-style: italic;
 
         h1,h2,h3,h4,h5 {
             margin: 0;

@@ -22,12 +22,12 @@
     }
 
     >p {
-        @extend %poynter;
+        @extend %font__text;
         @include rem(margin-left, ($half-spacing-unit + 2px));
         font-size:1em;
         font-style:normal;
         margin-bottom:0;
-        color:$offblack;
+        color:$color__offblack;
         text-align:left;
         font-style:normal;
         width:100%;

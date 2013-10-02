@@ -12,15 +12,15 @@
     }
 
         .meta-info-block__item {
+            @include rem(font-size, $milli-size);
             font-style: normal;
             color:$color__meta;
             width:auto;
             display:inline-block;
-            font-size:.9em;
             margin-bottom: 0;
 
-            @include breakpoint($large) {
-                font-size:.85em;
+            @include breakpoint($breakpoint__large) {
+                @include rem(font-size, $milli-size);
             }
 
 

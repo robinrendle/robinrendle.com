@@ -19,14 +19,38 @@
 }
 
 
+@function calc-rem($target, $context: $base-font-size) {
+     @return ($target / $context) * 1rem;
+}
+
 /**
  * Calculate rems. $target = pixel size. $context = base pixel size
  */
 $rem-ratio: $base-font-size / 1rem;
 
-@mixin rem($key,$px) {
-  #{$key}: $px;
-  #{$key}: $px/$rem-ratio;
+
+@mixin rem($selector, $sizes...) {
+    $pxValues: '';
+    $remValues: '';
+    $max: length($sizes);
+
+    @for $i from 1 through $max {
+        $pxValues: #{$pxValues + nth($sizes, $i)}px;
+
+        @if $i < $max {
+            $pxValues: #{$pxValues + " "};
+        }
+    }
+
+    @for $i from 1 through $max {
+        $remValues: #{$remValues + calc-rem(nth($sizes, $i))};
+
+        @if $i < $max {
+            $remValues: #{$remValues + " "};
+        }
+    }
+        #{$selector}: $pxValues;
+        #{$selector}: $remValues;
 }
 
 

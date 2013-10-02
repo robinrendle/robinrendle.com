@@ -13,7 +13,7 @@
         margin-top: 0;
         padding-top: 0;
 
-        @include breakpoint($medium){
+        @include breakpoint($breakpoint__medium){
             @include rem(margin-bottom, $base-spacing-unit * 1.5);
         }
 
@@ -57,7 +57,7 @@
             line-height: 1.5;
         }
 
-        @include breakpoint($medium){
+        @include breakpoint($breakpoint__medium){
             @include rem(padding-bottom, $base-spacing-unit * 1.5);
         }
 

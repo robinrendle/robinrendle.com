@@ -17,7 +17,7 @@ section[role="main"] header {
             margin-top:-.3em;
         }
 
-        @include breakpoint($grande){
+        @include breakpoint($breakpoint__grande){
 
             .meta {
                 margin-top:-.2em;
@@ -28,7 +28,7 @@ section[role="main"] header {
 }
 
 figure {
-    @include breakpoint($grande){
+    @include breakpoint($breakpoint__grande){
         &.hero.bookmark {
             max-height:30em;
         }

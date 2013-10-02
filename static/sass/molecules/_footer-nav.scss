@@ -26,11 +26,11 @@ footer[role="contentinfo"] {
         background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
         background-size:180%;
 
-        @include breakpoint ($medium) {
+        @include breakpoint ($breakpoint__medium) {
             background-size:150%;
         }
 
-        @include breakpoint ($grande) {
+        @include breakpoint ($breakpoint__grande) {
             background-size:130%;
         }
 
