@@ -47,7 +47,7 @@
         }
 
         @include breakpoint(600px){
-            @include rem(font-size, ($micro-size + 2px));
+            @include rem(font-size, ($micro-size + 2));
         }
     }
 }//endif

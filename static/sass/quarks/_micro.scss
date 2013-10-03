@@ -95,11 +95,11 @@ hr {
     color:#ccc;
     font-size:1.3em;
     text-align:center;
-    height: $base-spacing-unit;
+    @include rem(height, $base-spacing-unit);
 
     &:after {
         content:"* * *";
-        letter-spacing:.2em;
+        letter-spacing: .2em;
         height:0;
     }
 }

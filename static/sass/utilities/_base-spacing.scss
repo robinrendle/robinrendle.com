@@ -23,13 +23,7 @@ pre,
 .media,
 .island,
 .islet{
-    margin-bottom:$base-spacing-unit;
-    margin-bottom:($base-spacing-unit / $base-font-size)*1rem;
-
-    .islet &{
-        margin-bottom:$base-spacing-unit / 2;
-        margin-bottom:(($base-spacing-unit / $base-font-size) / 2)*1rem;
-    }
+    @include rem(margin-bottom, $base-spacing-unit);
 }
 
 /**
@@ -37,8 +31,7 @@ pre,
  * treatment regarding vertical rhythm.
  */
 hr{
-    margin-bottom:$base-spacing-unit - 2px;
-    margin-bottom:(($base-spacing-unit - 2px) / $base-font-size)*1rem;
+    @include rem(margin-bottom, $base-spacing-unit);
 }
 
 

@@ -11,8 +11,7 @@
  * twitter.com/redclov3r/status/250301539321798657
  */
 @mixin font-size($font-size, $line-height:true){
-    font-size:$font-size;
-    font-size:($font-size / $base-font-size)*1rem;
+    @include rem(font-size, $font-size);
     @if $line-height == true{
         line-height:ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
     }
@@ -26,7 +25,7 @@
 /**
  * Calculate rems. $target = pixel size. $context = base pixel size
  */
-$rem-ratio: $base-font-size / 1rem;
+$rem-ratio: $base-font-size / 16;
 
 
 @mixin rem($selector, $sizes...) {
@@ -43,7 +42,7 @@ $rem-ratio: $base-font-size / 1rem;
     }
 
     @for $i from 1 through $max {
-        $remValues: #{$remValues + calc-rem(nth($sizes, $i))};
+
 
         @if $i < $max {
             $remValues: #{$remValues + " "};

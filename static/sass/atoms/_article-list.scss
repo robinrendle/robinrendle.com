@@ -9,7 +9,7 @@
     width:100%;
 }
     .article-list__item {
-        @include rem(margin-bottom, $base-spacing-unit * 1);
+        @include rem(margin-bottom, $base-spacing-unit);
         margin-top: 0;
         padding-top: 0;
 
@@ -26,12 +26,12 @@
             }
 
             h3 {
-                @include rem(font-size, 22px);
+                @include rem(font-size, 22);
                 font-weight: normal;
                 text-align: center;
 
                 @include breakpoint(600px) {
-                    @include rem(font-size, 25px);
+                    @include rem(font-size, 25);
                 }
             }
         }
@@ -53,7 +53,7 @@
         border-bottom: 1px dotted $color__border--dark;
 
         @include breakpoint(500px){
-            @include rem(font-size, 19px);
+            @include rem(font-size, 19);
             line-height: 1.5;
         }
 

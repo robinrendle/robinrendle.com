@@ -20,8 +20,8 @@
 
     .avatar {
         @include transition(all .2s ease-in);
-        @include rem(width, 85px);
-        @include rem(height, 103px);
+        @include rem(width, 85);
+        @include rem(height, 103);
         margin: 0 auto;
         position: absolute;
         background-image: url("/assets/images/logo/campfire.jpg");
@@ -35,8 +35,8 @@
         left:0;
 
         @include breakpoint(750px) {
-            @include rem(width, 95px);
-            @include rem(height, 114px);
+            @include rem(width, 95);
+            @include rem(height, 114);
         }
 
         &:hover,

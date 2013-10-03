@@ -15,14 +15,15 @@
     line-height:1.2;
 
     @include breakpoint($breakpoint__medium) {
-        @include rem(font-size, ($h1-size + 10px));
+        @include rem(font-size, ($h1-size + 10));
     }
 }
 
 @mixin headline-two {
     @extend %font__headline;
     @include rem(font-size, $h2-size);
-    @include rem(margin, $base-spacing-unit*2), 0, $base-spacing-unit, 0);
+    @include rem(margin-top, $base-spacing-unit*2);
+    @include rem(margin-bottom, $base-spacing-unit);
     font-weight: $font-weight--bold;
     font-style: normal;
     line-height:1.2;
@@ -44,7 +45,7 @@
     line-height: $line-height-ratio - .2;
 
     @include breakpoint($breakpoint__medium){
-        @include rem(font-size, $base-font-size + 1px);
+        @include rem(font-size, $base-font-size + 1);
     }
 }
 

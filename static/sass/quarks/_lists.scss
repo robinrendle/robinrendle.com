@@ -20,7 +20,7 @@ ul {
         position:relative;
 
         &:before {
-            @include rem(left, - 13px);
+            @include rem(left, - 13);
             content:"•";
             color: #C96F6F;
             padding:0;
@@ -45,7 +45,7 @@ ol {
         list-style: none;
 
         &:before {
-            @include rem(left, - 13px);
+            @include rem(left, - 13);
             top: 0;
             content: counter(list-counter);
             counter-increment: list-counter;

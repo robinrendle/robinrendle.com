@@ -24,12 +24,12 @@
             }
 
             h3 {
-                @include rem(font-size, 22px);
+                @include rem(font-size, 22);
                 font-weight: normal;
                 text-align: center;
 
                 @include breakpoint(600px) {
-                    @include rem(font-size, 25px);
+                    @include rem(font-size, 25);
                 }
             }
         }
@@ -42,7 +42,7 @@
     .item-list__content {
 
         @include breakpoint(500px){
-            @include rem(font-size, 19px);
+            @include rem(font-size, 19);
             line-height: 1.5;
         }
 
@@ -61,10 +61,10 @@
     Note listing requires a bit of layout fiddling to look right
     */
     .item-list__item--notes {
-        margin-bottom:$base-spacing-unit*1.5;
+        margin-bottom:$base-spacing-unit * 1.5;
 
         h3 {
-            @include rem(font-size, 21px);
+            @include rem(font-size, 21);
         }
     }
 
