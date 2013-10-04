@@ -68,7 +68,7 @@ figure {
 
 figcaption {
     font-size:.9em;
-    line-height:1.5;
+    line-height: $line-height-ratio / 1.1;
     margin-bottom:0;
     margin-top:.5em;
     color:$color__textgrey;

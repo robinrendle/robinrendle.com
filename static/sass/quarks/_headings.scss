@@ -22,7 +22,7 @@
 @mixin headline-two {
     @extend %font__headline;
     @include rem(font-size, $h2-size);
-    @include rem(margin-top, $base-spacing-unit*2);
+    @include rem(margin-top, $base-spacing-unit * 1.5);
     @include rem(margin-bottom, $base-spacing-unit);
     font-weight: $font-weight--bold;
     font-style: normal;
@@ -37,9 +37,11 @@
 
 @mixin headline-three {
     @extend %font__text;
-    @include rem(font-size, $base-font-size);
+    @include rem(font-size, $h3-size);
     @include rem(margin-top, $base-spacing-unit);
-    margin-bottom: 0;
+    @include rem(margin-bottom, $quarter-spacing-unit);
+    @include rem(padding-bottom, $quarter-spacing-unit);
+    border-bottom: 1px solid $color__border--dark;
     font-weight: $font-weight--bold;
     color: $color__lightblack;
     line-height: $line-height-ratio - .2;
@@ -50,13 +52,13 @@
 }
 
 @mixin headline-four {
-    @extend %font__text;
-    @include rem(font-size, $h4-size);
-    font-style: italic;
-    color: $color__meta;
-    border-bottom: 1px solid $secondary;
-    @include rem(margin-bottom, $quarter-spacing-unit);
-    @include rem(padding-bottom, $quarter-spacing-unit);
+    @extend %font__headline;
+    @include rem(font-size, $gamma-size);
+    @include rem(line-height, 28);
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: $color__lightgrey;
+    letter-spacing: .015em;
 }
 
 @mixin headline-five {

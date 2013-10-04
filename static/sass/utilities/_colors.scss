@@ -2,6 +2,10 @@
     $COLORS
 \*------------------------------------*/
 
+    $color__black: #000;
+    $color__white: #ffffff;
+
+    // PRIMARY COLORS
     $color__red--primary: #c35e5e;
     $secondary: #cccccc;
     $tertiary: #fafafa;
@@ -9,20 +13,22 @@
 
     $color__highlight: #fefed0;
 
-    $color__black: #000;
-    $color__lightblack: #252525;
-    $color__offblack: #343434;
 
-    $color__darkgrey: #444;
-    $color__textgrey: #434343;
-
+    // GRAY COLORS
+    $offgrey: #fbfafa;
+    $offwhite: #fefefe;
+    $color__lightgrey: #aaaaaa;
+    $color__grey--light: #999999;
     $color__meta: #888888;
 
 
-    $lightgrey: #aaaaaa;
-    $offgrey: #fbfafa;
-    $offwhite: #fefefe;
-    $white: #ffffff;
+    // DARK COLORS
+    $color__lightblack: #252525;
+    $color__offblack: #343434;
+    $color__darkgrey: #444;
+    $color__textgrey: #434343;
+
+
 
 
     $color__border--light: #eeeeee;

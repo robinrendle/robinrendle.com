@@ -91,10 +91,12 @@ q:before {content: '“'; content: open-quote;}
 q:after {content: '”'; content: close-quote;}
 
 hr {
-    border:none;
-    color:#ccc;
-    font-size:1.3em;
-    text-align:center;
+    border: none;
+    color: #ccc;
+    font-size: 1.3em;
+    text-align: center;
+    @include rem(margin-top, - $half-spacing-unit);
+    @include rem(margin-bottom, $half-spacing-unit);
     @include rem(height, $base-spacing-unit);
 
     &:after {

@@ -29,10 +29,9 @@
         }
 
         ul > li {
-            margin-bottom: 0;
+            @include rem(margin-bottom, $quarter-spacing-unit);
         }
     }
-
         .island > :last-child,
         .islet > :last-child{
             margin-bottom:0;
@@ -40,6 +39,7 @@
 
     .island--meta {
         @include rem(font-size, $micro-size);
+        line-height: $line-height-ratio * .9 ;
 
         h1,h2,h3,h4,h5 {
             margin: 0;

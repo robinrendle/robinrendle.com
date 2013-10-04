@@ -27,6 +27,12 @@ $breakpoint__widescreen: 109.375em;
 /**
  * Font-sizes (in pixels). Refer to relevant sections for their implementations.
  */
+
+$alpha-size: 40 !default;
+$beta-size: 32 !default;
+$gamma-size: 20 !default;
+
+
 $h1-size: 40!default;
 $h2-size: 32!default;
 $h3-size: 18!default;
@@ -35,7 +41,7 @@ $micro-size: 16!default;
 $milli-size: 15!default;
 
 $base-font-size: 17!default;
-$base-line-height: 33!default;
+$base-line-height: 32!default;
 
 
 /**

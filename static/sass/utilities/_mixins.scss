@@ -42,14 +42,15 @@ $rem-ratio: $base-font-size / 16;
     }
 
     @for $i from 1 through $max {
-
+        $remValues: #{$remValues + calc-rem(nth($sizes, $i))};
 
         @if $i < $max {
             $remValues: #{$remValues + " "};
         }
     }
-        #{$selector}: $pxValues;
-        #{$selector}: $remValues;
+
+    #{$selector}: $pxValues;
+    #{$selector}: $remValues;
 }
 
 
