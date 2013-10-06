@@ -15,24 +15,10 @@
     }
 
 code {
-    color:$purple;
-    font-family:$code;
-    font-size:.9em;
-    line-height:1.6;
-
-    .fontface &{
-        font-size:.9em;
-    }
+    color: $color__meta;
+    font-family: $code;
 
     &.class {
         color:#47CA26;
-    }
-
-    code {
-        font-size:1em;
-
-        .fontface & {
-            font-size:1em;
-        }
     }
 }

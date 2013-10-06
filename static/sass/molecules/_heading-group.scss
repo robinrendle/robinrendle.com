@@ -22,3 +22,8 @@
         margin:0 auto;
     }
 }
+
+
+.heading-group--home {
+    @include rem(margin-bottom, $base-spacing-unit * 1.5);
+}

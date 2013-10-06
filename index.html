@@ -32,13 +32,9 @@
 
     <section role="main">
         <div class="container">
-            <header class="heading-group">
+            <header class="heading-group heading-group--home">
                 <h1>Robin Rendle is a front-end developer and designer</h1>
             </header>
-
-            <div class="home__about-me">
-                {{ site.pages.about.body }}
-            </div>
         </div><!-- //end.container -->
 
         {% for post in site.posts limit: 3 %}
@@ -46,15 +42,16 @@
 
                 <header class="hgroup hgroup--listing">
                     <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                    <div class="meta-info-block">
-                        <div class="meta-info-block__item">
-                            {{ post.date | date: "%d %B %Y"}} • Posted in {{post.parent.title}}
-                        </div>
-                    </div>
                 </header>
 
                 <div class="article-list__content">
                     <p>{{post.meta.Extract.value}}</p>
+
+                    <div class="meta-info-block meta-info-block--list">
+                        <div class="meta-info-block__item">
+                            {{ post.date | date: "%d %B %Y"}} • Posted in {{post.parent.title}}
+                        </div>
+                    </div>
                 </div>
             </article>
         {% endfor %}

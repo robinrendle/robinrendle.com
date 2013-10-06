@@ -45,7 +45,7 @@ abbr[title] {
 }
 
 dfn {
-    border-bottom:1px dashed darken($secondary,10);
+    border-bottom:1px dashed darken($color__secondary,10);
 }
 
 mark {
@@ -95,8 +95,8 @@ hr {
     color: #ccc;
     font-size: 1.3em;
     text-align: center;
-    @include rem(margin-top, - $half-spacing-unit);
-    @include rem(margin-bottom, $half-spacing-unit);
+    @include rem(margin-top, $base-spacing-unit);
+    @include rem(margin-bottom, $base-spacing-unit);
     @include rem(height, $base-spacing-unit);
 
     &:after {

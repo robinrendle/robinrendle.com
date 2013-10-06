@@ -4,65 +4,84 @@
 /**
  * Remove vertical spacing from nested lists.
  */
-li{
+li {
+    @include rem(font-size, $base-font-size - 1);
+    @include rem(margin-bottom, $quarter-spacing-unit / 1.5);
+
+    @include breakpoint($breakpoint__medium){
+        @include rem(font-size, $base-font-size);
+    }
+
     > ul,
     > ol{
          margin-bottom:0;
-     }
+    }
+
+    > p {
+        @include rem(margin-bottom, $half-spacing-unit);
+        @include rem(font-size, $base-font-size);
+
+        @include breakpoint(580px) {
+            font-size: 105%;
+            line-height: $line-height-ratio - .1;
+        }
+
+        @include breakpoint($breakpoint__grande) {
+            font-size: 110%;
+            line-height: $line-height-ratio;
+        }
+    }
+}
+
+p + ul,
+p + ol {
+    @include rem(margin-top, - $half-spacing-unit);
 }
 
 ul {
-    margin-left:0;
-
-    li {
-        @include rem(margin-bottom, $half-spacing-unit);
+    >li {
         list-style:none;
         position:relative;
 
         &:before {
-            @include rem(left, - 13);
-            content:"•";
-            color: #C96F6F;
-            padding:0;
-            margin:0;
-            position:absolute;
+            @include rem(left, - 15);
+            @include rem(height, 6);
+            @include rem(width, 6);
+            @include rem(top, 12);
+            border-radius: 50%;
+            content:"";
+            background-color: $color__red--primary;
+            padding: 0;
+            margin: 0;
+            position: absolute;
         }
     }
 
     ul,ol {
-        margin-bottom:0;
+        @include rem(margin-top, 0);
+        @include rem(margin-bottom, 0);
+        @include rem(margin-left, $base-spacing-unit);
+
+        >li {
+            &:before {
+                background-color: $color__secondary;
+            }
+        }
     }
 }
 
 ol {
-    margin-left: 0;
-    list-style: none;
-    counter-reset: list-counter;
-
-    li {
-        @include rem(margin-bottom, $half-spacing-unit);
+    >li {
         position: relative;
-        list-style: none;
-
-        &:before {
-            @include rem(left, - 13);
-            top: 0;
-            content: counter(list-counter);
-            counter-increment: list-counter;
-            position: absolute;
-            color: $color__red--primary;
-
-            @include breakpoint($breakpoint__medium){
-                @include rem(left, - ($half-spacing-unit * 1.5));
-            }
-        }
     }
 
     ol,ul {
-        margin-bottom:0;
-
-        li {
-            list-style:lower-roman;
-        }
+        @include rem(margin-top, $quarter-spacing-unit);
+        @include rem(margin-bottom, $quarter-spacing-unit);
+        @include rem(margin-left, $base-spacing-unit);
     }
+}
+
+.list--outside {
+    @include rem(margin-left, 0);
 }

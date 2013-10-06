@@ -7,6 +7,7 @@ html{
     overflow-y:scroll;
     min-height:100%;
     -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -26,12 +27,13 @@ body {
         line-height: $line-height-ratio;
     }
 
-    @include breakpoint(36.352941176em) {
+    @include breakpoint(580px) {
         font-size: 105%;
-        line-height: $line-height-ratio - .2;
+        line-height: $line-height-ratio - .1;
     }
 
     @include breakpoint($breakpoint__grande) {
         font-size: 110%;
+        line-height: $line-height-ratio;
     }
 }

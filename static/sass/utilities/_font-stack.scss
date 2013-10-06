@@ -25,6 +25,12 @@
         font-style: normal;
     }
 
+    %font__text--display {
+        font-family: 'Whitney Cond A', 'Whitney Cond B', Georgia, serif;
+        font-weight: $font-weight--medium;
+        font-style: normal;
+    }
+
     %font__text {
       font-family:'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
       font-weight: $font-weight--regular;

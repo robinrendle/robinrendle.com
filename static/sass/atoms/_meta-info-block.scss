@@ -8,6 +8,7 @@
 
     .meta-info-block  {
         margin: 0 auto;
+        line-height: 1;
         text-align: center;
     }
 
@@ -18,6 +19,7 @@
             width:auto;
             display:inline-block;
             margin-bottom: 0;
+            line-height: 1.5;
 
             @include breakpoint($breakpoint__large) {
                 @include rem(font-size, $milli-size);
@@ -38,3 +40,7 @@
                 display:none;
             }
         }
+
+    .meta-info-block--list {
+        text-align: left;
+    }

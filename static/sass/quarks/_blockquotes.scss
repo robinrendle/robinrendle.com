@@ -6,9 +6,9 @@ blockquote {
     @include rem(margin-bottom, $base-spacing-unit);
 
 
-    p {
+    >p {
         @include rem(padding-left, $half-spacing-unit);
-        @include rem(padding-bottom, $base-spacing-unit);
+        @include rem(padding-bottom, $half-spacing-unit);
         margin-bottom:0;
         width:100%;
         color:$color__textgrey;

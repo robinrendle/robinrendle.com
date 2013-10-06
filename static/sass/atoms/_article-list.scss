@@ -7,31 +7,30 @@
 
 .article-list {
     width:100%;
+    @include rem(margin-top, $base-spacing-unit);
 }
     .article-list__item {
-        @include rem(margin-bottom, $base-spacing-unit);
+        @include rem(margin-bottom, $half-spacing-unit * 1.5);
         margin-top: 0;
         padding-top: 0;
 
-        @include breakpoint($breakpoint__medium){
-            @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        @include breakpoint($breakpoint__medium--b){
+            @include rem(margin-bottom, $base-spacing-unit);
         }
 
         .hgroup {
             margin:0;
-            @include rem(margin-bottom, $half-spacing-unit);
-
-            @include breakpoint(560px){
-                @include rem(margin-bottom, $half-spacing-unit / 1.5);
-            }
 
             h3 {
-                @include rem(font-size, 22);
+                @include rem(font-size, $gamma-size);
+                @include rem(margin-bottom, 5);
+                padding-bottom: 0;
                 font-weight: normal;
-                text-align: center;
+                text-align: left;
+                border-bottom: 0;
 
-                @include breakpoint(600px) {
-                    @include rem(font-size, 25);
+                @include breakpoint($breakpoint__grande){
+                    @include rem(font-size, $gamma-size + 2);
                 }
             }
         }
@@ -42,31 +41,30 @@
 
         &:last-of-type {
             .article-list__content {
-                padding-bottom: 0;
                 border-bottom: none;
             }
         }
     }
 
     .article-list__content {
-        @include rem(padding-bottom, $base-spacing-unit * 1);
+        @include rem(padding-bottom, $half-spacing-unit * 1.5);
         border-bottom: 1px dotted $color__border--dark;
 
-        @include breakpoint(500px){
-            @include rem(font-size, 19);
-            line-height: 1.5;
+        @include breakpoint($breakpoint__medium--b){
+            @include rem(padding-bottom, $base-spacing-unit);
         }
 
-        @include breakpoint($breakpoint__medium){
-            @include rem(padding-bottom, $base-spacing-unit * 1.5);
-        }
+        p {
+            @include rem(margin-bottom, 5);
 
-        > p {
-            margin-bottom:0;
-            display:inline;
-        }
+            @include breakpoint(580px) {
+                font-size: 105%;
+                line-height: $line-height-ratio - .1;
+            }
 
-        a {
-            display:inline;
+            @include breakpoint($breakpoint__grande) {
+                font-size: 110%;
+                line-height: $line-height-ratio;
+            }
         }
     }

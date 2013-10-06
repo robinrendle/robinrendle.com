@@ -27,6 +27,10 @@
             margin-top:0;
             @include rem(max-width, 600);
         }
+
+        @include breakpoint($breakpoint__grande) {
+            @include rem(max-width, 680);
+        }
     }
 
     .container {

@@ -25,11 +25,7 @@
         @include rem(padding, $half-spacing-unit);
 
         @include breakpoint($breakpoint__medium) {
-            @include rem(padding, $base-spacing-unit);
-        }
-
-        ul > li {
-            @include rem(margin-bottom, $quarter-spacing-unit);
+            @include rem(padding, $half-spacing-unit * 1.5);
         }
     }
         .island > :last-child,
@@ -39,11 +35,38 @@
 
     .island--meta {
         @include rem(font-size, $micro-size);
-        line-height: $line-height-ratio * .9 ;
+
+        > * {
+            color: $color__darkgrey;
+        }
 
         h1,h2,h3,h4,h5 {
-            margin: 0;
+            margin-top: 0;
             text-align: left;
+            color: $color__lightblack;
+        }
+
+        h3 {
+            @include rem(margin-bottom, $half-spacing-unit);
+        }
+
+        ul, ol {
+            margin-top: 0;
+
+            @include breakpoint($breakpoint__grande){
+                margin-left: 0;
+            }
+
+            >li {
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+
+                &:before {
+                    background-color: $color__secondary;
+                }
+            }
         }
 
         @include breakpoint(600px){

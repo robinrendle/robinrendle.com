@@ -14,8 +14,11 @@
  * Enter breakpoint variables here
  */
 
-$breakpoint__medium: 30.25em;
-$breakpoint__grande: 42em;
+$breakpoint-to-ems: true;
+
+$breakpoint__medium: 480px;
+$breakpoint__medium--b: 580px;
+$breakpoint__grande: 730px;
 $breakpoint__large: 61.9375em;
 $breakpoint__widescreen: 109.375em;
 

@@ -7,7 +7,7 @@
 
     // PRIMARY COLORS
     $color__red--primary: #c35e5e;
-    $secondary: #cccccc;
+    $color__secondary: #cccccc;
     $tertiary: #fafafa;
 
 
@@ -37,7 +37,7 @@
     $color__island: #F7F7F7;
 
     $lightcream: #efefef;
-    $purple: rgb(140,87,235);
+    $color__purple: rgb(140,87,235);
     $pink: #D71379; // Error
 
 
@@ -58,5 +58,5 @@
     }
 
     %cream-gradient {
-        @include gradient(darken($secondary, 15%), $secondary, darken($secondary, 10%));
+        @include gradient(darken($color__secondary, 15%), $color__secondary, darken($color__secondary, 10%));
     }
