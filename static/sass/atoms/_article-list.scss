@@ -63,7 +63,7 @@
             }
 
             @include breakpoint($breakpoint__grande) {
-                font-size: 110%;
+                @include rem(font-size, 18);
                 line-height: $line-height-ratio;
             }
         }
