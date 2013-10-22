@@ -14,24 +14,14 @@
         margin-top: 0;
         padding-top: 0;
 
-        @include breakpoint($breakpoint__medium--b){
-            @include rem(margin-bottom, $base-spacing-unit);
-        }
-
         .hgroup {
             margin:0;
 
             h3 {
-                @include rem(font-size, $gamma-size);
                 @include rem(margin-bottom, 5);
                 padding-bottom: 0;
-                font-weight: normal;
                 text-align: left;
                 border-bottom: 0;
-
-                @include breakpoint($breakpoint__grande){
-                    @include rem(font-size, $gamma-size + 2);
-                }
             }
         }
 
@@ -50,21 +40,7 @@
         @include rem(padding-bottom, $half-spacing-unit * 1.5);
         border-bottom: 1px dotted $color__border--dark;
 
-        @include breakpoint($breakpoint__medium--b){
-            @include rem(padding-bottom, $base-spacing-unit);
-        }
-
         p {
-            @include rem(margin-bottom, 5);
-
-            @include breakpoint(580px) {
-                font-size: 105%;
-                line-height: $line-height-ratio - .1;
-            }
-
-            @include breakpoint($breakpoint__grande) {
-                @include rem(font-size, 18);
-                line-height: $line-height-ratio;
-            }
+            margin-bottom: 0;
         }
     }

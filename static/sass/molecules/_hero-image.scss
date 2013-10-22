@@ -19,10 +19,10 @@
     }
 
     & + .container {
-        @include rem(padding-top,  $base-spacing-unit * 1.5);
+        @include rem(padding-top,  $base-spacing-unit);
 
         @include breakpoint($breakpoint__medium){
-            @include rem(padding-top, $base-spacing-unit * 2);
+            @include rem(padding-top, $base-spacing-unit * 1.5);
         }
     }
 }

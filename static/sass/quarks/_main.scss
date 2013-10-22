@@ -13,17 +13,16 @@ html{
 body {
     @extend %font__text;
     background-color: $offwhite;
-    line-height: $line-height-ratio;
+    line-height: $line-height-ratio - .1;
     text-rendering: optimizeLegibility;
     color: $color__offblack;
     border-top:4px solid $color__red--primary;
     border-bottom:4px solid $color__red--primary;
     float:left;
     width:100%;
+    font-size: 100%;
 
-
-    @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
-        font-size:100%;
+    @include breakpoint(450px){
         line-height: $line-height-ratio;
     }
 

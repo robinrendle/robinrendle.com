@@ -29,7 +29,9 @@
         }
 
         @include breakpoint($breakpoint__grande) {
-            @include rem(max-width, 680);
+            @include rem(max-width, 670);
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 

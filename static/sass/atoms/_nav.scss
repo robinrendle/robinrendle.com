@@ -159,6 +159,7 @@
    `<ul class="nav  nav--keywords>`
  *
  */
+
 .nav--keywords{
 
     > li{
@@ -169,6 +170,49 @@
 
         &:last-child:after{
             display:none;
+        }
+    }
+}
+
+.nav--main {
+    margin:4em 0 0 0;
+    width:100%;
+    max-width:none;
+
+    li {
+        line-height: $line-height-ratio - .2;
+        @include text--small;
+        display: inline-block;
+        list-style: none;
+        background: none;
+        text-align: center;
+        padding-left: .7em;
+        margin-left: 0;
+
+        &:before {
+            content: none;
+        }
+
+        &:after {
+            content: "|";
+            color: darken($lightcream, 20);
+            padding-left: .9em;
+            margin-left: .2em;
+        }
+
+        &:last-child:after {
+            content: "";
+            padding-right: 0;
+        }
+
+        a {
+            @include transition(all .3s ease-in-out);
+            border-bottom: 1px solid transparent;
+
+            &:hover,
+            &:focus {
+                border-bottom: 1px solid $color__red--primary;
+            }
         }
     }
 }

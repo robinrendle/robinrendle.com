@@ -34,10 +34,10 @@
         }
 
     .island--meta {
-        @include rem(font-size, $micro-size);
+        @include text--small;
 
         > * {
-            color: $color__darkgrey;
+            color: $color__grey--dark;
         }
 
         h1,h2,h3,h4,h5 {
@@ -47,7 +47,9 @@
         }
 
         h3 {
-            @include rem(margin-bottom, $half-spacing-unit);
+            border-bottom: 1px solid darken($color__island, 10);
+            @include rem(padding-bottom, $half-spacing-unit / 2);
+            @include rem(margin-bottom, $half-spacing-unit / 1.5);
         }
 
         ul, ol {
@@ -67,10 +69,6 @@
                     background-color: $color__secondary;
                 }
             }
-        }
-
-        @include breakpoint(600px){
-            @include rem(font-size, ($micro-size + 2));
         }
     }
 }//endif

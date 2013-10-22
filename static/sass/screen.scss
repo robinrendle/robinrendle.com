@@ -109,13 +109,11 @@
 @import "utilities/base-spacing";
 
 
-
 /**
  * External compass includes; make sure to update the config.rb
  */
 @import "toolkit"; // http://cl.ly/2u3h1u0W0x1D
 @import "breakpoint"; // http://cl.ly/1F112q0Q0D28
-
 
 
 /**
@@ -136,10 +134,9 @@
  @import "quarks/micro";
 
 
-
- /**
- * Atoms; objects and abstractions
- */
+/**
+* Atoms; objects and abstractions
+*/
 @import "atoms/grids";
 @import "atoms/nav";
 @import "atoms/media";
@@ -155,10 +152,9 @@
 @import "atoms/cite";
 
 
-
- /**
- * Molecules; combinations of atoms into one-of-a-kind styles (main-nav, etc)
- */
+/**
+* Molecules; combinations of atoms into one-of-a-kind styles (main-nav, etc)
+*/
 @import "molecules/banner";
 @import "molecules/custom-post";
 @import "molecules/footer-nav";
@@ -166,5 +162,6 @@
 @import "molecules/item-content";
 @import "molecules/hero-image";
 @import "molecules/index";
+@import "molecules/example-block";
 
 

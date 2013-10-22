@@ -34,7 +34,9 @@ li {
 }
 
 p + ul,
-p + ol {
+p + ol,
+ol + p,
+ul + p {
     @include rem(margin-top, - $half-spacing-unit);
 }
 
@@ -47,7 +49,7 @@ ul {
             @include rem(left, - 15);
             @include rem(height, 6);
             @include rem(width, 6);
-            @include rem(top, 12);
+            @include rem(top, 11);
             border-radius: 50%;
             content:"";
             background-color: $color__red--primary;

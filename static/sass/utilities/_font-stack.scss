@@ -20,14 +20,14 @@
     $font-weight--black: 700;
 
     %font__headline {
-        font-family: 'Whitney Cond A', 'Whitney Cond B', Georgia, serif;
-        font-weight: $font-weight--bold;
+        font-family: 'Whitney A', 'Whitney B', Georgia, serif;
+        font-weight: $font-weight--black;
         font-style: normal;
     }
 
     %font__text--display {
-        font-family: 'Whitney Cond A', 'Whitney Cond B', Georgia, serif;
-        font-weight: $font-weight--medium;
+        font-family: 'Whitney A', 'Whitney B', Georgia, serif;
+        font-weight: $font-weight--bold;
         font-style: normal;
     }
 
@@ -37,8 +37,20 @@
       font-style: normal;
     }
 
+    %font__text--sub {
+        font-family: 'Whitney A', 'Whitney B', Georgia, serif;
+        font-weight: $font-weight--medium;
+        font-style: normal;
+    }
+
     %font__text--sc {
         font-family: 'Chronicle SSm SC A', 'Chronicle SSm SC B', Georgia, serif;
         font-style: normal;
         font-weight: $font-weight--regular;
+    }
+
+    %font__numbers {
+        font-family: 'WhitneyInd W R Med A', 'WhitneyInd W R Med B';
+        font-weight: 400;
+        font-style: normal;
     }

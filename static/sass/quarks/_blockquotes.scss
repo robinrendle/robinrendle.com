@@ -4,15 +4,16 @@
 
 blockquote {
     @include rem(margin-bottom, $base-spacing-unit);
-
+    font-style: italic;
+    line-height: $line-height-ratio - .2;
+    @include text--micro;
 
     >p {
         @include rem(padding-left, $half-spacing-unit);
         @include rem(padding-bottom, $half-spacing-unit);
         margin-bottom:0;
         width:100%;
-        color:$color__textgrey;
-        font-style:italic;
+        color: $color__grey--mid;
         border-left:2px solid #eee;
 
         &:only-child {
@@ -22,7 +23,7 @@ blockquote {
 
     em {
         font-style:normal;
-        @extend %font__text;
+        @extend %font__text--sub;
     }
 
     >p:last-child {
