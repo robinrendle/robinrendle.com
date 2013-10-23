@@ -1,0 +1,30 @@
+{% include 'components/header' %}
+
+    <article class="h-entry container">
+        <header class="heading-group">
+            <h1>About me</h1>
+        </header>
+
+        {% if meta.Update %}
+            <aside class="island island--meta">
+                {{meta.Update.value | markdown:true }}
+            </aside>
+        {% endif %}
+
+        {% if meta.Image %}
+            <figure>
+                <img src="{{meta.Image.value}}"/>
+            </figure>
+        {% endif %}
+
+        {{body}}
+
+    </article><!-- //.container -->
+
+    <div class="container--standard">
+        <div class="island island--meta">
+            {{ meta.Contact | markdown:true }}
+        </div><!-- //.island -->
+    </div><!-- //.container -->
+
+{% include 'components/footer' %}

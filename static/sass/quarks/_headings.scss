@@ -112,7 +112,7 @@
 
     @include respond-to("large and above"){
         @include rem(font-size, 19);
-        @include rem(line-height, 29);
+        @include rem(line-height, 32);
     }
 }
 

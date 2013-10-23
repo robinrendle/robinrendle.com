@@ -35,7 +35,16 @@
     <section role="main">
         <div class="container">
 
-            {{ site.pages.about.body }}
+            <header class="heading-group">
+                <h1>Hi, I’m Robin</h1>
+                <h2>A web designer &amp; writer from Nottingham</h2>
+            </header>
+
+            {% if site.pages.about.meta.Image %}
+                <figure>
+                    <img src="{{site.pages.about.meta.Image.value}}"/>
+                </figure>
+            {% endif %}
 
         </div><!-- //end.container -->
 

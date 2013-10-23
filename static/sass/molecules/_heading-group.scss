@@ -7,6 +7,8 @@
  */
 
 
+
+// Styles for the main titles
 .heading-group {
     width:100%;
     text-align:center;
@@ -20,6 +22,18 @@
 
     h1 {
         margin:0 auto;
+    }
+
+    h2 {
+        color: $color__meta;
+    }
+
+    h1,h2,h3,h4,
+    .h1,.h2,.h3,.h4,.h5 {
+        width:100%;
+        margin:0 auto;
+        text-align:center;
+        max-width:none;
     }
 }
 
