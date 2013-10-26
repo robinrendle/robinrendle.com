@@ -21,10 +21,12 @@
         max-width:31.5em;
         margin:0 auto;
 
-        @include breakpoint($breakpoint__medium) {
-            margin-top:0;
+        @include breakpoint(550px) {
             @include rem(max-width, 600);
+            @include rem(padding, 0, $base-spacing-unit);
+            margin-top:0;
         }
+
 
         @include respond-to("medium and above"){
             @include rem(padding, 0, $base-spacing-unit);
