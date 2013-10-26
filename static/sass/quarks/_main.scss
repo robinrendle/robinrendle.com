@@ -31,7 +31,8 @@ body {
         line-height: $line-height-ratio - .1;
     }
 
-    @include breakpoint($breakpoint__grande) {
+    @include respond-to("large and above") {
+        font-size: 110%;
         line-height: $line-height-ratio;
     }
 }

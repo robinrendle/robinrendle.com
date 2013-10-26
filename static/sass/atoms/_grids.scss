@@ -32,8 +32,8 @@
             @include rem(padding, 0, $base-spacing-unit);
         }
 
-        @include breakpoint($breakpoint__grande) {
-            @include rem(max-width, 690);
+        @include respond-to("large and above"){
+            @include rem(max-width, 730);
         }
     }
 

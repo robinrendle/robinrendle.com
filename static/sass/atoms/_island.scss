@@ -52,14 +52,16 @@
             @include rem(margin-bottom, $half-spacing-unit / 1.5);
         }
 
-        ul, ol {
+        ul,
+        ol {
             margin-top: 0;
 
             @include breakpoint($breakpoint__grande){
                 margin-left: 0;
             }
 
-            >li {
+            li {
+                margin-bottom: 0;
 
                 &:last-of-type {
                     margin-bottom: 0;
