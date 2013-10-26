@@ -22,16 +22,16 @@
         margin:0 auto;
 
         @include breakpoint($breakpoint__medium) {
-            @include rem(padding-left, $half-spacing-unit);
-            @include rem(padding-right, $half-spacing-unit);
             margin-top:0;
             @include rem(max-width, 600);
         }
 
+        @include respond-to("medium and above"){
+            @include rem(padding, 0, $base-spacing-unit);
+        }
+
         @include breakpoint($breakpoint__grande) {
-            @include rem(max-width, 670);
-            padding-left: 0;
-            padding-right: 0;
+            @include rem(max-width, 690);
         }
     }
 

@@ -32,7 +32,6 @@ body {
     }
 
     @include breakpoint($breakpoint__grande) {
-        font-size: 110%;
         line-height: $line-height-ratio;
     }
 }

@@ -186,7 +186,7 @@
         list-style: none;
         background: none;
         text-align: center;
-        @include rems(padding-left, $quarter-spacing-unit);
+        @include rem(padding-left, $quarter-spacing-unit);
         margin-left: 0;
 
         &:before {
@@ -196,7 +196,7 @@
         &:after {
             content: "|";
             color: darken($lightcream, 20);
-            @include rems(padding-left, $quarter-spacing-unit);
+            @include rem(padding-left, $quarter-spacing-unit);
             margin-left: .2em;
         }
 

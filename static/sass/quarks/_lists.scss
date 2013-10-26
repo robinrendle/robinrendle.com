@@ -5,12 +5,7 @@
  * Remove vertical spacing from nested lists.
  */
 li {
-    @include rem(font-size, $base-font-size - 1);
-    @include rem(margin-bottom, $quarter-spacing-unit / 1.5);
-
-    @include breakpoint($breakpoint__medium){
-        @include rem(font-size, $base-font-size);
-    }
+    @include rem(margin-bottom, $quarter-spacing-unit);
 
     > ul,
     > ol{
@@ -56,6 +51,10 @@ ul {
             padding: 0;
             margin: 0;
             position: absolute;
+
+            @include respond-to("medium and above"){
+                @include rem(top, 14);
+            }
         }
     }
 
