@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{{site.title}} › {{title}}</title>
+
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/104389809267012182640">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+    <!-- Feed -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
+    <!-- Modernizr -->
+    <script src="/static/js/modernizr-2.5.3-min.js"></script>
+</head>
+
+<body class="no-branding custom-post--lexicon">
+    <article class="h-entry container">
+        <figure class="bleed figure--bg-blue custom-post--lexicon__hero">
+            <img src="/assets/eye.png"/>
+        </figure>
+
+        <header class="heading-group bleed">
+            <h1>{{title}}</h1>
+            <div class="meta-info-block">
+
+                <p class="meta-info-block__item">
+                    {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
+                </p>
+
+                <div class="meta-info-block__item">
+                    {{ date | date: "%d %B %Y"}}
+                </div>
+            </div>
+        </header>
+
+        {% if meta.Update %}
+            <aside class="island island--meta">
+                {{meta.Update.value | markdown:true }}
+            </aside>
+        {% endif %}
+
+        {{body}}
+
+        {% if meta.Aside %}
+            <aside class="island island--meta">
+                {{meta.Aside.value | markdown:true }}
+            </aside>
+        {% endif %}
+    </article>
+
+    <figure class="custom-post--lexicon__hero custom-post--lexicon__hero--reverse figure--bleed figure--bg-blue">
+        <img src="/assets/eye.png"/>
+        <figcaption>
+            <h4>Connecticut General Stylebook</h4>
+            <p>Design by Lester Beall (via <a href="http://twitter.com/codexmag">@codexmag)</a></p>
+        </figcaption>
+    </figure>
+
+    <a href="http://www.twitter.com/robinrendle">@robinrendle</a>
+
+
+</body>

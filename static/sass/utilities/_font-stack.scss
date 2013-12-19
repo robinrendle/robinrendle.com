@@ -47,4 +47,8 @@
         font-family: 'Chronicle SSm Small Caps A', 'Chronicle SSm Small Caps B', Georgia, serif;
         font-style: normal;
         font-weight: $font-weight--regular;
+
+        .fontface & {
+            text-transform: lowercase;
+        }
     }

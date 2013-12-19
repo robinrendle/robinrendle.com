@@ -5,7 +5,8 @@
 
 // 1. BOOKMARKING
 // 2. ABOUT
-
+// 3. COUNTERPUNCH
+// 4. A VISUAL LEXICON
 
 
 // @start BOOKMARKING -------------------- //
@@ -43,4 +44,54 @@ figure {
     margin-bottom:.3em;
     line-height:1;
     color:#B8B8B8;
+}
+
+
+// @start A VISUAL LEXICON -------------------- //
+.custom-post--lexicon {
+    .heading-group {
+        @include rem(padding-top, $base-spacing-unit);
+        @include rem(padding-bottom, $base-spacing-unit);
+        @include rem(margin-bottom, $base-spacing-unit * 2);
+        background-color: $color__metal-grey;
+
+        h1 {
+            color: $color__white;
+
+            &:after {
+                content: "";
+                display: block;
+                margin: 0 auto;
+                @include rem(margin-top, $quarter-spacing-unit);
+                @include rem(margin-bottom, $base-spacing-unit);
+                background-color: $color__blue;
+                @include rem(height, 2);
+                @include rem(width, 90);
+            }
+
+            @include respond-to("medium and above"){
+                @include rem(font-size, 55);
+            }
+        }
+
+        .meta-info-block__item {
+            @extend %font__text--sub;
+        }
+    }
+}
+
+.custom-post--lexicon__hero {
+    margin-bottom: 0;
+    @include rem(padding, $base-spacing-unit);
+}
+
+.custom-post--lexicon__hero--reverse {
+    > img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
 }

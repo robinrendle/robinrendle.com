@@ -20,11 +20,6 @@ li {
             font-size: 105%;
             line-height: $line-height-ratio - .1;
         }
-
-        @include breakpoint($breakpoint__grande) {
-            font-size: 110%;
-            line-height: $line-height-ratio;
-        }
     }
 }
 

@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    $No-Branding-Styles
+\*------------------------------------*/
+
+
+/*
+ * Removes standard branding styles for large one pagers such as Essays and the like
+ */
+
+body.no-branding {
+    border: none;
+    overflow: hidden;
+}
+
+
+.no-branding {
+    .container {
+        padding-top: 0;
+    }
+}

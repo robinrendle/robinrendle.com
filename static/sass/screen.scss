@@ -95,6 +95,7 @@
     $IMPORTS
 \*------------------------------------*/
 
+
 /**
  * Utilities; generic utility styles etc.
  */
@@ -112,9 +113,9 @@
 /**
  * External compass includes; make sure to update the config.rb
  */
+@import "compass";
 @import "toolkit"; // http://cl.ly/2u3h1u0W0x1D
 @import "breakpoint"; // http://cl.ly/1F112q0Q0D28
-
 
 /**
  * Quarks; classless styling of default elements
@@ -150,6 +151,7 @@
 @import "atoms/rules";
 @import "atoms/meta-info-block";
 @import "atoms/cite";
+@import "atoms/bleed";
 
 
 /**
@@ -163,5 +165,7 @@
 @import "molecules/hero-image";
 @import "molecules/index";
 @import "molecules/example-block";
+@import "molecules/no-branding";
+@import "molecules/drop-cap";
 
 

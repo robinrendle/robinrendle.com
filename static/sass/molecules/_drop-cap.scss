@@ -1,0 +1,24 @@
+/*------------------------------------*\
+    $DROP-CAP
+\*------------------------------------*/
+/**
+ *
+ * Adds a drop cap to the first letter.
+ */
+
+.drop-cap {
+    &:first-letter {
+        @extend %font__text--sub;
+
+        @include respond-to("medium and above"){
+            @include rem(font-size, 116);
+            line-height: .7;
+            float: left;
+            @include rem(margin-top, 9);
+            @include rem(margin-bottom, -20);
+            @include rem(margin-right, 5);
+            @include rem(margin-left, -7);
+            color: $color__blue;
+        }
+    }
+}
