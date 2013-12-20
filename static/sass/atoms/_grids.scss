@@ -19,12 +19,12 @@
     .container--standard {
         width:90%;
         max-width:31.5em;
-        margin:0 auto;
+        margin-left: auto;
+        margin-right: auto;
 
         @include respond-to("medium and above") {
             @include rem(max-width, 600);
             @include rem(padding, 0, $base-spacing-unit);
-            margin-top:0;
         }
 
 

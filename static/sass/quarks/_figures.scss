@@ -35,8 +35,43 @@ figcaption {
     }
 }
 
+// Wide styles that add extra padding
+.figure--wide {
+    @include rem(padding-top, $base-spacing-unit);
+    position: relative;
+}
+
+    .figure--wide__img {
+        @include rem(padding, 0, $half-spacing-unit);
+        @include rem(margin-bottom, $base-spacing-unit);
+    }
+
+    .figure--wide__caption {
+        margin-top: 0;
+
+        @include respond-to("medium and above"){
+            position: absolute;
+            bottom: 0;
+        }
+
+        p {
+            padding-left: 0;
+        }
+    }
+
+    .figure--wide__caption--light {
+
+        background-color: rgba(0,0,0,.3);
+        @include rem(padding, $half-spacing-unit);
+
+        p {
+            color: $color__border--light;
+        }
+    }
+
+// Color background modifiers
 .figure--bg-blue {
-    background-color: $color__blue;
+    background-color: $color__blue--light;
 }
 
 .figure--bg-black {
