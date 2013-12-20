@@ -35,3 +35,105 @@ blockquote {
         @include rem(margin-top, $base-spacing-unit);
     }
 }
+
+.blockquote--standard {
+    blockquote {
+        @include rem(margin-bottom, $half-spacing-unit);
+    }
+}
+
+.blockquote--large {
+    padding-left: 6%;
+    padding-right: 6%;
+    @include rem(margin, $base-spacing-unit, 0);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    @include respond-to("large and above"){
+        padding: 0 6%;
+        @include rem(max-width, 1050);
+        @include rem(margin-top, $base-spacing-unit * 2);
+        @include rem(margin-bottom, $base-spacing-unit * 2)
+    }
+
+    blockquote {
+        margin-bottom: 0;
+    }
+
+
+    &:before {
+        @include respond-to("large and above"){
+            content: "“";
+            font-style: normal;
+            color: $color__secondary;
+            font-weight: $font-weight--black;
+            float: left;
+            position: absolute;
+            @include rem(margin-top, -20);
+            @include rem(margin-left, -32);
+            @include rem(font-size, 50);
+        }
+    }
+
+    p {
+        color: $color__offblack;
+        padding-left: 0;
+        border-left: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        @include rem(font-size, 21);
+
+        @include respond-to("small and above"){
+            @include rem(font-size, 25);
+            line-height: 1.4;
+        }
+
+        @include respond-to("large and above"){
+            @include rem(font-size, 35);
+            line-height: 1.4;
+        }
+    }
+}
+    .blockquote--large__caption {
+        margin-top: 0;
+        display: inline-block;
+
+        @include respond-to("small and above"){
+            @include rem(margin-top, $quarter-spacing-unit);
+        }
+
+        p {
+            font-style: normal;
+            text-transform: uppercase;
+            @include rem(font-size, 16);
+
+            @include respond-to("small and above"){
+                @include rem(font-size, 18);
+            }
+
+            @include respond-to("large and above"){
+                @include rem(font-size, 22);
+            }
+
+            &:before {
+                content: "—";
+                @include rem(padding-right, 5);
+                display: inline-block;
+                color: $color__grey--light;
+            }
+        }
+    }
+
+.blockquote--large--center {
+    p {
+        font-style: normal;
+        @include respond-to("small and above"){
+            text-align: center;
+        }
+    }
+
+    &:before {
+        display: none;
+    }
+}

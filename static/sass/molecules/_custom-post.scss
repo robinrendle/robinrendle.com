@@ -66,11 +66,11 @@ figure {
                 content: "";
                 display: block;
                 margin: 0 auto;
-                @include rem(margin-top, $quarter-spacing-unit);
+                @include rem(margin-top, $half-spacing-unit * 1.2);
                 @include rem(margin-bottom, $base-spacing-unit);
                 background-color: $color__blue--light;
                 @include rem(height, 2);
-                @include rem(width, 90);
+                @include rem(width, 150);
             }
 
             @include respond-to("medium and above"){
@@ -93,6 +93,11 @@ figure {
         }
     }
 
+    .highlight--blue {
+        color: $color__blue--light;
+        font-style: italic;
+    }
+
     // A nasty hack to allow us to do full-width stuff.
     .h-entry {
         > p,
@@ -102,8 +107,14 @@ figure {
         h3,
         >h4,
         h5,
+        .blockquote--standard,
         pre {
             @extend .container--standard;
+
+            @include respond-to("largest only"){
+                padding-left: 0;
+                padding-right: 0;
+            }
         }
 
         blockquote > p {
@@ -114,6 +125,16 @@ figure {
     ul > li:before {
         background-color: $color__blue--light;
     }
+
+    .text__voice {
+        @extend %font__text--sub;
+        font-style: italic;
+        color: $color__grey--mid;
+
+        @include respond-to("medium and above"){
+            @include rem(font-size, 20);
+        }
+    }
 }
 
 
@@ -123,6 +144,9 @@ figure {
 }
 
 .custom-post--lexicon__hero--reverse {
+    padding-left: 0;
+    padding-right: 0;
+
     > img {
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);

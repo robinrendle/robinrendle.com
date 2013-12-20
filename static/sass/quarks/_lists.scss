@@ -81,3 +81,22 @@ ol {
 .list--outside {
     @include rem(margin-left, 0);
 }
+
+.list--display {
+    @extend %font__text--sub;
+    text-transform: uppercase;
+    @include column-count(2);
+
+    @include respond-to("medium and above"){
+        @include rem(margin, $base-spacing-unit * 2, 0);
+        @include column-count(3);
+    }
+
+    > li {
+        color: $color__meta;
+
+        &:before {
+            display: none;
+        }
+    }
+}

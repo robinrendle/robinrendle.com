@@ -37,8 +37,14 @@ figcaption {
 
 // Wide styles that add extra padding
 .figure--wide {
+    @extend .cf;
+    @include rem(margin, $base-spacing-unit, 0);
     @include rem(padding-top, $base-spacing-unit);
     position: relative;
+
+    @include respond-to("medium and above"){
+        @include rem(margin, $base-spacing-unit * 2, 0);
+    }
 }
 
     .figure--wide__img {
@@ -46,26 +52,86 @@ figcaption {
         @include rem(margin-bottom, $base-spacing-unit);
     }
 
-    .figure--wide__caption {
-        margin-top: 0;
-
-        @include respond-to("medium and above"){
-            position: absolute;
-            bottom: 0;
-        }
-
-        p {
-            padding-left: 0;
+    .figure--thin__img {
+        @include respond-to("large and above"){
+            float: left;
+            margin-left: 6%;
+            padding-right: 0;
+            width: 45%;
         }
     }
 
-    .figure--wide__caption--light {
+    .figure--wide__caption {
+        margin-top: 0;
+        padding-left: 6%;
+        padding-right: 6%;
 
-        background-color: rgba(0,0,0,.3);
-        @include rem(padding, $half-spacing-unit);
+        p {
+            padding-left: 0;
+            font-style: normal;
+            @include rem(font-size, 16);
+            line-height: 1.7;
+
+            @include respond-to("medium and above"){
+                line-height: 1.55;
+            }
+        }
+
+        h4 {
+            text-transform: none;
+            @include rem(font-size, 17);
+            color: $color__darkgrey;
+        }
+    }
+
+    .figure--wide__caption--plain {
+
+    }
+
+    .figure--wide__caption--light {
+        background-color: $color__offblack;
+        background-color: rgba(221,221,221,.15);
+        @include rem(padding-top, $quarter-spacing-unit);
+        @include rem(padding-bottom, $quarter-spacing-unit);
+        float: left;
+        @include rem(max-width, 500);
+
+        @include respond-to("medium and above"){
+            position: relative;
+            padding-left: 6%;
+            @include rem(padding-right, $half-spacing-unit);
+            @include rem(margin-bottom, $base-spacing-unit);
+            @include rem(margin-top, - $quarter-spacing-unit);
+        }
+
+        h4 {
+            color: $color__white;
+        }
 
         p {
             color: $color__border--light;
+        }
+
+        .custom-post--lexicon & a {
+            color: $color__border--light;
+            border-color: $color__border--light;
+            display: inline-block;
+            line-height: .9;
+
+            &:hover,
+            &:focus {
+                color: $color__white;
+            }
+        }
+    }
+
+    .figure--thin__caption {
+        @include respond-to("large and above"){
+            float: right;
+            @include rem(padding-left, $half-spacing-unit);
+            padding-right: 6%;
+            width: 45%;
+            @include rem(max-width, 700);
         }
     }
 
@@ -76,4 +142,23 @@ figcaption {
 
 .figure--bg-black {
     background-color: $color__metal-grey;
+}
+
+.figure--bg-dark {
+    background-color: $color__black;
+}
+
+.figure--bg-image {
+    .figure--wide__img {
+        margin-bottom: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    .figure--wide__caption--light {
+        @include respond-to("medium and above"){
+            @include rem(margin-top, -100);
+            margin-bottom: 0;
+        }
+    }
 }
