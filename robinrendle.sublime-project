@@ -9,8 +9,7 @@
 			],
 			"folder_exclude_patterns":
 			[
-				".sass-cache",
-				"css"
+				".sass-cache"
 			],
 			"path": "/Users/robin/Sites/siteleaf"
 		}

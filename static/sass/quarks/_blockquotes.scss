@@ -71,7 +71,7 @@ blockquote {
             float: left;
             position: absolute;
             @include rem(margin-top, -20);
-            @include rem(margin-left, -32);
+            margin-left: -3.5%;
             @include rem(font-size, 50);
         }
     }
