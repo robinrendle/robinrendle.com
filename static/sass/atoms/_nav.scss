@@ -217,4 +217,30 @@
     }
 }
 
+.nav--lexicon {
+    background-color: $color__blue;
+    margin-bottom: 0;
+    margin-left: 0;
+    @include rem(padding-top, $half-spacing-unit);
+    @include rem(padding-bottom, $quarter-spacing-unit);
+    text-align: center;
+
+    .nav__item {
+        @include rem(margin-right, $half-spacing-unit);
+        &:before {
+            display: none;
+        }
+
+        a {
+            @extend %font__text--sub;
+            color: $color__blue--light;
+
+            &:hover,
+            &:focus {
+                color: $color__white;
+            }
+        }
+    }
+}
+
 }//endif

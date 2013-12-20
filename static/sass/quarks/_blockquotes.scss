@@ -77,11 +77,12 @@ blockquote {
     }
 
     p {
-        color: $color__offblack;
+        color: $color__grey--mid;
         padding-left: 0;
         border-left: none;
         padding-bottom: 0;
         margin-bottom: 0;
+        font-style: normal;
         @include rem(font-size, 21);
 
         @include respond-to("small and above"){
@@ -127,7 +128,9 @@ blockquote {
 
 .blockquote--large--center {
     p {
+        color: $color__offblack;
         font-style: normal;
+
         @include respond-to("small and above"){
             text-align: center;
         }
