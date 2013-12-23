@@ -18,6 +18,7 @@ css
 app/_cache/
 public/codekit-config.json
 .htaccess
+config.ru
 
 *.rb
 license.mdown
