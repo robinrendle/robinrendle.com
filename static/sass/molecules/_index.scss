@@ -7,7 +7,7 @@
     @include rem(padding-bottom, $half-spacing-unit);
     text-align: left;
     font-style: italic;
-    border-bottom: 1px solid $color__border--light;
+    border-bottom: 1px solid $color__secondary;
     position: relative;
 
     @include breakpoint(500px){

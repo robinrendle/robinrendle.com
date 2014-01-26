@@ -19,6 +19,10 @@ blockquote {
         &:only-child {
             padding-bottom:0;
         }
+
+        @include respond-to("medium and above"){
+            @include rem(padding-bottom, $base-spacing-unit / 1.2);
+        }
     }
 
     em {

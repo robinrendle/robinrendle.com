@@ -70,6 +70,10 @@
         }
     }
 
+    /**
+     * The main banner navigation.
+     */
+
     .banner__nav {
         text-align: center;
         margin: 0;
@@ -114,7 +118,7 @@
             @include respond-to("medium and above"){
                 display: inline-block;
                 width: auto;
-                @include rem(margin-right, $half-spacing-unit);
+                @include rem(margin-left, $base-spacing-unit / 1.2);
             }
 
             a {
@@ -146,6 +150,11 @@
         }
     }
 
+
+        /**
+         * The banner menu appears on mobile and is hidden on
+         * larger screen sizes.
+         */
         .banner__nav__menu {
             @extend %font__text--sub;
             text-transform: uppercase;

@@ -20,6 +20,14 @@ body {
     width:100%;
     font-size: 100%;
 
+    /**
+     * Sticky footer with flexbox hack.
+     */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+
     @include breakpoint(450px){
         line-height: $line-height-ratio;
     }
@@ -41,3 +49,8 @@ body {
         line-height: $line-height-ratio;
     }
 }
+
+
+    .main {
+        flex: 1;
+    }

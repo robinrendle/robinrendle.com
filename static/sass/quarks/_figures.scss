@@ -109,12 +109,12 @@ figcaption {
         }
 
         p {
-            color: $color__border--light;
+            color: $color__secondary;
         }
 
         .custom-post--lexicon & a {
-            color: $color__border--light;
-            border-color: $color__border--light;
+            color: $color__secondary;
+            border-color: $color__secondary;
             display: inline-block;
             line-height: .9;
 

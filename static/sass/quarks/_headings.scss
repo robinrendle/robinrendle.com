@@ -97,11 +97,11 @@
 @mixin text--small {
     @extend %font__text--sub;
     @include rem(font-size, $delta-size);
-    @include rem(line-height, 25);
+    @include rem(line-height, 27);
 
     @include respond-to("medium and above"){
         @include rem(font-size, 18);
-        @include rem(line-height, 29);
+        @include rem(line-height, 31);
     }
 
     @include respond-to("large and above"){

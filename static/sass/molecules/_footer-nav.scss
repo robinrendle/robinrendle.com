@@ -3,47 +3,27 @@
 \*------------------------------------*/
 
 
-footer[role="contentinfo"] {
-    margin-top:0;
+.footer {
+    background-color: $color__secondary;
     width:100%;
+    @include rem(padding, $base-spacing-unit, 0);
+    @include rem(margin-top, $base-spacing-unit);
 
-    section {
-        padding-bottom:.5em;
-        background-color:$tertiary;
-        border:1px solid #ddd;
-
-        p {
-            font-size:.9em;
-        }
+    @include respond-to("medium and above"){
+        @include rem(margin-top, $base-spacing-unit*1.5);
     }
 
-    nav {
-        @extend %main_column;
-        background-size:100%;
-        margin:0 auto;
-        padding: 4em 0 2em 0;
-        text-align:center;
-        background:url("/assets/images/logo/footer-logo.png") no-repeat center 0;
-        background-size:180%;
+    p {
+        @include rem(font-size, 15);
+        margin-bottom: 0;
 
-        @include breakpoint ($breakpoint__medium) {
-            background-size:150%;
-        }
-
-        @include breakpoint ($breakpoint__grande) {
-            background-size:130%;
-        }
-
-        @include breakpoint(420px) {
-            padding-top:4em;
-        }
-
-        @include breakpoint(550px) {
-            padding-top:5.6em;
-        }
-
-        @include breakpoint(610px) {
-            padding-top: 5em;
+        @include respond-to("medium and above"){
+            @include rem(font-size, 16);
         }
     }
 }
+
+    .footer__nav {
+        margin: 0 auto;
+        text-align: center;
+    }
