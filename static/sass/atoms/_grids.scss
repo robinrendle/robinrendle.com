@@ -27,12 +27,8 @@
             @include rem(padding, 0, $base-spacing-unit);
         }
 
-
-        @include respond-to("medium and above"){
-            @include rem(padding, 0, $base-spacing-unit);
-        }
-
         @include respond-to("large and above"){
+            padding: 0;
             @include rem(max-width, 730);
         }
     }

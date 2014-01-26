@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
     /**
-     * Remove a class from an element
+     * Remove class from an element
      */
     function removeClass(elem, className){
         var reg = new RegExp("(\\s|^)" + className + "(\\s|$)");

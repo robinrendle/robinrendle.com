@@ -83,6 +83,8 @@
             display: block;
             float: right;
             width: auto;
+            margin-top: 0;
+            @include rem(padding, $half-spacing-unit * 1.3, 0);
         }
 
         .js & {
