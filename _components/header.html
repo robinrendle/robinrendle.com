@@ -24,17 +24,26 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
-    <!-- jQuery -->
-    <script src="/static/js/jquery-ck.js"></script>
     <!-- Modernizr -->
     <script src="/static/js/modernizr-2.5.3-min.js"></script>
 </head>
 
 <body>
     <header class="banner" role="banner">
-        <h1>
-            <a class="avatar" href="/">Robin Rendle</a>
-        </h1>
+        <div class="container--standard">
+            <h1 class="banner__headline">
+                <a class="links--reversed" href="/">Robin Rendle</a>
+            </h1>
+
+            <nav>
+                <a class="banner__nav__menu links--reversed" id="mobile-menu" href="#">Menu</a>
+                <ul class="banner__nav">
+                    <li><a class="links--reversed" href="/about">About</a></li>
+                    <li><a class="links--reversed" href="/notes">Notes</a></li>
+                    <li><a class="links--reversed" href="/essays">Essays</a></li>
+                </ul>
+            </nav>
+        </div><!-- //.container -->
     </header>
 
     <section role="main">

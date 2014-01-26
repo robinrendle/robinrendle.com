@@ -39,16 +39,6 @@
 
     .container {
         @extend .container--standard;
-        padding-top:8em;
-
-        @include breakpoint(700px) {
-            padding-top:8.25em;
-        }
-    }
-
-    section[role="main"] {
-        min-height:50em;
-        overflow:hidden;
     }
 
 }//endif

@@ -8,7 +8,6 @@
 
     .meta-info-block  {
         margin: 0 auto;
-        text-align: center;
 
         .heading-group & {
             @include rem(margin-top, $quarter-spacing-unit / 2);

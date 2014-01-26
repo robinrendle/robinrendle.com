@@ -3,45 +3,173 @@
 \*------------------------------------*/
 /**
  *
- * For the time being this is how we’ll sort out the logo situation -- note to self: make this more OO
+ * The top banner of the website – the intro with navigational items.
+ * 
  */
 
 
 .banner {
-    max-width:5em;
-    float:none;
-    margin:0 auto;
-    position:relative;
-    padding:0;
+    @extend .cf;
+    background-color: lighten($color__red--primary, 5);
+    @include rem(margin-bottom, $base-spacing-unit*1.5);
+    @include rem(padding, $half-spacing-unit, 0);
+    float: left;
+    width: 100%;
 
-    h1 {
-        margin:0 auto;
-    }
 
-    .avatar {
-        @include transition(all .2s ease-in);
-        @include rem(width, 85);
-        @include rem(height, 103);
-        margin: 0 auto;
-        position: absolute;
-        background-image: url("/assets/images/logo/campfire.jpg");
-        background-repeat: no-repeat;
-        background-size:100%;
-        text-indent: 200%;
-        white-space: nowrap;
-        overflow: hidden;
-        border: 5px solid $color__red--primary;
-        border-top: 1px;
-        left:0;
-
-        @include breakpoint(750px) {
-            @include rem(width, 95);
-            @include rem(height, 114);
-        }
-
-        &:hover,
-        &:focus {
-            border-color:lighten($color__red--primary, 15);
-        }
+    @include respond-to("medium and above"){
+        padding: 0;
+        @include rem(margin-bottom, $base-spacing-unit * 2);
     }
 }
+    
+
+    /* The first title on each page */ 
+    .banner__headline {
+        @extend .cf;
+        @include rem(font-size, 18);
+        text-transform: uppercase;
+        margin-bottom: 0;
+        text-align: left;
+        line-height: 1;
+        float: left;
+        width: 50%;
+        @include rem(min-width, 150);
+
+
+        @include respond-to("medium and above"){
+            text-align: center;
+            @include rem(width, 150);
+            margin-bottom: 0;
+            @include rem(font-size, 20);
+        }
+
+        > a {
+            text-align: left;
+            color: $color__white;
+            /* Make sure that the logo text never breaks onto two lines */
+            @include rem(min-width, 175);
+
+            @include respond-to("medium and above"){
+                color: darken($color__white, 10);
+                background-color: #CE7E7E;
+                background-color: rgba(255,255,255,.15);
+                @include rem(padding, $half-spacing-unit * 1.3, $half-spacing-unit / 1.5, ($half-spacing-unit * 1.2), $half-spacing-unit / 1.5);
+                float: left;
+                margin-bottom: 0;
+                text-align: center;
+            }
+
+            &:hover, 
+            &:focus {
+                @include respond-to("medium and above"){
+                    background-color: darken(#CE7E7E, 10);
+                    background-color: rgba(0,0,0,.06);
+                }
+            }
+        }
+    }
+
+    .banner__nav {
+        text-align: center;
+        margin: 0;
+        @include rem(margin-top, $half-spacing-unit);
+        width: 100%;
+        float: left;
+        line-height: 1;
+        padding: 0;
+
+        @include respond-to("medium and above"){
+            display: block;
+            float: right;
+            width: auto;
+        }
+
+        .js & {
+            display: none;
+
+            @include respond-to("medium and above"){
+                display: block;
+            }
+            
+            &.js-active {
+                display: block;
+            }
+        }
+
+        > li {
+            @extend %font__text--sub;
+            margin-bottom: 0;
+            display: block;
+            float: left;
+            width: 100%;
+            text-align: left;
+
+            &:before {
+                display: none;
+            }
+
+            @include respond-to("medium and above"){
+                display: inline-block;
+                width: auto;
+                @include rem(margin-right, $half-spacing-unit);
+            }
+
+            a {
+                float: left;
+                border-bottom: 1px solid darken($color__red--primary, 10);
+                background-color: lighten($color__red--primary, 10);
+                @include rem(padding, $half-spacing-unit);
+                width: 100%;
+
+                @include respond-to("medium and above"){
+                    background-color: transparent;
+                    padding: 0;
+                    border: none;
+                    width: auto;
+                    display: inline;
+                }
+
+                &:hover,
+                &:focus {
+                    border-bottom: 1px solid darken($color__red--primary, 10);
+                    background-color: lighten($color__red--primary, 15);
+
+                    @include respond-to("medium and above"){
+                        background-color: transparent;
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+
+        .banner__nav__menu {
+            @extend %font__text--sub;
+            text-transform: uppercase;
+
+            .js & {
+                display: block;
+                float: right;
+
+                @include respond-to("medium and above"){
+                    display: none;
+                }
+            }
+
+            .no-js & {                
+                display: none;
+            }
+
+            &:before {
+
+            }
+        }
+
+
+
+
+
+
+
+

@@ -3,11 +3,11 @@
 \*------------------------------------*/
 
 a {
-    @include transition(all .3s ease-in-out);
+    @include transition(all .2s ease-in-out);
     color: $color__red--primary;
     line-height: 1;
     text-decoration: none;
-    border-bottom: 1px dotted darken($color__red--primary, 10);
+    border-bottom: 1px dotted darken($color__red--primary, 15);
 
     &:hover,
     &:focus {
@@ -19,5 +19,17 @@ a {
 
     h1 & {
         color:$color__offblack;
+    }
+}
+
+
+.links--reversed {
+    color: darken($color__white, 10);
+    border-bottom: none;
+
+    &:hover,
+    &:focus {
+        color: darken($color__red--primary, 15);
+        border-bottom: none;
     }
 }

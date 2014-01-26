@@ -1,0 +1,57 @@
+
+<!-- WORK LIST TEMPLATE -->
+
+{% include 'components/header' %}
+
+    <article class="h-entry container">
+            <header class="heading-group">
+                <h1>{{title}}</h1>
+                <div class="meta-info-block">
+                    <div class="meta-info-block__item">
+                        {{ meta.project-date.value }}
+                    </div>
+                </div>
+            </header>
+
+            {% if meta.hero %}
+                <figure>
+                    <img src="{{meta.Hero.value}}" />
+                </figure>
+            {% endif %}
+
+            <!-- List my role in the project -->
+            {% if meta.Role %}
+                <aside class="island--meta">
+                    <h4>Role</h4>
+                    {{meta.Role.value | markdown:true}}
+                </aside>
+            {% endif %}
+
+            <!-- List other members of the team -->
+            {% if meta.Team %}
+                <aside class="island--meta">
+                    <h4>Team</h4>
+                    {{meta.Team.value | markdown:true}}
+                </aside>
+            {% endif %}
+
+            <!-- The article’s summary -->
+            {% if meta.Extract %}
+                {{meta.Extract.value | markdown:true }}
+            {% endif %}
+
+            {{body}}
+
+            <!-- Related articles -->
+            {% if meta.related %}
+                <aside class="island island--meta">
+                    <h3>What I learnt during this project</h3>
+                    {{meta.related.value | markdown:true}}
+                </aside>
+            {% endif %}
+
+        </article>
+
+
+{% include 'components/footer' %}
+

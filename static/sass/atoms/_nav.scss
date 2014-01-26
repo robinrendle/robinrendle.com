@@ -21,15 +21,21 @@
 .nav{
     @extend .cf;
     list-style:none;
+    @extend %font__text--sub;
 
     > li, dd, dt {
         margin-left: 0;
+        @include rem(margin-right, $half-spacing-unit);
 
         &,
         > a{
             display:inline-block;
-           *display:inline;
             zoom:1;
+        }
+
+        /* Hides psuedo elements that we add on standard lists */
+        &:before {
+            display: none;
         }
     }
 }
@@ -50,9 +56,7 @@
         margin-left:0;
         margin-right: $half-spacing-unit;
         margin-right: calc-rem($half-spacing-unit);
-
     }
-
 }
 
 
