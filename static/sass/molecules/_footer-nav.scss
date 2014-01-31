@@ -4,7 +4,8 @@
 
 
 .footer {
-    background-color: $color__secondary;
+    background-color: $color__grey--lighter;
+    border-top: 1px solid $color__secondary;
     width:100%;
     @include rem(padding, $base-spacing-unit, 0);
     @include rem(margin-top, $base-spacing-unit);

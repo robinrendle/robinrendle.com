@@ -135,7 +135,7 @@ h3, .h3 {
     @include headline-three;
 
     .hgroup h2~& {
-        color:$color__meta;
+        color: $color__grey--x-dark;
     }
 }
 

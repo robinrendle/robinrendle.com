@@ -137,7 +137,7 @@ figcaption {
 
         @include respond-to("medium and above"){
             @include rem(padding-top, $half-spacing-unit);
-            @include rem(padding-bottom, $half-spacing-unit);
+            @include rem(padding-bottom, $half-spacing-unit * 1.4);
         }
 
         @include respond-to("large and above"){
@@ -213,6 +213,10 @@ figcaption {
 
 .figure--bg-grey {
     background-color: $color__grey--x-dark;
+}
+
+.figure--bg-light {
+    background-color: $color__border--dark;
 }
 
 .figure--bg-image {

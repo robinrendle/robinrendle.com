@@ -127,8 +127,8 @@
 
             a {
                 float: left;
-                border-bottom: 1px solid darken($color__red--primary, 10);
-                background-color: lighten($color__red--primary, 10);
+                border-bottom: 1px solid lighten($color__grey--dark, 10);
+                background-color: $color__grey--dark;
                 @include rem(padding, $half-spacing-unit);
                 width: 100%;
 
@@ -142,8 +142,9 @@
 
                 &:hover,
                 &:focus {
-                    border-bottom: 1px solid darken($color__red--primary, 10);
-                    background-color: lighten($color__red--primary, 15);
+                    border-bottom: 1px solid lighten($color__grey--dark, 10);
+                    background-color: darken($color__grey--dark, 3);
+                    color: darken($color__white, 20);
 
                     @include respond-to("medium and above"){
                         background-color: transparent;

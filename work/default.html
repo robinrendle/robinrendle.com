@@ -1,23 +1,65 @@
 
 <!-- WORK LIST TEMPLATE -->
 
-{% include 'components/header' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{{site.title}} › {{title}}</title>
+
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/104389809267012182640">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+    <!-- Feed -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
+    <!-- Modernizr -->
+    <script src="/static/js/modernizr-2.5.3-min.js"></script>
+</head>
+
+<body>
+    <header class="banner banner--standard" role="banner">
+        <div class="container--standard">
+            <h1 class="banner__headline">
+                <a class="links--reversed" href="/">Robin Rendle</a>
+            </h1>
+
+            <nav>
+                <a class="banner__nav__menu links--reversed" id="mobile-menu" href="#">Menu</a>
+                <ul class="banner__nav">
+                    <li><a class="links--reversed" href="/about">About</a></li>
+                    <li><a class="links--reversed" href="/notes">Notes</a></li>
+                    <li><a class="links--reversed" href="/essays">Essays</a></li>
+                </ul>
+            </nav>
+        </div><!-- //.container -->
+    </header>
+
+    <section role="main">
+
+    {% if meta.hero %}
+        <figure class="figure--wide figure--wide--standard figure--bg-light">
+            <img class="figure--wide__img" src="{{meta.Hero.value}}" />
+        </figure>
+    {% endif %}
 
     <article class="h-entry container">
             <header class="heading-group">
-                <h1>{{title}}</h1>
                 <div class="meta-info-block">
                     <div class="meta-info-block__item">
                         {{ meta.project-date.value }}
                     </div>
                 </div>
+                <h1>{{title}}</h1>
             </header>
-
-            {% if meta.hero %}
-                <figure>
-                    <img src="{{meta.Hero.value}}" />
-                </figure>
-            {% endif %}
 
             <!-- List my role in the project -->
             {% if meta.Role %}
@@ -27,20 +69,21 @@
                 </aside>
             {% endif %}
 
-            <!-- List other members of the team -->
-            {% if meta.Team %}
-                <aside class="island--meta">
-                    <h4>Team</h4>
-                    {{meta.Team.value | markdown:true}}
-                </aside>
-            {% endif %}
-
             <!-- The article’s summary -->
             {% if meta.Extract %}
-                {{meta.Extract.value | markdown:true }}
+                    {{meta.Extract.value | markdown:true }}
             {% endif %}
 
             {{body}}
+
+
+            <!-- List other members of the team -->
+            {% if meta.Team %}
+                <aside class="island--meta">
+                    <h4>Members of the team</h4>
+                    {{meta.Team.value | markdown:true}}
+                </aside>
+            {% endif %}
 
             <!-- Related articles -->
             {% if meta.related %}

@@ -18,9 +18,10 @@
     .islet{
         @extend .cf;
         display:block;
-        border: 1px dotted darken($color__secondary, 10);
+        border: 1px dotted darken($color__secondary, 20);
     }
     .island {
+        background-color: #fafafa;
         @include rem(padding, $half-spacing-unit);
 
         @include breakpoint($breakpoint__medium) {
@@ -47,7 +48,7 @@
         }
 
         h3 {
-            border-bottom: 1px solid darken($color__island, 10);
+            border-bottom: 1px dotted darken($color__island, 10);
             @include rem(padding-bottom, $half-spacing-unit / 2);
             @include rem(margin-bottom, $half-spacing-unit / 1.5);
         }
