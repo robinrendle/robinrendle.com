@@ -18,60 +18,68 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
-    <!-- jQuery -->
-    <script src="/static/js/jquery-ck.js"></script>
     <!-- Modernizr -->
     <script src="/static/js/modernizr-2.5.3-min.js"></script>
 </head>
 
 <body>
-    <header class="banner" role="banner">
-        <h1>
-            <a class="avatar" href="/">Robin Rendle</a>
-        </h1>
+    <header class="banner banner--standard" role="banner">
+        <div class="container--standard">
+            <h1 class="banner__headline">
+                <a class="links--reversed" href="/">Robin Rendle</a>
+            </h1>
+
+            <nav>
+                <a class="banner__nav__menu links--reversed" id="mobile-menu" href="#">Menu</a>
+                <ul class="banner__nav">
+                    <li><a class="links--reversed" href="/about">About</a></li>
+                    <li><a class="links--reversed" href="/notes">Notes</a></li>
+                    <li><a class="links--reversed" href="/essays">Essays</a></li>
+                </ul>
+            </nav>
+        </div><!-- //.container -->
     </header>
 
     <section role="main">
-        <div class="container">
 
-            <header class="heading-group">
-                <h1>Hi, I’m Robin</h1>
-                <h2>A web designer &amp; writer from Nottingham</h2>
-            </header>
 
-            {% if site.pages.about.meta.Image %}
-                <figure>
-                    <img src="{{site.pages.about.meta.Image.value}}"/>
-                </figure>
-            {% endif %}
+        {% for post in site.pages.essays.posts limit: 1 %}
+            <figure class="figure--index figure--wide figure--wide--standard figure--bg-grey">
 
-        </div><!-- //end.container -->
+                <img class="figure--wide__img" src="{{post.meta.featured-image.value}}" alt="A illustraton of a man carrying an elephant from 1825">
 
-        {% for post in site.posts limit: 3 %}
-            <article class="container article-list__item">
+                <figcaption class="figure--wide__caption figure--wide__caption--dark">
+                    <h2 class="clear">
+                        <a class="links--reversed" href="{{post.url}}">{{post.title}}</a>
+                    </h2>
 
-                <header class="hgroup hgroup--listing">
-                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                </header>
+                    <p>For the past six months I’ve been taking a good look at how designers and developers communicate with one another, jotting down the problems as I go. The systems that have cropped up in between are fascinating but I believe they could be better if we examine our use of language. <a class="links--reversed" href="{{post.url}}">Read more »</a></p>
+                </figcaption>
 
-                <div class="article-list__content">
-                    <p>{{post.meta.Extract.value}}</p>
-
-                    <div class="meta-info-block meta-info-block--list">
-                        <div class="meta-info-block__item">
-                            {{ post.date | date: "%d %B %Y"}} • Posted in {{post.parent.title}}
-                        </div>
-                    </div>
-                </div>
-            </article>
+            </figure>
         {% endfor %}
 
+        <div class="container">
 
-        <div class="container--standard">
-            <div class="island island--meta">
-                {{ site.pages.about.meta.Contact | markdown:true }}
-            </div>
-        </div><!-- //end.container -->
+            {% for post in site.pages.notes.posts limit: 5 %}
+                <article class="article-list__item">
+
+                   <header class="hgroup hgroup--listing">
+                        <div class="meta-info-block meta-info-block--list">
+                            <div class="meta-info-block__item">
+                                {{ post.date | date: "%d %B %Y"}}
+                            </div>
+                        </div>
+                        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                    </header>
+
+
+                    <div class="article-list__content">
+                        <p>{{post.meta.Extract.value}}</p>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
 
     {% include 'components/footer' %}
 

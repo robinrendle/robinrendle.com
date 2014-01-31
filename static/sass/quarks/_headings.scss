@@ -148,6 +148,12 @@ h5, .h5 {
 }
 
 
+/**
+ * This is horrible beyond redemption but its necessary until I make the cell module.
+ */
+.clear {
+    margin: 0;
+}
 
 /**
  * Headings can be combined together with this class

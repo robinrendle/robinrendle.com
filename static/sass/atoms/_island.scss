@@ -18,8 +18,7 @@
     .islet{
         @extend .cf;
         display:block;
-        background-color: $color__island;
-        border: 1px solid darken($color__secondary, 5);
+        border: 1px dotted darken($color__secondary, 10);
     }
     .island {
         @include rem(padding, $half-spacing-unit);
@@ -33,11 +32,12 @@
             margin-bottom:0;
         }
 
+
     .island--meta {
         @include text--small;
 
         > * {
-            color: $color__grey--dark;
+            color: lighten($color__grey--dark, 15);
         }
 
         h1,h2,h3,h4,h5 {

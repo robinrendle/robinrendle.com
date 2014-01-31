@@ -29,7 +29,7 @@ a {
 
     &:hover,
     &:focus {
-        color: darken($color__red--primary, 15);
+        color: darken($color__white, 40);
         border-bottom: none;
     }
 }

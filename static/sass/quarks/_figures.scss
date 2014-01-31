@@ -47,6 +47,12 @@ figcaption {
     }
 }
 
+
+.figure--wide--standard {
+    margin: 0;
+    @include rem(margin-bottom, $base-spacing-unit);
+}
+
     .figure--wide__img {
         @include rem(padding, 0, $half-spacing-unit);
         @include rem(margin-bottom, $base-spacing-unit);
@@ -61,10 +67,23 @@ figcaption {
         }
     }
 
+
     .figure--wide__caption {
         margin-top: 0;
         padding-left: 6%;
         padding-right: 6%;
+        @include rem(padding-top, $quarter-spacing-unit);
+        @include rem(padding-bottom, $quarter-spacing-unit);
+        float: left;
+        @include rem(max-width, 500);
+
+        @include respond-to("medium and above"){
+            position: relative;
+            padding-left: 6%;
+            @include rem(padding-right, $half-spacing-unit);
+            @include rem(margin-bottom, $base-spacing-unit);
+            @include rem(margin-top, - $quarter-spacing-unit);
+        }
 
         p {
             padding-left: 0;
@@ -84,25 +103,10 @@ figcaption {
         }
     }
 
-    .figure--wide__caption--plain {
-
-    }
 
     .figure--wide__caption--light {
         background-color: $color__offblack;
         background-color: rgba(221,221,221,.15);
-        @include rem(padding-top, $quarter-spacing-unit);
-        @include rem(padding-bottom, $quarter-spacing-unit);
-        float: left;
-        @include rem(max-width, 500);
-
-        @include respond-to("medium and above"){
-            position: relative;
-            padding-left: 6%;
-            @include rem(padding-right, $half-spacing-unit);
-            @include rem(margin-bottom, $base-spacing-unit);
-            @include rem(margin-top, - $quarter-spacing-unit);
-        }
 
         h4 {
             color: $color__white;
@@ -125,6 +129,65 @@ figcaption {
         }
     }
 
+    .figure--wide__caption--dark {
+        @include rem(padding-top, $base-spacing-unit / 1.4);
+        @include rem(padding-bottom, $base-spacing-unit / 1.4);
+        background-color: $color__grey--mid;
+        background-color: rgba(0,0,0, .3);
+
+        @include respond-to("medium and above"){
+            @include rem(padding-top, $half-spacing-unit);
+            @include rem(padding-bottom, $half-spacing-unit);
+        }
+
+        @include respond-to("large and above"){
+            @include rem(max-width, 650);
+        }
+
+        h2 {
+            color: $color__white;
+            border-bottom: 1px solid $color__lightgrey;
+            @include rem(margin-bottom, $half-spacing-unit / 2);
+            @include rem(padding-bottom, $half-spacing-unit / 2);
+        }
+
+        a {
+            color: $color__white;
+
+            &:hover,
+            &:focus {
+                color: darken($color__white, 20);               
+            }
+        }
+
+        p {
+            color: darken($color__white, 10);
+            line-height: 1.72353;
+            @extend %font__text;
+            @include rem(font-size, 17);
+
+            @include respond-to("large and above"){
+                @include rem(font-size, 18);
+                line-height: 1.6;
+            }
+
+            > a {
+                text-decoration: underline;
+                color: darken($color__white, 0);
+            }
+        }
+    }
+
+    .figure--index {
+        @include rem(padding-top, $base-spacing-unit * 2);
+        @include rem(margin-bottom, $base-spacing-unit * 1.5);
+
+        @include respond-to("medium and above"){
+            @include rem(margin-bottom, $base-spacing-unit * 2);
+        }
+    }
+
+
     .figure--thin__caption {
         @include respond-to("large and above"){
             float: right;
@@ -146,6 +209,10 @@ figcaption {
 
 .figure--bg-dark {
     background-color: $color__black;
+}
+
+.figure--bg-grey {
+    background-color: $color__grey--x-dark;
 }
 
 .figure--bg-image {

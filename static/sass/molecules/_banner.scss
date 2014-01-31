@@ -10,7 +10,7 @@
 
 .banner {
     @extend .cf;
-    background-color: lighten($color__red--primary, 5);
+    background-color: $color__darkgrey;
     @include rem(margin-bottom, $base-spacing-unit*1.5);
     @include rem(padding, $half-spacing-unit, 0);
     float: left;
@@ -21,6 +21,10 @@
         padding: 0;
         @include rem(margin-bottom, $base-spacing-unit * 2);
     }
+}
+
+.banner--standard {
+    margin-bottom: 0;
 }
     
 
@@ -64,7 +68,7 @@
             &:focus {
                 @include respond-to("medium and above"){
                     background-color: darken(#CE7E7E, 10);
-                    background-color: rgba(0,0,0,.06);
+                    background-color: rgba(0,0,0,.2);
                 }
             }
         }

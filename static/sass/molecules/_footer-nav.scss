@@ -16,6 +16,7 @@
     p {
         @include rem(font-size, 15);
         margin-bottom: 0;
+        color: $color__grey--mid;
 
         @include respond-to("medium and above"){
             @include rem(font-size, 16);
