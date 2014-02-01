@@ -141,7 +141,11 @@ h3, .h3 {
 h4, .h4 {
     @include headline-four;
 
-    .h-entry & {
+
+    /**
+     * Gives styles to headings for standard markdown body block contnet
+     */
+    .is--editor__content > & {
         border-bottom: 1px solid $color__border--dark;
         @include rem(padding-bottom, 5);
         @include rem(margin-bottom, 5);
