@@ -91,11 +91,7 @@ figcaption {
             padding-left: 0;
             font-style: normal;
             @include rem(font-size, 16);
-            line-height: 1.7;
-
-            @include respond-to("medium and above"){
-                line-height: 1.55;
-            }
+            line-height: 1.55;
         }
 
         h4 {

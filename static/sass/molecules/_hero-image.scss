@@ -7,7 +7,7 @@
 
 
 .hero {
-    @include rem(margin, - $base-spacing-unit * 1.5,0,$base-spacing-unit,0);
+    @include rem(margin, - $base-spacing-unit*1.2,0,$base-spacing-unit,0);
     z-index:-9999;
     max-height:26em;
     overflow:hidden;
