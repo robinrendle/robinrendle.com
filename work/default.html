@@ -51,7 +51,7 @@
         </figure>
     {% endif %}
 
-    <article class="h-entry container">
+    <article class="container">
             <header class="heading-group">
                 <div class="meta-info-block">
                     <div class="meta-info-block__item">
@@ -64,7 +64,7 @@
             <!-- List my role in the project -->
             {% if meta.Role %}
                 <aside class="island--meta">
-                    <h4>Role</h4>
+                    <h4>Responsibilities</h4>
                     {{meta.Role.value | markdown:true}}
                 </aside>
             {% endif %}
