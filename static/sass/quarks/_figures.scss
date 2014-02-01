@@ -131,63 +131,14 @@ figcaption {
         }
     }
 
-    .figure--wide__caption--centered {
-        @include rem(margin-bottom, $base-spacing-unit);
-
-        @include respond-to("medium and above"){
-            @include rem(margin-bottom, $base-spacing-unit * 1.5);            
-        }
-
-
-        h2 {
-            border-bottom: 1px solid $color__lightgrey;
-            @include rem(margin-bottom, $half-spacing-unit / 2);
-            @include rem(padding-bottom, $half-spacing-unit / 2);
-            width: 100%;
-            float: left;
-            max-width: none;
-        }
-
-        a {
-            color: $color__darkgrey;
-
-            &:hover,
-            &:focus {
-                color: lighten($color__darkgrey, 15);               
-            }
-        }
-
-        time {
-           color: lighten($color__darkgrey, 15); 
-        }
-
-        p {
-            color: $color__darkgrey;
-            @extend %font__text;
-            line-height: 1.7;
-
-            @include respond-to("large and above"){
-                line-height: 1.8;                
-            }
-
-            > a {
-                border-bottom: 1px dotted lighten($color__darkgrey, 10);
-                line-height: 1;
-
-                &:hover,
-                &:focus {
-                    border-bottom: 1px solid lighten($color__darkgrey, 30);                        
-                }
-            }
-        }
-    }
 
     .figure--index {
-        @include rem(padding-top, $base-spacing-unit * 2);
+        @include rem(padding-top, $base-spacing-unit * 1);
         @include rem(margin-bottom, $base-spacing-unit * 1.5);
-        @include rem(padding-bottom, $base-spacing-unit * 1);
 
         @include respond-to("medium and above"){
+            @include rem(padding-top, $base-spacing-unit * 1.5);
+            @include rem(padding-bottom, $base-spacing-unit * 1);
             @include rem(margin-bottom, $base-spacing-unit * 2);
         }
     }
