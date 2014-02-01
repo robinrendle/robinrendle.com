@@ -1,15 +1,6 @@
 {% include 'components/header' %}
 
     <article class="h-entry container">
-        <header class="heading-group">
-            <h1>About me</h1>
-        </header>
-
-        {% if meta.Update %}
-            <aside class="island island--meta">
-                {{meta.Update.value | markdown:true }}
-            </aside>
-        {% endif %}
 
         {% if meta.Image %}
             <figure>
@@ -17,12 +8,15 @@
             </figure>
         {% endif %}
 
+
+        <h1 class="h2">About me</h1>
+
         {{body}}
 
     </article><!-- //.container -->
 
     <div class="container--standard">
-        <div class="island island--meta">
+        <div class="island--meta">
             {{ meta.Contact | markdown:true }}
         </div><!-- //.island -->
     </div><!-- //.container -->
