@@ -7,7 +7,8 @@
 
 .article-list {
     width:100%;
-    @include rem(margin-top, $base-spacing-unit);
+    // @include rem(margin-top, $base-spacing-unit);
+    @include rem(margin-bottom, $base-spacing-unit * 2);
 }
     .article-list__item {
         @include rem(margin-bottom, $half-spacing-unit * 1.5);
@@ -43,4 +44,8 @@
         p {
             margin-bottom: 0;
         }
+    }
+
+    .article-list__title {
+        @include rem(margin-bottom, $half-spacing-unit * 1.5);
     }

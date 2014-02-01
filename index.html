@@ -47,24 +47,36 @@
 
                 <img class="figure--wide__img" src="{{post.meta.featured-image.value}}" alt="A illustraton of a man carrying an elephant from 1825">
 
-                <figcaption class="container figure--wide__caption--centered">
-                    <div class="meta-info-block meta-info-block--list">
-                        <div class="meta-info-block__item">
-                            <time datetime="{{ post.date}}">{{ post.date | date: "%d %B %Y"}}</time>
-                        </div>
-                    </div>
-
-                    <h2 class="clear">
-                        <a class="links--reversed" href="{{post.url}}">{{post.title}}</a>
-                    </h2>
-
-                    <p>For the past six months I’ve been taking a good look at how designers and developers communicate with one another, jotting down the problems as I go. The systems that have cropped up in between are fascinating but I believe they could be better if we examine our use of language. <a class="links--reversed" href="{{post.url}}">Read more »</a></p>
-                </figcaption>
-
             </figure>
         {% endfor %}
 
         <div class="container">
+            <div class="h-entry article-list">
+                <div class="article-list__title">
+                    <h4>Essays and articles</h4>
+                </div>
+
+                {% for post in site.pages.essays.posts limit: 2 %}
+                    <div class="article-list__item">
+                        <header class="hgroup hgroup--listing">
+                            <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                        </header>
+
+
+                        <div class="article-list__content">
+                            <p>{{post.meta.Extract.value}}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>  
+        </div>
+
+
+
+        <div class="container h-entry">
+            <div class="article-list__title">
+                <h4>Quick notes and ramblings</h4>
+            </div>
 
             {% for post in site.pages.notes.posts limit: 4 %}
                 <article class="article-list__item">

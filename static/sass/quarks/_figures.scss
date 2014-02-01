@@ -183,6 +183,7 @@ figcaption {
     .figure--index {
         @include rem(padding-top, $base-spacing-unit * 2);
         @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        @include rem(padding-bottom, $base-spacing-unit * 1);
 
         @include respond-to("medium and above"){
             @include rem(margin-bottom, $base-spacing-unit * 2);
