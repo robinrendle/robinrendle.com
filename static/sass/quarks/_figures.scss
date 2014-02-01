@@ -155,6 +155,10 @@ figcaption {
             }
         }
 
+        time {
+           color: lighten($color__darkgrey, 15); 
+        }
+
         p {
             color: $color__darkgrey;
             @extend %font__text;

@@ -58,7 +58,6 @@
     color: $color__meta;
     letter-spacing: .035em;
     word-spacing: .04em;
-
 }
 
 @mixin headline-five {
@@ -141,6 +140,12 @@ h3, .h3 {
 
 h4, .h4 {
     @include headline-four;
+
+    .h-entry & {
+        border-bottom: 1px solid $color__border--dark;
+        @include rem(padding-bottom, 5);
+        @include rem(margin-bottom, 5);
+    }
 }
 
 h5, .h5 {
