@@ -131,6 +131,14 @@ figcaption {
         }
     }
 
+    .figure--wide__caption--dark {
+        background-color: $color__offblack;
+        background-color: rgba(0,0,0,.06);
+
+        p {
+            color: lighten($color__offblack, 10);
+        }
+    }
 
     .figure--index {
         @include rem(padding-top, $base-spacing-unit * 1);
