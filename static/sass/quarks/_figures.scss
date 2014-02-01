@@ -157,17 +157,21 @@ figcaption {
 
         p {
             color: $color__darkgrey;
-            line-height: 1.72353;
             @extend %font__text;
-            @include rem(font-size, 17);
+            line-height: 1.7;
 
             @include respond-to("large and above"){
-                @include rem(font-size, 18);
-                line-height: 1.6;
+                line-height: 1.8;                
             }
 
             > a {
                 border-bottom: 1px dotted lighten($color__darkgrey, 10);
+                line-height: 1;
+
+                &:hover,
+                &:focus {
+                    border-bottom: 1px solid lighten($color__darkgrey, 30);                        
+                }
             }
         }
     }
