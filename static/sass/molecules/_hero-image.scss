@@ -15,6 +15,12 @@
     float: left;
     width:100%;
 
+
+    @include respond-to("small and above"){    
+        @include rem(margin-top, - $base-spacing-unit * 1.5);
+    }
+
+
     @include respond-to("medium and above"){
         @include rem(margin-top, - $base-spacing-unit * 2);
     }
