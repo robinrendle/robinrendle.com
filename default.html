@@ -20,7 +20,7 @@
                     </p>
 
                     <div class="meta-info-block__item">
-                        {{ date | date: "%d %B %Y"}}
+                        <time datetime="{{date}}">{{ date | date: "%d %B %Y"}}</time>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@
                     <header class="hgroup hgroup--listing">
                         <div class="meta-info-block meta-info-block--list">
                             <div class="meta-info-block__item">
-                                {{ post.date | date: "%d %B %Y"}}
+                                <time datetime="{{post.date}}">{{ post.date | date: "%d %B %Y"}}</time>
                             </div>
                         </div>
                         <h3><a href="{{post.url}}">{{post.title}}</a></h3>

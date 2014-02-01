@@ -42,13 +42,18 @@
 
     <section role="main">
 
-
         {% for post in site.pages.essays.posts limit: 1 %}
             <figure class="figure--index figure--wide figure--wide--standard figure--bg-grey">
 
                 <img class="figure--wide__img" src="{{post.meta.featured-image.value}}" alt="A illustraton of a man carrying an elephant from 1825">
 
                 <figcaption class="container figure--wide__caption--centered">
+                    <div class="meta-info-block meta-info-block--list">
+                        <div class="meta-info-block__item">
+                            <time datetime="{{ post.date}}">{{ post.date | date: "%d %B %Y"}}</time>
+                        </div>
+                    </div>
+
                     <h2 class="clear">
                         <a class="links--reversed" href="{{post.url}}">{{post.title}}</a>
                     </h2>
@@ -67,7 +72,7 @@
                    <header class="hgroup hgroup--listing">
                         <div class="meta-info-block meta-info-block--list">
                             <div class="meta-info-block__item">
-                                {{ post.date | date: "%d %B %Y"}}
+                                <time datetime="{{ post.date}}">{{ post.date | date: "%d %B %Y"}}</time>
                             </div>
                         </div>
                         <h3><a href="{{post.url}}">{{post.title}}</a></h3>
