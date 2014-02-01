@@ -144,7 +144,7 @@
                 &:focus {
                     border-bottom: 1px solid lighten($color__grey--dark, 10);
                     background-color: darken($color__grey--dark, 3);
-                    color: darken($color__white, 20);
+                    color: darken($color__white, 30);
 
                     @include respond-to("medium and above"){
                         background-color: transparent;

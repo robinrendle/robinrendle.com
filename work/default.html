@@ -76,6 +76,13 @@
 
             {{body}}
 
+            <!-- Related articles -->
+            {% if meta.related %}
+                <aside class="island--meta">
+                    <h4>What I learnt during this project</h4>
+                    {{meta.related.value | markdown:true}}
+                </aside>
+            {% endif %}
 
             <!-- List other members of the team -->
             {% if meta.Team %}
@@ -85,13 +92,6 @@
                 </aside>
             {% endif %}
 
-            <!-- Related articles -->
-            {% if meta.related %}
-                <aside class="island island--meta">
-                    <h3>What I learnt during this project</h3>
-                    {{meta.related.value | markdown:true}}
-                </aside>
-            {% endif %}
 
         </article>
 

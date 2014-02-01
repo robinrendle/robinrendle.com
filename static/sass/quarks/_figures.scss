@@ -129,39 +129,34 @@ figcaption {
         }
     }
 
-    .figure--wide__caption--dark {
-        @include rem(padding-top, $base-spacing-unit / 1.4);
-        @include rem(padding-bottom, $base-spacing-unit / 1.4);
-        background-color: $color__grey--mid;
-        background-color: rgba(0,0,0, .3);
+    .figure--wide__caption--centered {
+        @include rem(margin-bottom, $base-spacing-unit);
 
         @include respond-to("medium and above"){
-            @include rem(padding-top, $half-spacing-unit);
-            @include rem(padding-bottom, $half-spacing-unit * 1.4);
+            @include rem(margin-bottom, $base-spacing-unit * 1.5);            
         }
 
-        @include respond-to("large and above"){
-            @include rem(max-width, 650);
-        }
 
         h2 {
-            color: $color__white;
             border-bottom: 1px solid $color__lightgrey;
             @include rem(margin-bottom, $half-spacing-unit / 2);
             @include rem(padding-bottom, $half-spacing-unit / 2);
+            width: 100%;
+            float: left;
+            max-width: none;
         }
 
         a {
-            color: $color__white;
+            color: $color__darkgrey;
 
             &:hover,
             &:focus {
-                color: darken($color__white, 20);               
+                color: lighten($color__darkgrey, 15);               
             }
         }
 
         p {
-            color: darken($color__white, 10);
+            color: $color__darkgrey;
             line-height: 1.72353;
             @extend %font__text;
             @include rem(font-size, 17);
@@ -172,8 +167,7 @@ figcaption {
             }
 
             > a {
-                text-decoration: underline;
-                color: darken($color__white, 0);
+                border-bottom: 1px dotted lighten($color__darkgrey, 10);
             }
         }
     }
