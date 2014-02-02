@@ -33,10 +33,10 @@ document.addEventListener("DOMContentLoaded", function(){
     mobileMenu.addEventListener("click", function(event){
         event.preventDefault();
 
-        if (hasClass(bannerNav, 'js-active')) {
-            bannerNav.classList.remove('js-active');
+        if (hasClass(bannerNav, 'menu-active')) {
+            bannerNav.classList.remove('menu-active');
         } else {
-            bannerNav.classList.add('js-active');
+            bannerNav.classList.add('menu-active');
         }
 
     }, false);

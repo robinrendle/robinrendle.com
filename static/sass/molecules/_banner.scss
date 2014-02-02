@@ -104,10 +104,15 @@
                 display: block;
             }
             
-            &.js-active {
+            &.menu-active {
                 display: block;
+                -webkit-animation: appearDown .6s 1;
+                animation: appearDown .6s 1;
+                -webkit-animation-fill-mode: both;
+                animation-fill-mode: both;
             }
         }
+
 
         > li {
             @extend %font__text--sub;
@@ -159,7 +164,7 @@
 
 
         /**
-         * The banner menu appears on mobile and is hidden on
+         * The banner menu link appears on mobile and is hidden on
          * larger screen sizes.
          */
         .banner__nav__menu {
@@ -178,15 +183,7 @@
             .no-js & {                
                 display: none;
             }
-
-            &:before {
-
-            }
         }
-
-
-
-
 
 
 
