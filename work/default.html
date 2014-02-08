@@ -33,6 +33,21 @@
         .banner {
             background-color: {{meta.secondary-color}};
         }
+
+        .drop-cap:first-letter {
+            color: {{meta.primary-color}};
+        }
+
+        a {
+            color: {{meta.primary-color}};
+            border-color: {{meta.primary-color}};
+        }
+
+        a:hover,
+        a:focus {
+            color: {{meta.secondary-color}};   
+            border-color: {{meta.secondary-color}};
+        }
     </style>
 </head>
 
@@ -60,7 +75,7 @@
                 <header class="heading-group 
                                heading-group--centered
                                heading-group--hero">
-                               
+
                     <h1 class="heading--reversed">{{title}}</h1>
 
                     <div class="meta-info-block">
@@ -78,18 +93,32 @@
 
         <article class="container">
 
-                <!-- List my role in the project -->
-                {% if meta.Role %}
-                    <aside class="island--meta">
-                        <h4>Responsibilities</h4>
-                        {{meta.Role.value | markdown:true}}
-                    </aside>
-                {% endif %}
+            <!-- The article’s summary -->
+            {% if meta.Extract %}
+                    <p class="drop-cap">{{meta.Extract.value }}</p>
+            {% endif %}
 
-                <!-- The article’s summary -->
-                {% if meta.Extract %}
-                        {{meta.Extract.value | markdown:true }}
-                {% endif %}
+                <div class="islet
+                            columns--two">
+                    <!-- List my role in the project -->
+                    {% if meta.Role %}
+                        <aside class="island--meta">
+                            <h4>Responsibilities</h4>
+                            {{meta.Role.value | markdown:true}}
+                        </aside>
+                    {% endif %}
+
+                    <!-- List other members of the team -->
+                    {% if meta.Team %}
+                        <aside class="island--meta">
+                            <h4>Team members</h4>
+                            {{meta.Team.value | markdown:true}}
+                        </aside>
+                    {% endif %}
+                </div><!-- border-top -->
+
+
+
 
                 {{body}}
 
@@ -100,15 +129,6 @@
                         {{meta.related.value | markdown:true}}
                     </aside>
                 {% endif %}
-
-                <!-- List other members of the team -->
-                {% if meta.Team %}
-                    <aside class="island--meta">
-                        <h4>Members of the team</h4>
-                        {{meta.Team.value | markdown:true}}
-                    </aside>
-                {% endif %}
-
 
             </article>
 

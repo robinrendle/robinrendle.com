@@ -37,4 +37,19 @@
         @extend .container--standard;
     }
 
+    .columns--two {
+        @include respond-to("large and above"){
+            &>:first-child {
+                float: left;
+                width: 45%;
+                margin-right: 5%;
+            }
+
+            &>:last-child {
+                float: right;
+                width: 45%;
+            }
+        }
+    }
+
 }//endif

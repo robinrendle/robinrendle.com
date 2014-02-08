@@ -18,9 +18,10 @@
     .islet{
         @extend .cf;
         display:block;
-        border: 1px solid $color__secondary;
     }
+
     .island {
+        border: 1px solid $color__secondary;
         background-color: #fafafa;
         @include rem(padding, $half-spacing-unit);
 
@@ -28,10 +29,20 @@
             @include rem(padding, $half-spacing-unit * 1.5);
         }
     }
-        .island > :last-child,
-        .islet > :last-child{
+
+    /**
+     * Transparent island
+     */
+    .islet {
+        border-top: 1px solid $color__border--dark;
+        border-bottom: 1px solid  $color__border--dark;
+
+        @include rem(padding, $half-spacing-unit, 0);
+
+        *:last-child ul {
             margin-bottom:0;
         }
+    }
 
 
     .island--meta {

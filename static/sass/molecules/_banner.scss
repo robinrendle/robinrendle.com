@@ -140,7 +140,9 @@
 
             a {
                 float: left;
+                border-bottom: darken($color__white, 20);
                 border-bottom: 1px solid rgba(255,255,255, .07);
+                background-color: darken($color__white, 40);
                 background-color: rgba(255,255,255,.04);
                 @include rem(padding, $half-spacing-unit);
                 width: 100%;
