@@ -7,13 +7,23 @@
 
 
 .hero {
-    @include rem(margin, - $base-spacing-unit*1.2,0,$base-spacing-unit,0);
     z-index:-9999;
-    max-height:26em;
     overflow:hidden;
     border-bottom:1px solid #ddd;
     float: left;
     width:100%;
+
+    img {
+        width:100%;
+    }
+}
+
+
+/**
+ * Pull hero so that the banner overlaps it.
+ */
+.hero--nudge {
+    @include rem(margin, - $base-spacing-unit * 1.9, 0, $base-spacing-unit, 0);
 
 
     @include respond-to("small and above"){    
@@ -23,9 +33,6 @@
 
     @include respond-to("medium and above"){
         @include rem(margin-top, - $base-spacing-unit * 2);
-    }
-
-    img {
-        width:100%;
+        max-height: 26em;
     }
 }

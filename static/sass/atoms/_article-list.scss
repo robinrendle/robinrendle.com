@@ -7,7 +7,6 @@
 
 .article-list {
     width:100%;
-    // @include rem(margin-top, $base-spacing-unit);
     @include rem(margin-bottom, $base-spacing-unit * 2);
 }
     .article-list__item {
@@ -33,6 +32,7 @@
         &:last-of-type {
             .article-list__content {
                 border-bottom: none;
+                padding-bottom: 0;
             }
         }
     }
@@ -47,5 +47,21 @@
     }
 
     .article-list__title {
-        @include rem(margin-bottom, $half-spacing-unit * 1.5);
+        @include rem(margin-bottom, $half-spacing-unit * .6);
+
+        & + .article-list__item {
+            @include rem(margin-top, $half-spacing-unit * 1.2);
+        }
     }
+
+    .article-list--notes {
+
+
+        .meta-info-block {
+            @include respond-to("large and above"){
+                float: right;
+            }
+        }
+
+    }
+

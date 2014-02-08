@@ -40,6 +40,12 @@
     text-align:center;
 }
 
+.heading-group--hero {
+    @include respond-to("medium and above"){
+        @include rem(margin-bottom, $base-spacing-unit * 2);
+    }
+}
+
 
 
 

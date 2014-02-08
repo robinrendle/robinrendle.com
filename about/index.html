@@ -3,24 +3,14 @@
     <article class="h-entry 
                     container
                     is--editor__content">
+        <div class="heading-group">
+            <h1>About me</h1>
+        </div>
 
-        {% if meta.Image %}
-            <figure>
-                <img src="{{meta.Image.value}}"/>
-            </figure>
-        {% endif %}
-
-
-        <h1 class="h4">About me</h1>
+        {{meta.Extract | markdown:true}}
 
         {{body}}
 
     </article><!-- //.container -->
 
-    <div class="container--standard">
-        <div class="island--meta">
-            {{ meta.Contact | markdown:true }}
-        </div><!-- //.island -->
-    </div><!-- //.container -->
-
-{% include 'components/footer' %}
+{% include 'components/footer--social' %}

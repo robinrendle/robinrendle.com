@@ -17,7 +17,7 @@
         .meta-info-block__item {
             @include rem(font-size, $milli-size);
             font-style: normal;
-            color:$color__meta;
+            color: $color__meta;
             width:auto;
             display:inline-block;
             margin-bottom: 0;
@@ -27,6 +27,9 @@
                 @include rem(font-size, $milli-size);
             }
 
+            .island--hero & {
+                color: lighten($color__meta, 25);
+            }
 
             &:first-of-type:after {
                 content:"~";

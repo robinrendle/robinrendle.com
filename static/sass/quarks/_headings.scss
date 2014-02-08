@@ -26,7 +26,6 @@
     @include rem(margin-bottom, $base-spacing-unit);
     line-height:1.2;
     color: $color__lightblack;
-    max-width:20.7em;
 
     @include respond-to("medium and above") {
         line-height:1.25;
@@ -148,7 +147,7 @@ h4, .h4 {
     .is--editor__content > & {
         border-bottom: 1px solid $color__border--dark;
         @include rem(padding-bottom, 5);
-        @include rem(margin-bottom, 5);
+        @include rem(margin-bottom, 7);
     }
 }
 
@@ -182,4 +181,8 @@ h5, .h5 {
         max-width:none;
         width:100%;
     }
+}
+
+.heading--reversed {
+    color: $color__white;
 }

@@ -23,6 +23,17 @@
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
     <!-- Modernizr -->
     <script src="/static/js/modernizr-2.5.3-min.js"></script>
+
+    <!-- Page specific styles -->
+    <style>
+        .island--hero {
+            background-color: {{meta.primary-color}};
+        }
+
+        .banner {
+            background-color: {{meta.secondary-color}};
+        }
+    </style>
 </head>
 
 <body>
@@ -44,57 +55,63 @@
     </header>
 
     <section role="main">
+        <div class="island--hero">
+            <div class="container">
+                <header class="heading-group 
+                               heading-group--centered
+                               heading-group--hero">
+                               
+                    <h1 class="heading--reversed">{{title}}</h1>
 
-    {% if meta.hero %}
-        <figure class="figure--wide figure--wide--standard figure--bg-light">
-            <img class="figure--wide__img" src="{{meta.Hero.value}}" />
-        </figure>
-    {% endif %}
+                    <div class="meta-info-block">
+                        <div class="meta-info-block__item">
+                            {{ meta.project-date.value }}
+                        </div><!-- meta-info-block__item -->
+                    </div><!-- //.meta-info-block -->
+                </header>
+            </div><!-- //.container -->
 
-    <article class="container">
-            <header class="heading-group">
-                <div class="meta-info-block">
-                    <div class="meta-info-block__item">
-                        {{ meta.project-date.value }}
-                    </div>
-                </div>
-                <h1>{{title}}</h1>
-            </header>
-
-            <!-- List my role in the project -->
-            {% if meta.Role %}
-                <aside class="island--meta">
-                    <h4>Responsibilities</h4>
-                    {{meta.Role.value | markdown:true}}
-                </aside>
+            {% if meta.hero %}
+                <img class="figure--wide__img" src="{{meta.Hero.value}}" />
             {% endif %}
+        </div>
 
-            <!-- The article’s summary -->
-            {% if meta.Extract %}
-                    {{meta.Extract.value | markdown:true }}
-            {% endif %}
+        <article class="container">
 
-            {{body}}
+                <!-- List my role in the project -->
+                {% if meta.Role %}
+                    <aside class="island--meta">
+                        <h4>Responsibilities</h4>
+                        {{meta.Role.value | markdown:true}}
+                    </aside>
+                {% endif %}
 
-            <!-- Related articles -->
-            {% if meta.related %}
-                <aside class="island--meta">
-                    <h4>What I learnt during this project</h4>
-                    {{meta.related.value | markdown:true}}
-                </aside>
-            {% endif %}
+                <!-- The article’s summary -->
+                {% if meta.Extract %}
+                        {{meta.Extract.value | markdown:true }}
+                {% endif %}
 
-            <!-- List other members of the team -->
-            {% if meta.Team %}
-                <aside class="island--meta">
-                    <h4>Members of the team</h4>
-                    {{meta.Team.value | markdown:true}}
-                </aside>
-            {% endif %}
+                {{body}}
+
+                <!-- Related articles -->
+                {% if meta.related %}
+                    <aside class="island--meta">
+                        <h4>What I learnt during this project</h4>
+                        {{meta.related.value | markdown:true}}
+                    </aside>
+                {% endif %}
+
+                <!-- List other members of the team -->
+                {% if meta.Team %}
+                    <aside class="island--meta">
+                        <h4>Members of the team</h4>
+                        {{meta.Team.value | markdown:true}}
+                    </aside>
+                {% endif %}
 
 
-        </article>
+            </article>
 
 
-{% include 'components/footer' %}
+    {% include 'components/footer' %}
 

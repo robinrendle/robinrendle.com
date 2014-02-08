@@ -45,24 +45,3 @@
     $lightcream: #efefef;
     $color__purple: rgb(140,87,235);
     $pink: #D71379; // Error
-
-
-    /**
-     * Gradient mixin: add a color -> get your lovely gradient
-     */
-    @mixin gradient($default, $from, $to){
-        background-image:$default;
-        background-image: -webkit-linear-gradient(top, $from, $to);
-        background-image: -o-linear-gradient(top, $from, $to);
-        background-image: -moz-linear-gradient(top, $from, $to);
-        background-image: -webkit-linear-gradient(top, $from, $to);
-        background-image: -ms-linear-gradient(top, $from, $to);
-    }
-
-    %red-gradient {
-        @include gradient(darken($color__red--primary, 15%), $color__red--primary, darken($color__red--primary, 10%));
-    }
-
-    %cream-gradient {
-        @include gradient(darken($color__secondary, 15%), $color__secondary, darken($color__secondary, 10%));
-    }

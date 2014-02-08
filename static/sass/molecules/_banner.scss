@@ -13,6 +13,7 @@
     background-color: $color__darkgrey;
     @include rem(margin-bottom, $base-spacing-unit*1.2);
     @include rem(padding, $half-spacing-unit * 1.3, 0);
+    z-index: 1;
     width: 100%;
 
     @include respond-to("small and above"){    
@@ -23,6 +24,10 @@
         padding: 0;
         @include rem(margin-bottom, $base-spacing-unit * 2);
     }
+}
+
+.banner--transparent {
+    background-color: rgba(0,0,0,.13);
 }
 
 .banner--standard {
@@ -53,13 +58,14 @@
         > a {
             text-align: left;
             color: $color__white;
+
             /* Make sure that the logo text never breaks onto two lines */
             @include rem(min-width, 175);
 
             @include respond-to("medium and above"){
                 color: darken($color__white, 10);
-                background-color: #CE7E7E;
-                background-color: rgba(255,255,255,.15);
+                background-color: #777;
+                background-color: rgba(0,0,0,0.13);
                 @include rem(padding, $half-spacing-unit * 1.3, $half-spacing-unit / 1.5, ($half-spacing-unit * 1.2), $half-spacing-unit / 1.5);
                 float: left;
                 margin-bottom: 0;
@@ -134,8 +140,8 @@
 
             a {
                 float: left;
-                border-bottom: 1px solid lighten($color__grey--dark, 10);
-                background-color: $color__grey--dark;
+                border-bottom: 1px solid rgba(255,255,255, .07);
+                background-color: rgba(255,255,255,.04);
                 @include rem(padding, $half-spacing-unit);
                 width: 100%;
 
@@ -149,8 +155,8 @@
 
                 &:hover,
                 &:focus {
-                    border-bottom: 1px solid lighten($color__grey--dark, 10);
-                    background-color: darken($color__grey--dark, 3);
+                    border-bottom: 1px solid rgba(255,255,255, .1);
+                    background-color: rgba(0,0,0, .09);
                     color: darken($color__white, 30);
 
                     @include respond-to("medium and above"){

@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <header class="banner banner--standard" role="banner">
+    <header class="banner" role="banner">
         <div class="container--standard">
             <h1 class="banner__headline">
                 <a class="links--reversed" href="/">Robin Rendle</a>
@@ -41,18 +41,23 @@
     </header>
 
     <section role="main">
+        <div class="container">
+            <div class="article-list">
+                {% if site.pages.about.meta.Image %}
+                    <figure>
+                        <img src="{{site.pages.about.meta.Image.value}}"/>
+                    </figure>
+                {% endif %}
 
-        {% for post in site.pages.essays.posts limit: 1 %}
-            <figure class="figure--index figure--wide figure--wide--standard figure--bg-grey">
+                <div class="article-list__title
+                    is--editor__content">
+                    <h4>About me</h4>
+                </div>
 
-                <img class="figure--wide__img" src="{{post.meta.featured-image.value}}" alt="A illustraton of a man carrying an elephant from 1825">
+                {{site.pages.about.meta.Extract | markdown:true}}
+            </div>
+        </div>
 
-                <figcaption class="figure--wide__caption figure--wide__caption--dark">
-                    <p>Bernard Blackmantle, <em>The English Spy : An Original Work, Characteristic, Satirical, and Humorous, comprising Scenes and Sketches in every Rank of Society, being Portraits of the Illustrious, Eminent, Eccentric and Notorious</em>, with illustrations by Robert Cruikshank. 1825 <a href="http://bibliodyssey.blogspot.co.uk/2006/12/accumulated-snippets.html">Source</a>.</p>
-                </figcaption>
-
-            </figure>
-        {% endfor %}
 
         <div class="container
                     h-entry">
@@ -82,14 +87,14 @@
 
 
         <div class="container 
-                    h-entry ">
+                    h-entry">
             <div class="article-list__title 
                         is--editor__content">
                 <h4>Quick notes and ramblings</h4>
             </div>
 
             {% for post in site.pages.notes.posts limit: 4 %}
-                <article class="article-list__item">
+                <article class="article-list__item article-list--notes">
 
                    <header class="hgroup hgroup--listing">
                         <div class="meta-info-block meta-info-block--list">
@@ -102,11 +107,10 @@
 
 
                     <div class="article-list__content">
-                        <p>{{post.meta.Extract.value}}</p>
                     </div>
                 </article>
             {% endfor %}
         </div>
 
-    {% include 'components/footer' %}
+    {% include 'components/footer--social' %}
 

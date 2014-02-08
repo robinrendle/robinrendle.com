@@ -53,6 +53,10 @@
             @include rem(margin-bottom, $half-spacing-unit / 1.5);
         }
 
+        .footer & ul {
+            margin-bottom: 0;
+        }
+
         ul,
         ol {
             margin-top: 0;
@@ -72,6 +76,22 @@
                     background-color: darken($color__secondary, 10);
                 }
             }
+        }
+    }
+
+
+    /**
+     * Background for the image / header combo on the /work detail pages
+     */
+
+    .island--hero {
+        @include rem(margin-bottom, $base-spacing-unit);
+        @include rem(padding-top, 50);
+        @include rem(padding-bottom, $half-spacing-unit);
+
+        @include respond-to("medium and above"){
+            @include rem(padding-top, 80);
+            @include rem(padding-bottom, $base-spacing-unit);
         }
     }
 }//endif
