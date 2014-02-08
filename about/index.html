@@ -9,8 +9,18 @@
 
         {{meta.Extract | markdown:true}}
 
+        {{meta.Contributions | markdown:true}}
+
+        <div class="island--meta">
+            <ul>
+                <li>You can find me on Twitter: <a href="http://twitter.com/robinrendle">@robinrendle</a></li>
+                <li>Fork my work over on <a href="http://github.com/robinrendle">Github</a></li>
+                <li>Or feel free to contact me about a cool project by <a href="mailto:desk@robinrendle.com">email</a></li>
+            </ul>
+        </div>
+
         {{body}}
 
     </article><!-- //.container -->
 
-{% include 'components/footer--social' %}
+{% include 'components/footer--empty' %}
