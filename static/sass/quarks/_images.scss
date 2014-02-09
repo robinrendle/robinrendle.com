@@ -16,6 +16,18 @@ img{
 
 
 /**
+ * For making wide images in markdown
+ */
+
+p > strong img {
+    @include respond-to("largest only"){
+        margin-left: -15%;
+        width: 130%;
+        max-width: 130%;
+    }
+}
+
+/**
  * Image placement variations.
  */
 .img--right{
