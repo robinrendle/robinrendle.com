@@ -23,7 +23,8 @@ a {
 }
 
 
-.links--reversed {
+.links--reversed,
+.reversed a {
     color: darken($color__white, 10);
     border-bottom: none;
 

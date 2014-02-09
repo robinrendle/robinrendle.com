@@ -57,169 +57,69 @@
     display:inline-block;       /* [1] */
     vertical-align:middle;      /* [2] */
     white-space:nowrap;         /* [3] */
-    font-family:inherit;        /* [4] */
     font-size:100%;             /* [4] */
     cursor:pointer;             /* [5] */
     border:none;                /* [6] */
     margin:0;                   /* [6] */
     padding-top:   0;           /* [6] */
     padding-bottom:0;           /* [6] */
-    line-height:3;              /* [7] */
     padding-right:1em;          /* [7] */
     padding-left: 1em;          /* [7] */
+    text-align: center;
+    @extend %font__text--sub;
 }
 
 .btn{
-
+    
     &,
     &:hover{
         text-decoration:none;   /* [9] */
+        border: none;
     }
 
     &:active,
     &:focus{
-        outline:none;
+        text-decoration: none;
+        border: none;
     }
 }
 
 
 
-
-
 /*------------------------------------*\
-    $SIZES
-\*------------------------------------*/
-/**
- * Button size modifiers.
- *
- * These all follow the same sizing rules as above; text is 1em, space around it
- * remains uniform.
- */
-.btn--small{
-    padding-right:0.5em;
-    padding-left: 0.5em;
-    line-height:2;
-}
-
-.btn--large{
-    padding-right:1.5em;
-    padding-left: 1.5em;
-    line-height:4;
-}
-
-.btn--huge{
-    padding-right:2em;
-    padding-left: 2em;
-    line-height:5;
-}
-
-/**
- * These buttons will fill the entirety of their container.
- *
- * 1. Remove padding so that widths and paddings don’t conflict.
- */
-.btn--full{
-    width:100%;
-    padding-right:0;            /* [1] */
-    padding-left: 0;            /* [1] */
-    text-align:center;
-}
-
-
-
-
-
-/*------------------------------------*\
-    $FONT-SIZES
+    $BTN-SIZES
 \*------------------------------------*/
 /**
  * Button font-size modifiers.
  */
+
 .btn--alpha{
-    font-size:3rem;
-}
-
-.btn--beta{
-    font-size:2rem;
-}
-
-.btn--gamma{
-    font-size:1rem;
-}
-
-/**
- * Make the button inherit sizing from its parent.
- */
-.btn--natural{
-    vertical-align:baseline;
-    font-size:inherit;
-    line-height:inherit;
-    padding-right:0.5em;
-    padding-left: 0.5em;
+    @include rem(padding, $half-spacing-unit);
+    @include rem(margin-bottom, $base-spacing-unit);
 }
 
 
 
+.btn--cta {
+    font-weight: bold;
+    @include rem(font-size, $h4-size);
+    @include border-radius(3px);
+    color: rgba(255,255,255,.8);
+    background-color: $color__border--dark;
+    background-color: rgba(0,0,0,0.35);
+    border: 1px solid rgba(0,0,0,0.1);
 
-
-/*------------------------------------*\
-    $FUNCTIONS
-\*------------------------------------*/
-/**
- * Button function modifiers.
- */
-.btn--primary{}
-.btn--secondary{}
-.btn--tertiary{}
-
-/**
- * Positive actions; e.g. sign in, purchase, submit, etc.
- */
-.btn--positive{
-    background-color:#4A993E;
-    color:#fff;
-}
-
-/**
- * Negative actions; e.g. close account, delete photo, remove friend, etc.
- */
-.btn--negative{
-    background-color:#b33630;
-    color:#fff;
-}
-
-/**
- * Inactive, disabled buttons.
- *
- * 1. Make the button look like normal text when hovered.
- */
-.btn--inactive,
-    .btn--inactive:hover,
-    .btn--inactive:active,
-    .btn--inactive:focus{
-        background-color:#ddd;
-        color:#777;
-        cursor:text;            /* [1] */
+    &:hover,
+    &:focus {
+        color: rgba(255,255,255,.5);
+        background-color: darken($color__border--dark, 10);
+        background-color: rgba(0,0,0,0.5);
+        border: 1px solid rgba(0,0,0,0.1);
     }
-
-
-
-
-
-/*------------------------------------*\
-    $STYLES
-\*------------------------------------*/
-/**
- * Button style modifiers.
- *
- * 1. Use an overly-large number to ensure completely rounded, pill-like ends.
- */
-.btn--soft{
-    border-radius:200px;        /* [1] */
 }
 
-.btn--hard{
-    border-radius:0;
-}
+
+
+
 
 }//endif

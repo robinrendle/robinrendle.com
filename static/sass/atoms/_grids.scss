@@ -39,6 +39,10 @@
 
     .columns--two {
         @include respond-to("large and above"){
+            li {
+                line-height: 1.45;
+            }
+
             &>:first-child {
                 float: left;
                 width: 45%;

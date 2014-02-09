@@ -149,6 +149,10 @@ h4, .h4 {
         @include rem(padding-bottom, 5);
         @include rem(margin-bottom, 7);
     }
+
+    .reversed.is--editor__content > & { 
+        border-bottom: 1px solid rgba(255,255,255,.15);
+    }
 }
 
 h5, .h5 {
@@ -184,5 +188,5 @@ h5, .h5 {
 }
 
 .heading--reversed {
-    color: $color__white;
+    color: $color__white !important;
 }

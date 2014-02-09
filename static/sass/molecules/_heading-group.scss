@@ -41,7 +41,10 @@
 }
 
 .heading-group--hero {
+    @include rem(padding-top, 50);
+
     @include respond-to("medium and above"){
+        @include rem(padding-top, 80);
         @include rem(margin-bottom, $base-spacing-unit * 2);
     }
 }

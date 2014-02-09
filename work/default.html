@@ -26,7 +26,8 @@
 
     <!-- Page specific styles -->
     <style>
-        .island--hero {
+        .island--primary,
+        .footer {
             background-color: {{meta.primary-color}};
         }
 
@@ -70,7 +71,7 @@
     </header>
 
     <section role="main">
-        <div class="island--hero">
+        <div class="island--primary island--hero">
             <div class="container">
                 <header class="heading-group 
                                heading-group--centered
@@ -98,38 +99,54 @@
                     <p class="drop-cap">{{meta.Extract.value }}</p>
             {% endif %}
 
-                <div class="islet
-                            columns--two">
-                    <!-- List my role in the project -->
-                    {% if meta.Role %}
-                        <aside class="island--meta">
-                            <h4>Responsibilities</h4>
-                            {{meta.Role.value | markdown:true}}
-                        </aside>
-                    {% endif %}
+            <div class="islet
+                        columns--two">
+                <!-- List my role in the project -->
+                {% if meta.Role %}
+                    <aside class="island--meta">
+                        <h4>Responsibilities</h4>
+                        {{meta.Role.value | markdown:true}}
+                    </aside>
+                {% endif %}
 
-                    <!-- List other members of the team -->
-                    {% if meta.Team %}
-                        <aside class="island--meta">
-                            <h4>Team members</h4>
-                            {{meta.Team.value | markdown:true}}
-                        </aside>
-                    {% endif %}
-                </div><!-- border-top -->
+                <!-- List other members of the team -->
+                {% if meta.Team %}
+                    <aside class="island--meta">
+                        <h4>Team members</h4>
+                        {{meta.Team.value | markdown:true}}
+                    </aside>
+                {% endif %}
+            </div><!-- border-top -->
 
 
-                {{body}}
+            {{body}}
+
+
+        </article>
+
+        <div class="footer">
+            <div class="container
+                        columns--two">
+                <div>
+                    <a class="btn 
+                              btn--alpha 
+                              btn--cta" href="/work">View more of my work</a>
+                </div>
 
                 <!-- Related articles -->
                 {% if meta.related %}
-                    <aside class="island--meta">
-                        <h4>What I learnt during this project</h4>
+                    <aside class="island--meta
+                                  reversed
+                                  is--editor__content">
+                        <h4 class="heading--reversed">What I learnt during this project</h4>
+
                         {{meta.related.value | markdown:true}}
                     </aside>
                 {% endif %}
 
-            </article>
+            </div>
+        </div>
 
 
-    {% include 'components/footer' %}
+    {% include 'components/footer--invisible' %}
 
