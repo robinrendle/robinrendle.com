@@ -1,16 +1,19 @@
-/*------------------------------------*\
-    $ARTICLE-LIST
-\*------------------------------------*/
-/**
-* Create a standard list for articles and posts
-**/
+// ==========================================================================
+// ARTICLE LIST
+// ========================================================================== 
+// 
+// Create a block of articles with borders
+// 
+
+
+
 
 .article-list {
     width:100%;
-    @include rem(margin-bottom, $base-spacing-unit * 2);
+    margin-bottom: rem-calc($base-spacing-unit*2)
 }
     .article-list__item {
-        @include rem(margin-bottom, $half-spacing-unit * 1.5);
+        margin-bottom: rem-calc($half-spacing-unit * 1.5);
         margin-top: 0;
         padding-top: 0;
 
@@ -18,7 +21,7 @@
             margin:0;
 
             h3 {
-                @include rem(margin-bottom, 5);
+                margin-bottom: rem-calc(5);
                 padding-bottom: 0;
                 text-align: left;
                 border-bottom: 0;
@@ -38,7 +41,7 @@
     }
 
     .article-list__content {
-        @include rem(padding-bottom, $half-spacing-unit * 1.5);
+        padding-bottom: rem-calc($half-spacing-unit * 1.5);
         border-bottom: 1px dotted $color__border--dark;
 
         p {
@@ -47,15 +50,14 @@
     }
 
     .article-list__title {
-        @include rem(margin-bottom, $half-spacing-unit * .6);
+        margin-bottom: rem-calc($half-spacing-unit * .6);
 
         & + .article-list__item {
-            @include rem(margin-top, $half-spacing-unit * 1.2);
+            margin-top: rem-calc($half-spacing-unit * 1.2);
         }
     }
 
     .article-list--notes {
-
 
         .meta-info-block {
             @include respond-to("large and above"){

@@ -1,9 +1,9 @@
-/*------------------------------------*\
-    $HERO-IMAGE
-\*------------------------------------*/
-/**
- * Main type used as introduction pieces to certain articles.
- */
+// ==========================================================================
+// HERO IMAGE
+// ========================================================================== 
+//
+// Main type used as introduction pieces to certain articles.
+//
 
 
 .hero {
@@ -19,20 +19,23 @@
 }
 
 
-/**
- * Pull hero so that the banner overlaps it.
- */
+//
+// Pull hero so that the banner overlaps it.
+//
 .hero--nudge {
-    @include rem(margin, - $base-spacing-unit * 1.9, 0, $base-spacing-unit, 0);
+    margin-top: rem-calc(- $base-spacing-unit * 1.9);
+    margin-right: 0;
+    margin-bottom: rem-calc($base-spacing-unit);
+    margin-left: 0;
 
 
     @include respond-to("small and above"){    
-        @include rem(margin-top, - $base-spacing-unit * 1.5);
+        margin-top: rem-calc(- $base-spacing-unit * 1.5);
     }
 
 
     @include respond-to("medium and above"){
-        @include rem(margin-top, - $base-spacing-unit * 2);
+        margin-top: rem-calc(- $base-spacing-unit * 2);
         max-height: 26em;
     }
 }

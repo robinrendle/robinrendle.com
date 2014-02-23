@@ -1,14 +1,13 @@
-/*------------------------------------*\
-    $CITATIONS
-\*------------------------------------*/
-/*
- * Used throughout the site to highlight references to other people and work.
- */
+// ==========================================================================
+// CITATIONS
+// ========================================================================== 
+//
+// Used to reference other people and their work.
+//
 
 
-// make sure you give proper recognition to other people’s work!
 .cite {
-    @include rem(margin-top, - $half-spacing-unit * 1.5);
+    margin-top: rem-calc(- $half-spacing-unit * 1.5);
     display: block;
     position: relative;
 
@@ -23,7 +22,7 @@
 
     >p {
         @include text--small;
-        @include rem(margin-left, ($half-spacing-unit + 2));
+        margin-left: rem-calc($half-spacing-unit + 2);
         font-style:normal;
         margin-bottom:0;
         color: $color__offblack;

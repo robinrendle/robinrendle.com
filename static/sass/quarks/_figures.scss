@@ -1,6 +1,9 @@
-/*------------------------------------*\
-    $FIGURES
-\*------------------------------------*/
+// ==========================================================================
+// FIGURES
+// ========================================================================== 
+
+
+
 
 figure {
     img + img {
@@ -8,7 +11,7 @@ figure {
     }
 
     img + blockquote {
-        @include rem(margin-top, $base-spacing-unit);
+        margin-top: rem-calc($base-spacing-unit);
     }
 
     &.centre {
@@ -17,7 +20,7 @@ figure {
 }
 
 figcaption {
-    @include rem(margin-top, 10);
+    margin-top: rem-calc(10);
     margin-bottom: 0;
 
     h4 {
@@ -40,27 +43,33 @@ figcaption {
 // Wide styles that add extra padding
 .figure--wide {
     @extend .cf;
-    @include rem(margin, $base-spacing-unit, 0);
-    @include rem(padding-top, $base-spacing-unit);
+    margin: rem-calc($base-spacing-unit);
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: rem-calc($base-spacing-unit);
     position: relative;
 
     @include respond-to("medium and above"){
-        @include rem(margin, $base-spacing-unit * 2, 0);
+        margin: rem-calc($base-spacing-unit * 2);
+        margin-right: 0;
+        margin-left: 0;
     }
 }
 
 
 .figure--wide--standard {
     margin: 0;
-    @include rem(margin-bottom, $base-spacing-unit);
+    margin-bottom: rem-calc($base-spacing-unit);
 }
 
     .figure--wide__img {
-        @include rem(padding, 0, $half-spacing-unit);
-        @include rem(margin-bottom, $base-spacing-unit);
+        padding: 0;
+        padding-left: rem-calc($half-spacing-unit);
+        padding-right: rem-calc($half-spacing-unit);
+        margin-bottom: rem-calc($base-spacing-unit);
 
         .island--hero & {
-            @include rem(max-width, 850);
+            max-width: rem-calc(850);
             width: 100%;
         }
     }
@@ -83,29 +92,29 @@ figcaption {
         margin-top: 0;
         padding-left: 6%;
         padding-right: 6%;
-        @include rem(padding-top, $quarter-spacing-unit);
-        @include rem(padding-bottom, $quarter-spacing-unit);
+        padding-top: rem-calc($quarter-spacing-unit);
+        padding-bottom: rem-calc($quarter-spacing-unit);
         float: left;
-        @include rem(max-width, 500);
+        max-width: rem-calc(500);
 
         @include respond-to("medium and above"){
             position: relative;
             padding-left: 6%;
-            @include rem(padding-right, $half-spacing-unit);
-            @include rem(margin-bottom, $base-spacing-unit);
-            @include rem(margin-top, - $quarter-spacing-unit);
+            padding-right: rem-calc($half-spacing-unit);
+            margin-top: rem-calc(- $quarter-spacing-unit);
+            margin-bottom: rem-calc($base-spacing-unit);
         }
 
         p {
             padding-left: 0;
             font-style: normal;
-            @include rem(font-size, 16);
+            font-size: rem-calc(16);
             line-height: 1.55;
         }
 
         h4 {
             text-transform: none;
-            @include rem(font-size, 17);
+            font-size: rem-calc(17);
             color: $color__darkgrey;
         }
     }
@@ -146,13 +155,13 @@ figcaption {
     }
 
     .figure--index {
-        @include rem(padding-top, $base-spacing-unit * 1);
-        @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        padding-top: rem-calc($base-spacing-unit);
+        margin-bottom: rem-calc($base-spacing-unit * 1.5);
 
         @include respond-to("medium and above"){
-            @include rem(padding-top, $base-spacing-unit * 1.5);
-            @include rem(padding-bottom, $base-spacing-unit * 1);
-            @include rem(margin-bottom, $base-spacing-unit * 2);
+            padding-top: rem-calc($base-spacing-unit * 1.5);
+            padding-bottom: rem-calc($base-spacing-unit * 1);
+            margin-bottom: rem-calc($base-spacing-unit * 2);
         }
     }
 
@@ -160,10 +169,10 @@ figcaption {
     .figure--thin__caption {
         @include respond-to("large and above"){
             float: right;
-            @include rem(padding-left, $half-spacing-unit);
+            padding-left: rem-calc($half-spacing-unit);
             padding-right: 6%;
             width: 45%;
-            @include rem(max-width, 700);
+            max-width: rem-calc(700);
         }
     }
 
@@ -197,7 +206,7 @@ figcaption {
 
     .figure--wide__caption--light {
         @include respond-to("medium and above"){
-            @include rem(margin-top, -100);
+            margin-top: rem-calc(-100);
             margin-bottom: 0;
         }
     }

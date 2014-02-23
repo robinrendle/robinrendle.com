@@ -1,34 +1,39 @@
-@if $use-island == true{
+// ==========================================================================
+// ISLAND MODULE
+// ========================================================================== 
+//
+//
+//
+// Simple, boxed off content, as per: csswizardry.com/2011/10/the-island-object
+// E.g.:
+//
+//   <div class=island>
+//       I am boxed off.
+//   </div>
+//
+//
+.island,
+.islet{
+    @extend .cf;
+    display:block;
+}
 
-/*------------------------------------*\
-    $ISLAND
-\*------------------------------------*/
-/**
- * Simple, boxed off content, as per: csswizardry.com/2011/10/the-island-object
- * E.g.:
- *
-   <div class=island>
-       I am boxed off.
-   </div>
- *
- * Demo: jsfiddle.net/inuitcss/u8pV3
- *
- */
-    .island,
-    .islet{
-        @extend .cf;
-        display:block;
+.island {
+    border: 1px solid $color__secondary;
+    background-color: #f6f6f6;
+    padding: rem-calc($half-spacing-unit);
+
+    @include respond-to("medium and above") {
+        padding: rem-calc($half-spacing-unit * 1.5);
     }
 
-    .island {
-        border: 1px solid $color__secondary;
-        background-color: #fafafa;
-        @include rem(padding, $half-spacing-unit);
-
-        @include breakpoint($breakpoint__medium) {
-            @include rem(padding, $half-spacing-unit * 1.5);
-        }
+    // Clear spacing at the bottom of this module so that alignment
+    //  isn’t broken from the addition of padding.
+    
+    :last-child {
+        margin-bottom: 0;
     }
+}
 
     /**
      * Transparent island
@@ -36,9 +41,7 @@
     .islet {
         border-top: 1px solid $color__border--dark;
         border-bottom: 1px solid  $color__border--dark;
-
-        @include rem(padding, $half-spacing-unit, 0);
-
+        padding: rem-calc($half-spacing-unit, 0);
         *:last-child ul {
             margin-bottom:0;
         }
@@ -60,8 +63,8 @@
 
         h3 {
             border-bottom: 1px dotted darken($color__island, 10);
-            @include rem(padding-bottom, $half-spacing-unit / 2);
-            @include rem(margin-bottom, $half-spacing-unit / 1.5);
+            padding-bottom: rem-calc($half-spacing-unit / 2);
+            margin-bottom: rem-calc($half-spacing-unit / 1.5);
         }
 
         .footer & ul {
@@ -72,7 +75,7 @@
         ol {
             margin-top: 0;
 
-            @include breakpoint($breakpoint__grande){
+            @include respond-to("largest only"){
                 margin-left: 0;
             }
 
@@ -96,16 +99,16 @@
      */
 
     .island--hero {
-        @include rem(margin-bottom, $base-spacing-unit);
-        @include rem(padding-bottom, $half-spacing-unit);
+        margin-bottom: rem-calc($base-spacing-unit);
+        padding-bottom: rem-calc($half-spacing-unit);
 
         @include respond-to("medium and above"){
-            @include rem(padding-bottom, $base-spacing-unit);
-            @include rem(margin-bottom, $base-spacing-unit * 2);
+            margin-bottom: rem-calc($base-spacing-unit * 2);
+            padding-bottom: rem-calc($base-spacing-unit);
         }
     }
 
     .island--main {
-        @include rem(padding-top, $half-spacing-unit);        
+        padding-top: rem-calc($half-spacing-unit);
     }
-}//endif
+

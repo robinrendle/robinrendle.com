@@ -7,44 +7,6 @@
 
 
 
-/*------------------------------------*\
-    $BREAKPOINTS
-\*------------------------------------*/
-/**
- * Enter breakpoint variables here
- */
-
-$breakpoint-to-ems: true;
-
-$breakpoint__small: 480px;
-$breakpoint__medium: 580px;
-$breakpoint__grande: 730px;
-$breakpoint__large: 61.9375em;
-$breakpoint__widescreen: 109.375em;
-
-
-/**
- * 1.1 Sizes & Breakpoints
- */
-
-$width__small: 480px;
-$width__medium: 580px;
-$width__large: 730px;
-$width__largest: 950px;
-
-$no-queries: 'no-query' true;
-
-$breakpoints: 'below small' (max-width $width__small - 1px, $no-queries),
-              'small and above' ($width__small, $no-queries),
-              'below medium' (max-width $width__medium - 1px, $no-queries),
-              'medium and above' ($width__medium, $no-queries),
-              'below large' (max-width $width__large - 1px, $no-queries),
-              'large and above' ($width__large, $no-queries),
-              'largest only' ($width__largest, $no-queries),
-              'high resolution' (min-resolution 1.5dppx),
-              'landscape' (orientation landscape),
-              'portrait' (orientation portrait);
-
 
 /*------------------------------------*\
     $BASE
@@ -101,7 +63,6 @@ $english-quotes:    true!default;
 /**
  * Which objects and abstractions would you like to use?
  */
-$use-beautons:      true!default;
 $use-block-list:    true!default;
 $use-item-list:     true!default;
 $use-grids:         true!default;

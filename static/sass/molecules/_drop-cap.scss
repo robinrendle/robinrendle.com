@@ -1,10 +1,9 @@
-/*------------------------------------*\
-    $DROP-CAP
-\*------------------------------------*/
-/**
- *
- * Adds a drop cap to the first letter.
- */
+// ==========================================================================
+// DROP CAP
+// ========================================================================== 
+//
+// Adds a drop cap to the first letter of a paragraph.
+//
 
 .drop-cap {
     &:first-letter {
@@ -12,13 +11,13 @@
             font-family: 'Whitney A', 'Whitney B', Georgia, serif;
             font-weight: $font-weight--medium;
             font-style: normal;
-            @include rem(font-size, 116);
+            font-size: rem-calc(116);
             line-height: .7;
             float: left;
-            @include rem(margin-top, 9);
-            @include rem(margin-bottom, -20);
-            @include rem(margin-right, 5);
-            @include rem(margin-left, -7);
+            margin-top: rem-calc(9);
+            margin-bottom: rem-calc(-20);
+            margin-right: rem-calc(5);
+            margin-left: rem-calc(-7);
             color: $color__blue--light;
         }
     }

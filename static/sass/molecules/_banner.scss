@@ -1,28 +1,26 @@
-/*------------------------------------*\
-    $BANNER
-\*------------------------------------*/
-/**
- *
- * The top banner of the website – the intro with navigational items.
- * 
- */
+// ==========================================================================
+// BANNER MODULE
+// ========================================================================== 
+//
+// The top banner of the website – the intro with navigational items.
+// 
 
 
 .banner {
     @extend .cf;
     background-color: $color__darkgrey;
-    @include rem(margin-bottom, $base-spacing-unit*1.2);
-    @include rem(padding, $half-spacing-unit * 1.3, 0);
+    margin-bottom: rem-calc($base-spacing-unit*1.2);
+    padding: rem-calc($half-spacing-unit * 1.3, 0);
     z-index: 1;
     width: 100%;
 
     @include respond-to("small and above"){    
-        @include rem(margin-bottom, $base-spacing-unit * 1.5);
+        margin-bottom: rem-calc($base-spacing-unit * 1.5);
     }
 
     @include respond-to("medium and above"){
         padding: 0;
-        @include rem(margin-bottom, $base-spacing-unit * 2);
+        margin-bottom: rem-calc($base-spacing-unit * 2);
     }
 }
 
@@ -38,35 +36,35 @@
     /* The first title on each page */ 
     .banner__headline {
         @extend .cf;
-        @include rem(font-size, 18);
+        font-size: rem-calc(18);
         text-transform: uppercase;
         margin-bottom: 0;
         text-align: left;
         line-height: 1;
         float: left;
         width: 50%;
-        @include rem(min-width, 150);
+        min-width: rem-calc(150);
 
 
         @include respond-to("medium and above"){
             text-align: center;
-            @include rem(width, 150);
+            width: rem-calc(150);
             margin-bottom: 0;
-            @include rem(font-size, 20);
+            font-size: rem-calc(20);
         }
 
         > a {
             text-align: left;
             color: $color__white;
 
-            /* Make sure that the logo text never breaks onto two lines */
-            @include rem(min-width, 175);
+            // Make sure that the logo text never breaks onto two lines
+            min-width: rem-calc(175);
 
             @include respond-to("medium and above"){
                 color: darken($color__white, 10);
                 background-color: #777;
                 background-color: rgba(0,0,0,0.13);
-                @include rem(padding, $half-spacing-unit * 1.3, $half-spacing-unit / 1.5, ($half-spacing-unit * 1.2), $half-spacing-unit / 1.5);
+                padding: rem-calc($half-spacing-unit * 1.3, $half-spacing-unit / 1.5, ($half-spacing-unit * 1.2), $half-spacing-unit / 1.5);
                 float: left;
                 margin-bottom: 0;
                 text-align: center;
@@ -89,7 +87,7 @@
     .banner__nav {
         text-align: center;
         margin: 0;
-        @include rem(margin-top, $half-spacing-unit);
+        margin-top: rem-calc($half-spacing-unit);
         width: 100%;
         line-height: 1;
         padding: 0;
@@ -100,7 +98,7 @@
             float: right;
             width: auto;
             margin-top: 0;
-            @include rem(padding, $half-spacing-unit * 1.3, 0);
+            padding: rem-calc($half-spacing-unit * 1.3, 0);
         }
 
         .js & {
@@ -135,7 +133,7 @@
             @include respond-to("medium and above"){
                 display: inline-block;
                 width: auto;
-                @include rem(margin-left, $base-spacing-unit / 1.2);
+                margin-left: rem-calc($base-spacing-unit / 1.2);
             }
 
             a {
@@ -144,7 +142,7 @@
                 border-bottom: 1px solid rgba(255,255,255, .07);
                 background-color: darken($color__white, 40);
                 background-color: rgba(255,255,255,.04);
-                @include rem(padding, $half-spacing-unit);
+                padding:rem-calc($half-spacing-unit);
                 width: 100%;
 
                 @include respond-to("medium and above"){

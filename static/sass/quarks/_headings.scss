@@ -1,57 +1,59 @@
-/*------------------------------------*\
-    $HEADINGS
-\*------------------------------------*/
-/**
- *
- * When we define a heading we also define a corresponding class to go with it.
- * This allows us to apply, say, `class=h1` to a `h3`; a double-stranded
- * heading hierarchy.
- */
+// ==========================================================================
+// HEADINGS
+// ========================================================================== 
+//
+// When we define a heading we also define a corresponding class to go with it.
+// This allows us to apply, say, `class=h1` to a `h3`; a double-stranded
+// heading hierarchy.
+// 
+// ! This module needs to be refactored immediately. 
+//
+
 
 @mixin headline-one {
     @extend %font__headline;
-    @include rem(font-size, $h1-size);
-    color:$color__lightblack;
-    line-height:1.15;
+    font-size: rem-calc($h1-size);
+    color: $color__lightblack;
+    line-height: 1.15;
 
-    @include breakpoint($breakpoint__medium) {
-        @include rem(font-size, ($h1-size + 10));
+    @include respond-to("medium and above") {
+        font-size: rem-calc(($h1-size + 10));
     }
 }
 
 @mixin headline-two {
     @extend %font__text--display;
-    @include rem(font-size, $h2-size);
-    @include rem(margin-top, $base-spacing-unit * 1.5);
-    @include rem(margin-bottom, $base-spacing-unit);
+    font-size: rem-calc($h2-size);
+    margin-top: rem-calc($base-spacing-unit * 1.5);
+    margin-bottom: rem-calc($base-spacing-unit);
     line-height:1.2;
     color: $color__lightblack;
 
     @include respond-to("medium and above") {
         line-height:1.25;
-        @include rem(font-size, 30);
+        font-size: rem-calc(30);
     }
 }
 
 @mixin headline-three {
     @extend %font__text;
-    @include rem(font-size, 18);
-    @include rem(margin-top, $base-spacing-unit * 1.5);
-    @include rem(margin-bottom, $half-spacing-unit);
+    font-size: rem-calc(18);
+    margin-top: rem-calc($base-spacing-unit * 1.5);
+    margin-bottom: rem-calc($half-spacing-unit);
     font-weight: $font-weight--bold;
     color: $color__lightblack;
-    @include rem(line-height, 28);
+    line-height: rem-calc(28);
 
     @include respond-to("medium and above"){
-        @include rem(font-size, 20);
-        @include rem(line-height, 32);
+        font-size: rem-calc(20);
+        line-height: rem-calc(32);
     }
 }
 
 @mixin headline-four {
     @extend %font__text--display;
-    @include rem(font-size, $epsilon-size);
-    @include rem(line-height, 28);
+    font-size: rem-calc($epsilon-size);
+    line-height: rem-calc(28);
     margin-bottom: 0;
     text-transform: uppercase;
     color: $color__meta;
@@ -61,49 +63,49 @@
 
 @mixin headline-five {
     @extend %font__text--sub;
-    @include rem(font-size, $delta-size + 3);
     font-style: italic;
-    @include rem(line-height, 28);
-    @include rem(margin-top, $half-spacing-unit);
-    @include rem(margin-bottom, $half-spacing-unit);
+    font-size: rem-calc($delta-size + 3);
+    line-height: rem-calc(28);
+    margin-top: rem-calc( $half-spacing-unit);
+    margin-bottom: rem-calc( $half-spacing-unit);
     color:$color__lightblack;
 
     @include respond-to("medium and above"){
-        @include rem(font-size, $delta-size + 4);
+        font-size: rem-calc($delta-size + 4);
     }
 }
 
 @mixin text {
     @extend %font__text;
-    @include rem(font-size, $base-font-size);
-    line-height: $base-line-height;
+    font-size: rem-calc($base-font-size);
+    line-height: rem-calc($base-line-height);
 }
 
 @mixin text--micro {
     @extend %font__text--sub;
-    @include rem(font-size, 19);
+    font-size:rem-calc(19);
 
     @include respond-to("medium and above"){
-        @include rem(font-size, 20);
+        font-size:rem-calc(20);
     }
 
     @include respond-to("large and above"){
-        @include rem(font-size, 21);
+        font-size:rem-calc(21);
     }
 }
 
 @mixin text--small {
     @extend %font__text--sub;
-    @include rem(font-size, $delta-size);
-    @include rem(line-height, 27);
+    font-size:rem-calc($delta-size);
+    line-height:rem-calc(27);
 
     @include respond-to("medium and above"){
-        @include rem(font-size, 18);
-        @include rem(line-height, 31);
+        font-size:rem-calc(18);
+        line-height: rem-calc(31);
     }
 
     @include respond-to("large and above"){
-        @include rem(font-size, 19);
+        font-size: rem-calc(19);
     }
 }
 
@@ -146,8 +148,8 @@ h4, .h4 {
      */
     .is--editor__content > & {
         border-bottom: 1px solid $color__border--dark;
-        @include rem(padding-bottom, 5);
-        @include rem(margin-bottom, 7);
+        padding-bottom:rem-calc(5);
+        margin-bottom: rem-calc(7);
     }
 
     .reversed.is--editor__content > & { 

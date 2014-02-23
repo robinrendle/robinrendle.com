@@ -1,10 +1,11 @@
-/*------------------------------------*\
-    $MICRO
-\*------------------------------------*/
-/**
-* Micro typographic styles
-*
-**/
+// ==========================================================================
+// MICRO
+// ========================================================================== 
+
+
+//
+// Micro typographic styles
+// 
 
 em, i, cite, figcaption {
     font-style:italic;
@@ -95,9 +96,9 @@ hr {
     color: #ccc;
     font-size: 1.3em;
     text-align: center;
-    @include rem(margin-top, $base-spacing-unit);
-    @include rem(margin-bottom, $base-spacing-unit);
-    @include rem(height, $base-spacing-unit);
+    margin-top: rem-calc($base-spacing-unit);
+    margin-bottom: rem-calc($base-spacing-unit);
+    height: rem-calc($base-spacing-unit);
 
     &:after {
         content:"* * *";

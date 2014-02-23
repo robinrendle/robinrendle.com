@@ -1,59 +1,58 @@
-@if $use-grids == true{
+// ==========================================================================
+// GRIDS
+// ========================================================================== 
+//
+// Grid system coming soon! I can get away with a single column design for now (12 June 2013)
+// 
+// 
 
-/*------------------------------------*\
-    $GRIDS
-\*------------------------------------*/
-/**
-* Grid system coming soon! I can get away with a single column design for now (12 June 2013)
-**/
-    %main_column{
-        width:90%;
-        max-width:33em;
-        margin:0 auto;
+%main_column{
+    width:90%;
+    max-width:33em;
+    margin:0 auto;
 
-        @include breakpoint($breakpoint__medium) {
-            width:85%;
-        }
+    @include respond-to("medium and above") {
+        width:85%;
+    }
+}
+
+.container--standard {
+    width:90%;
+    max-width:31.5em;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond-to("medium and above") {
+        max-width: rem-calc(600);
+        padding: rem-calc(0, $base-spacing-unit)
     }
 
-    .container--standard {
-        width:90%;
-        max-width:31.5em;
-        margin-left: auto;
-        margin-right: auto;
+    @include respond-to("large and above"){
+        padding: 0;
+        max-width: rem-calc(730);
+    }
+}
 
-        @include respond-to("medium and above") {
-            @include rem(max-width, 600);
-            @include rem(padding, 0, $base-spacing-unit);
+.container {
+    @extend .container--standard;
+}
+
+.columns--two {
+    @include respond-to("large and above"){
+        li {
+            line-height: 1.45;
         }
 
-        @include respond-to("large and above"){
-            padding: 0;
-            @include rem(max-width, 730);
+        &>:first-child {
+            float: left;
+            width: 45%;
+            margin-right: 5%;
+        }
+
+        &>:last-child {
+            float: right;
+            width: 45%;
         }
     }
+}
 
-    .container {
-        @extend .container--standard;
-    }
-
-    .columns--two {
-        @include respond-to("large and above"){
-            li {
-                line-height: 1.45;
-            }
-
-            &>:first-child {
-                float: left;
-                width: 45%;
-                margin-right: 5%;
-            }
-
-            &>:last-child {
-                float: right;
-                width: 45%;
-            }
-        }
-    }
-
-}//endif

@@ -1,11 +1,14 @@
-/*------------------------------------*\
-    $LISTS
-\*------------------------------------*/
-/**
- * Remove vertical spacing from nested lists.
- */
+// ==========================================================================
+// LISTS
+// ========================================================================== 
+
+
+
+//
+// Remove vertical spacing from nested lists.
+//
 li {
-    @include rem(margin-bottom, $quarter-spacing-unit);
+    margin-bottom: rem-calc($quarter-spacing-unit);
 
     > ul,
     > ol{
@@ -13,10 +16,10 @@ li {
     }
 
     > p {
-        @include rem(margin-bottom, $half-spacing-unit);
-        @include rem(font-size, $base-font-size);
+        margin-bottom: rem-calc($half-spacing-unit);
+        font-size: rem-calc($base-font-size);
 
-        @include breakpoint(580px) {
+        @include respond-to("medium and above") {
             font-size: 105%;
             line-height: $line-height-ratio - .1;
         }
@@ -27,7 +30,7 @@ p + ul,
 p + ol,
 ol + p,
 ul + p {
-    @include rem(margin-top, - $half-spacing-unit);
+    margin-top: rem-calc(- $half-spacing-unit);
 }
 
 ul {
@@ -36,27 +39,27 @@ ul {
         position:relative;
 
         &:before {
-            @include rem(left, - 15);
-            @include rem(height, 6);
-            @include rem(width, 6);
-            @include rem(top, 11);
+            position: absolute;
+            left: rem-calc(- 15);
+            height: rem-calc(6);
+            width: rem-calc(6);
+            top: rem-calc(11);
             border-radius: 50%;
             content:"";
             background-color: $color__red--primary;
             padding: 0;
             margin: 0;
-            position: absolute;
 
             @include respond-to("medium and above"){
-                @include rem(top, 14);
+                top: rem-calc(14);
             }
         }
     }
 
     ul,ol {
-        @include rem(margin-top, 0);
-        @include rem(margin-bottom, 0);
-        @include rem(margin-left, $base-spacing-unit);
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: rem-calc($base-spacing-unit);
 
         >li {
             &:before {
@@ -72,14 +75,14 @@ ol {
     }
 
     ol,ul {
-        @include rem(margin-top, $quarter-spacing-unit);
-        @include rem(margin-bottom, $quarter-spacing-unit);
-        @include rem(margin-left, $base-spacing-unit);
+        margin-top: rem-calc($quarter-spacing-unit);
+        margin-bottom: rem-calc($quarter-spacing-unit);
+        margin-left: rem-calc($base-spacing-unit);
     }
 }
 
 .list--outside {
-    @include rem(margin-left, 0);
+    margin-left: 0;
 }
 
 .list--display {
@@ -88,7 +91,10 @@ ol {
     @include column-count(2);
 
     @include respond-to("medium and above"){
-        @include rem(margin, $base-spacing-unit * 2, 0);
+        margin-top: rem-calc($base-spacing-unit * 2);
+        margin-bottom: rem-calc($base-spacing-unit * 2);
+        margin-left: 0;
+        margin-right: 0;
         @include column-count(3);
     }
 

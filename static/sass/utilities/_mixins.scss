@@ -1,59 +1,6 @@
 /*------------------------------------*\
     $MIXINS
 \*------------------------------------*/
-/**
- * Create a fully formed type style (sizing and vertical rhythm) by passing in a
- * single value, e.g.:
- *
-   `@include font-size(10px);`
- *
- * Thanks to @redclov3r for the `line-height` Sass:
- * twitter.com/redclov3r/status/250301539321798657
- */
-@mixin font-size($font-size, $line-height:true){
-    @include rem(font-size, $font-size);
-    @if $line-height == true{
-        line-height:ceil($font-size / $base-line-height) * ($base-line-height / $font-size);
-    }
-}
-
-
-@function calc-rem($target, $context: $base-font-size) {
-     @return ($target / $context) * 1rem;
-}
-
-/**
- * Calculate rems. $target = pixel size. $context = base pixel size
- */
-$rem-ratio: $base-font-size / 16;
-
-
-@mixin rem($selector, $sizes...) {
-    $pxValues: '';
-    $remValues: '';
-    $max: length($sizes);
-
-    @for $i from 1 through $max {
-        $pxValues: #{$pxValues + nth($sizes, $i)}px;
-
-        @if $i < $max {
-            $pxValues: #{$pxValues + " "};
-        }
-    }
-
-    @for $i from 1 through $max {
-        $remValues: #{$remValues + calc-rem(nth($sizes, $i))};
-
-        @if $i < $max {
-            $remValues: #{$remValues + " "};
-        }
-    }
-
-    #{$selector}: $pxValues;
-    #{$selector}: $remValues;
-}
-
-
 
 /**
 * Using the Kellum method to hide text from an element and serving it as a placeholder.

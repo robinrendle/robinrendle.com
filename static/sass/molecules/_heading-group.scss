@@ -1,10 +1,9 @@
-/*------------------------------------*\
-    $HEADING-GROUP
-\*------------------------------------*/
-/**
- *
- * These styles define the layout and stlyes of the main heading: ie. the title of a blog post
- */
+// ==========================================================================
+// HEADING GROUP
+// ========================================================================== 
+//
+// These styles define the layout and stlyes of the main heading: ie. the title of a blog post
+//
 
 
 
@@ -12,7 +11,7 @@
 .heading-group {
     width:100%;
     margin-top:0;
-    margin-bottom:2em;
+    margin-bottom: rem-calc($base-spacing-unit * 2);
 
     &.hero {
         margin-top:0;
@@ -41,17 +40,12 @@
 }
 
 .heading-group--hero {
-    @include rem(padding-top, 50);
+    padding-top: rem-calc(50);
 
     @include respond-to("medium and above"){
-        @include rem(padding-top, 80);
-        @include rem(margin-bottom, $base-spacing-unit * 2);
+        padding-top: rem-calc(80);
+        margin-bottom: rem-calc($base-spacing-unit * 2);
     }
 }
 
 
-
-
-.heading-group--home {
-    @include rem(margin-bottom, $base-spacing-unit * 1.5);
-}

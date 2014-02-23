@@ -1,40 +1,13 @@
-/*------------------------------------*\
-    $CUSTOM POST STYLES
-\*------------------------------------*/
+// ==========================================================================
+// CUSTOM POST STYLES
+// ========================================================================== 
+// 
+// CONTENTS
+// 1. Counterpunch
+// 2. A visual lexicon 
+// 
 
 
-// 1. BOOKMARKING
-// 2. ABOUT
-// 3. COUNTERPUNCH
-// 4. A VISUAL LEXICON
-
-
-// @start BOOKMARKING -------------------- //
-section[role="main"] header {
-    &.bookmarking {
-        position:relative;
-
-        .meta {
-            margin-top:-.3em;
-        }
-
-        @include breakpoint($breakpoint__grande){
-
-            .meta {
-                margin-top:-.2em;
-                padding-bottom:.1em;
-            }
-        }
-    }
-}
-
-figure {
-    @include breakpoint($breakpoint__grande){
-        &.hero.bookmark {
-            max-height:30em;
-        }
-    }
-}
 
 // @start COUNTERPUNCH -------------------- //
 
@@ -50,13 +23,13 @@ figure {
 // @start A VISUAL LEXICON -------------------- //
 .custom-post--lexicon {
     .heading-group {
-        @include rem(padding-top, $base-spacing-unit);
-        @include rem(padding-bottom, $base-spacing-unit);
-        @include rem(margin-bottom, $base-spacing-unit);
+        padding-top: rem-calc($base-spacing-unit);
+        padding-bottom: rem-calc($base-spacing-unit);
+        margin-bottom: rem-calc($base-spacing-unit);
         background-color: $color__metal-grey;
 
         @include respond-to("medium and above"){
-            @include rem(margin-bottom, $base-spacing-unit * 2);
+            margin-bottom: rem-calc($base-spacing-unit * 2);
         }
 
         h1 {
@@ -66,15 +39,15 @@ figure {
                 content: "";
                 display: block;
                 margin: 0 auto;
-                @include rem(margin-top, $half-spacing-unit * 1.2);
-                @include rem(margin-bottom, $base-spacing-unit);
+                margin-top: rem-calc($half-spacing-unit * 1.2);
+                margin-bottom: rem-calc($base-spacing-unit);
                 background-color: $color__blue--light;
-                @include rem(height, 2);
-                @include rem(width, 150);
+                height: rem-calc(2);
+                width: rem-calc(150);
             }
 
             @include respond-to("medium and above"){
-                @include rem(font-size, 65);
+                font-size: rem-calc(65);
             }
         }
 
@@ -118,7 +91,7 @@ figure {
         }
 
         blockquote > p {
-            padding-left: $half-spacing-unit;
+            padding-left: rem-calc($half-spacing-unit);
         }
     }
 
@@ -132,7 +105,7 @@ figure {
         color: $color__grey--mid;
 
         @include respond-to("medium and above"){
-            @include rem(font-size, 20);
+            font-size: rem-calc(20);
         }
     }
 }
@@ -140,7 +113,7 @@ figure {
 
 .custom-post--lexicon__hero {
     margin-bottom: 0;
-    @include rem(padding, $base-spacing-unit);
+    padding: rem-calc($base-spacing-unit);
 }
 
 .custom-post--lexicon__hero--reverse {
@@ -148,6 +121,7 @@ figure {
     padding-bottom: 0;
     padding-right: 0;
 
+    // Reverse eye image in the footer.
     > img {
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
