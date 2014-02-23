@@ -3,12 +3,13 @@
 // ========================================================================== 
 // 
 // This module styles the body and html elements
+// 
 
 
 
-
-
-* { @include box-sizing('border-box'); }
+* { 
+    @include box-sizing('border-box'); 
+}
 
 html{
     overflow-y:scroll;
@@ -26,9 +27,7 @@ body {
     width:100%;
     font-size: 100%;
 
-    /**
-     * Sticky footer with flexbox hack.
-     */
+    // Sticky footer with flexbox hack.
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -38,12 +37,11 @@ body {
         line-height: $line-height-ratio;
     }
 
-    @include breakpoint(580px) {
-        font-size: 105%;
-        line-height: $line-height-ratio - .1;
-    }
 
     @include respond-to("medium and above"){
+        font-size: 105%;
+        line-height: $line-height-ratio - .1;
+
         &:after {
             display: none;
             content: "breakpoint--medium";

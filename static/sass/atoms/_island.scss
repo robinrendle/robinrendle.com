@@ -41,9 +41,18 @@
     .islet {
         border-top: 1px solid $color__border--dark;
         border-bottom: 1px solid  $color__border--dark;
-        padding: rem-calc($half-spacing-unit, 0);
+        padding: rem-calc($half-spacing-unit);
+        padding-right: 0;
+        padding-left: 0;
+
         *:last-child ul {
             margin-bottom:0;
+        }
+
+        @include respond-to("large and above") {
+            ul {
+                margin-bottom: 0;
+            }
         }
     }
 
@@ -94,9 +103,9 @@
     }
 
 
-    /**
-     * Background for the image / header combo on the /work detail pages
-     */
+//
+// Background for the image / header combo on the /work detail pages
+//
 
     .island--hero {
         margin-bottom: rem-calc($base-spacing-unit);

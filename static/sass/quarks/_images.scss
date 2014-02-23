@@ -1,12 +1,7 @@
-/*------------------------------------*\
-    $IMAGES
-\*------------------------------------*/
-/**
- * Demo: jsfiddle.net/inuitcss/yMtur
- */
-/**
- * Fluid images.
- */
+// ==========================================================================
+// IMAGES
+// ========================================================================== 
+
 img{
     max-width: 100%;
     height: auto;
@@ -27,27 +22,9 @@ p > strong img {
     }
 }
 
-/**
- * Image placement variations.
- */
-.img--right{
-    float:right;
-    margin-bottom:$base-spacing-unit;
-    margin-left:$base-spacing-unit;
+p > img {
+    margin-bottom: rem-calc($base-spacing-unit);
 }
-.img--left{
-    float:left;
-    margin-right:$base-spacing-unit;
-    margin-bottom:$base-spacing-unit;
-}
-.img--center{
-    display:block;
-    margin-right:auto;
-    margin-bottom:$base-spacing-unit;
-    margin-left:auto;
-}
-
-
 
 /**
  * Images in `figure` elements.

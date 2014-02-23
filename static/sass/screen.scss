@@ -24,17 +24,20 @@
 
 @import "config/config";
 
+@import "tools/tools";
+
 
 
 // UTILITIES : refactor this into /config and /tools directories
+
 @import "defaults";
-@import "utilities/normalize";
 @import "utilities/reset";
+@import "utilities/base-spacing";
+@import "utilities/normalize";
 @import "utilities/clearfix";
 @import "utilities/font-stack";
 @import "utilities/helper";
 @import "utilities/mixins";
-@import "utilities/base-spacing";
 @import "utilities/animations/appear-down";
 
 // QUARKS

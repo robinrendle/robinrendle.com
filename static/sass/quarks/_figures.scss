@@ -6,6 +6,7 @@
 
 
 figure {
+    margin-bottom: rem-calc($base-spacing-unit);
     img + img {
         margin-top:1em;
     }

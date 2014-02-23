@@ -26,7 +26,8 @@
 //
 //
 
-@function rem-calc($target, $context: $base-font-size) {
+
+@function rem-calc($target, $context: 17) {
 
     // Export REM value of $target depending on base-font-size
     $value: ($target / $context) * 1rem;

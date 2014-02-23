@@ -8,9 +8,11 @@
 
 .banner {
     @extend .cf;
-    background-color: $color__darkgrey;
+    background-color: #CCCCCC;
     margin-bottom: rem-calc($base-spacing-unit*1.2);
-    padding: rem-calc($half-spacing-unit * 1.3, 0);
+    padding: rem-calc($half-spacing-unit * 1.3);
+    padding-left: 0;
+    padding-right: 0;
     z-index: 1;
     width: 100%;
 
@@ -38,6 +40,7 @@
         @extend .cf;
         font-size: rem-calc(18);
         text-transform: uppercase;
+        margin-top: 0;
         margin-bottom: 0;
         text-align: left;
         line-height: 1;
@@ -56,15 +59,17 @@
         > a {
             text-align: left;
             color: $color__white;
+            background-color: #777;
+            background-color: rgba(0,0,0,0.1);
+            padding-top: rem-calc($half-spacing-unit * 1.3);
+            padding-right:rem-calc($half-spacing-unit / 1.5);
+            padding-bottom: rem-calc($half-spacing-unit * 1.2);
+            padding-left: rem-calc($half-spacing-unit / 1.5);
 
             // Make sure that the logo text never breaks onto two lines
             min-width: rem-calc(175);
 
             @include respond-to("medium and above"){
-                color: darken($color__white, 10);
-                background-color: #777;
-                background-color: rgba(0,0,0,0.13);
-                padding: rem-calc($half-spacing-unit * 1.3, $half-spacing-unit / 1.5, ($half-spacing-unit * 1.2), $half-spacing-unit / 1.5);
                 float: left;
                 margin-bottom: 0;
                 text-align: center;
@@ -74,23 +79,24 @@
             &:focus {
                 @include respond-to("medium and above"){
                     background-color: darken(#CE7E7E, 10);
-                    background-color: rgba(0,0,0,.2);
+                    background-color: rgba(0,0,0,.3);
+                    color: darken(#ffffff, 10);
                 }
             }
         }
     }
 
-    /**
-     * The main banner navigation.
-     */
 
+//
+// The main navigation in the banner
+//
     .banner__nav {
         text-align: center;
         margin: 0;
-        margin-top: rem-calc($half-spacing-unit);
+        margin-top: rem-calc($base-spacing-unit);
+        padding: 0;
         width: 100%;
         line-height: 1;
-        padding: 0;
         float: left;
 
         @include respond-to("medium and above"){
@@ -98,7 +104,9 @@
             float: right;
             width: auto;
             margin-top: 0;
-            padding: rem-calc($half-spacing-unit * 1.3, 0);
+            padding: 0;
+            padding-top: rem-calc($half-spacing-unit * 1.3);
+            padding-bottom: rem-calc($half-spacing-unit * 1.3);
         }
 
         .js & {
@@ -138,12 +146,12 @@
 
             a {
                 float: left;
-                border-bottom: darken($color__white, 20);
-                border-bottom: 1px solid rgba(255,255,255, .07);
+                border-bottom: 1px solid rgba(255,255,255, .3);
                 background-color: darken($color__white, 40);
-                background-color: rgba(255,255,255,.04);
+                background-color: rgba(0,0,0,.05);
                 padding:rem-calc($half-spacing-unit);
                 width: 100%;
+                color: #FFFFFF;
 
                 @include respond-to("medium and above"){
                     background-color: transparent;
@@ -157,7 +165,7 @@
                 &:focus {
                     border-bottom: 1px solid rgba(255,255,255, .1);
                     background-color: rgba(0,0,0, .09);
-                    color: darken($color__white, 30);
+                    color: darken($color__white, 50);
 
                     @include respond-to("medium and above"){
                         background-color: transparent;

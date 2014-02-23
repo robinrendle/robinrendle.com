@@ -1,9 +1,9 @@
-/*------------------------------------*\
-    $DEFAULTS
-\*------------------------------------*/
-/**
- * Quickly set your default variables
- */
+// ==========================================================================
+// DEFAULTS
+// ========================================================================== 
+//
+// Quickly set your default variables
+// 
 
 
 
@@ -31,8 +31,9 @@ $h4-size: 17!default;
 $micro-size: 16!default;
 $milli-size: 15!default;
 
-$base-font-size: 17!default;
-$base-line-height: 31!default;
+$base-font-size: 17;
+$base-line-height: 31;
+$line-height-ratio: $base-line-height / $base-font-size;
 
 
 /**
@@ -76,15 +77,6 @@ $use-sprite:        true!default;
 
 
 
-/*------------------------------------*\
-    $FRAMEWORK
-\*------------------------------------*/
-/**
- * inuit.css will work these next ones out for use within the framework.
- *
- * Assign our `$base-line-height` to a new spacing var for more transparency.
- */
-$base-spacing-unit: $base-line-height!default;
-$half-spacing-unit: $base-spacing-unit / 2!default;
-$quarter-spacing-unit: $half-spacing-unit / 2!default;
-$line-height-ratio: $base-line-height / $base-font-size;
+
+
+
