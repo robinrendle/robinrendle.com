@@ -6,7 +6,7 @@
 // 
 
 .footer {
-    background-color: #f6f6f6;
+    background-color: $color__green;
     border-top: 1px solid $color__secondary;
     width:100%;
     @extend .cf;

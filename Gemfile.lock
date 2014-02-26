@@ -18,12 +18,23 @@ GEM
       sass (>= 3.3.rc.3)
     compass-import-once (1.0.2)
     ffi (1.9.3)
+    httmultiparty (0.3.12)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
     json (1.8.1)
     listen (1.1.6)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
+    mimemagic (0.2.1)
     multi_json (1.8.4)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    rack (1.5.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
@@ -33,6 +44,10 @@ GEM
     sassy-maps (0.3.1)
       compass (~> 1.0.0.alpha.13)
       sass (~> 3.3.0.rc.2)
+    siteleaf (0.9.19)
+      httmultiparty
+      httparty (<= 0.11)
+      rack
 
 PLATFORMS
   ruby
@@ -41,3 +56,4 @@ DEPENDENCIES
   breakpoint (~> 2.4.1)
   compass (~> 1.0.0.alpha.17)
   sass (~> 3.3.0.rc.2)
+  siteleaf (~> 0.9.10)

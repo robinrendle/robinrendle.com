@@ -84,9 +84,11 @@
 @mixin text--micro {
     @extend %font__text--sub;
     font-size:rem-calc(19);
+    line-height: 1.5;
 
     @include respond-to("medium and above"){
         font-size:rem-calc(20);
+        line-height: 1.6;
     }
 
     @include respond-to("large and above"){

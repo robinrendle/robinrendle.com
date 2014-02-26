@@ -20,8 +20,6 @@
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
     <!-- Modernizr -->
     <script src="/static/js/modernizr-2.5.3-min.js"></script>
-    <!-- Adaptive images -->
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
 </head>
 
 <body>
@@ -45,16 +43,17 @@
     <section role="main">
         <div class="container">
             <div class="article-list">
-                {% if site.pages.about.meta.Image %}
-                    <figure>
-                        <img src="{{site.pages.about.meta.Image.value}}"/>
-                    </figure>
-                {% endif %}
 
                 <div class="article-list__title
                     is--editor__content">
                     <h4>About me</h4>
                 </div>
+
+                {% if site.pages.about.meta.Image %}
+                    <figure>
+                        <img src="{{site.pages.about.meta.Image.value}}"/>
+                    </figure>
+                {% endif %}
 
                 {{site.pages.about.meta.Extract | markdown:true}}
             </div>
@@ -114,5 +113,5 @@
             {% endfor %}
         </div>
 
-    {% include 'components/footer--social' %}
+    {% include 'components/footer' %}
 

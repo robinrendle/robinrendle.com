@@ -49,6 +49,8 @@ body {
     }
 
     @include respond-to("large and above") {
+        border-left: 10px solid #ddd;
+        border-right: 10px solid #ddd;
         font-size: 110%;
         line-height: $line-height-ratio;
     }

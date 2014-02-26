@@ -19,8 +19,8 @@
 }
 
 .island {
-    border: 1px solid $color__secondary;
-    background-color: #f6f6f6;
+    border: 1px solid darken($color__secondary, 3);
+    background-color: #F7F7F7;
     padding: rem-calc($half-spacing-unit);
 
     @include respond-to("medium and above") {

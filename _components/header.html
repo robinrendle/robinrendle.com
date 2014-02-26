@@ -24,13 +24,11 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
-    <!-- Adaptive images -->
-    <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
     <!-- Modernizr -->
     <script src="/static/js/modernizr-2.5.3-min.js"></script>
 </head>
 
-<body>
+<body class="{{parent.meta.bodyclass}}">
     <header class="banner" role="banner">
         <div class="container--standard">
             <h1 class="banner__headline">
@@ -38,11 +36,11 @@
             </h1>
 
             <nav>
-                <a class="banner__nav__menu links--reversed" id="mobile-menu" href="#">Menu</a>
+                <a class="banner__nav__menu" id="mobile-menu" href="#">Menu</a>
                 <ul class="banner__nav">
-                    <li><a class="links--reversed" href="/about">About</a></li>
-                    <li><a class="links--reversed" href="/notes">Notes</a></li>
-                    <li><a class="links--reversed" href="/essays">Essays</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/notes">Notes</a></li>
+                    <li><a href="/essays">Essays</a></li>
                 </ul>
             </nav>
         </div><!-- //.container -->
