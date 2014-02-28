@@ -23,7 +23,7 @@
 // Pull hero so that the banner overlaps it.
 //
 .hero--nudge {
-    margin-top: rem-calc(- $base-spacing-unit * 1.9);
+    margin-top: rem-calc(- 38);
     margin-right: 0;
     margin-bottom: rem-calc($base-spacing-unit);
     margin-left: 0;
@@ -35,7 +35,7 @@
 
 
     @include respond-to("medium and above"){
-        margin-top: rem-calc(- $base-spacing-unit * 2);
-        max-height: 26em;
+        margin-top: rem-calc(- 63);
+        max-height: rem-calc(600);
     }
 }
