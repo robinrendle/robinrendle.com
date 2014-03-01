@@ -38,31 +38,18 @@
 .weight--semibold   { font-weight:600!important; }
 
 
-/**
- * Add/remove margins
- */
-.push           { margin:       $base-spacing-unit!important; }
-.push--top      { margin-top:   $base-spacing-unit!important; }
-.push--right    { margin-right: $base-spacing-unit!important; }
-.push--bottom   { margin-bottom:$base-spacing-unit!important; }
-.push--left     { margin-left:  $base-spacing-unit!important; }
-.push--ends     { margin-top:   $base-spacing-unit!important; margin-bottom:$base-spacing-unit!important; }
-.push--sides    { margin-right: $base-spacing-unit!important; margin-left:  $base-spacing-unit!important; }
-
-.push-half          { margin:       $half-spacing-unit!important; }
-.push-half--top     { margin-top:   $half-spacing-unit!important; }
-.push-half--right   { margin-right: $half-spacing-unit!important; }
-.push-half--bottom  { margin-bottom:$half-spacing-unit!important; }
-.push-half--left    { margin-left:  $half-spacing-unit!important; }
-.push-half--ends    { margin-top:   $half-spacing-unit!important; margin-bottom:$half-spacing-unit!important; }
-.push-half--sides   { margin-right: $half-spacing-unit!important; margin-left:  $half-spacing-unit!important; }
-
 
 /**
 * Legacy pull placeholders
 */
-%pull_left {
-    @media screen and(min-width:74em){
+
+
+.pull_left {
+    float: left;
+    margin-right: rem-calc(30);
+    width: 40%;
+
+    @include breakpoint(1400px){
         width:40%;
         float:left;
         position:relative;
@@ -70,29 +57,19 @@
     }
 }
 
-%pull_right {
-    @media screen and(min-width:72em){
+
+.pull_right {
+
+    @include respond-to("small and above"){
+        float: right;
+        margin-left: rem-calc(30);
+        width: 35%;
+    }
+
+    @include breakpoint(1400px){
         width:40%;
-        float:right;
+        float: right;
         position:relative;
         margin-right:-45%;
     }
-}
-
-.pull_left {
-    @extend %pull_left;
-}
-
-p.pull_left {
-
-    @media screen and(min-width:72em) {
-        text-align:right;
-        font-size:.8em;
-        line-height:1.5;
-        color:#777;
-    }
-}
-
-.pull_right {
-    @extend %pull_right;
 }

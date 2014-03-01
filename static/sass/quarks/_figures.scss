@@ -38,6 +38,10 @@ figcaption {
         margin-top: 0;
         margin-bottom: 0;
         text-align: left;
+
+        @include respond-to("medium and above"){
+            line-height: 1.4;
+        }
     }
 }
 
