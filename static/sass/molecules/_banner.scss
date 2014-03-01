@@ -173,6 +173,7 @@
                     @include respond-to("medium and above"){
                         background-color: transparent;
                         color: #999;
+                        border: none;
                     }
                 }
             }
