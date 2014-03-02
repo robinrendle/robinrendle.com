@@ -50,7 +50,7 @@
 
     @include respond-to("medium and above"){
         text-align: center;
-        width: rem-calc(150);
+        width: auto;
         margin-bottom: 0;
         font-size: rem-calc(20);
     }
@@ -104,7 +104,7 @@
             margin-top: 0;
             padding-top: rem-calc($half-spacing-unit * 1.4);
             padding-bottom: 0;
-            padding-left: rem-calc(20);
+            padding-left: 0;
         }
 
         .js & {
