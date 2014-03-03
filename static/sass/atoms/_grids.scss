@@ -29,18 +29,27 @@
 }
 
 .columns--two {
-    @include respond-to("large and above"){
-        li {
+    ul>li {
+        @include respond-to("large and above"){
             line-height: 1.45;
-        }
 
-        &>:first-child {
+            &:before {
+                top: rem-calc(10);
+            }   
+        }   
+    }
+
+    &>:first-child {
+        @include respond-to("large and above"){
+
             float: left;
             width: 45%;
             margin-right: 5%;
         }
+    }
 
-        &>:last-child {
+    &>:last-child {
+        @include respond-to("large and above"){
             float: right;
             width: 45%;
         }
