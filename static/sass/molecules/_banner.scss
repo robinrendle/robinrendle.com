@@ -190,6 +190,7 @@
             text-transform: uppercase;
             color: #999;
             border-bottom: none;
+            display: none;
 
             .js & {
                 display: block;
@@ -198,10 +199,6 @@
                 @include respond-to("medium and above"){
                     display: none;
                 }
-            }
-
-            .no-js & {                
-                display: none;
             }
         }
 

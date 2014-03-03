@@ -6,16 +6,6 @@
 // 
 // 
 
-%main_column{
-    width:90%;
-    max-width:33em;
-    margin:0 auto;
-
-    @include respond-to("medium and above") {
-        width:85%;
-    }
-}
-
 .container--standard {
     width:90%;
     max-width:31.5em;
@@ -23,6 +13,7 @@
     margin-right: auto;
 
     @include respond-to("medium and above") {
+        width: 80%;
         max-width: rem-calc(600);
         padding: rem-calc(0, $base-spacing-unit)
     }
