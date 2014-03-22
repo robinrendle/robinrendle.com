@@ -98,6 +98,10 @@
                 &:before {
                     background-color: darken($color__secondary, 10);
                     top: rem-calc(9);
+
+                    @include respond-to("large and above"){
+                        top: rem-calc(11);                        
+                    }
                 }
             }
         }
