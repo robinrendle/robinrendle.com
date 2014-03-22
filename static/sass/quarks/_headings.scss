@@ -53,7 +53,7 @@
 @mixin headline-four {
     @extend %font__text--display;
     font-size: rem-calc($epsilon-size);
-    line-height: rem-calc(28);
+    line-height: rem-calc(22);
     margin-bottom: 0;
     text-transform: uppercase;
     color: $color__meta;
@@ -107,6 +107,7 @@
 
     @include respond-to("large and above"){
         font-size: rem-calc(19);
+        line-height:rem-calc(29);
     }
 }
 
