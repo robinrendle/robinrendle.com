@@ -6,7 +6,7 @@ require 'breakpoint';
 http_path = "/"
 css_dir = "assets/css"
 sass_dir = "static/sass"
-images_dir = "assets/images"
+images_dir = "static/images"
 javascripts_dir = "static/js"
 fonts_dir = "assets/fonts"
 
