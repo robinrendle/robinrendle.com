@@ -47,9 +47,11 @@
         .banner__nav__menu:focus {
             color: #bbbbbb;
         }
-
-        .drop-cap:first-letter {
-            color: {{meta.primary-color}};
+        
+        @media (min-width: 45.625em) {
+            .drop-cap:first-letter {
+                color: {{meta.primary-color}};
+            }
         }
 
         a {
