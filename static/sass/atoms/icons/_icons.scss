@@ -36,7 +36,7 @@
     content:'';
     display: inline-block;
     width: rem-calc(22);
-    height: rem-calc(20);
+    height: rem-calc(22);
 
     // align icon to appear on the baseline with text.
     position: relative;
@@ -64,3 +64,11 @@
     top: rem-calc(2);
 }
 
+h3[data-icon-before="github"]:before {
+    opacity: .4;
+
+    @include respond-to("medium and above"){
+        position:absolute;
+        left: rem-calc(-29);
+    }
+}
