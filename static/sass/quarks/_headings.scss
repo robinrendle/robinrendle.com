@@ -103,7 +103,6 @@
 
     @include respond-to("medium and above"){
         font-size:rem-calc(18);
-        line-height: rem-calc(31);
     }
 
     @include respond-to("large and above"){

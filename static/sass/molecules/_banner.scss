@@ -14,6 +14,7 @@
     padding-right: 0;
     z-index: 1;
     width: 100%;
+    background-color: #eee;
 
     @include respond-to("small and above"){    
         margin-bottom: rem-calc($base-spacing-unit * 1.5);
@@ -88,119 +89,117 @@
 //
 // The main navigation in the banner
 //
-    .banner__nav {
-        text-align: center;
-        margin: 0;
-        margin-top: rem-calc($base-spacing-unit);
-        padding: 0;
-        width: 100%;
-        line-height: 1;
+.banner__nav {
+    text-align: center;
+    margin: 0;
+    margin-top: rem-calc($base-spacing-unit);
+    padding: 0;
+    width: 100%;
+    line-height: 1;
+    float: left;
+
+    @include respond-to("medium and above"){
+        display: block;
         float: left;
+        width: auto;
+        margin-top: 0;
+        padding-top: rem-calc($half-spacing-unit * 1.4);
+        padding-bottom: 0;
+        padding-left: 0;
+    }
+
+    .js & {
+        display: none;
 
         @include respond-to("medium and above"){
             display: block;
-            float: left;
-            width: auto;
-            margin-top: 0;
-            padding-top: rem-calc($half-spacing-unit * 1.4);
-            padding-bottom: 0;
-            padding-left: 0;
         }
-
-        .js & {
-            display: none;
-
-            @include respond-to("medium and above"){
-                display: block;
-            }
-            
-            &.menu-active {
-                display: block;
-                -webkit-animation: appearDown .6s 1;
-                animation: appearDown .6s 1;
-                -webkit-animation-fill-mode: both;
-                animation-fill-mode: both;
-            }
-        }
-
-
-        > li {
-            @extend %font__text--sub;
-            margin-bottom: 0;
+        
+        &.menu-active {
             display: block;
-            float: left;
-            width: 100%;
-            text-align: left;
-
-            &:before {
-                display: none;
-            }
-
-            @include respond-to("medium and above"){
-                display: inline-block;
-                width: auto;
-                margin-left: rem-calc($base-spacing-unit / 1.2);
-            }
-
-            a {
-                float: left;
-                background-color: #eee;
-                background-color: rgba(0,0,0,.1);
-                border-bottom: 1px solid #fff;
-                border-bottom: 1px solid rgba(0,0,0, 0.1);
-                padding:rem-calc($half-spacing-unit);
-                width: 100%;
-                color: #999;
-
-                @include respond-to("medium and above"){
-                    color: $color__green;
-                    background-color: transparent;
-                    padding: 0;
-                    border: none;
-                    width: auto;
-                    display: inline;
-                }
-
-                &:hover,
-                &:focus {
-                    background-color: #ddd;
-                    background-color: rgba(0,0,0,0.19);
-                    color: #888;
-                    border-bottom: 1px solid #fff;
-                    border-bottom: 1px solid rgba(0,0,0, .1);
-
-
-                    @include respond-to("medium and above"){
-                        background-color: transparent;
-                        color: #999;
-                        border: none;
-                    }
-                }
-            }
+            -webkit-animation: appearDown .6s 1;
+            animation: appearDown .6s 1;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
         }
     }
 
 
-        /**
-         * The banner menu link appears on mobile and is hidden on
-         * larger screen sizes.
-         */
-        .banner__nav__menu {
-            @extend %font__text--sub;
-            text-transform: uppercase;
-            color: #999;
-            border-bottom: none;
-            display: none;
+    > li {
+        @extend %font__text--sub;
+        margin-bottom: 0;
+        display: block;
+        float: left;
+        width: 100%;
+        text-align: left;
 
-            .js & {
-                display: block;
-                float: right;
+        &:before {
+            display: none;
+        }
+
+        @include respond-to("medium and above"){
+            display: inline-block;
+            width: auto;
+            margin-left: rem-calc($base-spacing-unit / 1.2);
+        }
+
+        a {
+            float: left;
+            background-color: #eee;
+            background-color: rgba(0,0,0,.1);
+            border-bottom: 1px solid #fff;
+            border-bottom: 1px solid rgba(0,0,0, 0.1);
+            padding:rem-calc($half-spacing-unit);
+            width: 100%;
+            color: #888;
+
+            @include respond-to("medium and above"){
+                background-color: transparent;
+                padding: 0;
+                border: none;
+                width: auto;
+                display: inline;
+            }
+
+            &:hover,
+            &:focus {
+                background-color: #ddd;
+                background-color: rgba(0,0,0,0.19);
+                color: #666;
+                border-bottom: 1px solid #fff;
+                border-bottom: 1px solid rgba(0,0,0, .1);
+
 
                 @include respond-to("medium and above"){
-                    display: none;
+                    background-color: transparent;
+                    border: none;
                 }
             }
         }
+    }
+}
+
+
+/**
+ * The banner menu link appears on mobile and is hidden on
+ * larger screen sizes.
+ */
+.banner__nav__menu {
+    @extend %font__text--sub;
+    text-transform: uppercase;
+    color: #888;
+    border-bottom: none;
+    display: none;
+
+    .js & {
+        display: block;
+        float: right;
+
+        @include respond-to("medium and above"){
+            display: none;
+        }
+    }
+}
 
 
 

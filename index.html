@@ -43,22 +43,19 @@
 
     <section role="main">
         <div class="container">
-            <div class="article-list">
 
-                <div class="article-list__title
-                    is--editor__content">
-                    <h4>About me</h4>
-                </div>
-
-                {% if site.pages.about.meta.Image %}
-                    <figure>
-                        <img src="{{site.pages.about.meta.Image.value}}"/>
-                    </figure>
-                {% endif %}
-
-                {{site.pages.about.meta.Extract | markdown:true}}
+            <div class="article-list__title
+                        is--editor__content">
+                <h4>About me</h4>
             </div>
         </div>
+
+        <figure class="blockquote--large blockquote--large--center">
+            <blockquote>
+                <p>I’m a designer from the UK. This quiet, little space is where I sometimes write about typography and web design.</p>
+                
+            </blockquote>
+        </figure>
 
 
         <div class="container

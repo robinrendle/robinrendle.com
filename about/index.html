@@ -1,11 +1,14 @@
 {% include 'components/header' %}
-
+    
     <article class="h-entry 
                     container
                     is--editor__content">
-        <div class="heading-group">
-            <h1>About me</h1>
-        </div>
+
+        {% if site.pages.about.meta.Image %}
+            <figure>
+                <img src="{{site.pages.about.meta.Image.value}}"/>
+            </figure>
+        {% endif %}
 
         {{meta.Extract | markdown:true}}
 

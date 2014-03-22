@@ -2,7 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "sass", "~> 3.3.0.rc.2"
-gem "compass", "~> 1.0.0.alpha.17"
+gem "sass", "~> 3.3.1"
+gem "compass", "~> 1.0.0.alpha.18"
 gem "breakpoint", "~> 2.4.1"
 gem "siteleaf", "~> 0.9.10"
