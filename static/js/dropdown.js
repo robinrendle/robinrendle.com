@@ -35,8 +35,10 @@ document.addEventListener("DOMContentLoaded", function(){
 
         if (hasClass(bannerNav, 'menu-active')) {
             bannerNav.classList.remove('menu-active');
+            body.classList.remove('menu-active');
         } else {
             bannerNav.classList.add('menu-active');
+            body.classList.add('menu-active');
         }
 
     }, false);

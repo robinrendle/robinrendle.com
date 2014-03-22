@@ -41,6 +41,13 @@
             color: #eeeeee;
         }
 
+        .banner__nav>li a:hover,
+        .banner__nav>li a:focus,
+        .banner__nav__menu:hover,
+        .banner__nav__menu:focus {
+            color: #bbbbbb;
+        }
+
         .drop-cap:first-letter {
             color: {{meta.primary-color}};
         }
@@ -55,6 +62,7 @@
             color: {{meta.secondary-color}};   
             border-color: {{meta.secondary-color}};
         }
+
     </style>
 </head>
 
@@ -76,7 +84,6 @@
             </nav>
         </div><!-- //.container -->
     </header>
-
     <section role="main">
         <div class="island--primary island--hero">
             <div class="container">
@@ -105,25 +112,28 @@
             {% if meta.Extract %}
                     <p class="drop-cap">{{meta.Extract.value }}</p>
             {% endif %}
+            
 
-            <div class="islet
-                        columns--two">
-                <!-- List my role in the project -->
-                {% if meta.Role %}
-                    <aside class="island--meta">
-                        <h4>Responsibilities</h4>
-                        {{meta.Role.value | markdown:true}}
-                    </aside>
-                {% endif %}
+            {% if meta.Role || meta.Team %}
+                <div class="islet
+                            columns--two">
+                    <!-- List my role in the project -->
+                    {% if meta.Role %}
+                        <aside class="island--meta">
+                            <h4>Responsibilities</h4>
+                            {{meta.Role.value | markdown:true}}
+                        </aside>
+                    {% endif %}
 
-                <!-- List other members of the team -->
-                {% if meta.Team %}
-                    <aside class="island--meta">
-                        <h4>Team members</h4>
-                        {{meta.Team.value | markdown:true}}
-                    </aside>
-                {% endif %}
-            </div><!-- border-top -->
+                    <!-- List other members of the team -->
+                    {% if meta.Team %}
+                        <aside class="island--meta">
+                            <h4>Team members</h4>
+                            {{meta.Team.value | markdown:true}}
+                        </aside>
+                    {% endif %}
+                </div>
+            {% endif %}
 
 
             {{body}}
@@ -142,6 +152,15 @@
                         <h4 class="heading--reversed">What I learnt during this project</h4>
 
                         {{meta.related.value | markdown:true}}
+                    </aside>
+                {% endif %}
+
+                {% if meta.github %}
+                    <aside class="island--meta
+                                  reversed
+                                  is--editor__content">
+                        <h4 class="heading--reversed">Fork this repo on Github</h4>
+                        <div data-icon-before="github">{{meta.github.value | markdown:true}}</div>
                     </aside>
                 {% endif %}
 

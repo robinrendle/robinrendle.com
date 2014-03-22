@@ -33,7 +33,7 @@ a {
 
     &:hover,
     &:focus {
-        color: darken($color__white, 40);
+        color: darken($color__white, 20);
         border-bottom: none;
     }
 }

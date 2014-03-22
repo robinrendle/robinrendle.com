@@ -1,0 +1,66 @@
+// ==========================================================================
+// ICONS MODULE
+// ==========================================================================
+//
+// This module generates all of the classes and styles for icons.
+//
+//
+// To add more icons see the icons-settings.scss file.
+//
+//
+// CONTENTS
+// 1. Dependencies.
+// 2.
+//
+//
+
+// 1.DEPENDENCIES
+// ==========================================================================
+//
+// Icons builder mixins and settings.
+//
+
+@import 'config/icons-settings';
+@import 'config/icons-build';
+
+
+
+
+
+// 2.DEFAULT STYLES FOR DATA-ICONS
+// ==========================================================================
+
+
+[data-icon-before]:before,
+[data-icon-after]:after{
+    content:'';
+    display: inline-block;
+    width: rem-calc(22);
+    height: rem-calc(20);
+
+    // align icon to appear on the baseline with text.
+    position: relative;
+    top: rem-calc(4);
+}
+
+
+[data-icon-before] {
+    position: relative;
+
+    > p {
+        display: inline-block;
+    }
+}
+
+
+
+
+// STYLES FOR GITHUB ICON
+// ==========================================================================
+
+[data-icon-before="github"]:before {
+    display: inline-block;
+    margin-right: rem-calc(5);
+    top: rem-calc(2);
+}
+

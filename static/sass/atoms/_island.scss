@@ -97,6 +97,7 @@
 
                 &:before {
                     background-color: darken($color__secondary, 10);
+                    top: rem-calc(9);
                 }
             }
         }

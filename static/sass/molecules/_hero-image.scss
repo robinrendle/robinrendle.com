@@ -23,19 +23,24 @@
 // Pull hero so that the banner overlaps it.
 //
 .hero--nudge {
-    margin-top: rem-calc(- 38);
+    margin-top: rem-calc(- 100);
     margin-right: 0;
     margin-bottom: rem-calc($base-spacing-unit);
     margin-left: 0;
 
 
     @include respond-to("small and above"){    
-        margin-top: rem-calc(- $base-spacing-unit * 1.5);
+        margin-top: rem-calc(- 120);
     }
 
 
     @include respond-to("medium and above"){
-        margin-top: rem-calc(- 63);
+        margin-top: rem-calc(- 125);
         max-height: rem-calc(600);
+    }
+
+    // On essay pages the menu has to overlap the hero image
+    .menu-active & {
+        margin-top: rem-calc(- 326);
     }
 }
