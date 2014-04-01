@@ -1,0 +1,14 @@
+// ==========================================================================
+// LOADING GIF 
+// ========================================================================== 
+
+.loading {
+    background: inline-image('/loading/loading.gif') no-repeat;
+    height: rem-calc(40);
+    width: rem-calc(40);
+    margin: 0 auto rem-calc(40) auto;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+

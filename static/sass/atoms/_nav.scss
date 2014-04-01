@@ -81,3 +81,17 @@
     }
 }
 
+
+.nav--split {
+    .nav--split__left {
+        float: left;
+        width: 50%;
+    }
+
+    .nav--split__right {
+        float: right;
+        text-wrap:nowrap;
+        text-align: right;
+        width: 50%;
+    }
+}

@@ -1,0 +1,29 @@
+{% include 'components/header' %}
+
+    <div class="container">
+        <header class="heading-group">
+            <h1>{{title}}</h1>
+        </header>
+    </div>
+    
+    <section class="article-list">
+        {% for page in pages %}
+            <article class="container article-list__item">
+
+                <header class="hgroup hgroup--listing">
+                    <div class="meta-info-block">
+                        <div class="meta-info-block__item">
+                            <time datetime="{{date}}">{{ date | date: "%d %B %Y"}}</time>
+                        </div>
+                    </div>
+                    <h3><a href="{{page.url}}">{{page.title}}</a></h3>
+                </header>
+
+                <div class="article-list__content">
+                    <p>{{page.meta.extract.value}}</p>
+                </div>
+            </article>
+        {% endfor %}
+    </section>
+
+{% include 'components/footer--empty' %}

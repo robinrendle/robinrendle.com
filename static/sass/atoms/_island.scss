@@ -60,7 +60,7 @@
     .island--meta {
         @include text--small;
 
-        > * {
+        p, ol, ul {
             color: lighten($color__grey--dark, 15);
         }
 

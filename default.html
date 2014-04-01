@@ -16,7 +16,9 @@
             <div class="meta-info-block">
 
                 <p class="meta-info-block__item">
-                    {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
+                    {% if taxonomy.city %}
+                        {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
+                    {% endif %}
                 </p>
 
                 <div class="meta-info-block__item">
