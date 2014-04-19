@@ -181,6 +181,54 @@ figcaption {
         }
     }
 
+
+// BROWSER FIGURE
+// ==========================================================================
+// 
+// This element wraps images, video etc in a fake browser window.
+// 
+
+.figure-browser {
+    background-color: $color__secondary;
+    padding: rem-calc(10);
+    padding-top: rem-calc(40);
+    border-radius: rem-calc(5);
+    display: block;
+    position: relative;
+
+    // the close icons in the top left
+    &:before {
+        content: "• • •";
+        position: absolute;
+        top: rem-calc(5);
+        left: rem-calc(10);
+        font-size: rem-calc(30);
+        width: rem-calc(100);
+        line-height: 1;
+        color: darken($color__secondary, 10);
+    }
+
+    // the browser nav in the top center
+    &:after {
+        content: "";
+        position: absolute;
+        top: rem-calc(13);
+        left: rem-calc(80);
+        right: rem-calc(10);
+        height: rem-calc(15);
+        border-radius: rem-calc(3);
+        background-color: darken($color__secondary, 5);
+    }
+    
+    // hide controls for every video in the browser
+    video::-webkit-media-controls {
+        display:none !important;
+    }
+}
+
+
+
+
 // Color background modifiers
 .figure--bg-blue {
     background-color: $color__blue--light;

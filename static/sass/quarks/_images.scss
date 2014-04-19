@@ -11,10 +11,11 @@ img{
 
 
 /**
- * For making wide images in markdown
+ * For making wide figures in markdown that break the grid
  */
 
-p > strong img {
+p > strong img,
+.stretch {
     @include respond-to("largest only"){
         margin-left: -15%;
         width: 130%;

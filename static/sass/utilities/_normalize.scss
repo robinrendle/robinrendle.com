@@ -19,7 +19,8 @@ hgroup,
 main,
 nav,
 section,
-summary {
+summary,
+video {
     display: block;
 }
 
@@ -28,8 +29,7 @@ summary {
  */
 
 audio,
-canvas,
-video {
+canvas {
     display: inline-block;
 }
 

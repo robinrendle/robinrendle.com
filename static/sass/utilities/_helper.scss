@@ -45,9 +45,12 @@
 
 
 .pull_left {
-    float: left;
-    margin-right: rem-calc(30);
-    width: 40%;
+
+    @include respond-to("small and above"){
+        float: left;
+        margin-right: rem-calc(30);
+        width: 35%;
+    }
 
     @include breakpoint(1400px){
         width:40%;

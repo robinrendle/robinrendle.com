@@ -29,7 +29,7 @@
 // Changes the background color of the banner and changes link colors within
 .banner--transparent {
     background-color: #eee;
-    background-color: rgba(0,0,0,.45);
+    background-color: rgba(0,0,0,.65);
 
     .banner__headline > a {
         background-color: #ddd;
@@ -39,14 +39,19 @@
     .banner__nav>li a {
         color: white;
         background-color: rgba(0,0,0,0.2);
+        
+        @include respond-to("medium and above"){
+            background-color: transparent;            
+        }
 
         &:hover {
             color: #ddd;
             background-color: rgba(0,0,0,0.4);
-        }
 
-        @include respond-to("medium and above"){
-            background-color: transparent;
+            @include respond-to("medium and above"){
+                background-color: transparent;            
+            }
+
         }
     }
 
