@@ -15,13 +15,17 @@ site/cache/7ecb9812e507ad9f91804947318ab2f9.php
 *.scssc
 css
 
-# Fonts #
+
+# Build #
+##############
+/build
+node_modules
 /fonts
 
 app/_cache/
-public/codekit-config.json
 .htaccess
 config.ru
+
 
 
 *.rb
