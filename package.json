@@ -1,0 +1,13 @@
+{
+  "name": "robin-rendle",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-imagemin": "^0.6.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-compass": "^0.7.2"
+  }
+}
