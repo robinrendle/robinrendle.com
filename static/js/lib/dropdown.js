@@ -7,7 +7,7 @@
     } else if (typeof exports === 'object') {
         module.exports = factory;
     } else {
-        root.DropDown = factory(domReady);
+        root.Menu = factory(domReady);
     }
 })(this, function (domReady) {
 
@@ -22,7 +22,7 @@
 
     Menu.toggler = function(){
         Menu.navButton.classList.toggle('menu-active');
-        document.body.classList.toggle('menu-active');
+        // document.body.classList.toggle('menu-active');
     };
 
     Menu.bind = function(){
@@ -31,15 +31,6 @@
             Menu.toggler();
         }, false);
     };
-
-    domReady(function(){
-        try {
-            Menu.init();
-        }
-        catch(e) {
-            window.App.fallback();
-        }
-    });
 
     return Menu;
 
