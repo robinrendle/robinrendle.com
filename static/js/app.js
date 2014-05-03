@@ -10,6 +10,16 @@
 
     var App = window.App = {
 
+        init: function(){
+            if (this.cutsTheMustard()) {
+                this.loadApplication(this.fallback);
+
+            }
+            else {
+                this.fallback();
+            }
+        },
+
         fallback: function(){
             var doc = document.documentElement;
             doc.className = doc.className.replace( /(?:^|\s)custom-js(?!\S)/g , 'no-js' );
@@ -19,27 +29,26 @@
             return ('querySelector' in document && 'addEventListener' in window );
         },
 
-        loadApplication: function(callback){
+        loadApplication: function(fallback){
             Modernizr.load({
-                load: ['/static/js/lib/dropdown.js'],
-                callback: function(){
-                    if(typeof DropDown !== "object") {
-                        callback();
+                test: Modernizr.classlist,
+                nope: ['/static/js/vendor/polyfills/classList.js'],
+                both: ['/static/js/lib/dropdown.js'],
+                complete: function(){
+                     domReady(function(){
+                        try {
+                            Menu.init();
+                        }
+                        catch(e) {
+                            window.App.fallback();
+                        }
+                    });
+                    if(typeof Menu !== "object") {
+                        fallback();
                     }
                 }
             });
-        },
-
-        init: function(){
-            if (this.cutsTheMustard()) {
-                this.loadApplication(this.fallback);
-
-            }
-            else {
-                this.fallback();
-            }
         }
-
     };
 
     App.init();
