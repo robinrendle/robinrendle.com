@@ -28,36 +28,7 @@
 
 // Changes the background color of the banner and changes link colors within
 .banner--transparent {
-    background-color: #eee;
-    background-color: rgba(0,0,0,.65);
-
-    .banner__headline > a {
-        background-color: #ddd;
-        background-color: rgba(0,0,0,.3);
-    }
-
-    .banner__nav>li a {
-        color: white;
-        background-color: rgba(0,0,0,0.2);
-        
-        @include respond-to("medium and above"){
-            background-color: transparent;            
-        }
-
-        &:hover {
-            color: #ddd;
-            background-color: rgba(0,0,0,0.4);
-
-            @include respond-to("medium and above"){
-                background-color: transparent;            
-            }
-
-        }
-    }
-
-    .banner__nav__menu {
-        color: white;
-    }
+    border-bottom: 1px solid #ddd;
 }
 
 .banner--standard {
@@ -110,7 +81,8 @@
             background-color: darken(#CE7E7E, 10);
             background-color: rgba(0,0,0,.3);
             color: #FFF;
-            border-bottom: none;
+            border-bottom-width: 0;
+            border: none;
         }
     }
 }
@@ -149,8 +121,8 @@
             display: block;
             -webkit-animation: appearDown .6s 1;
             animation: appearDown .6s 1;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
+            -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
         }
     }
 
@@ -181,7 +153,7 @@
             border-bottom: 1px solid rgba(0,0,0, 0.1);
             padding:rem-calc($half-spacing-unit);
             width: 100%;
-            color: #888;
+            color: #777;
 
             @include respond-to("medium and above"){
                 background-color: transparent;
@@ -195,7 +167,7 @@
             &:focus {
                 background-color: #ddd;
                 background-color: rgba(0,0,0,0.19);
-                color: #666;
+                color: #555;
                 border-bottom: 1px solid #fff;
                 border-bottom: 1px solid rgba(0,0,0, .1);
 
