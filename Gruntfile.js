@@ -53,13 +53,18 @@ module.exports = function(grunt){
             scripts: {
                 files: [
                     'static/js/*.js', 
-                    'static/js/lib/dropdown.js', 
-                    'static/sass/**/*.scss'
+                    'static/js/lib/dropdown.js'
                 ],
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
                 }
+            },
+            css: {
+                files: [
+                    'static/sass/**/*.scss'
+                ],
+                tasks: ['clean', 'compass']
             }
         }
     });
