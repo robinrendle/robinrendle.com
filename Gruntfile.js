@@ -54,7 +54,7 @@ module.exports = function(grunt){
                 files: [
                     'static/js/*.js', 
                     'static/js/lib/dropdown.js', 
-                    'static/sass/screen.scss'
+                    'static/sass/**/*.scss'
                 ],
                 tasks: ['concat', 'uglify'],
                 options: {
