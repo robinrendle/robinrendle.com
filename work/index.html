@@ -53,17 +53,21 @@
 
 
 <body class="container--work container--work-index">
+    
+    <div class="work-item work-item--title">
+        <div class="container container--wide">
+            <div class="meta-rule meta-rule--dark">
+                <div class="meta-rule__item h--uppercase">Robin Rendle</div>
+                <div class="meta-rule__item">2013–2014</div>
+            </div>
 
-    <div class="container container--wide">
-        <div class="meta-rule meta-rule--dark">
-            <div class="meta-rule__item h--uppercase">Robin Rendle</div>
-            <div class="meta-rule__item">2013–2014</div>
-        </div>
+            <header>
+                <h1>{{title}}</h1>
+            </header>
 
-        <header>
-            <h1>{{title}}</h1>
-        </header>
-    </div><!-- //.container -->
+            <p>Here’s a collection of websites and open source projects that I’ve contributed to in the past twelve months. Typically my responsibilities in each project lies within the realm of front-end development, CSS architecture and performance, although I’ve also worked in a number of design roles, too.</p>
+        </div><!-- //.container -->
+    </div>
 
     <section>
         {% for page in pages %}

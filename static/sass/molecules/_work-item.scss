@@ -2,6 +2,21 @@
 // WORK ITEM 
 // ========================================================================== 
 
+//html element
+.work-body {
+    max-width: rem-calc(1100);
+    margin: 0 auto;
+    border-left: 5px solid #ddd;
+    border-right: 5px solid #ddd;    
+
+    @include respond-to("largest only"){
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        background-color: #DDDDDD;
+    }
+}
+
+
 // Custom styles for the work page
 
 .work-item {
@@ -33,6 +48,22 @@
         }
     }
 }
+
+.work-item--title{
+    padding: 0;
+    border: none;
+
+    p {
+        margin-top: rem-calc(20);
+        margin-bottom: 0;
+
+        @include respond-to("large and above"){
+            font-size: rem-calc(19);
+        }
+    }
+}
+
+
 
 .work-item__btn {
     @extend %font__text--display;
@@ -156,7 +187,7 @@
 }
 
 .work-item--endsleigh {
-    padding-top: rem-calc(50);
+    padding-top: rem-calc(10);
     background: url('/build/static/images/work/endsleigh/endsleigh-illustration.jpg') no-repeat;
     background-size: 100%;
     background-position: 0 rem-calc(300);
