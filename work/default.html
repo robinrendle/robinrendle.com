@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js work-body">
 <head>
     <meta charset="utf-8" />
 
@@ -23,22 +23,6 @@
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
 
-    <!-- Analytics -->
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-23646969-1', 'robinrendle.com');
-        ga('send', 'pageview');
-    </script>
-
-    <!-- JS -->
-    <script type="text/javascript" src="/build/static/js/app.min.js"></script>
-
-
-    <!-- Page specific styles -->
     <style>
         .island--primary,
         .footer {
@@ -66,8 +50,8 @@
         }
         
         @media (min-width: 45.625em) {
-            .drop-cap:first-letter {
-                color: {{meta.primary-color}};
+            .drop-cap--shadow:first-letter {
+                background-color: {{meta.primary-color}};
             }
         }
 
@@ -82,125 +66,76 @@
             border-color: {{meta.secondary-color}};
         }
 
+        .container--work-detail .footer {
+            background-color: {{meta.primary-color}};
+        }
     </style>
 </head>
 
-<body>
-    <header class="banner banner--standard" role="banner">
-        <div class="container--standard">
-            <h1 class="banner__headline">
-                <a class="links--reversed" href="/">Robin Rendle</a>
-            </h1>
-
-            <nav>
-                <a class="banner__nav__menu links--reversed" id="mobile-menu" href="#">Menu</a>
-                <ul class="banner__nav">
-                    <li><a class="links--reversed" href="/about">About</a></li>
-                    <li><a class="links--reversed" href="/notes">Notes</a></li>
-                    <li><a class="links--reversed" href="/essays">Essays</a></li>
-                    <li><a class="links--reversed" href="/work">Work</a></li>
-                </ul>
-            </nav>
-        </div><!-- //.container -->
-    </header>
+<body class="container--work container--work-detail">
+    
     <section role="main">
-        <div class="island--primary island--hero">
-            <div class="container">
-                <header class="heading-group 
-                               heading-group--centered
-                               heading-group--hero">
+        <div class="island--primary island--hero island--illustration island--{{meta.abbr}}">
+            <div class="container container--wide">
 
-                    <h1 class="heading--reversed">{{title}}</h1>
+                <div class="meta-rule">
+                    <div class="meta-rule__item">
+                        <a class="meta-rule__link" href="/work">« Back to all projects</a>
+                    </div>
+                    <div class="meta-rule__item">2013–2014</div>
+                </div>
 
-                    <div class="meta-info-block">
-                        <div class="meta-info-block__item">
-                            {{ meta.project-date.value }}
-                        </div><!-- meta-info-block__item -->
-                    </div><!-- //.meta-info-block -->
-                </header>
+                <h1 class="heading--reversed">{{title}}</h1>
+                
+                {% if meta.Role || meta.team %}
+                    {% if meta.Role %}
+                        <aside class="island--meta">
+                            <h4 class="h--light">Responsibilities</h4>
+                            {{meta.Role.value | markdown:true}}
+                        </aside>
+                    {% endif %}
+                    {% if meta.Team %}
+                        <aside class="island--meta">
+                            <h4 class="h--light">Team members</h4>
+                            {{meta.Team.value | markdown:true}}
+                        </aside>
+                    {% endif %}
+                {% endif %}
+
             </div><!-- //.container -->
-
-            {% if meta.hero %}
-                <img class="figure--wide__img" src="{{meta.Hero.value}}" />
-            {% endif %}
 
             {% if meta.logo %}
                 <img src="{{meta.Logo.value}}" />
             {% endif %}
         </div>
 
-        <article class="container">
+        <article class="container container--wide">
 
             <!-- The article’s summary -->
             {% if meta.Extract %}
-                    <p class="drop-cap">{{meta.Extract.value }}</p>
+                    <p class="drop-cap--shadow">{{meta.Extract.value }}</p>
             {% endif %}
-            
-
-            {% if meta.Role || meta.Team %}
-                <div class="islet
-                            columns--two">
-                    <!-- List my role in the project -->
-                    {% if meta.Role %}
-                        <aside class="island--meta">
-                            <h4>Responsibilities</h4>
-                            {{meta.Role.value | markdown:true}}
-                        </aside>
-                    {% endif %}
-
-                    <!-- List other members of the team -->
-                    {% if meta.Team %}
-                        <aside class="island--meta">
-                            <h4>Team members</h4>
-                            {{meta.Team.value | markdown:true}}
-                        </aside>
-                    {% endif %}
-                </div>
-            {% endif %}
-
+        
 
             {{body}}
 
 
         </article>
 
-        <div class="footer">
-            <div class="container">
-
-                <!-- Related articles -->
-                {% if meta.related %}
-                    <aside class="island--meta
-                                  reversed
-                                  is--editor__content">
-                        <h4 class="heading--reversed">What I learnt during this project</h4>
-
-                        {{meta.related.value | markdown:true}}
-                    </aside>
+<div class="footer island--illustration island--{{meta.abbr}}">
+    <div class="container">        
+        <nav class="nav--fork">
+            <ul>
+                <li class="nav--fork__link"><a href="/work">« Back to the portfolio</a></li>
+                {% if next %}
+                <li class="nav--fork__link"><a href="{{next.url}}">View the next project »</<a></li>
                 {% endif %}
-
-                {% if meta.github %}
-                    <aside class="island--meta
-                                  reversed
-                                  is--editor__content">
-                        <h4 class="heading--reversed">Fork this repo on Github</h4>
-                        <div data-icon-before="github">{{meta.github.value | markdown:true}}</div>
-                    </aside>
-                {% endif %}
-
-                {% if meta.project-link %}
-                    <aside class="island--meta
-                                  reversed
-                                  is--editor__content">
-                        <h4 class="heading--reversed">Check out the live project</h4>
-
-                        {{meta.project-link.value | markdown:true}}
-
-                    </aside>
-                {% endif %}
-
-            </div>
-        </div>
+            </ul>
+        </nav>
+    </div>
+</div>
 
 
-    {% include 'components/footer--invisible' %}
+    </body>
+</html>
 

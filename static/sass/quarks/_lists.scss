@@ -34,6 +34,11 @@ ul + p {
 }
 
 ul {
+
+    @include respond-to("medium and above"){
+        margin-left: 0;
+    }
+
     >li {
         list-style:none;
         position:relative;
@@ -41,8 +46,8 @@ ul {
         &:before {
             position: absolute;
             left: rem-calc(- 15);
-            height: rem-calc(7);
-            width: rem-calc(6);
+            height: 6px;
+            width: 6px;
             top: rem-calc(11);
             border-radius: 50%;
             content:"";

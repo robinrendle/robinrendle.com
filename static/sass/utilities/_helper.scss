@@ -51,13 +51,6 @@
         margin-right: rem-calc(30);
         width: 35%;
     }
-
-    @include breakpoint(1400px){
-        width:40%;
-        float:left;
-        position:relative;
-        margin-left:-45%;
-    }
 }
 
 

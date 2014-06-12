@@ -3,10 +3,10 @@
 // ========================================================================== 
 
 
-
-
 figure {
     margin-bottom: rem-calc($base-spacing-unit);
+    width: 100%;
+    
     img + img {
         margin-top:1em;
     }
@@ -226,6 +226,25 @@ figcaption {
     }
 }
 
+.figure--bordered {
+    border: 1px solid #eeeeee;
+}
+
+.figure--standard {
+    margin-bottom: rem-calc(80);
+}
+
+.explainer {
+    p {
+        font-size: rem-calc(17);
+        font-style: normal;
+        max-width: rem-calc(450);
+    }
+
+    .h4 {
+        margin-top: 0;
+    }
+}
 
 
 

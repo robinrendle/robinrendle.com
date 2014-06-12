@@ -22,3 +22,22 @@
         }
     }
 }
+
+.drop-cap--shadow {
+    &:first-letter {
+        @include respond-to("large and above"){
+            font-family: 'Whitney A', 'Whitney B', Georgia, serif;
+            font-weight: $font-weight--medium;
+            font-style: normal;
+            font-size: rem-calc(50);
+            line-height: .7;
+            float: left;
+            margin-top: rem-calc(9);
+            margin-bottom: rem-calc(-20);
+            margin-right: rem-calc(5);
+            margin-left: rem-calc(-7);
+            color: white;
+            padding: 20px;
+        }
+    }
+}

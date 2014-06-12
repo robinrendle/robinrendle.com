@@ -33,6 +33,23 @@ module.exports = function(grunt){
             }
         },
 
+        svgmin: {
+            options: {
+                plugins: [
+                  { removeViewBox: false },
+                  { removeUselessStrokeAndFill: false }
+                ]
+            },
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: 'static/images', 
+                    src: ['**/*.svg'],  
+                    dest: 'build/static/images'
+                }]
+            }
+        },
+
         clean: {
             dist: [
                 'build/static/js/app.js',
@@ -72,9 +89,10 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-concat'); // concat js files
     grunt.loadNpmTasks('grunt-contrib-uglify'); // minify js files
     grunt.loadNpmTasks('grunt-contrib-imagemin'); // minify images
+    grunt.loadNpmTasks('grunt-svgmin'); // minify svg
     grunt.loadNpmTasks('grunt-contrib-clean'); // clean files
     grunt.loadNpmTasks('grunt-contrib-compass'); // compass
     grunt.loadNpmTasks('grunt-contrib-watch'); // watch for changes
 
-    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'imagemin', 'compass', 'watch']);
+    grunt.registerTask('default', ['clean', 'concat', 'uglify', 'imagemin', 'svgmin', 'compass', 'watch']);
 };

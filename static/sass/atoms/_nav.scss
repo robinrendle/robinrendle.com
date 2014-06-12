@@ -55,6 +55,7 @@
 
 
 .nav--lexicon {
+    width: 100%;
     background-color: $color__blue;
     margin-bottom: 0;
     margin-left: 0;
@@ -93,5 +94,57 @@
         text-wrap:nowrap;
         text-align: right;
         width: 50%;
+    }
+}
+
+.nav--fork {
+    margin: 0 auto;
+    padding: rem-calc(30) 0;
+    @extend .cf;
+
+    .nav--fork__link {
+        &:first-of-type {
+            &:after {
+                content: "|";
+                opacity: .6;
+                margin-right: rem-calc(10);
+                padding-left: rem-calc(10);
+            }
+        }
+
+        &:only-child {
+            &:after {
+                content: none;
+            }
+        }
+    }
+}
+
+.nav--fork__link {
+    @extend %font__text--sub;
+    font-size: rem-calc(20);
+    list-style: none;
+    float: left;
+
+    @include respond-to("large and above"){
+        font-size: rem-calc(25);
+    }
+
+    &:before {
+        content: none;
+    }
+
+    & a:hover, 
+    & a:focus {
+        border: none;
+        opacity: .5;
+        text-decoration: none;
+    }
+
+    &, & > a {
+        color: white;
+        border: none;
+        text-decoration: none;
+        white-space: nowrap;
     }
 }

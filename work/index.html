@@ -1,34 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js work-body">
+<head>
+    <meta charset="utf-8" />
 
-<!-- WORK LIST TEMPLATE -->
+    <title>{{site.title}} › Work</title>
 
-{% include 'components/header' %}
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/104389809267012182640">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
+    <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
 
-    <div class="container">
-        <header class="heading-group">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/build/static/css/screen.css" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/661882/css/fonts.css" />
+
+    <!-- Prefetching -->
+    <link rel="dns-prefetch" href="//cloud.typography.com">
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+    <style>
+
+        .banner__headline a {
+            background-color: {{meta.color}};
+        }
+
+        a {
+            color: {{meta.color}};
+            border-color: {{meta.color}};
+        }
+
+        a:hover,
+        a:focus {
+            color: {{meta.color}};   
+            border-color: {{meta.color}};
+        }
+
+        .island--primary,
+        .footer {
+            background-color: {{meta.color}};
+        }
+    </style>
+</head>
+
+
+<body class="container--work container--work-index">
+
+    <div class="container container--wide">
+        <div class="meta-rule meta-rule--dark">
+            <div class="meta-rule__item h--uppercase">Robin Rendle</div>
+            <div class="meta-rule__item">2013–2014</div>
+        </div>
+
+        <header>
             <h1>{{title}}</h1>
         </header>
-    </div>
+    </div><!-- //.container -->
 
-    <section class="article-list">
-        {% for post in posts %}
-            <article class="container article-list__item">
+    <section>
+        {% for page in pages %}
+            <article class="work-item work-item--{{page.meta.abbr}}">
+                
+                <div class="container container--wide">
+                    
+                    <div class="work-item__content">
+                        <h2 class="work-item__heading">
+                            <a href="{{page.url}}">{{ page.meta.byline }}</a>
+                        </h2>
 
-                <header class="hgroup hgroup--listing">
-                    <div class="meta-info-block">
-                        <div class="meta-info-block__item">
-                            {{ post.meta.project-date.value }}
+                        <div class="work-item__about">
+                            <p>{{ page.meta.extract }} <a class="work-item__btn" href="{{page.url}}">Read more</a></p>
                         </div>
-                    </div>
-                    <h3 {% if post.meta.github %}data-icon-before="github" {% endif %}><a href="{{post.url}}">{{post.title}}</a></h3>
-                </header>
 
-                <div class="article-list__content">
-                    <p>{{post.meta.Extract.value}}</p>
-                </div>
+                        <div class="work-item__list">
+                            {{page.meta.role | markdown: true }}
+                        </div>
+                    </div><!-- //.work-item-content -->
+                    
+                    <a href="{{page.url}}" class="work-item__image">
+                        {% if page.meta.feature-browser == 'true' %}
+                            <figure class="figure-browser">
+                                <img src="{{page.meta.hero}}">
+                            </figure>
+        
+                            {% else %}
+                                <figure>
+                                    <img src="{{page.meta.hero}}">
+                                </figure>
+                        {% endif %}
+                    </a>
+                </div> <!-- //.container -->
             </article>
         {% endfor %}
     </section>
 
+    <section class="work-item work-item--projects">
 
-{% include 'components/footer' %}
+        <div class="container container--wide">
+            <h2 class="work-item__heading">Open source contributions</h2>
+
+                <article class="media block-list--small">
+                    <a class="media__img" href="https://github.com/ultimate-package">
+                        <img src="/build/static/images/projects/ultimate-package.png" alt="The Ultimate Package">
+                    </a>
+                    <div class="media__body">
+                        <h3><a href="https://github.com/ultimate-package">The Ultimate Package</a></h3>
+                        <p>This is a collection of front-end tools for quickly building prototypes. For instance, I built a font-scale mixin and a grid system which has been designed to plug in and play with other Bower components. <a href="https://github.com/robinrendle/atomic-framework" class="work-item__btn">View the repo</a>
+                        </p>
+                    </div>
+                </article>
+
+                <article class="media block-list--small">
+                    <a class="media__img" href="https://github.com/robinrendle/atomic-framework"><img src="/build/static/images/projects/atomic.png" alt="The Atomic Sass Framework"></a>      
+
+                    <div class="media__body">          
+                        <h3>
+                            <a href="https://github.com/robinrendle/atomic-framework">The Atomic Sass framework</a>
+                        </h3>
+                        <p>The aim of this framework was to decrease the complexity of making large design systems with Sass by scoping similar styles together. This was my first take on how to build a maintainable front-end interface for other developers. <a class="work-item__btn" href="https://github.com/robinrendle/atomic-framework">View the repo</a></p>
+                    </div>
+                </article>
+            </ul>
+        </div>
+    </section>
+
+    </body>
+</html>
+
 

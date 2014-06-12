@@ -1,4 +1,4 @@
-@if $use-media == true{
+
 
 /*------------------------------------*\
     $MEDIA
@@ -21,39 +21,38 @@
     display:block;
     @extend .cf;
 }
-    .media__img{
-        float:left;
-        margin-right:$base-spacing-unit;
-    }
-    /**
-     * Reversed image location (right instead of left).
-     */
-    .media__img--rev{
-        float:right;
-        margin-left:$base-spacing-unit;
+.media__img{
+    float:left;
+    margin-right:$base-spacing-unit;
+}
+/**
+ * Reversed image location (right instead of left).
+ */
+.media__img--rev{
+    float:right;
+    margin-left:$base-spacing-unit;
+}
+
+    .media__img img,
+    .media__img--rev img{
+        display:block;
     }
 
-        .media__img img,
-        .media__img--rev img{
-            display:block;
-        }
-
-    .media__body{
-        overflow:hidden;
-    }
-        .media__body,
-        .media__body > :last-child{
-            margin-bottom:0;
-        }
-
-    /**
-     * `.img`s in `.islet`s need an appropriately sized margin.
-     */
-    .islet .media__img{
-        margin-right:$half-spacing-unit;
-    }
-    .islet .media__img--rev{
-        margin-left:$half-spacing-unit;
+.media__body{
+    overflow:hidden;
+}
+    .media__body,
+    .media__body > :last-child{
+        margin-bottom:0;
     }
 
-}//endif
+/**
+ * `.img`s in `.islet`s need an appropriately sized margin.
+ */
+.islet .media__img{
+    margin-right:$half-spacing-unit;
+}
+.islet .media__img--rev{
+    margin-left:$half-spacing-unit;
+}
+

@@ -24,6 +24,10 @@ blockquote {
         @include respond-to("medium and above"){
             padding-bottom: rem-calc($base-spacing-unit / 1.2);
         }
+
+        @include respond-to("large and above"){
+            line-height: 1.5;
+        }
     }
 
     em {

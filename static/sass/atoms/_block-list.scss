@@ -1,4 +1,4 @@
-@if $use-block-list == true {
+
 
 /*------------------------------------*\
     $BLOCK-LIST
@@ -25,6 +25,7 @@
         border:0 solid $base-ui-color;
     }
 }
+
 .block-list{
     list-style:none;
     margin-left:0;
@@ -35,10 +36,54 @@
         padding:$half-spacing-unit;
     }
 }
-        .block-list__link{
-            display:block;
-            padding:$half-spacing-unit;
-            margin:-$half-spacing-unit;
+
+.block-list__link{
+    display:block;
+    padding:$half-spacing-unit;
+    margin:-$half-spacing-unit;
+}
+
+// BLOCK LIST on the work index page – refactor this nastiness
+.block-list--small {
+    border-bottom: 1px dotted #C4C1C1;
+    padding-bottom: rem-calc(30);
+
+    &:last-of-type {
+        border-bottom: none;
+    }
+
+    h3 {
+        margin: 0;
+        @extend %font__headline;
+    }
+
+    .media__img {
+        width: rem-calc(70);
+        margin-right: rem-calc(20);
+        text-decoration: none;
+        border: none;
+
+        @include respond-to("large and above"){
+            width: rem-calc(100);
         }
 
-}//endif
+        &:hover,
+        &:focus {
+            opacity: .6;
+            border: none;
+        }
+    }
+
+    .media__body {
+        font-size: rem-calc(16);
+
+        h3 > a {
+            color: #666;
+            border: none;
+
+            &:hover {
+                color: #888;
+            }
+        }
+    }
+}

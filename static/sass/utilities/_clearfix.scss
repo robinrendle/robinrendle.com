@@ -10,6 +10,7 @@
  * and over in your markup
  */
 .cf{
+    &,
     &:after{
         content:"";
         display:table;

@@ -47,3 +47,56 @@
 .meta-info-block--list {
     text-align: left;
 }
+
+
+// RULES ON THE WORK PAGE
+// ==========================================================================
+.meta-rule {
+    @extend .cf;
+    @include text--small;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    margin-bottom: rem-calc(-15);
+    padding-top: rem-calc(30);
+
+    .meta-rule__link {
+        font-size: rem-calc(17);
+    }
+}
+
+.meta-rule--dark {
+    border-bottom-color: #C4C1C1;
+
+    .meta-rule__item {
+        color: #868686;
+    }
+}
+
+.meta-rule__item, 
+.meta-rule__link {
+    color: rgba(255,255,255,.25);
+}
+
+.meta-rule__item {
+    float: left;
+    font-size: rem-calc(16);
+
+    &:last-child {
+        float: right;
+    }
+}
+
+.meta-rule__link {
+    text-decoration: none;
+    border: none;
+    
+    &:hover,
+    &:focus {
+        color: rgba(255,255,255,.6);
+        text-decoration: none;
+        border: none;
+    }
+}
+

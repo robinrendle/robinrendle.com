@@ -111,6 +111,12 @@
     }
 }
 
+@mixin text--tiny {
+    @extend %font__text--sub;
+    font-size:rem-calc($delta-size);
+    line-height:rem-calc(27);
+}
+
 
 // @start HEADLINES -------------------- //
 h1,
@@ -193,4 +199,14 @@ h5, .h5 {
 
 .heading--reversed {
     color: $color__white !important;
+}
+
+
+.h--light {
+    color: #eee;
+    color: rgba(255,255,255,0.6) !important;
+}
+
+.h--uppercase {
+    text-transform: uppercase;
 }

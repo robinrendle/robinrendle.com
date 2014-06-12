@@ -58,10 +58,10 @@
 
 
     .island--meta {
-        @include text--small;
+        @include text--tiny;
 
         p, ol, ul {
-            color: lighten($color__grey--dark, 15);
+            color: #7b7b7b;
         }
 
         h1,h2,h3,h4,h5 {
@@ -96,33 +96,98 @@
                 }
 
                 &:before {
-                    background-color: darken($color__secondary, 10);
-                    top: rem-calc(9);
-
-                    @include respond-to("large and above"){
-                        top: rem-calc(11);                        
-                    }
+                    content: "–";
+                    background-color: transparent;
+                    top: 0;
                 }
             }
         }
     }
 
+// 
+// ==========================================================================
+
+.island--illustration {
+    @extend .cf;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    @include respond-to("large and above"){
+        background-size: 100%;
+    }
+    
+    ul { 
+        margin-left: 0;    
+
+        & > li:before {
+            content: none;
+        }
+    }
+}
+
+
+.island--endsleigh {
+    background-image: url('/build/static/images/work/endsleigh/endsleigh-background.jpg');
+}
+
+.island--ncc {
+    background-image: url('/build/static/images/work/ncc/ncc-background.jpg');
+    background-position: 0;
+}
+
+.island--erskine {
+    background-image: url('/build/static/images/work/erskine/erskine-background.jpg');
+}
+
+.island--sc {
+    background-image: url('/build/static/images/work/sc/sc-background.jpg');
+}
+
+.island--primary {
+    .island--meta {
+        width: 100%;
+
+        @include respond-to("large and above"){
+            float: left;
+            width: auto;
+            margin-right: rem-calc(40);
+        }
+
+        ul {
+            color: rgba(255,255,255,0.5)
+        }
+    }
+}
+
+.island--meta + .island--meta {
+    @include respond-to("large and above"){
+
+        ul {
+            -webkit-column-count: 2;
+            -webkit-column-gap: 0;
+
+            li {
+                -webkit-column-break-inside: avoid;
+            }
+        }
+    }
+}
 
 //
 // Background for the image / header combo on the /work detail pages
 //
 
-    .island--hero {
-        margin-bottom: rem-calc($base-spacing-unit);
-        padding-bottom: rem-calc($half-spacing-unit);
+.island--hero {
+    margin-bottom: rem-calc($base-spacing-unit);
+    padding-bottom: rem-calc($half-spacing-unit);
 
-        @include respond-to("medium and above"){
-            margin-bottom: rem-calc($base-spacing-unit * 2);
-            padding-bottom: rem-calc($base-spacing-unit);
-        }
+    @include respond-to("medium and above"){
+        margin-bottom: rem-calc($base-spacing-unit * 2);
+        padding-bottom: rem-calc($base-spacing-unit);
     }
+}
 
-    .island--main {
-        padding-top: rem-calc($half-spacing-unit);
-    }
+.island--main {
+    padding-top: rem-calc($half-spacing-unit);
+}
 

@@ -2,7 +2,7 @@
 // GRIDS
 // ========================================================================== 
 //
-// Grid system coming soon! I can get away with a single column design for now (12 June 2013)
+// Grid system coming soon!
 // 
 // 
 
@@ -22,6 +22,32 @@
         padding: 0;
         max-width: rem-calc(730);
     }
+}
+
+.work-body {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    background-color: #DDDDDD;
+    max-width: rem-calc(1100);
+    margin: 0 auto;
+}
+
+.container--work {
+    border: none;
+
+    header h1 {
+        margin-bottom: 0;
+    }
+
+    .footer {
+        background-color: transparent;
+        border: none;
+        margin: 0;
+    }
+}
+
+.container--work-index {
+    background-color: #F1F1F1;
 }
 
 .container {
@@ -56,3 +82,9 @@
     }
 }
 
+.container--wide {
+    @include respond-to("large and above"){
+        padding: 0;
+        max-width: rem-calc(790);
+    }
+}
