@@ -45,15 +45,20 @@
 
 
 .pull_left {
+    margin: 0 auto;
+    margin-bottom: rem-calc(30);
+    max-width: 60%;
 
     @include respond-to("small and above"){
         float: left;
         margin-right: rem-calc(30);
-        width: 35%;
+        width: 40%;
+        max-width: 100%;
+        margin-bottom: 0;
     }
 
     &.pull_left--small {
-        @include respond-to("medium and above"){
+        @include respond-to("large and above"){
             float: left;
             margin-right: rem-calc(30);
             width: 31%;
@@ -70,11 +75,20 @@
     }
 }
 
-.pull_right--small {
-    margin-top: rem-calc(20);
+.pull_right--small.explainer {
+    margin-top: 0;
+    float: left;
+    clear: both;
 
-    @include respond-to("medium and above"){
+    @include respond-to("small and above"){
         &.explainer {
+            margin-top: rem-calc(40);
+        }
+    }
+
+    @include respond-to("large and above"){
+        &.explainer {
+            clear: none;
             margin-top: 0;
             float: right;
             width: 30%;
