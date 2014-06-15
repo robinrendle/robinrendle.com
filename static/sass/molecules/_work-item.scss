@@ -187,8 +187,12 @@
     padding-top: rem-calc(10);
     background: url('/build/static/images/work/endsleigh/endsleigh-illustration.jpg') no-repeat;
     background-size: 100%;
-    background-position: 0 rem-calc(300);
+    background-position: 0 rem-calc(430);
     padding-top: rem-calc(70);
+
+    @include respond-to("medium and above"){
+        background-position: 0 rem-calc(300);
+    }
     
     @include respond-to("large and above"){
         .work-item__heading:before {
