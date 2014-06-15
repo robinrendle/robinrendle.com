@@ -25,7 +25,9 @@
 }
 
 .container--work {
-    border: none;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none;
 
     header h1 {
         margin-bottom: 0;

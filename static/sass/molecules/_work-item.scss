@@ -6,12 +6,8 @@
 .work-body {
     max-width: rem-calc(1100);
     margin: 0 auto;
-    border-left: 5px solid #ddd;
-    border-right: 5px solid #ddd;    
 
     @include respond-to("largest only"){
-        border-left: 1px solid #ccc;
-        border-right: 1px solid #ccc;
         background-color: #DDDDDD;
     }
 }
@@ -87,6 +83,7 @@
 .work-item--projects {
     border: none;
     padding-bottom: 0;
+    margin-bottom: rem-calc(50);
 
     .work-item__heading {
         margin-bottom: rem-calc(30);

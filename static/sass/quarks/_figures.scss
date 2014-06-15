@@ -18,6 +18,12 @@ figure {
     &.centre {
         clear:both;
     }
+
+    // Every figure on the work detail pages needs extra margins
+    .container--work-detail & {
+        margin-bottom: rem-calc(70);
+    }
+
 }
 
 figcaption {
@@ -219,7 +225,7 @@ figcaption {
         border-radius: rem-calc(3);
         background-color: darken($color__secondary, 5);
     }
-    
+
     // hide controls for every video in the browser
     video::-webkit-media-controls {
         display:none !important;
@@ -235,14 +241,23 @@ figcaption {
 }
 
 .explainer {
+    max-width: rem-calc(550);
+    margin-top: rem-calc(20);
+
     p {
-        font-size: rem-calc(17);
+        font-size: rem-calc(18);
+        line-height: 1.45;
         font-style: normal;
-        max-width: rem-calc(450);
     }
 
     .h4 {
+        color: #444;
         margin-top: 0;
+        margin-bottom: rem-calc(2);
+    }
+
+    .pull_left + &:nth-child(2n) {
+        max-width: none;
     }
 }
 

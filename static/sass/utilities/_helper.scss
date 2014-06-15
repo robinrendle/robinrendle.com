@@ -51,21 +51,33 @@
         margin-right: rem-calc(30);
         width: 35%;
     }
+
+    &.pull_left--small {
+        @include respond-to("medium and above"){
+            float: left;
+            margin-right: rem-calc(30);
+            width: 31%;
+        }        
+    }
 }
 
 
 .pull_right {
-
     @include respond-to("small and above"){
         float: right;
         margin-left: rem-calc(30);
         width: 35%;
     }
+}
 
-    @include breakpoint(1400px){
-        width:40%;
-        float: right;
-        position:relative;
-        margin-right:-45%;
-    }
+.pull_right--small {
+    margin-top: rem-calc(20);
+
+    @include respond-to("medium and above"){
+        &.explainer {
+            margin-top: 0;
+            float: right;
+            width: 30%;
+        }
+    }        
 }

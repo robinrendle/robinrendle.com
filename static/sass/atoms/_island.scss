@@ -35,6 +35,15 @@
     }
 }
 
+// line height hack for the work detail pages
+.island--primary {
+    .island--meta ul li, .island--meta ol li {
+        .container--work-detail & {
+            line-height: 1.45;
+        }
+    }
+}
+
     /**
      * Transparent island
      */
@@ -184,6 +193,10 @@
     @include respond-to("medium and above"){
         margin-bottom: rem-calc($base-spacing-unit * 2);
         padding-bottom: rem-calc($base-spacing-unit);
+    }
+
+    .container--work-detail & {
+        margin-bottom: rem-calc(40);
     }
 }
 
