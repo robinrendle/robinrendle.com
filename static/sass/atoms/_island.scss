@@ -37,6 +37,10 @@
 
 // line height hack for the work detail pages
 .island--primary {
+    .island--meta ul {
+        margin-bottom: 0;
+    }
+
     .island--meta ul li, .island--meta ol li {
         .container--work-detail & {
             line-height: 1.45;
