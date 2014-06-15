@@ -25,6 +25,7 @@
 
 .drop-cap--shadow {
     margin-bottom: rem-calc(40);
+
     &:first-letter {
         @include respond-to("large and above"){
             font-weight: bold;
@@ -32,7 +33,7 @@
             line-height: .95;
             float: left;
             margin-top: rem-calc(3);
-            margin-bottom: rem-calc(-20);
+            margin-bottom: 0;
             margin-right: rem-calc(6);
             margin-left: 0;
             color: white;

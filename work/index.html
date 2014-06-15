@@ -26,6 +26,13 @@
     <!-- Prefetching -->
     <link rel="dns-prefetch" href="//cloud.typography.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+    <style>
+    .footer .island--meta ul {margin-bottom: 20px; margin-top: 10px;}
+    .footer .island--meta ul li {color: #ccc; font-family: 'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif; font-size: 15px;}
+    .footer a {color: #ccc; border-bottom-color: #888;}
+    .footer a:hover {color: #aaa; border-bottom-color: #555;}
+    </style>
 </head>
 
 
@@ -114,17 +121,20 @@
     </section>
 
     <div class="footer island--illustration island--{{meta.abbr}}">
-    <div class="container">        
-        <nav class="nav--fork">
-            <ul>
-                <li class="nav--fork__link"><a href="http://github.com/robinrendle">Github</a></li>
-                <li class="nav--fork__link"><a href="http://twitter.com/robinrendle">Twitter<a></li>
-                <li class="nav--fork__link"><a href="mailto:desk@robinrendle.com">Email</a></li>
-
-            </ul>
-        </nav>
+        <div class="container container--wide">   
+        <div class="island--meta">
+<ul>
+<li>You can find me on Twitter: <a href="http://twitter.com/robinrendle">@robinrendle</a></li>
+<li>Fork my work over on <a href="http://github.com/robinrendle">Github</a></li>
+<li>Or feel free to contact me about a cool project by <a href="mailto:desk@robinrendle.com">email</a></li>
+</ul>
+</div>     
+            <div class="meta-rule">
+                <div class="meta-rule__item h--uppercase">Work + projects</div>
+                <div class="meta-rule__item">Thanks for reading!</div>
+            </div>
+        </div><!-- //.container -->
     </div>
-</div>
 
     </body>
 </html>

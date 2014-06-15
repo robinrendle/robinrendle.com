@@ -38,7 +38,13 @@
 // line height hack for the work detail pages
 .island--primary {
     .island--meta ul {
-        margin-bottom: 0;
+        @include respond-to("large and above"){
+            margin-bottom: rem-calc(20);
+        }
+
+        @include respond-to("largest only"){
+            margin-bottom: 0;
+        }
     }
 
     .island--meta ul li, .island--meta ol li {
@@ -87,6 +93,12 @@
             border-bottom: 1px dotted darken($color__island, 10);
             padding-bottom: rem-calc($half-spacing-unit / 2);
             margin-bottom: rem-calc($half-spacing-unit / 1.5);
+
+            .footer & {
+                margin: 0;
+                border: none;
+                padding: 0;
+            }
         }
 
         .footer & ul {
@@ -174,13 +186,18 @@
 
 .island--meta + .island--meta {
     @include respond-to("large and above"){
+        min-width: 50%;
+        overflow:visible;
 
         ul {
+            -moz-column-count: 2;
             -webkit-column-count: 2;
             -webkit-column-gap: 0;
 
             li {
+                white-space: nowrap;    
                 -webkit-column-break-inside: avoid;
+                break-inside: avoid-column;
             }
         }
     }

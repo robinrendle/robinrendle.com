@@ -205,6 +205,10 @@ h5, .h5 {
 .h--light {
     color: #eee;
     color: rgba(255,255,255,0.6) !important;
+
+    .footer & {
+        margin-top: 0;
+    }
 }
 
 .h--uppercase {
