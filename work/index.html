@@ -26,29 +26,6 @@
     <!-- Prefetching -->
     <link rel="dns-prefetch" href="//cloud.typography.com">
     <link rel="dns-prefetch" href="//www.google-analytics.com">
-
-    <style>
-
-        .banner__headline a {
-            background-color: {{meta.color}};
-        }
-
-        a {
-            color: {{meta.color}};
-            border-color: {{meta.color}};
-        }
-
-        a:hover,
-        a:focus {
-            color: {{meta.color}};   
-            border-color: {{meta.color}};
-        }
-
-        .island--primary,
-        .footer {
-            background-color: {{meta.color}};
-        }
-    </style>
 </head>
 
 
@@ -135,6 +112,19 @@
             </ul>
         </div>
     </section>
+
+    <div class="footer island--illustration island--{{meta.abbr}}">
+    <div class="container">        
+        <nav class="nav--fork">
+            <ul>
+                <li class="nav--fork__link"><a href="http://github.com/robinrendle">Github</a></li>
+                <li class="nav--fork__link"><a href="http://twitter.com/robinrendle">Twitter<a></li>
+                <li class="nav--fork__link"><a href="mailto:desk@robinrendle.com">Email</a></li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
 
     </body>
 </html>
