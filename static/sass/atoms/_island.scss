@@ -102,7 +102,14 @@
         }
 
         .footer & ul {
-            margin-bottom: 0;
+            margin-top: rem-calc(10);
+            margin-bottom: rem-calc(20);
+
+            li {
+                @extend %font__text--sub;
+                color: #ddd;
+                font-size: rem-calc(16);
+            }
         }
 
         ul,
@@ -129,7 +136,7 @@
         }
     }
 
-// 
+// WORK
 // ==========================================================================
 
 .island--illustration {
