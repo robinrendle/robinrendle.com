@@ -1,0 +1,8 @@
+.*
+Gemfile*
+LICENSE
+README.md
+static/*
+Gruntfile.js
+node_modules
+node_modules/*
