@@ -95,6 +95,12 @@
 .work-item__content {
     @extend .cf;
     width: 100%;
+
+    p {
+        @include respond-to("large and above"){
+            line-height: 1.8;
+        }
+    }
 }
 
 .work-item__about {
@@ -120,7 +126,7 @@
             position: absolute;
             top: rem-calc(2);
             left: rem-calc(-35);
-            color: #E4E4E4;
+            color: #F8F8F8;
             border-radius: 100%;
             line-height: 1;
             font-size: rem-calc(20);
