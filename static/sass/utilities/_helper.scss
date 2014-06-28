@@ -58,10 +58,10 @@
     }
 
     &.pull_left--small {
-        @include respond-to("large and above"){
+        @include respond-to("largest only"){
             float: left;
             margin-right: rem-calc(30);
-            width: 31%;
+            width: 30%;
         }        
     }
 }
@@ -72,6 +72,12 @@
         float: right;
         margin-left: rem-calc(30);
         width: 35%;
+    }
+
+    &.pull_right--small {
+        @include respond-to("largest only"){
+            float: left;
+        }
     }
 }
 
@@ -86,7 +92,7 @@
         }
     }
 
-    @include respond-to("large and above"){
+    @include respond-to("largest only"){
         &.explainer {
             clear: none;
             margin-top: 0;

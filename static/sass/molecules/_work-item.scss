@@ -64,10 +64,11 @@
 .work-item__btn {
     @extend %font__text--display;
     text-decoration: none;
-    background-color: #E5E5E5;
-    border: 1px solid #ccc;
+    background-color: #eee;
+    border: 1px solid #ddd;
     color: #666;
     font-weight: normal;
+    font-size: rem-calc(15);
     padding: rem-calc(2) rem-calc(6);
     border-radius: 3px;
     white-space: nowrap;
@@ -76,7 +77,7 @@
     &:focus {
         color: #444;
         background-color: #ddd;
-        border: 1px solid #bbb;
+        border: 1px solid #ccc;
     }
 }
 
@@ -105,10 +106,14 @@
 }
 
 .work-item__heading {
-    font-size: rem-calc(24);
+    font-size: rem-calc(21);
     margin: 0;
     margin-bottom: rem-calc(5);
     position: relative;
+
+    @include respond-to("medium and above"){
+        font-size: rem-calc(24);
+    }
 
     @include respond-to("large and above"){
         &:before {
@@ -185,16 +190,18 @@
 
 .work-item--endsleigh {
     padding-top: rem-calc(10);
-    background: url('/build/static/images/work/endsleigh/endsleigh-illustration.jpg') no-repeat;
+    background: url('/build/static/images/work/endsleigh/endsleigh-figure.png') no-repeat;
     background-size: 100%;
     background-position: 0 rem-calc(430);
     padding-top: rem-calc(70);
 
     @include respond-to("medium and above"){
-        background-position: 0 rem-calc(300);
+        background-position: 0 rem-calc(400);
     }
     
     @include respond-to("large and above"){
+        background-position: 0 rem-calc(350);
+
         .work-item__heading:before {
             content: "1";
             background-color: #482F81;
@@ -237,5 +244,9 @@
         }
 
         padding-bottom: rem-calc(30);
+    }
+
+    img {
+        margin-left: rem-calc(-15);
     }
 }
