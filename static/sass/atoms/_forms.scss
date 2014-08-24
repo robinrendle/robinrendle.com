@@ -10,6 +10,7 @@ input {
 }
 
 input[type="email"] {
+    margin-right: rem-calc(10);
     border: 1px solid #ddd;
     background-color: #eee;
     border-radius: 2px;
@@ -34,6 +35,11 @@ input[type="email"] {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color: #777;
+}
+
+
+.form--subscribe {
+    display: flex;
 }
 
 .form__button {
