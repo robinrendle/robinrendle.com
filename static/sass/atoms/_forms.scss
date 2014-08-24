@@ -1,0 +1,49 @@
+// ==========================================================================
+// FORMS
+// ========================================================================== 
+
+input {
+    -webkit-font-smoothing: antialiased;
+    -webkit-appearance: none;
+    padding: rem-calc(10);
+    display: inline-block;
+}
+
+input[type="email"] {
+    border: 1px solid #ddd;
+    background-color: #eee;
+    border-radius: 2px;
+    width: 70%;
+    max-width: rem-calc(300);
+    color: #555;
+
+    &:focus {
+        outline: none;
+        border: 1px solid #66AE89;
+    }
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #777;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #777;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #777;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #777;
+}
+
+.form__button {
+    background-color: #ddd;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+
+    &:hover, &:focus {
+        background-color: #ccc;
+        border: 1px solid #bbb;
+    }
+}
