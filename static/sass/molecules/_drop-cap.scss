@@ -28,7 +28,7 @@
     &:first-letter {
         @include respond-to("large and above"){
             font-weight: bold;
-            font-size: rem-calc(62);
+            font-size: rem-calc(65);
             line-height: .95;
             float: left;
             margin-top: rem-calc(3);
