@@ -48,11 +48,15 @@ body {
             content: "breakpoint--medium";
         }
     }
+    
+    @include respond-to("large and above"){
+        font-size: 110%;
+    }
 
-    @include respond-to("large and above") {
+    @include respond-to("largest only") {
         border-left: 10px solid #ddd;
         border-right: 10px solid #ddd;
-        font-size: 110%;
+        font-size: 116%;
         line-height: 1.7;
     }
 }

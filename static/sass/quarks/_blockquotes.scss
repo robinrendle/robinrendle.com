@@ -14,7 +14,7 @@ blockquote {
         padding-bottom: rem-calc($half-spacing-unit);
         margin-bottom:0;
         width:100%;
-        color: $color__grey--mid;
+        color: #777;
         border-left:2px solid #eaeaea;
 
         &:only-child {
@@ -26,7 +26,7 @@ blockquote {
         }
 
         @include respond-to("large and above"){
-            line-height: 1.5;
+            line-height: 1.55;
         }
     }
 

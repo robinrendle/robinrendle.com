@@ -8,9 +8,7 @@
 .drop-cap {
     &:first-letter {
         @include respond-to("large and above"){
-            font-family: 'Whitney A', 'Whitney B', Georgia, serif;
-            font-weight: $font-weight--medium;
-            font-style: normal;
+            font-family: 'Ideal Sans A', 'Ideal Sans B'; font-weight: 400; font-style: normal;
             font-size: rem-calc(116);
             line-height: .7;
             float: left;

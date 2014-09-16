@@ -20,32 +20,27 @@
     $font-weight--black: 700;
 
     %font__headline {
-        font-family: 'Whitney A', 'Whitney B', Georgia, serif;
-        font-weight: $font-weight--bold;
-        font-style: normal;
+        font-family: 'Ideal Sans A', 'Ideal Sans B'; font-weight: 500; font-style: normal;
     }
 
     %font__text--display {
-        font-family: 'Whitney A', 'Whitney B', Georgia, serif;
-        font-weight: $font-weight--bold;
-        font-style: normal;
+        font-family: 'Ideal Sans A', 'Ideal Sans B'; font-weight: 500; font-style: normal;
     }
 
     %font__text {
-      font-family:'Chronicle SSm A', 'Chronicle SSm B', Georgia, serif;
-      font-weight: $font-weight--regular;
-      font-style: normal;
+        font-family: 'Mercury SSm A', 'Mercury SSm B', Georgia, serif; 
+        font-weight: $font-weight--regular; 
+        font-style: normal;
     }
 
     %font__text--sub {
-        font-family: 'Whitney A', 'Whitney B', Georgia, serif;
-        font-weight: $font-weight--medium;
+        font-family: 'Ideal Sans A', 'Ideal Sans B'; font-weight: 400;
     }
 
     %font__text--sc {
-        font-family: 'Chronicle SSm Small Caps A', 'Chronicle SSm Small Caps B', Georgia, serif;
+        font-family: 'Mercury SSm small caps A', 'Mercury SSm small caps B', Georgia, serif;
+        font-weight: 400; 
         font-style: normal;
-        font-weight: $font-weight--regular;
 
         .fontface & {
             text-transform: lowercase;

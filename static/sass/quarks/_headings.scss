@@ -12,12 +12,16 @@
 
 @mixin headline-one {
     @extend %font__headline;
-    font-size: rem-calc($h1-size);
+    font-size: rem-calc($h1-size - 4);
     color: $color__lightblack;
     line-height: 1.15;
 
+    @include respond-to("small and above"){
+        font-size: rem-calc($h1-size);
+    }
+
     @include respond-to("medium and above") {
-        font-size: rem-calc(($h1-size + 10));
+        font-size: rem-calc(($h1-size + 8));
     }
 }
 
@@ -45,14 +49,14 @@
     line-height: rem-calc(28);
 
     @include respond-to("medium and above"){
-        font-size: rem-calc(20);
+        font-size: rem-calc(21);
         line-height: rem-calc(32);
     }
 }
 
 @mixin headline-four {
     @extend %font__text--display;
-    font-size: rem-calc($epsilon-size);
+    font-size: rem-calc(14);
     line-height: rem-calc(22);
     margin-bottom: 0;
     text-transform: uppercase;
@@ -92,7 +96,7 @@
     }
 
     @include respond-to("large and above"){
-        font-size:rem-calc(21);
+        font-size:rem-calc(22);
     }
 }
 

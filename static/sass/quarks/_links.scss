@@ -7,17 +7,17 @@
 
 a {
     @include transition(all .2s ease-in-out);
-    color: darken($color__green, 3);
+    color: $color__red;
     line-height: 1;
     text-decoration: none;
-    border-bottom: 1px dotted lighten($color__green, 15);
+    border-bottom: 1px dotted lighten($color__red, 15);
 
     &:hover,
     &:focus {
-        color: darken($color__green, 12);
+        color: darken($color__red, 12);
         text-decoration: none;
         line-height:1;
-        border-bottom: 1px solid lighten($color__green, 10);
+        border-bottom: 1px solid lighten($color__red, 10);
     }
 
     h1 & {

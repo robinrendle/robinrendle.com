@@ -14,4 +14,6 @@ p {
     -ms-hyphens:auto;
     -o-hyphens:auto;
     hyphens:auto;
+    -webkit-hyphenate-limit-lines: 2;
+    hyphenate-limit-lines: 2;
 }
