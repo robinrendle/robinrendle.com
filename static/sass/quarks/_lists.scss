@@ -8,7 +8,7 @@
 // Remove vertical spacing from nested lists.
 //
 li {
-    margin-bottom: rem-calc($quarter-spacing-unit);
+    // margin-bottom: rem-calc($quarter-spacing-unit);
 
     > ul,
     > ol{
@@ -45,18 +45,17 @@ ul {
 
         &:before {
             position: absolute;
-            left: rem-calc(- 15);
-            height: 6px;
-            width: 6px;
-            top: rem-calc(11);
-            border-radius: 50%;
+            left: rem-calc(- 17);
+            height: 2px;
+            width: 10px;
+            top: rem-calc(13);
             content:"";
-            background-color: $color__green;
+            background-color: #ccc;
             padding: 0;
             margin: 0;
 
             @include respond-to("medium and above"){
-                top: rem-calc(14);
+                top: rem-calc(16);
             }
         }
     }
