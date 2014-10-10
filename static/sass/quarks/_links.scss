@@ -37,3 +37,13 @@ a {
         border-bottom: none;
     }
 }
+
+
+.link--hide {
+    &,
+    &:hover, 
+    &:focus {
+        border: none;
+        text-decoration: none;
+    }
+}
