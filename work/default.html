@@ -58,13 +58,7 @@
         .banner__nav__menu:focus {
             color: #bbbbbb;
         }
-        
-        @media (min-width: 45.625em) {
-            .drop-cap--shadow:first-letter {
-                color: {{meta.primary-color}};
-            }
-        }
-
+    
         article a {
             color: {{meta.primary-color}};
             border-color: {{meta.primary-color}};
@@ -83,11 +77,9 @@
 </head>
 
 <body class="container--work container--work-detail">
-    
     <section role="main">
         <div class="island--primary island--hero island--illustration island--{{meta.abbr}}">
             <div class="container container--wide">
-
                 <div class="meta-rule">
                     <div class="meta-rule__item">
                         <a class="meta-rule__link" href="/work">« Back to all projects</a>
@@ -96,7 +88,11 @@
                 </div>
 
                 <h1 class="heading--reversed">{{title}}</h1>
-                
+               
+                {% if meta.Extract %}
+                    <p class="drop-cap--shadow">{{meta.Extract.value }}</p>
+                {% endif %}
+
                 {% if meta.Role || meta.team %}
                     {% if meta.Role %}
                         <aside class="island--meta">
@@ -111,19 +107,11 @@
                         </aside>
                     {% endif %}
                 {% endif %}
-
             </div><!-- //.container -->
         </div>
 
         <article class="container container--wide">
-
-            <!-- The article’s summary -->
-            {% if meta.Extract %}
-                    <p class="drop-cap--shadow">{{meta.Extract.value }}</p>
-            {% endif %}
-        
             {{body}}
-
         </article>
 
 <div class="footer island--illustration island--{{meta.abbr}}">

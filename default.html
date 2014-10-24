@@ -12,9 +12,7 @@
 
     <article class="h-entry container">
         <header class="heading-group">
-            
             <div class="meta-info-block">
-
                 <p class="meta-info-block__item">
                     {% if taxonomy.city %}
                         {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}

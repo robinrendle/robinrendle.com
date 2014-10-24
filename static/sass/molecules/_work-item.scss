@@ -244,7 +244,7 @@
 
     @include respond-to("large and above"){
         background-size: 100%;
-        padding-bottom: rem-calc(30);
+        padding-bottom: rem-calc(40);
     }
 
     .work-item__content {

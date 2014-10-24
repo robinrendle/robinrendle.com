@@ -24,20 +24,11 @@
 .drop-cap--shadow {
     margin-bottom: rem-calc(40);
     max-width: 46rem;
+    color: white;
+    color: rgba(255,255,255,.8);
+    font-size: rem-calc(16);
 
-    &:first-letter {
-        @include respond-to("large and above"){
-            font-weight: bold;
-            font-size: rem-calc(65);
-            line-height: .95;
-            float: left;
-            margin-top: rem-calc(3);
-            margin-bottom: 0;
-            margin-right: rem-calc(6);
-            margin-left: 0;
-            color: white;
-            padding: 0;
-            background-color: transparent;
-        }
+    @include respond-to("medium and above"){
+        font-size: rem-calc(18);
     }
 }
