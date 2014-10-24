@@ -23,7 +23,7 @@
 
 .drop-cap--shadow {
     margin-bottom: rem-calc(40);
-    max-width: 41rem;
+    max-width: 46rem;
 
     &:first-letter {
         @include respond-to("large and above"){

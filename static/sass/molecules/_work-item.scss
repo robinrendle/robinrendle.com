@@ -25,7 +25,7 @@
         margin-bottom: 0;
         background-color: transparent;
         background-color: rgba(255,255,255,0.05);
-        border: 1px solid rgba(0,0,0,.2);
+        border: 1px solid rgba(0,0,0,.1);
 
         img {
             border: 1px solid #E5E5E5;
@@ -91,6 +91,10 @@
 .work-item__content {
     @extend .cf;
     width: 100%;
+
+    @include respond-to("large and above"){
+        margin-bottom: rem-calc(20);
+    }
 
     p {
         @include respond-to("large and above"){
@@ -240,6 +244,13 @@
 
     @include respond-to("large and above"){
         background-size: 100%;
+        padding-bottom: rem-calc(30);
+    }
+
+    .work-item__content {
+        @include respond-to("large and above"){
+            margin-bottom: 0;
+        }
     }
 
     &:before {
@@ -252,7 +263,7 @@
         right: 0;
         bottom: 0;
         top: 0;
-        background-color: rgba(0,0,0,.3);
+        background-color: rgba(0,0,0,.1);
         z-index: 1;
     }
 
@@ -265,15 +276,14 @@
         color: #ccc;
     }
 
-    @include respond-to("large and above"){
-        .work-item__heading:before {
+    
+    .work-item__heading:before {
+        @include respond-to("large and above"){
             content: "4";
             padding: 4px 7px 10px;
             line-height: .6;
             font-size: rem-calc(19);
         }
-
-        padding-bottom: rem-calc(60);
     }
 }
 
