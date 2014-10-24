@@ -32,12 +32,6 @@
     header h1 {
         margin-bottom: 0;
     }
-
-    .footer {
-        background-color: #333;
-        border: none;
-        margin: 0;
-    }
 }
 
 .container--work-index {
@@ -79,6 +73,6 @@
 .container--wide {
     @include respond-to("large and above"){
         padding: 0;
-        max-width: rem-calc(790);
+        max-width: rem-calc(900);
     }
 }

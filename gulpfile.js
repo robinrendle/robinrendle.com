@@ -39,7 +39,6 @@ gulp.task('images', function () {
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}]
-            // use: [pngquant()]
         }))
         .pipe(gulp.dest('build/images'));
 });

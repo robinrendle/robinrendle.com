@@ -45,7 +45,7 @@
 
 // BLOCK LIST on the work index page – refactor this nastiness
 .block-list--small {
-    border-bottom: 1px dotted #dddddd;
+    border-bottom: 1px dotted #525252;
     padding-bottom: rem-calc(30);
 
     &:last-of-type {
@@ -78,11 +78,11 @@
         font-size: rem-calc(16);
 
         h3 > a {
-            color: #666;
+            color: white;
             border: none;
 
             &:hover {
-                color: #888;
+                color: #eee;
             }
         }
     }

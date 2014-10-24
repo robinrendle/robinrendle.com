@@ -20,16 +20,12 @@
 
 
 // CONFIG & SETTINGS
-// ==========================================================================
-
 @import "config/config";
-
 @import "tools/tools";
 
 
 
 // UTILITIES : refactor this into /config and /tools directories
-
 @import "defaults";
 @import "utilities/reset";
 @import "utilities/base-spacing";

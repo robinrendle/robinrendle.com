@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
 
-    <title>{{site.title}} › Work</title>
+    <title>{{site.title}} – Work</title>
 
     <meta name="author" content="Robin Rendle">
     <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
@@ -12,13 +12,13 @@
     
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
-    <link rel="shortcut icon" href="/assets/images/icons/favicon.ico">
+    <link rel="shortcut icon" href="/build/images/favicon/favicon.ico">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/build/static/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/build/css/style.min.css" />
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/794542/css/fonts.css" />
@@ -48,7 +48,7 @@
     
     <div class="work-item work-item--title">
         <div class="container container--wide">
-            <div class="meta-rule meta-rule--dark">
+            <div class="meta-rule">
                 <div class="meta-rule__item h--uppercase">Robin Rendle</div>
                 <div class="meta-rule__item">2013–2014</div>
             </div>
@@ -56,8 +56,6 @@
             <header>
                 <h1>{{title}}</h1>
             </header>
-
-            <p>This is a collection of websites and open source projects that I’ve contributed to in the past twelve months. Typically my responsibilities lie within the realm of front-end development, <abbr>CSS</abbr> architecture and performance, although I’ve also been thrilled to work on a few design-heavy projects, too.</p>
         </div><!-- //.container -->
     </div>
 
@@ -101,42 +99,33 @@
     <section class="work-item work-item--projects">
 
         <div class="container container--wide">
-            <h2 class="work-item__heading">Open source contributions</h2>
 
-                <article class="media block-list--small">
-                    <a class="media__img" href="https://github.com/ultimate-package">
-                        <img src="/build/static/images/projects/ultimate-package.svg" alt="The Ultimate Package">
-                    </a>
-                    <div class="media__body">
-                        <h3><a href="https://github.com/ultimate-package">The Ultimate Package</a></h3>
-                        <p>This is a collection of front-end tools for quickly building prototypes. For instance, I built a font-scale mixin and a grid system which has been designed to plug in and play with other Bower components.
-                        </p>
-                    </div>
-                </article>
+            <article class="media block-list--small">
+                <a class="media__img" href="https://github.com/ultimate-package">
+                    <img src="/build/static/images/projects/ultimate-package.svg" alt="The Ultimate Package">
+                </a>
+                <div class="media__body">
+                    <h3><a href="https://github.com/ultimate-package">The Ultimate Package</a></h3>
+                    <p>This is a collection of front-end tools for quickly building prototypes. For instance, I built a font-scale mixin and a grid system which has been designed to plug in and play with other Bower components.
+                    </p>
+                </div>
+            </article>
 
-                <article class="media block-list--small">
-                    <a class="media__img" href="https://github.com/robinrendle/atomic-framework"><img src="/static/images/projects/atomic.png" alt="The Atomic Sass Framework"></a>      
+            <article class="media block-list--small">
+                <a class="media__img" href="https://github.com/robinrendle/atomic-framework"><img src="/static/images/projects/atomic.png" alt="The Atomic Sass Framework"></a>      
 
-                    <div class="media__body">          
-                        <h3>
-                            <a href="https://github.com/robinrendle/atomic-framework">The Atomic Sass framework</a>
-                        </h3>
-                        <p>The aim of this framework was to decrease the complexity of making large design systems with Sass by scoping similar styles together. This was my first take on how to build a maintainable front-end interface for other developers.</p>
-                    </div>
-                </article>
-            </ul>
+                <div class="media__body">          
+                    <h3>
+                        <a href="https://github.com/robinrendle/atomic-framework">The Atomic Sass framework</a>
+                    </h3>
+                    <p>The aim of this framework was to decrease the complexity of making large design systems with Sass by scoping similar styles together. This was my first take on how to build a maintainable front-end interface for other developers.</p>
+                </div>
+            </article>
         </div>
     </section>
 
     <div class="footer island--illustration island--{{meta.abbr}}">
         <div class="container container--wide">   
-        <div class="island--meta">
-<ul>
-<li>You can find me on Twitter: <a href="http://twitter.com/robinrendle">@robinrendle</a></li>
-<li>Fork my work over on <a href="http://github.com/robinrendle">Github</a></li>
-<li>Or feel free to contact me about a cool project by <a href="mailto:desk@robinrendle.com">email</a></li>
-</ul>
-</div>     
             <div class="meta-rule">
                 <div class="meta-rule__item h--uppercase">Work + projects</div>
                 <div class="meta-rule__item">Thanks for reading!</div>

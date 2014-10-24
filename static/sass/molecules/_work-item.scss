@@ -2,15 +2,6 @@
 // WORK ITEM 
 // ========================================================================== 
 
-//html element
-.work-body {
-    max-width: rem-calc(1100);
-    margin: 0 auto;
-
-    @include respond-to("largest only"){
-        background-color: #DDDDDD;
-    }
-}
 
 
 // Custom styles for the work page
@@ -18,29 +9,34 @@
 .work-item {
     padding-top: rem-calc(50);
     padding-bottom: rem-calc(70);
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #444;
+
+    @include respond-to("large and above"){
+        padding-top: rem-calc(80);
+    }
 
     p {
         font-size: rem-calc(17);
-        color: #444;
+        color: rgba(255,255,255,0.8);
         margin-bottom: rem-calc(20);
     }
 
     .figure-browser {
         margin-bottom: 0;
         background-color: transparent;
-        border: 1px solid #E5E5E5;
+        background-color: rgba(255,255,255,0.05);
+        border: 1px solid rgba(0,0,0,.2);
 
         img {
             border: 1px solid #E5E5E5;
         }
 
         &:before {
-            color: #ddd;
+            color: rgba(0,0,0,.3);
         }
 
         &:after {
-            background-color: #E5E4E4;
+            background-color: rgba(0,0,0,.15);
         }
     }
 }
@@ -48,6 +44,11 @@
 .work-item--title{
     padding: 0;
     border: none;
+    background-color: #5A57A9;
+
+    h1 {
+        color: white;
+    }
 
     p {
         margin-top: rem-calc(20);
@@ -64,9 +65,9 @@
 .work-item__btn {
     @extend %font__text--display;
     text-decoration: none;
-    background-color: #eee;
-    border: 1px solid #ddd;
-    color: #666;
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgba(255,255,255,.6);
     font-weight: normal;
     font-size: rem-calc(15);
     padding: rem-calc(2) rem-calc(6);
@@ -75,22 +76,11 @@
 
     &:hover,
     &:focus {
-        color: #444;
-        background-color: #ddd;
-        border: 1px solid #ccc;
+        color: rgba(255,255,255,.8);
+        background-color: rgba(0,0,0,.3);
+        border: 1px solid rgba(0,0,0,.3);
     }
 }
-
-.work-item--projects {
-    border: none;
-    padding-bottom: 0;
-    margin-bottom: rem-calc(50);
-
-    .work-item__heading {
-        margin-bottom: rem-calc(30);
-    }
-}
-
 
 .work-item__content {
     @extend .cf;
@@ -107,7 +97,7 @@
     @include respond-to("large and above"){
         float: left;
         width: 70%;
-        max-width: rem-calc(550);
+        max-width: rem-calc(750);
     }
 }
 
@@ -127,6 +117,7 @@
             top: rem-calc(2);
             left: rem-calc(-35);
             color: #F8F8F8;
+            background-color: rgba(0,0,0,.3);
             border-radius: 100%;
             line-height: 1;
             font-size: rem-calc(20);
@@ -137,12 +128,12 @@
     a {
         text-decoration: none;
         border: none;
-        color: #444;
+        color: white;
 
         &:hover,
         &:focus {
             border: none;
-            color: #777;
+            color: #eee;
         }
     }
 }
@@ -166,7 +157,7 @@
     ul>li {
         position: relative;
         margin-bottom: 0;
-        color: #888888;
+        color: rgba(0,0,0,.4);
         line-height: 1.3;
 
         &:before {
@@ -196,10 +187,11 @@
 
 .work-item--endsleigh {
     padding-top: rem-calc(10);
-    background: url('/build/static/images/work/endsleigh/endsleigh-figure.png') no-repeat;
+    background: url('/build/images/work/endsleigh/endsleigh-figure.png') no-repeat;
     background-size: 100%;
     background-position: 0 rem-calc(430);
     padding-top: rem-calc(70);
+    background-color: #5A57A9;
 
     @include respond-to("medium and above"){
         background-position: 0 rem-calc(400);
@@ -210,28 +202,28 @@
 
         .work-item__heading:before {
             content: "1";
-            background-color: #482F81;
             padding: 1px 9px 4px;
         }
     }
 }
 
 .work-item--ncc {
+    background-color: #4F9B5A;
 
     @include respond-to("large and above"){
         .work-item__heading:before {
             content: "2";
             padding: 0 7px 4px;
-            background-color: #4AA243;
         }
     }
 }
 
 .work-item--erskine {
+    background-color: #A04242;
+
     @include respond-to("large and above"){
         .work-item__heading:before {
             content: "3";
-            background-color: #AB1001;
             padding: 2px 7px 8px 7px;
             line-height: .7;
             font-size: rem-calc(19);
@@ -240,10 +232,11 @@
 }
 
 .work-item--sc {
+    background-color: #4F6A9B;
+
     @include respond-to("large and above"){
         .work-item__heading:before {
             content: "4";
-            background-color: #FB7336;
             padding: 4px 7px 10px;
             line-height: .6;
             font-size: rem-calc(19);
@@ -254,5 +247,24 @@
 
     img {
         margin-left: rem-calc(-15);
+    }
+}
+
+.work-item--projects {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-color: #474747;
+
+    .work-item__heading {
+        margin-bottom: rem-calc(30);
+    }
+}
+
+.container--work {
+    .footer {
+        background-color: #474747;
+        border: none;
+        margin: 0;
     }
 }
