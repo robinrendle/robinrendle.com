@@ -38,6 +38,12 @@
         &:after {
             background-color: rgba(0,0,0,.15);
         }
+
+        &:hover,
+        &:focus {
+            background-color: rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,.1);
+        }
     }
 }
 
@@ -133,7 +139,7 @@
         &:hover,
         &:focus {
             border: none;
-            color: #eee;
+            color: rgba(255,255,255,0.8);
         }
     }
 }
@@ -177,11 +183,6 @@
 
     figure {
         @include transition(all .3s ease-in-out);
-
-        &:hover,
-        &:focus {
-            -webkit-filter: grayscale(100%);
-        }
     }
 }
 
@@ -232,7 +233,13 @@
 }
 
 .work-item--sc {
-    background-color: #4F6A9B;
+    background-color: #333333;
+    background: url("/build/images/work/sc/sc-background.jpg") 0 0 no-repeat;
+    background-size: 100%;
+    
+    .work-item__list ul>li {
+        color: #ccc;
+    }
 
     @include respond-to("large and above"){
         .work-item__heading:before {
@@ -242,11 +249,7 @@
             font-size: rem-calc(19);
         }
 
-        padding-bottom: rem-calc(30);
-    }
-
-    img {
-        margin-left: rem-calc(-15);
+        padding-bottom: rem-calc(60);
     }
 }
 
