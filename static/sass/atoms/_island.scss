@@ -164,6 +164,10 @@
 .island--ncc {
     background-image: url('/build/images/work/ncc/ncc-background.jpg');
     background-position: 0;
+
+    @include respond-to("largest only"){
+        background-position: 0 -100px;
+    }
 }
 
 .island--erskine {
