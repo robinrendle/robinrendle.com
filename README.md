@@ -3,10 +3,10 @@
 
 My personal blog and website.
 
-## Workflow
+## CMS
 
-1. Navigate to the dir and run `grunt` in the command line. This will concatenate and minify JS files as well as compile all of the Sass files.
+For the moment I’m extremely happy with [Siteleaf](http://www.siteleaf.com/) for editing content and quickly prototyping new ideas.
 
 ## Typography
 
-All fonts are served via Hoefler & Co. with titling faces set in Ideal Sans whilst running text is set in the luscious Mercury.
+All fonts are served via [Hoefler & Co](http://www.typography.com/), with titling faces set in [Ideal Sans](http://www.typography.com/fonts/ideal-sans/overview/) whilst running text is set in the luscious [Mercury](http://www.typography.com/fonts/mercury-text/overview/).

@@ -12,7 +12,7 @@
     
     <!-- Favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
-    <link rel="shortcut icon" href="/build/favicon/dagger.ico">
+    <link rel="shortcut icon" href="/build/images/favicon/dagger.ico">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
@@ -79,16 +79,18 @@
                         </div>
                     </div><!-- //.work-item-content -->
                     
-                    <a href="{{page.url}}" class="work-item__image">
                         {% if page.meta.feature-browser == 'true' %}
-                            <figure class="figure-browser">
-                                <img src="{{page.meta.hero}}">
-                            </figure>
-        
-                            {% else %}
+                            <a href="{{page.url}}" class="work-item__image">
+                                <figure class="figure-browser">
+                                    <img src="{{page.meta.hero}}">
+                                </figure>
+                            </a>
+                        {% elsif page.meta.hero %}
+                            <a href="{{page.url}}" class="work-item__image">
                                 <figure>
                                     <img src="{{page.meta.hero}}">
                                 </figure>
+                            </a>
                         {% endif %}
                     </a>
                 </div> <!-- //.container -->
@@ -97,9 +99,7 @@
     </section>
 
     <section class="work-item work-item--projects">
-
         <div class="container container--wide">
-
             <article class="media block-list--small">
                 <a class="media__img" href="https://github.com/ultimate-package">
                     <img src="/build/images/projects/ultimate-package.png" alt="The Ultimate Package">
