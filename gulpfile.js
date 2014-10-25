@@ -5,7 +5,7 @@ var gulp = require('gulp');
     var uglify = require('gulp-uglify');
     var uglifycss = require('gulp-uglifycss');
     var rename = require('gulp-rename');
-    var image = require('gulp-image');
+    // var image = require('gulp-image'); -> this isn’t working right now
 
 
 
@@ -34,11 +34,11 @@ gulp.task('compass', function(){
         .pipe(gulp.dest('build/css'));
 });
 
-gulp.task('images', function () {
-  gulp.src('./static/images/*/**')
-    .pipe(image())
-    .pipe(gulp.dest('./build/images'));
-});
+// gulp.task('images', function () {
+//   gulp.src('./static/images/*/**')
+//     .pipe(image())
+//     .pipe(gulp.dest('./build/images'));
+// });
 
 
 gulp.task('watch', function(){
@@ -47,6 +47,6 @@ gulp.task('watch', function(){
     gulp.watch('static/sass/*.scss', ['compass']);
 });
 
-gulp.task('default', ['scripts', 'compass', 'images', 'watch']);
+gulp.task('default', ['scripts', 'compass', 'watch']);
 
 
