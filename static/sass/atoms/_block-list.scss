@@ -45,11 +45,13 @@
 
 // BLOCK LIST on the work index page – refactor this nastiness
 .block-list--small {
+    @extend .cf;
     border-bottom: 1px dotted #525252;
     padding-bottom: rem-calc(30);
 
     &:last-of-type {
         border-bottom: none;
+        margin-bottom: 0;
     }
 
     h3 {
