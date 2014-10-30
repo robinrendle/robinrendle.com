@@ -9,18 +9,17 @@ var gulp = require('gulp'),
     webp = require('gulp-webp'),
     imageop = require('gulp-image-optimization');
 
-gulp.task('webp', function(){
-    return gulp.src(['build/images/**/*.jpg', 'build/images/**/*.png'])
-            .pipe(webp())
-            .pipe(gulp.dest('build/images'));
-});
 
 gulp.task('images', function(cb){
-    gulp.src(['static/images/**/*.png','static/images/**/*.jpg', 'static/images/**/*.gif','static/images/**/*.jpeg']).pipe(imageop({
-        optimizationLevel: 6, 
-        progressive: true,
-        interlaced: true
-        })).pipe(gulp.dest('build/images/')).on('end', cb).on('error', cb);
+    gulp.src(['static/images/**/*.png','static/images/**/*.jpg', 'static/images/**/*.gif','static/images/**/*.jpeg'])
+        .pipe(imageop({
+            optimizationLevel: 6, 
+            progressive: true,
+            interlaced: true
+        }))
+        .pipe(gulp.dest('build/images/')).on('end', cb).on('error', cb)
+        .pipe(webp())
+        .pipe(gulp.dest('build/images'));
 });
 
 gulp.task('scripts', function() {
@@ -64,13 +63,12 @@ gulp.task('work-css', function(){
         .pipe(gulp.dest('build/css'));
 });
 
-
 gulp.task('watch', function(){
     gulp.watch('static/js/*.js', ['lint', 'scripts']);
     gulp.watch('static/sass/**/*.scss', ['compass']);
     gulp.watch('static/sass/*.scss', ['compass']);
 });
 
-gulp.task('default', ['images', 'scripts', 'compass', 'watch', 'work-css', 'webp']);
+gulp.task('default', ['images', 'scripts', 'compass', 'watch', 'work-css']);
 
 
