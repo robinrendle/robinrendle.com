@@ -26,12 +26,6 @@
     <!-- Prefetching -->
     <link rel="dns-prefetch" href="//cloud.typography.com">
 
-    <script>
-    // Picture element HTML5 shiv
-        document.createElement( "picture" );
-    </script>
-    <script src="picturefill.js" async></script>
-
     <style>
     .footer a {color: #ccc; border-bottom-color: #888;}
     .footer a:hover {color: #aaa; border-bottom-color: #555;}
@@ -77,13 +71,16 @@
                         {% if page.meta.feature-browser == 'true' %}
                             <a href="{{page.url}}" class="work-item__image">
                                 <figure class="figure-browser">
-                                    <img src="{{page.meta.hero}}">
+
+                                    <img src="{{page.meta.hero}}.webp" 
+                                    onerror="this.onerror=null; this.src='{{page.meta.hero}}.jpg'">
                                 </figure>
                             </a>
                         {% elsif page.meta.hero %}
                             <a href="{{page.url}}" class="work-item__image">
                                 <figure>
-                                    <img src="{{page.meta.hero}}">
+                                    <img src="{{page.meta.hero}}.webp" 
+                                    onerror="this.onerror=null; this.src='{{page.meta.hero}}.png'">
                                 </figure>
                             </a>
                         {% endif %}
@@ -97,7 +94,8 @@
         <div class="container container--wide">
             <article class="media block-list--small">
                 <a class="media__img" href="https://github.com/ultimate-package">
-                    <img src="/build/images/projects/ultimate-package.png" alt="The Ultimate Package">
+                    <img src="/build/images/projects/ultimate-package.webp" 
+                    onerror="this.onerror=null; this.src='/build/images/projects/ultimate-package.png'">
                 </a>
                 <div class="media__body">
                     <h3><a href="https://github.com/ultimate-package">The Ultimate Package</a></h3>
@@ -107,9 +105,12 @@
             </article>
 
             <article class="media block-list--small">
-                <a class="media__img" href="https://github.com/robinrendle/atomic-framework"><img src="/build/images/projects/atomic.png" alt="The Atomic Sass Framework"></a>      
+                <a class="media__img" href="https://github.com/robinrendle/atomic-framework">
+                    <img src="/build/images/projects/atomic.webp" 
+                    onerror="this.onerror=null; this.src='/build/images/projects/atomic.png'">
+                </a>      
 
-                <div class="media__body">          
+                <div class="media__body">
                     <h3>
                         <a href="https://github.com/robinrendle/atomic-framework">The Atomic Sass framework</a>
                     </h3>

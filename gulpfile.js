@@ -1,16 +1,23 @@
-var gulp = require('gulp');
-    var jshint = require('gulp-jshint');
-    var compass = require('gulp-compass');
-    var concat = require('gulp-concat');
-    var uglify = require('gulp-uglify');
-    var uglifycss = require('gulp-uglifycss');
-    var rename = require('gulp-rename');
-    var uncss = require('gulp-uncss');
-    var imageop = require('gulp-image-optimization');
+var gulp = require('gulp'),
+    jshint = require('gulp-jshint'),
+    compass = require('gulp-compass'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    uglifycss = require('gulp-uglifycss'),
+    rename = require('gulp-rename'),
+    uncss = require('gulp-uncss'),
+    webp = require('gulp-webp'),
+    imageop = require('gulp-image-optimization');
+
+gulp.task('webp', function(){
+    return gulp.src(['build/images/**/*.jpg', 'build/images/**/*.png'])
+            .pipe(webp())
+            .pipe(gulp.dest('build/images'));
+});
 
 gulp.task('images', function(cb){
     gulp.src(['static/images/**/*.png','static/images/**/*.jpg', 'static/images/**/*.gif','static/images/**/*.jpeg']).pipe(imageop({
-        optimizationLevel: 5, 
+        optimizationLevel: 6, 
         progressive: true,
         interlaced: true
         })).pipe(gulp.dest('build/images/')).on('end', cb).on('error', cb);
@@ -64,6 +71,6 @@ gulp.task('watch', function(){
     gulp.watch('static/sass/*.scss', ['compass']);
 });
 
-gulp.task('default', ['images', 'scripts', 'compass', 'watch', 'work-css']);
+gulp.task('default', ['images', 'scripts', 'compass', 'watch', 'work-css', 'webp']);
 
 
