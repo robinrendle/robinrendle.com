@@ -55,7 +55,8 @@ gulp.task('work-css', function(){
                 'http://robinrendle.com/work',
                 'http://robinrendle.com/work/erskine-design',
                 'http://robinrendle.com/work/endsleigh',
-                'http://robinrendle.com/work/nottinghamshire-council/'
+                'http://robinrendle.com/work/nottinghamshire-council',
+                'http://robinrendle.com/work/simon-campbell'
             ]
         }))
         .pipe(gulp.dest('build/css'))
