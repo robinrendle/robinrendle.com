@@ -18,7 +18,7 @@
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/build/css/work-styles.min.css" />
+    <link rel="stylesheet" type="text/css" href="/build/css/style.min.css" />
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/794542/css/fonts.css" />
@@ -49,11 +49,10 @@
     </div>
 
     <section>
-        {% for page in pages %}
+
+        {% for page in pages limit:1 offset:0 %}
             <article class="work-item work-item--{{page.meta.abbr}}">
-                
-                <div class="container container--wide">
-                    
+                <div class="container container--wide">    
                     <div class="work-item__content">
                         <h2 class="work-item__heading">
                             <a href="{{page.url}}">{{ page.meta.byline }}</a>
@@ -85,6 +84,43 @@
                             </a>
                         {% endif %}
                     </a>
+                </div> <!-- //.container -->
+            </article>
+        {% endfor %}
+
+
+        {% for page in pages offset:1 %}
+            <article class="work-item work-item--{{page.meta.abbr}}">
+                <div class="container container--wide">    
+                    {% if page.meta.feature-browser == 'true' %}
+                        <a href="{{page.url}}" class="work-item__image cf">
+                            <figure class="figure-browser">
+
+                                <img src="{{page.meta.hero}}.webp" 
+                                onerror="this.onerror=null; this.src='{{page.meta.hero}}.jpg'">
+                            </figure>
+                        </a>
+                    {% elsif page.meta.hero %}
+                        <a href="{{page.url}}" class="work-item__image">
+                            <figure>
+                                <img src="{{page.meta.hero}}.webp" 
+                                onerror="this.onerror=null; this.src='{{page.meta.hero}}.png'">
+                            </figure>
+                        </a>
+                    {% endif %}
+                    <div class="work-item__content">
+                        <h2 class="work-item__heading">
+                            <a href="{{page.url}}">{{ page.meta.byline }}</a>
+                        </h2>
+
+                        <div class="work-item__about">
+                            <p>{{ page.meta.extract }} <a class="work-item__btn" href="{{page.url}}">Read more</a></p>
+                        </div>
+
+                        <div class="work-item__list">
+                            {{page.meta.role | markdown: true }}
+                        </div>
+                    </div><!-- //.work-item-content -->
                 </div> <!-- //.container -->
             </article>
         {% endfor %}

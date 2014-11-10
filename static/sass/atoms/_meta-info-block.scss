@@ -7,6 +7,7 @@
 
 .meta-info-block  {
     margin: 0 auto;
+    line-height: 1.3;
 
     .heading-group & {
         margin-top: rem-calc( $quarter-spacing-unit / 2);
@@ -19,7 +20,6 @@
     color: $color__meta;
     display: inline;
     margin-bottom: 0;
-    line-height: 1.5;
 
     @include respond-to("large and above") {
         font-size: rem-calc($milli-size);

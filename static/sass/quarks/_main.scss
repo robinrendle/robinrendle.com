@@ -22,7 +22,7 @@ html{
 body {
     @extend %font__text;
     background-color: $offwhite;
-    line-height: $line-height-ratio - .1;
+    line-height: 1.6;
     text-rendering: optimizeLegibility;
     color: $color__offblack;
     width:100%;

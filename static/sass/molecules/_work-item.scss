@@ -28,6 +28,7 @@
         border: 1px solid rgba(0,0,0,.1);
 
         img {
+            width: 100%;
             border: 1px solid #E5E5E5;
         }
 
@@ -91,10 +92,6 @@
 .work-item__content {
     @extend .cf;
     width: 100%;
-
-    @include respond-to("large and above"){
-        margin-bottom: rem-calc(20);
-    }
 
     p {
         @include respond-to("large and above"){
@@ -162,6 +159,7 @@
     }
 
     >ul {
+        margin-bottom: 0;
         list-style: none;
     }
     ul>li {
@@ -184,19 +182,45 @@
 }
 
 .work-item__image {
+    margin-bottom: rem-calc(30);
+    border: none; // remove default link styles
+
+    &:hover,
+    &:focus {
+        border: none;
+        text-decoration: none;
+    }
 
     figure {
         @include transition(all .3s ease-in-out);
+
+        > img {
+            width: 100%;
+        }
     }
 }
 
 .work-item--endsleigh {
     padding-top: rem-calc(10);
-    background: url('/build/images/work/endsleigh/endsleigh-figure.webp') no-repeat;
+    background: url('/build/images/work/endsleigh/endsleigh-figure.png') no-repeat;
     background-size: 100%;
     background-position: 0 rem-calc(430);
     padding-top: rem-calc(70);
     background-color: #5A57A9;
+
+    .work-item__image {
+        @extend .cf;
+        margin-bottom: 0;
+        margin-top: rem-calc(20);
+
+        @include respond-to("large and above"){
+            margin-top: 0;
+        }
+
+        > figure {
+            margin-bottom: 0;
+        }
+    }
 
     @include respond-to("medium and above"){
         background-position: 0 rem-calc(400);
@@ -225,6 +249,7 @@
 
 .work-item--erskine {
     background-color: #A04242;
+    border: none;
 
     @include respond-to("large and above"){
         .work-item__heading:before {
