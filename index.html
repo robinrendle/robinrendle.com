@@ -44,17 +44,20 @@
                 h-entry">
         <div class="article-list__title 
                     is--editor__content">
-            <h4>Quick notes and ramblings</h4>
+            <h4>Quick notes and ramblings you might enjoy</h4>
         </div>
 
-        {% for post in site.pages.notes.posts limit: 4 %}
-            <article class="article-list__item article-list--notes">
 
+    
+
+{% for tag in site.pages.notes.taxonomy['Tags'] %}
+    {% if tag.value == 'featured' %}
+        {% for post in tag.posts limit: 4 %}
+            <article class="article-list__item article-list--notes">
                <header class="hgroup hgroup--listing">
                     <div class="meta-info-block meta-info-block--list">
                         <div class="meta-info-block__item">
                             <time datetime="{{ post.date}}">
-
                                 {% assign d = post.date | date: "%-d"  %}
                                 {% case d %}
                                     {% when '1' or '21' or '31' %}{{ d }}st
@@ -71,6 +74,10 @@
                 </header>
             </article>
         {% endfor %}
+    {% endif %}
+{% endfor %}
+            
+                    
     </div>
 
 {% include 'components/footer' %}
