@@ -14,19 +14,6 @@
 //
 //
 
-
-
-// CALC-REM FUNCTON
-// ==========================================================================
-// Calculates rem size based on required pixel size and context.
-//
-// $target: (required) Required pixel size
-// $context: (optional) Current font size used to calculate em value
-// Returns: Rem value
-//
-//
-
-
 @function rem-calc($target, $context: 17) {
 
     // Export REM value of $target depending on base-font-size
