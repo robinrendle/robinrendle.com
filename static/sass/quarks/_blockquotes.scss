@@ -4,14 +4,12 @@
 
 
 blockquote {
-    margin-bottom: rem-calc($base-spacing-unit);
-    font-style: italic;
+    @include remCalc(margin-bottom, $base-spacing-unit);
     line-height: $line-height-ratio - .2;
-    @include text--micro;
 
     >p {
-        padding-left: rem-calc($half-spacing-unit);
-        padding-bottom: rem-calc($half-spacing-unit);
+        @include remCalc(padding-left, $half-spacing-unit);
+        @include remCalc(padding-bottom, $half-spacing-unit);
         margin-bottom:0;
         width:100%;
         color: #777;
@@ -21,10 +19,6 @@ blockquote {
             padding-bottom:0;
         }
 
-        @include respond-to("medium and above"){
-            padding-bottom: rem-calc($base-spacing-unit / 1.2);
-        }
-
         @include respond-to("large and above"){
             line-height: 1.55;
         }
@@ -32,7 +26,6 @@ blockquote {
 
     em {
         font-style:normal;
-        @extend %font__text--sub;
     }
 
     >p:last-child {

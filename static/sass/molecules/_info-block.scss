@@ -1,9 +1,9 @@
 // ==========================================================================
-// TOOLS 
+// INFO BLOCK
 // ========================================================================== 
-// 
-// This module imports all of the functions and mixins
-// 
 
+.info-block {
+    color: #aaa;
+    @include remCalc(font-size, 16);
+}
 
-@import 'includes/rem-calc';

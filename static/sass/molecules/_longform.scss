@@ -1,0 +1,100 @@
+// ==========================================================================
+// LONGFORM 
+// ========================================================================== 
+
+// Custom styles for blog post formats
+
+.Longform {    
+
+    h2 {
+        @include remCalc(margin-top, ($base-spacing-unit * 2));
+    }
+
+    h3, h4, h5, h6 {
+        @include remCalc(margin-top, ($base-spacing-unit * 1.5));
+        @include remCalc(margin-bottom, ($base-spacing-unit * .5));
+    }
+
+    p {
+        @include typeface("Regular");
+        -webkit-hyphens:auto;
+        -webkit-hyphenate-limit-after:2;
+        -webkit-hyphenate-limit-before:3;
+        hyphens: auto;
+        line-height: 1.4;
+        
+        @include respond-to("small and above"){
+            line-height: 1.45;
+            @include remCalc(font-size, 19);
+        }
+
+        @include respond-to("medium and above"){
+            line-height: 1.55;
+        }
+
+        @include respond-to("between large and largest"){
+            @include remCalc(font-size, 20);
+            line-height: 1.5; 
+        }
+
+        @media only screen and (max-device-width: 768px) {
+            line-height: 1.55;
+        }
+
+        @include respond-to("largest only"){
+            @include remCalc(font-size, 20);
+            line-height: 1.55;
+        }
+
+        @include respond-to("gigantic"){
+            @include remCalc(font-size, 21);
+        }
+
+        @include respond-to("widescreen"){
+            @include remCalc(font-size, 22);
+        }
+    }
+    
+    figure > blockquote {
+        margin-bottom: 0;
+    }
+
+    blockquote {
+        @include remCalc(margin-bottom, $half-spacing-unit);
+
+        p {
+            margin-bottom: 0;
+            @include remCalc(padding-bottom, ($half-spacing-unit * 1.2));
+            border-left: 2px solid #eee;
+            padding-left: 15px;
+            color: #555;
+            @include typeface("Regular italic");
+
+            &:last-of-type, &:only-child {
+                padding-bottom: 0;
+            }
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cite {
+        display: block;
+        position: relative;
+        padding-top: 4px;
+        padding-left: 15px;
+        border-left: 2px solid #eee;
+
+        >p {
+            @include remCalc(font-size, 17);
+            margin-bottom:0;
+            color: $color__offblack;
+            text-align:left;
+            width: 100%;
+        }
+    }
+
+}

@@ -20,13 +20,10 @@ html{
 }
 
 body {
-    @extend %font__text;
+    font: 400 110% "Nocturno Regular 25", Georgia, serif;
     background-color: $offwhite;
-    line-height: 1.6;
-    text-rendering: optimizeLegibility;
+    line-height: 1.4;
     color: $color__offblack;
-    width:100%;
-    font-size: 100%;
 
     // Sticky footer with flexbox hack.
     display: flex;
@@ -64,4 +61,36 @@ body {
 
     .main {
         flex: 1;
+    }
+
+
+    em, 
+    small,
+    cite,
+    dfn,
+    i,
+    q {
+        @include typeface("Regular italic");
+    }
+
+    mark {
+        background-color: rgb(255,220,0);
+        background-color: rgba(255,220,0,.3);
+        font-weight: normal;
+        color: #444;
+    }
+
+    .caps, 
+    abbr {
+        @include typeface("Small caps");
+    }
+
+    b,
+    strong {
+        @include typeface("Book");
+        color: #222;
+    }
+
+    acronym {
+        text-transform: normal;
     }

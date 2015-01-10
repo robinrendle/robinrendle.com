@@ -20,6 +20,8 @@ $width__small: 480px;
 $width__medium: 580px;
 $width__large: 730px;
 $width__largest: 976px;
+$width__gigantic: 1200px;
+$width__widescreen: 1800px;
 
 
 // BREAKPOINTS
@@ -39,6 +41,8 @@ $breakpoints: add-breakpoint('below large', (max-width $width__large - 1px, $no-
 $breakpoints: add-breakpoint('large and above', ($width__large, $no-queries));
 $breakpoints: add-breakpoint('between large and largest', ($width__large $width__largest));
 $breakpoints: add-breakpoint('largest only', ($width__largest, $no-queries));
+$breakpoints: add-breakpoint('gigantic', ($width__gigantic, $no-queries));
+$breakpoints: add-breakpoint('widescreen', ($width__widescreen, $no-queries));
 $breakpoints: add-breakpoint('high resolution', (min-resolution 1.5dppx, false));
 $breakpoints: add-breakpoint('landscape', (orientation landscape));
 $breakpoints: add-breakpoint('portrait', (orientation portrait));

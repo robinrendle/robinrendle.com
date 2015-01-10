@@ -10,7 +10,7 @@
         </figure>
     {% endif %}
 
-    <article class="h-entry container">
+    <article class="h-entry Wrapper">
         <header class="heading-group">
             <div class="meta-info-block">
                 <p class="meta-info-block__item">
@@ -47,8 +47,10 @@
                 {{meta.Update.value | markdown:true }}
             </aside>
         {% endif %}
-
-        {{body}}
+        
+        <div class="Longform">
+            {{body}}
+        </div>
 
         {% if meta.Aside %}
             <aside class="island island--meta">
@@ -82,7 +84,7 @@
 
     <section class="article-list">
         {% for post in posts %}
-            <article class="container article-list__item">
+            <article class="Wrapper">
                 <header class="hgroup hgroup--listing">
                     <div class="meta-info-block meta-info-block--list">
                         <div class="meta-info-block__item">

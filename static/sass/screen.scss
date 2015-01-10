@@ -12,73 +12,49 @@
 // IMPORTS
 // ==========================================================================   
 
-
-// External compass includes; make sure to update the config.rb
-@import "compass";
-@import "breakpoint"; // http://cl.ly/1F112q0Q0D28
-
+// THIRD PARTY PLUGINS: make sure to update the config.rb before editing
+    @import "compass";
+    @import "breakpoint"; // http://cl.ly/1F112q0Q0D28
 
 
-// CONFIG & SETTINGS
-@import "config/config";
-@import "tools/tools";
-
-
-
-// UTILITIES : refactor this into /config and /tools directories
-@import "defaults";
-@import "utilities/reset";
-@import "utilities/base-spacing";
-@import "utilities/normalize";
-@import "utilities/clearfix";
-@import "utilities/font-stack";
-@import "utilities/helper";
-@import "utilities/mixins";
-@import "utilities/animations/appear-down";
+// UTILITIES : functions + settings to be used anywhere
+    @import "defaults";
+    @import "utilities/colors";
+    @import "utilities/reset";
+    @import "utilities/rem-calc";
+    @import "utilities/base-spacing";
+    @import "utilities/clearfix";
+    @import "utilities/animations/appear-down";
+    @import "utilities/breakpoints";
 
 // QUARKS
- @import "quarks/main";
- @import "quarks/headings";
- @import "quarks/paragraphs";
- @import "quarks/blockquotes";
- @import "quarks/code";
- @import "quarks/figures";
- @import "quarks/forms";
- @import "quarks/lists";
- @import "quarks/links";
- @import "quarks/images";
- @import "quarks/tables";
- @import "quarks/small-print";
- @import "quarks/micro";
+    @import "quarks/hierarchy";
+    @import "quarks/main";
+    @import "quarks/forms";
+    @import "quarks/links";
+    @import "quarks/tables";
+    @import "quarks/small-print";
 
 
 // ATOMS
-@import "atoms/forms";
-@import "atoms/grids";
-@import "atoms/nav";
-@import "atoms/media";
-@import "atoms/marginalia";
-@import "atoms/island";
-@import "atoms/icons/icons";
-@import "atoms/block-list";
-@import "atoms/article-list";
-@import "atoms/icon-text";
-@import "atoms/buttons";
-@import "atoms/meta-info-block";
-@import "atoms/cite";
-@import "atoms/bleed";
+    @import "atoms/grids";
+    @import "atoms/nav";
+    @import "atoms/media";
+    @import "atoms/buttons";
+    @import "atoms/bleed";
 
 
 // MOLECULES
-@import "molecules/banner";
-@import "molecules/custom-post";
-@import "molecules/footer";
-@import "molecules/heading-group";
-@import "molecules/item-content";
-@import "molecules/hero-image";
-@import "molecules/no-branding";
-@import "molecules/drop-cap";
-@import "molecules/work-item";
+    @import "molecules/custom-post";
+    @import "molecules/info-block";
+    @import "molecules/footer";
+    @import "molecules/heading-group";
+    @import "molecules/item-content";
+    @import "molecules/hero-image";
+    @import "molecules/no-branding";
+    @import "molecules/drop-cap";
+    @import "molecules/banner";
+    @import "molecules/longform";
 
 
 

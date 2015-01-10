@@ -70,6 +70,6 @@ gulp.task('watch', function(){
     gulp.watch('static/sass/*.scss', ['compass']);
 });
 
-gulp.task('default', ['scripts', 'compass', 'watch', 'work-css']);
+gulp.task('default', ['scripts', 'compass', 'watch']);
 
 gulp.task('build', ['images']);

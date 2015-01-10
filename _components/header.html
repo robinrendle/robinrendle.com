@@ -20,11 +20,42 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/build/css/style.min.css" />
 
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/794542/css/fonts.css" />
 
-    <!-- Prefetching -->
-    <link rel="dns-prefetch" href="//cloud.typography.com">
+    <script>
+    function loadCSS(href, before, media) {
+        "use strict";
+        var ss = window.document.createElement("link");
+        var ref = before || window.document.getElementsByTagName("script")[0];
+        var sheets = window.document.styleSheets;
+        ss.rel = "stylesheet";
+        ss.href = href;
+        ss.media = "only x";
+        ref.parentNode.insertBefore(ss, ref);
+
+        function toggleMedia() {
+            var defined;
+            for (var i = 0; i < sheets.length; i++) {
+                if (sheets[i].href && sheets[i].href.indexOf(href) > -1) {
+                    defined = true;
+                }
+            }
+            if (defined) {
+                ss.media = media || "all";
+            } else {
+                setTimeout(toggleMedia);
+            }
+        }
+        toggleMedia();
+        return ss;
+    };
+    // load a file
+    loadCSS("http://fonts.typonine.com/WF-003562-001254.css");
+    loadCSS("http://fonts.typonine.com/WF-003562-001255.css");
+    </script>
+    <noscript>
+        <link rel="stylesheet" href="http://fonts.typonine.com/WF-003562-001254.css" type="text/css" />
+        <link rel="stylesheet" href="http://fonts.typonine.com/WF-003562-001255.css" type="text/css" />
+    </noscript>
 
     <style>
         .banner__headline a {
@@ -52,9 +83,7 @@
 <body class="{{parent.meta.bodyclass}}">
     <header class="banner {% if meta.Hero %}banner--transparent{% endif %}" role="banner">
         <div class="container--standard">
-            <h1 class="banner__headline">
-                <a class="links--reversed" href="/">Robin Rendle</a>
-            </h1>
+            <a class="banner__headline links--reversed" href="/">Robin Rendle</a>
 
             <nav>
                 <a class="banner__nav__menu" id="mobile-menu" href="#">Menu</a>
