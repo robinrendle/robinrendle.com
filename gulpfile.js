@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 gulp.task('images', function(cb){
     gulp.src(['static/images/**/*.png','static/images/**/*.jpg', 'static/images/**/*.gif','static/images/**/*.jpeg'])
         .pipe(imageop({
-            optimizationLevel: 6, 
+            optimizationLevel: 6,
             progressive: true,
             interlaced: true
         }))
@@ -60,7 +60,7 @@ gulp.task('work-css', function(){
             ]
         }))
         .pipe(gulp.dest('build/css'))
-        .pipe(uglifycss()) 
+        .pipe(uglifycss())
         .pipe(gulp.dest('build/css'));
 });
 
