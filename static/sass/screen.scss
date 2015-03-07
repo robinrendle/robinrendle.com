@@ -1,30 +1,26 @@
 // ==========================================================================
 // ROBINRENDLE.COM STYLES
-// ========================================================================== 
-// 
-// Imports all of the SCSS objects and partials into a single file which is 
+// ==========================================================================
+//
+// Imports all of the SCSS objects and partials into a single file which is
 // then compiled into CSS.
-// 
+//
 
-
+$breakpoints: (small: 480px, medium: 768px, large: 1024px, largest: 1200px) !default;
 
 // ==========================================================================
 // IMPORTS
-// ==========================================================================   
+// ==========================================================================
 
-// THIRD PARTY PLUGINS: make sure to update the config.rb before editing
-    @import "compass";
-    @import "breakpoint"; // http://cl.ly/1F112q0Q0D28
-
+* {
+    background-color: red;
+}
 
 // UTILITIES : functions + settings to be used anywhere
-    @import "defaults";
-    @import "utilities/colors";
     @import "utilities/reset";
     @import "utilities/rem-calc";
     @import "utilities/base-spacing";
     @import "utilities/clearfix";
-    @import "utilities/animations/appear-down";
     @import "utilities/breakpoints";
 
 // QUARKS
@@ -40,19 +36,13 @@
     @import "atoms/grids";
     @import "atoms/nav";
     @import "atoms/media";
-    @import "atoms/buttons";
-    @import "atoms/bleed";
 
 
 // MOLECULES
     @import "molecules/custom-post";
-    @import "molecules/info-block";
     @import "molecules/footer";
     @import "molecules/heading-group";
     @import "molecules/item-content";
-    @import "molecules/hero-image";
-    @import "molecules/no-branding";
-    @import "molecules/drop-cap";
     @import "molecules/banner";
     @import "molecules/longform";
 
