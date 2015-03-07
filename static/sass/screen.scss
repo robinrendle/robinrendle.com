@@ -11,27 +11,25 @@ $breakpoints: (small: 480px, medium: 768px, large: 1024px, largest: 1200px) !def
 // UTILITIES : functions + settings to be used anywhere
     @import "utilities/reset";
     @import "utilities/rem-calc";
+    @import "utilities/normalize";
     @import "utilities/base-spacing";
     @import "utilities/clearfix";
     @import "utilities/breakpoints";
+    @import "utilities/type";
 
 // QUARKS
-    @import "quarks/hierarchy";
-    @import "quarks/main";
-    @import "quarks/forms";
-    @import "quarks/links";
-    @import "quarks/tables";
-    @import "quarks/small-print";
+    @import "base/main";
+    @import "base/links";
+    @import "base/headings";
 
 // ATOMS
-    @import "atoms/nav";
-    @import "atoms/media";
+    @import "objects/nav";
 
 // MOLECULES
-    @import "molecules/custom-post";
-    @import "molecules/footer";
-    @import "molecules/item-content";
-    @import "molecules/longform";
+    @import "modules/custom-post";
+    @import "modules/longform";
+
+
 
 
 

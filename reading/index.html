@@ -10,7 +10,7 @@
     </div>
 
     <section class="article-list">
-        {% for post in posts %}
+        {% for post in posts | limit: 7 %}
             <article class="Wrapper">
                 <header class="hgroup hgroup--listing">
                     <div class="info-block">
@@ -23,7 +23,7 @@
                             {% when '3' or '23' %}{{ d }}rd
                             {% else %}{{ d }}th
                         {% endcase %}
-                        {{ post.date | date: "%B" }} 
+                        {{ post.date | date: "%B" }}
                         {{ post.date | date: "%Y" }}
                             </time>
                         </div>
@@ -37,5 +37,7 @@
             </article>
         {% endfor %}
     </section>
-    
+
+    <a href="/reading/archive">All posts</a>
+
 {% include 'components/footer' %}

@@ -15,11 +15,17 @@ html{
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -moz-osx-font-smoothing: grayscale;
+    background-color: white;
 }
 
 body {
     font: 400 110% "Nocturno Regular 25", Georgia, serif;
     line-height: 1.4;
+    background-color: #f4f4f4;
+
+    @include media(">medium"){
+        border: 15px solid #ffffff;
+    }
 
     // Sticky footer with flexbox hack.
     display: flex;
