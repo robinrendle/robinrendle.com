@@ -8,14 +8,6 @@
 
 $breakpoints: (small: 480px, medium: 768px, large: 1024px, largest: 1200px) !default;
 
-// ==========================================================================
-// IMPORTS
-// ==========================================================================
-
-* {
-    background-color: red;
-}
-
 // UTILITIES : functions + settings to be used anywhere
     @import "utilities/reset";
     @import "utilities/rem-calc";
@@ -31,19 +23,14 @@ $breakpoints: (small: 480px, medium: 768px, large: 1024px, largest: 1200px) !def
     @import "quarks/tables";
     @import "quarks/small-print";
 
-
 // ATOMS
-    @import "atoms/grids";
     @import "atoms/nav";
     @import "atoms/media";
-
 
 // MOLECULES
     @import "molecules/custom-post";
     @import "molecules/footer";
-    @import "molecules/heading-group";
     @import "molecules/item-content";
-    @import "molecules/banner";
     @import "molecules/longform";
 
 

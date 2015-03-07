@@ -1,19 +1,12 @@
-/*------------------------------------*\
-    $CLEARFIX
-\*------------------------------------*/
-/**
- * Thanks to @csswizardry for making this badass new clearfix
- * This clearfix code is courtesey of inuit.css
- * As per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+// ==========================================================================
+// CLEARFIX
+// ==========================================================================
 
- * Extend the clearfix class with Sass to avoid the `.cf` class appearing over
- * and over in your markup
- */
-.cf {
-    &,
+@mixin clearfix(){
     &:after {
         content:"";
         display:table;
         clear:both;
     }
 }
+

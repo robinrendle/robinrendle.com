@@ -1,14 +1,12 @@
 // ==========================================================================
 // MAIN
-// ========================================================================== 
-// 
+// ==========================================================================
+//
 // This module styles the body and html elements
-// 
+//
 
-
-
-* { 
-    @include box-sizing('border-box'); 
+* {
+    box-sizing: border-box;
 }
 
 html{
@@ -21,76 +19,47 @@ html{
 
 body {
     font: 400 110% "Nocturno Regular 25", Georgia, serif;
-    background-color: $offwhite;
     line-height: 1.4;
-    color: $color__offblack;
 
     // Sticky footer with flexbox hack.
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-
-
-    @include breakpoint(450px){
-        line-height: $line-height-ratio;
-    }
-
-
-    @include respond-to("medium and above"){
-        font-size: 105%;
-        line-height: $line-height-ratio - .1;
-
-        &:after {
-            display: none;
-            content: "breakpoint--medium";
-        }
-    }
-    
-    @include respond-to("large and above"){
-        font-size: 110%;
-    }
-
-    @include respond-to("largest only") {
-        border-left: 10px solid #ddd;
-        border-right: 10px solid #ddd;
-        font-size: 116%;
-        line-height: 1.65;
-    }
 }
 
 
-    .main {
-        flex: 1;
-    }
+.main {
+    flex: 1; // sticky footer fix
+}
 
 
-    em, 
-    small,
-    cite,
-    dfn,
-    i,
-    q {
-        @include typeface("Regular italic");
-    }
+em,
+small,
+cite,
+dfn,
+i,
+q {
+    @include typeface("Regular italic");
+}
 
-    mark {
-        background-color: rgb(255,220,0);
-        background-color: rgba(255,220,0,.3);
-        font-weight: normal;
-        color: #444;
-    }
+mark {
+    background-color: rgb(255,220,0);
+    background-color: rgba(255,220,0,.3);
+    font-weight: normal;
+    color: #444;
+}
 
-    .caps, 
-    abbr {
-        @include typeface("Small caps");
-    }
+.caps,
+abbr {
+    @include typeface("Small caps");
+}
 
-    b,
-    strong {
-        @include typeface("Book");
-        color: #222;
-    }
+b,
+strong {
+    @include typeface("Book");
+    color: #222;
+}
 
-    acronym {
-        text-transform: normal;
-    }
+acronym {
+    text-transform: normal;
+}

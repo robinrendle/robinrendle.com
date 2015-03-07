@@ -1,12 +1,12 @@
 // ==========================================================================
 // NAV MODULE
-// ========================================================================== 
+// ==========================================================================
 //
-// 
+//
 //
 // Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
 // When used on an `ol` or `ul`, this class throws the list into horizontal mode
-// 
+//
 //   <ul class=nav>
 //       <li><a href=#>Home</a></li>
 //       <li><a href=#>About</a></li>
@@ -15,7 +15,6 @@
 //   </ul>
 
 .nav{
-    @extend .cf;
     list-style:none;
 
     > li, dd, dt {

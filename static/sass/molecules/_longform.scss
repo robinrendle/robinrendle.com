@@ -1,11 +1,11 @@
 // ==========================================================================
-// LONGFORM 
-// ========================================================================== 
-
+// LONGFORM
+// ==========================================================================
+//
 // Custom styles for blog post formats
+//
 
-.Longform {    
-
+.Longform {
     h2 {
         @include remCalc(margin-top, ($base-spacing-unit * 2));
     }
@@ -22,39 +22,8 @@
         -webkit-hyphenate-limit-before:3;
         hyphens: auto;
         line-height: 1.4;
-        
-        @include respond-to("small and above"){
-            line-height: 1.45;
-            @include remCalc(font-size, 19);
-        }
-
-        @include respond-to("medium and above"){
-            line-height: 1.55;
-        }
-
-        @include respond-to("between large and largest"){
-            @include remCalc(font-size, 20);
-            line-height: 1.5; 
-        }
-
-        @media only screen and (max-device-width: 768px) {
-            line-height: 1.55;
-        }
-
-        @include respond-to("largest only"){
-            @include remCalc(font-size, 20);
-            line-height: 1.55;
-        }
-
-        @include respond-to("gigantic"){
-            @include remCalc(font-size, 21);
-        }
-
-        @include respond-to("widescreen"){
-            @include remCalc(font-size, 22);
-        }
     }
-    
+
     figure > blockquote {
         margin-bottom: 0;
     }
@@ -90,9 +59,8 @@
 
         >p {
             @include remCalc(font-size, 17);
-            margin-bottom:0;
-            color: $color__offblack;
-            text-align:left;
+            margin-bottom: 0;
+            text-align: left;
             width: 100%;
         }
     }
