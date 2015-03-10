@@ -17,9 +17,6 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
 
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/build/css/screen.min.css" />
-
     <!-- Fonts -->
     <script>
     function loadCSS(href, before, media) {
@@ -48,14 +45,19 @@
         toggleMedia();
         return ss;
     };
-    // load a file
+
     loadCSS("http://fonts.typonine.com/WF-003562-001254.css");
     loadCSS("http://fonts.typonine.com/WF-003562-001255.css");
+    // this should probably be a Promise
+    document.documentElement.classList.add('fonts-loaded');
     </script>
     <noscript>
         <link rel="stylesheet" href="http://fonts.typonine.com/WF-003562-001254.css" type="text/css" />
         <link rel="stylesheet" href="http://fonts.typonine.com/WF-003562-001255.css" type="text/css" />
     </noscript>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/build/css/screen.min.css" />
 
     <style>
         .banner__headline a {

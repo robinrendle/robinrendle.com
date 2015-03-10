@@ -1,22 +1,6 @@
 // ==========================================================================
 // BASE SPACING
-// ========================================================================== 
-
-
-
-//
-// Where `margin-bottom` is concerned, this value will be the same as the
-// base line-height. This allows us to keep a consistent vertical rhythm.
-// As per: csswizardry.com/2012/06/single-direction-margin-declarations
-
-
-/*------------------------------------*\
-    $FRAMEWORK
-\*------------------------------------*/
-$base-spacing-unit: 31;
-$half-spacing-unit: $base-spacing-unit / 2;
-$quarter-spacing-unit: $half-spacing-unit / 2;
-
+// ==========================================================================
 
 h1,h2,h3,h4,h5,h6,hgroup,
 ul,ol,dl,

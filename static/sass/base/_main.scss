@@ -19,18 +19,49 @@ html{
 }
 
 body {
-    font: 400 110% "Nocturno Regular 25", Georgia, serif;
+    font: 400 110%;
+    @include typeface("Regular");
     line-height: 1.4;
     background-color: #f4f4f4;
-
-    @include media(">medium"){
-        border: 15px solid #ffffff;
-    }
+    color: #222;
 
     // Sticky footer with flexbox hack.
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+
+    @include media(">medium"){
+        border: 15px solid #ffffff;
+    }
+
+    &:after {
+        content: "smallest";
+        @extend .caps;
+        display: block;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color: #111;
+        opacity: .5;
+        padding: 5px 20px;
+        color: #eee;
+
+        @include media(">small"){
+            content: "small";
+        }
+
+        @include media(">medium"){
+            content: "medium";
+        }
+
+        @include media(">large"){
+            content: "large";
+        }
+
+        @include media(">largest"){
+            content: "largest";
+        }
+    }
 }
 
 
@@ -58,6 +89,12 @@ mark {
 .caps,
 abbr {
     @include typeface("Small caps");
+}
+
+abbr,
+abbr[title] {
+    border: none;
+    text-decoration: none;
 }
 
 b,

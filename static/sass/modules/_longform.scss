@@ -5,7 +5,7 @@
 // Custom styles for blog post formats
 //
 
-.Longform {
+.longform {
     h2 {
         @include remCalc(margin-top, ($base-spacing-unit * 2));
     }
@@ -17,11 +17,12 @@
 
     p {
         @include typeface("Regular");
+        @include remCalc(font-size, 18);
         -webkit-hyphens:auto;
         -webkit-hyphenate-limit-after:2;
         -webkit-hyphenate-limit-before:3;
         hyphens: auto;
-        line-height: 1.4;
+        line-height: 1.45;
     }
 
     figure > blockquote {
@@ -29,19 +30,22 @@
     }
 
     blockquote {
-        @include remCalc(margin-bottom, $half-spacing-unit);
+        @include remCalc(margin-bottom, $base-spacing-unit);
 
         p {
             margin-bottom: 0;
             @include remCalc(padding-bottom, ($half-spacing-unit * 1.2));
-            border-left: 2px solid #eee;
             padding-left: 15px;
             color: #555;
-            @include typeface("Regular italic");
+            border-left: 3px solid #ddd;
 
             &:last-of-type, &:only-child {
                 padding-bottom: 0;
             }
+        }
+
+        p + p {
+            padding-top: 5px;
         }
     }
 

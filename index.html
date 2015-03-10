@@ -3,25 +3,23 @@
 
         <div class="article-list__title
                     is--editor__content">
-            <h4>About me</h4>
+            <h4 class="caps">About me</h4>
         </div>
     </div>
 
     <figure class="article-list blockquote--large blockquote--large--center">
         <blockquote>
-            <p>I’m Robin, a web designer from the UK. This space is where I sometimes write about typography and web design.</p>
+            <p class="h1">I’m Robin, a web designer from the UK. This space is where I sometimes write about typography and web design.</p>
         </blockquote>
     </figure>
 
-
     <div class="Wrapper
                 h-entry">
-
         <div class="article-list">
 
             <div class="article-list__title
                         is--editor__content">
-                <h4>Essays and articles</h4>
+                <h4 class="caps">Essays and articles</h4>
             </div>
 
             {% for post in site.pages.essays.posts limit: 2 %}
@@ -36,19 +34,19 @@
                     </div>
                 </div>
             {% endfor %}
-        </div>  
+        </div>
     </div><!-- //.container -->
 
 
-    <div class="container 
+    <div class="container
                 h-entry">
-        <div class="article-list__title 
+        <div class="article-list__title
                     is--editor__content">
-            <h4>Quick notes and ramblings</h4>
+            <h4 class="caps">Quick notes and ramblings</h4>
         </div>
 
 
-    
+
 
 {% for tag in site.pages.notes.taxonomy['Tags'] %}
     {% if tag.value == 'featured' %}
@@ -65,7 +63,7 @@
                                     {% when '3' or '23' %}{{ d }}rd
                                     {% else %}{{ d }}th
                                 {% endcase %}
-                                {{ post.date | date: "%B" }} 
+                                {{ post.date | date: "%B" }}
                                 {{ post.date | date: "%Y" }}
                             </time>
                         </div>
@@ -76,8 +74,8 @@
         {% endfor %}
     {% endif %}
 {% endfor %}
-            
-                    
+
+
     </div>
 
 {% include 'components/footer' %}

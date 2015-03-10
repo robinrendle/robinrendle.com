@@ -21,16 +21,13 @@ gulp.task('images', function(cb){
         .pipe(gulp.dest('build/images'));
 });
 
-gulp.task('scripts', function() {
-    gulp.src([
-            'static/js/vendor/modernizr.custom.js',
-            'static/js/app.js',
-            'static/js/vendor/domReady.js',
-            'static/js/lib/*.js'])
-        .pipe(concat('app.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('build/js'));
-});
+// gulp.task('scripts', function() {
+//     gulp.src([
+//             'static/js/lib/*.js'])
+//         .pipe(concat('app.min.js'))
+//         .pipe(uglify())
+//         .pipe(gulp.dest('build/js'));
+// });
 
 // Compiles scss into the build/css dir
 gulp.task('sass', function(){

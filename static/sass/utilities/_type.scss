@@ -6,28 +6,29 @@
 @mixin typeface($font) {
     $fallback: Georgia, serif;
 
-    @if $font == "Display" {
-        font-family: "Nocturno Display Medium 3", $fallback;
-    }
+    .fonts-loaded & {
 
-    @if $font == "Book" {
-        font-family: "Nocturno Book 2", $fallback;
-    }
+        @if $font == "Display" {
+            font-family: "Nocturno Display Medium 3", $fallback;
+        }
 
-    @if $font == "Regular italic" {
-        font-family: "Nocturno Regular Italic 24", $fallback;
-    }
+        @if $font == "Book" {
+            font-family: "Nocturno Book 2", $fallback;
+        }
 
-    @if $font == "Small caps" {
-        font-family: "Nocturno Regular 26", $fallback;
-        text-transform: lowercase;
-    }
+        @if $font == "Regular italic" {
+            font-family: "Nocturno Regular Italic 24", $fallback;
+        }
 
-    @if $font == "Regular" {
-        font-family: "Nocturno Regular 25", $fallback;
-    }
+        @if $font == "Small caps" {
+            font-family: "Nocturno Regular 26", $fallback;
+            text-transform: lowercase;
+        }
 
-    .fonts-active & {
+        @if $font == "Regular" {
+            font-family: "Nocturno Regular 25", $fallback;
+        }
+
         font-style: normal;
         font-weight: normal;
         font-stretch: normal;

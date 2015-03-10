@@ -28,12 +28,12 @@
                             {% when '3' or '23' %}{{ d }}rd
                             {% else %}{{ d }}th
                         {% endcase %}
-                        {{ date | date: "%B" }} 
+                        {{ date | date: "%B" }}
                         {{ date | date: "%Y" }}
                     </time>
                 </div>
             </div>
-            
+
             {% if meta.link %}
                 <h1><a class="link--hide" href="{{meta.link.value}}">{{title}}</a></h1>
 
@@ -47,8 +47,8 @@
                 {{meta.Update.value | markdown:true }}
             </aside>
         {% endif %}
-        
-        <div class="Longform">
+
+        <div class="longform">
             {{body}}
         </div>
 
@@ -57,7 +57,7 @@
                 {{meta.Aside.value | markdown:true }}
             </aside>
         {% endif %}
-       
+
     </article>
 
 {% endif %}
@@ -96,7 +96,7 @@
                             {% when '3' or '23' %}{{ d }}rd
                             {% else %}{{ d }}th
                         {% endcase %}
-                        {{ post.date | date: "%B" }} 
+                        {{ post.date | date: "%B" }}
                         {{ post.date | date: "%Y" }}
                             </time>
                         </div>

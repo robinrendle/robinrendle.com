@@ -4,7 +4,7 @@
 
 
 a {
-    line-height: 1;
+    color: #C76C6C;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     outline: none;
@@ -12,6 +12,5 @@ a {
     &:hover,
     &:focus {
         text-decoration: none;
-        line-height:1;
     }
 }
