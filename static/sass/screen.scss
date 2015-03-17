@@ -18,6 +18,7 @@ $breakpoints: (small: 500px, medium: 768px, large: 1024px, largest: 1200px) !def
     @import "utilities/clearfix";
     @import "utilities/breakpoints";
     @import "utilities/type";
+    @import "utilities/colors";
 
 // QUARKS
     @import "base/main";

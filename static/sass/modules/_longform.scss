@@ -69,4 +69,48 @@
         }
     }
 
+    a {
+        color: inherit;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        transition: color .2s ease;
+        outline: none;
+        border: none;
+
+        &:hover,
+        &:focus {
+            outline: none;
+            border: none;
+            color: #fafafa;
+            color: rgba(255,255,255,.85);
+            transition: color .2s ease;
+
+            &:before {
+                min-height: 100%;
+                transform: translate3d(0,0,0);
+            }
+        }
+
+        &:visited {
+            &:before {
+                background-color: #999;
+            }
+        }
+
+        &:before {
+            z-index: -1;
+            content: "";
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background-color: $primaryColor;
+            transform: translate3d(0,100%,0);
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transition: all .2s ease;
+            border-radius: 3px;
+        }
+    }
 }
