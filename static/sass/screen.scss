@@ -24,6 +24,7 @@ $breakpoints: (small: 500px, medium: 768px, large: 1024px, largest: 1200px) !def
     @import "base/main";
     @import "base/links";
     @import "base/headings";
+    @import "base/code";
 
 // ATOMS
     @import "objects/nav";

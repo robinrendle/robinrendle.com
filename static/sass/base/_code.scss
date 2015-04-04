@@ -1,0 +1,16 @@
+// ==========================================================================
+// CODE STYLES
+// ==========================================================================
+//
+// We should only need inline styles because everything else will just get thrown
+// straight into Codepen.
+//
+
+code {
+    font-family: monospace;
+    color: #444;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 0 3px;
+    border-radius: 3px;
+}
