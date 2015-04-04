@@ -9,6 +9,7 @@ h4,
 h5,
 h6 {
     color: #222;
+    text-rendering: optimizeLegibility;
 
     .is-darkMode & {
         color: #ddd;
