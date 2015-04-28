@@ -25,7 +25,7 @@
     <noscript><link rel="stylesheet" href="http://fonts.typonine.com/WF-003562-001255.css" type="text/css" /></noscript>
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/build/css/screen.min.css" />
+    <link rel="stylesheet" type="text/css" href="/build/css/screen.css" />
 
     <style>
         .banner__headline a {
@@ -52,16 +52,12 @@
 
 <body class="{{parent.meta.bodyclass}}">
     <header class="banner {% if meta.Hero %}banner--transparent{% endif %}" role="banner">
-        <div class="container--standard">
-            <a class="banner__headline links--reversed" href="/">Robin Rendle</a>
-
-            <nav>
-                <a class="banner__nav__menu" id="mobile-menu" href="#">Menu</a>
-                <ul class="banner__nav">
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/notes">Notes</a></li>
-                    <li><a href="/reading">Reading</a></li>
-                    <li><a href="/essays">Essays</a></li>
+        <div class="wrapper">
+            <nav class="o-nav o-nav--bullets o-nav--large">
+                <a href="/about" class="caps o-nav__item">About</a>
+                <a href="/notes" class="caps o-nav__item">Notes</a>
+                <a href="/reading" class="caps o-nav__item">Reading</a>
+                <a href="/essays" class="caps o-nav__item">Essays</a>
                 </ul>
             </nav>
         </div><!-- //.container -->
