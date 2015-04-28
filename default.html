@@ -10,16 +10,18 @@
         </figure>
     {% endif %}
 
-    <article class="h-entry wrapper">
-        <header class="heading-group">
-            <div class="meta-info-block">
-                <p class="meta-info-block__item">
+    <article class="h-entry">
+        <header class="wrapper m-heading">
+            <h1 class="m-heading__title">{{title}}</h1>
+
+            <div class="meta-info m-heading__item">
+                <p class="meta-info__item">
                     {% if taxonomy.city %}
                         {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
                     {% endif %}
                 </p>
 
-                <div class="meta-info-block__item">
+                <div class="meta-info__item">
                     <time datetime="{{date}}">
                         {% assign d = date | date: "%-d"  %}
                         {% case d %}
@@ -33,13 +35,6 @@
                     </time>
                 </div>
             </div>
-
-            {% if meta.link %}
-                <h1><a class="link--hide" href="{{meta.link.value}}">{{title}}</a></h1>
-
-            {% else %}
-                <h1>{{title}}</h1>
-            {% endif %}
         </header>
 
         {% if meta.Update %}
@@ -48,7 +43,7 @@
             </aside>
         {% endif %}
 
-        <div class="longform">
+        <div class="m-longform wrapper wrapper--unpadded">
             {{body}}
         </div>
 
@@ -73,9 +68,9 @@
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <div class="container">
-        <header class="heading-group">
-            <h1>{{title}}</h1>
+    <div class="wrapper">
+        <header class="m-heading">
+            <h1 class="m-heading__title">{{title}}</h1>
         </header>
 
         {{body}}
@@ -86,8 +81,8 @@
         {% for post in posts %}
             <article class="wrapper">
                 <header class="hgroup hgroup--listing">
-                    <div class="meta-info-block meta-info-block--list">
-                        <div class="meta-info-block__item">
+                    <div class="meta-info meta-info">
+                        <div class="meta-info__item">
                             <time datetime="{{post.date}}">
                                 {% assign d = post.date | date: "%-d"  %}
                         {% case d %}
