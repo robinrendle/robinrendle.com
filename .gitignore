@@ -21,6 +21,7 @@ css
 /build
 node_modules
 /fonts
+npm-debug.log
 
 app/_cache/
 .htaccess
