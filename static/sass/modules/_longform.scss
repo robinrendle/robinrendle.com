@@ -5,7 +5,7 @@
 // Custom styles for blog post formats
 //
 
-.longform {
+.m-longform {
     text-rendering: optimizeLegibility;
 
     h2 {
@@ -25,21 +25,47 @@
         -webkit-hyphenate-limit-before:3;
         hyphens: auto;
         line-height: 1.45;
+
+        @include media(">medium") {
+            @include remCalc(font-size, 19);
+            line-height: 1.5;
+        }
+
+        @include media(">large"){
+            @include remCalc(font-size, 20);
+            line-height: 1.55;
+        }
+
+        & > img {
+            @include remCalc(margin-top, $base-spacing-unit * 2);
+            @include remCalc(margin-bottom, $base-spacing-unit * 2);
+        }
     }
 
     figure > blockquote {
         margin-bottom: 0;
     }
 
+    p + blockquote,
+    ul + blockquote,
+    ol + blockquote {
+        margin-top: -10px; // counter default margins of paragraphs
+    }
+
     blockquote {
-        @include remCalc(margin-bottom, $base-spacing-unit);
+        @include remCalc(margin, $base-spacing-unit * 1.5, 0);
+        position: relative;
 
         p {
+            @include typeface("Regular italic");
+            @include remCalc(padding-bottom, $base-spacing-unit);
             margin-bottom: 0;
-            @include remCalc(padding-bottom, ($half-spacing-unit * 1.2));
-            padding-left: 15px;
-            color: #555;
-            border-left: 3px solid #ddd;
+            padding-left: 10px;
+            border-left: none;
+
+            @include media(">medium"){
+                padding-left: 0;
+            }
 
             &:last-of-type, &:only-child {
                 padding-bottom: 0;

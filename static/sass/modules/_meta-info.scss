@@ -1,0 +1,27 @@
+// ==========================================================================
+// META-INFO
+// ==========================================================================
+//
+// Styles for date, time, location etc.
+//
+
+
+.meta-info {
+    @include typeface("Regular italic");
+    @include clearfix();
+    @include remCalc(margin-bottom, $base-spacing-unit);
+    color: #666;
+}
+
+.meta-info__item {
+    float: left;
+    margin: 0;
+
+    &:first-child:after {
+        content: "•";
+        @include typeface("Regular");
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+}

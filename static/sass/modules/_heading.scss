@@ -1,0 +1,24 @@
+// ==========================================================================
+// C-HEADING
+// ==========================================================================
+//
+// Heading component that styles the title element.
+//
+
+.m-heading {
+    @include remCalc(margin-bottom, 45);
+}
+
+.m-heading__title,
+.m-heading__item {
+    margin-bottom: 0;
+}
+
+.m-heading__title {
+    @include remCalc(font-size, 35);
+    @include remCalc(margin-bottom, $base-spacing-unit / 4);
+
+    @include media(">medium"){
+        @include remCalc(font-size, 40);
+    }
+}

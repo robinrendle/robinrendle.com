@@ -5,14 +5,54 @@
 // adds max-width
 //
 
+$max-width: 750;
+
 .wrapper {
     display: block;
     margin: 0 auto;
-    padding: 0 15px;
-    max-width: 600px;
+    @include remCalc(padding, 0, 15);
+    @include remCalc(max-width, $max-width);
 
     @include media(">medium"){
-        max-width: 700px;
+        @include remCalc(padding, 0, 30);
+    }
+
+    @include media(">large"){
+        @include remCalc(padding, 0);
+    }
+}
+
+
+// This module resets all of the padding of each element so that certain elements can be
+// toggled into fullwidth much easier.
+.wrapper--unpadded {
+    max-width: none;
+    padding: 0;
+
+    & > p,
+        ul,
+        ol,
+        figure,
+        blockquote,
+        pre,
+        h1, h2, h3, h4, h5, h6 {
+        margin-left: auto;
+        margin-right: auto;
+        @include remCalc(max-width, $max-width);
+        @include remCalc(padding, 0, 15);
+
+        @include media(">medium"){
+            @include remCalc(padding, 0, 30);
+        }
+
+        @include media(">large"){
+            @include remCalc(padding, 0);
+        }
+    }
+
+    & > div { // this is a hack for Codepen because the
+        padding: 0;
+        max-width: none;
     }
 }
 
