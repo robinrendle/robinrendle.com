@@ -31,6 +31,7 @@ body {
     flex-direction: column;
 
     @include media(">medium"){
+        background-color: #f4f4f4;
         border: 15px solid #ffffff;
     }
 
