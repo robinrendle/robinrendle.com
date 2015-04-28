@@ -8,22 +8,23 @@
 $base-spacing-unit: 20;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
-$breakpoints: (small: 500px, medium: 768px, large: 1024px, largest: 1200px) !default;
+$breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !default;
 
 // UTILITIES : functions + settings to be used anywhere
     @import "utilities/reset";
     @import "utilities/rem-calc";
     @import "utilities/normalize";
-    @import "utilities/base-spacing";
     @import "utilities/clearfix";
     @import "utilities/breakpoints";
     @import "utilities/type";
     @import "utilities/colors";
 
 // QUARKS
+    @import "base/base-spacing";
     @import "base/main";
     @import "base/links";
-    @import "base/headings";
+    @import "base/hierarchy";
+    @import "base/rules";
     @import "base/code";
 
 // ATOMS
@@ -33,6 +34,9 @@ $breakpoints: (small: 500px, medium: 768px, large: 1024px, largest: 1200px) !def
     @import "modules/custom-post";
     @import "modules/longform";
     @import "modules/wrapper";
+    @import "modules/codepen";
+    @import "modules/meta-info";
+    @import "modules/heading";
 
 
 
