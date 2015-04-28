@@ -7,30 +7,39 @@
 // Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
 // When used on an `ol` or `ul`, this class throws the list into horizontal mode
 //
-//   <ul class=nav>
-//       <li><a href=#>Home</a></li>
-//       <li><a href=#>About</a></li>
-//       <li><a href=#>Portfolio</a></li>
-//       <li><a href=#>Contact</a></li>
-//   </ul>
 
-.nav{
-    list-style:none;
+.o-nav {
+    list-style: none;
+}
 
-    > li, dd, dt {
-        margin-left: 0;
-        @include remCalc(margin-right, $half-spacing-unit);
+.o-nav__item {
+    display: inline-block;
+    margin-right: 10px;
+}
 
-        &,
-        > a{
-            display:inline-block;
-            zoom:1;
+
+// Bullet list nav
+.o-nav--bullets {
+    .o-nav__item {
+        position: relative;
+        margin-right: 20px;
+        overflow: visible;
+
+        &:after {
+            content: "•";
+            position: absolute;
+            right: -15px;
+            pointer-events: none;
         }
 
-        /* Hides psuedo elements that we add on standard lists */
-        &:before {
-            display: none;
+        &:last-of-type:after {
+            content: none;
         }
     }
 }
 
+.o-nav--large {
+    .o-nav__item {
+        font-size: 18px;
+    }
+}
