@@ -18,9 +18,11 @@
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^1.1.0",
     "gulp-size": "^1.2.1",
+    "gulp-sourcemaps": "^1.5.1",
     "gulp-svgmin": "^0.4.6",
     "gulp-uglify": "^1.0.1",
-    "gulp-watch": "^4.1.1"
+    "gulp-watch": "^4.1.1",
+    "browser-sync": "^2.6.4"
   },
   "dependencies": {
     "imagemin-pngcrush": "^3.1.0"
