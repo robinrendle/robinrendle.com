@@ -11,9 +11,8 @@
     {% endif %}
 
     <article class="h-entry">
-        <header class="wrapper m-heading">
+        <header class="m-wrapper m-heading">
             <h1 class="m-heading__title">{{title}}</h1>
-
             <div class="meta-info m-heading__item">
                 <p class="meta-info__item">
                     {% if taxonomy.city %}
@@ -43,7 +42,7 @@
             </aside>
         {% endif %}
 
-        <div class="m-longform wrapper wrapper--unpadded">
+        <div class="m-longform m-wrapper m-wrapper--unpadded">
             {{body}}
         </div>
 
@@ -68,7 +67,7 @@
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <div class="wrapper">
+    <div class="m-wrapper">
         <header class="m-heading">
             <h1 class="m-heading__title">{{title}}</h1>
         </header>
@@ -79,9 +78,9 @@
 
     <section class="article-list">
         {% for post in posts %}
-            <article class="wrapper">
+            <article class="m-wrapper">
                 <header class="hgroup hgroup--listing">
-                    <div class="meta-info meta-info">
+                    <div class="meta-info">
                         <div class="meta-info__item">
                             <time datetime="{{post.date}}">
                                 {% assign d = post.date | date: "%-d"  %}
