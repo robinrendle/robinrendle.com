@@ -1,0 +1,48 @@
+// ==========================================================================
+// BANNER
+// ==========================================================================
+
+
+.m-banner {
+    @include clearfix();
+    padding: 20px;
+
+    @include media(">medium"){
+        border-bottom: 1px solid white;
+    }
+}
+
+.m-banner--dark {
+    background-color: #222;
+    border-bottom: 1px solid #000;
+}
+
+.m-banner__about {
+    margin-bottom: 0;
+
+    @include media(">medium"){
+        float: left;
+        color: $c-secondary;
+    }
+
+    em {
+        display: none;
+        font-size: 15px;
+
+        @include media(">large"){
+            display: inline-block;
+        }
+    }
+}
+
+.m-banner__nav {
+    @include media(">medium"){
+        float: right;
+    }
+    a {
+        @include links();
+        text-decoration: none;
+        background: none;
+        color: $c-secondary;
+    }
+}

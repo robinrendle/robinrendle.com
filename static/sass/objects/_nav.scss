@@ -32,8 +32,19 @@
             pointer-events: none;
         }
 
+        &:last-of-type {
+            margin-right: 0;
+        }
+
         &:last-of-type:after {
             content: none;
+        }
+
+        &:hover,
+        &:focus {
+            &:before {
+                color: $c-secondary;
+            }
         }
     }
 }

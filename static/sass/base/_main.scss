@@ -22,8 +22,8 @@ body {
     font: 400 110%;
     @include typeface("Regular");
     line-height: 1.4;
-    background-color: #f9f9f9;
-    color: #222;
+    background-color: white;
+    color: #444;
 
     // Sticky footer with flexbox hack.
     display: flex;
@@ -31,8 +31,8 @@ body {
     flex-direction: column;
 
     @include media(">medium"){
-        background-color: #f4f4f4;
         border: 15px solid #ffffff;
+        border-top: none;
     }
 
     &:after {
@@ -68,6 +68,11 @@ body {
 
 .main {
     flex: 1; // sticky footer fix
+    background-color: #f9f9f9;
+
+    @include media(">medium"){
+        background-color: #EFEFEF;
+    }
 }
 
 

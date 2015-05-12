@@ -5,7 +5,7 @@
 // Imports all of the SCSS objects and partials into a single file which is then compiled into CSS.
 //
 
-$base-spacing-unit: 20;
+$base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
 $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !default;
@@ -29,6 +29,7 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
 
 // ATOMS
     @import "objects/nav";
+    @import "objects/island";
 
 // MOLECULES
     @import "modules/custom-post";
@@ -37,6 +38,50 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "modules/codepen";
     @import "modules/meta-info";
     @import "modules/heading";
+    @import "modules/banner";
+
+
+
+::selection {
+    background-color: rgba(61,153,112,0.35);
+    color: #333;
+}
+
+hr, hr:before {
+    user-select: none;
+}
+
+.m-wrapper--unpadded {
+    .m-figure--fill {
+        @include clearfix();
+        max-width: 100%;
+
+        img {
+            @include media(">large"){
+                max-width: 79%;
+                float: right;
+            }
+        }
+
+        figcaption {
+            @include media(">large"){
+                font-size: 15px;
+                float: left;
+                margin-left: 10px;
+                width: 18%;
+                padding-top: 10px;
+                text-align: right;
+                position: relative;
+
+                &:before {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
 
 
 

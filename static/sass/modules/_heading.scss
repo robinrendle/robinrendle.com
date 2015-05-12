@@ -7,7 +7,17 @@
 
 .m-heading {
     @include remCalc(margin-bottom, 45);
+    position: relative;
 }
+
+.m-heading--large {
+    .m-heading__title {
+        @include media(">large"){
+            font-size: 59px;
+        }
+    }
+}
+
 
 .m-heading__title,
 .m-heading__item {
@@ -22,3 +32,5 @@
         @include remCalc(font-size, 40);
     }
 }
+
+

@@ -17,7 +17,7 @@
         @include remCalc(margin-bottom, ($base-spacing-unit * .5));
     }
 
-    p {
+    p, ul, ol {
         @include typeface("Regular");
         @include remCalc(font-size, 18);
         -webkit-hyphens:auto;
@@ -28,12 +28,11 @@
 
         @include media(">medium") {
             @include remCalc(font-size, 19);
-            line-height: 1.5;
+            line-height: 1.55;
         }
 
         @include media(">large"){
-            @include remCalc(font-size, 20);
-            line-height: 1.55;
+            line-height: 1.6;
         }
 
         & > img {
@@ -46,28 +45,54 @@
         margin-bottom: 0;
     }
 
-    p + blockquote,
-    ul + blockquote,
-    ol + blockquote {
-        margin-top: -10px; // counter default margins of paragraphs
+    figure {}
+
+    figcaption {
+        @include typeface("Regular italic");
+        padding-top: 20px;
+        max-width: 600px;
+
+        &:before {
+            content: "";
+            display: block;
+            position: relative;
+            width: 150px;
+            height: 2px;
+            background-color: #ddd;
+            top: -5px;
+        }
     }
 
     blockquote {
-        @include remCalc(margin, $base-spacing-unit * 1.5, 0);
         position: relative;
+        &:before {
+            @include media(">large"){
+                content: "“";
+                position: absolute;
+                height: 100%;
+                width: 2px;
+                top: -10px;
+                left: -25px;
+                @include remCalc(font-size, 40);
+                @include typeface("Display");
+                color: #ccc;
+            }
+        }
 
         p {
             @include typeface("Regular italic");
             @include remCalc(padding-bottom, $base-spacing-unit);
             margin-bottom: 0;
-            padding-left: 10px;
-            border-left: none;
+            position: relative;
+            color: #555;
+            left: 18px;
 
-            @include media(">medium"){
-                padding-left: 0;
+            @include media(">large"){
+                left: 0;
             }
 
-            &:last-of-type, &:only-child {
+            &:last-of-type,
+            &:only-child {
                 padding-bottom: 0;
             }
         }
@@ -86,11 +111,10 @@
         display: block;
         position: relative;
         padding-top: 4px;
-        padding-left: 15px;
-        border-left: 2px solid #eee;
+        border-left: 2px solid transparent;
 
         >p {
-            @include remCalc(font-size, 17);
+            @include remCalc(font-size, 16);
             margin-bottom: 0;
             text-align: left;
             width: 100%;

@@ -7,7 +7,7 @@ ul,ol,dl,
 blockquote,p,address,
 table,
 fieldset,figure,
-pre, hr,
+pre, hr, ul,ol,
 .media,
 .island,
 .islet{
@@ -22,7 +22,7 @@ pre, hr,
  * Where `margin-left` is concerned we want to try and indent certain elements
  * by a consistent amount. Define that amount once, here.
  */
-ul,ol,dd {
+dd {
     @include remCalc(margin-bottom, $half-spacing-unit);
 }
 

@@ -5,9 +5,9 @@
 // adds max-width
 //
 
-$max-width: 750;
+$max-width: 720;
 
-.wrapper {
+.m-wrapper {
     display: block;
     margin: 0 auto;
     @include remCalc(padding, 0, 15);
@@ -25,7 +25,7 @@ $max-width: 750;
 
 // This module resets all of the padding of each element so that certain elements can be
 // toggled into fullwidth much easier.
-.wrapper--unpadded {
+.m-wrapper--unpadded {
     max-width: none;
     padding: 0;
 
