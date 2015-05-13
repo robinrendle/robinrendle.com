@@ -1,0 +1,15 @@
+// ==========================================================================
+// TEXT-STYLE
+// ==========================================================================
+
+.u-text--bold {
+    font-weight: bold;
+}
+
+.u-text--italic {
+    @include typeface("Regular italic");
+}
+
+.u-text--small-caps {
+    @include typeface("Small caps");
+}
