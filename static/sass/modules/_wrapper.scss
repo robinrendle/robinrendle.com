@@ -5,13 +5,14 @@
 // adds max-width
 //
 
-$max-width: 720;
+$_max-width: 720;
+$_max-width-wide: 1000;
 
 .m-wrapper {
     display: block;
     margin: 0 auto;
     @include remCalc(padding, 0, 15);
-    @include remCalc(max-width, $max-width);
+    @include remCalc(max-width, $_max-width);
 
     @include media(">medium"){
         @include remCalc(padding, 0, 30);
@@ -20,6 +21,10 @@ $max-width: 720;
     @include media(">large"){
         @include remCalc(padding, 0);
     }
+}
+
+.m-wrapper--wide {
+    @include remCalc(max-width, $_max-width-wide);
 }
 
 
@@ -38,7 +43,7 @@ $max-width: 720;
         h1, h2, h3, h4, h5, h6 {
         margin-left: auto;
         margin-right: auto;
-        @include remCalc(max-width, $max-width);
+        @include remCalc(max-width, $_max-width);
         @include remCalc(padding, 0, 15);
 
         @include media(">medium"){
@@ -50,7 +55,7 @@ $max-width: 720;
         }
     }
 
-    & > div { // this is a hack for Codepen because the
+    & > div { // this is a hack for Codepen
         padding: 0;
         max-width: none;
     }
