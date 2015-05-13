@@ -5,12 +5,15 @@
 // Styles for date, time, location etc.
 //
 
-
 .meta-info {
-    @include typeface("Regular italic");
+    @include typeface("Book");
+    @include remCalc(font-size, 13);
     @include clearfix();
-    @include remCalc(margin-bottom, $base-spacing-unit);
-    color: #666;
+    margin: 0;
+
+    @include media(">medium"){
+        @include remCalc(font-size, 15);
+    }
 }
 
 .meta-info__item {
@@ -18,7 +21,7 @@
     margin: 0;
 
     &:first-child:after {
-        content: "•";
+        content: "~";
         @include typeface("Regular");
         display: inline-block;
         margin-left: 0px;
