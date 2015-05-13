@@ -18,6 +18,7 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "utilities/breakpoints";
     @import "utilities/type";
     @import "utilities/colors";
+    @import "utilities/text-style";
 
 // QUARKS
     @import "base/base-spacing";
@@ -30,6 +31,7 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
 // ATOMS
     @import "objects/nav";
     @import "objects/island";
+    @import "objects/cell";
 
 // MOLECULES
     @import "modules/custom-post";
