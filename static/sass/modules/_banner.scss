@@ -5,9 +5,10 @@
 
 .m-banner {
     @include clearfix();
-    padding: 20px;
+    padding: 15px 20px;
 
     @include media(">medium"){
+        padding: 20px 30px;
         border-bottom: 1px solid white;
     }
 }
@@ -22,6 +23,9 @@
 
     @include media(">medium"){
         float: left;
+    }
+
+    @include media(">large"){
         color: $c-secondary;
     }
 
@@ -44,5 +48,12 @@
         text-decoration: none;
         background: none;
         color: $c-secondary;
+
+        &:hover,
+        &:focus {
+            &:after {
+                color: $c-secondary;
+            }
+        }
     }
 }
