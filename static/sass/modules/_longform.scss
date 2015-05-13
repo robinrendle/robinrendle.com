@@ -14,7 +14,7 @@
 
     h3, h4, h5, h6 {
         @include remCalc(margin-top, ($base-spacing-unit * 1.5));
-        @include remCalc(margin-bottom, ($base-spacing-unit * .5));
+        @include remCalc(margin-bottom, ($base-spacing-unit));
     }
 
     p, ul, ol {
@@ -45,21 +45,21 @@
         margin-bottom: 0;
     }
 
-    figure {}
+    p, ul, ol,
+    img, figure {
+        & + h3,
+        & + .h3 {
+            @include remCalc(margin-top, $base-spacing-unit * 2);
+        }
+    }
 
     figcaption {
         @include typeface("Regular italic");
         padding-top: 20px;
         max-width: 600px;
 
-        &:before {
-            content: "";
-            display: block;
-            position: relative;
-            width: 150px;
-            height: 2px;
-            background-color: #ddd;
-            top: -5px;
+        a {
+            @include links-dark();
         }
     }
 
@@ -86,6 +86,7 @@
             position: relative;
             color: #555;
             left: 18px;
+            width: calc(100% - 18px);
 
             @include media(">large"){
                 left: 0;
@@ -114,14 +115,30 @@
         border-left: 2px solid transparent;
 
         >p {
-            @include remCalc(font-size, 16);
+            @include remCalc(font-size, 15);
             margin-bottom: 0;
             text-align: left;
             width: 100%;
         }
     }
 
-    a {
-        @include links();
+    @include links();
+
+    h2,.h2 {
+        @include typeface("Display");
+        margin-bottom: 15px;
+    }
+
+    h3,.h3 {
+        @include typeface("Book");
+        margin-bottom: 15px;
+    }
+
+    h4, .h4 {
+        @include typeface("Regular italic");
+    }
+
+    h5, .h5 {
+        @include typeface("Small caps");
     }
 }
