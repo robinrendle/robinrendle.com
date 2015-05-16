@@ -10,21 +10,45 @@ a {
     border: none;
 }
 
-@mixin links(){
-    background: linear-gradient(transparent 89%, #aaa 95%, transparent 94%);
-    color: $c-primary;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    transition: color .2s ease;
-    outline: none;
-
-    &:hover,
-    &:focus {
+@mixin links() {
+    &:link,
+    a {
+        color: $c-primary;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        transition: color .3s ease;
         outline: none;
-        color: darken($c-primary, 10);
-        border: none;
-        background: linear-gradient(transparent 89%, darken($c-primary, 10), transparent 94%);
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            outline: none;
+            text-decoration: none;
+            color: darken($c-primary, 10);
+            border: none;
+        }
+    }
+}
+
+.links {
+    @include links();
+}
+
+.links--underline {
+    @include links();
+    @include underline();
+}
+
+
+@mixin links-dark(){
+    color: #444;
+}
+
+.links--dark {
+    &:link,
+    a {
+        @include links-dark();
     }
 }
 
