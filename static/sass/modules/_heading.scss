@@ -6,7 +6,6 @@
 //
 
 .m-heading {
-    @include remCalc(margin-bottom, 45);
     position: relative;
 }
 
@@ -25,12 +24,7 @@
 }
 
 .m-heading__title {
-    @include remCalc(font-size, 35);
     @include remCalc(margin-bottom, $base-spacing-unit / 4);
-
-    @include media(">medium"){
-        @include remCalc(font-size, 40);
-    }
 }
 
 
