@@ -43,8 +43,11 @@
     @include media(">medium"){
         float: right;
     }
+
+    @include links();
+    @include underline();
+
     a {
-        @include links();
         text-decoration: none;
         background: none;
         color: $c-secondary;
