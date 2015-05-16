@@ -7,6 +7,11 @@
 
 .m-longform {
     text-rendering: optimizeLegibility;
+    @include links();
+    @include underline();
+    @include trim();
+
+
 
     h2 {
         @include remCalc(margin-top, ($base-spacing-unit * 2));
@@ -19,12 +24,12 @@
 
     p, ul, ol {
         @include typeface("Regular");
-        @include remCalc(font-size, 18);
+        @include remCalc(font-size, 17);
         -webkit-hyphens:auto;
         -webkit-hyphenate-limit-after:2;
         -webkit-hyphenate-limit-before:3;
         hyphens: auto;
-        line-height: 1.45;
+        line-height: 1.5;
 
         @include media(">medium") {
             @include remCalc(font-size, 19);
@@ -39,6 +44,10 @@
             @include remCalc(margin-top, $base-spacing-unit * 2);
             @include remCalc(margin-bottom, $base-spacing-unit * 2);
         }
+    }
+
+    ul ul {
+        margin-left: 20px;
     }
 
     figure > blockquote {
@@ -63,8 +72,15 @@
         }
     }
 
+    blockquote > p, .cite, figcaption {
+        padding-left: 18px;
+    }
+
     blockquote {
         position: relative;
+        padding-left: 0 !important;
+        border-left: 2px solid $c-primary;
+
         &:before {
             @include media(">large"){
                 content: "“";
@@ -85,8 +101,6 @@
             margin-bottom: 0;
             position: relative;
             color: #555;
-            left: 18px;
-            width: calc(100% - 18px);
 
             @include media(">large"){
                 left: 0;
@@ -122,8 +136,6 @@
         }
     }
 
-    @include links();
-
     h2,.h2 {
         @include typeface("Display");
         margin-bottom: 15px;
@@ -140,5 +152,17 @@
 
     h5, .h5 {
         @include typeface("Small caps");
+    }
+}
+
+
+.m-longform--small {
+    p, ul, ol {
+        @include remCalc(font-size, 15);
+        line-height: 1.4;
+
+        @include media(">medium") {
+            @include remCalc(font-size, 16);
+        }
     }
 }
