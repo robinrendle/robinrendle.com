@@ -1,0 +1,19 @@
+// ==========================================================================
+// UNDERLINE
+// ==========================================================================
+
+@mixin underline(){
+     a {
+        background: linear-gradient(transparent 89%, #aaa 95%, transparent 94%);
+        text-shadow: -2px 0px #EFEFEF, 2px 0px #EFEFEF;
+
+        &:hover,
+        &:focus {
+            background: linear-gradient(transparent 89%, $c-primary 95%, transparent 94%);
+        }
+    }
+}
+
+.u-underline {
+    @include underline();
+}
