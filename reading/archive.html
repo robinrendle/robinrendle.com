@@ -6,26 +6,29 @@
 
     {{body}}
 
-    <section class="wrapper">
+    <section class="m-wrapper">
         {% for post in posts %}
-            <article>
-                <header>
-                    <time datetime="{{post.date}}">
-                        {% assign d = post.date | date: "%-d"  %}
-                        {% case d %}
-                            {% when '1' or '21' or '31' %}{{ d }}st
-                            {% when '2' or '22' %}{{ d }}nd
-                            {% when '3' or '23' %}{{ d }}rd
-                            {% else %}{{ d }}th
-                        {% endcase %}
-                        {{ post.date | date: "%B" }}
-                        {{ post.date | date: "%Y" }}
-                    </time>
-                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                </header>
-
-                <p>{{post.meta.Extract.value}}</p>
-            </article>
+            <div class="cell-b30">
+                <article class="rules rules--bottom">
+                    <header>
+                        <time datetime="{{post.date}}">
+                            {% assign d = post.date | date: "%-d"  %}
+                            {% case d %}
+                                {% when '1' or '21' or '31' %}{{ d }}st
+                                {% when '2' or '22' %}{{ d }}nd
+                                {% when '3' or '23' %}{{ d }}rd
+                                {% else %}{{ d }}th
+                            {% endcase %}
+                            {{ post.date | date: "%B" }}
+                            {{ post.date | date: "%Y" }}
+                        </time>
+                        <h3 class="links h3 u-text--book u-reset-margins"><a href="{{post.url}}">{{post.title}}</a></h3>
+                    </header>
+                    <div class="m-longform">
+                        <p>{{post.meta.Extract.value}}</p>
+                    </div>
+                </article>
+            </div>
         {% endfor %}
     </section>
 
