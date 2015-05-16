@@ -11,6 +11,7 @@ $quarter-spacing-unit: $half-spacing-unit / 2;
 $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !default;
 
 // UTILITIES : functions + settings to be used anywhere
+// # TODO: separate utils into tools + utils
     @import "utilities/reset";
     @import "utilities/rem-calc";
     @import "utilities/normalize";
@@ -19,8 +20,13 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "utilities/type";
     @import "utilities/colors";
     @import "utilities/text-style";
+    @import "utilities/underline";
+    @import "utilities/inverse";
 
-// QUARKS
+// TOOLS
+    @import "tools/trim";
+
+// BASE ELEMENT STYLES
     @import "base/base-spacing";
     @import "base/main";
     @import "base/links";
@@ -28,12 +34,11 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "base/rules";
     @import "base/code";
 
-// ATOMS
+// OBJECTS
     @import "objects/nav";
     @import "objects/island";
-    @import "objects/cell";
 
-// MOLECULES
+// MODULES
     @import "modules/custom-post";
     @import "modules/longform";
     @import "modules/wrapper";
@@ -45,7 +50,7 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
 
 
 ::selection {
-    background-color: rgba(61,153,112,0.35);
+    background-color: rgba($c-primary,0.35);
     color: #333;
 }
 
@@ -87,5 +92,5 @@ hr, hr:before {
 
 
 
-
-
+@import "utilities/reset-margins";
+@import "objects/cell"; // !important
