@@ -2,23 +2,44 @@
 // RULES
 // ==========================================================================
 
-hr {
+hr,
+.hr {
     border: none;
     display: inline-block;
     width: 100%;
     padding: 0 !important;
-    @include remCalc(margin-bottom, $base-spacing-unit * 2);
-    color: $c-secondary;
+    margin-top: 15px;
+    margin-bottom: 27px;
+    height: 20px;
+    line-height: 1;
 
-    @include media(">medium"){
-        @include remCalc(margin-bottom, $base-spacing-unit * 3);
-    }
 
-    &:before {
+    &:after {
+        color: lighten($c-secondary, 20);
         content: "* * *";
         display: block;
         margin: 0 auto;
         text-align: center;
         @include remCalc(font-size, 30);
     }
+}
+
+.rules--top {
+    border-top: 1px solid;
+}
+
+.rules--bottom {
+    border-bottom: 1px solid;
+}
+
+.rules--thick {
+    border-width: 3px;
+}
+
+.rules {
+    border-color: lighten($c-secondary,30);
+}
+
+.rules--white {
+    border-color: white;
 }
