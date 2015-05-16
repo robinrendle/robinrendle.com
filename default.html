@@ -3,16 +3,8 @@
 <!-- POST -->
 <!-- Default post styles -->
 {% if type == "post" %}
-
-    {% if meta.Hero %}
-        <figure class="hero hero--nudge">
-            <img src="{{meta.Hero.value}}" alt="">
-        </figure>
-    {% endif %}
-
     <article class="h-entry">
-        <header class="m-wrapper m-heading">
-            <h1 class="m-heading__title">{{title}}</h1>
+        <header class="m-wrapper m-heading cell-t30 cell-t60--medium cell-t80--large cell-b40 {% if meta.Hero %}cell-b60{% endif %}">
             <div class="meta-info m-heading__item">
                 <p class="meta-info__item">
                     {% if taxonomy.city %}
@@ -34,12 +26,21 @@
                     </time>
                 </div>
             </div>
+            <h1 class="m-heading__title">{{title}}</h1>
         </header>
 
+        {% if meta.Hero %}
+            <figure class="hero">
+                <img src="{{meta.Hero.value}}" alt="">
+            </figure>
+        {% endif %}
+
         {% if meta.Update %}
-            <aside class="island island--meta">
+        <div class="m-wrapper">
+            <div class="h3 links">
                 {{meta.Update.value | markdown:true }}
-            </aside>
+            </div>
+        </div>
         {% endif %}
 
         <div class="m-longform m-wrapper m-wrapper--unpadded">
@@ -47,38 +48,35 @@
         </div>
 
         {% if meta.Aside %}
-            <aside class="island island--meta">
-                {{meta.Aside.value | markdown:true }}
-            </aside>
+        <div class="cell-t20">
+            <div class="m-wrapper m-longform m-longform--small cell-b60">
+                <aside class="island island--meta cell-t20">
+                    {{meta.Aside.value | markdown:true }}
+                </aside>
+            </div>
+        </div>
         {% endif %}
-
     </article>
 
 {% endif %}
 
 
-
-
-
-
-
-
-
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <div class="m-wrapper">
-        <header class="m-heading">
-            <h1 class="m-heading__title">{{title}}</h1>
-        </header>
+    <header class="m-heading cell-b30">
+        <div class="cell-t30 cell-t60--medium cell-t80--large">
+            <div class="m-wrapper">
+                <h1 class="m-heading__title cell-b30">{{title}}</h1>
+            </div>
+        </div>
+    </header>
 
-        {{body}}
+    {{body}}
 
-    </div>
-
-    <section class="article-list">
+    <section class="m-wrapper ">
         {% for post in posts %}
-            <article class="m-wrapper">
+            <article class="cell-b40">
                 <header class="hgroup hgroup--listing">
                     <div class="meta-info">
                         <div class="meta-info__item">
@@ -95,10 +93,12 @@
                             </time>
                         </div>
                     </div>
-                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                    <h3 class="h3 u-text--book links u-reset-margins cell-b0">
+                        <a href="{{post.url}}">{{post.title}}</a>
+                    </h3>
                 </header>
 
-                <div class="article-list__content">
+                <div class="m-longform">
                     <p>{{post.meta.Extract.value}}</p>
                 </div>
             </article>
