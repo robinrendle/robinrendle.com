@@ -13,3 +13,7 @@
 .u-text--small-caps {
     @include typeface("Small caps");
 }
+
+.u-text--book {
+    @include typeface("Book");
+}
