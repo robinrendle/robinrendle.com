@@ -4,7 +4,18 @@
 <!-- Default post styles -->
 {% if type == "post" %}
     <article class="h-entry">
-        <header class="m-wrapper m-heading cell-t30 cell-t60--medium cell-t80--large cell-b40 {% if meta.Hero %}cell-b60{% endif %}">
+        <header class="m-wrapper
+                    m-heading
+                    cell-t30
+                    cell-t60--medium
+                    cell-t80--large
+                    cell-b30
+                    {% if meta.Hero == true and meta.Update == false %}
+                        cell-b60
+                    {% endif %}
+                    {% if meta.Hero == true and meta.Update == true %}
+                        cell-b20
+                    {% endif %}">
             <div class="meta-info m-heading__item">
                 <p class="meta-info__item">
                     {% if taxonomy.city %}
@@ -29,18 +40,20 @@
             <h1 class="m-heading__title">{{title}}</h1>
         </header>
 
-        {% if meta.Hero %}
-            <figure class="hero">
-                <img src="{{meta.Hero.value}}" alt="">
-            </figure>
-        {% endif %}
-
         {% if meta.Update %}
         <div class="m-wrapper">
-            <div class="h3 links">
+            <div class="h3 links {% if meta.Hero %} cell-b20 cell-b40--medium{% endif %}">
                 {{meta.Update.value | markdown:true }}
             </div>
         </div>
+        {% endif %}
+
+        {% if meta.Hero %}
+            <div class="cell-b20 cell-b40--medium">
+                <figure class="m-hero rules rules--top rules--bottom rules--white">
+                    <img src="{{meta.Hero.value}}" alt="">
+                </figure>
+            </div>
         {% endif %}
 
         <div class="m-longform m-wrapper m-wrapper--unpadded">
@@ -48,7 +61,7 @@
         </div>
 
         {% if meta.Aside %}
-        <div class="cell-t20">
+        <div class="cell-t0">
             <div class="m-wrapper m-longform m-longform--small cell-b60">
                 <aside class="island island--meta cell-t20">
                     {{meta.Aside.value | markdown:true }}
@@ -64,10 +77,10 @@
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <header class="m-heading cell-b30">
+    <header class="m-heading cell-b20 cell-b40--medium">
         <div class="cell-t30 cell-t60--medium cell-t80--large">
             <div class="m-wrapper">
-                <h1 class="m-heading__title cell-b30">{{title}}</h1>
+                <h1 class="m-heading__title">{{title}}</h1>
             </div>
         </div>
     </header>
