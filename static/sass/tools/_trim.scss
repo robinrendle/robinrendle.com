@@ -5,7 +5,6 @@
 
 
 @mixin trim(){
-    > *:only-of-type,
     > *:last-child {
         margin-bottom: 0;
     }
