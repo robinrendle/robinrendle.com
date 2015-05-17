@@ -1,7 +1,10 @@
 {% include 'components/header' %}
-
-    <header>
-        <h1>{{title}}</h1>
+    <header class="m-heading cell-b20 cell-b40--medium">
+        <div class="cell-t30 cell-t60--medium cell-t80--large">
+            <div class="m-wrapper">
+                <h1 class="m-heading__title">{{title}}</h1>
+            </div>
+        </div>
     </header>
 
     {{body}}
@@ -9,19 +12,21 @@
     <section class="m-wrapper">
         {% for post in posts %}
             <div class="cell-b30">
-                <article class="rules rules--bottom">
+                <article class="cell-b30">
                     <header>
-                        <time datetime="{{post.date}}">
-                            {% assign d = post.date | date: "%-d"  %}
-                            {% case d %}
-                                {% when '1' or '21' or '31' %}{{ d }}st
-                                {% when '2' or '22' %}{{ d }}nd
-                                {% when '3' or '23' %}{{ d }}rd
-                                {% else %}{{ d }}th
-                            {% endcase %}
-                            {{ post.date | date: "%B" }}
-                            {{ post.date | date: "%Y" }}
-                        </time>
+                        <div class="meta-info">
+                            <time datetime="{{post.date}}" class="meta-info__item">
+                                {% assign d = post.date | date: "%-d"  %}
+                                {% case d %}
+                                    {% when '1' or '21' or '31' %}{{ d }}st
+                                    {% when '2' or '22' %}{{ d }}nd
+                                    {% when '3' or '23' %}{{ d }}rd
+                                    {% else %}{{ d }}th
+                                {% endcase %}
+                                {{ post.date | date: "%B" }}
+                                {{ post.date | date: "%Y" }}
+                            </time>
+                        </div>
                         <h3 class="links h3 u-text--book u-reset-margins"><a href="{{post.url}}">{{post.title}}</a></h3>
                     </header>
                     <div class="m-longform">

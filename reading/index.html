@@ -1,38 +1,44 @@
 {% include 'components/header' %}
 
-    <header class="m-wrapper">
-        <h1>{{title}}</h1>
+    <header class="m-heading cell-b20 cell-b40--medium">
+        <div class="cell-t30 cell-t60--medium cell-t80--large">
+            <div class="m-wrapper">
+                <h1 class="m-heading__title">{{title}}</h1>
+            </div>
+        </div>
     </header>
 
     <section>
         {% for post in posts | limit: 7 %}
-            <article class="m-wrapper cell-t40 cell-t60--medium">
+            <article class="m-wrapper cell-b60">
                 <header>
-                    <div class="info-block__item">
+                    <div class="meta-info m-heading__item">
+                        <div class="meta-info__item">
                         <time datetime="{{post.date}}">
                             {% assign d = post.date | date: "%-d"  %}
-                    {% case d %}
-                        {% when '1' or '21' or '31' %}{{ d }}st
-                        {% when '2' or '22' %}{{ d }}nd
-                        {% when '3' or '23' %}{{ d }}rd
-                        {% else %}{{ d }}th
-                    {% endcase %}
-                    {{ post.date | date: "%B" }}
-                    {{ post.date | date: "%Y" }}
-                        </time>
+                            {% case d %}
+                                {% when '1' or '21' or '31' %}{{ d }}st
+                                {% when '2' or '22' %}{{ d }}nd
+                                {% when '3' or '23' %}{{ d }}rd
+                                {% else %}{{ d }}th
+                            {% endcase %}
+                            {{ post.date | date: "%B" }}
+                            {{ post.date | date: "%Y" }}
+                                </time>
+                        </div>
                     </div>
-                    <h2 class="h2 links--dark"><a href="{{post.url}}">{{post.title}}</a></h2>
+                    <h2 class="h2 links--dark u-reset-margins cell-b20"><a href="{{post.url}}">{{post.title}}</a></h2>
                 </header>
 
                 <div class="m-longform">
-                    <p>{{post.body}}</p>
+                    {{post.body}}
                 </div>
             </article>
         {% endfor %}
     </section>
 
     <div class="cell-t60">
-        <div class="m-wrapper rules--top rules--white rules rules--thick cell-t20 cell-b60 links">
+        <div class="m-wrapper rules--top rules rules--white cell-t20 cell-b30 links">
             <a class="h4" href="/reading/archive">View all posts</a>
         </div>
     </div>
