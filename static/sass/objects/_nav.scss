@@ -20,15 +20,30 @@
 
 // Bullet list nav
 .o-nav--bullets {
+    @include links();
+    @include underline();
+
     .o-nav__item {
         position: relative;
         margin-right: 20px;
         overflow: visible;
+        background-color: red;
+        text-decoration: none;
+        background: none;
+        color: $c-secondary;
+
+        &:hover,
+        &:focus {
+            &:after {
+                color: $c-secondary;
+            }
+        }
 
         &:after {
             content: "•";
             position: absolute;
             right: -15px;
+            bottom: 0;
             pointer-events: none;
         }
 
