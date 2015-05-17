@@ -46,12 +46,15 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "modules/meta-info";
     @import "modules/heading";
     @import "modules/banner";
+    @import "modules/footer";
+    @import "modules/hero";
 
 
 
 ::selection {
     background-color: rgba($c-primary,0.35);
     color: #333;
+    text-shadow: none;
 }
 
 hr, hr:before {
