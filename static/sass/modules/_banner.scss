@@ -43,20 +43,4 @@
     @include media(">medium"){
         float: right;
     }
-
-    @include links();
-    @include underline();
-
-    a {
-        text-decoration: none;
-        background: none;
-        color: $c-secondary;
-
-        &:hover,
-        &:focus {
-            &:after {
-                color: $c-secondary;
-            }
-        }
-    }
 }
