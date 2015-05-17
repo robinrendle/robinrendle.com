@@ -25,6 +25,11 @@ h1,
         @include remCalc(font-size, 28);
         line-height: 1.15;
 
+        @include media(">small"){
+            @include remCalc(font-size, 32);
+            line-height: 1.15;
+        }
+
         @include media(">medium"){
             @include remCalc(font-size, 35);
             line-height: 1.15;
