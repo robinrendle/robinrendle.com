@@ -81,20 +81,6 @@
         padding-left: 0 !important;
         border-left: 2px solid $c-primary;
 
-        &:before {
-            @include media(">large"){
-                content: "“";
-                position: absolute;
-                height: 100%;
-                width: 2px;
-                top: -10px;
-                left: -25px;
-                @include remCalc(font-size, 40);
-                @include typeface("Display");
-                color: #ccc;
-            }
-        }
-
         p {
             @include typeface("Regular italic");
             @include remCalc(padding-bottom, $base-spacing-unit);
