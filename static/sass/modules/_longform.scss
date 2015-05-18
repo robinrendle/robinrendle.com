@@ -11,8 +11,6 @@
     @include underline();
     @include trim();
 
-
-
     h2 {
         @include remCalc(margin-top, ($base-spacing-unit * 2));
     }
@@ -24,19 +22,24 @@
 
     p, ul, ol {
         @include typeface("Regular");
-        @include remCalc(font-size, 17);
+        @include remCalc(font-size, 16);
         -webkit-hyphens:auto;
         -webkit-hyphenate-limit-after:2;
         -webkit-hyphenate-limit-before:3;
         hyphens: auto;
         line-height: 1.5;
 
+        @include media(">small") {
+            @include remCalc(font-size, 17);
+        }
+
         @include media(">medium") {
-            @include remCalc(font-size, 19);
+            @include remCalc(font-size, 18);
             line-height: 1.55;
         }
 
         @include media(">large"){
+            @include remCalc(font-size, 19);
             line-height: 1.6;
         }
 
@@ -115,29 +118,36 @@
         border-left: 2px solid transparent;
 
         >p {
-            @include remCalc(font-size, 15);
+            @include remCalc(font-size, 14);
             margin-bottom: 0;
             text-align: left;
             width: 100%;
+
+            @include media(">medium"){
+                @include remCalc(font-size, 15);
+            }
         }
     }
 
     h2,.h2 {
         @include typeface("Display");
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     h3,.h3 {
         @include typeface("Book");
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
     h4, .h4 {
         @include typeface("Regular italic");
+        margin-top: 40px;
     }
 
     h5, .h5 {
         @include typeface("Small caps");
+        color: $c-primary;
+        margin-top: 40px;
     }
 }
 
