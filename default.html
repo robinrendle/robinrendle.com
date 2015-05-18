@@ -16,7 +16,8 @@
                     {% if meta.Hero == true and meta.Update == true %}
                         cell-b20
                     {% endif %}">
-            <div class="meta-info m-heading__item">
+            <h1 class="m-heading__title">{{title}}</h1>
+            <div class="meta-info">
                 <p class="meta-info__item">
                     {% if taxonomy.city %}
                         {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
@@ -37,7 +38,6 @@
                     </time>
                 </div>
             </div>
-            <h1 class="m-heading__title">{{title}}</h1>
         </header>
 
         {% if meta.Update %}
@@ -61,13 +61,11 @@
         </div>
 
         {% if meta.Aside %}
-        <div class="cell-t0">
-            <div class="m-wrapper m-longform m-longform--small cell-b60">
+            <div class="m-wrapper m-longform m-longform--small cell-b20">
                 <aside class="island island--meta cell-t20">
                     {{meta.Aside.value | markdown:true }}
                 </aside>
             </div>
-        </div>
         {% endif %}
     </article>
 
@@ -87,7 +85,7 @@
 
     {{body}}
 
-    <section class="m-wrapper ">
+    <section class="m-wrapper">
         {% for post in posts %}
             <article class="cell-b40">
                 <header class="hgroup hgroup--listing">
