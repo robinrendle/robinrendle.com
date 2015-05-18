@@ -8,7 +8,7 @@
 $base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
-$breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !default;
+$breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !default;
 
 // UTILITIES : functions + settings to be used anywhere
 // # TODO: separate utils into tools + utils
@@ -22,6 +22,7 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "utilities/text-style";
     @import "utilities/underline";
     @import "utilities/inverse";
+    @import "utilities/align-text";
 
 // TOOLS
     @import "tools/trim";
@@ -33,6 +34,7 @@ $breakpoints: (small: 500px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "base/hierarchy";
     @import "base/rules";
     @import "base/code";
+    @import "base/lists";
 
 // OBJECTS
     @import "objects/nav";
