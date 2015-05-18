@@ -30,7 +30,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
 
-    @include media(">medium"){
+    @include media(">large"){
         border: 15px solid #ffffff;
         border-top: none;
     }
