@@ -5,7 +5,7 @@
 @mixin underline(){
      a {
         background: linear-gradient(transparent 89%, #aaa 95%, transparent 94%);
-        text-shadow: -2px 0px #EFEFEF, 2px 0px #EFEFEF;
+        // text-shadow: -2px 0px transparent, 2px 0px #EFEFEF;
 
         &:hover,
         &:focus {
