@@ -15,7 +15,7 @@ $_max-width-wide: 1000;
     @include remCalc(max-width, $_max-width);
 
     @include media(">medium"){
-        @include remCalc(padding, 0, 30);
+        padding: 0 6%;
     }
 
     @include media(">large"){
@@ -47,7 +47,7 @@ $_max-width-wide: 1000;
         @include remCalc(padding, 0, 15);
 
         @include media(">medium"){
-            @include remCalc(padding, 0, 30);
+            padding: 0 6%;
         }
 
         @include media(">large"){
