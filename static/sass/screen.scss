@@ -39,6 +39,8 @@ $breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !defa
 // OBJECTS
     @import "objects/nav";
     @import "objects/island";
+    @import "objects/multi";
+    @import "objects/preserve-aspect";
 
 // MODULES
     @import "modules/custom-post";
@@ -46,11 +48,9 @@ $breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !defa
     @import "modules/wrapper";
     @import "modules/codepen";
     @import "modules/meta-info";
-    @import "modules/heading";
     @import "modules/banner";
     @import "modules/footer";
     @import "modules/hero";
-
 
 
 ::selection {
@@ -59,43 +59,29 @@ $breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !defa
     text-shadow: none;
 }
 
-hr, hr:before {
-    user-select: none;
+.m-heading {
+    @include trim();
+    padding-top: 100px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.m-wrapper--unpadded {
-    .m-figure--fill {
-        @include clearfix();
-        max-width: 100%;
+.m-heading__text {
+    font-size: 24px;
+    line-height: 1.3;
 
-        img {
-            @include media(">large"){
-                max-width: 79%;
-                float: right;
-            }
-        }
-
-        figcaption {
-            @include media(">large"){
-                font-size: 15px;
-                float: left;
-                margin-left: 10px;
-                width: 18%;
-                padding-top: 10px;
-                text-align: right;
-                position: relative;
-
-                &:before {
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                }
-            }
-        }
+    @include media(">medium"){
+        font-size: 30px;
+        line-height: 1.3;
     }
 }
 
 
 
+@import "themes/dark-mode";
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important

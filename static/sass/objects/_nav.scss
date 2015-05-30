@@ -21,7 +21,6 @@
 // Bullet list nav
 .o-nav--bullets {
     @include links();
-    @include underline();
 
     .o-nav__item {
         position: relative;
@@ -29,11 +28,13 @@
         overflow: visible;
         background-color: red;
         text-decoration: none;
-        background: none;
         color: $c-secondary;
+        background: none;
+        transition: background .3s ease;
 
         &:hover,
         &:focus {
+            background: linear-gradient(transparent 89%, $c-primary 95%, transparent 94%);
             &:after {
                 color: $c-secondary;
             }

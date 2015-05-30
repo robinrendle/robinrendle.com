@@ -7,13 +7,12 @@
 //
 
 code {
+    font-size: 110%;
     position: relative;
-    top: -1px;
-
     font-family: monospace;
-    color: #444;
-    background-color: #eee;
-    border: 1px solid #ddd;
-    padding: 0 3px;
-    border-radius: 3px;
+    color: #777;
 }
+
+// a > code {
+//     border: 1px solid rgba(255,255,255,.1);
+// }

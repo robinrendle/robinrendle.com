@@ -1,6 +1,10 @@
 // ==========================================================================
 // RULES
 // ==========================================================================
+hr, hr:before {
+    user-select: none;
+}
+
 
 hr,
 .hr {
@@ -13,7 +17,6 @@ hr,
     height: 20px;
     line-height: 1;
 
-
     &:after {
         color: lighten($c-secondary, 20);
         content: "* * *";
@@ -21,6 +24,10 @@ hr,
         margin: 0 auto;
         text-align: center;
         @include remCalc(font-size, 30);
+
+        .t-dark & {
+            color: darken($c-secondary, 20);
+        }
     }
 }
 
@@ -50,4 +57,12 @@ hr,
 
 .rules--white {
     border-color: white;
+}
+
+.rules--transparent {
+    border-color: rgba(0,0,0,.1);
+
+    .t-dark & {
+        border-color: rgba(255, 255, 255, 0.1)
+    }
 }

@@ -1,0 +1,66 @@
+// ==========================================================================
+// DARK MODE
+// ==========================================================================
+
+$c-dark: #1F1F1F;
+$c-border: #252525;
+
+.t-dark {
+    color: $c-text;
+    border-color: #252525;
+
+    .main {
+        background-color: $c-dark;
+    }
+
+    ::selection {
+        background-color: rgba(255,255,255,0.05);
+        color: #ccc;
+        text-shadow: none;
+    }
+
+    h1, .h1 {
+        color: $c-offwhite;
+    }
+
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6 {
+        color: darken($c-text, 10);
+    }
+
+    & .m-longform {
+        h2, .h2,
+        h3, .h3,
+        h4, .h4,
+        h5, .h5,
+        h6, .h6 {
+            color: $c-offwhite;
+        }
+    }
+
+    .m-banner {
+        border-bottom: 2px solid $c-border;
+    }
+
+    .m-footer {
+        border-top: 2px solid $c-border;
+    }
+
+    .u-color--primary {
+        color: $c-primary;
+    }
+
+    blockquote p {
+        border-left: 1px solid #777;
+        color: #888;
+    }
+
+    .m-longform {
+        a {
+            color: #ddd;
+        }
+    }
+}

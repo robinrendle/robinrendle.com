@@ -42,7 +42,23 @@ a {
 
 
 @mixin links-dark(){
-    color: #444;
+    &:link,
+    a {
+        color: #777;
+    }
+}
+
+@mixin links-longform {
+    &:link,
+    a {
+        color: $c-primary;
+        transition: color .3s ease;
+
+        &:hover,
+        &:focus {
+            color: $c-primary;
+        }
+    }
 }
 
 .links--dark {

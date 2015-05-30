@@ -4,8 +4,13 @@
 
 @mixin underline(){
      a {
-        background: linear-gradient(transparent 89%, #aaa 95%, transparent 94%);
-        // text-shadow: -2px 0px transparent, 2px 0px #EFEFEF;
+        background: linear-gradient(transparent 89%, rgba(0,0,0,.3) 95%, transparent 94%);
+        text-shadow: -2px 0px #EFEFEF, 2px 0px #EFEFEF;
+
+        .t-dark & {
+            background: linear-gradient(transparent 89%, rgba(255,255,255,.3) 95%, transparent 94%);
+            text-shadow: none;
+        }
 
         &:hover,
         &:focus {

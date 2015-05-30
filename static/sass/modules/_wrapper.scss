@@ -38,12 +38,43 @@ $_max-width-wide: 1000;
         ul,
         ol,
         figure,
+        pre,
+        blockquote,
+        h1, h2, h3, h4, h5, h6 {
+            margin-left: auto;
+            margin-right: auto;
+            @include remCalc(max-width, $_max-width);
+            @include remCalc(padding, 0, 15);
+
+            @include media(">medium"){
+                padding: 0 6%;
+            }
+
+            @include media(">large"){
+                @include remCalc(padding, 0);
+            }
+    }
+
+    & > div { // this is a hack for Codepen
+        padding: 0;
+        max-width: none;
+    }
+}
+
+.m-wrapper--unpadded-wide {
+    max-width: none;
+    padding: 0;
+
+    & > p,
+        ul,
+        ol,
+        figure,
         blockquote,
         pre,
         h1, h2, h3, h4, h5, h6 {
         margin-left: auto;
         margin-right: auto;
-        @include remCalc(max-width, $_max-width);
+        @include remCalc(max-width, $_max-width-wide);
         @include remCalc(padding, 0, 15);
 
         @include media(">medium"){
@@ -61,8 +92,37 @@ $_max-width-wide: 1000;
     }
 }
 
+.m-wrapper--unpadded {
+    .m-figure--fill {
+        @include clearfix();
+        max-width: 100%;
 
+        img {
+            @include media(">large"){
+                max-width: 79%;
+                float: right;
+            }
+        }
 
+        figcaption {
+            @include media(">large"){
+                font-size: 15px;
+                float: left;
+                margin-left: 10px;
+                width: 18%;
+                padding-top: 10px;
+                text-align: right;
+                position: relative;
+
+                &:before {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+        }
+    }
+}
 
 
 

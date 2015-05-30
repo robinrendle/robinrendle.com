@@ -10,3 +10,11 @@
 .o-island--white {
     background-color: white;
 }
+
+.o-island--transparent {
+    background-color: rgba(0,0,0,.05);
+
+    .t-dark & {
+        background-color: rgba(255,255,255,.05);
+    }
+}

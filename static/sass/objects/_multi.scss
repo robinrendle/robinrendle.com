@@ -1,9 +1,13 @@
 // ==========================================================================
-// LISTS
+// MULTI
 // ==========================================================================
 
-.lists--none {
-    list-style: none;
+.o-multi {
+    @include media(">medium") {
+        column-count: 2;
+    }
 }
 
-
+.o-multi__item {
+    break-inside: avoid;
+}

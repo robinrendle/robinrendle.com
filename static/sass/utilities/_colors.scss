@@ -3,8 +3,8 @@
 // ==========================================================================
 
 $c-primary: #AF6868;
-$c-secondary: darken(#aaa, 15);
-
+$c-secondary: darken(#aaa, 20);
+$c-text: #999;
 $c-dark: #ddd;
 
-// #82B29D
+$c-offwhite: lighten($c-text, 10);

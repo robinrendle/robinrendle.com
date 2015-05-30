@@ -6,8 +6,7 @@
 //
 
 .m-longform {
-    text-rendering: optimizeLegibility;
-    @include links();
+    @include links-longform();
     @include underline();
     @include trim();
 
@@ -40,7 +39,7 @@
 
         @include media(">large"){
             @include remCalc(font-size, 19);
-            line-height: 1.6;
+            line-height: 1.69;
         }
 
         & > img {
@@ -55,6 +54,11 @@
 
     figure > blockquote {
         margin-bottom: 0;
+        padding: 0;
+    }
+
+    figure > img + blockquote {
+        margin-top: 20px;
     }
 
     p, ul, ol,
@@ -81,15 +85,14 @@
 
     blockquote {
         position: relative;
-        padding-left: 0 !important;
-        border-left: 2px solid $c-primary;
 
         p {
+            border-left: 2px solid $c-primary;
             @include typeface("Regular italic");
-            @include remCalc(padding-bottom, $base-spacing-unit);
+            @include remCalc(padding-bottom, $base-spacing-unit - 5);
             margin-bottom: 0;
             position: relative;
-            color: #555;
+            color: #666;
 
             @include media(">large"){
                 left: 0;
@@ -106,12 +109,20 @@
         }
     }
 
+    .blockquote--none {
+        p {
+            border-left: 0;
+            padding-left: 0;
+        }
+    }
+
     img {
         display: block;
         margin: 0 auto;
     }
 
     .cite {
+        color: darken($c-text, 15);
         display: block;
         position: relative;
         padding-top: 4px;

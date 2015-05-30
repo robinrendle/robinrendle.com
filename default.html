@@ -5,10 +5,8 @@
 {% if type == "post" %}
     <article class="h-entry">
         <header class="m-wrapper
-                    m-heading
                     cell-t30
                     cell-t60--medium
-                    cell-t80--large
                     cell-b30
                     {% if meta.Hero == true and meta.Update == false %}
                         cell-b60
@@ -16,7 +14,7 @@
                     {% if meta.Hero == true and meta.Update == true %}
                         cell-b20
                     {% endif %}">
-            <h1 class="m-heading__title">{{title}}</h1>
+            <h1 class="u-reset-margins">{{title}}</h1>
             <div class="meta-info">
                 <p class="meta-info__item">
                     {% if taxonomy.city %}
@@ -62,7 +60,7 @@
 
         {% if meta.Aside %}
             <div class="m-wrapper m-longform m-longform--small cell-b20">
-                <aside class="island island--meta cell-t20">
+                <aside class="island island--meta cell-t30">
                     {{meta.Aside.value | markdown:true }}
                 </aside>
             </div>
@@ -75,10 +73,10 @@
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <header class="m-heading cell-b20 cell-b40--medium">
+    <header class=" cell-b20 cell-b40--medium">
         <div class="cell-t30 cell-t60--medium cell-t80--large">
             <div class="m-wrapper">
-                <h1 class="m-heading__title">{{title}}</h1>
+                <h1>{{title}}</h1>
             </div>
         </div>
     </header>

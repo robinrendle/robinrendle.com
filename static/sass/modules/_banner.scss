@@ -20,13 +20,10 @@
 
 .m-banner__about {
     margin-bottom: 0;
+    color: $c-secondary;
 
     @include media(">medium"){
         float: left;
-    }
-
-    @include media(">large"){
-        color: $c-secondary;
     }
 
     em {
