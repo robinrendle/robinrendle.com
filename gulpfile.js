@@ -60,7 +60,6 @@ gulp.task('minify', function(){
 });
 
 gulp.task('start', function(){
-    gulp.watch('./static/js/*.js', ['lint', 'scripts']);
     gulp.watch('./build/css/screen.css', ['minify']);
 });
 
