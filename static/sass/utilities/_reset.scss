@@ -14,8 +14,8 @@
 html, button {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -60,7 +60,7 @@ strong, b, mark{
     font-style:inherit;
 }
 
-em, i, cite, q, address, dfn, var{
+em, i, q, address, dfn, var{
     font-style:italic;
     font-weight:inherit;
 }
@@ -75,6 +75,10 @@ pre, code, samp, kbd{
 
 iframe {
   width: 100%;
+}
+
+a {
+    outline: none;
 }
 
 img {
