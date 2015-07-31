@@ -54,11 +54,20 @@ $c-border: #252525;
     }
 
     blockquote p {
-        border-left: 1px solid #777;
+        border-left: 2px solid #333;
         color: #888;
     }
 
     .m-longform {
+        img {
+            filter: grayscale(100%) brightness(60%);
+
+            &:hover,
+            &:focus {
+                filter: none;
+            }
+        }
+
         a {
             color: #ddd;
         }
