@@ -1,122 +1,48 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js work-body">
-<head>
-    <meta charset="utf-8" />
+{% include 'components/header' %}
 
-    <title>{{site.title}} – {{title}}</title>
-
-    <meta name="author" content="Robin Rendle">
-    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="author" href="https://plus.google.com/+RobinRendle">
-    
-    <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/icons/favicon-114.png">
-    <link rel="shortcut icon" href="/build/favicon/dagger.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/build/css/work-styles.min.css" />
-
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/794542/css/fonts.css" />
-
-    <style>
-        .island--primary,
-        .footer {
-            background-color: {{meta.primary-color}};
-        }
-
-        .banner {
-            background-color: {{meta.secondary-color}};
-        }
-
-        .banner__headline a {
-            background-color: {{meta.secondary-color}};
-            background-color: rgba(0,0,0,0.1);
-        }
-
-        .banner__nav>li a, .banner__nav__menu {
-            color: #eeeeee;
-        }
-
-        .banner__nav>li a:hover,
-        .banner__nav>li a:focus,
-        .banner__nav__menu:hover,
-        .banner__nav__menu:focus {
-            color: #bbbbbb;
-        }
-    
-        article a {
-            color: {{meta.primary-color}};
-            border-color: {{meta.primary-color}};
-        }
-
-        article a:hover,
-        article a:focus {
-            color: {{meta.secondary-color}};   
-            border-color: {{meta.secondary-color}};
-        }
-
-        .container--work-detail .footer {
-            background-color: {{meta.primary-color}};
-        }
-    </style>
-</head>
-
-<body class="container--work container--work-detail">
+<article class="h-entry">
     <section role="main">
-        <div class="island--primary island--hero island--illustration island--{{meta.abbr}}">
-            <div class="container container--wide">
-                <div class="meta-rule">
-                    <div class="meta-rule__item">
-                        <a class="meta-rule__link" href="/work">« Back to all projects</a>
-                    </div>
-                    <div class="meta-rule__item">2013–2014</div>
+            <div class="m-wrapper">
+                <header class="
+                    cell-t20
+                    cell-t60--medium
+                    cell-b20">
+                    <h1 class="u-reset-margins">{{title}}</h1>
+                </header>
+
+                <div class="m-longform cell-b30">
+                    {{meta.extract.value | markdown: true}}
                 </div>
 
-                <h1 class="heading--reversed">{{title}}</h1>
-               
-                {% if meta.Extract %}
-                    <p class="drop-cap--shadow">{{meta.Extract.value }}</p>
-                {% endif %}
+                <div class="o-multi m-longform m-longform--small">
+                    {% if meta.Role || meta.team %}
+                        {% if meta.Role %}
+                            <aside class="island--meta o-multi__item cell-r10--medium">
+                                <div class="">
+                                    <h4 class="h5 u-reset-margins">Responsibilities</h4>
+                                </div>
+                                {{meta.Role.value | markdown:true}}
+                            </aside>
+                        {% endif %}
+                        {% if meta.Team %}
+                            <aside class="island--meta o-multi__item cell-l10--medium">
+                                <div class="">
+                                    <h4 class="h5 u-reset-margins">Team members</h4>
+                                </div>
+                                {{meta.Team.value | markdown:true}}
+                            </aside>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
 
-                {% if meta.Role || meta.team %}
-                    {% if meta.Role %}
-                        <aside class="island--meta">
-                            <h4 class="h--light">Responsibilities</h4>
-                            {{meta.Role.value | markdown:true}}
-                        </aside>
-                    {% endif %}
-                    {% if meta.Team %}
-                        <aside class="island--meta">
-                            <h4 class="h--light">Team members</h4>
-                            {{meta.Team.value | markdown:true}}
-                        </aside>
-                    {% endif %}
-                {% endif %}
-            </div><!-- //.container -->
+
+
+
+        <div class="m-longform m-wrapper m-wrapper--unpadded">
+            {{body}}
         </div>
 
-        <article class="container container--wide">
-            {{body}}
-        </article>
 
-<div class="footer island--illustration island--{{meta.abbr}}">
-        
-        <nav class="nav--fork">
-            <ul>
-                <li class="nav--fork__link"><a href="/work">« Back to the portfolio</a></li>
-                {% if next %}
-                <li class="nav--fork__link"><a href="{{next.url}}">View the next project »</<a></li>
-                {% endif %}
-            </ul>
-        </nav>
-
-</div>
-
-    </body>
-</html>
+{% include 'components/footer' %}
 
