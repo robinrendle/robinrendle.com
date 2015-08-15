@@ -3,7 +3,6 @@
 // ==========================================================================
 
 .o-island {
-    background-color: #B0CFC1;
     @include clearfix();
 }
 
@@ -11,8 +10,13 @@
     background-color: white;
 }
 
+.o-island--light {
+    background-color: #e1e1e1;
+}
+
 .o-island--transparent {
     background-color: rgba(0,0,0,.05);
+
 
     .t-dark & {
         background-color: rgba(255,255,255,.05);

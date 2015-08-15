@@ -6,7 +6,7 @@ $c-dark: #1F1F1F;
 $c-border: #252525;
 
 .t-dark {
-    color: $c-text;
+    color: darken($c-text, 5);
     border-color: #252525;
 
     .main {
@@ -22,6 +22,10 @@ $c-border: #252525;
     h1, .h1 {
         color: $c-offwhite;
     }
+
+    // .m-heading__text {
+    //     color: white;
+    // }
 
     h2, .h2,
     h3, .h3,
@@ -45,8 +49,32 @@ $c-border: #252525;
         border-bottom: 2px solid $c-border;
     }
 
+    .m-banner__nav.o-nav--bullets .o-nav__item {
+        color: #888;
+
+        &:hover,
+        &:focus {
+            color: $c-primary;
+        }
+    }
+
+    .m-banner__about {
+        a, em {
+            color: #777;
+        }
+    }
+
     .m-footer {
         border-top: 2px solid $c-border;
+
+        .o-nav--bullets .o-nav__item {
+            color: #888;
+
+            &:hover,
+            &:focus {
+                color: $c-primary;
+            }
+        }
     }
 
     .u-color--primary {
@@ -55,21 +83,31 @@ $c-border: #252525;
 
     blockquote p {
         border-left: 2px solid #333;
-        color: #888;
+        color: #858585;
     }
 
     .m-longform {
         img {
-            filter: grayscale(100%) brightness(60%);
+            opacity: .3;
+            transition: opacity .5s ease;
 
             &:hover,
             &:focus {
-                filter: none;
+                opacity: 1;
             }
+        }
+
+        p {
+            line-height: 1.7;
         }
 
         a {
             color: #ddd;
+
+            &:hover,
+            &:focus {
+                color: $c-primary;
+            }
         }
     }
 }

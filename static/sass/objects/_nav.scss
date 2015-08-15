@@ -20,32 +20,36 @@
 
 // Bullet list nav
 .o-nav--bullets {
-    @include links();
-
     .o-nav__item {
         position: relative;
-        margin-right: 20px;
+        margin-right: 10px;
         overflow: visible;
-        background-color: red;
         text-decoration: none;
-        color: $c-secondary;
         background: none;
         transition: background .3s ease;
+        color: #555;
+
+        @include media(">medium"){
+            margin-right: 20px;
+        }
 
         &:hover,
         &:focus {
             background: linear-gradient(transparent 89%, $c-primary 95%, transparent 94%);
+            color: $c-primary;
             &:after {
                 color: $c-secondary;
             }
         }
 
         &:after {
-            content: "•";
-            position: absolute;
-            right: -15px;
-            bottom: 0;
-            pointer-events: none;
+            @include media(">medium"){
+                content: "•";
+                position: absolute;
+                right: -15px;
+                bottom: 0;
+                pointer-events: none;
+            }
         }
 
         &:last-of-type {

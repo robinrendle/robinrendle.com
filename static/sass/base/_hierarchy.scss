@@ -22,12 +22,13 @@ h1,
     &,
     .m-longform & {
         @include typeface("Display");
-        @include remCalc(font-size, 25);
+        @include remCalc(font-size, 30);
         line-height: 1.15;
+        margin-bottom: 20px;
 
         @include media(">medium"){
             @include remCalc(font-size, 33);
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
         @include media(">large"){
@@ -59,12 +60,12 @@ h3,
 .h3 {
     &,
     .m-longform & {
-        @include remCalc(font-size, 17);
+        @include remCalc(font-size, 18);
         line-height: 1.45;
 
         @include media(">medium"){
             @include remCalc(font-size, 19);
-            line-height: 1.45;
+            line-height: 1.55;
         }
 
         @include media(">large"){
@@ -75,6 +76,8 @@ h3,
 
 h4,
 .h4 {
+    margin-bottom: 20px;
+
     &,
     .m-longform & {
         @include remCalc(font-size, 17);

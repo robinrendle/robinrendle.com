@@ -5,32 +5,47 @@
                     is--editor__content">
 
         <header class="m-wrapper">
-            <h1 class="cell-t40 cell-t80--large cell-b0">About me</h1>
+            <h1 class="cell-t20 cell-t40--medium cell-t60--large cell-b0">About me</h1>
         </header>
 
-        <div class="m-wrapper m-longform">
-            {{meta.Extract | markdown:true}}
+        <div class="m-wrapper">
+            <div class="m-longform">
+                {{meta.Extract | markdown:true}}
+            </div>
 
             {% if site.pages.about.meta.Image %}
-                <figure class="">
+                <figure class="cell-t20">
                     <img src="{{site.pages.about.meta.Image.value}}"/>
                 </figure>
             {% endif %}
-            <div class="cell-5 rules rules--all rules--transparent m-longform--small links--underline">
-                <ul class="o-island o-island--transparent cell lists--none u-reset-margins">
-                    <li class="cell-b10">You can find me on Twitter:
-                        <a href="http://twitter .com/robinrendle" class="links--dark">@robinrendle</a>
-                    </li>
-                    <li class="cell-b10">Fork my work over on
-                        <a href="http://github.com/robinrendle" class="links--dark">GitHub</a>
-                    </li>
-                    <li>Or feel free to contact me by
-                        <a class="links--dark" href="mailto:desk@robinrendle.com">email</a>
-                    </li>
-                </ul>
+            <div class="cell-b40">
+                <div class="cell-5 rules rules--all rules--transparent m-longform--small links--underline">
+                    <ul class="o-island o-island--transparent cell lists--none u-reset-margins">
+                        <li class="cell-b10">You can find me on Twitter:
+                            <a href="http://twitter .com/robinrendle" class="links--dark">@robinrendle</a>
+                        </li>
+                        <li class="cell-b10">Fork my work over on
+                            <a href="http://github.com/robinrendle" class="links--dark">GitHub</a>
+                        </li>
+                        <li>Or feel free to contact me by
+                            <a class="links--dark" href="mailto:desk@robinrendle.com">email</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            {{body}}
+            <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins">Bio + history</h2>
+
+            <div class="m-longform cell-t10">
+                {{meta.Bio | markdown:true}}
+            </div>
+
+
+            <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">Colophon</h2>
+
+            <div class="m-longform cell-t10">
+                {{meta.Colophon | markdown:true}}
+            </div>
 
         </div>
 

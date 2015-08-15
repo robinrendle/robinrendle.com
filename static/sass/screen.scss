@@ -52,6 +52,9 @@ $breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !defa
     @import "modules/footer";
     @import "modules/hero";
 
+section[role="main"]{
+    min-height: 80vh;
+}
 
 ::selection {
     background-color: rgba($c-primary,0.35);
@@ -61,13 +64,22 @@ $breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !defa
 
 .m-heading {
     @include trim();
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 40px;
     display: flex;
+    flex-direction: column;
+    width: 100%;
     justify-content: center;
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
+    text-align: left;
+
+    @include media(">medium"){
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
 }
 
 .m-heading__text {
@@ -80,6 +92,10 @@ $breakpoints: (small: 400px, medium: 530px, large: 920px, largest: 1200px) !defa
     }
 }
 
+.full {
+    width: 100%;
+    max-width: 100%;
+}
 
 
 @import "themes/dark-mode";

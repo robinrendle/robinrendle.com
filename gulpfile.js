@@ -10,7 +10,22 @@ var gulp = require('gulp'),
     imageop = require('gulp-image-optimization'),
     watch = require('gulp-watch'),
     browserSync = require('browser-sync').create(),
-    reload = browserSync.reload;
+    reload = browserSync.reload,
+    uglify = require('gulp-uglify'),
+    concat = require('gulp-concat');
+
+// Concats + minifies JS
+gulp.task('scripts', function() {
+    gulp.src([
+        './static/js/dark-mode.js'
+    ])
+        .pipe(concat('dark-mode.min.js'))
+        .pipe(uglify())
+        .pipe(rename('app.min.js'))
+        .pipe(gulp.dest('./build/js'))
+        .pipe(reload({stream: true}))
+});
+
 
 gulp.task('images', function(cb){
     gulp.src(['static/images/**/*.png','static/images/**/*.jpg', 'static/images/**/*.gif','static/images/**/*.jpeg'])
@@ -63,7 +78,7 @@ gulp.task('start', function(){
     gulp.watch('./build/css/screen.css', ['minify']);
 });
 
-gulp.task('build', ['images', 'minify', 'sass']);
+gulp.task('build', ['images', 'minify', 'sass', 'scripts']);
 
 gulp.task('default', ['build', 'start', 'serve']);
 

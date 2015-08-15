@@ -4,15 +4,19 @@
 <!-- Default post styles -->
 {% if type == "post" %}
     <article class="h-entry">
+        {% if meta.Hero %}
+            <div class="cell-b0">
+                <figure class="m-hero">
+                    <img src="{{meta.Hero.value}}" alt="">
+                </figure>
+            </div>
+        {% endif %}
         <header class="m-wrapper
-                    cell-t30
+                    cell-t20
                     cell-t60--medium
                     cell-b30
-                    {% if meta.Hero == true and meta.Update == false %}
-                        cell-b60
-                    {% endif %}
-                    {% if meta.Hero == true and meta.Update == true %}
-                        cell-b20
+                    {% if meta.Hero %}
+                        cell-t20--medium
                     {% endif %}">
             <h1 class="u-reset-margins">{{title}}</h1>
             <div class="meta-info">
@@ -39,19 +43,11 @@
         </header>
 
         {% if meta.Update %}
-        <div class="m-wrapper">
-            <div class="h3 links {% if meta.Hero %} cell-b20 cell-b40--medium{% endif %}">
+        <div class="m-wrapper cell-b20">
+            <div class="m-longform m-longform--intro links links--underline {% if meta.Hero %} cell-b20 {% endif %}">
                 {{meta.Update.value | markdown:true }}
             </div>
         </div>
-        {% endif %}
-
-        {% if meta.Hero %}
-            <div class="cell-b20 cell-b40--medium">
-                <figure class="m-hero rules rules--top rules--bottom rules--white">
-                    <img src="{{meta.Hero.value}}" alt="">
-                </figure>
-            </div>
         {% endif %}
 
         <div class="m-longform m-wrapper m-wrapper--unpadded">
@@ -59,10 +55,12 @@
         </div>
 
         {% if meta.Aside %}
-            <div class="m-wrapper m-longform m-longform--small cell-b20">
-                <aside class="island island--meta cell-t30">
-                    {{meta.Aside.value | markdown:true }}
-                </aside>
+            <div class="m-wrapper m-longform m-longform--small cell-t30">
+                <div class="rules rules--top rules--transparent cell-t10">
+                    <aside class="island island--meta cell-t10">
+                        {{meta.Aside.value | markdown:true }}
+                    </aside>
+                </div>
             </div>
         {% endif %}
     </article>
@@ -73,8 +71,8 @@
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <header class=" cell-b20 cell-b40--medium">
-        <div class="cell-t30 cell-t60--medium cell-t80--large">
+    <header class=" cell-b20 cell-b10--medium">
+        <div class="cell-t20 cell-t60--medium">
             <div class="m-wrapper">
                 <h1>{{title}}</h1>
             </div>

@@ -14,14 +14,17 @@
         @include remCalc(margin-top, ($base-spacing-unit * 2));
     }
 
+    > div {
+        margin-bottom: 50px;
+    }
+
     h3, h4, h5, h6 {
-        @include remCalc(margin-top, ($base-spacing-unit * 1.5));
+        @include remCalc(margin-top, ($base-spacing-unit * 1.6));
         @include remCalc(margin-bottom, ($base-spacing-unit));
     }
 
     p, ul, ol {
-        @include typeface("Regular");
-        @include remCalc(font-size, 16);
+        @include remCalc(font-size, 17);
         -webkit-hyphens:auto;
         -webkit-hyphenate-limit-after:2;
         -webkit-hyphenate-limit-before:3;
@@ -39,11 +42,10 @@
 
         @include media(">large"){
             @include remCalc(font-size, 19);
-            line-height: 1.69;
+            line-height: 1.65;
         }
 
         & > img {
-            @include remCalc(margin-top, $base-spacing-unit * 2);
             @include remCalc(margin-bottom, $base-spacing-unit * 2);
         }
     }
@@ -70,7 +72,7 @@
     }
 
     figcaption {
-        @include typeface("Regular italic");
+        @include typeface("Regular");
         padding-top: 20px;
         max-width: 600px;
 
@@ -87,12 +89,12 @@
         position: relative;
 
         p {
-            border-left: 2px solid $c-primary;
+            border-left: 1px solid #ccc;
             @include typeface("Regular italic");
             @include remCalc(padding-bottom, $base-spacing-unit - 5);
             margin-bottom: 0;
             position: relative;
-            color: #666;
+            color: #555;
 
             @include media(">large"){
                 left: 0;
@@ -119,14 +121,23 @@
     img {
         display: block;
         margin: 0 auto;
+
+        & + figcaption {
+            padding: 10px 0 0 0;
+        }
     }
 
-    .cite {
-        color: darken($c-text, 15);
+    .cite,
+    figcaption {
+        color: darken($c-text, 30);
         display: block;
         position: relative;
         padding-top: 4px;
         border-left: 2px solid transparent;
+
+        .t-dark & {
+            color: lighten($c-text, 5);
+        }
 
         >p {
             @include remCalc(font-size, 14);
@@ -157,7 +168,7 @@
 
     h5, .h5 {
         @include typeface("Small caps");
-        color: $c-primary;
+        color: #000;
         margin-top: 40px;
     }
 }
@@ -166,10 +177,24 @@
 .m-longform--small {
     p, ul, ol {
         @include remCalc(font-size, 15);
-        line-height: 1.4;
+        line-height: 1.5;
 
         @include media(">medium") {
             @include remCalc(font-size, 16);
+        }
+    }
+}
+
+.m-longform--intro {
+    p {
+        @include media(">medium"){
+            @include remCalc(font-size, 18);
+            line-height: 1.5;
+        }
+
+        @include media(">large"){
+            @include remCalc(font-size, 20);
+            line-height: 1.5;
         }
     }
 }

@@ -7,4 +7,9 @@
     img {
         display: block;
     }
+
+    .t-dark & {
+        border: none !important;
+        filter: brightness(40%) grayscale(100%);
+    }
 }

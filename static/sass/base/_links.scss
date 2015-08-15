@@ -8,6 +8,10 @@
 a {
     outline: none;
     border: none;
+
+    &:focus {
+        outline: none;
+    }
 }
 
 @mixin links() {
@@ -51,7 +55,7 @@ a {
 @mixin links-longform {
     &:link,
     a {
-        color: $c-primary;
+        color: #2D2D2D;
         transition: color .3s ease;
 
         &:hover,

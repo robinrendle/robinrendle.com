@@ -11,7 +11,7 @@ pre, hr, ul,ol,
 .media,
 .island,
 .islet{
-    @include remCalc(margin-bottom, $base-spacing-unit);
+    @include remCalc(margin-bottom, $base-spacing-unit * 1.2);
 
     @include media(">medium"){
         @include remCalc(margin-bottom, $base-spacing-unit * 1.4);

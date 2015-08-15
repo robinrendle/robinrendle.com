@@ -70,13 +70,15 @@ body {
     background-color: #EFEFEF;
 }
 
+cite {
+    @include typeface("Regular");
+}
 
 em,
 small,
-cite,
 dfn,
 i,
-q {
+q, {
     @include typeface("Regular italic");
 }
 
