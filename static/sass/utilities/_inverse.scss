@@ -8,5 +8,14 @@
 
     a {
         color: white;
+        transition: opacity .3s ease;
+
+        &:hover,
+        &:focus {
+            opacity: .8;
+            &:after {
+                opacity: 1;
+            }
+        }
     }
 }

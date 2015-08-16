@@ -5,13 +5,19 @@
 
 .m-banner {
     @include clearfix();
-    padding: 20px 15px 15px;
+    background-color: #eee;
+    transition: background-color .3s ease;
 
+    @include media("<medium"){
+        &.is--active {
+            background-color: $c-primary;
+        }
+    }
 
     @include media(">medium"){
         border-bottom: 1px solid white;
-        padding: 20px 30px;
     }
+
 }
 
 .m-banner--dark {
@@ -20,40 +26,114 @@
 }
 
 .m-banner__about {
-    margin-bottom: 0;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: $c-primary;
+    color: white;
+    transition: background-color .3s ease;
+    font-size: 17px;
+    float: left;
 
-    a {
-        color: $c-primary;
-
-        @include media(">medium"){
-            color: #555;
+    @include media("<medium"){
+        .is--active & {
+            background-color: darken($c-primary, 10);
         }
     }
 
     @include media(">medium"){
-        float: left;
+        padding: 15px 20px;
+        float: none;
+        font-size: 18px;
     }
 
-    @include media(">large"){
-        color: $c-secondary;
+    &:hover,
+    &:focus {
+        background-color: lighten($c-primary, 10);
     }
+}
 
-    em {
+.m-banner__menu {
+    display: block;
+    float: right;
+    color: darken($c-text, 20);
+    padding-top: 13px;
+
+    .no-js & {
         display: none;
-        font-size: 15px;
-        color: #555;
+    }
 
-        @include media(">large"){
-            display: inline-block;
+    @include media("<medium"){
+        .is--active & {
+            color: white;
         }
+    }
+
+    @include media(">medium"){
+        display: none;
+    }
+}
+
+@keyframes push {
+    0% {
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        transform: translateY(0);
     }
 }
 
 .m-banner__nav {
-    a {
-        color: #666;
-    }
+    display: inline-block;
+    font-size: 16px;
+
     @include media(">medium"){
-        float: right;
+        font-size: 17px;
+    }
+
+    .js & {
+        @include media("<medium"){
+            display: none;
+        }
+
+        @include media(">medium"){
+            margin-left: 20px;
+            display: inline-block;
+        }
+    }
+
+
+    .js .is--active & {
+        @include media("<medium"){
+            display: block;
+            animation: push .4s ease;
+            width: 100%;
+            float: left;
+            margin-left: -20px;
+            width: calc(100% + 40px);
+        }
+    }
+
+    a.o-nav__item {
+        @include media("<medium"){
+            display: block;
+            color: white;
+            padding: 13px 20px;
+            @include typeface("Display");
+            text-transform: capitalize;
+            margin: 0;
+            background-color: white;
+            color: $c-primary;
+            border-bottom: 1px solid lighten($c-primary, 30);
+
+            &:hover,
+            &:focus {
+                border-bottom: 1px solid lighten($c-primary, 10);
+                background: none;
+                background-color: lighten($c-primary, 10);
+                color: white;
+            }
+        }
+        color: #666;
     }
 }

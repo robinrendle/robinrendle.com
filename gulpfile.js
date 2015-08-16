@@ -12,14 +12,17 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create(),
     reload = browserSync.reload,
     uglify = require('gulp-uglify'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    eslint = require('gulp-eslint');
 
 // Concats + minifies JS
 gulp.task('scripts', function() {
     gulp.src([
-        './static/js/dark-mode.js'
+        './static/js/app.js'
     ])
-        .pipe(concat('dark-mode.min.js'))
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(concat('app.js'))
         .pipe(uglify())
         .pipe(rename('app.min.js'))
         .pipe(gulp.dest('./build/js'))
@@ -45,6 +48,7 @@ gulp.task('serve', ['sass'], function(){
     });
     gulp.watch(['static/sass/*.scss', 'static/sass/**/*.scss'], ['sass']);
     gulp.watch(["./*.html", "./**/*.html"]).on('change', reload);
+    gulp.watch(['static/js/*.js'], ['scripts']);
 });
 
 

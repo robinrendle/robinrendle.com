@@ -27,7 +27,6 @@
         text-decoration: none;
         background: none;
         transition: background .3s ease;
-        color: #555;
 
         @include media(">medium"){
             margin-right: 20px;
@@ -36,9 +35,8 @@
         &:hover,
         &:focus {
             background: linear-gradient(transparent 89%, $c-primary 95%, transparent 94%);
-            color: $c-primary;
             &:after {
-                color: $c-secondary;
+                opacity: 1;
             }
         }
 
