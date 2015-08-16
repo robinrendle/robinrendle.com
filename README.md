@@ -1,12 +1,12 @@
-[robinrendle.com](http://robinrendle.com)
+# [My personal website](http://robinrendle.com).
 ===============
 
-My personal blog and website.
+## Workflow
 
-## CMS
+- 1. `siteleaf server`
+- 2. `npm start`: runs a collection of Gulp tasks.
 
-For the moment I’m extremely happy with [Siteleaf](http://www.siteleaf.com/) for editing content and quickly prototyping new ideas.
 
 ## Typography
 
-All fonts are served via [Hoefler & Co](http://www.typography.com/), with titling faces set in [Ideal Sans](http://www.typography.com/fonts/ideal-sans/overview/) whilst running text is set in the luscious [Mercury](http://www.typography.com/fonts/mercury-text/overview/).
+Typeset with [Nocturno](http://www.typonine.com/fonts/font-library/nocturno/) by [Typonine](http://www.typonine.com).

@@ -1,84 +1,103 @@
 // ==========================================================================
 // ROBINRENDLE.COM STYLES
-// ========================================================================== 
-// 
-// Imports all of the SCSS objects and partials into a single file which is 
-// then compiled into CSS.
-// 
-
-
-
 // ==========================================================================
-// IMPORTS
-// ==========================================================================   
+//
+// Imports all of the SCSS objects and partials into a single file which is then compiled into CSS.
+//
+
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !default;
+
+// UTILITIES : functions + settings to be used anywhere
+// # TODO: separate utils into tools + utils
+    @import "utilities/reset";
+    @import "utilities/rem-calc";
+    @import "utilities/normalize";
+    @import "utilities/clearfix";
+    @import "utilities/breakpoints";
+    @import "utilities/type";
+    @import "utilities/colors";
+    @import "utilities/text-style";
+    @import "utilities/underline";
+    @import "utilities/inverse";
+    @import "utilities/align-text";
+
+// TOOLS
+    @import "tools/trim";
+
+// BASE ELEMENT STYLES
+    @import "base/base-spacing";
+    @import "base/main";
+    @import "base/links";
+    @import "base/hierarchy";
+    @import "base/rules";
+    @import "base/code";
+    @import "base/lists";
+
+// OBJECTS
+    @import "objects/nav";
+    @import "objects/island";
+    @import "objects/multi";
+    @import "objects/preserve-aspect";
+
+// MODULES
+    @import "modules/custom-post";
+    @import "modules/longform";
+    @import "modules/wrapper";
+    @import "modules/codepen";
+    @import "modules/meta-info";
+    @import "modules/banner";
+    @import "modules/footer";
+    @import "modules/hero";
+
+section[role="main"]{
+    min-height: 80vh;
+}
+
+::selection {
+    background-color: rgba($c-primary,0.35);
+    color: #333;
+    text-shadow: none;
+}
+
+.m-heading {
+    @include trim();
+    padding-top: 50px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+
+    @include media(">medium"){
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+}
+
+.m-heading__text {
+    font-size: 24px;
+    line-height: 1.3;
+
+    @include media(">medium"){
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+
+.full {
+    width: 100%;
+    max-width: 100%;
+}
 
 
-// External compass includes; make sure to update the config.rb
-@import "compass";
-@import "breakpoint"; // http://cl.ly/1F112q0Q0D28
-
-
-
-// CONFIG & SETTINGS
-@import "config/config";
-@import "tools/tools";
-
-
-
-// UTILITIES : refactor this into /config and /tools directories
-@import "defaults";
-@import "utilities/reset";
-@import "utilities/base-spacing";
-@import "utilities/normalize";
-@import "utilities/clearfix";
-@import "utilities/font-stack";
-@import "utilities/helper";
-@import "utilities/mixins";
-@import "utilities/animations/appear-down";
-
-// QUARKS
- @import "quarks/main";
- @import "quarks/headings";
- @import "quarks/paragraphs";
- @import "quarks/blockquotes";
- @import "quarks/code";
- @import "quarks/figures";
- @import "quarks/forms";
- @import "quarks/lists";
- @import "quarks/links";
- @import "quarks/images";
- @import "quarks/tables";
- @import "quarks/small-print";
- @import "quarks/micro";
-
-
-// ATOMS
-@import "atoms/forms";
-@import "atoms/grids";
-@import "atoms/nav";
-@import "atoms/media";
-@import "atoms/marginalia";
-@import "atoms/island";
-@import "atoms/icons/icons";
-@import "atoms/block-list";
-@import "atoms/article-list";
-@import "atoms/icon-text";
-@import "atoms/buttons";
-@import "atoms/meta-info-block";
-@import "atoms/cite";
-@import "atoms/bleed";
-
-
-// MOLECULES
-@import "molecules/banner";
-@import "molecules/custom-post";
-@import "molecules/footer";
-@import "molecules/heading-group";
-@import "molecules/item-content";
-@import "molecules/hero-image";
-@import "molecules/no-branding";
-@import "molecules/drop-cap";
-@import "molecules/work-item";
-
-
-
+@import "themes/dark-mode";
+@import "utilities/reset-margins";
+@import "objects/cell"; // !important

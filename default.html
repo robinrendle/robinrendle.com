@@ -3,23 +3,30 @@
 <!-- POST -->
 <!-- Default post styles -->
 {% if type == "post" %}
-
-    {% if meta.Hero %}
-        <figure class="hero hero--nudge">
-            <img src="{{meta.Hero.value}}" alt="">
-        </figure>
-    {% endif %}
-
-    <article class="h-entry container">
-        <header class="heading-group">
-            <div class="meta-info-block">
-                <p class="meta-info-block__item">
+    <article class="h-entry">
+        {% if meta.Hero %}
+            <div class="cell-b0">
+                <figure class="m-hero">
+                    <img src="{{meta.Hero.value}}" alt="">
+                </figure>
+            </div>
+        {% endif %}
+        <header class="m-wrapper
+                    cell-t40
+                    cell-t60--medium
+                    cell-b30
+                    {% if meta.Hero %}
+                        cell-t20--medium
+                    {% endif %}">
+            <h1 class="u-reset-margins">{{title}}</h1>
+            <div class="meta-info">
+                <p class="meta-info__item">
                     {% if taxonomy.city %}
                         {% for city in taxonomy.city %}{{city.value}}{% endfor %}, {% for country in taxonomy.country %}{{ country.value }}{% endfor %}
                     {% endif %}
                 </p>
 
-                <div class="meta-info-block__item">
+                <div class="meta-info__item">
                     <time datetime="{{date}}">
                         {% assign d = date | date: "%-d"  %}
                         {% case d %}
@@ -28,64 +35,58 @@
                             {% when '3' or '23' %}{{ d }}rd
                             {% else %}{{ d }}th
                         {% endcase %}
-                        {{ date | date: "%B" }} 
+                        {{ date | date: "%B" }}
                         {{ date | date: "%Y" }}
                     </time>
                 </div>
             </div>
-            
-            {% if meta.link %}
-                <h1><a class="link--hide" href="{{meta.link.value}}">{{title}}</a></h1>
-
-            {% else %}
-                <h1>{{title}}</h1>
-            {% endif %}
         </header>
 
         {% if meta.Update %}
-            <aside class="island island--meta">
+        <div class="m-wrapper cell-b20">
+            <div class="m-longform m-longform--intro links links--underline {% if meta.Hero %} cell-b20 {% endif %}">
                 {{meta.Update.value | markdown:true }}
-            </aside>
+            </div>
+        </div>
         {% endif %}
 
-        {{body}}
+        <div class="m-longform m-wrapper m-wrapper--unpadded">
+            {{body}}
+        </div>
 
         {% if meta.Aside %}
-            <aside class="island island--meta">
-                {{meta.Aside.value | markdown:true }}
-            </aside>
+            <div class="m-wrapper m-longform m-longform--small cell-t30">
+                <div class="rules rules--top rules--transparent cell-t10">
+                    <aside class="island island--meta cell-t10">
+                        {{meta.Aside.value | markdown:true }}
+                    </aside>
+                </div>
+            </div>
         {% endif %}
-       
     </article>
 
 {% endif %}
 
 
-
-
-
-
-
-
-
 <!-- PAGE -->
 <!-- Default page styles -->
 {% if type == "page" %}
-    <div class="container">
-        <header class="heading-group">
-            <h1>{{title}}</h1>
-        </header>
+    <header class="cell-b10 cell-b10--medium">
+        <div class="cell-t40 cell-t60--medium">
+            <div class="m-wrapper">
+                <h1>{{title}}</h1>
+            </div>
+        </div>
+    </header>
 
-        {{body}}
+    {{body}}
 
-    </div>
-
-    <section class="article-list">
+    <section class="m-wrapper">
         {% for post in posts %}
-            <article class="container article-list__item">
+            <article class="cell-b40">
                 <header class="hgroup hgroup--listing">
-                    <div class="meta-info-block meta-info-block--list">
-                        <div class="meta-info-block__item">
+                    <div class="meta-info">
+                        <div class="meta-info__item">
                             <time datetime="{{post.date}}">
                                 {% assign d = post.date | date: "%-d"  %}
                         {% case d %}
@@ -94,15 +95,17 @@
                             {% when '3' or '23' %}{{ d }}rd
                             {% else %}{{ d }}th
                         {% endcase %}
-                        {{ post.date | date: "%B" }} 
+                        {{ post.date | date: "%B" }}
                         {{ post.date | date: "%Y" }}
                             </time>
                         </div>
                     </div>
-                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                    <h3 class="h3 u-text--book links u-reset-margins cell-b0">
+                        <a href="{{post.url}}">{{post.title}}</a>
+                    </h3>
                 </header>
 
-                <div class="article-list__content">
+                <div class="m-longform">
                     <p>{{post.meta.Extract.value}}</p>
                 </div>
             </article>

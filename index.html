@@ -1,84 +1,75 @@
 {% include 'components/header' %}
-    <div class="container">
-
-        <div class="article-list__title
-                    is--editor__content">
-            <h4>About me</h4>
-        </div>
+    <div class="m-wrapper--unpadded-wide m-heading">
+        <p class="h1 m-heading__text">I&rsquo;m Robin, a web designer from the UK, and this is where I sometimes write about typography and letter-making.</p>
     </div>
 
-    <figure class="article-list blockquote--large blockquote--large--center">
-        <blockquote>
-            <p>I’m Robin, a web designer from the UK. This space is where I sometimes write about typography and web design.</p>
-        </blockquote>
-    </figure>
+    <div class="m-wrapper cell-b40">
+        <h4 class="caps rules--bottom rules rules--transparent">Essays and articles</h4>
+
+        {% for post in site.pages.essays.posts limit: 2 %}
+            <div class="cell-b30">
+                <header class="links">
+                    <h3 class="h3 u-text--book u-reset-margins"><a href="{{post.url}}">{{post.title}}</a></h3>
+                </header>
 
 
-    <div class="container
-                h-entry">
-
-        <div class="article-list">
-
-            <div class="article-list__title
-                        is--editor__content">
-                <h4>Essays and articles</h4>
-            </div>
-
-            {% for post in site.pages.essays.posts limit: 2 %}
-                <div class="article-list__item">
-                    <header class="hgroup hgroup--listing">
-                        <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                    </header>
-
-
-                    <div class="article-list__content">
-                        <p>{{post.meta.Extract.value}}</p>
-                    </div>
+                <div class="m-longform">
+                    <p>{{post.meta.Extract.value}}</p>
                 </div>
-            {% endfor %}
-        </div>  
+            </div>
+        {% endfor %}
     </div><!-- //.container -->
 
+    <div class="m-wrapper cell-b40">
+        <h4 class="caps rules rules--bottom rules--transparent">Quick notes and ramblings</h4>
 
-    <div class="container 
-                h-entry">
-        <div class="article-list__title 
-                    is--editor__content">
-            <h4>Quick notes and ramblings</h4>
-        </div>
-
-
-    
-
-{% for tag in site.pages.notes.taxonomy['Tags'] %}
-    {% if tag.value == 'featured' %}
-        {% for post in tag.posts limit: 4 %}
-            <article class="article-list__item article-list--notes">
-               <header class="hgroup hgroup--listing">
-                    <div class="meta-info-block meta-info-block--list">
-                        <div class="meta-info-block__item">
-                            <time datetime="{{ post.date}}">
-                                {% assign d = post.date | date: "%-d"  %}
-                                {% case d %}
-                                    {% when '1' or '21' or '31' %}{{ d }}st
-                                    {% when '2' or '22' %}{{ d }}nd
-                                    {% when '3' or '23' %}{{ d }}rd
-                                    {% else %}{{ d }}th
-                                {% endcase %}
-                                {{ post.date | date: "%B" }} 
-                                {{ post.date | date: "%Y" }}
-                            </time>
+        <div class="o-multi">
+            {% for post in site.pages.notes.posts limit: 6 %}
+                <article class="o-multi__item">
+                   <header class="links">
+                        <div class="meta-info">
+                            <div class="meta-info__item">
+                                <time datetime="{{ post.date}}">
+                                    {% assign d = post.date | date: "%-d"  %}
+                                    {% case d %}
+                                        {% when '1' or '21' or '31' %}{{ d }}st
+                                        {% when '2' or '22' %}{{ d }}nd
+                                        {% when '3' or '23' %}{{ d }}rd
+                                        {% else %}{{ d }}th
+                                    {% endcase %}
+                                    {{ post.date | date: "%B" }}
+                                    {{ post.date | date: "%Y" }}
+                                </time>
+                            </div>
                         </div>
-                    </div>
-                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
-                </header>
-            </article>
-        {% endfor %}
-    {% endif %}
-{% endfor %}
-            
-                    
+                        <h3 class="h4 u-text--book"><a href="{{post.url}}">{{post.title}}</a></h3>
+                    </header>
+                </article>
+            {% endfor %}
+        </div>
     </div>
+
+<div class="m-wrapper
+        h-entry">
+
+    <h4 class="caps rules--bottom rules rules--transparent">What I&rsquo;ve been reading</h4>
+
+    {% for post in site.pages.reading.posts limit: 1 %}
+        <div class="cell-b30">
+            <header class="links">
+                <h3 class="h3 u-text--book u-reset-margins"><a href="{{post.url}}">{{post.title}}</a></h3>
+                {% if post.taxonomy.author %}
+                    <div class="u-text--italic h6 cell-b10">Written by {{post.taxonomy.author}}</div>
+                {% endif %}
+            </header>
+
+
+            <div class="m-longform">
+                <p>{{post.meta.Extract.value}}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div><!-- //.container -->
 
 {% include 'components/footer' %}
 

@@ -1,12 +1,7 @@
 // ==========================================================================
-// CLEARFIX
+// RESET MARGINS
 // ==========================================================================
 
-@mixin clearfix(){
-    &:after {
-        content:"";
-        display:table;
-        clear:both;
-    }
+.u-reset-margins {
+    margin: 0 !important;
 }
-

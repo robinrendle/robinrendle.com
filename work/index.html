@@ -1,171 +1,45 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js work-body">
-<head>
-    <meta charset="utf-8" />
-
-    <title>{{site.title}} – Work</title>
-
-    <meta name="author" content="Robin Rendle">
-    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="author" href="https://plus.google.com/104389809267012182640">
-    
-    <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/build/images/favicon/favicon-114.png">
-    <link rel="shortcut icon" href="/build/images/favicon/dagger.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/build/css/style.min.css" />
-
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/643678/794542/css/fonts.css" />
-
-    <!-- Prefetching -->
-    <link rel="dns-prefetch" href="//cloud.typography.com">
-
-    <style>
-    .footer a {color: #ccc; border-bottom-color: #888;}
-    .footer a:hover {color: #aaa; border-bottom-color: #555;}
-    </style>
-</head>
-
-
-<body class="container--work container--work-index">
-    
-    <div class="work-item work-item--title">
-        <div class="container container--wide">
-            <div class="meta-rule">
-                <div class="meta-rule__item h--uppercase">Robin Rendle</div>
-                <div class="meta-rule__item">2013–2014</div>
+{% include 'components/header' %}
+    <header class=" cell-b10 cell-b10--medium">
+        <div class="cell-t40 cell-t60--medium">
+            <div class="m-wrapper">
+                <h1>Work &amp; projects</h1>
             </div>
-
-            <header>
-                <h1>{{title}}</h1>
-            </header>
-        </div><!-- //.container -->
-    </div>
-
-    <section>
-
-        {% for page in pages limit:1 offset:0 %}
-            <article class="work-item work-item--{{page.meta.abbr}}">
-                <div class="container container--wide">    
-                    <div class="work-item__content">
-                        <h2 class="work-item__heading">
-                            <a href="{{page.url}}">{{ page.meta.byline }}</a>
-                        </h2>
-
-                        <div class="work-item__about">
-                            <p>{{ page.meta.extract }} <a class="work-item__btn" href="{{page.url}}">Read more</a></p>
-                        </div>
-
-                        <div class="work-item__list">
-                            {{page.meta.role | markdown: true }}
-                        </div>
-                    </div><!-- //.work-item-content -->
-                    
-                        {% if page.meta.feature-browser == 'true' %}
-                            <a href="{{page.url}}" class="work-item__image">
-                                <figure class="figure-browser">
-
-                                    <img src="{{page.meta.hero}}.webp" 
-                                    onerror="this.onerror=null; this.src='{{page.meta.hero}}.jpg'">
-                                </figure>
-                            </a>
-                        {% elsif page.meta.hero %}
-                            <a href="{{page.url}}" class="work-item__image">
-                                <figure>
-                                    <img src="{{page.meta.hero}}.webp" 
-                                    onerror="this.onerror=null; this.src='{{page.meta.hero}}.png'">
-                                </figure>
-                            </a>
-                        {% endif %}
-                    </a>
-                </div> <!-- //.container -->
-            </article>
-        {% endfor %}
-
-
-        {% for page in pages offset:1 %}
-            <article class="work-item work-item--{{page.meta.abbr}}">
-                <div class="container container--wide">    
-                    {% if page.meta.feature-browser == 'true' %}
-                        <a href="{{page.url}}" class="work-item__image cf">
-                            <figure class="figure-browser">
-
-                                <img src="{{page.meta.hero}}.webp" 
-                                onerror="this.onerror=null; this.src='{{page.meta.hero}}.jpg'">
-                            </figure>
-                        </a>
-                    {% elsif page.meta.hero %}
-                        <a href="{{page.url}}" class="work-item__image">
-                            <figure>
-                                <img src="{{page.meta.hero}}.webp" 
-                                onerror="this.onerror=null; this.src='{{page.meta.hero}}.png'">
-                            </figure>
-                        </a>
-                    {% endif %}
-                    <div class="work-item__content">
-                        <h2 class="work-item__heading">
-                            <a href="{{page.url}}">{{ page.meta.byline }}</a>
-                        </h2>
-
-                        <div class="work-item__about">
-                            <p>{{ page.meta.extract }} <a class="work-item__btn" href="{{page.url}}">Read more</a></p>
-                        </div>
-
-                        <div class="work-item__list">
-                            {{page.meta.role | markdown: true }}
-                        </div>
-                    </div><!-- //.work-item-content -->
-                </div> <!-- //.container -->
-            </article>
-        {% endfor %}
-    </section>
-
-    <section class="work-item work-item--projects">
-        <div class="container container--wide">
-            <article class="media block-list--small">
-                <a class="media__img" href="https://github.com/ultimate-package">
-                    <img src="/build/images/projects/ultimate-package.webp" 
-                    onerror="this.onerror=null; this.src='/build/images/projects/ultimate-package.png'">
-                </a>
-                <div class="media__body">
-                    <h3><a href="https://github.com/ultimate-package">The Ultimate Package</a></h3>
-                    <p>This is a collection of front-end tools for quickly building prototypes. For instance, I built a font-scale mixin and a grid system which has been designed to plug in and play with other Bower components.
-                    </p>
-                </div>
-            </article>
-
-            <article class="media block-list--small">
-                <a class="media__img" href="https://github.com/robinrendle/atomic-framework">
-                    <img src="/build/images/projects/atomic.webp" 
-                    onerror="this.onerror=null; this.src='/build/images/projects/atomic.png'">
-                </a>      
-
-                <div class="media__body">
-                    <h3>
-                        <a href="https://github.com/robinrendle/atomic-framework">The Atomic Sass framework</a>
-                    </h3>
-                    <p>The aim of this framework was to decrease the complexity of making large design systems with Sass by scoping similar styles together. This was my first take on how to build a maintainable front-end interface for other developers.</p>
-                </div>
-            </article>
         </div>
+    </header>
+
+
+    <section class="m-wrapper">
+        {% for post in posts %}
+            <article class="cell-b40">
+                <div class="container container--wide">
+                    <div class="hgroup hgroup--listing">
+                        <h2 class="h3 u-text--book links u-reset-margins cell-b0">
+                            <a href="{{post.url}}">{{ post.title }}</a>
+                        </h2>
+
+                        <div class="m-longform">
+                            {{ post.meta.extract | markdown: true}}
+                        </div>
+                    </div><!-- //.work-item-content -->
+                </div> <!-- //.container -->
+            </article>
+        {% endfor %}
+
+        {% for page in pages %}
+            <article class="cell-b40">
+                <div class="container container--wide">
+                    <div class="hgroup hgroup--listing">
+                        <h2 class="h3 u-text--book links u-reset-margins cell-b0">
+                            <a href="{{page.url}}">{{ page.meta.byline }}</a>
+                        </h2>
+
+                        <div class="m-longform">
+                            <p>{{ page.meta.extract }}</p>
+                        </div>
+                    </div><!-- //.work-item-content -->
+                </div> <!-- //.container -->
+            </article>
+        {% endfor %}
     </section>
 
-    <div class="footer island--illustration island--{{meta.abbr}}">
-        <div class="container container--wide">   
-            <div class="meta-rule">
-                <div class="meta-rule__item h--uppercase">Work + projects</div>
-                <div class="meta-rule__item">Thanks for reading!</div>
-            </div>
-        </div><!-- //.container -->
-    </div>
-
-    </body>
-</html>
-
-
+{% include 'components/footer' %}

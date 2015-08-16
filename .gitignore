@@ -1,6 +1,7 @@
 composer.lock
 /vendor
 /web/static/css/
+Gemfile.lock
 
 /site/cache
 site/cache/7ecb9812e507ad9f91804947318ab2f9.php
@@ -21,6 +22,7 @@ css
 /build
 node_modules
 /fonts
+npm-debug.log
 
 app/_cache/
 .htaccess

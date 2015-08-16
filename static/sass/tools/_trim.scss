@@ -1,12 +1,13 @@
 // ==========================================================================
-// CLEARFIX
+// TRIM
 // ==========================================================================
+// Removes margin from last items of parent elem.
 
-@mixin clearfix(){
-    &:after {
-        content:"";
-        display:table;
-        clear:both;
+
+@mixin trim(){
+    > *:last-child {
+        margin-bottom: 0;
     }
 }
+
 

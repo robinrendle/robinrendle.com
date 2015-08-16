@@ -1,12 +1,10 @@
 // ==========================================================================
-// CLEARFIX
+// COLORS
 // ==========================================================================
 
-@mixin clearfix(){
-    &:after {
-        content:"";
-        display:table;
-        clear:both;
-    }
-}
+$c-primary: #3d9970;
+$c-secondary: darken(#aaa, 20);
+$c-text: #999;
+$c-dark: #ddd;
 
+$c-offwhite: lighten($c-text, 10);

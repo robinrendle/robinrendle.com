@@ -1,28 +1,53 @@
 {% include 'components/header' %}
-    
-    <article class="h-entry 
+
+    <article class="h-entry
                     container
                     is--editor__content">
 
-        {% if site.pages.about.meta.Image %}
-            <figure>
-                <img src="{{site.pages.about.meta.Image.value}}"/>
-            </figure>
-        {% endif %}
+        <header class="m-wrapper">
+            <h1 class="cell-t40 cell-t40--medium cell-t60--large cell-b0">About me</h1>
+        </header>
 
-        {{meta.Extract | markdown:true}}
+        <div class="m-wrapper">
+            <div class="m-longform">
+                {{meta.Extract | markdown:true}}
+            </div>
 
-        {{meta.Contributions | markdown:true}}
+            {% if site.pages.about.meta.Image %}
+                <figure class="cell-t20">
+                    <img src="{{site.pages.about.meta.Image.value}}"/>
+                </figure>
+            {% endif %}
+            <div class="cell-b40">
+                <div class="cell-5 rules rules--all rules--transparent m-longform--small links--underline">
+                    <ul class="o-island o-island--transparent cell lists--none u-reset-margins">
+                        <li class="cell-b10">You can find me on Twitter:
+                            <a href="http://twitter .com/robinrendle" class="links--dark">@robinrendle</a>
+                        </li>
+                        <li class="cell-b10">Fork my work over on
+                            <a href="http://github.com/robinrendle" class="links--dark">GitHub</a>
+                        </li>
+                        <li>Or feel free to contact me by
+                            <a class="links--dark" href="mailto:desk@robinrendle.com">email</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="island--meta">
-            <ul>
-                <li>You can find me on Twitter: <a href="http://twitter.com/robinrendle">@robinrendle</a></li>
-                <li>Fork my work over on <a href="http://github.com/robinrendle">Github</a></li>
-                <li>Or feel free to contact me about a cool project by <a href="mailto:desk@robinrendle.com">email</a></li>
-            </ul>
+            <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins">Bio + history</h2>
+
+            <div class="m-longform cell-t10">
+                {{meta.Bio | markdown:true}}
+            </div>
+
+
+            <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">Colophon</h2>
+
+            <div class="m-longform cell-t10">
+                {{meta.Colophon | markdown:true}}
+            </div>
+
         </div>
-
-        {{body}}
 
     </article><!-- //.container -->
 

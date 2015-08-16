@@ -1,0 +1,84 @@
+// ==========================================================================
+// MAIN
+// ==========================================================================
+//
+// This module styles the body and html elements
+//
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    overflow-y:scroll;
+    min-height:100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font: 400 110%;
+    @include typeface("Regular");
+    line-height: 1.4;
+    background-color: white;
+    color: #444;
+    // border-bottom: 2px solid $c-primary;
+
+    // Sticky footer with flexbox hack.
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    @include media(">large"){
+        border-top: none;
+    }
+}
+
+
+.main {
+    flex: 1; // sticky footer fix
+}
+
+cite {
+    @include typeface("Regular");
+}
+
+em,
+small,
+dfn,
+i,
+q, {
+    @include typeface("Regular italic");
+}
+
+mark {
+    background-color: rgb(255,220,0);
+    background-color: rgba(255,220,0,.3);
+    font-weight: normal;
+    color: #444;
+}
+
+.caps,
+abbr {
+    @include typeface("Small caps");
+}
+
+abbr,
+abbr[title] {
+    border: none;
+    text-decoration: none;
+}
+
+b,
+strong {
+    @include typeface("Book");
+}
+
+acronym {
+    text-transform: normal;
+}
+
+iframe {
+    margin: 0 auto !important; // centers tweets
+}

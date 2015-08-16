@@ -1,12 +1,11 @@
 // ==========================================================================
-// CLEARFIX
+// CODEPEN PLUGINS
 // ==========================================================================
+//
+// Styles for the codepen iframe
+//
 
-@mixin clearfix(){
-    &:after {
-        content:"";
-        display:table;
-        clear:both;
-    }
+.codepen {
+    padding: 0;
+    max-width: none;
 }
-
