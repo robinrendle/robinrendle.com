@@ -6,7 +6,8 @@
         bannerElem = document.querySelector('.m-banner');
 
         var bind = function(){
-            menuElem.addEventListener('click', function(){
+            menuElem.addEventListener('click', function(e){
+                e.preventDefault();
                 bannerElem.classList.toggle('is--active');
             });
         }
