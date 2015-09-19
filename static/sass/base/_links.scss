@@ -55,7 +55,7 @@ a {
 @mixin links-longform {
     &:link,
     a {
-        color: #2D2D2D;
+        color: $c-primary;
         transition: color .3s ease;
 
         &:hover,

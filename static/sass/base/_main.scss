@@ -23,6 +23,7 @@ body {
     line-height: 1.4;
     background-color: white;
     color: #444;
+    // border-bottom: 2px solid $c-primary;
 
     // Sticky footer with flexbox hack.
     display: flex;
@@ -30,44 +31,13 @@ body {
     flex-direction: column;
 
     @include media(">large"){
-        border: 15px solid #ffffff;
         border-top: none;
-    }
-
-    &:after {
-        content: "smallest";
-        @extend .caps;
-        display: block;
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        background-color: #111;
-        opacity: .5;
-        padding: 5px 20px;
-        color: #eee;
-
-        @include media(">small"){
-            content: "small";
-        }
-
-        @include media(">medium"){
-            content: "medium";
-        }
-
-        @include media(">large"){
-            content: "large";
-        }
-
-        @include media(">largest"){
-            content: "largest";
-        }
     }
 }
 
 
 .main {
     flex: 1; // sticky footer fix
-    background-color: #EFEFEF;
 }
 
 cite {
