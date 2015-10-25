@@ -31,7 +31,7 @@ gulp.task('scripts', function() {
 
 
 gulp.task('images', function(cb){
-    gulp.src(['static/images/**/*.png','static/images/**/*.jpg', 'static/images/**/*.gif','static/images/**/*.jpeg'])
+    gulp.src(['static/images/**/*.*'])
         .pipe(imageop({
             optimizationLevel: 6,
             progressive: true,

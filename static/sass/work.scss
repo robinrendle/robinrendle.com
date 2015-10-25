@@ -1,0 +1,150 @@
+// ==========================================================================
+// WORK STYLES
+// ==========================================================================
+
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !default;
+
+$font-src: "/fonts/";
+$c-black: #222;
+$c-light: #ddd;
+
+// UTILS
+// ==========================================================================
+@import "utilities/reset";
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+@import "utilities/type";
+@import "utilities/colors";
+@import "utilities/text-style";
+@import "utilities/underline";
+@import "utilities/inverse";
+@import "utilities/align-text";
+
+// FONTS
+// ==========================================================================
+@font-face {
+    font-family: "FG";
+    src: url('#{$font-src}FoundersGroteskTextWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "FG Semibold";
+    src: url('#{$font-src}FoundersGroteskTextWeb-Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: "FG Display";
+    src: url('#{$font-src}FoundersGroteskX-CondensedWeb-Medium.woff') format('woff');
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "FG";
+    border-top: 10px solid $c-black;
+    border-bottom: 10px solid $c-black;
+}
+
+h1, .h1 {
+    font-family: "FG Display";
+    font-size: 80px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+h2, .h2 {
+    font-family: "FG Semibold";
+    font-weight: 400;
+}
+
+a {
+    color: inherit;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.g__col {
+    float: left;
+    width: 50%;
+    @include clearfix();
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.box {
+    @include clearfix();
+    display: block;
+    margin-left: -10px;
+}
+
+.box__item {
+    padding: 20px;
+    display: block;
+    border: 1px solid $c-light;
+    transition: background-color .3s ease;
+    width: 100%;
+    float: left;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+    outline: none;
+
+    &:hover,
+    &:focus {
+        background-color: lighten($c-light,10);
+
+        img {
+            opacity: 1;
+        }
+    }
+
+    &:active {
+        transform: scale(1.1);
+    }
+
+    figure {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    img {
+        opacity: .3;
+        margin: 0 auto;
+        display: block;
+        width: 100px;
+        transition: opacity 1s ease;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0;
+        list-style: none;
+        text-transform: lowercase;
+
+        &:first-of-type:first-letter {
+            text-transform: capitalize;
+        }
+
+
+        &:after {
+            content: ",";
+        }
+
+        &:last-of-type:after {
+            content: none;
+        }
+    }
+}
+
+
