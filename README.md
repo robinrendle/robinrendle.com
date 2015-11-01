@@ -1,10 +1,9 @@
 # [My personal website](http://robinrendle.com).
-===============
 
 ## Workflow
 
-- 1. `siteleaf server`
-- 2. `npm start`: runs a collection of Gulp tasks.
+1. `siteleaf server`
+2. `npm start`: runs a collection of Gulp tasks.
 
 
 ## Typography
