@@ -2,8 +2,7 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
-    minifyCSS = require('gulp-minify-css'),
-    prefix = require('gulp-autoprefixer'),
+    autoprefixer = require('gulp-autoprefixer'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass'),
     size = require('gulp-size'),
@@ -13,19 +12,42 @@ var gulp = require('gulp'),
     reload = browserSync.reload,
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
-    eslint = require('gulp-eslint');
+    paths = {
+        styles: {
+            src:   "static/screen.scss",
+            dest:  "build/css",
+            watch: "static/sass/**/*.*",
+        },
+        images: {
+            src:   [
+                "static/images/*.png",
+                "static/images/**/*.png",
+                "static/images/*.jpg",
+                "static/images/**/*.jpg",
+            ],
+            dest:  "build/images/"
+        },
+        scripts: {
+            libs: [
+                "static/js/lib/*.js",
+                "static/js/modules/*.js"
+            ],
+            src: [
+                "static/js/app.js"
+            ],
+            dest: "build/js/"
+        },
+        watch: [
+            "*.html",
+        ],
+    };
 
 // Concats + minifies JS
 gulp.task('scripts', function() {
-    gulp.src([
-        './static/js/app.js'
-    ])
-        .pipe(eslint())
-        .pipe(eslint.format())
-        .pipe(concat('app.js'))
+    gulp.src(paths.scripts.libs.concat(paths.scripts.src) )
         .pipe(uglify())
-        .pipe(rename('app.min.js'))
-        .pipe(gulp.dest('./build/js'))
+        .pipe(concat('app.min.js'))
+        .pipe(gulp.dest(paths.scripts.dest))
         .pipe(reload({stream: true}))
 });
 
@@ -41,48 +63,49 @@ gulp.task('images', function(cb){
         .pipe(gulp.dest('build/images'));
 });
 
-gulp.task('serve', ['sass'], function(){
+gulp.task('serve', ['sass', 'work'], function(){
     browserSync.init({
         // Using a localhost address with a port
         proxy: "localhost:9292"
     });
     gulp.watch(['static/sass/*.scss', 'static/sass/**/*.scss'], ['sass']);
+    gulp.watch(['static/sass/*.scss', 'static/sass/**/work.scss'], ['work']);
     gulp.watch(["./*.html", "./**/*.html"]).on('change', reload);
-    gulp.watch(['static/js/*.js'], ['scripts']);
+    gulp.watch([paths.scripts.src, paths.scripts.libs], ['scripts']);
 });
 
 
 // Compiles scss into the build/css dir
 gulp.task('sass', function(){
     gulp.src('./static/sass/*.scss')
-        .pipe(sass({ errLogToConsole: true}))
-        .pipe(prefix())
-        .pipe(gulp.dest('./build/css'))
+        .pipe(sass({outputStyle: 'compressed'}))
+        .on("error", function(err){
+            browserSync.notify(err.message);
+        })
+        .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
+        .pipe(gulp.dest(paths.styles.dest))
         .pipe(reload({stream: true}));
 });
 
-// Autoprefixes on minified CSS
-gulp.task('prefix', function(){
-    gulp.src('./build/css/*.css')
-        .pipe(prefix())
-        .pipe(gulp.dest('./build/css'));
+gulp.task('work', function(){
+    gulp.src('./static/sass/work.scss')
+        .pipe(sass({outputStyle: 'compressed'}))
+        .on("error", function(err){
+            browserSync.notify(err.message);
+        })
+        .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
+        .pipe(concat('work.min.css'))
+        .pipe(gulp.dest(paths.styles.dest))
+        .pipe(reload({stream: true}));
+    gulp.src([
+        './static/js/ff-observer.js'
+    ])
+        .pipe(uglify())
+        .pipe(concat('work.min.js'))
+        .pipe(gulp.dest('./build/js'))
+        .pipe(reload({stream: true}))
 });
 
-// Minifies CSS
-gulp.task('minify', function(){
-    gulp.src('./build/css/screen.css')
-        .pipe(size({gzip: true, showFiles: true, title:'minified screen.css'}))
-        .pipe(minifyCSS())
-        .pipe(rename('screen.min.css'))
-        .pipe(gulp.dest('./build/css/'))
-        .pipe(size({gzip: true, showFiles: true, title:'minified screen.css'}));
-});
 
-gulp.task('start', function(){
-    gulp.watch('./build/css/screen.css', ['minify']);
-});
 
-gulp.task('build', ['images', 'minify', 'sass', 'scripts']);
-
-gulp.task('default', ['build', 'start', 'serve']);
-
+gulp.task('default', ['images', 'sass', 'work', 'scripts', 'serve']);
