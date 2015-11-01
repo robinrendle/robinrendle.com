@@ -1,39 +1,64 @@
 {% include 'components/header-work' %}
 
-<article class="h-entry">
+<article class="h-entry cell-t60">
     <section role="main">
-        <header>
+        <header class="cell-b40">
+            <a href="/work" class="nav-link">&larr; Work and projects</a>
             {% if meta.logo %}
-                <figure>
+                <figure class="u-text-center cell-b20 logo">
                     <img src="/build/images/work/{{meta.logo}}">
                 </figure>
             {% endif %}
-            <h1 class="h1">{{title}}</h1>
+            <h1 class="h1 u-text-center">{{title}}</h1>
         </header>
-
-        <div class="m-longform m-wrapper m-wrapper--unpadded">
+        <div class="island island--hero">
+            <div class="hero">
+                {% if meta.hero %}
+                    <figure>
+                        <img src="{{meta.hero}}" alt="">
+                    </figure>
+                {% endif %}
+            </div>
+        </div>
+        <div class="m-longform m-wrapper m-wrapper--hero cell-b40">
             {{ body }}
         </div>
 
-        <div class="o-multi m-longform m-longform--small">
-            {% if meta.Role || meta.team %}
-                {% if meta.Role %}
-                    <aside class="island--meta o-multi__item cell-r10--medium">
-                        <div class="">
-                            <h4 class="h5 u-reset-margins">Responsibilities</h4>
-                        </div>
-                        {{meta.Role.value | markdown:true}}
-                    </aside>
-                {% endif %}
-                {% if meta.Team %}
-                    <aside class="island--meta o-multi__item cell-l10--medium">
-                        <div class="">
-                            <h4 class="h5 u-reset-margins">Team members</h4>
-                        </div>
-                        {{meta.Team.value | markdown:true}}
-                    </aside>
-                {% endif %}
-            {% endif %}
+
+        <div class="island island--light cell-t30 cell-b20">
+            <div class="m-wrapper">
+                <div class="multi">
+                    <h2 class="footer-title display">More about this project</h2>
+                    {% if meta.Role || meta.team %}
+                        {% if meta.Role %}
+                            <aside class="island--meta multi__item">
+                                <div class="">
+                                    <h4 class="h2">Responsibilities</h4>
+                                </div>
+                                {{meta.Role.value | markdown:true}}
+                            </aside>
+                        {% endif %}
+                        {% if meta.Team %}
+                            <aside class="island--meta multi__item">
+                                <div class="">
+                                    <h4 class="h2">Team members</h4>
+                                </div>
+                                {{meta.Team.value | markdown:true}}
+                            </aside>
+                        {% endif %}
+                        {% if meta.Links %}
+                            <aside class="island--meta multi__item">
+                                <div class="">
+                                    <h4 class="h2">Links</h4>
+                                </div>
+                                <div class="link">
+                                    {{meta.Links.value | markdown:true}}
+                                </div>
+                            </aside>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
         </div>
 
     {% include 'components/footer-work' %}

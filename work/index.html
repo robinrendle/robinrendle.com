@@ -2,14 +2,14 @@
 
     <header class=" cell-b10 cell-b10--medium">
         <div class="cell-t40 cell-t60--medium">
-            <div class="m-wrapper">
-                <h1>Work &amp; projects</h1>
-                <p>I’m Robin, a designer from the UK, and this is a collection of projects that I’ve worked on lately.</p>
+            <div class="m-wrapper u-text-center cell-t40 cell-b40">
+                <h1 class="cell-b10">Work &amp; projects</h1>
+                <p class="subtitle">I’m Robin, a designer from the UK, and this is a collection of projects that I’ve worked on lately.</p>
             </div>
         </div>
     </header>
 
-    <div class="wrapper">
+    <div class="wrapper wrapper--large cell-b80">
         <section class="box">
             {% for post in posts %}
                 <div class="g__col">
@@ -19,10 +19,12 @@
                                 <img src="/build/images/work/{{post.meta.logo}}">
                             </figure>
                         {% endif %}
-                        <h2 class="h2">
-                            {{ post.title }}
-                        </h2>
-                        {{post.meta.Role.value | markdown:true}}
+                        <div class="box__content">
+                            <h2 class="h2">
+                                {{ post.title }}
+                            </h2>
+                            {{post.meta.Role.value | markdown:true}}
+                        </div>
                     </a>
                 </div>
             {% endfor %}
@@ -35,8 +37,10 @@
                                 <img src="/build/images/work/{{page.meta.logo}}">
                             </figure>
                         {% endif %}
-                        <h2>{{ page.title }}</h2>
-                        {{page.meta.Role.value | markdown:true}}
+                        <div class="box__content">
+                            <h2>{{ page.title }}</h2>
+                            {{page.meta.Role.value | markdown:true}}
+                        </div>
                     </a>
                 </div>
             {% endfor %}
