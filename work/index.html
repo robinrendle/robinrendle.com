@@ -1,45 +1,50 @@
-{% include 'components/header' %}
+{% include 'components/header-work' %}
+
     <header class=" cell-b10 cell-b10--medium">
         <div class="cell-t40 cell-t60--medium">
-            <div class="m-wrapper">
-                <h1>Work &amp; projects</h1>
+            <div class="m-wrapper u-text-center cell-t40 cell-b40">
+                <h1 class="cell-b10">Work &amp; projects</h1>
+                <p class="subtitle">I’m Robin, a designer from the UK, and this is a collection of projects that I’ve worked on lately.</p>
             </div>
         </div>
     </header>
 
-
-    <section class="m-wrapper">
-        {% for post in posts %}
-            <article class="cell-b40">
-                <div class="container container--wide">
-                    <div class="hgroup hgroup--listing">
-                        <h2 class="h3 u-text--book links u-reset-margins cell-b0">
-                            <a href="{{post.url}}">{{ post.title }}</a>
-                        </h2>
-
-                        <div class="m-longform">
-                            {{ post.meta.extract | markdown: true}}
+    <div class="wrapper wrapper--large cell-b80">
+        <section class="box">
+            {% for post in posts %}
+                <div class="g__col">
+                    <a href="{{post.url}}" class="box__item">
+                        {% if post.meta.logo %}
+                            <figure>
+                                <img src="/build/images/work/{{post.meta.logo}}">
+                            </figure>
+                        {% endif %}
+                        <div class="box__content">
+                            <h2 class="h2">
+                                {{ post.title }}
+                            </h2>
+                            {{post.meta.Role.value | markdown:true}}
                         </div>
-                    </div><!-- //.work-item-content -->
-                </div> <!-- //.container -->
-            </article>
-        {% endfor %}
+                    </a>
+                </div>
+            {% endfor %}
 
-        {% for page in pages %}
-            <article class="cell-b40">
-                <div class="container container--wide">
-                    <div class="hgroup hgroup--listing">
-                        <h2 class="h3 u-text--book links u-reset-margins cell-b0">
-                            <a href="{{page.url}}">{{ page.meta.byline }}</a>
-                        </h2>
-
-                        <div class="m-longform">
-                            <p>{{ page.meta.extract }}</p>
+            {% for page in pages %}
+                <div class="g__col">
+                    <a href="{{page.url}}" class="box__item">
+                        {% if page.meta.logo %}
+                            <figure>
+                                <img src="/build/images/work/{{page.meta.logo}}">
+                            </figure>
+                        {% endif %}
+                        <div class="box__content">
+                            <h2>{{ page.title }}</h2>
+                            {{page.meta.Role.value | markdown:true}}
                         </div>
-                    </div><!-- //.work-item-content -->
-                </div> <!-- //.container -->
-            </article>
-        {% endfor %}
-    </section>
+                    </a>
+                </div>
+            {% endfor %}
+        </section>
+    </div>
 
-{% include 'components/footer' %}
+{% include 'components/footer-work' %}

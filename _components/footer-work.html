@@ -1,0 +1,28 @@
+        </section>
+        <script src="/build/js/work.min.js"></script>
+        <script type="text/javascript">
+            var fg = new FontFaceObserver("FG", {weight: 400}),
+                fgDisplay = new FontFaceObserver("FG Display", {weight: 800}),
+                fgSemibold = new FontFaceObserver("FG Semibold", {weight: 600});
+
+            if(localStorage.getItem('fonts') != true) {
+                Promise.all([
+                    fg.check(null, 5000),
+                    fgDisplay.check(null, 5000),
+                    fgSemibold.check(null, 5000),
+                ]).then(function(){
+                    document.documentElement.className += ' fonts-loaded';
+                    sessionStorage.setItem('fonts', true);
+                });
+            }
+
+
+            // var observer = new FontFaceObserver('FG', {});
+            // observer.check(null, 5000).then(function () {
+            //     document.documentElement.classList.add('fonts-loaded');
+            // }, function () {
+            //   console.log('fonts failed to load');
+            // });
+        </script>
+    </body>
+</html>
