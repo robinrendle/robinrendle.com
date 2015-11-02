@@ -294,6 +294,7 @@ a {
         display: block;
         position: relative;
         z-index: 2;
+        margin: 0 auto;
 
         @include media(">medium"){
             border-radius: 7px;
