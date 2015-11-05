@@ -9,6 +9,14 @@
     <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="author" href="https://plus.google.com/+RobinRendle">
+    <script>
+        function checkFonts(){
+            if(sessionStorage.fonts === "true" ) {
+                document.documentElement.classList.add('wf-active');
+            }
+        }
+        checkFonts();
+    </script>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="/build/images/favicon.png">
@@ -17,8 +25,8 @@
     <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}">
 
     <!-- Prefetch -->
-    <link rel="dns-prefetch" href="https://ajax.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.typonine.com/">
+    <link rel="preconnect" href="https://ajax.googleapis.com">
+    <link rel="preconnect" href="https://fonts.typonine.com/">
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/build/css/screen.css" />

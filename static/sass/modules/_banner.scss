@@ -32,10 +32,10 @@
     transition: background-color .3s ease;
     float: left;
     font-size: 15px !important;
-    height: 55px;
-    width: 160px;
     text-align: center;
     margin-right: 20px;
+    height: 50px;
+    width: 160px;
 
     .wf-active & {
         font-size: 18px !important;
@@ -49,6 +49,7 @@
 
     @include media(">medium"){
         padding: 15px 20px;
+        height: 55px;
     }
 
     &:hover,
