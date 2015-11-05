@@ -17,7 +17,6 @@
     @include media(">medium"){
         border-bottom: 1px solid white;
     }
-
 }
 
 .m-banner--dark {
@@ -31,8 +30,16 @@
     background-color: $c-primary;
     color: white;
     transition: background-color .3s ease;
-    font-size: 17px;
     float: left;
+    font-size: 15px !important;
+    height: 55px;
+    width: 160px;
+    text-align: center;
+    margin-right: 20px;
+
+    .wf-active & {
+        font-size: 18px !important;
+    }
 
     @include media("<medium"){
         .is--active & {
@@ -42,8 +49,6 @@
 
     @include media(">medium"){
         padding: 15px 20px;
-        float: none;
-        font-size: 18px;
     }
 
     &:hover,
@@ -86,6 +91,8 @@
 .m-banner__nav {
     display: inline-block;
     font-size: 16px;
+    float: left;
+    padding-top: 16px;
 
     @include media(">medium"){
         font-size: 17px;
@@ -97,8 +104,8 @@
         }
 
         @include media(">medium"){
-            margin-left: 20px;
             display: inline-block;
+            float: left;
         }
     }
 
@@ -115,6 +122,7 @@
     }
 
     a.o-nav__item {
+        color: #666;
         @include media("<medium"){
             display: block;
             color: white;
@@ -134,6 +142,5 @@
                 color: white;
             }
         }
-        color: #666;
     }
 }

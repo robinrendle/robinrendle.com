@@ -29,7 +29,6 @@ var gulp = require('gulp'),
         },
         scripts: {
             libs: [
-                "static/js/lib/*.js",
                 "static/js/modules/*.js"
             ],
             src: [
@@ -39,6 +38,7 @@ var gulp = require('gulp'),
         },
         watch: [
             "*.html",
+            "_components/*.html",
         ],
     };
 
