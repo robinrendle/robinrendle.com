@@ -8,15 +8,16 @@ var gulp = require('gulp'),
     size = require('gulp-size'),
     imageop = require('gulp-image-optimization'),
     watch = require('gulp-watch'),
-    browserSync = require('browser-sync').create(),
+    cp = require('child_process'),
+    browserSync = require('browser-sync'),
     reload = browserSync.reload,
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
     paths = {
         styles: {
-            src:   "static/screen.scss",
+            src:   "_sass/screen.scss",
             dest:  "build/css",
-            watch: "static/sass/**/*.*",
+            watch: "_sass/**/*.*",
         },
         images: {
             src:   [
@@ -38,7 +39,7 @@ var gulp = require('gulp'),
         },
         watch: [
             "*.html",
-            "_components/*.html",
+            "_includes/*.html",
         ],
     };
 
@@ -63,28 +64,54 @@ gulp.task('images', function(cb){
         .pipe(gulp.dest('build/images'));
 });
 
-gulp.task('serve', ['sass', 'work'], function(){
-    browserSync.init({
-        // Using a localhost address with a port
-        proxy: "localhost:9292"
-    });
-    gulp.watch(['static/sass/*.scss', 'static/sass/**/*.scss'], ['sass']);
-    gulp.watch(['static/sass/*.scss', 'static/sass/**/work.scss'], ['work']);
-    gulp.watch(["./*.html", "./**/*.html"]).on('change', reload);
-    gulp.watch([paths.scripts.src, paths.scripts.libs], ['scripts']);
+
+var messages = {
+    jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
+};
+
+/**
+ * Build the Jekyll Site
+ */
+gulp.task('jekyll-build', function (done) {
+    browserSync.notify(messages.jekyllBuild);
+    return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
+        .on('close', done);
 });
 
+/**
+ * Rebuild Jekyll & do page reload
+ */
+gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+    browserSync.reload();
+});
 
-// Compiles scss into the build/css dir
-gulp.task('sass', function(){
-    gulp.src('./static/sass/*.scss')
-        .pipe(sass({outputStyle: 'compressed'}))
-        .on("error", function(err){
-            browserSync.notify(err.message);
-        })
-        .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
-        .pipe(gulp.dest(paths.styles.dest))
-        .pipe(reload({stream: true}));
+/**
+ * Wait for jekyll-build, then launch the Server
+ */
+gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+    browserSync({
+        server: {
+            baseDir: '_site'
+        }
+    });
+});
+
+gulp.task('watch', function () {
+    gulp.watch(['_sass/*.scss', '_sass/**/*.scss'], ['sass']);
+    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+});
+
+gulp.task('sass', function () {
+    return gulp.src('_sass/screen.scss')
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify,
+            outputStyle: 'compressed'
+        }))
+        .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
+        .pipe(gulp.dest('_site/css'))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('css'));
 });
 
 gulp.task('work', function(){
@@ -108,4 +135,4 @@ gulp.task('work', function(){
 
 
 
-gulp.task('default', ['images', 'sass', 'work', 'scripts', 'serve']);
+gulp.task('default', ['images', 'sass', 'watch', 'scripts', 'browser-sync']);
