@@ -38,6 +38,12 @@ defaults:
   values:
     permalink: "/essays/:title/"
     layout: "default"
+- scope:
+    path: ''
+    type: work
+  values:
+    permalink: "/work/:title/"
+    layout: "work-detail"
 markdown: redcarpet
 exclude:
 - node_modules
