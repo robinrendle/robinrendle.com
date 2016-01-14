@@ -1,0 +1,34 @@
+{% include header-work.html %}
+
+    <header class=" cell-b10 cell-b10--medium">
+        <div class="cell-t40 cell-t60--medium">
+            <div class="m-wrapper u-text-center cell-t40 cell-b40">
+                <h1 class="cell-b10">Work &amp; projects</h1>
+                <p class="subtitle">I’m Robin, a designer from the UK, and this is a collection of projects that I’ve worked on lately.</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper wrapper--large cell-b80">
+        <section class="box">
+            {% for post in site.work %}
+                <div class="g__col">
+                    <a href="{{post.url}}" class="box__item">
+                        {% if post.logo %}
+                            <figure>
+                                <img src="/build/images/work/{{post.logo}}">
+                            </figure>
+                        {% endif %}
+                        <div class="box__content">
+                            <h2 class="h2">
+                                {{ post.title }}
+                            </h2>
+                            {{post.role | markdownify}}
+                        </div>
+                    </a>
+                </div>
+            {% endfor %}
+        </section>
+    </div>
+
+{% include footer-work.html %}
