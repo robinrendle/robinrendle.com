@@ -16,7 +16,7 @@ var gulp = require('gulp'),
     paths = {
         styles: {
             src:   "_sass/screen.scss",
-            dest:  "build/css",
+            dest:  "_site/css",
             watch: "_sass/**/*.*",
         },
         images: {
@@ -115,24 +115,25 @@ gulp.task('sass', function () {
 });
 
 gulp.task('work', function(){
-    gulp.src('./static/sass/work.scss')
-        .pipe(sass({outputStyle: 'compressed'}))
-        .on("error", function(err){
-            browserSync.notify(err.message);
-        })
-        .pipe(autoprefixer("last 1 version", "> 1%", "ie 8", "ie 7"))
-        .pipe(concat('work.min.css'))
-        .pipe(gulp.dest(paths.styles.dest))
-        .pipe(reload({stream: true}));
+    gulp.src('_sass/work.scss')
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify,
+            outputStyle: 'compressed'
+        }))
+        .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
+        .pipe(browserSync.reload({stream:true}))
+        .pipe(gulp.dest('css'))
+
     gulp.src([
-        './static/js/ff-observer.js'
+        '_static/js/lib/ff-observer.js'
     ])
         .pipe(uglify())
-        .pipe(concat('work.min.js'))
-        .pipe(gulp.dest('./build/js'))
+        .pipe(concat('min.ff-observer.js'))
+        .pipe(gulp.dest('js'))
         .pipe(reload({stream: true}))
 });
 
 
 
-gulp.task('default', ['images', 'sass', 'watch', 'scripts', 'browser-sync']);
+gulp.task('default', ['images', 'sass', 'watch', 'scripts', 'work', 'browser-sync']);
