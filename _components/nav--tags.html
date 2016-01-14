@@ -1,9 +1,0 @@
-<dl class="nav nav--tags">
-    <dt>Tagged with:</dt>
-
-    {% for tagset in taxonomy %}
-        {% for tag in tagset %}
-            <dd><a href="{{tag.url}}">#{{tag.value}}</a></dd>
-        {% endfor %}
-    {% endfor %}
-</dl>
