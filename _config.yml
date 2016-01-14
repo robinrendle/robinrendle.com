@@ -1,0 +1,57 @@
+---
+title: Robin Rendle
+url: http://robinrendle.com
+timezone: Europe/London
+permalink: pretty
+current_location: Nottingham, UK
+collections:
+    uploads:
+        title: Uploads
+        output: false
+    essays:
+        output: true
+    work:
+        output: true
+    reading:
+        output: true
+        order: date
+        values:
+            layout: wonk
+    stories:
+        output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/notes/:title/"
+    layout: "default"
+- scope:
+    path: ''
+    type: reading
+  values:
+    permalink: "/reading/:title/"
+    layout: "default"
+- scope:
+    path: ''
+    type: essays
+  values:
+    permalink: "/essays/:title/"
+    layout: "default"
+markdown: redcarpet
+exclude:
+- node_modules
+- package.json
+- npm-debug.log
+- gulpfile.js
+- sass
+redcarpet:
+  extensions:
+  - autolink
+  - fenced_code_blocks
+  - lax_spacing
+  - strikethrough
+  - superscript
+  - tables
+  - footnotes
+  - highlight
