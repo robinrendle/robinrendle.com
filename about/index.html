@@ -1,54 +1,26 @@
-{% include 'components/header' %}
+---
+layout: about
+title: About
+date: 2013-07-07 17:20:00 Z
+contact: |-
+  - You can find me on Twitter: [@robinrendle](http://twitter.com/robinrendle)
+  - Fork my work over on [GitHub](http://github.com/robinrendle)
+  - Or feel free to contact me about a cool project by <a href="mailto:desk@robinrendle.com">email</a>
+image:
+extract: |-
+  I’m a freelance designer, web developer and a technical writer for [CSS-Tricks](https://css-tricks.com/author/robinrendle/). Around these parts I’ve been writing about my adventures in typography, web design and reading for a couple of years now.
 
-    <article class="h-entry
-                    container
-                    is--editor__content">
+  <div class="cell-b20">
+  <p>Elsewhere I’ve been fortunate enough to write for publications such as Smashing Magazine, Typographica, Hi, and Fonts In Use.</p>
+  </div>
+contributions:
+bio: |-
+    I spent most of my early childhood growing up on a big patch of land in the tail end of [Devon](https://en.wikipedia.org/wiki/Devon). As lonely kids are often captivated by stories, I was mesmerised by the tales in books and the narratives I soaked up through television. The methods that reproduced them were fascinating, too. Reading, writing, designing, programming, all of these activities seemed to be inseparable from one another. As a result I feel uncomfortable today describing what I do on a daily basis; calling myself a web designer, developer, or a writer just sounds icky to me.
+colophon: |-
+  All fonts are served via [Typonine](http://www.typonine.com/) with titling faces being set in [Nocturno Display](http://www.typonine.com/fonts/font-library/nocturno-display/) whilst running text is set in [Nocturno](http://www.typonine.com/fonts/font-library/nocturno/).
 
-        <header class="m-wrapper">
-            <h1 class="cell-t40 cell-t40--medium cell-t60--large cell-b0">About me</h1>
-        </header>
-
-        <div class="m-wrapper">
-            <div class="m-longform">
-                {{meta.Extract | markdown:true}}
-            </div>
-
-            {% if site.pages.about.meta.Image %}
-                <figure class="cell-t20">
-                    <img src="{{site.pages.about.meta.Image.value}}"/>
-                </figure>
-            {% endif %}
-            <div class="cell-b40">
-                <div class="cell-5 rules rules--all rules--transparent m-longform--small links--underline">
-                    <ul class="o-island o-island--transparent cell lists--none u-reset-margins">
-                        <li class="cell-b10">You can find me on Twitter:
-                            <a href="http://twitter .com/robinrendle" class="links--dark">@robinrendle</a>
-                        </li>
-                        <li class="cell-b10">Fork my work over on
-                            <a href="http://github.com/robinrendle" class="links--dark">GitHub</a>
-                        </li>
-                        <li>Or feel free to contact me by
-                            <a class="links--dark" href="mailto:desk@robinrendle.com">email</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins">Bio + history</h2>
-
-            <div class="m-longform cell-t10">
-                {{meta.Bio | markdown:true}}
-            </div>
+  This website was created with [Siteleaf](http://siteleaf.com), a fantastic <abbr title="Content management system">CMS</abbr> by the guys at [Oak](http://oak.is/). All assets are supercharged by the [Cloudflare](https://www.cloudflare.com/) <abbr title="Content delivery network">CDN</abbr>. The front-end architecture is based on the [atomic Sass framework](https://github.com/robinrendle/atomic-framework) and all of the code can be found on [GitHub](https://github.com/robinrendle/robinrendle.com).
+---
 
 
-            <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">Colophon</h2>
 
-            <div class="m-longform cell-t10">
-                {{meta.Colophon | markdown:true}}
-            </div>
-
-        </div>
-
-    </article><!-- //.container -->
-
-{% include 'components/footer' %}
