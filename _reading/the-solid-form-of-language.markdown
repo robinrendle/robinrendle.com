@@ -1,0 +1,25 @@
+---
+title: The Solid Form of Language
+date: 2014-01-05 21:17:00 Z
+extract: "... a script occasionally proves to be more like a brand, or indeed like
+  a prison tattoo, re-engraved on the brain with every letter written and every letter
+  read."
+update: 
+tags:
+- books
+- Robert Bringhurst
+- language
+- writing
+- alphabets
+City:
+- Nottingham
+Country:
+- UK
+---
+
+<figure>
+<blockquote>
+<p>Hebrew script, to many, is a badge of Jewishness, Arabic script a badge of the Islamic faith, Devangari script a badge of Hindu pride, Cyrillic script a badge of Slavic solidarity or Soviet nostalgia, and Sinhalese and Tamil scripts the symbols of two Sri Lankan factions now bitterly opposed. But badges are removable. Where associations such as these are fervently pursued, a script occasionally proves to be more like a brand, or indeed like a prison tattoo, re-engraved on the brain with every letter written and every letter read.</p>
+</blockquote>
+<figcaption class="cite"><p>Robert Bringhurst <cite>The Solid Form of Language</cite></p></figcaption>
+</figure>
