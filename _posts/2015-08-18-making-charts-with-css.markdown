@@ -1,0 +1,19 @@
+---
+title: Making charts with CSS
+date: 2015-08-18 14:47:00 Z
+extract: 'Over on CSS-Tricks I take a look at a few interesting ways to make bar charts,
+  sparklines and pie charts without resorting to a JavaScript framework. '
+update: 
+tags:
+- css-tricks
+- charts
+- web design
+City:
+- Plymouth
+Country:
+- UK
+---
+
+In *[Making charts with CSS](https://css-tricks.com/making-charts-with-css/)* over on CSS-Tricks I take a look at a few interesting ways to make bar charts, sparklines and pie charts without resorting to a JavaScript framework. Using JS isn’t necessarily a problem here but sometimes we don’t need extra resources and a lot of the time we can handle things with CSS.
+
+I’m already making notes for the next post on making charts with SVG, so be sure to look out for that one too.
