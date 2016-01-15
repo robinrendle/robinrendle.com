@@ -1,0 +1,59 @@
+// ==========================================================================
+// TYPE
+// ==========================================================================
+// Default typesetting, font-height and font-weight settings.
+
+@mixin typeface($font) {
+    $fallback: Georgia, serif;
+    .wf-active & {
+        font-weight: normal;
+        font-stretch: normal;
+    }
+
+    @if $font == "Display" {
+        font-family: $fallback;
+        font-weight: bold;
+        .wf-active & {
+            font-weight: normal;
+            font-family: "Nocturno Display Medium 3", $fallback;
+        }
+    }
+
+    @if $font == "Book" {
+        font-family: $fallback;
+        font-weight: normal;
+        .wf-active & {
+            font-family: "Nocturno Book 2", $fallback;
+        }
+    }
+
+    @if $font == "Regular italic" {
+        font-style: italic;
+        font-family: $fallback;
+        .wf-active & {
+            font-style: normal;
+            font-family: "Nocturno Regular Italic 24", $fallback;
+        }
+    }
+
+    @if $font == "Small caps" {
+        font-family: $fallback;
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: .8em;
+
+
+        .wf-active & {
+            font-size: 1em;
+            text-transform: lowercase;
+            font-family: "Nocturno Regular 26", $fallback;
+        }
+    }
+
+    @if $font == "Regular" {
+        font-family: $fallback;
+        .wf-active & {
+            font-family: "Nocturno Regular 25", $fallback;
+        }
+    }
+}
