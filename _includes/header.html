@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{{site.title}} › {{page.title}}</title>
+
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/+RobinRendle">
+    <script>
+        function checkFonts(){
+            if(sessionStorage.fonts === "true" ) {
+                document.documentElement.classList.add('wf-active');
+            }
+        }
+        checkFonts();
+    </script>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}">
+
+    <!-- Prefetch -->
+    <link rel="preconnect" href="https://ajax.googleapis.com">
+    <link rel="preconnect" href="https://fonts.typonine.com/">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/css/screen.css" />
+</head>
+
+<body class="{{parent.meta.bodyclass}}">
+    <div class="main">
+            <header class="m-banner" role="banner">
+                <div class="m-wrapper">
+                    <a href="/" class="caps m-banner__about">Robin Rendle</a>
+                    <a href="#" class="m-banner__menu caps" aria-role="hidden">Menu</a>
+                    <div class="o-nav o-nav--bullets m-banner__nav">
+                        <nav class="">
+                            <a href="/about" class="caps o-nav__item">About</a>
+                            <a href="/notes" class="caps o-nav__item">Notes</a>
+                            <a href="/reading" class="caps o-nav__item">Reading</a>
+                            <a href="/essays" class="caps o-nav__item">Essays</a>
+                            <a href="/work" class="caps o-nav__item">Work</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        <section role="main" class="">
