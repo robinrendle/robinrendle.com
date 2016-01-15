@@ -1,0 +1,74 @@
+// ==========================================================================
+// NAV MODULE
+// ==========================================================================
+//
+//
+//
+// Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
+// When used on an `ol` or `ul`, this class throws the list into horizontal mode
+//
+
+.o-nav {
+    list-style: none;
+}
+
+.o-nav__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+// Bullet list nav
+.o-nav--bullets {
+    .o-nav__item {
+        position: relative;
+        margin-right: 10px;
+        overflow: visible;
+        text-decoration: none;
+        background: none;
+        transition: background .3s ease;
+
+        @include media(">medium"){
+            margin-right: 20px;
+        }
+
+        &:hover,
+        &:focus {
+            background: linear-gradient(transparent 89%, $c-primary 95%, transparent 94%);
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            @include media(">medium"){
+                content: "•";
+                position: absolute;
+                right: -15px;
+                bottom: 0;
+                pointer-events: none;
+            }
+        }
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &:last-of-type:after {
+            content: none;
+        }
+
+        &:hover,
+        &:focus {
+            &:before {
+                color: $c-secondary;
+            }
+        }
+    }
+}
+
+.o-nav--large {
+    .o-nav__item {
+        font-size: 18px;
+    }
+}

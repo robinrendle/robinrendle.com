@@ -1,0 +1,201 @@
+// ==========================================================================
+// LONGFORM
+// ==========================================================================
+//
+// Custom styles for blog post formats
+//
+
+.m-longform {
+    @include links-longform();
+    @include underline();
+    @include trim();
+
+    h2 {
+        @include remCalc(margin-top, ($base-spacing-unit * 2));
+    }
+
+    > div {
+        margin-bottom: 50px;
+    }
+
+    h3, h4, h5, h6 {
+        @include remCalc(margin-top, ($base-spacing-unit * 1.6));
+        @include remCalc(margin-bottom, ($base-spacing-unit));
+    }
+
+    p, ul, ol {
+        @include remCalc(font-size, 17);
+        -webkit-hyphens:auto;
+        -webkit-hyphenate-limit-after:2;
+        -webkit-hyphenate-limit-before:3;
+        hyphens: auto;
+        line-height: 1.5;
+
+        @include media(">small") {
+            @include remCalc(font-size, 17);
+        }
+
+        @include media(">medium") {
+            @include remCalc(font-size, 18);
+            line-height: 1.55;
+        }
+
+        @include media(">large"){
+            @include remCalc(font-size, 19);
+            line-height: 1.6;
+        }
+
+        & > img {
+            @include remCalc(margin-bottom, $base-spacing-unit * 2);
+        }
+    }
+
+    ul ul {
+        margin-left: 20px;
+    }
+
+    figure > blockquote {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    figure > img + blockquote {
+        margin-top: 20px;
+    }
+
+    p, ul, ol,
+    img, figure {
+        & + h3,
+        & + .h3 {
+            @include remCalc(margin-top, $base-spacing-unit * 2);
+        }
+    }
+
+    figcaption {
+        @include typeface("Regular");
+        padding-top: 20px;
+        max-width: 600px;
+
+        a {
+            @include links-dark();
+        }
+    }
+
+    blockquote > p, .cite, figcaption {
+        padding-left: 18px;
+    }
+
+    blockquote {
+        position: relative;
+
+        p {
+            border-left: 1px solid #ccc;
+            @include typeface("Regular italic");
+            @include remCalc(padding-bottom, $base-spacing-unit - 5);
+            margin-bottom: 0;
+            position: relative;
+            color: #555;
+
+            @include media(">large"){
+                left: 0;
+            }
+
+            &:last-of-type,
+            &:only-child {
+                padding-bottom: 0;
+            }
+        }
+
+        p + p {
+            padding-top: 5px;
+        }
+    }
+
+    .blockquote--none {
+        p {
+            border-left: 0;
+            padding-left: 0;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+
+        & + figcaption {
+            padding: 10px 0 0 0;
+        }
+    }
+
+    .cite,
+    figcaption {
+        color: darken($c-text, 30);
+        display: block;
+        position: relative;
+        padding-top: 4px;
+        border-left: 2px solid transparent;
+
+        .t-dark & {
+            color: lighten($c-text, 5);
+        }
+
+        >p {
+            @include remCalc(font-size, 14);
+            margin-bottom: 0;
+            text-align: left;
+            width: 100%;
+
+            @include media(">medium"){
+                @include remCalc(font-size, 15);
+            }
+        }
+    }
+
+    h2,.h2 {
+        @include typeface("Display");
+        margin-bottom: 20px;
+    }
+
+    h3,.h3 {
+        @include typeface("Book");
+        margin-bottom: 20px;
+    }
+
+    h4, .h4 {
+        @include typeface("Regular italic");
+        margin-top: 40px;
+    }
+
+    h5, .h5 {
+        @include typeface("Small caps");
+        color: #000;
+        margin-top: 40px;
+    }
+}
+
+
+.m-longform--small {
+    p, ul, ol {
+        @include remCalc(font-size, 15);
+        line-height: 1.5;
+        @include links-longform();
+
+        @include media(">medium") {
+            @include remCalc(font-size, 16);
+        }
+    }
+}
+
+.m-longform--intro {
+    p {
+        @include media(">medium"){
+            @include remCalc(font-size, 18);
+            line-height: 1.5;
+        }
+
+        @include media(">large"){
+            @include remCalc(font-size, 20);
+            line-height: 1.5;
+        }
+    }
+}

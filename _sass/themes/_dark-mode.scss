@@ -1,0 +1,113 @@
+// ==========================================================================
+// DARK MODE
+// ==========================================================================
+
+$c-dark: #1F1F1F;
+$c-border: #252525;
+
+.t-dark {
+    color: darken($c-text, 5);
+    border-color: #252525;
+
+    .main {
+        background-color: $c-dark;
+    }
+
+    ::selection {
+        background-color: rgba(255,255,255,0.05);
+        color: #ccc;
+        text-shadow: none;
+    }
+
+    h1, .h1 {
+        color: $c-offwhite;
+    }
+
+    // .m-heading__text {
+    //     color: white;
+    // }
+
+    h2, .h2,
+    h3, .h3,
+    h4, .h4,
+    h5, .h5,
+    h6, .h6 {
+        color: darken($c-text, 10);
+    }
+
+    & .m-longform {
+        h2, .h2,
+        h3, .h3,
+        h4, .h4,
+        h5, .h5,
+        h6, .h6 {
+            color: $c-offwhite;
+        }
+    }
+
+    .m-banner {
+        border-bottom: 2px solid $c-border;
+    }
+
+    .m-banner__nav.o-nav--bullets .o-nav__item {
+        color: #888;
+
+        &:hover,
+        &:focus {
+            color: $c-primary;
+        }
+    }
+
+    .m-banner__about {
+        a, em {
+            color: #777;
+        }
+    }
+
+    .m-footer {
+        border-top: 2px solid $c-border;
+
+        .o-nav--bullets .o-nav__item {
+            color: #888;
+
+            &:hover,
+            &:focus {
+                color: $c-primary;
+            }
+        }
+    }
+
+    .u-color--primary {
+        color: $c-primary;
+    }
+
+    blockquote p {
+        border-left: 2px solid #333;
+        color: #858585;
+    }
+
+    .m-longform {
+        img {
+            opacity: .3;
+            transition: opacity .5s ease;
+
+            &:hover,
+            &:focus {
+                opacity: 1;
+            }
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        a {
+            color: #ddd;
+
+            &:hover,
+            &:focus {
+                color: $c-primary;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+// ==========================================================================
+// META-INFO
+// ==========================================================================
+//
+// Styles for date, time, location etc.
+//
+
+.meta-info {
+    @include typeface("Book");
+    @include remCalc(font-size, 13);
+    @include clearfix();
+    margin: 0;
+    margin-top: 3px;
+
+    @include media(">medium"){
+        @include remCalc(font-size, 15);
+    }
+}
+
+.meta-info__item {
+    color: $c-secondary;
+    float: left;
+    margin: 0;
+
+    &:first-child:after {
+        content: "~";
+        @include typeface("Regular");
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    &:only-child:after {
+        content: none;
+    }
+}
