@@ -37,7 +37,7 @@ defaults:
     type: essays
   values:
     permalink: "/essays/:title/"
-    layout: "default"
+    layout: "essays-detail"
 - scope:
     path: ''
     type: work
