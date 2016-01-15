@@ -15,9 +15,10 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     paths = {
         styles: {
-            src:   "_sass/screen.scss",
-            dest:  "_site/css",
-            watch: "_sass/**/*.*",
+            src:   "_static/sass/screen.scss",
+            dest:  "build/css",
+            lexicon: "_static/sass/visual-lexicon.scss",
+            watch: ["_static/sass/*.*", "_static/sass/**/*.*"],
         },
         images: {
             src:   [
@@ -60,8 +61,8 @@ gulp.task('images', function(cb){
             progressive: true,
             interlaced: true
         }))
-        .pipe(gulp.dest('build/images/')).on('error', cb)
-        .pipe(gulp.dest('build/images'));
+        .pipe(gulp.dest(paths.images.dest)).on('error', cb)
+        .pipe(gulp.dest(paths.images.dest));
 });
 
 
@@ -97,25 +98,31 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['_sass/*.scss', '_sass/**/*.scss'], ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['_static/sass/*.scss', '_static/sass/**/*.scss'], ['sass']);
+    gulp.watch(['*.html', '*/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
 gulp.task('sass', function () {
-    return gulp.src('_sass/screen.scss')
+    gulp.src(paths.styles.src)
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
             outputStyle: 'compressed'
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('build/css'));
+    gulp.src(paths.styles.lexicon)
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify,
+            outputStyle: 'compressed'
+        }))
+        .pipe(gulp.dest('build/css'));
 });
 
 gulp.task('work', function(){
-    gulp.src('_sass/work.scss')
+    gulp.src('_static/sass/work.scss')
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
@@ -123,14 +130,14 @@ gulp.task('work', function(){
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('build/css'))
 
     gulp.src([
         '_static/js/lib/ff-observer.js'
     ])
         .pipe(uglify())
         .pipe(concat('min.ff-observer.js'))
-        .pipe(gulp.dest('js'))
+        .pipe(gulp.dest('build/js'))
         .pipe(reload({stream: true}))
 });
 
