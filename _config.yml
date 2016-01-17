@@ -3,6 +3,12 @@ title: Robin Rendle
 url: http://lol.com
 timezone: UTC
 collections:
+  essays:
+    title: Essays
+    output: true
+  posts:
+    title: Posts
+    output: true
   uploads:
     title: Uploads
     output: true
