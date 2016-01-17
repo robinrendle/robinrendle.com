@@ -17,6 +17,7 @@ var gulp = require('gulp'),
         styles: {
             src:   "_static/sass/screen.scss",
             dest:  "build/css",
+            typography: "_static/sass/new-web-typography.scss",
             lexicon: "_static/sass/visual-lexicon.scss",
             watch: ["_static/sass/*.*", "_static/sass/**/*.*"],
         },
@@ -113,6 +114,13 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('build/css'));
     gulp.src(paths.styles.lexicon)
+        .pipe(sass({
+            includePaths: ['scss'],
+            onError: browserSync.notify,
+            outputStyle: 'compressed'
+        }))
+        .pipe(gulp.dest('build/css'));
+    gulp.src(paths.styles.typography)
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
