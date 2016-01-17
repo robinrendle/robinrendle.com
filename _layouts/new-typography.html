@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{{site.title}} › {{page.title}}</title>
+
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/104389809267012182640">
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/build/css/new-web-typography.css" />
+
+    <script>
+        function checkFonts(){
+            if(sessionStorage.fonts === "true" ) {
+                document.documentElement.classList.add('wf-active');
+            }
+        }
+        checkFonts();
+    </script>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="../images/favicon.png">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}">
+
+    <!-- Prefetch -->
+    <link rel="preconnect" href="https://ajax.googleapis.com">
+    <link rel="preconnect" href="https://fonts.typonine.com/">
+
+</head>
+<body>
+
+    <article class="h-entry">
+        <h1>{{page.title}}</h1>
+        <div>
+            <time datetime="{{page.date}}">
+                {% assign d = page.date | date: "%-d"  %}
+                    {% case d %}
+                        {% when '1' or '21' or '31' %}{{ d }}st
+                        {% when '2' or '22' %}{{ d }}nd
+                        {% when '3' or '23' %}{{ d }}rd
+                        {% else %}{{ d }}th
+                    {% endcase %}
+                    {{ page.date | date: "%B" }}
+                    {{ page.date | date: "%Y" }}
+
+            </time>
+        </div>
+        ~
+        <div>
+            {{page.city}}, {{page.country}}
+        </div>
+
+        <div class="m-wrapper">
+            <div class="m-longform">
+                {{content}}
+            </div>
+        </div>
+    </article>
+
+    <script type="text/javascript">
+            WebFontConfig = {
+              custom: {
+                families: [
+                    'Nocturno Display Medium 3',
+                    'Nocturno Book 2',
+                    'Nocturno Regular Italic 24',
+                    'Nocturno Regular 26',
+                    'Nocturno Regular 25'
+                ],
+                urls: [
+                    'https://fonts.typonine.com/WF-003562-001254.css',
+                    'https://fonts.typonine.com/WF-003562-001255.css'
+                ]
+              },
+              timeout: 2000,
+              active: function() {
+                sessionStorage.fonts = true;
+              }
+            };
+
+           (function(d) {
+              var wf = d.createElement('script'), s = d.scripts[0];
+              wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+              s.parentNode.insertBefore(wf, s);
+           })(document);
+    </script>
+</body>
+</html>
