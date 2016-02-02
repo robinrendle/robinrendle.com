@@ -6,12 +6,13 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass'),
     size = require('gulp-size'),
-    imageop = require('gulp-image-optimization'),
+    imageop = require('gulp-imagemin'),
     watch = require('gulp-watch'),
     cp = require('child_process'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload,
     uglify = require('gulp-uglify'),
+
     concat = require('gulp-concat'),
     paths = {
         styles: {
@@ -56,7 +57,7 @@ gulp.task('scripts', function() {
 
 
 gulp.task('images', function(cb){
-    gulp.src(['static/images/**/*.*'])
+    gulp.src(['_static/images/**/*.*', '_static/images/**/**/*.*'])
         .pipe(imageop({
             optimizationLevel: 6,
             progressive: true,
@@ -126,6 +127,8 @@ gulp.task('sass', function () {
             onError: browserSync.notify,
             outputStyle: 'compressed'
         }))
+        .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
+        .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('build/css'));
 });
 
