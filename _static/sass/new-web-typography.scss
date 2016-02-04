@@ -1,2 +1,311 @@
-@import 'screen.scss';
+// ==========================================================================
+// STYLES FOR THE NEW WEB TYPOGRAPHY ESSAY
+// ==========================================================================
 
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px) !default;
+$max-width: 700px;
+
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+
+
+// OPTIONS
+// ==========================================================================
+$theme: #319f90;
+$font-stack: Georgia, serif;
+$font-stack--sans: Helvetica, sans-serif;
+
+@mixin font($type) {
+    @if $type == "sans" {
+        .wf-active & {
+            font-family: "Nota Regular 5", $font-stack--sans;
+        }
+    }
+
+    @if $type == "serif" {
+        .wf-active & {
+            font-family: $font-stack;
+        }
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+// RESET
+// ==========================================================================
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 115%/1.55 $font-stack;
+    color: #222;
+
+    @include media(">medium"){
+        font-size: 120%;
+    }
+
+    @include media(">large"){
+        font-size: 125%;
+    }
+}
+
+img, svg {
+    max-width: 100%;
+}
+
+svg {
+    width: 100%;
+}
+
+
+
+// TITLE
+// ==========================================================================
+
+.title {
+    margin-bottom: 30px;
+
+    @include media(">medium"){
+        background-color: $theme;
+        position: relative;
+        margin-bottom: 60px;
+    }
+}
+
+.title__text {
+    background-color: $theme;
+    padding: 40px 20px;
+    text-align: center;
+
+    @include media(">medium"){
+        position: absolute;
+        margin: auto;
+        top: 50%;
+        bottom: 0;
+        left: 30%;
+        width: 60%;
+        text-align: left;
+    }
+}
+
+.title__img {
+    img {
+        opacity: .5;
+        display: block;
+        @include media(">medium"){
+            opacity: .7;
+        }
+    }
+
+    @include media(">medium"){
+        max-width: 50%;
+    }
+}
+
+.longform {
+    * {
+        margin-top: 0;
+    }
+}
+
+.meta__item {
+    font-size: 13px;
+    color: #eee;
+    display: inline-block;
+
+    @include media(">large"){
+        font-size: 17px;
+    }
+
+    &:last-of-type:before {
+        content: "~";
+        display: inline-block;
+    }
+}
+
+// STYLES
+// ==========================================================================
+
+
+.wrapper {
+    p, ol, ul, blockquote,
+    h1, h2, h3, h4, h5,
+    .h1, .h2, .h3, .h4, .h5,
+    code, pre {
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto; // center align text
+        padding: 0 15px;
+    }
+}
+
+blockquote {
+    p {
+        font-style: italic;
+    }
+}
+
+p {
+    > sup {
+        padding-left: 2px;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+// DEBUG
+// ==========================================================================
+
+body {
+    position: relative;
+
+    &:before {
+        display: block;
+        border: 2px solid #ddd;
+        opacity: .5;
+        font-size: 14px;
+        content: "small";
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        background-color: white;
+
+        @include media(">medium"){
+            content: "medium";
+        }
+
+        @include media(">large"){
+            content: "large";
+        }
+
+        @include media(">largest"){
+            content: "largest";
+        }
+    }
+}
+
+// FOOTNOTES
+// ==========================================================================
+
+// Breaks up into multiple columns on larger breakpoints
+
+.footnotes {
+    hr {
+        display: none;
+    }
+
+    ol {
+        li {
+            font-size: 90%;
+        }
+    }
+}
+
+
+// ITEM ALIGNMENT
+
+.contain {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: $max-width;
+}
+
+.contain--largest {
+    @include media(">largest"){
+        margin: 0;
+    }
+}
+
+.left {
+    @include media(">large")  {
+        float: left;
+        clear: both;
+        width: 35%;
+        margin-left: 40px;
+    }
+}
+
+.frame {
+    background-color: $theme;
+
+    img {
+        padding: 5px;
+        margin: 0;
+        display: block;
+    }
+}
+
+
+.opacity--half {
+    opacity: .5;
+}
+
+.figure--full {
+    @include clearfix();
+    width: 100%;
+    clear: both;
+    float: none;
+
+    figcaption {
+        float: left;
+        max-width: 400px;
+        clear: both;
+    }
+}
+
+.figure--max-width {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.figure--full__content {
+    @include clearfix();
+    clear: both;
+    background-color: #222222;
+    width: 100%;
+    float: left;
+
+    img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.figure__img--small {
+    @include media(">large"){
+        float: right;
+        width: 50%;
+    }
+}
+
+figcaption,
+.footnotes,
+.meta {
+    @include font("sans");
+}
+
+figcaption {
+    font-size: 14px;
+}
+
+.faded {
+    filter: saturate(0);
+    transition: filter 1s ease;
+}
+
+code {
+    background-color: #ddd;
+}
