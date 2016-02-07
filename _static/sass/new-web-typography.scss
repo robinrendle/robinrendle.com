@@ -77,7 +77,7 @@ svg {
     @include media(">medium"){
         background-color: $theme;
         position: relative;
-        margin-bottom: 60px;
+        margin-bottom: 80px;
     }
 }
 
@@ -118,7 +118,7 @@ svg {
 }
 
 .meta__item {
-    font-size: 13px;
+    font-size: 15px;
     color: #eee;
     display: inline-block;
 
@@ -229,12 +229,13 @@ body {
     }
 }
 
-.left {
+.right {
     @include media(">large")  {
-        float: left;
+        float: right;
         clear: both;
-        width: 35%;
-        margin-left: 40px;
+        width: 200px;
+        padding-right: 40px;
+        margin-left: 20px;
     }
 }
 
@@ -248,10 +249,58 @@ body {
     }
 }
 
-
 .opacity--half {
     opacity: .5;
 }
+
+// FIGURES
+// ==========================================================================
+
+.figure--goethe {
+    @include clearfix();
+    margin-bottom: 30px;
+
+    figcaption {
+        padding: 10px 25px;
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .figure--full__content {
+        background-color: transparent;
+
+        @include media("<large"){
+            padding-bottom: 30px;
+        }
+        @include media(">large"){
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .figure__img--small {
+        @include media("<large"){
+            padding: 0 20px;
+        }
+    }
+
+    .goethe {
+        border-radius: 50%;
+        max-width: 400px;
+        border: 7px solid $theme;
+
+        @include media("<large"){
+            margin-bottom: 30px;
+        }
+
+        @include media(">large"){
+            float: left;
+            width: 40%;
+        }
+    }
+}
+
 
 .figure--full {
     @include clearfix();
@@ -284,11 +333,31 @@ body {
     }
 }
 
+.figure--padded-small {
+    padding: 100px 20px;
+}
+
+.figure--padded-large {
+    @include media(">large"){
+        padding: 200px 20px;
+    }
+}
+
 .figure__img--small {
     @include media(">large"){
         float: right;
         width: 50%;
     }
+}
+
+.figure--transparent {
+    background-color: transparent;
+    padding: 35px 20px 45px;
+    opacity: .5;
+    max-width: 900px;
+    margin: 0 auto;
+    display: block;
+    float: none;
 }
 
 figcaption,
@@ -308,4 +377,8 @@ figcaption {
 
 code {
     background-color: #ddd;
+}
+
+.island {
+    background-color: #222;
 }
