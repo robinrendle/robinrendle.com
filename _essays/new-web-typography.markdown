@@ -23,9 +23,9 @@ What’s wrong with a book made in the time of the early 19th century author and
         <img class="figure__img--small faded" src="/build/images/essays/new-typography/goethe-books.png" alt="An image of two books made in the time of Goethe">
     </div>
     <figcaption>
-        Johann Wolfgang von Goethe
-        1749-1832
-        <em><a href="http://digitalcommons.providence.edu/exhibits_book_covers/15/">Corsica and Napoleon</a></em> by Ferdinand Gregorovius, 1855 and <em><a href="http://digitalcommons.providence.edu/exhibits_book_covers/16/">The Vision; or Hell, Purgatory & Paradise of Dante Alighieri</a></em> by Henry Francis Cary, 1844.
+        <p class="float--left-large">Johann Wolfgang von Goethe<br/>
+        1749-1832</p>
+        <p class="float--right-large"><em><a href="http://digitalcommons.providence.edu/exhibits_book_covers/15/">Corsica and Napoleon</a></em> by Ferdinand Gregorovius, 1855 and <em><a href="http://digitalcommons.providence.edu/exhibits_book_covers/16/">The Vision; or Hell, Purgatory & Paradise of Dante Alighieri</a></em> by Henry Francis Cary, 1844.</p>
     </figcaption>
 </figure>
 
@@ -35,8 +35,8 @@ You might be familiar with some of Tschichold’s answers to these questions. Ar
 
 But he also wanted to confront it, to poke it, to challenge our preconceptions of how we should work and how these formats should work for us.
 
-<figure class="island island--green cell-t20 cell-b0 cell-v40--medium figure--transparent">
-    <div class="wrapper--large cell-b20">
+<figure class="island island--green cell-t40 cell-b0 cell-v40--medium figure--transparent">
+    <div class="wrapper--large center cell-b30">
         <img src="/build/images/essays/new-typography/penguin.png" alt="An image of the Penguin book cover design">
     </div>
         <figcaption class="">
@@ -52,12 +52,6 @@ So lately I’ve been obsessed with Tschichold’s analogy of the reader on the 
 <h2>Our own time, our own text</h2>
 
 To begin with a discussion of the text we must first acknowledge the container. Although sadly, the dialogue around these typographic containers is often directed towards *what we’ve lost*.
-
-<!-- <figure class="figure--full figure--full__content">
-    <div class="figure--max-width">
-        <img src="/build/images/essays/new-typography/manual-website.png" alt="A screenshot of http://themanual.org/">
-    </div>
-</figure> -->
 
 If we make a website then we must forego the binding and the comforts of the physical heft of the object. We discard the familiar smell of the page and the ability to have absolute typographic control. Or, alternatively, if we print a book instead then we lose the ability to share the text with ease, or to point deep into the text itself. We lose all the mobility of hypertext.
 
@@ -107,10 +101,10 @@ In 1923, the young art student Johannes Tzschichold stumbled into his apartment 
 
 This work was unlike anything the young Tzschichold had ever seen before; he found experimental ideas for setting layout mixed with the unfamiliar juxtaposition of symbol, colour and text.
 
-<figure class="island">
-    <img class="center cell-30 float--left-large" src="/build/images/essays/new-typography/kurt-schwitters.jpg" alt="A poster by Kurt Schwitters">
+<figure class="island island--transparent">
+    <img class="center cell-30" src="/build/images/essays/new-typography/kurt-schwitters.jpg" alt="A poster by Kurt Schwitters">
 
-<figcaption class="float--right-large">
+<figcaption class="">
     <h4>Merz 11</h4>
     <p>A periodical by Kurt Schwitters, Merz 11, Typoreklame, 1924.</p>
 </figcaption>
@@ -120,10 +114,10 @@ What’s surprising about Tzschichold’s response is that despite being only 21
 
 Yet regardless of Tzschichold’s skill, there was something about all these colourful posters and books at the Bauhaus that must’ve sent shivers down his spine. Consequently, Johannes was so enamoured by this material that he wrote to designers all across Europe asking them for copies of their work. Later, he would rename himself “Ivan” and simplify his surname to “Tschichold”, in honour of this underground style that had so quickly become his inspiration.
 
-Ivan was now obsessed with machines, efficiency and engineering in typesetting. He looked back at his work and saw nothing more than the duplicity of a copy cat, mimicking the styles and used-up energy of ancient artistic movements. We can see this clear shift in his work for the Phoebus Palast theatre in 1927:
+Ivan was now obsessed with machines, efficiency and engineering in typesetting. He looked back at his work and saw nothing more than the duplicity of a copy cat, mimicking the styles and used-up energy of ancient artistic movements.
 
-<figure class="island">
-    <img class="center cell-30 float--right-large" src="/build/images/essays/new-typography/phobeus-palast.jpg" alt="An image of Tschichold’s posters for the Phoebus Palast theatre">
+<figure class="right">
+    <img class="center cell-30 cell-t10 cell-t0--large float--right-large" src="/build/images/essays/new-typography/phobeus-palast.jpg" alt="An image of Tschichold’s posters for the Phoebus Palast theatre">
     <figcaption class="">
         <h4>Phoebus Palast theatre</h4>
         <p>In 1927 Tschichold experimented with his New Typographic style on a number of posters for the Phoebus Palast theatre.</p>
@@ -132,7 +126,7 @@ Ivan was now obsessed with machines, efficiency and engineering in typesetting. 
 
 It was around this time that Tschichold began formulating his ideas for what he called the *New Typography*. These were rules for setting letters and type, as well as how circles, lines and arrows should be employed in print. In his book on the subject, *Die neue Typographie*, which was published in 1928, Tschichold described the goals of this movement:
 
-> **The essence of the New Typography is clarity**. This puts it into deliberate opposition to the old typography whose aim was “beauty” and whose clarity did not attain the high level we require today. This utmost clarity is necessary today because of the manifold claims for our attention made by the extraordinary amount of print, which demands the greatest economy of expression.
+> The essence of the New Typography is clarity. This puts it into deliberate opposition to the old typography whose aim was “beauty” and whose clarity did not attain the high level we require today. This utmost clarity is necessary today because of the manifold claims for our attention made by the extraordinary amount of print, which demands the greatest economy of expression.
 - pp. 66, Die neue Typographie, June 1928
 - (Translated from University California Press, Ruari McLean 2006)
 
@@ -146,7 +140,7 @@ Perhaps this was thanks to the lack of demand for this New Typographic style, bu
 
 Although I’ve always wondered if we could set principles for typography on the web that circumnavigate the problems that can be found in Tschichold’s often preachy rules. If we were to make such guidelines, then what should we include? What would be too specific or vague? What influence does the spectrum of the network have on typography?
 
-This has led me to three points, or suggestions, or outlines, or *things-to-be nervious-about* that I try to consider when setting text on the web:
+This has led me to three points, or suggestions, or outlines, or *things-to-be nervous-about* that I try to consider when setting text on the web:
 
 1. Prioritise the text over the font, or semantics over style.
 2. Make and/or pick tools that reveal the consequences of typographic decisions.
@@ -299,7 +293,7 @@ In the chart from [CSS Stats](http://cssstats.com) below, the stylesheet of a po
       </svg>
     </div>
     <figcaption>
-        <h4>CSS Stats Specificity Graph</h4>
+        <h4>CSS Stats – Specificity Graph</h4>
         <p>Base 10 specificity score for each selector by source order. Generally, lower scores and flatter curves are better for maintainability.</p>
     </figcaption>
 </figure>
@@ -384,9 +378,9 @@ This begs a question that I find difficult to answer: how else do we notice *wea
     <img src="/build/images/essays/new-typography/late-tschichold.jpg" alt="">
 </figure>
 
-Tschichold once saw frailty in a design as being the visual references it made to a particular time and culture that had been outlived, graphic elements and styles that had been so overused as to become clichés. But it wasn’t until many years later that, as Jan Tschichold, he would become “the most severe critic of the young Tschichold.”[^27]
+Tschichold once saw frailty in a design as being the visual references it made to a particular time and culture where certain graphic elements and styles had been so overused that they became clichés. But it wasn’t until many years later that, as Jan, he would become “the most severe critic of the young Tschichold.”[^27]
 
-The elderly Jan was a little too severe when looking back at the work of Ivan and Johannes—the New Typography, as a movement and as a manifesto, is still important for many reasons. The first and foremost is that designers, even today, are always on the lookout for typographic laws and principles to guide them. And this makes sense because, if design is a science and not an art form, then how can there be no rule or law to help guide us? The answer to that question is complex and frustrating for every young student of design.
+The elderly Jan Tschichold was a little too severe when looking back at the work of Ivan and Johannes—the New Typography, as a movement and as a manifesto, is still important for many reasons. The first and foremost is that designers, even today, are always on the lookout for typographic laws and principles to guide them. And this makes sense because, if design is a science and not an art form, then how can there be no rule or law to help guide us? The answer to that question is complex and frustrating for every young student of design.
 
 Like Tschichold, for a time I believed that we could very easily define what good typography is. For instance, we could say that good typography is surprising and charming.[^28] Or we could be more verbose and say that good typography is a well documented technical and graphic system. Subsequently, it’s said by many designers that a good paragraph of text should have a measure, or width from one side to the other, of roughly 75 characters. But what happens in scenarios when that’s entirely impossible? What do we do then? How on earth can small devices be capable of good typography if the classical rules of typography no longer apply? 
 
