@@ -7,32 +7,26 @@ $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
 $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px) !default;
 $max-width: 700px;
+$theme: #319f90;
+$font-stack: Georgia, serif;
+$font-stack--sans: Helvetica, sans-serif;
+$c-primary: darken($theme, 20); // because of old links code :-(
 
+
+@import "utilities/reset";
+@import "utilities/type";
 @import "utilities/rem-calc";
 @import "utilities/normalize";
 @import "utilities/clearfix";
 @import "utilities/breakpoints";
+@import "utilities/underline";
+@import "base/hierarchy";
+@import "base/links";
+@import "base/base-spacing";
 
 
 // OPTIONS
 // ==========================================================================
-$theme: #319f90;
-$font-stack: Georgia, serif;
-$font-stack--sans: Helvetica, sans-serif;
-
-@mixin font($type) {
-    @if $type == "sans" {
-        .wf-active & {
-            font-family: "Nota Regular 5", $font-stack--sans;
-        }
-    }
-
-    @if $type == "serif" {
-        .wf-active & {
-            font-family: $font-stack;
-        }
-    }
-}
 
 * {
     box-sizing: border-box;
@@ -47,7 +41,9 @@ body, html {
 
 body {
     font: 115%/1.55 $font-stack;
-    color: #222;
+    color: #444;
+    @include typeface("Regular");
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
 
     @include media(">medium"){
         font-size: 120%;
@@ -56,6 +52,25 @@ body {
     @include media(">large"){
         font-size: 125%;
     }
+}
+
+
+.m-longform {
+
+    a,
+    a:visited {
+        @include links();
+        @include underline();
+    }
+}
+
+.caps {
+    @include typeface("Small caps");
+}
+
+p em,
+blockquote {
+    @include typeface("Regular italic");
 }
 
 img, svg {
@@ -111,12 +126,6 @@ svg {
     }
 }
 
-.longform {
-    * {
-        margin-top: 0;
-    }
-}
-
 .meta__item {
     font-size: 15px;
     color: #eee;
@@ -139,12 +148,24 @@ svg {
 .wrapper {
     p, ol, ul, blockquote,
     h1, h2, h3, h4, h5,
-    .h1, .h2, .h3, .h4, .h5,
-    code, pre {
+    .h1, .h2, .h3, .h4, .h5, pre {
         max-width: $max-width;
         margin-left: auto;
         margin-right: auto; // center align text
         padding: 0 15px;
+    }
+}
+
+.wrapper--large {
+    max-width: $max-width + 200;
+    margin: 0;
+    padding: 0 15px;
+
+    p, ol, ul, blockquote,
+    h1, h2, h3, h4, h5,
+    .h1, .h2, .h3, .h4, .h5, pre {
+        padding: 0;
+        max-width: 100%;
     }
 }
 
@@ -256,15 +277,17 @@ body {
 // FIGURES
 // ==========================================================================
 
+figure {
+    @include clearfix();
+    img {
+        margin: 0;
+        display: block;
+    }
+}
+
 .figure--goethe {
     @include clearfix();
     margin-bottom: 30px;
-
-    figcaption {
-        padding: 10px 25px;
-        width: 100%;
-        max-width: 650px;
-    }
 
     .figure--full__content {
         background-color: transparent;
@@ -351,34 +374,160 @@ body {
 }
 
 .figure--transparent {
-    background-color: transparent;
-    padding: 35px 20px 45px;
-    opacity: .5;
-    max-width: 900px;
-    margin: 0 auto;
-    display: block;
-    float: none;
+    img {
+        opacity: .7;
+    }
 }
 
+.sans-serif,
 figcaption,
 .footnotes,
 .meta {
-    @include font("sans");
+    font-family: Helvetica, sans-serif;
+
+    .wf-active & {
+        font-family: "Nota Regular 5", Helvetica, sans-serif;
+    }
 }
 
 figcaption {
-    font-size: 14px;
+    width: 100%;
+    padding: 15px 20px;
+    background-color: rgba(255,255,255,.1);
+    clear: both;
+
+    @include media(">medium"){
+        max-width: 450px;
+        clear: none;
+    }
+
+    p {
+        padding: 0 !important;
+        font-size: .8em;
+        color: #aaa;
+        line-height: 1.4;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+
+    h4 {
+        @include typeface("Small caps");
+        padding: 0 !important;
+        max-width: 100% !important;
+        font-size: 18px;
+        color: darken($theme, 5);
+        margin: 0;
+    }
+}
+
+.clear--right {
+    clear: right;
+}
+
+.float--right {
+    float: right;
+}
+
+.float--right-large {
+    @include media(">large") {
+        float: right;
+    }
+}
+
+.float--left-large {
+    @include media(">large") {
+        float: left;
+    }
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
 }
 
 .faded {
     filter: saturate(0);
-    transition: filter 1s ease;
+}
+
+pre {
+    width: 100%;
+    padding: 0;
+
+    code {
+        background-color: #ddd;
+        width: 100%;
+        padding: 20px !important;
+    }
 }
 
 code {
-    background-color: #ddd;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 3px;
+    font-size: 85%;
+    padding: 0px 3px;
 }
 
 .island {
     background-color: #222;
 }
+
+.island--green {
+    background-color: $theme;
+}
+
+.clear--right-large {
+    @include media(">medium"){
+        clear: right;
+    }
+}
+
+
+// SVG STYLES
+// ==========================================================================
+
+@for $i from 1 through 10 {
+    .#{interpolate}-#{$i} {
+        $randomNumber: 50 + random(900);
+        animation: fading #{3000 + random(3000) + ms} ease alternate infinite;
+        transform: 1.2;
+        stroke-dasharray: $randomNumber;
+        stroke-dashoffset: $randomNumber;
+    }
+}
+
+@keyframes fading {
+    0% {
+        opacity: random(1);
+        stroke: rgba(255,255,255,.6);
+        fill: #eee;
+    }
+    100% {
+        opacity: .2;
+        transform: scale(1);
+        stroke: $theme;
+        fill: rgba(0,0,0,0);
+        stroke-dashoffset: 0;
+    }
+}
+
+.svg-interpolate {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+}
+
+.unfortunately {
+    max-width: 700px;
+    padding: 40px;
+    display: block;
+    clear: none;
+}
+
+.u-text--white {
+    color: white !important;
+}
+
+@import "objects/cell"; // !important
