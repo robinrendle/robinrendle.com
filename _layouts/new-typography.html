@@ -22,6 +22,10 @@
         checkFonts();
     </script>
 
+    <!-- Prefetch -->
+    <link rel="preconnect" href="https://ajax.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.typonine.com/" crossorigin>
+
     <!-- Favicons -->
     <link rel="shortcut icon" href="../images/favicon.png">
 
@@ -68,7 +72,7 @@
         </div>
 
         <div class="wrapper">
-            <div class="longform">
+            <div class="m-longform">
                 {{content}}
             </div>
         </div>
@@ -79,9 +83,16 @@
               custom: {
                 families: [
                     'Nota Regular 5',
+                    'Nocturno Display Medium 3',
+                    'Nocturno Book 2',
+                    'Nocturno Regular Italic 24',
+                    'Nocturno Regular 26',
+                    'Nocturno Regular 25'
                 ],
                 urls: [
                     'http://fonts.typonine.com/WF-003562-001410.css',
+                    'https://fonts.typonine.com/WF-003562-001254.css',
+                    'https://fonts.typonine.com/WF-003562-001255.css'
                 ]
               },
               timeout: 3000,
