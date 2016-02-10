@@ -254,7 +254,7 @@ body {
     @include media(">large")  {
         float: right;
         clear: both;
-        width: 200px;
+        width: 400px;
         padding-right: 40px;
         margin-left: 20px;
     }
@@ -287,7 +287,6 @@ figure {
 
 .figure--goethe {
     @include clearfix();
-    margin-bottom: 30px;
 
     .figure--full__content {
         background-color: transparent;
@@ -330,12 +329,6 @@ figure {
     width: 100%;
     clear: both;
     float: none;
-
-    figcaption {
-        float: left;
-        max-width: 400px;
-        clear: both;
-    }
 }
 
 .figure--max-width {
@@ -388,6 +381,10 @@ figcaption,
     .wf-active & {
         font-family: "Nota Regular 5", Helvetica, sans-serif;
     }
+}
+
+.figcaption--dark {
+    background-color: rgba(255,255,255,.6);
 }
 
 figcaption {
@@ -470,8 +467,17 @@ code {
     padding: 0px 3px;
 }
 
+
+// ISLANDS
+// ==========================================================================
+
 .island {
+    @include clearfix();
     background-color: #222;
+}
+
+.island--light {
+    background-color: #dddddd;
 }
 
 .island--green {
