@@ -6,7 +6,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass'),
     size = require('gulp-size'),
-    imageop = require('gulp-imagemin'),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
     watch = require('gulp-watch'),
     cp = require('child_process'),
     browserSync = require('browser-sync'),
@@ -33,12 +34,13 @@ var gulp = require('gulp'),
         },
         scripts: {
             libs: [
-                "static/js/modules/*.js"
+                "/_static/js/modules/*.js",
+                "/_static/js/libs/*.js"
             ],
             src: [
                 "static/js/app.js"
             ],
-            dest: "build/js/"
+            dest: "/build/js/"
         },
         watch: [
             "*.html",
@@ -48,23 +50,22 @@ var gulp = require('gulp'),
 
 // Concats + minifies JS
 gulp.task('scripts', function() {
-    gulp.src(paths.scripts.libs.concat(paths.scripts.src) )
-        .pipe(uglify())
+    return gulp.src(['_static/js/modules/*', '_static/js/lib/*'])
         .pipe(concat('app.min.js'))
-        .pipe(gulp.dest(paths.scripts.dest))
+        .pipe(uglify())
+        .pipe(gulp.dest('build/js'))
         .pipe(reload({stream: true}))
 });
 
 
 gulp.task('images', function(cb){
-    gulp.src(['_static/images/**/*.*', '_static/images/**/**/*.*'])
-        .pipe(imageop({
-            optimizationLevel: 6,
+    return gulp.src(['_static/images/**/*.*', '_static/images/**/**/*.*'])
+        .pipe(imagemin({
             progressive: true,
-            interlaced: true
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
         }))
         .pipe(gulp.dest(paths.images.dest)).on('error', cb)
-        .pipe(gulp.dest(paths.images.dest));
 });
 
 
@@ -153,5 +154,6 @@ gulp.task('work', function(){
 });
 
 
+gulp.task('build', ['work'])
 
-gulp.task('default', ['images', 'sass', 'watch', 'scripts', 'work', 'browser-sync']);
+gulp.task('default', ['images', 'sass', 'watch', 'scripts', 'browser-sync']);
