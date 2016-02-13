@@ -1,7 +1,5 @@
 var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
-    concat = require('gulp-concat'),
-    uglify = require('gulp-uglify'),
     autoprefixer = require('gulp-autoprefixer'),
     rename = require('gulp-rename'),
     sass = require('gulp-sass'),
@@ -13,7 +11,6 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload,
     uglify = require('gulp-uglify'),
-
     concat = require('gulp-concat'),
     paths = {
         styles: {
@@ -50,8 +47,18 @@ var gulp = require('gulp'),
 
 // Concats + minifies JS
 gulp.task('scripts', function() {
-    return gulp.src(['_static/js/modules/*', '_static/js/lib/*'])
-        .pipe(concat('app.min.js'))
+    gulp.src([
+            '_static/js/lib/*.js',
+            '_static/js/modules/dropdown.js',
+            '_static/js/app.js'
+        ])
+        .pipe(uglify())
+        .pipe(gulp.dest('build/js'))
+        .pipe(reload({stream: true}))
+
+    gulp.src([
+        '._static/js/lib/prism.js'
+        ])
         .pipe(uglify())
         .pipe(gulp.dest('build/js'))
         .pipe(reload({stream: true}))
@@ -92,7 +99,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'

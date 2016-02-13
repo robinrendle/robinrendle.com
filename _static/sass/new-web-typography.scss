@@ -275,6 +275,7 @@ a {
 // Breaks up into multiple columns on larger breakpoints
 
 .footnotes {
+    margin-top: 80px;
 
     .footnote {
         font-size: 80%;
@@ -703,8 +704,11 @@ p > code {
     @include typeface("Display");
 
     figcaption {
-        padding: 0;
-        padding-top: 4px;
+
+        @include media("<large"){
+            padding: 0;
+            padding-top: 4px;
+        }
     }
 
     p {
