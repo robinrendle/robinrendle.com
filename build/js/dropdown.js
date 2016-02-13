@@ -1,0 +1,1 @@
+var Dropdown=function(){var n={},e=document.querySelector(".m-banner__menu"),t=document.querySelector(".m-banner"),r=function(){e.addEventListener("click",function(n){n.preventDefault(),t.classList.toggle("is--active")})};return n.init=function(){r()},n}();
