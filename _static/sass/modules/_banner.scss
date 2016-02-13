@@ -93,10 +93,13 @@
     display: inline-block;
     font-size: 16px;
     float: left;
-    padding-top: 16px;
+    padding-top: 0;
+    width: 100%;
 
     @include media(">medium"){
         font-size: 17px;
+        width: auto;
+        padding-top: 15px;
     }
 
     .js & {

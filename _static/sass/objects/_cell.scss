@@ -40,11 +40,11 @@ $_cell-intervals: (0, 5, 10, 20, 30, 40, 60, 80 ) !default;
 @each $bp, $width in $breakpoints {
     @include media(">" + $bp){
         .cell--#{$bp} {
-            padding: rem-calc($_cell-default);
+             @include remCalc(padding, $_cell-default);
         }
         @each $spacing in $_cell-intervals {
             .cell-#{$spacing}--#{$bp} {
-                padding: rem-calc($spacing);
+                @include remCalc(padding, $spacing);
             }
         }
     }

@@ -21,8 +21,8 @@ $c-primary: darken($theme, 20); // because of old links code :-(
 @import "utilities/breakpoints";
 @import "utilities/underline";
 @import "base/hierarchy";
-@import "base/links";
 @import "base/base-spacing";
+@import "themes/prism-default";
 
 
 // OPTIONS
@@ -55,18 +55,10 @@ body {
 }
 
 
-.m-longform {
-
-    a,
-    a:visited {
-        @include links();
-        @include underline();
-    }
-}
-
 .caps {
     @include typeface("Small caps");
 }
+
 
 p em,
 blockquote {
@@ -92,7 +84,11 @@ svg {
     @include media(">medium"){
         background-color: $theme;
         position: relative;
-        margin-bottom: 80px;
+        margin-bottom: 45px;
+    }
+
+    @include media(">large"){
+        margin-bottom: 60px;
     }
 }
 
@@ -104,11 +100,16 @@ svg {
     @include media(">medium"){
         position: absolute;
         margin: auto;
-        top: 50%;
+        top: 40%;
         bottom: 0;
         left: 30%;
-        width: 60%;
+        width: 65%;
         text-align: left;
+        padding-right: 0;
+    }
+
+    @include media(">large"){
+        top: 50%;
     }
 }
 
@@ -132,12 +133,17 @@ svg {
     display: inline-block;
 
     @include media(">large"){
-        font-size: 17px;
+        font-size: 19px;
     }
 
-    &:last-of-type:before {
-        content: "~";
+    &:before {
+        content: "•";
+        color: rgba(0,0,0,.3);
         display: inline-block;
+    }
+
+    &:first-of-type:before {
+        content: none;
     }
 }
 
@@ -153,6 +159,14 @@ svg {
         margin-left: auto;
         margin-right: auto; // center align text
         padding: 0 15px;
+
+        @include media(">medium"){
+            padding: 0 6%;
+        }
+
+        @include media(">large"){
+            padding: 0;
+        }
     }
 }
 
@@ -176,61 +190,117 @@ blockquote {
 }
 
 p {
-    > sup {
+    sup {
         padding-left: 2px;
 
         a {
-            text-decoration: none;
+            background: none !important;
+            text-decoration: none !important;
+            border: none !important;
+            transition: color .3s ease;
+            color: $theme !important;
+
+            &:after {
+                content: none;
+            }
+
+            &:link,
+            &:visited {
+                color: $theme;
+            }
+
+            &:hover,
+            &:focus {
+                color: darken($theme, 20);
+            }
         }
     }
 }
+
+a {
+    -webkit-appearance: none;
+    color: $theme;
+    position: relative;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.1) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 3px;
+    background-position: 0 19px;
+
+    &:hover,
+    &:focus {
+        background-image: linear-gradient(to bottom,rgba(0,0,0,0) 50%, $theme 50%);
+    }
+}
+
+.width-100 {
+    width: 100%;
+}
+
 
 // DEBUG
 // ==========================================================================
 
-body {
-    position: relative;
+// body {
+//     position: relative;
 
-    &:before {
-        display: block;
-        border: 2px solid #ddd;
-        opacity: .5;
-        font-size: 14px;
-        content: "small";
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        padding: 5px 10px;
-        text-transform: uppercase;
-        background-color: white;
+//     &:before {
+//         display: block;
+//         border: 2px solid #ddd;
+//         opacity: .5;
+//         font-size: 14px;
+//         content: "small";
+//         position: fixed;
+//         bottom: 0;
+//         right: 0;
+//         padding: 5px 10px;
+//         text-transform: uppercase;
+//         background-color: white;
 
-        @include media(">medium"){
-            content: "medium";
-        }
+//         @include media(">medium"){
+//             content: "medium";
+//         }
 
-        @include media(">large"){
-            content: "large";
-        }
+//         @include media(">large"){
+//             content: "large";
+//         }
 
-        @include media(">largest"){
-            content: "largest";
-        }
-    }
-}
-
+//         @include media(">largest"){
+//             content: "largest";
+//         }
+//     }
+// }
 // FOOTNOTES
 // ==========================================================================
 
 // Breaks up into multiple columns on larger breakpoints
 
 .footnotes {
+
+    .footnote {
+        font-size: 80%;
+        text-decoration: none;
+        border: none;
+        outline: none;
+    }
+
     hr {
         display: none;
     }
 
     ol {
+        padding-left: 20px;
         li {
+            column-break: avoid;
             font-size: 90%;
+            margin-bottom: 0;
+
+            em {
+                font-style: normal;
+
+                .wf-active & {
+                    font-family: "Nota Regular 5", Helvetica, sans-serif;
+                }
+            }
         }
     }
 }
@@ -260,6 +330,17 @@ body {
     }
 }
 
+.left {
+    @include media(">large")  {
+        float: left;
+        clear: both;
+        width: 400px;
+        padding-left: 40px;
+        margin-right: 20px;
+    }
+}
+
+
 .frame {
     background-color: $theme;
 
@@ -286,13 +367,30 @@ figure {
 }
 
 .figure--goethe {
+    width: 100%;
+    max-width: 100% !important;
     @include clearfix();
+
+    .goethe {
+        width: 100%;
+        max-width: 300px;
+
+        @include media(">large"){
+            max-width: 400px;
+        }
+    }
+
+    .books {
+        @include media(">medium"){
+            max-width: 600px;
+        }
+    }
 
     .figure--full__content {
         background-color: transparent;
 
         @include media("<large"){
-            padding-bottom: 30px;
+            padding-bottom: 20px;
         }
         @include media(">large"){
             width: 100%;
@@ -301,25 +399,49 @@ figure {
         }
     }
 
+    .float--left-large {
+        @include media("<large"){
+            max-width: 700px;
+        }
+    }
+
+    .float--right-large {
+        @include media("<large"){
+            max-width: 700px;
+        }
+        @include media(">large"){
+            max-width: 400px;
+        }
+    }
+
+    figcaption {
+        max-width: 100%;
+    }
+
+    .portrait-circle {
+        margin-bottom: 30px;
+    }
+
     .figure__img--small {
         @include media("<large"){
             padding: 0 20px;
         }
     }
+}
 
-    .goethe {
-        border-radius: 50%;
+.portrait-circle {
+    max-width: 100%;
+    border-radius: 50%;
+    border: 7px solid $theme;
+
+    @include media("<large"){
+        margin-bottom: 30px;
+    }
+
+    @include media(">large"){
         max-width: 400px;
-        border: 7px solid $theme;
-
-        @include media("<large"){
-            margin-bottom: 30px;
-        }
-
-        @include media(">large"){
-            float: left;
-            width: 40%;
-        }
+        float: left;
+        width: 40%;
     }
 }
 
@@ -372,7 +494,15 @@ figure {
     }
 }
 
-.sans-serif,
+.figcaption--dark {
+    background-color: rgba(0,0,0,.03) !important;
+
+    h4 {
+        color: #666 !important;
+    }
+}
+
+.sans,
 figcaption,
 .footnotes,
 .meta {
@@ -401,7 +531,7 @@ figcaption {
     p {
         padding: 0 !important;
         font-size: .8em;
-        color: #aaa;
+        color: #666;
         line-height: 1.4;
 
         &:last-of-type {
@@ -430,12 +560,15 @@ figcaption {
 .float--right-large {
     @include media(">large") {
         float: right;
+        clear: none;
     }
 }
 
 .float--left-large {
     @include media(">large") {
         float: left;
+        clear: left;
+        margin: 0;
     }
 }
 
@@ -448,18 +581,26 @@ figcaption {
     filter: saturate(0);
 }
 
-pre {
-    width: 100%;
-    padding: 0;
 
-    code {
+pre {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 25px !important;
+    padding: 0 !important;
+    max-width: ($max-width)  !important;
+
+
+    > code {
+        display: block;
         background-color: #ddd;
         width: 100%;
         padding: 20px !important;
+        font-size: 75%;
     }
 }
 
-code {
+p > code {
     display: inline-block;
     background-color: #eee;
     border-radius: 3px;
@@ -477,11 +618,19 @@ code {
 }
 
 .island--light {
-    background-color: #dddddd;
+    background-color: #eee;
+}
+
+.island--transparent {
+    background-color: transparent;
 }
 
 .island--green {
     background-color: $theme;
+}
+
+.island--light-green {
+    background-color: #45a89b;
 }
 
 .clear--right-large {
@@ -489,6 +638,105 @@ code {
         clear: right;
     }
 }
+
+.island--absolute {
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    figcaption {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.flex-figure {
+    @include media(">large"){
+        display: flex;
+    }
+
+    figcaption {
+        background-color: transparent;
+        color: white;
+        padding: 0;
+        max-width: 100%;
+        opacity: .6;
+        line-height: 1.2;
+        padding: 0 20px;
+
+        @include media(">large"){
+            padding: 0 30px;
+        }
+    }
+}
+
+.flex-figure__tschichold {
+    margin: 0 auto;
+    padding: 30px;
+
+    @include media(">large"){
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 40px 0 40px 0;
+        margin: 0;
+    }
+
+    img {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        max-width: 500px;
+    }
+
+    @include media(">large"){
+        flex-basis: 450px;
+    }
+}
+
+.flex-figure__blockquote {
+    align-self: center;
+    @include typeface("Display");
+
+    figcaption {
+        padding: 0;
+        padding-top: 4px;
+    }
+
+    p {
+        font-size: 110%;
+        line-height: 1.45;
+        color: white;
+        margin: 0;
+        font-style: normal;
+        position: relative;
+        padding: 20px 20px 0 0;
+
+        @include media(">large"){
+            padding: 20px 20px 20px 0;
+            font-size: 125%;
+            padding: 0 30px;
+            font-size: 150%;
+            line-height: 1.3;
+            margin-bottom: 20px;
+        }
+
+        &:before {
+            content: "“";
+            left: 0;
+            display: inline-block;
+            @include media(">large"){
+                margin-left: -20px;
+                padding-right: 3px;
+            }
+        }
+    }
+}
+
 
 
 // SVG STYLES
@@ -507,14 +755,14 @@ code {
 @keyframes fading {
     0% {
         opacity: random(1);
-        stroke: rgba(255,255,255,.6);
-        fill: #eee;
+        stroke: rgba(0,0,0,.1);
+        fill: $theme;
     }
     100% {
-        opacity: .2;
+        opacity: .4;
         transform: scale(1);
         stroke: $theme;
-        fill: rgba(0,0,0,0);
+        fill: $theme;
         stroke-dashoffset: 0;
     }
 }
@@ -533,7 +781,184 @@ code {
 }
 
 .u-text--white {
-    color: white !important;
+    color: #eee !important;
+}
+
+.u-text--green {
+    color: $theme;
+}
+
+.u-noMargins {
+    margin: 0;
+}
+
+.above-right {
+    color: white;
+    &:before {
+        content: "Above: ";
+        display: inline-block;
+        margin-right: 5px;
+
+        @include media(">large"){
+            content: "Above, right: ";
+        }
+    }
+}
+
+.kindle {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.letters {
+    figcaption {
+        padding: 0;
+    }
+}
+
+// CUSTOM HEADINGS
+// ==========================================================================
+
+.m-longform {
+    h2,
+    .h2 {
+        font-size: 145%;
+        line-height: 1.15;
+
+        @include media(">medium"){
+            .break {
+                display: block;
+            }
+        }
+
+        @include media(">large"){
+            @include typeface("Display");
+            font-size: 30px;
+            line-height: 1.2;
+        }
+    }
+}
+
+.wrapper-island {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.principles {
+    line-height: 1.45;
+    padding: 0 0 20px 0;
+    border: 1px solid $theme;
+
+    h3 {
+        margin-bottom: 20px;
+        max-width: 100%;
+        padding: 10px;
+        background-color: $theme;
+        width: 100%;
+        color: white;
+        line-height: 1.2;
+    }
+
+    ol {
+        @include clearfix();
+        margin: 0 auto;
+        display: block;
+        padding: 15px 20px 15px 35px;
+
+        @include media(">large"){
+            padding: 20px 20px 20px 35px;
+        }
+
+        li {
+            margin-bottom: 20px;
+            position: relative;
+            list-style-position: outside;
+
+            @include media(">large"){
+                font-size: 95%;
+            }
+
+            &:before {
+                @include media(">large"){
+                    display: inline-block;
+                    padding: 0;
+                    @include typeface("Book");
+                    font-weight: 400;
+                }
+            }
+
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.quote {
+    blockquote {
+        margin-bottom: 10px;
+        position: relative;
+
+        &:before {
+            content: "“";
+            position: absolute;
+            font-style: normal !important;
+            @include typeface("Regular");
+            color: #ddd;
+            font-size: 240%;
+            top: -15px;
+            left: -10px;
+
+            @include media(">medium"){
+                left: 15px;
+            }
+
+            @include media(">large"){
+                top: -18px;
+                left: -8px;
+            }
+        }
+
+        p {
+            color: #666;
+            padding: 0;
+
+            .wf-active & {
+                font-style: normal;
+            }
+
+            @include media(">large"){
+                padding-left: 20px;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    figcaption {
+        font-size: 85%;
+        @include typeface("Regular");
+        max-width: $max-width !important;
+        margin: 0 auto !important;
+        padding: 0;
+        padding-left: 20px;
+        position: relative;
+
+        em {
+            @include typeface("Regular italic");
+        }
+        &:before {
+            content: "—";
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            color: #ccc;
+        }
+    }
 }
 
 @import "objects/cell"; // !important
