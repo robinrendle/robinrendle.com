@@ -1,13 +1,13 @@
 ---
 title: The Float
 date: 2013-05-25 18:32:00 Z
+tags:
+- story
+- autobiographical
 extract: As a kid I ignored all of the computers around me, and opportunity after
   opportunity slipped by where I could have learned more about them. Yet most of my
   favourite things from my childhood came through those screens, were generated behind
   that imposing curtain of beige plastic.
-tags:
-- story
-- autobiographical
 Country:
 - UK
 City:

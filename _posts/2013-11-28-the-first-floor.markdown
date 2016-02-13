@@ -1,15 +1,15 @@
 ---
 title: The first floor
 date: 2013-11-28 22:49:00 Z
-extract: I can’t stop thinking about this story from the latest issue of Codex magazine
-  where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all
-  the facets and inner-workings of this celebrated graphic design agency in New York.
-update: 
 tags:
 - business
 - culture
 - typography
 - Herb Lubalin
+extract: I can’t stop thinking about this story from the latest issue of Codex magazine
+  where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all
+  the facets and inner-workings of this celebrated graphic design agency in New York.
+update: 
 City:
 - Nottingham
 Country:

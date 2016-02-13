@@ -1,13 +1,13 @@
 ---
 title: Chaining blend-modes
 date: 2015-04-25 12:07:00 Z
-extract: I’ve been obsessed with blend modes over the past couple of weeks.
-update: 
 tags:
 - front-end development
 - blend-modes
 - css-tricks
 - css
+extract: I’ve been obsessed with blend modes over the past couple of weeks.
+update: 
 City:
 - London
 Country:

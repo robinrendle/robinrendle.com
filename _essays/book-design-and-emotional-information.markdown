@@ -1,6 +1,10 @@
 ---
 title: Book design and emotional information
 date: 2011-09-21 21:12:00 Z
+tags:
+- book design
+- design
+- book reviews
 layout: default
 hero: "/uploads/the-greatest-show-on-earth.jpg"
 extract: The journey from reader to writer is a perilous one, and bad design affects
@@ -9,10 +13,6 @@ update: Removing the book from its dusty place, I instantly recalled why I had f
   it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness
   and weight. My eyes glanced over its feeble, advertising stricken body and summoned
   the memory of its boring and conventional typesetting.
-tags:
-- book design
-- design
-- book reviews
 City:
 - Plymouth
 Country:

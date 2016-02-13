@@ -1,11 +1,11 @@
 ---
 title: Flotsam, Jetsam, Lagan & Derelict
 date: 2015-08-15 22:09:00 Z
-extract: 
-update: 
 tags:
 - writing
 - flotsam jetsam lagan and derelict
+extract: 
+update: 
 City:
 - Plymouth
 Country:

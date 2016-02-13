@@ -1,12 +1,6 @@
 ---
 title: 'Week notes #9'
 date: 2015-03-27 19:59:00 Z
-extract: The reason why a styleguide is an invaluable asset is that it immediately
-  sets up the team’s expectations. The designer must make compromises for the sake
-  of normalising the system programmatically whilst developers are forced to acknowledge
-  that their shitty code just won’t cut it anymore. They have to think beyond whacky
-  hacks and short-term tricks.
-update: 
 tags:
 - kind
 - hologram
@@ -14,6 +8,12 @@ tags:
 - web design
 - services
 - GDS
+extract: The reason why a styleguide is an invaluable asset is that it immediately
+  sets up the team’s expectations. The designer must make compromises for the sake
+  of normalising the system programmatically whilst developers are forced to acknowledge
+  that their shitty code just won’t cut it anymore. They have to think beyond whacky
+  hacks and short-term tricks.
+update: 
 City:
 - Somewhere between Nottingham and London
 Country:

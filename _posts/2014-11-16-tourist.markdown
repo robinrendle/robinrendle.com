@@ -1,12 +1,6 @@
 ---
 title: Tourist
 date: 2014-11-16 00:34:00 Z
-extract: For a while now I’ve been toying with a story. It’s a quick thought that
-  stretched into an idea which might, maybe, perhaps, possibly turn into a BIG thing.
-  This idea isn’t so much an elaborate story with an intricate, winding plot – nor
-  is it a sequential tale with a standard beginning, middle and end. Instead this
-  idea is simply a person I made up.
-update: 
 tags:
 - story
 - rambling
@@ -14,6 +8,12 @@ tags:
 - Mali
 - Africa
 - aeve
+extract: For a while now I’ve been toying with a story. It’s a quick thought that
+  stretched into an idea which might, maybe, perhaps, possibly turn into a BIG thing.
+  This idea isn’t so much an elaborate story with an intricate, winding plot – nor
+  is it a sequential tale with a standard beginning, middle and end. Instead this
+  idea is simply a person I made up.
+update: 
 City:
 - Plymouth
 Country:

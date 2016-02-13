@@ -1,14 +1,14 @@
 ---
 title: Intrinsic Ratios and SVGs
 date: 2013-09-21 17:08:00 Z
-extract: 'This week I came across an interesting design problem: how do you make an
-  <abbr title="Scalable vector graphics">SVG</abbr> that’s being used as a background-image
-  respond to the width of its container, yet also scale its height depending on the
-  child elements within?'
 tags:
 - css
 - web design
 - front-end development
+extract: 'This week I came across an interesting design problem: how do you make an
+  <abbr title="Scalable vector graphics">SVG</abbr> that’s being used as a background-image
+  respond to the width of its container, yet also scale its height depending on the
+  child elements within?'
 City:
 - Nottingham
 Country:

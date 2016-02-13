@@ -1,14 +1,14 @@
 ---
 title: Goodbye Erskine
 date: 2014-06-30 17:43:00 Z
-extract: 'Today I leave Erskine – this small band of designers and developers pushed
-  my latent skills in writing, programming and design but they also challenged my
-  tendencies to avoid humiliation at all costs. '
-update: 
 tags:
 - personal
 - work
 - erskine
+extract: 'Today I leave Erskine – this small band of designers and developers pushed
+  my latent skills in writing, programming and design but they also challenged my
+  tendencies to avoid humiliation at all costs. '
+update: 
 City:
 - Nottingham
 Country:

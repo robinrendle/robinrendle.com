@@ -1,12 +1,12 @@
 ---
 title: Between Shelves
 date: 2013-03-20 21:05:00 Z
-extract: After a few months of using Readmill as my primary go-to reading app, I wanted
-  to break down all the reasons why this startup is nailing it in this often miserable
-  and overcrowded space.
 tags:
 - publishing
 - digital-physical
+extract: After a few months of using Readmill as my primary go-to reading app, I wanted
+  to break down all the reasons why this startup is nailing it in this often miserable
+  and overcrowded space.
 City:
 - Nottingham
 Country:

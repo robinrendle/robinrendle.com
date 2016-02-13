@@ -1,13 +1,13 @@
 ---
 title: Notes on public speaking
 date: 2013-09-24 21:01:00 Z
-extract: 'Here are some quick fire notes I’ve been making over and over again at speaking
-  events and larger conferences.  This isn’t a ‘I know better than you’ post – it’s
-  simply a reminder for whenever I do my own talks. '
 tags:
 - speaking
 - conferences
 - the blue of distance
+extract: 'Here are some quick fire notes I’ve been making over and over again at speaking
+  events and larger conferences.  This isn’t a ‘I know better than you’ post – it’s
+  simply a reminder for whenever I do my own talks. '
 City:
 - Nottingham
 Country:

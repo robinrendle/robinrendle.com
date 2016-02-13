@@ -1,14 +1,14 @@
 ---
 title: 'Week notes #6'
 date: 2015-03-06 21:17:00 Z
+tags:
+- front-end development
+- css
 extract: This week I’ve been messing around with a few side projects after a month
   of heavy freelance work and subsequently I’ve been trying to play catch up with
   the backlog of articles, talks and posts about front-end development that I’ve let
   slip by.
 update: 
-tags:
-- front-end development
-- css
 City:
 - Plymouth
 Country:

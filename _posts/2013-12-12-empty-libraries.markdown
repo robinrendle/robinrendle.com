@@ -1,17 +1,17 @@
 ---
 title: Empty Libraries
 date: 2013-12-12 12:05:00 Z
+tags:
+- libraries
+- games
+- playstation
+- design
 extract: In moving to the next generation of consoles I’ve found that it’s somehow
   managed to fill me with a deep and bitter sadness. This is mostly thanks to the
   ‘Library’ menu which is hidden amongst the rest of the interface of the Playstation
   4, yet it’s not the questionable typography or arrangement of its icon that bothers
   me about this feature though
 update: 
-tags:
-- libraries
-- games
-- playstation
-- design
 City:
 - Plymouth
 Country:

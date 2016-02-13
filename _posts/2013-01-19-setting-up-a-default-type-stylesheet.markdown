@@ -1,13 +1,13 @@
 ---
 title: Setting up a default type stylesheet
-date: 2013-01-19
+date: 2013-01-19 00:00:00 Z
+tags:
+- css
+- web design
 location: Nottingham, UK
 extract: If we’re serious about designing progressively enhanced then we need to start
   designing websites without assumptions, starting with the overused argument that
   we should be thinking type-first.
-tags:
-- css
-- web design
 City:
 - Reading
 Country:

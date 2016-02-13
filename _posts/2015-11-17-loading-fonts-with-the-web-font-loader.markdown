@@ -1,6 +1,9 @@
 ---
 title: Loading fonts with the Web Font Loader
 date: 2015-11-17 13:17:00 Z
+tags:
+- css-tricks
+- Font loading
 extract: Several years ago the consensus on font loading in the community was that,
   as a website loads, all fonts should be hidden until the correct resources have
   been downloaded. Many designers and developers argued that the default font loading
@@ -10,9 +13,6 @@ extract: Several years ago the consensus on font loading in the community was th
   browsing experience if users simply waited for everything to download instead of
   experiencing this flash from one typeface to another.
 update: 
-tags:
-- css-tricks
-- Font loading
 City:
 - Plymouth
 Country:

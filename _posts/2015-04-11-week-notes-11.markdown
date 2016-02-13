@@ -1,12 +1,12 @@
 ---
 title: 'Week notes #11'
 date: 2015-04-11 18:05:00 Z
-extract: mix-blend-mode, working with the team at Kind and a new 4K screen
-update: 
 tags:
 - codepen
 - css-tricks
 - Kind
+extract: mix-blend-mode, working with the team at Kind and a new 4K screen
+update: 
 City:
 - Plymouth
 Country:

@@ -1,6 +1,11 @@
 ---
 title: Do justice and let the skies fall
 date: 2014-06-19 05:14:00 Z
+tags:
+- morality
+- ethics
+- courage
+- personal
 extract: 'For the longest time I’ve taken the sidelines in most arguments, both online
   and in daily conversations with strangers. I believed that trying to correct the
   facts or convince people of my own argument was futile and, in some ways, kind of
@@ -8,11 +13,6 @@ extract: 'For the longest time I’ve taken the sidelines in most arguments, bot
   needs to hear another white guy shout about civil rights or oppression, institutionalised
   sexism or the freakishly calm barbarity of a racist slur?'
 update: 
-tags:
-- morality
-- ethics
-- courage
-- personal
 City:
 - Nottingham
 Country:

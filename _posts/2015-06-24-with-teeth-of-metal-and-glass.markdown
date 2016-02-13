@@ -1,15 +1,15 @@
 ---
 title: With teeth of metal and glass
 date: 2015-06-24 16:09:00 Z
+tags:
+- relationships
+- diary
 extract: 'My excitement for a holiday to NYC was of paramount importance then: as
   someone that comes from a rural area, would I enjoy it? Would I want to emigrate
   to New York? What would my girlfriend and I find there? Would she move in with me
   once we came back or would we just throw caution to the wind and move to America
   and work together?'
 update: 
-tags:
-- relationships
-- diary
 City:
 - New York City
 Country:

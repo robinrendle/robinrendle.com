@@ -1,15 +1,15 @@
 ---
 title: A rendezvous of secrets
 date: 2014-07-28 15:41:00 Z
+tags:
+- reading
+- libraries
 extract: Reading is designed to alleviate our curiosity. We all want to know what’s
   in our neighbors’ pockets, how they style their hair, how much time they spent on
   the rusty machine in their garage, or how long and serious their last relationship
   was. So once in a while, if we're lucky, a good novel might begin to soothe our
   penchant for mischief.
 update: 
-tags:
-- reading
-- libraries
 City:
 - Plymouth
 Country:

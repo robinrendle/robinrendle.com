@@ -1,15 +1,15 @@
 ---
 title: 'Week notes #5'
 date: 2015-02-27 19:20:00 Z
-extract: I shouldn’t feel exhausted all the time and I shouldn’t feel as if, to impress
-  one person, I have to let another down — this small-stakes emotional Ponzi scheme
-  has to end one way or another.
-update: 
 tags:
 - week-notes
 - web design
 - css
 - front-end development
+extract: I shouldn’t feel exhausted all the time and I shouldn’t feel as if, to impress
+  one person, I have to let another down — this small-stakes emotional Ponzi scheme
+  has to end one way or another.
+update: 
 City:
 - Plymouth
 Country:

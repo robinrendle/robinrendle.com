@@ -1,12 +1,6 @@
 ---
 title: 'Week notes #1'
 date: 2015-01-30 19:12:00 Z
-extract: This is the beginning of a new side project in which every Friday evening
-  I’ll write for thirty minutes about what I’ve been working on over the past seven
-  days. For a while I’ve been stashing these notes in private but I’ve finally decided
-  to start publishing them because I want to recognise what I’ve accomplished, what
-  I’ve screwed up and what I can do better come Monday morning.
-update: 
 tags:
 - design
 - web design
@@ -14,6 +8,12 @@ tags:
 - tigerman
 - nick harkaway
 - week-notes
+extract: This is the beginning of a new side project in which every Friday evening
+  I’ll write for thirty minutes about what I’ve been working on over the past seven
+  days. For a while I’ve been stashing these notes in private but I’ve finally decided
+  to start publishing them because I want to recognise what I’ve accomplished, what
+  I’ve screwed up and what I can do better come Monday morning.
+update: 
 City:
 - Plymouth
 Country:

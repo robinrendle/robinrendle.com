@@ -1,11 +1,11 @@
 ---
 title: The Dream Sponge
 date: 2013-03-10 16:12:00 Z
+tags:
+- story
 location: 
 extract: A short story of a room I loved as a kid; learning how to communicate and
   realising that I was going to spend my life in a perpetual state of overactive dream-sharing.
-tags:
-- story
 City:
 - Nottingham
 Country:

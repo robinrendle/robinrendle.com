@@ -1,16 +1,16 @@
 ---
 title: Longform
 date: 2015-11-29 13:39:00 Z
-extract: I’ve been listening to the interviews on Longform over the past week—in between
-  cleaning, working, heading to the gym—and they’ve been so consistently insightful.
-  Here are my favourites so far...
-update: 
 tags:
 - podcasts
 - longform
 - george saunders
 - ta-nehisi coates
 - rukmini callimachi
+extract: I’ve been listening to the interviews on Longform over the past week—in between
+  cleaning, working, heading to the gym—and they’ve been so consistently insightful.
+  Here are my favourites so far...
+update: 
 City:
 - Plymouth
 Country:

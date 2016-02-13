@@ -1,15 +1,15 @@
 ---
 title: The New Web Typography
-layout: new-typography
-date: 2016-01-17
-extract: I’ve been thinking about typography and what the web does to type.
+date: 2016-01-17 00:00:00 Z
+published: false
 tags:
 - design
 - css
 - jan tschichold
-city: San Francisco 
+layout: new-typography
+extract: I’ve been thinking about typography and what the web does to type.
+city: San Francisco
 country: USA
-published: false
 ---
 
 In 1927, twelve months before he published his infamous manifesto on typography, the German book designer Jan Tschichold wrote about the relationship[^1] between design and history.

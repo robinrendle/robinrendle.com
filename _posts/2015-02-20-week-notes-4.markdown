@@ -1,11 +1,6 @@
 ---
 title: 'Week Notes #4'
 date: 2015-02-20 20:09:00 Z
-extract: "“Typography hits us on two different levels: by the look of it, telling
-  us if this is something we may like or should be interested in, and by the necessity
-  to read it. If we have to read this time table, contract or assembling instruction
-  we will do so regardless of its looks.”"
-update: 
 tags:
 - week-notes
 - web design
@@ -14,6 +9,11 @@ tags:
 - The Sculptor
 - Scott McCloud
 - Indra Kuperschmid
+extract: "“Typography hits us on two different levels: by the look of it, telling
+  us if this is something we may like or should be interested in, and by the necessity
+  to read it. If we have to read this time table, contract or assembling instruction
+  we will do so regardless of its looks.”"
+update: 
 City:
 - Plymouth
 Country:

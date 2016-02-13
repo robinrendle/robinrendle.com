@@ -1,16 +1,16 @@
 ---
 title: 'Week notes #8'
 date: 2015-03-26 09:04:00 Z
+tags:
+- bookspace
+- inland editions
+- css-tricks
 extract: 'What is it about these letters that overpowers my senses, that makes me
   stare at each of them longingly? Is it in the flick of the lowercase ‘e’? Or perhaps
   I’m drawn to the restraint of the design or to the barely perceptible quirks that
   appear like hushed giggles on the screen. But then why are these large apertures,
   with their inscriptional characteristics, so attractive to me? '
 update: 
-tags:
-- bookspace
-- inland editions
-- css-tricks
 City:
 - Nottingham
 Country:

@@ -1,15 +1,15 @@
 ---
 title: Dust jackets and snark
 date: 2014-04-04 22:14:00 Z
+tags:
+- books
+- design
+- snark
 extract: The book jackets flipped by, one after another, up on the projector in front
   of us. Pitch-perfect typographic settings and allusions to other graphic material
   presented themselves and struck the balance between describing the story of their
   contents whilst experimenting and drawing something new to the table.
 update: 
-tags:
-- books
-- design
-- snark
 City:
 - Nottingham
 Country:

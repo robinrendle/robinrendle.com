@@ -1,13 +1,13 @@
 ---
 title: Purdy
 date: 2013-10-14 21:25:00 Z
-extract: Whenever I watch a movie or a tv show set in the past I like to wonder how
-  the same event might take place but under more technically advanced circumstances.
-update: 
 tags:
 - story
 - personal
 - digital-physical
+extract: Whenever I watch a movie or a tv show set in the past I like to wonder how
+  the same event might take place but under more technically advanced circumstances.
+update: 
 City:
 - Nottingham
 Country:

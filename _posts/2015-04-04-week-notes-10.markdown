@@ -1,14 +1,14 @@
 ---
 title: 'Week notes #10'
 date: 2015-04-04 18:23:00 Z
-extract: 'This week I was recovering from a fever/cold/nightmare illness that left
-  me with an awful lot of email and unfinished tasks ready for next week so unfortunately
-  nothing much happened of note. '
-update: 
 tags:
 - css-tricks
 - front-end development
 - codepen
+extract: 'This week I was recovering from a fever/cold/nightmare illness that left
+  me with an awful lot of email and unfinished tasks ready for next week so unfortunately
+  nothing much happened of note. '
+update: 
 City:
 - Plymouth
 Country:

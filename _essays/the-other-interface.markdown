@@ -1,6 +1,11 @@
 ---
 title: The Other Interface
 date: 2013-08-02 22:17:00 Z
+tags:
+- frameworks
+- css
+- design
+- interface
 layout: default
 aside: |-
   ### Relevant talks
@@ -12,11 +17,6 @@ aside: |-
 extract: The directories, files and partials, as well as all of the code and documentation
   that makes up our front-end development system, is an interface. It’s high time
   we started thinking about its usability – for the sake of developers and users alike.
-tags:
-- frameworks
-- css
-- design
-- interface
 City:
 - Nottingham
 Country:
