@@ -12,6 +12,8 @@ collections:
         output: true
     work:
         output: true
+  posts:
+    title: Posts
     reading:
         output: true
         order: date

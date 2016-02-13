@@ -525,4 +525,4 @@ I wouldn’t be writing here today if it was not for the many links that lead me
 [^32]: [As We May Link](https://themanual.org/read/issues/3/jeremy-keith/article), Jeremy Keith.
 
 
-
+lolol
