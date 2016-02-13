@@ -1,15 +1,15 @@
 ---
 title: A New Responsive Font Format for the Web
 date: 2015-11-26 22:08:00 Z
+tags:
+- ampersand
+- responsive
+- web design
 extract: I think there’s huge potential for a new variable font format to become a
   key part of the designer’s tool belt. It would greatly improve the reading experience
   of general users of the web, too. But that doesn’t mean we can ignore the many problems
   and hurdles that we have to overcome to get a draft spec agreed upon.
 update: 
-tags:
-- ampersand
-- responsive
-- web design
 City:
 - Plymouth
 Country:

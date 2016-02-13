@@ -1,14 +1,14 @@
 ---
 title: 'Week notes #3'
 date: 2015-02-13 21:24:00 Z
-extract: "“This was not a day of success, it was the success of many days, the pay-off
-  of effort.”"
-update: 
 tags:
 - week-notes
 - work
 - nda
 - web design
+extract: "“This was not a day of success, it was the success of many days, the pay-off
+  of effort.”"
+update: 
 City:
 - Plymouth
 Country:

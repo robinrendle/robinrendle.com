@@ -1,14 +1,14 @@
 ---
 title: Food and Sleep
 date: 2015-09-28 18:59:00 Z
-extract: When an alcoholic describes their inexorable lust I realise it's precisely
-  how I would describe my relationship with Food.
-update: 
 tags:
 - food
 - gym
 - exercise
 - health
+extract: When an alcoholic describes their inexorable lust I realise it's precisely
+  how I would describe my relationship with Food.
+update: 
 City:
 - Plymouth
 Country:

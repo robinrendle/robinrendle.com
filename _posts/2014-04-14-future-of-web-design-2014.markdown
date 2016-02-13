@@ -1,6 +1,12 @@
 ---
 title: Future of Web Design 2014
 date: 2014-04-14 10:16:00 Z
+tags:
+- speaking
+- design
+- web design
+- events
+- front-end development
 extract: Earlier this week I headed off to the Future of Web Design conference in
   London to give a talk about systems, language and maintainable interface design
   which was adapted from an essay I wrote back in December called A Visual Lexicon.
@@ -8,18 +14,11 @@ extract: Earlier this week I headed off to the Future of Web Design conference i
   non-linear storytelling, masking shapes in CSS and so much more. It was certainly
   a diverse string of interesting talks.
 update: 
-tags:
-- speaking
-- design
-- web design
-- events
-- front-end development
 City:
 - Nottingham
 Country:
 - UK
 ---
-
 
 Earlier this week I headed off to the [Future of Web Design](http://futureofwebdesign.com/london-2014/) conference in London to give a talk about systems, language and maintainable interface design which was adapted from an essay I wrote back in December called *[A Visual Lexicon](http://robinrendle.com/essays/a-visual-lexicon/)*. Overall it was a fantastic event with some wonderful talks about JavaScript performance, non-linear storytelling, masking shapes in CSS and so much more. It was certainly a diverse string of interesting talks.
 

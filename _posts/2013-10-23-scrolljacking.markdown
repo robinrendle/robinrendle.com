@@ -1,13 +1,13 @@
 ---
 title: Scrolljacking
 date: 2013-10-23 18:06:00 Z
-extract: These pages that hijack the scroll might look like slides from shiny keynote
-  presentations but as websites they are the usability equivalent of nails on a chalkboard.
-update: 
 tags:
 - web design
 - front-end development
 - featured
+extract: These pages that hijack the scroll might look like slides from shiny keynote
+  presentations but as websites they are the usability equivalent of nails on a chalkboard.
+update: 
 City:
 - Nottingham
 Country:

@@ -1,17 +1,17 @@
 ---
 title: Quarks, Atoms and Molecules
 date: 2013-07-01 18:46:00 Z
+tags:
+- css
+- systems
+- sass
+- front-end development
 extract: I wanted to write a little bit about a new process I’ve been working on for
   developing sites and maintaining large Sass projects, but first I think it’s worth
   taking a look at how it all came together.
 update: "*Update*: This post was re-written and edited into a full blown essay for
   the ever so wonderful Smashing Magazine. Go [read that one](/essays/the-other-interface)
   instead, as this is nothing more than an unpolished note."
-tags:
-- css
-- systems
-- sass
-- front-end development
 City:
 - Nottingham
 Country:

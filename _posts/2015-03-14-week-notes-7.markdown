@@ -1,14 +1,14 @@
 ---
 title: 'Week notes #7'
 date: 2015-03-14 16:55:00 Z
-extract: You have to draw a line at one point or another around your audience and
-  their technical prowess. Do you have to explain how inline images work? Or the peculiarities
-  of the DOM? Where do you begin?
-update: 
 tags:
 - week-notes
 - css-tricks
 - redesign
+extract: You have to draw a line at one point or another around your audience and
+  their technical prowess. Do you have to explain how inline images work? Or the peculiarities
+  of the DOM? Where do you begin?
+update: 
 City:
 - Plymouth
 Country:

@@ -1,17 +1,17 @@
 ---
 title: Resources for learning how to JavaScript
 date: 2014-09-10 14:20:00 Z
-extract: In recent weeks I’ve been trying to improve my fledging JavaScript skills,
-  which have always bothered me. Sure, for the longest time I’ve been able to hack
-  away in order to get something to work in the browser but parsing all the quirks
-  and eccentricities of the DOM felt entirely beyond me.
-update: 
 tags:
 - javascript
 - html
 - css
 - design patterns
 - object oriented design
+extract: In recent weeks I’ve been trying to improve my fledging JavaScript skills,
+  which have always bothered me. Sure, for the longest time I’ve been able to hack
+  away in order to get something to work in the browser but parsing all the quirks
+  and eccentricities of the DOM felt entirely beyond me.
+update: 
 City:
 - Plymouth
 Country:

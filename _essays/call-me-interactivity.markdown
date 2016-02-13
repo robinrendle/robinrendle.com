@@ -1,6 +1,14 @@
 ---
 title: Call Me Interactivity
 date: 2012-03-10 23:40:00 Z
+tags:
+- book design
+- design
+- book reviews
+- interface
+- reading
+- digital-physical
+- interactivity
 layout: default
 hero: 
 aside: The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick
@@ -16,14 +24,6 @@ update: On returning home at the start of the Christmas holidays I found the [Ar
   Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition
   of *Moby Dick* waiting for me. However, unlike the majority of other books, you
   cannot but instantly remark upon how special it is.
-tags:
-- book design
-- design
-- book reviews
-- interface
-- reading
-- digital-physical
-- interactivity
 City:
 - Plymouth
 Country:

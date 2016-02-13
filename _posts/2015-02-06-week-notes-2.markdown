@@ -1,6 +1,9 @@
 ---
 title: 'Week notes #2'
 date: 2015-02-06 22:25:00 Z
+tags:
+- work
+- week-notes
 extract: On the train out of Devon the carriages are crowded, yet as you watch the
   countryside pass you by you’ll get the distinct impression of warming your toes
   in a bath. Foliage and hills glide past the window as if you were being swept across
@@ -8,9 +11,6 @@ extract: On the train out of Devon the carriages are crowded, yet as you watch t
   towards Plymouth the carriages will spew their insides; these journeys are always
   dark, they are always cold and they are always very lonely.
 update: 
-tags:
-- work
-- week-notes
 City:
 - London
 Country:

@@ -1,6 +1,11 @@
 ---
 title: Bookmarking
 date: 2013-01-20 13:08:00 Z
+tags:
+- book design
+- internet of things
+- book reviews
+- digital-physical
 hero: "/uploads/marking.jpg"
 layout: default
 aside: This article was originally published in the newspaper that came with the goody
@@ -16,11 +21,6 @@ update: Designed by the author Joost Grootens, <cite><a href="http://thisispaper
   book design. Borderline autobiographical in nature, the author revisits his notes
   and diagrams of the dozens of printed materials and thousands of pages he published
   over the years, each meticulously and elaborately detailed.
-tags:
-- book design
-- internet of things
-- book reviews
-- digital-physical
 City:
 - Nottingham
 Country:

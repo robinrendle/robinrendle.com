@@ -1,12 +1,12 @@
 ---
 title: Welcome to the club
 date: 2014-11-23 14:39:00 Z
-extract: Make a note of your favourite writers. Now, read their first names aloud.
-update: 
 tags:
 - libraries
 - reading
 - featured
+extract: Make a note of your favourite writers. Now, read their first names aloud.
+update: 
 City:
 - Plymouth
 Country:

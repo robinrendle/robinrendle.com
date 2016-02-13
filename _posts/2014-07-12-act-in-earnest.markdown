@@ -1,6 +1,11 @@
 ---
 title: Act in earnest
 date: 2014-07-12 16:01:00 Z
+tags:
+- speaking
+- reading
+- books
+- dale carnegie
 extract: Whilst you’re writing it’s entirely possible to throw everything away and
   start again if you don’t like how things are working out. If the tone is too harsh
   or your voice is too light, a quick adjustment can tighten the bolts. Likewise most
@@ -8,11 +13,6 @@ extract: Whilst you’re writing it’s entirely possible to throw everything aw
   whilst, for those awkward rhymes and alliterative phrases that pass you by without
   notice, a friendly editor is often there to help tidy your thoughts.
 update: 
-tags:
-- speaking
-- reading
-- books
-- dale carnegie
 City:
 - Plymouth
 Country:

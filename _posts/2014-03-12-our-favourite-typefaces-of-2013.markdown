@@ -1,17 +1,17 @@
 ---
 title: Our favourite typefaces of 2013
 date: 2014-03-12 12:58:00 Z
-extract: 'Typographica has published their favourite typefaces from the past year
-  and so I’ll be spending the next couple of days carefully bookmarking and reading
-  each of them in turn. In his now familiar and charming way Stephen summarises the
-  collection:'
-update: 
 tags:
 - typographica
 - typography
 - type review
 - brandon text
 - hannes von doehren
+extract: 'Typographica has published their favourite typefaces from the past year
+  and so I’ll be spending the next couple of days carefully bookmarking and reading
+  each of them in turn. In his now familiar and charming way Stephen summarises the
+  collection:'
+update: 
 City:
 - Nottingham
 Country:

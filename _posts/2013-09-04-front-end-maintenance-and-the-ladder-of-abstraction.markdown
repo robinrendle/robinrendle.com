@@ -1,6 +1,12 @@
 ---
 title: Front-end Maintenance and the Ladder of Abstraction
 date: 2013-09-04 21:12:00 Z
+tags:
+- css
+- systems
+- front-end development
+- sass
+- web design
 extract: This is a summary of my talk from our first Erskine Breakfast, a new kind
   of event where we invite two speakers round for a quick chat about web design and
   development. This week we discussed modularity, both in terms of designing components
@@ -9,12 +15,6 @@ update: This is a summary of my talk from our first [Erskine Breakfast](http://b
   a new kind of event where we invite two speakers round for a quick chat about web
   design and development. This week we discussed modularity, both in terms of designing
   components instead of pages and the best practices behind creating front-end interfaces.
-tags:
-- css
-- systems
-- front-end development
-- sass
-- web design
 City:
 - Nottingham
 Country:

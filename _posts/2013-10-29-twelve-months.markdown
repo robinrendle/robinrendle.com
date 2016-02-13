@@ -1,13 +1,13 @@
 ---
 title: Twelve months
 date: 2013-10-29 20:48:00 Z
+tags:
+- personal
+- autobiographical
 extract: This time last year I was a pup. I had never used Sass before, I didn’t know
   what the shell was and the DOM was a ghostly, nightmarish thing that infiltrated
   my dreams.
 update: 
-tags:
-- personal
-- autobiographical
 City:
 - Nottingham
 Country:

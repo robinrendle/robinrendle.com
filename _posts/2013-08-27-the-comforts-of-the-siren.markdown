@@ -1,13 +1,13 @@
 ---
 title: The Comforts of the Siren
 date: 2013-08-27 07:51:00 Z
-extract: During my holiday I went back to the town I grew up in and listened to the
-  sirens from the Blitz that are still operational and are tested once a week.
 tags:
 - story
 - autobiographical
 - the blue of distance
 - featured
+extract: During my holiday I went back to the town I grew up in and listened to the
+  sirens from the Blitz that are still operational and are tested once a week.
 City:
 - Nottingham
 Country:

@@ -1,14 +1,14 @@
 ---
 title: You’re not welcome here
 date: 2014-08-12 15:52:00 Z
-extract: But that’s the thing about travelling – in these foreign places you have
-  to make yourself welcome. You have to slide through the airport and navigate bus
-  timetables and crazy southern dialects as if you have all the papers at the ready.
-update: 
 tags:
 - travelling
 - personal
 - autobiographical
+extract: But that’s the thing about travelling – in these foreign places you have
+  to make yourself welcome. You have to slide through the airport and navigate bus
+  timetables and crazy southern dialects as if you have all the papers at the ready.
+update: 
 City:
 - Berlin
 Country:

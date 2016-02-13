@@ -1,15 +1,15 @@
 ---
 title: Ampersand 2015
 date: 2015-11-14 18:11:00 Z
-extract: This year’s Ampersand was a perfect cavalcade of typographic misadventures
-  which has left me buzzing with ideas.
-update: 
 tags:
 - clearleft
 - ampersand
 - type
 - fonts
 - web design
+extract: This year’s Ampersand was a perfect cavalcade of typographic misadventures
+  which has left me buzzing with ideas.
+update: 
 City:
 - Brighton
 Country:

@@ -1,15 +1,15 @@
 ---
 title: Mistaking the tool for the practice
 date: 2013-06-05 18:40:00 Z
-extract: Lately I’ve been thinking about how we obsess over our tools instead of the
-  general principles they’re built on top of.  We pay for these things, we retweet
-  posts about them, but most importantly we idolise  them and I think this might hurt
-  us all in the long run.
 tags:
 - digital-physical
 - web design
 - css
 - systems
+extract: Lately I’ve been thinking about how we obsess over our tools instead of the
+  general principles they’re built on top of.  We pay for these things, we retweet
+  posts about them, but most importantly we idolise  them and I think this might hurt
+  us all in the long run.
 City:
 - Nottingham
 Country:

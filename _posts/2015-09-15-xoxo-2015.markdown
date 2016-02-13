@@ -1,6 +1,9 @@
 ---
 title: XOXO 2015
 date: 2015-09-15 18:14:00 Z
+tags:
+- xoxo
+- andy mcmillan
 extract: It’s the final day of XOXO and I’m sat under a canopy watching the prolonged
   withdrawal of a beautiful evening — shadows flitter their way across skin left bare
   by shorts and dresses as everyone has now gathered outside after the talks. They
@@ -9,9 +12,6 @@ extract: It’s the final day of XOXO and I’m sat under a canopy watching the 
   fire whilst the food trucks nearby begin to hunker down, ready for a night of well-earned
   slumber.
 update: 
-tags:
-- xoxo
-- andy mcmillan
 City:
 - Portland Oregon
 Country:

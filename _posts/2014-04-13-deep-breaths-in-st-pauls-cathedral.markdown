@@ -1,16 +1,16 @@
 ---
 title: Deep breaths in St Paul’s cathedral
 date: 2014-04-13 14:36:00 Z
+tags:
+- speaking
+- story
+- personal
 extract: The weeks leading up to a speaking event my nerves will inevitably begin
   to shake; I bite my lip uncontrollably, my mood swings from ecstatic to horrified
   and back again, whilst sleep becomes entirely out of the question. Soothing these
   nerves just before I step onto the stage and find these strangers staring back at
   me is difficult work.
 update: 
-tags:
-- speaking
-- story
-- personal
 City:
 - Nottingham
 Country:
