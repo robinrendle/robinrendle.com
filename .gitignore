@@ -3,7 +3,7 @@ composer.lock
 /web/static/css/
 Gemfile.lock
 
-/_site
+_site
 /site/cache
 site/cache/7ecb9812e507ad9f91804947318ab2f9.php
 
