@@ -2,55 +2,56 @@
 title: Robin Rendle
 url: http://robinrendle.com
 timezone: Europe/London
-collections:
-  essays:
-    title: Essays
-    output: true
-  posts:
-    title: Posts
-    output: true
-  reading:
-    title: Reading
-    output: true
-    order: date
-    values:
-      layout: wonk
-  stories:
-    title: Stories
-    output: true
-  uploads:
-    title: Uploads
-    output: false
-  work:
-    title: Work
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/notes/:title/"
-    layout: default
-- scope:
-    path: ''
-    type: reading
-  values:
-    permalink: "/reading/:title/"
-    layout: default
-- scope:
-    path: ''
-    type: essays
-  values:
-    permalink: "/essays/:title/"
-    layout: essays-detail
-- scope:
-    path: ''
-    type: work
-  values:
-    permalink: "/work/:title/"
-    layout: work-detail
 permalink: pretty
 current_location: Nottingham, UK
+collections:
+    uploads:
+        title: Uploads
+        output: false
+    essays:
+        output: true
+    work:
+        output: true
+    notes:
+        output: true
+    reading:
+        output: true
+        order: date
+        values:
+            layout: reading
+    stories:
+        output: true
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      permalink: "/notes/:title/"
+      layout: "default"
+  - scope:
+      path: ''
+      type: notes
+    values:
+      permalink: "/notes/"
+      layout: "notes"
+  - scope:
+      path: ''
+      type: reading
+    values:
+      permalink: "/reading/:title/"
+      layout: "default"
+  - scope:
+      path: ''
+      type: essays
+    values:
+      permalink: "/essays/:title/"
+      layout: "essays-detail"
+  - scope:
+      path: ''
+      type: work
+    values:
+      permalink: "/work/:title/"
+      layout: "work-detail"
 markdown: redcarpet
 exclude:
 - node_modules
