@@ -27,10 +27,6 @@ collections:
   work:
     title: Work
     output: true
-  build:
-    title: build
-    output: false
-    permalink: "/build/"
 defaults:
 - scope:
     path: ''
