@@ -6,6 +6,10 @@ collections:
   essays:
     title: Essays
     output: true
+  build:
+    title: build
+    permalink: "/build/"
+    output: false
   notes:
     title: Notes
     output: true
