@@ -127,6 +127,12 @@ svg {
     }
 }
 
+.meta {
+    @include media(">large"){
+        margin-top: 10px;
+    }
+}
+
 .meta__item {
     font-size: 15px;
     color: #eee;
