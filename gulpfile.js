@@ -15,7 +15,7 @@ var gulp = require('gulp'),
     paths = {
         styles: {
             src:   "_static/sass/screen.scss",
-            dest:  "build/css",
+            dest:  "css",
             typography: "_static/sass/new-web-typography.scss",
             lexicon: "_static/sass/visual-lexicon.scss",
             watch: ["_static/sass/*.*", "_static/sass/**/*.*"],
@@ -27,7 +27,7 @@ var gulp = require('gulp'),
                 "static/images/*.jpg",
                 "static/images/**/*.jpg",
             ],
-            dest:  "build/images/"
+            dest:  "images/"
         },
         scripts: {
             libs: [
@@ -37,7 +37,7 @@ var gulp = require('gulp'),
             src: [
                 "static/js/app.js"
             ],
-            dest: "/build/js/"
+            dest: "js"
         },
         watch: [
             "*.html",
@@ -53,14 +53,14 @@ gulp.task('scripts', function() {
             '_static/js/app.js'
         ])
         .pipe(uglify())
-        .pipe(gulp.dest('build/js'))
+        .pipe(gulp.dest('js'))
         .pipe(reload({stream: true}))
 
     gulp.src([
         '._static/js/lib/prism.js'
         ])
         .pipe(uglify())
-        .pipe(gulp.dest('build/js'))
+        .pipe(gulp.dest('js'))
         .pipe(reload({stream: true}))
 });
 
@@ -72,7 +72,7 @@ gulp.task('images', function(cb){
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest(paths.images.dest)).on('error', cb)
+        .pipe(gulp.dest('images')).on('error', cb)
 });
 
 
@@ -121,14 +121,14 @@ gulp.task('sass', function () {
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('build/css'));
+        .pipe(gulp.dest('css'));
     gulp.src(paths.styles.lexicon)
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
             outputStyle: 'compressed'
         }))
-        .pipe(gulp.dest('build/css'));
+        .pipe(gulp.dest('css'));
     gulp.src(paths.styles.typography)
         .pipe(sass({
             includePaths: ['scss'],
@@ -137,7 +137,7 @@ gulp.task('sass', function () {
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('build/css'));
+        .pipe(gulp.dest('css'));
 });
 
 gulp.task('work', function(){
@@ -149,14 +149,14 @@ gulp.task('work', function(){
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('build/css'))
+        .pipe(gulp.dest('css'))
 
     gulp.src([
         '_static/js/lib/ff-observer.js'
     ])
         .pipe(uglify())
         .pipe(concat('min.ff-observer.js'))
-        .pipe(gulp.dest('build/js'))
+        .pipe(gulp.dest('js'))
         .pipe(reload({stream: true}))
 });
 
