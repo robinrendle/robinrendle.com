@@ -6,10 +6,6 @@ collections:
   essays:
     title: Essays
     output: true
-  build:
-    title: build
-    permalink: "/build/"
-    output: false
   notes:
     title: Notes
     output: true
@@ -31,6 +27,10 @@ collections:
   work:
     title: Work
     output: true
+  build:
+    title: build
+    output: false
+    permalink: "/build/"
 defaults:
 - scope:
     path: ''
