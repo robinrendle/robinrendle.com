@@ -139,7 +139,7 @@ svg {
     display: inline-block;
 
     @include media(">large"){
-        font-size: 19px;
+        font-size: 17px;
     }
 
     &:before {
@@ -281,7 +281,7 @@ a {
 // Breaks up into multiple columns on larger breakpoints
 
 .footnotes {
-    margin-top: 80px;
+    margin-top: 0px;
 
     .footnote {
         font-size: 80%;
@@ -303,10 +303,6 @@ a {
 
             em {
                 font-style: normal;
-
-                .wf-active & {
-                    font-family: "Nota Regular 5", Helvetica, sans-serif;
-                }
             }
         }
     }
@@ -378,6 +374,11 @@ figure {
     max-width: 100% !important;
     @include clearfix();
 
+    @include media(">large"){
+        display: flex;
+        flex-direction: column;
+    }
+
     .goethe {
         width: 100%;
         max-width: 300px;
@@ -403,6 +404,8 @@ figure {
             width: 100%;
             display: flex;
             align-items: center;
+            max-width: 1250px;
+            margin: 0 auto;
         }
     }
 
@@ -423,6 +426,11 @@ figure {
 
     figcaption {
         max-width: 100%;
+
+        @include media(">large"){
+            max-width: 1250px;
+            margin: 0 auto;
+        }
     }
 
     .portrait-circle {
@@ -509,17 +517,6 @@ figure {
     }
 }
 
-.sans,
-figcaption,
-.footnotes,
-.meta {
-    font-family: Helvetica, sans-serif;
-
-    .wf-active & {
-        font-family: "Nota Regular 5", Helvetica, sans-serif;
-    }
-}
-
 .figcaption--dark {
     background-color: rgba(255,255,255,.6);
 }
@@ -537,7 +534,7 @@ figcaption {
 
     p {
         padding: 0 !important;
-        font-size: .8em;
+        font-size: .75em;
         color: #666;
         line-height: 1.4;
 
@@ -710,7 +707,7 @@ p > code {
     @include typeface("Display");
 
     figcaption {
-
+        @include typeface("Book");
         @include media("<large"){
             padding: 0;
             padding-top: 4px;
@@ -958,15 +955,131 @@ p > code {
         padding-left: 20px;
         position: relative;
 
+        @include media(">medium"){
+            padding: 0 6%;
+        }
+
+        @include media(">large"){
+            padding: 0;
+        }
+
         em {
             @include typeface("Regular italic");
         }
         &:before {
             content: "—";
             display: inline-block;
-            position: absolute;
-            left: 0;
+            position: relative;
             color: #ccc;
+        }
+    }
+}
+
+// BIG TEXT QUOTES
+// ==========================================================================
+
+.big {
+    font-size: 130%;
+    @include typeface("Display");
+    max-width: 900px;
+    line-height: 1.3;
+    margin: 40px auto 40px;
+    position: relative;
+    padding: 0 20px;
+
+    @include media(">large"){
+        font-size: 150%;
+        float: right;
+        min-width: 400px;
+        width: 45%;
+        max-width: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0;
+        color: saturate($theme, 10);
+    }
+}
+
+a[rev="footnote"]{
+    color: white;
+    background: none;
+    position: relative;
+
+    &:after {
+        content: "↑";
+        position: absolute;
+        left: 0;
+        color: red;
+        display: inline-block;
+        font-size: .8em;
+        bottom: 0;
+        height: 20px;
+        width: 20px;
+        color: $theme;
+    }
+
+    &:hover,
+    &:focus {
+        color: white;
+        background: none;
+        &:after {
+            color: darken($theme, 10);
+        }
+    }
+}
+
+.underline {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    margin-bottom: 10px;
+}
+
+.unlisted {
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 30px;
+
+    > li {
+        display: inline-block;
+        margin-right: 8px;
+
+        a {
+            color: white;
+            background: transparent;
+            font-size: .75em;
+        }
+    }
+}
+
+.about {
+
+    * {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+    p {
+        font-size: 90%;
+        margin-bottom: 10px;
+    }
+
+    .h5 {
+        color: lighten($theme, 30) !important;
+        font-size: 16px;
+    }
+}
+
+.about__wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 3px;
+
+    @include media(">large"){
+        display: flex;
+        justify-content: center;
+
+        .about__item {
+            max-width: 700px !important;
+            padding: 20px !important;
+            width: 50vw;
         }
     }
 }

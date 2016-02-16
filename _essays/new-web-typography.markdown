@@ -1,7 +1,6 @@
 ---
 title: The New Web Typography
 date: 2016-02-13 00:00:00 +00:00
-published: false
 tags:
 - design
 - css
@@ -10,9 +9,10 @@ extract: I’ve been thinking about typography and what the web does to type.
 city: San Francisco
 country: USA
 layout: new-typography
+published: false
 ---
 
-In 1927, twelve months before he published his infamous manifesto on typography, the German book designer Jan Tschichold wrote about the relationship[^1] between design and history.
+In 1927, twelve months before he published his infamous manifesto on typography, the German book designer Jan Tschichold wrote about the peculiar relationship[^1] between design and history.
 
 <figure class="quote">
     <blockquote>
@@ -226,9 +226,15 @@ We can learn more about prioritising the text in this way by diving deeper into 
 
 The web developer Scott Jehl has shown[^11] that the <span class="caps">FOIT</span> approach caused the text in one example to be visible in 2.7s on a 3G connection whereas the <span class="caps">FOUT</span> approach made the text visible in 0.6s. The final approach, where the text is not hidden by <span class="caps">CSS</span> or JavaScript, is therefore much faster for the user, more robust for the network, and manages to prioritise the text over the font.
 
-If you happen to be a typographer from any other realm then you might feel a bit queasy because this obviously sounds rather perverse. You might be thinking that typographers pick certain typefaces because they compliment the written word. Why must we limit ourselves to a grotesque smorgasbord of flashing text before we reveal our beautiful typefaces?
+If you happen to be a typographer from any other realm then you might feel a bit queasy, since this obviously sounds rather perverse. Designers pick certain typefaces because they compliment the written word, so why must they be limited to a grotesque smorgasbord of flashing text before they reveal their beautiful typefaces? 
 
-This is not merely a difference in approach, it is the consequence of sending text via an unstable network; the technique itself is not to blame. We can either feign the same level of control as print designers and ignore these technical considerations at the expense of the reader, or we can instead learn how to dance with this new web typography, what with all its quirks and clumsiness.[^12]
+This is not merely a difference in approach however, it is the consequence of sending text via an unstable network; the technique itself is not to blame. We can either feign the same level of control as print designers and ignore these technical considerations at the expense of the reader, or we can instead learn how to dance with this new web typography, what with all its quirks and clumsiness.[^12]
+
+<div class="big">
+    <div class="text">
+        The New Web Typography demands to be seen; bad typography is better than none at all.
+    </div>
+</div>
 
 Continuing on this thread, earlier this year Zach Leatherman wrote a post called [*Critical Web Fonts*](http://www.zachleat.com/web/critical-webfonts/) where he argued that first we should load a tiny font file which has been *subsetted*, so it contains every upper and lowercase character from A-Z which, in his example, turned out to be 9kb in size. Then, we should make a separate request for the full font file—think punctuation, ligatures and other such typographic niceties—which turned out to be 25kb. Effectively the user will then see the “flash” between system font and web font much sooner, but it will then be followed by a smaller, subsequent flash when the last part of the web font loads.
 
@@ -248,11 +254,11 @@ If we were designing a print document, using faux shapes like this would be seen
     <h2>The consequence of typographic decisions</h2>
 </div>
 
-A cautious, uncertain balancing act exists between the art and the mechanics of setting text. This became clear to me when I realised the foolishness of building complex typographic systems without a styleguide or a pattern library.
+A cautious, uncertain balancing act exists between the art and the mechanics of setting text. This became clear to me when I realised the foolishness of building complex typographic systems without a low-level toolkit.
 
-What I mean here is a tool that presents web designers with clear documentation for laying out text on a webpage with a list of components made up of <span class="caps">CSS</span>. Much has been written[^16] about these tools, but what’s most interesting to me is how they give typographers the ability to visualise possible, latent relationships between typographic objects.
+What I mean here is a tool that presents web designers with clear documentation for laying out text on a webpage with a list of components made up of <span class="caps">CSS</span>. Much has been written[^16] about them, but what’s most interesting to me is how they give typographers the ability to visualise possible, latent relationships between typographic objects.
 
-When I look at the documentation of one of these component libraries, such as [Tachyons](http://tachyons.io/docs/), and I begin to figure out how the padding, font size and background color of an element can be manipulated so easily, I can’t help but imagine I’m perusing a modern day typecase. These ancient systems for separating and organising graphics reveal what the system is capable of; they’re filled to the brim with typographic opportunities for us to exploit, and without them we are blind.
+When I look at the documentation of [Tachyons](http://tachyons.io/docs/) or [Basscss](http://www.basscss.com/), and when I begin to figure out how the padding, font size and background color of an element can be manipulated so easily, I can’t help but imagine that I’m perusing a modern day typecase. These ancient systems for separating and organising graphics reveal what the system is capable of; they’re filled to the brim with typographic opportunities for us to exploit, and without them we are blind.
 
 <figure class="right cell-20">
     <img src="/build/images/essays/new-typography/tachyons.jpg" alt="A picture of the Tachyons website">
@@ -420,7 +426,7 @@ Another project, also made in part by Nick Sherman, is called [Font to Width](ht
     </div>
     <figcaption>
         <h4></h4>
-        <p>How many opportunities are we neglecting by using static fonts? How many treasures lurk within the typefaces we already own? Input Sans Compressed by <a href="http://input.fontbureau.com/download/">Font Bureau</a></p>
+        <p>How many opportunities are we neglecting by using static fonts? How many treasures lurk within the typefaces that we already own? Input Sans Compressed by <a href="http://input.fontbureau.com/download/">Font Bureau</a></p>
         </figcaption>
 </figure>
 
@@ -461,6 +467,32 @@ Yet it’s thanks to this fragile relationship that readers have different expec
 
 I wouldn’t be writing here today if it was not for the many links that lead me to you, across an ocean, across a network. But where will the text lead us next, I wonder, and how will our typography continue to adapt to these changes?
 
+
+<div class="cell-t80 cell-b40">
+    <div class="island island--green cell-20 cell-t40 cell-b40 u-text--white about">
+        <div class="about__wrapper">
+            <div class="cell-b30 about__item">
+                <h4 class="h5 caps u-text--white underline">About the author</h4>
+                <p>Robin Rendle is a web designer and writer from the <span class="caps">UK</span>. Currently he writes for CSS-Tricks where he tries to make sense of the gooey, gushy underbelly of the web.</p>
+
+                <ul class="unlisted"> 
+                    <li><a href="http://twitter.com/robinrendle">@robinrendle</a></li>
+                    <li><a href="http://codepen.io/robinrendle">Codepen</a></li>
+                </ul>
+            </div>
+            <div class="about__item">
+                <h4 class="h5 underline caps u-text--white">Special thanks to:</h4>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cell-t40">
+    <h2 class="h4">Footnotes and further reading</h2>
+</div>
 
 [^1]: *Die literarische Welt*, 22 July 1927, Jan Tschichold. Translation from *Active Literature*, Christopher Burke, pp. 61. 
 
@@ -523,3 +555,4 @@ I wouldn’t be writing here today if it was not for the many links that lead me
 [^31]: In her essay [Hypertext for All](http://aworkinglibrary.com/writing/hypertext-for-all/), Mandy Brown reveals a lot of my biases towards text which makes me feel a little embarrassed. I remember talking to a web developer at [XOXO](http://2015.xoxofest.com/) and he mentioned that he was working on making a responsive comic book out of SVG. From his perspective the web was a tool for bombastic panels made up of heroes and big explosions and eye-popping graphics. I had to make the boring admission that I see the web as a rather simplistic tool for writing love letters out of text instead.
 
 [^32]: [As We May Link](https://themanual.org/read/issues/3/jeremy-keith/article), Jeremy Keith.
+
