@@ -9,10 +9,10 @@
     <link rel="author" href="https://plus.google.com/104389809267012182640">
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/css/new-web-typography.css">
+    <link rel="stylesheet" type="text/css" href="/build/css/new-web-typography.css">
 
     <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script><script src="/js/prism.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script><script src="/js/prism.js"></script>
 
     <script>
         function checkFonts(){
@@ -40,6 +40,9 @@
 <body><script type="text/javascript" id="__bs_script__">//<![CDATA[
     document.write("<script async src='/browser-sync/browser-sync-client.2.11.1.js'><\/script>".replace("HOST", location.hostname));
 //]]></script><script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
+<script type="text/javascript" id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.2.11.1.js'><\/script>".replace("HOST", location.hostname));
+//]]></script><script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script><script async="" src="/browser-sync/browser-sync-client.2.11.1.js"></script>
 
 
     <article class="h-entry">
@@ -251,14 +254,14 @@
 <p>As it happens, most fonts are not supported consistently.<sup id="fnref7"><a href="#fn7" rel="footnote">7</a></sup> They’re excluded by a mischevious operating system, or a slow browser. Or, instead, a number of problems might occur on the network, such as a web font failing to load.</p>
 
 <p>In order to solve some of these problems we can use what is known as a <em>font stack</em> in <span class="caps">CSS</span>, like so:</p>
-<div class="highlight"><pre class=" language-css"><code class=" language-css" data-lang="css"><span class="token selector">p</span> <span class="token punctuation">{</span>
+<div class="highlight"><pre class="  language-css"><code class="  language-css" data-lang="css"><span class="token selector">p</span> <span class="token punctuation">{</span>
     <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"Tiempos Text"</span>, Georgia, serif<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
 </code></pre></div>
 <p>If a font fails to load then the browser will, in most cases, try and use the next one. This is a very simple example, but I believe that we can see the core differences between a networked and un-networked text at this juncture. This single line of <span class="caps">CSS</span> exemplifies how web designers have such limited control over essential typographic components and it proves to me how splintered and fragmented our text will be experienced.</p>
 
 <p>There’s a separation between the <em>text</em> and the <em>font</em> because the font can, rather unpredictably, be any one of these three values, even if the text will always be preserved in the markup of a document, like so:</p>
-<div class="highlight"><pre class=" language-markup"><code class=" language-markup" data-lang="markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This is how we write a paragraph of text with the HTML language.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<div class="highlight"><pre class="  language-markup"><code class="  language-markup" data-lang="markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>This is how we write a paragraph of text with the HTML language.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
 </code></pre></div>
 <p>The <em>text</em> above is predictable since it will be rendered in every browser. The <em>font</em>, however, is fragile in comparison. It’s a critical point of failure for typographers to grapple with, and ultimately we must accept that preparing our typographic interfaces with failure in mind is better than the alternative. Kenneth Ormandy described this problem when he wrote that:</p>
 

@@ -15,7 +15,7 @@ var gulp = require('gulp'),
     paths = {
         styles: {
             src:   "_static/sass/screen.scss",
-            dest:  "css",
+            dest:  "build/css",
             typography: "_static/sass/new-web-typography.scss",
             lexicon: "_static/sass/visual-lexicon.scss",
             watch: ["_static/sass/*.*", "_static/sass/**/*.*"],
@@ -72,7 +72,7 @@ gulp.task('images', function(cb){
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('images')).on('error', cb)
+        .pipe(gulp.dest('build/images')).on('error', cb)
 });
 
 
@@ -121,14 +121,14 @@ gulp.task('sass', function () {
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('build/css'));
     gulp.src(paths.styles.lexicon)
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
             outputStyle: 'compressed'
         }))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('build/css'));
     gulp.src(paths.styles.typography)
         .pipe(sass({
             includePaths: ['scss'],
@@ -137,7 +137,7 @@ gulp.task('sass', function () {
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('build/css'));
 });
 
 gulp.task('work', function(){
@@ -149,7 +149,7 @@ gulp.task('work', function(){
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('build/css'))
 
     gulp.src([
         '_static/js/lib/ff-observer.js'
