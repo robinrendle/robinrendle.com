@@ -10,7 +10,12 @@ extract: On the relationship between the reader, the network and the text.
 city: San Francisco
 country: USA
 layout: new-typography
-intro: We can trace a nervous path through the links and hearts that occupy our timelines. In search of answers, we’ve peaked under the covers of Material Design and examined hundreds of pattern libraries, since one of them might be secretly withholding the principles of good design within. But why are we so obsessed with typographic rules? And if we were to make guidelines for setting text on the web, what form should those rules take?
+intro: We can trace a nervous path through the links and hearts that occupy our timelines.
+  In search of answers, we’ve peaked under the covers of Material Design and examined
+  hundreds of pattern libraries, since one of them might be secretly withholding the
+  principles of good design within. But why are we so obsessed with typographic rules?
+  And if we were to make guidelines for setting text on the web, what form should
+  those rules take?
 ---
 
 <span class="caps">In 1927, twelve months</span> before he published his infamous manifesto on typography, the German book designer Jan Tschichold criticised[^1] designers for mimicking the classical forms of design:
