@@ -12,11 +12,11 @@ layout:
     {% for post in site.posts %}
       {% unless post.link %}
       <item>
-        <title>{{ post.title | markdown: true }}</title>
+        <title>{{ post.title | markdownify }}</title>
         {% if post.excerpt %}
-          <description>{{ post.excerpt | markdown: true }}</description>
+          <description>{{ post.excerpt | markdownify }}</description>
         {% else %}
-          <description>{{ post.content | markdown: true }}</description>
+          <description>{{ post.content | markdownify }}</description>
         {% endif %}
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>
