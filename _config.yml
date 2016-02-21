@@ -1,6 +1,6 @@
 ---
 title: Robin Rendle
-url: https://robinrendle.com
+url: http://robinrendle.com
 timezone: Europe/London
 collections:
   essays:
@@ -78,4 +78,4 @@ redcarpet:
   - footnotes
   - highlight
 gems:
-  - jekyll-feed
+- jekyll-feed
