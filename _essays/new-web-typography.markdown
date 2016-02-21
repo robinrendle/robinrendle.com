@@ -1,6 +1,6 @@
 ---
 title: The New Web Typography
-date: 2016-02-17 00:00:00 +00:00
+date: 2016-02-22 00:00:00 +00:00
 published: false
 tags:
 - design
