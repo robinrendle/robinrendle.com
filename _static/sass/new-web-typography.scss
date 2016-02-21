@@ -131,7 +131,7 @@ svg {
         position: relative;
     }
     @include media(">largest") {
-        height: 100vh;
+        height: 90vh;
         display: flex;
         align-items: flex-end;
         min-height: 600px;
@@ -143,7 +143,9 @@ svg {
     margin-bottom: 0;
     background-color: $theme;
     padding: 25px 15px;
+
     @include media(">large") {
+        max-width: 700px;
         background-color: transparent;
         float: left;
         position: relative;
@@ -180,8 +182,13 @@ svg {
 
 .intro {
     margin: 0;
-    padding: 30px 0 10px 0;
+    padding: 15px 0 10px 0;
     font-size: 90%;
+
+    @include media(">medium"){
+        padding: 30px 0 10px 0;
+    }
+
     p {
         text-align: left !important;
         margin: 0;
@@ -265,7 +272,7 @@ svg {
         margin-right: auto; // center align text
         padding: 0 15px;
         @include media(">medium") {
-            padding: 0 6%;
+            padding: 0 5%;
         }
         @include media(">large") {
             padding: 0;
@@ -811,6 +818,8 @@ p > code {
         transform: 1.2;
         stroke-dasharray: $randomNumber;
         stroke-dashoffset: $randomNumber;
+        will-change: transform;
+        -webkit-transform: translateY(0);
     }
 }
 
@@ -1039,6 +1048,7 @@ a[rev="footnote"] {
     color: white;
     background: none;
     position: relative;
+
     &:after {
         content: "↑";
         position: absolute;
@@ -1048,8 +1058,10 @@ a[rev="footnote"] {
         font-size: .8em;
         bottom: 0;
         height: 20px;
-        width: 20px;
+        width: 22px;
         color: $theme;
+        background-color: white;
+        z-index: 9999;
     }
     &:hover,
     &:focus {
@@ -1110,21 +1122,44 @@ a[rev="footnote"] {
         justify-content: center;
         .about__item {
             max-width: 700px !important;
-            padding: 20px !important;
+            padding: 20px;
             width: 50vw;
         }
     }
 }
 
-.scrollable {
-    overflow: scroll;
-    svg {
-        @include media("<medium") {
-            width: 700px;
-            max-width: 700px !important;
+.about__item {
+    @include media(">large"){
+        padding: 0 20px !important;
+    }
+
+    &:last-of-type {
+        @include media("<large"){
+            margin-top: 30px;
         }
     }
 }
+
+.inverse-links {
+    a {
+        outline: 0;
+        border: none;
+        color: #eee !important;
+        background-size: 3px 3px;
+        background-position: 0 18px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, .2) 50%);
+        background-repeat: repeat-x;
+        transition: color .3s ease;
+        &:hover,
+        &:focus {
+            outline: 0;
+            color: darken($theme, 15) !important;
+            border: none;
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .2) 50%);
+        }
+    }
+}
+
 
 .footer-tschichold {
     margin: 0;
@@ -1157,27 +1192,12 @@ a[rev="footnote"] {
         &:last-of-type:after {
             content: none;
         }
-        a {
-            outline: 0;
-            border: none;
-            color: #eee !important;
-            background-size: 3px 3px;
-            background-position: 0 18px;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, .2) 50%);
-            background-repeat: repeat-x;
-            transition: color .3s ease;
-            &:hover,
-            &:focus {
-                outline: 0;
-                color: darken($theme, 15) !important;
-                border: none;
-                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .2) 50%);
-            }
-        }
     }
 }
 
 .button {
+    @include typeface("Small caps");
+    font-size: 15px !important;
     background-color: rgba(255, 255, 255, .3) !important;
     border-radius: 3px;
     padding: 4px 10px !important;
@@ -1233,8 +1253,13 @@ a[rev="footnote"] {
 
         .wf-active &.realItalics {
             font-family: "Nocturno Regular Italic 32" !important;
+            font-style: normal;
         }
     }
+}
+
+h1 {
+    margin: 0;
 }
 
 @import "objects/cell"; // !important

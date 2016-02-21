@@ -6,11 +6,11 @@ tags:
 - design
 - css
 - jan tschichold
-extract: On the relationship between the reader, the network and the text.
+extract: How should we go about making rules for typesetting on the web?
 city: San Francisco
 country: USA
 layout: new-typography
-intro: We can trace a nervous path through the links and hearts that occupy our timelines. In search of answers, we’ve peaked under the covers of Material Design and examined hundreds of pattern libraries, since one of them might be secretly withholding the principles of good design within. But why are we so obsessed with typographic rules? And if we were to make guidelines for setting text on the web, what form should those rules take?
+intro: We can trace a nervous path through the links and hearts that occupy our timelines. In search of answers, we’ve carefully dissected Material Design and examined hundreds of pattern libraries, since any one of them might be secretly withholding the principles of good design within. But why are we obsessed with typographic rules? And if we were to make guidelines for setting text on the web, what form should those rules take?
 ---
 
 <span class="caps">In 1927, twelve months</span> before he published his infamous manifesto on typography, the German book designer Jan Tschichold criticised[^1] designers for mimicking the classical forms of design:
@@ -428,7 +428,7 @@ Another project, also made in part by Nick Sherman, is called [Font to Width](ht
 <figure class="island island--transparent cell-t40 cell-b0 cell-20 cell-t80--large letters">
     <div class="cell-b40">
         <svg class="svg-interpolate" viewBox="0 0 601 153" xmlns="http://www.w3.org/2000/svg">
-        <title>SVG</title>
+        <title>An animation of multiple letters in Input Sans</title>
         <g fill-opacity=".22" fill="transparent" fill-rule="evenodd">
             <path class="interpolate-1" d="M452.436 123V12.455h65.5v18.24h-40.627v24.043h35.512v18.24H477.31v31.782h40.625V123h-65.5zm147.137-19.207c-1.843 6.356-5.712 11.377-11.608 15.062-5.895 3.684-13.127 5.527-21.694 5.527-10.132 0-18.055-2.672-23.766-8.015-5.712-5.343-8.568-12.712-8.568-22.11v-25.84c0-9.303 2.948-16.58 8.844-21.832 5.896-5.25 14.048-7.876 24.458-7.876 10.318 0 18.4 2.67 24.25 8.014 5.85 5.343 8.776 12.712 8.776 22.11v17.41H558.81v8.014c0 5.527.69 9.327 2.072 11.4 1.382 2.073 3.96 3.11 7.738 3.11 2.856 0 5.067-.738 6.633-2.212 1.566-1.474 3.086-4.19 4.56-8.152l19.76 5.39zM558.81 68.556v4.837h16.58V68.97c0-5.803-.598-9.787-1.795-11.952-1.198-2.165-3.363-3.247-6.495-3.247s-5.297 1.037-6.495 3.11c-1.197 2.073-1.796 5.965-1.796 11.676zM276.036 123h-24.872V81.545l-30.262-69.09h25.702l17.41 49.054 18.102-49.055h24.182l-30.262 69.09V123zm51.515 29.156c-3.04 0-6.378-.138-10.017-.414-3.64-.277-7.577-.69-11.815-1.244l.83-17.273c3.224.46 6.102.83 8.636 1.106 2.533.277 4.813.415 6.84.415 6.08 0 10.202-1.22 12.367-3.66 2.166-2.443 3.617-5.874 4.354-10.296l.276-1.66h-18.655L304.06 40.09h23.905l12.99 67.986 11.47-67.985h23.213l-14.51 81.943c-1.84 10.41-5.503 18.032-10.984 22.87-5.482 4.835-13.012 7.253-22.593 7.253zM64.138 140.327c-14.647 2.303-24.965 1.083-30.953-3.662-5.987-4.744-8.843-14.07-8.567-27.98-7.738-2.12-13.703-6.127-17.894-12.023C2.532 90.766.436 83.396.436 74.552v-38c0-11.33 3.34-20.243 10.02-26.737C17.132 3.32 26.598.073 38.85.073c12.345 0 21.81 3.247 28.397 9.742 6.587 6.494 9.88 15.407 9.88 26.738v38c0 10.686-3.017 19.16-9.05 25.425-6.035 6.264-14.58 9.72-25.633 10.364.368 5.803 1.934 9.488 4.698 11.054 2.763 1.566 7.646 1.474 14.647-.276l2.348 19.207zM38.85 93.207c5.344 0 8.914-1.36 10.71-4.076 1.796-2.717 2.695-8.22 2.695-16.512v-34.13c0-8.015-.9-13.38-2.695-16.1-1.796-2.716-5.366-4.075-10.71-4.075-5.434 0-9.05 1.36-10.846 4.076-1.797 2.717-2.695 8.083-2.695 16.097v34.13c0 8.292.897 13.796 2.694 16.514 1.796 2.718 5.412 4.077 10.847 4.077zm94.905 46.43v-39.66h-3.04c-1.106 4.423-3.18 7.762-6.22 10.02-3.04 2.256-7 3.385-11.882 3.385-6.725 0-11.792-2.35-15.2-7.047-3.41-4.7-5.113-11.654-5.113-20.866V56.59c0-9.397 2.833-16.49 8.498-21.28 5.666-4.79 14.118-7.186 25.357-7.186 6.54 0 12.62.967 18.24 2.9 5.62 1.936 10.363 4.654 14.232 8.154v100.458h-24.872zm-9.95-44.633c1.474 0 3.156-.46 5.044-1.382 1.888-.92 3.523-2.58 4.905-4.975v-40.21c-.922-.922-2.165-1.682-3.73-2.28-1.567-.6-3.41-.9-5.53-.9-2.762 0-4.674.853-5.733 2.558-1.06 1.704-1.59 4.72-1.59 9.05v26.67c0 4.145.623 7.093 1.866 8.843 1.244 1.75 2.833 2.626 4.767 2.626z"/>
             <path class="interpolate-2" d="M454.436 123V12.455h62.597v16.03h-41.455v26.944h36.204v16.166h-36.204v35.375h41.455V123h-62.597zm140.09-18.793c-1.935 6.45-5.666 11.423-11.193 14.924-5.528 3.502-12.298 5.252-20.313 5.252-9.58 0-17.11-2.626-22.593-7.877-5.48-5.25-8.222-12.482-8.222-21.694V68.143c0-9.212 2.787-16.42 8.36-21.626 5.574-5.205 13.29-7.807 23.146-7.807 9.674 0 17.274 2.67 22.8 8.014 5.528 5.343 8.292 12.712 8.292 22.11v16.72h-41.455v9.257c0 5.805.852 9.812 2.557 12.023 1.704 2.21 4.63 3.316 8.774 3.316 3.5 0 6.126-.784 7.877-2.35 1.75-1.566 3.316-4.376 4.698-8.43l17.272 4.837zm-41.18-35.927v5.25h20.314v-4.56c0-6.08-.76-10.34-2.28-12.78-1.52-2.442-4.122-3.663-7.807-3.663-3.685 0-6.31 1.175-7.877 3.524-1.566 2.35-2.35 6.426-2.35 12.23zM274.305 123h-21.14V81.545l-30.125-69.09h22.11l19.068 51.403 19.346-51.403h20.865l-30.125 69.09V123zm48.475 28.88c-2.672 0-5.596-.138-8.775-.415-3.178-.276-6.61-.644-10.294-1.105l.968-15.476c2.856.46 5.458.83 7.807 1.105 2.35.275 4.4.414 6.15.414 5.527 0 9.373-1.22 11.538-3.662 2.165-2.44 3.708-5.965 4.63-10.57l.275-1.66h-14.923l-17.826-80.42h20.726l14.095 69.366 12.99-69.367h20.036l-16.72 85.12c-2.026 9.397-5.55 16.19-10.57 20.383-5.02 4.19-11.723 6.287-20.106 6.287zM65.724 139.636c-13.45 2.303-23.1 1.152-28.95-3.454-5.85-4.606-8.728-13.266-8.636-25.978-8.29-1.66-14.647-5.482-19.07-11.47-4.42-5.987-6.632-13.772-6.632-23.352v-38.69c0-11.516 3.18-20.498 9.535-26.947C18.328 3.297 27.356.073 39.056.073c11.7 0 20.68 3.224 26.945 9.672 6.264 6.45 9.396 15.43 9.396 26.946v38.692c0 10.502-2.694 18.862-8.083 25.08-5.39 6.218-13.15 9.788-23.284 10.71.368 5.895 2.003 9.74 4.905 11.537 2.9 1.795 7.807 1.865 14.716.206l2.074 16.72zM39.054 96.11c5.804 0 9.788-1.567 11.953-4.7 2.165-3.13 3.248-8.935 3.248-17.41V38.073c0-8.383-1.083-14.14-3.248-17.273-2.165-3.132-6.15-4.698-11.952-4.698-5.896 0-9.95 1.566-12.16 4.698-2.21 3.132-3.317 8.89-3.317 17.273V74c0 8.475 1.106 14.28 3.317 17.41 2.21 3.133 6.264 4.7 12.16 4.7zm92.97 43.526v-39.243h-3.04c-1.198 4.237-3.363 7.462-6.495 9.672-3.133 2.21-7.048 3.317-11.746 3.317-6.633 0-11.654-2.395-15.062-7.186-3.41-4.79-5.113-11.79-5.113-21.003V56.59c0-9.305 2.763-16.398 8.29-21.28 5.527-4.883 13.45-7.325 23.767-7.325 6.08 0 11.77.876 17.066 2.626 5.297 1.75 9.788 4.192 13.472 7.325v101.7h-21.14zm-12.16-42.698c2.118 0 4.26-.622 6.425-1.865 2.164-1.244 4.075-3.386 5.734-6.426v-41.87c-1.198-1.104-2.695-1.956-4.49-2.555-1.798-.6-3.847-.898-6.15-.898-3.225 0-5.643 1.013-7.255 3.04-1.613 2.026-2.42 5.527-2.42 10.5v26.532c0 4.79.715 8.245 2.143 10.364 1.428 2.12 3.43 3.178 6.01 3.178z"/><g><path d="M459.68 123V12.455h60.662v14.647h-41.87v28.742h36.62V70.63h-36.62v37.723h41.87V123H459.68zm137.878-18.655c-1.934 6.633-5.527 11.63-10.778 14.993-5.25 3.363-11.745 5.044-19.484 5.044-9.304 0-16.604-2.603-21.9-7.807-5.298-5.205-7.947-12.368-7.947-21.488V68.004c0-9.12 2.694-16.283 8.083-21.488 5.39-5.205 12.78-7.807 22.178-7.807 9.305 0 16.63 2.67 21.972 8.014 5.343 5.343 8.014 12.712 8.014 22.11V85h-41.454v10.087c0 5.896.944 10.04 2.833 12.437 1.888 2.395 5.043 3.592 9.465 3.592 3.87 0 6.748-.83 8.636-2.487 1.89-1.66 3.478-4.56 4.768-8.706l15.614 4.42zm-41.316-36.203v5.527h22.662v-4.7c0-6.17-.876-10.593-2.626-13.265-1.75-2.67-4.652-4.007-8.705-4.007-4.054 0-6.955 1.267-8.706 3.8-1.75 2.534-2.625 6.748-2.625 12.644zM276.2 123h-18.793V81.545l-29.985-69.09h19.76l20.036 53.06 20.175-53.06h18.654L276.2 81.545V123zm48.75 28.742c-2.486 0-5.158-.138-8.014-.415a225.494 225.494 0 0 1-9.258-1.105l1.244-14.233c2.58.46 4.95.828 7.116 1.105 2.165.276 4.077.414 5.735.414 5.066 0 8.682-1.222 10.847-3.663 2.165-2.44 3.846-6.01 5.044-10.71l.276-1.657h-12.575l-18.792-81.39h18.516l15.06 70.335 13.957-70.334h17.964l-18.377 87.194c-2.21 8.843-5.666 15.13-10.364 18.86-4.7 3.732-10.825 5.598-18.38 5.598zM70.83 139.222c-12.714 2.21-21.972 1.082-27.775-3.386-5.804-4.468-8.706-12.643-8.706-24.527-8.568-1.383-15.155-5.114-19.76-11.194-4.607-6.08-6.91-14.14-6.91-24.18V36.828c0-11.7 3.063-20.75 9.19-27.154C22.994 3.274 31.723.073 43.054.073c11.33 0 20.036 3.2 26.116 9.603 6.08 6.403 9.12 15.454 9.12 27.153v39.105c0 10.41-2.532 18.7-7.6 24.872-5.066 6.172-12.297 9.81-21.694 10.917.37 6.08 2.073 10.087 5.113 12.02 3.04 1.936 7.92 2.074 14.646.416l2.073 15.062zM43.054 97.905c6.08 0 10.34-1.68 12.78-5.043C58.28 89.5 59.5 83.535 59.5 74.967v-37.17c0-8.568-1.22-14.556-3.662-17.964-2.44-3.41-6.7-5.113-12.78-5.113-6.174 0-10.48 1.704-12.92 5.113-2.443 3.408-3.663 9.396-3.663 17.963v37.17c0 8.57 1.22 14.533 3.662 17.896 2.44 3.362 6.747 5.043 12.92 5.043zm94.212 41.73v-39.104h-3.04c-1.197 4.146-3.362 7.325-6.494 9.535-3.132 2.21-7.048 3.317-11.746 3.317-6.54 0-11.538-2.44-14.992-7.324-3.455-4.882-5.182-11.93-5.182-21.142V56.59c0-9.305 2.717-16.42 8.152-21.35 5.436-4.93 12.99-7.393 22.662-7.393 5.804 0 11.262.806 16.375 2.418 5.113 1.613 9.465 3.847 13.058 6.702v102.67h-18.793zm-13.68-41.453c2.58 0 5.044-.76 7.393-2.28 2.35-1.52 4.445-3.984 6.287-7.393V45.534c-1.382-1.198-3.017-2.096-4.905-2.695-1.89-.6-4.077-.898-6.564-.898-3.685 0-6.47 1.15-8.36 3.454-1.888 2.303-2.833 6.126-2.833 11.47v26.53c0 5.25.76 9.028 2.28 11.33 1.52 2.304 3.754 3.456 6.702 3.456z"/>
@@ -468,9 +468,9 @@ By stark contrast, our current implementation of the limited `font-weight` value
     </figure>
 </div>
 
-Tschichold once saw frailty in a design system as being the visual references it made to a particular time and culture where certain graphic elements had been so overused that they became clichés. But it wasn’t until many years later that, as Jan, he would become “the most severe critic of the young Tschichold.”[^27]
+Tschichold once saw frailty in a design system as being the visual references it made to a particular time and culture where certain graphic elements had been so overused that they became clichés. It wasn’t until many years later that, as Jan, he would become “the most severe critic of the young Tschichold.”[^27]
 
-The elderly Tschichold was a little too severe when looking back at the work of Iwan and Johannes however, since the New Typography, as a movement and as a manifesto, is still important for many reasons. The first and foremost is that designers, even today, are always on the lookout for typographic laws and principles to guide them.
+The elderly Jan Tschichold was a little too severe when looking back at the work of Iwan and Johannes however, since the New Typography, as a movement and as a manifesto, is still important for many reasons. The first and foremost is that designers, even today, are always on the lookout for typographic laws and principles to guide them.
 
 Like Tschichold, for a time I believed that we could very easily define what good typography is. For instance, we could say that good typography is surprising and charming.[^28] Or we could be more verbose and say that good typography is a well documented technical and graphic system. Subsequently, it’s said by many designers that a legible paragraph of text should have a measure, or width from one side to the other, of roughly 75 characters. But what happens in scenarios when that’s entirely impossible? What do we do then? How on earth can small devices be capable of good typography if the classical rules of typography no longer apply? 
 
@@ -482,7 +482,7 @@ As disturbing as this was to read at the time, I soon found that almost every pi
 
 I suppose that these suggestions all deal with the instability I find when setting text for the web, and I hope mean to remind myself of this when a new feature replaces an older one in a browser, or a new hack emerges. I want to consider technical implications of my decisions, and I want to ensure that we think about the effects of an unstable network sending an unstable codebase, only to be interpreted by an unstable browsing environment. 
 
-Our hypertext, as fabulous as it might be,[^31] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability inbetween reader and text; I see little use in building castles out of sand.
+Our hypertext, as fabulous as it might be,[^31] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability between reader and text; I see little use in building castles out of sand.
 
 Yet it’s thanks to this fragile relationship that readers have different expectations of the text itself—words are no longer the ancillaries of simply *reading*. Now a reader can travel through the letters via their hyper-trans-dimensional magic, each link forming a gateway to many greater, more elaborate, adventures.[^32]
 
@@ -509,8 +509,13 @@ I wouldn’t be writing here today if it were not for the many links that lead m
                         <a class="button" href="mailto:desk@robinrendle.com">Email</a>
                     </li>
                 </ul>
+                    
+                <div class="cell-t20">
+                    <h4 class="h5 caps u-text--white underline">Colophon</h4>
+                    <p class="inverse-links">Headline text is set in <a href="http://www.houseind.com/fonts/signpainter">SignPainter HouseUpright</a> by House Industries. Running text is set in <a href="http://www.typonine.com/fonts/font-library/nocturno/">Nocturno</a> by Typonine.</p>
+                </div>
             </div>
-            <div class="about__item">
+            <div class="about__item inverse-links cell-t20">
                 <h4 class="h5 underline caps u-text--white">Special thanks to:</h4>
                 <ul class="thanks-list">
                     <li><a href="https://www.youtube.com/watch?v=c2EJMd7ZN7w">Grimes</a></li>
@@ -522,6 +527,7 @@ I wouldn’t be writing here today if it were not for the many links that lead m
                     <li><a href="http://www.scottkellum.com/">Scott Kellum</a></li>
                     <li><a href="http://clagnut.com/">Richard Rutter</a></li>
                     <li><a href="http://www.retinart.com/">Alexander Charchar</a></li>
+                    <li><a href="http://www.bramstein.com/">Bram Stein</a></li>
                     <li><a href="http://twitter.com/maxfenton">Max Fenton</a></li>
                     <li><a href="http://simplygoodwork.com/">Garrett Winder</a></li>
                     <li><a href="http://jxnblk.com/">Brent Jackson</a></li>
@@ -577,9 +583,9 @@ I wouldn’t be writing here today if it were not for the many links that lead m
 
 [^13]: [Flash of Faux Text – still more on font loading](http://www.zachleat.com/web/foft/), Zach Leatherman.
 
-[^14]: For an example of the differences between these various kinds, be sure to read Toshi Omigari’s piece on [Italic subtleties](http://tosche.net/2014/02/italic-subtleties_en.html), and especially make note of the accompanying [illustration](http://tosche.net/blog/wp-content/uploads/jacksons1.png).
+[^14]: For an example of the differences between these various kinds, be sure to read Toshi Omagari’s piece on [Italic subtleties](http://tosche.net/2014/02/italic-subtleties_en.html), and especially make note of the accompanying [illustration](http://tosche.net/blog/wp-content/uploads/jacksons1.png).
 
-[^15]: I’m unsure whether this technique of subsetting fonts is applicable to all languages, just take a look at the complexity of [Vietnamese typography](https://vietnamesetypography.com) for instance. (Update: Donny Truong informed me that browsers will use diacritics from Georgia or Times New Roman which is better than not having them at all, but is not ideal.)
+[^15]: I’m unsure whether this technique of subsetting fonts is applicable to all languages, just take a look at the complexity of [Vietnamese typography](https://vietnamesetypography.com) for instance. (Update: Donny Truong informs me that browsers will use diacritics from Georgia or Times New Roman which is better than not having them at all, but is not ideal.)
 
 [^16]: [styleguides.io](http://styleguides.io/articles.html) is a wonderful resource by [Anna Debenham](http://maban.co.uk/) that collects the latest articles, resources and workflows for creating styleguides and pattern libraries.
 
@@ -589,7 +595,7 @@ I wouldn’t be writing here today if it were not for the many links that lead m
 
 [^19]: [The Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/), Harry Roberts.
 
-[^20]: <span class="caps">CSS</span> is seen as a silly, broken language by many developers and so calling it an API might draw a scoff or two from certain crowds. Chris Eppstein digs into some of these misconceptions in his talk called [The Expanding Boundaries of CSS](http://www.thedotpost.com/2015/12/chris-eppstein-the-expanding-boundaries-of-css).
+[^20]: <span class="caps">CSS</span> is seen as a silly, broken language by many developers and so calling it an <span class="caps">API</span> might draw a scoff or two from certain crowds. Chris Eppstein digs into some of these misconceptions in his talk called [The Expanding Boundaries of CSS](http://www.thedotpost.com/2015/12/chris-eppstein-the-expanding-boundaries-of-css).
 
 [^21]: This is what I was trying to explain in [*A Visual Lexicon*](https://robinrendle.com/essays/a-visual-lexicon/)
 
@@ -603,7 +609,7 @@ I wouldn’t be writing here today if it were not for the many links that lead m
 
 [^26]: [*Live Font Interpolation on the web*](http://alistapart.com/article/live-font-interpolation-on-the-web), Andrew Johnson.
 
-[^27]: Tschichold changed his name from Iwan to Jan because of the stigma of Communism, which in Munich prevented him from finding employment. I found this quote from [an article in McSweeneys](http://www.mcsweeneys.net/articles/tschichold-nazis-and-allen-lane-the-modernist-politics-of-type), but there was no further attribution or source. &lt;insert rant about writers that don’t care about attribution/>
+[^27]: Tschichold changed his name from Iwan to Jan because of the stigma of Communism, which in Munich prevented him from finding employment. I found this quote from [an article in McSweeneys](http://www.mcsweeneys.net/articles/tschichold-nazis-and-allen-lane-the-modernist-politics-of-type).
 
 [^28]: Tschichold’s contemporary Kurt Schwitters said that: “Innumerable rules get written about typography. The most important is: never do it as someone has done it before you.” ‘Thesen über Typographie’, *Merz* no.11, 1924
 
