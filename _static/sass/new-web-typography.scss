@@ -4,7 +4,7 @@
 $base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
-$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px, gigantic: 1300px) !default;
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px, gigantic: 1400px) !default;
 $max-width: 700px;
 $theme: #319f90;
 $font-stack: Georgia,
@@ -145,7 +145,7 @@ svg {
     padding: 25px 15px;
 
     @include media(">large") {
-        max-width: 700px;
+        max-width: 720px;
         background-color: transparent;
         float: left;
         position: relative;
@@ -165,8 +165,12 @@ svg {
     }
 
     @include media(">gigantic") {
-        left: 350px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
+
     .title__text-wrapper {
         max-width: $max-width !important;
         margin: 0 auto;

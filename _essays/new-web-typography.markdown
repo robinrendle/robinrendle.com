@@ -1,14 +1,13 @@
 ---
 title: The New Web Typography
 date: 2016-02-22 00:00:00 +00:00
-published: false
 tags:
 - design
 - css
 - jan tschichold
 extract: How should we go about making rules for typesetting on the web?
-city: San Francisco
-country: USA
+city: Plymouth
+country: UK
 layout: new-typography
 intro: We can trace a nervous path through the links and hearts that occupy our timelines.
   In search of answers, we’ve peaked under the covers of Material Design and examined
