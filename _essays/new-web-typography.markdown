@@ -1,6 +1,7 @@
 ---
 title: The New Web Typography
 date: 2016-02-22 00:00:00 +00:00
+published: false
 tags:
 - design
 - css
@@ -8,13 +9,13 @@ tags:
 extract: How should we go about making rules for typesetting on the web?
 city: Plymouth
 country: UK
-layout: new-typography
 intro: We can trace a nervous path through the links and hearts that occupy our timelines.
   In search of answers, we’ve peaked under the covers of Material Design and examined
   hundreds of pattern libraries, since one of them might be secretly withholding the
   principles of good design within. But why are we obsessed with typographic rules?
   And if we were to make guidelines for setting text on the web, what form should
   those rules take?
+layout: new-typography
 ---
 
 <span class="caps">In 1927, twelve months</span> before he published his infamous manifesto on typography, the German book designer Jan Tschichold criticised[^1] designers for mimicking the classical forms of design:
@@ -624,4 +625,3 @@ I wouldn’t be writing here today if it were not for the many links that lead m
 [^31]: In her essay [Hypertext for All](http://aworkinglibrary.com/writing/hypertext-for-all/), Mandy Brown reveals a lot of my biases towards text which makes me feel a little embarrassed. I remember talking to a web developer at [XOXO](http://2015.xoxofest.com/) and he mentioned that he was working on making a responsive comic book out of SVG. From his perspective the web was a tool for bombastic panels made up of heroes and big explosions and eye-popping graphics. I had to make the boring admission that I see the web as a rather simplistic tool for writing love letters out of text instead.
 
 [^32]: [As We May Link](https://themanual.org/read/issues/3/jeremy-keith/article), Jeremy Keith.
-
