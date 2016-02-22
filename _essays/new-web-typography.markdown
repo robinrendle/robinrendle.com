@@ -488,7 +488,7 @@ I suppose that these suggestions all deal with the instability I find when setti
 
 Our hypertext, as fabulous as it might be,[^30] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability between reader and text; I see little use in building castles out of sand.
 
-Yet it’s thanks to this fragile relationship that readers have different expectations of the text itself—words are no longer the ancillaries of simply *reading*. Now a reader can travel through the letters via their hyper-trans-dimensional magic, each link forming a gateway to many greater, more elaborate, adventures.[^32]
+Yet it’s thanks to this fragile relationship that readers have different expectations of the text itself—words are no longer the ancillaries of simply *reading*. Now a reader can travel through the letters via their hyper-trans-dimensional magic, each link forming a gateway to many greater, more elaborate, adventures.[^31]
 
 I wouldn’t be writing here today if it were not for the many links that lead me to you, across an ocean, across a network. But where will the text lead us next, I wonder, and how will our typography continue to adapt to these changes?
 
