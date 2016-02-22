@@ -1,7 +1,5 @@
 ---
-name: Robin Rendle
 title: Robin Rendle
-description: Typography, design and front-end development.
 url: http://robinrendle.com
 timezone: Europe/London
 collections:
@@ -60,6 +58,8 @@ defaults:
   values:
     permalink: "/work/:title/"
     layout: work-detail
+name: Robin Rendle
+description: Typography, design and front-end development.
 permalink: pretty
 current_location: Nottingham, UK
 markdown: redcarpet
