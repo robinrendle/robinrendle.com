@@ -212,7 +212,7 @@ This has led me to three principles, suggestions, outlines, or rather *things-th
 
 In printed material, such as in a book or a poster, the text and the font are one and the same. Something peculiar happened when typography became entwined with the web though, since there was now a colossal number of systems that could render that text. Unfortunately however these systems couldn’t agree with one another about anything, especially when it came to typography.
 
-As it happens, most fonts are not supported consistently.[^8] They’re excluded by a mischevious operating system, or a slow browser. Or, instead, a number of problems might occur on the network, such as a web font failing to load.
+As it happens, most fonts are not supported consistently.[^7] They’re excluded by a mischevious operating system, or a slow browser. Or, instead, a number of problems might occur on the network, such as a web font failing to load.
 
 In order to solve some of these problems we can use what is known as a *font stack* in <span class="caps">CSS</span>, like so:
 
@@ -241,17 +241,17 @@ The *text* above is predictable since it will be rendered in every browser. The 
     </figcaption>
 </figure>
 
-Kenneth was riffing on the book *Combining Typefaces*[^9] in which [Tim Brown](http://nicewebtype.com) argued that typography on the web should be “centered on the principle of progressive enhancement—that a text itself is fundamentally more important than our suggestions about how it should be typeset.”
+Kenneth was riffing on the book *Combining Typefaces*[^8] in which [Tim Brown](http://nicewebtype.com) argued that typography on the web should be “centered on the principle of progressive enhancement—that a text itself is fundamentally more important than our suggestions about how it should be typeset.”
 
-We can learn more about prioritising the text in this way by diving deeper into the murky waters of web font loading: in [my walkthrough on the subject](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/) I mentioned two of the most popular techniques. In the first approach all of the text is hidden until the font has been successfully requested—this technique is commonly known as the Flash of Invisible Text (or <span class="caps">FOIT</span>) for this very reason. In the second, a webpage will always show the fallback font until the fancy web font has loaded, after which it will then be switched out for the other. In this way, the browser will show a strange Flash of Unstyled Text (or <span class="caps">FOUT</span>), but the text will always be there for the reader.[^10]
+We can learn more about prioritising the text in this way by diving deeper into the murky waters of web font loading: in [my walkthrough on the subject](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/) I mentioned two of the most popular techniques. In the first approach all of the text is hidden until the font has been successfully requested—this technique is commonly known as the Flash of Invisible Text (or <span class="caps">FOIT</span>) for this very reason. In the second, a webpage will always show the fallback font until the fancy web font has loaded, after which it will then be switched out for the other. In this way, the browser will show a strange Flash of Unstyled Text (or <span class="caps">FOUT</span>), but the text will always be there for the reader.[^9]
 
 <img src="/images/essays/new-typography/browsers.jpg" alt="A diagram of two websites using the FOIT and FOUT approaches of loading text">
 
-The web developer Scott Jehl has shown[^11] that the <span class="caps">FOIT</span> approach caused the text in one example to be visible in 2.7s on a 3G connection whereas the <span class="caps">FOUT</span> approach made the text visible in 0.6s. The final approach, where the text is not hidden by <span class="caps">CSS</span> or JavaScript, is therefore much faster for the user, more robust for the network, and manages to prioritise the text over the font.
+The web developer Scott Jehl has shown[^10] that the <span class="caps">FOIT</span> approach caused the text in one example to be visible in 2.7s on a 3G connection whereas the <span class="caps">FOUT</span> approach made the text visible in 0.6s. The final approach, where the text is not hidden by <span class="caps">CSS</span> or JavaScript, is therefore much faster for the user, more robust for the network, and manages to prioritise the text over the font.
 
 If you happen to be a typographer from any other realm then you might feel a bit queasy, since this obviously sounds rather perverse. Designers pick certain typefaces because they compliment the written word, why must they be limited to a grotesque smorgasbord of flashing text before they reveal their beautiful typefaces? 
 
-From the perspective of a developer this is merely the consequence of sending text via an unstable network; the technique itself is not to blame. We can either feign the same level of control as print designers and ignore these technical considerations at the expense of the reader, or we can instead learn how to dance with this new web typography, what with all its quirks and clumsiness.[^12]
+From the perspective of a developer this is merely the consequence of sending text via an unstable network; the technique itself is not to blame. We can either feign the same level of control as print designers and ignore these technical considerations at the expense of the reader, or we can instead learn how to dance with this new web typography, what with all its quirks and clumsiness.[^11]
 
 <div class="big">
     <div class="text">
@@ -261,7 +261,7 @@ From the perspective of a developer this is merely the consequence of sending te
 
 Continuing on this thread, earlier this year Zach Leatherman wrote a post called [*Critical Web Fonts*](http://www.zachleat.com/web/critical-webfonts/) where he argued that first we should load a tiny font file which has been *subsetted*—which means that certain characters have been removed—in order for the font to contain upper and lowercase characters from A-Z. Then, we should make a separate request for the full font file—think punctuation, ligatures and other such typographic niceties. Effectively the user will then see the “flash” between system font and web font much sooner, but it will then be followed by a smaller, subsequent flash when the last part of the web font loads.
 
-Zach expanded on this idea, arguing that not only is the font itself a progressive enhancement, but so are bold, italic and any other variant besides roman type. In a separate method which he described as the Flash of Faux Text,[^13] the italics and bold weights of a family are synthesised by a browser until they are ready to be downloaded.[^14] Once they’ve been successfully requested, we can then swap out the oblique and faux bold with the real web font equivalents.[^15]
+Zach expanded on this idea, arguing that not only is the font itself a progressive enhancement, but so are bold, italic and any other variant besides roman type. In a separate method which he described as the Flash of Faux Text,[^12] the italics and bold weights of a family are synthesised by a browser until they are ready to be downloaded.[^13] Once they’ve been successfully requested, we can then swap out the oblique and faux bold with the real web font equivalents.[^14]
 
 In the demo below you can see the differences between a faux italic, generated by the browser from the regular font, and the real italics:
 
@@ -281,7 +281,7 @@ If we were designing a print document, using faux shapes like this would be seen
 
 A cautious, uncertain balancing act exists between the art and the mechanics of setting text. This became clear to me when I realised the foolishness of building complex typographic systems without a low-level <span class="caps">CSS</span> toolkit and clear documentation for laying out text on a webpage with a list of components. These could be instructions as how to make a list look like a certain type of list, or instead, how margins, padding and other relationships work in sync together.
 
-Much has been written[^16] about them, but what’s most interesting to me is their ability to help us visualise the possible, latent relationships between things.
+Much has been written[^15] about them, but what’s most interesting to me is their ability to help us visualise the possible, latent relationships between things.
 
 When I look at the documentation of [Tachyons](http://tachyons.io/docs/) or [Basscss](http://www.basscss.com/), and when I begin to figure out how the padding, font size and background color of an element can be manipulated, I can’t help but imagine that I’m perusing a modern day typecase. This ancient system for separating and organising typographic objects quickly reveals what the system is capable of; they’re filled to the brim with opportunities for us to exploit, and without them we are blind.
 
@@ -289,9 +289,9 @@ When I look at the documentation of [Tachyons](http://tachyons.io/docs/) or [Bas
     <img src="/images/essays/new-typography/tachyons.jpg" alt="A picture of the Tachyons website">
 </figure>
 
-Modern variants of these tools are vital for typography on the web because simple decisions can have an unexpected, even violent impact[^17] on unrelated parts of the system. A single line of <span class="caps">CSS</span> or a classname added in haste can break layouts and render the text either illegible or ugly.
+Modern variants of these tools are vital for typography on the web because simple decisions can have an unexpected, even violent impact[^16] on unrelated parts of the system. A single line of <span class="caps">CSS</span> or a classname added in haste can break layouts and render the text either illegible or ugly.
 
-How do we deal with the padding between elements then? What is the relationship between different headings? How can layouts be broken up into strings of code without those relationships becoming a source of confusion?[^18] To answer these questions successfully we desperately require a variety of tools to help us visualize relationships between the code (how it works) and the design (how it ought to work).
+How do we deal with the padding between elements then? What is the relationship between different headings? How can layouts be broken up into strings of code without those relationships becoming a source of confusion?[^17] To answer these questions successfully we desperately require a variety of tools to help us visualize relationships between the code (how it works) and the design (how it ought to work).
 
 <div class="cell-t40">
     <h3 class="caps u-noMargins u-text--green">Suggestion #3</h3>
@@ -300,7 +300,7 @@ How do we deal with the padding between elements then? What is the relationship 
 
 As I mentioned previously, font loading is certainly one area where we can spot a weakness or two, but I think it’s best to classify the weaknesses of a typographic system in order to best identify them in our work: I believe there are failures of *programming* and then there are failures of *aesthetics*.
 
-First, the typographic frailties to be found in the *programming* of these design systems are most likely to be revealed inside a large, half-organised codebase, mostly made up of <span class="caps">CSS</span>. For example, a measure of a website’s selector specificity[^19] is one instance where we can immediately identify structural weaknesses.
+First, the typographic frailties to be found in the *programming* of these design systems are most likely to be revealed inside a large, half-organised codebase, mostly made up of <span class="caps">CSS</span>. For example, a measure of a website’s selector specificity[^18] is one instance where we can immediately identify structural weaknesses.
 
 <div class="cell-b30 cell-t30 cell-l40--large cell-r40--large">
     <figure class="island island--light cell-t60 cell-b0--medium">
@@ -382,9 +382,9 @@ First, the typographic frailties to be found in the *programming* of these desig
     </figure>
 </div>
 
-There are two noticeable peaks in the plot above where fragile code, or very specific <span class="caps">CSS</span> selectors, can be found. This is likely to cause problems elsewhere, as the code is either overwriting previous code or, even worse perhaps, it attempts to make sure that no-one can overwrite it in the future. Bits of code like this can influence the act of typography in strange and unpredictable ways—when we set text on the web we should ideally require a consistent and reliable <span class="caps">API</span>[^20] for doing so. Specific code like this is bound to stop us dead in our tracks because if we add a class to an element such as `.font--bold` and it doesn’t do what we expect it to then the programmatic weakness of the system is revealing its ugly face.
+There are two noticeable peaks in the plot above where fragile code, or very specific <span class="caps">CSS</span> selectors, can be found. This is likely to cause problems elsewhere, as the code is either overwriting previous code or, even worse perhaps, it attempts to make sure that no-one can overwrite it in the future. Bits of code like this can influence the act of typography in strange and unpredictable ways—when we set text on the web we should ideally require a consistent and reliable <span class="caps">API</span>[^19] for doing so. Specific code like this is bound to stop us dead in our tracks because if we add a class to an element such as `.font--bold` and it doesn’t do what we expect it to then the programmatic weakness of the system is revealing its ugly face.
 
-Likewise, aesthetic frailty can be found when designers don’t understand how a system can be replicated with code.[^21] If there isn’t an option for designers to unfold the system before their eyes and untangle the mass of dependencies that make up the codebase, then as soon as they begin to add new features to this system they are sure to duplicate functionality or override the options that already exist.
+Likewise, aesthetic frailty can be found when designers don’t understand how a system can be replicated with code.[^20] If there isn’t an option for designers to unfold the system before their eyes and untangle the mass of dependencies that make up the codebase, then as soon as they begin to add new features to this system they are sure to duplicate functionality or override the options that already exist.
 
 It’s often difficult to identify where the weakness in a design system can be found because a failure in programming will often cause a surprising failure in the aesthetics, and vice versa. Take the current implementation of declaring a `font-weight` in <span class="caps">CSS</span>. At the moment it’s horrendously limiting, and I think this has the effect of blinding us; we only see design on the web as consisting of regular, bold and italic variants.
 
@@ -422,11 +422,11 @@ There are certainly a few interesting solutions in the works for this particular
     </blockquote>
 </figure>
 
-This technique of generating multiple widths and weights from a “master”[^22] source is commonly referred to as interpolation,[^23] which [Andrew Johnson](http://aetherpoint.com) clarifies in his [demo](http://www.aetherpoint.com/blogpost/typographics-nyc-typelab-interpolation/):
+This technique of generating multiple widths and weights from a “master”[^21] source is commonly referred to as interpolation,[^22] which [Andrew Johnson](http://aetherpoint.com) clarifies in his [demo](http://www.aetherpoint.com/blogpost/typographics-nyc-typelab-interpolation/):
 
 <img class="faded" src="/images/essays/new-typography/interpolate.gif" alt="An example of interpolation">
 
-Why would we want this sort of flexibility on the web? Because loading multiple weights and widths is impractical in some cases and outright foolish in most. Yet the ability to stretch and expand a single responsive font file would supply improved performance[^24], as only one font would need to be requested, and typographic subtlety, since we could adjust the text as we see fit.
+Why would we want this sort of flexibility on the web? Because loading multiple weights and widths is impractical in some cases and outright foolish in most. Yet the ability to stretch and expand a single responsive font file would supply improved performance[^23], as only one font would need to be requested, and typographic subtlety, since we could adjust the text as we see fit.
 
 Another project, also made in part by Nick Sherman, is called [Font to Width](http://font-to-width.com/) and it shows what’s possible when responsive text can adapt to its container. As each container changes shape, so does the text within it; a new font with a more suitable width replaces its predecessor in order to best fill up the space. This demo relies on a number of scripts to switch out the fonts and calculate the remaining space, but with a responsive font format we could generate a seemingly unlimited number of styles—condensed, thin, compressed, book, medium, bold and black—with only a single font file being requested.
 
@@ -457,7 +457,7 @@ Another project, also made in part by Nick Sherman, is called [Font to Width](ht
 </figure>
 
 
-Other examples[^25] of this kind might appear at first as some kind of fancy art project, suitable for desktop wallpapers and indie art exhibits. But! This level of responsiveness reveals new methods to manipulate text, new opportunities for designers and, most interestingly, new ways to read the text itself. Andrew Johnson has called this same technique “live font interpolation”[^26] when he claimed that it:
+Other examples[^24] of this kind might appear at first as some kind of fancy art project, suitable for desktop wallpapers and indie art exhibits. But! This level of responsiveness reveals new methods to manipulate text, new opportunities for designers and, most interestingly, new ways to read the text itself. Andrew Johnson has called this same technique “live font interpolation”[^25] when he claimed that it:
 
 <figure class="quote">
     <blockquote>
@@ -473,21 +473,21 @@ By stark contrast, our current implementation of the limited `font-weight` value
     </figure>
 </div>
 
-Tschichold once saw frailty in a design system as being the visual references it made to a particular time and culture where certain graphic elements had been so overused that they became clichés. It wasn’t until many years later that, as Jan, he would become “the most severe critic of the young Tschichold.”[^27]
+Tschichold once saw frailty in a design system as being the visual references it made to a particular time and culture where certain graphic elements had been so overused that they became clichés. It wasn’t until many years later that, as Jan, he would become “the most severe critic of the young Tschichold.”[^26]
 
 The elderly Jan Tschichold was a little too severe when looking back at the work of Iwan and Johannes however, since the New Typography, as a movement and as a manifesto, is still important for many reasons. The first and foremost is that designers, even today, are always on the lookout for typographic laws and principles to guide them.
 
-Like Tschichold, for a time I believed that we could very easily define what good typography is. For instance, we could say that good typography is surprising and charming.[^28] Or we could be more verbose and say that good typography is a well documented technical and graphic system. Subsequently, it’s said by many designers that a legible paragraph of text should have a measure, or width from one side to the other, of roughly 75 characters. But what happens in scenarios when that’s entirely impossible? What do we do then? How on earth can small devices be capable of good typography if the classical rules of typography no longer apply? 
+Like Tschichold, for a time I believed that we could very easily define what good typography is. For instance, we could say that good typography is surprising and charming.[^27] Or we could be more verbose and say that good typography is a well documented technical and graphic system. Subsequently, it’s said by many designers that a legible paragraph of text should have a measure, or width from one side to the other, of roughly 75 characters. But what happens in scenarios when that’s entirely impossible? What do we do then? How on earth can small devices be capable of good typography if the classical rules of typography no longer apply? 
 
-At some point in 2011 I remember stumbling upon a guide called *On Book Design*, written by Richard Hendel,[^29] which I hoped would unmask these hidden principles. Tell me about letter spacing, I pleaded with the book. Tell me which typefaces to use! For the love of all holy things, tell me how to design a book!
+At some point in 2011 I remember stumbling upon a guide called *On Book Design*, written by Richard Hendel,[^28] which I hoped would unmask these hidden principles. Tell me about letter spacing, I pleaded with the book. Tell me which typefaces to use! For the love of all holy things, tell me how to design a book!
 
-Hendel replied to these questions in the most frustrating way imaginable, he merely stated that “it depends” on the situation, or by the context at hand. Setting text is so deceptively complicated, Hendel reasoned, that it’s impossible to give universal orders and commands about what to do and how to go about it.[^30] In other words, typography might be a science but it has no guiding light, no *Principia Mathematica*, no *Origin of Species*—there are simply too many variables, and too many problems, to list the answers themselves.
+Hendel replied to these questions in the most frustrating way imaginable, he merely stated that “it depends” on the situation, or by the context at hand. Setting text is so deceptively complicated, Hendel reasoned, that it’s impossible to give universal orders and commands about what to do and how to go about it.[^29] In other words, typography might be a science but it has no guiding light, no *Principia Mathematica*, no *Origin of Species*—there are simply too many variables, and too many problems, to list the answers themselves.
 
 As disturbing as this was to read at the time, I soon found that almost every piece of advice about design, besides “it depends”, was a well disguised cliché of some description. And so I see the flaws in the principles that I’ve half-jokingly described here as the New Web Typography. Perhaps, one day in the near future, our networks will become so fast and so dependable that we won’t have to worry about supporting untrustworthy network conditions with strange typographic hacks. Perhaps font files will become so small that subsetting them will sound as unfamiliar to us as `<table>` based layout appears to us today.
 
 I suppose that these suggestions all deal with the instability I find when setting text for the web, and I hope mean to remind myself of this when a new feature replaces an older one in a browser, or a new hack emerges. I want to consider technical implications of my decisions, and I want to ensure that we think about the effects of an unstable network sending an unstable codebase, only to be interpreted by an unstable browsing environment. 
 
-Our hypertext, as fabulous as it might be,[^31] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability between reader and text; I see little use in building castles out of sand.
+Our hypertext, as fabulous as it might be,[^30] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability between reader and text; I see little use in building castles out of sand.
 
 Yet it’s thanks to this fragile relationship that readers have different expectations of the text itself—words are no longer the ancillaries of simply *reading*. Now a reader can travel through the letters via their hyper-trans-dimensional magic, each link forming a gateway to many greater, more elaborate, adventures.[^32]
 
@@ -576,52 +576,52 @@ I wouldn’t be writing here today if it were not for the many links that lead m
 
 [^6]: “Elemental letterforms” in this instance meant sans-serif letters, but the term had also been used to signify the removal of uppercase letters from running text at this time.
 
-[^8]: Experiment with Zach Leatherman’s [Font Family Reunion](http://fontfamily.io) to see just how poorly most “web safe” fonts are supported.
+[^7]: Experiment with Zach Leatherman’s [Font Family Reunion](http://fontfamily.io) to see just how poorly most “web safe” fonts are supported.
 
-[^9]: *Combining Typefaces* by Tim Brown, [Five Simple Steps](http://www.fivesimplesteps.com/products/combining-typefaces)
+[^8]: *Combining Typefaces* by Tim Brown, [Five Simple Steps](http://www.fivesimplesteps.com/products/combining-typefaces)
 
-[^10]: For an in-depth look at the code behind loading web fonts, I wrote a tutorial [on my blog](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/).
+[^9]: For an in-depth look at the code behind loading web fonts, I wrote a tutorial [on my blog](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/).
 
-[^11]: [Font Loading Revisited with Font Events](https://www.filamentgroup.com/lab/font-events.html), Scott Jehl.
+[^10]: [Font Loading Revisited with Font Events](https://www.filamentgroup.com/lab/font-events.html), Scott Jehl.
 
-[^12]: It’s quite likely that our fancy web font will look larger or smaller than the fallback, but with the [`font-size-adjust`](https://css-tricks.com/almanac/properties/f/font-size-adjust/) property we can manually adjust the size of the text based on the size of the lower case letters. This will then smoothen out the transition between the two fonts, making the flash of text much less noticeable. Check out [demo one](http://codepen.io/team/css-tricks/pen/xwNYRX) and [demo two](http://codepen.io/team/css-tricks/pen/da315d93ee525c38f53c9e42b80e93c1) in Firefox. The two typefaces in each example look very different from one another, even though they are set at the same font size. When we toggle this property we can see that the two will look proportionally similar and thus the flash of font loading can be soothed.
+[^11]: It’s quite likely that our fancy web font will look larger or smaller than the fallback, but with the [`font-size-adjust`](https://css-tricks.com/almanac/properties/f/font-size-adjust/) property we can manually adjust the size of the text based on the size of the lower case letters. This will then smoothen out the transition between the two fonts, making the flash of text much less noticeable. Check out [demo one](http://codepen.io/team/css-tricks/pen/xwNYRX) and [demo two](http://codepen.io/team/css-tricks/pen/da315d93ee525c38f53c9e42b80e93c1) in Firefox. The two typefaces in each example look very different from one another, even though they are set at the same font size. When we toggle this property we can see that the two will look proportionally similar and thus the flash of font loading can be soothed.
 
-[^13]: [Flash of Faux Text – still more on font loading](http://www.zachleat.com/web/foft/), Zach Leatherman.
+[^12]: [Flash of Faux Text – still more on font loading](http://www.zachleat.com/web/foft/), Zach Leatherman.
 
-[^14]: For an example of the differences between these various kinds, be sure to read Toshi Omagari’s piece on [Italic subtleties](http://tosche.net/2014/02/italic-subtleties_en.html), and especially make note of the accompanying [illustration](http://tosche.net/blog/wp-content/uploads/jacksons1.png).
+[^13]: For an example of the differences between these various kinds, be sure to read Toshi Omagari’s piece on [Italic subtleties](http://tosche.net/2014/02/italic-subtleties_en.html), and especially make note of the accompanying [illustration](http://tosche.net/blog/wp-content/uploads/jacksons1.png).
 
-[^15]: I’m unsure whether this technique of subsetting fonts is applicable to all languages, just take a look at the complexity of [Vietnamese typography](https://vietnamesetypography.com) for instance. (Update: Donny Truong informs me that browsers will use diacritics from Georgia or Times New Roman which is better than not having them at all, but is not ideal.)
+[^14]: I’m unsure whether this technique of subsetting fonts is applicable to all languages, just take a look at the complexity of [Vietnamese typography](https://vietnamesetypography.com) for instance. (Update: Donny Truong informs me that browsers will use diacritics from Georgia or Times New Roman which is better than not having them at all, but is not ideal.)
 
-[^16]: [styleguides.io](http://styleguides.io/articles.html) is a wonderful resource by [Anna Debenham](http://maban.co.uk/) that collects the latest articles, resources and workflows for creating styleguides and pattern libraries.
+[^15]: [styleguides.io](http://styleguides.io/articles.html) is a wonderful resource by [Anna Debenham](http://maban.co.uk/) that collects the latest articles, resources and workflows for creating styleguides and pattern libraries.
 
-[^17]: Dan Eden explains how this is possible in his excellent talk [*Move Slow and Fix Things*](http://www.thedotpost.com/2015/12/daniel-eden-move-slow-and-fix-things)
+[^16]: Dan Eden explains how this is possible in his excellent talk [*Move Slow and Fix Things*](http://www.thedotpost.com/2015/12/daniel-eden-move-slow-and-fix-things)
 
-[^18]: I think one of the most under appreciated aspects of the new web typography is how we [normalise the original design](https://speakerdeck.com/csswizardry/normalising-designs-for-better-quality-css). *This is how the reader thinks*, says the designer. *Ah, but this is how the computer thinks*, says the developer.
+[^17]: I think one of the most under appreciated aspects of the new web typography is how we [normalise the original design](https://speakerdeck.com/csswizardry/normalising-designs-for-better-quality-css). *This is how the reader thinks*, says the designer. *Ah, but this is how the computer thinks*, says the developer.
 
-[^19]: [The Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/), Harry Roberts.
+[^18]: [The Specificity Graph](http://csswizardry.com/2014/10/the-specificity-graph/), Harry Roberts.
 
-[^20]: <span class="caps">CSS</span> is seen as a silly, broken language by many developers and so calling it an <span class="caps">API</span> might draw a scoff or two from certain crowds. Chris Eppstein digs into some of these misconceptions in his talk called [The Expanding Boundaries of CSS](http://www.thedotpost.com/2015/12/chris-eppstein-the-expanding-boundaries-of-css).
+[^19]: <span class="caps">CSS</span> is seen as a silly, broken language by many developers and so calling it an <span class="caps">API</span> might draw a scoff or two from certain crowds. Chris Eppstein digs into some of these misconceptions in his talk called [The Expanding Boundaries of CSS](http://www.thedotpost.com/2015/12/chris-eppstein-the-expanding-boundaries-of-css).
 
-[^21]: This is what I was trying to explain in [*A Visual Lexicon*](https://robinrendle.com/essays/a-visual-lexicon/)
+[^20]: This is what I was trying to explain in [*A Visual Lexicon*](https://robinrendle.com/essays/a-visual-lexicon/)
 
-[^22]: [Multiple Master fonts](https://en.wikipedia.org/wiki/Multiple_master_fonts)
+[^21]: [Multiple Master fonts](https://en.wikipedia.org/wiki/Multiple_master_fonts)
 
-[^23]: [Interpolation Theory](http://www.lucasfonts.com/about/interpolation-theory), Lucas de Groot.
+[^22]: [Interpolation Theory](http://www.lucasfonts.com/about/interpolation-theory), Lucas de Groot.
 
-[^24]: This is quite difficult to argue fairly without the implementation being in place to test it. This technique would put all the responsibility onto the browser for manipulating the font file, rather than the network for downloading them, and so estimating the various performance bottlenecks involved with that process isn’t likely to be accurate. My argument is primarily from the standpoint of a designer and user.
+[^23]: This is quite difficult to argue fairly without the implementation being in place to test it. This technique would put all the responsibility onto the browser for manipulating the font file, rather than the network for downloading them, and so estimating the various performance bottlenecks involved with that process isn’t likely to be accurate. My argument is primarily from the standpoint of a designer and user.
 
-[^25]: Such as [this responsive SVG demo](http://letterror.github.io/responsiveLettering/www/index.html) by [Erik van Blokland](http://letterror.com/)
+[^24]: Such as [this responsive SVG demo](http://letterror.github.io/responsiveLettering/www/index.html) by [Erik van Blokland](http://letterror.com/)
 
-[^26]: [*Live Font Interpolation on the web*](http://alistapart.com/article/live-font-interpolation-on-the-web), Andrew Johnson.
+[^25]: [*Live Font Interpolation on the web*](http://alistapart.com/article/live-font-interpolation-on-the-web), Andrew Johnson.
 
-[^27]: Tschichold changed his name from Iwan to Jan because of the stigma of Communism, which in Munich prevented him from finding employment. I found this quote from [an article in McSweeneys](http://www.mcsweeneys.net/articles/tschichold-nazis-and-allen-lane-the-modernist-politics-of-type).
+[^26]: Tschichold changed his name from Iwan to Jan because of the stigma of Communism, which in Munich prevented him from finding employment. I found this quote from [an article in McSweeneys](http://www.mcsweeneys.net/articles/tschichold-nazis-and-allen-lane-the-modernist-politics-of-type).
 
-[^28]: Tschichold’s contemporary Kurt Schwitters said that: “Innumerable rules get written about typography. The most important is: never do it as someone has done it before you.” ‘Thesen über Typographie’, *Merz* no.11, 1924
+[^27]: Tschichold’s contemporary Kurt Schwitters said that: “Innumerable rules get written about typography. The most important is: never do it as someone has done it before you.” ‘Thesen über Typographie’, *Merz* no.11, 1924
 
-[^29]: Another excellent reference for students is [Thinking with Type](http://www.thinkingwithtype.com/) by Ellen Lupton, since it focuses on typography outside the realm of book design as well. Other good references can be found in Jake Giltsoff’s [*Typography on the Web*](https://typographyontheweb.com/).
+[^28]: Another excellent reference for students is [Thinking with Type](http://www.thinkingwithtype.com/) by Ellen Lupton, since it focuses on typography outside the realm of book design as well. Other good references can be found in Jake Giltsoff’s [*Typography on the Web*](https://typographyontheweb.com/).
 
-[^30]: [It depends.](https://twitter.com/trentwalton/status/689831145039495172)
+[^29]: [It depends.](https://twitter.com/trentwalton/status/689831145039495172)
 
-[^31]: In her essay [Hypertext for All](http://aworkinglibrary.com/writing/hypertext-for-all/), Mandy Brown reveals a lot of my biases towards text which makes me feel a little embarrassed. I remember talking to a web developer at [XOXO](http://2015.xoxofest.com/) and he mentioned that he was working on making a responsive comic book out of SVG. From his perspective the web was a tool for bombastic panels made up of heroes and big explosions and eye-popping graphics. I had to make the boring admission that I see the web as a rather simplistic tool for writing love letters out of text instead.
+[^30]: In her essay [Hypertext for All](http://aworkinglibrary.com/writing/hypertext-for-all/), Mandy Brown reveals a lot of my biases towards text which makes me feel a little embarrassed. I remember talking to a web developer at [XOXO](http://2015.xoxofest.com/) and he mentioned that he was working on making a responsive comic book out of SVG. From his perspective the web was a tool for bombastic panels made up of heroes and big explosions and eye-popping graphics. I had to make the boring admission that I see the web as a rather simplistic tool for writing love letters out of text instead.
 
 [^32]: [As We May Link](https://themanual.org/read/issues/3/jeremy-keith/article), Jeremy Keith.
