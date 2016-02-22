@@ -623,4 +623,4 @@ I wouldn’t be writing here today if it were not for the many links that lead m
 
 [^30]: In her essay [Hypertext for All](http://aworkinglibrary.com/writing/hypertext-for-all/), Mandy Brown reveals a lot of my biases towards text which makes me feel a little embarrassed. I remember talking to a web developer at [XOXO](http://2015.xoxofest.com/) and he mentioned that he was working on making a responsive comic book out of SVG. From his perspective the web was a tool for bombastic panels made up of heroes and big explosions and eye-popping graphics. I had to make the boring admission that I see the web as a rather simplistic tool for writing love letters out of text instead.
 
-[^32]: [As We May Link](https://themanual.org/read/issues/3/jeremy-keith/article), Jeremy Keith.
+[^31]: [As We May Link](https://themanual.org/read/issues/3/jeremy-keith/article), Jeremy Keith.
