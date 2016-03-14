@@ -9,7 +9,7 @@ extract: How should we go about making rules for typesetting on the web?
 city: Plymouth
 country: UK
 intro: We can trace a nervous path through the links and hearts that occupy our timelines.
-  In search of answers, we’ve peaked under the covers of Material Design and examined
+  In search of answers, we’ve peeked under the covers of Material Design and examined
   hundreds of pattern libraries, since one of them might be secretly withholding the
   principles of good design within. But why are we obsessed with typographic rules?
   And if we were to make guidelines for setting text on the web, what form should
@@ -215,19 +215,18 @@ As it happens, most fonts are not supported consistently.[^7] They’re excluded
 
 In order to solve some of these problems we can use what is known as a *font stack* in <span class="caps">CSS</span>, like so:
 
-```css
-p {
-    font-family: "Tiempos Text", Georgia, serif;
-}
-```
+<div class="highlight"><pre class=" language-css"><code class=" language-css" data-lang="css"><span class="token selector">p</span> <span class="token punctuation">{</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"Tiempos Text"</span>, Georgia, serif<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div>
 
 If a webfont doesn’t load properly then the browser will, in most cases, try and use the next one in the stack. This is a very simple example, but I believe that we can see the core differences between a networked and un-networked text at this juncture. This single line of <span class="caps">CSS</span> exemplifies how web designers have such limited control over essential typographic components and it proves to me how splintered and fragmented our text will be experienced.
 
 There’s a separation between the *text* and the *font* because the font can, rather unpredictably, be any one of these three values, even if the text will always be preserved in the markup of a document, like so:
 
-```markup
+~~~ markup
 <p>This is how we write a paragraph of text with the HTML language.</p>
-```
+~~~
 
 The *text* above is predictable since it will be rendered in every browser. The *font*, however, is fragile in comparison. It’s a critical point of failure for typographers to grapple with, and ultimately we must accept that preparing our typographic interfaces with failure in mind is better than the alternative. Kenneth Ormandy described this problem when he wrote that:
 
@@ -484,7 +483,7 @@ Hendel replied to these questions in the most frustrating way imaginable, he mer
 
 As disturbing as this was to read at the time, I soon found that almost every piece of advice about design, besides “it depends”, was a well disguised cliché of some description. And so I see the flaws in the principles that I’ve half-jokingly described here as the New Web Typography. Perhaps, one day in the near future, our networks will become so fast and so dependable that we won’t have to worry about supporting untrustworthy network conditions with strange typographic hacks. Perhaps font files will become so small that subsetting them will sound as unfamiliar to us as `<table>` based layout appears to us today.
 
-I suppose that these suggestions all deal with the instability I find when setting text for the web, and I hope mean to remind myself of this when a new feature replaces an older one in a browser, or a new hack emerges. I want to consider technical implications of my decisions, and I want to ensure that we think about the effects of an unstable network sending an unstable codebase, only to be interpreted by an unstable browsing environment. 
+I suppose that these suggestions all deal with the instability I find when setting text for the web, and I hope to remind myself of this when a new feature replaces an older one in a browser, or a new hack emerges. I want to consider technical implications of my decisions, and I want to ensure that we think about the effects of an unstable network sending an unstable codebase, only to be interpreted by an unstable browsing environment. 
 
 Our hypertext, as fabulous as it might be,[^30] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability between reader and text; I see little use in building castles out of sand.
 
