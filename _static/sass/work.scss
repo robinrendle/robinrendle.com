@@ -49,10 +49,11 @@ $c-blue: #0074d9;
     font-weight: 600;
 }
 
-$fallback: "Helvetica, sans-serif";
-$display: "'FG Display', " + $fallback;
-$text: "'FG', " + $fallback;
-$bold: "'FG Semibold', " + $fallback;
+$fallback: " , Helvetica, sans-serif";
+
+$display: FG Display + $fallback;
+$text: FG + $fallback;
+$bold: FG Semibold + $fallback;
 
 body {
     font-family: Helvetica, sans-serif;
