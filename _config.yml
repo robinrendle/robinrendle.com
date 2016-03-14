@@ -18,6 +18,9 @@ collections:
     order: date
     values:
       layout: reading
+  speaking:
+    title: Speaking
+    output: true
   stories:
     title: Stories
     output: true
