@@ -1,0 +1,15 @@
+---
+conference: Design Exchange Nottingham
+title: What Networks Want
+date: 2016-03-09
+tags:
+- design
+- typography
+- css
+layout: talks-detail
+aside: 
+talk-image: "/uploads/featured-burdens.jpg"
+city: Nottingham
+country: UK
+---
+
