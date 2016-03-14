@@ -62,20 +62,10 @@ name: Robin Rendle
 description: Typography, design and front-end development.
 permalink: pretty
 current_location: Nottingham, UK
-markdown: redcarpet
+markdown: kramdown
 exclude:
 - node_modules
 - package.json
 - npm-debug.log
 - gulpfile.js
 - sass
-redcarpet:
-  extensions:
-  - autolink
-  - fenced_code_blocks
-  - lax_spacing
-  - strikethrough
-  - superscript
-  - tables
-  - footnotes
-  - highlight
