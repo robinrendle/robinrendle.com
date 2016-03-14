@@ -523,6 +523,7 @@ figure {
         }
     }
     figcaption {
+        background-color: transparent !important;
         max-width: 100%;
         @include media(">large") {
             max-width: 1250px;
