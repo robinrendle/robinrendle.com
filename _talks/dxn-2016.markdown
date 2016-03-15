@@ -1,12 +1,12 @@
 ---
 title: Design Exchange Nottingham
-talk-title: What Networks Want
-talk-link: http://dxnevent.com/
-date: 2016-03-09
+date: 2016-03-09 00:00:00 +00:00
 tags:
 - design
 - typography
 - css
+talk-title: What Networks Want
+talk-link: http://dxnevent.com/
 layout: talks-detail
 aside: 
 city: Nottingham

@@ -12,9 +12,6 @@ collections:
   posts:
     title: Posts
     output: true
-  talks:
-    title: Talks
-    output: true
   reading:
     title: Reading
     output: true
@@ -23,6 +20,9 @@ collections:
       layout: reading
   stories:
     title: Stories
+    output: true
+  talks:
+    title: Talks
     output: true
   uploads:
     title: Uploads

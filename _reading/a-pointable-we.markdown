@@ -1,6 +1,8 @@
 ---
 title: A pointable we
-date: 2015-11-10 23:28:00 Z
+date: 2015-11-10 23:28:00 +00:00
+tags:
+- Craig Mod
 extract: All I know is the more I read digitally, the more this feeling — the strange
   joy of adding to the corpus6 and seeing where it takes us — grows inside me, and
   I can't be the only one to feel this. Adding to the corpus — making things pointable
@@ -8,8 +10,6 @@ extract: All I know is the more I read digitally, the more this feeling — the 
   habits and expectations aren't going anywhere.
 update: 
 link: http://craigmod.com/sputnik/pointable_01
-tags:
-- Craig Mod
 City:
 - Plymouth
 Country:
