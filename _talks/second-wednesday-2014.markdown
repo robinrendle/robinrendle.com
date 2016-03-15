@@ -1,12 +1,12 @@
 ---
 title: Second Wednesday
-talk-title: A Visual Lexicon
-talk-link: http://www.secondwednesday.org.uk/archive.php
-date: 2014-05-12
+date: 2014-05-12 00:00:00 +01:00
 tags:
 - design
 - typography
 - books
+talk-title: A Visual Lexicon
+talk-link: http://www.secondwednesday.org.uk/archive.php
 layout: talks-detail
 aside: 
 city: Nottingham
