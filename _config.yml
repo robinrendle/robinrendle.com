@@ -12,15 +12,15 @@ collections:
   posts:
     title: Posts
     output: true
+  talks:
+    title: Talks
+    output: true
   reading:
     title: Reading
     output: true
     order: date
     values:
       layout: reading
-  speaking:
-    title: Speaking
-    output: true
   stories:
     title: Stories
     output: true
@@ -61,6 +61,12 @@ defaults:
   values:
     permalink: "/work/:title/"
     layout: work-detail
+- scope:
+    path: ''
+    type: talks
+  values:
+    permalink: "/talks/:title/"
+    layout: talks-detail
 name: Robin Rendle
 description: Typography, design and front-end development.
 permalink: pretty
