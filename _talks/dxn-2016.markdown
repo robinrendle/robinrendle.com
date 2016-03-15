@@ -1,6 +1,7 @@
 ---
-conference: Design Exchange Nottingham
-title: What Networks Want
+title: Design Exchange Nottingham
+talk-title: What Networks Want
+talk-link: http://dxnevent.com/
 date: 2016-03-09
 tags:
 - design
@@ -8,8 +9,9 @@ tags:
 - css
 layout: talks-detail
 aside: 
-talk-image: "/uploads/featured-burdens.jpg"
 city: Nottingham
 country: UK
+completed: true
 ---
 
+On classical design, the differences between the “old” and the “new” typography, and the fickle nature of the web.
