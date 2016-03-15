@@ -22,12 +22,16 @@
     float: left;
     margin: 0;
 
-    &:first-child:after {
+    &:after {
         content: "~";
         @include typeface("Regular");
         display: inline-block;
         margin-left: 0px;
         margin-right: 5px;
+    }
+
+    &:last-child:after {
+        content: none;
     }
 
     &:only-child:after {

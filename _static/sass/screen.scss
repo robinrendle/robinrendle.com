@@ -101,6 +101,15 @@ section[role="main"]{
     max-width: none !important;
 }
 
+.opacity--low {
+    opacity: .5;
+    transition: opacity .3s ease;
+
+    &:hover,
+    &:focus {
+        opacity: 1;
+    }
+}
 
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important
