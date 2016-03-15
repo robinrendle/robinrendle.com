@@ -1,6 +1,6 @@
 ---
 title: Talks
-upcoming: 
+upcoming: nope
 layout: talks
 ---
 
