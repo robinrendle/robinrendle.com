@@ -10,9 +10,10 @@
         </div>
     </div>
 
-    {% if page.upcoming %}
-        <h3 class="h3 caps rules--bottom rules rules--transparent">Upcoming events</h3>
-    {% endif %}
+
+{% if page.upcoming %}
+    <h3 class="h3 caps rules--bottom rules rules--transparent">Upcoming events</h3>
+{% endif %}
 
     {% for post in site.talks %}
         {% if post.completed == false %}
