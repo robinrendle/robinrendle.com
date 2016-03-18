@@ -32,7 +32,7 @@ Adam continues his argument:
 
 > Typography is not about aesthetics, it’s about serving the text. If even a small percentage of people don't consume your content due to a use of webfonts, your typography is failing.
 
-I want to move away from an argument about semantics so I won’t address what typography is or isn’t since many have done [an admirable job on that front](http://practicaltypography.com/what-is-typography.html). As to Adam’s second point: I agree! But if a web font fails to load for whatever then that’s a relatively simple problem to solve and it has nothing to do with the web fonts themselves.
+I want to move away from an argument about semantics so I won’t address what typography is or isn’t (many have done [an admirable job on that front](http://practicaltypography.com/what-is-typography.html)). As to Adam’s second point: I agree! But if a web font fails to load for whatever then that’s a relatively simple problem to solve and it has nothing to do with the font file itself.
 
 We can smooth out the rough edges of a font request by using [the proper technique](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/); a poorly designed front-end architecture is hardly a reason to suggest we abandon web fonts altogether.
 
