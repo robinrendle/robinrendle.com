@@ -18,10 +18,10 @@ Yesterday Adam Morse wrote about [webfonts](http://mrmrs.io/writing/2016/03/17/w
 
 > I’ve heard a lot of arguments about why to use webfonts. In none of those arguments, have I heard about a single problem users have that is solved by using webfonts. And well, I’m only really interested in solving problems for users.
 
-His arguments can be summarised into two main points:
+I think his arguments can be summarised into two main points which I’d like to tackle, one by one:
 
-1. Web fonts are not predictable.
-2. Web fonts are expensive in time, money and size.
+1. Web fonts aren’t predictable.
+2. Web fonts are very expensive in time, money and resource size.
 
 
 ## Problem #1: Web fonts are unpredictable
@@ -30,7 +30,7 @@ Adam continues his argument:
 
 > Typography is not about aesthetics, it’s about serving the text. If even a small percentage of people don't consume your content due to a use of webfonts, your typography is failing.
 
-I want to move away from an argument about semantics so I won’t address what typography is or isn’t (many have done [an admirable job on that front](http://practicaltypography.com/what-is-typography.html)). As to Adam’s second point: I agree! But if a web font fails to load for whatever then that’s a relatively simple problem to solve and it has nothing to do with the font file itself.
+I want to move away from any argument about semantics so I won’t address what typography is or isn’t (many have done [an admirable job on that front](http://practicaltypography.com/what-is-typography.html)). As to Adam’s second point: I agree! But if a web font fails to load for whatever then that’s a relatively simple problem to solve and it has nothing to do with the font file itself.
 
 We can smooth out the rough edges of a font request by using [the proper technique](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/); a poorly designed front-end architecture is hardly a reason to suggest we abandon web fonts altogether.
 
@@ -47,7 +47,7 @@ Sure, but how much time do we spend on other aspects of a design? On the quality
 
 If licensing a web font is a problem, then there are plenty of [free web fonts](https://www.google.com/fonts) out there,  although personally I would avoid using them because they’re likely to not be as intricate as a licensed font.
 
-Continuing with Adam’s post, he writes that “fonts cost time to download, and with some mobile data plans they can cost money to download as well.” But if we find that a web font takes too much time to download then we can set a reasonable timeout on the web font loader we’re using. Or we can subset the font by a specific language, or remove certain OpenType features. Or perhaps we can even redesign the piece of text to require less fonts altogether (although this is probably not a great solution). Or maybe we can compromise even more on the design and remove a single image, which ought to make up for the request of a font.
+Continuing with Adam’s post, he writes that *“fonts cost time to download, and with some mobile data plans they can cost money to download as well.”* But if we find that a web font takes too much time to download then we can set a reasonable timeout on the web font loader we’re using. Or we can subset the font by a specific language, or remove certain OpenType features. Or perhaps we can even redesign the piece of text to require less fonts altogether (although this is probably not a great solution). Or maybe we can compromise even more on the design and remove a single image, which ought to make up for the request of a font.
 
 ## The Value of a Webfont
 
