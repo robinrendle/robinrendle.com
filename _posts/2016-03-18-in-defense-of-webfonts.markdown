@@ -18,8 +18,6 @@ Yesterday Adam Morse wrote about [webfonts](http://mrmrs.io/writing/2016/03/17/w
 
 > I’ve heard a lot of arguments about why to use webfonts. In none of those arguments, have I heard about a single problem users have that is solved by using webfonts. And well, I’m only really interested in solving problems for users.
 
-I thought it would be interesting to develop my thoughts on the matter, so I’ve broken up Adam’s article into specific points that I’d like to address. This way I get to tackle each question head on, not to belittle Adam in any way, but only to remind myself of why I make the decisions that I do in the early stages of design.
-
 His arguments can be summarised into two main points:
 
 1. Web fonts are not predictable.
