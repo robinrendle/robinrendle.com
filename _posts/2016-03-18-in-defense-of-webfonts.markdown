@@ -10,6 +10,8 @@ extract: A web font, just like any other visual stimulus, has work to accomplish
   effective ways to display the intent of the text. Perhaps we need to spend more
   time thinking about web fonts as web designers, we need to think about their goals,
   about their shortcomings.
+city: Plymouth
+country: UK
 ---
 
 Yesterday Adam Morse wrote about [webfonts](http://mrmrs.io/writing/2016/03/17/webfonts/), which, well...the gist is that webfonts are bad for usability and performance so we should effectively ditch them:
