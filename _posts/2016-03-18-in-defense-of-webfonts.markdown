@@ -55,11 +55,11 @@ With that said, I don’t believe that all of human experience can be elegantly 
 
 The [text is more important than the font](https://robinrendle.com/essays/new-web-typography/), but an unusual letter form adds a value which is difficult to quantify with words alone. If we’re requesting something like Proxima Nova then sure, I feel that the designer has made an error of sorts because that typeface has been used so frequently as to be bland, it registers not a single emotion from the reader. But what about other letters? Are we truly naive enough to believe that everything can be said with such unnecessary restrictions to our typographic palette? What are letter forms truly capable of?
 
-> Image of Cadillac
+![Image of text set in SignPainter by House Industries](/uploads/oldsmobile.png)
 
 How can they draw us into the information? How can they help shine a light on the differences between an old car model built for a certain age, a certain time and a modern film that finds it’s inspiration in the offbeat kilter of jazz?
 
-> image of birdman
+![birdman.png](/uploads/birdman.png)
 
 A web font, just like any other visual stimulus, has work to accomplish and it has a value and a position in the designer’s toolkit which is one of the most effective ways to display the intent of the text. Perhaps we need to spend more time thinking about web fonts as web designers, we need to think about their goals, about their shortcomings.
 
