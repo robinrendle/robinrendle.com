@@ -3,8 +3,6 @@ title: In defense of webfonts
 date: 2016-03-18 17:26:00 +00:00
 ---
 
-# In Defence of Webfonts
-
 Yesterday Adam Morse wrote about [webfonts](http://mrmrs.io/writing/2016/03/17/webfonts/), which, well...the gist is that webfonts are bad for usability and performance so we should effectively ditch them:
 
 > I’ve heard a lot of arguments about why to use webfonts. In none of those arguments, have I heard about a single problem users have that is solved by using webfonts. And well, I’m only really interested in solving problems for users.
