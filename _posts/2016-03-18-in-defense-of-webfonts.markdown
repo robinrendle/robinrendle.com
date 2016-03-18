@@ -22,7 +22,7 @@ I thought it would be interesting to develop my thoughts on the matter, so I’v
 
 His arguments can be summarised into two main points:
 
-1. Web fonts are not predictable
+1. Web fonts are not predictable.
 2. Web fonts are expensive in time, money and size.
 
 
