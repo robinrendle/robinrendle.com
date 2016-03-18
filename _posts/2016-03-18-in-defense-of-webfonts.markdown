@@ -1,6 +1,10 @@
 ---
 title: In defense of webfonts
 date: 2016-03-18 17:26:00 +00:00
+tags:
+- typography
+- web fonts
+- css
 ---
 
 Yesterday Adam Morse wrote about [webfonts](http://mrmrs.io/writing/2016/03/17/webfonts/), which, well...the gist is that webfonts are bad for usability and performance so we should effectively ditch them:
