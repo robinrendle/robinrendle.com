@@ -26,7 +26,7 @@ His arguments can be summarised into two main points:
 2. Web fonts are expensive in time, money and size.
 
 
-## #1: Web fonts are unpredictable
+## Problem #1: Web fonts are unpredictable
 
 Adam continues his argument:
 
@@ -39,7 +39,7 @@ We can smooth out the rough edges of a font request by using [the proper techniq
 There’s another suggestion here in Adam’s argument which I might be reading a little too much into, but it appears that he argues we should use a “web-safe” or a system font because they’re more predictable. However, I would argue that there’s no such thing as a “web-safe” font. Take a look at the support for [Helvetica](http://fontfamily.io/helvetica), [Georgia](http://fontfamily.io/georgia), [Times](http://fontfamily.io/times) or heck, even the [sans-serif](http://fontfamily.io/sans-serif) keyword. If predictability is what we’re looking for then I’m afraid we’ve picked the wrong network to design things on top of.
 
 
-## #2: Web fonts are expensive
+## Problem #2: Web fonts are expensive
 
 This is where Adam states that:
 
