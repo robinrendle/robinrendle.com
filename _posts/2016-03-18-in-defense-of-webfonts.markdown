@@ -43,7 +43,7 @@ This is where Adam states that:
 
 > Webfonts come with a number of costs. They cost money to license. They cost time to implement.
 
-Sure, but how much time do we spend on other aspects of a design? On the quality of the photography, on the editing of text? On the unnecessarily large custom frameworks we build and ship? How many times have we re-written code that could be copy and pasted from Bootstrap? Good design takes a certain amount of time and great design is about figuring out the best way to spend our limited resources. 
+Sure, but how much time do we spend on other aspects of a design? On the quality of the photography, on the editing of text? On the unnecessarily large custom frameworks we build and ship? How often have we re-written code that could be copy and pasted from Bootstrap? Good design takes a certain amount of time and great design is about figuring out the best way to spend our limited resources. 
 
 If licensing a web font is a problem, then there are plenty of [free web fonts](https://www.google.com/fonts) out there,  although personally I would avoid using them because they’re likely to not be as intricate as a licensed font.
 
