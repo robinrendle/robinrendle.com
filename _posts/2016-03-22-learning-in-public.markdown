@@ -28,7 +28,7 @@ Or we can choose to face that intimidating fog alone.
 
 ![fog-of-war.jpg](/uploads/fog-of-war.jpg)
 
-Whenever I’m not collaborating with friends I sometimes daydream of those episodes in Mad Men where one of the main characters would stumble upon [a typewriter](http://i.imgur.com/kiysMCM.gif). The magic of the typewriter would give characters the courage to fight back against the easily available drink and sex on display, instead choosing to finally push back against the world a little bit in order to get work done. But after a short amount of time it appeared that the loneliness of the work would drive them back to their vice of choice. 
+Whenever I’m not collaborating with friends I sometimes daydream of those episodes in Mad Men where Don or Peggy would stumble upon [a typewriter](http://i.imgur.com/kiysMCM.gif). The magic of this device would give them the courage to fight back against the easily available drink and sex on display, instead choosing to finally push back against the world a little bit in order to get work done. But after a short amount of time the loneliness of this work never fails to drive them back to their vice of choice. 
 
 Consequently, on the topic of typewriters and this idea of learning in isolation, I’m reminded of the novel *Close to the Machine* where Ellen Ullman describes herself in relation to her father: 
 
