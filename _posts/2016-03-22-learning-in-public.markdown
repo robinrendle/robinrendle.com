@@ -20,7 +20,7 @@ You might be familiar with the [fog of war](http://www.gamereplays.org/community
 
 I’ve started to see the act of learning in a similar way. We start off knowing a lot about a little and gradually, as we shake ourselves through the world we begin to make all these connections; we find resources, we find other people and most importantly we learn about how little we knew when we started.
 
-By learning in public, however, we can more confidently shape that fog around us, making us feel comfortable when we try to learn about something scary and new. Yet when we publicly say “this is what I’ve figured out so far...” we then give people an opportunity to nudge us in the right direction and offer a supporting hand. Regardless of the format, and despite the unnerving sense of vulnerability we might have to fight on a constant basis, I’ve found that the potential opportunities far outweigh the embarrassment of messing things up.
+By learning in public, however, we can more confidently shape that fog around us, making us feel comfortable when trying to learn about something scary and new. When we publicly declare that “this is what I’ve figured out so far…” we then give people an opportunity to nudge us in the right direction and offer a supporting hand. Regardless of the format, and despite the unnerving sense of vulnerability we might have to fight on a constant basis, I’ve found that the potential opportunities far outweigh the embarrassment of messing things up.
 
 Or we can choose to face that intimidating fog alone.
 
