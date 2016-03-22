@@ -16,7 +16,7 @@ extract: We start off knowing a lot about a little and gradually, as we shake ou
 
 You might be familiar with the [fog of war](http://www.gamereplays.org/community/What_kind_of_shroud_fog_of_war_do_you_preferl-t948562.html). This is how designers obscure sections of the video game world until one of the characters has stepped through it. The idea is to build a sense of tension and adventure; the fog of war supplies the world with mystery. At the beginning of the player’s quest they have no idea about their enemy or their technological capabilities or even their population. They’re blinded and so they must strive to understand their world and the place that they hold within it.
 
-Although the fog of war tends to overwhelm the player with questions, it’s these questions that which will lead to their ultimate success or failure.
+Although the fog of war tends to overwhelm the player with questions, it’s these environmental queries that will lead to their ultimate success or failure.
 
 ![LingoAsset.jpg](/uploads/LingoAsset.jpg)
 
