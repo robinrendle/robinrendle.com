@@ -72,7 +72,7 @@ In other words, there are _Small Wows_ that contribute to better experiences, an
 - The screen/format/process is perfect for text-only works: novels, short stories, collections of talks, etc.
 - The common design of most Kindle books has now overtaken their physical counterparts.
 - Typographically speaking, the Kindle has reached an a-ok position for me. Every book I’ve read is still poorly justified but somehow I forgive them. Although, it should go without saying that the text of every ebook should be left aligned, ragged right.
-- The custom-made [Bookery](http://www.amazon.com/b?node=11624010011) typeface, made by [Dalton Maag](https://www.daltonmaag.com/), is a solid foundation for future typographic experiments on the Kindle platform.
+- The custom-made [Bookerly](http://www.amazon.com/b?node=11624010011) typeface, made by [Dalton Maag](https://www.daltonmaag.com/), is a solid foundation for future typographic experiments on the Kindle platform.
 - The refresh rate is very responsive: in the previous model that I owned whenever you turned a page or selected an option the screen would judder very slowly. But now, the way that the whole screen refreshes when you tap to reveal the menu or turn to swipe a page leaves a pleasant, old-school computer feeling in its wake, one that isn’t annoying in the slightest.
 - The lack of physical buttons is a very good thing. I’d heard terrible moans about previous models having touch screens but this one seems to be immediately responsive and fast.
 - Tiny gestures like highlighting the text or calling the main menu by touching the top of the screen are elegant, consistent and memorable. There are effectively three buttons: tap the top part of the screen for the menu or tap left/right to turn the pages.
