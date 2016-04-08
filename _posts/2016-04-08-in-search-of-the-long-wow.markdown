@@ -49,7 +49,7 @@ After opening the Kindle Paperwhite for the first time my impression was that I 
 
 It slowly dawned on me that the Kindle is such an interesting device today precisely because it is so very boring. It looks and feels like a machine that's finally reached maturity; it’s part of a greater ecosystem that cannot sustain itself by flashy gimmicks or tropes. Instead, it just quietly, expertly, does a very simple job, and does it extraordinarily well.
 
-A string of *Hmmm*’s and *Oooh's* occur with each passing moment spent with the Kindle, and this reminded me of an old post about design by [Craig Mod](craigmod.com). Somewhere deep in his vast archive of book design is a note about two experiences: the *Long Wow* vs. the *Small Wow*. Yet I can’t seem to retrieve the quote from search terms or keyword strings, and this leads me to think that I am garbling the original idea in some horrible manner. Perhaps it wasn’t on Craig’s website that I first heard of this idea at all.
+A string of *Hmmm*’s and *Oooh's* occur with each passing moment spent with the Kindle, and this reminded me of an old post about design by [Craig Mod](craigmod.com). Somewhere deep in his vast archive of book design is a note about two experiences: the *Long Wow* vs. the *Small Wow*. Yet I can’t seem to retrieve the quote from search terms or keyword strings, and this leads me to think that I am garbling the original idea in some horrible manner. Perhaps it wasn’t on Craig’s website that I first heard of this idea after all.
 
 But here’s how I remember it.
 
