@@ -17,7 +17,7 @@ If it’s possible to draw my life onto a timeline then every major event would 
 
 It’s the books that are infatuated with me.
 
-In hope of spending a weekend by my side, or even just a moment in my bag, books will call out from the shops in airport terminals and reveal themselves along riverbank market stalls. Likewise, I’ve found so many books waiting for me on the midnight trains that slowly criss-cross their way along the English towns near my home that I've begun to imagine a conspiracy of books at work; they’ve heard reports of my forbidden touch, or the color of my eyes, or the prolonged contact with the naked bodies of their friends. And so, hidden in jackets and sheathed in purses, the books plan their approach as they hope to try their luck with me instead.
+In hope of spending a weekend by my side, or even just a moment in my bag, books will call out from the shops in airport terminals and reveal themselves along riverbank market stalls. Likewise, I’ve found so many books waiting for me on the midnight trains that slowly criss-cross their way along the English towns near my home that I've begun to imagine a conspiracy of books at work; they’ve heard reports of my forbidden touch, or the color of my eyes, or my prolonged contact with the naked bodies of their friends. And so, hidden in jackets and sheathed in purses, the books plan their approach as they hope to try their luck with me instead.
 
 I find them everywhere, at all times, and they respond to my body like a magnet; jumping into my bag, clinging onto me for dear life. What is it about these books, these inky sponges, I wonder, that make them act so desperately? 
 
