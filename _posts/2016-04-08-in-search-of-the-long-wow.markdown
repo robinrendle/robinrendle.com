@@ -79,7 +79,7 @@ In other words, there are _Small Wows_ that contribute to better experiences, an
 
 These features aren't thrilling, and they can't easily be made into an advert that sparkles or grabs the reader’s attention; it’s difficult to imagine Zooey Deschanel or Samuel Jackson sitting in a brightly lit room and talking into a camera whilst they _Oooh_ and _Aaah_ about the highlighting gesture or the battery life of a Kindle.
 
-Amidst a constant push for faster processors and better cameras, sharper screens and flatter interfaces, the Kindle rises up above these concerns somehow. This might sound ridiculous, but I can imagine owning this device in twenty years time and still being perfectly content with it. It's traded gimmicks and features in search of a more loftier goal: that of the *Long Wow*.
+Yet amidst that constant push for faster processors and better cameras, sharper screens and flatter interfaces, the Kindle rises up above these concerns somehow. This might sound ridiculous, but I can imagine owning this device in twenty years time and still being perfectly content with it. It's traded gimmicks and features in search of a more loftier goal: that of the *Long Wow*.
 
 So where was our literary and technological revolution? Where was the future book, you might ask.
 
