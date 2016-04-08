@@ -1,6 +1,12 @@
 ---
 title: The XOXO Outpost
-date: 2015-07-30 17:56:00 Z
+date: 2015-07-30 18:56:00 +01:00
+tags:
+- andy baio
+- andy mcmillan
+- portland
+- xoxo
+- codepen
 extract: I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a
   teaser](http://xoxopdx.com) for their upcoming artist space in Portland.
 update: 
@@ -15,12 +21,6 @@ hero: "/uploads/xoxo-pdx.jpg"
 links: |-
   - [Announcement blog post](http://blog.xoxofest.com/post/120703410510/a-new-experiment)
   - [The XOXO Outpost](http://xoxopdx.com/)
-tags:
-- andy baio
-- andy mcmillan
-- portland
-- xoxo
-- codepen
 City:
 - London
 Country:
