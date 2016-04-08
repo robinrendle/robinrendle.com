@@ -10,7 +10,7 @@ $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !defa
 
 $font-src: "/fonts/";
 $c-black: #222;
-$c-light: #ddd;
+$c-light: #eee;
 $c-blue: #0074d9;
 
 // UTILS
@@ -281,6 +281,14 @@ a {
     background-color: $c-light;
 }
 
+.m-wrapper--fixed {
+    max-width: 800px;
+    margin: 0 10px;
+
+    @include media(">large"){
+        margin: 0 30px;
+    }
+}
 
 .island--hero {
     position: relative;
@@ -303,6 +311,11 @@ a {
     }
 }
 
+.island--dark {
+    background-color: $c-blue;
+    color: white;
+}
+
 .hero {
     padding-bottom: 0;
     text-align: center;
@@ -321,7 +334,7 @@ a {
     &:after {
         display: block;
         content: "";
-        background-color: $c-light;
+        background-color: #ddd;
         width: 100%;
         height: 100%;
         position: absolute;
@@ -408,6 +421,25 @@ a {
 }
 
 ::selection { background: rgba(yellow,.2); }
+
+.cell-l15 {
+    padding-left: 15px !important;
+}
+
+.subtitle > a {
+    color: rgba(255,255,255,.7);
+    border-bottom: 2px solid rgba(255,255,255,.3);
+}
+
+.subtitle--small {
+    font-size: 20px;
+    line-height: 28px;
+
+    @include media(">large"){
+        line-height: 32px;
+        font-size: 1.4em;
+    }
+}
 
 
 

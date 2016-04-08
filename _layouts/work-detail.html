@@ -25,38 +25,40 @@
         </div>
 
 
-        <div class="island island--light cell-t30 cell-b20">
-            <div class="m-wrapper">
-                <div class="multi">
-                    <h2 class="footer-title display">More about this project</h2>
-                    {% if page.role || page.team %}
-                        {% if page.role %}
-                            <aside class="island--meta multi__item">
-                                <div class="">
-                                    <h4 class="h2">Responsibilities</h4>
-                                </div>
-                                {{page.role | markdownify}}
-                            </aside>
+        <div class="island cell-t20 cell-b60">
+            <div class="wrapper wrapper--large">
+                <div class="island--light cell-30">
+                    <div class="multi">
+                        <h2 class="footer-title display">More about this project</h2>
+                        {% if page.role || page.team %}
+                            {% if page.role %}
+                                <aside class="island--meta multi__item">
+                                    <div class="">
+                                        <h4 class="h2">Responsibilities</h4>
+                                    </div>
+                                    {{page.role | markdownify}}
+                                </aside>
+                            {% endif %}
+                            {% if page.team %}
+                                <aside class="island--meta multi__item">
+                                    <div class="">
+                                        <h4 class="h2">Team members</h4>
+                                    </div>
+                                    {{page.team | markdownify}}
+                                </aside>
+                            {% endif %}
+                            {% if page.links %}
+                                <aside class="island--meta multi__item">
+                                    <div class="">
+                                        <h4 class="h2">Links</h4>
+                                    </div>
+                                    <div class="link">
+                                        {{page.links | markdownify}}
+                                    </div>
+                                </aside>
+                            {% endif %}
                         {% endif %}
-                        {% if page.team %}
-                            <aside class="island--meta multi__item">
-                                <div class="">
-                                    <h4 class="h2">Team members</h4>
-                                </div>
-                                {{page.team | markdownify}}
-                            </aside>
-                        {% endif %}
-                        {% if page.links %}
-                            <aside class="island--meta multi__item">
-                                <div class="">
-                                    <h4 class="h2">Links</h4>
-                                </div>
-                                <div class="link">
-                                    {{page.links | markdownify}}
-                                </div>
-                            </aside>
-                        {% endif %}
-                    {% endif %}
+                    </div>
                 </div>
             </div>
         </div>
