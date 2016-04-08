@@ -43,7 +43,7 @@ And where is the Kindle?
 
 ***
 
-After opening the Kindle Paperwhite for the first time my impression was that I had somehow been tricked — I discovered that time had slipped forward by an hour in what felt like a second. *Hmmm...*, I thought. Smallly afterwards, I visited my Kindle library and found that it had automatically downloaded everything from my previous device. *Hmm...*, I thought again. Next, I tried to buy a book and found just how cheap the Kindle versions are, easily saving 50% of the cost of a physical book. This encouraged me to double the size of my library in a matter of minutes. Subsequently they appeared onto the device silently, without any procession, just like magic.
+After opening the Kindle Paperwhite for the first time my impression was that I had somehow been tricked — I discovered that time had slipped forward by an hour in what felt like a second. *Hmmm...*, I thought. Shortly afterwards, I visited my Kindle library and found that it had automatically downloaded everything from my previous device. *Hmm...*, I thought again. Next, I tried to buy a book and found just how cheap the Kindle versions are, easily saving 50% of the cost of a physical book. This encouraged me to double the size of my library in a matter of minutes. Subsequently they appeared onto the device silently, without any procession, just like magic.
 
 *Hmmm...* I continued to think.
 
