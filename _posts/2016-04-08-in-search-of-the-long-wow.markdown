@@ -9,6 +9,8 @@ tags:
 - books
 City: Plymouth
 Country: UK
+extract: Where was our literary and technological revolution? Where was the future
+  book, you might ask. And where was the Kindle in all this?
 ---
 
 If it’s possible to draw my life onto a timeline then every major event would be accompanied by a book. Although, despite what my shelves might tell you, I don’t hoard them.
