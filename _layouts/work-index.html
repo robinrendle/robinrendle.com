@@ -11,7 +11,8 @@
 
     <div class="wrapper wrapper--large cell-b80">
         <section class="box">
-            {% for post in site.work %}
+            {% assign work = site.work | sort: 'date' | reverse %}
+            {% for post in work %}
                 <div class="g__col">
                     <a href="{{post.url}}" class="box__item">
                         {% if post.logo %}
