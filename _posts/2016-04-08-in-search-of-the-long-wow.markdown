@@ -43,13 +43,13 @@ And where is the Kindle?
 
 ***
 
-After opening the Kindle Paperwhite for the first time my impression was that I had somehow been tricked — I discovered that time had slipped forward by an hour in what felt like a second. *Hmmm...*, I thought. Smallly afterwards, I visited my Kindle library and found that it had automatically downloaded everything from my previous device. *Hmm...*, I thought again. Next, I tried to buy a book and found just how cheap the Kindle versions are, easily saving 50% of the cost of a physical book. This encouraged me to double the size of my library in a matter of minutes. Subsequently they appeared onto the device silently, without any procession, just like magic.
+After opening the Kindle Paperwhite for the first time my impression was that I had somehow been tricked — I discovered that time had slipped forward by an hour in what felt like a second. *Hmmm...*, I thought. Shortly afterwards, I visited my Kindle library and found that it had automatically downloaded everything from my previous device. *Hmm...*, I thought again. Next, I tried to buy a book and found just how cheap the Kindle versions are, easily saving 50% of the cost of a physical book. This encouraged me to double the size of my library in a matter of minutes. Subsequently they appeared onto the device silently, without any procession, just like magic.
 
 *Hmmm...* I continued to think.
 
 It slowly dawned on me that the Kindle is such an interesting device today precisely because it is so very boring. It looks and feels like a machine that's finally reached maturity; it’s part of a greater ecosystem that cannot sustain itself by flashy gimmicks or tropes. Instead, it just quietly, expertly, does a very simple job, and does it extraordinarily well.
 
-A string of *Hmmm*’s and *Oooh's* occur with each passing moment spent with the Kindle, and this reminded me of an old post about design by [Craig Mod](craigmod.com). Somewhere deep in his vast archive of book design is a note about two experiences: the *Long Wow* vs. the *Small Wow*. Yet I can’t seem to retrieve the quote from search terms or keyword strings, and this leads me to think that I am garbling the original idea in some horrible manner. Perhaps it wasn’t on Craig’s website that I first heard of this idea at all.
+A string of *Hmmm*’s and *Oooh's* occur with each passing moment spent with the Kindle, and this reminded me of an old post about design by [Craig Mod](craigmod.com). Somewhere deep in his vast archive of book design is a note about two experiences: the *Long Wow* vs. the *Small Wow*. Yet I can’t seem to retrieve the quote from search terms or keyword strings, and this leads me to think that I am garbling the original idea in some horrible manner. Perhaps it wasn’t on Craig’s website that I first heard of this idea after all.
 
 But here’s how I remember it.
 
@@ -72,14 +72,14 @@ In other words, there are _Small Wows_ that contribute to better experiences, an
 - The screen/format/process is perfect for text-only works: novels, short stories, collections of talks, etc.
 - The common design of most Kindle books has now overtaken their physical counterparts.
 - Typographically speaking, the Kindle has reached an a-ok position for me. Every book I’ve read is still poorly justified but somehow I forgive them. Although, it should go without saying that the text of every ebook should be left aligned, ragged right.
-- The custom-made [Bookery](http://www.amazon.com/b?node=11624010011) typeface, made by [Dalton Maag](https://www.daltonmaag.com/), is a solid foundation for future typographic experiments on the Kindle platform.
+- The custom-made [Bookerly](http://www.amazon.com/b?node=11624010011) typeface, made by [Dalton Maag](https://www.daltonmaag.com/), is a solid foundation for future typographic experiments on the Kindle platform.
 - The refresh rate is very responsive: in the previous model that I owned whenever you turned a page or selected an option the screen would judder very slowly. But now, the way that the whole screen refreshes when you tap to reveal the menu or turn to swipe a page leaves a pleasant, old-school computer feeling in its wake, one that isn’t annoying in the slightest.
 - The lack of physical buttons is a very good thing. I’d heard terrible moans about previous models having touch screens but this one seems to be immediately responsive and fast.
 - Tiny gestures like highlighting the text or calling the main menu by touching the top of the screen are elegant, consistent and memorable. There are effectively three buttons: tap the top part of the screen for the menu or tap left/right to turn the pages.
 
 These features aren't thrilling, and they can't easily be made into an advert that sparkles or grabs the reader’s attention; it’s difficult to imagine Zooey Deschanel or Samuel Jackson sitting in a brightly lit room and talking into a camera whilst they _Oooh_ and _Aaah_ about the highlighting gesture or the battery life of a Kindle.
 
-So, amidst the constant push for faster processors and better cameras, sharper screens and flatter interfaces, the Kindle rises up above these concerns somehow. This might sound ridiculous, but I can imagine owning this device in twenty years time and still being perfectly content with it. It's traded gimmicks and features in search of a more loftier goal: that of the *Long Wow*.
+Yet amidst that constant push for faster processors and better cameras, sharper screens and flatter interfaces, the Kindle rises up above these concerns somehow. This might sound ridiculous, but I can imagine owning this device in twenty years time and still being perfectly content with it. It's traded gimmicks and features in search of a more loftier goal: that of the *Long Wow*.
 
 So where was our literary and technological revolution? Where was the future book, you might ask.
 
