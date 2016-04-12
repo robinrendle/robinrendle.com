@@ -62,8 +62,10 @@ body {
     border-bottom: 10px solid $c-black;
     text-rendering: optimizeLegibility;
     line-height: 1.6;
+    font-size: 90%;
 
     .fonts-loaded & {
+        font-size: 100%;
         line-height: 1.5;
         font-family: $text;
     }
@@ -441,6 +443,16 @@ a {
     }
 }
 
+.reset-margins {
+    margin: 0 !important;
+}
 
+.color-blue {
+    color: #0074d9;
+}
+
+.intro {
+    font-size: 113%;
+}
 
 @import "objects/cell";
