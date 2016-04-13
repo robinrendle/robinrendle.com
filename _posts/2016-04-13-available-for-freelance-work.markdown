@@ -5,6 +5,7 @@ tags:
 - work
 City: Porthcawl
 Country: Wales
+extract: 
 ---
 
 After a rather unfortunate set of circumstances, which I’ll make sure to write about soon, I’m now available for contract web design and front-end development work. 
