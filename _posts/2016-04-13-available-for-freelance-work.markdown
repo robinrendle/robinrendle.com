@@ -3,6 +3,7 @@ title: Now Available for Freelance Work
 date: 2016-04-13 13:59:00 +01:00
 tags:
 - work
+- web design
 City: Porthcawl
 Country: Wales
 extract: 
