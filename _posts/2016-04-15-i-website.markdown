@@ -6,6 +6,12 @@ tags:
 - web
 Country: Wales
 City: Porthcawl
+Extract: 'How are these words delivered to you? Massive networks of wires! Fiber-optic
+  undersea cables line all the oceans and seas and grip the Earth like a hairnet.
+  A single cable crossing an ocean costs hundreds of millions of dollars to install.
+  Imagine the slowly plodding boats, embedding these cables into the seabeds. Who
+  captains these vessels? Who turns the crank releasing more cable to the depths.
+  Who prepares the pork and beans? '
 ---
 
 Chris messed around with a famous essay by Leonard E. Read called [I, Pencil](https://en.wikisource.org/wiki/I,_Pencil) and I love it so much:
