@@ -9,9 +9,9 @@ Extract: For the next three years I'll be exploring the West coast from my new h
   in San Francisco.
 ---
 
-After months of waiting, hoping, with fingers-crossed, the stars in the constellation of American bureaucracy aligned themselves this morning as I stood in the queue at the <span class="caps">U.S.</span> Embassy in London. But there was no certificate or handshake once my visa was approved, there were no balloons, and there was certainly not any triumphant, patriotic music to celebrate the affair.
+I’m moving to San Francisco. After months of waiting, hoping, with fingers-crossed, the stars in the constellation of American bureaucracy aligned themselves this morning as I stood in the queue at the <span class="caps">U.S.</span> Embassy in London. But there was no certificate or handshake once my visa was approved, there were no balloons, and there was certainly not any triumphant, patriotic music to celebrate the affair.
 
-However, the peculiarities of the visa process has done little to stifle my excitement, as for the next three years I'll be exploring the West coast from my new home in San Francisco. It’s here that I’ll be working with the excellent design team at [Gusto](https://gusto.com/), and I simply can’t wait to get started.
+However, the peculiarities of the visa process has done little to stifle my excitement, as for the next three years I'll be exploring the West coast from my new home. It’s here that I’ll be working with the excellent design team at [Gusto](https://gusto.com/), and I simply can’t wait to get started.
 
 This all started in late 2015 when I applied to Designer Fund’s [Bridge program](http://designerfund.com/bridge/). This rather helpfully connects designers with startups, and it was their team that got me in contact with Gusto. Unfortunately, I missed all the [workshops and activities](http://designerfund.com/bridge/program/) thanks to the prolonged visa process, but if you happen to be thinking about applying to the Bridge program this year then I can only recommend it—the team has been wonderfully helpful and kind.
 
