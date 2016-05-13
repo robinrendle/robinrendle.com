@@ -15,6 +15,8 @@ However, the peculiarities of the visa process has done little to stifle my exci
 
 This all started in late 2015 when I applied to Designer Fund’s [Bridge program](http://designerfund.com/bridge/). This rather helpfully connects designers with startups, and it was their team that got me in contact with Gusto. Unfortunately, I missed all the [workshops and activities](http://designerfund.com/bridge/program/) thanks to the prolonged visa process, but if you happen to be thinking about applying to the Bridge program this year then I can only recommend it—the team has been wonderfully helpful and kind.
 
-![IMG_0188.jpg](/uploads/IMG_0188.jpg)
+![ocean.jpg](/uploads/ocean.jpg)
+
 During my first thousand days in San Francisco I want to sneak into the blossoming [typographic community](https://www.instagram.com/letterformarchive/) there and beef up my lackadaisical skills in programming. I’ll continue to share what I’m learning about on [my blog](http://css-tricks.com) and I’ll be selling [my bike](https://www.instagram.com/p/BEepFDlDUqv/?taken-by=robinrendle) for [something else](https://www.youtube.com/watch?v=dw1dYR36Gwg) so that I can explore [California](https://www.youtube.com/watch?v=OsCfufAp2tM) and the Pacific Northwest in style.
 
+![bridge.jpg](/uploads/bridge.jpg)
