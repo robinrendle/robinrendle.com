@@ -1,5 +1,5 @@
 ---
-title: A Thousand Days in America
+title: One Thousand Days in America
 date: 2016-05-13 19:35:00 +01:00
 tags:
 - gusto
