@@ -5,6 +5,8 @@ tags:
 - gusto
 City: London
 Country: UK
+Extract: For the next three years I'll be exploring the West coast from my new home
+  in San Francisco.
 ---
 
 After months of waiting, hoping, with fingers-crossed, the stars in the constellation of American bureaucracy aligned themselves this morning as I stood in the queue at the <span class="caps">U.S.</span> Embassy in London. But there was no certificate or handshake once my visa was approved, there were no balloons, and there was certainly not any triumphant, patriotic music to celebrate the affair.
