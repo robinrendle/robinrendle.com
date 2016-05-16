@@ -1,16 +1,17 @@
 ---
 title: What Networks Want
 date: 2016-05-07 23:17:00 +01:00
+published: false
 tags:
 - web
 - typography
 - design
-layout: what-networks-want
 extract: How do we orientate ourselves on the web? What is it for?
 City:
 - San Francisco, California
 Country:
 - USA
+layout: what-networks-want
 ---
 
 <span class="caps">I adore the shape of American cities.</span> Once the plane descends, and my internal compass has calibrated itself, I find the cardinal directions once again; *North, East, South and West*. This can be attributed to the wondrous, atomic unit of the American city block, but also to my heritage as an immigrant from England, a country where our cities are stacked on top of cities, where our roads are as thin as arterial veins and where our maps share a common resemblance with a bowl of spaghetti. Orientation is difficult. In fact, across the pond, these American roads and city blocks are unimaginable feats of engineering, of civic coordination, and it’s why we often stand beneath those maps and curse them all in jealousy.
