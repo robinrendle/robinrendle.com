@@ -1,0 +1,364 @@
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !default;
+
+$font-src: "/fonts/";
+$c-black: #222;
+$c-light: #eee;
+$c-blue: #0074d9;
+$max-width: 740px;
+
+// IMPORTS
+// ==========================================================================
+@import "utilities/reset";
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+@import "utilities/type";
+@import "utilities/colors";
+@import "utilities/text-style";
+@import "utilities/underline";
+@import "utilities/inverse";
+@import "utilities/align-text";
+
+@import "tools/trim";
+
+@import "base/hierarchy";
+@import "base/links";
+@import "base/base-spacing";
+
+
+// FONTS
+// ==========================================================================
+@font-face {
+    font-family: "FG Display";
+    src: url('#{$font-src}fg-condensed-medium.woff') format('woff');
+    font-weight: 600;
+}
+
+$sans-stack: " , Helvetica, sans-serif";
+
+$display: FG Display + $sans-stack;
+$text: FG + $sans-stack;
+$bold: FG Semibold + $sans-stack;
+$serif-stack: Georgia, serif;
+
+body {
+    font: 115%/1.55 $serif-stack;
+    color: #444;
+    border-top: 10px solid black;
+    @include typeface("Regular");
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
+    @include media(">medium") {
+        font-size: 120%;
+    }
+    @include media(">large") {
+        font-size: 125%;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+
+h1, .h1 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: .9;
+    font-family: Helvetica, sans-serif !important;
+
+    .fonts-loaded & {
+        font-family: $display !important;
+
+        @include media(">medium"){
+            font-size: 80px;
+            line-height: .9;
+        }
+    }
+}
+
+
+h2, .h2 {
+    margin-bottom: 0;
+
+    .fonts-loaded & {
+        font-family: $bold;
+    }
+}
+
+em,
+small,
+dfn,
+i,
+q,
+.italic {
+    @include typeface("Regular italic");
+}
+
+.caps,
+abbr {
+    @include typeface("Small caps");
+}
+
+
+.m-longform {
+    @include links-longform();
+    @include underline();
+    @include trim();
+
+    h2 {
+        @include remCalc(margin-top, ($base-spacing-unit * 2));
+    }
+
+    > div {
+        margin-bottom: 50px;
+    }
+
+    h3, h4, h5, h6 {
+        @include remCalc(margin-top, ($base-spacing-unit * 1.6));
+        @include remCalc(margin-bottom, ($base-spacing-unit));
+    }
+
+    p, ul, ol {
+        @include remCalc(font-size, 17);
+        -webkit-hyphens:auto;
+        -webkit-hyphenate-limit-after:2;
+        -webkit-hyphenate-limit-before:3;
+        hyphens: auto;
+        line-height: 1.5;
+
+        @include media(">small") {
+            @include remCalc(font-size, 17);
+        }
+
+        @include media(">medium") {
+            @include remCalc(font-size, 18);
+            line-height: 1.55;
+        }
+
+        @include media(">large"){
+            @include remCalc(font-size, 20);
+            line-height: 1.6;
+        }
+
+        & > img {
+            @include remCalc(margin-bottom, $base-spacing-unit * 2);
+        }
+    }
+
+    ul ul {
+        margin-left: 20px;
+    }
+
+    figure > blockquote {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    figure > img + blockquote {
+        margin-top: 20px;
+    }
+
+    p, ul, ol,
+    img, figure {
+        & + h3,
+        & + .h3 {
+            @include remCalc(margin-top, $base-spacing-unit * 2);
+        }
+    }
+
+    figcaption {
+        @include typeface("Regular");
+        padding-top: 20px;
+        max-width: 600px;
+
+        a {
+            @include links-dark();
+        }
+    }
+
+    blockquote > p, .cite, figcaption {
+        padding-left: 18px;
+    }
+
+    blockquote {
+        position: relative;
+
+        p {
+            border-left: 1px solid #ccc;
+            @include typeface("Regular italic");
+            @include remCalc(padding-bottom, $base-spacing-unit - 5);
+            margin-bottom: 0;
+            position: relative;
+            color: #555;
+
+            @include media(">large"){
+                left: 0;
+            }
+
+            &:last-of-type,
+            &:only-child {
+                padding-bottom: 0;
+            }
+        }
+
+        p + p {
+            padding-top: 5px;
+        }
+    }
+
+    .blockquote--none {
+        p {
+            border-left: 0;
+            padding-left: 0;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+
+        & + figcaption {
+            padding: 10px 0 0 0;
+        }
+    }
+
+    .cite,
+    figcaption {
+        color: darken($c-text, 30);
+        display: block;
+        position: relative;
+        padding-top: 4px;
+        border-left: 2px solid transparent;
+
+        .t-dark & {
+            color: lighten($c-text, 5);
+        }
+
+        >p {
+            @include remCalc(font-size, 14);
+            margin-bottom: 0;
+            text-align: left;
+            width: 100%;
+
+            @include media(">medium"){
+                @include remCalc(font-size, 15);
+            }
+        }
+    }
+
+    h2,.h2 {
+        @include typeface("Display");
+        margin-bottom: 20px;
+    }
+
+    h3,.h3 {
+        @include typeface("Book");
+        margin-bottom: 20px;
+    }
+
+    h4, .h4 {
+        @include typeface("Regular italic");
+        margin-top: 40px;
+    }
+
+    h5, .h5 {
+        @include typeface("Small caps");
+        color: #000;
+        margin-top: 40px;
+    }
+}
+
+@mixin wrapper {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto; // center align text
+    padding: 0 15px;
+    @include media(">medium") {
+        padding: 0 5%;
+    }
+    @include media(">large") {
+        padding: 0;
+    }
+}
+
+.wrapper {
+    .content {
+        display: block;
+    }
+}
+
+.wrapper {
+    .content,
+    p,
+    ol,
+    ul,
+    blockquote,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    pre {
+        @include wrapper();
+    }
+}
+
+
+
+.box {
+    display: flex;
+    align-items: stretch;
+    background-color: #111;
+}
+
+.box__unit--image {
+    width: 70%;
+    object-fit: cover;
+}
+
+.box__unit {
+    * {
+        color: white;
+    }
+
+    img {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.box__unit--bottom {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    small {
+        position: absolute;
+        bottom: 10px;
+        opacity: .6;
+    }
+}
+
+.date {
+    color: #999;
+}
+
+.river__image {
+    max-width: 100%;
+    width: 100%;
+}
+
+@import "objects/cell";

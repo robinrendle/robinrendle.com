@@ -22,7 +22,8 @@ Country:
 <blockquote>
 <p>I get so very tired of having to talk about literature. I didn’t begin writing because I wanted to sit in a room and talk about the construction of subjectivity in Wordsworth and Ashbery; I began writing because I had made friends with the dead: they had written to me, in their books, about life on earth and I wanted to write back and say <em>yes, house, bridge, river, hair, no, maybe, never, forever</em>.</p>
 </blockquote>
-<figcaption class="cite"><p>Mary Ruefle, [*Madness, Rack and Honey*](http://www.amazon.com/Madness-Rack-Honey-Collected-Lectures/dp/1933517573/ref=sr_1_1?ie=UTF8&qid=1400882961&sr=8-1&keywords=madness+rack+and+honey)</p></figcaption>
+<figcaption class="cite"><p>Mary Ruefle, <a href="http://www.amazon.com/Madness-Rack-Honey-Collected-Lectures/dp/1933517573/ref=sr_1_1?ie=UTF8&qid=1400882961&sr=8-1&keywords=madness+rack+and+honey">Madness, Rack and Honey</a></p></figcaption>
+</figure>
 
 After reading it I found that my copy was overflowing with notes and scribbles I’d made – every inch of every margin is filled with either !!!!’s or ????’s or <span>woah’s</span>. Every available space in the book is now an underline or a rushed, passionate note. In short: I’m beginning to think again, or perhaps reaffirm, that the mark of a truly great book is all of this excess material that couldn’t possibly make it to print – it’s that strange private/public experience between both reader and writer. 
 

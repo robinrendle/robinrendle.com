@@ -7,8 +7,7 @@ $quarter-spacing-unit: $half-spacing-unit / 2;
 $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px, gigantic: 1400px) !default;
 $max-width: 700px;
 $theme: #319f90;
-$font-stack: Georgia,
-serif;
+$font-stack: Georgia, serif;
 $font-stack--sans: Helvetica,
 sans-serif;
 $c-primary: darken($theme, 20); // because of old links code :-(

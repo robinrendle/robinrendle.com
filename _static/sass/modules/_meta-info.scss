@@ -6,11 +6,12 @@
 //
 
 .meta-info {
-    @include typeface("Book");
+    @include typeface("Regular italic");
+    font-style: italic;
     @include remCalc(font-size, 13);
     @include clearfix();
     margin: 0;
-    margin-top: 3px;
+    margin-top: 10px;
 
     @include media(">medium"){
         @include remCalc(font-size, 15);

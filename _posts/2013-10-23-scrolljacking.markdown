@@ -57,11 +57,12 @@ Scrolljacking, as I shall now refer to it both sarcastically and honestly, is a 
 <p>That a user should not be kept waiting unnecessarily is an obvious and humane design principle. [...] Users should set the pace of interaction.</p>
 </blockquote>
 <figcaption class="cite">
-<p>Jef Raskin, <cite><a href="http://www.amazon.com/Humane-Interface-Directions-Designing-Interactive/dp/0201379376">The Humane Interface</a>, p.8</cite>
+<p>Jef Raskin, <cite><a href="http://www.amazon.com/Humane-Interface-Directions-Designing-Interactive/dp/0201379376">The Humane Interface</a>, p.8</cite></p>
 </figcaption>
 </figure>
 
-***
+<hr/>
 
-<blockquote class="twitter-tweet" lang="en"><p>Scrolling is the default behaviour of the web. If a design conflicts with that then there has to be a pretty damn good reason why.</p>&mdash; Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/349557342519566337">June 25, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<figure>
+<blockquote lang="en"><p>Scrolling is the default behaviour of the web. If a design conflicts with that then there has to be a pretty damn good reason why.</p>&mdash; Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/349557342519566337">June 25, 2013</a></blockquote>
+</figure>

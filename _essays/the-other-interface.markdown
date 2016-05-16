@@ -51,13 +51,13 @@ Developers are probably quite familiar with [Sass](http://sassnotsass.com/) file
 
 Of course, these problems become infinitely worse when you must navigate someone else’s project or an entirely unfamiliar code base.
 
-###2.Figuring out relationships between modules should be straightforward
+### 2.Figuring out relationships between modules should be straightforward
 
 Whenever I try to add a component to an old website, I have to figure out the mental model of the relationships between elements. I have to wonder how removing a portion of the website would affect another totally unrelated thing elsewhere. This could be a background color or margins or padding or even the order of elements in a module (such as an image in a comments section combined with text from the same object).
 
 Nicole Sullivan mentions in her fantastic [talk at Webstock](http://talks.webstock.org.nz/speakers/nicole-sullivan/css-tools-massive-websites/) that these elements can become so interwoven with one another that they pose hurdles down the road. This problem often forces me to move from the text editor to the Web inspector and manipulate elements by hand in order to get an idea of how things work together, and then move back to the editor to make the fix.
 
-###3. Websites need tailor-made components
+### 3. Websites need tailor-made components
 Sometimes a design requires a component that is never reused, a sort of [one-of-a-kind](http://www.smashingmagazine.com/2012/02/08/the-journey-from-writer-to-reader/) embellishment that sparks interest or delight in the user in some way. If it were repeated, it would become boring or, worse, repellant. Ideally, a new organizational system would allow for the sort of design components that Allen Tan describes in his article [Made to Measure](http://contentsmagazine.com/articles/made-to-measure/):
 
 > Design is about establishing a set of relationships between elements. By codifying these relationships as a set of principles instead of a single, stand-alone template, we make it possible for other designers to extend our work (per article) while remaining faithful to its core ideas.

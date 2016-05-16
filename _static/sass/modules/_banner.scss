@@ -25,6 +25,7 @@
 }
 
 .m-banner__about {
+    @include typeface("Small caps");
     display: inline-block;
     padding: 12px 20px;
     background-color: $c-primary;
@@ -37,7 +38,7 @@
     height: 50px;
     width: 160px;
 
-    .wf-active & {
+    .wf-nocturnoregular26-n4-active & {
         font-size: 18px !important;
     }
 
@@ -63,6 +64,7 @@
     float: right;
     color: darken($c-text, 20);
     padding-top: 13px;
+    @include typeface("Small caps");
 
     .no-js & {
         display: none;
@@ -91,13 +93,18 @@
 
 .m-banner__nav {
     display: inline-block;
-    font-size: 16px;
+    font-size: 17px;
     float: left;
     padding-top: 0;
+    @include typeface("Small caps");
     width: 100%;
 
+    .wf-nocturnoregular26-n4-active & {
+        font-size: 17px !important;
+    }
+
     @include media(">medium"){
-        font-size: 17px;
+        font-size: 16px;
         width: auto;
         padding-top: 15px;
     }
@@ -112,7 +119,6 @@
             float: left;
         }
     }
-
 
     .js .is--active & {
         @include media("<medium"){
@@ -132,7 +138,7 @@
             display: block;
             color: white;
             padding: 13px 20px;
-            @include typeface("Display");
+            @include typeface("Small caps");
             text-transform: capitalize;
             margin: 0;
             background-color: white;

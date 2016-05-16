@@ -5,17 +5,21 @@
 
 @mixin typeface($font) {
     $fallback: Georgia, serif;
+    $sansfallback: Helvetica, sans-serif;
     .wf-active & {
         font-weight: normal;
         font-stretch: normal;
     }
 
     @if $font == "Display" {
-        font-family: $fallback;
-        font-weight: bold;
-        .wf-active & {
+        .wf-active &,
+        & {
+            font-family: $sansfallback;
+            font-weight: bold;
+        }
+        .wf-fgdisplay-n4-active & {
             font-weight: normal;
-            font-family: "Nocturno Display Medium 3", $fallback;
+            font-family: "FG Display", $sansfallback;
         }
     }
 
@@ -30,7 +34,9 @@
     @if $font == "Regular italic" {
         font-style: italic;
         font-family: $fallback;
-        .wf-active & {
+
+        // this isnt the right class to bind these styles to
+        .wf-nocturnoregularitalic24-n4-active & {
             font-style: normal;
             font-family: "Nocturno Regular Italic 24", $fallback;
         }
@@ -42,8 +48,8 @@
         font-weight: normal;
         font-size: .8em;
 
-
-        .wf-active & {
+        // this isnt the right class to bind these styles to
+        .wf-nocturnoregular26-n4-active & {
             font-size: 1em;
             text-transform: lowercase;
             font-family: "Nocturno Regular 26", $fallback;

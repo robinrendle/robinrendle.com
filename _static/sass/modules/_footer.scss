@@ -5,6 +5,8 @@
 
 .m-footer {
     @include clearfix();
+    @include typeface("Small caps");
+    font-weight: 400!important;
     padding: 15px 20px;
     margin-top: 100px;
     background-color: $c-primary;

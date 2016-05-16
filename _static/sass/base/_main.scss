@@ -12,9 +12,7 @@
 html{
     overflow-y:scroll;
     min-height:100%;
-    -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -42,6 +40,7 @@ body {
 
 cite {
     @include typeface("Regular");
+    font-style: normal;
 }
 
 em,
