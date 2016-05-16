@@ -1,6 +1,6 @@
 ---
 title: The Other Interface
-date: 2013-08-02 22:17:00 Z
+date: 2013-08-02 23:17:00 +01:00
 tags:
 - frameworks
 - css

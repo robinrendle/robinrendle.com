@@ -1,6 +1,6 @@
 ---
 title: What Networks Want
-date: 2016-05-07 22:17:00 Z
+date: 2016-05-07 23:17:00 +01:00
 tags:
 - web
 - typography
