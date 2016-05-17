@@ -26,8 +26,8 @@
     @if $font == "Book" {
         font-family: $fallback;
         font-weight: normal;
-        .wf-active & {
-            font-family: "Nocturno Book 2", $fallback;
+        .wf-nocturnobook7-n4-active & {
+            font-family: "Nocturno Book 7", $fallback;
         }
     }
 
@@ -36,9 +36,9 @@
         font-family: $fallback;
 
         // this isnt the right class to bind these styles to
-        .wf-nocturnoregularitalic24-n4-active & {
+        .wf-nocturnoregularitalic35-n4-active & {
             font-style: normal;
-            font-family: "Nocturno Regular Italic 24", $fallback;
+            font-family: "Nocturno Regular Italic 35", $fallback;
         }
     }
 
@@ -46,20 +46,21 @@
         font-family: $fallback;
         text-transform: uppercase;
         font-weight: normal;
-        font-size: .8em;
+        font-size: .8em !important;
+
 
         // this isnt the right class to bind these styles to
-        .wf-nocturnoregular26-n4-active & {
-            font-size: 1em;
+        .wf-nocturnoregular40-n4-active & {
+            font-size: 1em !important;
             text-transform: lowercase;
-            font-family: "Nocturno Regular 26", $fallback;
+            font-family: "Nocturno Regular 40", $fallback;
         }
     }
 
     @if $font == "Regular" {
         font-family: $fallback;
-        .wf-active & {
-            font-family: "Nocturno Regular 25", $fallback;
+        .wf-nocturnoregular39-n4-active & {
+            font-family: "Nocturno Regular 39", $fallback;
         }
     }
 }

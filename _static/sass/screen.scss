@@ -57,7 +57,6 @@ section[role="main"]{
     min-height: 80vh;
 }
 
-
 ::selection {
     background-color: rgba($c-primary,0.35);
     color: #333;
@@ -109,6 +108,14 @@ section[role="main"]{
     &:focus {
         opacity: 1;
     }
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
 }
 
 @import "utilities/reset-margins";

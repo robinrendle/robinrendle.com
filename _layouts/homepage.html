@@ -6,39 +6,10 @@
         </p>
     </div>
 
-    <div class="m-wrapper cell-b40">
-        <h4 class="caps rules rules--bottom rules--transparent">Quick notes and ramblings</h4>
-
-        <div class="o-multi">
-            {% for post in site.posts limit: 6 %}
-                <article class="o-multi__item">
-                   <header class="links">
-                        <div class="meta-info">
-                            <div class="meta-info__item">
-                                <time datetime="{{ post.date}}">
-                                    {% assign d = post.date | date: "%-d"  %}
-                                    {% case d %}
-                                        {% when '1' or '21' or '31' %}{{ d }}st
-                                        {% when '2' or '22' %}{{ d }}nd
-                                        {% when '3' or '23' %}{{ d }}rd
-                                        {% else %}{{ d }}th
-                                    {% endcase %}
-                                    {{ post.date | date: "%B" }}
-                                    {{ post.date | date: "%Y" }}
-                                </time>
-                            </div>
-                        </div>
-                        <h3 class="h4 u-text--book"><a href="{{post.url}}">{{post.title}}</a></h3>
-                    </header>
-                </article>
-            {% endfor %}
-        </div>
-    </div>
-
    <div class="m-wrapper cell-b40">
         <h4 class="caps rules--bottom rules rules--transparent">Essays and articles</h4>
         {% assign essays = site.essays | sort: 'date' | reverse %}
-        {% for item in essays %}
+        {% for item in essays limit: 2 %}
             <div class="cell-b30">
                 <header class="links">
                     <h3 class="h3 u-text--book u-reset-margins"><a href="{{item.url}}">{{item.title}}</a></h3>
@@ -51,30 +22,20 @@
         {% endfor %}
     </div>
 
-    <div class="m-wrapper h-entry">
-        <h4 class="caps rules--bottom rules rules--transparent">What I&rsquo;ve been reading</h4>
+    <div class="m-wrapper cell-b40">
+        <h4 class="caps rules rules--bottom rules--transparent">Quick notes and ramblings</h4>
 
-        {% assign items = site.reading | sort: 'date' | reverse %}
-        {% for item in items | limit: 1 %}
-            <div class="cell-b30">
-                <header class="links">
-                    <h3 class="h3 u-text--book u-reset-margins">
-                        <a href="{{item.url}}">{{item.title}}</a>
-                    </h3>
-                    {% if item.author %}
-                        <div class="u-text--italic h6 cell-b10">Written by {{item.author}}</div>
-                    {% endif %}
-                </header>
-
-
-                <div class="m-longform">
-                    <blockquote class="cell-t10">
-                        <p>{{item.extract}}</p>
-                    </blockquote>
+            {% for post in site.posts limit: 6 %}
+            <a href="{{post.url}}" class="rules--bottom rules--light block cell-v10">
+                <div class="inline c-grey">
+                    <time datetime="{{ post.date}}">
+                        {{ post.date | date: "%m/%d/%Y" }}
+                    </time>
                 </div>
-            </div>
-        {% endfor %}
+                <h3 class="h4 c-primary u-text--book u-reset-margins inline cell-l20">{{post.title}}</h3>
+            </a>
+            {% endfor %}
+        </div>
     </div>
-
 
 {% include footer.html %}

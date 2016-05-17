@@ -129,15 +129,6 @@ gulp.task('sass', function () {
             outputStyle: 'compressed'
         }))
         .pipe(gulp.dest('css'));
-    gulp.src(paths.styles.typography)
-        .pipe(sass({
-            includePaths: ['scss'],
-            onError: browserSync.notify,
-            outputStyle: 'compressed'
-        }))
-        .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
     gulp.src('_static/sass/what-networks-want.scss')
         .pipe(sass({
             includePaths: ['scss'],

@@ -8,3 +8,11 @@ $c-text: #999;
 $c-dark: #ddd;
 
 $c-offwhite: lighten($c-text, 10);
+
+.c-grey {
+    color: #666;
+}
+
+.c-primary {
+    color: $c-primary;
+}
