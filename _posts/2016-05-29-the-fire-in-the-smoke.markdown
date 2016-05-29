@@ -13,7 +13,7 @@ Many young designers hope to clear a path to the finished product as quickly as 
 
 Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these *feelings* into *questions* and so unfortunately they must spend an awful amount of time with them. They recognise that with each prolonged step they’re nudging the intangible, the numinous, into something everyone can clearly see.
 
-What’s remarkable is the patience required for this type of work, it’s almost Zen-like.
+What’s remarkable is the fortitude required for work of this kind, it’s almost Zen-like.
 
 I imagine myself as a veteran designer at one point or another in the future chanting these sorts of mantras on hilltops and practicing my kōans: “Each act of design is only a cog in a much larger machine,” I whisper to my initiates. “We must welcome the great, everlasting churn of design and edit, design and edit.”
 
