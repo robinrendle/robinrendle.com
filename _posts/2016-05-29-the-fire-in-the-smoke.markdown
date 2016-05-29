@@ -11,7 +11,7 @@ It often doesn’t feel like *work* at all.
 
 This is because design is mostly an act of patience. We can recognise an experienced designer from a novice by the amount of time they feel comfortable in the early, awkward moments. Many young designers hope to clear a path to the finished product as quickly as possible since they cannot bear the disorder that they feel all around them, smothering them with the grime of uncertainty. So they believe that more than half their work is complete when a geometric typeface, a circular avatar and a grid with the proportions of the golden-ratio are set into place.
 
-Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these *feelings* into *questions* and so unfortunately they must spend an awful amount of time with them. They know how long it takes for emotions to become objectives and they recognise that with each prolonged step they’re nudging the intangible, the numinous, into something everyone can clearly see.
+Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these *feelings* into *questions* and so unfortunately they must spend an awful amount of time with them. They recognise that with each prolonged step they’re nudging the intangible, the numinous, into something everyone can clearly see.
 
 What’s remarkable is the patience required for this type of work, it’s almost Zen-like.
 
