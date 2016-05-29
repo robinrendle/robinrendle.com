@@ -51,7 +51,7 @@ In [the documentary series for *Broken Age*](TK), Tim Schafer talks about the na
 
 In the design process that I’ve now started to adopt I’m finding that being messy and uncoordinated at the beginning of designing a layout will yield the best results. For instance, [*The New Web Typography*](http://robinrendle.com/essays/new-web-typography) was complimented for its design and layout, but what many didn’t see were the dozens of failed attempts I made to figure out the visual language for the essay.
 
-These haphazard ideas look entirely random, not to mention ugly, but over time I started to make decisions about what didn’t work. This effectively helped me jump to the redesign phase as quickly as possible because I could question all the assumptions that I’ve previously made, without attaching myself emotionally to any one pixel-perfect solution.
+Those early, haphazard ideas looked entirely random, not to mention ugly, but over time I started to make decisions about what didn’t work. This effectively helped me jump to the redesign phase as quickly as possible because I could question all the assumptions that I’ve previously made, without attaching myself emotionally to any one pixel-perfect solution.
 
 So I suppose the real question I’m asking myself here is this: why do I struggle to see my own work with the same sense of judgement? Why is the writing/designing so difficult when the rewriting/redesigning feels so much easier?
 
