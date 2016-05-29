@@ -24,9 +24,7 @@ In the first week of design school my group was asked to tape our work onto the 
 
 So throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
 
-Through these drafts and rough edits my friends uncovered a torrent of problems that I had clearly stumbled over without noticing. 
-
-I had latched onto this one solution to the problem because I was terrified of failure. On the other hand, my peers saw these rough edits on the wall as an experimentation with, and joyful celebration of, mistake-making. The initial clumsiness of their work could be easily revised later whilst my pixel-perfect mockups couldn’t be so easily tidied away and I had to start the whole process over again in earnest.
+Through these drafts and rough edits my friends uncovered a torrent of problems that I had clearly stumbled over without noticing. And I think I latched onto this one solution to the problem because I was terrified of failure. On the other hand, my peers saw these rough edits on the wall as an experimentation with, and joyful celebration of, mistake-making. The initial clumsiness of their work could be easily revised later whilst my pixel-perfect mockups couldn’t be so easily tidied away and I had to start the whole process over again in earnest.
 
 My mistake was in believing that the editing process was a form of weakness, of failure, or in short; a screw up. If I had to edit my work in anyway then I subsequently believed I had failed to see the problem in the first place. Each amendment became a physical marker of my wasted efforts, so that the very thought of editing my work was horrid to me.
 
