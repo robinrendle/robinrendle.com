@@ -5,13 +5,13 @@ City: San Francisco
 Country: California
 ---
 
-My greatest failure as a designer is asking the wrong question at the wrong time. I often jump ahead too quickly and make a string of assumptions because I want to skip to the fun part of designing an interface; fooling around with graphic elements. Subsequently, everything else in the design process feels like annoying busywork to me, whether that’s the writing, or asking questions, or communicating with my peers. 
+My greatest failure as a designer is asking the wrong question at the wrong time. I often jump ahead too quickly and make a string of assumptions because I want to skip to the fun part of designing an interface; fooling around with graphic elements. Everything else in the design process feels like annoying busywork to me, whether that’s the writing, or asking questions, or communicating with my peers. 
 
 It often doesn’t feel like *work* at all.
 
 This is because design is mostly an act of patience. We can recognise an experienced designer from a novice by the amount of time they feel comfortable in the early, awkward moments. Many young designers hope to clear a path to the finished product as quickly as possible since they cannot bear the disorder that they feel all around them, smothering them with the grime of uncertainty. So they believe that more than half their work is complete when a geometric typeface, a circular avatar and a grid with the proportions of the golden-ratio are set into place.
 
-Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these feelings into questions and so unfortunately they must spend an awful amount of time with them. They know how long it takes for emotions to become objectives and they recognise that with each prolonged step they’re nudging the intangible, the numinous, into something everyone can clearly see.
+Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these *feelings* into *questions* and so unfortunately they must spend an awful amount of time with them. They know how long it takes for emotions to become objectives and they recognise that with each prolonged step they’re nudging the intangible, the numinous, into something everyone can clearly see.
 
 What’s remarkable is the patience required for this type of work, it’s almost Zen-like.
 
@@ -22,7 +22,7 @@ I imagine myself as a veteran designer at one point or another in the future cha
 
 In my first week of design school our group was asked to tape our ideas onto the wall. Having just finished a degree in English Literature I had become familiar with the process of sending a draft to a tutor, and I secretly adored hiding in the reclusive comforts of anonymity.
 
-But throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. It was at this moment I discovered that I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
+Throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. It was at this moment I discovered that I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
 
 Through these drafts and rough edits my friends uncovered a torrent of problems that I had clearly stumbled over without noticing. 
 
