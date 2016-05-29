@@ -1,6 +1,8 @@
 ---
 title: The Fire in the Smoke
 date: 2016-05-29 01:26:00 +01:00
+City: San Francisco
+Country: USA
 ---
 
 My greatest failure as a designer is asking the wrong question at the wrong time. I often jump ahead too quickly and make a string of assumptions because I want to skip to the fun part of designing an interface; fooling around with graphic elements. Subsequently, everything else in the design process feels like annoying busywork to me, whether that’s the writing, or asking questions, or communicating with my peers. 
@@ -16,7 +18,7 @@ What’s remarkable is the patience required for this type of work, it’s almos
 I imagine myself as a veteran designer at one point or another in the future chanting these sorts of mantras on hilltops and practicing my kōans: “Each act of design is only a cog in a much larger machine,” I whisper to my initiates. “We must welcome the great, everlasting churn of design and edit, design and edit.”
 
 
-## Redesigning 
+## ~~Designing~~ Redesigning 
 
 In my first week of design school our group was asked to tape our ideas onto the wall. Having just finished a degree in English Literature I had become familiar with the process of sending a draft to a tutor and never revealing my work publicly. I hadn’t known it at the time, but I adored hiding in the reclusive comforts of anonymity.
 
@@ -31,7 +33,7 @@ My mistake was in believing that the editing process was a form of weakness, of 
 It took many years for me to recognise that this editing process is where the differences between the naïve and the experienced can be found, but it’s also where the many tangents between design and writing collide, too.
 
 
-## Rewriting
+## ~~Writing~~ Rewriting
 
 In the classic book *On Writing Well*, William Zinsser describes the design process as coherently as any designer:
 
@@ -39,7 +41,7 @@ In the classic book *On Writing Well*, William Zinsser describes the design proc
 
 So when we talk about writing what we’re really talking about is rewriting since no-one can write well on their first attempt, it’s an impossible task. But, with enough patience, we can cast an eye over the words we’ve already written to nudge, push and cajole them into something far beyond the pulp of our everyday thoughts. Once that initial piece of writing is underway we can then begin the enjoyable, fruitful work: the rewriting.
 
-If we turn our heads and squint at an old post by Wilson Miner we begin to see his frustration with this now familiar process, too:
+If we turn our heads and squint at [an old post](http://wm4.wilsonminer.com/posts/2008/apr/12/optimizer/) by Wilson Miner we begin to see his frustration with this now familiar process, too:
 
 > That’s one reason I feel like I’m best at redesigns—taking something that works and making it better. [...] I use websites and play games and think about the redesign.
 
