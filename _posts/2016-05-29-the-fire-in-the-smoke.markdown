@@ -11,7 +11,7 @@ This is because good design requires patience.
 
 Many young designers hope to clear a path to the finished product as quickly as possible since they cannot bear the disorder that they feel all around them, smothering them with the grime of uncertainty. So they believe that more than half their work is complete when a geometric typeface, a circular avatar and a grid with the proportions of the golden-ratio are set into place.
 
-Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these *feelings* into *questions* and so unfortunately they must spend an awful amount of time with them. They recognise that with each prolonged step they’re nudging the intangible, the numinous, into something everyone can clearly see.
+Alternatively, an experienced designer learns to adore these qualities of unfamiliarity and ignorance. They want to define these *feelings* into *questions* and so unfortunately they must spend an awful amount of time with them. They recognise that with each prolonged step they’re nudging the intangible, the numinous, into something that everyone can clearly see.
 
 What’s remarkable is the fortitude required for work of this kind, it’s almost Zen-like.
 
@@ -22,7 +22,7 @@ I imagine myself as a veteran designer at one point or another in the future cha
 
 In the first week of design school my group was asked to tape our work onto the wall. One by one, my friends nonchalantly arranged their work but I felt paralysed in my chair. Having just finished a degree in English Literature I had become familiar with hiding in the reclusive comforts of anonymity because I would only send a private draft of my work to a tutor.
 
-So throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. It was at this moment I discovered that I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
+So throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
 
 Through these drafts and rough edits my friends uncovered a torrent of problems that I had clearly stumbled over without noticing. 
 
