@@ -20,9 +20,9 @@ I imagine myself as a veteran designer at one point or another in the future cha
 
 ## ~~Designing~~ Redesigning 
 
-In my first week of design school our group was asked to tape our ideas onto the wall. Having just finished a degree in English Literature I had become familiar with the process of sending a draft to a tutor, and I secretly adored hiding in the reclusive comforts of anonymity.
+In the first week of design school my group was asked to tape our work onto the wall. One by one, my friends nonchalantly arranged their work but I felt paralysed in my chair. Having just finished a degree in English Literature I had become familiar with hiding in the reclusive comforts of anonymity because I would only send a private draft of my work to a tutor.
 
-Throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. It was at this moment I discovered that I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
+So throughout this nerve-wracking design review it was clear how my friends hadn’t refined their work as much as my pixel-perfect draft, which explored only one manifestation of the problem-solved. It was at this moment I discovered that I’d been naively tackling a single problem in isolation, whilst my friends were still wondering if they were looking at the right questions altogether. 
 
 Through these drafts and rough edits my friends uncovered a torrent of problems that I had clearly stumbled over without noticing. 
 
