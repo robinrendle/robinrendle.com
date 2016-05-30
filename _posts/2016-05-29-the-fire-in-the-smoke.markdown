@@ -57,7 +57,7 @@ I think it’s because I’m still trapped in the mindset of the inexperienced d
 
 Aza Raskin eloquently phrased the point: design is not about learning to think outside the box, it’s about finding the right box to think inside of. Despite this sounding like a TED-esque revelation I think it makes for an important analogy, and so I’m trying my damnedest to see the early stages of design as a messy workshop full of these boxes that I can think inside of. I’m trying my best to ignore these errors of fidelity and look more carefully at the questions that I need to ask myself instead.
 
-It’s clear to me now that great design or writing has in fact nothing to do with talent. Instead, it has everything to do with bombarding our mad experiments with a delirious amount of patience, whittling down each mad idea into something uniform, something coherent and visible. 
+It’s clear to me now that great design or writing has in fact nothing to do with talent. Instead, it has everything to do with bombarding our experiments with a delirious amount of patience, whittling down each mad idea into something uniform, something coherent and visible. 
 
 Or, as Arthur Plotnik once wrote so eloquently in *The Elements of Editing:* 
 
