@@ -14,7 +14,7 @@ Country:
 layout: what-networks-want
 ---
 
-<span class="caps">I adore the shape of American cities.</span> Once the plane descends, and my internal compass has calibrated itself, I find the cardinal directions once again; *North, East, South and West*. This can be attributed to the wondrous, atomic unit of the American city block, but also to my heritage as an immigrant from England, a country where our cities are stacked on top of cities, where our roads are as thin as arterial veins and where our maps share a common resemblance with a bowl of spaghetti. Orientation is difficult. In fact, across the pond, these American roads and city blocks are unimaginable feats of engineering, of civic coordination, and it’s why we often stand beneath those maps and curse them all in jealousy.
+<span class="caps">I adore the shape of American cities.</span> Once the plane descends I adjust to the cardinal directions once again; *North, East, South and West*. This can be attributed to the wondrous, atomic unit of the American city block, but also to my heritage as an immigrant from England, a country where our cities are stacked on top of cities, where our roads are as thin as arterial veins and where our maps share a common resemblance with a bowl of spaghetti. Orientation is difficult. In fact, across the pond, American roads and city blocks are viewed as unimaginable feats of engineering, of civic coordination, and it’s why my British compatriots often stand beneath those maps and curse them all in jealousy.
 
 <figure class="cell-t20">
     <img class="river__image" src="https://dl.dropboxusercontent.com/u/7963775/portland.jpg">

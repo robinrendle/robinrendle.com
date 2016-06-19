@@ -58,10 +58,13 @@ body {
     overflow: hidden;
     max-width: 100%;
     min-height: 400px;
-    background-color: darken($theme, 10);
+    // background-color: $theme;
     position: relative;
     height: 75vh;
     width: 100%;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    border-top: 1px solid #222;
 
     @include media(">large"){
         height: 90vh;
@@ -69,7 +72,7 @@ body {
 
     img {
         object-fit: cover;
-        mix-blend-mode: overlay;
+        // mix-blend-mode: overlay;
         max-width: 100%;
         width: 100%;
     }
@@ -80,17 +83,17 @@ body {
         position: absolute;
         height: 100%;
         width: 100%;
-        opacity: .7;
-        background-image: url('../build/images/circle.svg');
+        opacity: .4;
+        // background-image: url('../build/images/circle-white.svg');
     }
 }
 
 .title {
     position: relative;
-    background-color: red;
-    background-color: lighten($theme, 60);
     border-left: 1px solid #222;
     border-right: 1px solid #222;
+    border-top: 1px solid #222;
+    background-color: $theme;
 
     @include media(">large"){
         width: 50vw;
@@ -111,6 +114,7 @@ h1 {
     font-feature-settings: "liga" 1;
     font-family: Georgia, serif;
     font-size: 3em;
+    font-size: calc(13vw);
     font-weight: 400 !important;
     line-height: 1;
     text-align: center;
@@ -119,7 +123,11 @@ h1 {
     color: #222;
     position: relative;
     margin-bottom: 0;
-    color: black;
+    color: white;
+
+    @include media(">medium"){
+        font-size: calc(8vw);
+    }
 
     @include media(">large"){
         font-size: 80px;
@@ -154,7 +162,7 @@ h1 {
     padding-bottom: 20px;
     position: relative;
     z-index: 3;
-    background-color: lighten($theme, 40);
+    // background-color: lighten($theme, 30);
 
     &:after {
         content: "";
@@ -249,7 +257,7 @@ input[type="email"] {
     }
 
     &:focus {
-        border: 1px solid white;
+        border: 1px solid $theme;
         color: #333;
         outline: none;
     }

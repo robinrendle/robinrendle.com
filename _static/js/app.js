@@ -20,25 +20,10 @@
             return Menu;
         })();
 
-        var Worker = (function() {
-            var Work = {};
-            Work.init = function(){
-                if (navigator.serviceWorker) {
-                    navigator.serviceWorker.register('../service-worker.js').then(function() {
-                        console.log('CLIENT: service worker registration complete.');
-                    }, function() {
-                        console.log('CLIENT: service worker registration failure.');
-                    });
-                }
-            }
-            return Work;
-        })();
-
 
     var App = {
         init: function() {
             Dropdown.init();
-            Worker.init();
         }
     }
 

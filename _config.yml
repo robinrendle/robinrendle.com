@@ -30,6 +30,9 @@ collections:
   work:
     title: Work
     output: true
+  adventures:
+    title: Adventures in Typography
+    output: true
 defaults:
 - scope:
     path: ''
@@ -61,6 +64,12 @@ defaults:
   values:
     permalink: "/work/:title/"
     layout: work-detail
+- scope:
+    path: ''
+    type: adventures
+  values:
+    permalink: "/adventures/"
+    layout: adventures
 - scope:
     path: ''
     type: talks
