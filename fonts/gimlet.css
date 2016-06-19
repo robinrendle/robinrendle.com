@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gimlet condensed';
+    font-style: 500;
+    src: url('/fonts/gimlet-condensed.woff2') format("woff2"),
+        url('/fonts/gimlet-condensed.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Gimlet text';
+    font-style: 400;
+    src: url('/fonts/gimlet-text.woff2') format("woff2"),
+        url('/fonts/gimlet-text.woff') format("woff");
+}
