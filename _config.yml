@@ -2,6 +2,9 @@
 title: Robin Rendle
 timezone: Europe/London
 collections:
+  adventures:
+    title: Adventures in Typography
+    output: true
   essays:
     title: Essays
     output: true
@@ -28,9 +31,6 @@ collections:
     output: false
   work:
     title: Work
-    output: true
-  adventures:
-    title: Adventures in Typography
     output: true
 defaults:
 - scope:
