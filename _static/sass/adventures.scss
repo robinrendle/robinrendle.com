@@ -242,6 +242,10 @@ h1 {
     }
 }
 
+input {
+    border-radius: 0 !important;
+}
+
 .form {
     align-items: center;
     position: relative;
@@ -280,6 +284,7 @@ input[type="email"] {
     transition: background-color .3s ease;
     background-color: white;
     border: 1px solid #222;
+    border-radius: 0 !important;
 
     &:hover {
         cursor: pointer;
