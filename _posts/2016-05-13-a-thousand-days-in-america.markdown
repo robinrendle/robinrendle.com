@@ -5,7 +5,11 @@ tags:
 - gusto
 City: London
 Country: UK
-extract: I’m moving to San Francisco. After months of waiting, hoping, with fingers-crossed, the stars in the constellation of American bureaucracy aligned themselves this morning as I stood in the queue at the u.s. Embassy in London. But there was no certificate or handshake once my visa was approved, there were no balloons, and there was certainly not any triumphant, patriotic music to celebrate the affair.
+extract: I’m moving to San Francisco. After months of waiting, hoping, with fingers-crossed,
+  the stars in the constellation of American bureaucracy aligned themselves this morning
+  as I stood in the queue at the u.s. Embassy in London. But there was no certificate
+  or handshake once my visa was approved, there were no balloons, and there was certainly
+  not any triumphant, patriotic music to celebrate the affair.
 ---
 
 I’m moving to San Francisco. After months of waiting, hoping, with fingers-crossed, the stars in the constellation of American bureaucracy aligned themselves this morning as I stood in the queue at the <span class="caps">U.S.</span> Embassy in London. But there was no certificate or handshake once my visa was approved, there were no balloons, and there was certainly not any triumphant, patriotic music to celebrate the affair.
