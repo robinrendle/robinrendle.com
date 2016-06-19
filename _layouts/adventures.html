@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="utf-8" />
+    <title>{{site.title}} › {{page.title}}</title>
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/+RobinRendle">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/css/adventures.css" />
+</head>
+
+<body class="">
+    <section role="main" class="wrapper cell-t80">
+        <div class="display-img">
+            <img src="../build/images/woodward-avenue.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="title">
+                <h1>Adventures in Typography</h1>
+            </div>
+            <div class="footer">
+                <div class="m-longform cell-t40 cell-b80 footer__wrapper">
+                    <div class="intro">
+                        <p>Adventures in Typography is a newsletter for type nerds published every Sunday. Topics include web typography, type design, print, education, and dusty old type specimens.</p>
+                    </div>
+                </div>
+                <form class="form" action="https://tinyletter.com/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/robinrendle', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+
+                    <input type="email" placeholder="tschichold@yahoo.com" required name="email" id="tlemail" spellcheck="false"/>
+                    <label for="tlemail">Email address</label>
+                    <input type="hidden" value="1" name="embed" />
+                    <input type="submit" value="Subscribe" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+    WebFontConfig = {
+        custom: {
+            families: [
+                'Gimlet condensed',
+                'Gimlet text'
+            ],
+            urls: [
+                '/fonts/gimlet.css'
+            ]
+        },
+        timeout: 2000,
+        active: function() {
+            sessionStorage.fonts = true;
+        }
+    };
+
+    (function(d) {
+        var wf = d.createElement('script'),
+            s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+    })(document);
+    </script>
+</body>
+
+</html>

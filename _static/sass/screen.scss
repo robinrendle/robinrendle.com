@@ -118,5 +118,15 @@ section[role="main"]{
     display: inline-block;
 }
 
+.flex {
+    display: flex;
+}
+
+.flex--truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important

@@ -34,9 +34,9 @@ $max-width: 740px;
 // FONTS
 // ==========================================================================
 @font-face {
-    font-family: "FG Display";
-    src: url('#{$font-src}fg-condensed-medium.woff') format('woff');
-    font-weight: 600;
+    font-family: 'FG Display';
+    font-style: 800;
+    src: url('/fonts/fg-condensed-medium.woff') format("woff");
 }
 
 $sans-stack: " , Helvetica, sans-serif";
@@ -72,7 +72,7 @@ h1, .h1 {
     line-height: .9;
     font-family: Helvetica, sans-serif !important;
 
-    .fonts-loaded & {
+    .wf-fgdisplay-n4-active & {
         font-family: $display !important;
 
         @include media(">medium"){

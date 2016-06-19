@@ -9,9 +9,11 @@
     </header>
 
     <div class="m-wrapper">
-        <div class="m-longform">
-            {{meta.Extract | markdown:true}}
+        <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins">Currently</h2>
+        <div class="m-longform cell-b20 cell-t10">
+            {{ page.extract | markdownify }}
         </div>
+
 
         {% if site.pages.about.meta.Image %}
             <figure class="cell-t20">
@@ -42,7 +44,7 @@
         </div>
 
 
-        <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">Colophon</h2>
+        <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">About this place</h2>
 
         <div class="m-longform cell-t10">
             {{page.colophon | markdownify}}

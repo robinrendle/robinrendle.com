@@ -66,13 +66,13 @@ gulp.task('scripts', function() {
 
 
 gulp.task('images', function(cb){
-    return gulp.src(['_static/images/**/*.*', '_static/images/**/**/*.*'])
+    return gulp.src(['_static/images/*.*', '_static/images/**/*.*', '_static/images/**/**/*.*'])
         .pipe(imagemin({
             progressive: true,
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
-        .pipe(gulp.dest('images')).on('error', cb)
+        .pipe(gulp.dest('build/images')).on('error', cb)
 });
 
 
@@ -129,7 +129,7 @@ gulp.task('sass', function () {
             outputStyle: 'compressed'
         }))
         .pipe(gulp.dest('css'));
-    gulp.src('_static/sass/what-networks-want.scss')
+    gulp.src('_static/sass/adventures.scss')
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
@@ -161,6 +161,16 @@ gulp.task('work', function(){
 });
 
 gulp.task('what-networks-want', function(){
+    gulp.src([
+        '_static/js/lib/ff-observer.js'
+    ])
+        .pipe(uglify())
+        .pipe(concat('min.ff-observer.js'))
+        .pipe(gulp.dest('js'))
+        .pipe(reload({stream: true}))
+});
+
+gulp.task('adventures', function(){
     gulp.src([
         '_static/js/lib/ff-observer.js'
     ])

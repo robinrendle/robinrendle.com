@@ -23,15 +23,12 @@
         var Worker = (function() {
             var Work = {};
             Work.init = function(){
-                if ('serviceWorker' in navigator) {
-                    console.log('CLIENT: service worker registration in progress.');
+                if (navigator.serviceWorker) {
                     navigator.serviceWorker.register('../service-worker.js').then(function() {
                         console.log('CLIENT: service worker registration complete.');
                     }, function() {
                         console.log('CLIENT: service worker registration failure.');
                     });
-                } else {
-                    console.log('CLIENT: service worker is not supported.');
                 }
             }
             return Work;

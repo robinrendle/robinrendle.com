@@ -34,29 +34,20 @@
         </section>
     </div>
 
-    <script src="/build/js/ff-observer.js"></script>
-    <script type="text/javascript">
-        var fgDisplay = new FontFaceObserver("FG Display", {weight: 800});
-
-            Promise.all([
-                fgDisplay.check(null, 3000),
-            ]).then(function(){
-                document.documentElement.className += ' fonts-loaded';
-            });
-    </script>
-
     <script type="text/javascript">
         WebFontConfig = {
           custom: {
             families: [
-                'Nocturno Book 2',
-                'Nocturno Regular Italic 24',
-                'Nocturno Regular 26',
-                'Nocturno Regular 25'
+                'FG Display',
+                'Nocturno Book 7',
+                'Nocturno Regular Italic 35',
+                'Nocturno Regular 39',
+                'Nocturno Regular 41' // small caps
             ],
             urls: [
-                'https://fonts.typonine.com/WF-003562-001254.css',
-                'https://fonts.typonine.com/WF-003562-001255.css'
+                'http://fonts.typonine.com/WF-003562-001466.css',
+                'http://fonts.typonine.com/WF-003562-001468.css',
+                'http://robinrendle.com/fonts/font.css'
             ]
           },
           timeout: 2000,
