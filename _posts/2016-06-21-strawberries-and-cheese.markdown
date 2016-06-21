@@ -3,7 +3,7 @@ title: Strawberries and Cheese
 date: 2016-06-21 04:46:00 +01:00
 City: San Francisco
 Country: CA
-Extract: The scene opens onto a gloriously dark and grimy café where my father and
+extract: The scene opens onto a gloriously dark and grimy café where my father and
   I have taken refuge from the storm that hovers above; clouds snap and crackle, a
   gale shudders along the windows whilst trees distort themselves into torturous yoga
   poses across the street. Inside the café, we’re welcomed with bad coffee and sweaty
