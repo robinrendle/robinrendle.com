@@ -42,12 +42,15 @@ html {
 body {
     font-family: Geogia, serif;
     background-color: $theme;
-    padding: 20px;
     padding-bottom: 0;
     background-color: white;
     position: relative;
     .wf-gimlettext-n4-active & {
         font-family: "Gimlet text", $fallback;
+    }
+
+    @include media(">medium") {
+        padding: 20px;
     }
 }
 
@@ -104,8 +107,18 @@ body {
         }
 
         a {
-            color: $theme;
+            &:visited,
+            &:hover {
+                color: $theme;
+            }
         }
+    }
+}
+
+a {
+    &:visited,
+    &:hover {
+        color: $theme;
     }
 }
 
@@ -173,17 +186,15 @@ h1 {
 .wrapper {
     height: 100%;
     width: 100%;
-    padding-bottom: 20px;
 }
 
 .footer {
     align-self: center;
     width: 100%;
     border: 1px solid black;
-    padding-bottom: 20px;
     position: relative;
     z-index: 3;
-    // background-color: lighten($theme, 30);
+    padding-bottom: 20px;
 
     &:after {
         content: "";
@@ -221,7 +232,7 @@ h1 {
     width: 100%;
     margin: 0 auto;
     font-size: 1em;
-    padding: 30px 5px 40px 15px;
+    padding: 30px 15px 40px 15px;
     color: #333;
     margin-bottom: 0;
 
@@ -238,7 +249,10 @@ h1 {
     font-size: 15px;
 
     a {
-        color: $theme;
+        &:visited,
+        &:hover {
+            color: $theme;
+        }
     }
 }
 
