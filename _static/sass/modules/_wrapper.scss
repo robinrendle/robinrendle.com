@@ -11,6 +11,7 @@ $_max-width-wide: 1000;
 .m-wrapper {
     display: block;
     margin: 0 auto;
+    @include clearfix();
     @include remCalc(padding, 0, 15);
     @include remCalc(max-width, $_max-width);
 

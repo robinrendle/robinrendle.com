@@ -6,8 +6,7 @@
 //
 
 .meta-info {
-    @include typeface("Regular italic");
-    font-style: italic;
+    @include typeface("Regular");
     @include remCalc(font-size, 13);
     @include clearfix();
     margin: 0;
@@ -15,6 +14,10 @@
 
     @include media(">medium"){
         @include remCalc(font-size, 15);
+
+        .wf-gimlettext-n4-active & {
+            @include remCalc(font-size, 14);
+        }
     }
 }
 

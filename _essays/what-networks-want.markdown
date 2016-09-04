@@ -22,6 +22,10 @@ layout: what-networks-want
 
 The same must be said of Portland when, in September of last year, I visited the xoxo festival for the first time. However, whilst I found the soothing orientation of city blocks beneath my feet again, I couldn’t shake the feeling of being lost rather more permanently. For some time I had looked at my work and felt wildly disorientated—the web had lost a lot of the charm that attracted me to it in the first place. No longer was it a buoyant force in my life, on the contrary, the Internet, what with all its notifications and buzzing sounds, it’s flashing advertisements and droning, felt like a sharp and heavy stone in my pocket, always nipping at my thigh.
 
-And so I entered the festival with high expectations because I naïvely hoped it would rekindle my curiosity, I hoped to uncover the weird indie web again. But it only took perhaps five minutes before I fell into conversation with a developer and we bonded over the peculiarities of web browsers. O, how we lamented their quirks in all their stubbornness, in all their complexity. But as coffee after coffee fuelled the conversation, I found that this intrepid developer was working on a system for designing responsive SVG comic books in the browser. Although he made it quite clear that he hadn’t prepared himself for the sheer difficulty of the task. 
+And so I entered the festival with high expectations because I naïvely hoped it would rekindle my curiosity, I hoped to uncover the weird indie web again. But it only took perhaps five minutes before I fell into conversation with a developer and we bonded over the peculiarities of web browsers. O, how we lamented their quirks in all their stubbornness, in all their complexity! 
+
+A river of coffee and ice cream fuelled our obsessive, child-like babble. 
+
+I found that this intrepid developer was working on a system for designing responsive SVG comic books in the browser. Although he made it quite clear that he hadn’t prepared himself for the sheer difficulty of the task. 
 
 

@@ -7,7 +7,7 @@
     </div>
 
    <div class="m-wrapper cell-b40">
-        <h4 class="caps rules--bottom cell-b10 rules--light">Essays and articles</h4>
+        <h4 class="rules--bottom cell-b10 rules--light">Essays and articles</h4>
         {% assign essays = site.essays | sort: 'date' | reverse %}
         {% for item in essays limit: 2 %}
             <div class="cell-b30">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="m-wrapper cell-b40">
-        <h4 class="caps u-reset-margins cell-b10">Quick notes and ramblings</h4>
+        <h4 class="u-reset-margins cell-b10">Quick notes and ramblings</h4>
 
             {% for post in site.posts limit: 6 %}
             <a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">

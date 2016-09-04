@@ -9,19 +9,21 @@
     </header>
 
     <div class="m-wrapper">
-        <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins">Currently</h2>
-        <div class="m-longform cell-b20 cell-t10">
-            {{ page.extract | markdownify }}
+        <div class="m-longform cell-t00">
+            {{page.bio | markdownify}}
         </div>
 
+        <figure class="cell-t20">
+            <img src="/build/images/about/stanford.jpg">
+        </figure>
 
-        {% if site.pages.about.meta.Image %}
-            <figure class="cell-t20">
-                <img src="{{site.pages.about.meta.Image.value}}"/>
-            </figure>
-        {% endif %}
+        <h2 class="rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">About this place</h2>
 
-        <div class="cell-b40">
+        <div class="m-longform cell-t10">
+            {{page.colophon | markdownify}}
+        </div>
+
+        <div class="cell-t40">
             <div class="cell-5 rules rules--all rules--transparent m-longform--small links--underline">
                 <ul class="o-island o-island--transparent cell lists--none u-reset-margins">
                     <li class="cell-b10">You can find me on Twitter:
@@ -35,19 +37,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
-
-        <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins">Bio + history</h2>
-
-        <div class="m-longform cell-t10">
-            {{page.bio | markdownify}}
-        </div>
-
-
-        <h2 class="caps rules--bottom rules rules--transparent h5 u-reset-margins cell-t40">About this place</h2>
-
-        <div class="m-longform cell-t10">
-            {{page.colophon | markdownify}}
         </div>
 
     </div>

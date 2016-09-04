@@ -5,14 +5,14 @@
     <div class="cell-t40 cell-t60--medium cell-b20">
         <h1>Speaking &amp; Events</h1>
 
-        <div class="m-longform cell-b60">
-            <p class="u-text--italic">Left to my own devices I tend to ramble about design, typography, <span class="caps">CSS</span> and the web a lot. But this year I’m looking to attend as many conferences as possible to turn these rambles into something a bit more coherent. So, if you’re interested in giving me a stage, then please feel free to <a href="mailto:desk@robinrendle.com">contact me</a>.</p>
+        <div class="m-longform cell-b40">
+            <p class="">Left to my own devices I tend to ramble about design, typography, <span class="caps">CSS</span> and the web a lot. But this year I’m looking to attend as many conferences as possible to turn these rambles into something a bit more coherent. So, if you’re interested in giving me a stage, then please feel free to <a href="mailto:desk@robinrendle.com">contact me</a>.</p>
         </div>
     </div>
 
 
 {% if page.upcoming %}
-    <h3 class="h3 caps rules--bottom rules rules--transparent">Upcoming events</h3>
+    <h3 class="h3 rules--bottom rules rules--transparent">Upcoming events</h3>
 {% endif %}
 
     {% for post in site.talks %}
@@ -50,7 +50,7 @@
 
     {% assign items = site.talks | sort: 'date' | reverse %}
 
-    <h3 class="caps rules--bottom rules rules--transparent h3">Previous events</h3>
+    <h3 class="rules--bottom rules rules--transparent h3">Previous events</h3>
     <div class="">
         {% for post in items %}
             {% if post.completed %}

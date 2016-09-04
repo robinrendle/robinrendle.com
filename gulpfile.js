@@ -55,7 +55,6 @@ gulp.task('scripts', function() {
         .pipe(uglify())
         .pipe(gulp.dest('js'))
         .pipe(reload({stream: true}))
-
     gulp.src([
         '._static/js/lib/prism.js'
         ])
@@ -105,6 +104,7 @@ gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
             baseDir: '_site'
         }
     });
+    gulp.watch("_static/sass/*.scss", ['sass']);
 });
 
 gulp.task('watch', function () {
@@ -121,7 +121,8 @@ gulp.task('sass', function () {
         }))
         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('_site/css'));
     gulp.src(paths.styles.lexicon)
         .pipe(sass({
             includePaths: ['scss'],

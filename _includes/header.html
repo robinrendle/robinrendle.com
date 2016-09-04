@@ -10,12 +10,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="author" href="https://plus.google.com/+RobinRendle">
     <script>
-        function checkFonts(){
+        // why isnt this blocking render?
+        (function(){
+            console.log("webfonts activated");
             if(sessionStorage.fonts === "true" ) {
-                document.documentElement.classList.add('wf-active');
+                document.documentElement.classList.add('wf-active wf-gimletcondensed-n4-active wf-gimlettext-n4-active wf-gimletbold-n4-active wf-gimlettextitalic-n4-active');
             }
-        }
-        checkFonts();
+        })();
     </script>
 
     <!-- Favicons -->
@@ -24,9 +25,6 @@
     <!-- RSS -->
     <link href='https://robinrendle.com/feed.xml' rel='alternate' type='application/atom+xml'>
 
-    <!-- Prefetch -->
-    <link rel="preconnect" href="https://ajax.googleapis.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.typonine.com/" crossorigin>
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/css/screen.css" />

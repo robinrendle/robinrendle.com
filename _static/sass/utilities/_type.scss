@@ -5,7 +5,7 @@
 
 @mixin typeface($font) {
     $fallback: Georgia, serif;
-    $sansfallback: Helvetica, sans-serif;
+    $sansfallback: $fallback;
     .wf-active & {
         font-weight: normal;
         font-stretch: normal;
@@ -17,9 +17,9 @@
             font-family: $sansfallback;
             font-weight: bold;
         }
-        .wf-fgdisplay-n4-active & {
+        .wf-gimletcondensed-n4-active & {
             font-weight: normal;
-            font-family: "FG Display", $sansfallback;
+            font-family: "Gimlet condensed", $sansfallback;
         }
     }
 
@@ -27,10 +27,9 @@
         font-style: italic;
         font-family: $fallback;
 
-        // this isnt the right class to bind these styles to
-        .wf-nocturnoregularitalic-n4-active & {
-            font-style: normal;
-            font-family: "Nocturno Regular Italic", $fallback;
+        .wf-gimlettextitalic-n4-active & {
+            font-style: italic;
+            font-family: "Gimlet text italic", $fallback;
         }
     }
 
@@ -40,20 +39,24 @@
         font-weight: normal;
         font-size: .8em !important;
 
-
-        // this isnt the right class to bind these styles to
-        .wf-nocturnoregular2-n4-active & {
+        .wf-gimlettext-n4-active & {
             font-size: 1em !important;
-            weight: 400;
-            text-transform: lowercase;
-            font-family: "Nocturno Regular 2", sans-serif;
+            font-family: "Gimlet text", sans-serif;
         }
     }
 
     @if $font == "Regular" {
         font-family: $fallback;
-        .wf-nocturnoregular-n4-active & {
-            font-family: "Nocturno Regular", $fallback;
+        .wf-gimlettext-n4-active & {
+            font-family: "Gimlet text", $fallback;
+        }
+    }
+
+    @if $font == "Bold" {
+        font-family: $fallback;
+        font-weight: 600;
+        .wf-gimletbold-n4-active & {
+            font-family: "Gimlet bold", $fallback;
         }
     }
 }

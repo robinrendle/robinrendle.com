@@ -27,7 +27,7 @@
 .m-banner__about {
     @include typeface("Small caps");
     display: inline-block;
-    padding: 12px 20px;
+    padding: 15px 20px 12px;
     background-color: $c-primary;
     color: white;
     transition: background-color .3s ease;
@@ -38,8 +38,8 @@
     height: 50px;
     width: 160px;
 
-    .wf-nocturnoregular26-n4-active & {
-        font-size: 18px !important;
+    .wf-gimlettext-n4-active & {
+        font-size: 14px !important;
     }
 
     @include media("<medium"){
@@ -49,7 +49,7 @@
     }
 
     @include media(">medium"){
-        padding: 15px 20px;
+        padding: 19px 20px 13px;
         height: 55px;
     }
 
@@ -64,7 +64,6 @@
     float: right;
     color: darken($c-text, 20);
     padding-top: 13px;
-    @include typeface("Small caps");
 
     .no-js & {
         display: none;
@@ -93,20 +92,13 @@
 
 .m-banner__nav {
     display: inline-block;
-    font-size: 17px;
     float: left;
     padding-top: 0;
-    @include typeface("Small caps");
     width: 100%;
 
-    .wf-nocturnoregular26-n4-active & {
-        font-size: 17px !important;
-    }
-
     @include media(">medium"){
-        font-size: 16px;
         width: auto;
-        padding-top: 15px;
+        padding-top: 17px;
     }
 
     .js & {

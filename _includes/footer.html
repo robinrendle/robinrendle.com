@@ -14,35 +14,35 @@
                 <a href="/notes" class="o-nav__item">Notes</a>
                 <a href="/reading" class="o-nav__item">Reading</a>
                 <a href="/essays" class="o-nav__item">Essays</a>
-                <a href="/work" class="o-nav__item">Work</a>
             </nav>
         </footer>
     </div>
     <script type="text/javascript">
-        var WebFontConfig = {
-          custom: {
+    WebFontConfig = {
+        custom: {
             families: [
-                'FG Display',
-                'Nocturno Regular Italic',
-                'Nocturno Regular',
-                'Nocturno Regular 2'
+                'Gimlet condensed',
+                'Gimlet text',
+                'Gimlet text italic',
+                'Gimlet bold'
             ],
             urls: [
-                'https://fonts.typotheque.com/WF-015541-009363.css',
-                'https://fonts.typotheque.com/WF-015541-009361.css',
-                '/fonts/font.css'
+                '/fonts/gimlet.css'
             ]
-          },
-          timeout: 2000
-        };
+        },
+        timeout: 2500,
+        active: function() {
+            sessionStorage.fonts = true;
+        }
+    };
 
-       (function(d) {
-          var wf = d.createElement('script'), s = d.scripts[0];
-          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-          s.parentNode.insertBefore(wf, s);
-       })(document);
+    (function(d) {
+        var wf = d.createElement('script'),
+            s = d.scripts[0];
+        wf.src = '/js/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+    })(document);
     </script>
-
     <script src="/js/app.js"></script>
 </body>
 </html>

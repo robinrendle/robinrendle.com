@@ -10,10 +10,6 @@
     @include underline();
     @include trim();
 
-    h2 {
-        @include remCalc(margin-top, ($base-spacing-unit * 2));
-    }
-
     > div {
         margin-bottom: 50px;
     }
@@ -23,26 +19,42 @@
         @include remCalc(margin-bottom, ($base-spacing-unit));
     }
 
+    hgroup, .hgroup {
+        margin-bottom: 20px;
+        margin-top: 10px;
+
+        h1, h2, h3, h4, h5, h6 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
     p, ul, ol {
         @include remCalc(font-size, 17);
         -webkit-hyphens:auto;
         -webkit-hyphenate-limit-after:2;
         -webkit-hyphenate-limit-before:3;
         hyphens: auto;
-        line-height: 1.5;
+        line-height: 1.55;
 
         @include media(">small") {
             @include remCalc(font-size, 17);
+            line-height: 1.6;
         }
 
         @include media(">medium") {
             @include remCalc(font-size, 18);
-            line-height: 1.55;
+            line-height: 1.65;
         }
 
         @include media(">large"){
-            @include remCalc(font-size, 19);
-            line-height: 1.6;
+            @include remCalc(font-size, 21);
+            line-height: 1.7;
+
+            .wf-gimlettext-n4-active & {
+                @include remCalc(font-size, 18);
+                line-height: 1.7;
+            }
         }
 
         & > img {
@@ -71,10 +83,16 @@
         }
     }
 
-    figcaption {
+    figcaption,
+    figcaption p {
         @include typeface("Regular");
-        padding-top: 20px;
-        max-width: 600px;
+        font-size: 15px;
+        line-height: 1.45;
+
+        .wf-gimlettext-n4-active & {
+            font-size: 15px;
+            line-height: 1.45;
+        }
 
         a {
             @include links-dark();
@@ -94,7 +112,7 @@
             @include remCalc(padding-bottom, $base-spacing-unit - 5);
             margin-bottom: 0;
             position: relative;
-            color: #555;
+            color: #777;
 
             @include media(">large"){
                 left: 0;
@@ -154,6 +172,7 @@
     h2,.h2 {
         @include typeface("Display");
         margin-bottom: 20px;
+        @include remCalc(margin-top, ($base-spacing-unit * 2));
     }
 
     h3,.h3 {
@@ -197,5 +216,15 @@
             @include remCalc(font-size, 20);
             line-height: 1.5;
         }
+    }
+}
+
+hgroup, .hgroup {
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }

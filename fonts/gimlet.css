@@ -8,6 +8,23 @@
 @font-face {
     font-family: 'Gimlet text';
     font-style: 400;
-    src: url('/fonts/gimlet-text.woff2') format("woff2"),
-        url('/fonts/gimlet-text.woff') format("woff");
+    font-style: normal;
+    src: url('/fonts/GimletText-Regular.woff2') format("woff2"),
+        url('/fonts/GimletText-Regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Gimlet text italic';
+    font-style: 400;
+    font-style: italic;
+    src: url('/fonts/GimletText-Italic.woff2') format("woff2"),
+        url('/fonts/GimletText-Italic.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Gimlet bold'; /* really just gimlet text medium condensed */
+    font-style: 600;
+    font-style: normal;
+    src: url('/fonts/GimletTextCondensed-Medium.woff2') format("woff2"),
+        url('/fonts/GimletTextCondensed-Medium.woff') format("woff");
 }
