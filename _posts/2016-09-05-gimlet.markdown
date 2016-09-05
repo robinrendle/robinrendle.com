@@ -1,7 +1,8 @@
 ---
 title: Gimlet
 date: 2016-09-05 07:15:00 +01:00
-City: Dana Point, CA
+City: Dana Point
+Country: CA
 ---
 
 I’ve been a big fan of David Jonathan Ross’ [Gimlet](https://djr.com/gimlet/) for the past couple of months and from time to time I find myself picking a character at random and poking at it. Look at that capital Q! Or the & symbol! Gimlet tempts us to sit back and zoom in, each character begs to be stretched out and pulled across every inch of our screens.
