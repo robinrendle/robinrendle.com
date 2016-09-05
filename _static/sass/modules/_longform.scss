@@ -51,7 +51,7 @@
             @include remCalc(font-size, 21);
             line-height: 1.7;
 
-            .wf-gimlettext-n4-active & {
+            .fonts-loaded & {
                 @include remCalc(font-size, 18);
                 line-height: 1.7;
             }
@@ -89,7 +89,7 @@
         font-size: 15px;
         line-height: 1.45;
 
-        .wf-gimlettext-n4-active & {
+        .fonts-loaded & {
             font-size: 15px;
             line-height: 1.45;
         }
@@ -108,11 +108,11 @@
 
         p {
             border-left: 1px solid #ccc;
-            @include typeface("Regular italic");
+            @include typeface("Regular");
             @include remCalc(padding-bottom, $base-spacing-unit - 5);
             margin-bottom: 0;
             position: relative;
-            color: #777;
+            color: #666;
 
             @include media(">large"){
                 left: 0;

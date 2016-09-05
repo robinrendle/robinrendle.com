@@ -34,7 +34,7 @@ h1,
             @include remCalc(font-size, 40);
         }
 
-        .wf-gimletcondensed-n4-active & {
+        .fonts-loaded & {
             @include remCalc(font-size, 35);
             line-height: 1.1;
 
@@ -60,7 +60,7 @@ h5, .h5 {
 
 h2,
 .h2 {
-    .wf-gimletcondensed-n4-active &  {
+    .fonts-loaded &  {
         @include remCalc(font-size, 20);
 
         @include media(">medium"){
@@ -81,7 +81,7 @@ h2,
         @include media(">large"){
             @include remCalc(font-size, 25);
         }
-        .wf-gimletcondensed-n4-active &  {
+        .fonts-loaded &  {
             @include remCalc(font-size, 30);
             line-height: 1.1;
 

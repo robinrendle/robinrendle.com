@@ -15,7 +15,7 @@
     @include media(">medium"){
         @include remCalc(font-size, 15);
 
-        .wf-gimlettext-n4-active & {
+        .fonts-loaded & {
             @include remCalc(font-size, 14);
         }
     }

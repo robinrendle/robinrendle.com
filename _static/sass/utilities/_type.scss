@@ -6,18 +6,18 @@
 @mixin typeface($font) {
     $fallback: Georgia, serif;
     $sansfallback: $fallback;
-    .wf-active & {
+    .fonts-loaded & {
         font-weight: normal;
         font-stretch: normal;
     }
 
     @if $font == "Display" {
-        .wf-active &,
+        .fonts-loaded &,
         & {
             font-family: $sansfallback;
             font-weight: bold;
         }
-        .wf-gimletcondensed-n4-active & {
+        .fonts-loaded & {
             font-weight: normal;
             font-family: "Gimlet condensed", $sansfallback;
         }
@@ -27,7 +27,7 @@
         font-style: italic;
         font-family: $fallback;
 
-        .wf-gimlettextitalic-n4-active & {
+        .fonts-loaded & {
             font-style: italic;
             font-family: "Gimlet text italic", $fallback;
         }
@@ -39,23 +39,23 @@
         font-weight: normal;
         font-size: .8em !important;
 
-        .wf-gimlettext-n4-active & {
-            font-size: 1em !important;
+        .fonts-loaded & {
+            font-size: .9em !important;
             font-family: "Gimlet text", sans-serif;
         }
     }
 
     @if $font == "Regular" {
         font-family: $fallback;
-        .wf-gimlettext-n4-active & {
+        .fonts-loaded & {
             font-family: "Gimlet text", $fallback;
         }
     }
 
     @if $font == "Bold" {
         font-family: $fallback;
-        font-weight: 600;
-        .wf-gimletbold-n4-active & {
+        font-weight: 500;
+        .fonts-loaded & {
             font-family: "Gimlet bold", $fallback;
         }
     }
