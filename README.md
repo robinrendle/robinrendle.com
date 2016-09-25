@@ -15,5 +15,5 @@ All assets, including images, JavaScript and Sass files, are contained within th
 
 ## Typography
 
-The project is set with [Nocturno](http://www.typonine.com/fonts/font-library/nocturno/) Display and Text by the [Typonine](http://www.typonine.com) foundry.
+Everything is set with [Gimlet](http://djr.com/gimlet) by David Jonathan Ross.
 
