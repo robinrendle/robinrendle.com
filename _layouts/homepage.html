@@ -22,6 +22,22 @@
         {% endfor %}
     </div>
 
+    <div class="m-wrapper cell-b80">
+        <h4 class="u-reset-margins cell-b10">Adventures in Typography</h4>
+
+            {% for post in site.adventures limit: 6 %}
+            <a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
+                <div class="c-grey">
+                    <time datetime="{{ post.date}}">
+                        {{ post.date | date: "%m/%d/%Y" }}
+                    </time>
+                </div>
+                <h3 class="h4 flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
+            </a>
+            {% endfor %}
+    </div>
+
+
     <div class="m-wrapper cell-b40">
         <h4 class="u-reset-margins cell-b10">Quick notes and ramblings</h4>
 
@@ -35,7 +51,6 @@
                 <h3 class="h4 flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
             </a>
             {% endfor %}
-        </div>
     </div>
 
 {% include footer.html %}
