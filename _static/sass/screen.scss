@@ -118,5 +118,84 @@ section[role="main"]{
     text-overflow: ellipsis;
 }
 
+
+.form {
+    align-items: center;
+    position: relative;
+    padding: 0 15px;
+    display: flex;
+    max-width: 100%;
+
+    @include media(">large"){
+        height: 50px;
+        align-self: center;
+        width: 500px;
+    }
+
+    p, input, input[type="submit"] {
+        height: 50px;
+        align-items: center;
+    }
+}
+
+label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    width: 70%;
+}
+
+input[type="email"] {
+    margin: 0;
+    -webkit-appearance: none;
+    border: none;
+    padding: 0 15px;
+    width: 70%;
+    transition: background-color .3s ease;
+    background-color: white;
+    border: 1px solid #222;
+    border-radius: 0 !important;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:focus {
+        border: 1px solid $c-primary;
+        color: #333;
+        outline: none;
+    }
+}
+
+input[type="submit"] {
+    border-radius: 0;
+    padding: 3px 5px;
+    border: none;
+    width: 30%;
+    transition: background-color .3s ease;
+    background-color: lighten($c-primary, 10);
+    background-color: rgba(lighten($c-primary, 10), .4);
+    background-color: #222;
+    color: #eee;
+    outline: none;
+    font-size: .9em;
+
+    &:hover,
+    &:focus {
+        outline: none;
+        border-right: none;
+        border-top: none;
+        background-color: $c-primary;
+    }
+}
+
+.m-footer--adventures {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important

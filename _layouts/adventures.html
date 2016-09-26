@@ -25,22 +25,39 @@
             <div class="title">
                 <h1>Adventures in Typography</h1>
             </div>
-            <div class="footer">
-                <div class="m-longform cell-t40 cell-b80 footer__wrapper">
-                    <div class="intro">
-                        <p>Adventures in Typography is a newsletter for type fiends published every Sunday. Topics include web typography, type design, print, education, and dusty old type specimens. <a href="http://tinyletter.com/robinrendle/archive">View the archive.</a></p>
-                        <p class="small">The image above is a photograph by the Detroit Publishing Company of Woodward Avenue, Detroit, Michigan in 1917. <a href="https://www.pinterest.com/pin/194217802650140688/">See more images.</a></p>
-                    </div>
-                </div>
-                <form class="form" action="https://tinyletter.com/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/robinrendle', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-
-                    <input type="email" placeholder="tschichold@gmail.com" required name="email" id="tlemail" spellcheck="false"/>
-                    <label for="tlemail">Email address</label>
-                    <input type="hidden" value="1" name="embed" />
-                    <input type="submit" value="Subscribe" />
-                </form>
+            <div class="content-box">
+              <div class="footer">
+                  <div class="m-longform cell-t40 cell-b80 footer__wrapper">
+                      <div class="intro">
+                          <p>Adventures in Typography is a newsletter for type fiends published every Sunday. Topics include web typography, type design, print, education, and dusty old type specimens.</p>
+                          <p class="small">The image above is a photograph by the Detroit Publishing Company of Woodward Avenue, Detroit, Michigan in 1917. <a href="https://www.pinterest.com/pin/194217802650140688/">See more images.</a></p>
+                      </div>
+                  </div>
+                  <form class="form" action="https://tinyletter.com/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/robinrendle', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+                      <input type="email" placeholder="tschichold@gmail.com" required name="email" id="tlemail" spellcheck="false" />
+                      <label for="tlemail">Email address</label>
+                      <input type="hidden" value="1" name="embed" />
+                      <input type="submit" value="Subscribe" />
+                  </form>
+              </div>
+              <div class="bg-light intro archive">
+                  {% assign ad = site.adventures | sort: 'date' | reverse %}
+                  {% for item in ad %}
+                  <article class="archive-post">
+                      <header class="links flex">
+                          <div class="meta-info">
+                              <div class="meta-info__item">
+                                <time datetime="{{ post.date}}">
+                                    {{ item.date | date: "%m/%d/%Y" }}
+                                </time>
+                              </div>
+                          </div>
+                          <h3 class="h3 u-text--book links u-reset-margins cell-b0 flex--truncate"><a href="{{item.url}}">{{item.title}}</a></h3>
+                      </header>
+                  </article>
+                  {% endfor %}
+              </div>
             </div>
-        </div>
     </section>
     <script type="text/javascript">
     WebFontConfig = {

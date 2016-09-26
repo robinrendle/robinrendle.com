@@ -74,9 +74,9 @@ defaults:
     type: adventures
   values:
     permalink: "/adventures/:title"
-    layout: default
-    Country: 
-    City: 
+    layout: adventures-post
+    Country:
+    City:
 - scope:
     path: ''
     type: talks

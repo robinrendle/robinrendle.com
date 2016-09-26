@@ -1,11 +1,11 @@
 ---
 title: Archiving, Typographic Delights and the Doosmday Vault
-date: 2016-09-26 05:21:00 +01:00
+date: 2016-08-01 05:21:00 +01:00
 Country: California
 City: San Francisco
 ---
 
-<div class="message-body"> <p>This week my thoughts have been revolving around the topic of preservation and archiving thanks to an article by Rebecca Capua, a print conservation expert at the Metropolitan Museum of Art in New York. She wrote about <a href="http://www.metmuseum.org/blogs/now-at-the-met/2016/new-life-for-book-of-the-dead">the long journey to renovate the Ptolemaic galleries of Egyptian Art</a> and she goes on to describe her work in restoring <a href="http://www.metmuseum.org/art/collection/search/551786">the Book of the Dead of the Priest of Horus</a>.<br>
+<p>This week my thoughts have been revolving around the topic of preservation and archiving thanks to an article by Rebecca Capua, a print conservation expert at the Metropolitan Museum of Art in New York. She wrote about <a href="http://www.metmuseum.org/blogs/now-at-the-met/2016/new-life-for-book-of-the-dead">the long journey to renovate the Ptolemaic galleries of Egyptian Art</a> and she goes on to describe her work in restoring <a href="http://www.metmuseum.org/art/collection/search/551786">the Book of the Dead of the Priest of Horus</a>.<br>
 <br>
 Despite the name, the Book of the Dead is not a single object, as the wealthy at the time would often make a contract for their own copy to be made with handpicked spells and incantations to be drawn on a roll of papyrus. The spells&nbsp;were an attempt to preserve their spirit in the afterlife&nbsp;but, as complicated as it might be preserve a spirit after death, preserving the Book of the Dead is excruciatingly difficult work as well: there’s no fanfare or celebration once the work has been completed, simply because the work itself will never end.<br>
 <br>

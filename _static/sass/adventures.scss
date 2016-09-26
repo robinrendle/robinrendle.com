@@ -54,7 +54,6 @@ body {
     }
 }
 
-
 .display-img {
     margin: 0;
     display: flex;
@@ -116,9 +115,10 @@ body {
 }
 
 a {
-    &:visited,
+  color: $theme !important;
+
     &:hover {
-        color: $theme;
+        color: #222 !important;
     }
 }
 
@@ -130,9 +130,7 @@ a {
     background-color: $theme;
 
     @include media(">large"){
-        width: 50vw;
-        align-items: center;
-        justify-content: center;
+        padding-top: 20px;
         display: flex;
         border-right: none;
         border-left: 1px solid black;
@@ -167,21 +165,16 @@ h1 {
         font-size: 80px;
         padding-top: 80px;
         padding-top: 20px;
-        padding-bottom: 20px;
-        text-align: left;
+        padding-bottom: 40px;
     }
+}
 
+h1, h2 {
     .wf-gimletcondensed-n4-active & {
-        font-family: "Gimlet condensed", $fallback;
-    }
+      font-family: "Gimlet condensed", $fallback;
+  }
 }
 
-.content {
-    @include media(">large"){
-        display: flex;
-        width: 100%;
-    }
-}
 
 .wrapper {
     height: 100%;
@@ -331,4 +324,69 @@ input[type="submit"] {
         border-top: none;
         background-color: $theme;
     }
+}
+
+.bg-black {
+  background-color: #222;
+}
+
+.bg-light {
+  // background-color: #eee;
+}
+
+.archive {
+  padding: 50px 20px;
+  border: 1px solid black;
+  border-top: none;
+
+  @include media(">large") {
+    border-left: none;
+    border-right: 1px solid #000000;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #000000;
+  }
+
+  h3 {
+    font-size: 18px;
+    margin: 0;
+      .wf-gimlettext-n4-active & {
+        font-family: "Gimlet text", $fallback;
+    }
+  }
+}
+
+.meta-info__item {
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.content-box {
+  @include media(">large") {
+    display: flex;
+  }
+  .footer, .archive {
+    @include media(">large") {
+      width: 50vw;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.archive-post {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+
+  .flex {
+    align-items: baseline;
+  }
 }
