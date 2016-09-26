@@ -1,7 +1,7 @@
 ---
 title: A Great Flowering
 date: 2016-09-26 00:38:00 +01:00
-country: USA
+country: California
 city: San Francisco
 ---
 
