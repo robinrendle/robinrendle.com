@@ -1,6 +1,8 @@
 ---
 title: A Great Flowering
 date: 2016-09-26 00:38:00 +01:00
+country: USA
+city: San Francisco
 ---
 
 <p>Apple, Google, Microsoft and Adobe&nbsp;<a href="http://medium.com/@tiro/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369#.80ro6ha2q">introduced a new addition to the OpenType specification</a>&nbsp;earlier&nbsp;this month. It’s called “Font Variations” and it’s difficult to overhype such an announcement because it brings a host of welcome improvements just in reach of designers.</p>
