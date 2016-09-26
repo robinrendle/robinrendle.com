@@ -100,11 +100,15 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
  */
 gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
     browserSync({
-        server: {
-            baseDir: '_site'
-        }
+      proxy: "localhost:4000",
+        files: [
+          '_site/css/*.css',
+          '_site/*.html',
+          '_site/**/*.html',
+          '!_site/node_modules/*.html'
+        ]
     });
-    gulp.watch("_static/sass/*.scss", ['sass']);
+    gulp.watch(["_static/sass/*.scss", "_static/sass/**/*.scss"], ['sass']);
 });
 
 gulp.task('watch', function () {
@@ -123,13 +127,6 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'))
         .pipe(gulp.dest('_site/css'));
-    gulp.src(paths.styles.lexicon)
-        .pipe(sass({
-            includePaths: ['scss'],
-            onError: browserSync.notify,
-            outputStyle: 'compressed'
-        }))
-        .pipe(gulp.dest('css'));
     gulp.src('_static/sass/adventures.scss')
         .pipe(sass({
             includePaths: ['scss'],
@@ -141,35 +138,25 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'))
 });
 
-gulp.task('work', function(){
-    gulp.src('_static/sass/work.scss')
-        .pipe(sass({
-            includePaths: ['scss'],
-            onError: browserSync.notify,
-            outputStyle: 'compressed'
-        }))
-        .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'))
+// gulp.task('work', function(){
+//     gulp.src('_static/sass/work.scss')
+//         .pipe(sass({
+//             includePaths: ['scss'],
+//             onError: browserSync.notify,
+//             outputStyle: 'compressed'
+//         }))
+//         .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
+//         .pipe(browserSync.reload({stream:true}))
+//         .pipe(gulp.dest('css'))
 
-    gulp.src([
-        '_static/js/lib/ff-observer.js'
-    ])
-        .pipe(uglify())
-        .pipe(concat('min.ff-observer.js'))
-        .pipe(gulp.dest('js'))
-        .pipe(reload({stream: true}))
-});
-
-gulp.task('what-networks-want', function(){
-    gulp.src([
-        '_static/js/lib/ff-observer.js'
-    ])
-        .pipe(uglify())
-        .pipe(concat('min.ff-observer.js'))
-        .pipe(gulp.dest('js'))
-        .pipe(reload({stream: true}))
-});
+//     gulp.src([
+//         '_static/js/lib/ff-observer.js'
+//     ])
+//         .pipe(uglify())
+//         .pipe(concat('min.ff-observer.js'))
+//         .pipe(gulp.dest('js'))
+//         .pipe(reload({stream: true}))
+// });
 
 gulp.task('adventures', function(){
     gulp.src([
@@ -184,4 +171,4 @@ gulp.task('adventures', function(){
 
 gulp.task('build', [''])
 
-gulp.task('default', ['images', 'what-networks-want', 'sass', 'watch', 'scripts', 'browser-sync']);
+gulp.task('default', ['images', 'sass', 'watch', 'scripts', 'browser-sync']);

@@ -1,7 +1,7 @@
 Gemfile*
 LICENSE
 README.md
-Gruntfile.js
+gulpfile.js
 node_modules
 node_modules/*
 design

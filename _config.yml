@@ -31,7 +31,7 @@ collections:
     output: false
   work:
     title: Work
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
@@ -69,6 +69,14 @@ defaults:
   values:
     permalink: "/adventures/"
     layout: adventures
+- scope:
+    path: ''
+    type: adventures
+  values:
+    permalink: "/adventures/:title"
+    layout: default
+    country:
+    city:
 - scope:
     path: ''
     type: talks
