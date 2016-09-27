@@ -25,7 +25,8 @@
     <div class="m-wrapper cell-b80">
         <h4 class="u-reset-margins cell-b10">Adventures in Typography</h4>
 
-            {% for post in site.adventures limit: 6 %}
+            {% assign ad = site.adventures | sort: 'date' | reverse %}
+            {% for post in ad limit: 6 %}
             <a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
                 <div class="c-grey">
                     <time datetime="{{ post.date}}">

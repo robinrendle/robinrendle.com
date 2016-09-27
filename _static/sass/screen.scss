@@ -122,18 +122,15 @@ section[role="main"]{
 .form {
     align-items: center;
     position: relative;
-    padding: 0 15px;
     display: flex;
     max-width: 100%;
+    height: 50px;
 
     @include media(">large"){
-        height: 50px;
         align-self: center;
-        width: 500px;
     }
 
     p, input, input[type="submit"] {
-        height: 50px;
         align-items: center;
     }
 }
@@ -144,7 +141,6 @@ label {
     left: 0;
     font-size: 12px;
     text-transform: uppercase;
-    padding: 0 15px;
     width: 70%;
 }
 
@@ -154,6 +150,7 @@ input[type="email"] {
     border: none;
     padding: 0 15px;
     width: 70%;
+    height: 50px;
     transition: background-color .3s ease;
     background-color: white;
     border: 1px solid #222;
@@ -172,6 +169,7 @@ input[type="email"] {
 
 input[type="submit"] {
     border-radius: 0;
+    height: 50px;
     padding: 3px 5px;
     border: none;
     width: 30%;

@@ -27,24 +27,19 @@
     <h1 class="u-reset-margins">{{ page.title }}</h1>
 </header>
 
-<div class="m-longform m-wrapper m-wrapper--unpadded">
+<div class="m-longform m-wrapper">
     {% if page.intro %}
         {{page.intro | markdownify}}
     {% endif %}
 
     {{ content }}
-
-    <div class="cell-20 o-island--light">
-      <form class="form" action="https://tinyletter.com/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/robinrendle', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-        <p>
-          <label for="tlemail">
-            Enter your email address
-          </label>
-        </p>
-        <p><input type="text" style="width:140px" name="email" id="tlemail" /></p>
-          <input type="hidden" value="1" name="embed"/>
-          <input type="submit" value="Subscribe" />
-        </form>
+    <div>
+      <div class="cell-5 rules rules--all rules--transparent m-longform--small">
+        <div class="o-island o-island--transparent cell u-reset-margins">
+          <h3 class="u-reset-margins">Sign up to the newsletter</h3>
+          <p class=" u-reset-margins">Adventures in Typography is published every Sunday. Be sure to <a href="http://tinyletter.com/robinrendle">sign up</a> to get these brief updates delivered straight to your inbox.</p>
+        </div>
+      </div>
     </div>
 </div>
 

@@ -128,13 +128,12 @@ a {
     border-right: 1px solid #222;
     border-top: 1px solid #222;
     background-color: $theme;
+    padding: 30px 0;
 
     @include media(">large"){
-        padding-top: 20px;
+        padding: 30px 0;
         display: flex;
-        border-right: none;
         border-left: 1px solid black;
-        border-bottom: 1px solid black;
         border-top: 1px solid black;
     }
 }
@@ -162,7 +161,7 @@ h1 {
     }
 
     @include media(">large"){
-        font-size: 80px;
+        font-size: 100px;
         padding-top: 80px;
         padding-top: 20px;
         padding-bottom: 40px;
@@ -179,6 +178,8 @@ h1, h2 {
 .wrapper {
     height: 100%;
     width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .footer {
@@ -338,6 +339,7 @@ input[type="submit"] {
   padding: 50px 20px;
   border: 1px solid black;
   border-top: none;
+  background-color: #eee;
 
   @include media(">large") {
     border-left: none;
@@ -364,9 +366,14 @@ input[type="submit"] {
   @include media(">large") {
     display: flex;
   }
-  .footer, .archive {
+  .footer {
     @include media(">large") {
-      width: 50vw;
+      width: 65vw;
+    }
+  }
+  .archive {
+    @include media(">large") {
+      width: 35vw;
     }
   }
 }
