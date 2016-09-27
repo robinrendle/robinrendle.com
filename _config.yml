@@ -73,10 +73,10 @@ defaults:
     path: ''
     type: adventures
   values:
-    permalink: "/adventures/:title"
+    permalink: "/adventures/:title/"
     layout: adventures-post
-    Country: 
-    City: 
+    Country:
+    City:
 - scope:
     path: ''
     type: talks
@@ -86,7 +86,7 @@ defaults:
 name: Robin Rendle
 description: Typography, design and front-end development.
 permalink: pretty
-current_location: Nottingham, UK
+current_location: San Francisco
 markdown: kramdown
 exclude:
 - node_modules
