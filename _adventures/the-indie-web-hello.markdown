@@ -11,7 +11,7 @@ City: San Francisco
 
 <p>It’s here that Greg&nbsp;talks with&nbsp;Tom Patterson, the senior cartographer:</p>
 
-<p>Another feature that distinguishes park service maps is their use of shaded relief to give the maps a 3-dimensional look. This method—using shading to simulate the shadows cast by hills and other features of the terrain—is Patterson’s specialty. He’s invented several techniques for doing shaded relief and even writes<a href="http://www.shadedrelief.com/"> a blog about it.</a></p>
+<blockquote><p>Another feature that distinguishes park service maps is their use of shaded relief to give the maps a 3-dimensional look. This method—using shading to simulate the shadows cast by hills and other features of the terrain—is Patterson’s specialty. He’s invented several techniques for doing shaded relief and even writes<a href="http://www.shadedrelief.com/"> a blog about it.</a></p></blockquote>
 
 <p>Oh boy. Prepare yourself before you click that link:&nbsp;Tom’s blog is so impossibly cute in a web-master-circa-1997-sort-of-way that I couldn’t help but take a closer look.&nbsp;Yet it was here that I found he had made his own map: the Patterson projection!</p>
 
