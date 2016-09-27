@@ -1,11 +1,11 @@
 ---
 title: Design is a Water Balloon
-date: 2016-09-27 08:55:00 +01:00
+date: 2016-07-04 08:55:00 +01:00
 Country: California
 City: San Francisco
 ---
 
-<div class="message-body"> <p><span style="font-size: 1em;">As my homeland slips further into </span><a href="https://www.theguardian.com/media/2016/jul/03/facebook-bubble-brexit-filter" style="font-size: 1em;">a zealous fever of madness</a><span style="font-size: 1em;">, this holiday weekend I’ll be committing&nbsp;my second act of treason by celebrating Independence Day. And so what better moment could there be to explore the typesetting of the Declaration of Independence?</span></p>
+<p><span style="font-size: 1em;">As my homeland slips further into </span><a href="https://www.theguardian.com/media/2016/jul/03/facebook-bubble-brexit-filter" style="font-size: 1em;">a zealous fever of madness</a><span style="font-size: 1em;">, this holiday weekend I’ll be committing&nbsp;my second act of treason by celebrating Independence Day. And so what better moment could there be to explore the typesetting of the Declaration of Independence?</span></p>
 
 <p>A couple of years ago, Nick Sherman did just that when he wrote about the 240 year old founding document for&nbsp;<a href="http://fontsinuse.com/uses/1666/the-dunlap-broadside">Fonts In Use</a>. He went into great detail about its typography and commented on its… well, <em>ugliness</em>:</p>
 
@@ -122,4 +122,4 @@ City: San Francisco
 <p>Oh, on a final note, and speaking of beautiful letters, Elizabeth Carey Smith made <a href="https://twitter.com/theoriginalecs/status/747791903748399105">the call</a> for a fine looking capital ‘X’ and many type designers replied with their favourites.<br>
 <br>
 Until next time!<br>
-— ✌️ Robin</p> </div>
+— ✌️ Robin</p>
