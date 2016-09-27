@@ -1,6 +1,8 @@
 ---
 title: The Presence of Distortion
-date: 2016-09-27 08:29:00 +01:00
+date: 2016-08-27 08:29:00 +01:00
+Country: California
+City: San Francisco
 ---
 
 <p>Web typography is a fragile sport, and&nbsp;thanks to the swarm of devices and browsers, network conditions and disabilities, it can often feel overwhelming to set type on the web.&nbsp;<span style="font-size: 1em;">Earlier in the week <a href="https://medium.com/type-thursday/typography-is-fragile-c7e1d54a9d4b#.wmiww6epk">I talked with Thomas Jockin</a> about this feeling and&nbsp;specifically&nbsp;the differences between&nbsp;<em>networked</em> and <em>un-networked</em> texts.&nbsp;What happens to typography, I wondered aloud, when an unreliable&nbsp;network&nbsp;gets in between us and our readers?</span></p>
@@ -102,12 +104,12 @@ Bugi is a rather obscure and slowly dying language from South Sulawesi in Indone
 
 <p><span style="font-size: 1em;">Type@Cooper have started to release the excellent&nbsp;Letterform Archive talks that took place at the San Francisco Public Library&nbsp;a couple of weeks ago:</span></p>
 
-<p><span style="font-size: 1em;">•&nbsp;Simran Thadani on <a href="https://vimeo.com/174257025">the English Writing Masters and their Copybooks</a>.</span></p>
+<ul>
+    <li>Simran Thadani on <a href="https://vimeo.com/174257025">the English Writing Masters and their Copybooks</a></li>
+    <li>Frank Grießhammer’s on <a href="http://coopertype.org/event/the_hershey_fonts">The Hershey Fonts</a></span></li>
+</ul>
 
-<p><span style="font-size: 1em;">• Frank Grießhammer’s on <a href="http://coopertype.org/event/the_hershey_fonts">The Hershey Fonts</a></span></p>
-
-<h2><br>
-<span style="font-size: 1em;">Letter&nbsp;of the Week</span></h2>
+<h2>Letter of the Week</h2>
 
 <p><span style="font-size: 1em;"><span style="font-size: 1em;">Last month&nbsp;</span><a href="https://twitter.com/julesforrest">Jules</a><span style="font-size: 1em;">&nbsp;and I hitched a ride&nbsp;to Stanford for the day.</span></span><span style="font-size: 1em;"><span style="font-size: 1em;">&nbsp;We explored the beautiful campus grounds and met with some very interesting folks. But what’s important here is the Stanford Memorial Church.</span></span></p>
 <span style="font-size: 1em;"><img class="tl-email-image" data-id="989089" height="308" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/00ade8b0-0ddc-4563-9705-e123710b3520.jpg" style="width: 640px; max-width: 640px;" width="640"><br>
