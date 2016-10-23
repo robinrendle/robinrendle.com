@@ -15,9 +15,7 @@ My favourite of the bunch has been Jeff Vandermeer’s sci-fi *Southern Reach* t
 
 ![areax.png](/uploads/areax.png)
 
-The copy of Area X above is a collection of the three novels in the series; Annihilation, Authority and Acceptance. Each have a sort of animal companion that dominates the text in one way or another 
-
-And also the edition published by FSG and designed by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/):
+The copy of Area X above is a collection of the three novels in the series; *Annihilation*, *Authority* and *Acceptance*. Each novel has an animal companion that dominates the story in one way or another and this is more prominent in the editions published by FSG and designed by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/):
 
 ![southernreach.jpg](/uploads/southernreach.jpg)
 
