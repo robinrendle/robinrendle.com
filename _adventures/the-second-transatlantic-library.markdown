@@ -34,10 +34,12 @@ In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pabl
   <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
 </figure>
 
-There’s something quite delightful about the idea that the novelist can entertain three loose themes for a series—dragonfly, rabbit, owl—only for them to be constantly reimagined by the audience. This makes me think back to my library across that vast expanse and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the artefact. 
+There’s something quite delightful about the idea that the novelist can entertain three loose themes for a series—dragonfly, rabbit, owl—only for them to be constantly reimagined by the audience. 
 
-That leads me to worry about the future of my second transatlantic library because which of those books across the ocean led me here? Which book brought me to San Francisco? What happens if I didn’t buy a particular book in a certain format, under just the right conditions that it led to the next book and the next? 
+All of this this makes me think back to my library across that vast expanse and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the meaning of the text inside. 
 
-A million parallel book-reading universes open up beneath my feet as I think about the many libraries that 
+That leads me to worry about the future of my second transatlantic library because which of those books across the ocean led me here? Which book brought me to San Francisco? What would’ve happened if I didn’t buy a particular book in a certain format, under just the right conditions? 
+
+Perhaps if I left out one book out of this great chain of books then I wouldn’t be sitting in my comfortable apartment now, listening to my neighbour’s wind chimes across the street and the pitter-patter of children’s laughter as they walk to school. 
 
 Alberto Manuel on his library.
