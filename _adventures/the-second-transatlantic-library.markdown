@@ -25,6 +25,6 @@ Take, for example, the copy I picked up a couple of weeks ago with cover design 
 
 ![southernreach.jpg](/uploads/southernreach.jpg)
 
-<p>And also the North American edition published by FSG and designed by <a href="http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/">Eric Nyquist</a>:</p>
+<p>And also the edition published by FSG and designed by <a href="http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/">Eric Nyquist</a>:</p>
 
 
