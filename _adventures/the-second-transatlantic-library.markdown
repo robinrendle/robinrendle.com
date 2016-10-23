@@ -21,7 +21,7 @@ Take, for example, the copy I picked up a couple of weeks ago with cover design 
 
 ![areax.png](/uploads/areax.png)
 
-<p>And compare that to the covers by Eric Nyquist: </p>
+<p>And compare that to these glorious covers by Eric Nyquist: </p>
 
 ![southernreach.jpg](/uploads/southernreach.jpg)
 
