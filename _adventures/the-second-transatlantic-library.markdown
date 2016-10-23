@@ -34,7 +34,7 @@ In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pabl
   <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
 </figure>
 
-There’s something quite delightful about the idea that the novelist can come up with three themes for a series—dragonfly, rabbit, owl—only for them to be constantly reimagined by the audience. This makes me think back to my library across that vast expanse and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the artefact. 
+There’s something quite delightful about the idea that the novelist can entertain three loose themes for a series—dragonfly, rabbit, owl—only for them to be constantly reimagined by the audience. This makes me think back to my library across that vast expanse and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the artefact. 
 
 That leads me to worry about the future of my second transatlantic library because which of those books across the ocean led me here? Which book brought me to San Francisco? What happens if I didn’t buy a particular book in a certain format, under just the right conditions that it led to the next book and the next? 
 
