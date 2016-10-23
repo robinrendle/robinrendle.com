@@ -23,7 +23,7 @@ Or Pablo Delcán’s version which takes a darker and more surreal approach:
 
 ![Delcan1.png](/uploads/Delcan1.png)
 
-In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pablo Declán](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy/) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/). But it’s not only esteemed designers that have interesting takes of Vandermeer’s creepy universe, even fans were taking part:
+In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pablo Declán](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy/) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/). But it’s not only esteemed designers that have interesting takes on Vandermeer’s creepy universe, even fans were taking part:
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
