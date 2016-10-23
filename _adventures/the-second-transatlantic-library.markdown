@@ -5,7 +5,9 @@ Country: California
 City: San Francisco
 ---
 
-<p>This week it <a href="https://twitter.com/vruba/status/786964172428816384">rained</a> in San Francisco. It’s been almost five months of unadulterated sunshine over here and so I’m a little wistful of England, where a week of summer would interrupt an otherwise casual storm that lasts all year. Yet besides the rain, these wistful reveries flare up whenever my thoughts turn to the five thousand miles of American continent and Atlantic ocean that sit between my library and me; it must be said that I left my books behind in a hurry. I locked them up in a series of cardboard boxes and hurled them all into a storage container before I boarded a one way flight. Now, they lie dormant beneath the everlasting raincloud I think of as <em>England</em>.</p>
+<p>This week it <a href="https://twitter.com/vruba/status/786964172428816384">rained</a> in San Francisco. It’s been almost five months of unadulterated sunshine over here and so I’m a little wistful of England, where a week of summer would interrupt an otherwise casual storm that lasts all year. 
+
+Besides the rain, these wistful reveries flare up whenever my thoughts turn to the five thousand miles of American continent and Atlantic ocean that sit between my library and me; it must be said that I left my books behind in a hurry. I locked them up in a series of cardboard boxes and hurled them all into a storage container before I boarded a one way flight. Now, they lie dormant beneath the everlasting raincloud I think of as <em>England</em>.</p>
 
 <p>I suppose, yes, I am a little homesick. But only since I can’t adequately describe the joy of wasting away a Sunday afternoon in front of my shelves, pouring over old notes that I scribbled in the margins many years ago; seeing the cogs churn in my young mind; watching one book lead to the next; wondering whether it was this footnote or that thread which marked an adventure through a series of books that I would read throughout that year. One page after another and another; flipping through a novel in which the plot suddenly gathers pace and my notes respond in kind, scribbly organisms of discontent and curiosity, all of which build into an obsession with the author over time.</p>
 
@@ -14,6 +16,8 @@ City: San Francisco
 My favourite of the bunch has been Jeff Vandermeer’s sci-fi *Southern Reach* trilogy. The novel takes place in and around a mysterious plot of land called Area X, and very much like the landscape that the novels portray, the books themselves tend to have alien characteristics, too. Take, for example, the copy I picked up a couple of weeks ago with cover design by [Rodrigo Corral](http://www.jeffvandermeer.com/2015/01/21/rodrigo-corrals-cover-area-x-hardcover/):
 
 ![areax.png](/uploads/areax.png)
+
+The copy of Area X above is a collection of the three novels in the series; Annihilation, Authority and Acceptance. Each have a sort of animal companion that dominates the text in one way or another 
 
 And also the edition published by FSG and designed by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/):
 
@@ -37,3 +41,9 @@ All of this makes me think back to my library across that vast expanse and I won
 Perhaps if I left out one book out of this great chain of books then I wouldn’t be sitting in my comfortable apartment now, listening to my neighbour’s wind chimes across the street and the pitter-patter of children’s laughter as they walk to school. 
 
 Alberto Manuel on his library.
+
+## The Week in Type
+
+First, the [great flowering](https://www.robinrendle.com/adventures/a-great-flowering/) has begun! Over the past couple of weeks variable font demos have been starting to appear in the wild. I think it started with [Chris Lewis experimenting with them](https://twitter.com/chrissam42/status/778716592049795075) in Windows 10:
+
+
