@@ -21,10 +21,18 @@ Take, for example, the copy I picked up a couple of weeks ago with cover design 
 
 ![areax.png](/uploads/areax.png)
 
-<p>And compare that to these glorious covers by Eric Nyquist: </p>
+And also the edition published by FSG and designed by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/):
 
 ![southernreach.jpg](/uploads/southernreach.jpg)
 
-And also the edition published by FSG and designed by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/):
+Or Pablo Delcán’s version which takes a darker and more surreal approach: 
 
+![Delcan1.png](/uploads/Delcan1.png)
+
+In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pablo Declán](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy/) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/). 
+
+<figure>
+  <img src='/uploads/1f4cd7001.jpg'>
+  <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
+</figure>
 
