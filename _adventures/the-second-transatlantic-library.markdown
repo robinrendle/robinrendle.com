@@ -7,11 +7,9 @@ City: San Francisco
 
 <p>This week it <a href="https://twitter.com/vruba/status/786964172428816384">rained</a> in San Francisco. It’s been almost five months of unadulterated sunshine over here and so I’m a little wistful of England, where a week of summer would interrupt an otherwise casual storm that lasts all year.</p>
 
-<p>Besides the rain, these wistful reveries flare up whenever my thoughts turn to the five thousand miles of American continent and Atlantic ocean that sit between my library and me; it must be said that I left my books behind in a hurry. I locked them up in a series of cardboard boxes and hurled them all into a storage container before I hopped on the plane. Now, they lie dormant beneath the everlasting raincloud I think of as <em>England</em>.</p>
+<p>Besides the rain, these wistful reveries flare up whenever my thoughts turn to the five thousand miles of American continent and Atlantic ocean that sit between my library and me; it must be said that I left my books behind in a hurry. I locked them up in a series of cardboard boxes and hurled them all into a storage container before I boarded a one way flight. Now, they lie dormant beneath the everlasting raincloud I think of as <em>England</em>.</p>
 
 <p>I suppose, yes, I am a little homesick. But only since I can’t adequately describe the joy of blowing through a Sunday afternoon in front of my shelves, pouring over old notes that I scribbled in the margins many years ago; seeing the cogs churn in my young mind; watching one book lead to the next; wondering whether it was this footnote or that thread which marked an adventure through a series of books that I would read throughout that year. One page after another and another; flipping through a novel in which the plot suddenly gathers pace and my notes respond in kind, scribbly organisms of discontent and curiosity, all of which build into an obsession with the author over time.</p>
-
-<p>But which book led me here, I wonder. Which book brought me to San Francisco?</p>
 
 <p>Anyway, I won’t feel at home on this new continent, or at least I certainly won’t settle, until my library is with me, too. But in the mean time, a new library emerges; books I’ve gathered from all across the Bay Area. Unfortunately these are not books on the subject of typography, although they certainly are typographic.</p>
 
@@ -29,10 +27,17 @@ Or Pablo Delcán’s version which takes a darker and more surreal approach:
 
 ![Delcan1.png](/uploads/Delcan1.png)
 
-In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pablo Declán](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy/) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/). But it’s not only esteemed designers that worked on interesting takes of Vandermeer’s creepy universe, even fans were taking part:
+In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pablo Declán](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy/) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/). But it’s not only esteemed designers that have interesting takes of Vandermeer’s creepy universe, even fans were taking part:
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
   <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
 </figure>
 
+There’s something quite delightful about the idea that the novelist can come up with three themes for a series—dragonfly, rabbit, owl—only for them to be constantly reimagined by the audience. This makes me think back to my library across that vast expanse and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the artefact. 
+
+That leads me to worry about the future of my second transatlantic library because which of those books across the ocean led me here? Which book brought me to San Francisco? What happens if I didn’t buy a particular book in a certain format, under just the right conditions that it led to the next book and the next? 
+
+A million parallel book-reading universes open up beneath my feet as I think about the many libraries that 
+
+Alberto Manuel on his library.
