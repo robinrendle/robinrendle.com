@@ -31,7 +31,7 @@ A combination of monstrous distortions and relatively boring sans-serif titling 
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
-The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque and this makes me wonder how this design might effect a reading of the books. Although, that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version: 
+The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque than anything else. How does this design effect a reading of the books though? Yet that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version: 
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
