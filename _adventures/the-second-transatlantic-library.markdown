@@ -19,13 +19,13 @@ The copy of Area X above is a collection of the three novels in the series; *Ann
 
 <img src="/uploads/southern-reach.webp" onerror="this.onerror=null; this.src='/uploads/southern-reach.gif'">
 
-On the other hand, Pablo Delcán’s version takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
+On the other hand, [Pablo Delcán’s version](http://delcan.co/case-studies/southern-reach-3/) takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
 
 > These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a *Fritillaria imperialis* beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings.
 
 These images were then edited to create this chilling effect of animals and plant matter being stretched into monsters that occupy the page:
 
-![Delcan1.png](/uploads/Delcan1.png)
+![Southern-Reach_Pablo-Delcan_C.gif](/uploads/Southern-Reach_Pablo-Delcan_C.gif) 
 
 A combination of monstrous distortions and relatively boring sans-serif titling that’s predictably at the top corner of each book is striking. But, not each and every edition of the *Southern Reach* is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
 
