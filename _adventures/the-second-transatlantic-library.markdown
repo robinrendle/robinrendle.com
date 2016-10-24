@@ -23,20 +23,22 @@ On the other hand, Pablo Delcán’s version takes a darker and more surreal app
 
 > These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a *Fritillaria imperialis* beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings.
 
+These images were then edited to create this chilling effect of animals and plant matter being stretched into monsters that occupy the page:
+
 ![Delcan1.png](/uploads/Delcan1.png)
 
-These images were then edited to create this chilling effect of animals and plant matter being stretched into monsters. But not each and every edition is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
+But, not each and every edition is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
-The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque and I wonder how that might effect one’s reading of the books themselves. 
+The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque and this makes me wonder how this design might effect a reading of the books themselves. Although that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version: 
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
   <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
 </figure>
 
-There’s something quite delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience. 
+There’s something delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience. 
 
 All of this makes me think back to my library across that vast expanse and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the meaning of the text inside. Consequently that thought leads me to worry about the future of my second transatlantic library because which of those books across the ocean led me here? Which book brought me to San Francisco? What would’ve happened if I didn’t buy a particular book in a certain format, under just the right conditions? 
 
