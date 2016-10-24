@@ -31,7 +31,7 @@ But, not each and every edition is as gloomy as the others, for instance the UK 
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
-The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque and this makes me wonder how this design might effect a reading of the books themselves. Although that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version: 
+The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque and this makes me wonder how this design might effect a reading of the books. Although, that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version: 
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
