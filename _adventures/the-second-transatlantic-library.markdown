@@ -11,7 +11,7 @@ City: San Francisco
 
 <p>Anyway, I won’t feel at home on this new continent, or at least I certainly won’t settle, until my library is with me, too. But in the mean time, a new library emerges; books I’ve gathered from all across the Bay Area. Unfortunately these are not books on the subject of typography, although they are typographic in nature.</p>
 
-My favourite of the bunch has been Jeff Vandermeer’s sci-fi *Southern Reach* trilogy. The novel takes place in and around a mysterious plot of land called Area X, and very much like the landscape that the novels portray, the books themselves tend to have alien characteristics, too. Take, for example, the copy I picked up a couple of weeks ago with cover design by [Rodrigo Corral](http://www.jeffvandermeer.com/2015/01/21/rodrigo-corrals-cover-area-x-hardcover/):
+My favourite of the bunch has been Jeff Vandermeer’s sci-fi *Southern Reach* trilogy. The novel takes place in and around a mysterious plot of land called Area X and, very much like the landscape that the novels portray, the books themselves tend to have alien characteristics, too. Take, for example, the copy I picked up a couple of weeks ago with cover design by [Rodrigo Corral](http://www.jeffvandermeer.com/2015/01/21/rodrigo-corrals-cover-area-x-hardcover/):
 
 ![areax.png](/uploads/areax.png)
 
