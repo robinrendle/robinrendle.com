@@ -27,9 +27,9 @@ These images were then edited to create this chilling effect of animals and plan
 
 ![Southern-Reach_Pablo-Delcan_C.gif](/uploads/Southern-Reach_Pablo-Delcan_C.gif) 
 
-A combination of monstrous distortions and that relatively boring sans-serif titling that’s predictably in the top corner is somewhat striking, possibly a reference to the government’s response in the novel: *everything is a-ok, there are no monsters here*. 
+A combination of monstrous distortions and the relatively boring sans-serif that adorns the top corner is somewhat striking, possibly a reference to the government’s response in the novel: *everything is a-ok, there are no monsters here*. 
 
-But, not each and every edition of the *Southern Reach* is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
+But not each and every edition of the *Southern Reach* is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
@@ -40,18 +40,11 @@ The collection above makes Vandermeer’s work look more serene and *Alice in Wo
   <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
 </figure>
 
-What I’m trying to get at here is this: there’s something delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience. All of this makes me think of my library and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the meaning of the text inside. 
+What I’m trying to get at here is this: there’s something delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience. 
 
-Consequently that thought leads me to worry about the splitting of one library into two, my transatlantic library, and into wondering which of those books across the ocean led me here? Which book brought me to San Francisco? What would’ve happened if I didn’t buy a particular book in a certain format, under just the right conditions? 
+All of this makes me think about the state of my bookshelves today and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the meaning of the text inside. Consequently that thought leads me to worry about the splitting of one library into two, my divided, transatlantic library: which of those books across the ocean led me here? Which book brought me to San Francisco?
 
-Perhaps if I left out one book out of this great chain of books then I wouldn’t be sitting in my comfortable apartment now, listening to my neighbour’s wind chimes across the street and the pitter-patter of children’s laughter in the near distance.
+Perhaps if I left out just one book out of that great chain of books then I wouldn’t be sitting in my comfortable apartment now, listening to my neighbour’s wind chimes across the street and the pitter-patter of children’s laughter in the near distance.
 
-And what if I might misplace the next adventure because I walked passed a book or bought the wrong one at the wrong time.
-
-Alberto Manuel on his library.
-
-## The Week in Type
-
-First, the [great flowering](https://www.robinrendle.com/adventures/a-great-flowering/) has begun! Over the past couple of weeks variable font demos have been starting to appear in the wild. I think it started with [Chris Lewis experimenting with them](https://twitter.com/chrissam42/status/778716592049795075) in Windows 10:
-
+And so I must be cautious of which books I entertain, of which books enter this new library of mine because each contribution is an answer to this question: which of these novels, textbooks and works of non-fiction will lead me to the next adventure?
 
