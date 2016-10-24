@@ -17,11 +17,11 @@ My favourite of the bunch has been Jeff Vandermeer’s sci-fi *Southern Reach* t
 
 The copy of Area X above is a collection of the three novels in the series; *Annihilation*, *Authority* and *Acceptance*. Each novel has an animal companion that dominates the story in one way or another and this is more prominent in the editions published by FSG and illustrated by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/), designed by Charlotte Strick and with animations below produced by Emily Bouman:
 
-![southern-reach.gif](/uploads/southern-reach.gif)
-
 <img src="/uploads/southern-reach.webp" onerror="this.onerror=null; this.src='/uploads/southern-reach.gif'">
 
 On the other hand, Pablo Delcán’s version takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
+
+> These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a Fritillaria imperialis beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings
 
 ![Delcan1.png](/uploads/Delcan1.png)
 
