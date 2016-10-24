@@ -51,55 +51,59 @@ And so I must be cautious of which books I entertain, of which books enter this 
 
 First, the [great flowering](https://www.robinrendle.com/adventures/a-great-flowering/) has begun! Over the past couple of weeks variable font demos have been starting to appear in the wild. I think it started with [Chris Lewis experimenting with them](https://twitter.com/chrissam42/status/778716592049795075) in Windows 10:
 
-<img>
+![Cs6OnRcVIAAYIWE.jpg](/uploads/Cs6OnRcVIAAYIWE.jpg)
 
 And shortly after that Myles Maxfield added support to the latest [Safari nightly build](https://webkit.org/nightly/) and made a neat [variation fonts demo](http://litherum.blogspot.com/2016/09/variation-fonts-demo.html): 
 
-<img>
+![litherum.gif](/uploads/litherum.gif)
 
 David Jonathan Ross then made his own [demo](http://stuff.djr.com/variable-demo/) that you can test for yourself:
 
-<img>
+![variable-font.gif](/uploads/variable-font.gif)
 
-Jason Parmental also made [a test page](http://rwt.io/rwt-variablefonts/html/varfonts.html) that shows the differences between requesting and serving multiple fonts and a single, variable font file. Make sure to check this out in Webkit Nightly:
+Jason Parmental also made [a test page](http://rwt.io/rwt-variablefonts/html/varfonts.html) that shows the differences between requesting and serving multiple fonts and a single, variable font file. But one of the most interesting demos I saw had to be [Baptiste Guesnon’s experiment](https://twitter.com/Ba_Gsn/status/786544405310210049) in which the text automatically adjusts itself to the reader’s distance from the screen:
 
-<img>
+![2yhtG0S3h_tptBp9.jpg](/uploads/2yhtG0S3h_tptBp9.jpg)
 
-The most interesting demo I saw had to be [Baptiste Guesnon’s experiment](https://twitter.com/Ba_Gsn/status/786544405310210049) in which the text automatically adjusts itself to the reader’s distance from the screen:
+However, these experiments were not enough: CJ Dunn also released the typeface [Dunbar](http://cjtype.com/dunbar/), which I think might be the first commercially available variable font. 
 
-<img>
+Indra Kupferschmid writes:
 
-But then CJ Dunn released [Dunbar](http://cjtype.com/dunbar/), which I think might be the first commercially available variable font. 
+> Sans serifs were still a rather new genre of typefaces at the beginning of the 20th century. The vernacular grotesque style — occasionally crude, usually fat, often compact and with straight-sided rounds — had made them popular for advertising and other eye-catching display typography. But there were two alternative strands developing in the 1910s and ’20s. The English, spearheaded by Edward Johnston and later Eric Gill, were looking for a more readable style of grotesques based on traditional models of calligraphy (see Johnston’s alphabet for the London Underground for instance, or Gill Sans). In Germany on the other hand, modernists were calling for new letterforms that could express the feeling and style of the time and would not cite historic models as much as traditional text typefaces or the forms proposed by the English designers.
 
-<img>
+![family_overview_dark_blue.png](/uploads/family_overview_dark_blue.png)
 
-All of this early experimentation with the technology is fascinating and I can’t wait to get my mitts on one of these typefaces and explore what’s possible. 
+All of this early experimentation with the technology is fascinating and I can’t wait to get my mitts on one of these typefaces. Not merely for the technical benefits only, since over time I think that the benefits in this technology are not merely in performance or user experience. I’m starting to believe that there’s going to be a significant benefit for designers and readers—the variety of options, the styles now unimaginable to us, will soon be available to us all.
 
-
-***
+<div style='text-align: center;'>¶¶¶</div>
 
 [The Bolted Book](http://www.boltedbook.com/) is a project by [Designers & Books](http://www.designersandbooks.com/) that hopes to reprint a facsimile edition of Fortunato Depero’s 1927 monograph _Depero Futurista_. I haven’t heard of it, but the cover certainly looks familiar:
 
-> img of cover
+![7-27-16_9515-970x728.jpg](/uploads/7-27-16_9515-970x728.jpg)
 
 Designers & Books made a wondrous facsimile of [Ladislav Sutnar’s Visual Design in Action](https://www.kickstarter.com/projects/1204158310/ladislav-sutnar-visual-design-in-action-facsimile) a while back and it happens to be one of my most treasured possessions, so I can’t wait for to see the Kickstarter begin for The Bolted Book, too.
 
-***
+<div style='text-align: center;'>¶¶¶</div>
 
 [Dynamic Font Day](http://2016.dynfntdy.com/) looks like it’s going to be a neat conference all about webfonts. It’s held in Munich on the 26th of November and [some very cool people](http://2016.dynfntdy.com/en/speakers) have lined up to talk about typography and the web. 
 
-***
+<div style='text-align: center;'>¶¶¶</div>
 
-Elliot Jay Stocks launched a Kickstarter for [8 Faces: Collected](https://www.kickstarter.com/projects/elliotjaystocks/8-faces-collected?ref=nav_search) 
+Elliot Jay Stocks launched a Kickstarter for [8 Faces: Collected](https://www.kickstarter.com/projects/elliotjaystocks/8-faces-collected) and it’s been nice to watch everyone in the community support it so eagerly.
 
 
 ## New Type Releases
 
-Since I’ve written the last *Adventures* there’s been an enormous swell of beautiful typefaces and so I’ll be sure to make an entire post devoted to them next week.
+Since I’ve written the last *Adventures* there’s been an enormous swell of beautiful new typefaces and so I’ll be sure to make an entire post devoted to them next week. There’s simply too much to cover this week.
+
 
 ## Letter of the Week
 
+I’ve been looking at Rui Abreu’s [Pathos](http://r-typography.com/12_pathos/) a lot this week and especially the lowercase ‘k’:
 
+![Screenshot 2016-10-23 20.21.16.png](/uploads/Screenshot%202016-10-23%2020.21.16.png)
+
+The flat edge on the top right of the letterform has made me stare at it so much that I no longer see a K, instead the lines blend together and I see a jumble of black and white instead.
 
 
 
