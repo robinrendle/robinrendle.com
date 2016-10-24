@@ -27,7 +27,7 @@ These images were then edited to create this chilling effect of animals and plan
 
 ![Delcan1.png](/uploads/Delcan1.png)
 
-This combination of monstrous distortions and relatively boring sans-serif titling that’s predictably at the top corner of each book is striking. But, not each and every edition is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
+This combination of monstrous distortions and relatively boring sans-serif titling that’s predictably at the top corner of each book is striking. But, not each and every edition of the *Southern Reach* is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
