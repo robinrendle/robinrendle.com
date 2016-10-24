@@ -1,88 +1,37 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+{% include header.html %}
 
-<head>
-    <meta charset="utf-8" />
-    <title>{{site.title}} › {{page.title}}</title>
-    <meta name="author" content="Robin Rendle">
-    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="author" href="https://plus.google.com/+RobinRendle">
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="/images/favicon.png">
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/css/adventures.css" />
-</head>
+<div class="m-wrapper">
 
-<body class="">
-    <section role="main" class="wrapper cell-t80">
-        <figure class="display-img">
-            <img src="../build/images/woodward-avenue.jpg" alt="">
-        </figure>
-        <div class="content">
-            <div class="title">
-                <h1>Adventures in Typography</h1>
-            </div>
-            <div class="content-box">
-              <div class="footer">
-                  <div class="m-longform cell-t40 cell-b80 footer__wrapper">
-                      <div class="intro">
-                          <p>Adventures in Typography is a newsletter for type fiends published every Sunday. Topics include web typography, type design, print, education, and dusty old type specimens.</p>
-                          <p class="small">The image above is a photograph by the Detroit Publishing Company of Woodward Avenue, Detroit, Michigan in 1917. <a href="https://www.pinterest.com/pin/194217802650140688/">See more images.</a></p>
-                      </div>
-                  </div>
-                  <form class="form" action="https://tinyletter.com/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/robinrendle', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
-                      <input type="email" placeholder="tschichold@gmail.com" required name="email" id="tlemail" spellcheck="false" />
-                      <label for="tlemail">Email address</label>
-                      <input type="hidden" value="1" name="embed" />
-                      <input type="submit" value="Subscribe" />
-                  </form>
-              </div>
-              <div class="bg-light intro archive">
-                  {% assign ad = site.adventures | sort: 'date' | reverse %}
-                  {% for item in ad %}
-                  <article class="archive-post">
-                      <header class="links flex">
-                          <div class="meta-info">
-                              <div class="meta-info__item">
-                                <time datetime="{{ post.date}}">
-                                    {{ item.date | date: "%m/%d/%Y" }}
-                                </time>
-                              </div>
-                          </div>
-                          <h3 class="h3 u-text--book links u-reset-margins cell-b0 flex--truncate"><a href="{{item.url}}">{{item.title}}</a></h3>
-                      </header>
-                  </article>
-                  {% endfor %}
-              </div>
-            </div>
-    </section>
-    <script type="text/javascript">
-    WebFontConfig = {
-        custom: {
-            families: [
-                'Gimlet condensed',
-                'Gimlet text'
-            ],
-            urls: [
-                '/fonts/gimlet.css'
-            ]
-        },
-        timeout: 2000,
-        active: function() {
-            sessionStorage.fonts = true;
-        }
-    };
+    <div class="cell-t40 cell-t60--medium cell-b20">
+        <h1>{{page.title}}</h1>
+    </div>
 
-    (function(d) {
-        var wf = d.createElement('script'),
-            s = d.scripts[0];
-        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
-        s.parentNode.insertBefore(wf, s);
-    })(document);
-    </script>
-</body>
+    {% assign item = site.adventures | sort: 'date' | reverse %}
+    {% for post in item %}
+        <article class="cell-b40">
+           <header class="links">
+                <div class="meta-info">
+                    <div class="meta-info__item">
+                        <time datetime="{{ post.date}}">
+                            {% assign d = post.date | date: "%-d"  %}
+                            {% case d %}
+                                {% when '1' or '21' or '31' %}{{ d }}st
+                                {% when '2' or '22' %}{{ d }}nd
+                                {% when '3' or '23' %}{{ d }}rd
+                                {% else %}{{ d }}th
+                            {% endcase %}
+                            {{ post.date | date: "%B" }}
+                            {{ post.date | date: "%Y" }}
+                        </time>
+                    </div>
+                </div>
+                <h3 class="h3 u-text--book links u-reset-margins cell-b0"><a href="{{post.url}}">{{post.title}}</a></h3>
+                <div class="m-longform">
+                    <p>{{post.extract}}</p>
+                </div>
+            </header>
+        </article>
+    {% endfor %}
 
-</html>
+</div>
+{% include footer.html %}

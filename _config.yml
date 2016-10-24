@@ -1,6 +1,6 @@
 ---
 title: Robin Rendle
-timezone: Europe/London
+timezone: America/Los_Angeles
 collections:
   adventures:
     title: Adventures in Typography
@@ -68,15 +68,15 @@ defaults:
     type: adventures
   values:
     permalink: "/adventures/"
-    layout: adventures
+    layout: default
 - scope:
     path: ''
     type: adventures
   values:
     permalink: "/adventures/:title/"
     layout: adventures-post
-    Country: 
-    City: 
+    Country:
+    City:
 - scope:
     path: ''
     type: talks
