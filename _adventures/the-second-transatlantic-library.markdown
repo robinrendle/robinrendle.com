@@ -21,16 +21,15 @@ The copy of Area X above is a collection of the three novels in the series; *Ann
 
 On the other hand, Pablo Delcán’s version takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
 
-> These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a Fritillaria imperialis beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings
+> These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a *Fritillaria imperialis* beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings
 
 ![Delcan1.png](/uploads/Delcan1.png)
 
-But not each and every edition is as gloomy as the others. The UK edition in particular masks a lot of the strangeness of the books’ innards:
+These images were then edited to create this chilling effect of animals and plant matter being stretched into monsters. But not each and every edition is as gloomy as the others, for instance the UK edition in particular masks a lot of the strangeness of the books’ innards:
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
-
- not only esteemed designers that have interesting takes on Vandermeer’s creepy universe, even fans were working on their own remixes:
+The collection above makes Vandermeer’s work look more serene and *Alice in Wonderland*-esque and I wonder how that might effect one’s reading of the books themselves. 
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
