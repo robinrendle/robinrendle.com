@@ -44,7 +44,53 @@ What I’m trying to get at here is this: there’s something delightful about t
 
 All of this makes me think about the state of my bookshelves today and I wonder how many books I would like to buy again in duplicate, multiple copies in different languages and styles, alternative bindings and artists that adorn and reshape the meaning of the text inside. Consequently that thought leads me to worry about the splitting of one library into two, my divided, transatlantic library: which of those books across the ocean led me here? Which book brought me to San Francisco?
 
-Perhaps if I left out just one book out of that great chain of books then I wouldn’t be sitting in my comfortable apartment now, listening to my neighbour’s wind chimes across the street and the pitter-patter of children’s laughter in the near distance.
-
 And so I must be cautious of which books I entertain, of which books enter this new library of mine because each contribution is an answer to this question: which of these novels, textbooks and works of non-fiction will lead me to the next adventure?
+
+
+## The Week in Type 
+
+First, the [great flowering](https://www.robinrendle.com/adventures/a-great-flowering/) has begun! Over the past couple of weeks variable font demos have been starting to appear in the wild. I think it started with [Chris Lewis experimenting with them](https://twitter.com/chrissam42/status/778716592049795075) in Windows 10:
+
+<img>
+
+And shortly after that Myles Maxfield added support to the latest [Safari nightly build](https://webkit.org/nightly/) and made a neat [variation fonts demo](http://litherum.blogspot.com/2016/09/variation-fonts-demo.html): 
+
+<img>
+
+David Jonathan Ross then made his own [demo](http://stuff.djr.com/variable-demo/) that you can test for yourself:
+
+<img>
+
+Jason Parmental also made [a test page](http://rwt.io/rwt-variablefonts/html/varfonts.html) that shows the differences between requesting and serving multiple fonts and a single, variable font file. Make sure to check this out in Webkit Nightly:
+
+<img>
+
+The most interesting demo I saw had to be [Baptiste Guesnon’s experiment](https://twitter.com/Ba_Gsn/status/786544405310210049) in which the text automatically adjusts itself to the reader’s distance from the screen:
+
+<img>
+
+But then CJ Dunn released [Dunbar](http://cjtype.com/dunbar/), which I think might be the first commercially available variable font. 
+
+<img>
+
+All of this early experimentation with the technology is fascinating and I can’t wait to get my mitts on one of these typefaces and explore what’s possible. 
+
+
+***
+
+[The Bolted Book](http://www.boltedbook.com/) is a project by [Designers & Books](http://www.designersandbooks.com/) that hopes to reprint a facsimile edition of Fortunato Depero’s 1927 monograph _Depero Futurista_. I haven’t heard of it, but the cover certainly looks familiar:
+
+> img of cover
+
+Designers & Books made a wondrous facsimile of [Ladislav Sutnar’s Visual Design in Action](https://www.kickstarter.com/projects/1204158310/ladislav-sutnar-visual-design-in-action-facsimile) a while back and it happens to be one of my most treasured possessions, so I can’t wait for to see the Kickstarter begin for The Bolted Book, too.
+
+***
+
+[Dynamic Font Day](http://2016.dynfntdy.com/) looks like it’s going to be a neat conference all about webfonts. It’s held in Munich on the 26th of November and [some very cool people](http://2016.dynfntdy.com/en/speakers) have lined up to talk about typography and the web. 
+
+***
+
+Elliot Jay Stocks launched a Kickstarter for [8 Faces: Collected](https://www.kickstarter.com/projects/elliotjaystocks/8-faces-collected?ref=nav_search) 
+
+
 
