@@ -19,11 +19,16 @@ The copy of Area X above is a collection of the three novels in the series; *Ann
 
 ![southernreach.jpg](/uploads/southernreach.jpg)
 
-Or Pablo Delcán’s version which takes a darker and more surreal approach: 
+On the other hand, Pablo Delcán’s version takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
 
 ![Delcan1.png](/uploads/Delcan1.png)
 
-In fact, Jeff Vandermeer interviewed the designer of this Spanish edition, [Pablo Declán](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy/) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/). But it’s not only esteemed designers that have interesting takes on Vandermeer’s creepy universe, even fans were working on their own remixes:
+But not each and every edition is as gloomy as the others. The UK edition in particular masks a lot of the strangeness of the books’ innards:
+
+![southern-reach.jpg](/uploads/southern-reach.jpg)
+
+
+ not only esteemed designers that have interesting takes on Vandermeer’s creepy universe, even fans were working on their own remixes:
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
