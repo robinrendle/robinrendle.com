@@ -93,4 +93,17 @@ Designers & Books made a wondrous facsimile of [Ladislav Sutnar’s Visual Desig
 Elliot Jay Stocks launched a Kickstarter for [8 Faces: Collected](https://www.kickstarter.com/projects/elliotjaystocks/8-faces-collected?ref=nav_search) 
 
 
+## New Type Releases
+
+Since I’ve written the last *Adventures* there’s been an enormous swell of beautiful typefaces and so I’ll be sure to make an entire post devoted to them next week.
+
+## Letter of the Week
+
+
+
+
+
+
+
+
 
