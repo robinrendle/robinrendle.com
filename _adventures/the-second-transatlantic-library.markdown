@@ -1,6 +1,6 @@
 ---
 title: The Second Transatlantic Library
-date: 2016-10-19 02:19:00 +01:00
+date: 2016-10-18 18:19:00 -07:00
 Country: California
 City: San Francisco
 ---
