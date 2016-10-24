@@ -3,8 +3,13 @@
 <div class="m-wrapper">
 
     <div class="cell-t40 cell-t60--medium cell-b20">
-        <h1>{{page.title}}</h1>
+        <h1>Adventures in Typography</h1>
+
+        <div class="m-longform cell-b40">
+            <p class="">This is my newsletter on typography, graphic design and the web. I share what I’m working on, what I’ve been thinking about and what I’m reading. You can <a href='http://tinyletter.com/robinrendle'>sign up here</a>.</p>
+        </div>
     </div>
+
 
     {% assign item = site.adventures | sort: 'date' | reverse %}
     {% for post in item %}
