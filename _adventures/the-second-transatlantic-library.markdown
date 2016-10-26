@@ -71,6 +71,8 @@ Jason Parmental also made [a test page](http://rwt.io/rwt-variablefonts/html/var
 
 ![2yhtG0S3h_tptBp9.jpg](/uploads/2yhtG0S3h_tptBp9.jpg)
 
+<small>Update: Nick Sherman wrote in to mention that Baptiste’s demo wasn’t using OpenType variations, or variable fonts, at all.</small>
+
 However, these experiments were not enough: CJ Dunn also released the typeface [Dunbar](http://cjtype.com/dunbar/), which I think might be the first commercially available variable font. 
 
 ![family_overview_dark_blue.png](/uploads/family_overview_dark_blue.png)
