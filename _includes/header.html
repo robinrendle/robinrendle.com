@@ -9,7 +9,7 @@
     <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="author" href="https://plus.google.com/+RobinRendle">
-    <link rel="stylesheet" href="/fonts/gimlet.css">
+    <link rel="preload" href="/fonts/GimletText-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <script>
         (function() {
             // Optimization for Repeat Views
@@ -39,6 +39,46 @@
 
     <!-- RSS -->
     <link href='https://robinrendle.com/feed.xml' rel='alternate' type='application/atom+xml'>
+
+    <script>
+        (function() {
+                var Dropdown = (function() {
+                    var Menu = {},
+                        menuElem = document.querySelector('.m-banner__menu'),
+                        bannerElem = document.querySelector('.m-banner');
+
+                    var bind = function() {
+                        if (menuElem) {
+                            menuElem.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                bannerElem.classList.toggle('is--active');
+                            });
+                        }
+                    }
+
+                    Menu.init = function() {
+                        bind();
+                    }
+                    return Menu;
+                })();
+
+
+            var App = {
+                init: function() {
+                    Dropdown.init();
+                }
+            }
+
+
+            if (window.addEventListener && document.querySelector) {
+                var body = document.documentElement;
+                body.classList.remove('no-js');
+                body.classList.add('js');
+                App.init();
+            }
+        })();
+
+    </script>
 
 
     <!-- Styles -->
