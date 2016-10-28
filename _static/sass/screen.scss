@@ -192,10 +192,48 @@ input[type="submit"] {
     }
 }
 
-.m-footer--adventures {
-  margin-top: 0;
-  padding-top: 0;
+@keyframes wiggle {
+  0% {
+    transform: translate(30px, 20px);
+  } 100% {
+    transform: translate(0, -20px);
+  }
 }
+
+.about-image {
+  position: relative;
+  margin-top: 50px;
+
+  img {
+    z-index: 1;
+    opacity: .8;
+    max-width: 300px;
+  }
+
+  &:before, &:after {
+    z-index: -1;
+    animation: wiggle 10s ease infinite alternate;
+    content: '';
+    background-color: #3d5599;
+    mix-blend-mode: hard-light;
+    opacity: .4;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+  }
+
+  &:after {
+    z-index: 2;
+    background: transparent;
+    animation: wiggle 10s ease infinite alternate-reverse;
+    border: 3px solid #3d5599;
+    opacity: 1;
+  }
+}
+
+
 
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important
