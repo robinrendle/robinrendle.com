@@ -3,12 +3,21 @@
 <article class='h-entry
                 container
                 is--editor__content'>
-    <div class='m-wrapper cell-t40 cell-t40--medium cell-t60--larger'>
+    <div class='m-wrapper'>
+      <div class="cell-t40 cell-t60--medium cell-b0">
+          <h1>About me</h1>
+      </div>
+
+      <div class='m-longform cell-t00 cell-t10'>
+          {{page.intro | markdownify}}
+      </div>
+
+
       <figure class='cell-t20 about-image'>
           <img src='/build/images/me.jpg'>
       </figure>
 
-      <h2 class='rules--bottom rules rules--transparent h5 u-reset-margins cell-t30'>About me</h2>
+      <h2 class='rules--bottom rules rules--transparent h5 u-reset-margins cell-t30'>Adventures</h2>
 
       <div class='m-longform cell-t00 cell-t10'>
           {{page.bio | markdownify}}
