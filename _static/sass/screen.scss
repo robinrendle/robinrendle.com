@@ -202,26 +202,35 @@ input[type="submit"] {
 
 .about-image {
   position: relative;
-  margin-top: 50px;
+  margin-top: 0;
+
+  @include media(">medium") {
+    margin-top: 50px;
+  }
 
   img {
     z-index: 1;
     opacity: .8;
-    max-width: 300px;
+
+    @include media(">medium") {
+      max-width: 300px;
+    }
   }
 
   &:before, &:after {
-    z-index: -1;
-    animation: wiggle 10s ease infinite alternate;
-    content: '';
-    background-color: #3d5599;
-    mix-blend-mode: hard-light;
-    opacity: .4;
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    top: 0;
+    @include media(">medium") {
+      z-index: -1;
+      animation: wiggle 10s ease infinite alternate;
+      content: '';
+      background-color: #3d5599;
+      mix-blend-mode: hard-light;
+      opacity: .4;
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      top: 0;
+    }
   }
 
   &:after {
@@ -231,6 +240,10 @@ input[type="submit"] {
     border: 3px solid #3d5599;
     opacity: 1;
   }
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 
