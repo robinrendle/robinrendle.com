@@ -1,5 +1,5 @@
 ---
-title: Archiving, Typographic Delights and the Doosmday Vault
+title: Archiving, Typographic Delights and the Doomsday Vault
 date: 2016-08-01 05:21:00 +01:00
 Country: California
 City: San Francisco
