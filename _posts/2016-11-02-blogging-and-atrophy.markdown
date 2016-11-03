@@ -10,7 +10,7 @@ extract: How do I see my website? Well, it’s complicated.
 
 > I’m not sure if my Twitter account will still exist ten years from now. But I’m pretty certain that my website will still be around.
 
-Alternatively, it concerns me that folks in the Bay Area tend to treat their websites as business cards instead of archives, as Jeremy suggests. Many designers and developers think of a personal website as a single paragraph of text that clarifies what they do for a living, which is entirely opposite in relation to how I think about them, too.
+Alternatively, it concerns me that folks in the Bay Area tend to treat their websites as business cards instead of archives, as Jeremy suggests. Many designers and developers that I’ve met tend to think of their websites as a single paragraph of text that clarifies what they do for a living, which is entirely opposite in relation to how I think about them, too.
 
 At the moment I think about my website from two angles: as a stream and an archive.
 
