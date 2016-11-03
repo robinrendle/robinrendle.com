@@ -6,7 +6,7 @@ Country: California
 extract: How do I see my website? Well, it’s complicated.
 ---
 
-[Jeremy’s post](https://adactio.com/journal/11436) about his first decade with Twitter is interesting in lots of ways, particularly how he describes this in comparison to the longevity of his website:
+[Jeremy’s post](https://adactio.com/journal/11436) about his first decade with Twitter made for interesting reading, particularly in how he compares the use of that service to the longevity of his website:
 
 > I’m not sure if my Twitter account will still exist ten years from now. But I’m pretty certain that my website will still be around.
 
