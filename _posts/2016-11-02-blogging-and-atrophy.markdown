@@ -3,7 +3,7 @@ title: Blogging and Atrophy
 date: 2016-11-02 23:12:00 -07:00
 City: San Francisco
 Country: California
-Extract: How do I see my website? Well, it’s complicated.
+extract: How do I see my website? Well, it’s complicated.
 ---
 
 [Jeremy’s post](https://adactio.com/journal/11436) about his first decade with Twitter is interesting in lots of ways, particularly how he describes this in comparison to the longevity of his website:
