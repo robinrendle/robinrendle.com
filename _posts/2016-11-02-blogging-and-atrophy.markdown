@@ -14,13 +14,13 @@ What concerns me about this sentiment is that I’ve noticed how folks in the Ba
 
 At the moment I think about my website from two angles:
 
-## #1 My Website as a Stream
+## A Stream
 
 This is how I’ve organised [/notes](http://robinrendle.com/notes)—they’re tiny bundles of information as to what I’m thinking about at that particular instance in time. There’s no pressure to polish up the language or sharpen the metaphors, it’s a stream of consciousness that can be fine tuned and edited into tip-top shape later on.
 
 Ideally these pieces of content and design-agnostic. If I change the typeface or the background or add crazy animations to the page then the text itself won’t mean something different.
 
-## #2 My Website as an Archive
+## An Archive
 
 This is where I put all of the information that often takes twelve months or so to research, edit, and design — this is how I’ve organised [/essays](http://robinrendle.com/essays) for now.
 
