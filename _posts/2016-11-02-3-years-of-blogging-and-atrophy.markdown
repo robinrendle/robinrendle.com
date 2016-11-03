@@ -1,5 +1,5 @@
 ---
-title: 3 years of blogging and atrophy
+title: Blogging and Atrophy
 date: 2016-11-02 23:12:00 -07:00
 City: San Francisco
 Country: California
