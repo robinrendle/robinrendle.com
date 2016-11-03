@@ -10,13 +10,13 @@ extract: How do I see my website? Well, it’s complicated.
 
 > I’m not sure if my Twitter account will still exist ten years from now. But I’m pretty certain that my website will still be around.
 
-What concerns me about this sentiment is that I’ve noticed how folks in the Bay Area tend to treat their websites as business cards instead of archives. They think of a personal website as a paragraph of text that clarifies what they do for a living, which is entirely opposite in relation to how I think about them.
+Alternatively, it concerns me that folks in the Bay Area tend to treat their websites as business cards instead of archives, as Jeremy suggests. Many designers and developers think of a personal website as a single paragraph of text that clarifies what they do for a living, which is entirely opposite in relation to how I think about them, too.
 
-At the moment I think about my website from two angles:
+At the moment I think about my website from two angles: as a stream and an archive.
 
 ## A Stream
 
-This is how I’ve organised [/notes](http://robinrendle.com/notes)—they’re tiny bundles of information as to what I’m thinking about at that particular instance in time. There’s no pressure to polish up the language or sharpen the metaphors, it’s a stream of consciousness that can be fine tuned and edited into tip-top shape later on.
+This is how I’ve organised [/notes](http://robinrendle.com/notes)—they’re tiny bundles of information that don’t really have to go anywhere or do anything. There’s no pressure to polish the language, it’s a stream of consciousness that can be fine tuned and edited into tip-top shape later on.
 
 Ideally these pieces of content and design-agnostic. If I change the typeface or the background or add crazy animations to the page then the text itself won’t mean something different.
 
