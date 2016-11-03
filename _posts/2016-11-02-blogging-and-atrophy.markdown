@@ -18,7 +18,7 @@ At the moment I think about my website from two angles: as a stream and an archi
 
 This is how I’ve organised [/notes](http://robinrendle.com/notes)—they’re tiny bundles of information that don’t really have to go anywhere or do anything. There’s no pressure to polish the language, it’s a stream of consciousness that can be fine tuned and edited into tip-top shape later on.
 
-Ideally these pieces of content and design-agnostic. If I change the typeface or the background or add crazy animations to the page then the text itself won’t mean something different.
+Ideally these pieces of text are what I think of as *design-agnostic*. If I change the typeface or the background or add crazy animations to the page then the text itself won’t mean something different. The text is fluid and isn’t dependent on complicated graphics and other bits of UI to illustrate a point.
 
 ## An Archive
 
