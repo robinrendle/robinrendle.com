@@ -22,11 +22,11 @@ Ideally these pieces of text are what I think of as *design-agnostic*. If I chan
 
 ## An Archive
 
-This is where I put all of the information that often takes twelve months or so to research, edit, and design — this is how I’ve organised [/essays](http://robinrendle.com/essays) for now.
+This is where I put all of the information that often takes twelve months or so to research, edit, and design — this is how I’ve organised [/essays](http://robinrendle.com/essays) for now. These blocks of text are heavily dependent on a specific, custom layout. In order to preserve the longevity of notes I make a brand new stylesheet for each essay, purchase the fonts indefinitely and host them locally, before I throw away the key and never touch the code again. That way, none of that essay code and styles will infect the notes I write.
 
-But this point of view, that a website is an archive that should last for long periods of time, requires a different approach to design. How can I ensure that my work is still available, and accessible, for decades into the future? How can I protect this little piece of the web, place my stamp on it, and preserve it as best I can?
+This point of view requires a different approach to design: How can I ensure that my work is still available, and accessible, for decades into the future, I wonder. How can I protect this little piece of the web, place my stamp on it, and preserve it as best I can?
 
-On the 18th January 2013 I decided that I would never delete anything from my site again. Even if it was painfully banal or just plain silly, everything was going to remain in place for as long as possible. The way I make those essays is make a brand new stylesheet, host local fonts and throw away the key. 
+In early 2013 I decided that I would never delete anything from my site again. Even if it was painfully banal or just plain silly, everything was going to remain in place for as long as possible. 
 
 Yet slowly, over time, I’m watching these bigger posts break down. Certain features no longer work in browsers as I once remember them; atrophy has set in and it’s like watching the text sink slowly into a pool of mud. 
 
