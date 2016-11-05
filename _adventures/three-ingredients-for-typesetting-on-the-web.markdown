@@ -5,7 +5,9 @@ Country: CA
 City: San Francisco
 ---
 
-Lately I’ve been wondering about what a recipe for good typesetting on the web might look like—the answer is a rather complex and long-winded one—but there are three simple ingredients, just like a fire, that are dependent on one another; line-height, max-width, and font-size.
+What would a recipe for good typesetting on the web look like? 
+
+The answer to that question is likely to be a rather complex and long-winded one, but I think there are three simple ingredients, just like a fire requires heat, fuel and oxygen, that are dependent on one another; line-height, max-width, and font-size.
 
 On this note, [Tim Brown](https://twitter.com/nicewebtype) has mentioned that in web typography there can be a *pressure* placed on one of those components that will require us to change the others in response. In most cases, the width of a component will change due to the width of the viewport or device, however the other properties will remain paralysed. 
 
