@@ -5,7 +5,7 @@ Country: CA
 City: San Francisco
 ---
 
-I’m thinking of a simple set of instructions, like a guidebook or an illustration, that describes each step in the design process—*A, B, C*—in order to make a website with accessible and engaging typography.
+I’m thinking of a simple set of instructions, like a guidebook or an illustration, that describes each step in the design process—*A, B, C*—in order to make a website with accessible and engaging typography. I’m thinking beyond tips or tricks such as “use this typeface,” instead I want something along the lines of a cook book: *‘Here are the ingredients you need’* says the chef, ‘*but feel free to experiment and learn.*’
 
 What would a recipe for good typography on the web look like?
 
