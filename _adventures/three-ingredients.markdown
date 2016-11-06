@@ -1,5 +1,5 @@
 ---
-title: Three ingredients for typesetting on the web
+title: Three ingredients
 date: 2016-11-05 15:09:00 -07:00
 Country: CA
 City: San Francisco
