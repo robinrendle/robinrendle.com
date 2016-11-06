@@ -7,9 +7,7 @@ City: San Francisco
 
 What would a recipe for good typesetting on the web look like? 
 
-The answer to that question is likely to be a rather complex and long-winded one, but I think there are three simple ingredients, just like a fire that requires heat, fuel and oxygen, with each dependent on the other:
-
-`line-height`, `font-size`, `max-width`
+The answer to that question is likely to be a rather complex and long-winded one, but I think there are three simple ingredients, just like a fire that requires heat, fuel and oxygen, with each component dependent on the other. Whenever I’m setting text I think of `line-height`, `font-size`, and the `max-width` CSS properties to be so tightly bound to one another that the code itself should reflect that relationship.
 
 We can argue about which typeface might be the best in a specific instance, but I believe that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
