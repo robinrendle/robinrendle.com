@@ -75,6 +75,15 @@ Above: Ikkat by Rob Pratley
 
 Look at the italics of [Byron](http://typefacedesign.net/typefaces/year/2016/byron/) or [Marjolein](http://typefacedesign.net/typefaces/year/2016/marjolein/): 
 
+
+<figure>
+  <img src='/uploads/Byron8-1024x1024.png'>
+<figcaption>
+Above: Byron by Gor Jihanian
+</figcaption>
+</figure>
+
+
 ![Byron8-1024x1024.png](/uploads/Byron8-1024x1024.png)
 
 Or gasp and wonder at the Arabic glyphs of [Labiba](http://typefacedesign.net/typefaces/year/2016/dialogue/) and [Jali](http://typefacedesign.net/typefaces/year/2016/jali/). Or take a look at the Greek forms in [Amikal](http://typefacedesign.net/typefaces/year/2016/amikal/), the Latin, Sinhala and Tamil shapes in [Maname](http://typefacedesign.net/typefaces/year/2016/maname/):
