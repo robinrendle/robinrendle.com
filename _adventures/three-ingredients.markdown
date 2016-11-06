@@ -7,7 +7,7 @@ City: San Francisco
 
 What would a recipe for good typesetting on the web look like? I’m thinking of a simple set of instructions here, like a guidebook or an illustration, that describes each step—A, B, and C—in order to make a website with accessible and engaging typography.
 
-In reality, the answer to that question is always going to a rather complex and long-winded one, but I think there are a few easily describable relationships at work. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph requires, with each component dependent on and influencing the others. 
+In reality, the answer to that question is always going to be a rather complex and long-winded one, but I think there are a few easily describable relationships at work. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph requires, with each component dependent on and influencing the others. 
 
 For now, I am always considerate of the interplay between `line-height`, `font-size`, and the `max-width` CSS properties. In fact I believe that these characteristics are so tightly bound to one another that the code itself should reflect that relationship, too.
 
