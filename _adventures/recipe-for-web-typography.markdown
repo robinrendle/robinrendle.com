@@ -32,7 +32,7 @@ Retina’s MicroPlus sizes are designed for smaller bits of text and once you st
 
 > Retina MicroPlus uses exaggerated proportions and details to preserve the identity of each letter and word. Deep-cut notches absorb ink in print and further reinforce the gesture of each shape, on screens as well as paper.
 
-This work is the result of years of careful research into setting type for small print sizes. But here’s how it works: when the MicroPlus series of letterforms are riddled with grooves and freakish bends in the shapes but when you scale the letters down to small sizes those irregularities disappear:
+This work is the result of years of careful research into setting type for small print sizes. But here’s how it works: because the MicroPlus series of letterforms are riddled with grooves and freakish bends in the shapes our eyes will fill in the gaps when you scale those letters down to small sizes. Suddenly those irregularities disappear:
 
 ![retina-fd8689.gif](/uploads/retina-fd8689.gif)
 
