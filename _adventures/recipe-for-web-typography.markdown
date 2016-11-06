@@ -9,9 +9,9 @@ I’m thinking of a simple set of instructions, like a guidebook or an illustrat
 
 So, what would a recipe for good typography on the web look like?
 
-The answer to that question is always going to be a rather complex and long-winded one, but I think there are a few simple relationships at work here. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph of text requires, with each component dependent on and influencing the others. For my own projects I’m always considerate of the interplay between `line-height`, `font-size`, and the `max-width` CSS properties. 
+The answer to that question is always going to be a rather complex and long-winded one, but I think there are a few simple relationships at work here. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph of text requires, with each component dependent on and influencing the others:`line-height`, `font-size`, and the `max-width` CSS properties. 
 
-We can argue about which typeface might be the best in a specific instance, but for a while I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
+We can argue about which typeface might be the best in this case or that, however for a while now I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
 On this note, a while back [Tim Brown](https://twitter.com/nicewebtype) mentioned that in web typography there can be a certain amount of *pressure* applied to a block of text for various reasons. For example, the width of a component will change due to the width of the viewport or device, however the other properties, line-height and font-size, can’t really adapt to this change without writing a lot more CSS. 
 
