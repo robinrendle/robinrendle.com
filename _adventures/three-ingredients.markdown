@@ -9,13 +9,13 @@ What would a recipe for good typesetting on the web look like?
 
 The answer to that question is likely to be a rather complex and long-winded one, but I think there are three simple ingredients, just like a fire that requires heat, fuel and oxygen, with each component dependent on the other. Whenever I’m setting text I think of `line-height`, `font-size`, and the `max-width` CSS properties to be so tightly bound to one another that the code itself should reflect that relationship.
 
-We can argue about which typeface might be the best in a specific instance, but I believe that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
+We can argue about which typeface might be the best in a specific instance, but for a while I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
-On this note, [Tim Brown](https://twitter.com/nicewebtype) has mentioned that in web typography there can be a certain amount of *pressure* placed on one of those components that will require us to change the others in response. In most cases, the width of a component will change due to the width of the viewport or device, however the other properties, line-height and font-size, will remain paralysed. 
+On this note, a while back [Tim Brown](https://twitter.com/nicewebtype) mentioned that in web typography there can be a certain amount of *pressure* applied to a block of text for various reasons. For example, the width of a component will change due to the width of the viewport or device, however the other properties, line-height and font-size, can’t really adapt to this change without writing a lot more CSS. 
 
-I think there’s a bond here, between these relationships, that’s mostly being ignored when it comes to web development and I think the difficulty lies in the code. Since we don’t have [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/) just yet we have to sort of guess which is the least worst combination of these three properties or we have to custom set each element, with a million media queries to help us ease this pressure.
+There’s a natural bond here, between these relationships, that’s mostly being ignored when it comes to web development and I think the difficulty lies in the design of CSS itself. Since we don’t have [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/) just yet we have to sort of guess which is the least-worst combination of these three properties or we have to custom set each element, with a million media queries to help us ease the pressure.
 
-Now that an interest in responsive typography has serious traction in the community with variable fonts, I’d like to see a simpler approach to setting these relationships between max-width, line-height and font-size.
+However, now that an interest in responsive typography has serious traction in the community with variable fonts, I’d like to see a simpler approach to setting these relationships between max-width, line-height and font-size at the same time.
  
 
 ## New Type Releases
