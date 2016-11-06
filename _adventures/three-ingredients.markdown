@@ -1,5 +1,5 @@
 ---
-title: Three ingredients
+title: Three Ingredients for Web Typography
 date: 2016-11-05 15:09:00 -07:00
 Country: CA
 City: San Francisco
