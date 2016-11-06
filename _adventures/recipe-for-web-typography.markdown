@@ -1,5 +1,5 @@
 ---
-title: A Recipe for Web Typography
+title: A Recipe for Setting Type on the Web
 date: 2016-11-05 15:09:00 -07:00
 Country: CA
 City: San Francisco
