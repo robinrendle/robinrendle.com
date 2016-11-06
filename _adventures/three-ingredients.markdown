@@ -13,11 +13,12 @@ The answer to that question is likely to be a rather complex and long-winded one
 
 We can argue about which typeface might be the best in a specific instance, but I believe that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
-On this note, [Tim Brown](https://twitter.com/nicewebtype) has mentioned that in web typography there can be a *pressure* placed on one of those components that will require us to change the others in response. In most cases, the width of a component will change due to the width of the viewport or device, however the other properties will remain paralysed. 
+On this note, [Tim Brown](https://twitter.com/nicewebtype) has mentioned that in web typography there can be a certain amount of *pressure* placed on one of those components that will require us to change the others in response. In most cases, the width of a component will change due to the width of the viewport or device, however the other properties, line-height and font-size, will remain paralysed. 
 
-I think there’s a bond here, between these relationships, that’s mostly being ignored. The difficulty lies in the code, an absence left by [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/).
+I think there’s a bond here, between these relationships, that’s mostly being ignored when it comes to web development and I think the difficulty lies in the code. Since we don’t have [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/) just yet we have to sort of guess which is the least worst combination of these three properties or we have to custom set each element, with a million media queries to help us ease this pressure.
 
-Anyway, enough of the rambling — last week I promised an update on new typefaces specifically, and so without further ado: this is every typeface that I’ve seen released over the past month or so. It’s quite an astonishing list.
+Now that an interest in responsive typography has serious traction in the community with variable fonts, I’d like to see a simpler approach to setting these relationships between max-width, line-height and font-size.
+ 
 
 ## New Type Releases
 
