@@ -7,7 +7,7 @@ City: San Francisco
 
 I’m thinking of a simple set of instructions, like a guidebook or an illustration, that describes each step in the design process—*A, B, C*—in order to make a website with accessible and engaging typography. I’m thinking beyond tips or tricks such as “use this typeface,” instead I want something along the lines of a cook book: *‘Here are the ingredients you need’* says the chef, ‘*but feel free to experiment and learn.*’
 
-What would a recipe for good typography on the web look like?
+So what would a recipe for good typography on the web look like?
 
 In reality, the answer to that question is always going to be a rather complex and long-winded one, but I think there are a few simple relationships at work. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph requires, with each component dependent on and influencing the others. For my own projects I’m always considerate of the interplay between `line-height`, `font-size`, and the `max-width` CSS properties. 
 
