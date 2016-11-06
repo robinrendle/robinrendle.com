@@ -17,7 +17,7 @@ On this note, a while back [Tim Brown](https://twitter.com/nicewebtype) mentione
 
 There’s a natural bond here, between these relationships, that’s mostly being ignored when it comes to web development and I think the difficulty lies in the design of CSS itself. Since we don’t have [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/) just yet we have to sort of guess which is the least-worst combination of these three properties or we have to customise each element by hand, with a million media queries inside to help us ease that pressure.
 
-But now that an interest in responsive typography has serious traction in the community with variable fonts, I’d like to see a simpler approach to setting this relationship between max-width, line-height and font-size.
+But now that an interest in responsive typography has serious traction in the community with variable fonts, I’d like to see a simpler approach to ensuring this relationship isn’t ever under too much pressure.
 
 Anyway, that’s what I’ve been thinking for the last week as I design a new typography framework for our team: how do I make that relationship obvious and easy to apply to a specific view? How can we ensure a clear system in CSS that provides just enough flexibility without being too demanding and obtuse for everyone?
  
