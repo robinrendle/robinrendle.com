@@ -9,9 +9,7 @@ I’m thinking of a simple set of instructions, like a guidebook or an illustrat
 
 What would a recipe for good typography on the web look like?
 
-In reality, the answer to that question is always going to be a rather complex and long-winded one, but I think there are a few easily describable relationships at work. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph requires, with each component dependent on and influencing the others. 
-
-For now, I am always considerate of the interplay between `line-height`, `font-size`, and the `max-width` CSS properties. In fact I believe that these characteristics are so tightly bound to one another that the code itself should reflect that relationship, too.
+In reality, the answer to that question is always going to be a rather complex and long-winded one, but I think there are a few simply relationships at work. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph requires, with each component dependent on and influencing the others. For my own projects I’m always considerate of the interplay between `line-height`, `font-size`, and the `max-width` CSS properties. 
 
 We can argue about which typeface might be the best in a specific instance, but for a while I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
