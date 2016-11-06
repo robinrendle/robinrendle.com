@@ -52,7 +52,7 @@ However, the Noto project wasn’t intended to make a beautiful typeface at all.
 > 
 > Google has been developing a font family called Noto, which aims to support all languages with a harmonious look and feel. Noto is Google’s answer to tofu. The name noto is to convey the idea that Google’s goal is to see “no more tofu”. Noto has multiple styles and weights, and is freely available to all.
 
-Commonly, many typefaces only support a tiny fraction of the more than six thousand languages that are spoken today and so this is a gift to those that can speak a language that is not fully representing their culture. And it’s important to remember that the most important goal of text is to be read, first and foremost, rather than it just be pleasing to us armchair typographers.
+Commonly, many typefaces only support a tiny fraction of the more than six thousand languages that are spoken today. And it’s important to remember that the most important goal of text is to be read, first and foremost, rather than it just be pleasing to us armchair typographers.
 
 The team made a cute video that describes the design process and challenge that lay ahead of them:
 
