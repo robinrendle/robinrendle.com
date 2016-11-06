@@ -9,7 +9,7 @@ What would a recipe for good typesetting on the web look like?
 
 The answer to that question is likely to be a rather complex and long-winded one, but I think there are three simple ingredients, just like a fire that requires heat, fuel and oxygen, with each dependent on the other:
 
-`line-height`, `font-size` and `max-width`
+`line-height`, `font-size`, `max-width`
 
 We can argue about which typeface might be the best in a specific instance, but I believe that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
