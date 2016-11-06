@@ -54,7 +54,7 @@ However, the Noto project wasn’t intended to make a beautiful typeface at all.
 
 Commonly, many typefaces only support a tiny fraction of the more than six thousand languages that are spoken today. And it’s important to remember that the most important goal of text is to be read, first and foremost, rather than it just be pleasing to us armchair typographers.
 
-The team made a cute video that describes the design process and challenge that lay ahead of them:
+The team made a cute video that describes the design process and challenges that lay ahead of them:
 
 <div class="preserve-aspect">
     <iframe class="preserve-aspect__element" src="https://player.vimeo.com/video/185700918" frameborder="0" allowfullscreen></iframe>
@@ -62,13 +62,16 @@ The team made a cute video that describes the design process and challenge that 
 
 ***
 
-The Department of Typography and Graphic Communication at the University of Reading’s have updated their website with [work from the type design class of 2016](http://typefacedesign.net/typefaces/year/2016/) and oh boy oh boy oh boy. 
+The Department of Typography and Graphic Communication at the University of Reading have updated their website with [work from the type design class of 2016](http://typefacedesign.net/typefaces/year/2016/) and oh boy oh boy oh boy. 
 
 That’s 14 new typefaces to gawk at all at once:
 
-![ikkatmultilingual-1024x470.png](/uploads/ikkatmultilingual-1024x470.png)
-
-<small>Above: Ikkat by Rob Pratley</small>
+<figure>
+  <img src='/uploads/ikkatmultilingual-1024x470.png'>
+<figcaption>
+Above: Ikkat by Rob Pratley
+</figcaption>
+</figure>
 
 Look at the italics of [Byron](http://typefacedesign.net/typefaces/year/2016/byron/) or [Marjolein](http://typefacedesign.net/typefaces/year/2016/marjolein/): 
 
