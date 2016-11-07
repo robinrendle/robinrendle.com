@@ -11,9 +11,9 @@ So, what would a recipe for good typography on the web look like?
 
 The answer to that question is always going to be a rather complex and long-winded one, but I think there are a few simple relationships at work here. Just like a fire that requires heat, fuel and oxygen, there are three components that a paragraph of text requires, with each component dependent on and influencing the others: `line-height`, `font-size`, and the `max-width` CSS properties.
 
-We can argue about which typeface might be the best in this case or that, however for a while now I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
+We can argue about which typeface might be the best in this case or that, yet for a while now I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
-On this note, a while back [Tim Brown](https://twitter.com/nicewebtype) mentioned that in web typography there can be a certain amount of *pressure* applied to a block of text for various reasons. For example, the width of a component will change due to the width of the viewport or device, however the other properties, such as line-height and font-size, can’t really adapt to this change without requiring us to write a lot more CSS.
+On this note, [Tim Brown](https://twitter.com/nicewebtype) mentioned a while back that in web typography there can be a certain amount of *pressure* applied to a block of text for various reasons. For example, the width of a component will change due to the width of the viewport or device, however the other properties, such as line-height and font-size, can’t really adapt to this change without requiring us to write a lot more CSS.
 
 There’s a natural bond here, between these relationships, that’s mostly being ignored when it comes to web development and I think the difficulty lies in the design of CSS itself. Since we don’t have [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/) just yet we have to sort of guess which is the least-worst combination of these three properties or we have to customise each element by hand, with a million media queries inside to help us ease that pressure.
 
@@ -62,7 +62,7 @@ The team made a cute video that describes the design process and challenges that
 
 ***
 
-The Department of Typography and Graphic Communication at the University of Reading have updated their website with [work from the type design class of 2016](http://typefacedesign.net/typefaces/year/2016/) and oh boy oh boy oh boy.
+The Department of Typography and Graphic Communication at the University of Reading has updated their website with [work from the type design class of 2016](http://typefacedesign.net/typefaces/year/2016/) and oh boy oh boy oh boy.
 
 That’s 14 new typefaces to gawk at all at once:
 
@@ -145,7 +145,7 @@ From the specimen page:
 
 ***
 
-[Sharp Grotesk](https://sharptype.co/typefaces/sharp-grotesk/) by the [Sharp Type](https://sharptype.co/about-us/) foundry was released a while back and it’s just as loud and boisterous as a grotesk ought to be, full of bold forms with a striking lack of white space between each character:
+[Sharp Grotesk](https://sharptype.co/typefaces/sharp-grotesk/) by the [Sharp Type](https://sharptype.co/about-us/) foundry was released a couple of weeks ago and it’s just as loud and boisterous as a grotesk ought to be, full of bold forms with a striking lack of white space between each character:
 
 ![Screenshot 2016-11-05 16.16.36.png](/uploads/Screenshot%202016-11-05%2016.16.36.png)
 
@@ -191,3 +191,22 @@ Typekit announced the [Typekit Marketplace](https://typekit.com/marketplace), an
 There’s already a lot of great foundries on board, such as Frere Jones, Type Together, and Dalton Maag. The team also made some cool [promotional videos](https://www.youtube.com/channel/UCmmwb1v48LX3TAKbE6QRExg) that interview the foundries that have signed up so far.
 
 ***
+
+Myles Maxfield wrote about variable fonts on the web for the Webkit blog:
+
+> There are four CSS properties which affect which fonts are selected to be used in the document: font-weight, font-stretch, font-style, and font-size. With font variation support, each of these four properties will accept a numerical value which will both affect font selection as well as be applied to the font after it is selected. Therefore, a web site declaring font-weight: bold may cause a variable font to be selected, and then bold applied to that variable font. Naturally, CSS animations are supported in all these properties, because the values can be smoothly interpolated. These properties are expected to match the most common variation axes, so most CSS authors won’t need to learn any new properties.
+
+One thing to note here: I find it terribly exciting that web designers might not even know that they’re using variable fonts at all. They don’t need to learn any new CSS properties and they don’t really need to know anything about the font file for things to work properly.
+
+## Letter of the Week
+
+[Escrow Display’s](https://store.typenetwork.com/foundry/fontbureau/series/escrow) lowercase *x* caught my eye this week:
+
+![x](/uploads/x.png)
+
+In fact, the whole family of upper case characters are delightful, oozing with charm and finesse:
+
+![escrow](/uploads/escrow.png)
+
+<p>Until next time!
+<br>✌️ Robin</p>
