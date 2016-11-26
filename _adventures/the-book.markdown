@@ -1,6 +1,11 @@
 ---
 title: The Book
 date: 2016-11-26 15:45:00 -08:00
+tags:
+- the book
+- keith houston
+Country: California
+City: San Francisco
 ---
 
 <p>Bound up in papyrus or transcribed onto silk, the mysterious history of books is both delightful and complex. </p>
