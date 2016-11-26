@@ -8,7 +8,7 @@ Country: California
 City: San Francisco
 ---
 
-<p>Bound up in papyrus or transcribed onto silk, the mysterious history of books is both delightful and complex. </p>
+Bound up in papyrus or transcribed onto silk, the mysterious history of our books is both delightful and complex.
 
 <p>I’ve been slowly reading <a href="http://www.shadycharacters.co.uk/books/"><em>The Book</em></a> by Keith Houston over the past fortnight, and since the author’s previous work, <em>Shady Characters</em>, is so dear to my heart I happen to feel quite guilty. I recognise that I’m doing Houston’s work an awful disservice as I pinch five minutes here and there to read it, especially because Houston’s writing is consistently light-hearted and smart.</p>
 
