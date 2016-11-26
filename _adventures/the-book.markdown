@@ -50,7 +50,9 @@ This week’s letter is the lowercase Y from Ludwig Type’s [Godfrey](https://w
 
 ![Godfrey](/uploads/godfrey.jpg)
 
-The designer of Godfrey also built a really cool specimen website to market the typeface where you can see the typeface in more realistic scenarios:
+It just sorts of dangles out there into the outer space beneath. Y’s often tend to curl beneath the previous character and so this rigid extender looks odd to me, but in a pleasing way. The lowercase *f* is a peculiar character, too.
+
+Anyway, the designer of Godfrey, [Ludwig Übele](https://twitter.com/LudwigType), also built a really cool specimen website to market the typeface where you can see everything in a more realistic scenario:
 
 ![Godfrey specimen](/uploads/godfrey-specimen.jpg)
 
