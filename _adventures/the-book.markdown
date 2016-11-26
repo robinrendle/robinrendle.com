@@ -10,7 +10,7 @@ City: San Francisco
 
 Bound up in papyrus or transcribed onto silk, the mysterious history of our books is both delightful and complex.
 
-<p>I’ve been slowly reading <a href="http://www.shadycharacters.co.uk/books/"><em>The Book</em></a> by Keith Houston over the past fortnight, and since the author’s previous work, <em>Shady Characters</em>, is so dear to my heart I happen to feel quite guilty. I recognise that I’m doing Houston’s work an awful disservice as I pinch five minutes here and there to read it, especially because Houston’s writing is consistently light-hearted and smart.</p>
+<p>I’ve been slowly reading <a href="http://www.shadycharacters.co.uk/books/"><em>The Book</em></a> by Keith Houston over the past fortnight, and since the author’s previous work, <em>Shady Characters</em>, is so dear to my heart I happen to feel quite guilty. I recognise that I’m doing Houston’s work an awful disservice as I pinch five minutes here and there to read it, especially because his writing is consistently light-hearted and smart.</p>
 
 <p>The author wastes no time by jumping into the early calligraphic methods of Egyptian scribes, before moving swiftly onto the work of Cai Lun, Gutenburg’s printing press and Ottmar Mergenthaler’s Linotype machine. Along the way, Houston explores the impact of <em>proto-books</em>, like etchings on walls, or illumination in manuscripts, and explains how each of these steps towards the manufacture and design of books left their mark. But much like <em>Shady Characters</em>, I would recommend <em>The Book</em> even for those that don’t find themselves daydreaming about design or typography. </p>
 
@@ -40,7 +40,7 @@ I also missed that in October [Monica made an emoji font](https://meowni.ca/post
 
 Laurence Penney made [a fascinating variable font demo](http://www.axis-praxis.org/demo.php?id=3): 
 
-![docomo.jpg](/uploads/variable-font.gif) 
+![variable-font-ae3ef4.gif](/uploads/variable-font-ae3ef4.gif)
 
 Make sure to check out the demo above in a browser that supports variable fonts, like [Webkit Nightly](https://webkit.org/nightly/). Laurence also wrote more about what’s going on in [a post about the demo](http://www.axis-praxis.org/blog/2016-11-24/10/demo-resize-textbox-with-variable-fonts).
 
@@ -48,11 +48,11 @@ Make sure to check out the demo above in a browser that supports variable fonts,
 
 This week’s letter is the lowercase Y from Ludwig Type’s [Godfrey](https://www.ludwigtype.de/fonts/godfrey/overview): 
 
-![docomo.jpg](/uploads/godfrey.jpg)
+![Godfrey](/uploads/godfrey.jpg)
 
 The designer of Godfrey also built a really cool specimen website to market the typeface where you can see the typeface in more realistic scenarios:
 
-![docomo.jpg](/uploads/godfrey-specimen.jpg)
+![Godfrey specimen](/uploads/godfrey-specimen.jpg)
 
 ✌️ Until next time!
 Robin 
