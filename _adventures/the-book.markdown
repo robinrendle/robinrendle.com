@@ -59,7 +59,7 @@ Laurence Penney made [a fascinating variable font demo](http://www.axis-praxis.o
 
 ![variable-font-ae3ef4.gif](/uploads/variable-font-ae3ef4.gif)
 
-It’s best to check the demo out above in a browser that supports variable fonts, like [Webkit Nightly](https://webkit.org/nightly/). Laurence also wrote more about what’s going on in [a post about the demo](http://www.axis-praxis.org/blog/2016-11-24/10/demo-resize-textbox-with-variable-fonts).
+It’s best to check the demo out in a browser that supports variable fonts, like [Webkit Nightly](https://webkit.org/nightly/). Laurence also wrote more about what’s going on in [a post about the demo](http://www.axis-praxis.org/blog/2016-11-24/10/demo-resize-textbox-with-variable-fonts).
 
 ## Letter of the week
 
