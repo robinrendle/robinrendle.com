@@ -49,8 +49,6 @@ Monica Dinculescu, aka [@notwaldorf](https://twitter.com/notwaldorf), made [Font
 
 > If you're using a web font, you're bound to see a flash of unstyled text (or FOUC), between the initial render of your websafe font and the webfont that you've chosen. This usually results in a jarring shift in layout, due to sizing discrepancies between the two fonts. To minimize this discrepancy, you can try to match the fallback font and the intended webfont’s x-heights and widths. This tool helps you do exactly that.
 
-The interface let’s you pick two fonts and manipulate various CSS properties to prevent that webfont loading flash from being too disruptive.
-
 I also missed that in October [Monica made an emoji font](https://meowni.ca/posts/og-emoji-font/) based on the original emoji, released on the DoCoMo phone in 1999:
 
 ![docomo.jpg](/uploads/docomo.jpg)
