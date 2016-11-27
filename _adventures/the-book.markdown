@@ -41,7 +41,7 @@ Yesterday I made [a demo](http://codepen.io/robinrendle/full/YpxXLx/) that expla
 
 ![color-fonts.gif](/uploads/color-fonts.gif)
 
-I’ll be sure to write something up for CSS-Tricks that digs into what a color font is, but for now it’s pretty neat to mess around with and I can’t wait to see what new forms of display type emerge from all these experiments.
+I’ll write something up for CSS-Tricks that digs into what a color font is, but for now it’s pretty neat to mess around with and I can’t wait to see what new forms of display type emerge from all these experiments.
 
 ***
 
