@@ -12,7 +12,9 @@ Bound up in papyrus or transcribed onto silk, the mysterious history of our book
 
 <p>I’ve been slowly reading <a href="http://www.shadycharacters.co.uk/books/"><em>The Book</em></a> by Keith Houston over the past fortnight, and since the author’s previous work, <em>Shady Characters</em>, is so dear to my heart I happen to feel quite guilty. I recognise that I’m doing Houston’s work an awful disservice as I pinch five minutes here and there to read it, especially because his writing is consistently light-hearted and smart.</p>
 
-<p>The author wastes no time by jumping into the early calligraphic methods of Egyptian scribes, before moving swiftly onto the work of Cai Lun, Gutenburg’s printing press and Ottmar Mergenthaler’s Linotype machine. Along the way, Houston explores the impact of <em>proto-books</em>, like etchings on walls, or illumination in manuscripts, and explains how each of these steps towards the manufacture and design of books left their mark:</p> 
+<p>The author wastes no time by jumping into the early calligraphic methods of Egyptian scribes, before moving swiftly onto the work of Cai Lun, Gutenburg’s printing press and Ottmar Mergenthaler’s Linotype machine. Along the way, Houston explores the impact of <em>proto-books</em>, like etchings on walls, or illumination in manuscripts, and explains how each of these steps towards the manufacture and design of books left their mark.</p> 
+
+![book.jpg](/uploads/book.jpg)
 
 <figure>
   <blockquote>
@@ -25,7 +27,7 @@ Bound up in papyrus or transcribed onto silk, the mysterious history of our book
 
 But! Unlike the vast majority of books on this topic, Houston doesn’t focus solely on Western characters in the tale. Publishers across China and Japan are of central importance too and so many of these stories were new to me. 
 
-![book.jpg](/uploads/book.jpg)
+![the-book-inside.jpg](/uploads/the-book-inside.jpg)
 
 Delightful flourishes illustrate the various components of *The Book* both inside and out; the head, subtitle, headcap, binding tape, drop caps, and hinge. It’s rare to find a book that compliments the subject and style of the writer so well.
 
