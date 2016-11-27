@@ -23,7 +23,7 @@ Bound up in papyrus or transcribed onto silk, the mysterious history of our book
    </figcaption>
 </figure>
 
-But! Unlike the vast majority of books on this topic, Houston doesn’t focus solely on Western characters in the tale; publishers, governments and cultures across China and Japan are of central importance, too. And so much of the history of printing that Keith digs into was completely new to me. 
+But! Unlike the vast majority of books on this topic, Houston doesn’t focus solely on Western characters in the tale; publishers, governments and cultures across China and Japan are of central importance, too. And so much of the history of printing was completely new to me. 
 
 ![book.jpg](/uploads/book.jpg)
 
