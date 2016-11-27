@@ -27,7 +27,7 @@ Bound up in papyrus or transcribed onto silk, the mysterious history of our book
 
 But! Unlike the vast majority of books on this topic, Houston doesn’t focus solely on Western characters in the tale. Publishers across China and Japan are of central importance too and so many of these stories were new to me. 
 
-Delightful flourishes illustrate the various components of *The Book* both inside and out; the head, subtitle, headcap, binding tape, drop caps, and hinge. 
+Delightful flourishes illustrate the various components of *The Book* both inside and out; the head, subtitle, headcap, binding tape, drop caps, and hinge. Here’s an example of a page inside:
 
 ![the-book-inside-b3b963.jpg](/uploads/the-book-inside-b3b963.jpg)
 
