@@ -63,7 +63,7 @@ This week’s letter is the lowercase Y from Ludwig Type’s [Godfrey](https://w
 
 It just sorts of dangles out there into the outer space beneath. Y’s often tend to hug and curl up beneath the previous letter and so this rigid extender looks odd to me, but in a pleasing way. Also, the lowercase *f* is a peculiar character, too.
 
-Anyway, the designer of Godfrey, [Ludwig Übele](https://twitter.com/LudwigType), also built a really cool specimen website to market the typeface where you can see everything in a more realistic scenario:
+Anyway, the designer of Godfrey, [Ludwig Übele](https://twitter.com/LudwigType), also built a really cool specimen website to market the typeface where you can see everything in a more realistic scenario. It lets you see the text on books and posters in order to get a better sense of what you’re paying for:
 
 ![Godfrey specimen](/uploads/godfrey-specimen.jpg)
 
