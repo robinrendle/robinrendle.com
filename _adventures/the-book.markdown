@@ -37,6 +37,14 @@ Or, if you can’t wait to read something by Keith then I suggest you begin with
 
 ## The Week in Type
 
+Yesterday I made [a demo](http://codepen.io/robinrendle/full/YpxXLx/) that explains how color fonts work. Make sure to check it out in the latest versions of Firefox or Edge to see how we can switch between the different OpenType variants:
+
+![color-fonts.gif](/uploads/color-fonts.gif)
+
+I’ll be sure to write something up for CSS-Tricks that digs into what a color font is, but for now it’s pretty neat to mess around with and I can’t wait to see what new forms of display type emerge from all these experiments.
+
+***
+
 Monica Dinculescu, aka [@notwaldorf](https://twitter.com/notwaldorf), made [Font style matcher](https://meowni.ca/font-style-matcher/): 
 
 > If you're using a web font, you're bound to see a flash of unstyled text (or FOUC), between the initial render of your websafe font and the webfont that you've chosen. This usually results in a jarring shift in layout, due to sizing discrepancies between the two fonts. To minimize this discrepancy, you can try to match the fallback font and the intended webfont’s x-heights and widths. This tool helps you do exactly that.
