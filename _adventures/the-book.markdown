@@ -67,5 +67,5 @@ Anyway, the designer of Godfrey, [Ludwig Übele](https://twitter.com/LudwigType)
 
 ![Godfrey specimen](/uploads/godfrey-specimen.jpg)
 
-✌️ Until next time!
-Robin 
+<p>✌️ Until next time! <br>
+Robin</p>
