@@ -27,7 +27,7 @@ But! Unlike the vast majority of books on this topic, Houston doesn’t focus so
 
 ![book.jpg](/uploads/book.jpg)
 
-Delightful flourishes illustrate the various components of a book both inside and out, ; the head, subtitle, headcap, binding tape, drop caps, and hinge. It’s rare to find a book that compliments the subject and style of the writer so well.
+Delightful flourishes illustrate the various components of a book both inside and out; the head, subtitle, headcap, binding tape, drop caps, and hinge. It’s rare to find a book that compliments the subject and style of the writer so well.
 
 <p>Much like <em>Shady Characters</em> I would recommend <em>The Book</em> even for those that don’t find themselves daydreaming about design or typography. However, if do you happen to be typographically inclined, then this book about books certainly has much to offer you. In short, this is a delightful read and I recommend that you pick yourself up a copy as soon as you possibly can. </p> 
 
