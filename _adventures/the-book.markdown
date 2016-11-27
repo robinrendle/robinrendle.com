@@ -16,7 +16,7 @@ Bound up in papyrus or transcribed onto silk, the mysterious history of our book
 
 <figure>
   <blockquote>
-    <p>Whether or not a scribe understood a word of the text he was copying, progress was slow and methodical. Each letter was constructed stroke by stroke in iron gall ink, and a conscientious scribe would pause to sharpen his quill tens of times each day to maintain an even line. The penknife with which he did that, in fact, was every bit as important as his pen: with it, he could prick holes for guidelines; scrape of a mistake before its ink soaked into the page; or hold springy parchment flat so as to write upon it more easily. At the end of all this he would have picked up the completed page, cast an expert eye over its neatly ruled lines and disciplined text, and then passed it on to a colleague practiced in the graphic arts.</p>
+    <p>Whether or not a scribe understood a word of the text he was copying, progress was slow and methodical. Each letter was constructed stroke by stroke in iron gall ink, and a conscientious scribe would pause to sharpen his quill tens of times each day to maintain an even line. The penknife with which he did that, in fact, was every bit as important as his pen: with it, he could prick holes for guidelines; scrape off a mistake before its ink soaked into the page; or hold springy parchment flat so as to write upon it more easily. At the end of all this he would have picked up the completed page, cast an expert eye over its neatly ruled lines and disciplined text, and then passed it on to a colleague practiced in the graphic arts.</p>
    </blockquote>
    <figcaption>
      <p><em>The Book</em>, Keith Houston, page 170</p>
