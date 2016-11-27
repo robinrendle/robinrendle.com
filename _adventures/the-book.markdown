@@ -31,7 +31,7 @@ Delightful flourishes illustrate the various components of *The Book* both insid
 
 ![the-book-inside-b3b963.jpg](/uploads/the-book-inside-b3b963.jpg)
 
-It’s rare to find a book that compliments the subject and style of the writer so well. In fact, much like <em>Shady Characters</em>, I would recommend <em>The Book</em> for those that don’t even find themselves daydreaming about design or typography. However, if do you happen to be typographically inclined, then this book about books certainly has much to offer you. In short, this is a delightful read and I recommend that you pick yourself up a copy as soon as you possibly can. </p> 
+<p>It’s rare to find a book that compliments the subject and style of the writer so well. In fact, much like <em>Shady Characters</em>, I would recommend <em>The Book</em> for those that don’t even find themselves daydreaming about design or typography. However, if do you happen to be typographically inclined, then this book about books certainly has much to offer you. In short, this is a delightful read and I recommend that you pick yourself up a copy as soon as you possibly can. </p> 
 
 Or, if you can’t wait to read something by Keith then I suggest you begin with his [field trips](http://www.shadycharacters.co.uk/2014/11/pompeii-trip/).
 
