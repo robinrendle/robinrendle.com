@@ -75,13 +75,13 @@ So I’m not sure how this is useful, and what it means for typography specifica
 
 ![coit.jpg](/uploads/coit.jpg)
 
-Last weekend I hiked up to Coit Tower and on the entrance wall before you enter is a plaque that describes its origins:
+Last weekend I hiked up to Coit Tower, a 200 foot structure in the northeastern tip of the San Francisco peninsula. On the entrance before you enter is a plaque that describes its origins:
 
 ![Bitmap.jpg](/uploads/Bitmap.jpg)
 
-Those letters really bug me in a way that’s difficult to explain – I’m not sure what the origin of the typeface is but it’s frustratingly difficult to read and *this* led me to wonder about an important problem when reviewing a design: is this a problem of the type, the typesetting, or both? Set in all caps makes the text difficult to read, as do the low set horizontal bars of E, the H and the small counters in A, R and B. Here’s a closer look:
-
 ![coit-zoomed.jpg](/uploads/coit-zoomed.jpg)
+
+Those letters really bug me in a way that’s difficult to explain – I’m not sure what the origin of the typeface is but it’s frustratingly difficult to read and *this* led me to wonder about an important problem when reviewing a design: is this a problem of the type, the typesetting, or both? Set in all caps makes the text difficult to read, as do the low set horizontal bars of E, the H and the small counters in A, R and B.
 
 
 ## Letter of the Week
