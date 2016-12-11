@@ -33,7 +33,7 @@ As delightful as that story might’ve been, the smiles begin to fade when I rea
     <iframe class="preserve-aspect__element" src="https://www.youtube.com/embed/bySyGkt9sYo" frameborder="0" allowfullscreen></iframe>
 </div>
 
-As our tour guide showed us how these glorious machines work it then became impossible to think about them with any form of romance or nostalgia. The opposite, in fact. These machines looked less like the tools of a scientific and cultural Enlightenment and more like tools designed to destroy the person operating them. 
+As our guide revealed how these glorious machines work it then became impossible to think about them with any form of romance or nostalgia. The opposite, in fact. These machines looked less like the tools of a scientific and cultural Enlightenment and more like tools designed to destroy the person operating them. 
 
 So for every *Moby Dick* I read and every copy of *Infinite Jest* that I start and don’t quite entirely finish, it’s clear to me now that I owe only a small debt to Gutenberg for this pleasure. Instead, I owe a far greater debt to the thousands of factory workers that silently built the publishing industry as we know it today.
 
