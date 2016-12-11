@@ -40,7 +40,7 @@ So for every *Moby Dick* I read and every copy of *Infinite Jest* that I start a
 ## What I’ve been reading
 [*I Contain Multitudes*](https://www.amazon.com/Contain-Multitudes-Microbes-Within-Grander/dp/0062368591) is not a book about typography, but it *is* a book that’s so effortlessly brilliant that I want to recommend it to everyone I meet regardless of that fact. [Ed Yong’s](http://edyong.flavors.me/#i-contain-multitudes) writing is exquisitely lighthearted and whimsical as he reevaluates the current state of microbiology and its history, persuading us to rethink what we’ve been told about bacteria, viruses and other such forms of microscopic life. The author prompts us to consider a more complex environment instead: the *microbiome* within us. 
 
-This short extract, for instance, which is quite brillaint:
+This short extract, for instance, is quite brillaint:
 
 <figure>
 <blockquote>
