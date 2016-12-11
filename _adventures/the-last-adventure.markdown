@@ -5,13 +5,13 @@ Country: California
 City: San Francisco
 ---
 
-In the SOMA district of San Francisco lies a gray and stumpy building that could easily be mistaken for any other. And in the rain it took me a little while to find it. But after a brief introduction with the tour guide, we began in earnest: printing machines from the Industrial Revolution line the walls and delicately typeset placards dot around them in the gallery.
+In the SOMA district of San Francisco lies a gray and stumpy building that could easily be mistaken for any other. And in the rain it took me a little while to find it. But, after a brief introduction with the tour guide, we began in earnest: printing machines from the Industrial Revolution line the walls and delicately typeset placards dot around them in the gallery.
 
 This, of course, is the American Bookbinder’s Museum.
 
 ![abm.jpg](/uploads/abm.jpg)
 
-As the name implies, the museum is dedicated to the art of printing and bookmaking in America and it’s an undisputed natural wonder. But halfway through the tour our bubbly and excitable guide of this wonderful collection, Anna, posed a question to us: “Have you ever heard about the [*Gutenberg Galaxy*](https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy)?” she asked.
+As the name implies, the museum is dedicated to the art of printing and bookmaking in America and it’s an undisputed natural wonder. Halfway through the tour our bubbly and excitable guide of this wonderful collection, Anna, posed a question to us: “Have you ever heard about the [*Gutenberg Galaxy*](https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy)?” she asked.
 
 [This was the point where I couldn’t take notes fast enough, so I’m bundling a five minute conversation into this small paragraph below...]
 
