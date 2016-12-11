@@ -22,7 +22,7 @@ The idea goes something like this: Thanks to the printing methods that descended
 
 <figure>
 <img src='/uploads/line-machine.jpg'>
-  <figcaption><p>This wonderfully complex machine above simply printed the horizontal and vertical lines that can be found in old ledgers.</p></figcaption>
+  <figcaption><p>The machine above printed the horizontal and vertical lines that can be found in old ledgers.</p></figcaption>
 </figure>
 
 As delightful as that story might’ve been, the smiles begin to fade when I realise that printing has always been a miserable, painful business. And that was a shocking revelation because a book will always be reminiscent to me of time travel and hiding under the covers on a long winter’s night. But for the majority of the people that manufactured these books it was always a living nightmare of grinding metal and hazardous, dreary hours.
