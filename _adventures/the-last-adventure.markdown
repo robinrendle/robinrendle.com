@@ -90,7 +90,7 @@ The text is set in all caps which creates legibility problems, but it’s also d
 
 ## Letter of the Week
 
-Considering I’ve been gushing about Craig and Dan’s work for *Koya Bound* I think it only makes sense to take a closer look at that K of Fedra Serif Display: 
+Moving onto beautiful shapes, and considering I’ve been gushing about Craig and Dan’s work for *Koya Bound*, I think it only makes sense to take a closer look at that K of Fedra Serif Display: 
 
 ![Screenshot 2016-12-11 13.20.16.png](/uploads/Screenshot%202016-12-11%2013.20.16.png)
 
