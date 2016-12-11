@@ -27,7 +27,7 @@ The idea goes something like this: Thanks to the printing methods that descended
 
 As delightful as that story might’ve been, the smiles begin to fade when I realise that printing has always been a miserable, painful business. And that was a shocking revelation because a book will always be reminiscent to me of time travel and hiding under the covers on a long winter’s night. But for the majority of the people that manufactured these books it was always a living nightmare of grinding metal and hazardous, dreary hours.
 
-“And that was someone’s job,” Anna sighed as she stood up from what looked like a complex showing machine. “Eleven hours a day, six days a week, someone would sit there feeding this machine books to be sewn together.” 
+“And that was someone’s job,” Anna sighed as she stood up from what looked like a sewing machine. “Eleven hours a day, six days a week, someone would sit there feeding this machine books to be sewn together.” 
 
 <div class="preserve-aspect">
     <iframe class="preserve-aspect__element" src="https://www.youtube.com/embed/bySyGkt9sYo" frameborder="0" allowfullscreen></iframe>
