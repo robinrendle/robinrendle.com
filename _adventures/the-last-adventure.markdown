@@ -83,7 +83,9 @@ But as I was catching my breath at the top of the hill I noticed a plaque on the
 
 ![coit-zoomed.jpg](/uploads/coit-zoomed.jpg)
 
-Those letters really bug me in a way that’s difficult to explain – I’m not sure what the origin of the typeface is but it’s frustratingly difficult to read and *this* led me to wonder about an important problem when reviewing a design: is this a problem of the type, the typesetting, or both? Set in all caps makes the text difficult to read, as do the low set horizontal bars of E, the H and the small counters in A, R and B.
+Those letters really bug me in a way that’s difficult to explain – I’m not sure what the origin of the typeface is but it’s frustratingly difficult to read and *this* led me to wonder about an important problem when reviewing a design: is this a problem of the type, the typesetting, or both? 
+
+The text is set in all caps which creates legibility problems, but it’s also difficult to read thanks to the low set horizontal bars of the E and H as well as the small counters in the A, R and B letters.
 
 
 ## Letter of the Week
