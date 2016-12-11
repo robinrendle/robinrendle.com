@@ -73,9 +73,11 @@ So I’m not sure how this is useful, and what it means for typography specifica
 
 ***
 
+Last weekend I hiked up to Coit Tower, a 200 foot structure in the northeastern tip of the San Francisco peninsula. It was a beautiful day for such a hike, the weather was crisp and there wasn’t a cloud in the sky.
+
 ![coit.jpg](/uploads/coit.jpg)
 
-Last weekend I hiked up to Coit Tower, a 200 foot structure in the northeastern tip of the San Francisco peninsula. On the entrance before you enter is a plaque that describes its origins:
+But as I was catching my breath at the top of the hill I noticed a plaque on the entrance that describes its origins and, of course, I couldn’t help but notice the letters:
 
 ![Bitmap.jpg](/uploads/Bitmap.jpg)
 
@@ -93,3 +95,9 @@ Considering I’ve been gushing about Craig and Dan’s work for *Koya Bound* I 
 The Fedra superfamily is designed by [Typotheque](https://www.typotheque.com/fonts/fedra_serif_display/) and consists of a huge variety of widths to mess around with. I particularly enjoy the condensed versions, especially when set in a European language:
 
 ![Screenshot 2016-12-11 13.25.21.png](/uploads/Screenshot%202016-12-11%2013.25.21.png)
+
+
+
+
+<p>Thanks for reading!<br>
+✌️ Robin </p>
