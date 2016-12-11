@@ -15,7 +15,7 @@ As the name implies, the museum is dedicated to the art of printing and bookmaki
 
 Halfway through the tour our bubbly and excitable guide of this wonderful collection, Anna, posed a question to us: “Have you ever heard about the [*Gutenberg Galaxy*](https://en.wikipedia.org/wiki/The_Gutenberg_Galaxy)?” she asked. [This was the point where I couldn’t take notes fast enough, so I’m bundling a five minute conversation into this small paragraph below...]
 
-The idea goes something like this: Thanks to the printing methods that descended from Johannes Gutenberg, the 15th century inventor of printing, it was discovered that a large set of the population were either short or far-sighted. This spurred the development of glass and, more specifically, lenses. But depending on the size or shape of the lens, scientists were able to zoom into the tiniest pinprick of a smudge to reveal a biological zoo in microbial form or they could render those flickers of light above into focus and make the infinite shape of the galaxy known.
+The idea goes something like this: Thanks to the printing methods that descended from Johannes Gutenberg, the 15th century inventor of printing, it was discovered that a large set of the population were either short or far-sighted. This spurred the development of glass and, more specifically, lenses. But depending on the size or shape of the lens, scientists were able to zoom into the tiniest pinprick of a smudge to reveal a biological zoo in microbial form or they could focus on those flickers of light in the sky and make the infinite shape of the galaxy known.
 
 “So!” Anna excitedly gasped. “Not only do we owe Gutenberg thanks for this delightful ability to read a book, but also for the ability to read the stars.”
 
