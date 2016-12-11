@@ -5,7 +5,7 @@ Country: California
 City: San Francisco
 ---
 
-In the SOMA district of San Francisco lies a gray and stumpy building that could easily be mistaken for any other. And in the rain it took me a little while to find it. But, after a brief introduction with the tour guide, we began in earnest: printing machines from the Industrial Revolution line the walls and delicately typeset placards dot around them in the gallery.
+In the <span class='caps'>SOMA</span> district of San Francisco lies a gray and stumpy building that could easily be mistaken for any other. And in the rain it took me a little while to find it. But, after a brief introduction with the tour guide, we began in earnest: printing machines from the Industrial Revolution line the walls and delicately typeset placards dot around them in the gallery.
 
 This, of course, is the American Bookbinder’s Museum.
 
