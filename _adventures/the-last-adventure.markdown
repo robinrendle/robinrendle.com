@@ -77,7 +77,7 @@ Last weekend I hiked up to Coit Tower, a 200 foot structure in the northeastern 
 
 ![coit.jpg](/uploads/coit.jpg)
 
-But as I was catching my breath at the top of the hill I noticed a plaque on the entrance that describes its origins and so I couldn’t help but notice the letters:
+But as I was catching my breath at the top of the hill I noticed a plaque on the entrance that describes the tower’s origins, so I couldn’t help but notice the geometric sans that the plaque had been set in:
 
 ![Bitmap.jpg](/uploads/Bitmap.jpg)
 
