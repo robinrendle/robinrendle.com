@@ -10,7 +10,7 @@ Extract:
 
 My father has returned home from a fishing trip and has begun unpacking his ghastly spoils for us in the kitchen. He stops what he’s doing when he notices that the first monster from the black bag has immediately captivated our attention, and for good reason: I’ve just turned four and my younger brother, that inquisitive young chap with the sippy cup, is no more than two years old.
 
-But perhaps unlike any other picture of my brother and me, this is the one that shows how we view the world from two very separate vantage points. And since my family rarely took photographs when I was young, I now happen to see every picture as a little time-travelling jewel.
+But perhaps unlike any other picture of my brother and me, this is the one that shows how we view the world from two very separate vantage points. And since my family rarely took photographs when I was young, I now happen to see every picture of us as a little time-travelling jewel.
 
 Let me explain.
 
