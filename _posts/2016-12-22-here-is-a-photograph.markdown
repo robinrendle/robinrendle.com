@@ -1,6 +1,8 @@
 ---
 title: Here is a photograph
 date: 2016-12-22 11:49:00 -08:00
+Country: United Kingdom
+City: Plymouth
 ---
 
 For some reason we have few family photographs left. It seems that our family simply didn’t take as many as my friends’ did, so the one’s that have survived of my brother and me as young children are little time travelling jewels. This one in particular is a favourite of mine:
