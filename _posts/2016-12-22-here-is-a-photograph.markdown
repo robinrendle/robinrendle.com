@@ -8,7 +8,7 @@ Extract:
 
 ![15659041_1372365542795600_2067026029_o.jpg](/uploads/15659041_1372365542795600_2067026029_o.jpg)
 
-That’s me on the far right, my brother with the sippy cup, and my Dad with the fish. He’s just returned home from a fishing trip and has begun unpacking when he notices that he’s captivated our attention.
+That’s me on the far right, my brother with the sippy cup, and my Dad with the fish on the left. He’s just returned home from a fishing trip and had begun unpacking when he noticed that our attention was suddenly all his.
 
 But that’s not what really interests me about this picture.
 
