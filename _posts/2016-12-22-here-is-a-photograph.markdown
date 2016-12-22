@@ -3,9 +3,10 @@ title: Here is a photograph
 date: 2016-12-22 11:49:00 -08:00
 Country: United Kingdom
 City: Plymouth
+Extract: 
 ---
 
-Only a few family photographs survive. It seems that we simply didn’t take as many photographs as my friends’ did, so the one’s that have survived are little time-travelling jewels. This one in particular is a favourite of mine:
+Since my family rarely took photographs when I was young, I now happen to see every picture as a little time-travelling jewel. Here’s an example of one that I particularly adore:
 
 ![15659041_1372365542795600_2067026029_o.jpg](/uploads/15659041_1372365542795600_2067026029_o.jpg)
 
