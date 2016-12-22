@@ -5,9 +5,9 @@ Country: United Kingdom
 City: Plymouth
 ---
 
-For some reason we have few family photographs left. It seems that our family simply didn’t take as many as my friends’ did, so the one’s that have survived of my brother and me as young children are little time travelling jewels. This one in particular is a favourite of mine:
+Only a few family photographs survive. It seems that we simply didn’t take as many photographs as my friends’ did, so the one’s that have survived are little time-travelling jewels. This one in particular is a favourite of mine:
 
-> img
+![15659041_1372365542795600_2067026029_o.jpg](/uploads/15659041_1372365542795600_2067026029_o.jpg)
 
 My father has returned home from a fishing trip and is unpacking his ghastly spoils for us in the kitchen. The first monster he reveals from the black bag has immediately captivated our attention, and for good reason: I’ve just turned four and my younger brother, that inquisitive young chap with the sippy cup, is no more than two years old.
 
