@@ -17,5 +17,3 @@ Let me explain.
 I can tell from a quick glance here that my brother is thinking about the practical implications of fishing. How did they catch the fish? What was the boat they used? For how long did they travel on said boat? What’s the difference between a fishing boat and a regular old boat? How many fish did they catch? 
 
 On the other hand, I’m standing there wondering what the name of the fish might’ve been – not the name of the species, mind you – I’m obsessed with what the first and last name of this creature was.
-
-I love these differences between us and I can’t help but think this image captures our relationship so well: it shows his painstaking attention to how the actual world works alongside my alternative, Utopian and dream-like version.
