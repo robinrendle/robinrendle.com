@@ -8,12 +8,10 @@ Extract:
 
 ![15659041_1372365542795600_2067026029_o.jpg](/uploads/15659041_1372365542795600_2067026029_o.jpg)
 
-My father has returned home from a fishing trip and has begun unpacking his ghastly spoils for us in the kitchen. He stops what he’s doing when he notices that the first monster from the black bag has immediately captivated our attention, and for good reason: I’ve just turned four and my younger brother, that inquisitive young chap with the sippy cup, is no more than two years old.
+That’s me on the far right, my brother with the sippy cup, and my Dad with the fish. He’s just returned home from a fishing trip and has begun unpacking when he notices that he’s captivated our attention.
 
-But perhaps unlike any other picture of my brother and me, this is the one that shows how we view the world from two very separate vantage points. And since my family rarely took photographs when I was young, I now happen to see every picture of us as a little time-travelling jewel.
+But that’s not what really interests me about this picture.
 
-Let me explain.
+Of all the photographs my family has taken over the years, this is really the one that shows how my brother and I view the world from two very separate vantage points. From a quick glance I can tell that my brother here is thinking about the practical implications of fishing. How did they catch the fish? What did the boat look like? How many fish did they catch and what do they taste like? 
 
-I can tell from a quick glance here that my brother is thinking about the practical implications of fishing. How did they catch the fish? What was the boat they used? For how long did they travel on said boat? What’s the difference between a fishing boat and a regular old boat? How many fish did they catch? 
-
-On the other hand, I’m standing there wondering what the name of the fish might’ve been – not the name of the species, mind you – I’m obsessed with what the first and last name of this creature was.
+On the other hand, I’m standing beside him wondering what the name of the fish might’ve been – not the name of the species, mind you – I’m obsessed with what the first and last name of this creature was.
