@@ -17,6 +17,7 @@ var gulp = require('gulp'),
             src:   "_static/sass/screen.scss",
             dest:  "css",
             typography: "_static/sass/new-web-typography.scss",
+            futures: "_static/sass/futures-of-typography.scss",
             lexicon: "_static/sass/visual-lexicon.scss",
             watch: ["_static/sass/*.*", "_static/sass/**/*.*"],
         },
@@ -127,7 +128,7 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'))
         .pipe(gulp.dest('_site/css'));
-    gulp.src('_static/sass/adventures.scss')
+    gulp.src(paths.styles.futures)
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify,
@@ -157,16 +158,6 @@ gulp.task('sass', function () {
 //         .pipe(gulp.dest('js'))
 //         .pipe(reload({stream: true}))
 // });
-
-gulp.task('adventures', function(){
-    gulp.src([
-        '_static/js/lib/ff-observer.js'
-    ])
-        .pipe(uglify())
-        .pipe(concat('min.ff-observer.js'))
-        .pipe(gulp.dest('js'))
-        .pipe(reload({stream: true}))
-});
 
 
 gulp.task('build', [''])

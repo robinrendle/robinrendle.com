@@ -1,0 +1,408 @@
+// ==========================================================================
+// STYLES FOR THE NEW WEB TYPOGRAPHY ESSAY
+// ==========================================================================
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px, gigantic: 1400px) !default;
+$max-width: 750px;
+$figure-width: 1000px;
+$theme: #e95555;
+$font-stack: Georgia, serif;
+$font-stack--sans: Helvetica,
+sans-serif;
+$c-primary: darken($theme, 20); // because of old links code :-(
+@import "utilities/reset";
+
+
+// ==========================================================================
+// TYPE
+// ==========================================================================
+// Default typesetting, font-height and font-weight settings.
+
+@mixin typeface($font) {
+    $fallback: Georgia, serif;
+    .fonts-loaded & {
+        font-weight: normal;
+        font-stretch: normal;
+    }
+
+    @if $font == "Regular" {
+        font-family: $fallback;
+        font-weight: normal;
+        .fonts-loaded & {
+            font-family: "Fern", $fallback;
+        }
+    }
+
+    @if $font == "Regular italic" {
+        font-style: italic;
+        font-family: $fallback;
+        .fonts-loaded & {
+            font-style: normal;
+            font-family: "Fern italic", $fallback;
+        }
+    }
+
+    @if $font == "Title" {
+        font-family: $fallback;
+        .fonts-loaded & {
+            font-family: "Gimlet condensed", $fallback;
+        }
+    }
+}
+
+
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+@import "utilities/underline";
+@import "base/base-spacing";
+@import "../../fonts/fern.scss";
+@import "../../fonts/gimlet-condensed.scss";
+
+// OPTIONS
+// ==========================================================================
+* {
+    box-sizing: border-box;
+}
+
+// RESET
+// ==========================================================================
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  @include typeface("Regular");
+  font: 110%/1.55 $font-stack;
+  color: #333;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
+  @include media(">medium") {
+      font-size: 120%;
+  }
+  @include media(">large") {
+      font-size: 125%;
+  }
+}
+
+.wrapper {
+    p,
+    ol,
+    ul,
+    blockquote,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    pre {
+        max-width: $max-width;
+        margin-left: auto;
+        margin-right: auto; // center align text
+        padding: 0 15px;
+        @include media(">medium") {
+            padding: 0 5%;
+        }
+        @include media(">large") {
+            padding: 0;
+        }
+    }
+}
+
+em {
+  @include typeface("Regular italic");
+}
+
+p {
+  margin-bottom: 1.5em;
+  hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @include typeface('Title');
+  font-weight: normal;
+}
+
+a {
+  color: $theme;
+  outline: none;
+}
+
+
+// Meta info styles
+.meta {
+    opacity: .8;
+}
+
+.meta__item {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .9);
+    display: inline-block;
+    @include media(">large") {
+        // margin-bottom: 10px;
+        font-size: 16px;
+    }
+    &:before {
+        content: "•";
+        color: rgba(darken($theme,20), .7);
+        display: inline-block;
+    }
+    &:first-of-type:before {
+        content: none;
+    }
+}
+
+
+// Title area
+.title {
+  @include clearfix();
+  border-top: 5px solid #222;
+  color: white;
+  background-color: $theme;
+
+  @include media(">large") {
+    height: 90vh;
+    display: flex;
+    min-height: 600px;
+  }
+}
+
+.title__img {
+  background-color: #222;
+
+  @include media(">large") {
+    display: flex;
+    width: 25%;
+    margin-right: 40px;
+  }
+  img {
+    width: 200px;
+    margin: 0;
+
+    @include media(">large"){
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}
+
+.title__text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    @include typeface("Title");
+    line-height: 1.1;
+    margin: 0;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 70px;
+  }
+}
+
+.dropcap {
+  @include typeface("Title");
+  color: $theme;
+  font-feature-settings: normal;
+  font-size: 62px;
+  line-height: 1;
+  padding-right: 10px;
+  float: left;
+}
+
+
+.figure {
+  max-width: $figure-width;
+  padding: 20px;
+  margin: 0 auto 20px;
+}
+
+.intro {
+  max-width: 750px;
+  hyphens: none;
+}
+
+p {
+  sup {
+    padding-left: 2px;
+    a {
+      background: none !important;
+      text-decoration: none !important;
+      border: none !important;
+      transition: color .3s ease;
+      color: $theme !important;
+      &:after {
+          content: none;
+      }
+      &:link,
+      &:visited {
+          color: $theme;
+      }
+      &:hover,
+      &:focus {
+          color: darken($theme, 20);
+      }
+    }
+  }
+}
+
+.flex--md {
+  @include media('>medium'){
+    display: flex;
+  }
+}
+
+.press-illo {
+  padding: 0 2.3%;
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 10px;
+
+  img {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
+}
+
+.press-text {
+  padding-left: 2.3%;
+  margin-bottom: 0;
+  margin-top: 40px;
+
+  &:last-of-type {
+    padding-right: 2.3%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0 !important; // overwrites grid settings
+  }
+
+  h5 {
+    @include typeface('Regular italic');
+    color: black;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.4;
+    color: #555;
+  }
+}
+
+
+blockquote {
+  position: relative;
+  margin: 0 auto;
+  &:before {
+      @include typeface("Title");
+      content: "“";
+      position: absolute;
+      font-style: normal !important;
+      color: #ddd;
+      font-size: 300%;
+      top: -15px;
+      left: -10px;
+      @include media(">medium") {
+          left: 15px;
+      }
+      @include media(">large") {
+          top: -18px;
+          left: -8px;
+      }
+  }
+
+
+  p {
+    @include typeface('Regular italic');
+    color: #888;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  p, & + figcaption p {
+    padding-left: 10px !important;
+
+    @include media('>large'){
+      padding-left: 20px !important;
+    }
+  }
+}
+
+figcaption p {
+  font-size: 15px;
+}
+
+.footnotes {
+  font-size: 100%;
+}
+
+.footnotes {
+  margin-top: 0px;
+  @include media("<large") {
+      padding-left: 20px;
+  }
+  .footnote {
+      font-size: 80%;
+      text-decoration: none;
+      border: none;
+      outline: none;
+  }
+  hr {
+      display: none;
+  }
+  ol {
+    li {
+      column-break: avoid;
+      font-size: 90%;
+      margin-bottom: 0;
+      p {
+          padding-left: 0;
+      }
+      em {
+          font-style: normal;
+      }
+    }
+  }
+}
+
+
+// Colors
+.c-dark {
+  color: #000;
+}
+
+.bg-pale {
+  background-color: #fef3f3;
+}
+
+.type-normal {
+  @include typeface('Regular');
+  font-style: normal !important;
+}
+
+.figure-books {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  padding: 60px 20px 50px;
+  svg {
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@import "objects/cell";
