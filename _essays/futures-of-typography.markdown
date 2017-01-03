@@ -1,6 +1,7 @@
 ---
 title: The Futures of Typography
 date: 2017-01-02 12:25:00 -08:00
+published: false
 City: San Francisco
 Country: California
 extract: 'What is the future of web typography? '
