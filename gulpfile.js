@@ -41,7 +41,7 @@ var gulp = require('gulp'),
             dest: "js"
         },
         watch: [
-            "*.html",
+            "_layouts/*.html",
             "_includes/*.html",
         ],
     };

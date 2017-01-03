@@ -49,6 +49,12 @@
         })();
     </script>
 
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
+
 
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="/css/futures-of-typography.css" />
@@ -73,7 +79,7 @@
     <link rel="preconnect" href="https://fonts.typonine.com/" crossorigin>
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="shortcut icon" href="/images/essays/futures/favicon.png">
 
     <!-- Prefetch -->
     <link rel="preconnect" href="https://ajax.googleapis.com">
