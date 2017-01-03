@@ -1,6 +1,6 @@
 ---
 title: The Futures of Typography
-date: 2016-12-28 12:25:00 -08:00
+date: 2017-01-02 12:25:00 -08:00
 City: San Francisco
 Country: California
 extract: 'What is the future of web typography? '
@@ -230,7 +230,7 @@ What about those questions that Aldus and his Aldine Press asked of us? What abo
 
 Subsequently, if we keep in mind those two readers that Indra mentioned then we ensure that we don’t become too cynical or dogmatic[^24] about crazy new features that might impact typesetting on the web. In the past, I’ve seen many experienced typographers dismiss new features that browsers afford them, only for those technologies to become a vital part of what typography now means on the web – there’s a constant risk and danger that we’ll start to assume that typography will always work in a familiar way. Challenging what we know about typography is the first step to contributing to its future.
 
-And that’s the most beautiful and interesting part about the future of typography – that there isn’t one future, but many. We can synthesize conflicting technologies, and previous typesetting methods, or we can listen to the fictional arguments between two elderly printers and imagine what might have occurred if their ideas and skills could only be combined.
+That’s the most beautiful and interesting part about the future of typography – that there isn’t one future, but many. We can synthesize conflicting technologies, and previous typesetting methods, or we can listen to the fictional arguments between two ghostly printers and imagine what might have occurred if their ideas and skills could only be combined.
 
  There are infinite *futures* of typography, and the opportunities only expand when new browsers, new features, new devices become available to us. All that’s required is a little patience and a healthy dose of curiosity.
 
@@ -287,6 +287,7 @@ And that’s the most beautiful and interesting part about the future of typogra
                     <li><a href="http://instagram.com/chrisrendle">Chris Rendle</a></li>
                     <li><a href="http://www.bramstein.com/">Bram Stein</a></li>
                     <li><a href="http://chloeweil.com/">Chloe Weil</a></li>
+                    <li><a href="http://tanmade.com/">Allen Tan</a></li>
                     <li><a href="http://paulo.is/">Paulo Pereira</a></li>
                     <li><a href="https://jakegiltsoff.co.uk/">Jake Giltsoff</a></li>
                     <li><a href="http://nicksherman.com/">Nick Sherman</a></li>
