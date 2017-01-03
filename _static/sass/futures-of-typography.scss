@@ -76,12 +76,17 @@ html {
     margin: 0;
 }
 
+html {
+  border-bottom: 5px solid #222222;
+}
+
 body {
   @include typeface("Regular");
   font: 110%/1.55 $font-stack;
+  border-bottom: 35px solid $theme;
   color: #333;
+  padding-bottom: 100px;
   font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
-  border-bottom: 5px solid #222222;
   @include media(">medium") {
       font-size: 120%;
   }
@@ -141,11 +146,12 @@ a {
     background-repeat: repeat-x;
     background-size: 2px 3px;
     background-position: 0 19px;
-    outline: none;
+    outline: 0 !important;
     transition: background .3s ease;
     &:hover,
     &:focus {
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, $theme 50%);
+      outline: 0 !important;
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, $theme 50%);
     }
 }
 
@@ -790,6 +796,11 @@ a[rev="footnote"] {
 .underline {
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     margin-bottom: 10px;
+}
+
+.footnotes-title {
+  font-size: 30px;
+  margin-top: 70px;
 }
 
 @import "objects/cell";
