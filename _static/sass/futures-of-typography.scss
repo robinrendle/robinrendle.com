@@ -198,6 +198,7 @@ a {
   background-color: #222;
 
   @include media(">large") {
+    background-repeat: no-repeat;
     display: flex;
     width: 25%;
     margin-right: 40px;
@@ -209,14 +210,15 @@ a {
     display: block;
     object-fit: cover;
     width: 100%;
-    object-position: 0 -200px;
+    object-position: 0 -230px;
 
     @include media(">small"){
-      object-position: 0 -250px;
+      object-position: 0 -400px;
     }
 
     @include media(">medium"){
-      object-position: 0 -450px;
+      object-position: 0 -550px;
+      height: 400px;
     }
 
     @include media(">large"){
@@ -665,7 +667,7 @@ figcaption p,
 
 
 .about__wrapper {
-    max-width: 900px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 3px;
     @include media(">large") {
@@ -801,6 +803,16 @@ a[rev="footnote"] {
 .footnotes-title {
   font-size: 30px;
   margin-top: 70px;
+}
+
+.opacity-7 {
+  opacity: .7;
+}
+
+.cite-wide {
+  font-size: 14px;
+  padding: 10px;
+  @include typeface("Regular italic");
 }
 
 @import "objects/cell";
