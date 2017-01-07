@@ -39,7 +39,7 @@ $c-primary: darken($theme, 20); // because of old links code :-(
         font-style: italic;
         font-family: $fallback;
         .fonts-loaded & {
-            font-style: normal;
+            font-style: italic;
             font-family: "Fern italic", $fallback;
         }
     }
@@ -191,6 +191,21 @@ a {
     height: 90vh;
     display: flex;
     min-height: 600px;
+    padding-right: 20px;
+  }
+}
+
+.title__text-wrapper {
+  padding: 0;
+  @include media(">medium"){
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 0 5%;
+  }
+
+  @include media(">large"){
+    margin: 0;
+    padding: 0;
   }
 }
 
@@ -200,7 +215,7 @@ a {
   @include media(">large") {
     background-repeat: no-repeat;
     display: flex;
-    width: 25%;
+    width: 30%;
     margin-right: 40px;
   }
   img {
@@ -210,20 +225,16 @@ a {
     display: block;
     object-fit: cover;
     width: 100%;
-    object-position: 0 -230px;
-
-    @include media(">small"){
-      object-position: 0 -400px;
-    }
 
     @include media(">medium"){
-      object-position: 0 -550px;
+      width: 100%;
+      object-fit: cover;
       height: 400px;
     }
 
     @include media(">large"){
       height: auto;
-      object-position: 0 0;
+      object-position: 100% 0;
     }
   }
 }
@@ -251,16 +262,20 @@ a {
     }
 
     @include media(">medium"){
-      font-size: 70px;
+      font-size: 60px;
       margin-bottom: 40px;
+    }
+
+    @include media(">large"){
+      font-size: 70px;
     }
   }
 }
 
 h2 {
+  margin-top: 60px;
   @include media(">large") {
     font-size: 40px;
-    margin-top: 40px;
   }
 }
 
@@ -455,13 +470,9 @@ figcaption p,
       p {
           padding-left: 0;
       }
-      em {
-          font-style: normal;
-      }
     }
   }
 }
-
 
 // Colors
 .c-dark {
@@ -510,7 +521,8 @@ figcaption p,
     margin-left: 20px;
   }
 
-  img {
+  img, svg {
+    display: block;
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 20px;

@@ -3,7 +3,7 @@ title: The Futures of Typography
 date: 2017-01-02 12:25:00 -08:00
 City: San Francisco
 Country: California
-extract: 'What is the future of web typography? '
+extract: What are the skills we need to contribute to the future of typography? And what do two ghostly figures from the 15th century have to do with that future?
 layout: futures-of-typography
 ---
 
@@ -17,9 +17,9 @@ Although it was not just any book, it was a Bible; considerable in weight and br
   <img src='/images/essays/futures/bible-text.jpg'/>
 </figure>
 
-However, Gutenberg’s Bible is wildly different to the books that we read today and if we take a closer look at the texts themselves then we’ll find a more complex history at work. First, many of the editions of his Bible were printed on vellum[^3] (which is a material made from calf-skin). Secondly, the book was enormous and would require serious exercise[^4] to simply move the tome from one room to another. It’s insides are also strange – for example, when a copy is wrenched open, two monolithic columns of Latin text can be found stretching across each page.
+However, Gutenberg’s Bible is wildly different to the books that we read today and if we take a closer look at the texts themselves then we’ll find a more complex history at work. First, many of the editions of his Bible were printed on vellum[^3] (which is a material made from calf-skin). Secondly, the book was enormous and would require serious exercise[^4] to simply move the tome from one room to another. Its insides are also strange – for example, when a copy is wrenched open, two monolithic columns of Latin text can be found stretching across each page.
 
-How did Gutenberg and his printshop create these peculiar letterforms with metal? Well, from court documents in the years leading up to the printing of this 42-line Bible there’s mention of a secret machine which Gutenberg had destroyed before his debtors could take hold of it. Printing in the 15th century was a clandestine activity and if anyone discovered Gutenberg’s process then he feared he’d lose everything. This might also explain why we have such a fragmented history[^5] about Johannes and his workshop.
+How did Gutenberg and his printshop create these peculiar letterforms with metal? Well, from court documents in the years leading up to the printing of this 42-line Bible there’s mention of a secret machine which Gutenberg had destroyed before his debtors could take hold of it. Printing in the 15th century was a clandestine activity and if anyone discovered Gutenberg’s process then he feared he’d lose everything. This might also explain why we have such a fragmented history[^5] of Johannes and his workshop.
 
 Regardless of this startling lack of evidence, we know that Gutenberg combined preexisting technologies alongside creating his own tools.[^6] There were three crucial parts to his workshop’s cloak and dagger process: the counterpunch and matrix, the type mould and the printing press.[^7]
 
@@ -58,11 +58,12 @@ It seems that Gutenberg saw the future of typography as replicating the same for
 About fifty years later, at the turn of the 16th century, Gutenberg’s covert method of printing had leaked and spread all across Europe – by the time that Manutius was an adult almost twenty million books had been printed. Much like Gutenberg, he had grown up in a wealthy household where he had a formal education consisting of Ancient Greek,[^9] his favorite language, and Latin. This love of literature and books led to a scholarly life where he comfortably taught princes, but at some point Aldus abandoned his employment and moved to the cultural and commercial hub of Venice where he would jump head first into the ruthless trade of printing.
 
 <figure class='aldine-book'>
-  <img class='center' src='/images/essays/futures/aldine-aristotle.jpg'/>
+  <img class='center opacity-7' src='/images/essays/futures/aldine-press.jpg'/>
   <figcaption class="">
-    <p>The Aldine Press made many Greek typefaces with the proper diacritics, as shown above in the first volume of <em>Aristotle</em>.</p>
+    <p>The insignia of the Aldine Press came from the ancient Roman adage: <em>“festina lente”</em>, or <em>“make haste, slowly”</em>.</p>
   </figcaption>
 </figure>
+
 
 Manutius had moved to Venice and started his own printshop because his admiration for literature was unquestionable. He believed that books were more than a commodity or an art project – they could also archive and preserve information for the future. In fact, the collector Scott Clemons[^10] argued that Aldus Manutius and his Aldine Press were a sort of modern day [archive.org](https://archive.org/):
 
@@ -112,32 +113,34 @@ The Aldine Press then began to favor a new format for the book, the Octavo, whic
 </svg>
 </figure>
 
-I think Aldus recognized the potential of bookmaking and the responsibility of the printshop because it’s clear that his team challenged the format of the book and in the process they questioned what a book could really be. Pushing back against the traditions of the past they saw that the future of the book and the future of typography were entirely separate from Gutenberg’s idea of the perfectly typeset object.
+I think Aldus recognized the potential of bookmaking since it’s clear that his team challenged the format of the book and in the process they questioned what a book could really be. They certainly appreciated the beauty of the medium too, but they were far more willing to compromise its aesthetics for the sake of mobility and keeping the printshop running. In other words, the aim of typography for Aldus and the Aldine Press was to preserve culture and knowledge, to contribute to the growth of literature and ultimately build a library without walls.[^12]
 
-So whenever I think of Johannes Gutenberg and Aldus Manutius I think of them together, sat at a table, with their books open before them. They’re criticizing each other’s work. From one end of the table Aldus silently judges the weight of Gutenberg’s Bible whilst Johannes smirks and flips through an Aldine octavo at the other. In this fictional meeting there’s an argument brewing between the two of them: what is the future of book design and what are the goals of typography? Beauty, or accessibility?
+## Books, Tables and Time Travel
+Whenever I think of Johannes Gutenberg and Aldus Manutius I think of them together, sat at a table, with their books open before them. They’re criticizing each other’s work. From one end of the table Aldus silently judges the weight of Gutenberg’s Bible whilst Johannes smirks and flips through an Aldine octavo at the other. In this fictional meeting there’s an argument brewing between the two of them: what is the future of book design and what are the goals of typography? Beauty, or accessibility?
 
 <figure class='aldine-book'>
-  <img class='center aldine-press' src='/images/essays/futures/aldine-press.jpg'/>
+  <img class='center' src='/images/essays/futures/aldine-aristotle.jpg'/>
   <figcaption class="">
-    <p>The insignia of the Aldine Press came from the ancient Roman adage: “<em>festina lente</em>”, or “<em>make haste, slowly</em>”.</p>
+    <p>The Aldine Press made many Greek typefaces with the proper diacritics, as shown above in the first volume of <em>Aristotle</em>.</p>
   </figcaption>
 </figure>
 
-Aldus saw typography as a messy sport. It appears that he appreciated the beauty of the medium but he was far more willing to compromise its aesthetics for the sake of mobility and keeping his printshop running. In other words, the future of typography for Aldus was very different from Gutenberg’s because the Aldine Press set type to preserve culture and knowledge, they wanted to contribute to the growth of literature and build a library without walls.[^12]
+But let’s imagine another table for a moment.
 
-All of this begs the question: what is _our_ future of typography? What does the web have in store for us? It’s easy to think of the latest trends in virtual and augmented reality, or drone typography, or to discuss how flat design has conquered the world. What I’m really interested in though are the technologies and ideas that are likely to stick around for the long term. Which tools should we be looking out for that will change how we set type on the web and how do we keep those Aldine principles of typography in mind?
+On it we’ll place all of the devices and browsers available today until it’s somehow possible for us to view every website imaginable. Considering this thought breaks the laws of both space and time, we’ll go ahead and break them again: at the other end of this impossibly long table we’ll place all the networked devices that might be available fifty years in the future, too. How much has changed? What do we see? What sort of questions would we like to ask of a time-traveling typographer?
 
-However, before we attempt to answer these questions we first have to acknowledge a rather serious problem with the web.
+Well, here’s what I would ask: what is the future of typography? And what does the web have in store for us? It’s easy to think of the latest trends in virtual and augmented reality, or drone typography, or to discuss how flat design might conquer the world. What I’m really interested in though are the technologies and ideas that are likely to stick around for the long term. Which tools should we be looking out for that will change how we set type on the web and how do we keep those Aldine principles of typography in mind?
 
-## The web hates beautiful typography
-Justification and hyphenation, the ability to handle orphans and widows, complex grid systems and simple baseline grids; to bring these attributes of print onto the web is difficult work and we need a lot of JavaScript to parse the text and clean it up. They’re typographic embellishments that printers have enjoyed for centuries, so how can the web not have caught up yet?[^13] What’s taking so long? And why does the web hate beautiful typography?
+However, before we attempt to answer these questions we first have to acknowledge a rather serious problem with the web: *the web hates beautiful typography.*
+
+Justification and the ability to handle orphans and widows, complex grid systems and simple baseline grids; to bring these attributes of print onto the web is difficult work and we need a lot of JavaScript to parse the text and clean it up. They’re typographic embellishments that printers have enjoyed for centuries, so how can the web not have caught up yet?[^13] What’s taking so long? And why does the web hate beautiful typography?
 
 There are some good reasons for these frustrations and limits, but I think that obsessing over them is leaning too far much into the Gutenberg spectrum of typography for my liking. Some of these features will land in browsers, and it requires a lot of patience to wait for them, but perfect control over web typography (and making interfaces that are *pixel-perfect*) is an adventure that will only lead to heartbreak and madness[^14]. In fact, fighting the limits of web typography with a thousand lines of JavaScript used to be heroic, or so I believed. But now I think that we ought to make compromises in our designs because as typographers our job is not to make a beautiful interface with the most elegant typesetting imaginable; I think that before we can make typography beautiful we must first make it *resilient*.[^15]
 
 Primarily this means ensuring that the network doesn’t get in between our text and the reader.
 
 <div class='cell-b40 cell-t20'>
-  <figure class='cell-r40 cell-t40 cell-t0--md cell-b40 cell-b0--md cell-l40 bg-pale'>
+  <figure class='cell-r40 cell-t40 cell-t0--md cell-b60 cell-b0--md cell-l40 bg-pale'>
   <svg  viewBox="0 0 1000 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="Artboard-3">
@@ -162,9 +165,23 @@ Here’s one example: a core problem with a website is that it’s entirely depe
 
 Thankfully, a new API called ServiceWorker is here to help tackle this problem. It gives designers the ability to cache parts of a webpage, like images, fonts, and the text, so that when a reader comes back they can pickup where they stopped reading even if they’re offline. They’ll still need a network the first time but the reading experience is ever so slightly more resilient for the future[^16]. In fact, this very website uses ServiceWorker and if you go into Airplane mode or switch off the network and then refresh this page you should still be able to see the text as if you were online, so long as your browser supports it.[^17]
 
+<figure class='aldine-book'>
+  <svg viewBox="0 0 492 333" class="center">
+      <g id="Page-1" stroke="none" fill-rule="evenodd">
+          <g id="Artboard" transform="translate(-54.000000, -83.000000)"  fill="#f15757">
+              <path d="M208.206183,260.895817 L137.510461,260.895817 L173.086372,129.082503 L208.206183,260.895817 Z M151.649605,411.865391 L151.649605,394.533536 L101.022346,395.901841 L132.949446,277.77157 L212.311095,277.77157 L243.782094,395.901841 L196.803647,394.533536 L196.803647,411.865391 L332.721873,411.865391 L332.721873,394.533536 L303.531382,395.445739 L218.696515,83.9284612 L167.613155,83.9284612 L81.8660859,395.901841 L54.5,394.533536 L54.5,411.865391 L151.649605,411.865391 Z M544.520699,411.865391 L544.520699,396.357942 C526.276642,401.375058 516.24241,397.270145 516.24241,379.026088 L516.24241,243.563962 C516.24241,201.146529 497.542252,178.341458 445.090587,178.341458 C388.990111,178.341458 362.536228,201.146529 362.992329,259.527512 L410.426878,259.527512 C409.970777,205.707544 416.356197,193.848906 438.705167,193.848906 C458.317528,193.848906 465.615151,205.707544 465.615151,236.266339 L465.615151,248.581078 C465.615151,323.837814 349.309286,271.38615 349.309286,358.957625 C349.309286,402.743362 378.043676,415.058101 404.953661,415.058101 C434.600254,415.058101 454.212616,404.111666 471.088369,386.779812 C478.842093,415.970304 509.400889,419.619115 544.520699,411.865391 Z M430.03924,394.077435 C410.88298,394.077435 400.392647,383.131001 400.392647,352.116103 C400.392647,303.31325 441.441776,315.171887 466.071253,288.718004 L466.071253,346.642886 C466.071253,379.482189 451.476007,394.077435 430.03924,394.077435 Z" id="Aa"></path>
+          </g>
+      </g>
+  </svg>
+  <figcaption>
+    <p>The future of typography is not to be found in new letters alone, but a series of tools, techniques and options combined together.</p>
+  </figcaption>
+</figure>
+
+
 Building a resilient, future-proof typographic system for the web encourages us to prioritize weaknesses[^18] that can be found in the network. But our future typography will also require us to rethink how we view the act of reading itself – reading is a complicated business and people scan the text in a variety of different circumstances, no longer do we expect to be sitting perfectly still in a dark and gloomy monastery. So how do we know if a particular technology, like a ServiceWorker, is really improving the user experience if we don’t know much about the act of reading itself?
 
-Indra Kupferschmid[^19] once split readers up into two separate types: motivated and unmotivated. It’s useful to think about readers like this because whenever we’re setting type we need to be asking ourselves whether it’s worth implementing a feature in the first place. If our readers are motivated to finish the text then we probably don’t need fancy animations or big display text. Alternatively, if a reader is unmotivated then the text should stand up as tall as possible and scream with all its might.
+The typographer and teacher Indra Kupferschmid[^19] once split readers up into two separate types: motivated and unmotivated. It’s useful to think about readers like this because whenever we’re setting type we need to be asking ourselves whether it’s worth implementing a feature in the first place. If our readers are motivated to finish the text then we probably don’t need fancy animations or big display text. Alternatively, if a reader is unmotivated then the text should stand up as tall as possible and scream with all its might.
 
 <div class='reader-cards'>
   <div class=''>
@@ -203,7 +220,7 @@ But for all future readers, there are two separate font technologies that have s
   <figcaption><p>Roel Nieskens, <em><a href='http://typographica.org/on-typography/variable-fonts'>Variable Fonts: the Future of (Web) Type</a></em></p></figcaption>
 </figure>
 
-For English speaking readers, variable fonts provide them with a boost in performance because they won’t have to download multiple fonts. And for English speaking designers, they’ll provide a more subtle tool for typesetting. But for readers of the web in  many languages, variable typography will actually make webfonts a viable reality for the first time. This is because for complex languages the font files can be gigantic when compared to a Latin based language.[^21] For those readers, this technology is not just about meagre improvements to performance, but instead variable fonts will give them access to the sort of typography that we’ve taken for granted.
+For readers of languages with Latin alphabets (like English, French and Italian), variable fonts provide them with a boost in performance because they won’t have to download multiple fonts to see complex typography. And for many designers, they’ll provide a more subtle tool for typesetting. But for readers of the web in  other languages, variable typography will actually make webfonts a viable reality for the first time. This is because for complex languages the font files can be gigantic when compared to a Latin based language.[^21] For those readers, this technology is not just about meagre improvements to performance, but instead variable fonts will give them access to the sort of typography that we’ve taken for granted.
 
 Whilst variable fonts is really an improvement to the OpenType specification, the other technology that I would like to discuss – color fonts – is a new font format altogether: OpenType-SVG. This format gives us the ability to jump inside the glyphs of a typeface and paint them with multiple colors instead of the single color fill that we’re currently limited to. Because for now we can only add a single color to all parts of the glyph, this greatly limits a typographer’s ability to express an idea with text.
 
@@ -230,12 +247,12 @@ Yet there are more serious problems than whether everything on the page is in pe
 
 <figure class='cell-b40 cell-t30'>
   <img class='w-100 center opacity-7' src='/images/essays/futures/printshop.jpg' />
-  <figcaption class='cite-wide'>An engraving by Jan Collaert I ca. 1600. Source: <a href='http://www.metmuseum.org/toah/works-of-art/34.30(5)/'>The Met</a></figcaption>
+  <figcaption class='cite-wide'>An engraving by Jan Collaert I, made around 1600, that shows the bustling and cramped conditions of a print shop. Source: <a href='http://www.metmuseum.org/toah/works-of-art/34.30(5)/'>The Met</a></figcaption>
 </figure>
 
-What about accessibility and the preservation of the text? Making sure that everyone can simply read the text in every browser is more important than just about any interesting typographic flourish that we can implement. And so with that in mind, whenever we stumble over a new feature for the web we have to question whether it will truly improve the reading experience.
+What about accessibility and the preservation of the text? Making sure that everyone can simply read the text in every browser is more important than just about any typographic flourish that we can implement. And so with that in mind, whenever we stumble over a new feature for the web we have to question whether it will truly improve the reading experience.
 
-Subsequently, if we focus on those two readers that Indra mentioned then we ensure that we don’t become too cynical or dogmatic[^26] about crazy new features that might impact typesetting on the web. In the past, I’ve seen many experienced typographers dismiss new features that browsers afford them, only for those technologies to become a vital part of what typography now means on the web. So I think there’s a constant risk of assuming that typography will always work in a familiar way; challenging what we know about typography is the first step to contributing to its future.
+Subsequently, if we focus on those two readers that Indra mentioned then we ensure that we don’t become too cynical or dogmatic[^26] about crazy new features that might impact typesetting on the web. In the past I’ve seen many experienced typographers dismiss new features that browsers afford them, only for those technologies to become a vital part of what typography now means on the web. So I think there’s a constant risk of assuming that typography will always work in a familiar way; challenging what we know about typography is the first step to contributing to its future.
 
 That’s the most beautiful and interesting part about the future of typography – that there isn’t one future, but many. We can synthesize conflicting technologies, and previous typesetting methods, or we can listen to the fictional arguments between two ghostly printers and imagine what might have occurred if their ideas and skills were combined together.
 
@@ -262,7 +279,7 @@ There are infinite *futures* of typography, and the opportunities only expand wh
 
                 <div class="cell-t20">
                     <h4 class="h5 caps u-text--white underline">About the design</h4>
-                    <p class="inverse-links">Display text is set in <a href='https://djr.com/gimlet'>Gimlet</a> and running text is set in <a href="https://djr.com/fern/">Fern</a>. Both typefaces are designed by David Jonathan Ross.</p>
+                    <p class="inverse-links">Display text is set in <a href='https://djr.com/gimlet'>Gimlet</a> and running text is set in <a href="https://djr.com/fern/">Fern</a>. Both typefaces are designed by David Jonathan Ross. The first image is a woodcut by Jost Amman, made in the 16th century.</p>
                 </div>
             </div>
             <div class="about__item inverse-links cell-t20">
@@ -281,13 +298,14 @@ There are infinite *futures* of typography, and the opportunities only expand wh
                     <li><a href="http://www.shadycharacters.co.uk">Keith Houston</a></li>
                     <li><a href="http://jensimmons.com/">Jen Simmons</a></li>
                     <li><a href="http://goodonpaper.com">Andy McMillan</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=FT48Pkr8yl4">American Wrestlers</a></li>
+                    <li><a href="https://open.spotify.com/track/0LPkJ1v9Xirfua2oGYdYK7">American Wrestlers</a></li>
                     <li><a href="https://twitter.com/doralchan">Dora Chan</a></li>
                     <li><a href="http://sarahdrasnerdesign.com/">Sarah Drasner</a></li>
                     <li><a href="http://stephencoles.org/">Stephen Coles</a></li>
                     <li><a href="https://viljamis.com/">Viljami Salminen</a></li>
                     <li><a href="https://twitter.com/geoffreygraham/">Geoff Graham</a></li>
                     <li><a href="http://christophrauscher.de/">Christoph Rauscher</a></li>
+                    <li><a href="https://www.visualgui.com/">Donny Truong</a></li>
                     <li><a href="https://www.zachleat.com/web">Zach Leatherman</a></li>
                     <li><a href="http://kupferschrift.de/">Indra Kupferschmid</a></li>
                     <li><a href="http://aetherpoint.com">Andrew Johnson</a></li>
@@ -341,7 +359,7 @@ There are infinite *futures* of typography, and the opportunities only expand wh
 
 [^14]: Further contributing to that madness is assuming that all browsers work alike. In [Chrome Bias (and Finding Things To Like in Firefox)](https://css-tricks.com/chrome-bias-finding-things-like-firefox/) I described the problem where designers work exclusively in a single browser and how this leads to inconsistent, and sometimes broken, interfaces.
 
-[^15]: Whilst I was reading [Resilient web design](https://resilientwebdesign.com/) by Jeremy Keith all I could think about was how those ideas apply to typesetting on the web.
+[^15]: Whilst I was reading [Resilient web design](https://resilientwebdesign.com/) by Jeremy Keith all I could think about was how those ideas apply to typesetting on the web. My favorite section is this bit from [Chapter 4](https://resilientwebdesign.com/chapter4): “*If you build something using web technologies, and someone visits with a web browser, you can’t be sure how many of the web technologies will be supported. It probably won’t be 100%. But it’s also unlikely to be 0%. Some people will visit with iOS devices. Others will visit with Android devices. Some people will get 80% or 90% of what you’ve designed. Others will get just 20%, 30%, or 50%. The web isn’t a platform. It’s a continuum. Thinking of the web as a platform is a category error. A platform like Flash, iOS, or Android provides stability and certainty, but only under a very specific set of circumstances—your software must be accessed with the right platform‐specific runtime environment. The web provides no such certainty, but it also doesn’t restrict the possible runtime environments.*”
 
 [^16]: A number of web developers believe that this technology is important because it makes websites behave more like apps, where a website can then effectively be downloaded and used offline. But I think that ServiceWorkers are important because they make websites behave more like books instead.
 
@@ -355,9 +373,9 @@ There are infinite *futures* of typography, and the opportunities only expand wh
 
 [^21]: In [*Making culture for the internets—all of them*](https://medium.com/the-sea-of-fog/making-culture-for-the-internets-all-of-them-33bacb8f851b#.u2dmfcrcl), Robin Sloan describes the many fractured webs: “*People ridiculed George W. Bush when he called them “the internets” but he had it right. Technically, the internet is one huge interconnected network. Linguistically and socially, it is many networks, and they are very distinct. For example: There are 40 million Brazilians on Twitter. Do you follow any Brazilians? This is a significant fraction of a service that many of us consider our internet front porch—and yet, unless you speak Portuguese, it’s invisible. It might as well be a different service entirely.*”
 
-[^22]: I made [a pen](http://codepen.io/robinrendle/pen/YpxXLx) which lets you flip through all of the variations in the color font Trajan Pro. The Typekit team also made [a page about color fonts](https://color.typekit.com/) that goes into a lot more detail.
+[^22]: I made [a pen](http://codepen.io/robinrendle/pen/YpxXLx), which you can test in Firefox, that lets you flip through all of the variations in the color font Trajan Pro. The Typekit team also made [a page about color fonts](https://color.typekit.com/) that goes into a lot more detail.
 
-[^23]: To learn more about CSS Grid Layout I’d recommend [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/), Rachel Andrew’s [in-depth talk](https://www.youtube.com/watch?v=Felq4z_rdPQ) on the matter and Jen Simmons’ [layout examples](http://labs.jensimmons.com/). It’s especially interesting to see [just how quickly](https://twitter.com/jensimmons/status/814528037106618368) Grid Layout is being implemented.
+[^23]: To learn more about CSS Grid Layout I’d recommend [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/), Rachel Andrew’s [in-depth talk](https://www.youtube.com/watch?v=Felq4z_rdPQ) on the matter and Jen Simmons’ [layout examples](http://labs.jensimmons.com/). It’s especially interesting to see [just how quickly](https://twitter.com/jensimmons/status/814528037106618368) Grid Layout is being implemented. Rachel also just published a [Grid Layout FAQ](https://rachelandrew.co.uk/archives/2017/01/03/css-grid-is-coming/?utm_campaign=CSS%2BLayout%2BNews&utm_medium=email&utm_source=CSS_Layout_News_75) that’s super neat, too.
 
 [^24]: Ellen Lupton’s excellent guide [*Thinking with Type*](http://www.thinkingwithtype.com/contents/grid/) has some examples of grid layouts in print and every time I think about duplicating them with the current features available to me in CSS I shudder.
 
