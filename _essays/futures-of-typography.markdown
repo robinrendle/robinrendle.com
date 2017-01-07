@@ -210,7 +210,7 @@ But for all future readers, there are two separate font technologies that have s
 
 <div class='cell-b40 cell-t30'>
   <figure class='bg-theme cell-30'>
-    <img class='w-100 center' src='/images/essays/futures/gimlet.svg' />
+    <img class='w-100 center opacity-6' src='/images/essays/futures/gimlet.svg' />
   </figure>
 </div>
 
