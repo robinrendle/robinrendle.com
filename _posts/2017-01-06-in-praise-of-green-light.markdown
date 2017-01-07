@@ -27,4 +27,4 @@ Anyway, I still miss the person that left me – dearly – but I also miss the 
 
 So it’s been more than a month after the breakup now and there’s still a part of me that’s waiting for the green light. Several times a day I’ll look at my phone expecting to find that glimmer where a quick swipe would reveal where she is and what she’s doing. It might be a simple joke, or a nervous selfie, or a question, or a song. And somehow that green light means all of those things to me now. I know, I know, that’s pathetic and weird and I should grow up. But that’s why I want to push this High-level pain as deep down as possible.
 
-For how long will I be waiting for the return of that green light, and for how long will I await the return of my best friend?
+How long will I be waiting for the return of that green light, and for how long will I await the return of my best friend?
