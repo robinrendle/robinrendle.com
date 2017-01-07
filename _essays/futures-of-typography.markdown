@@ -1,6 +1,6 @@
 ---
 title: The Futures of Typography
-date: 2017-01-02 12:25:00 -08:00
+date: 2017-01-06 12:25:00 -08:00
 published: true
 City: San Francisco
 Country: California
@@ -146,13 +146,13 @@ Primarily this means ensuring that the network doesn’t get in between our text
   <svg  viewBox="0 0 1000 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="Artboard-3">
-              <text id="Network" font-family="GimletDisplayCondensed-Medium, Gimlet Display Condensed" font-size="65" font-style="condensed" font-weight="400" letter-spacing="0.933907986" fill="#E95555">
+              <text id="Network" font-family="Gimlet condensed" font-size="65" font-style="condensed" font-weight="400" letter-spacing="0.933907986" fill="#E95555">
                   <tspan x="371" y="121">Network</tspan>
               </text>
-              <text id="Text" font-family="GimletDisplayCondensed-Medium, Gimlet Display Condensed" font-size="65" font-style="condensed" font-weight="400" letter-spacing="0.933907986" fill="#4F4F4F">
+              <text id="Text" font-family="Gimlet condensed" font-size="65" font-style="condensed" font-weight="400" letter-spacing="0.933907986" fill="#4F4F4F">
                   <tspan x="7" y="121">Text</tspan>
               </text>
-              <text id="Reader" font-family="GimletDisplayCondensed-Medium, Gimlet Display Condensed" font-size="65" font-style="condensed" font-weight="400" letter-spacing="0.933907986" fill="#4F4F4F">
+              <text id="Reader" font-family="Gimlet condensed" font-size="65" font-style="condensed" font-weight="400" letter-spacing="0.933907986" fill="#4F4F4F">
                   <tspan x="807" y="121">Reader</tspan>
               </text>
               <path d="M603.5,102.5 L793.5,102.5" id="Line-Copy" stroke="#979797" stroke-linecap="round" stroke-dasharray="2,2,2,2"></path>
