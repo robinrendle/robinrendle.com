@@ -1,6 +1,8 @@
 ---
 title: In Praise of Green Light
 date: 2017-01-06 17:31:00 -08:00
+City: Plymouth
+Country: UK
 ---
 
 I think about pain by separating it into two categories; High and Low. 
