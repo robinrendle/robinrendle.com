@@ -314,6 +314,8 @@ There are infinite *futures* of typography, and the opportunities only expand wh
                     <li><a href="http://www.bramstein.com/">Bram Stein</a></li>
                     <li><a href="http://chloeweil.com/">Chloe Weil</a></li>
                     <li><a href="http://tanmade.com/">Allen Tan</a></li>
+                    <li><a href="https://www.philswan.co.uk/">Phil Swan</a></li>
+                    <li><a href="http://www.garrettwinder.com/">Garrett Winder</a></li>
                     <li><a href="http://paulo.is/">Paulo Pereira</a></li>
                     <li><a href="https://jakegiltsoff.co.uk/">Jake Giltsoff</a></li>
                     <li><a href="http://nicksherman.com/">Nick Sherman</a></li>
