@@ -4,7 +4,8 @@ date: 2017-01-02 12:25:00 -08:00
 published: true
 City: San Francisco
 Country: California
-extract: What are the skills we need to contribute to the future of typography? And what do two ghostly figures from the 15th century have to do with that future?
+extract: What are the skills we need to contribute to the future of typography? And
+  what do two ghostly figures from the 15th century have to do with that future?
 layout: futures-of-typography
 ---
 
