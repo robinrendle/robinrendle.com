@@ -18,8 +18,8 @@
       </item>
     {% endfor %}
 
-    {% assign essays = site.essays | sort: 'date' | reverse %}
-    {% for item in essays limit: 2 %}
+    {% assign essays = site.essays %}
+    {% for item in essays %}
       <item>
         <title>{{ item.title | xml_escape }}</title>
         <description>{{ item.extract | xml_escape }}</description>
