@@ -17,5 +17,16 @@
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>
     {% endfor %}
+
+    {% assign essays = site.essays | sort: 'date' | reverse %}
+    {% for item in essays limit: 2 %}
+      <item>
+        <title>{{ item.title | xml_escape }}</title>
+        <description>{{ item.extract | xml_escape }}</description>
+        <pubDate>{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url }}{{ item.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ item.url }}</guid>
+      </item>
+    {% endfor %}
   </channel>
 </rss>
