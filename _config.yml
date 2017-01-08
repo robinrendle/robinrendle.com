@@ -75,8 +75,8 @@ defaults:
   values:
     permalink: "/adventures/:title/"
     layout: adventures-post
-    Country: 
-    City: 
+    Country:
+    City:
 - scope:
     path: ''
     type: talks
@@ -84,6 +84,7 @@ defaults:
     permalink: "/talks/:title/"
     layout: talks-detail
 name: Robin Rendle
+url: https://robinrendle.com
 description: Typography, design and front-end development.
 permalink: pretty
 current_location: San Francisco
