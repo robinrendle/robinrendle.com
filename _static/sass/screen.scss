@@ -53,7 +53,8 @@ $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !defa
     @import "modules/footer";
     @import "modules/hero";
 
-    @import "../../fonts/gimlet.scss";
+    @import "../../fonts/fern.scss";
+    @import "../../fonts/gimlet-condensed.scss";
 
 section[role="main"]{
     min-height: 80vh;

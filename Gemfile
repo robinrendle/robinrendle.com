@@ -2,6 +2,9 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem 'siteleaf', :git => 'git://github.com/siteleaf/siteleaf-gem.git'
-gem 'kramdown'
 gem 'jekyll'
+gem 'kramdown'
+
+group :development do
+  gem 'siteleaf', '~>2'
+end

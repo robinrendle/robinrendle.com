@@ -17,3 +17,7 @@
 .u-text--book {
     @include typeface("Book");
 }
+
+.u-text--regular {
+  @include typeface("Regular");
+}

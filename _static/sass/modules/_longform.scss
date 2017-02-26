@@ -48,13 +48,8 @@
         }
 
         @include media(">large"){
-            @include remCalc(font-size, 21);
+            @include remCalc(font-size, 19);
             line-height: 1.7;
-
-            .fonts-loaded & {
-                @include remCalc(font-size, 18);
-                line-height: 1.7;
-            }
         }
 
         & > img {

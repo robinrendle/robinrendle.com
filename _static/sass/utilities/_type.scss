@@ -18,18 +18,8 @@
             font-weight: bold;
         }
         .fonts-loaded & {
-            font-weight: normal;
-            font-family: "Gimlet condensed", $sansfallback;
-        }
-    }
-
-    @if $font == "Regular italic" {
-        font-style: italic;
-        font-family: $fallback;
-
-        .fonts-loaded & {
-            font-style: italic;
-            font-family: "Gimlet text italic", $fallback;
+            font-weight: 600;
+            font-family: "Output Sans", $sansfallback;
         }
     }
 
@@ -41,22 +31,33 @@
 
         .fonts-loaded & {
             font-size: .9em !important;
-            font-family: "Gimlet text", sans-serif;
+            font-family: "Output Sans", sans-serif;
         }
     }
 
     @if $font == "Regular" {
         font-family: $fallback;
+        font-weight: normal;
         .fonts-loaded & {
-            font-family: "Gimlet text", $fallback;
+            font-family: "Output Sans", $fallback;
+        }
+    }
+
+    @if $font == "Regular italic" {
+        font-style: italic;
+        font-family: $fallback;
+        .fonts-loaded & {
+            font-style: italic;
+            font-family: "Output Sans", $fallback;
         }
     }
 
     @if $font == "Bold" {
         font-family: $fallback;
-        font-weight: 500;
+        font-weight: 600;
         .fonts-loaded & {
-            font-family: "Gimlet bold", $fallback;
+          font-weight: 600;
+          font-family: "Output Sans", $fallback;
         }
     }
 }

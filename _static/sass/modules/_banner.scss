@@ -5,7 +5,7 @@
 
 .m-banner {
     @include clearfix();
-    background-color: #eee;
+    background-color: $c-primary;
     transition: background-color .3s ease;
 
     @include media("<medium"){
@@ -28,18 +28,18 @@
     @include typeface("Small caps");
     display: inline-block;
     padding: 15px 20px 12px;
-    background-color: $c-primary;
+    background-color: darken($c-primary, 15);
     color: white;
     transition: background-color .3s ease;
     float: left;
-    font-size: 15px !important;
+    font-size: 16px !important;
     text-align: center;
     margin-right: 20px;
     height: 50px;
     width: 160px;
 
     .fonts-loaded & {
-        font-size: 14px !important;
+        font-size: 15px !important;
     }
 
     @include media("<medium"){
@@ -55,14 +55,14 @@
 
     &:hover,
     &:focus {
-        background-color: lighten($c-primary, 10);
+        background-color: rgba(0,0,0,.3);
     }
 }
 
 .m-banner__menu {
     display: block;
     float: right;
-    color: darken($c-text, 20);
+    color: white;
     padding-top: 13px;
 
     .no-js & {
@@ -124,7 +124,7 @@
     }
 
     a.o-nav__item {
-        color: #666;
+        color: white;
 
         @include media("<medium"){
             display: block;
@@ -151,10 +151,10 @@
         @include media(">medium"){
             &:hover,
             &:focus {
-                color: $c-primary;
+                color: white;
 
                 &:after {
-                    color: #666;
+                    color: #eee;
                 }
             }
         }

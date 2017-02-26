@@ -12,7 +12,7 @@
         {% for item in essays limit: 2 %}
             <div class="cell-b30">
                 <header class="links">
-                    <h3 class="h3 u-text--book u-reset-margins"><a href="{{item.url}}">{{item.title}}</a></h3>
+                    <h5 class="h3 u-text--book u-reset-margins"><a href="{{item.url}}">{{item.title}}</a></h5>
                 </header>
 
                 <div class="m-longform">
@@ -33,7 +33,7 @@
                         {{ post.date | date: "%m/%d/%Y" }}
                     </time>
                 </div>
-                <h3 class="h4 flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
+                <h3 class="h4 u-text--regular flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
             </a>
             {% endfor %}
     </div>
@@ -49,7 +49,7 @@
                         {{ post.date | date: "%m/%d/%Y" }}
                     </time>
                 </div>
-                <h3 class="h4 flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
+                <h3 class="h4 u-text--regular flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
             </a>
             {% endfor %}
     </div>

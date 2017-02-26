@@ -128,15 +128,15 @@ gulp.task('sass', function () {
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'))
         .pipe(gulp.dest('_site/css'));
-    gulp.src(paths.styles.futures)
-        .pipe(sass({
-            includePaths: ['scss'],
-            onError: browserSync.notify,
-            outputStyle: 'compressed'
-        }))
-        .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'))
+    // gulp.src(paths.styles.futures)
+    //     .pipe(sass({
+    //         includePaths: ['scss'],
+    //         onError: browserSync.notify,
+    //         outputStyle: 'compressed'
+    //     }))
+    //     .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
+    //     .pipe(browserSync.reload({stream:true}))
+    //     .pipe(gulp.dest('css'))
 });
 
 // gulp.task('work', function(){

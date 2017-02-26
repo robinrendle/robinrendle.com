@@ -31,23 +31,8 @@ h1,
         }
 
         @include media(">large"){
-            @include remCalc(font-size, 40);
-        }
-
-        .fonts-loaded & {
             @include remCalc(font-size, 35);
-            line-height: 1.1;
-
-            @include media(">medium"){
-                @include remCalc(font-size, 40);
-                line-height: 1.1;
-            }
-
-            @include media(">large"){
-                @include remCalc(font-size, 50);
-            }
         }
-
     }
 }
 
@@ -79,16 +64,11 @@ h2,
         }
 
         @include media(">large"){
-            @include remCalc(font-size, 25);
+            @include remCalc(font-size, 20);
         }
         .fonts-loaded &  {
-            @include remCalc(font-size, 30);
+            @include remCalc(font-size, 25);
             line-height: 1.1;
-
-            @include media(">medium"){
-                @include remCalc(font-size, 35);
-                line-height: 1.1;
-            }
         }
     }
 }
@@ -106,7 +86,7 @@ h3,
         }
 
         @include media(">large"){
-            @include remCalc(font-size, 22);
+            @include remCalc(font-size, 20);
         }
     }
 }
@@ -121,7 +101,7 @@ h4,
         line-height: 1.3;
 
         @include media(">medium"){
-            @include remCalc(font-size, 19);
+            @include remCalc(font-size, 17);
         }
     }
 }
@@ -146,4 +126,16 @@ h6,
         @include remCalc(font-size, 15);
         line-height: 1.3;
     }
+}
+
+
+.m-heading__text {
+  &, .fonts-loaded & {
+    font-weight: normal;
+    max-width: 800px;
+
+    @include media(">large"){
+      @include remCalc(font-size, 40);
+    }
+  }
 }
