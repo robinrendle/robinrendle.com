@@ -4,7 +4,10 @@
 // Default typesetting, font-height and font-weight settings.
 
 @mixin typeface($font) {
-    $fallback: Georgia, serif;
+    $fallback: -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
     $sansfallback: $fallback;
     .fonts-loaded & {
         font-weight: normal;
