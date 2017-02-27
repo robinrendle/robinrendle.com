@@ -6,12 +6,14 @@
         <h1>Adventures in Typography</h1>
 
         <div class="m-longform cell-b40">
-            <p class="">This is my newsletter on typography, graphic design and the web. I share what I’m working on, what I’ve been thinking about and what I’m reading. You can <a href='http://tinyletter.com/robinrendle'>sign up here</a>.</p>
+            <p class="">This is my weekly newsletter on typography, graphic design and the web. I share what I’m working on, what I’ve been thinking about and what I’m reading.</p>
+
+            <p>👉 You can <a href='http://tinyletter.com/robinrendle'>sign up here</a>
         </div>
     </div>
 
 
-    {% assign item = site.adventures | sort: 'date' | reverse %}
+    <!-- {% assign item = site.adventures | sort: 'date' | reverse %}
     {% for post in item %}
         <article class="cell-b40">
            <header class="links">
@@ -36,7 +38,7 @@
                 </div>
             </header>
         </article>
-    {% endfor %}
+    {% endfor %} -->
 
 </div>
 {% include footer.html %}
