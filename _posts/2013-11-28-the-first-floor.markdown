@@ -1,6 +1,6 @@
 ---
 title: The first floor
-date: 2013-11-28 22:49:00 Z
+date: 2013-11-28 14:49:00 -08:00
 tags:
 - business
 - culture
@@ -9,7 +9,7 @@ tags:
 extract: I can’t stop thinking about this story from the latest issue of Codex magazine
   where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all
   the facets and inner-workings of this celebrated graphic design agency in New York.
-update:
+update: 
 City:
 - Nottingham
 Country:
