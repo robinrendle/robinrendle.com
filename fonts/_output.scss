@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Output Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url('/fonts/OutputSans-Regular.woff2') format("woff2"),
+        url('/fonts/OutputSans-Regular.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Output Sans italic';
+    font-weight: 400;
+    font-style: italic;
+    src: url('/fonts/OutputSans-Italic.woff2') format("woff2"),
+        url('/fonts/OutputSans-Italic.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Output Sans bold';
+    font-style: bold;
+    src: url('/fonts/OutputSans-bold.woff2') format("woff2"),
+        url('/fonts/OutputSans-bold.woff') format("woff");
+}

@@ -133,6 +133,7 @@ h6,
   &, .fonts-loaded & {
     font-weight: normal;
     max-width: 800px;
+    @include typeface('Regular');
 
     @include media(">large"){
       @include remCalc(font-size, 40);

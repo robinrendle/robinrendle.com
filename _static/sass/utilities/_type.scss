@@ -22,7 +22,7 @@
         }
         .fonts-loaded & {
             font-weight: 600;
-            font-family: "Output Sans", $sansfallback;
+            font-family: "Output Sans bold", $sansfallback;
         }
     }
 
@@ -51,7 +51,7 @@
         font-family: $fallback;
         .fonts-loaded & {
             font-style: italic;
-            font-family: "Output Sans", $fallback;
+            font-family: "Output Sans italic", $fallback;
         }
     }
 
@@ -60,7 +60,7 @@
         font-weight: 600;
         .fonts-loaded & {
           font-weight: 600;
-          font-family: "Output Sans", $fallback;
+          font-family: "Output Sans bold", $fallback;
         }
     }
 }
