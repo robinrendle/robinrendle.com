@@ -1,9 +1,11 @@
 ---
 title: How to ride a motorcycle in California
 date: 2017-03-09 21:25:00 -08:00
-extract: Considering I’m from the UK, there were a few peculiar obstacles before I
-  could get back to riding a motorcycle across the pond — so I thought it might be
-  helpful for others if I jotted down that whole process.
+extract: Considering I’m from the UK there were a few peculiar obstacles I had to
+  circumnavigate before I could get back to riding a motorcycle, hence I thought it
+  might be helpful for others if I jotted that whole process down. At the beginning
+  it was pretty complicated and strange because I simply couldn’t find any info out
+  there for me. So hopefully this helps you, fellow motorcycle enthusiast.
 Country: California
 City: San Francisco
 ---
