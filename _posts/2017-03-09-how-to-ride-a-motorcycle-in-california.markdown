@@ -52,7 +52,7 @@ Be sure to take the waiver that they send you in an email to the first lesson, a
 
 The classroom stuff is surprisingly easy because they’re methodical and spell everything out slowly. On the Sunday they then asked me to sit a multiple choice test that just repeats everything they mentioned — I was a little nervous about it because the test in the UK is pretty difficult but this one was a piece of cake in comparison.
 
-So for the driving part of the course I spent that time on a Suzuki dirtbike but, unlike in the UK, the strange thing about the test in California is that they don’t upgrade your bike during the course. In the UK you have to learn on a 250cc, 600cc and then finally an 800cc bike. And that makes a whole bunch of sense because a 250cc is a completely different vehicle to an 800cc. But that’s besides the point, you’ll only be on one bike and then at the end you’ll take a test on the same bike that lasts about 30mins.
+So for the driving part of the course I spent that time on a Suzuki dirtbike but the strange thing about the test in California is that they don’t upgrade your bike during the course. In the UK you have to learn on a 250cc, 600cc and then finally an 800cc bike. And that makes a whole bunch of sense because a 250cc is a completely different vehicle to an 800cc. But that’s besides the point, you’ll only be on one bike and then at the end you’ll take a test on the same bike that lasts about 30mins.
 
 The test that I took at the end of the two day course was absurdly easy, too. And if ya fail one part of it, don’t fret. It’s highly unlikely that you’ll fail this thing. Seriously. I cocked it up pretty bad and they still gave me a license.
 
