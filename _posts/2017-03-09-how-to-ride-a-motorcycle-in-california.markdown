@@ -23,7 +23,7 @@ The state of California requires you to take a bunch of tests on a motorcycle at
 
 Why’s that the case? Well, I’m not entirely sure but the MTC test is much easier than the slow riding stuff they’ll get you to do at the DMV.
 
-So! I booked a two day weekend course with [Bay Area Motorcycle Training](http://www.motorcycleschool.com/).
+So! I booked a course with [Bay Area Motorcycle Training](http://www.motorcycleschool.com/). In total, this was two days of training and it cost me a little over $200 — it was broken up into four classes over the weekend.
 
 
 ## Step #3: Buying Gear
@@ -50,7 +50,7 @@ Once you’ve got your jacket, gloves, jeans and boots together now all you’ll
 
 I’m not sure if this is the case for all test centers, but I had to sign a pretty serious waiver that described how driving a motorcycle would likely cause immediate death: take these notes seriously but don’t be frightened off by them.
 
-Be sure to take the waiver that they send you in an email to the first lesson, along with your ID. I had to bring my UK driver’s license to prove that I was a human boy. In total, this two day course cost me a little over $200 and was broken up into four classes over the weekend.
+Be sure to take the waiver that they send you in an email to the first lesson, along with your ID. I had to bring my UK driver’s license to prove that I was a human boy.
 
 The classroom stuff is surprisingly easy because they’re methodical and spell everything out slowly. On the Sunday they then asked me to sit a multiple choice test that just repeats everything they mentioned — I was a little nervous about it because the test in the UK is pretty difficult but this one was a piece of cake in comparison.
 
