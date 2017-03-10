@@ -5,12 +5,12 @@ extract: Considering I’m from the UK there were a few peculiar obstacles I had
   circumnavigate before I could get back to riding a motorcycle, hence I thought it
   might be helpful for others if I jotted that whole process down. At the beginning
   it was pretty complicated and strange because I simply couldn’t find any info out
-  there for me. So hopefully this helps you, fellow motorcycle enthusiast.
+  there for me. So hopefully this guide is of use to you, fellow motorcycle enthusiast.
 Country: California
 City: San Francisco
 ---
 
-Considering I’m from the UK there were a few peculiar obstacles I had to circumnavigate before I could get back to riding a motorcycle, hence I thought it might be helpful for others if I jotted that whole process down. At the beginning it was pretty complicated and strange because I simply couldn’t find any info out there for me. So hopefully this helps you, fellow motorcycle enthusiast.
+Considering I’m from the UK there were a few peculiar obstacles I had to circumnavigate before I could get back to riding a motorcycle, hence I thought it might be helpful for others if I jotted that whole process down. At the beginning it was pretty complicated and strange because I simply couldn’t find any info out there for me. So hopefully this guide is of use to you, fellow motorcycle enthusiast.
 
 ## Step #1: What Do You Need?
 
