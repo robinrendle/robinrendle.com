@@ -21,7 +21,7 @@ To get a license you just need to complete a weekend-long driving course and a m
 
 The state of California requires you to take a bunch of tests on a motorcycle at the DMV in order to get a license. However! You can take a two day course called an [MTC](https://www.chp.ca.gov/programs-services/programs/california-motorcyclist-safety/california-motorcyclist-training) which is about five hours of classroom teaching and ten hours of riding inside a private, fenced off area. That sounds like it’s a lot but it’s really just a weekend. If you take this course then you’ll get a waiver that you can take to the DMV which will excuse you from any road test with them.
 
-Why’s that the case? I’m not entirely sure but the MTC test is much easier than the slow riding stuff they’ll get you to do at the DMV if you book a test there.
+Why’s that the case? Well, I’m not entirely sure but the MTC test is much easier than the slow riding stuff they’ll get you to do at the DMV.
 
 So! I booked a two day weekend course with [Bay Area Motorcycle Training](http://www.motorcycleschool.com/).
 
