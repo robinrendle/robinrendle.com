@@ -35,9 +35,7 @@ The course that I took provided the bike and the helmet but they required that I
 - Motorcycle gloves
 - Identification (I used my UK motorcycle license)
 
-I already had some boots that we okay but the rest I needed to pick up from a local store.
-
-Next stop: [Cycle Gear](https://www.cyclegear.com/store-location/cycle-gear-san-francisco-california-store-40)! This is a big franchise out here that sells all sorts of motorcycle gear and the one I went to had a pretty reasonable selection of quality stuff. 
+I already had some boots that were okay but the rest I needed to pick up from a local store. So next stop: [Cycle Gear](https://www.cyclegear.com/store-location/cycle-gear-san-francisco-california-store-40)! This is a big franchise out here that sells all sorts of motorcycle gear and the one I went to had a pretty reasonable selection of quality stuff. 
 
 If you’re unfamiliar with buying the right clothes for riding then make sure to take it easy at first and don’t rush ahead – there’s no need to buy it all in one go since lots of equipment can be bought cheaply and slowly over time. With that said though, I kinda knew what I wanted. I bought a Dianese jacket for all seasons and a pair of Alpine Stars gloves. After the test, and a couple of weeks later, I went back to Cycle Gear and bought [a Shoei RF-1200 helmet](https://youtu.be/cyFO25x3bLE). All of this came to about $800 but that’s only because motorcycles will be my primary method of transport so everything needs to stand up to rainy weekends and cold summer nights in California. I also know that this stuff is going to last me _years_.
 
