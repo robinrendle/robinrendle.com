@@ -23,7 +23,7 @@ The state of California requires you to take a bunch of tests on a motorcycle at
 
 Why’s that the case? Well, I’m not entirely sure but the MTC test is much easier than the slow riding stuff they’ll get you to do at the DMV.
 
-So! I booked a course with [Bay Area Motorcycle Training](http://www.motorcycleschool.com/). In total, this was two days of training and it cost me a little over $200 — it was broken up into four classes over the weekend.
+So! I booked a course with [Bay Area Motorcycle Training](http://www.motorcycleschool.com/). In total, this was two days of training and it cost me a little over $200 — it was broken up into four classes over the weekend. Pretty simple.
 
 
 ## Step #3: Buying Gear
