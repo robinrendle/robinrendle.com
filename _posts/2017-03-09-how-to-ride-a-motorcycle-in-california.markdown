@@ -12,9 +12,9 @@ Considering I’m from the UK there were a few peculiar obstacles I had to circu
 
 ## Step #1: What Do You Need?
 
-OK, you’ve just moved to California from another country and you want to ride a motorcycle. Neat! If you already have a motorcycle license from your country of origin then you’ll need to get an M1 California driving license after 3 months of living in the States. However, you *don’t* need to get a California ID in order to do this though. That’s a separate identification card and doesn’t have anything to do with your driving license. 
+OK, you’ve just moved to California from another country and you want to ride a motorcycle. Neat! If you already have a motorcycle license from your country of origin then you’ll need to get an M1 California driving license after 3 months of living in the States. However, you *don’t* need to get a California ID in order to do this though. That’s a separate identification card and doesn’t have anything to do with your driving license.
 
-To get a license you just need to complete a weekend-long driving course and a multiple choice written exam.
+If you don’t have a license in your country of origin then you’ll also need to get an M1 license. To get it you’ll just need to complete a weekend-long driving course and a multiple choice written exam.
 
 
 ## Step #2: Booking your Lesson
