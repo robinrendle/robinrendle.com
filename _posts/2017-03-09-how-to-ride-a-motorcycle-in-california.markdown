@@ -8,9 +8,10 @@ Country: California
 City: San Francisco
 ---
 
-Considering I’m from the UK, there were a few peculiar obstacles before I could get back to riding a motorcycle across the pond — so I thought it might be helpful for others if I jotted down that whole process.
+Considering I’m from the UK there were a few peculiar obstacles I had to circumnavigate before I could get back to riding a motorcycle, hence I thought a walkthrough of that process might be helpful for others if I jotted everything down. For me it was pretty complicated and strange because I simply couldn’t find any info out there for me. So hopefully this helps you, fellow motorcycle enthusiast.
 
 ## Step #1: What Do You Need?
+
 OK, you’ve just moved to California from another country and you want to ride a motorcycle. Neat! If you already have a motorcycle license from your country of origin then you’ll need to get an M1 California driving license after 3 months of living in the States. However, you *don’t* need to get a California ID in order to do this though. That’s a separate identification card and doesn’t have anything to do with your driving license. 
 
 To get a license you just need to complete a weekend-long driving course and a multiple choice written exam.
