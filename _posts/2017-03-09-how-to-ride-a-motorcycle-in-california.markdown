@@ -19,7 +19,7 @@ If you don’t have a license in your country of origin then you’ll also need 
 
 ## Step #2: Booking your Lesson
 
-The state of California requires you to take a bunch of tests on a motorcycle at the DMV in order to get a license. However! You can take a two day course called an [MTC](https://www.chp.ca.gov/programs-services/programs/california-motorcyclist-safety/california-motorcyclist-training) which is about five hours of classroom teaching and ten hours of riding inside a private, fenced off area. That sounds like it’s a lot but it’s really just a weekend. If you take this course then you’ll get a waiver that you can take to the DMV which will excuse you from any road test with them.
+The state of California requires you to take a bunch of tests on a motorcycle at the DMV in order to get a license. However! You can take a two day course called an [MTC](https://www.chp.ca.gov/programs-services/programs/california-motorcyclist-safety/california-motorcyclist-training) which is about five hours of classroom teaching and ten hours of riding inside a private, fenced off area. That sounds like it’s a lot but it’s really just a weekend. If you take this course then you’ll get a waiver that you can take to the DMV which will excuse you from any road test but you’ll still need to take the written exam at the DMV.
 
 Why’s that the case? Well, I’m not entirely sure but the MTC test is much easier than the slow riding stuff they’ll get you to do at the DMV.
 
