@@ -21,7 +21,7 @@
             font-weight: bold;
         }
         .fonts-loaded & {
-            font-weight: 600;
+            font-weight: normal;
             font-family: "Output Sans bold", $sansfallback;
         }
     }
@@ -59,7 +59,7 @@
         font-family: $fallback;
         font-weight: 600;
         .fonts-loaded & {
-          font-weight: 600;
+          font-weight: normal;
           font-family: "Output Sans bold", $fallback;
         }
     }
