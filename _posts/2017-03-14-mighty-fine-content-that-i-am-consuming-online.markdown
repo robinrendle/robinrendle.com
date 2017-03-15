@@ -56,7 +56,7 @@ Just...yikes.
 
 ***
 
-Helen McDonald, also writing for the NYT, wrote about post Brexit England (and swans). My favourite bit of the whole piece is when Helen writes about a painting: 
+Helen McDonald, also writing for the NYT, wrote about [post Brexit England and swans](https://www.nytimes.com/2017/01/05/magazine/in-search-of-post-brexit-england-and-swans.html?nytmobile=0). My favourite bit of the whole piece is when Helen writes about a painting: 
 
 > “Swan Upping at Cookham” was painted by the mystical, eccentric English artist Stanley Spencer, who left it half-finished in his bedroom in Cookham when he went off to war in 1915, and the knowledge that it was there sustained him over the next three years. He longed to explain to his military superiors that he couldn’t take part in attacks because he had a painting to finish at home. On his return, he picked it up. “Well there we were looking at each other,” he wrote in his diary. “It seemed unbelievable but it was a fact. Then I wondered if what I had just come from was fact & caught sight of the yellow of the Lyddite or whatever the Bulgars used in their shells on my fingers & finger nails.”
 >
