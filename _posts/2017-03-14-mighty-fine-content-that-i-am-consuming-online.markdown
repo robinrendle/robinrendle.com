@@ -5,6 +5,9 @@ City: San Fransisco
 Country: California
 ---
 
+I’ve been reading a lot of great things thru Instapaper lately and just wanted to quickly jot everything down as best I could.
+
+***
 
 Here’s a great post by Tim Carmody on [what Blue-America should with Red-America](http://beltmag.com/sorry-called-blue-states-dont-get-walk-away/):
 
