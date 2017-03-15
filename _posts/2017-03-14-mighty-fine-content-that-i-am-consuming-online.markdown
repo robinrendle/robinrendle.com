@@ -16,7 +16,7 @@ Here’s a great post by Tim Carmody on [how Blue-America should treat Red-Ameri
 
 > In America — whether in its cities, states, or the entire country, the rich and poor of every race, religion, and gender, gay, straight, and nonbinary, and yes, citizen and noncitizen — we are all one body. Our fates are locked together. The red states feed the people of the blue; the blue states shelter the people of the red. The world, with its many members, is all one body. When we hurt or misunderstand each other, we only hurt and misunderstand ourselves.
 
-On a similar note: when the Brexit vote came in I was walking around with some friends and one of them pinched me. “The vote just came in,” she said. “And I’m so sorry.”
+On a similar note: I had just moved to San Francisco when the Brexit vote came in and was walking around with some friends when one of them pinched me. “The vote just came in,” she said. “And I’m so sorry.”
 
 But there was this little part of me that was like _good riddance_. If my home country wants to mutilate itself then so be it – I’ve chosen America as my new home. And yet six months later my new elective country...well, yeah. I feel pretty guilty about feeling that way now.
 
