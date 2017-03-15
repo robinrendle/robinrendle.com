@@ -3,9 +3,12 @@ title: Mighty Fine Content that I am Consuming Online™
 date: 2017-03-14 23:27:00 -07:00
 City: San Fransisco
 Country: California
+Extract: I’ve been reading a lot of great things on the web lately and just wanted
+  to quickly jot everything down as best I could. I hope you enjoy reading this lot
+  as much as I did.
 ---
 
-I’ve been reading a lot of great things thru Instapaper lately and just wanted to quickly jot everything down as best I could.
+I’ve been reading a lot of great things on the web lately and just wanted to quickly jot everything down as best I could. I hope you enjoy reading this lot as much as I did.
 
 ***
 
