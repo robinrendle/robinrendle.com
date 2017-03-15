@@ -8,7 +8,7 @@ extract: I’ve been reading a lot of great things on the web lately and just wa
   as much as I did.
 ---
 
-I’ve been reading a lot of great things on the web lately and just wanted to quickly jot everything down as best I could. I hope you enjoy reading this lot as much as I did.
+I’ve been reading a lot of great things via the magic of hyperlinks lately and just wanted to quickly jot down everything as best I could. I hope you enjoy reading this lot as much as I did.
 
 ***
 
