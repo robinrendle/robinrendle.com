@@ -12,7 +12,7 @@ I’ve been reading a lot of great things on the web lately and just wanted to q
 
 ***
 
-Here’s a great post by Tim Carmody on [what Blue-America should treat Red-America](http://beltmag.com/sorry-called-blue-states-dont-get-walk-away/) now after the election:
+Here’s a great post by Tim Carmody on [how Blue-America should treat Red-America](http://beltmag.com/sorry-called-blue-states-dont-get-walk-away/) now after the election:
 
 > In America — whether in its cities, states, or the entire country, the rich and poor of every race, religion, and gender, gay, straight, and nonbinary, and yes, citizen and noncitizen — we are all one body. Our fates are locked together. The red states feed the people of the blue; the blue states shelter the people of the red. The world, with its many members, is all one body. When we hurt or misunderstand each other, we only hurt and misunderstand ourselves.
 
