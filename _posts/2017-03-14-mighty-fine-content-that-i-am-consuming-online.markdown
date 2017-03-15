@@ -48,7 +48,7 @@ Helen Rosner describes [how #45 eats his steak](http://www.eater.com/2017/2/28/1
 
 ***
 
-Read this next quote slowly because I think it’s beautiful. Writing for the NYT, Kenneth Chang describes the wonderful discovery of the Trappist-1 system — seven Earth-size planets that might have life on them:
+Writing for the NYT, Kenneth Chang describes [the wonderful discovery of the Trappist-1 system](https://www.nytimes.com/2017/02/22/science/trappist-1-exoplanets-nasa.html?_r=0) — seven Earth-size planets that might have life on them:
 
 > “If you’re looking for complex biology, intelligent aliens that might take a long time to evolve from pond scum, older could be better,” said Seth Shostak, an astronomer at the Seti Institute in Mountain View, Calif. “It seems a good bet that the majority of clever beings populating the universe look up to see a dim, reddish sun hanging in their sky...”
 
