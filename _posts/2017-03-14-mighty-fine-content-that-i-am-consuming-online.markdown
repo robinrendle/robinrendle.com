@@ -28,7 +28,7 @@ Nicole Zhu on [the lack of Asian American representation in films and TV](https:
 
 ***
 
-I particularly enjoyed this piece by Ross Andersen for the Atlantic called [_Welcome to the Pleistocene Park_](https://www.theatlantic.com/magazine/archive/2017/04/pleistocene-park/517779/). Andersen interviews a bunch of scientists that attempting to revive mammoths in a bid to save the world. It makes for super interesting reading:
+I particularly enjoyed this piece by Ross Andersen for the Atlantic called [_Welcome to the Pleistocene Park_](https://www.theatlantic.com/magazine/archive/2017/04/pleistocene-park/517779/). Andersen interviews a bunch of scientists that are hoping to revive the wooly mammoth in a bid to save the world from ecological disaster. It makes for super interesting reading:
 
 > The mammoth’s extinction may have been our original ecological sin. When humans left Africa 70,000 years ago, the elephant family occupied a range that stretched from that continent’s southern tip to within 600 miles of the North Pole. Now elephants are holed up in a few final hiding places, such as Asia’s dense forests. Even in Africa, our shared ancestral home, their populations are shrinking, as poachers hunt them with helicopters, GPS, and night-vision goggles. If you were an anthropologist specializing in human ecological relationships, you may well conclude that one of our distinguishing features as a species is an inability to coexist peacefully with elephants.
 
