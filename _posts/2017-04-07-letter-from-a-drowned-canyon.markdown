@@ -5,6 +5,8 @@ categories:
 - reading
 tags:
 - rebecca solnit
+City: San Francisco
+Country: California
 ---
 
 In *[Letter from a Drowned Canyon](https://story.californiasunday.com/drowned-canyon)* Rebecca Solnit marks the distinction between a *conservationist* and an *environmentalist*:
