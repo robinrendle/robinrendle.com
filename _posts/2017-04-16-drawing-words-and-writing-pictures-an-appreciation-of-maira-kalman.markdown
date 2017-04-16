@@ -1,6 +1,9 @@
 ---
 title: 'Drawing Words and Writing Pictures: An Appreciation of Maira Kalman'
 date: 2017-04-16 00:27:00 -07:00
+tags:
+- Maira Kalman
+- Frank Chimero
 City: San Francisco
 Country: California
 extract: 'Go take a look at your bookshelf: most books are seas of text without pictures.
