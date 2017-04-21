@@ -5,6 +5,6 @@ Field name:
 ---
 
 <div class="preserve-aspect">
-  <iframe class="preserve-aspect__element" src="https://www.youtube.com/embed/ZWOlXGrPDJA" frameborder="0" allowfullscreen></iframe>
+  <iframe class="preserve-aspect__element" src="https://www.youtube.com/embed/ZWOlXGrPDJA" frameborder="0" allowfullscreen></iframe></div>
 
 Nirvanna the Band the Show is my favorite thing.
