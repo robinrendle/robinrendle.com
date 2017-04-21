@@ -1,7 +1,8 @@
 ---
 title: Update Day
 date: 2017-04-20 23:03:00 -07:00
-Field name: 
+City: San Francisco
+Country: California
 ---
 
 <div class="preserve-aspect">
