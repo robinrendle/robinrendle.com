@@ -6,6 +6,6 @@ Country: California
 extract: Nirvanna t
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZWOlXGrPDJA" frameborder="0" allowfullscreen></iframe>
+<iframe class="m-wrapper cell-b20" width="560" height="315" src="https://www.youtube.com/embed/ZWOlXGrPDJA" frameborder="0" allowfullscreen></iframe>
 
 Nirvanna the Band the Show is my favorite thing and I will not be happy until everyone has watched it.
