@@ -6,7 +6,7 @@ Country: California
 extract: Nirvanna the Band the Show is my favorite thing.
 ---
 
-<div class="preserve-aspect">
-  <iframe class="preserve-aspect__element" src="https://www.youtube.com/embed/ZWOlXGrPDJA" frameborder="0" allowfullscreen></iframe></div>
+<iframe class="preserve-aspect__element" height="500px" 
+width="100%" src="https://www.youtube.com/embed/ZWOlXGrPDJA" frameborder="0" allowfullscreen></iframe>
 
 Nirvanna the Band the Show is my favorite thing and I will not be happy until everyone has watched it.
