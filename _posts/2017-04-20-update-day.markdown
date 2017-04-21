@@ -3,6 +3,7 @@ title: Update Day
 date: 2017-04-20 23:03:00 -07:00
 City: San Francisco
 Country: California
+extract: Nirvanna the Band the Show is my favorite thing.
 ---
 
 <div class="preserve-aspect">
