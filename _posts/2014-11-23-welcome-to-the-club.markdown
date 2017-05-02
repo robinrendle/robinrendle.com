@@ -1,6 +1,6 @@
 ---
 title: Welcome to the club
-date: 2014-11-23 14:39:00 Z
+date: 2014-11-23 06:39:00 -08:00
 tags:
 - libraries
 - reading

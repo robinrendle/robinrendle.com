@@ -1,6 +1,6 @@
 ---
 title: I, Website
-date: 2016-04-15 19:49:00 +01:00
+date: 2016-04-15 11:49:00 -07:00
 tags:
 - chris coyier
 - web

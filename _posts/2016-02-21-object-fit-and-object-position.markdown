@@ -1,6 +1,6 @@
 ---
 title: object-fit and object-position
-date: 2016-02-21 20:57:00 +00:00
+date: 2016-02-21 12:57:00 -08:00
 tags:
 - css-tricks
 - object-fit

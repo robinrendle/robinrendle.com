@@ -1,6 +1,6 @@
 ---
 title: 'Week notes #2'
-date: 2015-02-06 22:25:00 Z
+date: 2015-02-06 14:25:00 -08:00
 tags:
 - work
 - week-notes

@@ -1,6 +1,6 @@
 ---
 title: Second Wednesday
-date: 2014-05-12 00:00:00 +01:00
+date: 2014-05-11 16:00:00 -07:00
 tags:
 - design
 - typography

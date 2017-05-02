@@ -1,6 +1,6 @@
 ---
 title: 'Week notes #1'
-date: 2015-01-30 19:12:00 Z
+date: 2015-01-30 11:12:00 -08:00
 tags:
 - design
 - web design

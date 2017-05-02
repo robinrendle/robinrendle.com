@@ -1,14 +1,14 @@
 ---
 title: Writing is thinking
-date: 2014-10-15 23:57:00 Z
+date: 2014-10-15 16:57:00 -07:00
+tags:
+- sally kerrigan
 extract: "“If you’re not sure how to finish a sentence, abandon it halfway through.
   If you want to write extensively about one particular idea but your mind’s moving
   too quickly to flesh it all out, paraphrase for now and move on to the next big
   point.”"
 update: 
 link: 
-tags:
-- sally kerrigan
 City:
 - Plymouth
 Country:

@@ -1,6 +1,8 @@
 ---
 title: CSS-Tricks
-date: 2015-10-24 18:59:00 Z
+date: 2015-10-24 11:59:00 -07:00
+tags:
+- css
 extract: 
 update: 
 role: |-
@@ -19,8 +21,6 @@ hero: "/uploads/css-tricks.jpg"
 links: |-
   - [CSS-Tricks](https://css-tricks.com)
   - [The archive of all my posts](https://css-tricks.com/author/robinrendle/)
-tags:
-- css
 ---
 
 Since February I’ve been a regular contributor to [CSS-Tricks](https://css-tricks.com/), a project by [Chris Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology and provide tutorials and links to help developers. I’ve written original technical posts, exploring new browser features and diving deep into the peculiarities of CSS and JavaScript.

@@ -1,15 +1,15 @@
 ---
 title: Gardens, not graves
-date: 2014-07-29 17:21:00 Z
+date: 2014-07-29 10:21:00 -07:00
+tags:
+- allen tan
+- design
+- a list apart
 extract: "“...for years, we’ve neglected the disciplines of stewardship—the invisible
   and unglamorous work of collecting, restoring, safekeeping, and preservation. Maybe
   the answer isn’t to post more, to add more and more streams. Let’s return to our
   existing content and make it more durable and useful.”"
 update: 
-tags:
-- allen tan
-- design
-- a list apart
 City:
 - Plymouth
 Country:

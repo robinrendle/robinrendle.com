@@ -1,6 +1,6 @@
 ---
 title: Food and Sleep
-date: 2015-09-28 18:59:00 Z
+date: 2015-09-28 11:59:00 -07:00
 tags:
 - food
 - gym

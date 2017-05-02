@@ -1,6 +1,6 @@
 ---
 title: A Visual Lexicon
-date: 2013-12-20 14:35:00 Z
+date: 2013-12-20 06:35:00 -08:00
 tags:
 - design
 - css

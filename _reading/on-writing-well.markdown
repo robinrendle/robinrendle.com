@@ -1,12 +1,12 @@
 ---
 title: On Writing Well
-date: 2015-10-07 07:59:00 Z
-extract: 
-update: 
-link: 
+date: 2015-10-07 00:59:00 -07:00
 tags:
 - Writing
 - editing
+extract: 
+update: 
+link: 
 City:
 - Plymouth
 Country:

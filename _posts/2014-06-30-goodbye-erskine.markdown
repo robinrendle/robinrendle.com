@@ -1,6 +1,6 @@
 ---
 title: Goodbye Erskine
-date: 2014-06-30 17:43:00 Z
+date: 2014-06-30 10:43:00 -07:00
 tags:
 - personal
 - work

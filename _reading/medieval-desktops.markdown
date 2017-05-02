@@ -1,6 +1,10 @@
 ---
 title: Medieval desktops
-date: 2014-10-20 09:02:00 Z
+date: 2014-10-20 02:02:00 -07:00
+tags:
+- reading
+- erik kwakkel
+- medieval
 extract: "“...there are very few medieval scenes in which someone is reading but not
   writing – where books are present but pens are not. In part, this has to do with
   medieval study practices. Readers would usually have a pen nearby even when they
@@ -8,10 +12,6 @@ extract: "“...there are very few medieval scenes in which someone is reading b
   at the spur of the moment.”"
 update: 
 link: http://medievalbooks.nl/2014/10/10/medieval-desktops/
-tags:
-- reading
-- erik kwakkel
-- medieval
 City:
 - Plymouth
 Country:

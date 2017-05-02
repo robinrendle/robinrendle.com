@@ -1,6 +1,6 @@
 ---
 title: Quarks, Atoms and Molecules
-date: 2013-07-01 18:46:00 Z
+date: 2013-07-01 11:46:00 -07:00
 tags:
 - css
 - systems

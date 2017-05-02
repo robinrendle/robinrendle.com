@@ -1,6 +1,6 @@
 ---
 title: Bookmarking
-date: 2013-01-20 13:08:00 Z
+date: 2013-01-20 05:08:00 -08:00
 tags:
 - book design
 - internet of things

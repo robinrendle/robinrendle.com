@@ -1,10 +1,6 @@
 ---
 title: Inside Paragraphs
-date: 2014-02-16 00:34:00 Z
-extract: "“Gutenberg considered the counter space, letter space, and line space. Every
-  paragraph, whether written or printed, has these white spaces in it. But they don’t
-  have to be thought of in isolation...”"
-update: 
+date: 2014-02-15 16:34:00 -08:00
 tags:
 - font bureau
 - cryus highsmith
@@ -13,6 +9,10 @@ tags:
 - reading
 - book reviews
 - featured
+extract: "“Gutenberg considered the counter space, letter space, and line space. Every
+  paragraph, whether written or printed, has these white spaces in it. But they don’t
+  have to be thought of in isolation...”"
+update: 
 City:
 - Nottingham
 Country:

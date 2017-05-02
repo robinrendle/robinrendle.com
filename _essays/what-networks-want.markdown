@@ -1,6 +1,6 @@
 ---
 title: What Networks Want
-date: 2016-05-07 23:17:00 +01:00
+date: 2016-05-07 15:17:00 -07:00
 published: false
 tags:
 - web

@@ -1,6 +1,6 @@
 ---
 title: Setting up a default type stylesheet
-date: 2013-01-19 00:00:00 Z
+date: 2013-01-18 16:00:00 -08:00
 tags:
 - css
 - web design

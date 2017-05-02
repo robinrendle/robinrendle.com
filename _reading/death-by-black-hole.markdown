@@ -1,15 +1,15 @@
 ---
 title: Death by Black Hole
-date: 2014-05-03 19:09:00 Z
+date: 2014-05-03 12:09:00 -07:00
+tags:
+- physics
+- Neil deGrasse Tyson
+- science
 extract: Lately I’ve finished reading a fabulous string of novels but it’s made me
   feel guilty about ignoring more science-oriented and fact-driven prose. Thanks to
   this guilt my first tentative steps into the field of physics is a book by Neil
   deGrasse Tyson.
 update: 
-tags:
-- physics
-- Neil deGrasse Tyson
-- science
 City:
 - Nottingham
 Country:

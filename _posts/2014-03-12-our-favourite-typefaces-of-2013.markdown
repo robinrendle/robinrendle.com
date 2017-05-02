@@ -1,6 +1,6 @@
 ---
 title: Our favourite typefaces of 2013
-date: 2014-03-12 12:58:00 Z
+date: 2014-03-12 05:58:00 -07:00
 tags:
 - typographica
 - typography

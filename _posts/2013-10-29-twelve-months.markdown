@@ -1,6 +1,6 @@
 ---
 title: Twelve months
-date: 2013-10-29 20:48:00 Z
+date: 2013-10-29 13:48:00 -07:00
 tags:
 - personal
 - autobiographical

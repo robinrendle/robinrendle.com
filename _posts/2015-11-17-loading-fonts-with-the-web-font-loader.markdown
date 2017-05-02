@@ -1,6 +1,6 @@
 ---
 title: Loading fonts with the Web Font Loader
-date: 2015-11-17 13:17:00 Z
+date: 2015-11-17 05:17:00 -08:00
 tags:
 - css-tricks
 - Font loading

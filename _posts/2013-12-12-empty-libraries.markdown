@@ -1,6 +1,6 @@
 ---
 title: Empty Libraries
-date: 2013-12-12 12:05:00 Z
+date: 2013-12-12 04:05:00 -08:00
 tags:
 - libraries
 - games

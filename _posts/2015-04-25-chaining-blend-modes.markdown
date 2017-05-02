@@ -1,6 +1,6 @@
 ---
 title: Chaining blend-modes
-date: 2015-04-25 12:07:00 Z
+date: 2015-04-25 05:07:00 -07:00
 tags:
 - front-end development
 - blend-modes

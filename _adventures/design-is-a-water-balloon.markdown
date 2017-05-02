@@ -1,6 +1,6 @@
 ---
 title: Design is a Water Balloon
-date: 2016-07-04 08:55:00 +01:00
+date: 2016-07-04 00:55:00 -07:00
 Country: California
 City: San Francisco
 ---

@@ -1,14 +1,14 @@
 ---
 title: Big data, no thanks
-date: 2015-11-03 18:52:00 Z
-extract: 
-update: 
-link: 
+date: 2015-11-03 10:52:00 -08:00
 tags:
 - Nukes
 - security
 - privacy
 - network
+extract: 
+update: 
+link: 
 City:
 - Plymouth
 Country:

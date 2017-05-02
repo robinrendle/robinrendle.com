@@ -1,6 +1,6 @@
 ---
 title: Notes on public speaking
-date: 2013-09-24 21:01:00 Z
+date: 2013-09-24 14:01:00 -07:00
 tags:
 - speaking
 - conferences

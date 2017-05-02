@@ -1,6 +1,6 @@
 ---
 title: XOXO 2015
-date: 2015-09-15 18:14:00 Z
+date: 2015-09-15 11:14:00 -07:00
 tags:
 - xoxo
 - andy mcmillan

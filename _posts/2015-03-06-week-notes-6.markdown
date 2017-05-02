@@ -1,6 +1,6 @@
 ---
 title: 'Week notes #6'
-date: 2015-03-06 21:17:00 Z
+date: 2015-03-06 13:17:00 -08:00
 tags:
 - front-end development
 - css

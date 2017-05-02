@@ -1,9 +1,6 @@
 ---
 title: On File Formats, Very Briefly
-date: 2016-01-18 23:58:00 Z
-extract: Paul Ford describes the early days of the web...
-update: 
-link: https://themanual.org/read/issues/4/paul-ford/article
+date: 2016-01-18 15:58:00 -08:00
 tags:
 - reading
 - paul ford
@@ -12,6 +9,9 @@ tags:
 - hyperlinks
 - word
 - html
+extract: Paul Ford describes the early days of the web...
+update: 
+link: https://themanual.org/read/issues/4/paul-ford/article
 City:
 - Plymouth
 Country:

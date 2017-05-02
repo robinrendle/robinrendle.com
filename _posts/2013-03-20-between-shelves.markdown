@@ -1,6 +1,6 @@
 ---
 title: Between Shelves
-date: 2013-03-20 21:05:00 Z
+date: 2013-03-20 14:05:00 -07:00
 tags:
 - publishing
 - digital-physical

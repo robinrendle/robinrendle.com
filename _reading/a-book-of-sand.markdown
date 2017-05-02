@@ -1,13 +1,13 @@
 ---
 title: A Book of Sand
-date: 2015-10-04 07:30:00 Z
-extract: 
-update: 
-link: http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html
+date: 2015-10-04 00:30:00 -07:00
 tags:
 - reading
 - Borges
 - Short story
+extract: 
+update: 
+link: http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html
 City:
 - Plymouth
 Country:

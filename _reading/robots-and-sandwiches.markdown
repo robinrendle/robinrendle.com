@@ -1,14 +1,14 @@
 ---
 title: Robots and sandwiches
-date: 2014-05-31 19:40:00 Z
-extract: "“And that is why I had such a hard time writing that first program. Computers
-  are way dumber than I was prepared for...”"
-update: 
+date: 2014-05-31 12:40:00 -07:00
 tags:
 - programming
 - ruby
 - chris pine
 - featured
+extract: "“And that is why I had such a hard time writing that first program. Computers
+  are way dumber than I was prepared for...”"
+update: 
 City:
 - Nottingham
 Country:

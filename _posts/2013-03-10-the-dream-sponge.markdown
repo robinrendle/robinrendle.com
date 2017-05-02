@@ -1,6 +1,6 @@
 ---
 title: The Dream Sponge
-date: 2013-03-10 16:12:00 Z
+date: 2013-03-10 09:12:00 -07:00
 tags:
 - story
 location: 

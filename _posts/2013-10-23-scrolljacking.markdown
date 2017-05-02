@@ -1,6 +1,6 @@
 ---
 title: Scrolljacking
-date: 2013-10-23 19:06:00 +01:00
+date: 2013-10-23 11:06:00 -07:00
 tags:
 - web design
 - front-end development

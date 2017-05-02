@@ -1,6 +1,6 @@
 ---
 title: 'Week Notes #4'
-date: 2015-02-20 20:09:00 Z
+date: 2015-02-20 12:09:00 -08:00
 tags:
 - week-notes
 - web design

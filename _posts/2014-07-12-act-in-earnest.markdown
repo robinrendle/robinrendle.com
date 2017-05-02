@@ -1,6 +1,6 @@
 ---
 title: Act in earnest
-date: 2014-07-12 16:01:00 Z
+date: 2014-07-12 09:01:00 -07:00
 tags:
 - speaking
 - reading

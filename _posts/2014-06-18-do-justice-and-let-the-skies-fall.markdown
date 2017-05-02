@@ -1,6 +1,6 @@
 ---
 title: Do justice and let the skies fall
-date: 2014-06-19 05:14:00 Z
+date: 2014-06-18 22:14:00 -07:00
 tags:
 - morality
 - ethics

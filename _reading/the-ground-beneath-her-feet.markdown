@@ -1,16 +1,16 @@
 ---
 title: The Ground Beneath Her Feet
-date: 2014-12-17 23:14:00 Z
-extract: Salman Rushdie’s musical opus, The Ground Beneath Her Feet, is one of a few
-  select books that I want to slip into my friends’ backpacks, or hide in their bookshelf,
-  or scatter copies under their beds until they must eventually concede.
-update: 
-link: 
+date: 2014-12-17 15:14:00 -08:00
 tags:
 - salman rushdie
 - book reviews
 - new yorker
 - featured
+extract: Salman Rushdie’s musical opus, The Ground Beneath Her Feet, is one of a few
+  select books that I want to slip into my friends’ backpacks, or hide in their bookshelf,
+  or scatter copies under their beds until they must eventually concede.
+update: 
+link: 
 City:
 - Plymouth
 Country:

@@ -1,6 +1,6 @@
 ---
 title: Strawberries and Cheese
-date: 2016-06-21 04:46:00 +01:00
+date: 2016-06-20 20:46:00 -07:00
 City: San Francisco
 Country: CA
 extract: The scene opens onto a gloriously dark and grimy café where my father and

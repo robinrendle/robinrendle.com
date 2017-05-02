@@ -1,15 +1,15 @@
 ---
 title: What we see when we read
-date: 2014-09-19 12:38:00 Z
+date: 2014-09-19 05:38:00 -07:00
+tags:
+- peter mendelsund
+- reading
+- featured
 extract: Unlike the title suggests however, the book is not in any way didactic or
   scientific, instead it overflows with questions and ideas, each illustrated in a
   way that lets the reader hover over the pages with glee. I’d rather not spoil the
   fun, since his book is endlessly quotable in every which way...
 update: 
-tags:
-- peter mendelsund
-- reading
-- featured
 City:
 - Plymouth
 Country:

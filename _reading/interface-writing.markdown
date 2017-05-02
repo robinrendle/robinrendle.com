@@ -1,15 +1,15 @@
 ---
 title: Interface Writing
-date: 2014-08-12 07:46:00 Z
-extract: Nicole Fenton has posted her notes of an excellent talk she gave on how to
-  improve copywriting for interfaces. Sadly though I often tend to neglect lots of
-  this advice...
-update: 
+date: 2014-08-12 00:46:00 -07:00
 tags:
 - Nicole Fenton
 - copywriting
 - Nicely Said
 - book reviews
+extract: Nicole Fenton has posted her notes of an excellent talk she gave on how to
+  improve copywriting for interfaces. Sadly though I often tend to neglect lots of
+  this advice...
+update: 
 City:
 - Berlin
 Country:

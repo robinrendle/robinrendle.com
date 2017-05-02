@@ -1,6 +1,6 @@
 ---
 title: Sasha Bruce Youthwork
-date: 2015-07-25 22:17:00 Z
+date: 2015-07-25 15:17:00 -07:00
 extract: 
 update: 
 role: "- Front-end development"

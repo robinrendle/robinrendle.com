@@ -1,6 +1,6 @@
 ---
 title: The XOXO Outpost
-date: 2015-07-30 18:56:00 +01:00
+date: 2015-07-30 10:56:00 -07:00
 tags:
 - andy baio
 - andy mcmillan

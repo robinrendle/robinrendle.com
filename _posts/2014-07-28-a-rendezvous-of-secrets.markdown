@@ -1,6 +1,6 @@
 ---
 title: A rendezvous of secrets
-date: 2014-07-28 15:41:00 Z
+date: 2014-07-28 08:41:00 -07:00
 tags:
 - reading
 - libraries

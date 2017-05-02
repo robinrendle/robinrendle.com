@@ -1,6 +1,6 @@
 ---
 title: The Indie Web Hello
-date: 2016-07-24 08:34:00 +01:00
+date: 2016-07-24 00:34:00 -07:00
 Country: California
 City: San Francisco
 ---

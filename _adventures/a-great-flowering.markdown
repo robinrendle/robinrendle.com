@@ -1,6 +1,6 @@
 ---
 title: A Great Flowering
-date: 2016-09-26 00:38:00 +01:00
+date: 2016-09-25 16:38:00 -07:00
 Country: California
 City: San Francisco
 bodyclass: adventures-blue

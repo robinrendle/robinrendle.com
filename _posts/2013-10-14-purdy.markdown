@@ -1,6 +1,6 @@
 ---
 title: Purdy
-date: 2013-10-14 21:25:00 Z
+date: 2013-10-14 14:25:00 -07:00
 tags:
 - story
 - personal

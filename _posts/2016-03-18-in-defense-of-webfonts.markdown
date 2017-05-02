@@ -1,6 +1,6 @@
 ---
 title: In defense of webfonts
-date: 2016-03-18 17:26:00 +00:00
+date: 2016-03-18 10:26:00 -07:00
 tags:
 - typography
 - web fonts

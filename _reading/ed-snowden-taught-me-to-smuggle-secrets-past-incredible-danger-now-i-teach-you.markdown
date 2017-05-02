@@ -1,7 +1,11 @@
 ---
 title: Ed Snowden Taught Me To Smuggle Secrets Past Incredible Danger. Now I Teach
   You.
-date: 2015-11-23 13:15:00 Z
+date: 2015-11-23 05:15:00 -08:00
+tags:
+- security
+- edward snowden
+- web design
 extract: 'Working in Tails to remain anonymous while I developed the site, however,
   meant that this would be trickier than the web development I’d done in the past.
   I didn’t have access to the latest browsers I was used to, and I didn’t dare test
@@ -13,10 +17,6 @@ extract: 'Working in Tails to remain anonymous while I developed the site, howev
   could be compared to my work in the past.'
 update: 
 link: https://theintercept.com/2014/10/28/smuggling-snowden-secrets/
-tags:
-- security
-- edward snowden
-- web design
 City:
 - Plymouth
 Country:

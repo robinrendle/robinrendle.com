@@ -1,6 +1,6 @@
 ---
 title: Poets are dead people talking about being alive
-date: 2014-05-23 23:38:00 +01:00
+date: 2014-05-23 15:38:00 -07:00
 tags:
 - literature
 - books

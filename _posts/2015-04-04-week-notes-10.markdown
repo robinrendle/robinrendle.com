@@ -1,6 +1,6 @@
 ---
 title: 'Week notes #10'
-date: 2015-04-04 18:23:00 Z
+date: 2015-04-04 11:23:00 -07:00
 tags:
 - css-tricks
 - front-end development

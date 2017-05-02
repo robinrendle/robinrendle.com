@@ -1,6 +1,6 @@
 ---
 title: Making charts with CSS
-date: 2015-08-18 14:47:00 Z
+date: 2015-08-18 07:47:00 -07:00
 tags:
 - css-tricks
 - charts

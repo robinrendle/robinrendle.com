@@ -1,6 +1,6 @@
 ---
 title: Resources for learning how to JavaScript
-date: 2014-09-10 14:20:00 Z
+date: 2014-09-10 07:20:00 -07:00
 tags:
 - javascript
 - html

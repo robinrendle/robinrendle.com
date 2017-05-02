@@ -1,11 +1,7 @@
 ---
 title: What we talk about when we talk about what we talk about when we talk about
   making
-date: 2014-09-19 21:15:00 Z
-extract: "“The boundaries can be drawn wider or narrower, and with more or less care.
-  But the starting points of those boundaries are necessarily accidents of history,
-  and history is pretty messed up.”"
-update: 
+date: 2014-09-19 14:15:00 -07:00
 tags:
 - reading
 - boundaries
@@ -14,6 +10,10 @@ tags:
 - communities
 - environmentalism
 - tim maly
+extract: "“The boundaries can be drawn wider or narrower, and with more or less care.
+  But the starting points of those boundaries are necessarily accidents of history,
+  and history is pretty messed up.”"
+update: 
 City:
 - Plymouth
 Country:

@@ -1,6 +1,6 @@
 ---
 title: The Outpost
-date: 2016-02-22 11:22:00 +00:00
+date: 2016-02-22 03:22:00 -08:00
 tags:
 - xoxo
 - andy mcmillan

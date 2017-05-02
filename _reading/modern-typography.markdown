@@ -1,12 +1,12 @@
 ---
 title: Modern Typography
-date: 2013-02-25 16:57:00 Z
-extract: How much can web designers learn from the recorded history of old, underground
-  print shops and forgotten typographers? A review of Robin Kinross’ delightful book
-  about the history of typographic practice.
+date: 2013-02-25 08:57:00 -08:00
 tags:
 - book reviews
 - typography
+extract: How much can web designers learn from the recorded history of old, underground
+  print shops and forgotten typographers? A review of Robin Kinross’ delightful book
+  about the history of typographic practice.
 Publisher:
 - Hyphen Press
 City:

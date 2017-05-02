@@ -1,15 +1,15 @@
 ---
 title: '6'
-date: 2015-11-02 11:09:00 Z
+date: 2015-11-02 03:09:00 -08:00
+tags:
+- famine
+- starvation
 extract: It serves me well by reminding me that mass anything is political. If one
   person is hungry, who knows, but if 50,000 people are hungry, what’s happening is
   necessarily a question of policy, of how we live together, of “who gets what, when,
   how”.
 update: 
 link: 
-tags:
-- famine
-- starvation
 City:
 - Plymouth
 Country:

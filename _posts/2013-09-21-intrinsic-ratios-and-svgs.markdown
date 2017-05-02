@@ -1,6 +1,6 @@
 ---
 title: Intrinsic Ratios and SVGs
-date: 2013-09-21 17:08:00 Z
+date: 2013-09-21 10:08:00 -07:00
 tags:
 - css
 - web design

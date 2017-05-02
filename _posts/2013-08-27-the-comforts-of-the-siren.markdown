@@ -1,6 +1,6 @@
 ---
 title: The Comforts of the Siren
-date: 2013-08-27 07:51:00 Z
+date: 2013-08-27 00:51:00 -07:00
 tags:
 - story
 - autobiographical

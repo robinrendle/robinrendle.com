@@ -1,13 +1,13 @@
 ---
 title: An interview with Italo Calvino
-date: 2014-10-18 10:17:00 Z
+date: 2014-10-18 03:17:00 -07:00
+tags:
+- italo calvino
+- featured
 extract: "“Writers do not necessarily cherish their translators, and I occasionally
   had the feeling that Calvino would have preferred to translate his books himself...”"
 update: 
 link: http://www.theparisreview.org/interviews/2027/the-art-of-fiction-no-130-italo-calvino
-tags:
-- italo calvino
-- featured
 City:
 - Plymouth
 Country:

@@ -1,16 +1,16 @@
 ---
 title: The Solid Form of Language
-date: 2014-01-05 21:17:00 Z
-extract: "... a script occasionally proves to be more like a brand, or indeed like
-  a prison tattoo, re-engraved on the brain with every letter written and every letter
-  read."
-update: 
+date: 2014-01-05 13:17:00 -08:00
 tags:
 - books
 - Robert Bringhurst
 - language
 - writing
 - alphabets
+extract: "... a script occasionally proves to be more like a brand, or indeed like
+  a prison tattoo, re-engraved on the brain with every letter written and every letter
+  read."
+update: 
 City:
 - Nottingham
 Country:

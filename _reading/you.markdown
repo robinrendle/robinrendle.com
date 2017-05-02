@@ -1,15 +1,15 @@
 ---
 title: You
-date: 2015-03-01 23:05:00 Z
+date: 2015-03-01 15:05:00 -08:00
+tags:
+- reading
+- austin grossman
 extract: Within the code of the game itself lies a world-ending glitch that drives
   the design team to the brink of insanity; our protagonist must find the glitch before
   the game ships and save their creation from the quirks and eccentricities of the
   designer that came before them. It’s a video game murder mystery!
 update: 
 link: 
-tags:
-- reading
-- austin grossman
 City:
 - London
 Country:

@@ -1,6 +1,6 @@
 ---
 title: The Presence of Distortion
-date: 2016-08-27 08:29:00 +01:00
+date: 2016-08-27 00:29:00 -07:00
 Country: California
 City: San Francisco
 ---

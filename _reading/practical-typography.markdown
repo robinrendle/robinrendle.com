@@ -1,16 +1,16 @@
 ---
 title: Practical typography
-date: 2014-08-18 21:25:00 Z
+date: 2014-08-18 14:25:00 -07:00
+tags:
+- matthew butterick
+- practical typography
+- reading
 extract: Finishing a book in this environment feels so much more of an accomplishment
   than wrapping up a physical book, although it made for interesting reading because
   it was not written for upcoming graphic designers or art students (like the majority
   of typographic resources out there), instead this book’s aim had been calibrated
   specifically towards writers.
 update: 
-tags:
-- matthew butterick
-- practical typography
-- reading
 City:
 - Plymouth
 Country:

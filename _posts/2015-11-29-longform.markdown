@@ -1,6 +1,6 @@
 ---
 title: Longform
-date: 2015-11-29 13:39:00 Z
+date: 2015-11-29 05:39:00 -08:00
 tags:
 - podcasts
 - longform

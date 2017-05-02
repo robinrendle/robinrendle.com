@@ -1,6 +1,6 @@
 ---
 title: 'Week notes #7'
-date: 2015-03-14 16:55:00 Z
+date: 2015-03-14 09:55:00 -07:00
 tags:
 - week-notes
 - css-tricks

@@ -1,6 +1,10 @@
 ---
 title: Putting thought into things
-date: 2015-12-01 10:45:00 Z
+date: 2015-12-01 02:45:00 -08:00
+tags:
+- iA
+- web design
+- listening
 extract: Listening is a masochist endeavor. To do it right you have to put everything
   down. Not just your phone, even pen and paper. There is nothing to hold on to when
   you just listen. You have to use your full attention, registering everything that
@@ -11,10 +15,6 @@ extract: Listening is a masochist endeavor. To do it right you have to put every
   up the camera that records the outside.
 update: 
 link: 
-tags:
-- iA
-- web design
-- listening
 City:
 - Plymouth
 Country:

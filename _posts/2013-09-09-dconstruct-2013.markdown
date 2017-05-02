@@ -1,6 +1,6 @@
 ---
 title: dConstruct
-date: 2013-09-09 19:59:00 Z
+date: 2013-09-09 12:59:00 -07:00
 tags:
 - events
 - conferences

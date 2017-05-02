@@ -1,15 +1,15 @@
 ---
 title: Trouble at the Koolaid Point
-date: 2014-10-10 08:09:00 Z
+date: 2014-10-10 01:09:00 -07:00
+tags:
+- kathy sierra
+- feminism
+- justice
 extract: "“It begins with simple threats. You know, rape, dismemberment, the usual.
   It’s a good place to start, those threats, because you might simply vanish once
   those threats include your family.”"
 update: 
 link: http://seriouspony.com/trouble-at-the-koolaid-point
-tags:
-- kathy sierra
-- feminism
-- justice
 City:
 - Plymouth
 Country:

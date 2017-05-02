@@ -1,11 +1,6 @@
 ---
 title: The Library at Night
-date: 2014-01-31 21:56:00 Z
-extract: "“We dream of a library of literature created by everyone and belonging to
-  no one, a library that is immortal and will mysteriously lend order to the universe,
-  and yet we know that every orderly choice, every catalogued realm of the imagination,
-  sets up a tyrannical exclusion.”"
-update: 
+date: 2014-01-31 13:56:00 -08:00
 tags:
 - alberto manguel
 - books
@@ -13,6 +8,11 @@ tags:
 - libraries
 - digital-physical
 - featured
+extract: "“We dream of a library of literature created by everyone and belonging to
+  no one, a library that is immortal and will mysteriously lend order to the universe,
+  and yet we know that every orderly choice, every catalogued realm of the imagination,
+  sets up a tyrannical exclusion.”"
+update: 
 City:
 - Nottingham
 Country:

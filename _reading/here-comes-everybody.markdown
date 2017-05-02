@@ -1,15 +1,15 @@
 ---
 title: Here comes everybody
-date: 2014-10-02 15:13:00 Z
+date: 2014-10-02 08:13:00 -07:00
+tags:
+- reading
+- culture
+- technology
 extract: "“Television has millions of inbound arrows—viewers watching the screen—and
   no outbound arrows at all. You can see Oprah; Oprah can’t see you. On the Web, by
   contrast, the arrows of attention are all potentially reciprocal; anyone can point
   to anyone else, regardless of geography, infrastructure, or other limits.”"
 update: 
-tags:
-- reading
-- culture
-- technology
 City:
 - Plymouth
 Country:

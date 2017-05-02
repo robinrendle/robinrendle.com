@@ -1,6 +1,6 @@
 ---
 title: A New Responsive Font Format for the Web
-date: 2015-11-26 22:08:00 Z
+date: 2015-11-26 14:08:00 -08:00
 tags:
 - ampersand
 - responsive

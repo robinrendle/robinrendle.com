@@ -1,6 +1,6 @@
 ---
 title: Quick Notes & Ramblings
-date: 2016-01-01 01:13:00 +00:00
+date: 2015-12-31 17:13:00 -08:00
 layout: notes
 ---
 

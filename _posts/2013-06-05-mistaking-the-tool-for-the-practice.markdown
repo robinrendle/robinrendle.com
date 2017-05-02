@@ -1,6 +1,6 @@
 ---
 title: Mistaking the tool for the practice
-date: 2013-06-05 18:40:00 Z
+date: 2013-06-05 11:40:00 -07:00
 tags:
 - digital-physical
 - web design

@@ -1,6 +1,6 @@
 ---
 title: With teeth of metal and glass
-date: 2015-06-24 16:09:00 Z
+date: 2015-06-24 09:09:00 -07:00
 tags:
 - relationships
 - diary

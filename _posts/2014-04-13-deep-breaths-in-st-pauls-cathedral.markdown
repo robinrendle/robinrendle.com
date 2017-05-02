@@ -1,6 +1,6 @@
 ---
 title: Deep breaths in St Paul’s cathedral
-date: 2014-04-13 14:36:00 Z
+date: 2014-04-13 07:36:00 -07:00
 tags:
 - speaking
 - story

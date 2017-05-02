@@ -1,6 +1,6 @@
 ---
 title: Setting type with Sass maps
-date: 2014-03-16 20:11:00 Z
+date: 2014-03-16 13:11:00 -07:00
 tags:
 - typography
 - css

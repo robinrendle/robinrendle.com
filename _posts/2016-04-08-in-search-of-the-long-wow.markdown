@@ -1,6 +1,6 @@
 ---
 title: In Search of the Long Wow
-date: 2016-04-08 13:28:00 +01:00
+date: 2016-04-08 05:28:00 -07:00
 categories:
 - reading
 tags:

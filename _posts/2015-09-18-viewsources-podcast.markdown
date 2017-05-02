@@ -1,6 +1,6 @@
 ---
 title: Viewsources podcast
-date: 2015-09-18 22:36:00 Z
+date: 2015-09-18 15:36:00 -07:00
 tags:
 - viewsources
 - typography

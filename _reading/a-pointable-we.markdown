@@ -1,6 +1,6 @@
 ---
 title: A pointable we
-date: 2015-11-10 23:28:00 +00:00
+date: 2015-11-10 15:28:00 -08:00
 tags:
 - Craig Mod
 extract: All I know is the more I read digitally, the more this feeling — the strange

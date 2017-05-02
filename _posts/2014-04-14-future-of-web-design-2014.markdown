@@ -1,6 +1,6 @@
 ---
 title: Future of Web Design 2014
-date: 2014-04-14 10:16:00 Z
+date: 2014-04-14 03:16:00 -07:00
 tags:
 - speaking
 - design

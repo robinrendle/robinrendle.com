@@ -1,6 +1,6 @@
 ---
 title: Call Me Interactivity
-date: 2012-03-10 23:40:00 Z
+date: 2012-03-10 15:40:00 -08:00
 tags:
 - book design
 - design

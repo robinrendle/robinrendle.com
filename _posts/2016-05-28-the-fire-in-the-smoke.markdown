@@ -1,6 +1,6 @@
 ---
 title: The Fire in the Smoke
-date: 2016-05-29 01:26:00 +01:00
+date: 2016-05-28 17:26:00 -07:00
 City: San Francisco
 Country: California
 ---

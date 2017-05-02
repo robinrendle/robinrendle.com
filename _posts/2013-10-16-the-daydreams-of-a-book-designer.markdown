@@ -1,6 +1,6 @@
 ---
 title: The daydreams of a book designer
-date: 2013-10-16 21:09:00 Z
+date: 2013-10-16 14:09:00 -07:00
 tags:
 - story
 - fiction
