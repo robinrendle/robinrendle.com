@@ -18,7 +18,7 @@
         "id": "{{post.url}}",
         "url": "{{post.url}}",
         "title": "{{post.title}}",
-        "content_html": "{{post.content | escape}}",
+        "content_html": "{{post.content | jsonify}}",
         "date_published": "{{ post.date | date_to_xmlschema }}",
         "author": "Robin Rendle"
       } {% if forloop.last %}{% else %},{% endif %}
