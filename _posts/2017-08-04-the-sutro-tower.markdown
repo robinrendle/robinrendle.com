@@ -16,7 +16,7 @@ extract: In my apartment I’ve positioned my desk by the window facing the towe
 
 ![IMG_0531.jpg](/uploads/IMG_0531.jpg)
 
-In my apartment I’ve positioned my desk by the window facing the tower towards the west. In fact I only picked this apartment because of the tower and how it looms above Twin Peaks right next door. As soon as I saw this place I knew that this is where I would write, by this very window. I knew that I would think of the city spinning as I write a million words over the years and I knew that the Sutro Tower would be my writing compatriot. 
+In my apartment I’ve positioned my desk by the window facing the tower towards the west. In fact I only picked this apartment because of the tower and how it looms above Twin Peaks right next door. As soon as I saw this place I knew that this is where I would write, by this very window. I knew that from this perch I’d write a million words as I looked at the sunset and, over the years, I knew that the Sutro Tower would turn out to be my dearest writing compatriot. 
 
 But over time my relationship with the tower has changed and I think that’s because the San Francisco peninsula often feels as if it’s a plate spinning at a million miles an hour. The culture, the population, the tech boom, they all do their best to keep this plate spinning as fast as they can. But the Sutro Tower, to me at least, is the stick holding it all together and makes sure that the city doesn’t one day break off and twirl into the sky. 
 
