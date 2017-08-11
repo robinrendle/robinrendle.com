@@ -8,11 +8,11 @@ collections:
   essays:
     title: Essays
     output: true
+  notes:
+    title: Notes
+    output: true
   posts:
     title: Posts
-    output: true
-  notes:
-    title: Quick Notes & Ramblings
     output: true
   reading:
     title: Reading
