@@ -8,59 +8,30 @@
     "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;
-    $sansfallback: $fallback;
-    .fonts-loaded & {
-        font-weight: normal;
-        font-stretch: normal;
-    }
 
     @if $font == "Display" {
-        .fonts-loaded &,
-        & {
-            font-family: $sansfallback;
-            font-weight: bold;
-        }
-        .fonts-loaded & {
-            font-weight: normal;
-            font-family: "Output Sans bold", $sansfallback;
-        }
+        font-weight: bold;
+        font-family: "Output Sans bold", $fallback;
     }
 
     @if $font == "Small caps" {
-        font-family: $fallback;
         text-transform: uppercase;
         font-weight: normal;
-        font-size: .8em !important;
-
-        .fonts-loaded & {
-            font-size: .9em !important;
-            font-family: "Output Sans", sans-serif;
-        }
+        font-size: .9em !important;
+        font-family: "Output Sans", $fallback;
     }
 
     @if $font == "Regular" {
-        font-family: $fallback;
-        font-weight: normal;
-        .fonts-loaded & {
-            font-family: "Output Sans", $fallback;
-        }
+      font-family: "Output Sans", $fallback;
     }
 
     @if $font == "Regular italic" {
-        font-style: italic;
-        font-family: $fallback;
-        .fonts-loaded & {
-            font-style: italic;
-            font-family: "Output Sans italic", $fallback;
-        }
+      font-style: italic;
+        font-family: "Output Sans italic", $fallback;
     }
 
     @if $font == "Bold" {
-        font-family: $fallback;
-        font-weight: 600;
-        .fonts-loaded & {
-          font-weight: normal;
-          font-family: "Output Sans bold", $fallback;
-        }
+      font-weight: bold;
+      font-family: "Output Sans bold", $fallback;
     }
 }
