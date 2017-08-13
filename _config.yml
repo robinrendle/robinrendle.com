@@ -39,8 +39,8 @@ defaults:
   values:
     permalink: "/notes/:title/"
     layout: default
-    City: "San Francisco"
-    Country: "California"
+    City: San Francisco
+    Country: California
 - scope:
     path: ''
     type: notes
@@ -77,8 +77,8 @@ defaults:
   values:
     permalink: "/adventures/:title/"
     layout: adventures-post
-    Country:
-    City:
+    Country: 
+    City: 
 - scope:
     path: ''
     type: talks
