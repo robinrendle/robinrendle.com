@@ -4,34 +4,29 @@
 // Default typesetting, font-height and font-weight settings.
 
 @mixin typeface($font) {
-    $fallback: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  $fallback: -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif;
 
-    @if $font == "Display" {
-        font-weight: bold;
-        font-family: "Output Sans bold", $fallback;
-    }
+  @if $font == "Small caps" {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: .9em !important;
+    font-family: "Output Sans", $fallback;
+  }
 
-    @if $font == "Small caps" {
-        text-transform: uppercase;
-        font-weight: normal;
-        font-size: .9em !important;
-        font-family: "Output Sans", $fallback;
-    }
+  @if $font == "Regular" {
+    font-family: "Output Sans", $fallback;
+  }
 
-    @if $font == "Regular" {
-      font-family: "Output Sans", $fallback;
-    }
+  @if $font == "Regular italic" {
+    font-style: italic;
+    font-family: "Output Sans italic", $fallback;
+  }
 
-    @if $font == "Regular italic" {
-      font-style: italic;
-        font-family: "Output Sans italic", $fallback;
-    }
-
-    @if $font == "Bold" {
-      font-weight: bold;
-      font-family: "Output Sans bold", $fallback;
-    }
+  @if $font == "Bold" {
+    font-weight: 600;
+    font-family: "Output Sans", $fallback;
+  }
 }

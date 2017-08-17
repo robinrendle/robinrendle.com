@@ -4,249 +4,237 @@
 //
 // Imports all of the SCSS objects and partials into a single file which is then compiled into CSS.
 //
-
 $base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
 $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !default;
-
-
 // UTILITIES : functions + settings to be used anywhere
 // # TODO: separate utils into tools + utils
-    @import "utilities/reset";
-    @import "utilities/rem-calc";
-    @import "utilities/normalize";
-    @import "utilities/clearfix";
-    @import "utilities/breakpoints";
-    @import "utilities/type";
-    @import "utilities/colors";
-    @import "utilities/text-style";
-    @import "utilities/underline";
-    @import "utilities/inverse";
-    @import "utilities/align-text";
-
+@import "utilities/reset";
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+@import "utilities/type";
+@import "utilities/colors";
+@import "utilities/text-style";
+@import "utilities/underline";
+@import "utilities/inverse";
+@import "utilities/align-text";
 // TOOLS
-    @import "tools/trim";
-
+@import "tools/trim";
 // BASE ELEMENT STYLES
-    @import "base/base-spacing";
-    @import "base/main";
-    @import "base/links";
-    @import "base/hierarchy";
-    @import "base/rules";
-    @import "base/code";
-    @import "base/lists";
-
+@import "base/base-spacing";
+@import "base/main";
+@import "base/links";
+@import "base/hierarchy";
+@import "base/rules";
+@import "base/code";
+@import "base/lists";
 // OBJECTS
-    @import "objects/nav";
-    @import "objects/island";
-    @import "objects/multi";
-    @import "objects/preserve-aspect";
-
+@import "objects/nav";
+@import "objects/island";
+@import "objects/multi";
+@import "objects/preserve-aspect";
 // MODULES
-    @import "modules/custom-post";
-    @import "modules/longform";
-    @import "modules/wrapper";
-    @import "modules/codepen";
-    @import "modules/meta-info";
-    @import "modules/banner";
-    @import "modules/footer";
-    @import "modules/hero";
+@import "modules/custom-post";
+@import "modules/longform";
+@import "modules/wrapper";
+@import "modules/codepen";
+@import "modules/meta-info";
+@import "modules/banner";
+@import "modules/footer";
+@import "modules/hero";
+@import "../../fonts/output.scss";
 
-    @import "../../fonts/output.scss";
-
-section[role="main"]{
-    min-height: 80vh;
+section[role="main"] {
+	min-height: 80vh;
 }
 
 ::selection {
-    background-color: rgba($c-primary,0.35);
-    color: #333;
-    text-shadow: none;
+	background-color: rgba($c-primary,0.35);
+	color: #333;
+	text-shadow: none;
 }
 
 .m-heading {
-    @include trim();
-    padding-top: 50px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: left;
-
-    @include media(">medium"){
-        text-align: center;
-        padding-top: 90px;
-        padding-bottom: 70px;
-    }
+	@include trim();
+	padding-top: 50px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: left;
+	@include media(">medium") {
+		text-align: center;
+		padding-top: 90px;
+		padding-bottom: 70px;
+	}
 }
 
 .full {
-    width: 100%;
-    padding: 0 !important;
-    margin: 0;
-    max-width: none !important;
+	width: 100%;
+	padding: 0 !important;
+	margin: 0;
+	max-width: none !important;
 }
 
 .opacity--low {
-    opacity: .5;
-    transition: opacity .3s ease;
+	opacity: 0.5;
+	transition: opacity 0.3s ease;
 
-    &:hover,
-    &:focus {
-        opacity: 1;
-    }
+	&:focus,
+	&:hover {
+		opacity: 1;
+	}
 }
 
 .block {
-    display: block;
+	display: block;
 }
 
 .inline {
-    display: inline-block;
+	display: inline-block;
 }
 
 .flex {
-    display: flex;
+	display: flex;
 }
 
 .flex--truncate {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
-
 .form {
-    align-items: center;
-    position: relative;
-    display: flex;
-    max-width: 100%;
-    height: 50px;
+	align-items: center;
+	position: relative;
+	display: flex;
+	max-width: 100%;
+	height: 50px;
+	@include media(">large") {
+		align-self: center;
+	}
 
-    @include media(">large"){
-        align-self: center;
-    }
-
-    p, input, input[type="submit"] {
-        align-items: center;
-    }
+	input,
+	input[type="submit"],
+	p {
+		align-items: center;
+	}
 }
 
 label {
-    position: absolute;
-    top: -20px;
-    left: 0;
-    font-size: 12px;
-    text-transform: uppercase;
-    width: 70%;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	width: 70%;
 }
 
 input[type="email"] {
-    margin: 0;
-    -webkit-appearance: none;
-    border: none;
-    padding: 0 15px;
-    width: 70%;
-    height: 50px;
-    transition: background-color .3s ease;
-    background-color: white;
-    border: 1px solid #222;
-    border-radius: 0 !important;
+	margin: 0;
+	-webkit-appearance: none;
+	border: none;
+	padding: 0 15px;
+	width: 70%;
+	height: 50px;
+	transition: background-color 0.3s ease;
+	background-color: white;
+	border: 1px solid #222;
+	border-radius: 0 !important;
 
-    &:hover {
-        cursor: pointer;
-    }
+	&:hover {
+		cursor: pointer;
+	}
 
-    &:focus {
-        border: 1px solid $c-primary;
-        color: #333;
-        outline: none;
-    }
+	&:focus {
+		border: 1px solid $c-primary;
+		color: #333;
+		outline: none;
+	}
 }
 
 input[type="submit"] {
-    border-radius: 0;
-    height: 50px;
-    padding: 3px 5px;
-    border: none;
-    width: 30%;
-    transition: background-color .3s ease;
-    background-color: lighten($c-primary, 10);
-    background-color: rgba(lighten($c-primary, 10), .4);
-    background-color: #222;
-    color: #eee;
-    outline: none;
-    font-size: .9em;
+	border-radius: 0;
+	height: 50px;
+	padding: 3px 5px;
+	border: none;
+	width: 30%;
+	transition: background-color 0.3s ease;
+	background-color: lighten($c-primary, 10);
+	background-color: rgba(lighten($c-primary, 10), .4);
+	background-color: #222;
+	color: #eee;
+	outline: none;
+	font-size: 0.9em;
 
-    &:hover,
-    &:focus {
-        outline: none;
-        border-right: none;
-        border-top: none;
-        background-color: $c-primary;
-    }
+	&:focus,
+	&:hover {
+		outline: none;
+		border-right: none;
+		border-top: none;
+		background-color: $c-primary;
+	}
 }
-
 @keyframes wiggle {
-  0% {
-    transform: translate(30px, 20px);
-  } 100% {
-    transform: translate(0, -20px);
-  }
+	0% {
+		transform: translate(30px, 20px);
+	}
+
+	100% {
+		transform: translate(0, -20px);
+	}
 }
 
 .about-image {
-  position: relative;
-  margin-top: 0;
+	position: relative;
+	margin-top: 0;
+	@include media(">medium") {
+		margin-top: 50px;
+	}
 
-  @include media(">medium") {
-    margin-top: 50px;
-  }
+	img {
+		z-index: 1;
+		opacity: 0.8;
+		@include media(">medium") {
+			max-width: 300px;
+		}
+	}
 
-  img {
-    z-index: 1;
-    opacity: .8;
+	&:after,
+	&:before {
+		@include media(">medium") {
+			z-index: -1;
+			animation: wiggle 10s ease infinite alternate;
+			content: '';
+			background-color: #3d5599;
+			mix-blend-mode: hard-light;
+			opacity: 0.4;
+			position: absolute;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			top: 0;
+		}
+	}
 
-    @include media(">medium") {
-      max-width: 300px;
-    }
-  }
-
-  &:before, &:after {
-    @include media(">medium") {
-      z-index: -1;
-      animation: wiggle 10s ease infinite alternate;
-      content: '';
-      background-color: #3d5599;
-      mix-blend-mode: hard-light;
-      opacity: .4;
-      position: absolute;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      top: 0;
-    }
-  }
-
-  &:after {
-    z-index: 2;
-    background: transparent;
-    animation: wiggle 10s ease infinite alternate-reverse;
-    border: 3px solid #3d5599;
-    opacity: 1;
-  }
+	&:after {
+		z-index: 2;
+		background: transparent;
+		animation: wiggle 10s ease infinite alternate-reverse;
+		border: 3px solid #3d5599;
+		opacity: 1;
+	}
 }
 
 .overflow-hidden {
-  overflow: hidden;
+	overflow: hidden;
 }
-
-
-
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important
