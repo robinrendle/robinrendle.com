@@ -55,6 +55,10 @@
 			line-height: 1.65;
 		}
 		@include media(">large") {
+			 @include remCalc(font-size, 18);
+			line-height: 1.7;
+		}
+		@include media(">gigantic") {
 			 @include remCalc(font-size, 19);
 			line-height: 1.7;
 		}
