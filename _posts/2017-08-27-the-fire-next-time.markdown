@@ -18,7 +18,7 @@ Take this example which follows a description of Baldwin describing the injustic
 
 This is where I might make the comparison to modern times but it would hurt far too much to do so. This next section is likewise difficult to chew because of how impossibly relatable it is: 
 
-> Try to imagine how you would if you woke up one morning to find the sun shining and all the stars aflame. You would be frightened because it is out of the order of nature. Any upheaval in the universe is terrifying because it so profoundly attacks one’s sense of one’s own reality. Well, the black man has functioned in the white man’s world as a fixed star, as an immovable pillar: and as he moves out of his place, heaven and earth are shaken to their foundations.
+> Try to imagine how you would feel if you woke up one morning to find the sun shining and all the stars aflame. You would be frightened because it is out of the order of nature. Any upheaval in the universe is terrifying because it so profoundly attacks one’s sense of one’s own reality. Well, the black man has functioned in the white man’s world as a fixed star, as an immovable pillar: and as he moves out of his place, heaven and earth are shaken to their foundations.
 
 But as I read more of Baldwin’s work the more I realize why he’s not as celebrated in America as much as Martin Luther King Jr. or Malcolm X – it’s because of his opinions on religion:
 
