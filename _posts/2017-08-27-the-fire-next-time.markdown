@@ -10,7 +10,7 @@ City: San Francisco
 Country: California
 ---
 
-I’ve been reading James Baldwin’s _The Fire Next Time_ over the past week and it’s surprising to me that I don’t find his work as celebrated as it ought to be. I’ve watched some of his debates and read a couple of his books and each time I’m in complete awe of Baldwin’s prose and the eloquent way in which he tears apart injustice. The book though is a collection of essays on racial discrimination, slavery, white guilt, Reparations and the relationship between Islam, Christianity and the African-American community in 1960s America. But it’s difficult to pick a section of the book to talk about because every word is like a carefully sharpened blade — Baldwin decimates these subjects like one else ever has. 
+I’ve been reading James Baldwin’s _The Fire Next Time_ over the past week and it’s surprising to me that I don’t find his work as celebrated as it ought to be. I’ve watched some of his debates and read a couple of his books and each time I’m in complete awe of Baldwin’s prose and the eloquent way in which he tears apart injustice. The book though is a collection of essays on racial discrimination, slavery, white guilt, Reparations and the relationship between Islam, Christianity and the African-American community in 1960s America. But it’s difficult to pick a section of the book to talk about because every word is like a carefully sharpened blade. 
 
 Take this example where Baldwin is talking about the miserable conditions that African-Americans find themselves in on their own homeland:
 
