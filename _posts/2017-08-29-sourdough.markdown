@@ -13,7 +13,7 @@ extract: Robin Sloan’s new book is a precious thing.
 
 Robin Sloan’s [_Sourdough_](https://www.robinsloan.com/books/sourdough/) is a precious thing. It’s a novel set in the Bay Area about the making of a mysterious bread and the programming of an artificial intelligence for a robotic hand. I would mention something more about the protagonist or the main drive of the story but I don’t want to spoil even a single moment of the book. You must read it as soon as possible.
 
-To be quite honest I was a little worried before I picked up my copy. Robin’s previous book [_Mr Penumbra’s 24 Hour Bookstore_](https://www.robinsloan.com/books/penumbra/) and its prequel [_Ajax Penumbra: 1969_](https://www.amazon.com/Ajax-Penumbra-1969-Robin-Sloan/dp/1782395172) are amongst my very favorites. So there was a niggling concern in the back of my mind; would this story be as delightful as those two previous thrillers about secret societies, libraries and books?
+To be quite honest I was a little worried before I picked up my copy though. Robin’s previous book [_Mr Penumbra’s 24 Hour Bookstore_](https://www.robinsloan.com/books/penumbra/) and its prequel [_Ajax Penumbra: 1969_](https://www.amazon.com/Ajax-Penumbra-1969-Robin-Sloan/dp/1782395172) are amongst my very favorites. So there was a niggling concern in the back of my mind; would this story be as delightful as those two previous thrillers about secret societies, libraries and books?
 
 I’m delighted to report that yes, _Sourdough_ is unequivocally brilliant.
 
