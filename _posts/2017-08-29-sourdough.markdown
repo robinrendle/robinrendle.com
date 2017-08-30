@@ -19,7 +19,7 @@ I’m delighted to report that yes, _Sourdough_ is unequivocally brilliant.
 
 ![sourdough-cover-animation.gif](/uploads/sourdough-cover-animation.gif)
 
-Returning to Robin’s prose though is like picking up a P.G. Wodehouse story once again. There’s a jovial, light hearted buzz about everyone and everything in the universe of _Sourdough_ that makes it difficult to put down – I think I read the book in three big gulps. 
+Returning to Robin’s prose though is like picking up a P.G. Wodehouse story once again. Somehow you’ve forgotten just how much more jovial and light hearted writing can really be. Everyone and everything in the universe of _Sourdough_ buzzes with enthusiasm and mystery that makes it almost impossible to put down – I think I read the book in three big gulps (which is especially rare for me these days).
 
 In short, you should stop reading this and preorder Robin’s book immediately.
 
