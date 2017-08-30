@@ -23,6 +23,4 @@ Returning to Robin’s prose though is like picking up a P.G. Wodehouse story on
 
 In short, you should stop reading this and preorder Robin’s book immediately.
 
-
-
 Also, attention San Francisco folk! Robin is speaking at Green Apple Books on the Park on 9/7 and I will most certainly be there to hear tales of books about this mysterious sourdough bread.
