@@ -21,6 +21,6 @@ I’m delighted to report that yes, _Sourdough_ is unequivocally brilliant.
 
 The only thing I’ll mention about it is that returning to Robin’s prose is like picking up a P.G. Wodehouse story once again. Somehow you’ve forgotten how stories are capable of being jovial, light hearted or funny and you suddenly realize how not every story needs to be a violent, dystopian apocalypse where monsters rip each other to pieces in every scene. Instead, in a delightful twist, everyone and everything in the universe of _Sourdough_ buzzes with enthusiasm. And it’s this sort of Parks and Recreation-esque sensibility that makes it almost impossible to put down — I think I read the book in three gulps (which is especially rare for me these days).
 
-In short, you should stop reading this and preorder Robin’s book immediately.
+In short, you should preorder Robin’s book immediately.
 
 Also, attention San Francisco folk! Robin is speaking at Green Apple Books on the Park on 9/7 and I will most certainly be there to hear tales of books about this mysterious sourdough bread.
