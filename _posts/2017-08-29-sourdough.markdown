@@ -11,11 +11,9 @@ Country: California
 extract: Robin Sloan’s new book is a precious thing.
 ---
 
-Robin Sloan’s [_Sourdough_](https://www.robinsloan.com/books/sourdough/) is a precious thing. It’s a novel set in the Bay Area about the making of a mysterious bread and the programming of an artificial intelligence for a robotic hand. I would mention something more about the protagonist or the main drive of the plot but I don’t want to spoil even a moment of the book.
+Robin Sloan’s [_Sourdough_](https://www.robinsloan.com/books/sourdough/) is a precious thing. It’s a novel set in the Bay Area about the making of a mysterious bread and the programming of an artificial intelligence for a robotic hand. I would mention something more about the protagonist or the main drive of the plot but I don’t want to spoil even a moment of the book. To be quite honest though I was a little worried before I picked up my copy. Robin’s previous work with [_Mr Penumbra’s 24 Hour Bookstore_](https://www.robinsloan.com/books/penumbra/) and its prequel [_Ajax Penumbra: 1969_](https://www.amazon.com/Ajax-Penumbra-1969-Robin-Sloan/dp/1782395172) are amongst my very favorites. So there was a niggling concern in the back of my mind; would this story be as delightful as those two previous thrillers?
 
-To be quite honest I was a little worried before I picked up my copy though. Robin’s previous work with [_Mr Penumbra’s 24 Hour Bookstore_](https://www.robinsloan.com/books/penumbra/) and its prequel [_Ajax Penumbra: 1969_](https://www.amazon.com/Ajax-Penumbra-1969-Robin-Sloan/dp/1782395172) are amongst my very favorites. So there was a niggling concern in the back of my mind; would this story be as delightful as those two previous thrillers about secret societies, libraries and books?
-
-I’m delighted to report that yes, _Sourdough_ is unequivocally brilliant.
+Well, I’m delighted to report that yes, _Sourdough_ is unequivocally brilliant.
 
 ![sourdough-cover-animation.gif](/uploads/sourdough-cover-animation.gif)
 
@@ -23,4 +21,4 @@ The only thing I’ll mention about it is that returning to Robin’s prose is l
 
 In short, you should preorder Robin’s book immediately.
 
-Also, attention San Francisco folk! Robin is speaking at Green Apple Books on the Park on 9/7 and I will most certainly be there to hear tales of books about this mysterious sourdough bread.
+Also, attention San Francisco folk! Robin is speaking at Green Apple Books on the Park on 9/7 and I will most certainly be there to hear tales of books, machine learning and this mysterious sourdough bread.
