@@ -8,7 +8,7 @@ tags:
 - reading
 City: San Francisco
 Country: California
-excerpt: We can’t afford to see books as art if we want to make a contribution, whatever
+extract: We can’t afford to see books as art if we want to make a contribution, whatever
   size that might be, to the world of bookmaking. Rather, we must see books as work
   instead.
 ---
