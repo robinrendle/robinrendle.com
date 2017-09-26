@@ -12,7 +12,7 @@ extract: If a single intelligible and kind word can be wrenched out of me as I w
   that particular week’s letter than that’s a good enough of an adventure for me.
 ---
 
-After more than a year of working on *[Adventures in Typography](http://robinrendle.com/adventures)*, a weekly newsletter that I write about typography and design, I’ve figured out what it is or really what I want it to be. And so now that it’s reached just over 500 subscribers I thought it might be time to make a record of why I’m working on this side project, what’s successful about it and what I hope to accomplish in the future.
+After more than a year of working on *[Adventures in Typography](http://robinrendle.com/adventures)*, a weekly newsletter that I write about typography and design, I’ve figured out what it is or really what I want it to be. And so now that it’s reached just over 500 subscribers I thought it might be the best time to make a record of why I’m working on this side project, what’s successful about it, what I messed up, and what I hope to accomplish in the future.
 
 ## Audience: Who do I want to read it?
 Typically I think design writing is mostly a garbage topic for two reasons: first, it’s a field that encourages folks that are only interested in fame and fortune rather than serious research or good writing. It’s not just Medium, but almost everything that makes it to print, too. Writing about design is often treading well-worn and familiar ground or it’s boastful and arrogant.
@@ -32,10 +32,8 @@ For _Adventures_ I take Reggie Fils-Aimé’s thoughts about the design of Mario
 ## Voice: what should it sound like?
 I experimented with the tone for the longest time. At first I expected it to be serious and rather stately, but I found that it’s far too difficult to write something _serious_ in the timeframe that I give myself. Plus, it simply isn’t fun. I know that if it was a Sunday morning I wouldn’t rush to my inbox to find a giant essay about type sitting there. But if there was a lighthearted story with a bunch of links to surf through then heck yes I most certainly would.
 
-This leads to my second set of rules for _Adventures_: keep it jovial, lighthearted and brief.
+This leads to my second set of rules for _Adventures_: keep it jovial, lighthearted and brief. It took me yonks to learn that my voice in _Adventures_ should sound just like I speak in real life; fast-paced, optimistic as all heck and full of bumbling errors. 
 
-It took me yonks to learn that my voice in _Adventures_ should sound just like I speak in real life; fast-paced, optimistic as all heck and full of bumbling errors. 
-
-I then found myself enjoying the posts that felt more like a stream of consciousness or an open notepad of all the messy thoughts that were bumping into each other in my head. With that, I began to take myself less seriously, and be a little less critical when it comes to the editing process. _It’s okay if the posts have spelling mistakes and it’s okay if they don’t quite lead anywhere._ 
+After a while I found myself enjoying the posts that felt more like a stream of consciousness or an open notepad of all the messy thoughts that were bumping into each other in my head. With that, I began to take myself less seriously, and be a little less critical when it comes to the editing process. _It’s okay if the posts have spelling mistakes and it’s okay if they don’t quite lead anywhere._ 
 
 If a single intelligible and kind word can be wrenched out of me as I write that particular week’s letter than that’s a good enough of an adventure for me.
