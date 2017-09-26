@@ -15,7 +15,7 @@ extract: If a single intelligible and kind word can be wrenched out of me as I w
 After more than a year of working on *[Adventures in Typography](http://robinrendle.com/adventures)*, a weekly newsletter that I write about typography and design, I’ve figured out what it is or really what I want it to be. And so now that it’s reached just over 500 subscribers I thought it might be the best time to make a record of why I’m working on this side project, what’s successful about it, what I messed up, and what I hope to accomplish in the future.
 
 ## Audience: Who do I want to read it?
-Typically I think design writing is mostly a garbage topic for two reasons: first, it’s a field that encourages folks that are only interested in fame and fortune rather than serious research or good writing. It’s not just Medium, but almost everything that makes it to print, too. Writing about design is often treading well-worn and familiar ground or it’s boastful and arrogant.
+Typically I think design writing is mostly a garbage topic for two reasons: first, it’s a field that encourages folks that are only interested in fame and fortune rather than serious research or good writing. It’s not just a problem with the type of writing that’s published on Medium, but almost everything that makes it to print, too. Writing about design is often treading well-worn and familiar ground or it’s boastful and arrogant.
 
 Secondly, I think design writing is hot garbage because it encourages boring writing. The technical side of design, the really useful stuff like how fonts actually work, makes for boring reading. It’s written without any charisma or flair for a group of readers with infinite patience.
 
