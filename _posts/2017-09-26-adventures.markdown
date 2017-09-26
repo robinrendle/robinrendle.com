@@ -26,7 +26,7 @@ The best constraint about the project is that I have to publish an adventure eac
 
 Anyway, whenever I think of the ideal _Adventures_ experience I think of someone reading their inbox early on a weekend morning with coffee in hand. The post should take no longer than ten or fifteen minutes to read, even if they happen to follow all the links that I scatter through it. Typically that means I hope to write about one story, or have a single continuous thread, running through it instead of a bunch of links dumped into a list. At the beginning of the project I constantly made the mistake of writing giant essays that tried to accomplish everything and that simply wasn’t scalable, or fun.
 
-With _Adventures in Typography_ I often think about what Reggie Fils-Aimé’s said about the design of Mario: _if it isn’t fun, then why bother?_ 
+With _Adventures in Typography_ I often think about what Reggie Fils-Aimé said about the design of Mario: _if it isn’t fun, then why bother?_ 
 
 
 ## Voice: What should it sound like?
