@@ -38,4 +38,4 @@ It took me yonks to learn that my voice in _Adventures_ should sound just like I
 
 I then found myself enjoying the posts that felt more like a stream of consciousness or an open notepad of all the messy thoughts that were bumping into each other in my head. With that, I began to take myself less seriously, and be a little less critical when it comes to the editing process. _It’s okay if the posts have spelling mistakes and it’s okay if they don’t quite lead anywhere._ 
 
-If a single intelligible and kind word can be wrenched out of me as I write that particular week’s letter than that’s a good enough of an adventure for me.
+If a single intelligible and kind word can be wrenched out of me as I write that particular week’s letter than that’s a fine adventure for me.
