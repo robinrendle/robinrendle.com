@@ -1,0 +1,41 @@
+---
+title: Notes on Adventures
+date: 2017-09-26 00:21:00 -07:00
+categories:
+- adventures
+tags:
+- Writing
+- newsletter
+City: San Francisco
+Country: California
+extract: If a single intelligible and kind word can be wrenched out of me as I write
+  that particular week’s letter than that’s a good enough of an adventure for me.
+---
+
+After more than a year of working on *[Adventures in Typography](http://robinrendle.com/adventures)*, a weekly newsletter that I write about typography and design, I’ve figured out what it is or really what I want it to be. And so now that it’s reached just over 500 subscribers I thought it might be time to make a record of why I’m working on this side project, what’s successful about it and what I hope to accomplish in the future.
+
+## Audience: Who do I want to read it?
+Typically I think design writing is mostly a garbage topic for two reasons: first, it’s a field that encourages folks that are only interested in fame and fortune rather than serious research or good writing. It’s not just Medium, but almost everything that makes it to print, too. Writing about design is often treading well-worn and familiar ground or it’s boastful and arrogant.
+
+Secondly, I think design writing is hot garbage because it encourages boring writing. The technical side of design, the really useful stuff like how fonts actually work, makes for boring reading. It’s written without any charisma or flair for a group of readers with infinite patience.
+
+So with _Adventures_ I wanted to avoid the fame-riddled, Medium-esque writing and the boring stuff I read in books about typography. I want to welcome everyone to the world of typography, from amateurs to professional and experienced type designers. And that’s a tricky sort of balancing act.
+
+## Timeline: How long should it take to read?
+The best thing about the project is that I have to publish an adventure each Saturday evening or Sunday morning. This deadline gives me the incentive and the kick in the butt that I need to continuously write–after long enough it begins to feel like exercise, in a good way. It feels weird not writing _Adventures_  during the weekend because it’s become a habit. However, in the beginning my Saturday mornings were frightful—I’d open up my laptop without a single clue as to what would be good enough. It was scary.
+
+Anyway, whenever I think of the ideal _Adventures_ experience I think of someone reading their inbox early on a weekend morning with coffee in hand. The post should take no longer than ten or fifteen minutes to read, even if they happen to follow all the links that I scatter through the letter. So it should typically only have a single story, or a single thread, running through it. At the beginning I constantly made the mistake of writing giant essays that tried to accomplish everything and that simply wasn’t scalable, or fun.
+
+For _Adventures_ I take Reggie Fils-Aimé’s thoughts about the design of Mario to heart: _if it isn’t fun, then why bother?_ 
+
+
+## Voice: what should it sound like?
+I experimented with the tone for the longest time. At first I expected it to be serious and rather stately, but I found that it’s far too difficult to write something _serious_ in the timeframe that I give myself. Plus, it simply isn’t fun. I know that if it was a Sunday morning I wouldn’t rush to my inbox to find a giant essay about type sitting there. But if there was a lighthearted story with a bunch of links to surf through then heck yes I most certainly would.
+
+This leads to my second set of rules for _Adventures_: keep it jovial, lighthearted and brief.
+
+It took me yonks to learn that my voice in _Adventures_ should sound just like I speak in real life; fast-paced, optimistic as all heck and full of bumbling errors. 
+
+I then found myself enjoying the posts that felt more like a stream of consciousness or an open notepad of all the messy thoughts that were bumping into each other in my head. With that, I began to take myself less seriously, and be a little less critical when it comes to the editing process. _It’s okay if the posts have spelling mistakes and it’s okay if they don’t quite lead anywhere._ 
+
+If a single intelligible and kind word can be wrenched out of me as I write that particular week’s letter than that’s a good enough of an adventure for me.
