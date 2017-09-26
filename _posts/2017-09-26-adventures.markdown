@@ -17,7 +17,7 @@ After more than a year of working on *[Adventures in Typography](http://robinren
 ## Audience: Who do I want to read it?
 Typically I think design writing is mostly a garbage topic for two reasons: first, it’s a field that encourages folks that are only interested in fame and fortune rather than serious research or good writing. It’s not just a problem with the type of writing that’s published on Medium, but almost everything that makes it to print, too. 90% of design writing is treading well-worn and familiar ground or is boastful and arrogant instead.
 
-Secondly, I think design writing is hot garbage because it encourages boring writing. The technical side of design, the really useful stuff like how fonts actually work, makes for extraordinarily boring reading. A lot of that stuff is generally written without any charisma or flair for a group of readers with seemingly infinite patience. I am certainly not one of them.
+Secondly, I think design writing is hot garbage because it encourages boring writing. The technical side of design, the really useful stuff like how fonts actually work, makes for extraordinarily boring reading. A lot of that stuff is generally written without any charisma or flair for a group of readers with seemingly infinite patience. I know that I’m certainly not one of them.
 
 So with _Adventures_ I wanted to avoid the fame-riddled, Medium-esque writing and the boring stuff I read in books about typography. I want to welcome everyone to the world of typography, from amateurs to professional and experienced type designers. And that’s a tricky sort of balancing act.
 
