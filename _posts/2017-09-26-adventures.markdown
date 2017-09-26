@@ -34,6 +34,6 @@ I experimented with the tone for the longest time. At first I expected it to be 
 
 This leads to my second set of rules for _Adventures_: keep it jovial, lighthearted and brief. It took me yonks to learn that my voice in _Adventures_ should sound just like I speak in real life; fast-paced, optimistic-as-all-heck and full of bumbling errors. 
 
-I then found myself enjoying the posts that were more like a stream of consciousness or an open notepad of all the messy thoughts bumping around in my head. With that, I began to take myself less seriously, and be less critical when it comes to the editing process. _It’s okay if the posts have spelling mistakes and it’s okay if they don’t quite lead anywhere._ 
+I then found myself enjoying the posts that were more like a stream of consciousness or an open notepad of all the messy thoughts bumping around in my head. With that, I began to take myself less seriously, and be less critical when it comes to the editing process. _It’s okay if the posts have spelling mistakes and it’s okay if they don’t quite lead anywhere._ This isn’t homework. It’s a clunky, excitable email sent to a close friend.
 
 My general goal is this: if a single intelligible and kind word can be wrenched out of me as I write that particular week’s letter than that’s a fine adventure for me. And I hope it is for you, as well.
