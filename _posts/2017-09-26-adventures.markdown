@@ -29,7 +29,7 @@ Anyway, whenever I think of the ideal _Adventures_ experience I think of someone
 With _Adventures in Typography_ I often think about what Reggie Fils-Aimé’s said about the design of Mario: _if it isn’t fun, then why bother?_ 
 
 
-## Voice: what should it sound like?
+## Voice: What should it sound like?
 I experimented with the tone for the longest time. At first I expected it to be serious and rather stately, but I found that it’s far too difficult to write something _serious_ in the timeframe that I give myself. Plus, it simply isn’t fun. I know that if it was a Sunday morning I wouldn’t rush to my inbox to find a giant essay about type sitting there. But if there was a lighthearted story with a bunch of links to surf through then heck yes I most certainly would.
 
 This leads to my second set of rules for _Adventures_: keep it jovial, lighthearted and brief. It took me yonks to learn that my voice in _Adventures_ should sound just like I speak in real life; fast-paced, optimistic-as-all-heck and full of bumbling errors. 
