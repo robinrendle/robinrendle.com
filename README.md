@@ -10,10 +10,3 @@ This project runs on [Jekyll](https://jekyllrb.com/), so all content is written 
 CSS is preprocessed with Sass, whilst JavaScript is written in plain ES5.
 
 All assets, including images, JavaScript and Sass files, are contained within the `_static` directory. [Gulp](http://gulpjs.com/) plugins then process these files into `css`, `js` and `images` directories. You can see which plugins are installed by checking out the `package.json` file.
-
-
-
-## Typography
-
-Everything is set with [Gimlet](http://djr.com/gimlet) by David Jonathan Ross.
-
