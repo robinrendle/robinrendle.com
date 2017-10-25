@@ -24,4 +24,4 @@ One of us, a fabulously talented and experienced writer, about to publish a seco
 
 Somehow this gathering between us was funny, although I can’t quite describe why. There was this sense of history or something, the way that one writer had been influenced by the other. It was funny because each of us came from halfway across the world to find ourselves in this little bar excitedly talking about bundles of paper and how we were all trying to do the same thing, really, even if our work was wildly different.
 
-As the evening crept up on us, our gathering disbanded, and I remember stepping out of the bar afterwards into the misty, cool evening. The Haight was deadly quiet and for the first time in a very long while I felt a part of a community, a gang of friends, and I hoped to drink it all up before the moment faded.
+As the evening crept up on us, our gathering disbanded, and I remember stepping out of the bar afterwards into the misty, cool evening. The Haight was deadly quiet and for the first time in a very long while I felt part of a community, a gang of friends, and I hoped to drink it all up before the moment faded.
