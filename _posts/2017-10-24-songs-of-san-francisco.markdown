@@ -1,0 +1,27 @@
+---
+title: Songs of San Francisco
+date: 2017-10-24 23:00:00 -07:00
+categories:
+- books
+- friends
+tags:
+- Robin Sloan
+- Jez Burrows
+City: San Francisco
+Country: California
+extract: There was this sense of history or something, the way that one writer had
+  been influenced by the other. It was funny because each of us came from halfway
+  across the world to find ourselves in this little bar excitedly talking about bundles
+  of paper and how we were all trying to do the same thing, really, even if our work
+  was wildly different.
+---
+
+A moment; brief, and fabulously memorable.
+
+Three of us were sat in a restaurant in the Haight enjoying drinks and bookish conversations when it struck me: this was one of those little moments that I’ll remember for the rest of my life. It’s not as important as a wedding, true. And it’s not as electric as when you meet someone for the first time and realize holy heck *this*, forever *this*. But it was a bookmark, of sorts. A moment that divides two periods of your life into clear, distinct and separate bits. That’s not because of the flavor of the conversation necessarily, although perhaps it was the drinks. Rather, I think this moment was so very important to me because we were all at this very exciting moment in our lives. And each of us appeared to be the student of the other in a way. 
+
+One of us, a fabulously talented and experienced writer, about to publish a second novel. The next was on his way to publishing his first of what I hope to be only the beginning of a long and lucrative career of many books. And then there was me, with my grand total of zero books. 
+
+Somehow this gathering between us was funny, although I can’t quite describe why. There was this sense of history or something, the way that one writer had been influenced by the other. It was funny because each of us came from halfway across the world to find ourselves in this little bar excitedly talking about bundles of paper and how we were all trying to do the same thing, really, even if our work was wildly different.
+
+The gathering disbanded, and I remember stepping out of the bar afterwards into the misty, cool evening hoping to drink it all up. 
