@@ -15,7 +15,7 @@ The more I learn about design, and the more experienced I become in the field, t
 
 Amidst this flurry of questions I’ve noticed that there’s an art to giving good feedback. And I am, well, let’s say that there’s an opportunity for improvement here.
 
-This is the problem: whenever I see bad design during critiques I get genuinely, emotionally upset because I want to list out every problem that I’m seeing and tear it apart. I want to smash the design to bits. “The hierarchy is bad!” I want to shout. “The words don’t make any sense!” I want to yell. And with teeth clenched I try to think of a way to casually say “How on earth is this design supposed to work at smaller screen sizes?”
+This is the problem: whenever I see bad design during critiques I get genuinely, emotionally upset because I want to list out every problem that I’m seeing and tear it apart. I want to smash the design to bits. “The hierarchy is bad!” I want to shout. “The words don’t make any sense!” I want to yell. And with teeth clenched I try to think of a way to casually mention “How on earth is this design supposed to work at smaller screen sizes?”
 
 I recognize that this makes me a jerk and it’s led to all sorts of uncomfortable situations with other designers. In one particularly uncomfortable session I got so angry that the whole team looked at me slack-jawed.
 
