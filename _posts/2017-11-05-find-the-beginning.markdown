@@ -13,7 +13,7 @@ Country: California
 extract: "“Tell me about a complicated man.”"
 ---
 
-The NYT has a great post about Emily Wilson’s [new translation of the Odyssey](https://www.nytimes.com/2017/11/02/magazine/the-first-woman-to-translate-the-odyssey-into-english.html). But here’s a snippet from [a thread](https://twitter.com/catacalypto/status/926359329887764481) that Cat Manning took from that new translation:
+The NYT has a great post about Emily Wilson’s [new translation of the Odyssey](https://www.nytimes.com/2017/11/02/magazine/the-first-woman-to-translate-the-odyssey-into-english.html), but here’s a snippet of the opening lines of the poem from [a real good thread](https://twitter.com/catacalypto/status/926359329887764481) that I can’t stop thinking about:
 
 > Tell me about a complicated man.  
 Muse, tell me how he wandered and was lost  
