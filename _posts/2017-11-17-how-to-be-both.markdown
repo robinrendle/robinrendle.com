@@ -27,3 +27,4 @@ But which part of my copy should I extract for you? Which part describes the boo
 Smith writes:
 
 > It is a feeling thing, to be a painter of things: cause every thing, even an imagined or gone thing or creature or person has essence: paint a rose or a coin or a duck or a brick and you’ll feel it as sure as if a coin had a mouth and told you what it was like to be a coin...
+
