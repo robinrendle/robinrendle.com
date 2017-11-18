@@ -20,7 +20,7 @@ Ali Smith’s potent and luminous novel *How to be both* has been sitting on my 
 
 Here’s one of the playful tricks of the novel: it is split into two halves and with each copy of the book Ali Smith devilishly switches the order of those parts. For example, the friend that recommended the book to me began their copy with the ending of mine and so I now feel that we read two entirely separate novels.
 
-Somehow it works, delightfully so.
+Somehow it works, even delightfully so.
 
 But which part should I extract for you? Which part describes the book in all its color? I won’t spoil the story at all but I’ll give you a sense of the playfulness in Smith’s writing: she is the sort of writer that requires you *read* and pay attention to the smallest of details. Not in a pedantic, classical way but in the sort that encourages the reader to sit up straight. Smith writes:
 
