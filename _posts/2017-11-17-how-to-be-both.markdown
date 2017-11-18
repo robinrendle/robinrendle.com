@@ -16,9 +16,7 @@ extract: "“It is a feeling thing, to be a painter of things: cause every thing
   you what it was like to be a coin...”"
 ---
 
-Ali Smith’s potent and luminous novel *How to be both* has been sitting on my desk for several days, as I wait to return to it and write something even remotely coherent about it. But I realize now that that’ll always be quite impossible: *How to be both* is the hand-waving, self-stuttering kind of book where I cannot possibly hold myself back.
-
-It’s a buoyant and important novel for so many reasons but none of which I want to translate because I think that would be a disservice to the source material in a way. Instead I want to gurgle and babble, I want to flail the book in the air around my friends, I want to speak in tongues and let everyone know that this is a novel that will haunt you forever. 
+Ali Smith’s potent and luminous novel *How to be both* has been sitting on my desk for several days, as I wait to return to it and write something even remotely coherent. But I realize now that will be impossible: *How to be both* is the hand-waving, self-stuttering kind of book where I cannot possibly hold myself back. It’s buoyant and important in the way a good novel always is but for reasons I don’t want to spoil. Instead I want to gurgle and babble, I want to flail the book in the air around my friends nonsensically, I want to speak in tongues and let everyone know that this is a novel that will haunt you forever. 
 
 The novel is split into two halves and with each printing Ali Smith devilishly switches the order of them; a friend began their copy with the ending of mine and so I feel like we read two entirely separate novels.
 
