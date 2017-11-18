@@ -22,6 +22,6 @@ Here’s one of its many playful tricks: the story is split into two halves and 
 
 Somehow it works, somehow even delightfully.
 
-But which part should I extract for you? Which part describes the book in all its color? I won’t spoil the story at all but I’ll give you a sense of the playfulness in Smith’s writing: she is the sort of writer that requires you *read* and pay attention to the smallest of details. Not in a pedantic, classical way but in the sort that encourages the reader to sit up straight. Smith writes:
+But which part of my copy should I extract for you? Which part describes the book in all its color? I won’t spoil the story at all but I’ll give you a sense of the playfulness in Smith’s writing: she is the sort of writer that requires you *read* and pay attention to the smallest of details. Not in a pedantic, classical way but in the sort that encourages the reader to sit up straight. Smith writes:
 
 > It is a feeling thing, to be a painter of things: cause every thing, even an imagined or gone thing or creature or person has essence: paint a rose or a coin or a duck or a brick and you’ll feel it as sure as if a coin had a mouth and told you what it was like to be a coin...
