@@ -18,7 +18,7 @@ extract: "“It is a feeling thing, to be a painter of things: cause every thing
 
 Ali Smith’s potent and luminous novel *How to be both* has been sitting on my desk for several days as I wait to return to it and write something even remotely coherent. But I realize now that will be impossible: *How to be both* is the hand-waving, self-stuttering kind of book where I cannot possibly hold myself back. It’s buoyant and important in the way a good novel always is but for reasons I don’t want to spoil. Instead I want to gurgle and babble, I want to flail the book in the air around my friends nonsensically, I want to speak in tongues and let everyone know that this is a novel that will haunt them. 
 
-Here’s one of the playful tricks of the novel: it is split into two halves and with each printing Ali Smith devilishly switches the order of them; a friend began their copy with the ending of mine and so I feel like we read two entirely separate novels.
+Here’s one of the playful tricks of the novel: it is split into two halves and with each copy of the book Ali Smith devilishly switches the order of those parts; a friend began their copy with the ending of mine and so I feel like we read two entirely separate novels.
 
 Somehow it works, delightfully so.
 
