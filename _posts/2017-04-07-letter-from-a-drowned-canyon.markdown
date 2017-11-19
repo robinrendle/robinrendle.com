@@ -2,7 +2,7 @@
 title: Letter from a Drowned Canyon
 date: 2017-04-07 18:07:00 -07:00
 categories:
-- reading
+- links
 tags:
 - rebecca solnit
 City: San Francisco
