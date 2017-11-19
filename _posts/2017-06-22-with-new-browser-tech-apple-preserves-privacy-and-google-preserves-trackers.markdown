@@ -1,12 +1,14 @@
 ---
 title: With New Browser Tech, Apple Preserves Privacy and Google Preserves Trackers
 date: 2017-06-22 23:20:00 -07:00
+categories:
+- links
+City: San Francisco
+Country: CA
 extract: "“Ad quality needs to improve and advertisers must abandon any attempt to
   hijack our attention with disruptive audio, flashing animation, or screen takeovers.
   But this alone will not win back the trust of users alienated by an ad system run
   amok.”"
-City: San Francisco
-Country: CA
 ---
 
 Writing for the Electronic Frontier Foundation, [Alan Toner describes the current state of advertising on the web](https://www.eff.org/deeplinks/2017/06/with-new-browser-tech-apple-preserves-privacy-google-preserves-trackers) and criticizes Google for not just allowing but almost encouraging advertisers to surveil users on the web:
