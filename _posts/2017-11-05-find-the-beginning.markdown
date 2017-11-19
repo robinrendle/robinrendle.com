@@ -2,8 +2,7 @@
 title: Find the Beginning
 date: 2017-11-05 11:01:00 -08:00
 categories:
-- reading
-- poetry
+- links
 tags:
 - odyssey
 - cat manning
