@@ -11,19 +11,21 @@
     "scripts": "gulp scripts"
   },
   "devDependencies": {
-    "browser-sync": "^2.6.4",
+    "browser-sync": "^2.18.13",
     "fontfaceobserver": "^1.5.4",
-    "gulp": "^3.8.8",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^2.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-imagemin": "^2.4.0",
     "gulp-jshint": "^1.12.0",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^2.2.0",
+    "gulp-shell": "^0.6.3",
     "gulp-size": "^1.2.1",
     "gulp-uglify": "^1.2.0",
     "gulp-watch": "^4.1.1",
-    "imagemin-pngquant": "^4.2.0"
+    "imagemin-pngquant": "^4.2.0",
+    "lodash": "^4.17.4"
   },
   "dependencies": {
     "imagemin-pngcrush": "^3.1.0",
