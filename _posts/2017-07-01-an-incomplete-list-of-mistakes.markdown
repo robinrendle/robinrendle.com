@@ -1,6 +1,8 @@
 ---
 title: An Incomplete List of Mistakes
 date: 2017-07-01 00:55:00 -07:00
+categories:
+- links
 City: San Francisco
 Country: CA
 extract: 'What’s your favorite website? Which is the one above all the others that
