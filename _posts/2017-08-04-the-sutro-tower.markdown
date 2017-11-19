@@ -1,11 +1,13 @@
 ---
 title: The Sutro Tower
 date: 2017-08-04 19:45:00 -07:00
+categories:
+- personal
 tags:
 - sutro tower
 - writing
-Country: California
 City: San Francisco
+Country: California
 extract: In my apartment I’ve positioned my desk by the window facing the tower towards
   the west. In fact I only picked this apartment because of the tower and how it looms
   above Twin Peaks right next door — as soon as I saw this place I knew that this
