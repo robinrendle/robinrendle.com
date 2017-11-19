@@ -1,11 +1,13 @@
 ---
 title: I, Website
 date: 2016-04-15 11:49:00 -07:00
+categories:
+- links
 tags:
 - chris coyier
 - web
-Country: Wales
 City: Porthcawl
+Country: Wales
 Extract: 'How are these words delivered to you? Massive networks of wires! Fiber-optic
   undersea cables line all the oceans and seas and grip the Earth like a hairnet.
   A single cable crossing an ocean costs hundreds of millions of dollars to install.
