@@ -1,6 +1,8 @@
 ---
 title: How Google Book Search Got Lost
 date: 2017-04-16 01:32:00 -07:00
+categories:
+- links
 City: San Francisco
 Country: California
 extract: "“Engineering is great, but it’s not the answer to all problems. Sometimes
