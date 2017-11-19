@@ -1,14 +1,16 @@
 ---
 title: Between Trident Lakes and Technology Drive
 date: 2017-05-08 19:53:00 -07:00
+categories:
+- links
 tags:
 - data centers
 - ingrid burrington
+City: San Francisco
+Country: California
 extract: "“In purpose-built data centers like Facebook’s, it’s for a general public
   that uses but maybe does not love Facebook. Facebook’s desire to be loved and trusted
   has always struck me as sort of overcompensating. ”"
-Country: California
-City: San Francisco
 ---
 
 Ingrid Burrington is one of my favorite writers and here she’s jotted down notes from a talk she made on [data centers and power](http://lifewinning.com/2017/05/05/trident.html):
