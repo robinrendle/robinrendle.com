@@ -14,48 +14,33 @@ var gulp = require('gulp'),
     // rename = require('gulp-rename'),
     // size = require('gulp-size'),
 
-// Concats + minifies JS
-// gulp.task('scripts', function() {
-//   gulp.src([
-//     '_static/js/lib/*.js',
-//     '_static/js/modules/dropdown.js',
-//     '_static/js/app.js'
-//   ])
-//     .pipe(uglify())
-//     .pipe(gulp.dest('js'))
-//     .pipe(reload({stream: true}))
-//   gulp.src([
-//     '._static/js/lib/prism.js'
-//     ])
-//     .pipe(uglify())
-//     .pipe(gulp.dest('js'))
-//     .pipe(reload({stream: true}))
-// });
+gulp.task('scripts', function() {
+  gulp.src([
+    '_static/js/lib/*.js',
+    '_static/js/modules/dropdown.js',
+    '_static/js/app.js'
+  ])
+    .pipe(uglify())
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({stream:true}))
+  gulp.src([
+    '._static/js/lib/prism.js'
+    ])
+    .pipe(uglify())
+    .pipe(gulp.dest('js'))
+    .pipe(browserSync.reload({stream:true}))
+});
 
 
-// gulp.task('images', function(cb){
-//     return gulp.src(['_static/images/*.*', '_static/images/**/*.*', '_static/images/**/**/*.*'])
-//         .pipe(imagemin({
-//             progressive: true,
-//             svgoPlugins: [{removeViewBox: false}],
-//             use: [pngquant()]
-//         }))
-//         .pipe(gulp.dest('build/images')).on('error', cb)
-// });
-
-
-/**
- * Rebuild Jekyll & do page reload
- */
-// gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-//     browserSync.reload();
-// });
-
-/**
- * Wait for jekyll-build, then launch the Server
- */
-
- // gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-build'], function() {
+gulp.task('images', function(cb){
+  return gulp.src(['_static/images/*.*', '_static/images/**/*.*', '_static/images/**/**/*.*'])
+    .pipe(imagemin({
+        progressive: true,
+        svgoPlugins: [{removeViewBox: false}],
+        use: [pngquant()]
+    }))
+    .pipe(gulp.dest('build/images')).on('error', cb)
+});
 
  gulp.task('jekyll-dev', function (done) {
    return cp.spawn('jekyll', ['build', '--drafts', '--config', '_config.yml'], {stdio: 'inherit'})
@@ -67,7 +52,7 @@ var gulp = require('gulp'),
  });
 
 
- gulp.task('browser-sync', ['sass', 'jekyll-dev'], function() {
+ gulp.task('browser-sync', ['sass', 'scripts', 'jekyll-dev'], function() {
    browserSync.init({
      server: "_site",
      port: 1234
@@ -94,4 +79,4 @@ gulp.task('watch', function () {
 
 // gulp.task('build', [''])
 
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', ['browser-sync', 'images', 'watch']);
