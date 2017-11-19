@@ -1,6 +1,8 @@
 ---
 title: One Thousand Days in America
 date: 2016-05-13 11:35:00 -07:00
+categories:
+- life
 tags:
 - gusto
 City: London
