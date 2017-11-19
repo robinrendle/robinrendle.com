@@ -58,10 +58,6 @@
 			 @include remCalc(font-size, 18);
 			line-height: 1.7;
 		}
-		@include media(">gigantic") {
-			 @include remCalc(font-size, 19);
-			line-height: 1.7;
-		}
 
 		& > img {
 			@include remCalc(margin-bottom, $base-spacing-unit * 2);

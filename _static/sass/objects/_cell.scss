@@ -3,7 +3,7 @@
 // ==========================================================================
 
 $_cell-default: 20 !default;
-$_cell-intervals: (0, 5, 10, 20, 30, 40, 60, 80 ) !default;
+$_cell-intervals: (0, 5, 10, 15, 20, 30, 40, 60, 80 ) !default;
 
 .cell {
     @include remCalc(padding, $_cell-default);
@@ -68,6 +68,3 @@ $_cell-intervals: (0, 5, 10, 20, 30, 40, 60, 80 ) !default;
         }
     }
 }
-
-
-
