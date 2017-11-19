@@ -1,57 +1,36 @@
 {% include header.html %}
 
-    <div class="m-wrapper--unpadded-wide m-heading">
-        <p class="h1 m-heading__text">
-            {{page.bio}}
-        </p>
-    </div>
+<div class="m-wrapper--unpadded-wide m-heading">
+	<p class="h1 m-heading__text">
+		{{page.bio}}
+	</p>
+</div>
 
-   <div class="m-wrapper cell-b40">
-        <h4 class="rules--bottom cell-b5 rules--light">Reading for a lazy Sunday afternoon</h4>
-        {% assign essays = site.essays | sort: 'date' | reverse %}
-        {% for item in essays limit: 2 %}
-            <div class="cell-b30">
-                <header class="links">
-                    <h5 class="h3 u-text--book u-reset-margins"><a href="{{item.url}}">{{item.title}}</a></h5>
-                </header>
+<div class="m-wrapper cell-b40">
+  <h4 class="rules--bottom cell-b5 rules--light">Reading for a lazy Sunday afternoon</h4> {% assign essays = site.essays | sort: 'date' | reverse %} {% for item in essays limit: 2 %}
+	<div class="cell-b30">
+		<header class="links">
+			<h5 class="h3 u-text--book u-reset-margins"><a href="{{item.url}}">{{item.title}}</a></h5>
+		</header>
 
-                <div class="m-longform">
-                    <p>{{item.extract}}</p>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+		<div class="m-longform">
+			<p>{{item.extract}}</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
 
-    <!-- <div class="m-wrapper cell-b80">
-        <h4 class="u-reset-margins cell-b10">Adventures in Typography</h4>
-
-            {% assign ad = site.adventures | sort: 'date' | reverse %}
-            {% for post in ad limit: 6 %}
-            <a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
-                <div class="c-grey">
-                    <time datetime="{{ post.date}}">
-                        {{ post.date | date: "%m/%d/%Y" }}
-                    </time>
-                </div>
-                <h3 class="h4 u-text--regular flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
-            </a>
-            {% endfor %}
-    </div> -->
-
-
-    <div class="m-wrapper cell-b40">
-        <h4 class="u-reset-margins cell-b10">Reading for a quick coffee</h4>
-
-            {% for post in site.posts limit: 6 %}
-            <a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
-                <div class="c-grey">
-                    <time datetime="{{ post.date}}">
-                        {{ post.date | date: "%m/%d/%Y" }}
-                    </time>
-                </div>
-                <h3 class="h4 u-text--regular flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
-            </a>
-            {% endfor %}
-    </div>
+<div class="m-wrapper cell-b40">
+	<h4 class="u-reset-margins cell-b10">Reading for a quick coffee</h4> {% for post in site.posts limit: 6 %}
+	<a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
+		<div class="c-grey">
+	    <time datetime="{{ post.date}}">
+        {{ post.date | date: "%m/%d/%Y" }}
+      </time>
+		</div>
+		<h3 class="h4 u-text--regular flex--truncate c-primary u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
+	</a>
+	{% endfor %}
+</div>
 
 {% include footer.html %}

@@ -1,36 +1,31 @@
 {% include header.html %}
 
 <div class="m-wrapper">
+  <div class="cell-t40 cell-t60--medium cell-b0">
+      <h1>{{page.title}}</h1>
+  </div>
 
-    <div class="cell-t40 cell-t60--medium cell-b20">
-        <h1>{{page.title}}</h1>
-    </div>
-
-    {% for post in site.posts %}
-        <article class="cell-b40">
-           <header class="links">
-                <div class="meta-info">
-                    <div class="meta-info__item">
-                        <time datetime="{{ post.date}}">
-                            {% assign d = post.date | date: "%-d"  %}
-                            {% case d %}
-                                {% when '1' or '21' or '31' %}{{ d }}st
-                                {% when '2' or '22' %}{{ d }}nd
-                                {% when '3' or '23' %}{{ d }}rd
-                                {% else %}{{ d }}th
-                            {% endcase %}
-                            {{ post.date | date: "%B" }}
-                            {{ post.date | date: "%Y" }}
-                        </time>
-                    </div>
-                </div>
-                <h3 class="h3 u-text--book links u-reset-margins cell-b0"><a href="{{post.url}}">{{post.title}}</a></h3>
-                <div class="m-longform">
-                    <p>{{post.extract}}</p>
-                </div>
-            </header>
-        </article>
-    {% endfor %}
-
+  {% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+      <h3 class="cell-b10 cell-t40 u-reset-margins">{{ currentdate }}</h3>
+    {% endif %}
+      {% assign date = currentdate %}
+      <a class="flex rules--bottom rules--light flex cell-b15 cell-t15 overflow-hidden" href="{{ post.url }}">
+        <div class="c-grey">
+          <time datetime="{{ post.date}}">
+            {{ post.date | date: "%m/%d" }}
+          </time>
+        </div>
+        <div class="flex justify-space-between width-100">
+          <h3 class="h4 u-text--regular flex--truncate c-primary u-text--book u-reset-margins cell-l10">{{post.title}}</h3>
+          <ul class="lists--none u-reset-margins">
+            {% for category in post.categories %}
+              <li class="h7 tag">{{category}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </a>
+  {% endfor %}
 </div>
 {% include footer.html %}
