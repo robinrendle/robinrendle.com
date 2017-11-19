@@ -1,0 +1,11 @@
+---
+title: The Biodiversity Heritage Library
+date: 2017-11-19 13:52:00 -08:00
+---
+
+The Biodiversity Heritage Library has made a huge stock of archival photography and imagery available on Flickr, as Josh Jones mentions in [Open Culture](http://www.openculture.com/2017/11/two-million-wondrous-nature-illustrations-put-online-by-the-biodiversity-heritage-library.html):
+
+<blockquote>
+<p>The <a href="https://www.flickr.com/photos/biodivlibrary/albums">first stream</a>, currently at 122,281 images, has been carefully curated, and includes searchable galleries and albums divided by book title or subject, such as “<a href="https://www.flickr.com/photos/biodivlibrary/albums/72157688236066255">Exotic botany illustrated</a>,” “<a href="https://www.flickr.com/photos/biodivlibrary/albums/72157688410615325">The Birds of Australia v.1</a>,” and “<a href="https://www.flickr.com/photos/biodivlibrary/albums/72157687529421761">Bats!</a>” The <a href="https://www.flickr.com/search/?tags=bookcollectionbiodiversity">second stream</a>, consisting of over 2 million images, is a massive grab-bag of photos, illlustrations from nature, advertisements, and imaginative renderings.</p>
+</blockquote>
+
