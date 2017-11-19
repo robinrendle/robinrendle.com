@@ -2,7 +2,6 @@
 title: How to be both
 date: 2017-11-17 21:04:00 -08:00
 categories:
-- reading
 - books
 tags:
 - ali smith
