@@ -43,7 +43,7 @@ gulp.task('images', function(cb){
 });
 
  gulp.task('jekyll-dev', function (done) {
-   return cp.spawn('jekyll', ['build', '--drafts', '--config', '_config.yml'], {stdio: 'inherit'})
+   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
   .on('close', done);
  });
 
