@@ -1,5 +1,5 @@
 ---
-title: An Idea for a Simple Responsive Spreadsheet
+title: A Responsive Spreadsheet
 date: 2017-11-29 20:02:00 -08:00
 categories:
 - css-tricks
