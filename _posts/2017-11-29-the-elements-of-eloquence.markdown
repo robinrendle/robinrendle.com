@@ -2,9 +2,10 @@
 title: The Elements of Eloquence
 date: 2017-11-29 21:51:00 -08:00
 categories:
-- mark forsyth
-tags:
 - reading
+tags:
+- mark forsyth
+- book
 City: San Francisco
 Country: California
 extract: "“English teaching at school is unfortunately, obsessed with what a poet
