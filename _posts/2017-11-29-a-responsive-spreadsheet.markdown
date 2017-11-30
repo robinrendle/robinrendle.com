@@ -11,7 +11,7 @@ extract: A new post for CSS-Tricks all about making a CSS-only responsive spread
   UI.
 ---
 
-At Gusto I’ve been working on a spreadsheet interface that’s a little complicated and elaborate but it got me to wondering how we might build [the simplest responsive spreadsheet](https://css-tricks.com/idea-simple-responsive-spreadsheet/) possible with nothing more than CSS and so I wrote about it for CSS-Tricks. It’s kinda nifty that you there’s a wide range of UI tricks that no longer require JavaScript and in this case we’re using `position: sticky` to lock the table headers in place so that you can still easily scan the document without having to constantly scroll around.
+At Gusto I’ve been working on a spreadsheet interface that’s a little complicated and elaborate but it got me to wondering how we might build [the simplest responsive spreadsheet](https://css-tricks.com/idea-simple-responsive-spreadsheet/) possible with nothing more than CSS and so I wrote about it for CSS-Tricks. It’s kinda nifty that there’s a wide range of UI tricks that no longer require JavaScript — in this example I’ve used `position: sticky` to lock the table headers in place so that you can still easily scan the document without having to constantly scroll around.
 
 Here’s an example of the final result: 
 
