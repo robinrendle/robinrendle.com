@@ -6,7 +6,7 @@ categories:
 tags:
 - Robin Sloan
 City: Plymouth
-Country: United Kingdom
+Country: UK
 extract: "“And for me, voice is the thing. In a novel, I will forgive any flaw, overlook
   any omission, if the voice on the page has that sizzling Tesla-coil energy.”"
 ---
