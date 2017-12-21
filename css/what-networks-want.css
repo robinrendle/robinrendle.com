@@ -805,16 +805,16 @@ a {
   a:focus {
     outline: none; }
 
-.links:link,
+.links,
 .links a {
   color: #5b99f9;
   overflow: hidden;
   position: relative;
   z-index: 1;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
   outline: none;
   text-decoration-skip: ink; }
-  .links:link:hover, .links:link:focus,
+  .links:hover, .links:focus,
   .links a:hover,
   .links a:focus {
     outline: none;
@@ -822,16 +822,16 @@ a {
     color: #085fe6;
     border: none; }
 
-.links--underline:link,
+.links--underline,
 .links--underline a {
   color: #5b99f9;
   overflow: hidden;
   position: relative;
   z-index: 1;
-  transition: color .3s ease;
+  transition: color 0.3s ease;
   outline: none;
   text-decoration-skip: ink; }
-  .links--underline:link:hover, .links--underline:link:focus,
+  .links--underline:hover, .links--underline:focus,
   .links--underline a:hover,
   .links--underline a:focus {
     outline: none;
@@ -944,7 +944,7 @@ abbr {
   color: #2a7af7;
   text-decoration: underline;
   text-decoration-skip: ink;
-  transition: color .3s ease; }
+  transition: color 0.3s ease; }
   .m-longform:link:hover, .m-longform:link:focus,
   .m-longform a:hover,
   .m-longform a:focus {

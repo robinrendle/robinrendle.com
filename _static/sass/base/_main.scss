@@ -6,41 +6,40 @@
 //
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-html{
-    overflow-y:scroll;
-    min-height:100%;
-    -webkit-text-size-adjust: 100%;
+html {
+	overflow-y: scroll;
+	min-height: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-color: darken($c-primary, 20);
 }
 
 body {
-    font: 400 110%;
-    @include typeface("Regular");
-    line-height: 1.4;
-    background-color: white;
-    color: #444;
-    // border-bottom: 2px solid $c-primary;
+	font: 400 110%;
+	@include typeface("Regular");
+	line-height: 1.4;
+	background-color: white;
+	color: #444;
 
-    // Sticky footer with flexbox hack.
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+	// Sticky footer with flexbox hack.
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 
-    @include media(">large"){
-        border-top: none;
-    }
+	@include media(">large") {
+		border-top: none;
+	}
 }
 
-
 .main {
-    flex: 1; // sticky footer fix
+	flex: 1; // sticky footer fix
 }
 
 cite {
-    @include typeface("Regular");
-    font-style: normal;
+	@include typeface("Regular");
+	font-style: normal;
 }
 
 em,
@@ -49,36 +48,36 @@ dfn,
 i,
 q,
 .italic {
-    @include typeface("Regular italic");
+	@include typeface("Regular italic");
 }
 
 mark {
-    background-color: rgb(255,220,0);
-    background-color: rgba(255,220,0,.3);
-    font-weight: normal;
-    color: #444;
+	background-color: rgb(255, 220, 0);
+	background-color: rgba(255, 220, 0, 0.3);
+	font-weight: normal;
+	color: #444;
 }
 
 .caps,
 abbr {
-    @include typeface("Small caps");
+	@include typeface("Small caps");
 }
 
 abbr,
 abbr[title] {
-    border: none;
-    text-decoration: none;
+	border: none;
+	text-decoration: none;
 }
 
 b,
 strong {
-    @include typeface("Book");
+	@include typeface("Book");
 }
 
 acronym {
-    text-transform: normal;
+	text-transform: normal;
 }
 
 iframe {
-    margin: 0 auto !important; // centers tweets
+	margin: 0 auto !important; // centers tweets
 }
