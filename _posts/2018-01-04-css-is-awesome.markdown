@@ -3,7 +3,7 @@ title: CSS is Awesome
 date: 2018-01-04 17:48:00 -08:00
 ---
 
-Ever since Brandon Smith’s post about how [CSS is Awesome](https://css-tricks.com/css-is-awesome/) was published, so over the past six months or so, I’ve been entirely obsessed with it. I think it puts into words something significant that hasn’t really been said before about the language: 
+Ever since Brandon Smith’s post about how [CSS is Awesome](https://css-tricks.com/css-is-awesome/) was published in mid-2017 I’ve been entirely obsessed with it. I think it puts into words something significant that hasn’t really been said before about the language: 
 
 > CSS is hard because its properties interact, often in unexpected ways. Because when you set one of them, you're never just setting that one thing. That one thing combines and bounces off of and contradicts with a dozen other things, including default things that you never actually set yourself.
 > 
