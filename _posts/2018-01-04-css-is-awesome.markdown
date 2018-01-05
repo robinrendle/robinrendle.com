@@ -13,6 +13,6 @@ Over the course of 2017 this post changed how I write CSS, especially that bit a
 
 More importantly it helps us understand web typography a little bit more, too. As pixel-perfect designs bled in from the print world (where being precise is vital to printing a good book), we suddenly find ourselves in a world that begs for inprecision. To design things flexibly. To say “this isn’t perfect, but it works best under all circumstances, rather than optimized for one.”
 
-This is what makes CSS awesome – and a useful toolbox for designers who work on the web to learn more about – because it encourages us to think in that abstract way, to consider all the variables regardless of how messy they might be. And I think that despite how much you might want to control it, to bury the language in a mountainous rubble of JavaScript, the weirdness of the web will still be there.
+This is what makes CSS awesome – and a useful toolbox for designers who work on the web to learn more about – because it encourages us to think in that abstract way, to consider all the variables regardless of how messy they might be. And I think that despite how much you might want to control it, to bury the language in a mountainous rubble of JavaScript, the weirdness of the web will still be there, hidden in the language itself.
 
 Ultimately the CSS language reminds us that the web is not a platform owned by a single corporate entity, but rather a weird and lively place to experiment. To smoosh things together. To think in that abstract way.
