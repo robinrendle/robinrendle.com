@@ -11,7 +11,7 @@ Ever since Brandon Smith’s post about how [CSS is Awesome](https://css-tricks.
 
 Over the course of 2017 this post changed how I write CSS, especially that bit about `min-width` and `width`. That’s because what Brandon is really trying to do is get us to think in a very abstract way when it comes to designing things for the web. Whenever we’re building a feature for a project we really need to consider how to make that extra leap, that little intellectual abstraction, which ought to help us write better CSS. 
 
-More importantly it helps us understand web typography a little bit more, too. As pixel-perfect designs bled in from the print world (where being precise is vital to printing a good book), we suddenly find ourselves in a world that begs for inprecision. To design things flexibly. To say “this isn’t perfect, but it works best under all circumstances, rather than optimized for one.”
+More importantly it helps us understand web typography a little bit more, too. As pixel-perfect designs bled in from the print world (where being precise is vital to printing a good book), we suddenly find ourselves in a world that begs for imprecision. To design things flexibly. To say “this isn’t perfect, but it works best under all circumstances, rather than optimized for one.”
 
 This is what makes CSS awesome – and a useful toolbox for designers who work on the web to learn more about – because it encourages us to think in that abstract way, to consider all the variables regardless of how messy they might be. And I think that despite how much you might want to control it, to bury the language in a mountainous rubble of JavaScript, the weirdness of the web will still be there, hidden in the language itself.
 
