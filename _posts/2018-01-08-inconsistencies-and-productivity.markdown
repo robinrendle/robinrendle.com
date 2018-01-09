@@ -13,7 +13,7 @@ I was chatting with my pal [Jules Forrest](https://julesforrest.com/) earlier to
 
 > Design teams aren’t explicitly rewarded for reusing designs the way engineers know they should write DRY code, so introducing inconsistencies feels like productivity.
 
-I’ve found this to be the case in almost every team I’ve worked on. In fact it takes an awful lot of time to design robust systems that can scale across every part of a UI/product and doing all that work weirdly enough doesn’t *feel* like work, instead it’s more akin to unnecessary hassle and stress. But I can’t help think that this is what should differentiate the work of product designers from that of graphic or print designers — and orgs should really incentivize, well, boring additions to a system. Unfortunately that’s not the case.
+I’ve found this to be the case in almost every team I’ve worked on. In fact, it takes an awful lot of time to design robust systems that can scale across every part of a UI/product and doing all that work weirdly enough doesn’t *feel* like work, instead it’s more akin to unnecessary hassle and stress. But I can’t help think that this is what should differentiate the work of product designers from that of graphic or print designers — and orgs should really incentivize, well, boring additions to a system. Unfortunately that’s not the case.
 
 I replied to Jules that *yes yes yes* that’s perfect and in a rare moment of clarity I riffed on what she said, arguing that *“the hard work [of product design and building websites] is doing something almost unseen, unnoticed.”* 
 
