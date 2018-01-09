@@ -9,7 +9,7 @@ tags:
 - front-end development
 ---
 
-I was chatting with my pal [Jules Forrest](https://julesforrest.com/) earlier today — she happens to be one of the best designers and developers that I know — and she mentioned something really interesting that I’ve been rolling around in my head all day. We were chatting about design systems and the many struggles that design teams find themselves dealing with, namely how to incentivize good systems work across an organization. She said:
+I was chatting with my pal [Jules Forrest](https://julesforrest.com/) earlier today — she happens to be one of the best designers and developers that I know — and she mentioned something really interesting that I’ve been rolling around in my head all day. We were chatting about design systems and the many struggles that design teams find themselves dealing with, namely how to incentivize good systems work across an organization. Jules wrote that:
 
 > Design teams aren’t explicitly rewarded for reusing designs the way engineers know they should write DRY code, so introducing inconsistencies feels like productivity.
 
