@@ -17,4 +17,4 @@ I’ve found this to be the case in almost every team I’ve worked on. In fact,
 
 I replied to Jules that *yes yes yes* that’s perfect and in a rare moment of clarity I riffed on what she said, arguing that *“the hard work [of product design and building websites] is doing something almost unseen, unnoticed.”* 
 
-Anyways, you should follow [Jules on Twitter](https://twitter.com/julesforrest) immediately because yikes she’s a constant well of smarts in this department.
+Anyways, you should follow [Jules on Twitter](https://twitter.com/julesforrest) immediately because yikes she’s a constant fount of knowledge and smarts in this department.
