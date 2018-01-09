@@ -7,11 +7,9 @@ tags:
 - Joanna Jao
 ---
 
-Waiting for the moment when it all goes to hell is exhausting. In a relationship, I mean. 
+Waiting for the moment when it all goes to hell is exhausting. In a relationship, I mean. Each bad joke and every forgetful act, it all has to add up, right? 
 
-Each bad joke and every forgetful act, it all has to add up, right? I imagine it’s all counted in a ledger; every single one of their friends that you don’t get on with, each turn of phrase that failed. Every time you looked at your phone. Every poorly timed compliment. 
-
-And one day the tally adds up in the wrong column. The charm and jokes and smiles no longer outweigh the forgetfulness, or the sex. And then suddenly it swings around again; there are smiles and hugs and everything. Without warning, out of nowhere, everything is fine. The ledger be damned. 
+I imagine it’s all counted in a ledger; every single one of their friends that you don’t get on with, each turn of phrase that failed. Every time you looked at your phone. Every poorly timed compliment. And one day the tally adds up in the wrong column. The charm and jokes and smiles no longer outweigh the forgetfulness, or the sex. And then suddenly it swings around again; there are smiles and hugs and everything. Without warning, out of nowhere, everything is fine. The ledger be damned. 
 
 Are you okay? I want to ask when she’s happy or when she’s sad. Are you okay? Or even when we’re arguing. Are you okay? I want to ask when something mean is said, something with a little bite, a flash of teeth and a glare. 
 
