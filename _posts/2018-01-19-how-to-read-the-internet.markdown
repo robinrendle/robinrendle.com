@@ -42,7 +42,7 @@ Also I guess it’s quickly worth mentioning that a feed is typically in a forma
   <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml">
 ```
 
-Do you need to know that to use RSS? Absolutely not. 
+But do you need to know that to use RSS? Absolutely not. 
 
 Anyway, as I mentioned earlier, Feedbin is one of those services that’ll take a format like that, check to see if the feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
 
