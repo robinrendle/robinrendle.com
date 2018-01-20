@@ -46,8 +46,6 @@ However, I happen to use the Reeder apps for their customization options and off
 
 So, on to Reeder: it’s a suite of apps that will take login details from a feed reading service (like Feedbin) and will then display that info. The Reeder apps (not to be confused with Google _Reader_) are where I spend most of my time instead of hitting up a website to see if it’s been updated — I adore this suite of apps more than words can say.
 
-![s01@2x.png](/uploads/s01@2x.png)
-
 In order to read anything from a website though you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say we want to subscribe to all stories from [nyt.com](http://nyt.com):
 
 <video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
