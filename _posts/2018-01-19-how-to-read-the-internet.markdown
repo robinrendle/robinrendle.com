@@ -23,7 +23,7 @@ But then, rather suddenly, Google decided to kill Reader and for some reason eve
 
 The unhealthy bond between RSS and Google Reader is proof of how fragile the web truly is, and it reveals that those communities can disappear just as quickly as they bloomed.
 
-However, with that being said, RSS is not dead. A vast number of websites still support syndication formats. And over the years since Reader disappeared there’s been a resurgence of competitive apps and services. Some of these apps do the RSS feed scraping, others simply display that data, and some do both. 
+However, with that being said, RSS is not dead. A vast number of websites still support syndication formats. And over the years since Reader disappeared there’s been a resurgence of competitive apps and services. Some of these apps do the RSS feed scraping, others simply display the data, and some do both. 
 
 But if you’ve never heard of RSS before, or if you fancy getting back into RSS because the Feeds of other social networks have been stressing you out, then here’s a rough guide of how to do that today.  
 
