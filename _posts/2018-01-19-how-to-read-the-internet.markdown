@@ -40,7 +40,7 @@ A feed is typically in a format such as [Atom](https://en.wikipedia.org/wiki/Ato
 
 Feedbin is one such service — it’ll scan a list of subscriptions  or feeds I give it, check to see if that particular feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
 
-I pay $5 a month for Feedbin but I feel like I get way more than my money’s worth. In fact, Feedbin is sort of like the plumbing of RSS — I don’t interact with the site at all and I think perhaps I’ve logged in only a couple of times over the years but I’m a huge fan of the service. And knowing that I’m a paying customer makes me hopeful that a sustainable business can be built out of it.
+I pay $5 a month for Feedbin but I feel like I get way more than my money’s worth. In fact, Feedbin is sort of like the plumbing of RSS — I don’t interact with the site at all and I think perhaps I’ve logged in only a couple of times over the years but I’m a huge fan. And knowing that I’m a paying customer makes me hopeful that a sustainable business can be built out of it.
 
 Also, if you sign up they have an actual reader built into the web app. You can login, add some subscriptions (by copying and pasting the URL) and there you have it! You can read anything you’d like. Here’s what that UI looks like:
 
