@@ -44,7 +44,7 @@ Also I guess it’s quickly worth mentioning that a feed is typically in a forma
 
 But do you need to know that to use RSS? Absolutely not. 
 
-Anyway, as I mentioned earlier, Feedbin is one of those services that’ll take a format like that, check to see if the feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
+Anyway, Feedbin is one of those services that’ll take a format like that, check to see if the feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
 
 I pay $5 a month for Feedbin but I feel like I get way more than my money’s worth. In fact, Feedbin is sort of like the plumbing of RSS for me — I don’t interact with the site at all and I think perhaps I’ve logged in only a couple of times over the years but I’m still a huge fan. And knowing that I’m a paying customer makes me hopeful that a sustainable business can be built out of it.
 
@@ -52,7 +52,7 @@ But if you just want to give RSS a try then Feedbin has a reader built into the 
 
 ![Screenshot 2018-01-19 23.01.png](/uploads/Screenshot%202018-01-19%2023.01.png)
 
-However, as I mentioned, I happen to use the Reeder apps for their customization options and offline-storage features for actually reading the feeds that Feedbin manages. So what I did for my setup was snag the login details from my account and added them to the Reeder apps.
+However, as I mentioned earlier, I happen to use the Reeder apps for their customization options and offline-storage features for actually reading the feeds that Feedbin manages. So what I did for my setup was snag the login details from my account and added them to the Reeder apps.
 
 So, on to Reeder: it’s a suite of apps that will take login details from a feed reading service (like Feedbin) and then display that information. The Reeder apps (not to be confused with Google _Reader_) are where I spend most of my time instead of hitting up a website to see if it’s been updated — I adore this suite of apps more than words can say.
 
