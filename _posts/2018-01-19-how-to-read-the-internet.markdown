@@ -20,9 +20,7 @@ to work, I would likely stumble on [a fantastic blog post](http://www.kungfugrip
  
 From a design point of view, RSS was the feed before the Feed™️. You could see all of your subscriptions of every website at a quick glance but we have that now with Twitter and Facebook, so who cares? We don’t need RSS any more. Meh. But! I believe that RSS was much more than just a feed — it made blogging possible for the first time because you could now follow dozens of writers and so it wasn’t a fad either. There were no ads (except for the high quality Daring Fireball kind), no one could slow down your feed reader with third party scripts, it had a good set of typographic and design standards and, most of all, it was _quiet_. Just the reader’s thoughts and you. No comments.
 
-Instead of being just another way to get posts from blogs that you were interested in, RSS fostered countless communities and friendships. Across oceans, across networks.  
-
-I like to think of RSS as a window into a room with the smartest, kindest people — and sometimes, on those rarest of occasions, they would open up the window and wave back.
+Instead of being just another way to get posts from blogs that you were interested in, RSS fostered countless communities and friendships. [Across oceans, across networks](https://robinrendle.com/notes/chloe/). So I like to think of RSS as a window into a room with the smartest, kindest people — and sometimes, on those rarest of occasions, they would open up the window and wave back.
 
 But then, rather suddenly, Google decided to kill Reader and it looked like RSS had been caught in the crossfire, too. In hindsight it’s clear that this was the greatest weakness and flaw of RSS: because Google Reader was a free service (and a decent one, too) developers wouldn’t build tools that would compete with it. Google had effectively hijacked the open technology, destroying the competition by making a free service, and then killed the tool that was so associated with it that RSS and Google Reader appeared to be the same thing. (Insert rant about the relationship between google dot com and the rest of the web today here).
 
