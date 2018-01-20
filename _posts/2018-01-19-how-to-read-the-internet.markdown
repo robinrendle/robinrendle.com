@@ -50,7 +50,7 @@ With that being said though I happen to use the Reeder apps for their customizat
 
 
 ### Reeder 
-As I mentioned before, the Reeder apps (not to be confused with Google Reader) are where I spend most of my time instead of hitting up a website to see if it’s been updated and I adore this suite of apps more than words can say. To jump to the point though without waxing lyrical: Reeder is an app that will take a login details from a feed reading service and will then display that info like so:
+As I mentioned before, the Reeder apps (not to be confused with Google Reader) are where I spend most of my time instead of hitting up a website to see if it’s been updated and I adore this suite of apps more than words can say. To jump to the point though without waxing lyrical: Reeder is an app that will take login details from a feed reading service (like Feedbin) and will then display that info like so:
 
 ![s01@2x.png](/uploads/s01@2x.png)
 
