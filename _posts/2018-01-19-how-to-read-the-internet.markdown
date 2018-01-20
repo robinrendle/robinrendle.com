@@ -9,7 +9,7 @@ tags:
 - rss
 ---
 
-Before newsletters and social networks there was RSS, a tool that helped us keep up to date with our favorite websites. And it was relatively simple, too: through a web app such as [Google Reader](https://en.wikipedia.org/wiki/Google_Reader/), you could subscribe to another website’s feed and get an alert whenever something new had been posted. On the developer side and under the hood, a web designer would write a little bit of code to post all of their website’s content in a format that a service such as Google Reader could then scrape and serve to you.
+Before newsletters and social networks there was RSS, a tool that helped us keep up to date with our favorite websites. And it was relatively simple, too: through a web app such as [Google Reader](https://en.wikipedia.org/wiki/Google_Reader/), you could subscribe to another website’s feed and get an alert whenever something new had been posted. On the developer side and under the hood, a web designer would write a little bit of code to post all of their website’s content in a format that Google Reader could then scrape and serve to you.
 
 Why did RSS (or Really Simple Syndication) exist in the first place though? Well, strangely enough, way back in 1999 you’d have to visit a website multiple times a day just to see if anything new had been posted. There was no Twitter or Facebook Feed, and so thankfully RSS solved that problem since we could now immediately see when our feed had been updated with a new post. 
 
