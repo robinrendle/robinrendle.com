@@ -38,7 +38,7 @@ And so as I mentioned, Feedbin is one of those services — it’ll check to see
 
 I pay $5 a month for Feedbin but I feel like I get way more than my money’s worth. In fact, Feedbin is sort of like the plumbing of RSS for me — I don’t interact with the site at all and I think perhaps I’ve logged in only a couple of times over the years but I’m still a huge fan. And knowing that I’m a paying customer makes me hopeful that a sustainable business can be built out of it.
 
-Also, if you sign up they have an actual reader built into the web app. You can login, add some subscriptions (by copying and pasting the URL) and there you have it! You can read anything you’d like. Here’s what that UI looks like:
+But! If you just want to give RSS a try then you when you sign up for Feedbin they have an actual reader built into the web app. You can login, add some subscriptions (by copying and pasting the URL) and there you have it! You can read anything you’d like. Here’s what that UI looks like:
 
 ![Screenshot 2018-01-19 23.01.png](/uploads/Screenshot%202018-01-19%2023.01.png)
 
