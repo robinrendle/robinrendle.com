@@ -54,7 +54,7 @@ As I mentioned before, the Reeder apps (not to be confused with Google Reader) a
 
 ![s01@2x.png](/uploads/s01@2x.png)
 
-However, in order to read anything from a website you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin (or other) account, you can head over to a website and copy its URL. In this instance let’s say it’s nyt.com:
+However, in order to read anything from a website you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say it’s nyt.com:
 
 <video autoplay="autoplay" loop="loop">
 <source src="/uploads/1.mp4" type="video/mp4" /></video>
