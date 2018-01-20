@@ -34,7 +34,7 @@ There are two services that I’ve fallen in love with over the years: [Feedbin]
 
 Also I guess it’s quickly worth mentioning that a feed is typically in a format such as [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RSS](https://en.wikipedia.org/wiki/RSS), [json](https://jsonfeed.org/) or XML — but you don’t really need to care which format a website supports because most of these feed-reading services will accept them all. 
 
-And so as I mentioned, Feedbin is one of those services — it’ll check to see if a feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
+And so, as I mentioned, Feedbin is one of those services that’ll take one of those formats, check to see if a feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
 
 I pay $5 a month for Feedbin but I feel like I get way more than my money’s worth. In fact, Feedbin is sort of like the plumbing of RSS for me — I don’t interact with the site at all and I think perhaps I’ve logged in only a couple of times over the years but I’m still a huge fan. And knowing that I’m a paying customer makes me hopeful that a sustainable business can be built out of it.
 
