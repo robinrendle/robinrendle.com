@@ -18,7 +18,7 @@ But it was through this data format and feed reader web app that something magic
 Scanning these feeds over breakfast or lunch and on the train 
 to work, I would likely stumble on [a fantastic blog post](http://www.kungfugrippe.com/post/169873399/clackity-noise) or a long and [rambling thing about fonts](https://ilovetypography.com/2007/10/22/so-you-want-to-create-a-font-part-1/). I would subscribe to tumblr feeds, or the work of professional journalists, or the work of [fellow](http://www.zeldman.com/) [web](http://aworkinglibrary.com/) [designers](https://adactio.com) and [indie novelists](http://www.hughhowey.com/blog/). At the time it seemed like all of this was a critical part of how to access the smartest ideas from across the web.
  
-From a design point of view, RSS was the feed before the Feed. You could see all of your subscriptions of every website at a quick glance and so what, who cares? We have that now. Meh. But RSS was more than just a feed — it made blogging possible for the first time because you could now follow dozens of writers and so it was much more than a fad, too. Instead, RSS fostered communities and friendships across continents. 
+From a design point of view, RSS was the feed before the Feed™️. You could see all of your subscriptions of every website at a quick glance and so what, who cares? We have that now. Meh. But RSS was more than just a feed — it made blogging possible for the first time because you could now follow dozens of writers and so it was much more than a fad, too. Instead, RSS fostered communities and friendships across continents. 
 
 I like to think of RSS as a window into a room with the smartest, kindest people — and sometimes, on those rarest of occasions, they would open up the window and wave back.
 
