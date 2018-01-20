@@ -56,12 +56,12 @@ As I mentioned before, the Reeder apps (not to be confused with Google Reader) a
 
 However, in order to read anything from a website you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say it’s nyt.com:
 
-<video autoplay="autoplay" loop="loop">
+<video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
 <source src="/uploads/1.mp4" type="video/mp4" /></video>
 
 And once you’ve added it there it’ll appear with a collection of the most recent posts in the sidebar:
 
-<video autoplay="autoplay" loop="loop">
+<video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
 <source src="/uploads/2.mp4" type="video/mp4" /></video>
 
 Of course, over the years I’ve customized Reeder (because I’m a picky type nerd) and so I‘ve set wider text columns and used the Output Sans typeface by David Jonathan Ross for legibility’s sake. It really is the perfect way for me to scan and read the web. 
