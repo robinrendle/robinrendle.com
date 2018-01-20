@@ -77,7 +77,7 @@ On a similar note, many believe that [blogging is making a return](https://ia.ne
 
 Not only that but when you finish making your website you have gained new superpowers: you now have an independent voice, a URL, and a home on the open web. 
 
-And I think that’s why my feelings about RSS are so strong — I know this sounds peculiar and perhaps even silly, but I have an emotional attachment to RSS the technology and RSS the community that sort of defies explanation. I suppose it’s the same way I feel about my library: I’ve collected a little treasure trove of other people’s ideas, and I’m not entirely sure what my life would look like without them.
+I think that’s why my feelings about RSS are so strong. And I know this might sound peculiar and perhaps even silly, but I have an emotional attachment to RSS the technology and RSS the community that sort of defies explanation. I suppose it’s the same way I feel about my library: I’ve collected a little treasure trove of other people’s ideas, and I’m not entirely sure what my life would look like without them.
 
 
 
