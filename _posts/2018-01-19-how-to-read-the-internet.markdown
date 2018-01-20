@@ -31,7 +31,7 @@ This is how I read the web in 2018.
 
 
 ## The Setup
-There are two services that I’ve fallen in love with over the years: Reeder ([a macOS](http://reederapp.com/mac/) and [iOS app](http://reederapp.com/ios/) that lets me read those subscriptions) and [Feedbin](https://feedbin.com/) (a service that saves all my subscriptions and keeps everything in sync between these apps.)
+There are two services that I’ve fallen in love with over the years: Reeder ([a macOS](http://reederapp.com/mac/) and [iOS app](http://reederapp.com/ios/) that lets me read those subscriptions) and [Feedbin](https://feedbin.com/) (a service that saves all my subscriptions and keeps everything in sync.)
 
 These two are a match made in heaven and I haven’t changed anything about my setup in *years* because it’s precisely what I want. I reckon it’s important to note that there are a number of alternatives out there and so this setup might not be precisely what you want and/or need. 
 
