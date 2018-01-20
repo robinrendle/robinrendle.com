@@ -54,7 +54,7 @@ But if you just want to give RSS a try then Feedbin has a reader built into the 
 
 However, as I mentioned earlier I happen to use the Reeder apps for their customization options and offline-storage features for actually reading the feeds that Feedbin manages. So what I did for my setup was snag the login details from my account and added them to the Reeder apps.
 
-So, on to Reeder: it’s a suite of apps that will take login details from a feed reading service (like Feedbin) and then display that information. The Reeder apps (not to be confused with Google _Reader_) are where I spend most of my time instead of hitting up a website to see if it’s been updated — I adore this suite of apps more than words can say and if I had to choose my Twitter account over my RSS setup I wouldn’t hesitate in a second throwing Twitter into the ocean.
+So, on to Reeder: it’s a suite of apps that will take login details from a feed reading service (like Feedbin) and then display that information. The Reeder apps (not to be confused with Google _Reader_) are where I spend most of my time instead of hitting up a website to see if it’s been updated — I adore this suite of apps more than words can say and if I had to choose my Twitter account over my RSS setup I wouldn’t hesitate for a second — I’d throw Twitter right into the ocean.
 
 In order to read anything from a website though you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say we want to subscribe to all stories from [nyt.com](http://nyt.com):
 
