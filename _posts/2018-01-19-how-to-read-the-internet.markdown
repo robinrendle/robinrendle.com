@@ -36,7 +36,7 @@ There are two services that I’ve fallen in love with over the years: Reeder ([
 These two are a match made in heaven and I haven’t changed anything about my setup in *years* because it’s precisely what I want. I reckon it’s important to note that there are a number of alternatives out there and so this setup might not be precisely what you want and/or need. 
 
 ### Feedbin 
-A feed is typically in a format such as [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RSS](https://en.wikipedia.org/wiki/RSS), [json](https://jsonfeed.org/) or XML — you don’t really need to care which format it’s in because most services will accept all of them. 
+A feed is typically in a format such as [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RSS](https://en.wikipedia.org/wiki/RSS), [json](https://jsonfeed.org/) or XML — but you don’t really need to care which format a feed is in because most services will accept all of them. 
 
 Feedbin is one such service — it’ll scan a list of subscriptions  or feeds I give it, check to see if that particular feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices. 
 
