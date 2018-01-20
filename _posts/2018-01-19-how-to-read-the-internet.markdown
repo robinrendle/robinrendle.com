@@ -64,7 +64,7 @@ And once you’ve added it there it’ll appear with a collection of the most re
 <video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
 <source src="/uploads/2.mp4" type="video/mp4" /></video>
 
-Of course, over the years I’ve customized Reeder (because I’m a picky type nerd) and so I‘ve set wider text columns and used the Output Sans typeface by David Jonathan Ross for legibility’s sake. It really is the perfect way for me to scan and read the web. 
+Of course, over the years I’ve customized Reeder (because I’m a picky type nerd) and so I‘ve set wider text columns and used [Output](https://djr.com/output/) by David Jonathan Ross for legibility’s sake. It really is the perfect way for me to scan and read the web. 
 
 
 ## Wrapping Up
