@@ -30,7 +30,7 @@ But if you’ve never heard of RSS before, or if you fancy getting back into RSS
 
 
 ## The Setup
-There are two services that I’ve fallen in love with over the years: [Feedbin](https://feedbin.com/) (a service that saves all my subscriptions and keeps everything in sync) and Reeder ([a macOS](http://reederapp.com/mac/) and [iOS app](http://reederapp.com/ios/) that lets me read those subscriptions). These two are a match made in heaven and I haven’t changed anything about my setup in *years* because it’s precisely what I want. I reckon it’s important to note that there are a number of alternatives out there and so this setup might not be precisely what you want and/or need. 
+There are two services that I’ve fallen in love with over the years: [Feedbin](https://feedbin.com/) (a service that saves all my subscriptions and keeps everything in sync) and Reeder ([a macOS](http://reederapp.com/mac/) and [iOS app](http://reederapp.com/ios/) that lets me read those subscriptions). These two are a match made in heaven and I haven’t changed anything about my setup in *years* because it’s precisely what I want. Although I reckon it’s important to note that there are a number of alternatives out there and so this setup might not be precisely what you want and/or need. 
 
 I guess it’s quickly worth mentioning that a feed is typically in a format such as [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RSS](https://en.wikipedia.org/wiki/RSS), [json](https://jsonfeed.org/) or XML — but you don’t really need to care which format a website supports because most of these feed-reading services will accept them all. 
 
