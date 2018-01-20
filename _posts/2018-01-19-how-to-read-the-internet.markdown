@@ -22,7 +22,7 @@ From a design point of view, RSS was the feed before the Feed. You could see all
 
 I like to think of RSS as a window into a room with the smartest, kindest people — and sometimes, on those rarest of occasions, they would open up the window and wave back.
 
-But then, rather suddenly, Google decided to kill Reader and for some reason everyone believed that RSS had been caught in the crossfire, too. In hindsight it’s clear that this was the greatest weakness and flaw of RSS: because Google Reader was a free service (and a decent one, too) developers wouldn’t build tools that would compete with it. Google had effectively hijacked the open technology, destroying the competition by making a free service, and then killed the tool that was so associated with it that RSS and Google Reader appeared to be the same thing. (Insert rant about the relationship between google dot com and the rest of the web today here).
+But then, rather suddenly, Google decided to kill Reader and it looked like RSS had been caught in the crossfire, too. In hindsight it’s clear that this was the greatest weakness and flaw of RSS: because Google Reader was a free service (and a decent one, too) developers wouldn’t build tools that would compete with it. Google had effectively hijacked the open technology, destroying the competition by making a free service, and then killed the tool that was so associated with it that RSS and Google Reader appeared to be the same thing. (Insert rant about the relationship between google dot com and the rest of the web today here).
 
 The unhealthy bond between RSS and Google Reader is proof of how fragile the web truly is, and it reveals that those communities can disappear just as quickly as they bloomed.
 
