@@ -52,7 +52,7 @@ But if you just want to give RSS a try then Feedbin has a reader built into the 
 
 ![Screenshot 2018-01-19 23.01.png](/uploads/Screenshot%202018-01-19%2023.01.png)
 
-However, as I mentioned earlier, I happen to use the Reeder apps for their customization options and offline-storage features for actually reading the feeds that Feedbin manages. So what I did for my setup was snag the login details from my account and added them to the Reeder apps.
+However, as I mentioned earlier I happen to use the Reeder apps for their customization options and offline-storage features for actually reading the feeds that Feedbin manages. So what I did for my setup was snag the login details from my account and added them to the Reeder apps.
 
 So, on to Reeder: it’s a suite of apps that will take login details from a feed reading service (like Feedbin) and then display that information. The Reeder apps (not to be confused with Google _Reader_) are where I spend most of my time instead of hitting up a website to see if it’s been updated — I adore this suite of apps more than words can say.
 
