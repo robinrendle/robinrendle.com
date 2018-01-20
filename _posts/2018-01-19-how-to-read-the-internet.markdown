@@ -59,7 +59,7 @@ And once you’ve added it there it’ll appear with a collection of the most re
 Of course, over the years I’ve customized Reeder (because I’m a picky type nerd) and so I‘ve set wider text columns and used [Output](https://djr.com/output/) by David Jonathan Ross, for legibility’s sake. I reckon this really is the perfect way for me to read the web and I can only imagine the number of hours I’ve spent staring at this app.  
 
 
-## Wrapping Up
+## 2018: the blogs are back
 
 A friend of mine the other day said that “maybe Medium only exists because Google Reader died — Reader left a vacuum, and the social network filled it.” I’m not entirely sure I agree but it seems likely. And if that’s the case then the death of Google Reader probably led to the emergence of email newsletters. And yet, however great those little email updates are, they’re mostly unarchived and floating around in people’s inboxes. A lot of them aren’t accessible via a URL and so in time they’ll be forgotten and washed away — some of them might be accessible via the Internet Archive at one point or another, but most of them won’t be.
 
