@@ -18,7 +18,7 @@ But it was through this data format and feed reader web app that something magic
 Scanning these feeds over breakfast or lunch and on the train 
 to work, I would likely stumble on [a fantastic blog post](http://www.kungfugrippe.com/post/169873399/clackity-noise) or a long and [rambling thing about fonts](https://ilovetypography.com/2007/10/22/so-you-want-to-create-a-font-part-1/). I would subscribe to tumblr feeds, or the work of professional journalists, or the work of [fellow](http://www.zeldman.com/) [web](http://aworkinglibrary.com/) [designers](https://adactio.com) and [indie novelists](http://www.hughhowey.com/blog/). At the time it seemed like all of this was a critical part of the web.
  
-From a design point of view, RSS was the feed before the Feed™️. You could see all of your subscriptions of every website at a quick glance — and yet we have Twitter and Facebook and newsletters today, so who cares? We don’t need RSS any more, right?
+RSS was the feed before the Feed™️. You could see all of your subscriptions of every website at a quick glance — and yet we have Twitter and Facebook and newsletters today, so who cares? We don’t need RSS any more, right?
 
 Well, I believe that RSS was much more than just a fad. It made blogging possible for the first time because you could follow dozens of writers at the same time and attract a considerably large audience if you were the writer. There were no ads (except for the high-quality [Daring Fireball](https://daringfireball.net/) kind), no one could slow down your feed with third party scripts, it had a good baseline of typographic standards and, most of all, it was _quiet_. There were no comments, no likes or retweets. Just the writer’s thoughts and you. 
 
