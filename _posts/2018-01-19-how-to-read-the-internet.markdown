@@ -75,7 +75,7 @@ A friend of mine the other day said that “maybe [Medium](https://medium.com/) 
 
 On a similar note, many believe that [blogging is making a return](https://ia.net/topics/web-trend-map-2018/). Folks now seem to recognize the value of having your own little plot of land on the web and, although it’s still pretty complex to make your own website and control all that content, it’s worth it in the long run. No one can run ads against your thing. No one can mess with the styles. No one can censor or sunset your writing. 
 
-Not only that but when you finish making your website you have gained new superpowers: you now have an independent voice, a URL, and a home on the open web. 
+Not only that but when you finish making your website you will have gained new superpowers: you now have an independent voice, a URL, and a home on the open web. 
 
 I think that’s why my feelings about RSS are so strong. And I know this might sound peculiar and perhaps even silly, but I have an emotional attachment to RSS the technology and RSS the community that sort of defies explanation. I suppose it’s the same way I feel about my library: I’ve collected a little treasure trove of other people’s ideas, and I’m not entirely sure what my life would look like without them.
 
