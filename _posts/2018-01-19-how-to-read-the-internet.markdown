@@ -48,7 +48,7 @@ So, on to Reeder: it’s a suite of apps that will take login details from a fee
 
 ![s01@2x.png](/uploads/s01@2x.png)
 
-However, in order to read anything from a website you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say it’s nyt.com:
+In order to read anything from a website though you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say we want to subscribe to all stories from [nyt.com](http://nyt.com):
 
 <video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
 <source src="/uploads/1.mp4" type="video/mp4" /></video>
