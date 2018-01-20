@@ -1,6 +1,12 @@
 ---
 title: How to Read the Internet
 date: 2018-01-19 23:14:00 -08:00
+categories:
+- personal
+tags:
+- css
+- web design
+- rss
 ---
 
 Before newsletters and social networks there was RSS, a technology that was used by almost everyone to read the web. It was relatively simple, too: through a web-based interface, such as [Google Reader](https://www.google.com/reader/about/), you could subscribe to a website and see everything that had been posted in a list. If you subscribed to a lot of websites then you could scan them all with just a few swipes. On the developer side and under the hood, a web designer would write a little bit of code to post all of their website’s content in a data format that something like Google Reader would then scrape and serve to you.
