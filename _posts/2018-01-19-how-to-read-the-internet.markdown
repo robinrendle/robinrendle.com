@@ -69,7 +69,7 @@ Of course, over the years I’ve customized Reeder (because I’m a picky type n
 
 ## Wrapping Up
 
-A friend of mine the other day said that “maybe Medium only exists because Google Reader died — Reader left a vacuum, and the social network filled it.” I’m not entirely sure I agree but it seems possible to me. Likewise, Google Reader is likely what led to the resurgence of newsletters. And yet, however great those little email updates are, they’re mostly unarchived and floating around in people’s inboxes. A lot of them aren’t accessible via a URL and so in time they’ll be forgotten and washed away — some of them might be accessible via the Internet Archive at one point or another, but most of them won’t be.
+A friend of mine the other day said that “maybe Medium only exists because Google Reader died — Reader left a vacuum, and the social network filled it.” I’m not entirely sure I agree but it seems likely. Likewise, Google Reader is likely what led to the resurgence of newsletters. And yet, however great those little email updates are, they’re mostly unarchived and floating around in people’s inboxes. A lot of them aren’t accessible via a URL and so in time they’ll be forgotten and washed away — some of them might be accessible via the Internet Archive at one point or another, but most of them won’t be.
 
 On a similar note, many believe that [blogging is making a return](https://ia.net/topics/web-trend-map-2018/). Folks now seem to recognize the value of having your own little plot of land on the web and, although it’s still pretty complex to make your own website and control all that content, it’s worth it in the long run. No one can run ads against your thing. No one can mess with the styles. No one can censor or sunset your writing. 
 
