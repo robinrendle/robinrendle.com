@@ -24,9 +24,7 @@ I like to think of RSS as a window into a room with the smartest, kindest people
 
 But then, rather suddenly, Google decided to kill Reader and it looked like RSS had been caught in the crossfire, too. In hindsight it’s clear that this was the greatest weakness and flaw of RSS: because Google Reader was a free service (and a decent one, too) developers wouldn’t build tools that would compete with it. Google had effectively hijacked the open technology, destroying the competition by making a free service, and then killed the tool that was so associated with it that RSS and Google Reader appeared to be the same thing. (Insert rant about the relationship between google dot com and the rest of the web today here).
 
-The unhealthy bond between RSS and Google Reader is proof of how fragile the web truly is, and it reveals that those communities can disappear just as quickly as they bloom.
-
-However, with that being said, RSS is not dead. A vast number of websites still support syndication formats. And over the years since Reader disappeared there’s been a resurgence of competitive apps and services. Some of these apps do the RSS feed scraping, others simply display the data, and some do both. 
+The unhealthy bond between RSS and Google Reader is proof of how fragile the web truly is, and it reveals that those communities can disappear just as quickly as they bloom. However, with that being said, RSS is not dead. A vast number of websites still support syndication formats. And over the years since Reader disappeared there’s been a resurgence of competitive apps and services. Some of these apps do the RSS feed scraping, others simply display the data, and some do both. 
 
 But if you’ve never heard of RSS before, or if you fancy getting back into RSS because the Feeds of other social networks have been stressing you out, then here’s a rough guide of how to do that today.  
 
