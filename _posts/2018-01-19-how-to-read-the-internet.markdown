@@ -51,7 +51,7 @@ In order to read anything from a website though you’ll need to add a feed. Onc
 <video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
 <source src="/uploads/1.mp4" type="video/mp4" /></video>
 
-And once you’ve added it there it’ll appear with a collection of the most recent posts in the sidebar:
+And once you’ve added it there it’ll appear with a collection of the most recent posts in the sidebar. In the NYT’s case they only give you little snippets of the articles but in many cases a website will make the entire contents of an article available:
 
 <video autoplay="autoplay" loop="loop" class='m-wrapper cell-b20'>
 <source src="/uploads/2.mp4" type="video/mp4" /></video>
