@@ -7,6 +7,7 @@ tags:
 - Dean Allen
 - web design
 - design
+- typography
 City: Oakland
 ---
 
