@@ -11,13 +11,13 @@ tags:
 City: Oakland
 ---
 
-I’ve read this piece [about design](http://alistapart.com/article/readingdesign) by Dean Allen multiple times and yet I can’t appear to shake it. Every time I do there’s something new that strikes me as a difficulty I’m currently experiencing in my career. 
+I’ve read this piece [about design](http://alistapart.com/article/readingdesign) by Dean Allen multiple times and yet I can’t appear to shake it. Every time I read it I find something new that currently explains that my moment of my career. 
 
-Here’s on short extract:  
+Here’s one short extract:  
 
 > An Entirely Incomplete List of Things a Non–Illiterate Designer Should Know Before Being a Designer:
 > 
-> - That text will inevitably be read before it is looked at
+> * That text will inevitably be read before it is looked at
 > - That words themselves make remarkably effective clip art
 > - That the self–conscious layering of messages usually subtracts more value than it adds
 > - That the practical value of white space towers over its value as a design element
