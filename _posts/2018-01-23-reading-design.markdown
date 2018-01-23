@@ -17,7 +17,7 @@ Here’s one short extract:
 
 > An Entirely Incomplete List of Things a Non–Illiterate Designer Should Know Before Being a Designer:
 > 
-> * That text will inevitably be read before it is looked at
+> - That text will inevitably be read before it is looked at
 > - That words themselves make remarkably effective clip art
 > - That the self–conscious layering of messages usually subtracts more value than it adds
 > - That the practical value of white space towers over its value as a design element
