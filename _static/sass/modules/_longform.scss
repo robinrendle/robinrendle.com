@@ -47,15 +47,15 @@
 		hyphens: auto;
 		line-height: 1.55;
 		@include media(">small") {
-			 @include remCalc(font-size, 17);
+			@include remCalc(font-size, 17);
 			line-height: 1.6;
 		}
 		@include media(">medium") {
-			 @include remCalc(font-size, 18);
+			@include remCalc(font-size, 18);
 			line-height: 1.65;
 		}
 		@include media(">large") {
-			 @include remCalc(font-size, 18);
+			@include remCalc(font-size, 18);
 			line-height: 1.7;
 		}
 
@@ -113,7 +113,7 @@
 	blockquote {
 		position: relative;
 
-		p {
+		& > * {
 			border-left: 1px solid #ccc;
 			@include typeface("Regular");
 			@include remCalc(padding-bottom, $base-spacing-unit - 5);
@@ -169,7 +169,7 @@
 			text-align: left;
 			width: 100%;
 			@include media(">medium") {
-				 @include remCalc(font-size, 15);
+				@include remCalc(font-size, 15);
 			}
 		}
 	}
@@ -209,7 +209,7 @@
 		line-height: 1.5;
 		@include links-longform();
 		@include media(">medium") {
-			 @include remCalc(font-size, 16);
+			@include remCalc(font-size, 16);
 		}
 	}
 }
@@ -217,11 +217,11 @@
 .m-longform--intro {
 	p {
 		@include media(">medium") {
-			 @include remCalc(font-size, 18);
+			@include remCalc(font-size, 18);
 			line-height: 1.5;
 		}
 		@include media(">large") {
-			 @include remCalc(font-size, 20);
+			@include remCalc(font-size, 20);
 			line-height: 1.5;
 		}
 	}
