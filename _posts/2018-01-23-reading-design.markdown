@@ -28,5 +28,4 @@ Here’s one short extract:
 > - That arbitrarily altering (or allowing software to alter) the shapes of letters, and the spacing between letters and words, is done at one’s own risk
 > - That emphasis comes at a cost
 > - That overstating the obvious can be effective, but not all the time
-> - The precise point at which a quantity of information no longer requires assistance to be differentiated from another
 > - The knowledge to back up design decisions clearly without falling into a fog of hidden meaning, or so–called “creativity”
