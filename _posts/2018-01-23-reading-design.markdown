@@ -13,7 +13,7 @@ City: Oakland
 
 I’ve read this piece [about design](http://alistapart.com/article/readingdesign) by Dean Allen multiple times and yet I can’t appear to shake it. Every time I read it I find something new that perfectly summarizes that my moment in my career. 
 
-Here’s one short extract:  
+Here’s one short extract that is, right now, effectively my life:  
 
 > An Entirely Incomplete List of Things a Non–Illiterate Designer Should Know Before Being a Designer:
 > 
