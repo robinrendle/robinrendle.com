@@ -1293,6 +1293,9 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
   .m-longform figcaption p a a {
     color: #777; }
 
+.m-longform blockquote > ul {
+  padding-left: 38px; }
+
 .m-longform .cite,
 .m-longform blockquote > p,
 .m-longform figcaption {
@@ -1300,7 +1303,7 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 
 .m-longform blockquote {
   position: relative; }
-  .m-longform blockquote p {
+  .m-longform blockquote > * {
     border-left: 1px solid #ccc;
     font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     padding-bottom: 13px;
@@ -1308,10 +1311,7 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     margin-bottom: 0;
     position: relative;
     color: #666; }
-    @media (min-width: 921px) {
-      .m-longform blockquote p {
-        left: 0; } }
-    .m-longform blockquote p:last-of-type, .m-longform blockquote p:only-child {
+    .m-longform blockquote > *:only-child {
       padding-bottom: 0; }
   .m-longform blockquote p + p {
     padding-top: 5px; }
