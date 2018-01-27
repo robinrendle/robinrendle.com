@@ -3,39 +3,35 @@
 <article class='h-entry
                 container
                 is--editor__content'>
-    <div class='m-wrapper'>
-      <div class="cell-t40 cell-t60--medium cell-b0">
-          <h1>About me</h1>
-      </div>
+	<div class='m-wrapper'>
+		<div class="cell-t40 cell-t60--medium cell-b0">
+		  <h1>About me</h1>
+		</div>
 
-      <div class='m-longform cell-t00 cell-t10'>
-          {{page.intro | markdownify}}
-          {{page.bio | markdownify}}
+		<div class='m-longform cell-t00 cell-t10'>
+			{{page.intro | markdownify}} {{page.bio | markdownify}}
 
-        <h2 class=''>About this place</h2>
+			<h2 class=''>About this place</h2> {{page.colophon | markdownify}}
+		</div>
 
+		<div class='cell-t40'>
+			<div class='cell-5 rules rules--all rules--transparent m-longform--small'>
+				<ul class='o-island o-island--transparent cell lists--none u-reset-margins'>
+					<li class='cell-b10'>You can find me on Twitter:
+						<a href='http://twitter.com/robinrendle' class=''>@robinrendle</a>
+					</li>
+					<li class='cell-b10'>Fork my work over on
+						<a href='http://github.com/robinrendle' class=''>GitHub</a>
+					</li>
+					<li>Or feel free to contact me by
+						<a href='mailto:desk@robinrendle.com'>email</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-            {{page.colophon | markdownify}}
-      </div>
-
-      <div class='cell-t40'>
-            <div class='cell-5 rules rules--all rules--transparent m-longform--small'>
-                <ul class='o-island o-island--transparent cell lists--none u-reset-margins'>
-                    <li class='cell-b10'>You can find me on Twitter:
-                        <a href='http://twitter.com/robinrendle' class=''>@robinrendle</a>
-                    </li>
-                    <li class='cell-b10'>Fork my work over on
-                        <a href='http://github.com/robinrendle' class=''>GitHub</a>
-                    </li>
-                    <li>Or feel free to contact me by
-                        <a href='mailto:desk@robinrendle.com'>email</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </div>
-
-</article><!-- //.container -->
+</article>
+<!-- //.container -->
 
 {% include footer.html %}

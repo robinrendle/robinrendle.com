@@ -4,26 +4,26 @@
 //  Styles for the footer at the bottom of most templates
 
 .m-footer {
-    @include clearfix();
-    font-weight: 400!important;
-    padding: 15px 20px;
-    margin-top: 100px;
-    background-color: $c-primary;
+	@include clearfix();
+	font-weight: 400 !important;
+	padding: 15px 20px;
+	margin-top: 100px;
+	background-color: $c-primary;
 
-    @include media(">medium"){
-        margin-top: 100px;
-        padding: 20px 30px;
-    }
+	@include media(">medium") {
+		margin-top: 100px;
+		padding: 20px 30px;
+	}
 }
 
 .m-footer__nav--social {
-    @include media(">medium"){
-        float: left;
-    }
+	@include media(">medium") {
+		float: right;
+	}
 }
 
 .m-footer__nav {
-    @include media(">medium"){
-        float: right;
-    }
+	@include media(">medium") {
+		float: left;
+	}
 }

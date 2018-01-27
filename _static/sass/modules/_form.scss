@@ -1,0 +1,77 @@
+// ==========================================================================
+// FORM
+// ==========================================================================
+
+.form {
+	align-items: center;
+	position: relative;
+	padding: 0;
+	display: flex;
+	max-width: 100%;
+
+	@include media(">large") {
+		align-self: center;
+	}
+
+	input,
+	input[type="submit"] {
+		height: 40px;
+		align-items: center;
+	}
+}
+
+.form-label {
+	position: absolute;
+	color: $c-primary;
+	top: -15px;
+	left: 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0;
+	cursor: pointer;
+}
+
+.form-input {
+	margin: 0;
+	-webkit-appearance: none;
+	border: none;
+	padding: 0 10px;
+	width: 90%;
+	transition: background-color 0.3s ease;
+	background-color: white;
+	border: 1px solid $c-primary;
+	border-radius: 0 !important;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:focus {
+		background-color: lighten($c-highlight, 10);
+		color: #333;
+		outline: none;
+	}
+}
+
+.form-submit {
+	border-radius: 0;
+	padding: 3px 5px;
+	border: none;
+	width: 30%;
+	transition: background-color 0.3s ease;
+	background-color: $c-primary;
+	color: #eee;
+	outline: none;
+	font-size: 0.9em;
+
+	&:hover {
+		outline: none;
+		border-right: none;
+		border-top: none;
+		background-color: darken($c-primary, 10);
+	}
+
+	&:focus {
+		outline: 5px solid darken($c-highlight, 10);
+	}
+}

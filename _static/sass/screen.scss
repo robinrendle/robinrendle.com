@@ -7,7 +7,8 @@
 $base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
-$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !default;
+$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px)
+	!default;
 // UTILITIES : functions + settings to be used anywhere
 // # TODO: separate utils into tools + utils
 @import "utilities/reset";
@@ -46,15 +47,15 @@ $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px) !defa
 @import "modules/banner";
 @import "modules/footer";
 @import "modules/hero";
+@import "modules/form";
 @import "../../fonts/output.scss";
-
 
 section[role="main"] {
 	min-height: 80vh;
 }
 
 ::selection {
-	background-color: #ffff284d;
+	background-color: $c-highlight;
 	color: #333;
 	text-shadow: none;
 }
@@ -117,77 +118,6 @@ section[role="main"] {
 	justify-content: space-between;
 }
 
-.form {
-	align-items: center;
-	position: relative;
-	display: flex;
-	max-width: 100%;
-	height: 50px;
-	@include media(">large") {
-		align-self: center;
-	}
-
-	input,
-	input[type="submit"],
-	p {
-		align-items: center;
-	}
-}
-
-label {
-	position: absolute;
-	top: -20px;
-	left: 0;
-	font-size: 12px;
-	text-transform: uppercase;
-	width: 70%;
-}
-
-input[type="email"] {
-	margin: 0;
-	-webkit-appearance: none;
-	border: none;
-	padding: 0 15px;
-	width: 70%;
-	height: 50px;
-	transition: background-color 0.3s ease;
-	background-color: white;
-	border: 1px solid #222;
-	border-radius: 0 !important;
-
-	&:hover {
-		cursor: pointer;
-	}
-
-	&:focus {
-		border: 1px solid $c-primary;
-		color: #333;
-		outline: none;
-	}
-}
-
-input[type="submit"] {
-	border-radius: 0;
-	height: 50px;
-	padding: 3px 5px;
-	border: none;
-	width: 30%;
-	transition: background-color 0.3s ease;
-	background-color: lighten($c-primary, 10);
-	background-color: rgba(lighten($c-primary, 10), .4);
-	background-color: #222;
-	color: #eee;
-	outline: none;
-	font-size: 0.9em;
-
-	&:focus,
-	&:hover {
-		outline: none;
-		border-right: none;
-		border-top: none;
-		background-color: $c-primary;
-	}
-}
 @keyframes wiggle {
 	0% {
 		transform: translate(30px, 20px);
@@ -218,7 +148,7 @@ input[type="submit"] {
 		@include media(">medium") {
 			z-index: -1;
 			animation: wiggle 10s ease infinite alternate;
-			content: '';
+			content: "";
 			background-color: #3d5599;
 			mix-blend-mode: hard-light;
 			opacity: 0.4;
@@ -253,3 +183,7 @@ input[type="submit"] {
 
 @import "utilities/reset-margins";
 @import "objects/cell"; // !important
+
+a:focus {
+	background-color: rgba($c-highlight, 0.5);
+}

@@ -1,59 +1,59 @@
         </section>
         <footer role="contentinfo" class="m-footer">
-            <nav class="o-nav o-nav--bullets m-footer__nav--social u-inverse">
-                <a href="http://twitter.com/robinrendle" class="o-nav__item">
-                    @robinrendle
-                </a>
-                <a href="http://codepen.io/robinrendle" class="o-nav__item">
-                    Codepen
-                </a>
-            </nav>
-
-            <nav class="o-nav o-nav--bullets m-footer__nav u-inverse">
-                <a href="/about" class="o-nav__item">About</a>
-                <a href="/notes" class="o-nav__item">Notes</a>
-                <a href="/adventures" class="o-nav__item">Adventures</a>
-                <a href="/essays" class="o-nav__item">Essays</a>
-            </nav>
-        </footer>
+          <nav class="o-nav o-nav--bullets m-footer__nav u-inverse">
+            <a href="/" class="o-nav__item">Home</a>
+            <a href="/about" class="o-nav__item">About</a>
+            <a href="/notes" class="o-nav__item">Notes</a>
+            <a href="/essays" class="o-nav__item">Essays</a>
+          </nav>
+          <nav class="o-nav o-nav--bullets m-footer__nav--social u-inverse">
+            <a href="http://twitter.com/robinrendle" class="o-nav__item">
+                Twitter
+            </a>
+            <a href="http://codepen.io/robinrendle" class="o-nav__item">
+              Codepen
+            </a>
+            <a href="/feed.xml" class="o-nav__item">
+              RSS Feed
+            </a>
+          </nav>
+      </footer>
     </div>
     <script>
     (function() {
-            var Dropdown = (function() {
-                var Menu = {},
-                    menuElem = document.querySelector('.m-banner__menu'),
-                    bannerElem = document.querySelector('.m-banner');
+	var Dropdown = (function() {
+		var Menu = {},
+			menuElem = document.querySelector(".m-banner__menu"),
+			bannerElem = document.querySelector(".m-banner");
 
-                var bind = function() {
-                    if (menuElem) {
-                        menuElem.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            bannerElem.classList.toggle('is--active');
-                        });
-                    }
-                }
+		var bind = function() {
+			if (menuElem) {
+				menuElem.addEventListener("click", function(e) {
+					e.preventDefault();
+					bannerElem.classList.toggle("is--active");
+				});
+			}
+		};
 
-                Menu.init = function() {
-                    bind();
-                }
-                return Menu;
-            })();
+		Menu.init = function() {
+			bind();
+		};
+		return Menu;
+	})();
 
+	var App = {
+		init: function() {
+			Dropdown.init();
+		}
+	};
 
-        var App = {
-            init: function() {
-                Dropdown.init();
-            }
-        }
-
-
-        if (window.addEventListener && document.querySelector) {
-            var body = document.documentElement;
-            body.classList.remove('no-js');
-            body.classList.add('js');
-            App.init();
-        }
-    })();
+	if (window.addEventListener && document.querySelector) {
+		var body = document.documentElement;
+		body.classList.remove("no-js");
+		body.classList.add("js");
+		App.init();
+	}
+})();
 </script>
 </body>
 </html>

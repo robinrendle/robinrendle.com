@@ -932,7 +932,7 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
-    opacity: .4; }
+    opacity: 0.4; }
   .display-img figcaption {
     position: absolute;
     bottom: 0;
@@ -999,7 +999,8 @@ h1 {
       padding-top: 20px;
       padding-bottom: 40px; } }
 
-.wf-gimletcondensed-n4-active h1, .wf-gimletcondensed-n4-active h2 {
+.wf-gimletcondensed-n4-active h1, .wf-gimletcondensed-n4-active
+h2 {
   font-family: "Gimlet condensed", Georgia, serif; }
 
 .wrapper {
@@ -1028,7 +1029,7 @@ h1 {
     width: 100%;
     background-image: url("../build/images/circle-white.svg");
     background-color: transparent;
-    opacity: .4; }
+    opacity: 0.4; }
   @media (min-width: 621px) {
     .footer {
       padding: 20px;
@@ -1064,72 +1065,6 @@ h1 {
 
 input {
   border-radius: 0 !important; }
-
-.form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  padding: 0 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 100%; }
-  @media (min-width: 921px) {
-    .form {
-      height: 50px;
-      -ms-flex-item-align: center;
-          align-self: center;
-      width: 500px; } }
-  .form p, .form input, .form input[type="submit"] {
-    height: 50px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-
-label {
-  position: absolute;
-  top: -20px;
-  left: 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  padding: 0 15px;
-  width: 70%; }
-
-input[type="email"] {
-  margin: 0;
-  -webkit-appearance: none;
-  border: none;
-  padding: 0 15px;
-  width: 70%;
-  transition: background-color .3s ease;
-  background-color: white;
-  border: 1px solid #222;
-  border-radius: 0 !important; }
-  input[type="email"]:hover {
-    cursor: pointer; }
-  input[type="email"]:focus {
-    border: 1px solid #1496fa;
-    color: #333;
-    outline: none; }
-
-input[type="submit"] {
-  border-radius: 0;
-  padding: 3px 5px;
-  border: none;
-  width: 30%;
-  transition: background-color .3s ease;
-  background-color: #46acfb;
-  background-color: rgba(70, 172, 251, 0.4);
-  background-color: #222;
-  color: #eee;
-  outline: none;
-  font-size: .9em; }
-  input[type="submit"]:hover, input[type="submit"]:focus {
-    outline: none;
-    border-right: none;
-    border-top: none;
-    background-color: #1496fa; }
 
 .bg-black {
   background-color: #222; }

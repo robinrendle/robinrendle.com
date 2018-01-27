@@ -7,30 +7,48 @@
 </div>
 
 <div class="m-wrapper cell-b40">
-  <h4 class="rules--bottom cell-b5 rules--light">Reading for a lazy Sunday afternoon</h4> {% assign essays = site.essays | sort: 'date' | reverse %} {% for item in essays limit: 2 %}
-	<div class="cell-b30">
-		<header class="links">
-			<h5 class="h3 u-text--book u-reset-margins"><a href="{{item.url}}">{{item.title}}</a></h5>
-		</header>
-
-		<div class="m-longform">
-			<p>{{item.extract}}</p>
-		</div>
-	</div>
-	{% endfor %}
-</div>
-
-<div class="m-wrapper cell-b40">
-	<h4 class="u-reset-margins cell-b10">Reading for a quick coffee</h4> {% for post in site.posts limit: 6 %}
+	<h4 class="u-reset-margins cell-b10">What I’ve Been Thinking About Lately</h4> {% for post in site.posts limit: 6 %}
 	<a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
 		<div class="c-grey">
 	    <time datetime="{{ post.date}}">
-        {{ post.date | date: "%m/%d/%Y" }}
+        {{ post.date | date: "%m/%d/%y" }}
       </time>
 		</div>
 		<h3 class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
 	</a>
 	{% endfor %}
+</div>
+
+<div class="m-wrapper cell-b40">
+	<div class='cell-5 rules rules--all rules--transparent m-longform--small'>
+		<div class='o-island o-island--transparent cell lists--none u-reset-margins'>
+			<h3 class='u-reset-margins'>Adventures in Typography</h3>
+
+			<div class="m-longform">
+				<p>This is my newsletter on typography, graphic design and the web. I share what I’m working on, what I’ve been thinking about and what I’m reading. Here’s my pitch:</p>
+
+				<blockquote>
+					<p>Adventures in Typography is a weekly love letter to the written word. Topics include: calligraphy, lettering, display type, micro type, books about fonts, type specimens, neon lights, posters, morse code, stamps, literature, web design, and books about seeds.</p>
+				</blockquote>
+
+				<div class='cell-t20'>
+					<form
+						class='form'
+						action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+						method="post"
+						target="popupwindow"
+						onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+						class="embeddable-buttondown-form"
+					>
+						<label for="bd-email" class='form-label'>Enter your email</label>
+						<input class='form-input' type="email" name="email" id="bd-email">
+						<input type="hidden" value="1" name="embed"/>
+						<input class='form-submit' type="submit" value="Subscribe" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 {% include footer.html %}
