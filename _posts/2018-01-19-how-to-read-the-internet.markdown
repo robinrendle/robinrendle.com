@@ -35,10 +35,10 @@ to work, I would likely stumble on <a href="http://www.kungfugrippe.com/post/169
 <p>However, as I mentioned earlier I happen to use the Reeder apps for their customization options and offline-storage features for actually reading the feeds that Feedbin manages. So what I did for my setup was snag the login details from my account and added them to the Reeder apps.</p>
 <p>So, on to Reeder: it’s a suite of apps that will take login details from a feed reading service (like Feedbin) and then display that information. The Reeder apps (not to be confused with Google <em>Reader</em>) are where I spend most of my time instead of hitting up a website to see if it’s been updated — I adore this suite of apps more than words can say and if I had to choose my Twitter account over my RSS setup I wouldn’t hesitate for a second — I’d throw Twitter right into the ocean.</p>
 <p>In order to read anything from a website with RSS though you’ll need to add a feed. Once you’ve bought and installed the Reeder app, and then synced it with your Feedbin account (or with something similar), you can head over to a website and copy its URL. In this instance let’s say we want to subscribe to all stories from <a href="http://nyt.com">nyt.com</a>:</p>
-<video autoplay="autoplay" loop="loop" class="m-wrapper cell-b20">
+<video autoplay="autoplay" loop="loop" class="cell-b20">
 <source src="/uploads/1.mp4" type="video/mp4"></video>
 <p>And once you’ve added it there it’ll appear with a collection of the most recent posts in the sidebar. In the NYT’s case they only give you little snippets of the articles but in many cases a website will make the entire contents of an article available:</p>
-<video autoplay="autoplay" loop="loop" class="m-wrapper cell-b20">
+<video autoplay="autoplay" loop="loop" class="cell-b20">
 <source src="/uploads/2.mp4" type="video/mp4"></video>
 <p>Of course, over the years I’ve customized Reeder (because I’m a picky type nerd) and so I‘ve set wider text columns and used <a href="https://djr.com/output/">Output</a> by David Jonathan Ross, for legibility’s sake. I reckon this really is the perfect way for me to read the web and I can only imagine the number of hours I’ve spent staring at this app.</p>
 <h2 id="2018-the-blogs-are-back">2018: the blogs are back</h2>
