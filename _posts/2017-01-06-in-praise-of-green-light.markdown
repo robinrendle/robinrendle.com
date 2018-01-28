@@ -5,6 +5,7 @@ categories:
 - personal
 City: Plymouth
 Country: UK
+extract: I think about pain by separating it into two categories; High and Low.
 ---
 
 I think about pain by separating it into two categories; High and Low. 
