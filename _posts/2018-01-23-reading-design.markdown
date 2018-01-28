@@ -9,9 +9,12 @@ tags:
 - design
 - typography
 City: Oakland
+extract: 'I’ve read this piece about design by Dean Allen multiple times and yet I
+  can’t appear to shake it. Every time I read it I find something new that perfectly
+  summarizes that moment in my career. '
 ---
 
-I’ve read this piece [about design](http://alistapart.com/article/readingdesign) by Dean Allen multiple times and yet I can’t appear to shake it. Every time I read it I find something new that perfectly summarizes that my moment in my career. 
+I’ve read this piece [about design](http://alistapart.com/article/readingdesign) by Dean Allen multiple times and yet I can’t appear to shake it. Every time I read it I find something new that perfectly summarizes that moment in my career. 
 
 Here’s a list of design rules from the piece that is, right now, effectively my life:  
 
