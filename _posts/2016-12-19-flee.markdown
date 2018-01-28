@@ -3,6 +3,7 @@ title: Flee
 date: 2016-12-19 19:12:00 -08:00
 City: SFO
 Country: California
+extract: "...in typing there’s a form of escape that doesn’t require me to leave."
 ---
 
 Darkness has trickled in over the hills across the runway and I’m left wondering whether I’m running away from a city once again. This time it’s San Francisco. And this time it’s in December.
