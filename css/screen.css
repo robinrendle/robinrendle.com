@@ -567,7 +567,7 @@ table {
   color: #666; }
 
 .c-lightgrey {
-  color: #777; }
+  color: #999; }
 
 .c-primary {
   color: #2a7af7; }
@@ -1105,7 +1105,8 @@ code {
     color: #777777; }
 
 .o-nav__item:focus {
-  background-color: #eaea61 !important; }
+  outline: 1px solid #eaea61 !important;
+  background-color: rgba(246, 246, 187, 0.4); }
 
 .o-nav--large .o-nav__item {
   font-size: 18px; }
@@ -1829,7 +1830,9 @@ hgroup {
     border-top: none;
     background-color: #085fe6; }
   .form-submit:focus {
-    outline: 5px solid #f0f08e; }
+    outline: 1px solid #eaea61 !important;
+    background-color: rgba(246, 246, 187, 0.4);
+    color: #444; }
 
 @font-face {
   font-family: 'Output Sans';

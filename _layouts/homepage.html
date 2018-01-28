@@ -9,12 +9,13 @@
 <div class="m-wrapper cell-b40">
 	<h4 class="u-reset-margins cell-b10">What I’ve Been Thinking About Lately</h4> {% for post in site.posts limit: 6 %}
 	<a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
-		<div class="c-grey">
+		<div class="c-lightgrey">
 	    <time datetime="{{ post.date}}">
         {{ post.date | date: "%m/%d/%y" }}
       </time>
 		</div>
 		<h3 class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
+		<p class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{post.['extract']}}</p>
 	</a>
 	{% endfor %}
 </div>
@@ -40,8 +41,8 @@
 						onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
 						class="embeddable-buttondown-form"
 					>
-						<label for="bd-email" class='form-label'>Enter your email</label>
-						<input class='form-input' type="email" name="email" id="bd-email">
+						<label for="bd-email" class='form-label'>Email address</label>
+						<input class='form-input' type="email" name="email" id="bd-email" placeholder='desk@robinrendle.com'>
 						<input type="hidden" value="1" name="embed"/>
 						<input class='form-submit' type="submit" value="Subscribe" />
 					</form>

@@ -72,6 +72,8 @@
 	}
 
 	&:focus {
-		outline: 5px solid darken($c-highlight, 10);
+		outline: 1px solid darken($c-highlight, 20) !important;
+		background-color: rgba($c-highlight, 0.4);
+		color: #444;
 	}
 }
