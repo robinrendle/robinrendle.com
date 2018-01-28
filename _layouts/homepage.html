@@ -7,16 +7,20 @@
 </div>
 
 <div class="m-wrapper cell-b40">
-	<h4 class="u-reset-margins cell-b10">What I’ve Been Thinking About Lately</h4> {% for post in site.posts limit: 6 %}
-	<a href="{{post.url}}" class="rules--bottom rules--light flex cell-v10">
-		<div class="c-lightgrey">
-	    <time datetime="{{ post.date}}">
-        {{ post.date | date: "%m/%d/%y" }}
-      </time>
-		</div>
-		<h3 class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{post.title}}</h3>
-		<p class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{post.['extract']}}</p>
-	</a>
+	<h4 class="u-reset-margins cell-b10">Highlights from the Archive</h4>
+	{% assign essays = site.essays | sort: 'date' | reverse %}
+	{% for item in essays limit:3 %}
+		<a href="{{item.url}}" class="flex cell-v10">
+			<div class="c-lightgrey">
+		    <time datetime="{{ item.date}}">
+	        {{ item.date | date: "%m/%d/%y" }}
+	      </time>
+			</div>
+			<div>
+				<h3 class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{item.title}}</h3>
+				<p class="c-grey u-text--regular u-text--book u-reset-margins cell-l20">{{item.extract}}</p>
+			</div>
+		</a>
 	{% endfor %}
 </div>
 
@@ -26,11 +30,7 @@
 			<h3 class='u-reset-margins'>Adventures in Typography</h3>
 
 			<div class="m-longform">
-				<p>This is my newsletter on typography, graphic design and the web. I share what I’m working on, what I’ve been thinking about and what I’m reading. Here’s my pitch:</p>
-
-				<blockquote>
-					<p>Adventures in Typography is a weekly love letter to the written word. Topics include: calligraphy, lettering, display type, micro type, books about fonts, type specimens, neon lights, posters, morse code, stamps, literature, web design, and books about seeds.</p>
-				</blockquote>
+				<p>This is my newsletter all about typography and design. Topics include: calligraphy, lettering, display type, micro type, books about fonts, type specimens, neon lights, posters, morse code, stamps, literature, web design, and books about seeds.</p>
 
 				<div class='cell-t20'>
 					<form
