@@ -5,6 +5,10 @@ categories:
 - fonts
 City: Dana Point
 Country: CA
+extract: I’ve been a big fan of David Jonathan Ross’ Gimlet for the past couple of
+  months and from time to time I find myself picking a character at random and poking
+  at it. Look at that capital Q! Or the & symbol! Gimlet tempts us to sit back and
+  zoom in, with each and every character begging to be used in large sizes.
 ---
 
 I’ve been a big fan of David Jonathan Ross’ [Gimlet](https://djr.com/gimlet/) for the past couple of months and from time to time I find myself picking a character at random and poking at it. Look at that capital Q! Or the & symbol! Gimlet tempts us to sit back and zoom in, with each and every character begging to be used in large sizes.
