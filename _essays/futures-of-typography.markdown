@@ -1,6 +1,8 @@
 ---
 title: The Futures of Typography
 date: 2017-01-06 12:25:00 -08:00
+tags:
+- featured
 City: San Francisco
 Country: California
 extract: What are the skills we need to contribute to the future of typography? And
