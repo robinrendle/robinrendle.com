@@ -7,6 +7,7 @@ tags:
 - css
 - web design
 - rss
+extract: A love letter to RSS the community and RSS the technology.
 ---
 
 <p>Before newsletters and social networks there was RSS, a tool that helped us keep up to date with our favorite websites. And it was relatively simple, too: through a web app such as <a href="https://en.wikipedia.org/wiki/Google_Reader/">Google Reader</a>, you could effectively subscribe to another website’s content feed and get an alert whenever something new had been posted. On the developer side, a web designer would write a little bit of code to post all of their website’s content in a format that Google Reader could then scrape and serve to you.</p>
