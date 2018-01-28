@@ -581,7 +581,7 @@ table {
 .u-text--small-caps {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .u-text--regular {
@@ -634,7 +634,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222; }
+  color: #333; }
   .is-darkMode h1, .is-darkMode
   h2, .is-darkMode
   h3, .is-darkMode
@@ -648,8 +648,7 @@ h6 {
 h1,
 .m-longform
 h1 {
-  font-weight: 600;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 1.15;
@@ -660,8 +659,8 @@ h1 {
     h1,
     .m-longform
     h1 {
-      font-size: 33px;
-      font-size: 2.0625rem;
+      font-size: 38px;
+      font-size: 2.375rem;
       line-height: 1.2; } }
   @media (min-width: 921px) {
     .h1,
@@ -669,8 +668,9 @@ h1 {
     h1,
     .m-longform
     h1 {
-      font-size: 35px;
-      font-size: 2.1875rem; } }
+      line-height: 1.15;
+      font-size: 43px;
+      font-size: 2.6875rem; } }
 
 .h2,
 .h3,
@@ -791,13 +791,14 @@ h6 {
 .m-heading__text,
 .fonts-loaded .m-heading__text {
   font-weight: normal;
+  color: #333;
   max-width: 800px;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
   @media (min-width: 921px) {
     .m-heading__text,
     .fonts-loaded .m-heading__text {
-      font-size: 40px;
-      font-size: 2.5rem; } }
+      font-size: 46px;
+      font-size: 2.875rem; } }
 
 a {
   outline: none;
@@ -845,24 +846,54 @@ a {
 .links--dark a a {
   color: #777; }
 
-h1, h2, h3, h4, h5, h6, hgroup,
-ul, ol, dl,
-blockquote, p, address,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
 table,
-fieldset, figure,
-pre, hr, ul, ol,
+video,
+fieldset,
+figure,
+pre,
+hr,
+ul,
+ol,
 .media,
 .island,
 .islet {
   margin-bottom: 21.6px;
   margin-bottom: 1.35rem; }
   @media (min-width: 621px) {
-    h1, h2, h3, h4, h5, h6, hgroup,
-    ul, ol, dl,
-    blockquote, p, address,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hgroup,
+    ul,
+    ol,
+    dl,
+    blockquote,
+    p,
+    address,
     table,
-    fieldset, figure,
-    pre, hr, ul, ol,
+    video,
+    fieldset,
+    figure,
+    pre,
+    hr,
+    ul,
+    ol,
     .media,
     .island,
     .islet {
@@ -936,7 +967,7 @@ q,
 abbr {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .m-longform:link,
@@ -1094,7 +1125,7 @@ abbr {
 .m-longform h5, .m-longform .h5 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #000;
   margin-top: 40px; }

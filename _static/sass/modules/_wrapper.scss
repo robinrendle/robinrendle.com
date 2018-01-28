@@ -9,118 +9,131 @@ $_max-width: 675;
 $_max-width-wide: 1000;
 
 .m-wrapper {
-    display: block;
-    margin: 0 auto;
-    @include clearfix();
-    @include remCalc(padding, 0, 15);
-    @include remCalc(max-width, $_max-width);
+	display: block;
+	margin: 0 auto;
+	@include clearfix();
+	@include remCalc(padding, 0, 15);
+	@include remCalc(max-width, $_max-width);
 
-    @include media(">medium"){
-        padding: 0 6%;
-    }
+	@include media(">medium") {
+		padding: 0 6%;
+	}
 
-    @include media(">large"){
-        @include remCalc(padding, 0);
-    }
+	@include media(">large") {
+		@include remCalc(padding, 0);
+	}
 }
 
 .m-wrapper--wide {
-    @include remCalc(max-width, $_max-width-wide);
+	@include remCalc(max-width, $_max-width-wide);
 }
-
 
 // This module resets all of the padding of each element so that certain elements can be
 // toggled into fullwidth much easier.
 .m-wrapper--unpadded {
-    max-width: none;
-    padding: 0;
+	max-width: none;
+	padding: 0;
 
-    & > p,
-        ul,
-        ol,
-        figure,
-        pre,
-        blockquote,
-        h1, h2, h3, h4, h5, h6 {
-            margin-left: auto;
-            margin-right: auto;
-            @include remCalc(max-width, $_max-width);
-            @include remCalc(padding, 0, 15);
+	& > p,
+	video,
+	ul,
+	ol,
+	figure,
+	pre,
+	blockquote,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-left: auto;
+		margin-right: auto;
+		@include remCalc(max-width, $_max-width);
+		@include remCalc(padding, 0, 15);
 
-            @include media(">medium"){
-                padding: 0 6%;
-            }
+		@include media(">medium") {
+			padding: 0 6%;
+		}
 
-            @include media(">large"){
-                @include remCalc(padding, 0);
-            }
-    }
+		@include media(">large") {
+			@include remCalc(padding, 0);
+		}
+	}
 
-    & > div { // this is a hack for Codepen
-        padding: 0;
-        max-width: none;
-    }
+	& > div {
+		// this is a hack for Codepen
+		padding: 0;
+		max-width: none;
+	}
 }
 
 .m-wrapper--unpadded-wide {
-    max-width: none;
-    padding: 0;
+	max-width: none;
+	padding: 0;
 
-    & > p,
-        ul,
-        ol,
-        figure,
-        blockquote,
-        pre,
-        h1, h2, h3, h4, h5, h6 {
-        margin-left: auto;
-        margin-right: auto;
-        @include remCalc(max-width, $_max-width-wide);
-        @include remCalc(padding, 0, 15);
+	& > p,
+	ul,
+	ol,
+	figure,
+	blockquote,
+	pre,
+	video,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-left: auto;
+		margin-right: auto;
+		@include remCalc(max-width, $_max-width-wide);
+		@include remCalc(padding, 0, 15);
 
-        @include media(">medium"){
-            padding: 0 6%;
-        }
+		@include media(">medium") {
+			padding: 0 6%;
+		}
 
-        @include media(">large"){
-            @include remCalc(padding, 0);
-        }
-    }
+		@include media(">large") {
+			@include remCalc(padding, 0);
+		}
+	}
 
-    & > div { // this is a hack for Codepen
-        padding: 0;
-        max-width: none;
-    }
+	& > div {
+		// this is a hack for Codepen
+		padding: 0;
+		max-width: none;
+	}
 }
 
 .m-wrapper--unpadded {
-    .m-figure--fill {
-        @include clearfix();
-        max-width: 100%;
+	.m-figure--fill {
+		@include clearfix();
+		max-width: 100%;
 
-        img {
-            @include media(">large"){
-                max-width: 79%;
-                float: right;
-            }
-        }
+		img {
+			@include media(">large") {
+				max-width: 79%;
+				float: right;
+			}
+		}
 
-        figcaption {
-            @include media(">large"){
-                font-size: 15px;
-                float: left;
-                margin-left: 10px;
-                width: 18%;
-                padding-top: 10px;
-                text-align: right;
-                position: relative;
+		figcaption {
+			@include media(">large") {
+				font-size: 15px;
+				float: left;
+				margin-left: 10px;
+				width: 18%;
+				padding-top: 10px;
+				text-align: right;
+				position: relative;
 
-                &:before {
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                }
-            }
-        }
-    }
+				&:before {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+			}
+		}
+	}
 }

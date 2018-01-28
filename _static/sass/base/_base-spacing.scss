@@ -2,20 +2,35 @@
 // BASE SPACING
 // ==========================================================================
 
-h1,h2,h3,h4,h5,h6,hgroup,
-ul,ol,dl,
-blockquote,p,address,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
 table,
-fieldset,figure,
-pre, hr, ul,ol,
+video,
+fieldset,
+figure,
+pre,
+hr,
+ul,
+ol,
 .media,
 .island,
-.islet{
-    @include remCalc(margin-bottom, $base-spacing-unit * 1.2);
+.islet {
+	@include remCalc(margin-bottom, $base-spacing-unit * 1.2);
 
-    @include media(">medium"){
-        @include remCalc(margin-bottom, $base-spacing-unit * 1.4);
-    }
+	@include media(">medium") {
+		@include remCalc(margin-bottom, $base-spacing-unit * 1.4);
+	}
 }
 
 /**
@@ -23,10 +38,10 @@ pre, hr, ul,ol,
  * by a consistent amount. Define that amount once, here.
  */
 dd {
-    @include remCalc(margin-bottom, $half-spacing-unit);
+	@include remCalc(margin-bottom, $half-spacing-unit);
 }
 
 iframe,
 .widescreen {
-    @include remCalc(margin, $base-spacing-unit, 0, $base-spacing-unit * 2,0);
+	@include remCalc(margin, $base-spacing-unit, 0, $base-spacing-unit * 2,0);
 }

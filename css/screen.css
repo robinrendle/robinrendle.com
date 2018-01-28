@@ -582,7 +582,7 @@ table {
 .u-text--small-caps {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .u-text--regular {
@@ -679,24 +679,54 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
 .u-text-right {
   text-align: right; }
 
-h1, h2, h3, h4, h5, h6, hgroup,
-ul, ol, dl,
-blockquote, p, address,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
 table,
-fieldset, figure,
-pre, hr, ul, ol,
+video,
+fieldset,
+figure,
+pre,
+hr,
+ul,
+ol,
 .media,
 .island,
 .islet {
   margin-bottom: 21.6px;
   margin-bottom: 1.35rem; }
   @media (min-width: 621px) {
-    h1, h2, h3, h4, h5, h6, hgroup,
-    ul, ol, dl,
-    blockquote, p, address,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hgroup,
+    ul,
+    ol,
+    dl,
+    blockquote,
+    p,
+    address,
     table,
-    fieldset, figure,
-    pre, hr, ul, ol,
+    video,
+    fieldset,
+    figure,
+    pre,
+    hr,
+    ul,
+    ol,
     .media,
     .island,
     .islet {
@@ -771,7 +801,7 @@ mark {
 abbr {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 abbr,
@@ -837,7 +867,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #222; }
+  color: #333; }
   .is-darkMode h1, .is-darkMode
   h2, .is-darkMode
   h3, .is-darkMode
@@ -851,8 +881,7 @@ h6 {
 h1,
 .m-longform
 h1 {
-  font-weight: 600;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 1.15;
@@ -863,8 +892,8 @@ h1 {
     h1,
     .m-longform
     h1 {
-      font-size: 33px;
-      font-size: 2.0625rem;
+      font-size: 38px;
+      font-size: 2.375rem;
       line-height: 1.2; } }
   @media (min-width: 921px) {
     .h1,
@@ -872,8 +901,9 @@ h1 {
     h1,
     .m-longform
     h1 {
-      font-size: 35px;
-      font-size: 2.1875rem; } }
+      line-height: 1.15;
+      font-size: 43px;
+      font-size: 2.6875rem; } }
 
 .h2,
 .h3,
@@ -994,13 +1024,14 @@ h6 {
 .m-heading__text,
 .fonts-loaded .m-heading__text {
   font-weight: normal;
+  color: #333;
   max-width: 800px;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
   @media (min-width: 921px) {
     .m-heading__text,
     .fonts-loaded .m-heading__text {
-      font-size: 40px;
-      font-size: 2.5rem; } }
+      font-size: 46px;
+      font-size: 2.875rem; } }
 
 hr, hr:before {
   -webkit-user-select: none;
@@ -1105,8 +1136,8 @@ code {
     color: #777777; }
 
 .o-nav__item:focus {
-  outline: 1px solid #eaea61 !important;
-  background-color: rgba(246, 246, 187, 0.4); }
+  outline: 1px solid #ffff5e !important;
+  background-color: rgba(255, 255, 196, 0.4); }
 
 .o-nav--large .o-nav__item {
   font-size: 18px; }
@@ -1375,7 +1406,7 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 .m-longform h5 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   color: #000;
   margin-top: 40px; }
@@ -1473,12 +1504,18 @@ hgroup {
   max-width: none;
   padding: 0; }
   .m-wrapper--unpadded > p,
+  .m-wrapper--unpadded video,
   .m-wrapper--unpadded ul,
   .m-wrapper--unpadded ol,
   .m-wrapper--unpadded figure,
   .m-wrapper--unpadded pre,
   .m-wrapper--unpadded blockquote,
-  .m-wrapper--unpadded h1, .m-wrapper--unpadded h2, .m-wrapper--unpadded h3, .m-wrapper--unpadded h4, .m-wrapper--unpadded h5, .m-wrapper--unpadded h6 {
+  .m-wrapper--unpadded h1,
+  .m-wrapper--unpadded h2,
+  .m-wrapper--unpadded h3,
+  .m-wrapper--unpadded h4,
+  .m-wrapper--unpadded h5,
+  .m-wrapper--unpadded h6 {
     margin-left: auto;
     margin-right: auto;
     max-width: 675px;
@@ -1487,21 +1524,33 @@ hgroup {
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {
       .m-wrapper--unpadded > p,
+      .m-wrapper--unpadded video,
       .m-wrapper--unpadded ul,
       .m-wrapper--unpadded ol,
       .m-wrapper--unpadded figure,
       .m-wrapper--unpadded pre,
       .m-wrapper--unpadded blockquote,
-      .m-wrapper--unpadded h1, .m-wrapper--unpadded h2, .m-wrapper--unpadded h3, .m-wrapper--unpadded h4, .m-wrapper--unpadded h5, .m-wrapper--unpadded h6 {
+      .m-wrapper--unpadded h1,
+      .m-wrapper--unpadded h2,
+      .m-wrapper--unpadded h3,
+      .m-wrapper--unpadded h4,
+      .m-wrapper--unpadded h5,
+      .m-wrapper--unpadded h6 {
         padding: 0 6%; } }
     @media (min-width: 921px) {
       .m-wrapper--unpadded > p,
+      .m-wrapper--unpadded video,
       .m-wrapper--unpadded ul,
       .m-wrapper--unpadded ol,
       .m-wrapper--unpadded figure,
       .m-wrapper--unpadded pre,
       .m-wrapper--unpadded blockquote,
-      .m-wrapper--unpadded h1, .m-wrapper--unpadded h2, .m-wrapper--unpadded h3, .m-wrapper--unpadded h4, .m-wrapper--unpadded h5, .m-wrapper--unpadded h6 {
+      .m-wrapper--unpadded h1,
+      .m-wrapper--unpadded h2,
+      .m-wrapper--unpadded h3,
+      .m-wrapper--unpadded h4,
+      .m-wrapper--unpadded h5,
+      .m-wrapper--unpadded h6 {
         padding: 0px;
         padding: 0rem; } }
   .m-wrapper--unpadded > div {
@@ -1517,7 +1566,13 @@ hgroup {
   .m-wrapper--unpadded-wide figure,
   .m-wrapper--unpadded-wide blockquote,
   .m-wrapper--unpadded-wide pre,
-  .m-wrapper--unpadded-wide h1, .m-wrapper--unpadded-wide h2, .m-wrapper--unpadded-wide h3, .m-wrapper--unpadded-wide h4, .m-wrapper--unpadded-wide h5, .m-wrapper--unpadded-wide h6 {
+  .m-wrapper--unpadded-wide video,
+  .m-wrapper--unpadded-wide h1,
+  .m-wrapper--unpadded-wide h2,
+  .m-wrapper--unpadded-wide h3,
+  .m-wrapper--unpadded-wide h4,
+  .m-wrapper--unpadded-wide h5,
+  .m-wrapper--unpadded-wide h6 {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
@@ -1531,7 +1586,13 @@ hgroup {
       .m-wrapper--unpadded-wide figure,
       .m-wrapper--unpadded-wide blockquote,
       .m-wrapper--unpadded-wide pre,
-      .m-wrapper--unpadded-wide h1, .m-wrapper--unpadded-wide h2, .m-wrapper--unpadded-wide h3, .m-wrapper--unpadded-wide h4, .m-wrapper--unpadded-wide h5, .m-wrapper--unpadded-wide h6 {
+      .m-wrapper--unpadded-wide video,
+      .m-wrapper--unpadded-wide h1,
+      .m-wrapper--unpadded-wide h2,
+      .m-wrapper--unpadded-wide h3,
+      .m-wrapper--unpadded-wide h4,
+      .m-wrapper--unpadded-wide h5,
+      .m-wrapper--unpadded-wide h6 {
         padding: 0 6%; } }
     @media (min-width: 921px) {
       .m-wrapper--unpadded-wide > p,
@@ -1540,7 +1601,13 @@ hgroup {
       .m-wrapper--unpadded-wide figure,
       .m-wrapper--unpadded-wide blockquote,
       .m-wrapper--unpadded-wide pre,
-      .m-wrapper--unpadded-wide h1, .m-wrapper--unpadded-wide h2, .m-wrapper--unpadded-wide h3, .m-wrapper--unpadded-wide h4, .m-wrapper--unpadded-wide h5, .m-wrapper--unpadded-wide h6 {
+      .m-wrapper--unpadded-wide video,
+      .m-wrapper--unpadded-wide h1,
+      .m-wrapper--unpadded-wide h2,
+      .m-wrapper--unpadded-wide h3,
+      .m-wrapper--unpadded-wide h4,
+      .m-wrapper--unpadded-wide h5,
+      .m-wrapper--unpadded-wide h6 {
         padding: 0px;
         padding: 0rem; } }
   .m-wrapper--unpadded-wide > div {
@@ -1629,7 +1696,7 @@ hgroup {
 .m-banner__about {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   display: inline-block;
   padding: 15px 20px 12px;
@@ -1810,7 +1877,7 @@ hgroup {
   .form-input:hover {
     cursor: pointer; }
   .form-input:focus {
-    background-color: #fcfce8;
+    background-color: #fffff7;
     color: #333;
     outline: none; }
 
@@ -1830,9 +1897,16 @@ hgroup {
     border-top: none;
     background-color: #085fe6; }
   .form-submit:focus {
-    outline: 1px solid #eaea61 !important;
-    background-color: rgba(246, 246, 187, 0.4);
+    outline: 1px solid #ffff5e !important;
+    background-color: rgba(255, 255, 196, 0.4);
     color: #444; }
+
+@font-face {
+  font-family: "Caponi Display";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/caponi-display.woff2") format("woff2"), url("/fonts/caponi-display.woff") format("woff"); }
 
 @font-face {
   font-family: 'Output Sans';
@@ -1859,12 +1933,12 @@ section[role="main"] {
   min-height: 80vh; }
 
 ::-moz-selection {
-  background-color: #f6f6bb;
+  background-color: #ffffc4;
   color: #333;
   text-shadow: none; }
 
 ::selection {
-  background-color: #f6f6bb;
+  background-color: #ffffc4;
   color: #333;
   text-shadow: none; }
 
@@ -1923,6 +1997,11 @@ section[role="main"] {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
+
+.flex-align-baseline {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
 
 .justify-space-between {
   -webkit-box-pack: justify;
@@ -2746,4 +2825,21 @@ section[role="main"] {
     padding-right: 5rem; } }
 
 a:focus {
-  background-color: rgba(246, 246, 187, 0.5); }
+  background-color: rgba(255, 255, 196, 0.5); }
+
+@media (min-width: 621px) {
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); } }
+
+@media (min-width: 621px) {
+  .notes-title {
+    grid-column: 1 / 3;
+    word-break: break-all;
+    color: #efefef;
+    font-size: 60px;
+    line-height: 0.8; } }
+
+@media (min-width: 621px) {
+  .notes-link {
+    grid-column: 3 / 13; } }

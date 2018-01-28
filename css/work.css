@@ -582,7 +582,7 @@ table {
 .u-text--small-caps {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: .9em !important;
+  font-size: 0.9em !important;
   font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .u-text--regular {
@@ -656,12 +656,18 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
   max-width: none;
   padding: 0; }
   .m-wrapper--unpadded > p,
+  .m-wrapper--unpadded video,
   .m-wrapper--unpadded ul,
   .m-wrapper--unpadded ol,
   .m-wrapper--unpadded figure,
   .m-wrapper--unpadded pre,
   .m-wrapper--unpadded blockquote,
-  .m-wrapper--unpadded h1, .m-wrapper--unpadded h2, .m-wrapper--unpadded h3, .m-wrapper--unpadded h4, .m-wrapper--unpadded h5, .m-wrapper--unpadded h6 {
+  .m-wrapper--unpadded h1,
+  .m-wrapper--unpadded h2,
+  .m-wrapper--unpadded h3,
+  .m-wrapper--unpadded h4,
+  .m-wrapper--unpadded h5,
+  .m-wrapper--unpadded h6 {
     margin-left: auto;
     margin-right: auto;
     max-width: 675px;
@@ -670,21 +676,33 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {
       .m-wrapper--unpadded > p,
+      .m-wrapper--unpadded video,
       .m-wrapper--unpadded ul,
       .m-wrapper--unpadded ol,
       .m-wrapper--unpadded figure,
       .m-wrapper--unpadded pre,
       .m-wrapper--unpadded blockquote,
-      .m-wrapper--unpadded h1, .m-wrapper--unpadded h2, .m-wrapper--unpadded h3, .m-wrapper--unpadded h4, .m-wrapper--unpadded h5, .m-wrapper--unpadded h6 {
+      .m-wrapper--unpadded h1,
+      .m-wrapper--unpadded h2,
+      .m-wrapper--unpadded h3,
+      .m-wrapper--unpadded h4,
+      .m-wrapper--unpadded h5,
+      .m-wrapper--unpadded h6 {
         padding: 0 6%; } }
     @media (min-width: 921px) {
       .m-wrapper--unpadded > p,
+      .m-wrapper--unpadded video,
       .m-wrapper--unpadded ul,
       .m-wrapper--unpadded ol,
       .m-wrapper--unpadded figure,
       .m-wrapper--unpadded pre,
       .m-wrapper--unpadded blockquote,
-      .m-wrapper--unpadded h1, .m-wrapper--unpadded h2, .m-wrapper--unpadded h3, .m-wrapper--unpadded h4, .m-wrapper--unpadded h5, .m-wrapper--unpadded h6 {
+      .m-wrapper--unpadded h1,
+      .m-wrapper--unpadded h2,
+      .m-wrapper--unpadded h3,
+      .m-wrapper--unpadded h4,
+      .m-wrapper--unpadded h5,
+      .m-wrapper--unpadded h6 {
         padding: 0px;
         padding: 0rem; } }
   .m-wrapper--unpadded > div {
@@ -700,7 +718,13 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
   .m-wrapper--unpadded-wide figure,
   .m-wrapper--unpadded-wide blockquote,
   .m-wrapper--unpadded-wide pre,
-  .m-wrapper--unpadded-wide h1, .m-wrapper--unpadded-wide h2, .m-wrapper--unpadded-wide h3, .m-wrapper--unpadded-wide h4, .m-wrapper--unpadded-wide h5, .m-wrapper--unpadded-wide h6 {
+  .m-wrapper--unpadded-wide video,
+  .m-wrapper--unpadded-wide h1,
+  .m-wrapper--unpadded-wide h2,
+  .m-wrapper--unpadded-wide h3,
+  .m-wrapper--unpadded-wide h4,
+  .m-wrapper--unpadded-wide h5,
+  .m-wrapper--unpadded-wide h6 {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
@@ -714,7 +738,13 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
       .m-wrapper--unpadded-wide figure,
       .m-wrapper--unpadded-wide blockquote,
       .m-wrapper--unpadded-wide pre,
-      .m-wrapper--unpadded-wide h1, .m-wrapper--unpadded-wide h2, .m-wrapper--unpadded-wide h3, .m-wrapper--unpadded-wide h4, .m-wrapper--unpadded-wide h5, .m-wrapper--unpadded-wide h6 {
+      .m-wrapper--unpadded-wide video,
+      .m-wrapper--unpadded-wide h1,
+      .m-wrapper--unpadded-wide h2,
+      .m-wrapper--unpadded-wide h3,
+      .m-wrapper--unpadded-wide h4,
+      .m-wrapper--unpadded-wide h5,
+      .m-wrapper--unpadded-wide h6 {
         padding: 0 6%; } }
     @media (min-width: 921px) {
       .m-wrapper--unpadded-wide > p,
@@ -723,7 +753,13 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
       .m-wrapper--unpadded-wide figure,
       .m-wrapper--unpadded-wide blockquote,
       .m-wrapper--unpadded-wide pre,
-      .m-wrapper--unpadded-wide h1, .m-wrapper--unpadded-wide h2, .m-wrapper--unpadded-wide h3, .m-wrapper--unpadded-wide h4, .m-wrapper--unpadded-wide h5, .m-wrapper--unpadded-wide h6 {
+      .m-wrapper--unpadded-wide video,
+      .m-wrapper--unpadded-wide h1,
+      .m-wrapper--unpadded-wide h2,
+      .m-wrapper--unpadded-wide h3,
+      .m-wrapper--unpadded-wide h4,
+      .m-wrapper--unpadded-wide h5,
+      .m-wrapper--unpadded-wide h6 {
         padding: 0px;
         padding: 0rem; } }
   .m-wrapper--unpadded-wide > div {
@@ -754,24 +790,54 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
         right: 0;
         top: 0; } }
 
-h1, h2, h3, h4, h5, h6, hgroup,
-ul, ol, dl,
-blockquote, p, address,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
 table,
-fieldset, figure,
-pre, hr, ul, ol,
+video,
+fieldset,
+figure,
+pre,
+hr,
+ul,
+ol,
 .media,
 .island,
 .islet {
   margin-bottom: 21.6px;
   margin-bottom: 1.35rem; }
   @media (min-width: 621px) {
-    h1, h2, h3, h4, h5, h6, hgroup,
-    ul, ol, dl,
-    blockquote, p, address,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hgroup,
+    ul,
+    ol,
+    dl,
+    blockquote,
+    p,
+    address,
     table,
-    fieldset, figure,
-    pre, hr, ul, ol,
+    video,
+    fieldset,
+    figure,
+    pre,
+    hr,
+    ul,
+    ol,
     .media,
     .island,
     .islet {
