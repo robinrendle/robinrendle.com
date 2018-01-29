@@ -22,6 +22,7 @@ body {
 	line-height: 1.4;
 	background-color: white;
 	color: #444;
+	font-feature-settings: "liga" 1 !important;
 
 	// Sticky footer with flexbox hack.
 	display: flex;

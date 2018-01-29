@@ -761,6 +761,9 @@ body {
   line-height: 1.4;
   background-color: white;
   color: #444;
+  -webkit-font-feature-settings: "liga" 1 !important;
+     -moz-font-feature-settings: "liga" 1 !important;
+          font-feature-settings: "liga" 1 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
