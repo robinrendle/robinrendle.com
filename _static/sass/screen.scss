@@ -193,25 +193,17 @@ a:focus {
 	background-color: rgba($c-highlight, 0.5);
 }
 
-.notes-grid {
-	@include media(">medium") {
-		display: grid;
-		grid-template-columns: repeat(12, 1fr);
+.about-block:hover {
+	cursor: pointer;
+	.about-text {
+		display: none;
+	}
+	.about-hidden {
+		display: block;
 	}
 }
 
-.notes-title {
-	@include media(">medium") {
-		grid-column: 1 / 3;
-		word-break: break-all;
-		color: #efefef;
-		font-size: 60px;
-		line-height: 0.8;
-	}
-}
-
-.notes-link {
-	@include media(">medium") {
-		grid-column: 3 / 13;
-	}
+.about-hidden {
+	@include typeface("Regular italic");
+	display: none;
 }
