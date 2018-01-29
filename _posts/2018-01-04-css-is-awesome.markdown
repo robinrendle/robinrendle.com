@@ -3,6 +3,9 @@ title: CSS is Awesome
 date: 2018-01-04 17:48:00 -08:00
 categories:
 - links
+extract: Despite how much you might want to control it, or bury the language in a
+  mountainous rubble of JavaScript, the weirdness of the web will still be there,
+  baked into the language itself. You can’t escape it.
 ---
 
 Ever since Brandon Smith’s post about how [CSS is Awesome](https://css-tricks.com/css-is-awesome/) was published in mid-2017 I’ve been entirely obsessed with it. I think it puts into words something significant that hasn’t really been said before about the language: 
