@@ -576,16 +576,18 @@ table {
 
 .u-text--italic {
   font-style: italic;
-  font-family: "Output Sans italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text Italic", Georgia, serif; }
 
 .u-text--small-caps {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: normal;
-  font-size: 0.9em !important;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-text--regular {
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-inverse {
   color: white; }
@@ -648,7 +650,8 @@ h6 {
 h1,
 .m-longform
 h1 {
-  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-family: "Caponi Display", Georgia, serif;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 1.15;
@@ -668,7 +671,7 @@ h1 {
     h1,
     .m-longform
     h1 {
-      line-height: 1.15;
+      line-height: 1.1;
       font-size: 43px;
       font-size: 2.6875rem; } }
 
@@ -680,8 +683,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 600;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 500;
+  font-family: "Caponi Semibold", Georgia, serif; }
 
 .fonts-loaded .h2, .fonts-loaded
 h2 {
@@ -708,8 +711,8 @@ h2 {
   @media (min-width: 921px) {
     .m-longform .h2, .m-longform
     h2 {
-      font-size: 20px;
-      font-size: 1.25rem; } }
+      font-size: 28px;
+      font-size: 1.75rem; } }
   .fonts-loaded .m-longform .h2, .fonts-loaded .m-longform
   h2 {
     font-size: 25px;
@@ -793,7 +796,8 @@ h6 {
   font-weight: normal;
   color: #333;
   max-width: 800px;
-  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 600;
+  font-family: "Caponi Display", Georgia, serif; }
   @media (min-width: 921px) {
     .m-heading__text,
     .fonts-loaded .m-heading__text {

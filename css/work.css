@@ -577,16 +577,18 @@ table {
 
 .u-text--italic {
   font-style: italic;
-  font-family: "Output Sans italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text Italic", Georgia, serif; }
 
 .u-text--small-caps {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: normal;
-  font-size: 0.9em !important;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-text--regular {
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-inverse {
   color: white; }
@@ -634,8 +636,8 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
   margin: 0 auto;
   padding: 0px 15px;
   padding: 0rem 0.9375rem;
-  max-width: 675px;
-  max-width: 42.1875rem; }
+  max-width: 650px;
+  max-width: 40.625rem; }
   .m-wrapper:after {
     content: "";
     display: table;
@@ -670,8 +672,8 @@ This utility centers all text with `.u-text-center`, right aligns text with `.u-
   .m-wrapper--unpadded h6 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 675px;
-    max-width: 42.1875rem;
+    max-width: 650px;
+    max-width: 40.625rem;
     padding: 0px 15px;
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {

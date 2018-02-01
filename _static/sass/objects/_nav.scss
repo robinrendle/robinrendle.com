@@ -2,8 +2,6 @@
 // NAV MODULE
 // ==========================================================================
 //
-//
-//
 // Nav abstraction as per: csswizardry.com/2011/09/the-nav-abstraction
 // When used on an `ol` or `ul`, this class throws the list into horizontal mode
 //
@@ -45,7 +43,7 @@
 			@include media(">medium") {
 				content: "•";
 				position: absolute;
-				right: -18px;
+				right: -14px;
 				bottom: 0;
 				pointer-events: none;
 			}

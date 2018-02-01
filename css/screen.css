@@ -577,16 +577,18 @@ table {
 
 .u-text--italic {
   font-style: italic;
-  font-family: "Output Sans italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text Italic", Georgia, serif; }
 
 .u-text--small-caps {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: normal;
-  font-size: 0.9em !important;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-text--regular {
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-inverse {
   color: white; }
@@ -757,10 +759,11 @@ html {
 
 body {
   font: 400 110%;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-family: "Caponi Text", Georgia, serif;
   line-height: 1.4;
   background-color: white;
-  color: #444;
+  color: #4d4d4d;
   -webkit-font-feature-settings: "liga" 1 !important;
      -moz-font-feature-settings: "liga" 1 !important;
           font-feature-settings: "liga" 1 !important;
@@ -782,7 +785,8 @@ body {
           flex: 1; }
 
 cite {
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-family: "Caponi Text", Georgia, serif;
   font-style: normal; }
 
 em,
@@ -792,7 +796,8 @@ i,
 q,
 .italic {
   font-style: italic;
-  font-family: "Output Sans italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 400;
+  font-family: "Caponi Text Italic", Georgia, serif; }
 
 mark {
   background-color: #ffdc00;
@@ -802,10 +807,10 @@ mark {
 
 .caps,
 abbr {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: normal;
-  font-size: 0.9em !important;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif; }
 
 abbr,
 abbr[title] {
@@ -884,7 +889,8 @@ h6 {
 h1,
 .m-longform
 h1 {
-  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-family: "Caponi Display", Georgia, serif;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 1.15;
@@ -904,7 +910,7 @@ h1 {
     h1,
     .m-longform
     h1 {
-      line-height: 1.15;
+      line-height: 1.1;
       font-size: 43px;
       font-size: 2.6875rem; } }
 
@@ -916,8 +922,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 600;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 500;
+  font-family: "Caponi Semibold", Georgia, serif; }
 
 .fonts-loaded .h2, .fonts-loaded
 h2 {
@@ -944,8 +950,8 @@ h2 {
   @media (min-width: 921px) {
     .m-longform .h2, .m-longform
     h2 {
-      font-size: 20px;
-      font-size: 1.25rem; } }
+      font-size: 28px;
+      font-size: 1.75rem; } }
   .fonts-loaded .m-longform .h2, .fonts-loaded .m-longform
   h2 {
     font-size: 25px;
@@ -1029,7 +1035,8 @@ h6 {
   font-weight: normal;
   color: #333;
   max-width: 800px;
-  font-family: "Caponi Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+  font-weight: 600;
+  font-family: "Caponi Display", Georgia, serif; }
   @media (min-width: 921px) {
     .m-heading__text,
     .fonts-loaded .m-heading__text {
@@ -1128,7 +1135,7 @@ code {
     .o-nav--bullets .o-nav__item:after {
       content: "•";
       position: absolute;
-      right: -18px;
+      right: -14px;
       bottom: 0;
       pointer-events: none; } }
   .o-nav--bullets .o-nav__item:last-of-type {
@@ -1210,13 +1217,14 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 
 .m-longform:link,
 .m-longform a {
-  color: #2a7af7;
+  color: #4d4d4d;
   text-decoration: underline;
   text-decoration-skip: ink;
   transition: color 0.3s ease; }
   .m-longform:link:hover, .m-longform:link:focus,
   .m-longform a:hover,
   .m-longform a:focus {
+    text-decoration: underline #2a7af7;
     color: #2a7af7; }
 
 .m-longform > *:last-child {
@@ -1284,9 +1292,9 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     .m-longform ol,
     .m-longform p,
     .m-longform ul {
-      font-size: 18px;
-      font-size: 1.125rem;
-      line-height: 1.7; } }
+      font-size: 19px;
+      font-size: 1.1875rem;
+      line-height: 1.6; } }
   .m-longform ol > img,
   .m-longform p > img,
   .m-longform ul > img {
@@ -1318,7 +1326,8 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 
 .m-longform figcaption,
 .m-longform figcaption p {
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-family: "Caponi Text", Georgia, serif;
   font-size: 15px;
   line-height: 1.45; }
   .fonts-loaded .m-longform figcaption, .fonts-loaded
@@ -1342,15 +1351,19 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 .m-longform blockquote {
   position: relative; }
   .m-longform blockquote > * {
-    border-left: 1px solid #ccc;
-    font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    border-left: 1px solid #eee;
+    font-weight: 400;
+    font-family: "Caponi Text", Georgia, serif;
     padding-bottom: 13px;
     padding-bottom: 0.8125rem;
     margin-bottom: 0;
     position: relative;
-    color: #666; }
-    .m-longform blockquote > *:only-child {
+    color: #888; }
+    .m-longform blockquote > *:last-child, .m-longform blockquote > *:only-child {
       padding-bottom: 0; }
+  .m-longform blockquote p {
+    font-weight: 400;
+    font-family: "Caponi Text", Georgia, serif; }
   .m-longform blockquote p + p {
     padding-top: 5px; }
 
@@ -1389,8 +1402,6 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 
 .m-longform .h2,
 .m-longform h2 {
-  font-weight: 600;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 20px;
   margin-top: 36px;
   margin-top: 2.25rem; }
@@ -1401,16 +1412,14 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 
 .m-longform .h4,
 .m-longform h4 {
-  font-style: italic;
-  font-family: "Output Sans italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   margin-top: 40px; }
 
 .m-longform .h5,
 .m-longform h5 {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: normal;
-  font-size: 0.9em !important;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif;
   color: #000;
   margin-top: 40px; }
 
@@ -1426,7 +1435,7 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
   .m-longform--small p a,
   .m-longform--small ul:link,
   .m-longform--small ul a {
-    color: #2a7af7;
+    color: #4d4d4d;
     text-decoration: underline;
     text-decoration-skip: ink;
     transition: color 0.3s ease; }
@@ -1441,6 +1450,7 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     .m-longform--small ul:link:focus,
     .m-longform--small ul a:hover,
     .m-longform--small ul a:focus {
+      text-decoration: underline #2a7af7;
       color: #2a7af7; }
   @media (min-width: 621px) {
     .m-longform--small ol,
@@ -1485,8 +1495,8 @@ hgroup {
   margin: 0 auto;
   padding: 0px 15px;
   padding: 0rem 0.9375rem;
-  max-width: 675px;
-  max-width: 42.1875rem; }
+  max-width: 650px;
+  max-width: 40.625rem; }
   .m-wrapper:after {
     content: "";
     display: table;
@@ -1521,8 +1531,8 @@ hgroup {
   .m-wrapper--unpadded h6 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 675px;
-    max-width: 42.1875rem;
+    max-width: 650px;
+    max-width: 40.625rem;
     padding: 0px 15px;
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {
@@ -1646,11 +1656,16 @@ hgroup {
   max-width: none; }
 
 .meta-info {
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif;
   font-size: 13px;
   font-size: 0.8125rem;
   margin: 0;
-  margin-top: 10px; }
+  margin-top: 10px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 5px; }
   .meta-info:after {
     content: "";
     display: table;
@@ -1666,10 +1681,16 @@ hgroup {
 .meta-info__item {
   color: #777777;
   float: left;
-  margin: 0; }
+  margin: 0;
+  -webkit-font-feature-settings: "onum" 1;
+     -moz-font-feature-settings: "onum" 1;
+          font-feature-settings: "onum" 1; }
   .meta-info__item:after {
     content: "~";
-    font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    text-transform: lowercase;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-family: "Caponi Text", Georgia, serif;
     display: inline-block;
     margin-left: 0px;
     margin-right: 5px; }
@@ -1680,7 +1701,7 @@ hgroup {
 
 .m-banner {
   background-color: #2a7af7;
-  transition: background-color .3s ease; }
+  transition: background-color 0.3s ease; }
   .m-banner:after {
     content: "";
     display: table;
@@ -1690,24 +1711,38 @@ hgroup {
       background-color: #2a7af7; } }
   @media (min-width: 621px) {
     .m-banner {
-      border-bottom: 1px solid white; } }
+      border-bottom: 1px solid white; }
+      .m-banner .m-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
 
 .m-banner--dark {
   background-color: #222;
   border-bottom: 1px solid #000; }
 
 .m-banner__about {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-weight: normal;
-  font-size: 0.9em !important;
-  font-family: "Output Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  display: inline-block;
-  padding: 15px 20px 12px;
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: #0855cd;
   color: white;
-  transition: background-color .3s ease;
+  transition: background-color 0.3s ease;
   float: left;
-  font-size: 16px !important;
+  font-size: 18px !important;
   text-align: center;
   margin-right: 20px;
   height: 50px;
@@ -1719,7 +1754,6 @@ hgroup {
       background-color: #085fe6; } }
   @media (min-width: 621px) {
     .m-banner__about {
-      padding: 19px 20px 13px;
       height: 55px; } }
   .m-banner__about:hover, .m-banner__about:focus {
     background-color: rgba(0, 0, 0, 0.3); }
@@ -1761,8 +1795,15 @@ hgroup {
   width: 100%; }
   @media (min-width: 621px) {
     .m-banner__nav {
-      width: auto;
-      padding-top: 17px; } }
+      text-transform: lowercase;
+      font-weight: normal;
+      font-variant: small-caps;
+      font-family: "Caponi Text", Georgia, serif;
+      font-size: 17px;
+      font-size: 1.0625rem;
+      letter-spacing: 0.5px;
+      opacity: 0.8;
+      width: auto; } }
   @media (max-width: 619px) {
     .js .m-banner__nav {
       display: none; } }
@@ -1774,8 +1815,8 @@ hgroup {
     .js .is--active .m-banner__nav {
       padding: 0;
       display: block;
-      -webkit-animation: push .4s ease;
-              animation: push .4s ease;
+      -webkit-animation: push 0.4s ease;
+              animation: push 0.4s ease;
       width: 100%;
       float: left;
       width: 100%; } }
@@ -1811,22 +1852,26 @@ hgroup {
   padding: 15px 20px;
   margin-top: 100px;
   background-color: #2a7af7; }
-  .m-footer:after {
-    content: "";
-    display: table;
-    clear: both; }
   @media (min-width: 621px) {
     .m-footer {
       margin-top: 100px;
-      padding: 20px 30px; } }
+      padding: 20px 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
 
-@media (min-width: 621px) {
-  .m-footer__nav--social {
-    float: right; } }
-
-@media (min-width: 621px) {
-  .m-footer__nav {
-    float: left; } }
+.m-footer__nav {
+  text-transform: lowercase;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  letter-spacing: 0.5px;
+  opacity: 0.85; }
 
 .m-hero img {
   display: block; }
@@ -1910,6 +1955,27 @@ hgroup {
   font-style: normal;
   font-display: swap;
   src: url("/fonts/caponi-display.woff2") format("woff2"), url("/fonts/caponi-display.woff") format("woff"); }
+
+@font-face {
+  font-family: "Caponi Text";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/caponi-text-regular.woff2") format("woff2"), url("/fonts/caponi-text-regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "Caponi Text Italic";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/caponi-text-regular-italic.woff2") format("woff2"), url("/fonts/caponi-text-regular-italic.woff") format("woff"); }
+
+@font-face {
+  font-family: "Caponi Semibold";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/caponi-text-semibold.woff2") format("woff2"), url("/fonts/caponi-text-semibold.woff") format("woff"); }
 
 @font-face {
   font-family: 'Output Sans';
@@ -2839,5 +2905,6 @@ a:focus {
 
 .about-hidden {
   font-style: italic;
-  font-family: "Output Sans italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-family: "Caponi Text Italic", Georgia, serif;
   display: none; }

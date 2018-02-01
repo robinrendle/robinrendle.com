@@ -55,8 +55,8 @@
 			line-height: 1.65;
 		}
 		@include media(">large") {
-			@include remCalc(font-size, 18);
-			line-height: 1.7;
+			@include remCalc(font-size, 19);
+			line-height: 1.6;
 		}
 
 		& > img {
@@ -69,6 +69,7 @@
 	}
 
 	figure > blockquote {
+		@include typeface("Regular Italic");
 		margin-bottom: 0;
 		padding: 0;
 	}
@@ -118,16 +119,21 @@
 		position: relative;
 
 		& > * {
-			border-left: 1px solid #ccc;
+			border-left: 1px solid #eee;
 			@include typeface("Regular");
 			@include remCalc(padding-bottom, $base-spacing-unit - 5);
 			margin-bottom: 0;
 			position: relative;
-			color: #666;
+			color: #888;
 
+			&:last-child,
 			&:only-child {
 				padding-bottom: 0;
 			}
+		}
+
+		p {
+			@include typeface("Regular");
 		}
 
 		p + p {
@@ -176,20 +182,17 @@
 
 	.h2,
 	h2 {
-		@include typeface("Bold");
 		margin-bottom: 20px;
 		@include remCalc(margin-top, ($base-spacing-unit * 2));
 	}
 
 	.h3,
 	h3 {
-		@include typeface("Book");
 		margin-bottom: 20px;
 	}
 
 	.h4,
 	h4 {
-		@include typeface("Regular italic");
 		margin-top: 40px;
 	}
 

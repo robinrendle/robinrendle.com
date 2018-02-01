@@ -52,13 +52,14 @@ a {
 @mixin links-longform {
 	&:link,
 	a {
-		color: $c-primary;
+		color: $c-bodycopy;
 		text-decoration: underline;
 		text-decoration-skip: ink;
 		transition: color 0.3s ease;
 
 		&:hover,
 		&:focus {
+			text-decoration: underline $c-primary;
 			color: $c-primary;
 		}
 	}

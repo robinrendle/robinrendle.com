@@ -21,7 +21,7 @@ body {
 	@include typeface("Regular");
 	line-height: 1.4;
 	background-color: white;
-	color: #444;
+	color: $c-bodycopy;
 	font-feature-settings: "liga" 1 !important;
 
 	// Sticky footer with flexbox hack.

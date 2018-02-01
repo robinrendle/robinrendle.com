@@ -4,32 +4,37 @@
 // Default typesetting, font-height and font-weight settings.
 
 @mixin typeface($font) {
-	$fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+	$sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 
+	$fallback: Georgia, serif;
+
 	@if $font == "Small caps" {
-		text-transform: uppercase;
+		text-transform: lowercase;
 		font-weight: normal;
-		font-size: 0.9em !important;
-		font-family: "Output Sans", $fallback;
+		font-variant: small-caps;
+		font-family: "Caponi Text", $fallback;
 	}
 
 	@if $font == "Regular" {
-		font-family: "Output Sans", $fallback;
+		font-weight: 400;
+		font-family: "Caponi Text", $fallback;
 	}
 
 	@if $font == "Regular italic" {
 		font-style: italic;
-		font-family: "Output Sans italic", $fallback;
+		font-weight: 400;
+		font-family: "Caponi Text Italic", $fallback;
 	}
 
 	@if $font == "Bold" {
-		font-weight: 600;
-		font-family: "Output Sans", $fallback;
+		font-weight: 500;
+		font-family: "Caponi Semibold", $fallback;
 	}
 
 	@if $font == "Display" {
+		font-weight: 600;
 		font-family: "Caponi Display", $fallback;
 	}
 }

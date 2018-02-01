@@ -6,39 +6,42 @@
 //
 
 .meta-info {
-    @include typeface("Regular");
-    @include remCalc(font-size, 13);
-    @include clearfix();
-    margin: 0;
-    margin-top: 10px;
+	@include typeface("Small caps");
+	@include remCalc(font-size, 13);
+	@include clearfix();
+	margin: 0;
+	margin-top: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
 
-    @include media(">medium"){
-        @include remCalc(font-size, 15);
+	@include media(">medium") {
+		@include remCalc(font-size, 15);
 
-        .fonts-loaded & {
-            @include remCalc(font-size, 14);
-        }
-    }
+		.fonts-loaded & {
+			@include remCalc(font-size, 14);
+		}
+	}
 }
 
 .meta-info__item {
-    color: $c-secondary;
-    float: left;
-    margin: 0;
+	color: $c-secondary;
+	float: left;
+	margin: 0;
+	font-feature-settings: "onum" 1;
 
-    &:after {
-        content: "~";
-        @include typeface("Regular");
-        display: inline-block;
-        margin-left: 0px;
-        margin-right: 5px;
-    }
+	&:after {
+		content: "~";
+		@include typeface("Small caps");
+		display: inline-block;
+		margin-left: 0px;
+		margin-right: 5px;
+	}
 
-    &:last-child:after {
-        content: none;
-    }
+	&:last-child:after {
+		content: none;
+	}
 
-    &:only-child:after {
-        content: none;
-    }
+	&:only-child:after {
+		content: none;
+	}
 }
