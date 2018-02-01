@@ -2948,17 +2948,15 @@ img.timeline-img {
   margin: 0;
   width: 50px;
   height: 50px;
-  margin-right: 10px; }
+  margin-right: 15px; }
 
 .timeline-toggle {
   display: inline-block;
   position: relative;
   text-align: left;
-  width: 55px;
-  height: 24px;
-  background-color: #484850;
+  width: 60px;
+  background-color: #aaa;
   overflow: hidden;
-  box-shadow: inset 0 10px 25px rgba(0, 0, 0, 0.5), 0px 1px 2px #fff;
   border-radius: 30px;
   margin: 10px; }
 
@@ -2977,17 +2975,24 @@ img.timeline-img {
   z-index: 2; }
 
 .timeline-toggle label {
-  font: bold 6px/24px;
+  font-size: 13px;
   text-transform: lowercase;
   font-weight: normal;
   font-variant: small-caps;
   font-family: "Caponi Text", Georgia, serif;
-  background-color: #151b29;
-  background-image: linear-gradient(-40deg, transparent, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2));
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.7);
+  background-color: black;
   border-radius: 20px;
-  display: inline-block;
-  width: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 28px;
+  height: 28px;
   text-align: center;
   color: #999;
   transition: margin-left 0.2s ease-in-out;
@@ -2997,7 +3002,7 @@ img.timeline-img {
   content: attr(data-off); }
 
 .timeline-toggle input:checked + label {
-  margin-left: 29px;
+  margin-left: 31px;
   background-color: #2a7af7;
   color: white; }
 
