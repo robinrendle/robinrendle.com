@@ -7,6 +7,8 @@ tags:
 - Jules Forrest
 - css
 - front-end development
+extract: Talking with Jules about design systems and how to incentivize good systems
+  work across an organization.
 ---
 
 I was chatting with my pal [Jules Forrest](https://julesforrest.com/) earlier today—she happens to be one of the best designers and developers that I know—and she mentioned something really interesting that I’ve been rolling around in my head all day. We were talking about design systems and how to incentivize good systems work across an organization when Jules argued that:
