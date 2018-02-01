@@ -713,11 +713,6 @@ h2 {
     h2 {
       font-size: 28px;
       font-size: 1.75rem; } }
-  .fonts-loaded .m-longform .h2, .fonts-loaded .m-longform
-  h2 {
-    font-size: 25px;
-    font-size: 1.5625rem;
-    line-height: 1.1; }
 
 .h3,
 .m-longform .h3,
@@ -742,8 +737,8 @@ h3 {
     h3,
     .m-longform
     h3 {
-      font-size: 20px;
-      font-size: 1.25rem; } }
+      font-size: 22px;
+      font-size: 1.375rem; } }
 
 .h4,
 h4 {
@@ -987,6 +982,9 @@ abbr {
   .m-longform a:focus {
     text-decoration: underline #2a7af7;
     color: #2a7af7; }
+
+.m-longform p:hover a {
+  color: #2a7af7; }
 
 .m-longform > *:last-child {
   margin-bottom: 0; }

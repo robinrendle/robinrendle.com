@@ -63,6 +63,10 @@ a {
 			color: $c-primary;
 		}
 	}
+
+	p:hover a {
+		color: $c-primary;
+	}
 }
 
 .links--dark {

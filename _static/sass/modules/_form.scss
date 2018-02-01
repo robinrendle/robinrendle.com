@@ -63,6 +63,8 @@
 	color: #eee;
 	outline: none;
 	font-size: 0.9em;
+	@include typeface("Small caps");
+	text-transform: lowercase;
 
 	&:hover {
 		outline: none;

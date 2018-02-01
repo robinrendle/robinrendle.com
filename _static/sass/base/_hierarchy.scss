@@ -65,11 +65,6 @@ h2 {
 		@include media(">large") {
 			@include remCalc(font-size, 28);
 		}
-
-		.fonts-loaded & {
-			@include remCalc(font-size, 25);
-			line-height: 1.1;
-		}
 	}
 }
 
@@ -84,7 +79,7 @@ h3 {
 			line-height: 1.55;
 		}
 		@include media(">large") {
-			@include remCalc(font-size, 20);
+			@include remCalc(font-size, 22);
 		}
 	}
 }

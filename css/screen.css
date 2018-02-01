@@ -952,11 +952,6 @@ h2 {
     h2 {
       font-size: 28px;
       font-size: 1.75rem; } }
-  .fonts-loaded .m-longform .h2, .fonts-loaded .m-longform
-  h2 {
-    font-size: 25px;
-    font-size: 1.5625rem;
-    line-height: 1.1; }
 
 .h3,
 .m-longform .h3,
@@ -981,8 +976,8 @@ h3 {
     h3,
     .m-longform
     h3 {
-      font-size: 20px;
-      font-size: 1.25rem; } }
+      font-size: 22px;
+      font-size: 1.375rem; } }
 
 .h4,
 h4 {
@@ -1227,6 +1222,9 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     text-decoration: underline #2a7af7;
     color: #2a7af7; }
 
+.m-longform p:hover a {
+  color: #2a7af7; }
+
 .m-longform > *:last-child {
   margin-bottom: 0; }
 
@@ -1452,6 +1450,10 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     .m-longform--small ul a:focus {
       text-decoration: underline #2a7af7;
       color: #2a7af7; }
+  .m-longform--small ol p:hover a,
+  .m-longform--small p p:hover a,
+  .m-longform--small ul p:hover a {
+    color: #2a7af7; }
   @media (min-width: 621px) {
     .m-longform--small ol,
     .m-longform--small p,
@@ -1938,7 +1940,12 @@ hgroup {
   background-color: #2a7af7;
   color: #eee;
   outline: none;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif;
+  text-transform: lowercase; }
   .form-submit:hover {
     outline: none;
     border-right: none;
@@ -2908,3 +2915,91 @@ a:focus {
   font-weight: 400;
   font-family: "Caponi Text Italic", Georgia, serif;
   display: none; }
+
+.timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #f2f2f2;
+  top: -1px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid #dddddd; }
+
+.timeline-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky; }
+
+img.timeline-img {
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; }
+
+.timeline-toggle {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  width: 55px;
+  height: 24px;
+  background-color: #484850;
+  overflow: hidden;
+  box-shadow: inset 0 10px 25px rgba(0, 0, 0, 0.5), 0px 1px 2px #fff;
+  border-radius: 30px;
+  margin: 10px; }
+
+.timeline-toggle input {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 0;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2; }
+
+.timeline-toggle label {
+  font: bold 6px/24px;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-variant: small-caps;
+  font-family: "Caponi Text", Georgia, serif;
+  background-color: #151b29;
+  background-image: linear-gradient(-40deg, transparent, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.2));
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 20px;
+  display: inline-block;
+  width: 25px;
+  text-align: center;
+  color: #999;
+  transition: margin-left 0.2s ease-in-out;
+  margin: 1px; }
+
+.timeline-toggle label:before {
+  content: attr(data-off); }
+
+.timeline-toggle input:checked + label {
+  margin-left: 29px;
+  background-color: #2a7af7;
+  color: white; }
+
+.timeline-toggle input:checked + label:before {
+  content: attr(data-on); }
