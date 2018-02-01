@@ -2903,12 +2903,11 @@ section[role="main"] {
 a:focus {
   background-color: rgba(255, 255, 196, 0.5); }
 
-.about-block:hover {
-  cursor: pointer; }
-  .about-block:hover .about-text {
-    display: none; }
-  .about-block:hover .about-hidden {
-    display: block; }
+.timeline-reveal .about-text {
+  display: none; }
+
+.timeline-reveal .about-hidden {
+  display: block; }
 
 .about-hidden {
   font-style: italic;
@@ -2916,7 +2915,7 @@ a:focus {
   font-family: "Caponi Text Italic", Georgia, serif;
   display: none; }
 
-.timeline {
+.timeline-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2955,7 +2954,7 @@ img.timeline-img {
   position: relative;
   text-align: left;
   width: 60px;
-  background-color: #aaa;
+  background-color: #bbb;
   overflow: hidden;
   border-radius: 30px;
   margin: 10px; }
@@ -2980,7 +2979,7 @@ img.timeline-img {
   font-weight: normal;
   font-variant: small-caps;
   font-family: "Caponi Text", Georgia, serif;
-  background-color: black;
+  background-color: #333;
   border-radius: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2994,7 +2993,7 @@ img.timeline-img {
   width: 28px;
   height: 28px;
   text-align: center;
-  color: #999;
+  color: #bbb;
   transition: margin-left 0.2s ease-in-out;
   margin: 1px; }
 

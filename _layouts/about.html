@@ -19,18 +19,18 @@
 
 
       <div class='cell-5 rules rules--all rules--transparent'>
-        <div class='cell-b-30 cell-t15 o-island o-island--transparent cell lists--none u-reset-margins'>
-          <div class='timeline'>
+        <div class='timeline cell-b-30 cell-t15 o-island o-island--transparent cell lists--none u-reset-margins'>
+          <div class='timeline-header'>
             <div class='timeline-title'>
               <img class='timeline-img' src='/uploads/Mask%20Group%20(1).png' alt='Robin Rendle'>
-              <h2 class='timeline-title u-reset-margins'>Timeline of Events</h2>
+              <h2 class='timeline-title u-reset-margins'>A Timeline of Events</h2>
             </div>
             <span class="timeline-toggle">
-                <input type='checkbox' id='first'>
-                <label data-on='lies' data-off='lies' id='first'></label>
+                <input type='checkbox' checked id='first'>
+                <label data-on='lie' data-off='lie' id='first'></label>
             </span>
           </div>
-          <div class='about-block flex flex-align-baseline u-reset-margins rules--top rules--bottom rules--light cell-t20 cell-b20'>
+          <div class='about-block flex flex-align-baseline u-reset-margins rules--bottom rules--light cell-t20 cell-b20'>
             <div class='cell-r15 h6 c-lightgrey'>10/2008</div>
             <div class='about-text'>
               Started my undergrad degree at Plymouth University in English Literature.
@@ -89,6 +89,18 @@
 		</div>
 	</div>
 </article>
+
+<script>
+const timeline = document.querySelector(".timeline");
+const toggle = document.querySelector(".timeline-toggle");
+const activeClass = "timeline-reveal";
+
+toggle.addEventListener("click", noMoreLies);
+
+function noMoreLies() {
+	timeline.classList.toggle(activeClass);
+}
+</script>
 <!-- //.container -->
 
 {% include footer.html %}

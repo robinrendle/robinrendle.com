@@ -193,8 +193,7 @@ a:focus {
 	background-color: rgba($c-highlight, 0.5);
 }
 
-.about-block:hover {
-	cursor: pointer;
+.timeline-reveal {
 	.about-text {
 		display: none;
 	}
@@ -208,7 +207,7 @@ a:focus {
 	display: none;
 }
 
-.timeline {
+.timeline-header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -239,7 +238,7 @@ img.timeline-img {
 	text-align: left;
 	width: 60px;
 	// height: 25px;
-	background-color: #aaa;
+	background-color: #bbb;
 	overflow: hidden;
 	border-radius: 30px;
 	margin: 10px;
@@ -263,7 +262,7 @@ img.timeline-img {
 .timeline-toggle label {
 	font-size: 13px;
 	@include typeface("Small caps");
-	background-color: black;
+	background-color: #333;
 	border-radius: 20px;
 	display: flex;
 	align-items: center;
@@ -271,7 +270,7 @@ img.timeline-img {
 	width: 28px;
 	height: 28px;
 	text-align: center;
-	color: #999;
+	color: #bbb;
 	transition: margin-left 0.2s ease-in-out;
 	margin: 1px;
 }
