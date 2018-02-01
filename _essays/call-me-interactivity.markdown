@@ -10,11 +10,11 @@ tags:
 - digital-physical
 - interactivity
 layout: default
-hero: 
+hero:
 aside: The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick
   Sherman</a>. Care to read more about the wonderful typography within? Head on over
   to the book review at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts
-  In Use</a></em> for more.
+  In Use</a> for more.
 extract: What do we want from storytelling machines? And when publishers use terms
   such as ‘interactivity’ or ‘immersion’, what do they really mean? These terms either
   describe a genuine glimpse of the future, or a new form of commercial and technological
