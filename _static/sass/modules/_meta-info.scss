@@ -10,9 +10,8 @@
 	@include remCalc(font-size, 13);
 	@include clearfix();
 	margin: 0;
-	margin-top: 10px;
-	border-bottom: 1px solid #eee;
 	margin-bottom: 5px;
+	border-bottom: 1px solid #eee;
 
 	@include media(">medium") {
 		@include remCalc(font-size, 15);

@@ -7,21 +7,23 @@
 </div>
 
 <div class="m-wrapper cell-b40">
-	<h4 class='caps u-reset-margins'>Recommended reading</h4>
+	<h4 class='c-lightgrey caps text-bold u-reset-margins'>Quick notes & Ramblings</h2>
 	{% for post in site.posts limit: 3 %}
-		<a href="{{post.url}}" class="block rules--top rules rules--light cell-v20">
-			<h3 class="links h4 u-text--regular u-text--book u-reset-margins">{{post.title}}</h3>
-			<p class="c-grey u-text--regular u-text--book u-reset-margins">{{post.extract}}</p>
+		<a href="{{post.url}}" class="block rules--top rules rules--light cell-v10">
+			<h3 class="links h3 u-text--regular u-text--book u-reset-margins">{{post.title}}</h3>
+			<div class='m-longform'>
+				<p class="c-grey u-text--regular u-text--book u-reset-margins">{{post.extract}}</p>
+			</div>
 		</a>
 	{% endfor %}
 </div>
 <div class="m-wrapper cell-b40">
 	<div class='cell-5 rules rules--all rules--transparent'>
 		<div class='o-island o-island--transparent cell lists--none u-reset-margins'>
-			<h3 class='u-reset-margins'>Newsletter</h3>
+			<h3 class='u-reset-margins'>Adventures in Typography</h3>
 
 			<div class="m-longform">
-				<p>Adventures in Typography is a newsletter all about, well, <em>typography</em>, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter about books written about fonts, it’s all about type specimens and neon lights, posters and morse code. Of course that’s without mentioning stamps, illustrations, design systems, the madness of the CSS float property, AI storytelling and books about seeds.</p>
+				<p>My weekly newsletter is all about, well, <em>typography</em>, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter about books written about fonts, it’s all about type specimens and neon lights, posters and morse code. Of course that’s without mentioning stamps, illustrations, design systems, the madness of the CSS float property, AI storytelling and books about seeds.</p>
 				<div class='cell-t20'>
 					<form
 						class='form'

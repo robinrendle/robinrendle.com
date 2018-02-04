@@ -738,7 +738,8 @@ h3 {
     .m-longform
     h3 {
       font-size: 22px;
-      font-size: 1.375rem; } }
+      font-size: 1.375rem;
+      line-height: 1.45; } }
 
 .h4,
 h4 {

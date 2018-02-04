@@ -977,7 +977,8 @@ h3 {
     .m-longform
     h3 {
       font-size: 22px;
-      font-size: 1.375rem; } }
+      font-size: 1.375rem;
+      line-height: 1.45; } }
 
 .h4,
 h4 {
@@ -1038,7 +1039,8 @@ h6 {
       font-size: 46px;
       font-size: 2.875rem; } }
 
-hr, hr:before {
+hr,
+hr:before {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -1665,9 +1667,8 @@ hgroup {
   font-size: 13px;
   font-size: 0.8125rem;
   margin: 0;
-  margin-top: 10px;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee; }
   .meta-info:after {
     content: "";
     display: table;
@@ -2050,6 +2051,10 @@ section[role="main"] {
       text-align: center;
       padding-top: 90px;
       padding-bottom: 70px; } }
+
+.text-bold {
+  font-weight: 500;
+  font-family: "Caponi Semibold", Georgia, serif; }
 
 .full {
   width: 100%;

@@ -80,6 +80,10 @@ section[role="main"] {
 	}
 }
 
+.text-bold {
+	@include typeface("Bold");
+}
+
 .full {
 	width: 100%;
 	padding: 0 !important;
