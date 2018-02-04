@@ -575,9 +575,9 @@ table {
   font-weight: bold; }
 
 .u-text--italic {
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
-  font-family: "Caponi Text Italic", Georgia, serif; }
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-text--small-caps {
   text-transform: lowercase;
@@ -960,9 +960,9 @@ dfn,
 i,
 q,
 .italic {
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
-  font-family: "Caponi Text Italic", Georgia, serif; }
+  font-family: "Caponi Text", Georgia, serif; }
 
 .caps,
 abbr {
@@ -1067,9 +1067,9 @@ abbr {
   position: relative; }
   .m-longform blockquote p {
     border-left: 1px solid #ccc;
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
-    font-family: "Caponi Text Italic", Georgia, serif;
+    font-family: "Caponi Text", Georgia, serif;
     padding-bottom: 13px;
     padding-bottom: 0.8125rem;
     margin-bottom: 0;
@@ -1125,9 +1125,9 @@ abbr {
   margin-bottom: 20px; }
 
 .m-longform h4, .m-longform .h4 {
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
-  font-family: "Caponi Text Italic", Georgia, serif;
+  font-family: "Caponi Text", Georgia, serif;
   margin-top: 40px; }
 
 .m-longform h5, .m-longform .h5 {

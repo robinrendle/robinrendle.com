@@ -7,23 +7,14 @@
 </div>
 
 <div class="m-wrapper cell-b40">
-	<h4 class="u-reset-margins cell-b10">Highlights from the Archive</h4>
-	{% assign essays = site.essays | sort: 'date' | reverse %}
-	{% for item in essays limit:3 %}
-		<a href="{{item.url}}" class="flex cell-v10">
-			<div class="c-lightgrey">
-		    <time datetime="{{ item.date}}">
-	        {{ item.date | date: "%m/%d/%y" }}
-	      </time>
-			</div>
-			<div>
-				<h3 class="flex--truncate links h4 u-text--regular u-text--book u-reset-margins cell-l20">{{item.title}}</h3>
-				<p class="c-grey u-text--regular u-text--book u-reset-margins cell-l20">{{item.extract}}</p>
-			</div>
+	<h4 class='caps u-reset-margins'>Recommended reading</h4>
+	{% for post in site.posts limit: 3 %}
+		<a href="{{post.url}}" class="block rules--top rules rules--light cell-v20">
+			<h3 class="links h4 u-text--regular u-text--book u-reset-margins">{{post.title}}</h3>
+			<p class="c-grey u-text--regular u-text--book u-reset-margins">{{post.extract}}</p>
 		</a>
 	{% endfor %}
 </div>
-
 <div class="m-wrapper cell-b40">
 	<div class='cell-5 rules rules--all rules--transparent'>
 		<div class='o-island o-island--transparent cell lists--none u-reset-margins'>

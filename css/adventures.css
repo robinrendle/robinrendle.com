@@ -575,9 +575,9 @@ table {
   font-weight: bold; }
 
 .u-text--italic {
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
-  font-family: "Caponi Text Italic", Georgia, serif; }
+  font-family: "Caponi Text", Georgia, serif; }
 
 .u-text--small-caps {
   text-transform: lowercase;

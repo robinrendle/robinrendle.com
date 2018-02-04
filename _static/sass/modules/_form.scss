@@ -13,6 +13,19 @@
 		align-self: center;
 	}
 
+	::-webkit-input-placeholder {
+		color: #ddd;
+	}
+	::-moz-placeholder {
+		color: #ddd;
+	}
+	:-ms-input-placeholder {
+		color: #ddd;
+	}
+	:-moz-placeholder {
+		color: #ddd;
+	}
+
 	input,
 	input[type="submit"] {
 		height: 40px;
@@ -21,12 +34,13 @@
 }
 
 .form-label {
+	@include typeface("Small caps");
 	position: absolute;
 	color: $c-primary;
-	top: -15px;
+	top: -20px;
 	left: 0;
-	font-size: 12px;
-	text-transform: uppercase;
+	font-size: 16px;
+	text-transform: lowercase;
 	padding: 0;
 	cursor: pointer;
 }

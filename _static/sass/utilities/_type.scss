@@ -23,9 +23,9 @@
 	}
 
 	@if $font == "Regular italic" {
-		font-style: italic;
+		font-style: normal;
 		font-weight: 400;
-		font-family: "Caponi Text Italic", $fallback;
+		font-family: "Caponi Text", $fallback;
 	}
 
 	@if $font == "Bold" {
