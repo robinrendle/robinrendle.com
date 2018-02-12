@@ -17,8 +17,8 @@
     <li>The team had problems with remembering the status of company, for example they would ask themselves questions such as “Have I entered the <abbr title='Social Security Number'>SSN</abbr>s of all employees?”, “Have I entered all of the paystubs for this company?” or even “What is the deadline for this transfer?” This could be particularly challenging when one of the team members that was handling transfers became sick or if there was a looming deadline for a company transfer to be completed.</li>
     <li>Historical paystub entry was extraordinarily difficult because it required a lot of knowledge around the various different types of contributions and benefits, as well as the type of employee (whether they’re dismissed, currently employeed or a contractor).</li>
     <li>Information would frequently get lost between the customer and our Sales, Transfers and Care teams. This led to all sorts of frustrating issues such as data being deleted or overridden which would then slow the transfer process immensely.</li>
-    <li>Accessibility was a huge problem. The team used an internal tool called Panda that was used by a large number of teams across Gusto. However, because it wasn’t designed specifically for the Transfers team to onboard customers they would spend a large amount of time scrolling and clickign their way through this app in order to find or input the information they needed. The Transfers team would often login to the primary app (the customer-facing interface) in order to input data but this was not streamlined for them or their needs.</li>
-    <li>Inputting historical paystubs for every employee of a company and adding their benefits was particularly painful and slow because of several <abbr title="User interface">UI</abbr> issues such as form elements not being tabbable.</li>
+    <li>Accessibility was a huge problem. The team used an internal tool called Panda that was used by a large number of teams across Gusto. However, because it wasn’t designed specifically for the Transfers team to onboard customers they would spend a large amount of time scrolling and clicking their way through this app in order to find or input the information they needed. The Transfers team would often login to the primary app (the customer-facing interface) in order to input data but this was not streamlined for them or their needs.</li>
+    <li>Inputting historical paystubs for every employee of a company and adding their benefits was particularly painful and slow because of several <abbr title="User interface">UI</abbr> issues such as form elements not being focused when you tab into them.</li>
   </ul>
 
   <figure>
@@ -38,7 +38,7 @@
   <figure>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFxorEobQhWRh38af1yFIsjWDMbpUrk1LsElYtOCoFC-7UqGbjXzle_fysRS5aWaRYc_gdVMPpOYeC/pubhtml?widget=true&amp;headers=false"></iframe>
     <figcaption>
-      <p>By ensuring that only the most important data would be entered by the team I moved this data from the whiteboard to a spreadsheet so we could share this with the rest of the team and get feedback.</p>
+      <p>I moved this data from the whiteboard to a spreadsheet so we could share it with the rest of the team and get their feedback. We discovered that we could remove a number of data inputs from the final design.</p>
     </figcaption>
   </figure>
 
@@ -50,16 +50,17 @@
   </figure>
 
   <h4>Proposed Solutions</h4>
-  <p>Based on this research I devised a plan for attack:</p>
+  <p>Based on this research I devised a plan for attack and devised seven points that I believed would be the most impactful to their day-to-day work:</p>
 
   <ol>
-    <li>A new application: designed solely for the Transfers team would optimize the <abbr title='User Experience'>UX</abbr> + <abbr title='User Interface'>UI</abbr> for their needs and would also prevent any conflicts if the tool had any impact on Panda (and thereby impacting teams in other parts of the company).</li>
-    <li>Focus on batch-editing data: adding historical paystub and employee data requires a lot of manual data entry and so anything that common properties between paystubs or employees should be assigned automatically or set quickly for everyone.</li>
-    <li>Create a to-do list: this would help clearly identify the status of a transfer.</li>
-    <li>Give the transfer team member the ability to lock/unlock the customer account: this will prevent data to be overriden during the onboarding process accidentally by a customer.</li>
-    <li>Only provide the info that they need: we needed to limit the number of fields to only those that block payroll so that their time is best spent on the complex parts of the work.</li>
-    <li>Design a strong feedback loop and communication mechanism: one between a company admin, the Transfers team and Sales. Potentially in app, so that they don’t have to use Slack or email for more information about a transfer.</li>
-    <li>Gather the data and order it correctly: some of the onboarding steps at Gusto require to be entered before others (for example, certain taxes can be assigned to employees only after it’s clear which states that a company has offices in).</li>
+    <li><strong>A new application</strong>: designed solely for the Transfers team, it would optimize the <abbr title='User Experience'>UX</abbr> + <abbr title='User Interface'>UI</abbr> for their needs and would also prevent any conflicts in Panda (and thereby avoid impacting teams in other parts of the company).</li>
+    <li><strong>Focus on batch-editing data</strong>: adding historical paystub and employee data requires a lot of manual data entry and so anything that common properties between paystubs or employees should be assigned automatically or set quickly for everyone.</li>
+    <li><strong>Create a to-do list</strong>: this would help clearly identify the status of a transfer.</li>
+    <li><strong>Let them lock/unlock the customer account</strong>: this would prevent data to be overriden during the onboarding process accidentally by a customer.</li>
+    <li><strong>Only provide the inputs that they need</strong>: we needed to limit the number of fields to only those that block payroll so that their time is best spent on the complex parts of the work.</li>
+    <li><strong>Design a strong feedback loop</strong>: one between a company admin, the Transfers team and Sales. Potentially in app, so that they don’t have to use Slack or email to constantly contact each other.</li>
+    <li><strong>Order the data correctly but allow for flexibility</strong>: some of the onboarding steps at Gusto were required to be entered before others (for example, certain taxes can be assigned to employees only after it’s clear which states that a company has offices in). Partial data entry would keep the momentum of a transfer on track.</li>
+    <li><strong>The UI should prioritize speed</strong>: we needed to ensure that the entire app could be used with a keyboard so that they didn’t have to keep switching input methods.</li>
   </ol>
 
   <p>These issues were then discussed with the Transfers team and with the enginerring lead on this project in order to get a sense of whether these goals were realistic.</p>
@@ -71,7 +72,7 @@
   </p>
 
   <figure>
-    <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G51M40OXXRIPAes26UNDoJrN/Transfers-Wireframes-1" allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G51M40OXXRIPAes26UNDoJrN/Transfers-Wireframes-1" allowfullscreen></iframe>
     <figcaption>
       <p>
         These were the mockups I used as a barebones prototype to test with the Transfers team. I discovered during the research phase that the 3 different employee types (currently employed, dismissed and contractors) all required different information attached to them for tax and payroll purposes so I devised a page where all employees could be batch edited and ultimately where a Transfers team member could focus on one type of employee before moving onto the next one.
@@ -87,7 +88,7 @@
   <h4>Historical Paystubs Wireframes</h4>
 
   <figure>
-    <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/YRgtnSEy1xsGEj0RKoPBIm/Historical-Payrolls-v2" allowfullscreen></iframe>
+    <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/YRgtnSEy1xsGEj0RKoPBIm/Historical-Payrolls-v2" allowfullscreen></iframe>
     <figcaption>
       <p>
         The second draft of Historical Paystubs entry in the new Transfers app.
