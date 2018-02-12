@@ -1,0 +1,61 @@
+{% include projects-header.html %}
+
+<article>
+  <h2>The Transfers App • Gusto</h2>
+
+  <p>Gusto is a payroll, benefits and HR platform and I worked on the payroll team. My task there was to design and develop a number of payroll features for 65,000+ companies that ran payroll with our software. </p>
+  <p>One of my favorite projects was researching, designing and developing the Transfers app; this was an internal tool that was used to onboard particularly large companies that wanted to run payroll with Gusto.</p>
+  <p>Let’s say that your company would like to start using Gusto as a payroll provider, well you’d have to give them all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as enter all of the paystubs for every employee since the beginning of year. This is quite frankly an overwhelming amount of information and so I was brought onto the project to research and build a potential solution</p>
+
+  <h4>Researching the Problem</h4>
+  <p>Here are the main points that I discovered during the research phase of this project:</p>
+
+  <ul>
+    <li>The team has problems with remembering the status of company, for example they would ask themselves questions like “Have I entered the <abbr title='Social Security Number'>SSN</abbr>s of all employees?”, “Have I entered all of the paystubs for this company?” or even “What is the deadline for this transfer?” This could be particularly challenging when one of the team is off sick and there is a looming deadline for a company.</li>
+    <li>Historical paystub entry was extraordinarily difficult because it required a lot of knowledge around the various different types of contributions and benefits, as well as the type of employee (whether they’re dismissed, currently employeed or a contractor).</li>
+    <li>Information would frequently get lost between the customer and our Sales, Transfers and Care teams. This led to all sorts of frustrating issues such as data being deleted or overridden which would then slow the transfer process immensely.</li>
+    <li>Accessibility was a huge problem. The team used an internal tool called Panda that was used by a large number of teams across Gusto. However, because it wasn’t designed specifically for the Transfers team to onboard customers they would spend a large amount of time scrolling and clickign their way through this app in order to find or input the information they needed. The Transfers team would often login to the primary app (the customer-facing interface) in order to input data but this was not streamlined for them or their needs.</li>
+    <li>These particular factors meant that inputting historical paystubs for every employee of a company and adding their benefits was particularly painful and slow.</li>
+  </ul>
+
+  <h4>Research Notes Summary</h4>
+  <iframe src="https://docs.google.com/document/d/e/2PACX-1vS1oEaTKKn-2sYCm9-fa6c4w-VHBfMteDB1HFnx3UfrSRnIChkQAJQMtqulZwF08NLMfj6x8TNkidcw/pub?embedded=true"></iframe>
+
+  <h4>Proposed Solutions</h4>
+  <p>Based on this research I devised a plan for attack:</p>
+
+  <ul>
+    <li>A new workflow and dashboard designed solely for the Transfers team that optimizes all of the <abbr title='User Experience'>UX</abbr> + <abbr title='User Interface'>UI</abbr> for their needs (this will prevent other conflicts across teams that rely on Panda).</li>
+    <li>Hide or entirely remove Panda features that the team doesn’t need so it’s easier to focus, train new folks, understand what step a company is on currently and find any potential blockers.</li>
+    <li>Provide Transfer team members with an organized workflow so that they can easily hand off a project and are always sure of what to do next.</li>
+    <li>Lock the front-end interface entirely if a migration is in process and give the transfer team member the ability to lock/unlock their account if they need more info from an employee.</li>
+    <li>Create a spreadsheet <abbr title="User interface">UI</abbr> for adding people information so that bulk information can be added with ease – limit the number of fields to only those that block payroll.</li>
+    <li>Design a feedback loop and communication mechanism between an admin and transfers team member, potentially in app, so that they don’t have to .</li>
+  </ul>
+
+  <!-- <h4>The Design Process</h4> -->
+
+</article>
+
+
+      <!-- {% assign work = site.work | sort: 'date' | reverse %}
+      {% for post in work %}
+      <div class="g__col">
+          <a href="{{post.url}}" class="box__item">
+              {% if post.logo %}
+                  <figure>
+                      <img src="/build/images/work/{{post.logo}}">
+                  </figure>
+              {% endif %}
+              <div class="box__content">
+                  <h2 class="h2">
+                      {{ post.title }}
+                  </h2>
+                  {{post.role | markdownify}}
+              </div>
+            </a>
+        </div>
+      {% endfor %} -->
+
+
+{% include projects-footer.html %}
