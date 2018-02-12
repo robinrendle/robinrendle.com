@@ -3,12 +3,12 @@
 <article class='m-longform m-wrapper'>
   <h2>The Transfers App • Gusto</h2>
 
-  <p>Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platform and I worked on the payroll team. My task there was to design and develop a number of payroll features for the ~65,000 companies that ran payrolls of more than $4.7 billion dollars in total during a single year.</p>
+  <p>Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platform and I worked on the payroll team. My task there was to design and develop a number of payroll features for the ~65,000 companies that ran payroll more than $4.7 billion dollars in total during a single year.</p>
   <p>One of my favorite projects was researching, designing and developing the Transfers app; this was an internal tool that was used to onboard particularly large companies that wanted to run payroll with Gusto.</p>
   <p>Let’s say that your company has 15 employees and you’d like to switch to using Gusto as your payroll provider. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system. This is quite frankly an overwhelming amount of information that was taking too much time and was extremely frustrating. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness.</p>
 
   <h4>Researching the Problem</h4>
-  <p>M research consisted of talking to team members on the payroll team, the Transfers team and also the Sales team. Understanding the relationship between these groups of people was vital before I could start making any sense of the problem.</p>
+  <p>My research consisted of talking to team members on the payroll team, the Transfers team and also the Sales team. Understanding the relationship between these groups of people was vital before I could start making any sense of the problem.</p>
   <p>Before I made the trip to the Gusto offices in Denver I thought this project would be a simple one, however it wasn’t until I sat down with several members of the Transfers team and watched them work that it became obvious just how difficult and nuanced this project would become.</p>
   <p>Here are the main points that I discovered during this research phase:</p>
 
@@ -20,17 +20,25 @@
     <li>Inputting historical paystubs for every employee of a company and adding their benefits was particularly painful and slow because of several <abbr title="User interface">UI</abbr> issues such as form elements not being tabbable.</li>
   </ul>
 
+
+  <figure>
+    <img src="../build/images/portfolio/purple.jpg" alt="An example of the research I jotted down with the Purple.pm app">
+    <figcaption>
+      <p>With Purple I could record all of my research and archive it for future designers, <abbr title="Product managers">PM</abbr>s and developers.</p>
+    </figcaption>
+  </figure>
+
   <figure>
     <img src="../build/images/portfolio/employee-info.jpg" alt="A whiteboard recording all of the differences between the three employee types">
     <figcaption>
-      <p>I began wireframing the data structure of their process, starting with the data that was required of a companies employees (such as first name, surname, home address and <abbr title="Social security numbers">SSN</abbr>s).</p>
+      <p>I began wireframing the data structure of their process, starting with the data that’s required of a company’s employees (such as first name, surname, home address and <abbr title="Social security numbers">SSN</abbr>s).</p>
     </figcaption>
   </figure>
 
   <figure>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFxorEobQhWRh38af1yFIsjWDMbpUrk1LsElYtOCoFC-7UqGbjXzle_fysRS5aWaRYc_gdVMPpOYeC/pubhtml?widget=true&amp;headers=false"></iframe>
     <figcaption>
-      <p>By ensuring that only the most important data would be entered by the team I moved from this data from the whiteboard to a spreadsheet so we could share this with the rest of the team and get feedback.</p>
+      <p>By ensuring that only the most important data would be entered by the team I moved this data from the whiteboard to a spreadsheet so we could share this with the rest of the team and get feedback.</p>
     </figcaption>
   </figure>
 
@@ -66,18 +74,25 @@
     <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G51M40OXXRIPAes26UNDoJrN/Transfers-Wireframes-1" allowfullscreen></iframe>
     <figcaption>
       <p>
-        These were the mockups I used as a barebones prototype to test with the Transfers team. I discovered during the research phase that the 3 different employee types (currently employed, dismissed and contractors) all required different information attached to them for tax and payroll purposes so I devised a page where all employees could be batch edited and ultimately where a Transfers team member could focus on one type before moving onto the next one.
+        These were the mockups I used as a barebones prototype to test with the Transfers team. I discovered during the research phase that the 3 different employee types (currently employed, dismissed and contractors) all required different information attached to them for tax and payroll purposes so I devised a page where all employees could be batch edited and ultimately where a Transfers team member could focus on one type of employee before moving onto the next one.
       </p>
     </figcaption>
   </figure>
 
   <p>
-    A member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback of this existing process. By clicking the company link they would be sent to a page in Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: a link in Salesforce would send them directly into a to-do list that would show them which bits of information had already been entered and where they had to get started.
+    A member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback onto this existing process. By clicking the company link they would be sent to a page in Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: a link in Salesforce would send them directly into a to-do list that would show them which bits of information had already been entered and where they had to get started.
   </p>
 
   <h4>Historical Paystubs Wireframes</h4>
 
-  <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/YRgtnSEy1xsGEj0RKoPBIm/Historical-Payrolls-v2" allowfullscreen></iframe>
+  <figure>
+    <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/YRgtnSEy1xsGEj0RKoPBIm/Historical-Payrolls-v2" allowfullscreen></iframe>
+    <figcaption>
+      <p>
+        The second draft of Historical Paystubs entry in the new Transfers app.
+      </p>
+    </figcaption>
+  </figure>
   <br>
   <br>
   <br>
@@ -106,6 +121,8 @@
   <br>
 
   <h3>Metrics for Success</h3>
+  <p>Our team decreased the amount of time it took to transfer a company by more than 33%.</p>
+  <p>Fact #2 goes here</p>
 
   <h3>What wasn’t successful about this project</h3>
 
