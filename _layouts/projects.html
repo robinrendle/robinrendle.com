@@ -21,7 +21,7 @@
   </ul>
 
   <figure>
-    <img src="build/images/portfolio/employee-info.png" alt="">
+    <img src="../build/images/portfolio/employee-info.jpg" alt="A whiteboard recording all of the differences between the three employee types">
     <figcaption>
       <p>I began wireframing the data structure of their process, starting with the data that was required of a companies employees (such as first name, surname, home address and <abbr title="Social security numbers">SSN</abbr>s).</p>
     </figcaption>
@@ -30,37 +30,50 @@
   <figure>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFxorEobQhWRh38af1yFIsjWDMbpUrk1LsElYtOCoFC-7UqGbjXzle_fysRS5aWaRYc_gdVMPpOYeC/pubhtml?widget=true&amp;headers=false"></iframe>
     <figcaption>
-      <p>I began to record the data that was required for historical paystub entry and adding employee data in order to ensure that only the most important information would be added at the right time. This is one such example of that data collection process.</p>
+      <p>By ensuring that only the most important data would be entered by the team I moved from this data from the whiteboard to a spreadsheet so we could share this with the rest of the team and get feedback.</p>
     </figcaption>
   </figure>
 
   <p>The Transfer team’s job was only complete when they had entered all of the necessary data and the first payroll of a company had been run, so I made extensive lists of every bit of information that they needed to enter manually from another payroll provider (such as Paychex or Intuit).</p>
-  <p>The team had two methods of inputting data: through the confusing and muddled Panda internal app, or through the customer-facing application. Neither were good options because for each bit of information that was entered they would need to add a single paystub or a single employee at a time. For example: there were sections of the app that required a profile photo for an employee but that would get in the way of the Transfers’ team goal: to get payroll setup as quickly as possible.</p>
-  <p>My final notes and outline of the research suggested that a number of solutions </p>
+  <p>The team had two methods of inputting data: through the confusing and muddled Panda internal app, or through the customer-facing application. Neither were good options because for each bit of information that was entered they were forced to enter a single paystub or a single employee at a time. For example there were also bits of info that the app required but was not required to run payroll quickly. A profile photo was required for an employee for example, but that would get in the way of the Transfers’ team goal: to get payroll setup as quickly as possible.</p>
 
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vS1oEaTKKn-2sYCm9-fa6c4w-VHBfMteDB1HFnx3UfrSRnIChkQAJQMtqulZwF08NLMfj6x8TNkidcw/pub?embedded=true"></iframe>
+  <figure>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vS1oEaTKKn-2sYCm9-fa6c4w-VHBfMteDB1HFnx3UfrSRnIChkQAJQMtqulZwF08NLMfj6x8TNkidcw/pub?embedded=true"></iframe>
+  </figure>
 
   <h4>Proposed Solutions</h4>
   <p>Based on this research I devised a plan for attack:</p>
 
   <ol>
-    <li>A new application needed to be designed solely for the Transfers team that optimizes all of the <abbr title='User Experience'>UX</abbr> + <abbr title='User Interface'>UI</abbr> for their needs (this would then prevent conflicts for other teams that rely on Panda).</li>
-    <li>Provide Transfer team members with an organized workflow for adding historical paystub information.</li>
-    <li>Create a to-do list so that the status of a transfer is clearly visible at all times.</li>
-    <li>Give the transfer team member the ability to lock/unlock the customer account: this will prevent data to be overriden during the onboarding process</li>
-    <li>Bulk information needed be added with ease: limit the number of fields to only those that block payroll.</li>
-    <li>Design a strong feedback loop: and communication mechanism between a company admin, the Transfers team and Sales, potentially in app, so that they don’t have to use Slack or email for more information about a transfer.</li>
-    <li>Gather the data that the Transfer team needs and order it correctly: some of the onboarding steps at Gusto require to be entered before others (for example, certain taxes can be assigned to employees only after it’s clear which states that a company has offices in).</li>
+    <li>A new application: designed solely for the Transfers team would optimize the <abbr title='User Experience'>UX</abbr> + <abbr title='User Interface'>UI</abbr> for their needs and would also prevent any conflicts if the tool had any impact on Panda (and thereby impacting teams in other parts of the company).</li>
+    <li>Focus on batch-editing data: adding historical paystub and employee data requires a lot of manual data entry and so anything that common properties between paystubs or employees should be assigned automatically or set quickly for everyone.</li>
+    <li>Create a to-do list: this would help clearly identify the status of a transfer.</li>
+    <li>Give the transfer team member the ability to lock/unlock the customer account: this will prevent data to be overriden during the onboarding process accidentally by a customer.</li>
+    <li>Only provide the info that they need: we needed to limit the number of fields to only those that block payroll so that their time is best spent on the complex parts of the work.</li>
+    <li>Design a strong feedback loop and communication mechanism: one between a company admin, the Transfers team and Sales. Potentially in app, so that they don’t have to use Slack or email for more information about a transfer.</li>
+    <li>Gather the data and order it correctly: some of the onboarding steps at Gusto require to be entered before others (for example, certain taxes can be assigned to employees only after it’s clear which states that a company has offices in).</li>
   </ol>
 
   <p>These issues were then discussed with the Transfers team and with the enginerring lead on this project in order to get a sense of whether these goals were realistic.</p>
 
   <h4>Early Wireframes</h4>
-  <p>I then jumped into Balsamiq.app to investigate these ideas further.</p>
+  <p>All projects are different but because I was starting a new app from scratch I knew that I should spend most of my time working on lo-fidelity mocks — specifically in Balsamiq.app. I could then depend on the components from Gusto’s design system that I had been building for the last two years and could thereby skip the hi-fidelity mockup phase altogether.</p>
+  <p>
+    After discussing the plan above with the engineering team, and confirming those priorities with the Transfers team, we decided on tackling the to-do list and Employee (or using the Gusto nomanclature <em>People</em>) data entry first.
+  </p>
 
-  <h4>People Wireframes</h4>
+  <figure>
+    <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G51M40OXXRIPAes26UNDoJrN/Transfers-Wireframes-1" allowfullscreen></iframe>
+    <figcaption>
+      <p>
+        These were the mockups I used as a barebones prototype to test with the Transfers team. I discovered during the research phase that the 3 different employee types (currently employed, dismissed and contractors) all required different information attached to them for tax and payroll purposes so I devised a page where all employees could be batch edited and ultimately where a Transfers team member could focus on one type before moving onto the next one.
+      </p>
+    </figcaption>
+  </figure>
 
-  <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G51M40OXXRIPAes26UNDoJrN/Transfers-Wireframes-1" allowfullscreen></iframe>
+  <p>
+    A member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback of this existing process. By clicking the company link they would be sent to a page in Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: a link in Salesforce would send them directly into a to-do list that would show them which bits of information had already been entered and where they had to get started.
+  </p>
 
   <h4>Historical Paystubs Wireframes</h4>
 
