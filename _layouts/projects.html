@@ -1,6 +1,7 @@
 {% include projects-header.html %}
 
 <article class='m-longform m-wrapper'>
+  <small>October 2017 – February 2018</small>
   <h2>The Transfers App • Gusto</h2>
 
   <p>Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platform and I worked on the payroll team. My task there was to design and develop a number of payroll features for the ~65,000 companies that ran payroll more than $4.7 billion dollars in total during a single year.</p>
@@ -19,7 +20,6 @@
     <li>Accessibility was a huge problem. The team used an internal tool called Panda that was used by a large number of teams across Gusto. However, because it wasn’t designed specifically for the Transfers team to onboard customers they would spend a large amount of time scrolling and clickign their way through this app in order to find or input the information they needed. The Transfers team would often login to the primary app (the customer-facing interface) in order to input data but this was not streamlined for them or their needs.</li>
     <li>Inputting historical paystubs for every employee of a company and adding their benefits was particularly painful and slow because of several <abbr title="User interface">UI</abbr> issues such as form elements not being tabbable.</li>
   </ul>
-
 
   <figure>
     <img src="../build/images/portfolio/purple.jpg" alt="An example of the research I jotted down with the Purple.pm app">
@@ -65,7 +65,7 @@
   <p>These issues were then discussed with the Transfers team and with the enginerring lead on this project in order to get a sense of whether these goals were realistic.</p>
 
   <h4>Early Wireframes</h4>
-  <p>All projects are different but because I was starting a new app from scratch I knew that I should spend most of my time working on lo-fidelity mocks — specifically in Balsamiq.app. I could then depend on the components from Gusto’s design system that I had been building for the last two years and could thereby skip the hi-fidelity mockup phase altogether.</p>
+  <p>All projects are different but because I was starting a new app from scratch I knew that I should spend most of my time working on lo-fidelity mocks — specifically in Balsamiq. I could then depend on the components from Gusto’s design system that I had been building for the last two years and thereby skip the hi-fidelity mockup phase altogether.</p>
   <p>
     After discussing the plan above with the engineering team, and confirming those priorities with the Transfers team, we decided on tackling the to-do list and Employee (or using the Gusto nomanclature <em>People</em>) data entry first.
   </p>
@@ -82,6 +82,7 @@
   <p>
     A member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback onto this existing process. By clicking the company link they would be sent to a page in Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: a link in Salesforce would send them directly into a to-do list that would show them which bits of information had already been entered and where they had to get started.
   </p>
+  <p></p>
 
   <h4>Historical Paystubs Wireframes</h4>
 
@@ -93,6 +94,49 @@
       </p>
     </figcaption>
   </figure>
+
+  <h4>Creating a new component</h4>
+  <p>As I worked on the design of the People and Historical Paystub pages I recongized that we needed a new spreadsheet component to be built from the ground up to support our work. Not only that but we would need something generic enough to be used throughout our customer-facing application, too.</p>
+  <p>
+    This led to a lot of research into popular spreadsheets in familiar apps and comparing their functionality to the features we knew would be required of the Transfers team.
+  </p>
+
+  <figure>
+    <img alt="gif of spreadsheet component goes here">
+    <figcaption>
+      <p>
+        The spreadsheet component was designed, developed and tested in The Guide before it was moved into the Transfers app. I worked with a front-end engineer to make sure that it was as flexible as possible for other missions to import into their own work.
+      </p>
+    </figcaption>
+  </figure>
+
+  <h4>Testing the Prototype</h4>
+  <p>After a second draft of mockups had been completed for the employee section the engineers started work and shortly afterwards we were able to test it with the team in Denver. That testing showed us a crucial flaws in our design: instead of showing all of the spreadsheet columns that might be applicable (for example taxes in Colorado <em>and</em> California) we decided to filter them based on the work location information we have access to after the Company Details step has been completed. This meant that the Transfers team wouldn’t have to keep tabbing across a spreadsheet with empty fields and they would see only what they needed to enter.</p>
+
+  <p>Whenever we implemented a new feature we could immediately turn around and test it with the Transfers team and so this was an extraordinarily helpful method of getting honest feedback in a timely manner.</p>
+
+  <figure>
+    <img alt="nasty prototype goes here">
+    <figcaption>
+      <p>
+        Nasty prototype goes here
+      </p>
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="../build/images/portfolio/team.jpg" alt="A picture of the team working on the Transfers app." />
+    <figcaption>
+      <p>
+        Here’s the team hard at work building a prototype of the spreadsheet.
+      </p>
+    </figcaption>
+  </figure>
+
+  <h4>The App Comes into View</h4>
+  <p>
+    Section about the finished implementation of the app – the to-do list especially.
+  </p>
+
   <br>
   <br>
   <br>
@@ -122,11 +166,11 @@
 
   <h3>Metrics for Success</h3>
   <p>Our team decreased the amount of time it took to transfer a company by more than 33%.</p>
-  <p>Fact #2 goes here</p>
+  <p>It takes 4.76 minutes to create a new employee through Dabba Tabba, compared to 12.4 minutes "the old way." </p>
+  <p>67% (1,510) of all employees transferred since Since December 15, 2017 have been entered through Dabba Tabba. The following week 77% of all employees transferred were entered through the Transfers app.</p>
+  <p>In one month 2,714 employees had been added to Gusto via Transfers app</p>
 
   <h3>What wasn’t successful about this project</h3>
-
-  <h3>What I learned during this project</h3>
 
   <h3>Interesting Stats</h3>
   <p>I think we add 1500 - 2000 clients every month…Payroll transfers numbers are usually 100-150 per month…so about 5-10% of total adds are through transfers.</p>

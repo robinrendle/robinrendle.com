@@ -1654,3 +1654,13 @@ hgroup {
         position: absolute;
         right: 0;
         top: 0; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold; }
+
+iframe {
+  min-height: 500px; }
