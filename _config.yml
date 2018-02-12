@@ -14,6 +14,9 @@ collections:
   posts:
     title: Posts
     output: true
+  projects:
+    title: Projects
+    output: true
   reading:
     title: Reading
     output: true
