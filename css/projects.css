@@ -1224,9 +1224,6 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     text-decoration: underline #2a7af7;
     color: #2a7af7; }
 
-.m-longform p:hover a {
-  color: #2a7af7; }
-
 .m-longform > *:last-child {
   margin-bottom: 0; }
 
@@ -1452,10 +1449,6 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     .m-longform--small ul a:focus {
       text-decoration: underline #2a7af7;
       color: #2a7af7; }
-  .m-longform--small ol p:hover a,
-  .m-longform--small p p:hover a,
-  .m-longform--small ul p:hover a {
-    color: #2a7af7; }
   @media (min-width: 621px) {
     .m-longform--small ol,
     .m-longform--small p,
@@ -1665,3 +1658,8 @@ h5 {
 iframe {
   min-height: 500px;
   border: 1px solid #ddd; }
+
+video {
+  background-color: #fafafa;
+  padding: 20px;
+  max-width: 100%; }

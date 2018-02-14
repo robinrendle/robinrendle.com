@@ -984,9 +984,6 @@ abbr {
     text-decoration: underline #2a7af7;
     color: #2a7af7; }
 
-.m-longform p:hover a {
-  color: #2a7af7; }
-
 .m-longform > *:last-child {
   margin-bottom: 0; }
 

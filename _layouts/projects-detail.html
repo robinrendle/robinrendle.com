@@ -1,28 +1,29 @@
 {% include projects-header.html %}
 
-<header>
-  <h1>Robin Rendle</h1>
-  <p>Product designer, <abbr title='User Interface'>UI</abbr> engineer, and writer</p>
-  <a href='/'>Download resume</a>
-</header>
+<h1>{{page.title}}</h1>
 
+{{page.company}}
 
-<article class='m-longform m-wrapper'>
-  <h3>Highlighted projects</h3>
-  {% assign projects = site.projects | sort: 'date' | reverse %}
+<div class='m-wrapper'>
+  <div class="m-longform">
+    {{content}}
+  </div>
+</div>
+
+  <!-- {% assign projects = site.projects | sort: 'date' | reverse %}
   {% for post in projects %}
     {% if post.published != false %}
       <a href="{{post.url}}" class="box__item">
-        <!-- {% if post.logo %}
+        {% if post.logo %}
           <figure>
             <img src="/build/images/work/{{post.logo}}">
           </figure>
-        {% endif %} -->
+        {% endif %}
         <h2>{{ post.title }}</h2>
         <small>{{ post.company }}</small>
       </a>
     {% endif %}
-  {% endfor %}
-</article>
+  {% endfor %} -->
+
 
 {% include projects-footer.html %}

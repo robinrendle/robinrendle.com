@@ -1,5 +1,6 @@
 ---
 title: The XOXO Outpost
+layout: projects-detail
 date: 2015-07-30 10:56:00 -07:00
 tags:
 - andy baio
@@ -9,7 +10,7 @@ tags:
 - codepen
 extract: I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a
   teaser](http://xoxopdx.com) for their upcoming artist space in Portland.
-update: 
+update:
 role: |-
   - Design
   - Front-end development
@@ -27,7 +28,7 @@ Country:
 - UK
 ---
 
-I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a teaser](http://xoxopdx.com) for their upcoming artist space in Portland. The organizers Andy McMillan and Andy Baio [described the project in a little more detail](http://blog.xoxofest.com/post/120703410510/a-new-experiment): 
+I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a teaser](http://xoxopdx.com) for their upcoming artist space in Portland. The organizers Andy McMillan and Andy Baio [described the project in a little more detail](http://blog.xoxofest.com/post/120703410510/a-new-experiment):
 
 > We hope to bring together some of our favorite people and projects in indie art and tech under one roof, as well as a handful of startups working on tools that help people stay independent. And, of course, we’re ridiculously excited to have our own space to run weird and wonderful events year-round.
 
@@ -41,7 +42,6 @@ In February 2016 we launched the second version of the website that was designed
 
 Here’s a video of the final thing:
 
-<iframe height="500" class="preserve-aspect__element" src="https://www.youtube.com/embed/x7RaIm7PP1k" frameborder="0" allowfullscreen></iframe>
-
-
-**[Visit the site &rarr;](http://xoxopdx.com)**
+<div class='preserve-aspect'>
+  <iframe height="500" class="preserve-aspect__element" src="https://www.youtube.com/embed/x7RaIm7PP1k" frameborder="0" allowfullscreen></iframe>
+</div>
