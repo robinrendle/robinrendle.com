@@ -1,12 +1,12 @@
 ---
 title: Sasha Bruce Youthwork
 date: 2015-07-25 15:17:00 -07:00
-extract:
+published: false
+extract: 
 role: "- Front-end development"
 logo: sasha-bruce/youthwork.svg
 hero: "/uploads/sby-1.jpg"
 links: "- [Sasha Bruce 40th anniversary](http://sashabruce.org/40)"
-published: false
 ---
 
 Working with the team at [Sasha Bruce](http://sashabruce.org/) I developed a website for their 40th anniversary benefit concert which celebrates the causes of this [prestigious charity](http://sashabruce.org/about/).

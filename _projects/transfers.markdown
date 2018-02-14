@@ -1,12 +1,12 @@
 ---
 title: The Transfers App
+tags:
+- css
 layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-tags:
-- css
-extract:
+extract: 
 ---
 
 <small>October 2017 – February 2018</small>

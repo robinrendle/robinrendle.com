@@ -1,10 +1,10 @@
 ---
 title: The Guide
+tags:
+- css
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-tags:
-- css
 layout: projects-detail
 ---
 

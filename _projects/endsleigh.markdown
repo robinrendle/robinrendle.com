@@ -1,7 +1,7 @@
 ---
 title: Endsleigh Insurance
-layout: projects-detail
 date: 2014-06-04 08:37:00 -07:00
+layout: projects-detail
 byline: A mobile-first approach to the Endsleigh website
 hero: "/build/images/work/endsleigh/endsleigh-hero.png"
 role: |-

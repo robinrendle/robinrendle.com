@@ -3,13 +3,13 @@ title: CSS-Tricks
 date: 2015-10-24 11:59:00 -07:00
 tags:
 - css
-extract:
-update:
+extract: 
+update: 
 role: |-
   - Writing
   - Editing
   - Making tutorials
-team: |-
+team: ''
 logo: css-tricks/css-tricks.svg
 hero: "/uploads/css-tricks.jpg"
 layout: projects-detail
