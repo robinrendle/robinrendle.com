@@ -29,7 +29,7 @@ extract:
 <p>My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our system. Understanding the relationship between various groups and teams of people was vital before I could start making any sense of the problem.</p>
 
 <figure>
-  <img src="../build/images/portfolio/team.jpg" alt="A picture of the team working on the Transfers app." />
+  <img src="/build/images/portfolio/team.jpg" alt="A picture of the team working on the Transfers app." />
   <figcaption>
     <p>
       Here’s the team hard at work building a prototype of the spreadsheet.
@@ -48,14 +48,14 @@ extract:
 </ul>
 
 <figure>
-  <img src="../build/images/portfolio/purple.jpg" alt="An example of the research I jotted down with the Purple.pm app">
+  <img src="/build/images/portfolio/purple.jpg" alt="An example of the research I jotted down with the Purple.pm app">
   <figcaption>
     <p>With Purple I could record all of my research and archive it for future designers, <abbr title="Product managers">PM</abbr>s and developers. I recorded every conversation I had with the team in Denver where the Transfer team worked as well as recorded screenshots and videos of their process.</p>
   </figcaption>
 </figure>
 
 <figure>
-  <img src="../build/images/portfolio/employee-info.jpg" alt="A whiteboard recording all of the differences between the three employee types">
+  <img src="/build/images/portfolio/employee-info.jpg" alt="A whiteboard recording all of the differences between the three employee types">
   <figcaption>
     <p>I began collecting every bit of data that they needed to “complete” the transfer of a single employee (data such as first name, surname, home address and <abbr title="Social security numbers">SSN</abbr>s).</p>
   </figcaption>
@@ -135,7 +135,7 @@ extract:
 
 <figure>
   <video autoplay="autoplay" loop="loop" class="cell-b20">
-    <source src="../uploads/spreadsheet.mp4" type="video/mp4">
+    <source src="/uploads/spreadsheet.mp4" type="video/mp4">
   </video>
   <figcaption>
     <p>
