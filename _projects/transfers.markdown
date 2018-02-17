@@ -1,5 +1,6 @@
 ---
 title: The Transfers App
+subtitle: A tool to improve customer onboarding at Gusto.
 layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
@@ -7,26 +8,33 @@ company: Gusto
 tags:
 - css
 extract:
+heroImage: /build/images/portfolio/team.jpg
 ---
 
-<small>October 2017 – February 2018</small>
-
-<p>Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platform — I worked as a product designer on the payroll team where I was tasked with the design and development of a number of payroll features for the ~65,000 companies that used Gusto to run their payroll.</p>
-<p>One of my favorite projects was researching, designing and developing the Transfers app; this was an internal tool that was used to onboard particularly large companies that wanted to run payroll with Gusto.</p>
+Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platform for more than 65,000 companies and late last year I was tasked with the design and development of the Transfers app; this was an internal tool that was used to onboard particularly large companies that wanted to switch to Gusto.
 
 <figure>
   <img alt="An example of the finished app." />
   <figcaption>
     <p>
-     Here’s the final app
+     The final app
     </p>
   </figcaption>
 </figure>
 
-<p>Let’s say that your company has 15 employees and you’d like to switch to using Gusto as your payroll provider. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system. This is quite frankly an overwhelming amount of information that was taking too much time and was extremely frustrating. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness.</p>
+Let’s say that your company has 15 employees and you’d like to make the switch from another payroll provider. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system. This is quite frankly an overwhelming amount of information that was taking too much time and was extremely frustrating. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness.
 
-<h4>Researching the Problem</h4>
-<p>My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our system. Understanding the relationship between various groups and teams of people was vital before I could start making any sense of the problem.</p>
+## Project Goals
+
+1. Make sure that the team can transfer every company before the end of year.
+2. Improve the team’s data tranfers efficiency by 30%+.
+3. Build a tool for historical paystub entry and employee data entry.
+
+The Transfers team lead recommended several improvements that would achieve these goals but thankfully I had enough time to investigate the problem first and watch the Transfers team at work.
+
+
+## Investigating the Problem
+My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our system. Understanding the relationship between various groups and teams of people was vital before I could start making any sense of the problem.
 
 <figure>
   <img src="/build/images/portfolio/team.jpg" alt="A picture of the team working on the Transfers app." />
@@ -171,8 +179,6 @@ extract:
   <li>67% (1,510) of all employees transferred since Since December 15, 2017 have been entered through Dabba Tabba. The following week 77% of all employees transferred were entered through the Transfers app.</li>
   <li>In one month 2,714 employees had been added to Gusto via Transfers app.</li>
 </ul>
-
-<h3>What wasn’t successful about this project</h3>
 
 <h3>Interesting Stats</h3>
 <p>I think we add 1500 - 2000 clients every month…Payroll transfers numbers are usually 100-150 per month…so about 5-10% of total adds are through transfers.</p>

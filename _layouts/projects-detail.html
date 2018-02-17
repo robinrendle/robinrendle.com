@@ -1,8 +1,13 @@
 {% include projects-header.html %}
 
-<h1>{{page.title}}</h1>
+<div class='m-wrapper cell-t60 cell-b40'>
+  <h1 class='u-reset-margins'>{{page.title}}</h1>
+  <h2 class='u-reset-margins cell-b40'>{{page.subtitle}}</h2>
 
-{{page.company}}
+  <figure>
+    <img src="{{page.heroImage}}" alt="The homepage of the Guide." />
+  </figure>
+</div>
 
 <div class='m-wrapper'>
   <div class="m-longform">

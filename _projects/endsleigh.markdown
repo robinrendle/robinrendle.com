@@ -1,6 +1,8 @@
 ---
 title: Endsleigh Insurance
+subtitle: Building a design system for a student insurance company.
 layout: projects-detail
+company: Erskine Design
 date: 2014-06-04 08:37:00 -07:00
 byline: A mobile-first approach to the Endsleigh website
 hero: "/build/images/work/endsleigh/endsleigh-hero.png"
@@ -15,7 +17,7 @@ abbr: endsleigh
 links: "- [Endsleigh insurance](http://endsleigh.co.uk)"
 ---
 
-Endsleigh is a student insurance provider and I worked with them to develop a framework capable of supporting their vast array of products and services, focusing specifically on object oriented <span>CSS</span> and performance.
+Endsleigh is a student insurance provider and I worked with them to develop a framework capable of supporting their vast array of products and services, focusing specifically on object oriented <abbr title='Cascading style sheets'>CSS</abbr> and performance.
 
 The site uses a number of features that older browsers don’t support, but because of the current analytics we needed to provide safe fallbacks. Each component was designed to have progressively enhanced features so that IE8+9 users still had a great experience overall.
 

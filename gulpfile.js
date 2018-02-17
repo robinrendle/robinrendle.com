@@ -87,11 +87,13 @@ gulp.task("watch", function() {
 			"_layouts/*.html",
 			"**.*.html",
 			"_includes/*.html",
-			"_projects.*.markdown",
+			"_projects/*.markdown",
 			"_posts/*"
 		],
 		["jekyll-rebuild"]
 	);
+	gulp.watch(["_uploads/*"], ["jekyll-rebuild"]);
+	gulp.watch(["_static/images/*", "_static/images/*/*"], ["images"]);
 });
 
 // gulp.task('build', [''])
