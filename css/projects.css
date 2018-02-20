@@ -2445,6 +2445,9 @@ hgroup {
     padding-right: 80px;
     padding-right: 5rem; } }
 
+body {
+  padding-bottom: 100px; }
+
 h1,
 h2,
 h3,

@@ -52,6 +52,10 @@ $font-src: "/fonts/";
 
 @import "objects/cell";
 
+body {
+	padding-bottom: 100px;
+}
+
 h1,
 h2,
 h3,

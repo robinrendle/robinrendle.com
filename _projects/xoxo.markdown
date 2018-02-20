@@ -11,9 +11,10 @@ tags:
 - portland
 - xoxo
 - codepen
+layout: projects-detail
 extract: I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a
   teaser](http://xoxopdx.com) for their upcoming artist space in Portland.
-update:
+update: 
 role: |-
   - Design
   - Front-end development
