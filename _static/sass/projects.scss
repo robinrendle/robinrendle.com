@@ -82,3 +82,15 @@ video {
 .flex-justify-between {
 	justify-content: space-between;
 }
+
+.projects-header {
+	background-color: $c-primary;
+	min-height: 100vh;
+	h1 {
+		color: white;
+	}
+}
+
+.projects-container {
+	background-color: #eee;
+}

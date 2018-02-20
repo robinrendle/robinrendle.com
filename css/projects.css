@@ -2473,3 +2473,12 @@ video {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+
+.projects-header {
+  background-color: #2a7af7;
+  min-height: 100vh; }
+  .projects-header h1 {
+    color: white; }
+
+.projects-container {
+  background-color: #eee; }
