@@ -1,17 +1,16 @@
 ---
 title: The XOXO Outpost
-subtitle: A teaser site for a new co-working space in Portland.
-layout: projects-detail
 date: 2015-07-30 10:56:00 -07:00
-company: Freelance
-heroImage: /uploads/xoxo-pdx2.jpg
 tags:
 - andy baio
 - andy mcmillan
 - portland
 - xoxo
 - codepen
+subtitle: A teaser site for a new co-working space in Portland.
 layout: projects-detail
+company: Freelance
+heroImage: "/uploads/xoxo-pdx2.jpg"
 extract: I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a
   teaser](http://xoxopdx.com) for their upcoming artist space in Portland.
 update: 

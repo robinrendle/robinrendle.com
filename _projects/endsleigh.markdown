@@ -1,9 +1,9 @@
 ---
 title: Endsleigh Insurance
+date: 2014-06-04 08:37:00 -07:00
 subtitle: Building a design system for a student insurance company.
 layout: projects-detail
 company: Erskine Design
-date: 2014-06-04 08:37:00 -07:00
 byline: A mobile-first approach to the Endsleigh website
 hero: "/build/images/work/endsleigh/endsleigh-hero.png"
 role: |-
