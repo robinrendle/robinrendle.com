@@ -4,15 +4,20 @@
   <h1 class='u-reset-margins'>{{page.title}}</h1>
   <h2 class='u-reset-margins cell-b40'>{{page.subtitle}}</h2>
 
-  <h3>Role</h3>
-  <p>
-    {{page.role}}
-  </p>
-
-  <h3>Results</h3>
-  <p>
-    {{page.results}}
-  </p>
+  <div class='flex flex-justify-between m-longform'>
+    <div>
+      <h3 class='u-reset-margins'>Role</h3>
+      <p>
+        {{page.role}}
+      </p>
+    </div>
+    <div>
+      <h3 class='u-reset-margins'>Result</h3>
+      <p>
+        {{page.results}}
+      </p>
+    </div>
+  </div>
 
   <figure>
     <img src="{{page.heroImage}}" />

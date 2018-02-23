@@ -10,9 +10,9 @@ layout: projects-detail
 heroImage: /build/images/portfolio/guide-1.jpg
 ---
 
-The Guide is a web app that documents the company’s ever-growing design system and my goal was to create a space where developers and designers could learn from and contribute to the React components, baseline styles, and overall brand qualities and attributes of the company, documenting them all in a single place.
+The Guide is a web app that documents the company’s ever-growing design system and my goal was to create a space where developers and designers could learn from and contribute to the React components, baseline styles, and overall brand of the company.
 
-In the introduction to the Guide I described the project like this:
+In the introduction to the Guide I described the project like so:
 
 > This is where all of the documentation for Gusto’s design system is archived for safe keeping; it contains all the assets you need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of *The Guide* as a sort of Pokédex.
 >

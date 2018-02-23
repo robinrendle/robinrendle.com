@@ -1,6 +1,6 @@
 ---
 title: CSS-Tricks
-subtitle: Contributions to the front-end development publication.
+subtitle: Writing for the blog about front-end development.
 role: Writing, editing, and creating video tutorials, as well as working on the weekly newsletter.
 results: Growing the newsletter from zero subscribers to more than 32,000 over the course of a year.
 date: 2015-10-24 11:59:00 -07:00
@@ -23,7 +23,7 @@ This has led to me exploring [a variety of topics](https://css-tricks.com/author
 Not only has working with the excellent team been an inspiration it’s also taught me a great deal about copywriting, front-end development and design. Sometimes my work has lead to me [finding something new](https://css-tricks.com/chaining-multiple-blend-modes/) that you can do with a <abbr title='cascading style sheets'>CSS</abbr> property or it encourages interesting ideas for <abbr title='user interface'>UI</abbr>.
 
 
-## Newsletter
+## The Weekly Newsletter
 
 I also write [the weekly newsletter](http://css-tricks.com/newsletter) which collects everything that was posted on the website during the week and then wrap things up with a comment about what I’ve been learning about that week. Sometimes it’s about code, but it’s often about topics that are related to front-end development, such as managing large teams of front-end engineers.
 
