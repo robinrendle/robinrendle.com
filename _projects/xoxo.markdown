@@ -10,7 +10,8 @@ layout: projects-detail
 company: Freelance
 heroImage: "/uploads/xoxo-pdx2.jpg"
 role: Design, copywriting and front-end development.
-results: The launch of a tiny teaser website adverstising the space, followed shortly by another website that lets people sign up for more information.
+results: The launch of a tiny teaser website adverstising the space, followed shortly
+  by another website that lets people sign up for more information.
 hero: "/uploads/xoxo-pdx.jpg"
 links: |-
   - [Announcement blog post](http://blog.xoxofest.com/post/120703410510/a-new-experiment)

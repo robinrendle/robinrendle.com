@@ -10,7 +10,7 @@ layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-extract:
+extract: 
 heroImage: "/build/images/portfolio/team.jpg"
 ---
 

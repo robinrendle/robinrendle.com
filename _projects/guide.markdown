@@ -2,8 +2,10 @@
 title: The Guide
 subtitle: Gusto’s design system and component library.
 startDate: 10/2017
-role: Led the design and documentation of the design system and its multitude of React components.
-results: High quality front-end code and documentation for the components and assets such as illustrations and icons.
+role: Led the design and documentation of the design system and its multitude of React
+  components.
+results: High quality front-end code and documentation for the components and assets
+  such as illustrations and icons.
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
