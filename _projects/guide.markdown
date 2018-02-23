@@ -1,10 +1,10 @@
 ---
 title: The Guide
-subtitle: Designing, building and documenting Gusto’s design system.
+subtitle: Gusto’s design system and component library.
 startDate: 10/2017
-role: Led the design, implementation and documentation of Gusto’s design system and
+role: Led the design, implementation and documentation of the design system and
   front-end components.
-results: High quality front-end code and documentation for the components and assets.
+results: High quality front-end code and documentation for the components and assets such as illustrations and icons.
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
@@ -51,6 +51,6 @@ Typography is only one example of this refactoring effort, other included our ic
 
 ## Project Review
 
-One of the more shocking revelations of this project was this: I learned how design systems and tools will only help so much in improving the design quality of a large scale web app. Tools that help us make design systems sure are useful, and will do a lot of the work, but ultimately it’s down to the shape of the organization to encourage a culture of high quality front-end code and design. And so I spent a great deal of time trying to pair with and mentor designers that were not quite as familiar with front-end development and systems-thinking as I am.
+One of the more shocking revelations of this project was this: I learned how design systems and tools will only help so much in improving the design quality of a large scale web app. Tools that help us make design systems sure are useful, and will do a lot of the work, but ultimately it’s down to the shape of the organization to encourage a culture of high quality front-end code and design. And so I spent a great deal of time trying to pair with and mentor designers that were not quite as familiar with front-end development and scaling design systems.
 
-I realized that writing documentation and improving code quality was important but it was never quite as helpful as sitting with another designer or developer and talking with them about a problem they were experiencing.
+I also realized that writing documentation and improving code quality was important but it was never quite as helpful as sitting with another designer or developer and talking with them about a problem they were experiencing.

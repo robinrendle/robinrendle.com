@@ -5,22 +5,12 @@ tags:
 - andy baio
 - andy mcmillan
 - portland
-- xoxo
-- codepen
-subtitle: A teaser site for a new co-working space in Portland.
+subtitle: A new type of co-working space in Portland.
 layout: projects-detail
 company: Freelance
 heroImage: "/uploads/xoxo-pdx2.jpg"
-extract: I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a
-  teaser](http://xoxopdx.com) for their upcoming artist space in Portland.
-update: 
-role: |-
-  - Design
-  - Front-end development
-team: |-
-  - Andy Baio
-  - Andy McMillan
-logo: xoxo/xoxo.png
+role: Design, copywriting and front-end development.
+results: The launch of a tiny teaser website adverstising the space, followed shortly by another website that lets people sign up for more information.
 hero: "/uploads/xoxo-pdx.jpg"
 links: |-
   - [Announcement blog post](http://blog.xoxofest.com/post/120703410510/a-new-experiment)
@@ -31,7 +21,7 @@ Country:
 - UK
 ---
 
-I helped the team at [XOXO](http://twitter.com/xoxo) design and build [a teaser](http://xoxopdx.com) for their upcoming artist space in Portland. The organizers Andy McMillan and Andy Baio [described the project in a little more detail](http://blog.xoxofest.com/post/120703410510/a-new-experiment):
+I worked alongside Andy McMillan and Andy Baio of [XOXO](http://twitter.com/xoxo) fame to help build [a teaser](http://xoxopdx.com) for their upcoming artist space in Portland alled the Outpost. In a blog post describing the project in [a little more detail](http://blog.xoxofest.com/post/120703410510/a-new-experiment), the two Andys write:
 
 > We hope to bring together some of our favorite people and projects in indie art and tech under one roof, as well as a handful of startups working on tools that help people stay independent. And, of course, we’re ridiculously excited to have our own space to run weird and wonderful events year-round.
 
@@ -41,7 +31,7 @@ I initially experimented with a darker color palette and overall design language
 
 In February 2016 we launched the second version of the website that was designed to advertise the space and capture the details of those that might be interested. This work involved a new color scheme and general overall style to attract as much attention as possible. Typographically we also shifted away from the previous monospace font and chose something a little more neutral and understated.
 
-Here’s a video of the final thing:
+Here’s a video of the final website that was built after the teaser:
 
 <div class='preserve-aspect'>
   <iframe height="500" class="preserve-aspect__element" src="https://www.youtube.com/embed/x7RaIm7PP1k" frameborder="0" allowfullscreen></iframe>
