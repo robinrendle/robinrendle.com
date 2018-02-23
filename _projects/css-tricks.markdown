@@ -1,11 +1,13 @@
 ---
 title: CSS-Tricks
-subtitle: Writing for the blog about front-end development.
-role: Writing, editing, and creating video tutorials, as well as working on the weekly newsletter.
-results: Growing the newsletter from zero subscribers to more than 32,000 over the course of a year.
 date: 2015-10-24 11:59:00 -07:00
+subtitle: Writing for the blog about front-end development.
+role: Writing, editing, and creating video tutorials, as well as working on the weekly
+  newsletter.
+results: Growing the newsletter from zero subscribers to more than 32,000 over the
+  course of a year.
 company: Freelance
-extract:
+extract: 
 logo: css-tricks/css-tricks.svg
 hero: "/uploads/css-tricks.jpg"
 layout: projects-detail
