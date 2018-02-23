@@ -10,7 +10,7 @@ layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-extract: 
+extract:
 heroImage: "/build/images/portfolio/team.jpg"
 ---
 
@@ -27,6 +27,7 @@ Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platfor
 
 Let’s say that your company has 15 employees and you’d like to make the switch from another payroll provider. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system. This is quite frankly an overwhelming amount of information that was taking too much time and was extremely frustrating. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness.
 
+
 ## Project Goals
 
 1. Make sure that the team can transfer every company before the end of year.
@@ -37,6 +38,7 @@ The Transfers team lead recommended several improvements that would achieve thes
 
 
 ## Investigating the Problem
+
 My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our system. Understanding the relationship between various groups and teams of people was vital before I could start making any sense of the problem.
 
 <figure>
@@ -79,15 +81,16 @@ My research consisted of talking to team members across the company and shadowin
   </figcaption>
 </figure>
 
-<p>The Transfer team’s job was only complete when they had entered all of the necessary data and the first payroll of a company had been run, so I made extensive lists of every bit of information that they needed to enter manually from another payroll provider (such as Paychex or Intuit).</p>
-<p>The team had two methods of inputting data: through the confusing and muddled Panda internal app, or through the customer-facing application. Neither were good options because for each bit of information that was entered they were forced to enter a single paystub or a single employee at a time. For example there were also bits of info that the app required but was not required to run payroll quickly. A profile photo was required for an employee for example, but that would get in the way of the Transfers’ team goal: to get payroll setup as quickly as possible.</p>
+The Transfer team’s job was only complete when they had entered all of the necessary data and the first payroll of a company had been run, so I made extensive lists of every bit of information that they needed to enter manually from another payroll provider (such as Paychex or Intuit).
+
+The team had two methods of inputting data: through the confusing and muddled Panda internal app, or through the customer-facing application. Neither were good options because for each bit of information that was entered they were forced to enter a single paystub or a single employee at a time. For example there were also bits of info that the app required but was not required to run payroll quickly. A profile photo was required for an employee for example, but that would get in the way of the Transfers’ team goal: to get payroll setup as quickly as possible.
 
 <figure>
   <iframe src="https://docs.google.com/document/d/e/2PACX-1vS1oEaTKKn-2sYCm9-fa6c4w-VHBfMteDB1HFnx3UfrSRnIChkQAJQMtqulZwF08NLMfj6x8TNkidcw/pub?embedded=true"></iframe>
 </figure>
 
-<h4>Proposed Solutions</h4>
-<p>Based on this research and listening to the recommendations of a number of folks on the team I jotted down what I believed our primary objectives ought to be:</p>
+## Proposed Solutions
+Based on this research and listening to the recommendations of a number of folks on the team I jotted down what I believed our primary objectives ought to be:
 
 <ol>
   <li><strong>A new application</strong>: designed solely for the Transfers team, it would optimize the <abbr title='User Experience'>UX</abbr> + <abbr title='User Interface'>UI</abbr> for their needs and would also prevent any conflicts in Panda (and thereby avoid impacting teams in other parts of the company).</li>
@@ -111,7 +114,7 @@ My research consisted of talking to team members across the company and shadowin
 </figure>
 
 
-<p>I spent the first week or so in Balsamiq exploring ideas for how this new application might work — I focused primarily on how a Transfers member would gain access through Salesforce and how they would enter employee and basic company data.</p>
+I spent the first week or so in Balsamiq exploring ideas for how this new application might work—I focused primarily on how a Transfers member would gain access through Salesforce and how they would enter employee and basic company data.
 
 <figure>
   <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/G51M40OXXRIPAes26UNDoJrN/Transfers-Wireframes-1" allowfullscreen></iframe>
@@ -122,12 +125,10 @@ My research consisted of talking to team members across the company and shadowin
   </figcaption>
 </figure>
 
-<p>
-  A member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback onto this existing process. By clicking the company link they would be sent to a page in Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: a link in Salesforce would send them directly into a to-do list that would show them which bits of information had already been entered and where they had to get started.
-</p>
-<p></p>
+A member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback onto this existing process. By clicking the company link they would be sent to a page in Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: a link in Salesforce would send them directly into a to-do list that would show them which bits of information had already been entered and where they had to get started.
 
-<h4>Historical Paystubs Wireframes</h4>
+
+## Historical Paystubs Wireframes
 
 <figure>
   <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/file/YRgtnSEy1xsGEj0RKoPBIm/Historical-Payrolls-v2" allowfullscreen></iframe>
@@ -138,27 +139,28 @@ My research consisted of talking to team members across the company and shadowin
   </figcaption>
 </figure>
 
-<h4>Creating a new component</h4>
-<p>As I worked on the design of the People and Historical Paystub pages it was clear that we needed a spreadsheet-like interface to help improve bulk data entry. Not only that but we would need something generic enough to be used throughout our customer-facing application, too.</p>
-<p>
-  This led to a lot of research into popular spreadsheets in familiar apps and comparing their functionality to the features we knew would be required of the Transfers team.
-</p>
 
-<figure>
-  <video autoplay="autoplay" loop="loop" class="cell-b20">
-    <source src="/uploads/spreadsheet.mp4" type="video/mp4">
-  </video>
-  <figcaption>
-    <p>
-      The spreadsheet component was designed, developed and tested in The Guide before it was moved into the Transfers app. I worked with a front-end engineer to make sure that it was as flexible as possible for other missions to import into their own work.
-    </p>
-  </figcaption>
-</figure>
+## Designing and developing the Spreadsheet
 
-<h4>Testing the Prototype</h4>
-<p>After a second draft of mockups had been completed for the employee section the engineers started work and shortly afterwards we were able to test it with the team in Denver. That testing showed us a crucial flaws in our design: instead of showing all of the spreadsheet columns that might be applicable (for example taxes in Colorado <em>and</em> California) we decided to filter them based on the work location information we have access to after the Company Details step has been completed. This meant that the Transfers team wouldn’t have to keep tabbing across a spreadsheet with empty fields and they would see only what they needed to enter.</p>
+After investigation what the People and Historical Paystub data entry would look like we decided not to use a plugin or ready-out-of-the-box React component and instead build our own. This would take a lot more time to design and build but we felt that we needed maximum flexibility of styling, alerts, and custom keyboard/mouse gestures in order to address that team’s specific problems.
 
-<p>Whenever we implemented a new feature we could immediately turn around and test it with the Transfers team and so this was an extraordinarily helpful method of getting honest feedback in a timely manner.</p>
+This led to a lot of research into popular spreadsheets in familiar apps and comparing their functionality to the features we knew would be required of the Transfers team.
+
+The spreadsheet component was designed, developed and tested in The Guide before it was moved into the Transfers app. I worked with a front-end engineer to make sure that it was as flexible as possible for other missions to import into their own work.
+
+> picture of [locked columns](https://www.figma.com/file/WzLLDq0393j19Rscgoaam8A4/Spreadsheet-%E2%80%93-Footer-%2B-Locked-Columns)
+
+> picture of [error states](https://www.figma.com/file/CeqLgjNHQIqo38qYqbabjw06/Spreadsheet)
+
+## Continuous Testing
+
+After a second draft of mockups had been completed for the employee section the engineers started work and shortly afterwards we were able to test it with the team in Denver. That testing showed us a crucial flaws in our design: instead of showing all of the spreadsheet columns that might be applicable (for example taxes in Colorado <em>and</em> California) we decided to filter them based on the work location information we have access to after the Company Details step has been completed. This meant that the Transfers team wouldn’t have to keep tabbing across a spreadsheet with empty fields and they would see only what they needed to enter.
+
+Whenever we implemented a new feature we could immediately turn around and test it with the Transfers team and so this was an extraordinarily helpful method of getting honest feedback in a timely manner.
+
+Section about the finished implementation of the app – the to-do list especially.
+
+I left the project because XYZ...
 
 <figure>
   <img alt="nasty prototype goes here">
@@ -169,16 +171,10 @@ My research consisted of talking to team members across the company and shadowin
   </figcaption>
 </figure>
 
-<h4>Launching the app</h4>
-<p>
-  Section about the finished implementation of the app – the to-do list especially.
-</p>
-
 
 ## Project Review
-<ul>
-  <li>Our team decreased the amount of time it took to transfer a company by more than 33%.</li>
-  <li>It takes 4.76 minutes to create a new employee through Dabba Tabba, compared to 12.4 minutes "the old way."</li>
-  <li>67% (1,510) of all employees transferred since Since December 15, 2017 have been entered through Dabba Tabba. The following week 77% of all employees transferred were entered through the Transfers app.</li>
-  <li>In one month 2,714 employees had been added to Gusto via Transfers app.</li>
-</ul>
+
+- Our team decreased the amount of time it took to transfer a company by more than 33%.
+- It takes 4.76 minutes to create a new employee through Dabba Tabba, compared to 12.4 minutes "the old way."
+- 67% (1,510) of all employees transferred since Since December 15, 2017 have been entered through Dabba Tabba. The following week 77% of all employees transferred were entered through the Transfers app.
+- In one month 2,714 employees had been added to Gusto via Transfers app.
