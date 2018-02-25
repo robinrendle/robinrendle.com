@@ -1506,10 +1506,6 @@ hgroup {
       padding: 0px;
       padding: 0rem; } }
 
-.m-wrapper--wide {
-  max-width: 1000px;
-  max-width: 62.5rem; }
-
 .m-wrapper--unpadded {
   max-width: none;
   padding: 0; }

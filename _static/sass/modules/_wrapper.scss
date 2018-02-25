@@ -24,10 +24,6 @@ $_max-width-wide: 1000;
 	}
 }
 
-.m-wrapper--wide {
-	@include remCalc(max-width, $_max-width-wide);
-}
-
 // This module resets all of the padding of each element so that certain elements can be
 // toggled into fullwidth much easier.
 .m-wrapper--unpadded {

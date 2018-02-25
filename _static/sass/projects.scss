@@ -52,6 +52,12 @@ $font-src: "/fonts/";
 
 @import "objects/cell";
 
+$sans: "Output Sans", Helvetica, sans-serif;
+
+html {
+	background-color: white;
+}
+
 body {
 	padding-bottom: 100px;
 }
@@ -85,7 +91,7 @@ video {
 
 .projects-header {
 	background-color: $c-primary;
-	min-height: 100vh;
+	min-height: 50vh;
 	h1 {
 		color: white;
 	}
@@ -93,4 +99,136 @@ video {
 
 .projects-container {
 	background-color: #eee;
+}
+
+.m-wrapper--unpadded .scrollbox {
+	max-width: 600px;
+	height: 500px;
+	padding: 50px;
+	overflow: scroll;
+	border: 1px solid #eee;
+	border-top: 3px solid #eee;
+	background-color: #fcfcfc;
+
+	h2,
+	h3,
+	h4,
+	h5 {
+		margin: 0;
+		padding: 0;
+	}
+
+	h5 {
+		margin-top: 30px;
+		font-weight: bold;
+		text-transform: none;
+		font-variant: normal;
+	}
+
+	h4 {
+		font-weight: normal;
+		color: #aaa;
+	}
+
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		font-family: $sans;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+.highlight {
+	background-color: #fff3cc;
+}
+
+figcaption {
+	max-width: 600px;
+	margin: 0;
+	padding: 0 !important;
+}
+
+.m-longform figcaption > p {
+	font-family: $sans;
+	font-size: 14px;
+	color: #555;
+}
+
+figcaption abbr {
+	font-family: $sans;
+	text-transform: none;
+	font-variant: normal;
+}
+
+.project-subheading {
+	font-variant: small-caps;
+	text-transform: lowercase;
+	font-weight: 800 !important;
+}
+
+.side-by-side {
+	@include media(">medium") {
+		display: flex;
+	}
+}
+
+.side-by-side__child {
+	padding: 10px;
+}
+
+.whiteboard-img {
+	@include media(">medium") {
+		min-height: 500px;
+		object-fit: cover;
+	}
+}
+
+.solutions-list {
+	list-style: none;
+
+	li {
+		position: relative;
+	}
+
+	li:before {
+		content: "";
+		background-color: #2276fb;
+		margin: 0;
+		padding: 0;
+		left: -15px;
+		top: 13px;
+		font-weight: bold;
+		position: absolute;
+		border: 1px solid #2276fb;
+		min-width: 5px;
+		min-height: 5px;
+		transform: rotate(45deg);
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+}
+
+.projects-intro {
+	background-color: #eee;
+}
+
+.meta {
+	font-variant: small-caps;
+	border-bottom: 1px solid white;
+	padding-left: 50px !important;
+	font-weight: 800;
+	font-size: 17px;
+	letter-spacing: 0.4px;
+
+	a,
+	& {
+		color: #888;
+	}
 }

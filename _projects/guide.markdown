@@ -1,6 +1,6 @@
 ---
 title: The Guide
-subtitle: Gusto’s design system and component library.
+subtitle: Building Gusto’s design system and component library.
 startDate: 10/2017
 role: Led the design and documentation of the design system and its multitude of React
   components.
@@ -29,6 +29,21 @@ In the introduction to the Guide I described the project like so:
 
 Although these weren’t the official goals of this project I began to neatly separate them into three types of issues: education, documentation and implementation. My role throughout this project was to then act as front-end developer, designer and guide of The Guide. Through this work I also led the documentation, refactoring and visual design improvements for our design team across the various missions at Gusto.
 
+<div class='side-by-side'>
+  <div class='side-by-side__child'>
+    <figure>
+      <img src="/build/images/portfolio/guide-2.jpg" alt="" />
+    </figure>
+  </div>
+
+  <div class='side-by-side__child'>
+    <figure>
+      <img src="/build/images/portfolio/guide-3.jpg" alt="" />
+    </figure>
+  </div>
+</div>
+
+
 
 ## Refactoring the core Gusto styles
 
@@ -36,7 +51,19 @@ My first goal with The Guide was to move and refactor great portions of Gusto’
 
 I tackled several front-end design projects in order to greatly improve the reliability of our codebase, starting with the typographic foundations. Hundreds of lines of <abbr title='cascading style sheets'>CSS</abbr> had been written to override the default Bootstrap styles which caused all sorts of consistency errors in the app such as checkboxes not working or being positioned incorrectly and problems where a `h3` would be smaller than a `h4` element.
 
-![picture of typography helpers here](lol)
+<div class='side-by-side'>
+  <div class='side-by-side__child'>
+    <figure>
+      <img src="/build/images/portfolio/guide-4.jpg" alt="" />
+    </figure>
+  </div>
+
+  <div class='side-by-side__child'>
+    <figure>
+      <img src="/build/images/portfolio/guide-5.jpg" alt="" />
+    </figure>
+  </div>
+</div>
 
 This refactoring effort took several weeks but resulted in a solid typographic foundation based on some research that I had done in the past [using Sass maps](https://robinrendle.com/notes/typographic-scale-with-sass-maps/). These changes could would then be applied to The Guide, the core Gusto app, and all our internal tools as well.
 

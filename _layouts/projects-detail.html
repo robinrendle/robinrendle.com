@@ -1,33 +1,35 @@
 {% include projects-header.html %}
 
-<div class='m-wrapper cell-t60 cell-b40'>
-  <h1 class='u-reset-margins'>{{page.title}}</h1>
-  <h2 class='u-reset-margins cell-b40'>{{page.subtitle}}</h2>
+<div class="projects-intro">
+  <div class='m-wrapper m-wrapper--unpadded cell-t60 cell-b40'>
+    <div class='caps meta'>
+      <a href='/projects'>Projects</a> • {{page.title}}
+    </div>
+    <h1 class='u-reset-margins cell-b40'>{{page.subtitle}}</h1>
 
-  <div class='flex flex-justify-between m-longform'>
-    <div>
-      <h3 class='u-reset-margins'>Role</h3>
-      <p>
-        {{page.role}}
-      </p>
+    <div class='flex flex-justify-between m-longform m-longform--small'>
+      <div class='cell-t40'>
+        <h4 class='u-reset-margins project-subheading'>Role</h4>
+        <p>
+          {{page.role}}
+        </p>
+      </div>
+      <div class='cell-t40'>
+        <h4 class='u-reset-margins project-subheading'>Result</h4>
+        <p>
+          {{page.results}}
+        </p>
+      </div>
     </div>
-    <div>
-      <h3 class='u-reset-margins'>Result</h3>
-      <p>
-        {{page.results}}
-      </p>
-    </div>
+
+    <figure>
+      <img src="{{page.heroImage}}" />
+    </figure>
   </div>
-
-  <figure>
-    <img src="{{page.heroImage}}" />
-  </figure>
 </div>
 
-<div class='m-wrapper'>
-  <div class="m-longform">
-    {{content}}
-  </div>
+<div class='m-wrapper m-wrapper--unpadded m-longform'>
+  {{content}}
 </div>
 
   <!-- {% assign projects = site.projects | sort: 'date' | reverse %}
