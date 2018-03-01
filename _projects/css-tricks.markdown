@@ -7,7 +7,7 @@ role: Writing, editing, and creating video tutorials, as well as working on the 
 results: Growing the newsletter from zero subscribers to more than 32,000 over the
   course of a year.
 company: Freelance
-extract:
+extract: 
 logo: css-tricks/css-tricks.svg
 hero: "/uploads/css-tricks.jpg"
 layout: projects-detail

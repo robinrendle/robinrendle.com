@@ -2,14 +2,13 @@
 title: The Transfers App
 subtitle: Improving the customer onboarding experience at Gusto.
 role: Design lead and front-end development
-results: Decreased the amount of time it took to transfer a company by more
-  than 33%.
+results: Decreased the amount of time it took to transfer a company by more than 33%.
 layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-extract:
-heroImage: ""
+extract: 
+heroImage: ''
 ---
 
 Gusto is a payroll, benefits and <abbr title="Human Resources">HR</abbr> platform for more than 65,000 companies and late last year I was tasked with the design and development of the Transfers app; this was an internal tool that was used to onboard particularly large companies that wanted to switch to Gusto.
