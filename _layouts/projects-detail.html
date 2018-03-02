@@ -1,32 +1,39 @@
 {% include projects-header.html %}
 
-<div class="projects-intro">
-  <div class='m-wrapper m-wrapper--unpadded cell-t60 cell-b40'>
-    <div class='caps meta'>
-      <a href='/projects'>Projects</a> • {{page.title}}
+<div class="projects-intro-container projects-intro--{{page.customCSSClass}}">
+  <div class="projects-intro-heading">
+    <div class='meta caps'>
+      <a href='/projects'>Projects</a> {{page.title}}
     </div>
-    <h1 class='u-reset-margins cell-b40'>{{page.subtitle}}</h1>
+    <h1 class='u-reset-margins'>{{page.subtitle}}</h1>
 
-    <div class='flex flex-justify-between m-longform m-longform--small'>
-      <div class='cell-t40'>
-        <h4 class='u-reset-margins project-subheading'>Role</h4>
+    <div class='projects-intro-overview'>
+      <div class='m-longform projects-intro-extract'>
         <p>
-          {{page.role}}
+          {{page.extract}}
         </p>
       </div>
-      <div class='cell-t40'>
-        <h4 class='u-reset-margins project-subheading'>Result</h4>
-        <p>
-          {{page.results}}
-        </p>
+      <div class="projects-intro-meta m-longform--small  m-longform">
+        <!-- <div class=''>
+          <h4 class='u-reset-margins project-subheading'>Role</h4>
+          <p>
+            {{page.role}}
+          </p>
+        </div> -->
+        <div class=''>
+          <h4 class='u-reset-margins project-subheading'>Result</h4>
+          <p>
+            {{page.results}}
+          </p>
+        </div>
       </div>
     </div>
-
-    <figure>
-      <img src="{{page.heroImage}}" />
-    </figure>
   </div>
 </div>
+
+<figure class='project-intro-hero'>
+  <img src="{{page.heroImage}}" />
+</figure>
 
 <div class='m-wrapper m-wrapper--unpadded m-longform'>
   {{content}}

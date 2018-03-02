@@ -1,26 +1,27 @@
 {% include projects-header.html %}
 
-<header class='projects-header'>
-  <div class="m-wrapper cell-t60">
-    <h1>I’m Robin, a product designer, writer, and front-end engineer.</h1>
-  </div>
-</header>
+<div class="projects-bg">
+  <header class='projects-header'>
+    <div class="m-wrapper cell-t60">
+      <h1>I’m Robin, a product designer, writer, and front-end engineer.</h1>
+      <a href='/'>Download resume</a>
+    </div>
+  </header>
 
-<div class="projects-container">
-  <h3>Highlighted projects</h3>
-  <div class="m-wrapper">
+  <div class="projects-container">
+    <h3>Highlighted projects</h3>
     <article class='m-longform'>
-      <div class=''>
+      <div class='projects-grid'>
         {% assign projects = site.projects | sort: 'date' | reverse %}
         {% for post in projects %}
           {% if post.published != false %}
-            <a href="{{post.url}}" class="cell-20">
+            <a href="{{post.url}}" class="projects-grid-item">
               <!-- {% if post.logo %}
                 <figure>
                   <img src="/build/images/work/{{post.logo}}">
                 </figure>
               {% endif %} -->
-              <h2>{{ post.title }}</h2>
+              <h3 class='projects-title'>{{ post.title }}</h3>
               <small>{{ post.company }}</small>
             </a>
           {% endif %}

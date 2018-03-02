@@ -3,11 +3,12 @@ title: The Transfers App
 subtitle: Improving the customer onboarding experience at Gusto.
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
+customCSSClass: 'guide'
 layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-extract: 
+extract:
 heroImage: ''
 ---
 
@@ -27,7 +28,7 @@ Let’s say that your company has 15 employees and you’d like to make the swit
 
 My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our system. Understanding the relationship between various groups and teams of people was vital before I could start making sense of the problem.
 
-The first thing I noticed was that there was multiple ways to add information into our system: through the confusing and muddled “Panda” internal app, or through the customer-facing application. Neither were good options because neither were designed specifically for the Transfers team and their objectives, namely entering large amounts of data as quickly and as accurately as possible.
+The first thing I noticed was that there was multiple ways to add information into our system: through the company-wide “Panda” internal app, or through the customer-facing application. Neither of which were designed specifically for the Transfers team and their objectives, namely entering large amounts of data as quickly and as accurately as possible.
 
 Here’s what I discovered during those interviews, particularly focusing on the problems with data entry and their tools:
 
