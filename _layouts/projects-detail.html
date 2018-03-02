@@ -9,9 +9,7 @@
 
     <div class='projects-intro-overview'>
       <div class='m-longform projects-intro-extract'>
-        <p>
-          {{page.extract}}
-        </p>
+        {{page.extract | markdownify}}
       </div>
       <div class="projects-intro-meta m-longform--small  m-longform">
         <!-- <div class=''>

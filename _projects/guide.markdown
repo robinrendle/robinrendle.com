@@ -73,15 +73,23 @@ Typography is only one example of this refactoring effort, other included our ic
 
 ## Improving the designer experience at Gusto
 
-Once a part of that design system had been refactored or built from the ground up I could then document the newly refactored codebase in the Guide to ensure that sort of information wouldn’t be siloed and kept hidden from others. This was done in The Guide itself but also in the Figma pattern library that was extraordinarily helpful for our design team so that we no longer had to keep rebuilding the same elements over and over again for every project.
+Once a part of that design system had been refactored or built from the ground up I could then document the newly refactored codebase in the Guide to ensure that sort of information wouldn’t be siloed and kept hidden from others. This was done in The Guide itself but I also made sure to replicate those page templates, components, icons and form elements in the Figma pattern library that was shared across missions at Gusto. This was extraordinarily helpful for our design team because we no longer had to keep rebuilding the same elements over and over again for every project.
 
-<figure>
- <img src="/build/images/portfolio/figma-ui.jpg" alt="The custom templates that I built for designers at Gusto to use in Figma" />
-</figure>
-
+<div class='m-wrapper--unpadded-wide'>
+  <figure>
+    <img src="/build/images/portfolio/figma-ui.jpg" alt="The custom templates that I built for designers at Gusto to use in Figma" />
+    <figcaption>
+      <p>
+        A note about Figma should go here!
+      </p>
+    </figcaption>
+  </figure>
+</div>
 
 ## Project Review
 
-One of the more shocking revelations of this project was this: I learned how design systems and tools will only help so much in improving the design quality of a large scale web app. Tools that help us make design systems sure are useful, and will do a lot of the work, but ultimately it’s down to the shape of the organization to encourage a culture of high quality front-end code and design. And so I spent a great deal of time trying to pair with and mentor designers that were not quite as familiar with front-end development and scaling design systems.
+One of the more shocking revelations of this project was that I always assumed that the hard part of systems work was always the technology and tooling side of things: it was about getting the system in place that ought to have been toughest. But I learned quickly that design systems and tools will only help so much in improving the design quality of a large scale web app.
+
+Tools that help us make design systems sure are useful, and will do a lot of the work, but ultimately it’s down to the shape of the organization to encourage a culture of high quality front-end code and design. And so I spent a great deal of time trying to pair with and mentor designers that were not quite as familiar with front-end development and scaling design systems.
 
 I also realized that writing documentation and improving code quality was important but it was never quite as helpful as sitting with another designer or developer and talking with them about a problem they were experiencing.

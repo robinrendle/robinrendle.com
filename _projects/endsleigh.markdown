@@ -4,10 +4,11 @@ date: 2014-06-04 08:37:00 -07:00
 subtitle: Building a design system for a student insurance company.
 layout: projects-detail
 company: Erskine Design
+customCSSClass: endsleigh
 byline: A mobile-first approach to the Endsleigh website
 hero: "/build/images/work/endsleigh/endsleigh-hero.png"
 role: Front-end architecture and web performance
-results: 
+results:
 logo: endsleigh/endsleigh.svg
 extract: Endsleigh is a student insurance provider and I worked with them to develop
   a framework capable of supporting their vast array of products and services, focusing

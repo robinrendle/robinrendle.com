@@ -8,6 +8,8 @@ tags:
 subtitle: A new type of co-working space in Portland.
 layout: projects-detail
 company: Freelance
+extract: lololol
+customCSSClass: xoxo
 heroImage: "/uploads/xoxo-pdx2.jpg"
 role: Design, copywriting and front-end development.
 results: The launch of a tiny teaser website adverstising the space, followed shortly
