@@ -7,14 +7,15 @@ role: Led the design and documentation of the design system and its multitude of
 customCSSClass: guide
 results: High quality front-end code and documentation for the components and assets
   such as illustrations and icons.
-extract: The Guide is a web app that documents the company’s ever-growing design system – my goal was to create a space where developers and designers could learn from, and contribute to, the React components, baseline styles, and overall brand of the company.
+extract: The Guide is a web app that documents the company’s ever-growing design system
+  – my goal was to create a space where developers and designers could learn from,
+  and contribute to, the React components, baseline styles, and overall brand of the
+  company.
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
 heroImage: "/build/images/portfolio/guide-1.jpg"
 ---
-
-
 
 ## Project Goals
 

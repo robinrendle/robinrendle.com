@@ -3,12 +3,12 @@ title: The Transfers App
 subtitle: Improving the customer onboarding experience at Gusto.
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
-customCSSClass: 'guide'
+customCSSClass: guide
 layout: projects-detail
 startDate: 10/2017
 endDate: 02/2018
 company: Gusto
-extract:
+extract: 
 heroImage: ''
 ---
 
