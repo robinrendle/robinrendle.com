@@ -7,7 +7,7 @@ role: Writing, editing, and creating video tutorials, as well as working on the 
 results: Growing the newsletter from zero subscribers to more than 32,000 over the
   course of a year.
 company: Freelance
-extract: 
+extract:
 logo: css-tricks/css-tricks.svg
 hero: "/uploads/css-tricks.jpg"
 layout: projects-detail
@@ -23,6 +23,12 @@ Since February 2015 I’ve been a regular contributor to [<abbr title='Cascading
 This has led to me exploring [a variety of topics](https://css-tricks.com/author/robinrendle/), but my favourite part of working with the team is the writing process. First, I take a look at a property such as `background-blend-mode` where either I update the Almanac entry or [make a new one](https://css-tricks.com/almanac/properties/b/background-blend-mode/). From there I’ll make a series of demos to figure out how it works whilst reading up on what other people have already made with it.
 
 Not only has working with the excellent team been an inspiration it’s also taught me a great deal about copywriting, front-end development and design. Sometimes my work has lead to me [finding something new](https://css-tricks.com/chaining-multiple-blend-modes/) that you can do with a <abbr title='cascading style sheets'>CSS</abbr> property or it encourages interesting ideas for <abbr title='user interface'>UI</abbr>.
+
+Here are some of my favorite posts from CSS-Tricks:
+
+- [Tools for Thinking and Tools for Systems](https://css-tricks.com/tools-thinking-tools-systems)
+- [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid)
+- [An Idea for a Simple Responsive Spreadsheet](https://css-tricks.com/idea-simple-responsive-spreadsheet)
 
 
 ## The Weekly Newsletter

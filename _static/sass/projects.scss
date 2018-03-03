@@ -316,14 +316,15 @@ figcaption abbr {
 .project-intro-hero {
 	max-width: 850px;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
+	padding: 0 15px;
+	@include media(">large") {
+		padding: 0;
+	}
 	img {
 		display: block;
-		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
 		transition: all 0.3s ease;
-		@include media(">medium") {
-			// box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-		}
 	}
 }
 
@@ -340,16 +341,41 @@ figcaption abbr {
 }
 
 .projects-intro-meta {
-	margin-bottom: 20px;
-	padding-bottom: 30px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
 	@include media(">medium") {
 		width: 25% !important;
-		position: relative;
-		top: -18px;
 	}
 
 	div {
 		margin: 0 !important;
+
+		p {
+			margin-bottom: 15px;
+		}
+	}
+}
+
+figcaption {
+	margin-top: 5px;
+	position: relative;
+	padding-left: 18px !important;
+	max-width: 400px;
+
+	p:first-of-type:before {
+		content: "⇢";
+		height: 100%;
+		width: 1px;
+		line-height: 1;
+		color: $c-primary;
+		display: inline;
+		position: absolute;
+		top: 3px;
+		left: 0;
+	}
+
+	p {
+		color: #888 !important;
 	}
 }
 

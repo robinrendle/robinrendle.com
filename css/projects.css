@@ -2642,10 +2642,14 @@ figcaption abbr {
 .project-intro-hero {
   max-width: 850px;
   margin: 0 auto;
-  margin-bottom: 50px; }
+  margin-bottom: 60px;
+  padding: 0 15px; }
+  @media (min-width: 921px) {
+    .project-intro-hero {
+      padding: 0; } }
   .project-intro-hero img {
     display: block;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease; }
 
 @media (min-width: 621px) {
@@ -2662,15 +2666,33 @@ figcaption abbr {
     width: 70%; } }
 
 .projects-intro-meta {
-  margin-bottom: 20px;
-  padding-bottom: 30px; }
+  margin-bottom: 10px;
+  padding-bottom: 20px; }
   @media (min-width: 621px) {
     .projects-intro-meta {
-      width: 25% !important;
-      position: relative;
-      top: -18px; } }
+      width: 25% !important; } }
   .projects-intro-meta div {
     margin: 0 !important; }
+    .projects-intro-meta div p {
+      margin-bottom: 15px; }
+
+figcaption {
+  margin-top: 5px;
+  position: relative;
+  padding-left: 18px !important;
+  max-width: 400px; }
+  figcaption p:first-of-type:before {
+    content: "⇢";
+    height: 100%;
+    width: 1px;
+    line-height: 1;
+    color: #2a7af7;
+    display: inline;
+    position: absolute;
+    top: 3px;
+    left: 0; }
+  figcaption p {
+    color: #888 !important; }
 
 .meta {
   font-family: "Output Sans", Helvetica, sans-serif !important;

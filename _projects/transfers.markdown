@@ -1,7 +1,8 @@
 ---
 title: The Transfers App
-subtitle: Improving the customer onboarding experience at Gusto.
-extract: Gusto is a payroll, benefits and HR platform for more than 65,000 companies and late last year I was tasked with the design and development of the Transfers app; this was an internal tool that was used to onboard particularly large companies that wanted to switch to Gusto.
+subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
+extract: |
+  Gusto is a payroll, benefits and HR platform for more than 65,000 companies and late last year I was tasked with helping the Transfers team; this is the department that will help migrate data for a customer from another payroll service into Gusto’s system. So we came up with a plan to design an internal tool that could abstract this information as quickly and as accurately as possible whilst improving the team’s process along the way.
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
@@ -14,7 +15,9 @@ heroImage: "/build/images/portfolio/transfer-1.jpg"
 
 ## Project Goals
 
-Let’s say that your company has 15 employees and you’d like to make the switch from another payroll provider to using Gusto. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system. This is quite frankly an overwhelming amount of information to input and was extremely frustrating with the existing system that they had. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness.
+Let’s say that you own a small business and that your company has 15 employees — today you’d like to make the switch from another payroll provider to using Gusto. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system.
+
+All of that data is overwhelming just in sheer volume but there was added difficult with the suite of existing tools that they had at their disposal. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness. Rather more specifically, I had three goals:
 
 1. Make sure that the team can transfer every company before the end of year.
 2. Improve the team’s data transfers efficiency by 30%+.
@@ -23,9 +26,9 @@ Let’s say that your company has 15 employees and you’d like to make the swit
 
 ## Investigating the Problem
 
-My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our system. Understanding the relationship between various groups and teams of people was vital before I could start making sense of the problem.
+My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our database. Understanding the relationship between various groups and teams of people was vital before I could start making sense of the problem.
 
-The first thing I noticed was that there was multiple ways to add information into our system: through the company-wide “Panda” internal app, or through the customer-facing application. Neither of which were designed specifically for the Transfers team and their objectives, namely entering large amounts of data as quickly and as accurately as possible.
+The first thing I noticed was that there were multiple ways to enter that data: through the company-wide “Panda” internal app, or through the customer-facing application. Neither of which were designed specifically for the Transfers team and their objectives, namely entering large amounts of data as quickly and as accurately as possible.
 
 Here’s what I discovered during those interviews, particularly focusing on the problems with data entry and their tools:
 
@@ -33,31 +36,27 @@ Here’s what I discovered during those interviews, particularly focusing on the
   <!-- Span because md doesn’t process inside block elements -->
   <div class='side-by-side__child'>
     <div class='scrollbox'>
-    <h3>Transfers Research Summary</h3>
-    <h4>A collection of notes about what I’ve learned during my time in interviews with the Transfers Team.</h4>
+      <h3>Transfers Research Summary</h3>
+      <h4>A collection of notes about what I’ve learned during my time in interviews with the Transfers Team.</h4>
 
 
-    <p class='cell-t30'>The transfers team has <span class='highlight'>a fractured process</span>. Team members use a combination of Panda and the app to input data from a payroll provider into our system. This is for a number of reasons: Panda cannot do everything that the app can do (and also they don’t know everything Panda is capable of), so they’re forced to ‘Become User’ and log into the app: Simply put: <span class='highlight'>it’s easy to get lost in the process</span>, even for experienced Panda users.</p>
+      <p class='cell-t30'>The transfers team has <span class='highlight'>a fractured process</span>. Team members use a combination of Panda and the app to input data from a payroll provider into our system. This is for a number of reasons: Panda cannot do everything that the app can do (and also they don’t know everything Panda is capable of), so they’re forced to ‘Become User’ and log into the app: Simply put: <span class='highlight'>it’s easy to get lost in the process</span>, even for experienced Panda users.</p>
 
-    <p>When the transfer member does know where a specific bit of information is in Panda (such as where a username or password is for the payroll provider that the transfer requires) they’ll spend a great deal of time scrolling and searching around Panda for it. This appears to be a huge time sink. Typically they have to move from Gusto app, back to Panda, find the right page in a tiny drop down in the navigation, wait for the new page to load, use cmd+f to find the data that they need and then copy and paste it into the Gusto app or the payroll provider they’re switching from or spreadsheets. So <span class='highlight'>most of the information that Panda shows is entirely unnecessary for the Transfers team and navigating around it is frustrating and inefficient.</span></p>
+      <p>When the transfer member does know where a specific bit of information is in Panda (such as where a username or password is for the payroll provider that the transfer requires) they’ll spend a great deal of time scrolling and searching around Panda for it. This appears to be a huge time sink. Typically they have to move from Gusto app, back to Panda, find the right page in a tiny drop down in the navigation, wait for the new page to load, use cmd+f to find the data that they need and then copy and paste it into the Gusto app or the payroll provider they’re switching from or spreadsheets. So <span class='highlight'>most of the information that Panda shows is entirely unnecessary for the Transfers team and navigating around it is frustrating and inefficient.</span></p>
 
-    <p>Because so much information is fragmented, each team member has to remember what step of the flow a transfer is in and <span class='highlight'>it’s often not clear what the transfer team member has to do next</span>. They often don’t complete a transfer in one sitting because there’s so much information to input or they have to wait for information. If they have to pass off the transfer to another team member then they need to onboard that team member and tell them precisely what step of the process they stopped at (this happens frequently according to my interviews). <span class='highlight'>Being able to quickly scan a company and see precisely what stage of the migration process they’re in is vital for efficiency</span> – ideally this shouldn’t require an in-person “hand off” if a team member is ill or something.</p>
+      <p>Because so much information is fragmented, each team member has to remember what step of the flow a transfer is in and <span class='highlight'>it’s often not clear what the transfer team member has to do next</span>. They often don’t complete a transfer in one sitting because there’s so much information to input or they have to wait for information. If they have to pass off the transfer to another team member then they need to onboard that team member and tell them precisely what step of the process they stopped at (this happens frequently according to my interviews). <span class='highlight'>Being able to quickly scan a company and see precisely what stage of the migration process they’re in is vital for efficiency</span> – ideally this shouldn’t require an in-person “hand off” if a team member is ill or something.</p>
 
-    <p><span class='highlight'>There’s a lot of info in the front-end that isn’t required for a payroll to be run</span>. One example of this is how the transfer team never adds a profile picture for an employee simply because it wastes so much time. Here’s the transfer data that’s currently in the app + Panda vs what’s required for that team to finish a transfer (i.e. run payroll).</p>
-    <p>I also found that the team is constantly moving between their mouse and their keyboard to extract and input data into our app. Because of the design of our inputs the team needs to copy/paste lots of data (such as dates, SSNs, and EINs) into inputs from a report or payroll provider with ease. Sometimes this is impossible so they have to type that bit of data out which slows them down.</p>
-    <p>The current UI in Panda and in the front-end makes it very difficult for them to do that (autocomplete doesn’t work, certain inputs don’t support copy/paste) – there are many small issues like that that are low hanging fruit. But the real difficulty is that they <span class='highlight'>cannot bulk upload employee information</span>. Each employee has to be added one by one, whereas the reports they’re typically viewing have multiple SSNs, surnames, all of which could be copy/pasted in bulk.</p>
-    <p>Another, much larger issue: whenever they cannot complete a task, such as adding all employee SSNs because the source material skips an employee, then are slowed down. Ultimately the team needs to add draft data, review it, add anything that’s missing and perhaps even notify the admin that the transfer team requires more information. <span class='highlight'>The team is constantly blocked from adding data to a new step which slows the whole transfer process down.</span></p>
-    <p><span class='highlight'>About 10% of the time an admin will sign into the front-end during a migration and cause conflicts with a transfer.</span> This is related to historical payroll too which consequently leads to all sorts of issues and confusion.</p>
+      <p><span class='highlight'>There’s a lot of info in the front-end that isn’t required for a payroll to be run</span>. One example of this is how the transfer team never adds a profile picture for an employee simply because it wastes so much time. Here’s the transfer data that’s currently in the app + Panda vs what’s required for that team to finish a transfer (i.e. run payroll).</p>
+      <p>I also found that the team is constantly moving between their mouse and their keyboard to extract and input data into our app. Because of the design of our inputs the team needs to copy/paste lots of data (such as dates, SSNs, and EINs) into inputs from a report or payroll provider with ease. Sometimes this is impossible so they have to type that bit of data out which slows them down.</p>
+      <p>The current UI in Panda and in the front-end makes it very difficult for them to do that (autocomplete doesn’t work, certain inputs don’t support copy/paste) – there are many small issues like that that are low hanging fruit. But the real difficulty is that they <span class='highlight'>cannot bulk upload employee information</span>. Each employee has to be added one by one, whereas the reports they’re typically viewing have multiple SSNs, surnames, all of which could be copy/pasted in bulk.</p>
+      <p>Another, much larger issue: whenever they cannot complete a task, such as adding all employee SSNs because the source material skips an employee, then are slowed down. Ultimately the team needs to add draft data, review it, add anything that’s missing and perhaps even notify the admin that the transfer team requires more information. <span class='highlight'>The team is constantly blocked from adding data to a new step which slows the whole transfer process down.</span></p>
+      <p><span class='highlight'>About 10% of the time an admin will sign into the front-end during a migration and cause conflicts with a transfer.</span> This is related to historical payroll too which consequently leads to all sorts of issues and confusion.</p>
     </div>
+    <figcaption>
+      <p>The summary of my notes from more than a dozen interviews.</p>
+    </figcaption>
   </div>
 
-
-  <!-- <figure>
-    <img src="/build/images/portfolio/purple.jpg" alt="An example of the research I jotted down with the Purple.pm app">
-    <figcaption>
-      <p>With Purple I could record all of my research and archive it for future designers, <abbr title="Product managers">PM</abbr>s and developers. I recorded every conversation I had with the team in Denver where the Transfer team worked as well as recorded screenshots and videos of their process.</p>
-    </figcaption>
-  </figure> -->
   <div class='side-by-side__child'>
     <figure>
       <img class='whiteboard-img' src="/build/images/portfolio/employee-info.jpg" alt="A whiteboard recording all of the differences between the three employee types">
@@ -98,7 +97,7 @@ For example, a member of the team would be assigned a company to transfer via Sa
   <img src="/build/images/portfolio/new-migration.jpg" alt="" />
   <figcaption>
     <p>
-      Left: the to-do list that reveals the progress of the transfer. <br/> Right: editing employee data such as name, <abbr title='social security number'>SSN</abbr>s and home addresses.
+      The to-do list that reveals the progress of the transfer and editing employee data such as name, <abbr title='social security number'>SSN</abbr>s and home addresses.
     </p>
   </figcaption>
 </figure>
@@ -184,11 +183,11 @@ One of the most enjoyable experiences that I had with this project though was th
 
 In another round of testing it was clear that there was a flaw in the original design: instead of showing all of the spreadsheet columns that might be applicable (for example taxes in Colorado and California) we decided to filter them based on the work location. This meant that the Transfers team wouldn’t have to keep tabbing across a spreadsheet with dozens of empty fields and they would see only what they needed to enter.
 
-<div class='m-wrapper--unpadded-wide'>
+<!-- <div class='m-wrapper--unpadded-wide'>
   <figure>
     <img src="/build/images/portfolio/transfer-3.jpg" alt="" />
   </figure>
-</div>
+</div> -->
 
 I think what this taught me more than anything is that not everything can be planned in the early design stages, no matter how deliberate and careful I am. User testing is the only way to reveal those sorts of issues.
 
