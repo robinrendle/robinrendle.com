@@ -289,6 +289,10 @@ figcaption abbr {
 	border-top-color: #5c58a4;
 }
 
+.projects-intro--css-tricks {
+	border-top-color: #ff9801;
+}
+
 .projects-intro-heading {
 	max-width: 850px;
 	margin: 0 auto;
@@ -322,8 +326,9 @@ figcaption abbr {
 		padding: 0;
 	}
 	img {
+		border-radius: 3px;
 		display: block;
-		box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
+		box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 		transition: all 0.3s ease;
 	}
 }

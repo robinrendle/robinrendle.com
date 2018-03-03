@@ -2,7 +2,7 @@
 title: The Transfers App
 subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
 extract: |
-  Gusto is a payroll, benefits and HR platform for more than 65,000 companies and late last year I was tasked with helping the Transfers team; this is the department that will help migrate data for a customer from another payroll service into Gusto’s system. So we came up with a plan to design an internal tool that could abstract this information as quickly and as accurately as possible whilst improving the team’s process along the way.
+  Gusto is a payroll, benefits and HR platform for more than 65,000 companies and late last year I was tasked with helping the Transfers team; this is the department that migrates data for a customer from their existing payroll service into Gusto. So we came up with a plan to design an internal tool that could extract this information as quickly and as accurately as possible whilst improving the team’s process along the way.
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
@@ -17,20 +17,18 @@ heroImage: "/build/images/portfolio/transfer-1.jpg"
 
 Let’s say that you own a small business and that your company has 15 employees — today you’d like to make the switch from another payroll provider to using Gusto. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system.
 
-All of that data is overwhelming just in sheer volume but there was added difficult with the suite of existing tools that they had at their disposal. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness. Rather more specifically, I had three goals:
+All of that data is overwhelming just in sheer volume but there was the added difficulty in the existing suite of tools that the team had at their disposal. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness. Rather more specifically, I had three goals:
 
 1. Make sure that the team can transfer every company before the end of year.
-2. Improve the team’s data transfers efficiency by 30%+.
+2. Improve the team’s data transfers efficiency.
 3. Build a tool for historical paystub entry and employee data entry.
 
 
 ## Investigating the Problem
 
-My research consisted of talking to team members across the company and shadowing Transfer team members as they moved data into our database. Understanding the relationship between various groups and teams of people was vital before I could start making sense of the problem.
+My research consisted of talking to team members across the company and shadowing Transfer team members as they perfomed that data extraction work. Understanding the relationship between various groups and teams of people was vital before I could start making sense of the problem.
 
 The first thing I noticed was that there were multiple ways to enter that data: through the company-wide “Panda” internal app, or through the customer-facing application. Neither of which were designed specifically for the Transfers team and their objectives, namely entering large amounts of data as quickly and as accurately as possible.
-
-Here’s what I discovered during those interviews, particularly focusing on the problems with data entry and their tools:
 
 <div class='side-by-side'>
   <!-- Span because md doesn’t process inside block elements -->
@@ -150,7 +148,7 @@ For example, we added an optional footer component for those teams and the abili
     <img src="/build/images/portfolio/spreadsheet-iterations.jpg" alt="The spreadsheet with errors." />
     <figcaption>
       <p>
-        Spreadsheet design iterations suggested that we needed to build supplementary components such as a footer table, as well as locked and frozen columns. These would be additional features so that we could give the designers at Gusto as much flexibility as possible.
+        We needed to build optional components such as a totals section at the bottom, as well as locked and frozen columns so that we could give the designers at Gusto as much flexibility as possible.
       </p>
     </figcaption>
   </figure>

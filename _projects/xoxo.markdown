@@ -8,7 +8,8 @@ tags:
 subtitle: A new type of co-working space in Portland.
 layout: projects-detail
 company: Freelance
-extract: lololol
+extract: |
+  I worked alongside Andy McMillan and Andy Baio of [XOXO](http://twitter.com/xoxo) fame to help build [a teaser](http://xoxopdx.com) for their upcoming artist space in Portland alled the Outpost. It was designed to advertise the space and get as many folks interested in contributing to the community, joining the newsletter, and moving their freelance work into the lovely space.
 customCSSClass: xoxo
 heroImage: "/uploads/xoxo-pdx2.jpg"
 role: Design, copywriting and front-end development.
