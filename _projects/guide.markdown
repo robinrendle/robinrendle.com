@@ -2,12 +2,18 @@
 title: The Guide
 subtitle: Building Gusto’s design system, styleguide, and component library.
 startDate: 10/2017
-role: Led the design and development of the design system and its many React
-  components.
+role: Led the design and development of the design system and its many React components.
 customCSSClass: guide
-results: High quality front-end code and documentation for the components and assets, such as logos, illustrations, and icons.
-extract: |
-  The Guide is a web app that documents Gusto’s ever-growing design system and my goal was to create a tool that anyone at the company could turn to when looking for information about the React components, baseline styles, as well as the overall brand and voice of the company. I broke this work up intro three distinct categories: educating designers and developers, documenting the existing system for future use, and implementing new features and components into our applications.
+results: High quality front-end code and documentation for the components and assets,
+  such as logos, illustrations, and icons.
+extract: 'The Guide is a web app that documents Gusto’s ever-growing design system
+  and my goal was to create a tool that anyone at the company could turn to when looking
+  for information about the React components, baseline styles, as well as the overall
+  brand and voice of the company. I broke this work up intro three distinct categories:
+  educating designers and developers, documenting the existing system for future use,
+  and implementing new features and components into our applications.
+
+'
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
