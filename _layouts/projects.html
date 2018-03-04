@@ -1,33 +1,29 @@
 {% include projects-header.html %}
 
 <div class="projects-intro-container projects-intro--{{page.customCSSClass}}">
-  <div class="projects-intro-heading p-grid">
-    <div class='meta border-bottom'>
-      <a href='/projects'>Projects</a> Home
+  <div class='cell-t20 p-grid-wrapper p-grid'>
+    <div class="projects-intro-heading">
+      <div class='caps meta border-bottom'>
+        <a href='/projects'>Projects</a> Home
+      </div>
+      <div class='cell-t10'>
+        <img src="/build/images/portfolio/me.jpg" alt="A portrait of me, Robin, the boy wonder">
+      </div>
+      <h1 class='p-title u-reset-margins'>
+        Robin Rendle
+      </h1>
+      <h2 class='p-title p-title--secondary'>
+        Product designer, writer, and front-end engineer.
+      </h2>
+      <div class="caps">
+        {{page.links | markdownify}}
+      </div>
     </div>
-    <div class='cell-t10'>
-      <img src="/build/images/portfolio/me.jpg" alt="A portrait of me, Robin, the boy wonder">
-    </div>
-    <h1 class='p-title u-reset-margins'>
-      Robin Rendle
-    </h1>
-    <h2 class='p-title p-title--secondary'>
-      Product designer, writer, and front-end engineer.
-    </h2>
-    <div class="caps">
-      {{page.links | markdownify}}
-    </div>
-  </div>
-</div>
 
-<div class="projects-bg cell-b40">
-  <div class="p-grid">
     <h3 class='p-section-heading'>Featured projects</h3>
-  </div>
 
-  <div class="">
-    <article class='m-longform'>
-      <div class='p-grid'>
+    <section class="">
+      <article class='m-longform'>
         {% assign projects = site.projects | sort: 'date' | reverse %}
         {% for post in projects %}
           {% if post.published != false %}
@@ -42,16 +38,15 @@
             </a>
           {% endif %}
         {% endfor %}
-      </div>
-    </article>
+      </article>
+    </section>
+
+    <section>
+      <h3 class='p-section-heading'>Published Writing</h3>
+      {{page.writing | markdownify}}
+    </section>
   </div>
 </div>
-
-<div class='p-grid'>
-  <h3 class='p-section-heading'>Published Writing</h3>
-  {{page.writing | markdownify}}
-</div>
-
 
 
 {% include projects-footer.html %}

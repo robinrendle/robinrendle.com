@@ -1562,9 +1562,6 @@ hgroup {
       .m-wrapper--unpadded h6 {
         padding: 0px;
         padding: 0rem; } }
-  .m-wrapper--unpadded > div {
-    padding: 0;
-    max-width: none; }
 
 .m-wrapper--unpadded-wide {
   max-width: none;
@@ -2580,10 +2577,18 @@ figcaption abbr {
   .side-by-side {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; } }
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; } }
 
 .side-by-side__child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding: 10px; }
+  .side-by-side__child figure {
+    height: 100%; }
 
 @media (min-width: 621px) {
   .whiteboard-img {
@@ -2611,6 +2616,14 @@ figcaption abbr {
             transform: rotate(45deg); }
   .solutions-list li {
     margin-bottom: 10px; }
+
+.p-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
 .projects-intro-container {
   margin: 0 auto;
@@ -2644,25 +2657,9 @@ figcaption abbr {
 .projects-outro--transfers {
   border-bottom-color: #539adc; }
 
-.p-grid {
+.p-grid-wrapper {
   max-width: 850px;
   margin: 0 auto; }
-
-.projects-intro-heading {
-  padding-top: 20px; }
-
-.projects-intro-extract {
-  margin-bottom: 20px; }
-
-::-moz-selection {
-  background-color: #ffffc4;
-  color: #333;
-  text-shadow: none; }
-
-::selection {
-  background-color: #ffffc4;
-  color: #333;
-  text-shadow: none; }
 
 .project-intro-hero {
   max-width: 850px;
@@ -2677,6 +2674,8 @@ figcaption abbr {
     display: block;
     box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease; }
+    .project-intro-hero img.no-shadow {
+      box-shadow: none; }
 
 @media (min-width: 621px) {
   .projects-intro-overview {
@@ -2691,6 +2690,19 @@ figcaption abbr {
   .projects-intro-overview .m-longform {
     width: 70%; } }
 
+.projects-intro-extract {
+  margin-bottom: 20px; }
+
+::-moz-selection {
+  background-color: #ffffc4;
+  color: #333;
+  text-shadow: none; }
+
+::selection {
+  background-color: #ffffc4;
+  color: #333;
+  text-shadow: none; }
+
 .projects-intro-meta {
   margin-bottom: 10px;
   padding-bottom: 20px; }
@@ -2701,6 +2713,9 @@ figcaption abbr {
     margin: 0 !important; }
     .projects-intro-meta div p {
       margin-bottom: 15px; }
+
+.h-bordered {
+  border: 1px solid #ddd; }
 
 figcaption {
   margin-top: 5px;
@@ -2723,14 +2738,16 @@ figcaption {
 .border-bottom {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
 
+.caps {
+  font-variant: all-small-caps;
+  text-transform: lowercase; }
+
 .meta {
   font-family: "Output Sans", Helvetica, sans-serif !important;
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 0.4px;
-  position: relative;
-  font-variant: small-caps;
-  text-transform: lowercase; }
+  position: relative; }
   .meta a, .meta {
     color: rgba(0, 0, 0, 0.4); }
   .meta a {
@@ -2741,8 +2758,8 @@ figcaption {
     font-size: 12px;
     display: inline-block;
     position: absolute;
-    right: -13px;
-    top: 3px; }
+    right: -12px;
+    top: 2px; }
 
 .m-longform--small h4 {
   color: rgba(0, 0, 0, 0.6); }

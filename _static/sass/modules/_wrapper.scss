@@ -56,12 +56,6 @@ $_max-width-wide: 1000;
 			@include remCalc(padding, 0);
 		}
 	}
-
-	& > div {
-		// this is a hack for Codepen
-		padding: 0;
-		max-width: none;
-	}
 }
 
 .m-wrapper--unpadded-wide {

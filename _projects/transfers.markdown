@@ -1,13 +1,8 @@
 ---
 title: The Transfers App
 subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
-extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 companies.
-  Late last year I was tasked with helping the Transfers team; this is the department
-  that migrates customer data from their existing payroll service into Gusto. I designed
-  an internal tool that could extract this information as quickly and as accurately
-  as possible whilst improving the team’s process along the way.
-
-'
+extract: |
+  Gusto is a payroll, benefits and HR platform used by over 65,000 companies. Late last year I was tasked with helping the Transfers team; this is the department that migrates customer data from their existing payroll service into Gusto. I designed an internal tool that could extract this information as quickly and as accurately as possible whilst improving the team’s process along the way.
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
@@ -55,17 +50,11 @@ The first thing I noticed was that there were multiple ways to enter that data: 
       <p>Another, much larger issue: whenever they cannot complete a task, such as adding all employee SSNs because the source material skips an employee, then are slowed down. Ultimately the team needs to add draft data, review it, add anything that’s missing and perhaps even notify the admin that the transfer team requires more information. <span class='highlight'>The team is constantly blocked from adding data to a new step which slows the whole transfer process down.</span></p>
       <p><span class='highlight'>About 10% of the time an admin will sign into the front-end during a migration and cause conflicts with a transfer.</span> This is related to historical payroll too which consequently leads to all sorts of issues and confusion.</p>
     </div>
-    <figcaption>
-      <p>The summary of my notes from more than a dozen interviews.</p>
-    </figcaption>
   </div>
 
   <div class='side-by-side__child'>
     <figure>
       <img class='whiteboard-img' src="/build/images/portfolio/employee-info.jpg" alt="A whiteboard recording all of the differences between the three employee types">
-      <figcaption>
-        <p>Learning about the engineering and legal constraints of employee data.</p>
-      </figcaption>
     </figure>
   </div>
 </div>

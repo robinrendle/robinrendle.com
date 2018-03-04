@@ -239,11 +239,17 @@ figcaption abbr {
 .side-by-side {
 	@include media(">medium") {
 		display: flex;
+		align-items: stretch;
 	}
 }
 
 .side-by-side__child {
+	display: flex;
 	padding: 10px;
+
+	figure {
+		height: 100%;
+	}
 }
 
 .whiteboard-img {
@@ -284,11 +290,14 @@ figcaption abbr {
 // PROJECTS INTRO
 ////////////////////////////////////////////
 
+.p-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
 .projects-intro-container {
 	margin: 0 auto;
 	border-top: 5px solid $c-primary;
-
-	// grid-template-rows: 1fr 1fr 1fr;
 }
 
 .projects-intro-container {
@@ -328,23 +337,9 @@ figcaption abbr {
 	border-bottom-color: #539adc;
 }
 
-.p-grid {
+.p-grid-wrapper {
 	max-width: 850px;
 	margin: 0 auto;
-}
-
-.projects-intro-heading {
-	padding-top: 20px;
-}
-
-.projects-intro-extract {
-	margin-bottom: 20px;
-}
-
-::selection {
-	background-color: $c-highlight;
-	color: #333;
-	text-shadow: none;
 }
 
 .project-intro-hero {
@@ -360,6 +355,10 @@ figcaption abbr {
 		display: block;
 		box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 		transition: all 0.3s ease;
+
+		&.no-shadow {
+			box-shadow: none;
+		}
 	}
 }
 
@@ -373,6 +372,16 @@ figcaption abbr {
 			width: 70%;
 		}
 	}
+}
+
+.projects-intro-extract {
+	margin-bottom: 20px;
+}
+
+::selection {
+	background-color: $c-highlight;
+	color: #333;
+	text-shadow: none;
 }
 
 .projects-intro-meta {
@@ -389,6 +398,14 @@ figcaption abbr {
 			margin-bottom: 15px;
 		}
 	}
+}
+
+////////////////////////////////////////////
+// PROJECTS LONGFORM & UTILITY CLASSES
+////////////////////////////////////////////
+
+.h-bordered {
+	border: 1px solid #ddd;
 }
 
 figcaption {
@@ -418,14 +435,17 @@ figcaption {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.caps {
+	font-variant: all-small-caps;
+	text-transform: lowercase;
+}
+
 .meta {
 	font-family: $sans !important;
 	font-weight: 800;
 	font-size: 16px;
 	letter-spacing: 0.4px;
 	position: relative;
-	font-variant: small-caps;
-	text-transform: lowercase;
 
 	a,
 	& {
@@ -442,8 +462,8 @@ figcaption {
 		font-size: 12px;
 		display: inline-block;
 		position: absolute;
-		right: -13px;
-		top: 3px;
+		right: -12px;
+		top: 2px;
 	}
 }
 

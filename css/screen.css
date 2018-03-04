@@ -1559,9 +1559,6 @@ hgroup {
       .m-wrapper--unpadded h6 {
         padding: 0px;
         padding: 0rem; } }
-  .m-wrapper--unpadded > div {
-    padding: 0;
-    max-width: none; }
 
 .m-wrapper--unpadded-wide {
   max-width: none;

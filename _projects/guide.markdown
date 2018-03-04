@@ -1,7 +1,7 @@
 ---
 title: The Guide
 subtitle: Building Gusto’s design system, styleguide, and component library.
-startDate: 10/2017
+dateRange: 2016-2018
 role: Led the design and development of the design system and its many React components.
 customCSSClass: guide
 results: High quality front-end code and documentation for the components and assets,

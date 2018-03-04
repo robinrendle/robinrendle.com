@@ -1,9 +1,16 @@
 {% include projects-header.html %}
 
 <div class="projects-intro-container projects-intro--{{page.customCSSClass}}">
-  <div class="projects-intro-heading p-grid">
-    <div class='meta caps border-bottom'>
-      <a href='/projects'>Projects</a> {{page.title}}
+  <div class="cell-t20 projects-intro-heading p-grid-wrapper">
+    <div class='border-bottom'>
+      <div class='p-nav'>
+        <div class='p-nav-left meta caps'>
+          <a href='/projects'>Projects</a> {{page.title}}
+        </div>
+        <div class='p-nav-right meta caps'>
+          {{page.dateRange}}
+        </div>
+      </div>
     </div>
     <h1 class='cell-t10'>{{page.subtitle}}</h1>
 
@@ -11,7 +18,7 @@
       <div class='m-longform projects-intro-extract'>
         {{page.extract | markdownify}}
       </div>
-      <div class="projects-intro-meta m-longform--small  m-longform">
+      <div class="projects-intro-meta m-longform--small m-longform">
         <div class=''>
           <h4 class='u-reset-margins project-subheading'>Result</h4>
           <p>
@@ -30,7 +37,7 @@
 </div>
 
 <figure class='project-intro-hero'>
-  <img src="{{page.heroImage}}" />
+  <img src='{{page.heroImage}}' class='{{page.heroImageClass}}'/>
 </figure>
 
 <div class='m-wrapper m-wrapper--unpadded m-longform'>
