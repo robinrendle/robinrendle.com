@@ -3,11 +3,19 @@ title: CSS-Tricks
 date: 2015-10-24 11:59:00 -07:00
 dateRange: 2015-2018
 subtitle: Writing for the CSS-Tricks community about web design and front-end development.
-extract: |
-  Since early 2015 I’ve been a regular contributor to [<abbr title='Cascading style sheets'>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology and provide tutorials and links to help developers learn more about the web. Over those years I’ve written a number of technical posts that explore new browser features and written in-depth tutorials on the peculiarities of <abbr title='Cascading style sheets'>CSS</abbr> and JavaScript.
+extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''Cascading
+  style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
+  Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology
+  and provide tutorials and links to help developers learn more about the web. Over
+  those years I’ve written a number of technical posts that explore new browser features
+  and written in-depth tutorials on the peculiarities of <abbr title=''Cascading style
+  sheets''>CSS</abbr> and JavaScript.
+
+'
 role: Writing and editing
-results: |
-  Growing the newsletter to more than 32,000 subscribers.
+results: 'Growing the newsletter to more than 32,000 subscribers.
+
+'
 customCSSClass: css-tricks
 hero: "/uploads/css-tricks.jpg"
 layout: projects-detail

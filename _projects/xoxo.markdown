@@ -2,16 +2,23 @@
 title: The XOXO Outpost
 date: 2015-07-30 10:56:00 -07:00
 dateRange: February 2016
-subtitle: Designing and developing a marketing website for a new type of co-working space in Portland.
+subtitle: Designing and developing a marketing website for a new type of co-working
+  space in Portland.
 layout: projects-detail
 company: Freelance
-extract: |
-  I worked alongside Andy McMillan and Andy Baio of  <abbr>[XOXO](http://twitter.com/xoxo)</abbr> fame to help build [a teaser](http://xoxopdx.com) for their upcoming workspace in Portland called the Outpost. The website was designed to advertise the space and get people interested in contributing to the community, joining the newsletter, and moving their freelance work into the lovely new space.
+extract: 'I worked alongside Andy McMillan and Andy Baio of  <abbr>[XOXO](http://twitter.com/xoxo)</abbr>
+  fame to help build [a teaser](http://xoxopdx.com) for their upcoming workspace in
+  Portland called the Outpost. The website was designed to advertise the space and
+  get people interested in contributing to the community, joining the newsletter,
+  and moving their freelance work into the lovely new space.
+
+'
 customCSSClass: xoxo
 heroImage: "/uploads/xoxo-pdx2.jpg"
 role: Design, copywriting, and front-end development.
-results: |
-  Two small websites designed to advertise the space.
+results: 'Two small websites designed to advertise the space.
+
+'
 hero: "/uploads/xoxo-pdx.jpg"
 links: |-
   - [Announcement blog post](http://blog.xoxofest.com/post/120703410510/a-new-experiment)
