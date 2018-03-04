@@ -1,8 +1,8 @@
 {% include projects-header.html %}
 
 <div class="projects-intro-container projects-intro--{{page.customCSSClass}}">
-  <div class="projects-intro-heading">
-    <div class='meta caps'>
+  <div class="projects-intro-heading p-grid">
+    <div class='meta caps border-bottom'>
       <a href='/projects'>Projects</a> {{page.title}}
     </div>
     <h1 class='u-reset-margins'>{{page.subtitle}}</h1>
@@ -37,20 +37,9 @@
   {{content}}
 </div>
 
-  <!-- {% assign projects = site.projects | sort: 'date' | reverse %}
-  {% for post in projects %}
-    {% if post.published != false %}
-      <a href="{{post.url}}" class="box__item">
-        {% if post.logo %}
-          <figure>
-            <img src="/build/images/work/{{post.logo}}">
-          </figure>
-        {% endif %}
-        <h2>{{ post.title }}</h2>
-        <small>{{ post.company }}</small>
-      </a>
-    {% endif %}
-  {% endfor %} -->
 
+<div class='projects-outro projects-outro--{{page.customCSSClass}}'>
+  <a href='/projects'>⇠ Back to Projects</a>
+</div>
 
 {% include projects-footer.html %}

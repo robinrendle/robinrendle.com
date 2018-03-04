@@ -59,7 +59,7 @@ html {
 }
 
 body {
-	padding-bottom: 100px;
+	padding-bottom: 0;
 }
 
 h2,
@@ -120,10 +120,8 @@ h2 {
 	font-size: 22px !important;
 }
 
-.projects-grid {
+.mega-grid {
 	display: grid;
-	max-width: 900px;
-	margin: 0 auto;
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 20px;
 }
@@ -131,7 +129,7 @@ h2 {
 .projects-grid-item {
 	display: block;
 	padding: 20px;
-	border: 1px solid #333;
+	background-color: #efefef;
 	text-decoration: none !important;
 }
 
@@ -293,11 +291,26 @@ figcaption abbr {
 	border-top-color: #ff9801;
 }
 
-.projects-intro-heading {
+.projects-outro {
+	padding-bottom: 60px;
+	border-bottom: 5px solid $c-primary;
+}
+
+.projects-outro--guide {
+	border-bottom-color: #28d8cb;
+}
+
+.projects-outro--transfers {
+	border-bottom-color: #539adc;
+}
+
+.p-grid {
 	max-width: 850px;
 	margin: 0 auto;
+}
+
+.projects-intro-heading {
 	padding-top: 20px;
-	grid-column: 2/18;
 	h1 {
 		padding-top: 10px;
 		margin-bottom: 20px !important;
@@ -384,14 +397,18 @@ figcaption {
 	}
 }
 
+.border-bottom {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 .meta {
 	font-family: $sans !important;
-	font-variant: small-caps;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 	font-weight: 800;
 	font-size: 16px;
 	letter-spacing: 0.4px;
 	position: relative;
+	font-variant: small-caps;
+	text-transform: lowercase;
 
 	a,
 	& {

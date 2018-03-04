@@ -2,7 +2,7 @@
 title: The Transfers App
 subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
 extract: |
-  Gusto is a payroll, benefits and HR platform for more than 65,000 companies and late last year I was tasked with helping the Transfers team; this is the department that migrates data for a customer from their existing payroll service into Gusto. So we came up with a plan to design an internal tool that could extract this information as quickly and as accurately as possible whilst improving the team’s process along the way.
+  Gusto is a payroll, benefits and HR platform used by over 65,000 companies. Late last year I was tasked with helping the Transfers team; this is the department that migrates customer data from their existing payroll service into Gusto. I designed an internal tool that could extract this information as quickly and as accurately as possible whilst improving the team’s process along the way.
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
@@ -104,7 +104,6 @@ For example, a member of the team would be assigned a company to transfer via Sa
 I used these wireframes to test my initial thoughts with the Transfers team and discovered that the different employee types (currently employed, dismissed and contractors) all required different information for tax and payroll purposes. So I designed a section of this new application where all employees could be batch edited but ultimately where a Transfers team member could focus on one type of employee before moving onto the next (top-right image above).
 
 With historical payroll information the team needed to create a paystub for a specific check date and then immediately start entering data such as the regular wages and cash tips that the employee received on that date. Shown below is the second iteration of that design:
-
 
 <div class='m-wrapper--unpadded-wide'>
   <figure>

@@ -1,20 +1,36 @@
 {% include projects-header.html %}
 
-<div class="projects-bg">
-  <header class='projects-header'>
-    <div class="m-wrapper cell-t60">
-      <h1>I’m Robin, a product designer, writer, and front-end engineer.</h1>
+<div class="projects-intro-container projects-intro--{{page.customCSSClass}}">
+  <div class="projects-intro-heading p-grid">
+    <div class='meta border-bottom'>
+      <a href='/projects'>Projects</a> Home
+    </div>
+
+  <img src="/build/portfolio/me.jpg" alt="">
+
+    <h1 class='u-reset-margins'>
+      Robin Rendle
+    </h1>
+    <h2 class='u-reset-margins'>
+      Product designer, writer, and front-end engineer.
+    </h2>
+    <div class="caps border-bottom border-top">
       <a href='/'>Resume</a>
-      Email
+      <a href='mailto:desk@robinrendle.com'>Email</a>
       <a href='https://codepen.io/robinrendle'>Codepen</a>
       <a href='https://twitter.com/robinrendle'>Twitter</a>
     </div>
-  </header>
+  </div>
+</div>
 
-  <div class="projects-container">
+<div class="projects-bg cell-b40">
+  <div class="p-grid">
     <h3>Featured projects</h3>
+  </div>
+
+  <div class="">
     <article class='m-longform'>
-      <div class='projects-grid'>
+      <div class='projects-grid p-grid mega-grid'>
         {% assign projects = site.projects | sort: 'date' | reverse %}
         {% for post in projects %}
           {% if post.published != false %}
@@ -34,16 +50,17 @@
   </div>
 </div>
 
-<h3>Writing</h3>
-<ul>
-<li>
-  <a href='/essays/futures-of-typography/'>The Futures of Typography • January 2017</a>
-</li>
-<li>
-  <a href='/essays/new-web-typography/'>The New Web Typography • February 2016</a>
-</li>
-</ul>
-
+<div class='p-grid'>
+  <h3>Writing</h3>
+  <ul>
+  <li>
+    <a href='/essays/futures-of-typography/'>The Futures of Typography • January 2017</a>
+  </li>
+  <li>
+    <a href='/essays/new-web-typography/'>The New Web Typography • February 2016</a>
+  </li>
+  </ul>
+</div>
 
 
 

@@ -19,13 +19,9 @@ hero: "/uploads/xoxo-pdx.jpg"
 links: |-
   - [Announcement blog post](http://blog.xoxofest.com/post/120703410510/a-new-experiment)
   - [The XOXO Outpost](http://xoxopdx.com/)
-City:
-- London
-Country:
-- UK
 ---
 
-I worked alongside Andy McMillan and Andy Baio of [XOXO](http://twitter.com/xoxo) fame to help build [a teaser](http://xoxopdx.com) for their upcoming artist space in Portland alled the Outpost. In a blog post describing the project in [a little more detail](http://blog.xoxofest.com/post/120703410510/a-new-experiment), the two Andys write:
+In [a blog post](http://blog.xoxofest.com/post/120703410510/a-new-experiment) describing the project in[a little more detail the two Andys write:
 
 > We hope to bring together some of our favorite people and projects in indie art and tech under one roof, as well as a handful of startups working on tools that help people stay independent. And, of course, we’re ridiculously excited to have our own space to run weird and wonderful events year-round.
 
