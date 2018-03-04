@@ -2447,6 +2447,9 @@ html {
 body {
   padding-bottom: 0; }
 
+.m-longform h2 {
+  font-size: 22px; }
+
 h2,
 h3,
 h4,
@@ -2454,11 +2457,30 @@ h5 {
   font-family: "Output Sans", Helvetica, sans-serif;
   font-weight: 600; }
 
-h1 {
-  font-size: 32px; }
+.p-title {
+  font-weight: 600;
+  font-family: "Caponi Display", Georgia, serif;
+  font-size: 32px;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: 20px; }
   @media (min-width: 621px) {
-    h1 {
+    .p-title {
+      margin-bottom: 30px;
       font-size: 45px; } }
+
+.p-title--secondary {
+  color: #ccc;
+  font-size: 25px;
+  line-height: 1.1; }
+  @media (min-width: 621px) {
+    .p-title--secondary {
+      font-size: 32px;
+      line-height: 1.1; } }
+
+.p-section-heading {
+  text-transform: lowercase;
+  font-variant: small-caps !important; }
 
 iframe {
   min-height: 500px;
@@ -2484,9 +2506,6 @@ video {
 
 .projects-header {
   margin-bottom: 100px; }
-
-h2 {
-  font-size: 22px !important; }
 
 .mega-grid {
   display: grid;
@@ -2631,12 +2650,6 @@ figcaption abbr {
 
 .projects-intro-heading {
   padding-top: 20px; }
-  .projects-intro-heading h1 {
-    padding-top: 10px;
-    margin-bottom: 20px !important; }
-    @media (min-width: 621px) {
-      .projects-intro-heading h1 {
-        margin-bottom: 30px !important; } }
 
 .projects-intro-extract {
   margin-bottom: 20px; }

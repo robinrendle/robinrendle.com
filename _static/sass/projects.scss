@@ -62,6 +62,14 @@ body {
 	padding-bottom: 0;
 }
 
+////////////////////////////////////////////
+// PROJECTS TYPE
+////////////////////////////////////////////
+
+.m-longform h2 {
+	font-size: 22px;
+}
+
 h2,
 h3,
 h4,
@@ -70,13 +78,33 @@ h5 {
 	font-weight: 600;
 }
 
-// HEADINGS
-
-h1 {
+.p-title {
+	@include typeface("Display");
 	font-size: 32px;
+	line-height: 1.1;
+	margin: 0;
+	margin-bottom: 20px;
+
 	@include media(">medium") {
+		margin-bottom: 30px;
 		font-size: 45px;
 	}
+}
+
+.p-title--secondary {
+	color: #ccc;
+	font-size: 25px;
+	line-height: 1.1;
+
+	@include media(">medium") {
+		font-size: 32px;
+		line-height: 1.1;
+	}
+}
+
+.p-section-heading {
+	text-transform: lowercase;
+	font-variant: small-caps !important;
 }
 
 iframe {
@@ -114,10 +142,6 @@ video {
 
 .projects-header {
 	margin-bottom: 100px;
-}
-
-h2 {
-	font-size: 22px !important;
 }
 
 .mega-grid {
@@ -311,13 +335,6 @@ figcaption abbr {
 
 .projects-intro-heading {
 	padding-top: 20px;
-	h1 {
-		padding-top: 10px;
-		margin-bottom: 20px !important;
-		@include media(">medium") {
-			margin-bottom: 30px !important;
-		}
-	}
 }
 
 .projects-intro-extract {
