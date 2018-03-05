@@ -141,7 +141,7 @@ For example, we added an optional footer component for those teams and the abili
     <img src="/build/images/portfolio/spreadsheet-iterations.jpg" alt="The spreadsheet with errors." />
     <figcaption>
       <p>
-        We needed to build optional components such as a totals section at the bottom, as well as locked and frozen columns so that we could give the designers at Gusto as much flexibility as possible.
+        We built optional components such as a totals section at the bottom, as well as locked and frozen columns so that we could give the designers at Gusto as much flexibility as possible.
       </p>
     </figcaption>
   </figure>

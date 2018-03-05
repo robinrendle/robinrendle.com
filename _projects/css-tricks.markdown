@@ -4,22 +4,18 @@ date: 2015-10-24 11:59:00 -07:00
 dateRange: 2015-2018
 subtitle: Writing for the CSS-Tricks community about web design and front-end development.
 extract: |
-  Since early 2015 I’ve been a regular contributor to [<abbr title='Cascading style sheets'>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology and provide tutorials and links to help developers learn more about the web. Over those years I’ve written a number of technical posts that explore new browser features and written in-depth tutorials on the peculiarities of <abbr title='Cascading style sheets'>CSS</abbr> and JavaScript.
+  Since early 2015 I’ve been a regular contributor to [<abbr title='Cascading style sheets'>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology and provide tutorials and links to help developers learn more about the web. Over those years I’ve written a number of technical posts that explore new browser features and written in-depth tutorials on the peculiarities of <abbr title='Cascading style sheets'>CSS</abbr>.
 role: Writing and editing
 results: |
   Growing the newsletter to more than 32,000 subscribers.
 customCSSClass: css-tricks
-hero: "/uploads/css-tricks.jpg"
+heroImage: /build/images/portfolio/css-tricks.jpg
 layout: projects-detail
 ---
 
-![Link post](/build/images/work/css-tricks/link.png)
+Over that time I've written about [a variety of topics](https://css-tricks.com/author/robinrendle/), but my favourite part of working with the team is the writing process. First, I take a look at a property such as `background-blend-mode` where either I update the Almanac entry or [make a new one](https://css-tricks.com/almanac/properties/b/background-blend-mode/). From there I’ll make a series of demos to figure out how it works whilst reading up on what other people have already made with it. Sometimes this work will lead to me [finding something new](https://css-tricks.com/chaining-multiple-blend-modes/) that you can do with a <abbr title='cascading style sheets'>CSS</abbr> property or it encourages interesting ideas for future <abbr title='user interface'>UI</abbr> explorations in my day job.
 
-This work has led to me exploring [a variety of topics](https://css-tricks.com/author/robinrendle/), but my favourite part of working with the team is the writing process. First, I take a look at a property such as `background-blend-mode` where either I update the Almanac entry or [make a new one](https://css-tricks.com/almanac/properties/b/background-blend-mode/). From there I’ll make a series of demos to figure out how it works whilst reading up on what other people have already made with it.
-
-Not only has working with the excellent team been an inspiration it’s also taught me a great deal about copywriting, front-end development and design. Sometimes my work will lead to me [finding something new](https://css-tricks.com/chaining-multiple-blend-modes/) that you can do with a <abbr title='cascading style sheets'>CSS</abbr> property or it encourages interesting ideas for future <abbr title='user interface'>UI</abbr> explorations in my day job.
-
-Here’s a sample of my favorite posts that I’ve written for CSS-Tricks over the years:
+Not only has working with the excellent team been an inspiration, they’ve also taught me a great deal about copywriting, front-end development, and design. Here’s a sample of posts that I’ve written over the years that I’m particularly fond of:
 
 - [Tools for Thinking and Tools for Systems](https://css-tricks.com/tools-thinking-tools-systems)
 - [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid)

@@ -102,11 +102,6 @@ h5 {
 	}
 }
 
-.p-section-heading {
-	text-transform: lowercase;
-	font-variant: small-caps !important;
-}
-
 iframe {
 	min-height: 500px;
 	border: 1px solid #ddd;
@@ -152,9 +147,12 @@ video {
 
 .projects-grid-item {
 	display: block;
-	padding: 20px;
-	background-color: #efefef;
+	margin-bottom: 20px !important;
 	text-decoration: none !important;
+
+	&:last-child {
+		margin-bottom: 0 !important;
+	}
 }
 
 .projects-title {
@@ -298,10 +296,8 @@ figcaption abbr {
 .projects-intro-container {
 	margin: 0 auto;
 	border-top: 5px solid $c-primary;
-}
-
-.projects-intro-container {
 	padding: 20px;
+	padding-bottom: 0;
 }
 
 .projects-intro--guide {
@@ -337,9 +333,68 @@ figcaption abbr {
 	border-bottom-color: #539adc;
 }
 
+.p-grid {
+	display: grid;
+	grid-template-columns: repeat(22, 1fr);
+}
+
 .p-grid-wrapper {
 	max-width: 850px;
 	margin: 0 auto;
+}
+
+.p-nav {
+	grid-column: 1 / 23;
+}
+
+.p-intro {
+	grid-column: 6 / 23;
+	padding-top: 20px;
+}
+
+.p-img {
+	grid-column: 1 / 5;
+
+	img {
+		border-radius: 3px;
+	}
+}
+
+.p-social-nav ul {
+	display: flex;
+	list-style: none;
+	font-family: $sans;
+	font-weight: bold;
+
+	li {
+		margin-right: 10px;
+
+		a {
+			color: $c-primary;
+		}
+	}
+}
+
+.p-projects {
+	grid-column: 1 / 23;
+	border-top: 1px solid #ddd;
+
+	// because subgrid is not a thing yet
+	display: grid;
+	grid-template-columns: repeat(22, 1fr);
+
+	.p-section-heading {
+		grid-column: 1/5;
+		margin: 0;
+		text-transform: lowercase;
+		font-variant: small-caps !important;
+	}
+
+	.p-section {
+		grid-column: 6/23;
+		padding-top: 40px;
+		padding-bottom: 80px;
+	}
 }
 
 .project-intro-hero {
@@ -375,7 +430,7 @@ figcaption abbr {
 }
 
 .projects-intro-extract {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 }
 
 ::selection {
@@ -435,6 +490,10 @@ figcaption {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.border-top {
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 .caps {
 	font-variant: all-small-caps;
 	text-transform: lowercase;
@@ -455,6 +514,11 @@ figcaption {
 	a {
 		margin-right: 13px;
 		position: relative;
+		transition: all 0.3s ease;
+
+		&:hover {
+			color: $c-primary;
+		}
 	}
 
 	a:after {
@@ -464,6 +528,13 @@ figcaption {
 		position: absolute;
 		right: -12px;
 		top: 2px;
+		color: #aaa;
+	}
+
+	a:nth-child(1):only-child {
+		&:after {
+			content: none;
+		}
 	}
 }
 

@@ -5,7 +5,8 @@
     <div class='border-bottom'>
       <div class='p-nav'>
         <div class='p-nav-left meta caps'>
-          <a href='/projects'>Projects</a> {{page.title}}
+          <a href='/projects'>Projects</a>
+          <span>{{page.title}}</span>
         </div>
         <div class='p-nav-right meta caps'>
           {{page.dateRange}}
@@ -45,8 +46,15 @@
 </div>
 
 
-<div class='projects-outro projects-outro--{{page.customCSSClass}}'>
-  <a href='/projects'>⇠ Back to Projects</a>
+
+<div class='cell-t60 projects-outro projects-outro--{{page.customCSSClass}}'>
+  <div class="p-grid-wrapper">
+    <div class='p-nav border-top'>
+      <div class='p-nav-left meta caps'>
+        <a href='/projects'>⇠ Back to Projects</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% include projects-footer.html %}
