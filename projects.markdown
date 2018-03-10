@@ -2,6 +2,7 @@
 title: Projects
 date: 2018-02-02 17:13:00 -08:00
 layout: projects
+customCSSClass: home
 writing: |
   - [The Futures of Typography](/essays/futures-of-typography)
   - [CSS Code Smells](https://css-tricks.com/css-code-smells/)
@@ -23,4 +24,3 @@ links: |
   - [Codepen](https://codepen.io/robinrendle)
   - [Twitter](https://twitter.com/robinrendle)
 ---
-

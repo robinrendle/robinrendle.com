@@ -1,80 +1,77 @@
 {% include projects-header.html %}
 
-<div class="projects-intro-container projects-intro--{{page.customCSSClass}}">
-  <div class='cell-t20 p-grid-wrapper p-grid'>
+<div class="projects-wrapper projects-wrapper--{{page.customCSSClass}}">
+<div class="projects-intro-container">
+  <div class='cell-t20 p-grid-wrapper p-grid border-bottom'>
       <div class='p-nav'>
         <div class='caps meta'>
-          <a href='/'>Home</a>
+          <a href='/'>Robin Rendle</a>
           <span>Projects</span>
         </div>
       </div>
   </div>
-</div>
 
-<div class='p-grid-wrapper p-grid'>
-  <div class='p-projects'>
-    <div class='cell-t10 p-img'>
+  <div class='p-grid-wrapper p-grid'>
+    <div class='p-img'>
       <img src="/build/images/portfolio/me.jpg" alt="A portrait of me, Robin, the boy wonder">
     </div>
+    <div class="p-section">
+      <div class='p-intro'>
+        <h1 class='p-title u-reset-margins'>
+          My name’s Robin and I’m a product designer from the UK.
+        </h1>
+        <!-- <h2 class='p-title p-title-secondary'>
+          Product designer, writer, and front-end engineer.
+        </h2> -->
+        <div class="m-longform">
+          <p>
+            I’m fascinated by design systems, front-end development, <abbr title='user experience'>UX</abbr> and visual design. Today I work at Gusto where I do just that: tinkering with our pattern library and styleguide, contributing to the foundations of the front-end codebase, and working on the underlying <abbr title='user experience'>UX</abbr> of the application.
+          </p>
+          <p>I also write, edit and publish things alongside the team at CSS-Tricks. Although most of my time is now focused on the newsletter where we collect everything that happened in this little community over the course of any given week.</p>
 
-    <div class='p-intro'>
-      <h1 class='p-title u-reset-margins'>
-        Robin Rendle
-      </h1>
-      <h2 class='p-title p-title--secondary'>
-        Product designer, writer, and front-end engineer.
-      </h2>
-      <div class="m-longform">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi et nihil voluptatibus debitis, repellendus voluptatem laboriosam consequatur, laborum cumque dolore nesciunt assumenda, rerum libero. Sint vitae dolores dignissimos quas quae!</p>
+          {{page.links | markdownify}}
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-
-<div class='p-grid-wrapper p-grid'>
-  <div class='p-projects'>
-    <h3 class='p-section-heading'>Contact</h3>
-    <section class="p-section">
-      <div class="caps p-social-nav">
-        {{page.links | markdownify}}
-      </div>
-    </section>
-  </div>
-</div>
-
-<div class='p-grid-wrapper p-grid'>
-  <div class='p-projects'>
+  <div class='p-grid-wrapper p-grid border-top'>
     <h3 class='p-section-heading'>Projects</h3>
     <section class="p-section">
       <article class='m-longform'>
         {% assign projects = site.projects | sort: 'date' | reverse %}
         {% for post in projects %}
           {% if post.published != false %}
-            <a href="{{post.url}}" class="projects-grid-item">
+            <a href="{{post.url}}" class="p-project">
               <!-- {% if post.logo %}
                 <figure>
                   <img src="/build/images/work/{{post.logo}}">
                 </figure>
               {% endif %} -->
+              <!-- <small>
+                {{ post.dateRange }}
+              </small> -->
               <h3 class='projects-title'>{{ post.title }}</h3>
-              {{ post.subtitle }}
+              <p>
+                {{ post.subtitle }}
+              </p>
             </a>
           {% endif %}
         {% endfor %}
       </article>
     </section>
   </div>
-</div>
-<div class='p-grid-wrapper p-grid'>
-  <div class='p-projects'>
+
+  <div class='p-grid-wrapper p-grid border-top'>
     <h3 class='p-section-heading'>Writing</h3>
     <section class='p-section'>
-      {{page.writing | markdownify}}
+      <div class='p-writing-list'>
+        {{page.writing | markdownify}}
+      </div>
     </section>
   </div>
 </div>
 
 
-
 {% include projects-footer.html %}
+</div>
