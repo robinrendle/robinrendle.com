@@ -19,8 +19,7 @@ writing: |
   - [A Quick Overview of Object Fit and Object Position](https://css-tricks.com/on-object-fit-and-object-position/)
   - [Chaining Multiple Blend Modes](https://css-tricks.com/chaining-multiple-blend-modes/)
 links: |
-  - [Resume](mailto:desk@robinrendle.com)
+  - [Resume](https://www.dropbox.com/s/ldvu8i2tcvmr2mv/resume.pdf?dl=0)
   - [Email](mailto:desk@robinrendle.com)
   - [Twitter](https://twitter.com/robinrendle)
 ---
-
