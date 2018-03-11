@@ -10,24 +10,27 @@
         </div>
       </div>
   </div>
+<div class='p-grid-wrapper'>
+  <h1 class='p-title cell-b30'>
+    My name’s Robin and I’m a product designer, writer, and developer from the UK.
+  </h1>
+</div>
 
-  <div class='p-grid-wrapper p-grid'>
+  <div class='p-grid-wrapper p-grid p-grid-intro'>
     <div class='p-img'>
       <img src="/build/images/portfolio/robin-rendle.jpg" alt="A portrait of me, Robin, the boy wonder">
     </div>
+    <!-- <h3 class='p-section-heading'>About</h3> -->
     <div class="p-section-intro">
       <div class='p-intro'>
-        <h1 class='p-title u-reset-margins'>
-          I’m Robin, a product designer from the UK.
-        </h1>
         <!-- <h2 class='p-title p-title-secondary'>
           Product designer, writer, and front-end engineer.
         </h2> -->
         <div class="m-longform">
           <p>
-            I’m fascinated by design systems, front-end development, <abbr title='user experience'>UX</abbr> and visual design. Today I work at Gusto where I do just that: tinkering with our pattern library and styleguide, contributing to the foundations of the front-end codebase, and working on the underlying <abbr title='user experience'>UX</abbr> of the application.
+            Hello there! I’m fascinated by design systems, front-end development, <abbr title='user experience'>UX</abbr> and visual design. Today I work at <a href="">Gusto</a> where I work on a combination of these types of projects: I develop our pattern library and styleguide, contribute to the foundations of the front-end codebase, and work on the underlying <abbr title='user experience'>UX</abbr> of the application as well as new features and services for Gusto’s customers.
           </p>
-          <p>I also write, edit, and publish articles about design and front-end development alongside the team at CSS-Tricks.</p>
+          <p>I also write, edit, and publish articles about design and front-end development alongside the team at <a href="https://css-tricks.com/">CSS-Tricks</a>. This is where I learn about how browsers work but it’s also how I keep on top of the latest advances in design and front-end development.</p>
 
           {{page.links | markdownify}}
         </div>
@@ -35,34 +38,40 @@
     </div>
   </div>
 
-  <div class='p-grid-wrapper p-grid border-top'>
+  <div class='p-grid-wrapper p-grid '>
     <h3 class='p-section-heading'>Projects</h3>
     <section class="p-section">
       <article class='m-longform'>
-        {% assign projects = site.projects | sort: 'date' | reverse %}
-        {% for post in projects %}
-          {% if post.published != false %}
-            <a href="{{post.url}}" class="p-project">
-              <!-- {% if post.logo %}
-                <figure>
-                  <img src="/build/images/work/{{post.logo}}">
-                </figure>
-              {% endif %} -->
-              <!-- <small>
-                {{ post.dateRange }}
-              </small> -->
-              <h3 class='projects-title'>{{ post.title }}</h3>
-              <p>
-                {{ post.subtitle }}
-              </p>
-            </a>
-          {% endif %}
-        {% endfor %}
+        <div class='p-writing-list'>
+          <ul>
+            {% assign projects = site.projects | sort: 'date' | reverse %}
+            {% for post in projects %}
+              {% if post.published != false %}
+                <li>
+                    <a href="{{post.url}}">
+                    <!-- {% if post.logo %}
+                      <figure>
+                        <img src="/build/images/work/{{post.logo}}">
+                      </figure>
+                    {% endif %} -->
+                    <!-- <small>
+                      {{ post.dateRange }}
+                    </small> -->
+                    <h3 class='projects-title'>{{ post.title }}</h3>
+                    <p>
+                      {{ post.subtitle }}
+                    </p>
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
       </article>
     </section>
   </div>
 
-  <div class='p-grid-wrapper p-grid border-top'>
+  <div class='p-grid-wrapper p-grid '>
     <h3 class='p-section-heading'>Writing</h3>
     <section class='p-section'>
       <div class='p-writing-list'>
