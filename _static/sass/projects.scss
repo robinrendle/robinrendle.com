@@ -222,8 +222,12 @@ video {
 				display: block;
 				transition: all 0.3s ease;
 				transition: padding 0.2s ease;
-				font-size: 22px;
+				font-size: 18px;
 				@include typeface("Display");
+
+				@include media(">medium") {
+					font-size: 22px;
+				}
 
 				&:focus {
 					color: $home-theme;
@@ -441,6 +445,7 @@ figcaption abbr {
 	grid-column: 1 / 23;
 	margin-top: 20px;
 	position: relative;
+	margin-bottom: 30px;
 	@include media(">medium") {
 		grid-column: 1 / 12;
 		margin-bottom: 15px;
@@ -486,8 +491,7 @@ figcaption abbr {
 .p-title {
 	@include typeface("Display");
 	line-height: 1.1;
-	margin: 0;
-	margin-bottom: 20px;
+	padding-bottom: 10px;
 	font-size: 34px;
 	// color: $home-theme;
 	@include media(">medium") {

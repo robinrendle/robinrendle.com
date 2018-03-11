@@ -2563,9 +2563,12 @@ video {
         display: block;
         transition: all 0.3s ease;
         transition: padding 0.2s ease;
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 600;
         font-family: "Caponi Display", Georgia, serif; }
+        @media (min-width: 621px) {
+          .p-writing-list ul li a {
+            font-size: 22px; } }
         .p-writing-list ul li a:focus {
           color: #2b79f8;
           background-color: #f5f9ff;
@@ -2728,7 +2731,8 @@ figcaption abbr {
 .p-img {
   grid-column: 1 / 23;
   margin-top: 20px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 30px; }
   @media (min-width: 621px) {
     .p-img {
       grid-column: 1 / 12;
@@ -2771,8 +2775,7 @@ figcaption abbr {
   font-weight: 600;
   font-family: "Caponi Display", Georgia, serif;
   line-height: 1.1;
-  margin: 0;
-  margin-bottom: 20px;
+  padding-bottom: 10px;
   font-size: 34px; }
   @media (min-width: 621px) {
     .p-title {
