@@ -465,7 +465,7 @@ figcaption abbr {
 
 .p-section-intro {
 	grid-column: 1 / 23;
-	margin-bottom: 80px;
+	margin-bottom: 10px;
 	@include media(">medium") {
 		grid-column: 7 / 23;
 		margin-bottom: 0;
@@ -519,6 +519,7 @@ figcaption abbr {
 	@include typeface("Display");
 	font-size: 30px;
 	color: $home-theme;
+	margin-bottom: 20px;
 
 	@include media(">medium") {
 		grid-column: 1/5;
@@ -537,7 +538,7 @@ figcaption abbr {
 
 .p-section {
 	padding-top: 0;
-	padding-bottom: 80px;
+	padding-bottom: 15px;
 	grid-column: 1 / 23;
 
 	@include media(">medium") {

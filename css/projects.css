@@ -2743,7 +2743,7 @@ figcaption abbr {
 
 .p-section-intro {
   grid-column: 1 / 23;
-  margin-bottom: 80px; }
+  margin-bottom: 10px; }
   @media (min-width: 621px) {
     .p-section-intro {
       grid-column: 7 / 23;
@@ -2792,7 +2792,8 @@ figcaption abbr {
   font-weight: 600;
   font-family: "Caponi Display", Georgia, serif;
   font-size: 30px;
-  color: #e95554; }
+  color: #e95554;
+  margin-bottom: 20px; }
   @media (min-width: 621px) {
     .p-section-heading {
       grid-column: 1/5; } }
@@ -2809,7 +2810,7 @@ figcaption abbr {
 
 .p-section {
   padding-top: 0;
-  padding-bottom: 80px;
+  padding-bottom: 15px;
   grid-column: 1 / 23; }
   @media (min-width: 621px) {
     .p-section {
