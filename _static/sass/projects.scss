@@ -89,19 +89,44 @@ h5 {
 
 	@include media(">medium") {
 		margin-bottom: 30px;
-		font-size: 45px;
-		padding-top: 20px;
+		font-size: 26px;
+		padding-top: 30px;
 	}
 }
 
-.p-title--secondary {
-	color: #ccc;
-	font-size: 25px;
-	line-height: 1.1;
+.p-intro .m-longform p {
+	@include media(">large") {
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
 
-	@include media(">medium") {
-		font-size: 32px;
-		line-height: 1.1;
+.p-intro .m-longform ul {
+	display: flex;
+	li {
+		margin-right: 10px;
+		list-style: none;
+		margin-top: 10px;
+
+		a {
+			text-decoration: none;
+			font-size: 14px;
+			background-color: lighten($home-theme, 40);
+			padding: 3px 4px 5px 5px;
+			border: 1px solid lighten($home-theme, 30);
+			font-variant: all-small-caps;
+			color: $home-theme;
+			border-radius: 2px;
+			font-family: $sans;
+			transition: all 0.3s ease;
+
+			&:hover,
+			&:focus {
+				background-color: lighten($home-theme, 30);
+				color: darken($home-theme, 10);
+			}
+		}
 	}
 }
 
@@ -183,12 +208,13 @@ video {
 			font-family: $sans;
 			border: 1px solid transparent;
 			&:hover {
-				border: 1px solid lighten($home-theme, 20);
+				border-top: 1px solid lighten($home-theme, 35);
+				border-bottom: 1px solid lighten($home-theme, 35);
 
 				a {
 					color: $home-theme;
 					background-color: lighten($home-theme, 41);
-					padding: 30px 20px 30px;
+					padding: 20px 20px 20px;
 				}
 
 				& + li {
@@ -202,13 +228,19 @@ video {
 
 			a {
 				margin: 0;
-				padding: 30px 20px 30px 0;
+				padding: 20px 20px 20px 0;
 				color: #555555;
 				display: block;
 				transition: all 0.3s ease;
 				transition: padding 0.2s ease;
 				font-size: 22px;
 				@include typeface("Display");
+
+				&:focus {
+					color: $home-theme;
+					background-color: lighten($home-theme, 41);
+					padding: 20px 20px 20px;
+				}
 			}
 		}
 	}
@@ -408,19 +440,13 @@ figcaption abbr {
 }
 
 .p-img {
-	grid-column: 1 / 5;
-	margin-top: 35px;
+	grid-column: 1 / 13;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 	img {
 		width: 100%;
 		border-radius: 2px;
-	}
-}
-
-.p-intro .m-longform p {
-	@include media(">large") {
-		font-size: 21px;
-		margin-top: 10px;
 	}
 }
 
@@ -445,6 +471,10 @@ figcaption abbr {
 	@include typeface("Display");
 	font-size: 30px;
 	color: $home-theme;
+}
+
+.p-section-intro {
+	grid-column: 14/23;
 }
 
 .p-section {

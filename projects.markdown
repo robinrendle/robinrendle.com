@@ -21,6 +21,5 @@ writing: |
 links: |
   - [Resume](mailto:desk@robinrendle.com)
   - [Email](mailto:desk@robinrendle.com)
-  - [Codepen](https://codepen.io/robinrendle)
   - [Twitter](https://twitter.com/robinrendle)
 ---
