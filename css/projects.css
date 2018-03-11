@@ -2548,6 +2548,8 @@ video {
     list-style: none; }
     .p-writing-list ul li:first-of-type {
       border-top: 1px solid #ededed; }
+    .p-writing-list ul li:last-of-type {
+      border-bottom: 1px solid #ededed; }
     .p-writing-list ul li {
       font-family: "Output Sans", Helvetica, sans-serif;
       border: 1px solid transparent; }
@@ -2570,7 +2572,8 @@ video {
       .p-writing-list ul li h3 {
         font-weight: 600;
         font-family: "Caponi Display", Georgia, serif;
-        color: #555555; }
+        color: #555555;
+        font-size: 23px; }
       .p-writing-list ul li p {
         font-family: "Output Sans", Helvetica, sans-serif;
         font-weight: 400;
@@ -2751,8 +2754,12 @@ figcaption abbr {
 
 .p-grid-intro {
   padding-bottom: 70px; }
+  @media (min-width: 621px) {
+    .p-grid-intro {
+      padding-bottom: 100px; } }
 
 .p-img {
+  opacity: 0.9;
   grid-column: 1 / 23;
   margin-top: 20px;
   position: relative;
@@ -2788,7 +2795,7 @@ figcaption abbr {
 .p-section-heading {
   grid-column: 1 / 23;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 15px;
   font-weight: 600;
   font-family: "Caponi Display", Georgia, serif;
   font-size: 30px;
@@ -2796,7 +2803,8 @@ figcaption abbr {
   margin-bottom: 20px; }
   @media (min-width: 621px) {
     .p-section-heading {
-      grid-column: 1/5; } }
+      grid-column: 1/5;
+      font-size: 34px; } }
 
 .p-title {
   font-weight: 600;
@@ -2814,7 +2822,8 @@ figcaption abbr {
   grid-column: 1 / 23; }
   @media (min-width: 621px) {
     .p-section {
-      grid-column: 7 / 23; } }
+      grid-column: 7 / 23;
+      padding-bottom: 70px; } }
 
 .project-intro-hero {
   max-width: 850px;

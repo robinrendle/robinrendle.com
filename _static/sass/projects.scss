@@ -202,6 +202,10 @@ video {
 			border-top: 1px solid #ededed;
 		}
 
+		li:last-of-type {
+			border-bottom: 1px solid #ededed;
+		}
+
 		li {
 			font-family: $sans;
 			border: 1px solid transparent;
@@ -236,6 +240,7 @@ video {
 			h3 {
 				@include typeface("Display");
 				color: #555555;
+				font-size: 23px;
 			}
 
 			p {
@@ -474,9 +479,14 @@ figcaption abbr {
 
 .p-grid-intro {
 	padding-bottom: 70px;
+
+	@include media(">medium") {
+		padding-bottom: 100px;
+	}
 }
 
 .p-img {
+	opacity: 0.9;
 	grid-column: 1 / 23;
 	margin-top: 20px;
 	position: relative;
@@ -515,14 +525,23 @@ figcaption abbr {
 .p-section-heading {
 	grid-column: 1 / 23;
 	margin: 0;
-	padding-top: 20px;
+	padding-top: 15px;
 	@include typeface("Display");
 	font-size: 30px;
 	color: $home-theme;
 	margin-bottom: 20px;
+	//
+	// &:after {
+	// 	content: "";
+	// 	height: 3px;
+	// 	width: 50px;
+	// 	background-color: #ddd;
+	// 	display: block;
+	// }
 
 	@include media(">medium") {
 		grid-column: 1/5;
+		font-size: 34px;
 	}
 }
 
@@ -543,6 +562,7 @@ figcaption abbr {
 
 	@include media(">medium") {
 		grid-column: 7 / 23;
+		padding-bottom: 70px;
 	}
 }
 
