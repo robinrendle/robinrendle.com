@@ -80,20 +80,6 @@ h5 {
 	font-weight: 600;
 }
 
-.p-title {
-	@include typeface("Display");
-	font-size: 32px;
-	line-height: 1.1;
-	margin: 0;
-	margin-bottom: 20px;
-
-	@include media(">medium") {
-		margin-bottom: 30px;
-		font-size: 26px;
-		padding-top: 30px;
-	}
-}
-
 .p-intro .m-longform p {
 	@include media(">large") {
 		font-size: 18px;
@@ -167,9 +153,12 @@ video {
 		line-height: 1.4;
 	}
 
-	&:hover {
-		h3,
-		p {
+	&:hover,
+	&:focus {
+		transition: all 0.3s ease;
+		background-color: #f5f9ff;
+		padding-left: 20px;
+		h3 {
 			color: $home-theme;
 		}
 	}
@@ -439,14 +428,31 @@ figcaption abbr {
 	grid-column: 1 / 23;
 }
 
-.p-img {
-	grid-column: 1 / 13;
-	margin-top: 20px;
-	margin-bottom: 20px;
+.p-section-intro {
+	grid-column: 1 / 23;
+	margin-bottom: 80px;
+	@include media(">medium") {
+		grid-column: 13 / 23;
+		margin-bottom: 20px;
+	}
+}
 
+.p-img {
+	grid-column: 1 / 23;
+	margin-top: 20px;
+	position: relative;
+	@include media(">medium") {
+		grid-column: 1 / 12;
+		margin-bottom: 15px;
+	}
 	img {
 		width: 100%;
 		border-radius: 2px;
+		height: 100%;
+		object-fit: cover;
+		filter: saturate(0);
+		margin: 0;
+		padding: 0;
 	}
 }
 
@@ -465,22 +471,39 @@ figcaption abbr {
 }
 
 .p-section-heading {
-	grid-column: 1/5;
+	grid-column: 1 / 23;
 	margin: 0;
 	padding-top: 20px;
 	@include typeface("Display");
 	font-size: 30px;
 	color: $home-theme;
+
+	@include media(">medium") {
+		grid-column: 1/5;
+	}
 }
 
-.p-section-intro {
-	grid-column: 14/23;
+.p-title {
+	@include typeface("Display");
+	line-height: 1.1;
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 34px;
+	// color: $home-theme;
+	@include media(">medium") {
+		margin-bottom: 30px;
+		padding-top: 20px;
+	}
 }
 
 .p-section {
-	grid-column: 6/23;
 	padding-top: 0;
 	padding-bottom: 80px;
+	grid-column: 1 / 23;
+
+	@include media(">medium") {
+		grid-column: 6/23;
+	}
 }
 
 .project-intro-hero {

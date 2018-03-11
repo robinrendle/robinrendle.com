@@ -2454,19 +2454,6 @@ h5 {
   font-family: "Output Sans", Helvetica, sans-serif;
   font-weight: 600; }
 
-.p-title {
-  font-weight: 600;
-  font-family: "Caponi Display", Georgia, serif;
-  font-size: 32px;
-  line-height: 1.1;
-  margin: 0;
-  margin-bottom: 20px; }
-  @media (min-width: 621px) {
-    .p-title {
-      margin-bottom: 30px;
-      font-size: 26px;
-      padding-top: 30px; } }
-
 @media (min-width: 921px) {
   .p-intro .m-longform p {
     font-size: 18px;
@@ -2527,9 +2514,12 @@ video {
     font-family: "Caponi Display", Georgia, serif;
     color: #555;
     line-height: 1.4; }
-  .p-project:hover h3,
-  .p-project:hover p {
-    color: #2b79f8; }
+  .p-project:hover, .p-project:focus {
+    transition: all 0.3s ease;
+    background-color: #f5f9ff;
+    padding-left: 20px; }
+    .p-project:hover h3, .p-project:focus h3 {
+      color: #2b79f8; }
   .p-project p {
     margin: 0;
     color: #999;
@@ -2727,13 +2717,32 @@ figcaption abbr {
 .p-nav {
   grid-column: 1 / 23; }
 
+.p-section-intro {
+  grid-column: 1 / 23;
+  margin-bottom: 80px; }
+  @media (min-width: 621px) {
+    .p-section-intro {
+      grid-column: 13 / 23;
+      margin-bottom: 20px; } }
+
 .p-img {
-  grid-column: 1 / 13;
+  grid-column: 1 / 23;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  position: relative; }
+  @media (min-width: 621px) {
+    .p-img {
+      grid-column: 1 / 12;
+      margin-bottom: 15px; } }
   .p-img img {
     width: 100%;
-    border-radius: 2px; }
+    border-radius: 2px;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -webkit-filter: saturate(0);
+            filter: saturate(0);
+    margin: 0;
+    padding: 0; }
 
 .p-social-nav ul {
   display: -webkit-box;
@@ -2747,21 +2756,36 @@ figcaption abbr {
       color: #2a7af7; }
 
 .p-section-heading {
-  grid-column: 1/5;
+  grid-column: 1 / 23;
   margin: 0;
   padding-top: 20px;
   font-weight: 600;
   font-family: "Caponi Display", Georgia, serif;
   font-size: 30px;
   color: #2b79f8; }
+  @media (min-width: 621px) {
+    .p-section-heading {
+      grid-column: 1/5; } }
 
-.p-section-intro {
-  grid-column: 14/23; }
+.p-title {
+  font-weight: 600;
+  font-family: "Caponi Display", Georgia, serif;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 34px; }
+  @media (min-width: 621px) {
+    .p-title {
+      margin-bottom: 30px;
+      padding-top: 20px; } }
 
 .p-section {
-  grid-column: 6/23;
   padding-top: 0;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  grid-column: 1 / 23; }
+  @media (min-width: 621px) {
+    .p-section {
+      grid-column: 6/23; } }
 
 .project-intro-hero {
   max-width: 850px;
