@@ -1,6 +1,10 @@
 ---
 title: Tahoe
 date: 2018-03-19 23:31:00 -07:00
+categories:
+- personal
+tags:
+- Joanna Jao
 ---
 
 The night before the breakup, last night actually, I had a dream about our trip to Lake Tahoe. I was stood at the edge of the water, on the pier we had sat on only a few months before, and I was looking over the edge, down into its depths. There was no color in the water, no light at all; inside, the lake was the darkest of greens. It was a color without variation in hue or saturation and the water was silent. All was dead still.
