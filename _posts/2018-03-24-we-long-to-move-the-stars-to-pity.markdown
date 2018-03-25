@@ -18,6 +18,6 @@ What does that first part mean, “exaggerated speeches that concealed mediocre 
 
 ***
 
-I was reminded of this extract today as I was walking around Potrero Hill with a friend and whilst she was describing her dissatisfaction with her new job. During our chat there were a few lulls in the conversation where we just couldn’t really describe why we were both so unhappy with everything. And we almost sort of didn’t want to. We couldn’t describe how we felt but I think we also both knew that we were experiencing the same sorts of feelings. In fact, trying to describe how we were feeling would somehow cast everything in the wrong light. 
+I was reminded of this extract today as I was walking around Potrero Hill with a friend and whilst she was describing her dissatisfaction with her new job. During our chat there were a few lulls in the conversation where we just couldn’t really describe why we were both so unhappy with everything. And we almost sort of didn’t want to. We couldn’t describe how we felt but I think we also both knew that we were experiencing the same sorts of feelings and there was a measure of comfort in the silence because of that. Trying to describe how we were feeling would somehow cast everything in the wrong light. 
 
 Instead of clutching at the easy metaphor or cliché we just sat there in the boba shop, brooding.
