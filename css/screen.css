@@ -1261,36 +1261,36 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 .m-longform ol,
 .m-longform p,
 .m-longform ul {
-  font-size: 17px;
-  font-size: 1.0625rem;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1.45;
   -webkit-hyphens: auto;
   -webkit-hyphenate-limit-after: 2;
   -webkit-hyphenate-limit-before: 3;
   -webkit-hyphens: auto;
      -moz-hyphens: auto;
       -ms-hyphens: auto;
-          hyphens: auto;
-  line-height: 1.55; }
+          hyphens: auto; }
   @media (min-width: 401px) {
-    .m-longform ol,
-    .m-longform p,
-    .m-longform ul {
-      font-size: 17px;
-      font-size: 1.0625rem;
-      line-height: 1.6; } }
-  @media (min-width: 621px) {
-    .m-longform ol,
-    .m-longform p,
-    .m-longform ul {
-      font-size: 18px;
-      font-size: 1.125rem;
-      line-height: 1.65; } }
-  @media (min-width: 921px) {
     .m-longform ol,
     .m-longform p,
     .m-longform ul {
       font-size: 19px;
       font-size: 1.1875rem;
+      line-height: 1.6; } }
+  @media (min-width: 621px) {
+    .m-longform ol,
+    .m-longform p,
+    .m-longform ul {
+      font-size: 20px;
+      font-size: 1.25rem;
+      line-height: 1.5; } }
+  @media (min-width: 921px) {
+    .m-longform ol,
+    .m-longform p,
+    .m-longform ul {
+      font-size: 21px;
+      font-size: 1.3125rem;
       line-height: 1.6; } }
   .m-longform ol > img,
   .m-longform p > img,
@@ -1492,15 +1492,15 @@ hgroup {
   margin: 0 auto;
   padding: 0px 15px;
   padding: 0rem 0.9375rem;
-  max-width: 650px;
-  max-width: 40.625rem; }
+  max-width: 670px;
+  max-width: 41.875rem; }
   .m-wrapper:after {
     content: "";
     display: table;
     clear: both; }
   @media (min-width: 621px) {
     .m-wrapper {
-      padding: 0 6%; } }
+      padding: 0 5%; } }
   @media (min-width: 921px) {
     .m-wrapper {
       padding: 0px;
@@ -1524,8 +1524,8 @@ hgroup {
   .m-wrapper--unpadded h6 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 650px;
-    max-width: 40.625rem;
+    max-width: 670px;
+    max-width: 41.875rem;
     padding: 0px 15px;
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {
@@ -1542,7 +1542,7 @@ hgroup {
       .m-wrapper--unpadded h4,
       .m-wrapper--unpadded h5,
       .m-wrapper--unpadded h6 {
-        padding: 0 6%; } }
+        padding: 0 5%; } }
     @media (min-width: 921px) {
       .m-wrapper--unpadded > p,
       .m-wrapper--unpadded video,
