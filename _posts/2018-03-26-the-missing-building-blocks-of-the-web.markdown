@@ -21,7 +21,7 @@ Anil Dash on [the early promise of the web](https://medium.com/@anildash/the-mis
 > 
 > These days, View Source is in bad shape. Most mobile devices don’t support the feature at all. And even on the desktop, the feature gets buried away, or hidden unless you enable special developer settings. 
 
-It’s interesting to note after reading this that it’s clear at one point or another we all agreed that browsers should be “read-by-default.” The first thing you do in a browser is search for something or input a URL at the top. “View source” effectively just flips a browser into edit mode but dang what a half-hearted write mode it is. Anyway, I also really liked this point that Anil makes, too:
+It’s interesting to note after reading this that it’s clear at one point or another we all agreed that browsers should be “read-by-default.” The first thing you do in a browser is search for something or input a URL at the top. “View source” effectively just flips a browser into edit mode but dang what a half-hearted write mode it is. Anyway, I also really like this point that Anil makes here about taking tiny chunks of one website and placing it into another:
 
 > You’re supposed to be able to include other websites (or parts of other websites) in your web pages. Sure, we can do some of that — you’ve seen plenty of YouTube videos embedded inside articles that you’ve read, and as media sites pivot to video, that’s only gotten more commonplace.
 > 
