@@ -5,6 +5,7 @@ categories:
 - links
 tags:
 - reading
+- web design
 extract: "“Old-timers might remember when Flash ruled the web, and people made simple
   games or interactive art pieces that would then get shared on blogs or other media
   sites. Except for the occasional SoundCloud song on someone’s Tumblr, it’s a grim
