@@ -3,6 +3,7 @@ title: Demisemihemidemisemiquaver
 date: 2018-03-26 21:58:00 -07:00
 tags:
 - Joanna Jao
+extract: Words fail to do the sound justice.
 ---
 
 I think, of all things, I miss her voice the most. 
