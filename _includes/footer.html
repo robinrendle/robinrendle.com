@@ -24,6 +24,14 @@
     </div>
     <script>
     (function() {
+      navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister()
+        }
+      })
+    })();
+
+    (function() {
 	var Dropdown = (function() {
 		var Menu = {},
 			menuElem = document.querySelector(".m-banner__menu"),
