@@ -55,7 +55,7 @@
 			line-height: 1.5;
 		}
 		@include media(">large") {
-			@include remCalc(font-size, 21);
+			@include remCalc(font-size, 20);
 			line-height: 1.6;
 		}
 
