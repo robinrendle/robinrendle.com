@@ -14,8 +14,8 @@ I’m not a fan of Wes Anderson movies. I mean I love the style and the songs an
 
 During those moments I’ve always dreamt that someone would jump in and ask Wes to be 10% less Wes; as fantastical and as unrealistic as the worlds can be, the dialogue and plot always needs to be realistic and logical. It doesn’t matter if you’re Bill Murray or a very handsome fox.
 
-But watching [Isle of Dogs](https://letterboxd.com/film/isle-of-dogs-2018/) last night at the Alamo was the first time where I felt that the whole damn thing worked. All of the parts fit; the graphic design was outstanding, the music was lovely. But most importantly, the characters all had motivations and narrative arcs and all the things that I crave from a film.
+But watching [Isle of Dogs](https://letterboxd.com/film/isle-of-dogs-2018/) last night at the Alamo was the first time where I felt that the whole damn thing worked. All of the parts fit; the graphic design was outstanding, the music was lovely. But most importantly, the characters all had motivations and narrative arcs and jokes and everything I crave from a film.
 
-And it was wondrous.
+It was wondrous.
 
 ![isle-of-dogs.jpg](/uploads/isle-of-dogs.jpg)
