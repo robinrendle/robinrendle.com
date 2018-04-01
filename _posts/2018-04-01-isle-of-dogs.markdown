@@ -16,6 +16,6 @@ During those moments I’ve always dreamt that someone would jump in and ask Wes
 
 But watching [Isle of Dogs](https://letterboxd.com/film/isle-of-dogs-2018/) last night at the Alamo was the first time where I felt that the whole damn thing worked. All of the parts fit; the graphic design was outstanding, the music was lovely. But most importantly, the characters all had motivations and narrative arcs and jokes and everything I crave from a film.
 
-It was wondrous.
+It was simply wondrous.
 
 ![isle-of-dogs.jpg](/uploads/isle-of-dogs.jpg)
