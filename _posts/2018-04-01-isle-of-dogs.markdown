@@ -17,3 +17,5 @@ I always wanted someone to jump in at those moments during the editing process a
 Watching [Isle of Dogs](https://letterboxd.com/film/isle-of-dogs-2018/) last night at the Alamo though was the first time where I felt that the whole damn thing worked. All of the parts fit; the graphic design was outstanding, the music was lovely. But most importantly, the characters all had motivations and narrative arcs and all the things that I crave from a film.
 
 And it was wondrous.
+
+![wes-anderson-full-trailer-animation-itsnicethat-5.jpg](/uploads/wes-anderson-full-trailer-animation-itsnicethat-5.jpg)
