@@ -18,4 +18,4 @@ Watching [Isle of Dogs](https://letterboxd.com/film/isle-of-dogs-2018/) last nig
 
 And it was wondrous.
 
-![wes-anderson-full-trailer-animation-itsnicethat-5.jpg](/uploads/wes-anderson-full-trailer-animation-itsnicethat-5.jpg)
+![isle-of-dogs.jpg](/uploads/isle-of-dogs.jpg)
