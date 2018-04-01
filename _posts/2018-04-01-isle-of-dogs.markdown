@@ -5,6 +5,9 @@ tags:
 - dogs
 - wes anderson
 - movies
+extract: All of the parts fit; the graphic design was outstanding, the music was lovely.
+  But most importantly, the characters all had motivations and narrative arcs and
+  all the things that I crave from a film.
 ---
 
 I’m not a fan of Wes Anderson movies. I mean I love the style and the songs and the acting of course but the plot always falls a little short – characters will begin to say quirky things that aren’t in service of the narrative. At one point or another in the movie there’ll be a moment where everyone starts talking as if they’re reading the first sentence of a paragraph and hopping over the sentences in between to the next paragraph.
