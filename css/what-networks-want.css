@@ -699,28 +699,28 @@ h2 {
 
 .m-longform .h2, .m-longform
 h2 {
-  font-size: 19px;
-  font-size: 1.1875rem;
+  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 1.3; }
   @media (min-width: 621px) {
     .m-longform .h2, .m-longform
     h2 {
-      font-size: 22px;
-      font-size: 1.375rem;
+      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 1.3; } }
   @media (min-width: 921px) {
     .m-longform .h2, .m-longform
     h2 {
-      font-size: 28px;
-      font-size: 1.75rem; } }
+      font-size: 30px;
+      font-size: 1.875rem; } }
 
 .h3,
 .m-longform .h3,
 h3,
 .m-longform
 h3 {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.45; }
   @media (min-width: 621px) {
     .h3,
@@ -728,8 +728,8 @@ h3 {
     h3,
     .m-longform
     h3 {
-      font-size: 19px;
-      font-size: 1.1875rem;
+      font-size: 22px;
+      font-size: 1.375rem;
       line-height: 1.55; } }
   @media (min-width: 921px) {
     .h3,
@@ -737,8 +737,8 @@ h3 {
     h3,
     .m-longform
     h3 {
-      font-size: 22px;
-      font-size: 1.375rem;
+      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 1.45; } }
 
 .h4,
@@ -975,14 +975,17 @@ abbr {
 .m-longform:link,
 .m-longform a {
   color: #4d4d4d;
-  text-decoration: underline;
-  text-decoration-skip: ink;
-  transition: color 0.3s ease; }
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-image: linear-gradient(to bottom, #4d4d4d 40%, white 5%);
+  background-position: 0 1.04em;
+  background-repeat: repeat-x;
+  background-size: 8px 3px; }
   .m-longform:link:hover, .m-longform:link:focus,
   .m-longform a:hover,
   .m-longform a:focus {
-    text-decoration: underline #2a7af7;
-    color: #2a7af7; }
+    color: #2a7af7;
+    background-image: linear-gradient(to bottom, #2a7af7 40%, white 5%); }
 
 .m-longform > *:last-child {
   margin-bottom: 0; }

@@ -941,28 +941,28 @@ h2 {
 
 .m-longform .h2, .m-longform
 h2 {
-  font-size: 19px;
-  font-size: 1.1875rem;
+  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 1.3; }
   @media (min-width: 621px) {
     .m-longform .h2, .m-longform
     h2 {
-      font-size: 22px;
-      font-size: 1.375rem;
+      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 1.3; } }
   @media (min-width: 921px) {
     .m-longform .h2, .m-longform
     h2 {
-      font-size: 28px;
-      font-size: 1.75rem; } }
+      font-size: 30px;
+      font-size: 1.875rem; } }
 
 .h3,
 .m-longform .h3,
 h3,
 .m-longform
 h3 {
-  font-size: 18px;
-  font-size: 1.125rem;
+  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 1.45; }
   @media (min-width: 621px) {
     .h3,
@@ -970,8 +970,8 @@ h3 {
     h3,
     .m-longform
     h3 {
-      font-size: 19px;
-      font-size: 1.1875rem;
+      font-size: 22px;
+      font-size: 1.375rem;
       line-height: 1.55; } }
   @media (min-width: 921px) {
     .h3,
@@ -979,8 +979,8 @@ h3 {
     h3,
     .m-longform
     h3 {
-      font-size: 22px;
-      font-size: 1.375rem;
+      font-size: 24px;
+      font-size: 1.5rem;
       line-height: 1.45; } }
 
 .h4,
@@ -1218,14 +1218,17 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 .m-longform:link,
 .m-longform a {
   color: #4d4d4d;
-  text-decoration: underline;
-  text-decoration-skip: ink;
-  transition: color 0.3s ease; }
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-image: linear-gradient(to bottom, #4d4d4d 40%, white 5%);
+  background-position: 0 1.04em;
+  background-repeat: repeat-x;
+  background-size: 8px 3px; }
   .m-longform:link:hover, .m-longform:link:focus,
   .m-longform a:hover,
   .m-longform a:focus {
-    text-decoration: underline #2a7af7;
-    color: #2a7af7; }
+    color: #2a7af7;
+    background-image: linear-gradient(to bottom, #2a7af7 40%, white 5%); }
 
 .m-longform > *:last-child {
   margin-bottom: 0; }
@@ -1436,9 +1439,12 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
   .m-longform--small ul:link,
   .m-longform--small ul a {
     color: #4d4d4d;
-    text-decoration: underline;
-    text-decoration-skip: ink;
-    transition: color 0.3s ease; }
+    text-decoration: none;
+    transition: color 0.3s ease;
+    background-image: linear-gradient(to bottom, #4d4d4d 40%, white 5%);
+    background-position: 0 1.04em;
+    background-repeat: repeat-x;
+    background-size: 8px 3px; }
     .m-longform--small ol:link:hover, .m-longform--small ol:link:focus,
     .m-longform--small ol a:hover,
     .m-longform--small ol a:focus,
@@ -1450,8 +1456,8 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     .m-longform--small ul:link:focus,
     .m-longform--small ul a:hover,
     .m-longform--small ul a:focus {
-      text-decoration: underline #2a7af7;
-      color: #2a7af7; }
+      color: #2a7af7;
+      background-image: linear-gradient(to bottom, #2a7af7 40%, white 5%); }
   @media (min-width: 621px) {
     .m-longform--small ol,
     .m-longform--small p,
@@ -1495,8 +1501,8 @@ hgroup {
   margin: 0 auto;
   padding: 0px 15px;
   padding: 0rem 0.9375rem;
-  max-width: 670px;
-  max-width: 41.875rem; }
+  max-width: 700px;
+  max-width: 43.75rem; }
   .m-wrapper:after {
     content: "";
     display: table;
@@ -1527,8 +1533,8 @@ hgroup {
   .m-wrapper--unpadded h6 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 670px;
-    max-width: 41.875rem;
+    max-width: 700px;
+    max-width: 43.75rem;
     padding: 0px 15px;
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {

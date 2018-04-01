@@ -53,14 +53,17 @@ a {
 	&:link,
 	a {
 		color: $c-bodycopy;
-		text-decoration: underline;
-		text-decoration-skip: ink;
+		text-decoration: none;
 		transition: color 0.3s ease;
+		background-image: linear-gradient(to bottom, $c-bodycopy 40%, white 5%);
+	  background-position: 0 1.04em;
+	  background-repeat: repeat-x;
+	  background-size: 8px 3px;
 
 		&:hover,
 		&:focus {
-			text-decoration: underline $c-primary;
 			color: $c-primary;
+			background-image: linear-gradient(to bottom, $c-primary 40%, white 5%);
 		}
 	}
 }

@@ -56,14 +56,14 @@ h2 {
 	}
 
 	.m-longform & {
-		@include remCalc(font-size, 19);
+		@include remCalc(font-size, 22);
 		line-height: 1.3;
 		@include media(">medium") {
-			@include remCalc(font-size, 22);
+			@include remCalc(font-size, 24);
 			line-height: 1.3;
 		}
 		@include media(">large") {
-			@include remCalc(font-size, 28);
+			@include remCalc(font-size, 30);
 		}
 	}
 }
@@ -72,14 +72,14 @@ h2 {
 h3 {
 	&,
 	.m-longform & {
-		@include remCalc(font-size, 18);
+		@include remCalc(font-size, 20);
 		line-height: 1.45;
 		@include media(">medium") {
-			@include remCalc(font-size, 19);
+			@include remCalc(font-size, 22);
 			line-height: 1.55;
 		}
 		@include media(">large") {
-			@include remCalc(font-size, 22);
+			@include remCalc(font-size, 24);
 			line-height: 1.45;
 		}
 	}
