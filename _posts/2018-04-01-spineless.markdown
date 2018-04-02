@@ -6,6 +6,11 @@ categories:
 tags:
 - jellyfish
 - nature
+extract: 'Jellyfish question everything that we know about life; how they move, how
+  they see, how they eat, how they process information. Everything about them is alien
+  and beyond comprehension and sci-fi as all hell.
+
+'
 ---
 
 Over the past week or so I’ve been reading [Spineless](https://www.amazon.com/Spineless-Science-Jellyfish-Growing-Backbone/dp/0735211264) which is a book by [Juli Berwald](http://www.juliberwald.com/) all about jellyfish. I picked it up in the Haight only because of the design of its cover and the random paragraph that I flipped to – but that would be enough. I knew this book was going to be a lovely book about I topic I have zero interest or knowledge in.
