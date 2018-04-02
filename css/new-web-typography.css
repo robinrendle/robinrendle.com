@@ -1621,102 +1621,102 @@ p > code {
           padding-right: 3px; } }
 
 .interpolate-1 {
-  -webkit-animation: fading 5880ms ease alternate infinite;
-          animation: fading 5880ms ease alternate infinite;
+  -webkit-animation: fading 5867ms ease alternate infinite;
+          animation: fading 5867ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 250;
-  stroke-dashoffset: 250;
+  stroke-dasharray: 268;
+  stroke-dashoffset: 268;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-2 {
-  -webkit-animation: fading 5983ms ease alternate infinite;
-          animation: fading 5983ms ease alternate infinite;
+  -webkit-animation: fading 3917ms ease alternate infinite;
+          animation: fading 3917ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 203;
-  stroke-dashoffset: 203;
+  stroke-dasharray: 182;
+  stroke-dashoffset: 182;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-3 {
-  -webkit-animation: fading 3045ms ease alternate infinite;
-          animation: fading 3045ms ease alternate infinite;
+  -webkit-animation: fading 5949ms ease alternate infinite;
+          animation: fading 5949ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 437;
-  stroke-dashoffset: 437;
+  stroke-dasharray: 802;
+  stroke-dashoffset: 802;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-4 {
-  -webkit-animation: fading 4206ms ease alternate infinite;
-          animation: fading 4206ms ease alternate infinite;
+  -webkit-animation: fading 3112ms ease alternate infinite;
+          animation: fading 3112ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 195;
-  stroke-dashoffset: 195;
+  stroke-dasharray: 676;
+  stroke-dashoffset: 676;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-5 {
-  -webkit-animation: fading 3023ms ease alternate infinite;
-          animation: fading 3023ms ease alternate infinite;
+  -webkit-animation: fading 3652ms ease alternate infinite;
+          animation: fading 3652ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 369;
-  stroke-dashoffset: 369;
+  stroke-dasharray: 799;
+  stroke-dashoffset: 799;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-6 {
-  -webkit-animation: fading 5945ms ease alternate infinite;
-          animation: fading 5945ms ease alternate infinite;
+  -webkit-animation: fading 3189ms ease alternate infinite;
+          animation: fading 3189ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 673;
-  stroke-dashoffset: 673;
+  stroke-dasharray: 621;
+  stroke-dashoffset: 621;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-7 {
-  -webkit-animation: fading 3315ms ease alternate infinite;
-          animation: fading 3315ms ease alternate infinite;
+  -webkit-animation: fading 5323ms ease alternate infinite;
+          animation: fading 5323ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 334;
-  stroke-dashoffset: 334;
+  stroke-dasharray: 124;
+  stroke-dashoffset: 124;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-8 {
-  -webkit-animation: fading 5862ms ease alternate infinite;
-          animation: fading 5862ms ease alternate infinite;
+  -webkit-animation: fading 3289ms ease alternate infinite;
+          animation: fading 3289ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 891;
-  stroke-dashoffset: 891;
+  stroke-dasharray: 90;
+  stroke-dashoffset: 90;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-9 {
-  -webkit-animation: fading 4706ms ease alternate infinite;
-          animation: fading 4706ms ease alternate infinite;
+  -webkit-animation: fading 4222ms ease alternate infinite;
+          animation: fading 4222ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 585;
-  stroke-dashoffset: 585;
+  stroke-dasharray: 192;
+  stroke-dashoffset: 192;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-10 {
-  -webkit-animation: fading 4438ms ease alternate infinite;
-          animation: fading 4438ms ease alternate infinite;
+  -webkit-animation: fading 3805ms ease alternate infinite;
+          animation: fading 3805ms ease alternate infinite;
   -webkit-transform: 1.2;
           transform: 1.2;
-  stroke-dasharray: 229;
-  stroke-dashoffset: 229;
+  stroke-dasharray: 119;
+  stroke-dashoffset: 119;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
