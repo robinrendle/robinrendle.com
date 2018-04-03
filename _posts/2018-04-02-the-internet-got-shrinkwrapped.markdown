@@ -11,7 +11,7 @@ I loved one of the recent episodes of the podcast *Track Changes* about [how the
 
 If you’re a business: a few clicks here, a few clicks there and boom! You are now the proprietor of a fancy website for a couple of bucks a month. If you’re a product designer: download this framework, click a few buttons, and voilà! You have yourself a portfolio. If you’re a writer: go to this webpage, input your email address and forever be cursed with an inbox of incoherent spam. You now have an audience numbering in the millions.
 
-Rich Ziade, one of the co-hosts of the show, described our current situation like this:
+Rich Ziade, one of the co-hosts of the show, described the current state of the web like this:
 
 > It’s over. The notion of having to do the heavy-lifting is gone. Everything is shrinkwrapped.
 
