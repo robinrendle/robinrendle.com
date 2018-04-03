@@ -19,7 +19,7 @@ I think this is both terrible and extraordinary. First, the terrible: the fact t
 
 But, secondly, the extraordinary thing: I don’t think everyone needs to learn how a website works under the hood. Only a small bunch of nerds like me are ever going to go through the hassle of building their own space on the web and that doesn’t mean other folks shouldn’t be able to communicate because of a technical barrier. But web design doesn’t have to be difficult. We’ve chosen to make the web read only — in the original spec a webpage was meant to be edited as easily as a Wikipedia document. 
 
-We chose to build the web the way we did. But that doesn’t mean we have to live with it. In other words, the Internet might have gotten shrinkwrapped, but we can find ways to unshrink it. This is sort of like what people don’t really seem to grasp about government – we *are* the government. Voting and protesting are the ways in which we can change things. Government is only bad because we made it bad, we let it disintegrate.
+We chose to build the web the way we did. But that doesn’t mean we have to live with it. In other words, the Internet might have gotten shrinkwrapped, but we can find ways to unshrink it. This is sort of like what people don’t really seem to grasp about government – we *are* the government. Voting and protesting are the ways in which we can change things. Government is only bad because we made it bad, we let it disintegrate. The government is only as good as we make it.
 
 And the same is true of the web. 
 
