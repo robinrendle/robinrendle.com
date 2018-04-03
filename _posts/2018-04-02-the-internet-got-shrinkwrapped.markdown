@@ -7,7 +7,7 @@ extract: "“It’s over. The notion of having to do the heavy-lifting is gone. 
   is shrinkwrapped.”"
 ---
 
-I loved this episode of Track Changes about [how the web has changed](https://soundcloud.com/postlighttrackchanges/the-internet-got-shrinkwrapped) and, namely, how the construction of ideas and work has become a commercialized experienced. Okay, that was a clunky sentence. But what I mean is that not as many folks are building their own websites and who even needs to learn <abbr title='Hypertext markup language'>HTML</abbr> any more if you’re a business or even if you’re a web designer? 
+I loved one of the more recent episodes of Track Changes about [how the web has changed](https://soundcloud.com/postlighttrackchanges/the-internet-got-shrinkwrapped) and, namely, how the construction of ideas and work has become a commercialized experienced. Okay, that was a clunky sentence. But what I mean is that not as many folks are building their own websites and who even needs to learn <abbr title='Hypertext markup language'>HTML</abbr> any more if you’re a business or even if you’re a web designer? 
 
 A few clicks here, a few clicks there and boom! You are now the proprietor of a fancy website with a couple of bucks a month. One of the co-hosts of the show, Rich Ziade, said it like this:
 
