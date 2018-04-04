@@ -103,6 +103,7 @@ h5 {
 
 		a {
 			text-decoration: none;
+			background-image: none;
 			font-size: 14px;
 			background-color: lighten($home-theme, 36);
 			padding: 3px 4px 5px 5px;
@@ -209,16 +210,17 @@ video {
 		li {
 			font-family: $sans;
 			border: 1px solid transparent;
+
 			&:hover {
 				border-top: 1px solid lighten($home-theme, 35);
 				border-bottom: 1px solid lighten($home-theme, 35);
-
 				h3 {
 					color: $home-theme;
 				}
 
 				a {
 					color: $home-theme;
+					background-image: none;
 					background-color: lighten($home-theme, 36);
 					padding: 20px 20px 20px;
 					text-decoration: none;
@@ -259,6 +261,7 @@ video {
 				transition: all 0.3s ease;
 				font-size: 18px;
 				text-decoration: none;
+				background-image: none;
 				@include typeface("Display");
 
 				@include media(">medium") {

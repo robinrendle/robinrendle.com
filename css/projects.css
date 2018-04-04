@@ -2481,6 +2481,7 @@ h5 {
     margin-top: 10px; }
     .p-intro .m-longform ul li a {
       text-decoration: none;
+      background-image: none;
       font-size: 14px;
       background-color: #fef7f7;
       padding: 3px 4px 5px 5px;
@@ -2566,6 +2567,7 @@ video {
           color: #e95554; }
         .p-writing-list ul li:hover a {
           color: #e95554;
+          background-image: none;
           background-color: #fef7f7;
           padding: 20px 20px 20px;
           text-decoration: none; }
@@ -2594,6 +2596,7 @@ video {
         transition: all 0.3s ease;
         font-size: 18px;
         text-decoration: none;
+        background-image: none;
         font-weight: 600;
         font-family: "Caponi Display", Georgia, serif; }
         @media (min-width: 621px) {
