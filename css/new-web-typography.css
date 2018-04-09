@@ -999,12 +999,10 @@ svg {
   @media (min-width: 1101px) {
     .title {
       height: 90vh;
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-align: end;
-          -ms-flex-align: end;
-              align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
       min-height: 600px;
       max-height: 700px; } }
 
@@ -1296,13 +1294,10 @@ figure img {
     clear: both; }
   @media (min-width: 921px) {
     .figure--goethe {
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; } }
+      -ms-flex-direction: column;
+          flex-direction: column; } }
   .figure--goethe .goethe {
     width: 100%;
     max-width: 300px;
@@ -1322,12 +1317,10 @@ figure img {
     @media (min-width: 921px) {
       .figure--goethe .figure--full__content {
         width: 100%;
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
         max-width: 1250px;
         margin: 0 auto; } }
   @media (max-width: 919px) {
@@ -1529,7 +1522,6 @@ p > code {
 
 @media (min-width: 921px) {
   .flex-figure {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex; } }
 
@@ -1550,15 +1542,12 @@ p > code {
   padding: 30px; }
   @media (min-width: 921px) {
     .flex-figure__tschichold {
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start;
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: start;
+          align-items: flex-start;
       padding: 40px 0 40px 0;
       margin: 0; } }
   .flex-figure__tschichold img {
@@ -1621,117 +1610,84 @@ p > code {
           padding-right: 3px; } }
 
 .interpolate-1 {
-  -webkit-animation: fading 5474ms ease alternate infinite;
-          animation: fading 5474ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 390;
-  stroke-dashoffset: 390;
+  animation: fading 5767ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-2 {
-  -webkit-animation: fading 5231ms ease alternate infinite;
-          animation: fading 5231ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 346;
-  stroke-dashoffset: 346;
+  animation: fading 5422ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 425;
+  stroke-dashoffset: 425;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-3 {
-  -webkit-animation: fading 5115ms ease alternate infinite;
-          animation: fading 5115ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 215;
-  stroke-dashoffset: 215;
+  animation: fading 5770ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 671;
+  stroke-dashoffset: 671;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-4 {
-  -webkit-animation: fading 5962ms ease alternate infinite;
-          animation: fading 5962ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 225;
-  stroke-dashoffset: 225;
+  animation: fading 5101ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 235;
+  stroke-dashoffset: 235;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-5 {
-  -webkit-animation: fading 5553ms ease alternate infinite;
-          animation: fading 5553ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 289;
-  stroke-dashoffset: 289;
+  animation: fading 5470ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 154;
+  stroke-dashoffset: 154;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-6 {
-  -webkit-animation: fading 3795ms ease alternate infinite;
-          animation: fading 3795ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 361;
-  stroke-dashoffset: 361;
+  animation: fading 4331ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 474;
+  stroke-dashoffset: 474;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-7 {
-  -webkit-animation: fading 5603ms ease alternate infinite;
-          animation: fading 5603ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 510;
-  stroke-dashoffset: 510;
+  animation: fading 5747ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 428;
+  stroke-dashoffset: 428;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-8 {
-  -webkit-animation: fading 3191ms ease alternate infinite;
-          animation: fading 3191ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 630;
-  stroke-dashoffset: 630;
+  animation: fading 5887ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 597;
+  stroke-dashoffset: 597;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-9 {
-  -webkit-animation: fading 3965ms ease alternate infinite;
-          animation: fading 3965ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 497;
-  stroke-dashoffset: 497;
+  animation: fading 4936ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 356;
+  stroke-dashoffset: 356;
   will-change: transform;
   -webkit-transform: translateY(0); }
 
 .interpolate-10 {
-  -webkit-animation: fading 5782ms ease alternate infinite;
-          animation: fading 5782ms ease alternate infinite;
-  -webkit-transform: 1.2;
-          transform: 1.2;
-  stroke-dasharray: 598;
-  stroke-dashoffset: 598;
+  animation: fading 4587ms ease alternate infinite;
+  transform: 1.2;
+  stroke-dasharray: 887;
+  stroke-dashoffset: 887;
   will-change: transform;
   -webkit-transform: translateY(0); }
-
-@-webkit-keyframes fading {
-  0% {
-    opacity: 1;
-    stroke: rgba(0, 0, 0, 0.1);
-    fill: #319f90; }
-  100% {
-    opacity: .4;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    stroke: #319f90;
-    fill: #319f90;
-    stroke-dashoffset: 0; } }
 
 @keyframes fading {
   0% {
@@ -1740,8 +1696,7 @@ p > code {
     fill: #319f90; }
   100% {
     opacity: .4;
-    -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     stroke: #319f90;
     fill: #319f90;
     stroke-dashoffset: 0; } }
@@ -2008,12 +1963,10 @@ a[rev="footnote"] {
   padding: 0 3px; }
   @media (min-width: 921px) {
     .about__wrapper {
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
+      -ms-flex-pack: center;
+          justify-content: center; }
       .about__wrapper .about__item {
         max-width: 700px !important;
         padding: 20px;

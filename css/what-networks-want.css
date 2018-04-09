@@ -1200,12 +1200,10 @@ abbr {
       padding: 0; } }
 
 .box {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -ms-flex-align: stretch;
+      align-items: stretch;
   background-color: #111; }
 
 .box__unit--image {
@@ -1223,13 +1221,10 @@ abbr {
 
 .box__unit--bottom {
   padding: 15px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   position: relative; }
   .box__unit--bottom small {
     position: absolute;

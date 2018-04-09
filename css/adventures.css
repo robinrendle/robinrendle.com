@@ -933,13 +933,10 @@ body {
 
 .display-img {
   margin: 0;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+      flex-direction: row;
   overflow: hidden;
   max-width: 100%;
   min-height: 400px;
@@ -995,7 +992,6 @@ a {
   @media (min-width: 921px) {
     .title {
       padding: 30px 0;
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       border-left: 1px solid black;
@@ -1123,7 +1119,6 @@ input {
 
 @media (min-width: 921px) {
   .content-box {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex; } }
 
@@ -1136,7 +1131,6 @@ input {
     width: 35vw; } }
 
 .flex {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
@@ -1150,6 +1144,5 @@ input {
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc; }
   .archive-post .flex {
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline; }
+    -ms-flex-align: baseline;
+        align-items: baseline; }

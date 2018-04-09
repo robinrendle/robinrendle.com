@@ -801,7 +801,6 @@ a {
   @media (min-width: 921px) {
     .title {
       height: 90vh;
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       min-height: 600px;
@@ -824,7 +823,6 @@ a {
   @media (min-width: 921px) {
     .title__img {
       background-repeat: no-repeat;
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       width: 30%;
@@ -850,15 +848,12 @@ a {
            object-position: 100% 0; } }
 
 .title__text {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  display: -webkit-box;
+  -ms-flex: 1;
+      flex: 1;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   padding: 30px 15px; }
   @media (min-width: 921px) {
     .title__text {
@@ -942,7 +937,6 @@ p sup {
 
 @media (min-width: 921px) {
   .flex--lg {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex; } }
 
@@ -1132,12 +1126,10 @@ figcaption p,
   margin-right: auto; }
   @media (min-width: 921px) {
     .reader-cards {
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+      -ms-flex-pack: justify;
+          justify-content: space-between; } }
   .reader-cards h3 {
     color: #e95555;
     margin-bottom: 0; }
@@ -1181,18 +1173,6 @@ figcaption p,
   max-width: 1000px;
   margin: 0 auto; }
 
-@-webkit-keyframes flicker {
-  0% {
-    opacity: 1; }
-  10% {
-    opacity: 0; }
-  65% {
-    opacity: 1; }
-  80% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
 @keyframes flicker {
   0% {
     opacity: 1; }
@@ -1206,12 +1186,7 @@ figcaption p,
     opacity: 1; } }
 
 #Network {
-  -webkit-animation: 4s flicker alternate infinite;
-          animation: 4s flicker alternate infinite; }
-
-@-webkit-keyframes dash {
-  to {
-    stroke-dashoffset: 300; } }
+  animation: 4s flicker alternate infinite; }
 
 @keyframes dash {
   to {
@@ -1224,14 +1199,12 @@ figcaption p,
 #Line-Copy {
   stroke-dasharray: 2;
   stroke-dashoffset: 2;
-  -webkit-animation: dash 25s linear reverse infinite;
-          animation: dash 25s linear reverse infinite; }
+  animation: dash 25s linear reverse infinite; }
 
 #Line-Copy-2 {
   stroke-dasharray: 2;
   stroke-dashoffset: 2;
-  -webkit-animation: dash 25s linear reverse infinite;
-          animation: dash 25s linear reverse infinite; }
+  animation: dash 25s linear reverse infinite; }
 
 .u-text--white {
   color: #eee !important; }
@@ -1263,12 +1236,10 @@ figcaption p,
   padding: 0 3px; }
   @media (min-width: 921px) {
     .about__wrapper {
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
+      -ms-flex-pack: center;
+          justify-content: center; }
       .about__wrapper .about__item {
         max-width: 700px !important;
         padding: 20px;

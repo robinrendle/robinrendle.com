@@ -767,22 +767,18 @@ body {
   -webkit-font-feature-settings: "liga" 1 !important;
      -moz-font-feature-settings: "liga" 1 !important;
           font-feature-settings: "liga" 1 !important;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  -ms-flex-direction: column;
+      flex-direction: column; }
   @media (min-width: 921px) {
     body {
       border-top: none; } }
 
 .main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+  -ms-flex: 1;
+      flex: 1; }
 
 cite {
   font-weight: 400;
@@ -1167,14 +1163,12 @@ code {
 
 @media (min-width: 621px) {
   .o-multi {
-    -webkit-column-count: 2;
-       -moz-column-count: 2;
-            column-count: 2; } }
+    -moz-column-count: 2;
+         column-count: 2; } }
 
 .o-multi__item {
-  -webkit-column-break-inside: avoid;
-     page-break-inside: avoid;
-          break-inside: avoid; }
+  page-break-inside: avoid;
+       break-inside: avoid; }
 
 /*doc
 ---
@@ -1708,12 +1702,10 @@ hgroup {
     .m-banner {
       border-bottom: 1px solid white; }
       .m-banner .m-wrapper {
-        display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; } }
+        -ms-flex-align: center;
+            align-items: center; } }
 
 .m-banner--dark {
   background-color: #222;
@@ -1724,15 +1716,12 @@ hgroup {
   font-weight: normal;
   font-variant: small-caps;
   font-family: "Caponi Text", Georgia, serif;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   background-color: #0855cd;
   color: white;
   transition: background-color 0.3s ease;
@@ -1767,21 +1756,11 @@ hgroup {
     .m-banner__menu {
       display: none; } }
 
-@-webkit-keyframes push {
-  0% {
-    -webkit-transform: translateX(-2000px);
-            transform: translateX(-2000px); }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
-
 @keyframes push {
   0% {
-    -webkit-transform: translateX(-2000px);
-            transform: translateX(-2000px); }
+    transform: translateX(-2000px); }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0); } }
+    transform: translateY(0); } }
 
 .m-banner__nav {
   display: inline-block;
@@ -1810,8 +1789,7 @@ hgroup {
     .js .is--active .m-banner__nav {
       padding: 0;
       display: block;
-      -webkit-animation: push 0.4s ease;
-              animation: push 0.4s ease;
+      animation: push 0.4s ease;
       width: 100%;
       float: left;
       width: 100%; } }
@@ -1851,12 +1829,10 @@ hgroup {
     .m-footer {
       margin-top: 100px;
       padding: 20px 30px;
-      display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+      -ms-flex-pack: justify;
+          justify-content: space-between; } }
 
 .m-footer__nav {
   text-transform: lowercase;
@@ -1877,12 +1853,10 @@ hgroup {
           filter: brightness(40%) grayscale(100%); }
 
 .form {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   position: relative;
   padding: 0;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   max-width: 100%; }
@@ -1901,9 +1875,8 @@ hgroup {
   .form input,
   .form input[type="submit"] {
     height: 40px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    -ms-flex-align: center;
+        align-items: center; }
 
 .form-label {
   text-transform: lowercase;
@@ -2019,20 +1992,15 @@ section[role="main"] {
 .m-heading {
   padding-top: 50px;
   padding-bottom: 40px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
   max-width: 900px;
   margin: 0 auto;
   text-align: left; }
@@ -2067,7 +2035,6 @@ section[role="main"] {
   display: inline-block; }
 
 .flex {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
@@ -2077,30 +2044,18 @@ section[role="main"] {
   text-overflow: ellipsis; }
 
 .flex-align-baseline {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline; }
+  -ms-flex-align: baseline;
+      align-items: baseline; }
 
 .justify-space-between {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-
-@-webkit-keyframes wiggle {
-  0% {
-    -webkit-transform: translate(30px, 20px);
-            transform: translate(30px, 20px); }
-  100% {
-    -webkit-transform: translate(0, -20px);
-            transform: translate(0, -20px); } }
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
 
 @keyframes wiggle {
   0% {
-    -webkit-transform: translate(30px, 20px);
-            transform: translate(30px, 20px); }
+    transform: translate(30px, 20px); }
   100% {
-    -webkit-transform: translate(0, -20px);
-            transform: translate(0, -20px); } }
+    transform: translate(0, -20px); } }
 
 .about-image {
   position: relative;
@@ -2117,8 +2072,7 @@ section[role="main"] {
   @media (min-width: 621px) {
     .about-image:after, .about-image:before {
       z-index: -1;
-      -webkit-animation: wiggle 10s ease infinite alternate;
-              animation: wiggle 10s ease infinite alternate;
+      animation: wiggle 10s ease infinite alternate;
       content: "";
       background-color: #3d5599;
       mix-blend-mode: hard-light;
@@ -2131,8 +2085,7 @@ section[role="main"] {
   .about-image:after {
     z-index: 2;
     background: transparent;
-    -webkit-animation: wiggle 10s ease infinite alternate-reverse;
-            animation: wiggle 10s ease infinite alternate-reverse;
+    animation: wiggle 10s ease infinite alternate-reverse;
     border: 3px solid #3d5599;
     opacity: 1; }
 
@@ -2918,15 +2871,12 @@ a:focus {
   display: none; }
 
 .timeline-header {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
   position: -webkit-sticky;
   position: sticky;
   background-color: #f2f2f2;
@@ -2936,12 +2886,10 @@ a:focus {
   border-bottom: 1px solid #dddddd; }
 
 .timeline-title {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   position: -webkit-sticky;
   position: sticky; }
 
@@ -2973,15 +2921,12 @@ img.timeline-img {
   font-family: "Caponi Text", Georgia, serif;
   background-color: #333;
   border-radius: 20px;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   width: 28px;
   height: 28px;
   text-align: center;

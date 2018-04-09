@@ -261,30 +261,14 @@ abbr, span {
     float: right;
     width: 30%; } }
 
-@-webkit-keyframes appearDown {
-  0 {
-    opacity: 0;
-    -webkit-transform: translateY(-1000px);
-    transform: translateY(-1000px); }
-  60% {
-    opacity: 1;
-    -webkit-transform: translateY(15px);
-    transform: translateY(15px); }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0); } }
-
 @keyframes appearDown {
   0 {
     opacity: 0;
-    -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px); }
   60% {
     opacity: 1;
-    -webkit-transform: translateY(15px);
     transform: translateY(15px); }
   100% {
-    -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
 * {
@@ -304,14 +288,11 @@ body {
   color: #343434;
   width: 100%;
   font-size: 100%;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  -ms-flex-direction: column;
+      flex-direction: column; }
 
 @media (min-width: 28.125em) {
   body {
@@ -337,9 +318,8 @@ body {
     line-height: 1.65; } }
 
 .main {
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1; }
+  -ms-flex: 1;
+      flex: 1; }
 
 h1, h2, h3, h4, h5, h6 {
   width: 100%; }
@@ -920,7 +900,6 @@ ol ol, ol ul {
 .list--display {
   text-transform: uppercase;
   -moz-column-count: 2;
-  -webkit-column-count: 2;
   column-count: 2; }
 
 @media (min-width: 36.25em) {
@@ -930,7 +909,6 @@ ol ol, ol ul {
     margin-left: 0;
     margin-right: 0;
     -moz-column-count: 3;
-    -webkit-column-count: 3;
     column-count: 3; } }
 
 .list--display > li {
@@ -1147,7 +1125,6 @@ input[type="email"]:focus {
   color: #777; }
 
 .form--subscribe {
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
@@ -1478,7 +1455,6 @@ input[type="email"]:focus {
     -webkit-column-gap: 0; }
   .island--meta + .island--meta ul li {
     white-space: nowrap;
-    -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
          break-inside: avoid-column; } }
 
@@ -1851,9 +1827,7 @@ h3[data-icon-before="github"]:before {
 
 .js .banner__nav.menu-active {
   display: block;
-  -webkit-animation: appearDown .6s 1;
   animation: appearDown .6s 1;
-  -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards; }
 
 .banner__nav > li {
@@ -1990,7 +1964,6 @@ h3[data-icon-before="github"]:before {
   padding-right: 0; }
 
 .custom-post--lexicon__hero--reverse > img {
-  -webkit-transform: scaleX(-1);
   transform: scaleX(-1); }
 
 .footer {
