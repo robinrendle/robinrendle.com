@@ -68,6 +68,11 @@
 	float: right;
 	color: white;
 	padding-top: 13px;
+	outline: none;
+
+	&:focus {
+		background-color: transparent;
+	}
 
 	.no-js & {
 		display: none;

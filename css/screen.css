@@ -1746,7 +1746,10 @@ hgroup {
   display: block;
   float: right;
   color: white;
-  padding-top: 13px; }
+  padding-top: 13px;
+  outline: none; }
+  .m-banner__menu:focus {
+    background-color: transparent; }
   .no-js .m-banner__menu {
     display: none; }
   @media (max-width: 619px) {
