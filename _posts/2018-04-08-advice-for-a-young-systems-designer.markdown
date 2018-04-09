@@ -14,7 +14,7 @@ Here’s some advice for designers that are interested in front-end development,
 2. Don’t get preachy. No-one likes it when you’re giving a sermon.
 3. Team morale can be a huge problem if you keep sounding like a jerk so, you know, you should probably stop doing that.
 3. Patience is the only virtue that counts because making even small adjustments to a large codebase can take weeks or even months.
-4. When you start a new project, start a spreadsheet.
+4. When you start a new project always start a new spreadsheet.
 5. Don’t be shy: advocate for your design system like there’s no tomorrow. 
 6. Run workshops, 1x1s and presentations. Design systems work involves educating, mentoring, collaborating and making a lot of noise about what has already been built. It’s not about just building something but about building a culture of relearning past lessons and experiments.
 7. Find everyone in the engineering team that’s even remotely interested in working on a styleguide and cling onto them for dear life.
