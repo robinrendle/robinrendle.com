@@ -1887,7 +1887,7 @@ hgroup {
   font-variant: small-caps;
   font-family: "Caponi Text", Georgia, serif;
   position: absolute;
-  color: #2a7af7;
+  color: #888;
   top: -20px;
   left: 0;
   font-size: 16px;
@@ -1903,12 +1903,12 @@ hgroup {
   width: 90%;
   transition: background-color 0.3s ease;
   background-color: white;
-  border: 1px solid #2a7af7;
+  border: 1px solid #aaa;
   border-radius: 0 !important; }
   .form-input:hover {
     cursor: pointer; }
   .form-input:focus {
-    background-color: #fffff7;
+    border: 1px solid #2a7af7;
     color: #333;
     outline: none; }
 
@@ -1918,7 +1918,7 @@ hgroup {
   border: none;
   width: 30%;
   transition: background-color 0.3s ease;
-  background-color: #2a7af7;
+  background-color: #555;
   color: #eee;
   outline: none;
   font-size: 0.9em;
@@ -1927,15 +1927,11 @@ hgroup {
   font-variant: small-caps;
   font-family: "Caponi Text", Georgia, serif;
   text-transform: lowercase; }
-  .form-submit:hover {
+  .form-submit:hover, .form-submit:focus {
     outline: none;
     border-right: none;
     border-top: none;
-    background-color: #085fe6; }
-  .form-submit:focus {
-    outline: 1px solid #ffff5e !important;
-    background-color: rgba(255, 255, 196, 0.4);
-    color: #444; }
+    background-color: #2a7af7; }
 
 @font-face {
   font-family: "Caponi Display";

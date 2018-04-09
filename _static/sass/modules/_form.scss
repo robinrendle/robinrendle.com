@@ -36,7 +36,7 @@
 .form-label {
 	@include typeface("Small caps");
 	position: absolute;
-	color: $c-primary;
+	color: #888;
 	top: -20px;
 	left: 0;
 	font-size: 16px;
@@ -53,7 +53,7 @@
 	width: 90%;
 	transition: background-color 0.3s ease;
 	background-color: white;
-	border: 1px solid $c-primary;
+	border: 1px solid #aaa;
 	border-radius: 0 !important;
 
 	&:hover {
@@ -61,7 +61,7 @@
 	}
 
 	&:focus {
-		background-color: lighten($c-highlight, 10);
+		border: 1px solid $c-primary;
 		color: #333;
 		outline: none;
 	}
@@ -73,23 +73,17 @@
 	border: none;
 	width: 30%;
 	transition: background-color 0.3s ease;
-	background-color: $c-primary;
+	background-color: #555;
 	color: #eee;
 	outline: none;
 	font-size: 0.9em;
 	@include typeface("Small caps");
 	text-transform: lowercase;
 
-	&:hover {
+	&:hover, &:focus {
 		outline: none;
 		border-right: none;
 		border-top: none;
-		background-color: darken($c-primary, 10);
-	}
-
-	&:focus {
-		outline: 1px solid darken($c-highlight, 20) !important;
-		background-color: rgba($c-highlight, 0.4);
-		color: #444;
+		background-color: $c-primary;
 	}
 }
