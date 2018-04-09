@@ -17,5 +17,5 @@ Here’s some advice for designers that are interested in front-end development,
 4. When you start a new project always start a new spreadsheet.
 5. Don’t be shy: advocate for your design system like there’s no tomorrow. 
 6. Run workshops, 1x1s and presentations. Design systems work involves educating, mentoring, collaborating and making a lot of noise about what has already been built. It’s so much more than code: this job is about building a culture of relearning past lessons and long-gone experiments.
-7. Find everyone in the engineering team that’s even remotely interested in working on a styleguide and cling onto them for dear life.
+7. Find everyone in the engineering team that’s even remotely interested in working on your styleguide and cling onto them for dear life.
 8. Think about the designer experience from the beginning to the end and build tools for them. Oh and don’t get in their way; care for them as much as you might a customer or user of the app.
