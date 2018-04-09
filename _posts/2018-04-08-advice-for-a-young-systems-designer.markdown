@@ -10,7 +10,7 @@ extract: There are no heroes or parades for you in this line of work.
 
 Here’s some advice for designers that are interested in front-end development, product design and systems design work (or in other words, designers that do design for other designers): 
 
-1. There are no heroes or parades for you in this line of work.
+1. There are no heroes or parades for you in this line of work. Sorry about that.
 2. Don’t get preachy. No-one likes it when you’re giving a sermon.
 3. Team morale can be a huge problem if you keep sounding like a jerk so, you know, you should probably stop doing that.
 3. Patience is the only virtue that counts because making even small adjustments to a large codebase can take weeks or even months.
