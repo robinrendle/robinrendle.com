@@ -8,7 +8,7 @@ tags:
 extract: There are no heroes or parades for you in this line of work.
 ---
 
-Here’s some advice for designers that are interested in front-end development, product design and systems design work (or, in other words, designers that do design for other designers): 
+Here’s some advice for designers that are interested in front-end development, product design and systems design work (or in other words, designers that do design for other designers): 
 
 1. There are no heroes or parades for you in this line of work.
 2. Don’t get preachy. No-one likes it when you’re giving a sermon.
