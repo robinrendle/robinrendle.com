@@ -10,16 +10,4 @@ This piece by Kai Stinchcombe on [why blockchain is a terrible idea](https://med
 
 > A lawless and mistrustful world where self-interest is the only principle and paranoia is the only source of safety is a not a paradise but a crypto-medieval hellhole.
 
-I’ve sat and talked with blockchain enthusiasts over dinner, I’ve shared their homes and I’ve looked them in the eye when they start their spiel about why this technology will save the world. And quite frankly I don’t believe a damn word they say. You cannot possibly believe that blockchain, and the currencies that sit on top of it, will solve our problems with intermediaries and at the same time invest your life savings in *–coin. It’s insane, desperate, and impossibly naïve.
-
-
-
-
-
-
-
-
-
-
- 
-
+I’ve sat and talked with blockchain enthusiasts over dinner, I’ve shared their homes for an evening, I’ve looked them in the eye when they start their spiel about why this technology will save the world. And quite frankly I don’t believe a damn word they say. You cannot possibly believe that blockchain, and the currencies that sit on top of it, will solve our problems with financial intermediaries and at the same time invest your life savings in *–coin. It’s insane, desperate, and impossibly naïve. And I believe this is the only article that’s explained why I despise the whole venture from top to bottom.
