@@ -15,7 +15,7 @@ All of these issues stem from a lack of communication though, regardless of how 
 
 This is when I learnt the most important systems design lesson.
 
-## Lesson #1: you can’t build a design system by yourself
+## Lesson #1: You can’t build a design system by yourself
 
 I genuinely believed that I could hide in the darkest corner of the office, design a great system, build an outstanding front-end, and return to the team a hero. But! There are no heroes in this line of work. In fact there’s a great episode of the podcast Track Changes where Paul Ford and Rich Ziade talk about [the social dynamics of legacy code](https://trackchanges.postlight.com/the-social-dynamics-of-legacy-cf88aa42132a). Paul mentions that:
 
