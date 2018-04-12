@@ -47,7 +47,7 @@ This is something that all teams of a certain size need and so it’s unlikely t
 
 Building The Guide was tough going though. It required taking all of our code out of our main app, cleaning it up, and placing it into a new repo called the Component Library. This way we would have a common group of components that could be used in any application that Gusto builds for the future. But a great deal of time was spent talking to engineers and designers about this plan and imagining a future where design and development was not only easy but breezy, too.
 
-## Lesson #2: a design system doesn’t have to be complete to be useful.
+## Lesson #2: A design system doesn’t have to be complete to be useful.
 
 Having all our components in a separate repo ultimately meant that we could use it as the foundation for design at Gusto: every time we wanted to create a new app we could depend upon these settings and styles being consistent and easy-to-use without have to build the whole dang thing from scratch. But we were worried about it being incomplete and unfinished; there wasn’t good documentation for all our styles or even a list of which propTypes were available in our React components, for example.
 
