@@ -73,7 +73,7 @@ With this little book I learnt that if a design system doesn’t solve the needs
 
 > Design teams aren’t explicitly rewarded for reusing designs the way engineers know they should write DRY code, so introducing inconsistencies feels like productivity.
 
-o how do we build a design system where the opposite is true? How do we make adding inconsistencies to a design system feel unproductive? Well, I think it’s important to note that designers and engineers introduce inconsistencies to a system not because of the code quality necessarily but due to a flurry of other reasons: poor documentation in a style guide, the naming structure of our components, the inability to quickly scan for what they need.
+So how do we build a design system where the opposite is true? How do we make adding inconsistencies to a design system feel unproductive? Well, I think it’s important to note that designers and engineers introduce inconsistencies to a system not because of the code quality necessarily but due to a flurry of other reasons: poor documentation in a style guide, the naming structure of our components, the inability to quickly scan for what they need.
 
 This means that design systems are more about evangelism than almost anything else. And what I originally assumed was a coding and programming gig turned out to be nothing of the sort — this line of work ended up being about 10% code and 90% collaboration, research, and mentorship.
 
