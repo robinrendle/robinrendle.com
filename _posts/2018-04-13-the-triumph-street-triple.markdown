@@ -20,4 +20,4 @@ Why does this make me confident then? Surely I ought to be a withering bag of ne
 
 Well, motorcycles are nothing but problems. But they get you to face them. They scare you. You have to meet the outside world in a way that you simply don’t have to with a car. And every tiny thing can kill you, every problem can build up into an even scarier problem.
 
-In short, I feel like these problems make me a better person somehow.
+But I feel like these problems make me a better person somehow.
