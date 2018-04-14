@@ -6,7 +6,7 @@ extract: A new motorcycle, a new me.
 
 Of all the things my father tried to introduce me to, only one thing has ever stuck. There was no David Bowie or Lou Reed, Scotland, Spain or trip to Northern France that could seduce me. Neither was there a sip of cognac or shooting escapade where I could sit back and enjoy myself. All of those things bored me to tears as a kid. But there  was something that loomed in the background I could never really ignore. No matter how hard I fought back I knew it was only a matter of time before I was bitten by the bug.
 
-By motorcycles.
+By motorcycles, I mean.
 
 So a couple of weeks ago I walked into a showroom and picked up my first brand new bike: a Triumph Street Triple R. It’s actually the second bike I’ve ever owned but yikes is this an improvement over the first. Not only that but it’s one of the most beautiful and elegant machines I’ve ever been in contact with. It even reminds me of the first time I picked up an iPod Nano where I was just completely swept up by every little detail of it. Everything just _works_. 
 
