@@ -1,6 +1,7 @@
 ---
 title: The Triumph Street Triple
 date: 2018-04-13 23:22:00 -07:00
+extract: A new motorcycle, a new me.
 ---
 
 Of all the things my father tried to introduce me to, only one thing has ever stuck. David Bowie or Lou Reed, Scotland, Spain or Northern France, cognac or fishing and shooting. All of those things bored me to tears as a kid. But there something that loomed in the background I could never really ignore. No matter how hard I fought back I knew it was only a matter of time before I was bitten by the bug.
