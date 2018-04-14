@@ -8,7 +8,7 @@ Of all the things my father tried to introduce me to, only one thing has ever st
 
 By motorcycles, I mean.
 
-So a couple of weeks ago I walked into a showroom and picked up my first brand new bike: a Triumph Street Triple R. It’s actually the second bike I’ve ever owned but yikes is this an improvement over the first. Not only that but it’s one of the most beautiful and elegant machines I’ve ever been in contact with. Actually it reminds me of the first time I picked up an iPod Nano where I was just completely swept up by every little detail of it. Everything just _works_.
+So a couple of weeks ago I walked into a showroom and picked up my first brand new bike: a Triumph Street Triple R. It’s actually the second bike I’ve ever owned but yikes is this an improvement over the first. Not only that but it’s one of the most beautiful and elegant machines I’ve ever been in contact with. Actually it reminds me of the time I picked up an iPod Nano and I was just completely swept up by every little detail of it. Everything just _works_.
 
 ![IMG_0008.jpg](/uploads/IMG_0008.jpg)
 
