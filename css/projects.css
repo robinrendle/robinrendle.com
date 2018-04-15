@@ -756,7 +756,7 @@ iframe,
 
 html {
   overflow-y: scroll;
-  min-height: 100%;
+  height: 100%;
   -webkit-text-size-adjust: 100%;
   background-color: #074bb4; }
 
@@ -770,18 +770,15 @@ body {
   -webkit-font-feature-settings: "liga" 1 !important;
      -moz-font-feature-settings: "liga" 1 !important;
           font-feature-settings: "liga" 1 !important;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
-  -ms-flex-direction: column;
-      flex-direction: column; }
+  min-height: 100%; }
   @media (min-width: 921px) {
     body {
       border-top: none; } }
 
 .main {
-  -ms-flex: 1;
-      flex: 1; }
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto; }
 
 cite {
   font-weight: 400;

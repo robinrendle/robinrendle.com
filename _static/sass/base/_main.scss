@@ -11,7 +11,7 @@
 
 html {
 	overflow-y: scroll;
-	min-height: 100%;
+	height: 100%;
 	-webkit-text-size-adjust: 100%;
 	background-color: darken($c-primary, 20);
 }
@@ -23,19 +23,18 @@ body {
 	background-color: white;
 	color: $c-bodycopy;
 	font-feature-settings: "liga" 1 !important;
-
-	// Sticky footer with flexbox hack.
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+	min-height: 100%;
 
 	@include media(">large") {
 		border-top: none;
 	}
 }
 
+// sticky footer styles
 .main {
-	flex: 1; // sticky footer fix
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 cite {
