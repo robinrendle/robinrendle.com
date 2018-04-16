@@ -4,7 +4,7 @@ date: 2018-04-15 19:08:00 -07:00
 extract: It’s a lovely book, go read it.
 ---
 
-Earlier today I wrote [a quick review](https://buttondown.email/robinrendle/archive/2bfbe7ec-f355-4b75-992c-b6891e453b1c) for _Adventures_ all about my pal Jez Burrows’ new book [_Dictionary Stories_](http://www.dictionarystories.com/). It’s a lovely book and I hope my review cajoles, hood winks and tricks you into picking up a copy.
+Earlier today I wrote [a quick review](https://buttondown.email/robinrendle/archive/2bfbe7ec-f355-4b75-992c-b6891e453b1c) for _Adventures_ all about Jez Burrows’ new book [_Dictionary Stories_](http://www.dictionarystories.com/). It’s a lovely book and I hope my review cajoles, hood winks and tricks you into picking up a copy.
 
 Here’s a quick snippet from the introduction where Jez writes about his experience writing the book:
 
