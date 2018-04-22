@@ -9,6 +9,8 @@ tags:
 - reading
 - novel
 - book
+extract: Liu Cixin’s book all about contacting an alien civilization is outstanding
+  and weird as all hell.
 ---
 
 Liu Cixin’s _Three Body Problem_ is one of the strangest things I’ve ever read. It’s a sci-fi novel set during the throes of the Cultural Revolution and focuses on a Chinese researcher who contacts an alien civilization and how she responds to them. Yes, I realize that sounds like the worst thing ever and it’s the sort of topic that’s been written about to death. However! Liu’s book is altogether different somehow. 
