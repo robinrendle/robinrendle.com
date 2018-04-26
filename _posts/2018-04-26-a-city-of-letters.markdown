@@ -15,7 +15,7 @@ First you notice the city. San Francisco from 30,000 feet is a tiny holdout at t
 
 But from this height it’s still a city, just like the others.
 
-Whilst the plane continues to slowly dip through the clouds you’ll catch glimpses of landmarks just like a lens slowly bending the light into its focus. Do you see the Coit tower? Can you spot the buffalo in the park or the decorated trams yet? Perhaps you’re flying into the city at night, where you’ll see the dim and orange glowing hum of the Golden Gate bridge or maybe instead its neighbor, the bridge that heads north-east towards Oakland, where at dusk you can find its lights shimmering like a string of loosely bound pearls in the dark.
+Whilst the plane continues to slowly dip through the clouds you’ll catch glimpses of landmarks just like a lens slowly bending the light into its focus. Do you see the Coit tower? Can you spot the buffalo in the park or the decorated trams yet? Perhaps you’re flying into the city at night, where you’ll see the dim and orange glowing hum of the Golden Gate bridge or maybe instead its neighbor, the bridge that heads north-east towards Oakland, where at dusk you can find its lights shimmering as if it was an elaborate string of loosely bound pearls in the dark.
 
 However this peninsula is much more than objects and faces and bridges; when you find yourself on firm ground once again make sure to shake off the flight with a hike through the city. But most importantly, as you’re hiking around, make sure to tilt your head to the left. And now, a little to the right. 
 
