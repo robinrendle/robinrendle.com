@@ -21,6 +21,6 @@ However this peninsula is much more than objects and faces and bridges; when you
 
 You’ll see it quickly, I promise. A city of letters will rise out of the city of San Francisco with towering, hand-lettered numbers alongside defiant, picturesque characters appearing from nearby signs and walls where before there were only blurry squiggles. You’ll find yourself surrounded by a city fit for Italo Calvino where an alphabet of each and every kind will be proudly standing on display. Every corner will be the host of some new shape or style of letter welcoming you to this new city for the first time. Here! Take the sign behind you: that squiggle of letters indicates a new district, a new idea, an alternative way of living your life.
 
-At this point I’m afraid it’s far too late for you though. Try as hard as you might, you won’t be able to stop looking at the letters. You’ll forever be staring at them and now that you see that city of letters beneath the city of San Francisco itself, that once real city, the real place will flicker and fade into the background. 
+At this point I’m afraid it’s far too late for you though. Try as hard as you might, you won’t be able to stop looking at the letters. You’ll forever be staring at them and now that you see that city of letters beneath the city of San Francisco itself, that once real city, will flicker and fade into the background. 
 
 But quite frankly, you won’t ever want to return.
