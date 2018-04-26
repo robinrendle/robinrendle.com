@@ -11,7 +11,7 @@ tags:
 extract: And a place you won’t ever want to leave.
 ---
 
-First you notice the city. San Francisco from 30,000 feet is a tiny holdout at the very tip of a cloudy peninsula. As you begin to descend you’ll see bridges and ocean, mountains and hills, and a patchwork quilt of skyscrapers at the northernmost tip. 
+First you notice the city. San Francisco from 30,000 feet is a tiny holdout at the very tip of a cloudy peninsula. As you begin to descend you’ll see bridges and ocean, mountains and hills, as well as a patchwork quilt of skyscrapers at the northernmost tip. 
 
 But from this height it’s still a city, just like the others.
 
