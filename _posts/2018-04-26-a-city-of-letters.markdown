@@ -8,6 +8,7 @@ tags:
 - San Francisco
 - travelling
 - typography
+extract: A place you won’t ever want to leave.
 ---
 
 First you notice the city. San Francisco from 30,000 feet is a tiny holdout at the very tip of a cloudy peninsula. As you begin to descend you’ll see bridges and ocean, mountains and a patchwork quilt of skyscrapers at the northernmost tip. 
