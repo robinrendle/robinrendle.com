@@ -13,4 +13,4 @@ David Foster Wallace wrote a wonderful piece on [the campaign trail](https://kot
 >
 > [...] So who wouldn’t yawn and turn away, trade apathy and cynicism for the hurt of getting treated with contempt? And who wouldn’t fall all over themselves for a top politician who actually seemed to talk to you like you were a person, an intelligent adult worthy of respect?
 
-I watched Obama’s interview with Letterman the other day and I think that’s the perfect way to describe him: he treats everyone with respect and even across a vast distance there’s a feeling that someone believes you’re smart and capable.
+On a similar note I watched Obama’s interview with Letterman the other day and I think that’s the perfect way to describe him: he treats everyone with respect and even across a vast distance there’s a feeling that someone believes you’re smart and capable.
