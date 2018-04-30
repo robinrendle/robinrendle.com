@@ -7,7 +7,7 @@ tags:
 - John McCain
 ---
 
-David Foster Wallace wrote a wonderful piece on [the campaign trail](https://kottke.org/18/04/david-foster-wallace-on-john-mccains-2000-presidential-campaign) of John McCain back in 2000 but my favorite part is where he describes how we’ve been hurt by politics and, subsequently, how that creates a palpable sense of listlessness and ennui in all of us (via [Kottke](https://kottke.org/18/04/david-foster-wallace-on-john-mccains-2000-presidential-campaign)).
+David Foster Wallace wrote a wonderful piece on [the campaign trail](https://kottke.org/18/04/david-foster-wallace-on-john-mccains-2000-presidential-campaign) of John McCain back in 2000 but my favorite part is where he describes how we’ve been hurt by politics and, subsequently, how that creates a palpable sense of listlessness and ennui in all of us (via [Kottke](https://kottke.org/18/04/david-foster-wallace-on-john-mccains-2000-presidential-campaign)):
 
 > It’s ultimately just about that complicated: it hurts. We learn this at like age four – it’s grownups’ first explanation to us of why it’s bad to lie (“How would you like it if … ?”). And we keep learning for years, from hard experience, that getting lied to sucks – that it diminishes you, denies you respect for yourself, for the liar, for the world.
 >
