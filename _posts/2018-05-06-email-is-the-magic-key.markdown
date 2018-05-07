@@ -23,3 +23,5 @@ Anyway, Robin’s advice about email reminded me of Chris Coyier’s ever-so-exc
 > Email is a big deal. Yet almost everyone I know struggles with it. 
 > 
 > That’s what this site is all about. Let’s talk about email. Let’s figure out what’s hard about it and where the struggles are, so that all the great parts of email shine even brighter. Success in today’s world, in almost any way you want to define that, is going to involve you being good at email. So let’s get good at email.
+
+Hear, hear.
