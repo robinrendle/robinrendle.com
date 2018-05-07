@@ -8,7 +8,7 @@ I got to reading this excellent post called [How to Make a Book](https://thecrea
 
 > A book can be inspired by nearly anything: a seemingly stray thought you can’t shake, a lyric, an overheard conversation, another book. Whatever it is, turn it over again and again and again in your mind. Watch it. Listen to it. Be skeptical of it. Let it bother you. Most importantly, take notes.
 
-On this note I particularly liked Robin Sloan’s advice about email, too:
+I particularly liked Robin Sloan’s advice in this post where he writes a tiny love letter to email:
 
 > Of all the followings you can accrue—on Facebook, Instagram, Twitter, and platforms yet to be invented—one is more important than the rest by an order of magnitude. It’s the group of people who have given you their old-fashioned email addresses and agreed that they would, from time to time, like to hear from you. Even if no one quite loves their inbox, everyone has one. Across generations and geography, through digital fads and fascinations, email is the common denominator, the magic key.
 > 
