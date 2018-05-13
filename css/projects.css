@@ -1077,6 +1077,9 @@ hr,
 .rules {
   border-color: #c4c4c4; }
 
+.rules--dotted {
+  border-top-style: dashed; }
+
 .rules--all {
   border-bottom: 1px solid;
   border-right: 1px solid;

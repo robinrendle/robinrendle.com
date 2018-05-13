@@ -47,6 +47,10 @@ hr,
 	border-color: lighten($c-secondary, 30);
 }
 
+.rules--dotted {
+  border-top-style: dashed;
+}
+
 .rules--all {
 	border-bottom: 1px solid;
 	border-right: 1px solid;

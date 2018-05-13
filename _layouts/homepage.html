@@ -29,42 +29,14 @@
   </div>
   <div class="m-wrapper__side">
   	<h4 class='c-lightgrey caps text-bold u-reset-margins'>What I’m Reading</h2>
-
   	  {% for book in site.categories['books'] %}
-  		<a href="{{book.url}}" class="block rules--top rules rules--light cell-v15">
+  		<a href="{{book.url}}" class="block rules--top rules rules--dotted rules--light cell-v15">
   			<h3 class="links h4 u-text--regular u-text--book u-reset-margins">{{book.title}}</h3>
   		</a>
   	{% endfor %}
   </div>
 </div>
 
-<div class="m-wrapper cell-b40">
-  <div class="m-wrapper__content">
-  	<div class='cell-5 rules rules--all rules--transparent'>
-  		<div class='o-island o-island--transparent cell lists--none u-reset-margins'>
-  			<h3 class='u-reset-margins'>Adventures in Typography</h3>
-
-  			<div class="m-longform">
-  				<p>My weekly newsletter is all about, well, <em>typography</em>, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter for book nerds, typographers, and neon light enthusiasts. I think you might like it.</p>
-  				<div class='cell-t20'>
-  					<form
-  						class='form'
-  						action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-  						method="post"
-  						target="popupwindow"
-  						onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-  						class="embeddable-buttondown-form"
-  					>
-  						<label for="bd-email" class='form-label'>Email address</label>
-  						<input class='form-input' type="email" name="email" id="bd-email" placeholder='desk@robinrendle.com'>
-  						<input type="hidden" value="1" name="embed"/>
-  						<input class='form-submit' type="submit" value="Subscribe" />
-  					</form>
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-  </div>
-</div>
+{% include newsletter.html %}
 
 {% include footer.html %}
