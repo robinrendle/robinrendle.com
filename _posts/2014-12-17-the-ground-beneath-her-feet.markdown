@@ -5,16 +5,15 @@ tags:
 - salman rushdie
 - book reviews
 - new yorker
-- featured
+City:
+- Plymouth
+Country:
+- UK
 extract: Salman Rushdie’s musical opus, The Ground Beneath Her Feet, is one of a few
   select books that I want to slip into my friends’ backpacks, or hide in their bookshelf,
   or scatter copies under their beds until they must eventually concede.
 update: 
 link: 
-City:
-- Plymouth
-Country:
-- UK
 ---
 
 > “In love one advances by retreating.”
