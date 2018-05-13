@@ -1,6 +1,11 @@
 ---
 title: I’m Not Black, I’m Kanye
 date: 2018-05-12 00:20:00 -07:00
+tags:
+- ta-nehisi coates
+- kanye west
+- michael jackson
+extract: "“...he is a man of no mystery, overexposed...”"
 ---
 
 A wonderful new piece by Ta-Nehisi Coates [on Kanye West, Michael Jackson, and celebrity](https://www.theatlantic.com/entertainment/archive/2018/05/im-not-black-im-kanye/559763/): 
