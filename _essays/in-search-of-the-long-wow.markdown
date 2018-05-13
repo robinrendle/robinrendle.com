@@ -3,6 +3,8 @@ title: In Search of the Long Wow
 date: 2016-04-08 23:10:00 -07:00
 categories:
 - kindle
+tags:
+- featured
 extract: Where was our literary and technological revolution? Where was the future
   book?
 Country: UK
