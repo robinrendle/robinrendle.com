@@ -1,6 +1,8 @@
 ---
 title: Modern Typography
 date: 2013-02-25 08:57:00 -08:00
+categories:
+- books
 tags:
 - book reviews
 - typography

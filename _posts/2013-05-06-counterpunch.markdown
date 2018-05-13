@@ -1,6 +1,8 @@
 ---
 title: Counterpunch
 date: 2013-05-06 11:27:00 -07:00
+categories:
+- books
 tags:
 - typography
 - publishing

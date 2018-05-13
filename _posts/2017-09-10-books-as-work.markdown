@@ -1,11 +1,10 @@
 ---
 title: Books as Work
 date: 2017-09-10 21:26:00 -07:00
-categories:
-- books
 tags:
 - writing
 - reading
+- books
 City: San Francisco
 Country: California
 extract: We can’t afford to see books as art if we want to make a contribution, whatever

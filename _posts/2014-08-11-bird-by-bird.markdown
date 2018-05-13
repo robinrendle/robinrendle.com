@@ -5,13 +5,13 @@ tags:
 - reading
 - Anne Lamott
 - Bird by Bird
-- featured
+- books
 extract: Over the weekend I read this great collection of advice for writers by Anne
   Lammot called Bird by Bird. The goal of this short little book is to help young
   writers learn more about the design and publication of fiction but, aside from the
   self-help format, what really caught my attention is this extract about encouraging
   other writers to join a community of like-minded folks.
-update: 
+update:
 City:
 - Berlin
 Country:

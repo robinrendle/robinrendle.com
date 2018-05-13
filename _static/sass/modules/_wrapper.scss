@@ -5,14 +5,14 @@
 // adds max-width
 //
 
-$_max-width: 670;
+$_content_max-width: 670;
+$_max-width: 1000;
 $_max-width-wide: 1000;
 
 .m-wrapper {
 	display: block;
 	margin: 0 auto;
 	@include clearfix();
-	@include remCalc(padding, 0, 15);
 	@include remCalc(max-width, $_max-width);
 
 	@include media(">medium") {
@@ -20,13 +20,36 @@ $_max-width-wide: 1000;
 	}
 
 	@include media(">large") {
-		@include remCalc(padding, 0);
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(18, 1fr);
+		@include remCalc(padding, 0, 25);
 	}
+}
+
+.m-wrapper__content {
+  margin: 0;
+  @include remCalc(padding, 0, 15);
+
+  @include media(">medium") {
+    padding: 0 5%;
+  }
+
+  @include media(">large") {
+    grid-column: 1 / 14;
+    @include remCalc(padding, 0);
+  }
+}
+
+.m-wrapper__side {
+  @include media(">large") {
+    grid-column: 14 / 19;
+  }
 }
 
 // This module resets all of the padding of each element so that certain elements can be
 // toggled into fullwidth much easier.
-.m-wrapper--unpadded {
+.m-wrapper--unpadded .m-wrapper__content {
 	max-width: none;
 	padding: 0;
 
@@ -34,7 +57,6 @@ $_max-width-wide: 1000;
 	video,
 	ul,
 	ol,
-	figure,
 	pre,
 	blockquote,
 	h1,
@@ -42,10 +64,8 @@ $_max-width-wide: 1000;
 	h3,
 	h4,
 	h5,
-	h6 {
-		margin-left: auto;
-		margin-right: auto;
-		@include remCalc(max-width, $_max-width);
+	h6,
+  hr {
 		@include remCalc(padding, 0, 15);
 
 		@include media(">medium") {

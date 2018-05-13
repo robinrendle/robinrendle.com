@@ -3,6 +3,7 @@ title: The Elements of Eloquence
 date: 2017-11-29 21:51:00 -08:00
 categories:
 - reading
+- books
 tags:
 - mark forsyth
 - book
@@ -19,5 +20,3 @@ This is how Mark Forsyth’s _The Elements of Eloquence_ begins and yet it doesn
 Here’s another section from the opening chapter:
 
 > English teaching at school is unfortunately, obsessed with what a poet thought, as though that were of any interest to anyone. Rather than being taught about how a poem is phrased, schoolchildren are asked to write essays on what William Blake thought about the Tiger; despite the fact that William Blake was a nutjob whose opinions, in a civilised society, would be of no interest to anybody apart from his parole officer. A poet is not somebody who has great thoughts. That is the menial duty of the philosopher. A poet is somebody who expresses his thoughts, however commonplace they may be, exquisitely. That is the one and only difference between the poet and everybody else.
-
-

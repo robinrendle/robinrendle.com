@@ -5,10 +5,10 @@ tags:
 - programming
 - ruby
 - chris pine
-- featured
+- books
 extract: "“And that is why I had such a hard time writing that first program. Computers
   are way dumber than I was prepared for...”"
-update: 
+update:
 City:
 - Nottingham
 Country:

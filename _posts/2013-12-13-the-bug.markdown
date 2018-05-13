@@ -1,6 +1,8 @@
 ---
 title: The Bug
 date: 2013-12-13 14:27:00 -08:00
+categories:
+- books
 tags:
 - books
 - book reviews
@@ -11,14 +13,14 @@ tags:
 extract: Trying to keep the number of book recommendations to a minimum is difficult
   when I keep stumbling over novels by Ellen Ullman. This time it’s The Bug, a story
   about programming, information theory and obsession.
-update: 
+update:
 City:
 - Plymouth
 Country:
 - UK
 ---
 
-Trying to keep the number of book recommendations to a minimum is difficult when I keep stumbling over novels by Ellen Ullman (here’s my micro-review of her first book, <em><a href ="https://readmill.com/robinrendle/reads/close-to-the-machine">Close to the Machine</a></em>). This time though it’s <em>The Bug</em>, a story about programming, information theory and obsession. 
+Trying to keep the number of book recommendations to a minimum is difficult when I keep stumbling over novels by Ellen Ullman (here’s my micro-review of her first book, <em><a href ="https://readmill.com/robinrendle/reads/close-to-the-machine">Close to the Machine</a></em>). This time though it’s <em>The Bug</em>, a story about programming, information theory and obsession.
 
 The protaganist, Ethan Levin, begins to feel his life slipping away from him the more he encounters an elusive glitch in a piece of software. His emotional state spins out of control as he tries to deal with all sorts of problems that must be familiar to anyone working with code and large scale design systems; it’s how Ullman describes these unintended side effects that has caught my attention so firmly.
 

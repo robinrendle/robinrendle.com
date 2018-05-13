@@ -10,8 +10,7 @@
 	@include remCalc(font-size, 13);
 	@include clearfix();
 	margin: 0;
-	margin-bottom: 5px;
-	border-bottom: 1px solid #eee;
+	margin-bottom: 0;
 
 	@include media(">medium") {
 		@include remCalc(font-size, 15);
@@ -23,7 +22,7 @@
 }
 
 .meta-info__item {
-	color: $c-secondary;
+	color: #aaa;
 	float: left;
 	margin: 0;
 	font-feature-settings: "onum" 1;

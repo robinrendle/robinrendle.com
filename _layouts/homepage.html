@@ -1,47 +1,70 @@
 {% include header.html %}
 
-<div class="m-wrapper--unpadded-wide m-heading">
-	<p class="h1 m-heading__text">
-		{{page.bio}}
-	</p>
+<section class="m-header m-wrapper">
+  <div class="m-wrapper__content">
+    <h1 class="h1">
+      {{page.bio}}
+    </h1>
+    <div class='m-longform'>
+      <p>Hello there! I’m fascinated by design systems, web design and publishing. Today I work at Gusto where I work on a combination of projects like this: I develop our pattern library and styleguide, contribute to the foundations of the front-end codebase, and work on the underlying ux of the application including new features and services for Gusto’s customers.</p>
+    </div>
+  </div>
+  <div class="m-header__img m-wrapper__side">
+    <img src="/build/images/portfolio/robin-rendle.jpg" alt="A portrait of me, Robin, the boy wonder">
+  </div>
+</section>
+
+<div class="m-wrapper cell-b40">
+  <div class="m-wrapper__content">
+  	<h4 class='c-lightgrey caps text-bold u-reset-margins'>Favorites from the Archive</h2>
+      {% assign posts = site.tags['featured'] | sort: 'date' | reverse %}
+      {% for post in posts %}
+  		<a href="{{post.url}}" class="block rules--top rules rules--light cell-v20">
+  			<h3 class="links h3 u-text--regular u-text--book u-reset-margins">{{post.title}}</h3>
+  			<div class='m-longform'>
+  				<p class="c-grey u-text--regular u-text--book u-reset-margins">{{post.extract}}</p>
+  			</div>
+  		</a>
+  	{% endfor %}
+  </div>
+  <div class="m-wrapper__side">
+  	<h4 class='c-lightgrey caps text-bold u-reset-margins'>What I’m Reading</h2>
+
+  	  {% for book in site.categories['books'] %}
+  		<a href="{{book.url}}" class="block rules--top rules rules--light cell-v15">
+  			<h3 class="links h4 u-text--regular u-text--book u-reset-margins">{{book.title}}</h3>
+  		</a>
+  	{% endfor %}
+  </div>
 </div>
 
 <div class="m-wrapper cell-b40">
-	<h4 class='c-lightgrey caps text-bold u-reset-margins'>Quick notes & Ramblings</h2>
-	{% for post in site.posts limit: 3 %}
-		<a href="{{post.url}}" class="block rules--top rules rules--light cell-v10">
-			<h3 class="links h3 u-text--regular u-text--book u-reset-margins">{{post.title}}</h3>
-			<div class='m-longform'>
-				<p class="c-grey u-text--regular u-text--book u-reset-margins">{{post.extract}}</p>
-			</div>
-		</a>
-	{% endfor %}
-</div>
-<div class="m-wrapper cell-b40">
-	<div class='cell-5 rules rules--all rules--transparent'>
-		<div class='o-island o-island--transparent cell lists--none u-reset-margins'>
-			<h3 class='u-reset-margins'>Adventures in Typography</h3>
+  <div class="m-wrapper__content">
+  	<div class='cell-5 rules rules--all rules--transparent'>
+  		<div class='o-island o-island--transparent cell lists--none u-reset-margins'>
+  			<h3 class='u-reset-margins'>Adventures in Typography</h3>
 
-			<div class="m-longform">
-				<p>My weekly newsletter is all about, well, <em>typography</em>, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter about books, fonts, and neon lights.</p>
-				<div class='cell-t20'>
-					<form
-						class='form'
-						action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-						method="post"
-						target="popupwindow"
-						onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-						class="embeddable-buttondown-form"
-					>
-						<label for="bd-email" class='form-label'>Email address</label>
-						<input class='form-input' type="email" name="email" id="bd-email" placeholder='desk@robinrendle.com'>
-						<input type="hidden" value="1" name="embed"/>
-						<input class='form-submit' type="submit" value="Subscribe" />
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+  			<div class="m-longform">
+  				<p>My weekly newsletter is all about, well, <em>typography</em>, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter for book nerds, typographers, and neon light enthusiasts. I think you might like it.</p>
+  				<div class='cell-t20'>
+  					<form
+  						class='form'
+  						action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+  						method="post"
+  						target="popupwindow"
+  						onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+  						class="embeddable-buttondown-form"
+  					>
+  						<label for="bd-email" class='form-label'>Email address</label>
+  						<input class='form-input' type="email" name="email" id="bd-email" placeholder='desk@robinrendle.com'>
+  						<input type="hidden" value="1" name="embed"/>
+  						<input class='form-submit' type="submit" value="Subscribe" />
+  					</form>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+  </div>
 </div>
 
 {% include footer.html %}

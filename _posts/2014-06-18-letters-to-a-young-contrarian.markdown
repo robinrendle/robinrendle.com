@@ -1,6 +1,8 @@
 ---
 title: Letters to a Young Contrarian
 date: 2014-06-18 07:44:00 -07:00
+categories:
+- books
 tags:
 - language
 - words
@@ -11,7 +13,7 @@ tags:
 extract: "“Every day, the New York Times carries a motto in a box on its front page.
   “All the News That’s Fit to Print,” it says. It’s been saying it for decades, day
   in and day out.”"
-update: 
+update:
 City:
 - Nottingham
 Country:

@@ -61,23 +61,20 @@ section[role="main"] {
 	text-shadow: none;
 }
 
-.m-heading {
-	@include trim();
-	padding-top: 50px;
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	max-width: 900px;
-	margin: 0 auto;
-	text-align: left;
-	@include media(">medium") {
-		text-align: center;
-		padding-top: 90px;
-		padding-bottom: 70px;
-	}
+.m-header {
+  padding-top: 50px;
+  margin-bottom: 60px;
+}
+
+.m-header__img {
+  display: flex;
+  img {
+    border-radius: 5px;
+    object-fit: cover;
+    filter: saturate(0);
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .text-bold {

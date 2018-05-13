@@ -1,11 +1,10 @@
 {% include header.html %}
 
 <div class="m-wrapper">
-  <div class="cell-t40 cell-t60--medium cell-b0">
-      <h1>{{page.title}}</h1>
-  </div>
-
-
+  <div class="m-wrapper__content">
+    <div class="cell-t40 cell-t60--medium cell-b0">
+        <h1>{{page.title}}</h1>
+    </div>
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
@@ -24,5 +23,6 @@
           </div>
         </a>
     {% endfor %}
+  </div>
 </div>
 {% include footer.html %}

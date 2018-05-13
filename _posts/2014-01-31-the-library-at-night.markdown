@@ -1,18 +1,19 @@
 ---
 title: The Library at Night
 date: 2014-01-31 13:56:00 -08:00
+categories:
+- books
 tags:
 - alberto manguel
 - books
 - reading
 - libraries
 - digital-physical
-- featured
 extract: "“We dream of a library of literature created by everyone and belonging to
   no one, a library that is immortal and will mysteriously lend order to the universe,
   and yet we know that every orderly choice, every catalogued realm of the imagination,
   sets up a tyrannical exclusion.”"
-update: 
+update:
 City:
 - Nottingham
 Country:
@@ -25,7 +26,7 @@ Written by the prolific [Alberto Manguel](http://www.alberto.manguel.com/), *The
 <figcaption class="cite"><p>Alberto Manguel, <em><a href="http://www.amazon.co.uk/Library-at-Night-Alberto-Manguel/dp/0300151306">The Library at Night</a></em></p></figcaption>
 </figure>
 
-I heard about this wonderful little book via an impromptu gathering held by Contents magazine called [The Library as Dinner Party](http://contentsmagazine.com/articles/the-library-as-dinner-party/), which led many of my Internet [book chums](https://twitter.com/robinrendle/status/380387882202320896) to discuss it and share their notes. Though, for one reason or another, I held off on reading it until I stumbled over an old post by [Mandy Brown](https://twitter.com/aworkinglibrary) a few weeks ago. *The Library at Night* propelled her to write about the current state of digital libraries, where she argued that the hardware/software dynamic we see today in ebooks is designed to solve the wrong problem entirely: 
+I heard about this wonderful little book via an impromptu gathering held by Contents magazine called [The Library as Dinner Party](http://contentsmagazine.com/articles/the-library-as-dinner-party/), which led many of my Internet [book chums](https://twitter.com/robinrendle/status/380387882202320896) to discuss it and share their notes. Though, for one reason or another, I held off on reading it until I stumbled over an old post by [Mandy Brown](https://twitter.com/aworkinglibrary) a few weeks ago. *The Library at Night* propelled her to write about the current state of digital libraries, where she argued that the hardware/software dynamic we see today in ebooks is designed to solve the wrong problem entirely:
 
 <figure><blockquote><p>I wonder, then, if the promise of an ebook isn’t the book but the library. And if, in all our attention to a new device for <em>reading</em>, we’re neglecting methods for <em>shelving</em> [...] The metadata of a book extends beyond the keywords held between its covers to the many hands the text has passed through; it’s not enough just to scan every page. We need to also scan the conversations, the notes left in the margins, the stains from coffee, tea, and drink. We need to eavesdrop on the readers, without whom every book is mute. <em>That</em> is the promise I seek...</p></blockquote><figcaption class="cite"><p>Mandy Brown, <a href="http://aworkinglibrary.com/library/archives/on_the_library/">On the Library</a></p></figcaption></figure>
 

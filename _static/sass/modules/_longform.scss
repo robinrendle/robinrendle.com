@@ -37,6 +37,10 @@
 		}
 	}
 
+ol li {
+  margin-bottom: 15px;
+}
+
 	ol,
 	p,
 	ul {
@@ -56,7 +60,7 @@
 		}
 		@include media(">large") {
 			@include remCalc(font-size, 20);
-			line-height: 1.55;
+			line-height: 1.53;
 		}
 
 		& > img {
