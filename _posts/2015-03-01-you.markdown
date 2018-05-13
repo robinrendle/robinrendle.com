@@ -9,8 +9,8 @@ extract: Within the code of the game itself lies a world-ending glitch that driv
   the design team to the brink of insanity; our protagonist must find the glitch before
   the game ships and save their creation from the quirks and eccentricities of the
   designer that came before them. It’s a video game murder mystery!
-update:
-link:
+update: 
+link: 
 City:
 - London
 Country:

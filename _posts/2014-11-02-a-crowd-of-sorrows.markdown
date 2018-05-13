@@ -8,8 +8,8 @@ extract: "“Do you mind if I tell you, while I have your ear? All of this, the 
   the family, the sudden reminder that life ends, it makes me realize how ignorant
   I am. I'm so sure I'm clever and sophisticated, a smug little agnostic, but put
   me face forward with death, and I don't know my right from my north...”"
-update:
-link:
+update: 
+link: 
 City:
 - Plymouth
 Country:

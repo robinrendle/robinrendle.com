@@ -12,7 +12,7 @@ extract: Whilst you’re writing it’s entirely possible to throw everything aw
   of those cheesy phrases or clichés are likely to be cast off during the review process
   whilst, for those awkward rhymes and alliterative phrases that pass you by without
   notice, a friendly editor is often there to help tidy your thoughts.
-update:
+update: 
 City:
 - Plymouth
 Country:
