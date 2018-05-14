@@ -16,7 +16,7 @@
 	@include media(">medium") {
 		border-bottom: 1px solid white;
 
-		.m-wrapper {
+		.m-wrapper__content {
 			display: flex;
 			align-items: center;
 		}

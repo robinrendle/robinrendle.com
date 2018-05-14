@@ -7,6 +7,7 @@ tags:
 - css
 - web design
 - rss
+- featured
 extract: A love letter to RSS the community and RSS the technology.
 ---
 

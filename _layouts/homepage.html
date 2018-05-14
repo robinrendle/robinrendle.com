@@ -2,11 +2,11 @@
 
 <section class="m-header m-wrapper">
   <div class="m-wrapper__content">
-    <h1 class="h1">
+    <h1 class="h1 u-reset-margins cell-b15">
       {{page.bio}}
     </h1>
-    <div class='m-longform'>
-      <p>Hello there! I’m fascinated by design systems, web design and publishing. Today I work at Gusto where I work on a combination of projects like this: I develop our pattern library and styleguide, contribute to the foundations of the front-end codebase, and work on the underlying ux of the application including new features and services for Gusto’s customers.</p>
+    <div class='m-longform cell-b40'>
+      <p>Today I work at <a href='https://gusto.com'>Gusto</a> as a product designer but I spend a lot of my time thinking about design systems, front-end development, and <abbr title='user experience'>UX</abbr>. I’m also on the team at <a href='http://css-tricks.com/'>CSS-Tricks</a> where we write about web design, too. Here though you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of warning; things certainly got a little weird at one point or another. Also, sorry mom.</p>
     </div>
   </div>
   <div class="m-header__img m-wrapper__side">
@@ -14,8 +14,8 @@
   </div>
 </section>
 
-<div class="m-wrapper cell-b40">
-  <div class="m-wrapper__content">
+<div class="m-wrapper">
+  <div class="m-wrapper__content cell-b40">
   	<h4 class='c-lightgrey caps text-bold u-reset-margins'>Favorites from the Archive</h2>
       {% assign posts = site.tags['featured'] | sort: 'date' | reverse %}
       {% for post in posts %}
@@ -27,7 +27,7 @@
   		</a>
   	{% endfor %}
   </div>
-  <div class="m-wrapper__side">
+  <div class="m-wrapper__side cell-b40">
   	<h4 class='c-lightgrey caps text-bold u-reset-margins'>What I’m Reading</h2>
   	  {% for book in site.categories['books'] %}
   		<a href="{{book.url}}" class="block rules--top rules rules--dotted rules--light cell-v15">

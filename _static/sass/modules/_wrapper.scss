@@ -27,7 +27,7 @@ $_max-width-wide: 1000;
 	}
 }
 
-.m-wrapper__content {
+.m-wrapper__content, .m-wrapper__side {
   margin: 0;
   @include remCalc(padding, 0, 15);
 
@@ -65,7 +65,8 @@ $_max-width-wide: 1000;
 	h4,
 	h5,
 	h6,
-  hr {
+  hr,
+  figcaption {
 		@include remCalc(padding, 0, 15);
 
 		@include media(">medium") {

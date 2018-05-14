@@ -1337,6 +1337,10 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
   .m-longform figcaption p a a {
     color: #777; }
 
+.m-longform figcaption p {
+  padding-top: 10px;
+  padding-left: 15px; }
+
 .m-longform blockquote > ul {
   padding-left: 38px; }
 
@@ -1510,15 +1514,15 @@ hgroup {
       padding: 0px 25px;
       padding: 0rem 1.5625rem; } }
 
-.m-wrapper__content {
+.m-wrapper__content, .m-wrapper__side {
   margin: 0;
   padding: 0px 15px;
   padding: 0rem 0.9375rem; }
   @media (min-width: 621px) {
-    .m-wrapper__content {
+    .m-wrapper__content, .m-wrapper__side {
       padding: 0 5%; } }
   @media (min-width: 921px) {
-    .m-wrapper__content {
+    .m-wrapper__content, .m-wrapper__side {
       grid-column: 1 / 14;
       padding: 0px;
       padding: 0rem; } }
@@ -1542,7 +1546,8 @@ hgroup {
   .m-wrapper--unpadded .m-wrapper__content h4,
   .m-wrapper--unpadded .m-wrapper__content h5,
   .m-wrapper--unpadded .m-wrapper__content h6,
-  .m-wrapper--unpadded .m-wrapper__content hr {
+  .m-wrapper--unpadded .m-wrapper__content hr,
+  .m-wrapper--unpadded .m-wrapper__content figcaption {
     padding: 0px 15px;
     padding: 0rem 0.9375rem; }
     @media (min-width: 621px) {
@@ -1558,7 +1563,8 @@ hgroup {
       .m-wrapper--unpadded .m-wrapper__content h4,
       .m-wrapper--unpadded .m-wrapper__content h5,
       .m-wrapper--unpadded .m-wrapper__content h6,
-      .m-wrapper--unpadded .m-wrapper__content hr {
+      .m-wrapper--unpadded .m-wrapper__content hr,
+      .m-wrapper--unpadded .m-wrapper__content figcaption {
         padding: 0 5%; } }
     @media (min-width: 921px) {
       .m-wrapper--unpadded .m-wrapper__content > p,
@@ -1573,7 +1579,8 @@ hgroup {
       .m-wrapper--unpadded .m-wrapper__content h4,
       .m-wrapper--unpadded .m-wrapper__content h5,
       .m-wrapper--unpadded .m-wrapper__content h6,
-      .m-wrapper--unpadded .m-wrapper__content hr {
+      .m-wrapper--unpadded .m-wrapper__content hr,
+      .m-wrapper--unpadded .m-wrapper__content figcaption {
         padding: 0px;
         padding: 0rem; } }
 
@@ -1717,7 +1724,7 @@ hgroup {
   @media (min-width: 621px) {
     .m-banner {
       border-bottom: 1px solid white; }
-      .m-banner .m-wrapper {
+      .m-banner .m-wrapper__content {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
