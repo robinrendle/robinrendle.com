@@ -1349,6 +1349,9 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 .m-longform figcaption {
   padding-left: 18px; }
 
+.m-longform blockquote > ul {
+  padding-left: 40px !important; }
+
 .m-longform blockquote {
   position: relative; }
   .m-longform blockquote > * {
