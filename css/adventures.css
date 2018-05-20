@@ -577,17 +577,15 @@ table {
 .u-text--italic {
   font-style: normal;
   font-weight: 400;
-  font-family: "Caponi Text", Georgia, serif; }
+  font-family: "National Italic", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .u-text--small-caps {
-  text-transform: lowercase;
   font-weight: normal;
-  font-variant: small-caps;
-  font-family: "Caponi Text", Georgia, serif; }
+  font-family: "National", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .u-text--regular {
   font-weight: 400;
-  font-family: "Caponi Text", Georgia, serif; }
+  font-family: "National", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .u-inverse {
   color: white; }
@@ -651,11 +649,12 @@ h1,
 .m-longform
 h1 {
   font-weight: 600;
-  font-family: "Caponi Display", Georgia, serif;
+  font-family: "National Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 1.15;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  -webkit-font-smoothing: antialiased; }
   @media (min-width: 621px) {
     .h1,
     .m-longform .h1,
@@ -683,8 +682,8 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: 500;
-  font-family: "Caponi Semibold", Georgia, serif; }
+  font-weight: 600;
+  font-family: "National Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
 
 .fonts-loaded .h2, .fonts-loaded
 h2 {
@@ -793,7 +792,7 @@ h6 {
   color: #333;
   max-width: 800px;
   font-weight: 600;
-  font-family: "Caponi Display", Georgia, serif; }
+  font-family: "National Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
   @media (min-width: 921px) {
     .m-heading__text,
     .fonts-loaded .m-heading__text {

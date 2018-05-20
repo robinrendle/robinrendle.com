@@ -38,10 +38,12 @@
   </div>
 </div>
 
-<div class="m-longform--small m-wrapper--unpadded cell-t20">
-{% if page.aside %}
-    {{page.aside | markdownify}}
-{% endif %}
+<div class="m-longform--small m-wrapper m-wrapper--unpadded cell-t20">
+  <div class="m-wrapper__content">
+    {% if page.aside %}
+        {{page.aside | markdownify}}
+    {% endif %}
+  </div>
 </div>
 
 {% include footer.html %}

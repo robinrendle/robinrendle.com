@@ -8,33 +8,31 @@
 		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
 
-	$fallback: Georgia, serif;
+	$fallback: Helvetica, sans;
 
 	@if $font == "Small caps" {
-		text-transform: lowercase;
 		font-weight: normal;
-		font-variant: small-caps;
-		font-family: "Caponi Text", $fallback;
+		font-family: "National", $sans-fallback;
 	}
 
 	@if $font == "Regular" {
 		font-weight: 400;
-		font-family: "Caponi Text", $fallback;
+		font-family: "National", $sans-fallback;
 	}
 
 	@if $font == "Regular italic" {
 		font-style: normal;
 		font-weight: 400;
-		font-family: "Caponi Text", $fallback;
+		font-family: "National Italic", $sans-fallback;
 	}
 
 	@if $font == "Bold" {
-		font-weight: 500;
-		font-family: "Caponi Semibold", $fallback;
+		font-weight: 600;
+		font-family: "National", $sans-fallback;
 	}
 
 	@if $font == "Display" {
 		font-weight: 600;
-		font-family: "Caponi Display", $fallback;
+		font-family: "National Display", $sans-fallback;
 	}
 }

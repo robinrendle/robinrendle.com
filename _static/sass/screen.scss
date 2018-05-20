@@ -48,8 +48,7 @@ $breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px)
 @import "modules/footer";
 @import "modules/hero";
 @import "modules/form";
-@import "../../fonts/caponi.scss";
-@import "../../fonts/output.scss";
+@import "../../fonts/national.scss";
 
 section[role="main"] {
 	min-height: 80vh;
@@ -63,7 +62,17 @@ section[role="main"] {
 
 .m-header {
   padding-top: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
+  @media screen and (min-width:700px) {
+    margin-bottom: 10px;
+  }
+}
+
+
+.m-header h1 {
+  @media screen and (min-width:700px) {
+    padding-top: 10px;
+  }
 }
 
 .m-header__img {

@@ -23,6 +23,7 @@ h1 {
 		@include remCalc(font-size, 30);
 		line-height: 1.15;
 		margin-bottom: 20px;
+    -webkit-font-smoothing: antialiased; 
 		@include media(">medium") {
 			@include remCalc(font-size, 38);
 			line-height: 1.2;
@@ -42,7 +43,7 @@ h2,
 h3,
 h4,
 h5 {
-	@include typeface("Bold");
+	@include typeface("Display");
 }
 
 .h2,

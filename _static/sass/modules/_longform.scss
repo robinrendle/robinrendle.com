@@ -59,8 +59,8 @@ ol li {
 			line-height: 1.5;
 		}
 		@include media(">large") {
-			@include remCalc(font-size, 20);
-			line-height: 1.53;
+			@include remCalc(font-size, 19);
+			line-height: 1.6;
 		}
 
 		& > img {
@@ -133,7 +133,6 @@ ol li {
 
 		& > * {
 			border-left: 1px solid #eee;
-			@include typeface("Regular");
 			@include remCalc(padding-bottom, $base-spacing-unit - 5);
 			margin-bottom: 0;
 			position: relative;

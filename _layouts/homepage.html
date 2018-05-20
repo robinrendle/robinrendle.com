@@ -16,7 +16,7 @@
 
 <div class="m-wrapper">
   <div class="m-wrapper__content cell-b40">
-  	<h4 class='c-lightgrey caps text-bold u-reset-margins'>Favorites from the Archive</h2>
+  	<h4 class='c-lightgrey caps text-bold u-reset-margins cell-b10'>Favorites from the Archive</h2>
       {% assign posts = site.tags['featured'] | sort: 'date' | reverse %}
       {% for post in posts %}
   		<a href="{{post.url}}" class="block rules--top rules rules--light cell-v20">
@@ -28,7 +28,7 @@
   	{% endfor %}
   </div>
   <div class="m-wrapper__side cell-b40">
-  	<h4 class='c-lightgrey caps text-bold u-reset-margins'>What I’m Reading</h2>
+  	<h4 class='c-lightgrey caps text-bold u-reset-margins cell-b10'>What I’m Reading</h2>
   	  {% for book in site.categories['books'] %}
   		<a href="{{book.url}}" class="block rules--top rules rules--dotted rules--light cell-v15">
   			<h3 class="links h4 u-text--regular u-text--book u-reset-margins">{{book.title}}</h3>

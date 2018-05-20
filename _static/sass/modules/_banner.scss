@@ -31,13 +31,14 @@
 .m-banner__about {
 	@include typeface("Small caps");
 	display: flex;
+  text-transform: uppercase;
 	align-items: center;
 	justify-content: center;
 	background-color: darken($c-primary, 15);
 	color: white;
 	transition: background-color 0.3s ease;
 	float: left;
-	font-size: 18px !important;
+	font-size: 16px !important;
 	text-align: center;
 	margin-right: 20px;
 	height: 50px;
