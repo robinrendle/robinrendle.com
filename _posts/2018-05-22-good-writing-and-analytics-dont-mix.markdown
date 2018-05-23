@@ -12,4 +12,4 @@ Sure, having a vague sense of the traffic of your website is fine and dandy yet 
 
 Side note: this has me wishing for a dial on Twitter where we could switch off all the likes and retweets and mentions for a moment and breathe fresh air once again. I reckon Twitter would become a better place, a quiet place, for good writing to bloom once again.
 
-Either way, to become a good writer we have to think about structure, composition, kindness, sentences, clauses, arguments dressed with punctuation. But instead of trusting the data from surveillance state web advertising companies we must ignore them all and return first and foremost to trusting our keyboards.
+Either way, to become good writers we have to think about structure, composition, kindness, sentences, clauses, arguments dressed with punctuation. But instead of trusting the data from surveillance state web advertising companies we must ignore them all and return first and foremost to trusting our keyboards.
