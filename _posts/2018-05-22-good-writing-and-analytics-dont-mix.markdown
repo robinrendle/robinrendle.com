@@ -6,7 +6,7 @@ extract: I reckon analytics are bad for writers and here’s why.
 
 If you want to be a good writer then you can’t worry about the numbers. The stats, the dashboards, the faves, likes, hearts and yes, even the claps, they all lead to madness and, worst of all in my opinion, bad writing. Terrible, desperate writing.
 
-To become a good writer you need to get comfortable without third party scripts on your website, by looking away from the likes or hearts, and returning to your keyboard. But this is certainly much easier to say than do in my experience. It’s tough to ignore the data because it seems so scientific and insightful.
+To become a good writer you need to get comfortable without third party scripts on your website, by looking away from the likes or hearts, and returning to your keyboard. But this is certainly much easier to say than do in my experience as it’s tough to ignore the data when everything feels so much more scientific and insightful. But it’s all a damn lie.
 
 Having a vague sense of the traffic of your website is fine and dandy but when you’re looking at one post and comparing that to the likes and faves of another then I think that’s where things get troublesome. A sense of roughly how many readers you have a month is great, yet trying to figure out precisely why this one post did better than the other simply isn’t healthy. We shouldn’t let those sorts of analytics encourage us to change the way we write and we should reclassify analytics like this as being dangerous data.
 
