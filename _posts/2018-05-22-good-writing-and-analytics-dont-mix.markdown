@@ -1,6 +1,9 @@
 ---
 title: Good Writing and Analytics Don’t Mix
 date: 2018-05-22 20:44:00 -07:00
+tags:
+- writing
+- analytics
 extract: I reckon analytics are bad for writers and here’s why.
 ---
 
