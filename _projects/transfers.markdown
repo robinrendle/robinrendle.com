@@ -11,10 +11,10 @@ extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 compa
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
-layout: projects-detail
 dateRange: 2017-2018
 company: Gusto
-heroImage: "/build/images/portfolio/transfer-1.jpg"
+heroImage: "/uploads/screely-1527655310841.png"
+layout: projects-detail
 ---
 
 ## Project Goals
