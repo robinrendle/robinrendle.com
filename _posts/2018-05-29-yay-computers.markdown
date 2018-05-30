@@ -8,7 +8,7 @@ Here’s a note I made in the most recent CSS-Tricks Newsletter which, yes, you 
 
 ***
 
-This holiday weekend I’ve been learning how to make Twitter bots and I’ve been having a blast. In fact I can’t remember the last time I had this much fun programming and doing stuff with computers. The bot is a simple little jokey thing but making the bot’s not really the point, it’s all about confidence-building and being bad at stuff for long enough to get good at it.
+This holiday weekend I’ve been learning how to make Twitter bots and I’ve been having a blast. In fact I can’t remember the last time I had this much fun programming and doing stuff with computers. The bot is a simple little jokey thing but making the bot’s not really the point to be honest, it’s all about confidence building and being bad at stuff for long enough to get good at it.
 
 It’s been one of those rare moments where I’ve had lots to learn in a short period of time: figuring out the basics of node, learning how to use npm modules within an app, tinkering with requests in an API and figuring out how to plot coordinates in an SVG chart as well as figuring out what the heck a CRON job is. The reason why it’s been a blast though isn’t necessarily because I’m now the smartest human being alive and feel completely invulnerable to the passage of time, although that certainly does has something to do with it, but the reason why I’m so excited about all this stuff is really because of the community I found along the way.
 
