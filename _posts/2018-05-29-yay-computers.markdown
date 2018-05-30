@@ -4,7 +4,7 @@ date: 2018-05-29 20:01:00 -07:00
 extract: A note from the CSS-Tricks newsletter.
 ---
 
-Here’s a note I made in the most recent CSS-Tricks Newsletter which, yes, you absolutely should [sign up](https://css-tricks.com/newsletters/) to as quickly as humanly possible. We take the latest and greatest news from around the web design and development community and deliver it to your inbox every week.
+Here’s a note I made in the most recent CSS-Tricks Newsletter which, yes, you absolutely should [sign up](https://css-tricks.com/newsletters/) to as quickly as humanly possible. We take the latest and greatest news from around the web design community and deliver it straight to your inbox every week.
 
 ***
 
