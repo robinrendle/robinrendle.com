@@ -13,7 +13,7 @@ results: Decreased the amount of time it took to transfer a company by more than
 customCSSClass: transfers
 dateRange: 2017-2018
 company: Gusto
-heroImage: "/uploads/screely-1527655310841.png"
+heroImage: "/build/images/portfolio/transfer-1.jpg"
 layout: projects-detail
 ---
 
