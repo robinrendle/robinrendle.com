@@ -1666,46 +1666,25 @@ hgroup {
         top: 0; } }
 
 @font-face {
-  font-family: "Caponi Display";
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/caponi-display.woff2") format("woff2"), url("/fonts/caponi-display.woff") format("woff"); }
-
-@font-face {
-  font-family: "Caponi Text";
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/caponi-text-regular.woff2") format("woff2"), url("/fonts/caponi-text-regular.woff") format("woff"); }
-
-@font-face {
-  font-family: "Caponi Semibold";
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-  src: url("/fonts/caponi-text-semibold.woff2") format("woff2"), url("/fonts/caponi-text-semibold.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Output Sans';
+  font-family: "National";
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url("/fonts/OutputSans-Regular.woff2") format("woff2"), url("/fonts/OutputSans-Regular.woff") format("woff"); }
+  src: url("/fonts/National2-Regular.woff2") format("woff2"), url("/fonts/National2-Regular.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Output Sans';
+  font-family: "National Italic";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/National2-RegularItalic.woff2") format("woff2"), url("/fonts/National2-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: "National Display";
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url("/fonts/OutputSans-Bold.woff2") format("woff2"), url("/fonts/OutputSans-Bold.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Output Sans italic';
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  src: url("/fonts/OutputSans-Italic.woff2") format("woff2"), url("/fonts/OutputSans-Italic.woff") format("woff"); }
+  src: url("/fonts/National2Narrow-Medium.woff2") format("woff2"), url("/fonts/National2Narrow-Medium.woff") format("woff"); }
 
 .cell {
   padding: 20px;
@@ -2472,14 +2451,14 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Output Sans", Helvetica, sans-serif;
+  font-family: "National", Helvetica, sans-serif;
   font-weight: 600; }
 
 .p-intro {
   margin-bottom: 0; }
   @media (min-width: 621px) {
     .p-intro {
-      padding-left: 20px; } }
+      padding-left: 0; } }
 
 @media (min-width: 921px) {
   .p-intro .m-longform p {
@@ -2503,7 +2482,7 @@ h5 {
       font-variant: all-small-caps;
       color: #e95554;
       border-radius: 2px;
-      font-family: "Output Sans", Helvetica, sans-serif;
+      font-family: "National", Helvetica, sans-serif;
       transition: all 0.3s ease; }
       .p-intro .m-longform ul li a:hover, .p-intro .m-longform ul li a:focus {
         background-color: #fadcdc;
@@ -2548,10 +2527,10 @@ video {
     color: #999;
     line-height: 1.35;
     font-size: 15px;
-    font-family: "Output Sans", Helvetica, sans-serif; }
+    font-family: "National", Helvetica, sans-serif; }
   .p-project small {
     color: #999;
-    font-family: "Output Sans", Helvetica, sans-serif; }
+    font-family: "National", Helvetica, sans-serif; }
   .p-project:last-child {
     margin-bottom: 0 !important;
     border: none; }
@@ -2570,7 +2549,7 @@ video {
     .p-writing-list ul li:last-of-type {
       border-bottom: 1px solid #ededed; }
     .p-writing-list ul li {
-      font-family: "Output Sans", Helvetica, sans-serif;
+      font-family: "National", Helvetica, sans-serif;
       border: 1px solid transparent; }
       .p-writing-list ul li:hover {
         border-top: 1px solid #fdf2f2;
@@ -2595,7 +2574,7 @@ video {
         color: #555555;
         font-size: 23px; }
       .p-writing-list ul li p {
-        font-family: "Output Sans", Helvetica, sans-serif;
+        font-family: "National", Helvetica, sans-serif;
         font-weight: 400;
         font-size: 15px;
         margin: 0 !important;
@@ -2646,7 +2625,7 @@ video {
   .m-wrapper--unpadded .scrollbox h4,
   .m-wrapper--unpadded .scrollbox h5,
   .m-wrapper--unpadded .scrollbox p {
-    font-family: "Output Sans", Helvetica, sans-serif; }
+    font-family: "National", Helvetica, sans-serif; }
   .m-wrapper--unpadded .scrollbox p {
     font-size: 14px; }
 
@@ -2659,12 +2638,12 @@ figcaption {
   padding: 0 !important; }
 
 .m-longform figcaption > p {
-  font-family: "Output Sans", Helvetica, sans-serif;
+  font-family: "National", Helvetica, sans-serif;
   font-size: 14px;
   color: #555; }
 
 figcaption abbr {
-  font-family: "Output Sans", Helvetica, sans-serif;
+  font-family: "National", Helvetica, sans-serif;
   text-transform: none;
   font-variant: normal; }
 
@@ -2752,6 +2731,15 @@ figcaption abbr {
   display: grid;
   grid-template-columns: repeat(22, 1fr); }
 
+.p-grid__basic {
+  grid-column: 1 / 23; }
+  @media (min-width: 621px) {
+    .p-grid__basic {
+      grid-column: 1 / 18; } }
+
+.p-grid__full {
+  grid-column: 1/22; }
+
 .p-grid-wrapper {
   max-width: 850px;
   margin: 0 auto; }
@@ -2760,11 +2748,9 @@ figcaption abbr {
   grid-column: 1 / 23; }
 
 .p-section-intro {
-  grid-column: 1 / 23;
   margin-bottom: 10px; }
   @media (min-width: 621px) {
     .p-section-intro {
-      grid-column: 7 / 23;
       margin-bottom: 0; } }
 
 .p-grid-intro {
@@ -2813,11 +2799,10 @@ figcaption abbr {
   font-weight: 600;
   font-family: "National Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-size: 30px;
-  color: #e95554;
+  color: #999;
   margin-bottom: 20px; }
   @media (min-width: 621px) {
     .p-section-heading {
-      grid-column: 1/5;
       font-size: 34px; } }
 
 .p-title {
@@ -2934,7 +2919,7 @@ figcaption {
   text-transform: lowercase; }
 
 .meta {
-  font-family: "Output Sans", Helvetica, sans-serif !important;
+  font-family: "National", Helvetica, sans-serif !important;
   font-weight: 800;
   font-size: 16px;
   letter-spacing: 0.4px;
@@ -2962,5 +2947,5 @@ figcaption {
   color: rgba(0, 0, 0, 0.6); }
 
 .m-longform--small p {
-  font-family: "Output Sans", Helvetica, sans-serif !important;
+  font-family: "National", Helvetica, sans-serif !important;
   font-size: 14px; }

@@ -48,13 +48,11 @@ $home-theme: #e95554;
 @import "modules/custom-post";
 @import "modules/longform";
 @import "modules/wrapper";
-
-@import "../../fonts/caponi.scss";
-@import "../../fonts/output.scss";
+@import "../../fonts/national.scss";
 
 @import "objects/cell";
 
-$sans: "Output Sans", Helvetica, sans-serif;
+$sans: "National", Helvetica, sans-serif;
 
 html {
 	background-color: white;
@@ -83,7 +81,7 @@ h5 {
 .p-intro {
 	margin-bottom: 0;
 	@include media(">medium") {
-		padding-left: 20px;
+		padding-left: 0;
 	}
 }
 
@@ -449,17 +447,20 @@ figcaption abbr {
 	padding-bottom: 60px;
 }
 
-// .projects-outro--guide {
-// 	border-bottom-color: #28d8cb;
-// }
-//
-// .projects-outro--transfers {
-// 	border-bottom-color: #539adc;
-// }
-
 .p-grid {
 	display: grid;
 	grid-template-columns: repeat(22, 1fr);
+}
+
+.p-grid__basic {
+  grid-column: 1 / 23;
+  @include media(">medium") {
+		grid-column: 1 / 18;
+  }
+}
+
+.p-grid__full {
+  grid-column: 1/22;
 }
 
 .p-grid-wrapper {
@@ -472,10 +473,8 @@ figcaption abbr {
 }
 
 .p-section-intro {
-	grid-column: 1 / 23;
 	margin-bottom: 10px;
 	@include media(">medium") {
-		grid-column: 7 / 23;
 		margin-bottom: 0;
 	}
 }
@@ -531,19 +530,10 @@ figcaption abbr {
 	padding-top: 15px;
 	@include typeface("Display");
 	font-size: 30px;
-	color: $home-theme;
+	color: #999;
 	margin-bottom: 20px;
-	//
-	// &:after {
-	// 	content: "";
-	// 	height: 3px;
-	// 	width: 50px;
-	// 	background-color: #ddd;
-	// 	display: block;
-	// }
 
 	@include media(">medium") {
-		grid-column: 1/5;
 		font-size: 34px;
 	}
 }

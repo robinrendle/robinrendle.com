@@ -14,7 +14,8 @@
         </div>
       </div>
     </div>
-    <h1 class='cell-t10'>{{page.subtitle}}</h1>
+    <h1 class='cell-t10'>{{page.title}}</h1>
+    <!-- <h4>{{page.subtitle}}</h4> -->
 
     <div class='projects-intro-overview'>
       <div class='m-longform projects-intro-extract'>
@@ -42,10 +43,13 @@
   <img src='{{page.heroImage}}' class='{{page.heroImageClass}}'/>
 </figure>
 
-<div class='m-wrapper m-wrapper--unpadded m-longform'>
-  {{content}}
+<div class="p-grid-wrapper">
+  <div class='p-grid m-longform'>
+    <div class="p-grid__basic">
+      {{content}}
+    </div>
+  </div>
 </div>
-
 
 
 <div class='cell-t60 projects-outro projects-outro--{{page.customCSSClass}}'>
