@@ -9,7 +9,7 @@ I love what Jeremy has to say here about [frameworks and the web](https://adacti
 
 > I’ve come to believe that the goal of any good framework should be to make itself unnecessary
 
-...and how that ultimately relates to the AMP project:
+...and how that ultimately relates to [the AMP project](https://developers.google.com/amp/):
 
 > If the AMP project existed in order to create a web where AMP was no longer needed, I think I could get behind it. But the more it’s positioned as the only viable solution to solving performance, the more uncomfortable I am with it.
 > 
