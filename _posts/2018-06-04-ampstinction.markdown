@@ -1,8 +1,7 @@
 ---
 title: AMPstinction
 date: 2018-06-04 20:27:00 -07:00
-extract: I never made the connection between Flash and AMP before but now that I have
-  I can’t shake the comparison.
+extract: A note on frameworks and AMP
 ---
 
 I love what Jeremy has to say here about [frameworks and the web](https://adactio.com/journal/13964):
