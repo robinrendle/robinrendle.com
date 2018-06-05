@@ -18,4 +18,4 @@ My hot take on this? Sometimes I think Google (the company) knows precisely what
 
 But then again maybe all of this is sort of like Flash. There’s a great chat between [Bruce Lawson and Mustafa Kurtuldu](https://www.youtube.com/watch?v=tvLF7zllsv0) where they discuss how, yes, Adobe Flash was a nightmare for the web and yet at the same time it encouraged the web standards movement like nothing else before it. Flash showed us all that the web can be so much more than just a place to store some hypertext, that ultimately it can be anything we want it to be.
 
-And so whenever I look at AMP I wonder whether the technology and process itself might be bad (which is arguable) but the efforts might lead to longer lasting web performance improvements for the future.
+And so whenever I look at AMP I wonder whether the technology and process itself might be bad (which is arguable) but the efforts might lead to something longer lasting, another movement inspired because of it – one where we can all benefit from its future.
