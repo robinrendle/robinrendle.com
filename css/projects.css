@@ -1262,8 +1262,8 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
 .m-longform ol,
 .m-longform p,
 .m-longform ul {
-  font-size: 19px;
-  font-size: 1.1875rem;
+  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.45;
   -webkit-hyphens: auto;
   -webkit-hyphenate-limit-after: 2;
@@ -1497,8 +1497,8 @@ hgroup {
 .m-wrapper {
   display: block;
   margin: 0 auto;
-  max-width: 1000px;
-  max-width: 62.5rem; }
+  max-width: 800px;
+  max-width: 50rem; }
   .m-wrapper:after {
     content: "";
     display: table;
@@ -1510,6 +1510,8 @@ hgroup {
     .m-wrapper {
       display: grid;
       grid-gap: 25px;
+      max-width: 1000px;
+      max-width: 62.5rem;
       grid-template-columns: repeat(18, 1fr);
       padding: 0px 25px;
       padding: 0rem 1.5625rem; } }
