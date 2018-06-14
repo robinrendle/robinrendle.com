@@ -18,6 +18,6 @@ I think about this stuff _a lot_ (just Inspect Element on this here page) but I�
 
 But then I think beyond the language and get all sour when I think about [link rot](https://www.tbray.org/ongoing/When/201x/2015/05/25/URI-decay). Even some of the older projects here, like [The New Web Typography](https://robinrendle.com/essays/new-web-typography/), is slowly sinking into the mud. The first thing to stop working was the fonts. Then one day the JavaScript for some of the examples stopped working. 
 
-It’s fascinating actually, watching this enormous project that I cared so much for once slowly rot away back into hypertext. And maybe that’s okay. Maybe one day everything on that page will return to a state of nothing but html tags and responsive text. And maybe it’ll stick around for a while after I’m gone.
+It’s fascinating actually, watching this enormous project that I cared so much for once fade away back into hypertext. And maybe that’s okay. Maybe one day everything on that page will return to a state of nothing but html tags and responsive text. And maybe it’ll stick around for a while after I’m gone.
 
 But the biggest flaw with all this digital preservation stuff isn’t HTML or CSS in my opinion. _It’s the domain._ We rent spaces on the web and put up our flimsy little flags on top. And then they get lost in a shuffle. Or when someone unplugs something. Or, tragically, if someone dies. Above all things is the part of the web that shows the least amount of resilience.
