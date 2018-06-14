@@ -5,7 +5,7 @@ tags:
 - zach leatherman
 - preservation
 - web
-extract: Preserving the web is tough.
+extract: The honest answer? Probably not that long.
 ---
 
 [Zach Leatherman](https://www.zachleat.com/web/digital-longevity/):
