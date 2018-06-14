@@ -20,4 +20,6 @@ But then I think beyond the language and get all sour when I think about [link r
 
 It’s fascinating actually, watching this enormous project that I cared so much for once fade away back into hypertext. And maybe that’s okay. Maybe one day everything on that page will return to a state of nothing but HTML tags. And maybe it’ll stick around for a while after I’m gone, too.
 
-But the biggest flaw with all this digital preservation stuff isn’t HTML or CSS in my opinion. _It’s the concept of a domain that we rent._ Today we borrow spaces on the web and put up our flimsy little flags on top. And then the links get lost in a shuffle between apartments or jobs or between marriages. Or when someone accidentally unplugs something. Or, tragically, if someone dies. Above all things is the part of the web that shows the least amount of resilience.
+But the biggest flaw with all this digital preservation stuff isn’t HTML or CSS in my opinion. _It’s the concept of a domain that we rent._ Today we borrow spaces on the web and put up our flimsy little flags on top. And then the links get lost in a shuffle between apartments or jobs or between marriages. Or when someone accidentally unplugs something. Or, tragically, if someone dies. 
+
+Above all things it’s the domain that’s the part of the web that shows the least amount of resilience. And it’s the part that scares me the most.
