@@ -22,6 +22,6 @@ It’s fascinating in fact, watching this enormous project that I cared so much 
 
 But the biggest flaw with all this digital preservation stuff isn’t HTML or CSS in my opinion. _It’s the concept of a domain that we rent._ Today we borrow spaces on the web and put up our flimsy little flags on top. And then the links get lost in a shuffle between apartments or jobs, between marriages or administrations. Or when someone accidentally unplugs something. Or, tragically, if someone dies. 
 
-Above all things it’s not the languages of the web we should be worried about when it comes to digital preservation. Instead, I think that this idea of renting a space on the web for money is the least resilient part of the whole deal. 
+Above all things it’s not the languages of the web we should be worried about when it comes to digital preservation. Instead, it’s the pact we sign when renting a space on the web for money – that’s the least resilient part of the whole deal. 
 
 And it’s what scares me the most.
