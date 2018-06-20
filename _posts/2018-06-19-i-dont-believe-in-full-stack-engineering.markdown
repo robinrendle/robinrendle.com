@@ -28,7 +28,12 @@ I’ve been chatting to a lot of folks lately about this worrisome trend and how
 
 Anything that touches the database is not front-end development in my opinion. And that’s only because focus in this line of work is vitally important; yesterday’s hacks become today’s standards and you simply don’t have time to keep up with front-end development if it’s a side gig.
 
-I think this apathy towards front-end development comes from a lot of different places. HTML and CSS and JavaScript has always been looked down on by many engineers for it’s quirks.
+I think this apathy towards front-end development comes from a lot of different places. HTML and CSS and JavaScript has always been looked down on by many engineers for it’s quirks but it’s mostly misunderstood. When they see a confusing and haphazardly implement API (HTML) across browsers I see a swarming, writhing, and constantly improving interface that means we can read stuff that was written fifteen years ago and our browsers can still parse it.
+
+But I also think us web developers are to blame, too. For jumping on the design systems bandwagon for example:
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If we spent as much time thinking about users as we do about the titles we give front-end developers then the web would be a much better place.</p>&mdash; Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/1006561797145440256?ref_src=twsrc%5Etfw">June 12, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 And all you design systems folks out there? You’re just front-end developers with a fancy name. And that’s okay! But it’s also sort of annoying to see a line of work that is still vital to the health of the web, and the financial stakes of those companies that don’t really care about this stuff, and it’s sad to see developers rename their titles every six months so that they can get more prestige from fucking LinkedIn of all places.
 
