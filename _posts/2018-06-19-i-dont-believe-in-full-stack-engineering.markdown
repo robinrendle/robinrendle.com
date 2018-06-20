@@ -32,7 +32,6 @@ But I also reckon us web developers share part in the blame, too. For jumping on
 
 <div class="cell-b20">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If we spent as much time thinking about users as we do about the titles we give front-end developers then the web would be a much better place.</p>&mdash; Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/1006561797145440256?ref_src=twsrc%5Etfw">June 12, 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 All us design systems folks? We’re really just front-end developers with a fancy name. And that’s okay! But it’s also sort of annoying to see a line of work that is still vital to the health of the web, and the financial stakes of those companies that don’t really care about this stuff, and it’s sad to see developers rename their titles every six months so that they can get more prestige from their LinkedIn profiles of all places.
