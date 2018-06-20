@@ -15,7 +15,7 @@ extract: 'There, I said it. '
 
 There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both. 
 
-And I see bad design _everywhere_ on the web because of this –  not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance. It’s because there’s a whole task of work that’s being left entirely ignored and pushed aside by the folks that are making hiring decisions at these orgs.
+And I see bad design _everywhere_ on the web because of this — not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance. It’s because there’s a whole task of work that’s being left entirely ignored and pushed aside by the folks that are making hiring decisions at these orgs.
 
 Front-end development, that is.
 
