@@ -26,7 +26,7 @@ I’ve been chatting to a lot of folks lately about this worrisome trend and how
 - Caring deeply, even obsessively, about web performance (so that means font loading, images, SVGs, animations, reviewing third party scripts etc.)
 - And depending on the size of the org or project, a deep knowledge of React/Angular/whatever in order to make abstract components that can be constantly reused by different teams
 
-Anything that touches the database is not front-end development in my opinion. And that’s only because focus in this line of work is vitally important; yesterday’s hacks become today’s standards and you simply don’t have time to keep up with front-end development if it’s not your sole attention.
+Anything that touches the database is not front-end development in my opinion. And that’s only because focus in this line of work is vitally important; yesterday’s hacks become today’s standards and you simply don’t have time to keep up with front-end development if it’s a side gig.
 
 And all you design systems folks out there? You’re just front-end developers with a fancy name. And that’s okay! But it’s also sort of annoying to see a line of work that is still vital to the health of the web, and the financial stakes of those companies that don’t really care about this stuff, and it’s sad to see developers rename their titles every six months so that they can get more prestige from fucking LinkedIn of all places.
 
