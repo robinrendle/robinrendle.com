@@ -6,6 +6,7 @@ tags:
 - book reviews
 - Rachel Binx
 - reading
+- books
 extract: Zadie Smith’s book, to me, is all about England.
 ---
 
