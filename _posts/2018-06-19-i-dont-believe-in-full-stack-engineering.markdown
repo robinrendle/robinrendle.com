@@ -36,7 +36,7 @@ Not only that but I see a lot of tools and processes trying to replace front-end
 
 Humbug, I say.
 
-Every company that ignores front-end development is doing so at their peril; they’ll lose [millions of dollars every year](https://wpostats.com/) because their websites are slow, they’ll [be sued](https://www.wsj.com/articles/companies-face-lawsuits-over-website-accessibility-for-blind-users-1478005201) for voiding accessibility laws, they won’t be able to ship beautiful interaction models as native interfaces vastly surpass them.
+Every company that ignores front-end development is doing so at their own peril; they’ll lose [millions of dollars every year](https://wpostats.com/) because their websites are slow, they’ll [be sued](https://www.wsj.com/articles/companies-face-lawsuits-over-website-accessibility-for-blind-users-1478005201) for voiding accessibility laws, they won’t be able to ship beautiful interaction models as native interfaces vastly surpass them.
 
 Despite the evidence that front-end development is a focused activity that requires full-time effort I see a lot of companies hiring full-stack engineers and hiring designers without coding experience, and I see design teams focused intently on pixel pushing and making animations without understanding basic HTML structure. I constantly see wildly inaccessible interfaces that don’t have focus states and forms that don’t let you navigate effectively with a keyboard. I see interfaces that feel slow and clunky because really no-one considered how browsers actually function at the most basic of levels.
 
