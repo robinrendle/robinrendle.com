@@ -13,14 +13,14 @@ tags:
 extract: 'There, I said it. '
 ---
 
-There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both. But hold up a sec, what does that title even mean? 
+There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both. 
 
-Well, for me that line of work contains the following skills:
+But hold up a sec, what does that title even mean? Well, for me, that line of work contains the following skills:
 
-- Semantic, accessible markup
-- Experience of writing clear and concise Sass/CSS 
-- Caring deeply, even obsessively, about web performance (so that means font loading, images, SVGs, animations, reviewing third party scripts etc.)
-- And depending on the size of the org or project, a deep knowledge of React/Angular/whatever in order to make abstract components that can be constantly reused by different teams
+- Semantic, accessible markup (writing in a sea of spans and divs should make them uncomfortable)
+- Experience of writing clear and concise Sass/CSS (they should fully appreciate the benefits and risks of the cascade)
+- Caring deeply, even obsessively, about web performance (so that means knowledge of font loading, images, SVGs, animations, auditing third party scripts etc.)
+- And depending on the size of the org or project, a deep knowledge of React/Angular/whatever in order to make abstract components that can be constantly reused by different teams.
 
 Anything that touches the database is not front-end development in my opinion. And that’s only because focus in this line of work is vitally important; yesterday’s hacks become today’s standards and you simply don’t have time to keep up with front-end development if it’s a side gig.
 
