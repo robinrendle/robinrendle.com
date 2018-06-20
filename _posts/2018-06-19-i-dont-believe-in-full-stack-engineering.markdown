@@ -38,7 +38,7 @@ All us design systems folks? We’re really just front-end developers with a fan
 
 Front-end development is important today and it will be important in twenty years’ time. It’s not going away anytime soon. It’s always going to be about as cool and as boring as it is today. Putting everything in JavaScript and changing your job description won’t change that. It’ll just lead to even more confusion about what front-end development even is.
 
-Not only that but I see a lot of tools and processes trying to replace front-end development (some CSS-in-JS arguments lead here, too). Sometimes that replacement comes under the guise of ‘Design Systems’, too. A lot of prototyping and design tools seem to shout from the heavens: “Designers! Give this mockup to an engineer and all they have to do is copy and paste the CSS! It’s literally impossible to screw this up!”
+Not only that but I see a lot of tools and processes trying to replace front-end development (some CSS-in-JS arguments lead here, too). Sometimes that replacement comes under the guise of Design Systems tools. A lot of prototyping and design apps seem to shout from the heavens: “Designers! Give this mockup to an engineer and all they have to do is copy and paste the CSS! It’s literally impossible to screw this up!”
 
 Humbug, I say!
 
