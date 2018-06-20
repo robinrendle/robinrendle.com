@@ -26,7 +26,7 @@ Yes, learning these skills is possible if you’re an engineer. But doing them w
 
 And I see bad design _everywhere_ on the web because of these lack of skills — not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance issues. It’s because there’s a whole spectrum of web development skills that are being left entirely ignored and pushed aside by the folks that are making hiring decisions at these organizations.
 
-I think this apathy towards front-end development comes from a lot of different places. HTML and CSS and JavaScript have always been looked down upon by many engineers for their quirks. When they see a confusing and haphazardly implemented API across browsers (HTML/CSS/JS), I see a swarming, writhing, and constantly improving interface that means we can read stuff that was written fifteen years ago and our browsers can still parse it.
+I think this apathy towards front-end development comes from a lot of different places though. HTML and CSS and JavaScript have always been looked down upon by many engineers for their quirks. When they see a confusing and haphazardly implemented API across browsers (HTML/CSS/JS), I see a swarming, writhing, and constantly improving interface that means we can read stuff that was written fifteen years ago and our browsers can still parse it.
 
 But I also reckon us web developers share part in the blame, too. For jumping on the design systems bandwagon, for example:
 
