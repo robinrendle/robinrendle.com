@@ -32,7 +32,7 @@ And all you design systems folks out there? You’re just front-end developers w
 
 Front-end development is important today and it will be important in twenty years’ time. It’s not going away anytime soon.
 
-Not only that but I see a lot of tools trying to replace front-end development under the guise of ‘Design Systems’, too. A lot of tools seem to shout from the heavens: “Designers! Give this mockup to an engineer and all they have to do is copy and paste the CSS! It’s literally impossible to fuck up!”
+Not only that but I see a lot of tools and processes trying to replace front-end development (some CSS-in-JS arguments lead here, too). Sometimes that replacement comes under the guise of ‘Design Systems’, too. A lot of prototyping and design tools seem to shout from the heavens: “Designers! Give this mockup to an engineer and all they have to do is copy and paste the CSS! It’s literally impossible to screw this up!”
 
 Humbug, I say.
 
