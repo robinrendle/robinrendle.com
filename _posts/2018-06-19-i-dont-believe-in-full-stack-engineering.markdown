@@ -19,7 +19,7 @@ And I see bad design _everywhere_ on the web because of this — not necessarily
 
 _Front-end development_, that is.
 
-I’ve been chatting to a lot of folks lately about this worrisome trend and how employers are simply ignoring this area of expertise known as _front-end development_. But what does that title even mean? Well for me that contains the following:
+I’ve been chatting to a lot of folks lately about this worrisome trend and how employers are simply ignoring this area of expertise known as _front-end development_. But what does that title even mean? Well for me that line of work contains the following skills:
 
 - The writing of semantic, accessible markup
 - Knowledge of writing clear and consise Sass/CSS 
