@@ -22,7 +22,7 @@ But hold up a sec, what does that title even mean? Well I believe that this line
 - Caring deeply, even obsessively, about web performance (so that means knowledge of font loading, images, SVGs, animations, auditing third party scripts etc.)
 - And depending on the size of the org or project, a deep knowledge of React/Angular/whatever in order to make abstract components that can be constantly reused by different teams.
 
-Yes, learning these skills is possible if you’re an engineer. But doing them well? Heck, doing them to an acceptable standard? This line of work requires above all else dedication and focus because yesterday’s hacks become today’s standards and you simply don’t have time to keep up with front-end development if it’s a side gig.
+Yes, learning these skills is possible if you’re an engineer. But doing them well? Heck, doing them to an acceptable standard? This line of work requires above all else dedication and focus because yesterday’s hack becomes today’s standard and you simply don’t have time to keep up with front-end development if it’s a side gig.
 
 And I see bad design _everywhere_ on the web because of these lack of skills — not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance issues. It’s because there’s a whole spectrum of web development skills that are being left entirely ignored and pushed aside by the folks that are making hiring decisions at these organizations.
 
