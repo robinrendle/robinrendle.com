@@ -40,7 +40,7 @@ Front-end development is important today and it will be important in twenty year
 
 Not only that but I see a lot of tools and processes trying to replace front-end development (some CSS-in-JS arguments lead here, too). Sometimes that replacement comes under the guise of ‘Design Systems’, too. A lot of prototyping and design tools seem to shout from the heavens: “Designers! Give this mockup to an engineer and all they have to do is copy and paste the CSS! It’s literally impossible to screw this up!”
 
-Humbug, I say.
+Humbug, I say!
 
 Every company that ignores front-end development is doing so at their own peril; they’ll lose [millions of dollars every year](https://wpostats.com/) because their websites are slow, they’ll [be sued](https://www.wsj.com/articles/companies-face-lawsuits-over-website-accessibility-for-blind-users-1478005201) for voiding accessibility laws, they won’t be able to ship beautiful, high-quality and well-organized interfaces because no-one will be there to build them.
 
