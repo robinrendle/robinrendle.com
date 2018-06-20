@@ -9,6 +9,7 @@ tags:
 - hiring
 - gusto
 - rant
+- featured
 extract: 'There, I said it. '
 ---
 
