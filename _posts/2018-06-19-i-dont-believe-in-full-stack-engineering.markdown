@@ -1,6 +1,15 @@
 ---
 title: I Don’t Believe in Full-Stack Engineering
 date: 2018-06-19 19:45:00 -07:00
+categories:
+- featured
+tags:
+- web design
+- front-end development
+- hiring
+- gusto
+- rant
+extract: 'There, I said it. '
 ---
 
 There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to navigate the back-end and front-end with ease. For the rest of us, it’s simply not possible to do both. 
