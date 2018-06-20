@@ -28,7 +28,7 @@ And I see bad design _everywhere_ on the web because of these lack of skills —
 
 And I think this apathy towards front-end development comes from a lot of different places. HTML and CSS and JavaScript has always been looked down on by many engineers for it’s quirks but it’s mostly misunderstood. When they see a confusing and haphazardly implement API (HTML) across browsers I see a swarming, writhing, and constantly improving interface that means we can read stuff that was written fifteen years ago and our browsers can still parse it.
 
-But I also think us web developers are to blame, too. For jumping on the design systems bandwagon for example:
+But I also reckon us web developers share part in the blame, too. For jumping on the design systems bandwagon, for example:
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If we spent as much time thinking about users as we do about the titles we give front-end developers then the web would be a much better place.</p>&mdash; Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/1006561797145440256?ref_src=twsrc%5Etfw">June 12, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
