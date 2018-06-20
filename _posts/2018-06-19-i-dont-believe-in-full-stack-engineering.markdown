@@ -15,7 +15,7 @@ extract: 'There, I said it. '
 
 There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both. 
 
-But hold up a sec, what does that title even mean? Well, for me, that line of work contains the following skills:
+But hold up a sec, what does that title even mean? Well I believe that this line of work contains the following skills:
 
 - Semantic, accessible markup (writing in a sea of spans and divs should make them uncomfortable)
 - Experience of writing clear and concise Sass/CSS (they should fully appreciate the benefits and risks of the cascade)
