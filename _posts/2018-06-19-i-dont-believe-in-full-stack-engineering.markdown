@@ -34,7 +34,7 @@ Maybe us web developers and designers share part in the blame, too:
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If we spent as much time thinking about users as we do about the titles we give front-end developers then the web would be a much better place.</p>&mdash; Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/1006561797145440256?ref_src=twsrc%5Etfw">June 12, 2018</a></blockquote>
 </div>
 
-It’s sort of frustrating to see a line of work that is still vital to the health of the web, and the financial stakes of those companies that don’t really care about this stuff, and it’s sad to see developers rename their titles every six months so that they can get more prestige for their LinkedIn profiles.
+It’s sort of frustrating to see a line of work that’s still vital to the health of the web, and the financial stakes of those companies that don’t really care about this stuff, and it’s sad to see developers rename their titles every six months so that they can get more prestige for their LinkedIn profiles.
 
 Front-end development is important today and it will be important in twenty years’ time, it’s not going away anytime soon. It’s always going to be about as cool and as boring as it is today so putting everything in JavaScript and changing your job description won’t change that. It’ll just lead to even more confusion about what front-end development even is.
 
