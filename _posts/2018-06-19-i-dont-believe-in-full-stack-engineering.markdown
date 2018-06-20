@@ -24,8 +24,7 @@ Well, for me that line of work contains the following skills:
 
 Anything that touches the database is not front-end development in my opinion. And that’s only because focus in this line of work is vitally important; yesterday’s hacks become today’s standards and you simply don’t have time to keep up with front-end development if it’s a side gig.
 
-
-And I see bad design _everywhere_ on the web because of this — not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance issues. It’s because there’s a whole task of work that’s being left entirely ignored and pushed aside by the folks that are making hiring decisions at these organizations.
+And I see bad design _everywhere_ on the web because of these lack of skills — not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance issues. It’s because there’s a whole task of work that’s being left entirely ignored and pushed aside by the folks that are making hiring decisions at these organizations.
 
 I think this apathy towards front-end development comes from a lot of different places. HTML and CSS and JavaScript has always been looked down on by many engineers for it’s quirks but it’s mostly misunderstood. When they see a confusing and haphazardly implement API (HTML) across browsers I see a swarming, writhing, and constantly improving interface that means we can read stuff that was written fifteen years ago and our browsers can still parse it.
 
