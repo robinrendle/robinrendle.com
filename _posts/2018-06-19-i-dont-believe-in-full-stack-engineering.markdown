@@ -48,5 +48,5 @@ Despite the evidence that front-end development is a focused activity that requi
 
 If you’re only hiring full-stack engineers then you should carefully consider why that’s the case and you should have a grasp of what you’re sacrificing for that lack of focus and expertise in that area. 
 
-Because there’s no such things as a unicorn and there is no such thing as a full-stack engineer.
+Because there’s no such thing as a unicorn and there’s no such thing as a full-stack engineer.
 
