@@ -1,6 +1,8 @@
 ---
 title: On Beauty
 date: 2018-06-11 21:13:00 -07:00
+categories:
+- books
 tags:
 - zadie smith
 - book reviews
