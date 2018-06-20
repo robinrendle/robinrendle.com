@@ -21,8 +21,8 @@ _Front-end development_, that is.
 
 I’ve been chatting to a lot of folks lately about this worrisome trend and how employers are simply ignoring this area of expertise known as _front-end development_. But what does that title even mean? Well for me that line of work contains the following skills:
 
-- The writing of semantic, accessible markup
-- Knowledge of writing clear and consise Sass/CSS 
+- Semantic, accessible markup
+- Experience of writing clear and concise Sass/CSS 
 - Caring deeply, even obsessively, about web performance (so that means font loading, images, SVGs, animations, reviewing third party scripts etc.)
 - And depending on the size of the org or project, a deep knowledge of React/Angular/whatever in order to make abstract components that can be constantly reused by different teams
 
