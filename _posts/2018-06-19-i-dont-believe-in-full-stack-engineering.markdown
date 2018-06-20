@@ -30,6 +30,8 @@ Anything that touches the database is not front-end development in my opinion. A
 
 And all you design systems folks out there? You’re just front-end developers with a fancy name. And that’s okay! But it’s also sort of annoying to see a line of work that is still vital to the health of the web, and the financial stakes of those companies that don’t really care about this stuff, and it’s sad to see developers rename their titles every six months so that they can get more prestige from fucking LinkedIn of all places.
 
+Front-end development is important today and it will be important in twenty years’ time.
+
 Not only that but I see a lot of tools trying to replace front-end development under the guise of ‘Design Systems’, too. A lot of tools seem to shout from the heavens: “Designers! Give this mockup to an engineer and all they have to do is copy and paste the CSS! It’s literally impossible to fuck up!”
 
 Humbug, I say.
