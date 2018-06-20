@@ -17,7 +17,7 @@ There, I said it.  Of all the engineers I’ve met over the years only one has c
 
 And I see bad design _everywhere_ on the web because of this — not necessarily because designers are ill equipped for the task at hand or even that engineers are ignorant of web standards and usability or performance issues. It’s because there’s a whole task of work that’s being left entirely ignored and pushed aside by the folks that are making hiring decisions at these organizations.
 
-Front-end development, that is.
+_Front-end development_, that is.
 
 I’ve been chatting to a lot of folks lately about this worrisome trend of how their employers are ignorning this area of expertise known as _front-end development_. But what does that title even mean? Well for me that contains the following:
 
