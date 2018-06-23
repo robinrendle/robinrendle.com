@@ -1,5 +1,5 @@
 ---
-title: An Archipeligo Man
+title: An Archipelago Man
 date: 2018-06-23 13:52:00 -07:00
 ---
 
