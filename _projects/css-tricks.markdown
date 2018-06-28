@@ -8,10 +8,11 @@ extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''C
   style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
   Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology
   and provide tutorials and links to help developers learn more about the web. Over
-  those years I’ve written a number of technical posts and tutorials that explore new browser features
-  and written in-depth articles on the peculiarities of <abbr title=''Cascading style
-  sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful opportunity to improve my front-end skills as well as hopefully contributing something back to the community.
-'
+  those years I’ve written a number of technical posts and tutorials that explore
+  new browser features and written in-depth articles on the peculiarities of <abbr
+  title=''Cascading style sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful
+  opportunity to improve my front-end skills as well as hopefully contributing something
+  back to the community. '
 role: Writing, pitching, and editing contributions.
 results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning
   about the latest and greatest in front-end development.
