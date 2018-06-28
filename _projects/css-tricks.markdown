@@ -8,10 +8,9 @@ extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''C
   style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
   Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology
   and provide tutorials and links to help developers learn more about the web. Over
-  those years I’ve written a number of technical posts that explore new browser features
-  and written in-depth tutorials on the peculiarities of <abbr title=''Cascading style
-  sheets''>CSS</abbr>.
-
+  those years I’ve written a number of technical posts and tutorials that explore new browser features
+  and written in-depth articles on the peculiarities of <abbr title=''Cascading style
+  sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful opportunity to improve my front-end skills as well as hopefully contributing something back to the community.
 '
 role: Writing, pitching, and editing contributions.
 results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning about the latest and greatest in front-end development.
@@ -39,4 +38,4 @@ Not only has working with the excellent team been an inspiration, they’ve also
 
 Currently I spend most of my time writing [the weekly newsletter](http://css-tricks.com/newsletter) which collects everything that was posted on the website during the week and then wrap things up with a comment about what I’ve been learning about that week. Sometimes it’s about code, but it’s often about topics that are related to front-end development, such as managing large teams of front-end engineers.
 
-Colloborating with Chris and a few other guest writers for the newsletter, we’ve grown it from zero subscribers to more than 32,000 which is sort of scary, intimidating and exciting all at the same time.
+Collaborating with Chris and a few other guest writers for the newsletter, we’ve grown it from zero subscribers to more than 32,000 which is sort of scary, intimidating and exciting all at the same time.

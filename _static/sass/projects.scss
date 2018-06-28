@@ -16,14 +16,26 @@ $home-theme: #e95554;
 
 .projects-wrapper--home {
   .project-link {
+    transition: all .3s ease;
     h3 { color: #333; line-height: 1.3;}
     p { font-size: 16px; }
     &:hover {
+      box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+      transform: scale(1.02);
+      border-radius: 3px;
+      padding-left: 10px;
+      border-color: transparent;
+
+      & + .project-link {
+        border-color: transparent;
+      }
+
+
       h3 { color: $home-theme; }
       p { color: #333; }
     }
     &:focus {
-      background-color: lighten($home-theme,35);
+      background-color: white;
     }
   }
 }
@@ -332,18 +344,19 @@ figcaption abbr {
 
 	li {
 		position: relative;
+    margin-left: -20px;
 	}
 
 	li:before {
 		content: "";
-		background-color: #2276fb;
+		background-color: var(--themeColor);
 		margin: 0;
 		padding: 0;
 		left: -15px;
 		top: 13px;
 		font-weight: bold;
 		position: absolute;
-		border: 1px solid #2276fb;
+		border: 1px solid var(--themeColor);
 		min-width: 5px;
 		min-height: 5px;
 		transform: rotate(45deg);
@@ -712,7 +725,34 @@ figcaption {
   border-bottom: 1px solid #dddddd;
 }
 
-.h1 {
+h1 {
   padding-top: 20px !important;
   margin-bottom: 10px;
+}
+
+.side-projects {
+  li {
+    &:first-of-type {
+      a {
+        border-top: 1px dashed #ddd;
+      }
+    }
+    list-style: none;
+  }
+  a {
+    @include typeface("Display");
+    font-size: 18px;
+    border-bottom: 1px dashed #ddd;
+    padding: 20px 0;
+    color: #555;
+    display: block;
+    transition: all .3s ease;
+
+    &:hover {
+      color: $home-theme;
+    }
+    &:focus {
+      background-color: lighten($home-theme, 35)
+    }
+  }
 }

@@ -20,8 +20,11 @@
       <h1 class="h1 u-reset-margins cell-b15 cell-t10">
         I’m Robin, a web designer, writer and typographer living in San Francisco.
       </h1>
-      <div class='m-longform cell-b40'>
+      <div class='m-longform cell-b10'>
         <p>Today I work at <a href='https://gusto.com'>Gusto</a> as a product designer on the payroll team but I spend a significant amount of my time building Gusto’s design system; refactoring the styles, components, and design patterns that our designers and developers use everyday. I’m also on the writing staff at <a href='http://css-tricks.com/'>CSS-Tricks</a> where we write about web design and front-end development best practices, too.</p>
+      </div>
+      <div class="about-links">
+        {{page.links | markdownify}}
       </div>
     </div>
     <div class="m-header__img m-wrapper__side cell-t10">
@@ -47,26 +50,13 @@
       {% endfor %}
   </div>
   <div class="m-wrapper__side">
-    <h4 class='c-lightgrey text-bold u-reset-margins cell-b10 border-bottom'>More Information</h2>
-    <div class="about-links">
-      {{page.links | markdownify}}
-    </div>
-  </div>
-</div>
-
-{{page.sideProjects | markdownify}}
-
-<div class="m-wrapper">
-  <div class="m-wrapper__content cell-b40">
-    <h4 class='c-lightgrey text-bold u-reset-margins cell-b10 border-bottom'>Writing</h2>
-
-    <section class='p-section'>
-      <div class='p-writing-list'>
-        {{page.writing | markdownify}}
+    <h4 class='c-lightgrey text-bold u-reset-margins cell-b10'>Side Projects</h2>
+      <div class="side-projects">
+        {{page.sideProjects | markdownify}}
       </div>
-    </section>
   </div>
 </div>
+
 
 
 {% include projects-footer.html %}

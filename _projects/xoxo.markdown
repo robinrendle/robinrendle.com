@@ -36,6 +36,6 @@ I initially experimented with a darker color palette and overall design language
 
 Here’s a video of the final website that was built after the teaser and it shows a number of the neatest front-end trick that I had begun experimenting with in those early prototyps, including blend-modes and using the new object-fit <abbr title='cascading style sheets'>CSS</abbr> property:
 
-<div class='m-wrapper'>
+<figure class=''>
   <iframe height="500" class="" src="https://www.youtube.com/embed/x7RaIm7PP1k" frameborder="0" allowfullscreen></iframe>
-</div>
+</figure>

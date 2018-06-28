@@ -28,9 +28,11 @@ heroImage: "/build/images/portfolio/guide-1.jpg"
 
 ## Project Goals
 
-1. Set high standards for design and front-end development at Gusto.
-2. Educate the design team about how to use the components.
-3. Reign in the code and design inconsistencies across Gusto’s apps and brand.
+<ul class="solutions-list">
+<li>Set high standards for design and front-end development at Gusto.</li>
+<li>Educate the design team about how to use the components.</li>
+<li>Reign in the code and design inconsistencies across Gusto’s apps and brand.</li>
+</ul>
 
 During my time at Gusto I was a designer on the payroll team but I made a considerable effort to start the Design Systems team and build a number of tools and processes that would achieve these three goals above. My role throughout this project was to then act as front-end developer, designer and, well, guide of The Guide — I led the documentation, refactoring efforts, and visual design improvements throughout the product and across each of the distinct missions.
 
@@ -104,4 +106,4 @@ One of the more shocking revelations of this project was that I always assumed t
 
 Tools that help us make design systems sure are useful, and will do a lot of the work, but ultimately it’s down to the shape of the organization to encourage a culture of high quality front-end code and design. And so I spent a great deal of time trying to mentor designers that were not quite as familiar with front-end development and scaling design systems: this is when I realized that writing documentation and improving code quality was important but it was never quite as helpful as sitting with another designer or developer and talking with them about a problem they were experiencing.
 
-It was that community element that was the toughest and yet most rewarding part of the job.
+It was that trying to build that community that was the toughest and yet most rewarding part of the job. Also, if you’re interested in reading more you can check out some of the mistakes I made in [Design Systems at Gusto](https://medium.com/gusto-design/design-systems-at-gusto-a710543b2c93).

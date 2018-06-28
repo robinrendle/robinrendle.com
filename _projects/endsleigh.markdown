@@ -23,9 +23,11 @@ extract: 'Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I
 
 ## Project Goals
 
-1. An easy-to-read codebase with a strong foundation on object-oriented <abbr title='cascading style sheets'>CSS</abbr>.
-2. Make the website as accessible for as many customers and users as possible.
-3. Create a performance budget that prioritised speed over hi-fidelity visual design.
+<ul class="solutions-list">
+  <li>An easy-to-read codebase with a strong foundation on object-oriented <abbr title='cascading style sheets'>CSS</abbr>.</li>
+  <li>Make the website as accessible for as many customers and users as possible.</li>
+  <li>Create a performance budget that prioritised speed over hi-fidelity visual design.</li>
+</ul>
 
 As a front-end developer I worked closely with the head of design at Erskine and the lead front-end developer to break down the design mockups into an ellaborate system of components and templates. Throughout the project we discussed ways in which to cut down on the number of components and re-use them as much as possible. We also constantly discussed ways in which to change the design in order to improve the performance of the website (such as stripping out unnecessary images and replacing them with inline <abbr title='scalable vector graphics'>SVG</abbr>s). That feedback loop between design and development ultimately taught me an awful lot about how a team ought to collaborate and work together in the future.
 
@@ -40,7 +42,7 @@ First we took a look at the high-fidelity mockups, printed them out and plastere
   <figure class='cell-t20'>
     <img src="/build/images/portfolio/endsleigh-layouts.png">
     <figcaption>
-      <p>By taking a step back and looking at all the templates and components together before we started building anything was crucial in order to spot the relationships between small and large pieces of content.</p>
+      <p>By taking a step back and looking at all the templates and components together before we started building anything was crucial in order to figure out what we should build and in what order.</p>
     </figcaption>
   </figure>
 </div>
