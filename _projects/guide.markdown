@@ -1,13 +1,13 @@
 ---
 title: The Guide
+date: 2018-06-20 17:21:00 -07:00
 subtitle: Building Gusto’s design system, styleguide, and component library.
-date: 2018-06-20 16:21:00 -08:00
 dateRange: 2016-2018
 role: 'Led the design and development of the design system and its many React components.
 
 '
 customCSSClass: guide
-color: '#28d8cb'
+color: "#28d8cb"
 results: 'High quality front-end code and documentation for the components and assets,
   such as logos, illustrations, and icons.
 

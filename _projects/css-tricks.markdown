@@ -2,7 +2,7 @@
 title: CSS-Tricks
 date: 2015-10-24 11:59:00 -07:00
 dateRange: 2015-2018
-color: '#ff9801'
+color: "#ff9801"
 subtitle: Writing for the CSS-Tricks community about web design and front-end development.
 extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''Cascading
   style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
@@ -14,7 +14,8 @@ extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''C
 
 '
 role: Writing, pitching, and editing contributions.
-results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning about the latest and greatest in front-end development.
+results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning
+  about the latest and greatest in front-end development.
 
 '
 customCSSClass: css-tricks
