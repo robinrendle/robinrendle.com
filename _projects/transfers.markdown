@@ -1,6 +1,7 @@
 ---
 title: The Transfers App
 subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
+date: 2018-03-20 16:21:00 -08:00
 extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 companies.
   Late last year I was tasked with helping the Transfers team; this is the department
   that migrates customer data from their existing payroll service into Gusto. I designed
@@ -13,13 +14,14 @@ results: Decreased the amount of time it took to transfer a company by more than
 customCSSClass: transfers
 dateRange: 2017-2018
 company: Gusto
+color: '#539adc'
 heroImage: "/build/images/portfolio/transfer-1.jpg"
 layout: projects-detail
 ---
 
 ## Project Goals
 
-Let’s say that you own a small business and that your company has 15 employees — today you’d like to make the switch from another payroll provider to using Gusto. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system.
+Let’s imagine that you own a small business and today you’d like to make the switch from another payroll provider to using Gusto. Well, first you would have to contact Transfers: this is a team of twenty or so people at Gusto that would take all of your company information (such as <abbr title="Federal Employer Identification Number">FEIN</abbr>, work locations, and pay schedules) as well as all of the paystubs for every employee since the beginning of the year and transfer it into Gusto’s system.
 
 All of that data is overwhelming just in sheer volume but there was the added difficulty in the existing suite of tools that the team had at their disposal. So I was brought onto the project to research and build a potential solution for the team that would improve their efficiency and general happiness. Rather more specifically, I had three goals:
 

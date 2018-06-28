@@ -1,11 +1,13 @@
 ---
 title: The Guide
 subtitle: Building Gusto’s design system, styleguide, and component library.
+date: 2018-06-20 16:21:00 -08:00
 dateRange: 2016-2018
 role: 'Led the design and development of the design system and its many React components.
 
 '
 customCSSClass: guide
+color: '#28d8cb'
 results: 'High quality front-end code and documentation for the components and assets,
   such as logos, illustrations, and icons.
 
@@ -87,7 +89,7 @@ This encouraged me to build a number of our React page templates, components, ic
 
 <div class='m-wrapper--unpadded-wide'>
   <figure>
-    <img src="/build/images/portfolio/figma-ui.jpg" alt="The custom templates that I built for designers at Gusto to use in Figma" />
+    <video src="/uploads/figma-library.mp4" muted autoplay loop playsinline></video>
     <figcaption>
       <p>
          With these new tools in Figma we could quickly make mockups of high-fidelity user interfaces for testing and prototyping.

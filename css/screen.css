@@ -1254,7 +1254,7 @@ The `preserve-aspect` parent preserves the aspect ratio of an iframe or video.
     margin-bottom: 0; }
 
 .m-longform ol li {
-  margin-bottom: 15px; }
+  margin-bottom: 12px; }
 
 .m-longform ol,
 .m-longform p,
@@ -1996,7 +1996,7 @@ section[role="main"] {
   display: -ms-flexbox;
   display: flex; }
   .m-header__img img {
-    border-radius: 5px;
+    border-radius: 3px;
     -o-object-fit: cover;
        object-fit: cover;
     -webkit-filter: saturate(0);

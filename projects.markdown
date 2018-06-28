@@ -3,6 +3,9 @@ title: Projects
 date: 2018-02-02 17:13:00 -08:00
 layout: projects
 customCSSClass: home
+sideProjects: |
+  - [Static React and CSS Modules](https://github.com/robinrendle/react-css-modules-boilerplate)
+  - [Atomic Sass Framework](https://github.com/robinrendle/atomic-framework)
 writing: |
   - [The Futures of Typography](/essays/futures-of-typography)
   - [CSS Code Smells](https://css-tricks.com/css-code-smells/)
@@ -22,5 +25,5 @@ links: |
   - [Resume](https://www.dropbox.com/s/ldvu8i2tcvmr2mv/resume.pdf?dl=0)
   - [Email](mailto:desk@robinrendle.com)
   - [Twitter](https://twitter.com/robinrendle)
+  - [Github](https://github.com/robinrendle)
 ---
-

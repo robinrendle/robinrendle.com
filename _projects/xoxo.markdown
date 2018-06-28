@@ -2,6 +2,7 @@
 title: The XOXO Outpost
 date: 2015-07-30 10:56:00 -07:00
 dateRange: 2016
+color: '#ff7c17'
 subtitle: Designing and developing a marketing website for a new type of co-working
   space in Portland.
 layout: projects-detail

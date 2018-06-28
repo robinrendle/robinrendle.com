@@ -4,6 +4,7 @@ date: 2014-06-04 08:37:00 -07:00
 dateRange: 2013-2014
 subtitle: Building a mobile-first design system for a student insurance company.
 layout: projects-detail
+color: '#5c58a4'
 company: Erskine Design
 customCSSClass: endsleigh
 heroImage: "/build/images/portfolio/endsleigh-hero.png"
