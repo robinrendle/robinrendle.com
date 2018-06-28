@@ -1,7 +1,7 @@
 ---
 title: The Transfers App
+date: 2018-03-20 17:21:00 -07:00
 subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
-date: 2018-03-20 16:21:00 -08:00
 extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 companies.
   Late last year I was tasked with helping the Transfers team; this is the department
   that migrates customer data from their existing payroll service into Gusto. I designed
@@ -14,7 +14,7 @@ results: Decreased the amount of time it took to transfer a company by more than
 customCSSClass: transfers
 dateRange: 2017-2018
 company: Gusto
-color: '#539adc'
+color: "#539adc"
 heroImage: "/build/images/portfolio/transfer-1.jpg"
 layout: projects-detail
 ---
