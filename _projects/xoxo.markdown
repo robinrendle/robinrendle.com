@@ -7,8 +7,7 @@ subtitle: Designing and developing a marketing website for a new type of co-work
   space in Portland.
 layout: projects-detail
 company: Freelance
-extract: 'I worked alongside Andy McMillan and Andy Baio of  <abbr>[XOXO](http://twitter.com/xoxo)</abbr>
-  fame to help build [a teaser](http://xoxopdx.com) for their upcoming workspace in
+extract: 'I worked alongside Andy McMillan and Andy Baio of  <abbr>[XOXO](http://twitter.com/xoxo)</abbr> to help build [a teaser](http://xoxopdx.com) for their upcoming workspace in
   Portland called the Outpost. The website was designed to advertise the space and
   get people interested in contributing to the community, joining the newsletter,
   and moving their freelance work into the lovely new space.

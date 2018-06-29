@@ -42,29 +42,45 @@ In the introduction to the Guide I described this project like so:
 >
 > Ideally this is where we can share information and collaborate in a public space to gain consensus across missions in terms of code, design, accessibility, performance, and branding. If we improve a single component here in The Guide then all of our apps and features will reap the rewards at the same time in a predictable manner.
 
-<div class='side-by-side'>
-  <div class='side-by-side__child'>
-    <figure>
-      <img src="/build/images/portfolio/guide-2.jpg" alt="" />
-    </figure>
-  </div>
 
-  <div class='side-by-side__child'>
-    <figure>
-      <img src="/build/images/portfolio/guide-3.jpg" alt="" />
-    </figure>
-  </div>
+## Making a plan
+
+Since there was no project manager or organized effort by the design team it meant that it was my responsibility to come up with a plan to tackle design systems issues at Gusto. So I began by interviewing engineers, project managers, and designers in order to understand what the team was struggling with most. After that I began to make note of upcoming projects and refactoring efforts that would need to take place to best support the team.
+
+<div class="m-wrapper--unpadded-wide project-intro-hero airtable">
+  <figure>
+    <img src="/build/images/portfolio/airtable.jpg" alt="A screenshot of a spreadsheet that lists all of the upcoming projects for the design systems team" />
+  </figure>
+  <figcaption>
+    <p>
+       By showing the design team this list of projects I could begin to make the case to hire a senior front-end engineer in order to help me build the design system.
+    </p>
+  </figcaption>
 </div>
-
-
 
 ## Refactoring the core Gusto styles
 
-Our first task with creating The Guide was to move and refactor great portions of Gusto’s main application codebase into a separate repo called the Component Library. This would shortly become the foundation of all of our styles across every app that the company would build in the future. And this  would go on to vastly decrease the amount of time it took to design, ship, and build projects in the front-end but it would also prevent design inconsistencies and visual regressions, too.
+After reviewing all of the projects I realized that the first task would be to fully flesh out The Guide and to move and refactor great portions of Gusto’s main application codebase into a separate repo called the Component Library. This would shortly become the foundation of all of our styles across every app that Gusto would build thereafter. Subsequently, by moving all of our front-end code into a single repo, we would go on to vastly decrease the amount of time it took to design, ship, and build projects. This would also prevent design inconsistencies and visual regressions, too.
 
-I tackled several front-end design projects in order to greatly improve the reliability of our codebase, starting with the typographic foundations; in the main application hundreds of lines of <abbr title='cascading style sheets'>CSS</abbr> had been written to override the default Bootstrap styles which subsequently caused all sorts of consistency errors in the app — checkboxes would suddenly be misaligned or a `h3` would appear be smaller than a `h4` element.
+I tackled several front-end design projects in order to improve the reliability of our codebase, starting with the typographic foundations; in the main application hundreds of lines of <abbr title='cascading style sheets'>CSS</abbr> had been written to override the default Bootstrap styles which subsequently caused all sorts of consistency errors in the app — checkboxes would suddenly be misaligned or a `h3` would appear be smaller than a `h4` element.
 
-This refactoring effort took several weeks but resulted in a solid typographic foundation based on some research that I had done in the past [using Sass maps](https://robinrendle.com/notes/typographic-scale-with-sass-maps/). These changes could would then be applied to The Guide, the core Gusto app, and all our internal tools as well. Of course, this is only one example of these refactoring efforts, but I also refactored our icon system, our color palette, and our illustration system across the product at Gusto.
+This refactoring effort took several weeks but resulted in a solid typographic foundation based on some research that I had done in the past [using Sass maps](https://robinrendle.com/notes/typographic-scale-with-sass-maps/). These changes could would then be applied to The Guide, the core Gusto app, and all our internal tools as well. This was only the beginning of these refactoring efforts, as I also refactored our icon system, our color palette, and our illustration system across the product at Gusto.
+
+As I refactored components and improved their accessibility and visual design I would then document how to use them in The Guide so that other designers and engineers could use them in the future:
+
+<div class='side-by-side'>
+  <div class='side-by-side__child'>
+    <figure>
+      <img src="/build/images/portfolio/guide-2.jpg" alt="A picture of the Guide, showing all the illustrations that are available" />
+    </figure>
+  </div>
+
+  <div class='side-by-side__child'>
+    <figure>
+      <img src="/build/images/portfolio/guide-3.jpg" alt="A picture of the Guide, showing the action components like buttons" />
+    </figure>
+  </div>
+</div>
 
 <div class='side-by-side'>
   <div class='side-by-side__child'>
@@ -106,4 +122,4 @@ One of the more shocking revelations of this project was that I always assumed t
 
 Tools that help us make design systems sure are useful, and will do a lot of the work, but ultimately it’s down to the shape of the organization to encourage a culture of high quality front-end code and design. And so I spent a great deal of time trying to mentor designers that were not quite as familiar with front-end development and scaling design systems: this is when I realized that writing documentation and improving code quality was important but it was never quite as helpful as sitting with another designer or developer and talking with them about a problem they were experiencing.
 
-It was that trying to build that community that was the toughest and yet most rewarding part of the job. Also, if you’re interested in reading more you can check out some of the mistakes I made in [Design Systems at Gusto](https://medium.com/gusto-design/design-systems-at-gusto-a710543b2c93).
+Trying to build a community around the design system was the toughest and yet most rewarding part of the job. Also if you’re interested in reading more then you can check out some of the mistakes I made in [Design Systems at Gusto](https://medium.com/gusto-design/design-systems-at-gusto-a710543b2c93).

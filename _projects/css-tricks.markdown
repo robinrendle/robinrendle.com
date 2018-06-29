@@ -10,7 +10,7 @@ extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''C
   and provide tutorials and links to help developers learn more about the web. Over
   those years I’ve written a number of technical posts and tutorials that explore new browser features
   and written in-depth articles on the peculiarities of <abbr title=''Cascading style
-  sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful opportunity to improve my front-end skills as well as hopefully contributing something back to the community.
+  sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful opportunity to improve my front-end skills as well as hopefully giving a little back to the community.
 '
 role: Writing, pitching, and editing contributions.
 results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning
@@ -18,7 +18,7 @@ results: 'Growing the newsletter to more than 32,000 subscribers and constantly 
 
 '
 customCSSClass: css-tricks
-heroImage: "/build/images/portfolio/css-tricks.jpg"
+heroImage: "/build/images/portfolio/css-tricks-main.jpg"
 layout: projects-detail
 ---
 
@@ -26,14 +26,16 @@ Over that time I've written about [a variety of topics](https://css-tricks.com/a
 
 Not only has working with the excellent team been an inspiration, they’ve also taught me a great deal about copywriting, front-end development, and design. Here’s a sample of posts that I’ve written over the years that I’m particularly fond of:
 
-- [Tools for Thinking and Tools for Systems](https://css-tricks.com/tools-thinking-tools-systems)
-- [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid)
-- [An Idea for a Simple Responsive Spreadsheet](https://css-tricks.com/idea-simple-responsive-spreadsheet)
-- [A New Responsive Font Format for the Web](https://css-tricks.com/a-new-responsive-font-format-for-the-web/)
-- [Loading fonts with the Web Font Loader](https://css-tricks.com/loading-web-fonts-with-the-web-font-loader/)
-- [Making Charts with CSS](https://css-tricks.com/making-charts-with-css/)
-- [A Quick Overview of Object Fit and Object Position](https://css-tricks.com/on-object-fit-and-object-position/)
-- [Chaining Multiple Blend Modes](https://css-tricks.com/chaining-multiple-blend-modes/)
+<ul class='solutions-list'>
+  <li><a href='https://css-tricks.com/tools-thinking-tools-systems'>Tools for Thinking and Tools for Systems</a></li>
+  <li><a href='https://css-tricks.com/getting-started-css-grid'>Getting Started with CSS Grid</a></li>
+  <li><a href='https://css-tricks.com/idea-simple-responsive-spreadsheet'>An Idea for a Simple Responsive Spreadsheet</a></li>
+  <li><a href='https://css-tricks.com/a-new-responsive-font-format-for-the-web'>A New Responsive Font Format for the Web</a></li>
+  <li><a href='https://css-tricks.com/loading-web-fonts-with-the-web-font-loader'>Loading fonts with the Web Font Loader</a></li>
+  <li><a href='https://css-tricks.com/making-charts-with-css'>Making Charts with CSS</a></li>
+  <li><a href='https://css-tricks.com/on-object-fit-and-object-position'>A Quick Overview of Object Fit and Object Position</a></li>
+  <li><a href='https://css-tricks.com/chaining-multiple-blend-modes'>Chaining Multiple Blend Modes</a></li>
+</ul>
 
 ## The Weekly Newsletter
 
