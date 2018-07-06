@@ -1,6 +1,12 @@
 ---
 title: My Life with Bob
 date: 2018-07-05 21:45:00 -07:00
+categories:
+- books
+tags:
+- reading
+- pamela paul
+- non-fiction
 extract: "“A book must be the axe for the frozen sea inside us.”"
 ---
 
