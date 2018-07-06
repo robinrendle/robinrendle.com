@@ -10,7 +10,7 @@ tags:
 extract: "“A book must be the axe for the frozen sea inside us.”"
 ---
 
-*My Life with Bob* is an autobiographical collection of stories about Pamela Paul’s Book of Books – a lifelong diary of every book that she’s ever read. For each breakup and divorce, every short trip and long vacation to Paris, Pamela can find a record of a book she read, one associated with that moment in time and so she writes about that experience in delightful, funny ways:
+*My Life with Bob* is an autobiographical collection of stories about Pamela Paul’s Book of Books – a lifelong diary of every book that she’s ever read. For each breakup and divorce, every short trip and long vacation to Paris, Pamela can find a record of a book she read, one associated with that moment in time and so she writes about that experience in delightful and often funny ways:
 
 > Sometimes you fall so much in love with a book that you simply have to tell everyone, to spread the love and to explain the state you’re in. You read passages aloud to anyone who will listen. You wait with bated breath, watching for signs of appreciation, wanting that smile, that laugh, that nod of recognition. Please love this book too, you silently—and sometimes not so silently—urge. You become insistent, even messianic in your enthusiasm. [...] You need the love to radiate in every possible direction. 
 
