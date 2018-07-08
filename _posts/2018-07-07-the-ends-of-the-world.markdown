@@ -17,7 +17,7 @@ One of my favorite notes that Brannen consistently makes is how the world as we 
 
 Another fascinating point that Brannen makes (of which there are really too many to count) is when he describes how large areas of research are underfunded and unspoken of because of how unsexy they are, rather than as to how interesting and useful the science might be:
 
-> When the listless [brachiopod](https://en.wikipedia.org/wiki/Brachiopod) is compared to a dinosaur, an animal whose bockbuster appeal is immediately apparent, the retor is quick from those who study marine inverterbrates of the sort that mucked about in the prehistoric seas: anyone can love a dinosaur, but it takes a true diehard to appreciate the life—if one can call it that—of a brachiopod.
+> When the listless [brachiopod](https://en.wikipedia.org/wiki/Brachiopod) is compared to a dinosaur, an animal whose bockbuster appeal is immediately apparent, the retort is quick from those who study marine inverterbrates of the sort that mucked about in the prehistoric seas: anyone can love a dinosaur, but it takes a true diehard to appreciate the life—if one can call it that—of a brachiopod.
 
 This book has been swimming in my thoughts for the past week as I’ve been reading it and it’s ended up in almost every conversation, too. 
 
