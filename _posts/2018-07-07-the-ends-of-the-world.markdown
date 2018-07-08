@@ -7,7 +7,7 @@ City: Emeryville
 extract: "“Eventually humans will be living in a sustainable way.”"
 ---
 
-In this non-fiction account of the last five apolayptic scenarios our planet has been through, Peter Brannen writes in lucid detail about what led to each of them and, potentially, how we might be entering a new apocalypse of our own making.
+In this non-fiction account of the last five apolayptic scenarios our planet has endured, Peter Brannen writes in lucid detail about what led to each of them and, potentially, how we might be entering a new apocalypse of our own making.
 
 The Odorvician, Devonian, and Permian mass extinctions, where more than 80% of all species were annihilated, share some common themes, according to Brannen. First, it’s almost never a single event that kills off a species or causes mass extinctions. Second, these events appear to always be attributable to our biosphere’s relationship with carbon dioxide. Whether that’s giant trees that caused one of the first ice ages, or whether it was a Russia-sized volcano that almost ended life on earth, it’s the world’s relationship with carbon dioxide that’s paramount to keeping the biosphere in balance.
 
