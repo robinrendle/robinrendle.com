@@ -19,7 +19,7 @@ Another fascinating point that Brannen makes (of which there are really too many
 
 > When the listless [brachiopod](https://en.wikipedia.org/wiki/Brachiopod) is compared to a dinosaur, an animal whose blockbuster appeal is immediately apparent, the retort is quick from those who study marine invertebrates of the sort that mucked about in the prehistoric seas: anyone can love a dinosaur, but it takes a true diehard to appreciate the life—if one can call it that—of a brachiopod.
 
-This book has been swimming in my thoughts for the past week as I’ve been reading it and it’s ended up in almost every conversation, too. 
+This book has been swimming around in my thoughts for the past week as I’ve been reading it and it’s ended up in almost every conversation, too. 
 
 Earlier today I headed over to Emeryville to grab coffee with [Charlie Loyd](https://twitter.com/vruba), inventor of one of my favorite websites [glittering.blue](http://glittering.blue/) (I’d recommend loading that one in Safari on a desktop if I were you because oh boy it’s a big website). Although he doesn’t seem to publish much, I think Charlie is one of my favorite writers on the “climate crisis”, as he described it, and the barrage of problems we’ll be shortly facing if we don’t drammatically change gears economically and politically. 
 
