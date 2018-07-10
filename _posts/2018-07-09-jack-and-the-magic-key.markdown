@@ -5,9 +5,7 @@ tags:
 - story
 - mom
 - dad
-extract: Our empty bedroom became a jungle, the couch a train, the stairway a place
-  where Pokémon could be found and fought. And yes, even boring nondescript keys became
-  potent with magic and prophesy.
+extract: "“This very special key opens a very special door...”"
 ---
 
 It’s 2007: I’m sat in the kitchen watching a family friend and her four year old son talk to my mom. Over the course of a few minutes I notice how this kid, Jack, is starting to get bored; his eyes roll into the back of his head and all of his limbs begin to fidget independently of the host as if he’s possessed by the spirit of boredom itself.
