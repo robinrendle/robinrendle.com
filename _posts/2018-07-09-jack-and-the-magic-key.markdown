@@ -1,6 +1,8 @@
 ---
 title: Jack and the Magic Key
 date: 2018-07-09 23:17:00 -07:00
+categories:
+- featured
 tags:
 - story
 - mom
