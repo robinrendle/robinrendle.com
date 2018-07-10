@@ -20,7 +20,7 @@ My mom whispers in his ear.
 
 “This key opens a door somewhere in our home,” her hand outstretched, sweeps across the air as if our house was a castle in the Scottish highlands, a scary and adventurous place that little Jack might get lost in. “And this very special key opens a very special door. So, Jack…” My mom pauses for emphasis “…you’re the only one that can help me find it.”
 
-At this point all of Jack’s boredom had been converted into pure, unbridled excitement and his smile almost hopped off his round face in the rush of this new adventure. He spent the rest of the afternoon darting around the house trying the key on everything; on books and chairs, walls and fireplaces, and even his mother’s knee.
+At this point all of Jack’s boredom had been converted into pure, unbridled excitement and his smile almost hopped off his round face in the rush of this new adventure. He spent the rest of the afternoon darting around the house trying the key on everything; on books and chairs, walls and fireplaces, and even his mother’s poor knee.
 
 ***
 
