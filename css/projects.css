@@ -3479,7 +3479,8 @@ figcaption {
     content: none; }
 
 .m-header {
-  padding-top: 0; }
+  padding-top: 0;
+  margin-bottom: 10px; }
   @media (min-width: 921px) {
     .m-header {
       padding-bottom: 30px; } }
