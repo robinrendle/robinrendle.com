@@ -6,8 +6,7 @@ extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 compa
   Late last year I was tasked with helping the Transfers team; this is the department
   that migrates data from a customer’s existing payroll service into Gusto. I designed
   an internal tool that could extract this information as quickly and as accurately
-  as possible whilst improving the team’s process along the way.
-'
+  as possible whilst improving the team’s process along the way. '
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
