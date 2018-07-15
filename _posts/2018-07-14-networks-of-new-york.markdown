@@ -8,7 +8,7 @@ extract: Thinking about the Internet can be frightening – what with its sheer 
   and globe-trotting scale – but it’s also a miracle.
 ---
 
-Ingrid Burrington’s *Networks of New York* begins with a simple enough question: “How do you see the Internet?” Ingrid then explores just how shortsighted our understanding of that question quite probably is. I’ve heard the distinction made before that the web sits on top of the Internet; we use the web via URLs and webpages but we access it all via that mostly underground system of physical wires and cables. So the web is basically the phone tin can whilst the Internet is the string in between.
+Ingrid Burrington’s *Networks of New York* begins with a simple enough question: “How do you see the Internet?” Ingrid then explores just how shortsighted our understanding of that question quite probably is. I’ve heard the distinction made before that the web sits on top of the Internet; we use the web via URLs and webpages but we access it all with that mostly underground system of physical wires and cables. So the web is basically the phone tin can whilst the Internet is the string in between.
 
 And Ingrid argues that thinking about that infrastructure is important because it helps us understand our world: 
 
