@@ -14,6 +14,6 @@ And Ingrid argues that thinking about that infrastructure is important because i
 
 > Sometimes people who want to learn about seeing Internet infrastructure ask me to tell them “where the Internet lives.” At first glance, this seems like a bit of a misnomer—the Internet isn’t a static object, it’s defined by the constant movement of information. It doesn’t “live” anywhere; it’s already everywhere at once…
 
-Ingrid’s description here sounds like the beginning of a horror movie. As if human society has been infected with this new kind of infrastructure or something. However, Ingrid admits that although thinking about the Internet can be frightening – what with its sheer vastness and globe-trotting scale – but it’s also a miracle. Ingrid writes:
+Ingrid’s description here sounds like the beginning of a horror movie, almost as if human society has been infected with this new kind of infrastructure or something. However, Ingrid admits that although thinking about the Internet can be frightening – what with its sheer vastness and globe-trotting scale – but it’s also a miracle. Ingrid writes:
 
 > It’s weirdly comforting, inspiring even, to walk down Sixth Avenue with the knowledge that buried underneath my feet is a fiber optic cable that is carrying conversations, photographs, stories, secrets, and _lives_ as beams of light through hair-thin strands of glass.  
