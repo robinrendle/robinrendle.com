@@ -1,0 +1,18 @@
+---
+title: Networks of New York
+date: 2018-07-14 19:29:00 -07:00
+categories:
+- reading
+extract: Thinking about the Internet can be frightening – what with its sheer vastness
+  and globe-trotting scale – but it’s also a miracle
+---
+
+Ingrid Burrington’s *Networks of New York* begins with a simple enough question: “How do you see the Internet?” Ingrid then explores how vague our general understanding of the Internet most probably is. I’ve heard the distinction made before that the web sits on top of the Internet; we use the web via URLs and webpages but we access it all via the Internet. So the web is basically the phone call whilst the Internet is the cable inbetween.
+
+And Ingrid argues that thinking about the infrastructure is important: 
+
+> Sometimes people who want to learn about seeing Internet infrastructure ask me to tell them “where the Internet lives.” At first glance, this seems like a bit of a misnomer—the Internet isn’t a static object, it’s defined by the constant movement of information. It doesn’t “live” anywhere; it’s already everywhere at once…
+
+Ingrid’s description here sounds like the beginning of a horror movie. As if human society has been infected with this new kind of infrastructure or something. However, Ingrid admits that although thinking about the Internet can be frightening – what with its sheer vastness and globe-trotting scale – but it’s also a miracle. Ingrid writes:
+
+> It’s weirdly comforting, inspiring even, to walk down Sixth Avenue with the knowledge that buried underneath my feet is a fiber optic cable that is carrying conversations, photographs, stories, secrets, and _lives_ as beams of light through hair-thin strands of glass.  
