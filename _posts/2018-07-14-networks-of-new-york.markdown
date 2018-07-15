@@ -5,7 +5,7 @@ categories:
 - reading
 - books
 extract: Thinking about the Internet can be frightening – what with its sheer vastness
-  and globe-trotting scale – but it’s also a miracle
+  and globe-trotting scale – but it’s also a miracle.
 ---
 
 Ingrid Burrington’s *Networks of New York* begins with a simple enough question: “How do you see the Internet?” Ingrid then explores how vague our general understanding of the Internet most probably is. I’ve heard the distinction made before that the web sits on top of the Internet; we use the web via URLs and webpages but we access it all via the Internet. So the web is basically the phone call whilst the Internet is the cable inbetween.
