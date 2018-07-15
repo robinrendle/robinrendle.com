@@ -3,6 +3,7 @@ title: Networks of New York
 date: 2018-07-14 19:29:00 -07:00
 categories:
 - reading
+- books
 extract: Thinking about the Internet can be frightening – what with its sheer vastness
   and globe-trotting scale – but it’s also a miracle
 ---
