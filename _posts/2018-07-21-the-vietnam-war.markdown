@@ -7,7 +7,7 @@ tags:
 - ken burns
 - documentary
 extract: It asks that we look deep into the heart of this ugly moment in time, so
-  that we never make the same mistakes again.
+  that we may never make the same mistakes again.
 ---
 
 Over the past week or so I’ve been slowly watching _The Vietnam War_, a documentary on Netflix by Ken Burns and Lynn Novick, and it’s just completely, impossibly brilliant.
