@@ -16,4 +16,4 @@ I’m not sure if this has ever happened in war documentaries before but the sho
 
 Not only has the show got a wonderful format and director to boot, but the score that accompanies it is fantastic as well. Trent Reznor and Atticus Ross’ soundtrack fills almost every scene with brooding anger and broken harmonies. To be quite honest though I’m an enormous Nine Inch Nails fan and the work that the two have done for scores and other soundtracks is probably my favorite sort of music. 
 
-Anyway, I would highly recommend that you put some time aside to watch this thing. It’s tough going and shocking but it needs to be watched. It asks that we look deep into the heart of this ugly moment in time, so that we never make the same mistakes again.
+Anyway, I would highly recommend that you put some time aside to watch this thing. It’s tough going and shocking but it needs to be watched. It asks that we look deep into the heart of this ugly moment in time, so that we may never make the same mistakes again.
