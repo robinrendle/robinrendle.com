@@ -30,7 +30,7 @@ Something like this in England would be torn down in a heartbeat but, out here, 
 
 ![3-a79d5e.jpg](/uploads/3-a79d5e.jpg)
 
-After driving around the city all day you realize how poorly it’s been designed for human people. Not just because of the highways and cars or even the layout of the buildings. But it’s the heat instead. There’s just no shade anywhere, as either people have gotten used to this or they stay inside their cars and homes where air conditioning is easily found.
+After driving around the city all day you notice something else: this place wasn’t designed for human people. Not just because of the highways and cars or even the layout of the buildings. But it’s the heat instead. There’s just no shade anywhere, as either people have gotten used to this or they stay inside their cars and homes where air conditioning is easily found.
 
 ![IMG_4607-1.jpg](/uploads/IMG_4607-1.jpg)
 
