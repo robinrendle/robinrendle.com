@@ -52,9 +52,9 @@ Next stop: Malibu. The repressive heat fades into the background as the sea air 
 
 You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco, you’ve decided. Through aches and pains you smile and push on to the next city; Santa Barbara, then Santa Maria. The miles just fly right past you.
 
-Each mile on a motorcycle is an adventure, a problem.
-
 ![IMG_4710-1.jpg](/uploads/IMG_4710-1.jpg)
+
+Each mile on a motorcycle is a new adventure, a new problem.
 
 ![IMG_4731-1.jpg](/uploads/IMG_4731-1.jpg)
 
