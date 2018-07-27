@@ -11,7 +11,7 @@ California is a paradise, you think as you weave in between comically large truc
 
 ![IMG_4563-1.jpg](/uploads/IMG_4563-1.jpg)
 
-LA starts with a bang; after a four hour drive on a dead straight road in paralyzing heat you’re suddenly welcomed to the city via a national park and beautiful roads that swoop, duck and peak around the hillsides as if they want you to play with them. And play you do. Your super cool bad boy motorcycle is suddenly alert, he perks up, this is the type of road that he’s been waiting for.
+LA starts with a bang; after a five hour drive on a dead straight road in paralyzing heat you’re suddenly welcomed to the city via a national park and beautiful roads that swoop, duck and peak around the hillsides as if they want you to play with them. And play you do. Your super cool bad boy motorcycle is alert now, he perks up – this is the type of road that he’s been waiting for.
 
 ![14.jpg](/uploads/14.jpg)
 
