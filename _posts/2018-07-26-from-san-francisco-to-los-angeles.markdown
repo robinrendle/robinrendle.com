@@ -62,7 +62,11 @@ You remember one story of how a family friend got wiped out on a highway because
 
 ![IMG_4731-1.jpg](/uploads/IMG_4731-1.jpg)
 
+After seven hours of driving you break off from the mountains and onto the coast once again, you’re going to drive the long way up.
+
 ![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
+
+The sun is starting to set.
 
 ![IMG_4775.jpg](/uploads/IMG_4775.jpg)
 
