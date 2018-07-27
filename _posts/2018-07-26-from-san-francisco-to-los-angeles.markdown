@@ -54,7 +54,9 @@ You’re going to drive the whole thing. Fourteen hours, all the way back up to 
 
 ![IMG_4710-1.jpg](/uploads/IMG_4710-1.jpg)
 
-Each mile on a motorcycle is a new adventure, a new problem.
+Each mile on a motorcycle is a new adventure, a new problem. A cardboard box gets swept off a truck and comes barreling towards you. Now usually that wouldn’t be all that scary but on a motorcycle everything is, well, designed to kill you.
+
+You remember stories of a family friend that got wiped out because a plastic bag got stuck in their front tire of their bike on the freeway.
 
 ![IMG_4731-1.jpg](/uploads/IMG_4731-1.jpg)
 
