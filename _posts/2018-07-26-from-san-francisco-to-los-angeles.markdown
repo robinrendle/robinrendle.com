@@ -32,7 +32,7 @@ Something like this in England would be torn down in a heartbeat but, out here, 
 
 After driving around the city all day you notice something else: this place wasn’t designed for human people. Not just because of the highways and cars. But it’s the heat instead. There’s just no shade anywhere, as either people have gotten used to this or they stay inside their cars and homes where air conditioning is easily found.
 
-Public spaces should always have plenty of shade in a city that sits on the edge of the sun like this. At the Griffith Observatory a man drops like a stone in line because of the heat and the whole world goes mad for a minute as an ambulance and a fire truck rush to the rescue.
+Public spaces should always have plenty of shade in a city that sits on the edge of the sun like LA. At the Griffith Observatory a man drops like a stone in line because of the heat and the whole world goes mad for a minute as an ambulance and a fire truck rush to the rescue.
 
 ![IMG_4607-1.jpg](/uploads/IMG_4607-1.jpg)
 
