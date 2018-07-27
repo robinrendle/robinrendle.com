@@ -32,9 +32,13 @@ Something like this in England would be torn down in a heartbeat but, out here, 
 
 After driving around the city all day you notice something else: this place wasn’t designed for human people. Not just because of the highways and cars. But it’s the heat instead. There’s just no shade anywhere, as either people have gotten used to this or they stay inside their cars and homes where air conditioning is easily found.
 
+Public spaces should always have plenty of shade in a city that sits on the edge of the sun like this. At the Griffith Observatory a man drops like a stone in line because of the heat and the whole world goes mad for a minute as an ambulance and a fire truck rush to the rescue.
+
 ![IMG_4607-1.jpg](/uploads/IMG_4607-1.jpg)
 
-It’s impossible to get anywhere without a car in LA but it’s impossible to park anywhere with a car. Thankfully your bike can fit. And it’s free, too. You ride up to the Griffith Observatory and see the haze of pollution that hovers over the city at all times of the day, producing beautiful sunsets of orange and the brightest of pinks. 
+It’s impossible to get anywhere without a car in LA but it’s also, as if a sort of hell designed to infuriate people,  it happens to be impossible to park anywhere. Thankfully your bike can fit on the pavement, behind a bush, on the very tip of the road and tuck up and out of the way for everyone else. Parking is always free, too. 
+
+From the Observatory you can see the haze of pollution that hovers over the city at all times of the day, producing beautiful sunsets of orange and the brightest of pinks at night. 
 
 ![38.jpg](/uploads/38.jpg)
 
