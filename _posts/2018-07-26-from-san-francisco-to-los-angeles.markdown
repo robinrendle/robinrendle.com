@@ -3,9 +3,9 @@ title: From San Francisco to Los Angeles
 date: 2018-07-26 23:49:00 -07:00
 ---
 
-The strangest thing about that trip down to LA is that you can see the climate crisis everywhere. You can see it in the political ads that dot the highways; “BUILD DAMS!” they say. “WE NEED WATER” they plead in giant sans-serif letters. You can see the climate crisis in the fields that lead to the horizon which ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable.
+You can see the climate crisis everywhere, in everything. You can see it in the political ads that dot the highways; “BUILD DAMS!” they scream. “PLEASE, WE NEED WATER” other signs plead in giant sans-serif letters. The climate crisis is in the fields that stretch to the horizon, fields that ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable. It’s clear that the climate crisis isn’t going to be some distant trouble of Nairobi or Singapore.
 
-California is a paradise, you think as you weave in between comically large trucks on your super cool bad boy motorcycle, and we ruined it.
+California is a paradise in the midst of a crisis.
 
 ![IMG_4563-1.jpg](/uploads/IMG_4563-1.jpg)
 
