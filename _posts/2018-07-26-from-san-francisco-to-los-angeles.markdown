@@ -26,7 +26,7 @@ The next day is your birthday. You wake up, head up through the hills and around
 
 LA is not a city, you realize, it’s a megacity – a metropolis built around the automobile. And the whole time you’ve been wondering where all the movie money goes, you turn a corner and you find that it’s just been plowed back into the hillsides. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighborhoods. 
 
-Something like this in England would be torn down in a heartbeat but, out here, flaunting wealth in this way is somehow inspirational to people. We would likely see it as capitalism on steroids. Mass hysteria. People just shouldn’t have this much money. It’s broken, the whole damn thing is broken, you think as you wind around the hillsides.
+Something like this in England would be torn down in a heartbeat but, out here, flaunting wealth in this way is somehow inspirational to people. We would likely see it as capitalism on steroids. Mass hysteria. People just shouldn’t have this much money. It’s broken, the whole damn thing is broken, you think as you boom around the hillsides.
 
 ![3-a79d5e.jpg](/uploads/3-a79d5e.jpg)
 
