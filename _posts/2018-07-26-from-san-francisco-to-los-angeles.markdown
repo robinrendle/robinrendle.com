@@ -38,7 +38,7 @@ Public spaces should always have plenty of shade in a city that sits on the edge
 
 It’s impossible to get anywhere without a car in LA but it’s also impossible to park. Thankfully your bike can fit on the pavement, behind a bush, on the very tip of the road and tuck up and out of the way for everyone else. Parking is always free, too. 
 
-From the Observatory you can see the haze of pollution that hovers over the city at all times of the day, producing beautiful sunsets of orange and the brightest of pinks at night. 
+From the Observatory you can see the haze of pollution that hovers over the city at all times of the day, producing beautiful sunsets of orange and the brightest of pinks at night. The climate crisis is something I can’t stop thinking about because here it just seems entirely unavoidable even in the family-friendly tourist spots, apocalypse looms.
 
 ![38.jpg](/uploads/38.jpg)
 
