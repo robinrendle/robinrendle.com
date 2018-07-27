@@ -1,15 +1,16 @@
 ---
-title: Los Angeles
+title: San Francisco to Los Angeles
 date: 2018-07-26 22:19:00 -07:00
 City: Los Angeles
 extract: A quick trip down to LA.
 ---
 
-Here’s a few pictures from a trip I made the other day down to Los Angeles from San Francisco. On the way down I rode the Interstate 5 down and then 
+The strangest thing about that trip down to LA is that you can see climate change everywhere. You can see it in the political ads that dot the highways. “BUILD DAMS!” “WE NEED WATER” You can the climate crisis in the fields that lead to the horizon which ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable.
+
+California is a paradise, you think as you weave in between comically large trucks on your super cool bad boy motorcycle, and we ruined it.
 
 ![IMG_4563-1.jpg](/uploads/IMG_4563-1.jpg)
 
-The weird thing about southern California (which you can identify by the immense pulse waves of heat you’ll encounter once you get there) is that you can see climate change everywhere. You can see it in the political ads that dot the highways. You can see it in the grassy fields that ought to be green but are instead a Mad Max gold. You can feel that this sort of heat is just a few degrees short of becoming unbearable, unlivable.
 
 ![14.jpg](/uploads/14.jpg)
 
