@@ -22,7 +22,7 @@ With a light touch on the throttle you blitz past them and leave them in your du
 
 ![14.jpg](/uploads/14.jpg)
 
-The next day is your birthday. You wake up, head up through the hills and around Mulholland Drive. You see the urban sprawl for the first time in all its wonder. You gasp at this thing people have built in such a short amount of time. 
+The next day is your birthday. You wake up, head up through the hills and around Mulholland Drive. You see the urban sprawl for the first time in all its wonder and horror. You gasp at this thing people have built in such a short amount of time. 
 
 LA is not a city, it’s a megacity – a metropolis built around the automobile. And the whole time you’ve been wondering where all the movie money goes, you turn a corner and you realize that it’s just been plowed back into the hillsides. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighborhoods. 
 
