@@ -74,10 +74,10 @@ Either that or the California desert sun has finally pushed you over the edge.
 
 ![IMG_4775.jpg](/uploads/IMG_4775.jpg)
 
-You knew that the Pacific Coast Highway, the winding paths that skirt the tip of the ocean and the land, would be a beautiful drive but it’s difficult to put into words just how breathtaking it is. Despite your attempts, pictures simply won’t do it justice.
+You knew that the Pacific Coast Highway, the winding paths that skirt the tip of the ocean and the land, would be a beautiful drive but it’s difficult to put into words just how breathtaking it is once you get there. Despite your attempts, pictures simply won’t do it justice.
 
-As the sun sets quickly you begin to run out of fuel and you’re nervous but you’re not panicking. Once everything is pitch black shadows break through the fog and every moment after that is like Alan Wake or Limbo – a dream of shadows and lights that whisk all up and around you. You can’t see the ocean anymore but the stars are waving up above.
+As the sun sets quickly you begin to run out of fuel and you’re nervous but you’re not panicking. Once everything is pitch black, shadows break through the fog and every moment after that is like Alan Wake or Limbo – a dream of shadows and lights that whisk all up and around you. You can’t see the ocean anymore but the stars are waving up above.
 
 ![IMG_4750-1.jpg](/uploads/IMG_4750-1.jpg)
 
-It’s now 1am. You’re listening to a podcast in the dark, accelerating at top speed around seaside cliffs, and you cannot stop smiling.
+It’s now 1am. You’re listening to a podcast in the dark, accelerating at top speed around seaside cliffs, and you can’t stop smiling.
