@@ -3,7 +3,7 @@ title: From San Francisco to Los Angeles
 date: 2018-07-26 23:49:00 -07:00
 ---
 
-You can see the climate crisis everywhere, in everything. On the drive from San Francisco to Los Angeles can see it in the political ads that dot the highways; “BUILD DAMS!” they scream. “PLEASE, WE NEED WATER” other signs plead in giant sans-serif letters. The climate crisis is in the fields that stretch to the horizon, fields that ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable. It’s clear that the climate crisis isn’t going to be some distant trouble of Nairobi or Singapore.
+You can see the climate crisis everywhere, in everything. On the drive from San Francisco to Los Angeles can see it in the political ads that dot the highways; “BUILD DAMS!” they scream. “PLEASE, WE NEED WATER” another sign pleads in giant sans-serif letters. The climate crisis is in the fields that stretch to the horizon, fields that ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable. It’s clear that the climate crisis isn’t going to be some distant trouble of Nairobi or Singapore.
 
 You don’t need a degree and you don’t need to be up to date on the literature to know that California is a paradise in the midst of a crisis.
 
