@@ -9,7 +9,7 @@ You don’t need a degree and you don’t need to be up to date on the literatur
 
 ![IMG_4563-1.jpg](/uploads/IMG_4563-1.jpg)
 
-Los Angeles starts with a bang; after a five hour drive on a dead straight road in paralyzing heat you’re suddenly welcomed to the city via a national park and beautiful roads that swoop, duck and peak around the hillsides as if they want you to play with them. And play you do. Your super cool bad boy motorcycle is alert now, he perks up – this is the type of road that he’s been waiting for.
+Los Angeles starts with a bang; after a five hour drive on a dead straight road caught under the gaze of a paralyzingly hot star you’re welcomed to the city via a national park and beautiful roads that swoop, duck and peak around the hillsides as if they want you to play with them in the shadows. And play you do. Your super cool bad boy motorcycle is alert now, he perks up – this is the type of road that he’s been waiting for.
 
 Winding highways that are peculiarly empty lead you through Beverly Hills at dusk. Playboys are driving around in Bugattis and Ferraris but you’re faster, you’re more nimble. With a touch of the throttle you blitz past them all and leave them in your dust.
 
