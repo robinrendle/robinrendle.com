@@ -52,7 +52,7 @@ Tom Cruise and Harrison Ford, Emma Stone and Kanye are quite likely stuck on the
 
 Next stop: Malibu. The repressive heat fades into the background as the sea air picks up. You know that you’ll always live by the sea and there’s no use fighting it.
 
-You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco, you’ve decided. Through aches and pains you smile and push on to the next city; Santa Barbara, then Santa Maria. The miles, just like the beaches and golf clubs, the mountains and canyons, fly right past you.
+You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco. Through aches and pains you smile and push on to the next city; Santa Barbara, then Santa Maria. The miles, just like the beaches and golf clubs, the mountains and canyons, fly right past you.
 
 ![IMG_4710-1.jpg](/uploads/IMG_4710-1.jpg)
 
