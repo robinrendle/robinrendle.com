@@ -42,11 +42,17 @@ From the Observatory you can see the haze of pollution that hovers over the city
 
 ![38.jpg](/uploads/38.jpg)
 
-The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. First stop: Malibu. The repressive heat fades into the background as the sea air picks up. You realize that you’ll always live by the sea and there’s just no escape from that.
+The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. Now’s your chance. 
+
+On the way out of the city though you drive into another fancy area with McMansions everywhere. At an intersection you get caught in the traffic for a moment and suddenly you realize that you’re locked eyes with the actress that plays Maeby Fünke in Arrested Development, Alia Shawkat. It’s a weird moment where Hollywood is no longer teeming with movie stars but with people just doing their jobs. Tom Cruise and Harrison Ford are probably behind me stuck in traffic to.
 
 ![IMG_4705.jpg](/uploads/IMG_4705.jpg)
 
-You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco, you realize. You smile and push on to the next city; Santa Barbara, then Santa Maria. The miles just fly right past.
+Next stop: Malibu. The repressive heat fades into the background as the sea air picks up. You realize that you’ll always live by the sea and there’s just no escape from that.
+
+You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco, you’ve decided. Through aches and pains you smile and push on to the next city; Santa Barbara, then Santa Maria. The miles just fly right past you.
+
+Each mile on a motorcycle is an adventure, a problem.
 
 ![IMG_4710-1.jpg](/uploads/IMG_4710-1.jpg)
 
