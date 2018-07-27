@@ -6,7 +6,7 @@ extract: You can see the climate crisis everywhere, in everything.
 
 You can see the climate crisis everywhere, in everything. 
 
-On the drive from San Francisco to Los Angeles you can see it in the political ads that dot the highways: “BUILD DAMS!” they scream. “PLEASE, WE NEED WATER” another sign begs in giant sans-serif letters. The climate crisis is in the fields that stretch to the horizon, fields that ought to be green but are a Mad Max gold instead. You can sense the climate crisis in the air itself when pulses of heat ripple through the land, just a few degrees short of becoming unbearable, unlivable. 
+On the drive from San Francisco to Los Angeles you can see it in the political ads that dot the highways: “BUILD DAMS!” is one such common sign, posted in the dirt by a farm on the edge of the freeway. “PLEASE, WE NEED WATER” another sign begs in giant sans-serif letters. The climate crisis is in the fields that stretch to the horizon, fields that ought to be green but are a Mad Max gold instead. You can sense the climate crisis in the air itself when pulses of heat ripple through the land, just a few degrees short of becoming unbearable, unlivable. 
 
 It’s clear that the climate crisis isn’t going to be some distant trouble of Nairobi or Singapore and you don’t need a degree in climate science to see that California is a paradise in the midst of a crisis. 
 
