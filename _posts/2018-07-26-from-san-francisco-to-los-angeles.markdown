@@ -44,7 +44,7 @@ From the Observatory you can see the haze of pollution that hovers over the city
 
 The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. Well, now’s your chance. 
 
-On the way out of the city you drive into another fancy area with McMansions everywhere. At an intersection you get caught in the traffic for a moment and suddenly you find yourself locking eyes with the actress that plays Maeby Fünke in Arrested Development, Alia Shawkat. It’s a weird moment where Hollywood is no longer teeming with movie stars but with people going about doing their jobs on television or on set. All the magic of the place vanishes with that quick glance.
+On the way out of the city you drive into another fancy area with McMansions everywhere. At an intersection you get caught in the traffic for a moment and suddenly you find yourself locking eyes with the actress that plays Maeby Fünke in Arrested Development, Alia Shawkat. It’s a weird moment where Hollywood is no longer teeming with movie stars but with people going about doing their jobs. All the magic of the place vanishes with that quick glance.
 
 Tom Cruise and Harrison Ford, Emma Stone and Kanye are quite likely stuck on the same road, sat right behind you, fuming at the traffic that materialized out of nowhere. And they’re late for work.
 
