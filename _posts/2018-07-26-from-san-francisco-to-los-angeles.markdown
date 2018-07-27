@@ -68,7 +68,7 @@ The clouds are tumbling about in the sea of blue above you and are constantly sh
 
 ![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
 
-The sun is starting to set now. But your bike is ready again. In certain moments your motorcycle is like a horse with a personality and suddenly wants to get going. You can feel his anticipation and excitement for what we’re about to do. Either that or the California desert sun has finally pushed you over the edge.
+The sun is starting to set now. But your bike is ready again. In certain moments your motorcycle is like a horse with a personality and suddenly becomes impatient, wants to get going and move things along. You can feel his anticipation and excitement for what we’re about to do next along these cliffs. Either that or the California desert sun has finally pushed you over the edge.
 
 You knew that the Pacific Coast Highway, the winding paths that skirt the tip of the ocean and the land, would be a beautiful drive but it’s difficult to put into words just how breathtaking it was.
 
