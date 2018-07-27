@@ -42,11 +42,11 @@ From the Observatory you can see the haze of pollution that hovers over the city
 
 ![38.jpg](/uploads/38.jpg)
 
-The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. First stop: Malibu.
+The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. First stop: Malibu. The repressive heat fades into the background as the sea air picks up. You realize that you’ll always live by the sea and there’s just no escape from that.
 
 ![IMG_4705.jpg](/uploads/IMG_4705.jpg)
 
-You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco, you realize. You smile and push on to the next city; Santa Barbara, then Santa Maria.
+You’re going to drive the whole thing. Fourteen hours, all the way back up to San Francisco, you realize. You smile and push on to the next city; Santa Barbara, then Santa Maria. The miles just fly right past.
 
 ![IMG_4710-1.jpg](/uploads/IMG_4710-1.jpg)
 
