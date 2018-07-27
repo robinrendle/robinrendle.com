@@ -20,11 +20,13 @@ Winding highways that are peculiarly empty lead you through Beverly Hills at dus
 
 The next day is your birthday. You wake up, head up through the hills and around Mulholland Drive. You see the urban sprawl. You wonder at this thing people have built in such a short amount of time. 
 
-LA is not a city, it’s a megacity – a metropolis built around the automobile. You’ve been wondering where all the movie money goes and you turn a corner and you realize that it’s just been plowed back into LA. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighbourhood. Something like this in England would be torn down in a heartbeat but out here this flaunting of wealth is somehow inspirational to most people instead of being naturally vile.
+LA is not a city, it’s a megacity – a metropolis built around the automobile. And the whole time you’ve been wondering where all the movie money goes, you turn a corner and you realize that it’s just been plowed back into the hillsides. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighborhoods. 
+
+Something like this in England would be torn down in a heartbeat but, out here, flaunting wealth in this way is somehow inspirational to people. We would likely see it as capitalism on steroids. Mass hysteria. People just shouldn’t have this much money. It’s broken, the whole damn thing is broken, you think as you wind around the hillsides.
 
 ![3-a79d5e.jpg](/uploads/3-a79d5e.jpg)
 
-After driving around LA all day you realize how poorly the city has been designed for people. Not just because of the highways and cars or even the layout of the buildings. But it’s the heat instead. There’s just no shade anywhere, as either people have gotten used to this or they stay inside their cars and homes where air conditioning is easily found.
+After driving around the city all day you realize how poorly it’s been designed for human people. Not just because of the highways and cars or even the layout of the buildings. But it’s the heat instead. There’s just no shade anywhere, as either people have gotten used to this or they stay inside their cars and homes where air conditioning is easily found.
 
 ![IMG_4607-1.jpg](/uploads/IMG_4607-1.jpg)
 
