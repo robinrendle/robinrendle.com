@@ -11,12 +11,9 @@ California is a paradise, you think as you weave in between comically large truc
 
 ![IMG_4563-1.jpg](/uploads/IMG_4563-1.jpg)
 
+LA starts with a bang; after a four hour drive on a dead straight road in paralyzing heat you’re suddenly welcomed to the city via a national park and beautiful roads that swoop, duck and peak around the hillsides as if they want you to play with them. And play you do. Your super cool bad boy motorcycle is suddenly alert, he perks up, this is the type of road that he’s been waiting for.
 
 ![14.jpg](/uploads/14.jpg)
-
-Billy (my motorcycle’s temporary name whilst I think of a better replacement) was a fine companion. 
-
-The Pacific Coast Highway, the winding paths that skirt the tip of the ocean and the land, is a famously beautiful road. And it certainly didn’t disappoint. Quite frankly it was the most beautiful ride I’ve ever embarked on.
 
 ![3-a79d5e.jpg](/uploads/3-a79d5e.jpg)
 
@@ -36,3 +33,7 @@ The Pacific Coast Highway, the winding paths that skirt the tip of the ocean and
 
 ![IMG_4750-1.jpg](/uploads/IMG_4750-1.jpg)
 
+
+Billy (my motorcycle’s temporary name whilst I think of a better replacement) was a fine companion. 
+
+The Pacific Coast Highway, the winding paths that skirt the tip of the ocean and the land, is a famously beautiful road. And it certainly didn’t disappoint. Quite frankly it was the most beautiful ride I’ve ever embarked on.
