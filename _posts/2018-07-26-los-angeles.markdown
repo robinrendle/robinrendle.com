@@ -5,7 +5,7 @@ City: Los Angeles
 extract: A quick trip down to LA.
 ---
 
-The strangest thing about that trip down to LA is that you can see climate change everywhere. You can see it in the political ads that dot the highways. “BUILD DAMS!” “WE NEED WATER” You can the climate crisis in the fields that lead to the horizon which ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable.
+The strangest thing about that trip down to LA is that you can see the climate crisis everywhere. You can see it in the political ads that dot the highways; “BUILD DAMS!” they say. “WE NEED WATER” they plead in giant sans-serif letters. You can see the climate crisis in the fields that lead to the horizon which ought to be green but are a Mad Max gold instead. You can sense that the pulses of heat in the air are just a few degrees short of becoming unbearable, unlivable.
 
 California is a paradise, you think as you weave in between comically large trucks on your super cool bad boy motorcycle, and we ruined it.
 
