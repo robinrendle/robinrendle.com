@@ -62,7 +62,7 @@ You remember one story of how a family friend got wiped out on a highway because
 
 ![IMG_4731-1.jpg](/uploads/IMG_4731-1.jpg)
 
-After seven hours of driving you break off from the mountains and onto the coast once again, you’re going to drive the long way up.
+After seven hours of driving you break off from the mountains and onto the coast once again. You’re going to drive the long way up. You stop to take a break at the top of a mountain and look across the quiet landscape. It’s beautifully, wondrously quiet.
 
 ![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
 
