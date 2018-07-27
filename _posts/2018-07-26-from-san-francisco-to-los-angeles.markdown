@@ -16,7 +16,7 @@ All the signs are here.
 
 Los Angeles starts with a bang; after a five hour drive on a dead-straight road and caught under the gaze of a mean star you’re welcomed into the city by a national park and roads that swoop, duck, and peak around the hillsides as if they want you to play with them in the shadows. And play you do. Your motorcycle perks up – this is the type of road that he’s been waiting for.
 
-Winding highways lead you through Beverly Hills at dusk. Playboys are driving around in Bugattis and Ferraris but you’re much faster, you’re nimble and efficient, and you dart between them with ease. Your motorcycle is a high precision tool, one that dances between their flash cars that are stuck in traffic despite how expensive they are. It appears as if LA traffic doesn’t care when your next album is dropping and doesn’t care how much money you make. The traffic will gobble you up either way.
+Winding highways lead you through Beverly Hills at dusk. Playboys are driving around in Bugattis and Ferraris but you’re much faster, you’re nimble and efficient, and you dart between them with ease. Your motorcycle is a high precision tool, one that dances between their flash cars that are stuck in traffic despite how expensive they are. It appears as if LA traffic doesn’t care when your next album is dropping and doesn’t care how much money you make. The traffic will gobble them up either way.
 
 With a light touch on the throttle you blitz past them all and leave them in your dust.
 
