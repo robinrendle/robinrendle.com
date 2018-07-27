@@ -18,7 +18,9 @@ Winding highways that are peculiarly empty lead you through Beverly Hills at dus
 
 ![14.jpg](/uploads/14.jpg)
 
-The next day is your birthday. You wake up, head up through the hills and around Mulholland Drive. You see the urban sprawl and wonder at this thing people have built. It’s not a city, it’s a megacity – a metropolis built around the automobile. You’ve been wondering where all the movie money goes and you turn a corner and you realize that it’s just been plowed back into LA. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighbourhood. Something like this in England would be torn down in a heartbeat but out here this flaunting of wealth is somehow inspirational to most people instead of being naturally vile.
+The next day is your birthday. You wake up, head up through the hills and around Mulholland Drive. You see the urban sprawl. You wonder at this thing people have built in such a short amount of time. 
+
+LA is not a city, it’s a megacity – a metropolis built around the automobile. You’ve been wondering where all the movie money goes and you turn a corner and you realize that it’s just been plowed back into LA. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighbourhood. Something like this in England would be torn down in a heartbeat but out here this flaunting of wealth is somehow inspirational to most people instead of being naturally vile.
 
 ![3-a79d5e.jpg](/uploads/3-a79d5e.jpg)
 
