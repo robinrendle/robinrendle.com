@@ -64,6 +64,8 @@ You remember one story of how a family friend got wiped out on a highway because
 
 After seven hours of driving you break off from the mountains and onto the coast once again. You’re going to drive the long way up. You stop to take a break at the top of a mountain and look across the quiet landscape. It’s beautifully, wondrously quiet.
 
+The clouds are tumbling about in the sea of blue above you and are constantly shape-shifting in an effort to impress and cajole you into looking at them.
+
 ![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
 
 The sun is starting to set. But your bike is ready again. In certain moments your motorcycle is like a horse with a personality and suddenly wants to get going. You can feel his anticipation and excitement for what we’re about to do. Either that or the California desert sun has finally pushed you over the edge.
