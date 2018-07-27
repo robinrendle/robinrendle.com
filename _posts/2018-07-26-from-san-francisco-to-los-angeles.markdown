@@ -66,7 +66,7 @@ After seven hours of driving you break off from the mountains and onto the coast
 
 ![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
 
-The sun is starting to set.
+The sun is starting to set. But your bike is ready once again. 
 
 ![IMG_4775.jpg](/uploads/IMG_4775.jpg)
 
