@@ -36,7 +36,7 @@ Public spaces should always have plenty of shade in a city that sits on the edge
 
 ![IMG_4607-1.jpg](/uploads/IMG_4607-1.jpg)
 
-It’s impossible to get anywhere without a car in LA but it’s also, as if a sort of hell designed to infuriate people,  it happens to be impossible to park anywhere. Thankfully your bike can fit on the pavement, behind a bush, on the very tip of the road and tuck up and out of the way for everyone else. Parking is always free, too. 
+It’s impossible to get anywhere without a car in LA but it’s also impossible to park. Thankfully your bike can fit on the pavement, behind a bush, on the very tip of the road and tuck up and out of the way for everyone else. Parking is always free, too. 
 
 From the Observatory you can see the haze of pollution that hovers over the city at all times of the day, producing beautiful sunsets of orange and the brightest of pinks at night. 
 
