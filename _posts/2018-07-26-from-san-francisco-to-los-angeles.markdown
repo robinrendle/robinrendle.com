@@ -66,13 +66,13 @@ After seven hours of driving you break off from the mountains and onto the coast
 
 ![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
 
-The sun is starting to set. But your bike is ready once again. In certain moments it’s like this motorcycle is a horse with a personality. Either that or the California desert sun has finally pushed you over the edge.
+The sun is starting to set. But your bike is ready again. In certain moments your motorcycle is like a horse with a personality and suddenly wants to get going. You can feel his anticipation and excitement for what we’re about to do. Either that or the California desert sun has finally pushed you over the edge.
 
 ![IMG_4775.jpg](/uploads/IMG_4775.jpg)
 
 ![IMG_4750-1.jpg](/uploads/IMG_4750-1.jpg)
 
 
-Billy (my motorcycle’s temporary name whilst I think of a better replacement) was a fine companion. 
+You begin to run out of fuel in the dark. Shadows break through the fog. Every moment after that is like Alan Wake or Limbo, a dream of shadows and lights that whisk all up and around you. 
 
 The Pacific Coast Highway, the winding paths that skirt the tip of the ocean and the land, is a famously beautiful road. And it certainly didn’t disappoint. Quite frankly it was the most beautiful ride I’ve ever embarked on.
