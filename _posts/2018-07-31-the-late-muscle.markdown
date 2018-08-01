@@ -6,7 +6,7 @@ extract: I need to try harder with this stuff. A lot harder.
 
 “I am compulsive about that,” [Merlin explains](http://www.merlinmann.com/roderick/ep-298-private-road.html) of his affliction for caring about punctuality and trying to teach those lessons to his kid:
 
-> You can’t explain how important it is that if we need to leave the house by 7:30 […] if we made it by 7:31 then as I like to say Apollo has crashed. That’s it. You don’t get another chance at this. Every day you do you’re building a late muscle.” 
+> You can’t explain how important it is that if we need to leave the house by 7:30 […] if we made it by 7:31 then [...] Apollo has crashed. That’s it. You don’t get another chance at this. Every day you do you’re building a late muscle.” 
 
 I love that idea of the late muscle. Why? Because I have one. Lately I’ve felt as if I’m late to meetings all the time. I’m flakey. Unpredictable. I bail on my friends all the time and at the last second I’ll be heading to an event and just drop out before I get there. At work I say I’m going to do something and then I get obsessed with another problem and get in a bunch of awkward situations later.
 
