@@ -10,4 +10,4 @@ extract: I need to try harder with this stuff. A lot harder.
 
 I love that idea of the late muscle. Why? Because I have one. Lately I’ve felt as if I’m late to meetings all the time. I’m flakey. Unpredictable. I bail on my friends constantly and at the last second I’ll be heading to an event and just drop out before I get there.
 
-I need to try harder with this stuff. A lot harder. Like, I need to try at least a tiny bit. Because once you start caring less about punctuality and showing up on time it gets increasingly difficult to fix it over time. The late muscle has already grown strong.
+I need to try harder with this stuff. A lot harder. Like, I need to try at least a tiny bit. Because once you start caring less about punctuality and showing up on time it gets increasingly difficult to fix. The late muscle has already grown strong.
