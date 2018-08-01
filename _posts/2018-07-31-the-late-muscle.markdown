@@ -8,6 +8,6 @@ extract: I need to try harder with this stuff. A lot harder.
 
 > You can’t explain how important it is that if we need to leave the house by 7:30 […] if we made it by 7:31 then [...] Apollo has crashed. That’s it. You don’t get another chance at this. Every day you do you’re building a late muscle.” 
 
-I love that idea of the late muscle. Why? Because I have one. Lately I’ve felt as if I’m late to meetings all the time. I’m flakey. Unpredictable. I bail on my friends constantly and at the last second I’ll be heading to an event and just drop out before I get there. At work I say I’m going to do something and then I get obsessed with another problem and get in a bunch of awkward situations later.
+I love that idea of the late muscle. Why? Because I have one. Lately I’ve felt as if I’m late to meetings all the time. I’m flakey. Unpredictable. I bail on my friends constantly and at the last second I’ll be heading to an event and just drop out before I get there.
 
 I need to try harder with this stuff. A lot harder. Like, I need to try at least a tiny bit. Because once you start caring less about punctuality and showing up on time it gets increasingly difficult to fix it over time. The late muscle has already grown strong.
