@@ -4,7 +4,7 @@ date: 2018-07-31 23:21:00 -07:00
 extract: I need to try harder with this stuff. A lot harder.
 ---
 
-“I am compulsive about that,” [Merlin explains](http://www.merlinmann.com/roderick/ep-298-private-road.html) of his affliction for caring about punctuality and trying to teach those lessons to his kid:
+“I am compulsive about that,” [Merlin explains](http://www.merlinmann.com/roderick/ep-298-private-road.html) of his obsession with punctuality and trying to teach those lessons to his kid:
 
 > You can’t explain how important it is that if we need to leave the house by 7:30 […] if we made it by 7:31 then [...] Apollo has crashed. That’s it. You don’t get another chance at this. Every day you do you’re building a late muscle.” 
 
