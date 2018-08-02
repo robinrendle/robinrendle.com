@@ -16,4 +16,3 @@ Chris shows a couple ways to tackle this though:
 > First, make peace with the fact that the world (and the web) is a huge place with incredible diversity, in every sense of that word. Everyone's situation is different than yours. You can't know everything. There is endless gray area.
 > 
 > Second, it's possible to re-work a dogmatic statement into something more productive.
-
