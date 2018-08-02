@@ -9,7 +9,9 @@ I think about [this post all about dogmatism](https://css-tricks.com/increasing-
 > 
 > The dogmatic part comes from the way an opinion is phrased. I feel like people do it sometimes just for emphasis. To sound bold and proud, via brevity.
 
-I catch myself in this mode sometimes, of boldly declaring “that’s not the way to do it!” when it comes to front-end development or design. But dogmatism isn’t helpful, it doesn’t make me sound clever or wise, and it just increases the wariness of people around me to ask for help or guidance on an issue. Chris shows a couple ways to tackle this:
+I catch myself in this mode sometimes, of boldly declaring “that’s not the way to do it!” when it comes to front-end development or design. But dogmatism isn’t helpful, it doesn’t make me sound clever or wise, and it just increases the wariness of people around me to ask for help or guidance on an issue. You can see it in my writing sometimes, too. My inner 20th century German graphic designer takes over and suddenly the writing is obnoxious and mean.
+
+Chris shows a couple ways to tackle this though:
 
 > First, make peace with the fact that the world (and the web) is a huge place with incredible diversity, in every sense of that word. Everyone's situation is different than yours. You can't know everything. There is endless gray area.
 > 
