@@ -16,3 +16,5 @@ Chris shows a couple ways to tackle this though:
 > First, make peace with the fact that the world (and the web) is a huge place with incredible diversity, in every sense of that word. Everyone's situation is different than yours. You can't know everything. There is endless gray area.
 > 
 > Second, it's possible to re-work a dogmatic statement into something more productive.
+>
+> [...] It’s certainly wordier to avoid dogma when you're trying to make a point. But it's more honest. It's more clear. It's showing empathy for people out there doing things different. It makes it easier for others to empathize with you.
