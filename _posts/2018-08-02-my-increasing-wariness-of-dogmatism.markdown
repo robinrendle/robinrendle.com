@@ -1,6 +1,7 @@
 ---
 title: My Increasing Wariness of Dogmatism
 date: 2018-08-02 10:58:00 -07:00
+extract: Chris is smart and he writes smart things.
 ---
 
 I think about [this post all about dogmatism](https://css-tricks.com/increasing-wariness-dogmatism/) by Chris perhaps twice a week:
