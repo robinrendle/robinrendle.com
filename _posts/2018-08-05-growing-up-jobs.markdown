@@ -1,6 +1,8 @@
 ---
 title: Growing Up Jobs
 date: 2018-08-05 21:10:00 -07:00
+extract: "“For him, I was a blot on a spectacular ascent, as our story did not fit
+  with the narrative of greatness and virtue he might have wanted for himself.”"
 ---
 
 Lisa Brennan-Jobs on [her father, Steve](https://www.vanityfair.com/news/2018/08/lisa-brennan-jobs-small-fry-steve-jobs-daughter):
