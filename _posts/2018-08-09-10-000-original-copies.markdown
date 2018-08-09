@@ -3,7 +3,7 @@ title: 10,000 Original Copies
 date: 2018-08-09 14:57:00 -07:00
 ---
 
-Kris Sowersby has posted the transcript for his talk called [10,000 Original Copies](https://klim.co.nz/blog/10000-original-copies/) which happens to be all about copying and original ideas when it comes to designing new typefaces: 
+Kris Sowersby has posted the transcript for his talk, [10,000 Original Copies](https://klim.co.nz/blog/10000-original-copies/), which happens to be all about copying and original ideas when it comes to designing new typefaces: 
 
 > Erik van Blokland ran a small experiment: he scanned a lowercase ‘n’ and asked about 80 designers to digitise it. All we had to do was wrap our own vector outlines around it and send it back. The fascinating result was that with 80 different designers — all digitising the same letterform — no two points lined up. There was, in effect, 80 original copies from 80 different designers.
 >
