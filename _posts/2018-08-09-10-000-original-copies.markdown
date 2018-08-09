@@ -1,6 +1,8 @@
 ---
 title: 10,000 Original Copies
 date: 2018-08-09 14:57:00 -07:00
+extract: "“We’re taking the planks from masters, and building our own ships. We are
+  making ships in our own image, in our own languages, in our own accents.”"
 ---
 
 Kris Sowersby has posted the transcript for his talk, [10,000 Original Copies](https://klim.co.nz/blog/10000-original-copies/), which happens to be all about copying and original ideas when it comes to designing new typefaces: 
