@@ -13,6 +13,4 @@ Kris notes how this sort of thinking about copies and remixes has bled into his 
 
 > Over the last 10 years or so I redrew National, one of my first typefaces, as National 2. It’s completely redrawn, no two letterforms are exactly the same, and I added a bunch of new styles. But to me it is still National. It’s what I wanted to draw 10 years ago, but didn’t have the skill, time or patience.
 
-This idea of remixing, refactoring, and tidying up old designs is precisely why I chose [National 2](https://klim.co.nz/retail-fonts/national-2/) for the most recent design of my website. 
-
-Subsequently for a while I’ve had this very kooky idea of rewriting and redesigning some older pieces of mine and seeing just how different they are with years of experience piled on top. 
+This idea of remixing, refactoring, and tidying up old designs is precisely why I chose [National 2](https://klim.co.nz/retail-fonts/national-2/) for the most recent design of my website. And subsequently, for a while now I’ve had this very kooky idea of rewriting and redesigning some older pieces of mine and seeing just how different they are with years of experience piled on top. 
