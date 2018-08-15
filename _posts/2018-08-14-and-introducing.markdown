@@ -9,4 +9,4 @@ My pal Jez Burrows is working on a new project and a week ago he asked me to bui
 
 ![Screenshot 2018-08-14 21.21.jpg](/uploads/Screenshot%202018-08-14%2021.21.jpg)
 
-I really want to spoil the whole thing but all I’ll say for now is read those names in that credit sequence carefully. And don’t forget to sign up for [Adventures](https://buttondown.email/robinrendle) where this weekend I’ll probably dig into the typography decisions that we made a little bit more.
+I really want to spoil the whole thing but all I’ll say for now is that you ought to read the credits. And don’t forget to sign up for [Adventures](https://buttondown.email/robinrendle) where this weekend I’ll probably dig into the typography decisions that we made a little bit more.
