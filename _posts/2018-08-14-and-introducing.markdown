@@ -5,7 +5,7 @@ extract: Jez’s new project is going to be great so you ought to sign up for th
   immediately.
 ---
 
-My pal Jez Burrows is working on a new project and a week ago he asked me to help him build what ended up being a lovely teaser site to help promote it a little. It’s called [And Introducing](https://www.jezburrows.com/andintroducing/) and I hope you sign up for the newsletter to learn more in the future. 
+My pal Jez Burrows is working on a new project and a week ago he asked me to build what ended up being a rather lovely teaser site to help promote it a little. It’s called [And Introducing](https://www.jezburrows.com/andintroducing/) and I hope you sign up for the newsletter to learn more in the future. 
 
 ![Screenshot 2018-08-14 21.21.jpg](/uploads/Screenshot%202018-08-14%2021.21.jpg)
 
