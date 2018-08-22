@@ -20,4 +20,4 @@ It’s just a fun webpage I made to see what I can do with CSS Grid really, wher
 
 And this feeling is somewhat liberating. To not be shackled by all those best practices and rules. To feel that I can do whatever the heck I want without anyone looking over my shoulder and judging me. I don’t have to worry about performance or naming conventions, or directory structure, as I can do whatever I please without feeling all that anxiety of making the most perfect website.
 
-This thing is pure, hot garbage and I love it.
+This thing is pure, hot garbage, and I love it.
