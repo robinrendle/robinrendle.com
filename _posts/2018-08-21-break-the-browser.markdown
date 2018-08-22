@@ -1,6 +1,9 @@
 ---
 title: Break the Browser
 date: 2018-08-21 21:33:00 -07:00
+tags:
+- web design
+extract: In this game there a lot of rules.
 ---
 
 In this game there a lot of rules. The interfaces we design should be accessible to everyone, from color blind users and those that might have limited vision, to those that might not be using a keyboard or a touch screen. Those interfaces ought to be fast and highly performant, we probably shouldn’t load too many fonts, or too many high definition images. Not to mention we should care deeply about semantics, color contrast, etc. etc. etc.
