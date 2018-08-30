@@ -1,6 +1,9 @@
 ---
 title: Songs for a Writer’s Cabin
 date: 2018-08-29 18:47:00 -07:00
+tags:
+- music
+- cabin
 extract: Pretty much everything I’ve ever published and every line of code I’ve ever
   written has been typed whilst listening to this playlist.
 ---
