@@ -1,48 +1,47 @@
-{% include header.html %}
-
-<div class="m-wrapper">
-
-    <div class="cell-t40 cell-t60--medium cell-b20">
-        <h1>Adventures in Typography</h1>
-
-        <div class="m-longform cell-b40">
-            <p>This is my weekly newsletter on typography, graphic design and the web. I share what I’m working on, what I’ve been thinking about and what I’m reading. Here’s my pitch:</p>
-
-            <blockquote>
-              <p>Adventures in Typography is a weekly love letter to the written word. Topics include: calligraphy, lettering, display type, micro type, books about fonts, type specimens, neon lights, posters, morse code, stamps, literature, web design, and books about seeds.</p>
-            </blockquote>
-
-            <p>If you happen to be interested in typography or design then you can <a href='https://buttondown.email/robinrendle'>follow along</a>.</p>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+ <head>
+  <meta charset="utf-8" />
+  <title>{{site.title}} › {{page.title}}</title>
+  <meta name="author" content="Robin Rendle">
+  <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="author" href="https://plus.google.com/+RobinRendle">
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="/images/favicon.png">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="/css/adventures.css" />
+</head>
+ <body class="">
+  <section role="main" class="wrapper cell-t80">
+    <div class="content">
+      <div class="content-box">
+        <div class="m-longform cell-t40 cell-b80 footer__wrapper">
+          <h1>Adventures in Typography</h1>
+          <div class="intro">
+            <p>This weekly newsletter is all about, well, typography, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter for book nerds, typographers, and neon light enthusiasts. If you’ve somehow found yourself here then I think you might like it.</p>
+          </div>
+          <p class="small">The image below is a photograph by the Detroit Publishing Company of Woodward Avenue, Detroit, Michigan in 1917. <a href="https://www.pinterest.com/pin/194217802650140688/">See more images.</a></p>
+          <form
+            class='form'
+            action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+            method="post"
+            target="popupwindow"
+            onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+            class="embeddable-buttondown-form"
+          >
+            <input class='form-input' type="text" name="email" required id="bd-email">
+            <label for="bd-email" class='form-label'>Email</label>
+            <input type="hidden" value="1" name="embed"/>
+            <input class='form-submit' type="submit" value="Subscribe" />
+          </form>
         </div>
-    </div>
-
-
-    <!-- {% assign item = site.adventures | sort: 'date' | reverse %}
-    {% for post in item %}
-        <article class="cell-b40">
-           <header class="links">
-                <div class="meta-info">
-                    <div class="meta-info__item">
-                        <time datetime="{{ post.date}}">
-                            {% assign d = post.date | date: "%-d"  %}
-                            {% case d %}
-                                {% when '1' or '21' or '31' %}{{ d }}st
-                                {% when '2' or '22' %}{{ d }}nd
-                                {% when '3' or '23' %}{{ d }}rd
-                                {% else %}{{ d }}th
-                            {% endcase %}
-                            {{ post.date | date: "%B" }}
-                            {{ post.date | date: "%Y" }}
-                        </time>
-                    </div>
-                </div>
-                <h3 class="h3 u-text--book links u-reset-margins cell-b0"><a href="{{post.url}}">{{post.title}}</a></h3>
-                <div class="m-longform">
-                    <p>{{post.extract}}</p>
-                </div>
-            </header>
-        </article>
-    {% endfor %} -->
-
-</div>
-{% include footer.html %}
+      </div>
+    </section>
+    <figure class="display-img">
+      <img src="../build/images/woodward-avenue.jpg" alt="">
+    </figure>
+  </body>
+</html>

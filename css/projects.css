@@ -1944,20 +1944,24 @@ hgroup {
   top: -20px;
   left: 0;
   font-size: 16px;
-  text-transform: lowercase;
   padding: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #bbb; }
 
 .form-input {
   margin: 0;
   -webkit-appearance: none;
   border: none;
-  padding: 0 10px;
+  padding: 13px 10px 4px;
   width: 90%;
   transition: background-color 0.3s ease;
   background-color: white;
   border: 1px solid #aaa;
-  border-radius: 0 !important; }
+  border-right: none;
+  border-radius: 3px 0px 0px 3px !important; }
   .form-input:hover {
     cursor: pointer; }
   .form-input:focus {
@@ -1971,18 +1975,22 @@ hgroup {
   border: none;
   width: 30%;
   transition: background-color 0.3s ease;
-  background-color: #555;
+  background-color: #2a7af7;
   color: #eee;
   outline: none;
-  font-size: 0.9em;
-  font-weight: normal;
-  font-family: "National", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  text-transform: lowercase; }
+  font-size: 0.75em;
+  text-transform: uppercase;
+  border-radius: 0 3px 3px 0 !important; }
   .form-submit:hover, .form-submit:focus {
     outline: none;
     border-right: none;
     border-top: none;
-    background-color: #2a7af7; }
+    background-color: #555; }
+
+.form-input:focus + .form-label, .form-input:valid + .form-label {
+  transition: all .3s ease;
+  top: 3px;
+  font-size: 12px; }
 
 @font-face {
   font-family: "National";

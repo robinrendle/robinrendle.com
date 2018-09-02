@@ -22,6 +22,9 @@ $max-width: 740px;
 @import "utilities/underline";
 @import "utilities/inverse";
 @import "utilities/align-text";
+@import "modules/form";
+@import "../../fonts/gimlet.scss";
+@import "../../fonts/gimlet-condensed.scss";
 
 @import "tools/trim";
 
@@ -31,10 +34,6 @@ $max-width: 740px;
 
 $fallback: Georgia, serif;
 $theme: #1496fa;
-
-* {
-	border-box: box-sizing !important;
-}
 
 html {
 	height: 100%;
@@ -46,13 +45,7 @@ body {
 	padding-bottom: 0;
 	background-color: white;
 	position: relative;
-	.wf-gimlettext-n4-active & {
-		font-family: "Gimlet text", $fallback;
-	}
-
-	@include media(">medium") {
-		padding: 20px;
-	}
+	font-family: "Gimlet text", $fallback;
 }
 
 .display-img {
@@ -123,57 +116,26 @@ a {
 	}
 }
 
-.title {
-	position: relative;
-	border-left: 1px solid #222;
-	border-right: 1px solid #222;
-	border-top: 1px solid #222;
-	background-color: $theme;
-	padding: 30px 0;
 
-	@include media(">large") {
-		padding: 30px 0;
-		display: flex;
-		border-left: 1px solid black;
-		border-top: 1px solid black;
-	}
-}
 
 h1 {
 	z-index: 888;
 	display: inline-block;
 	-webkit-font-smoothing: antialiased;
 	font-feature-settings: "liga" 1;
-	font-family: Georgia, serif;
 	font-size: 3em;
-	font-size: calc(13vw);
 	font-weight: 400 !important;
 	line-height: 1;
-	text-align: center;
-	padding: 20px;
-	width: 100%;
 	color: #222;
+  font-family: "Gimlet condensed", $fallback !important;
 	position: relative;
-	margin-bottom: 0;
-	color: white;
-
-	@include media(">medium") {
-		font-size: calc(8vw);
-	}
-
-	@include media(">large") {
-		font-size: 100px;
-		padding-top: 80px;
-		padding-top: 20px;
-		padding-bottom: 40px;
-	}
+	margin: 0;
+  padding-top: 20px;
 }
 
 h1,
 h2 {
-	.wf-gimletcondensed-n4-active & {
-		font-family: "Gimlet condensed", $fallback;
-	}
+	font-family: "Gimlet condensed", $fallback;
 }
 
 .wrapper {
@@ -221,13 +183,10 @@ h2 {
 }
 
 .intro {
-	font-size: 1em;
 	line-height: 1.55;
-	padding-bottom: 60px;
 	width: 100%;
 	margin: 0 auto;
 	font-size: 1em;
-	padding: 30px 15px 40px 15px;
 	color: #333;
 	margin-bottom: 0;
 
@@ -236,12 +195,14 @@ h2 {
 	}
 
 	@include media(">large") {
-		font-size: 1.3em;
+		font-size: 1.15em;
 	}
 }
 
 .small {
 	font-size: 15px;
+  line-height: 21px;
+  color: #666;
 
 	a {
 		&:visited,
@@ -279,10 +240,13 @@ input {
 	h3 {
 		font-size: 18px;
 		margin: 0;
-		.wf-gimlettext-n4-active & {
-			font-family: "Gimlet text", $fallback;
-		}
+		font-family: "Gimlet text", $fallback;
 	}
+}
+
+.form-label {
+  font-family: "Gimlet text", $fallback;
+  top: 10px;
 }
 
 .meta-info__item {
@@ -290,18 +254,21 @@ input {
 	padding-right: 10px;
 }
 
+.footer__wrapper {
+  margin: 0 auto;
+}
+
 .content-box {
+  background-color: #fafafa;
+  padding: 40px 20px 0;
 	@include media(">large") {
+    padding-top: 50px;
 		display: flex;
+    margin: 0 auto;
 	}
 	.footer {
 		@include media(">large") {
-			width: 65vw;
-		}
-	}
-	.archive {
-		@include media(">large") {
-			width: 35vw;
+			width: 100vw;
 		}
 	}
 }
@@ -324,4 +291,9 @@ input {
 	.flex {
 		align-items: baseline;
 	}
+}
+
+.form {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }

@@ -40,21 +40,25 @@
 	top: -20px;
 	left: 0;
 	font-size: 16px;
-	text-transform: lowercase;
 	padding: 0;
 	cursor: pointer;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  color: #bbb;
 }
 
 .form-input {
 	margin: 0;
 	-webkit-appearance: none;
 	border: none;
-	padding: 0 10px;
+	padding: 13px 10px 4px;
 	width: 90%;
 	transition: background-color 0.3s ease;
 	background-color: white;
 	border: 1px solid #aaa;
-	border-radius: 0 !important;
+  border-right: none;
+	border-radius: 3px 0px 0px 3px !important;
 
 	&:hover {
 		cursor: pointer;
@@ -73,17 +77,23 @@
 	border: none;
 	width: 30%;
 	transition: background-color 0.3s ease;
-	background-color: #555;
+	background-color: $c-primary;
 	color: #eee;
 	outline: none;
-	font-size: 0.9em;
-	@include typeface("Small caps");
-	text-transform: lowercase;
+	font-size: 0.75em;
+  text-transform: uppercase;
+  border-radius: 0 3px 3px 0 !important;
 
 	&:hover, &:focus {
 		outline: none;
 		border-right: none;
 		border-top: none;
-		background-color: $c-primary;
+		background-color: #555;
 	}
+}
+
+.form-input:focus + .form-label, .form-input:valid + .form-label {
+  transition: all .3s ease;
+  top: 3px;
+  font-size: 12px;
 }
