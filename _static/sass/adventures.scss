@@ -23,8 +23,7 @@ $max-width: 740px;
 @import "utilities/inverse";
 @import "utilities/align-text";
 @import "modules/form";
-@import "../../fonts/gimlet.scss";
-@import "../../fonts/gimlet-condensed.scss";
+@import "../../fonts/national.scss";
 
 @import "tools/trim";
 
@@ -32,8 +31,13 @@ $max-width: 740px;
 @import "base/links";
 @import "base/base-spacing";
 
-$fallback: Georgia, serif;
+$sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+$fallback: $sans-fallback;
 $theme: #1496fa;
+
+$breakpoint: 900px;
 
 html {
 	height: 100%;
@@ -45,7 +49,11 @@ body {
 	padding-bottom: 0;
 	background-color: white;
 	position: relative;
-	font-family: "Gimlet text", $fallback;
+	font-family: "National", $sans-fallback;
+
+  @media (min-width: $breakpoint){
+    display: flex;
+  }
 }
 
 .display-img {
@@ -63,9 +71,11 @@ body {
 	border-right: 1px solid #222;
 	border-top: 1px solid #222;
 
-	@include media(">large") {
-		height: 90vh;
-	}
+  @media (min-width: $breakpoint){
+    height: 100%;
+    overflow: hidden;
+    max-height: 100vh;
+  }
 
 	img {
 		object-fit: cover;
@@ -116,33 +126,41 @@ a {
 	}
 }
 
+ h1 {
+  .m-longform & {
+  	z-index: 888;
+  	display: inline-block;
+  	-webkit-font-smoothing: antialiased;
+  	font-feature-settings: "liga" 1;
+  	line-height: 1;
+  	color: #222;
+  	position: relative;
+  	margin-bottom: 10px;
+    padding-top: 20px;
 
-
-h1 {
-	z-index: 888;
-	display: inline-block;
-	-webkit-font-smoothing: antialiased;
-	font-feature-settings: "liga" 1;
-	font-size: 3em;
-	font-weight: 400 !important;
-	line-height: 1;
-	color: #222;
-  font-family: "Gimlet condensed", $fallback !important;
-	position: relative;
-	margin: 0;
-  padding-top: 20px;
+    @media (min-width: $breakpoint) {
+      margin-bottom: 10px;
+      font-size: 40px;
+    }
+  }
 }
 
 h1,
 h2 {
-	font-family: "Gimlet condensed", $fallback;
+	font-family: "National", $sans-fallback;
 }
 
 .wrapper {
 	height: 100%;
 	width: 100%;
-	max-width: 1400px;
+	max-width: 600px;
 	margin: 0 auto;
+
+  @media (min-width: $breakpoint){
+    padding: 0 20px;
+    overflow-x: scroll;
+    max-height: 100vh;
+  }
 }
 
 .footer {
@@ -240,12 +258,12 @@ input {
 	h3 {
 		font-size: 18px;
 		margin: 0;
-		font-family: "Gimlet text", $fallback;
+		font-family: "National", $sans-fallback;
 	}
 }
 
 .form-label {
-  font-family: "Gimlet text", $fallback;
+  font-family: "National", $sans-fallback;
   top: 10px;
 }
 
@@ -259,7 +277,6 @@ input {
 }
 
 .content-box {
-  background-color: #fafafa;
   padding: 40px 20px 0;
 	@include media(">large") {
     padding-top: 50px;
