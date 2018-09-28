@@ -25,7 +25,7 @@ Our office is across the hall from Uber and the other day they installed these b
 
 But the longer I walk past those signs the more I think there’s something dangerous or foolish, petulant even, about trying to change the world like that. About having the gumption of being a software company that wants to do the work of a sovereign government. Uber and Google and Facebook – large portions of these companies shouldn’t be privately owned in my opinion as it’s dangerous to let a handful of Silicon Valley companies (that dodge taxes) dictate the future of our society. And it’s not for making the world a better place. Save that crap for the posters. They want the fame and the capital and the bragging rights. 
 
-“We disrupted a whole industry.” Ugh.
+***
 
 I was talking to a designer the other day and a thought crept into my head as we were talking; how many designers or engineers do you know that work at a government agency? I can tell you six that work at Twitter. Twenty, maybe more, that work at Google. How have we have let our public institutions be a source of embarrassment or shame? How have we forgotten what government is for?
 
