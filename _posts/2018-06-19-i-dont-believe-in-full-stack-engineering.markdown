@@ -1,15 +1,12 @@
 ---
 title: I Don’t Believe in Full-Stack Engineering
 date: 2018-06-19 19:45:00 -07:00
-categories:
-- featured
 tags:
 - web design
 - front-end development
 - hiring
 - gusto
 - rant
-- featured
 extract: 'There, I said it. '
 ---
 
