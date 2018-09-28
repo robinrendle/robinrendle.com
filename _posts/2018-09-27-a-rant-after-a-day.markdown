@@ -13,7 +13,7 @@ extract: You don’t have to put a dent in the universe. You can just be kind. A
   things back where you found them. And make a few people laugh along the way.
 ---
 
-Today was a _day_. It was exhausting and upsetting, and not the sort of useful kind of exhausting and upsetting but rather the kind that strips you of all of your energy and enthusiasm. The kind that makes me shrug and climb back into bed.
+Today was a _day_. It was exhausting and upsetting, and not the sort of useful kind of exhausting and upsetting but rather the kind that strips you of all of your energy and enthusiasm. The kind that makes you climb back into bed.
 
 Out of anger at today’s events I tried to be productive. I updated my Trello board, ticked a few boxes, wrote a few link posts for CSS-Tricks, updated [the Adventures microsite](https://robinrendle.com/adventures/), and nudged an interface one step closer towards being complete. It’s the part of a project where I look back at it now and I’m kinda sorta proud of what we’ve built and what I’ve learnt along the way. 
 
