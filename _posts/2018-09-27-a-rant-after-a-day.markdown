@@ -27,7 +27,7 @@ But the longer I walk past those signs the more I think there’s something dang
 
 ***
 
-I was talking to a designer the other day and a thought crept into my head; how many designers or engineers do you know that work at a government agency? I can tell you six that work at Twitter. Twenty, maybe more, that work at Google. How have we have let our public institutions be a source of embarrassment or shame? How have we forgotten what government is for?
+I was talking to a designer the other day and a thought crept into my head; how many designers or engineers do you know that work at a government agency? I can tell you six that work at Twitter. Twenty, maybe more, that work at Google. How have we have let our public institutions be a source of embarrassment or shame? How have we forgotten what government is for? Why do I not want to go work on a large, publicly owned web app?
 
 This Steve Jobs-esque fantasy to be at the very heart of things and to rule the world is the stuff of kings and backwater monarchies. And wanting to be an Uber or a Facebook or a whatever feels like anti-government sentiment to me. And I hate that recent events have led us all to point at those government institutions and sneer at them. Government might be broken, yes. But it’s fixable. We just need to reimagine what government is for. That’s the hard part. 
 
