@@ -1,5 +1,5 @@
 ---
-title: The flight from Portland to San Francisco
+title: The flight from San Francisco to Portland
 date: 2018-09-28 17:45:00 -07:00
 extract: 'It’s just the right amount of time for you to admire the romance of flight
   and the wonder that is unaccosted flight through American airspace without coming
