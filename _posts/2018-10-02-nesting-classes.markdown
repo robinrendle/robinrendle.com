@@ -4,7 +4,7 @@ date: 2018-10-02 23:07:00 -07:00
 extract: Nesting classes in Sass is maybe not such a great idea. There, I said it!
 ---
 
-The other day [Brad Frost asked](https://twitter.com/brad_frost/status/1046813109481091072) which one of these two methods you would make a new class with if you were writing Sass:
+The other day [Brad Frost asked](https://twitter.com/brad_frost/status/1046813109481091072) how you would make a new class with Sass and he gave two options that look like this:
 
 ```
 .c-btn {}
