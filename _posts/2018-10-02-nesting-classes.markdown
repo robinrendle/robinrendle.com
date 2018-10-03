@@ -7,13 +7,13 @@ extract: Nesting classes in Sass is maybe not such a great idea. There, I said i
 The other day [Brad Frost asked](https://twitter.com/brad_frost/status/1046813109481091072) which one of these two methods you would make a new class with if you were writing Sass:
 
 ```
-.c-btn { }
-.c-btn__icon { }
+.c-btn {}
+.c-btn__icon {}
 
 /* or */
 
 .c-btn {
-	&__icon {	}
+  &__icon {}
 }
 ```
 
