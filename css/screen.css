@@ -1873,6 +1873,11 @@ hgroup {
   -webkit-filter: brightness(40%) grayscale(100%);
           filter: brightness(40%) grayscale(100%); }
 
+.m-longform .highlight pre {
+  display: block;
+  background-color: #fafafa;
+  padding: 20px; }
+
 .form {
   -ms-flex-align: center;
       align-items: center;
