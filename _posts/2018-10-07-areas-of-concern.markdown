@@ -12,4 +12,4 @@ I suppose it’s the Brit in me but I love that Eric doesn’t emphasis professi
 
 > During a front-end interview earlier this week I realized that I’m looking for folks that happen to be riddled with self doubt. There’s never one way to build anything on the web and being confident is always more trouble than it’s worth.
 
-I think _concern_ is a better word for it then self-doubt. Anyway, the whole episode with Eric is super interesting and worth your time.
+I think _concern_ is a better word for it then self-doubt. Anyway, the whole episode with Eric is super interesting and worthy of your time.
