@@ -6,7 +6,7 @@
 //
 
 $_content_max-width: 800;
-$_max-width: 1000;
+$_max-width: 960;
 $_max-width-wide: 1000;
 
 .m-wrapper {
@@ -23,7 +23,7 @@ $_max-width-wide: 1000;
     display: grid;
     grid-gap: 25px;
     @include remCalc(max-width, $_max-width);
-    grid-template-columns: repeat(18, 1fr);
+    grid-template-columns: repeat(16, 1fr);
 		@include remCalc(padding, 0, 25);
 	}
 }
@@ -37,14 +37,14 @@ $_max-width-wide: 1000;
   }
 
   @include media(">large") {
-    grid-column: 1 / 14;
+    grid-column: 1 / 12;
     @include remCalc(padding, 0);
   }
 }
 
 .m-wrapper__side {
   @include media(">large") {
-    grid-column: 14 / 19;
+    grid-column: 12 / 17;
   }
 }
 
