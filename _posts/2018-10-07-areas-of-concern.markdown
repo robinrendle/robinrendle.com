@@ -4,7 +4,7 @@ date: 2018-10-07 21:36:00 -07:00
 extract: Eric Meyer on what makes a good front-end developer.
 ---
 
-I listened to a great episode of Shop Talk Show the other day with Eric Meyer all about [how to think like a front-end developer](https://shoptalkshow.com/episodes/331-think-like-front-end-developer-eric-meyer/) and there’s one bit that caught my attention. It’s the part where Chris asks the question “what is a front-end developer today” (around 10:58) and Eric responds like this:
+I listened to a great episode of Shop Talk Show the other day with Eric Meyer all about [how to think like a front-end developer](https://shoptalkshow.com/episodes/331-think-like-front-end-developer-eric-meyer/) and there’s one bit that caught my attention. It’s the part where Chris asks the question “what is a front-end developer today?” And around the 10:58 mark, Eric responds like this:
 
 >  What it looks like now, to me anyway, is somebody who worries about the HTML, the CSS, the JavaScript, the performance in the browser. [...] But that’s what they take as their area of, not only expertise, but concern.
 
