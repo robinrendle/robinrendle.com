@@ -37,7 +37,7 @@ However, as we began to develop the documentation for our design system and UI K
 
 ![1_kahbFb8A4bPBuWkHZzhayw.png](/uploads/1_kahbFb8A4bPBuWkHZzhayw.png)
 
-## #2. Pairing is worth it’s weight in gold
+## #2. Pairing is worth its weight in gold
 
 It’s not possible for the Design Systems team at Gusto to review every design or line of code that ships, and we certainly can’t provide feedback on every new component that makes it out the door. And that’s okay! But lately I’ve tried to pair with designers and engineers as frequently as I can, even if I haven’t been officially tasked with working on that project.
 
