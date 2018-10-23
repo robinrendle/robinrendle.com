@@ -168,6 +168,6 @@ So these books about video games and design loops got me thinking: what’s the 
 2. Get the whole organization to hop right into that box with you
 3. Constantly redraw the box until the end of time based on changing business and organizational needs
 
-This feels helpful to me, but I’m not sure! Let me know what you think below.
+This feels helpful to me, but I’m not sure! Feelings!
 
 
