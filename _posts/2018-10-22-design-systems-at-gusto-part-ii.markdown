@@ -93,7 +93,7 @@ Here’s a hot take that you didn’t ask for: I believe that we won’t ever be
 
 But if we can’t accurately measure the impact of a design system — or the problems that lead to the development of one — then how do we measure good work at all?
 
-## #5. Confusion and inefficiency are the best signs of design system failure
+## #6. Confusion and inefficiency are the best signs of design system failure
 
 For design systems folks (the kind of people that live inside spreadsheets and have very neat and organized cupboards at home) this statement probably makes you feel uncomfortable. We all want data! And we want it now!
 
@@ -105,7 +105,7 @@ _Side note: collaborating with the design systems team shouldn’t feel like ano
 
 Working with the design systems team should feel more productive than working alone. But…
 
-## #6. Be wary of too many cooks in the kitchen
+## #7. Be wary of too many cooks in the kitchen
 
 For a design systems team to be effective they have to flip from a dictatorship to a democracy at the flick of the switch. This is just so that things can get done: not everyone in your entire organization can be allowed to have an opinion about border-radius or the color of your cards because otherwise your systems team will feel immobilized by indecision and nothing will get built.
 
@@ -119,7 +119,7 @@ Anyway, I slowly came to the conclusion that everyone should be involved and kep
 
 But a good design system cannot be built by committee.
 
-## #7. Design Price Points can help resolve arguments
+## #8. Design Price Points can help resolve arguments
 
 
 I’ve been working with Jordan Townsend on a number of projects lately — he’s an infuriatingly talented designer at Gusto and he has an interesting way of dealing with my design systems nonsense. Whenever we chat about a new project he always shows me three potential solutions to a problem.
