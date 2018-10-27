@@ -13,7 +13,7 @@ My pal Jez has just released a Kickstarter campaign for his new book called [And
 
 > From 'Exuberant Mourner' (Analyze This) to 'Arthritic Cowboy' (Who Framed Roger Rabbit), 'Sad Woman with Horns' (Guardians of the Galaxy) to 'Man Shot in Head 3' (The ABCs of Death), movie history is replete with curiously named characters bringing up the rear of the cast list. And Introducing is a survey of those bit-part and background character credits, organising them into almost 100 categories—some predictable (men, women, bystanders, henchmen) and some more surprising (screaming characters, toothless characters, characters whose names are simply their one line of dialogue). 
 
-The final book is going to look something like this and I could not be more excited for it:
+The book is going to look something like this, designed in a similar style to the closing credits of a movie and quite frankly I could not be more excited for this project:
 
 ![jez-book.jpg](/uploads/jez-book.jpg)
 
