@@ -1,6 +1,8 @@
 ---
 title: 'And Introducing: The Kickstarter'
 date: 2018-10-27 11:45:00 -07:00
+extract: My pal Jez has finally announced his Kickstarter campaign for his new book
+  called And Introducing.
 ---
 
 My pal Jez has finally announced his Kickstarter campaign for his new book called [And Introducing](https://www.kickstarter.com/projects/jezburrows/and-introducing-a-journey-to-the-end-of-the-cast-l) and I’ll let him take it away:  
