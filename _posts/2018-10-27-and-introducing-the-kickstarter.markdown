@@ -1,6 +1,10 @@
 ---
 title: 'And Introducing: The Kickstarter'
 date: 2018-10-27 11:45:00 -07:00
+tags:
+- Jez Burrows
+- and introducing
+- friends
 extract: My pal Jez has finally announced his Kickstarter campaign for his new book
   called And Introducing.
 ---
