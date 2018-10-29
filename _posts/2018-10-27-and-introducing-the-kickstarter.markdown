@@ -5,8 +5,7 @@ tags:
 - Jez Burrows
 - and introducing
 - friends
-extract: My pal Jez has finally announced his Kickstarter campaign for his new book
-  called And Introducing.
+extract: Jez just announced his Kickstarter campaign for his new book called And Introducing.
 ---
 
 Jez has just released a Kickstarter campaign for his new book called [And Introducing](https://www.kickstarter.com/projects/jezburrows/and-introducing-a-journey-to-the-end-of-the-cast-l) and I’ll let him take it away for the intro:  
