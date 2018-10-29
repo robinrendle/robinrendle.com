@@ -16,6 +16,6 @@ The book is going to look something like this, designed in a similar style to th
 
 ![jez-book.jpg](/uploads/jez-book.jpg)
 
-It’s a funny and curious little thing. Also! Make sure to watch the video for his campaign because it’s very good and go [support the project](https://www.kickstarter.com/projects/jezburrows/and-introducing-a-journey-to-the-end-of-the-cast-l) right away.
+It’s a funny and curious little thing. I would highly recommend [supporting the project](https://www.kickstarter.com/projects/jezburrows/and-introducing-a-journey-to-the-end-of-the-cast-l) right away because we need more things like this – joyous curiosities that make us all giggle.
 
 
