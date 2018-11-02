@@ -28,8 +28,4 @@ Someone was building an application of some kind and they were referencing somet
 
 It’s the rush and jolt of publishing, I suppose. (This is about to get sappy so bear with me). It’s this boundless sense of enthusiasm for how words can be packaged and transported, and it’s this feeling that we can share ideas in this vast human society that we’re building together, a place where borders are just structures we’ve placed in between ourselves, and that words have momentum. It’s that feeling that a link to a website can lead to a book in your hand, to a friend at a party, to a conference in another town, to a long lasting love in a distant land.
 
-Okay, whatever man. [Smokes cigarette and rides motorcycle into the sunset].
-
-***
-
 Anyway, publishing on the web is an endless thrill, a sort of everlasting, punk-rock feeling and I hope it will never really go away.
