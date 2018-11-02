@@ -12,9 +12,9 @@ They called it “time travel for bears.”
 
 In a flash I realized that the illustrations and the text are the same thing, that they’re two sides of the same coin. The size of the book, [the heft of the text](https://robinrendle.com/essays/call-me-interactivity/), and the colors and the texture and the merging of syntax and space — they all swirled together into a potent mix. 
 
-And at once knew that’s what I wanted to do. As a child of six or seven I knew the answer to the question that had plagued me for what felt like an eternity; _who do you want to be when you grow up, kid?_
+And at once knew that’s what I wanted to do. As a child of six or seven I knew the answer to the question that had plagued me for what felt like an eternity; who do you want to be when you grow up, kid?
 
-This, I wanted to point at the polar bears and hurl the text up into the faces of all these nosey adults. I want this. 
+_This!_ I wanted to point at the polar bears and hurl the text up into the faces of all these nosey adults. _I want this._
 
 The reason why I got into front-end development and web design is because of this book about polar bears and it’s I’m fascinated in publishing. I’m a web designer for the same reason that Gutenberg invented his maniacal contraptions half a millennia ago [in the German town of Mainz](https://robinrendle.com/essays/futures-of-typography/); locking type together, hacking away [bits of text](https://robinrendle.com/essays/bookmarking/) in a dark room, and then – blamo! – you print all the paper, you bind all the books, you hit the big green button, and then you publish. That initial thrill of launching a website that you’ve written the copy for, typeset all the paragraphs, programmed the complex insides and inner workings of published things. 
 
