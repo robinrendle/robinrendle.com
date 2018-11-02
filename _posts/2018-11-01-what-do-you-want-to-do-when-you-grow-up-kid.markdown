@@ -18,4 +18,16 @@ _This!_ I wanted to point at the polar bears and hurl the text up into the faces
 
 The reason why I got into front-end development and web design is because of this book about polar bears and it’s why I’m so fascinated in publishing today. I believe I’m a web designer for the same reason that Gutenberg invented his maniacal contraptions half a millennia ago [in the German town of Mainz](https://robinrendle.com/essays/futures-of-typography/); locking type together, hacking away at [bits of text](https://robinrendle.com/essays/bookmarking/) in a dark room, and then – blamo! – you print all the paper, you bind all the books, you hit the big green button, and then it’s published.
 
-Sure, [web design is different](https://robinrendle.com/essays/new-web-typography/) but that feeling of publishing is why I do what I do. Publishing on the web is an endless thrill, a sort of everlasting, punk-rock feeling and I hope it will never really go away.
+Sure, [web design is different](https://robinrendle.com/essays/new-web-typography/) but that impossibly dumb and electric feeling of publishing something on the web is why I do what I do. Not for the claps or the high-fives or in search of faint praise—but something else entirely.
+
+***
+
+The first day I walked into Gusto, the company I work for today, I remember being terrified. I was being interviewed more than 5,000 miles from my hometown in England. But as I was walking through the office, palms sweaty and knees trembling, I caught a little something in my peripheral vision. 
+
+I saw that as someone was working on building something they were looking at something I had written for CSS-Tricks. It was the most impossibly wonderful feeling I’ve ever had. And no, it’s not because of the fame and prestige although yes that is nice and I will take what I can get. 
+
+But it’s this feeling of knowledge, I suppose. (This is about to get sappy so bear with me). It’s this boundless sense of enthusiasm for how words can be transported across [an ocean, across a network](https://robinrendle.com/notes/chloe/), and that we can share ideas freely in this vast human society that we’re building together, a place where borders are just structures we’ve placed in between ourselves, and then words has lasting meaning, momentum even. That one website can lead to a book, to a friend, to a conference, to a long lasting love.
+
+***
+
+Anyway, publishing on the web is an endless thrill, a sort of everlasting, punk-rock feeling and I hope it will never really go away.
