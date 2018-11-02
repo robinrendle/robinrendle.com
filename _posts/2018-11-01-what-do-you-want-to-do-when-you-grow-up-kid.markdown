@@ -28,6 +28,8 @@ I saw that as someone was working on building something they were looking at som
 
 But it’s this feeling of knowledge, I suppose. (This is about to get sappy so bear with me). It’s this boundless sense of enthusiasm for how words can be transported across [an ocean, across a network](https://robinrendle.com/notes/chloe/), and that we can share ideas freely in this vast human society that we’re building together, a place where borders are just structures we’ve placed in between ourselves, and then words has lasting meaning, momentum even. That one website can lead to a book, to a friend, to a conference, to a long lasting love.
 
+Okay, whatever man. [Smokes cigarette and rides motorcycle into the sunset].
+
 ***
 
 Anyway, publishing on the web is an endless thrill, a sort of everlasting, punk-rock feeling and I hope it will never really go away.
