@@ -22,7 +22,7 @@ Sure, [web design is different](https://robinrendle.com/essays/new-web-typograph
 
 ***
 
-The first day I walked into Gusto, the company I work for today, I remember being terrified. I was being interviewed more than 5,000 miles from my hometown in England for starters. But as I was walking through the office, palms sweaty and knees trembling, I caught a little something in my peripheral vision. 
+I was terrified the first day I walked into Gusto, the company I work for today. I was being interviewed more than 5,000 miles from my hometown in England for starters. But as I was walking through the office, palms sweaty and knees trembling, I caught a little something in my peripheral vision. 
 
 Someone was building an application of some kind and they were referencing something I had written for CSS-Tricks a few weeks prior. It was the most impossibly wonderful feeling I’ve ever had. And no, it’s not because of the fame and prestige although yes that is nice and I will take what I can get thank you very much. 
 
