@@ -24,7 +24,7 @@ Sure, [web design is different](https://robinrendle.com/essays/new-web-typograph
 
 The first day I walked into Gusto, the company I work for today, I remember being terrified. I was being interviewed more than 5,000 miles from my hometown in England for starters. But as I was walking through the office, palms sweaty and knees trembling, I caught a little something in my peripheral vision. 
 
-Someone was building an application of some kind and they were referencing something I had written for CSS-Tricks a few weeks prior. It was the most impossibly wonderful feeling I’ve ever had. And no, it’s not because of the fame and prestige although yes that is nice and I will take what I can get. 
+Someone was building an application of some kind and they were referencing something I had written for CSS-Tricks a few weeks prior. It was the most impossibly wonderful feeling I’ve ever had. And no, it’s not because of the fame and prestige although yes that is nice and I will take what I can get thank you very much. 
 
 But it’s this feeling of knowledge, I suppose. (This is about to get sappy so bear with me). It’s this boundless sense of enthusiasm for how words can be transported across [an ocean, across a network](https://robinrendle.com/notes/chloe/), and that we can share ideas freely in this vast human society that we’re building together, a place where borders are just structures we’ve placed in between ourselves, and then words has lasting meaning, momentum even. That one website can lead to a book, to a friend, to a conference, to a long lasting love.
 
