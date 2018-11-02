@@ -11,7 +11,7 @@ I fell into web design via books; when I was maybe six or seven I remember readi
 They called it “time travel for bears.” 
 
 In a flash I realized that the illustrations and the text are the same thing, that they’re two sides of the same coin. And felt like I had stumbled upon a treasure trove of hidden secrets: I noticed the 
-book as an object, [the shape of the text](https://robinrendle.com/essays/call-me-interactivity/), and the colors and the texture and the merging of syntax and voice — they all swirled around into a potent mix. 
+book as an object, [the shape of the text](https://robinrendle.com/essays/call-me-interactivity/) inside it, and the colors and the texture and the merging of syntax and voice — they all swirled around into a potent mix. 
 
 I knew that’s what I wanted to do. As a child of six or seven I knew the answer to the question that had plagued me for what felt like an eternity; who do you want to be when you grow up, kid?
 
