@@ -6,7 +6,7 @@ categories:
 extract: It’s an everlasting, punk-rock feeling that I hope will never really go away.
 ---
 
-I fell into web design via books; when I was a kid of maybe six or seven I remember reading about polar bears and how they hibernated. I found this chapter in a large compendium of information about all sorts of natural habitats – ranging from foxes in the desert to penguins in the arctic – and to this day I still remember this giant, double page spread illustration of a bear and her cubs. It was a fine picture, but what piqued my curiosity was how the author described hibernation itself – they called it “time travel for bears.” 
+I fell into web design via books; when I was a kid of maybe six or seven I remember reading about polar bears and how they hibernated. I found this chapter in a large compendium of information about all sorts of natural habitats – ranging from foxes in the desert to penguins in the arctic – and to this day I still remember this giant, double page spread of a bear and her cubs. It was a wondrous illustration, but what piqued my curiosity was how the author described hibernation itself – they called it “time travel for bears.” 
 
 In a flash I realized that the illustrations and the text are the same thing, that they’re two sides of the same coin. The size of the book, [the heft of the text](https://robinrendle.com/essays/call-me-interactivity/), and the colors and the texture and the merging of syntax and space — they all swirled together into a potent mix. 
 
