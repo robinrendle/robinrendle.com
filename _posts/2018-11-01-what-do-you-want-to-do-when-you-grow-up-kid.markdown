@@ -16,7 +16,7 @@ At that very moment I knew that’s what I wanted to do. As a child of six or se
 
 _This!_ I wanted to point at the polar bears and hurl the text up into the faces of all those nosey adults. _I want this._
 
-The reason why I got into front-end development and web design is because of this book about polar bears and it’s why I’m so fascinated in publishing today. I believe I’m a web designer for the same reason that Gutenberg invented his maniacal contraptions half a millennia ago [in the German town of Mainz](https://robinrendle.com/essays/futures-of-typography/); locking type together, hacking away at [bits of text](https://robinrendle.com/essays/bookmarking/) in a dark room, and then – blamo! – you print all the paper, you bind all the books, you hit the big green button, and then it’s published.
+The reason why I got into front-end development and web design is because of this book about polar bears and it’s why I’m so fascinated in publishing today. I believe I’m a web designer for the same reason that Gutenberg invented his maniacal contraptions half a millennia ago [in the German town of Mainz](https://robinrendle.com/essays/futures-of-typography/); locking type together, hacking away at [bits of text](https://robinrendle.com/essays/bookmarking/) in a dark room, and then – blamo! – you print all the paper, you bind all the books, you hit the big green button, and it’s published.
 
 Sure, [web design is different](https://robinrendle.com/essays/new-web-typography/) but that impossibly dumb and electric feeling of publishing something on the web is why I do what I do. Not for the claps or the high-fives or in search of faint praise—but something else entirely.
 
