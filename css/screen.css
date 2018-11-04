@@ -813,6 +813,9 @@ acronym {
 iframe {
   margin: 0 auto !important; }
 
+img, video {
+  max-width: 100%; }
+
 a {
   outline: none;
   border: none; }
