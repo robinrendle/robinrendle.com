@@ -1995,10 +1995,28 @@ hgroup {
     border-top: none;
     background-color: #555; }
 
-.form-input:focus + .form-label, .form-input:valid + .form-label {
+.form-input:focus + .form-label,
+.form-input:valid + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
   transition: all .3s ease;
   top: 3px;
   font-size: 12px; }
+
+.form-input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: white; }
+
+.form-input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white; }
+
+.form-input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: white; }
+
+.form-input:-moz-placeholder {
+  /* Firefox 18- */
+  color: white; }
 
 @font-face {
   font-family: "National";
