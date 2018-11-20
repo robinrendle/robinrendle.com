@@ -3,7 +3,7 @@ title: The Red Hand Files
 date: 2018-11-19 22:17:00 -08:00
 tags:
 - Nick Cave
-extract: Nick Cave’s newsletter is something else.
+extract: In his newsletter, Nick Cave writes about tragedy and wonder.
 ---
 
 Nick Cave’s newsletter is called [The Red Hand Files](https://www.theredhandfiles.com/) – he typically answers questions from his fans in an [agony aunt fashion](https://en.wikipedia.org/wiki/Advice_column) – and in one of the more recent entries he writes about recovering from tragedy: 
