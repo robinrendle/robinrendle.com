@@ -1,5 +1,5 @@
 ---
-title: Why can’t we use functional CSS and regular CSS at the same time?
+title: Why can’t we use functional and regular CSS at the same time?
 date: 2018-11-19 22:41:00 -08:00
 extract: Surprise! I blogged about CSS again. Sorry.
 ---
