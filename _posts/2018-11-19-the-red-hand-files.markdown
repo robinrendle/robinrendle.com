@@ -10,5 +10,7 @@ Nick Cave has a newsletter where he answers fan mail called [The Red Hand Files]
 
 I adore this sentiment but for me that sense of community manifests itself in writing and reading on the web. Knowing for example that every day [Ire is writing about her work](https://bitsofco.de/learning-to-write-again/) or that [Chris is writing about email], or [Jonnie is writing about his business](https://cushionapp.com/journal), well, that’s all just endlessly inspiring to me. 
 
+And we’re all just bumping into each other in the dark.
+
 
 
