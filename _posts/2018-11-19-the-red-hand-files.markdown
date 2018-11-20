@@ -10,7 +10,7 @@ Nick Cave’s newsletter is called [The Red Hand Files](https://www.theredhandfi
 
 I adore this sentiment but for me that sense of community manifests itself in writing and reading on the web. Knowing for example that every day [Ire is writing about her work](https://bitsofco.de/learning-to-write-again/), [Chris is thinking about email](https://email-is-good.com/), and [Jonnie is figuring out his business](https://cushionapp.com/journal), well, that’s all just endlessly inspiring to me. 
 
-And we’re all just bumping into each other in the dark.
+And I get the sense when I read these things that we’re all just bumping into each other in the dark.
 
 
 
