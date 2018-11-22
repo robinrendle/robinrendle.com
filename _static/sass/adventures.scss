@@ -50,37 +50,33 @@ body {
 	background-color: white;
 	position: relative;
 	font-family: "National", $sans-fallback;
-
-  @media (min-width: $breakpoint){
-    display: flex;
-  }
 }
 
 .display-img {
 	margin: 0;
-	display: flex;
-	flex-direction: row;
+	position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
 	overflow: hidden;
 	max-width: 100%;
-	min-height: 400px;
-	// background-color: $theme;
-	position: relative;
-	height: 75vh;
+	min-height: 100vh;
+	height: 100vh;
 	width: 100%;
 	border-left: 1px solid #222;
 	border-right: 1px solid #222;
 	border-top: 1px solid #222;
 
   @media (min-width: $breakpoint){
-    height: 100%;
     overflow: hidden;
-    max-height: 100vh;
+    min-height: 100vh;
   }
 
 	img {
 		object-fit: cover;
-		max-width: 100%;
-		width: 100%;
+		min-width: 100%;
+    min-height: 100vh;
 	}
 
 	&:before {
@@ -90,7 +86,6 @@ body {
 		height: 100%;
 		width: 100%;
 		opacity: 0.4;
-		// background-image: url('../build/images/circle-white.svg');
 	}
 
 	figcaption {
@@ -152,12 +147,24 @@ h2 {
 
 .wrapper {
 	height: 100%;
+  display: flex;
 	width: 100%;
-	max-width: 600px;
-	margin: 0 auto;
+	max-width: 590px;
+	margin: 0 auto 0;
+  position: relative;
+  top: 50px;
+  z-index: 2;
+  background-color: white;
+  border: 1px solid #222;
+  border-radius: 2px;
+  padding-bottom: 40px;
+  min-height: 70vh;
 
-  @media (min-width: $breakpoint){
-    padding: 0 20px;
+  @media (min-width: $breakpoint) {
+    top: 80px;
+    margin: 0 auto 0 50px;
+    min-height: 80vh;
+    padding: 0 30px 80px;
     overflow-x: scroll;
     max-height: 100vh;
   }
@@ -197,6 +204,9 @@ h2 {
 }
 
 .footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 	max-width: 700px;
 }
 
@@ -276,10 +286,18 @@ input {
   margin: 0 auto;
 }
 
+.content, .content-box {
+  display: flex;
+}
+
 .content-box {
-  padding: 40px 20px 0;
+  padding: 20px 20px 0;
+  @include media(">medium") {
+    padding: 20px 30px 0;
+  }
 	@include media(">large") {
-    padding-top: 50px;
+    margin-top: 30px;
+    padding: 20px 0 0;
 		display: flex;
     margin: 0 auto;
 	}
@@ -311,6 +329,5 @@ input {
 }
 
 .form {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  width: 100%;
 }
