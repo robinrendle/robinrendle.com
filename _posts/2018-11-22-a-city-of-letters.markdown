@@ -3,7 +3,7 @@ title: A City of Letters
 date: 2018-11-22 22:44:00 -08:00
 ---
 
-I’m reading Gary Kamiya’s *Cool Gray City of Love* which is a lovely account of the history of San Francisco and it’s architecture, culture, and people. If you’re interested in the history of San Francisco then I’d certainly recommend it. But this week Gary’s book reminded me of an idea I can’t shake for a book of my own.
+I’m reading Gary Kamiya’s *Cool Gray City of Love* at the moment which is a lovely account of the history of San Francisco and it’s architecture, culture, and people. If you’re interested in the history of San Francisco then I’d certainly recommend it. But this week Gary’s book reminded me of an idea I can’t shake for a book of my own.
 
 This idea has been floating about in my head for about two years, and it struck me the first moment I laid eyes on San Francisco on an overcast day in December. The city has a peculiar typographic history and a high concentration of people that care intensely about letterforms. 
 
