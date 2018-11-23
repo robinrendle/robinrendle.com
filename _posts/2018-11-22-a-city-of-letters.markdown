@@ -24,4 +24,4 @@ The text would be a mix between the slow, patient waddling of [The Futures of Ty
 
 This book would probably follow me through interviews and trips across the Bay Area where I’d try to figure out what makes San Francisco special in this regard and what we can all learn from this peculiar place.
 
-And I think that’s what Adventures and this old blog of mine has always been really; it’s an excuse to slowly, and in a rather roundabout sort of way, write a book.
+And I think that’s what Adventures and this old blog of mine has always been really; it’s an excuse to, in a rather roundabout sort of way, slowly write a book.
