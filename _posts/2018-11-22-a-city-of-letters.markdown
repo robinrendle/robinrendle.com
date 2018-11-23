@@ -9,13 +9,13 @@ This idea has been floating about in my head for about two years and it struck m
 
 So whilst Gary’s book traces the city of San Francisco through its geography, mine would trace the city through typography and lettering.
 
-There’s the [Letterform Archive](https://letterformarchive.org/) and Silicon Valley's contribution to typesetting, there’s the [Center for the Book](https://sfcb.org/), [Type Thursday ](https://www.typethursday.org/san-francisco/) and, of course, [New Bohemia Signs](https://www.newbohemiasigns.com/about/) to talk about. There’s desktop publishing and neon lights, the fallow tech industry and it’s lazy branding efforts, there’s the indie type designers and the video games that developed out here.
+There’s the [Letterform Archive](https://letterformarchive.org/) and Silicon Valley's contribution to typesetting, there’s the [Center for the Book](https://sfcb.org/), [Type Thursday ](https://www.typethursday.org/san-francisco/) and, of course, [New Bohemia Signs](https://www.newbohemiasigns.com/about/) to talk about. There’s desktop publishing and neon lights, the fallow tech industry and it’s lazy branding efforts, there’s the indie type designers, and the video game industry.
 
 The book would be a rambling, unfocused, and joyous little thing.
 
 Speaking of which, last week I foolishly took a walk through all the smoke and over into the Mission where I stumbled upon this lovely garage door, designed by a fellow from New Bohemia Signs:
 
-/pic-garage-door.jpg
+![geagaeaega.jpg](/uploads/geagaeaega.jpg)
 
 Glorious stuff, huh? Anyway – San Francisco is teeming with typographic artifacts, institutions, and people. I feel like it would make for a wonderful book.
 
