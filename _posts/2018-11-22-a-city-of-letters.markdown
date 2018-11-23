@@ -22,6 +22,6 @@ Glorious stuff, huh? Anyway – San Francisco is teeming with typographic artifa
 
 The text would be a mix between the slow, patient waddling of [The Futures of Typography](http://robinrendle.com/essays/futures-of-typography) with the upbeat childish whimsy that I hope for in [Adventures](http://robinrendle.com/adventures). It would be more researched and elaborate though and I’d pick an illustrator to help capture that sense of glamour and wonder that I see in the city. On that front, I think [Anna’s work](https://dribbble.com/itsAnnaHurley) or [Camellia’s](https://dribbble.com/camellianeri) would give the thing an extra pop and giggle.
 
-This book would probably follow me through interviews and trips across the Bay Area where I’d try to figure out what makes San Francisco special in this regard and what we can learn from this peculiar place.
+This book would probably follow me through interviews and trips across the Bay Area where I’d try to figure out what makes San Francisco special in this regard and what we can all learn from this peculiar place.
 
-I think that’s what Adventures and this old blog of mine has always been really; it’s an excuse to slowly, and in a rather roundabout sort of way, write a book.
+And I think that’s what Adventures and this old blog of mine has always been really; it’s an excuse to slowly, and in a rather roundabout sort of way, write a book.
