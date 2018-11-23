@@ -1,6 +1,8 @@
 ---
 title: A City of Letters
 date: 2018-11-22 22:44:00 -08:00
+tags:
+- Gary Kamiya
 extract: Okay so I have an idea for a book.
 ---
 
