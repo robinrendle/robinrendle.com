@@ -23,4 +23,4 @@ The text would be a mix between the slow, patient waddling of [Futures](http://r
 
 The book would follow me through interviews and trips across the Bay Area where I’d try to make sense of what makes San Francisco special in this regard and what we can learn from this peculiar place.
 
-I think that’s what Adventures has always been really, and if not now then at one point or another; it’s an excuse to write a book.
+I think that’s what Adventures and this old blog of mine has always been really; it’s an excuse to slowly write a book.
