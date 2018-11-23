@@ -7,7 +7,7 @@ I’m reading Gary Kamiya’s *Cool Gray City of Love* at the moment which is a 
 
 This idea has been floating about in my head for about two years and it struck me the first moment I laid eyes on San Francisco on an overcast day in December. The city has a peculiar typographic history and a high concentration of people that care intensely about letterforms. It’s tough to see at first but once you do you begin to see wonderful letters everywhere.
 
-So whilst Gary’s book traces the history of San Francisco through its geography, mine would trace the history through typography and lettering.
+So whilst Gary’s book traces the city of San Francisco through its geography, mine would trace the city through typography and lettering.
 
 There’s the [Letterform Archive](https://letterformarchive.org/) and Silicon Valley's contribution to typesetting, there’s the [Center for the Book](https://sfcb.org/), [Type Thursday ](https://www.typethursday.org/san-francisco/) and, of course, [New Bohemia Signs](https://www.newbohemiasigns.com/about/) to talk about. There’s desktop publishing and neon lights, the fallow tech industry and it’s lazy branding efforts, there’s the indie type designers and the video games that developed out here.
 
