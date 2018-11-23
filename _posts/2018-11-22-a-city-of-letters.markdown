@@ -13,7 +13,7 @@ There’s the [Letterform Archive](https://letterformarchive.org/) and Silicon V
 
 The book would be a rambling, unfocused, and joyous little thing. Or rather at least it is my head.
 
-Speaking of which, last week I foolishly took a walk through all the smoke and over into the Mission where I stumbled upon this lovely garage door, designed by a fellow from New Bohemia Signs:
+Speaking of which, last week I foolishly took a walk through all the smoke and headed over to the Mission where I stumbled upon this lovely garage door, designed by a fellow from New Bohemia Signs:
 
 ![geagaeaega.jpg](/uploads/geagaeaega.jpg)
 
