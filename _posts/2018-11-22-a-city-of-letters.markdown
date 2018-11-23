@@ -11,7 +11,7 @@ So whilst Gary’s book traces the city of San Francisco through its geography, 
 
 There’s the [Letterform Archive](https://letterformarchive.org/) and Silicon Valley's contribution to typesetting, there’s the [Center for the Book](https://sfcb.org/), [Type Thursday ](https://www.typethursday.org/san-francisco/) and, of course, [New Bohemia Signs](https://www.newbohemiasigns.com/about/) to talk about. There’s desktop publishing and neon lights, the fallow tech industry and it’s lazy branding efforts, there’s the indie type designers, and the video game industry.
 
-The book would be a rambling, unfocused, and joyous little thing.
+The book would be a rambling, unfocused, and joyous little thing. Or rather at least it is my head.
 
 Speaking of which, last week I foolishly took a walk through all the smoke and over into the Mission where I stumbled upon this lovely garage door, designed by a fellow from New Bohemia Signs:
 
