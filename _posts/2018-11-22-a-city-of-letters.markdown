@@ -1,6 +1,7 @@
 ---
 title: A City of Letters
 date: 2018-11-22 22:44:00 -08:00
+extract: Okay so I have an idea for a book.
 ---
 
 I’m reading Gary Kamiya’s *Cool Gray City of Love* at the moment which is an account of the history of San Francisco and it’s architecture, culture, and people. If you’re interested in the history of San Francisco then I’d certainly recommend it. But this week Gary’s book reminded me of an idea I can’t shake for a book of my own.
