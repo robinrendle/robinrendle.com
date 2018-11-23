@@ -20,7 +20,7 @@ Speaking of which, last week I foolishly took a walk through all the smoke and h
 
 Glorious stuff, huh? Anyway – San Francisco is teeming with typographic artifacts, institutions, and people that make stuff like this. But I feel like the city isn’t well known for typography or lettering and so convincing folks to look at the city through that lens could make for a wonderful book.
 
-The text would be a mix between the slow, patient waddling of [Futures](http://robinrendle.com/essays/futures-of-typography) with the upbeat childish whimsy that I hope for in [Adventures](http://robinrendle.com/adventures). It would be more researched and elaborate though and I’d pick an illustrator to help capture that sense of glamour and wonder that I see in the city.
+The text would be a mix between the slow, patient waddling of [The Futures of Typography](http://robinrendle.com/essays/futures-of-typography) with the upbeat childish whimsy that I hope for in [Adventures](http://robinrendle.com/adventures). It would be more researched and elaborate though and I’d pick an illustrator to help capture that sense of glamour and wonder that I see in the city.
 
 The book would follow me through interviews and trips across the Bay Area where I’d try to figure out what makes San Francisco special in this regard and what we can learn from this peculiar place.
 
