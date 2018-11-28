@@ -13,4 +13,4 @@ We all want accessible interfaces where every browser can access our work, with 
 
 Unlike traditional programming languages, it seems to me that many folks in web development don’t want to learn how CSS or HTML works because they feel like it will soon go away. And in this post I finally managed to put it into words although I’ve been trying to [again](https://robinrendle.com/notes/i-dont-believe-in-full-stack-engineering/) and [again](https://robinrendle.com/notes/design-systems-at-gusto-part-ii/) over the last year.
 
-Also the comments that folks have added to this piece are super interesting. 
+Also, the comments that folks have added to this piece are super interesting. 
