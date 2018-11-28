@@ -11,6 +11,6 @@ Today we published something over on CSS-Tricks that I’ve been thinking about 
 
 We all want accessible interfaces where every browser can access our work, with beautiful mobile interactions, instantaneous performance, and a design system where someone can click-clack components together in no time. But all of those things are only possible if we care about the field of front-end development and see it as a worthy career.
 
-Unlike traditional programming languages, it seems to me that many folks in web development don’t want to learn how CSS or HTML works. And in this post I finally managed to phrase it the way I’ve been trying to [again](https://robinrendle.com/notes/i-dont-believe-in-full-stack-engineering/) and [again](https://robinrendle.com/notes/design-systems-at-gusto-part-ii/) this year.
+Unlike traditional programming languages, it seems to me that many folks in web development don’t want to learn how CSS or HTML works because they feel like it will soon go away. And in this post I finally managed to phrase it the way I’ve been trying to [again](https://robinrendle.com/notes/i-dont-believe-in-full-stack-engineering/) and [again](https://robinrendle.com/notes/design-systems-at-gusto-part-ii/) this year.
 
 Also the comments that folks have added to this piece are super interesting. 
