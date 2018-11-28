@@ -5,7 +5,7 @@ extract: I think I finally figured out what upsets me when people talk about fro
   development.
 ---
 
-Today we published something over on CSS-Tricks that I’ve been thinking about over the past year or so. It’s about how a lot of folks think that front-end development is a problem to be solved with tools, processes, or frameworks. [And I disagree](https://css-tricks.com/front-end-development-is-not-a-problem-to-be-solved/): 
+Today we published something over on CSS-Tricks that I’ve been thinking about over the past year or so. A lot of folks tend to think that front-end development is a problem to be solved with tools, processes, or frameworks. [And I disagree](https://css-tricks.com/front-end-development-is-not-a-problem-to-be-solved/): 
 
 > I reckon HTML and CSS deserve better than to be processed, compiled, and spat out into the browser, whether that’s through some build process, app export, or gigantic framework library of stuff that we half understand. HTML and CSS are two languages that deserve our care and attention to detail. Writing them is a skill.
 
