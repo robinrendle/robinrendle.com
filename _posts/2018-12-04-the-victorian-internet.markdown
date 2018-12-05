@@ -1,9 +1,11 @@
 ---
 title: The Victorian Internet
 date: 2018-12-04 21:24:00 -08:00
-tags:
+categories:
 - reading
 - books
+tags:
+- Tom Standage
 extract: How the telegraph changed the world.
 ---
 
