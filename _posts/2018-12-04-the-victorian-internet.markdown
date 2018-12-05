@@ -17,8 +17,6 @@ There’s so many exciting moments in this book that it’s difficult to contain
 
 As I was reading Tom’s book it dawned on me that the Internet that we’re using today is really just an extension of the Internet that Morse built; we’re using the same wires (although the system has been improved many times over). The telephone is an extension of the telegraph and the Internet is an extension of the telephone. They’re three different platforms for navigating the same network of machines and people. 
 
-What a truly wondrous thing that is.
-
 The night I finished the book I called my father, who happens to live in England more than 5,000 miles away across a continent and an ocean. We talked about motorcycles and my work, my anxiety, and our hopes for the future. And it was as if we were in the same room together.
 
 I had a flash where I thought about generations of people who have worked their lives to the bone so that those 5,000 miles between my father and me were like nothing at all. I imagined all the wires and satellites between us, carrying our messages diligently, effortlessly across the world.
@@ -26,3 +24,5 @@ I had a flash where I thought about generations of people who have worked their 
 Standage quotes a speaker for an event that was held in Morse’s honor where he said that “the breadth of the Atlantic, with all its waves, is as nothing.” And in an article from 1881 in the *Scientific American* a writer is quoted as noting how “the touch of the telegraph key welded human sympathy and made possible its manifestation in a common universal, simultaneous heart throb.”
 
 And I couldn’t help but cry big dumb tears when I. What a wondrous thing that is — my grandfather’s father knew a world without electricity and yet here I am communing with his great grandson in a form that could not be described by any other word except “magic”. 
+
+What a truly wondrous thing it is.
