@@ -21,7 +21,7 @@ As I was reading Tom’s book it dawned on me that the Internet that we’re usi
 
 And with all the talk of the cloud and with the modern convenience of Wifi it’s easy to forget that the Internet is a collection of wires at its heart, buried deep. You can even [see the wires](https://www.submarinecablemap.com/) that connect San Francisco to Libya, and Libya to Malaysia. In fact, Standage quotes an event that was held in Morse’s honor where one commentator argued that “the breadth of the Atlantic, with all its waves, is as nothing.”
 
-The night I finished the book I called my father who happens to live in England more than 5,000 miles away. We talked about motorcycles, work, anxiety, and our hopes for the future. But it was as if we were in the same room together.
+The night I finished *The Victorian Internet* I called my father who happens to live in England more than 5,000 miles away. We talked about motorcycles, work, anxiety, and our hopes for the future. But it was as if we were in the same room together.
 
 During this conversation I thought about the generations who have built this system of cables and technologies so that those 5,000 miles between my father and me were like nothing at all. I imagined all the wires and satellites between us, carrying our messages diligently, effortlessly across the world.
 
