@@ -25,6 +25,7 @@ During this conversation I thought about the generations who have built this sys
 
 In an article from 1881 Standage quotes the *Scientific American* and how “the touch of the telegraph key welded human sympathy and made possible its manifestation in a common universal, simultaneous heart throb.”
 
-And I couldn’t help but cry big dumb tears when I. What a wondrous thing that is — my grandfather’s father knew a world without electricity and yet here I am communing with his great grandson in a form that could not be described by any other word except “magic”. 
+And I couldn’t help but cry big dumb tears after we finished chatting. What a wondrous thing this all is, I though. My grandfather’s father knew a world without electricity and yet here I am communing with his great grandson in a form that could not be described in any other way besides “magic”. 
 
-And what a truly wondrous thing it is.
+What a truly wondrous thing the Internet is.
+
