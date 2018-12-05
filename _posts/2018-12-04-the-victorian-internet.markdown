@@ -9,7 +9,7 @@ tags:
 extract: How the telegraph changed the world.
 ---
 
-In *The Victorian Internet* Tom Standage investigates how the telegraph was developed and how it changed the world. He writes about the laying of the transatlantic submarine cables, the design of codes and the codebreakers, as well as the fraudsters that used the telegraph to find their marks, and those that used it to find the person they’d marry.
+In *The Victorian Internet* Tom Standage investigates how the telegraph was developed and how it changed the world. He writes about the laying of the Transatlantic submarine cables, the design of codes and the codebreakers, as well as the fraudsters that used the telegraph to find their marks, and those that used it to find the person they’d marry.
 
 There’s so many exciting moments in this book that it’s difficult to contain my excitement. For example, Standage notes how the technology was ignored for many painful years and yet there was this moment in time when the idea clicked and the telegraph began to spread across the world:
 
