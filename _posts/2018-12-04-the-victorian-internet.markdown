@@ -21,7 +21,7 @@ And with all the talk of the cloud and with the modern convenience of Wifi it’
 
 ***
 
-The night I finished the book I called my father, who happens to live in England more than 5,000 miles away across a continent and an ocean. We talked about motorcycles and my work, my anxiety, and our hopes for the future. And it was as if we were in the same room together.
+The night I finished the book I called my father, who happens to live in England more than 5,000 miles away. We talked about motorcycles and my work, my anxiety, and our hopes for the future. And it was as if we were in the same room together.
 
 I had a flash where I thought about generations of people who have worked their lives to the bone so that those 5,000 miles between my father and me were like nothing at all. I imagined all the wires and satellites between us, carrying our messages diligently, effortlessly across the world.
 
