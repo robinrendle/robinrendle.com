@@ -17,7 +17,9 @@ There’s so many exciting moments in this book that it’s difficult to contain
 
 As I was reading Tom’s book it dawned on me that the Internet that we’re using today is really just an extension of the Internet that Morse built; we’re using the same wires (although the system has been improved many times over). The telephone is an extension of the telegraph and the Internet is an extension of the telephone. They’re three different platforms for navigating the same network of machines and people. 
 
-And with all the talk of the cloud and with the modern convenience of Wifi it’s easy to forget that the Internet is really a collection of wires, buried deep. You can even [see the wires](https://www.submarinecablemap.com/) that connect San Francisco to Libya, and Libya to Malaysia. Standage even quotes an event that was held in Morse’s honor where one commentator argued that after the telegraph now “the breadth of the Atlantic, with all its waves, is as nothing.”
+And with all the talk of the cloud and with the modern convenience of Wifi it’s easy to forget that the Internet is really a collection of wires, buried deep. You can even [see the wires](https://www.submarinecablemap.com/) that connect San Francisco to Libya, and Libya to Malaysia. Standage even quotes an event that was held in Morse’s honor where one commentator argued that “the breadth of the Atlantic, with all its waves, is as nothing.”
+
+***
 
 The night I finished the book I called my father, who happens to live in England more than 5,000 miles away across a continent and an ocean. We talked about motorcycles and my work, my anxiety, and our hopes for the future. And it was as if we were in the same room together.
 
