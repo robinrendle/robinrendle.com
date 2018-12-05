@@ -11,7 +11,7 @@ extract: How the telegraph changed the world.
 
 In this wondrous book Tom Standage investigates how the telegraph was developed and how it changed the world. He writes about the laying of the transatlantic submarine cables, the design of codes and the codebreakers, the fraudsters that used the telegraph for scams, and those that used it to find the person they’d marry.
 
-There’s so many exciting moments in this book that it’s difficult to contain my excitement. Here’s one of my favorite moments though. Standage describes how the technology was ignored for many painful years and yet there was this moment in time when the idea clicked and the telegraph began to spread across the world:
+There’s so many exciting moments in this book that it’s difficult to contain my excitement. Here’s one of my favorite moments though. Standage notes how the technology was ignored for many painful years and yet there was this moment in time when the idea clicked and the telegraph began to spread across the world:
 
 > Expansion was the fastest in the United States, where the only working line at the beginning of 1846 was Morse’s experimental line, which ran 40 miles between Washington and Baltimore. Two years later there were approximately 2,000 miles of wire, and by 1850 there were over 12,000 miles operated by twenty different companies.
 
