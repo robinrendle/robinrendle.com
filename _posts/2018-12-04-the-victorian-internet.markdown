@@ -25,4 +25,4 @@ Standage quotes a speaker for an event that was held in Morse’s honor where he
 
 And I couldn’t help but cry big dumb tears when I. What a wondrous thing that is — my grandfather’s father knew a world without electricity and yet here I am communing with his great grandson in a form that could not be described by any other word except “magic”. 
 
-What a truly wondrous thing it is.
+And what a truly wondrous thing it is.
