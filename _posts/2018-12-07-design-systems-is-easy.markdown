@@ -10,6 +10,8 @@ I tend to see far too much bragging and hubris in the field of design systems an
 
 I’m not sure what it is about the job of  ‘design systems’ but it seems like it’s an excuse to be an asshole and to pretend as if you’ve never made a mistake before. Mina’s vulnerable talk makes me hopeful that this current trend can be broken. 
 
-Speaking of which, a while back I had an idea for a talk where I would stand in front of some slides and brag for a whole hour about how great I am at solving design systems problems whilst behind me apocalyptic slides would zoom in and out of view. I think it would be sort of funny and would parody a lot of the designers that I see talk a big game:
+Speaking of which, a while back I had an idea for a talk where I would stand in front of some slides and brag for a whole hour about how great I am at solving design systems problems whilst behind me apocalyptic slides would zoom in and out of view. I think it would be sort of funny and would parody a lot of the designers that I see talk a big game.
+
+Here’s the title card I designed for it:  
 
 ![design-systems-is-easy.001.jpeg](/uploads/design-systems-is-easy.001.jpeg)
