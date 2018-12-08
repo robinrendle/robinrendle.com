@@ -9,4 +9,10 @@ Chris Beard has written about all [the drama](https://twitter.com/robinrendle/st
 >
 > If you care about what’s happening with online life today, take another look at Firefox.
 
+I also really like [Dave Rupert’s take](https://daverupert.com/2018/12/edge-goes-chromium/) on this: 
+
+> Is Firefox in my future? Not sure. But if the idea of a Google-driven Web is of concern to you, then I’d encourage you to use Firefox. And don’t be a passive consumer; blog, tweet, and speak about its killer features. I’ll start: Firefox’s CSS Grid, Flexbox, and Variable Font tools are the best in the business. And [Firefox Color](https://color.firefox.com/) is the best thing to happen to browser theming in a decade (my Firefox currently looks like Saved by the Bell). There’s a bigger world beyond Chromium, I encourage you to explore it.
+
+
+
 
