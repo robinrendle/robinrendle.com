@@ -7,7 +7,7 @@ tags:
 extract: Andy Biao’s thoughts on Quora.
 ---
 
-Andy Biao describes Quora’s practices as isolationism in this post about [why you should never use their service](https://waxy.org/2018/12/why-you-should-never-ever-use-quora/):
+I really like how Andy Biao describes Quora’s practices as isolationism in this post about [why you should never use their service](https://waxy.org/2018/12/why-you-should-never-ever-use-quora/):
 
 > At some point, the investors who dumped a quarter billion dollars into it will want a return on that investment. Last year, founder Adam D’Angelo [indicated](https://venturebeat.com/2017/04/21/quora-raises-85-million-to-expand-internationally-and-develop-its-ads-business/) they expect to eventually IPO. But market conditions, combined with the results of their ad platform, may force them in different directions — a pivot, merger, or acquisition are always a possibility.
 > 
