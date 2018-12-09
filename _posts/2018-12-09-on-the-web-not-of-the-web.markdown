@@ -1,6 +1,9 @@
 ---
-title: Why you should never, ever use Quora
+title: On the web not of the web
 date: 2018-12-09 09:41:00 -08:00
+tags:
+- andy biao
+- on the web not of the web
 extract: A service on the web, but not of the web.
 ---
 

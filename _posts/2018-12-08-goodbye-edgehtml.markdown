@@ -1,6 +1,9 @@
 ---
 title: Goodbye, EdgeHTML
 date: 2018-12-08 13:25:00 -08:00
+tags:
+- web design
+- browsers
 extract: One browser to rule them all.
 ---
 
