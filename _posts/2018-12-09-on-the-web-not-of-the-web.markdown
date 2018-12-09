@@ -4,7 +4,7 @@ date: 2018-12-09 09:41:00 -08:00
 tags:
 - andy biao
 - on the web not of the web
-extract: A service on the web, but not of the web.
+extract: Andy Biao’s thoughts on Quora.
 ---
 
 Andy Biao describes Quora’s practices as isolationism in this post about [why you should never use their service](https://waxy.org/2018/12/why-you-should-never-ever-use-quora/):
