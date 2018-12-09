@@ -15,4 +15,4 @@ I really like how Andy Biao describes Quora’s practices as “isolationist” 
 > 
 > [...] When Quora shuts down, and it will eventually shut down one day, all of that collected knowledge will be lost unless they change their isolationist ethos.
 
-I’ve never used Quora and I feel like the issues that Andy outlines is why. The same thing applies to Pinterest as well — although I’m not sure about their API or content policies — whenever I’ve used it I feel like it’s a service on the web, but not of the web.
+I’ve never used Quora and I feel like the issues that Andy outlines is why. The same thing applies to Pinterest as well — although I’m not sure about their API or content policies — whenever I’ve stumbled into Pinterest I feel like it’s a service on the web, but not of the web.
