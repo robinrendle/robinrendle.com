@@ -1,6 +1,7 @@
 ---
 title: Searching the Creative Internet
 date: 2018-12-13 09:45:00 -08:00
+extract: An exciting idea for a new type of search engine.
 ---
 
 David Crawshaw has a wondrous idea for [a new type of search engine](https://crawshaw.io/blog/searching-the-creative-internet) that doesn’t scan the commerical web and instead indexes indie blogs and podcasts and art:
