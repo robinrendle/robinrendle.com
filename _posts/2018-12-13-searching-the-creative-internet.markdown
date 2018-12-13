@@ -4,7 +4,7 @@ date: 2018-12-13 09:45:00 -08:00
 extract: An exciting idea for a new type of search engine.
 ---
 
-David Crawshaw has a wondrous idea for [a new type of search engine](https://crawshaw.io/blog/searching-the-creative-internet) that doesn’t scan the commerical web and instead indexes indie blogs and podcasts and art:
+David Crawshaw has a wondrous idea for [a new type of search engine](https://crawshaw.io/blog/searching-the-creative-internet) that doesn’t scan the commerical web and instead indexes indie blogs, podcasts, and art instead:
 
 > What I miss is that I could "go on the internet" and be in a creative corner of the human experience. Today if you "go on the internet", that means you pulled your phone out of your pocket, dismissed some notification spam and start reading click-bait shared by people you have met on social media.
 >  
