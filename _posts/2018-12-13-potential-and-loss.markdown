@@ -32,7 +32,7 @@ What is Europe for then? It’s about building projects together that we couldn�
 
 The European project was always about kindness, economic prosperity, and creating a small region of the world where borders between nations are mostly bureaucratic rather than real, physical barriers that block us out. 
 
-Europe was designed to prevent another world war by binding us all together. By making us the same.
+Europe was designed to prevent another world war by binding us all together. Instead of breaking off into weak, pitiful tribes, Europe’s vision was always to make us the same people.
 
 ***
 
