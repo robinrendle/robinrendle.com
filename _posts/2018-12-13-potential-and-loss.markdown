@@ -30,7 +30,9 @@ When I hear that foolish question though – “what did Europe ever do for us�
 
 What is Europe for then? It’s about building projects together that we couldn’t as a small nation stranded off the coast of France. It’s for combating the encroachment of Chinese, Russian and American influence on the world economy and political stage. It’s about standing together as a larger force to be reckoned with and respected. 
 
-The European project was always about kindness, economic prosperity, and creating a small region of the world where borders between nations are mostly bureaucratic rather than physical barriers that block us out. It was designed to prevent another world war by binding us all together. By making us the same.
+The European project was always about kindness, economic prosperity, and creating a small region of the world where borders between nations are mostly bureaucratic rather than real, physical barriers that block us out. 
+
+Europe was designed to prevent another world war by binding us all together. By making us the same.
 
 ***
 
