@@ -4,10 +4,10 @@ date: 2018-12-09 09:41:00 -08:00
 tags:
 - andy biao
 - on the web not of the web
-extract: Andy Biao’s thoughts on Quora.
+extract: Andy Baio’s thoughts on Quora.
 ---
 
-I really like how Andy Biao describes Quora’s practices as “isolationist” in this post about [why you should never use their service](https://waxy.org/2018/12/why-you-should-never-ever-use-quora/):
+I really like how Andy Baio describes Quora’s practices as “isolationist” in this post about [why you should never use their service](https://waxy.org/2018/12/why-you-should-never-ever-use-quora/):
 
 > All of Quora’s value is derived from the answers provided by its users, and they go to great lengths to make a well-designed platform for finding and replying to questions.
 >
