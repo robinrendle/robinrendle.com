@@ -4,7 +4,7 @@ date: 2018-12-16 20:32:00 -08:00
 extract: Fighting against a Chromium-only world.
 ---
 
-After reading a few posts about [browser diversity](https://css-tricks.com/browser-diversity-commentary-regarding-the-edge-news/) I realized that I need to put my money where my mouth is and make the switch to Firefox last week. And despite my hesitation I’m actually loving the switch so far. There’s a few things about the DevTools that are in fact a big improvement on Chrome, at least for the type of development I’m doing. Not to mention the security aspect of things.
+After reading a few posts about [browser diversity](https://css-tricks.com/browser-diversity-commentary-regarding-the-edge-news/) I realized that I need to put my money where my mouth is and make the switch to Firefox. And so, despite my initial hesitation, that’s what I did last week and actually I’m loving everything so far. There’s a few things about the DevTools that are in fact a big improvement over Chrome, at least for the type of development I’m doing. And that’s without mentioning the security aspect of things.
 
 The switch was in part inspired by what [Andy had to say about browsers](https://andy-bell.design/wrote/browser-diversity/) recently:
 
