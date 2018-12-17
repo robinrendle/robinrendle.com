@@ -12,7 +12,7 @@ The switch was in part inspired by what [Andy had to say about browsers](https:/
 > 
 > Yes, it’s not perfect, nor are Mozilla, but we can help them to develop and grow by using Firefox and reporting issues that we find. If we just use and build for Chromium, which is looking likely (cough Internet Explorer monopoly cough), then Firefox will fall away and we will then have just one major engine left. I don’t ever want to see that.
 
-And the switch was especially what Jeremy wrote just the other day:
+And the switch was especially inspired by what Jeremy wrote just the other day too:
 
 > There’s just no sugar-coating this. I’m sure the decision makes sound business sense for Microsoft, but it’s not good for the health of the web.
 >
