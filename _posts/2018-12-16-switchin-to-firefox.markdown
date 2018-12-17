@@ -20,4 +20,4 @@ And the switch was especially inspired by what Jeremy wrote just the other day t
 > 
 > There’s one shining exception though. [Firefox.](https://www.mozilla.org/en-US/firefox/new/) That browser was originally created to combat the seemingly unstoppable monopolistic power of Internet Explorer. Now that Microsoft are no longer in the rendering engine game, Firefox is once again the only thing standing in the way of a complete monopoly.
 
-If you care about the health of the web then you owe it to yourself to explore Firefox and make the jump away from a Chromium-only world. We need a diverse web with as many browser engines as we can get.
+If you care about the health of the web then you owe it to yourself to explore Firefox and make the jump away from Chromium. We need a diverse web with as many browser engines as we can get.
