@@ -4,7 +4,9 @@ date: 2018-12-20 19:29:00 -08:00
 extract: An app for tracking your finances that actually makes a difference.
 ---
 
-For the past couple of days I’ve been using [You Need A Budget](https://www.youneedabudget.com/), a web app that’s designed around a rather simple premise: every dollar you earn should have a job, whether that’s paying for dumb stuff like coffee or software or food. And no, this isn’t an ad.
+For the past couple of days I’ve been using [You Need A Budget](https://www.youneedabudget.com/), a web app that’s designed around a rather simple premise: every dollar you earn should have a job, whether that’s paying for dumb stuff like paying off student debt, or coffee, or food. 
+
+That simple premise makes an enormous difference.
 
 With a quick scan I can finally see where my money is going over the next couple of months without it feeling like a stress-induced nightmare. And I know this sounds silly but giving every dollar a job suddenly changes my whole relationship with money. Because of that I’ve already held off on buying things that I might otherwise have thought _screw it, this is just a few bucks._
 
