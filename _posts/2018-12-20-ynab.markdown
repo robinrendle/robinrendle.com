@@ -1,6 +1,12 @@
 ---
 title: You Need a Budget
 date: 2018-12-20 19:29:00 -08:00
+categories:
+- finance
+tags:
+- money
+- ynab
+- kelly sutton
 extract: An app for tracking your finances that actually makes a difference.
 ---
 
