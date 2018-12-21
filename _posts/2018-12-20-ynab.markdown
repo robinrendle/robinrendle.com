@@ -1,6 +1,7 @@
 ---
 title: You Need a Budget
 date: 2018-12-20 19:29:00 -08:00
+extract: An app for tracking your finances that actually makes a difference.
 ---
 
 For the past couple of days I’ve been using [You Need A Budget](https://www.youneedabudget.com/), a web app that’s designed around a rather simple premise: every dollar you earn should have a job, whether that’s paying for dumb stuff like coffee or software or food. And no, this isn’t an ad.
