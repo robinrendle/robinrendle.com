@@ -66,8 +66,8 @@
 }
 
 .o-nav__item:focus {
-	outline: 1px solid darken($c-highlight, 20) !important;
-	background-color: rgba($c-highlight, 0.4);
+	outline: 1px solid var(--highlight-color) !important;
+	background-color: rgba(var(--highlight-color), 0.4);
 }
 
 .o-nav--large {

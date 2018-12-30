@@ -623,6 +623,7 @@ table {
   --secondary-text-color: #888;
   --lighter-gray-color: #eee;
   --white-color: #fff;
+  --highlight-color: #ffffc4;
 }
 
 .c-grey {
@@ -1278,10 +1279,9 @@ hr:after,
 }
 
 code {
-  font-size: 110%;
+  font-size: 90%;
   position: relative;
   font-family: monospace;
-  color: #777;
 }
 
 .lists--none {
@@ -1343,8 +1343,8 @@ code {
 }
 
 .o-nav__item:focus {
-  outline: 1px solid #ffff5e !important;
-  background-color: rgba(255, 255, 196, 0.4);
+  outline: 1px solid var(--highlight-color) !important;
+  background-color: rgba(var(--highlight-color), 0.4);
 }
 
 .o-nav--large .o-nav__item {
@@ -2485,14 +2485,14 @@ section[role="main"] {
 }
 
 ::-moz-selection {
-  background-color: #ffffc4;
-  color: #333;
+  background-color: var(--highlight-color);
+  color: var(--heading-text-color);
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #ffffc4;
-  color: #333;
+  background-color: var(--highlight-color);
+  color: var(--heading-text-color);
   text-shadow: none;
 }
 
@@ -3660,7 +3660,7 @@ section[role="main"] {
 }
 
 a:focus {
-  background-color: rgba(255, 255, 196, 0.5);
+  background-color: rgba(var(--highlight-color), 0.5);
 }
 
 .timeline-reveal .about-text {

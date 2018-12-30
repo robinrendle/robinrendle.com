@@ -612,7 +612,7 @@ figcaption abbr {
 }
 
 ::selection {
-	background-color: $c-highlight;
+	background-color: var(--highlight-color);
 	color: #333;
 	text-shadow: none;
 }

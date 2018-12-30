@@ -622,6 +622,7 @@ table {
   --secondary-text-color: #888;
   --lighter-gray-color: #eee;
   --white-color: #fff;
+  --highlight-color: #ffffc4;
 }
 
 .c-grey {

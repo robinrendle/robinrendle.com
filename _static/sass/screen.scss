@@ -56,8 +56,8 @@ section[role="main"] {
 }
 
 ::selection {
-	background-color: $c-highlight;
-	color: #333;
+	background-color: var(--highlight-color);
+	color: var(--heading-text-color);
 	text-shadow: none;
 }
 
@@ -201,7 +201,7 @@ section[role="main"] {
 @import "objects/cell"; // !important
 
 a:focus {
-	background-color: rgba($c-highlight, 0.5);
+	background-color: rgba(var(--highlight-color), 0.5);
 }
 
 .timeline-reveal {
