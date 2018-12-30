@@ -13,15 +13,15 @@ html {
 	overflow-y: scroll;
 	height: 100%;
 	-webkit-text-size-adjust: 100%;
-	background-color: darken($c-primary, 20);
+	background-color: var(--main-theme-color);
 }
 
 body {
 	font: 400 110%;
 	@include typeface("Regular");
 	line-height: 1.4;
-	background-color: white;
-	color: $c-bodycopy;
+	background-color: var(--white-color);
+	color: var(--main-text-color);
 	font-feature-settings: "liga" 1 !important;
 	min-height: 100%;
 

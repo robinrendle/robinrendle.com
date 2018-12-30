@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #333;
+	color: var(--heading-text-color);
 
 	.is-darkMode & {
 		color: #ddd;
@@ -20,7 +20,7 @@ h1 {
 	&,
 	.m-longform & {
 		@include typeface("Display");
-		@include remCalc(font-size, 30);
+		@include remCalc(font-size, 32);
 		line-height: 1.15;
 		margin-bottom: 20px;
     -webkit-font-smoothing: antialiased;
@@ -73,7 +73,7 @@ h2 {
 h3 {
 	&,
 	.m-longform & {
-		@include remCalc(font-size, 20);
+		@include remCalc(font-size, 22);
 		line-height: 1.45;
 		@include media(">medium") {
 			@include remCalc(font-size, 22);

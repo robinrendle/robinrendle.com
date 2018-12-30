@@ -414,7 +414,7 @@ figcaption abbr {
 }
 
 .projects-wrapper {
-	border: 5px solid $c-primary;
+	border: 5px solid var(--main-theme-color);
 }
 
 .projects-intro-container {
@@ -535,7 +535,7 @@ figcaption abbr {
 
 		a {
 			text-decoration: none;
-			color: $c-primary;
+			color: var(--main-theme-color);
 		}
 	}
 }
@@ -656,7 +656,7 @@ figcaption {
 		height: 100%;
 		width: 1px;
 		line-height: 1;
-		color: $c-primary;
+		color: var(--main-theme-color);
 		display: inline;
 		position: absolute;
 		top: 3px;
@@ -723,7 +723,7 @@ figcaption {
 		transition: all 0.3s ease;
 
 		&:hover {
-			color: $c-primary;
+			color: var(--main-theme-color);
 		}
 	}
 

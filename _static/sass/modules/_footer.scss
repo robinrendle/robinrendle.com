@@ -7,7 +7,7 @@
 	font-weight: 400 !important;
 	padding: 15px 20px;
 	margin-top: 100px;
-	background-color: $c-primary;
+	background-color: var(--main-theme-color);
 
 	@include media(">medium") {
 		margin-top: 100px;
@@ -20,6 +20,8 @@
 .m-footer__nav {
 	@include typeface("Small caps");
 	@include remCalc(font-size, 17);
-	letter-spacing: 0.5px;
-	opacity: 0.85;
+
+  a {
+    color: var(--white-color);
+  }
 }

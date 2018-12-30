@@ -54,7 +54,7 @@ $c-border: #252525;
 
         &:hover,
         &:focus {
-            color: $c-primary;
+            color: var(--main-theme-color);
         }
     }
 
@@ -72,13 +72,13 @@ $c-border: #252525;
 
             &:hover,
             &:focus {
-                color: $c-primary;
+                color: var(--main-theme-color);
             }
         }
     }
 
     .u-color--primary {
-        color: $c-primary;
+        color: var(--main-theme-color);
     }
 
     blockquote p {
@@ -106,7 +106,7 @@ $c-border: #252525;
 
             &:hover,
             &:focus {
-                color: $c-primary;
+                color: var(--main-theme-color);
             }
         }
     }

@@ -30,7 +30,7 @@
 		&:hover {
 			background: linear-gradient(
 				transparent 89%,
-				$c-primary 95%,
+				#{var(--main-theme-color)} 95%,
 				transparent 94%
 			);
 

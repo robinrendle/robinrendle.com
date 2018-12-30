@@ -17,7 +17,7 @@ a {
 @mixin links() {
 	&,
 	a {
-		color: lighten($c-primary, 10);
+		color: var(--main-theme-color);
 		overflow: hidden;
 		position: relative;
 		z-index: 1;
@@ -28,7 +28,7 @@ a {
 		&:focus {
 			outline: none;
 			text-decoration: none;
-			color: darken($c-primary, 10);
+			color: var(--main-theme-color);
 			border: none;
 		}
 	}
@@ -52,18 +52,18 @@ a {
 @mixin links-longform {
 	&:link,
 	a {
-		color: $c-bodycopy;
+		color: var(--main-text-color);
 		text-decoration: none;
 		transition: color 0.3s ease;
-		background-image: linear-gradient(to bottom, $c-bodycopy 40%, white 5%);
+		background-image: linear-gradient(to bottom, var(--main-text-color) 40%, white 5%);
 	  background-position: 0 1.04em;
 	  background-repeat: repeat-x;
 	  background-size: 8px 3px;
 
 		&:hover,
 		&:focus {
-			color: $c-primary;
-			background-image: linear-gradient(to bottom, $c-primary 40%, white 5%);
+			color: var(--main-theme-color);
+			background-image: linear-gradient(to bottom, var(--main-theme-color) 40%, white 5%);
 		}
 	}
 }

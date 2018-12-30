@@ -2,24 +2,29 @@
 // COLORS
 // ==========================================================================
 
-$c-primary: darken(#5b99f9, 10);
 $c-secondary: darken(#aaa, 20);
 $c-text: #999;
 $c-dark: #ddd;
-$c-bodycopy: #4d4d4d;
-
 $c-highlight: #ffffc4;
-
 $c-offwhite: lighten($c-text, 10);
+
+:root {
+  --heading-text-color: #333;
+  --main-text-color: #4d4d4d;
+  --main-theme-color: #2a7af7;
+  --secondary-text-color: #888;
+  --lighter-gray-color: #eee;
+  --white-color: #fff;
+}
 
 .c-grey {
 	color: #666;
 }
 
 .c-lightgrey {
-	color: #999;
+	color: var(--secondary-text-color);
 }
 
 .c-primary {
-	color: $c-primary;
+	color: var(--main-theme-color);
 }

@@ -37,9 +37,9 @@
 		}
 	}
 
-ol li {
-  margin-bottom: 12px;
-}
+  ol li {
+    margin-bottom: 12px;
+  }
 
 	ol,
 	p,
@@ -51,11 +51,11 @@ ol li {
 		-webkit-hyphenate-limit-before: 3;
 		hyphens: auto;
 		@include media(">small") {
-			@include remCalc(font-size, 19);
-			line-height: 1.6;
+			@include remCalc(font-size, 18);
+			line-height: 1.55;
 		}
 		@include media(">medium") {
-			@include remCalc(font-size, 20);
+			@include remCalc(font-size, 19);
 			line-height: 1.5;
 		}
 		@include media(">large") {
@@ -140,11 +140,11 @@ ol li {
 		position: relative;
 
 		& > * {
-			border-left: 1px solid #eee;
+			border-left: 1px solid var(--lighter-gray-color);
 			@include remCalc(padding-bottom, $base-spacing-unit - 5);
 			margin-bottom: 0;
 			position: relative;
-			color: #888;
+			color: var(--secondary-text-color);
 
 			&:last-child,
 			&:only-child {

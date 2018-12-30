@@ -22,7 +22,7 @@
 }
 
 .meta-info__item {
-	color: #aaa;
+	color: var(--secondary-text-color);
 	float: left;
 	margin: 0;
 	font-feature-settings: "onum" 1;
