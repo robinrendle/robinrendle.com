@@ -4,8 +4,8 @@ date: 2018-06-20 17:21:00 -07:00
 subtitle: Building Gusto’s design system, styleguide, and component library.
 dateRange: May 2016 – January 2019
 role: Led the design and development of the design system and its many React components.
-results: 'High quality front-end code and documentation for the components and assets,
-  such as logos, illustrations, and icons.'
+results: High quality front-end code and documentation for the components and assets,
+  such as logos, illustrations, and icons.
 extract: 'The Guide is a web app that documents Gusto’s ever-growing design system
   and my goal was to create a tool that anyone at the company could turn to when looking
   for information about the React components, baseline styles, as well as the overall

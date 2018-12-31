@@ -12,11 +12,11 @@ heroImageClass: no-shadow
 role: Front-end development
 results: 40% increase in conversion rates for key products and a 15% drop in the number
   of calls to their customer service centre
-extract: 'Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I worked
+extract: Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I worked
   with them to develop a framework capable of supporting their vast array of products
   and services, focusing specifically on object-oriented <abbr>CSS</abbr> and web
   performance. The goal was to hand over a design system and web app that could be
-  maintained by their internal team of developers, designers and project managers.'
+  maintained by their internal team of developers, designers and project managers.
 ---
 
 ## Project Goals

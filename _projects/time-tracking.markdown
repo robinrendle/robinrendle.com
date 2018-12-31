@@ -1,11 +1,11 @@
 ---
 title: Time Tracking
-date: 2018-12-30 17:21:00 -07:00
+date: 2018-12-30 16:21:00 -08:00
 subtitle: Creating design documentation for Gusto’s designers in Figma.
 dateRange: November 2017 – November 2018
 role: Design and front-end development of the time tracking feature.
-results: 'High quality front-end code and documentation for the components and assets,
-  such as logos, illustrations, and icons.'
+results: High quality front-end code and documentation for the components and assets,
+  such as logos, illustrations, and icons.
 extract: 'The Guide is a web app that documents Gusto’s ever-growing design system
   and my goal was to create a tool that anyone at the company could turn to when looking
   for information about the React components, baseline styles, as well as the overall
