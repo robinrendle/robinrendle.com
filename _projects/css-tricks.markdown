@@ -1,19 +1,18 @@
 ---
 title: CSS-Tricks
 date: 2015-10-24 11:59:00 -07:00
-dateRange: 2015-2018
+dateRange: January 2015 — Today
 color: "#ff9801"
 subtitle: Writing for the CSS-Tricks community about web design and front-end development.
 extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''Cascading
   style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
   Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology
   and provide tutorials and links to help developers learn more about the web. Over
-  those years I’ve written a number of technical posts and tutorials that explore
+  those years I’ve written a number of articles and tutorials that explore
   new browser features and written in-depth articles on the peculiarities of <abbr
   title=''Cascading style sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful
-  opportunity to improve my front-end skills as well as hopefully giving a little
-  back to the community. '
-role: Writing, pitching, and editing contributions.
+  opportunity to improve my front-end and writing skills '
+role: Writing, pitching, and editing articles and contributions.
 results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning
   about the latest and greatest in front-end development.
 
@@ -37,6 +36,26 @@ Not only has working with the excellent team been an inspiration, they’ve also
   <li><a href='https://css-tricks.com/on-object-fit-and-object-position'>A Quick Overview of Object Fit and Object Position</a></li>
   <li><a href='https://css-tricks.com/chaining-multiple-blend-modes'>Chaining Multiple Blend Modes</a></li>
 </ul>
+
+Here are a couple of demos I’ve made whilst I was writing and researching those articles about front-end development:
+
+<div class="m-wrapper--full">
+  <div class="cell-b60">
+    <p data-height="572" data-theme-id="20935" data-slug-hash="LmzLEL" data-default-tab="result" data-user="robinrendle" data-pen-title="backdrop-filter demo" class="codepen">See the Pen <a href="https://codepen.io/robinrendle/pen/LmzLEL/">backdrop-filter demo</a> by Robin Rendle (<a href="https://codepen.io/robinrendle">@robinrendle</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+  </div>
+
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<div class="cell-b60">
+  <p data-height="579" data-theme-id="20935" data-slug-hash="dGQqdp" data-default-tab="result" data-user="robinrendle" data-pen-title="Typographic outlines in SVG" class="codepen">See the Pen <a href="https://codepen.io/robinrendle/pen/dGQqdp/">Typographic outlines in SVG</a> by Robin Rendle (<a href="https://codepen.io/robinrendle">@robinrendle</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+</div>
+
+<div class="cell-b60">
+  <p data-height="513" data-theme-id="20935" data-slug-hash="NPmpGK" data-default-tab="result" data-user="robinrendle" data-pen-title="Background blend mode" class="codepen">See the Pen <a href="https://codepen.io/robinrendle/pen/NPmpGK/">Background blend mode</a> by Robin Rendle (<a href="https://codepen.io/robinrendle">@robinrendle</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+</div>
+</div>
+
+
 
 ## The Weekly Newsletter
 

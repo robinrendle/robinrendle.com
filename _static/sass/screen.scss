@@ -288,3 +288,129 @@ img.timeline-img {
 .timeline-toggle input:checked + label:before {
 	content: attr(data-on);
 }
+
+////////////////////////////////////////////////////////////////////////////
+// CUSTOM PROJECT STYLES (should probably refactor these at some point)
+////////////////////////////////////////////////////////////////////////////
+
+.project-intro-hero {
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	padding: 0 15px;
+	@include media(">large") {
+		padding: 0;
+	}
+}
+
+.chrome-shadow {
+  border-radius: 3px;
+  display: block;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+
+  &.no-shadow {
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+.side-by-side {
+	@include media(">medium") {
+		display: flex;
+		align-items: stretch;
+	}
+}
+
+.side-by-side__child {
+	display: flex;
+	padding: 10px !important;
+
+	figure {
+		height: 100%;
+	}
+}
+
+.whiteboard-img {
+	@include media(">medium") {
+		min-height: 500px;
+		object-fit: cover;
+	}
+}
+
+.solutions-list {
+	list-style: none;
+
+	li {
+		position: relative;
+    margin-left: -20px;
+	}
+
+	li:before {
+		content: "";
+		background-color: var(--main-theme-color);
+		margin: 0;
+		padding: 0;
+		left: -15px;
+		top: 13px;
+		font-weight: bold;
+		position: absolute;
+		border: 1px solid var(--main-theme-color);
+		min-width: 5px;
+		min-height: 5px;
+		transform: rotate(45deg);
+	}
+
+	li {
+		margin-bottom: 10px;
+	}
+}
+
+
+.scrollbox-parent {
+  margin-bottom: 30px;
+  .side-by-side__child:first-of-type {
+    width: 70%;
+  }
+}
+
+.scrollbox {
+	height: 500px;
+  display: block;
+	padding: 60px 75px !important;
+	overflow: scroll;
+	border: 1px solid #eee;
+	border-top: 3px solid #fff4cc;
+	background-color: #fffefa;
+
+
+  > * {
+    max-width: 600px;
+  }
+
+	h2,
+	h3,
+	h4,
+	h5 {
+		margin: 0;
+		padding: 0;
+	}
+  .subtitle {
+    @include typeface("Regular Italic");
+    font-weight: normal;
+    line-height: 1.2;
+  }
+
+	h5 {
+		margin-top: 30px;
+		text-transform: none;
+		font-variant: normal;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+.m-wrapper--unpadded .m-wrapper__content .cell-b60 {
+  padding-bottom: 20px !important;
+}

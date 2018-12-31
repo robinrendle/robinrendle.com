@@ -54,6 +54,12 @@ $_max-width-wide: 1000;
 	max-width: none;
 	padding: 0;
 
+  @include media(">large") {
+    display: grid;
+    grid-column: 1/17;
+    grid-template-columns: repeat(16, 1fr);
+  }
+
 	& > p,
 	video,
 	ul,
@@ -65,19 +71,28 @@ $_max-width-wide: 1000;
 	h3,
 	h4,
 	h5,
+  figure,
+  div,
 	h6,
   hr,
   figcaption {
 		@include remCalc(padding, 0, 15);
+    grid-column: 1 / 17;
 
 		@include media(">medium") {
 			padding: 0 5%;
+      grid-column: 1 / 12;
 		}
 
 		@include media(">large") {
 			@include remCalc(padding, 0);
+      grid-column: 1 / 12;
 		}
 	}
+
+  .m-wrapper--full {
+    grid-column: 1/17;
+  }
 }
 
 .m-wrapper--unpadded-wide {
@@ -148,4 +163,10 @@ $_max-width-wide: 1000;
 			}
 		}
 	}
+}
+
+.airtable {
+  img {
+    filter: saturate(0);
+  }
 }

@@ -1,64 +1,44 @@
-{% include projects-header.html %}
+{% include header.html %}
 
-<div class="projects-wrapper projects-wrapper--{{page.customCSSClass}}">
-<div class="projects-intro-container">
-  <div class="cell-t20 projects-intro-heading p-grid-wrapper">
-    <div class='p-nav border-bottom'>
-      <div class='p-nav-left meta caps'>
-        <a href='/projects'>Projects</a>
-        <span>{{page.title}}</span>
-      </div>
-      <div class='p-nav-right meta caps'>
-        {{page.dateRange}}
-      </div>
+<header class="m-wrapper cell-t40 cell-t60--medium cell-b20">
+  <div class="m-wrapper__content">
+    <div class="meta-info">
+      <p class="meta-info__item u-reset-margins">{{page.dateRange}}</p>
     </div>
-    <h1 class='cell-t10'>{{page.title}}</h1>
-    <!-- <h4>{{page.subtitle}}</h4> -->
+    <h1 class='u-reset-margins'>{{page.title}}</h1>
+  </div>
+</header>
 
-    <div class='projects-intro-overview'>
-      <div class='m-longform projects-intro-extract'>
-        {{page.extract | markdownify}}
-      </div>
-      <div class="projects-intro-meta m-longform--small m-longform">
-        <div class=''>
-          <h4 class='u-reset-margins project-subheading'>Result</h4>
-          <p>
-            {{page.results}}
-          </p>
-        </div>
-        <div class=''>
-          <h4 class='u-reset-margins project-subheading'>Role</h4>
-          <p>
-            {{page.role}}
-          </p>
-        </div>
-      </div>
+<section class="m-wrapper">
+  <div class='m-wrapper__content'>
+    <div class='m-longform'>
+      {{page.extract | markdownify}}
     </div>
   </div>
-</div>
+  <div class='m-wrapper__side'>
+    <div class="m-longform--small m-longform">
+      <h4 class='u-reset-margins project-subheading'>Role</h4>
+      <p>
+        {{page.role}}
+      </p>
+      <h4 class='u-reset-margins project-subheading'>Result</h4>
+      <p>
+        {{page.results}}
+      </p>
+    </div>
+  </div>
+</section>
+
 
 <figure class='project-intro-hero'>
-  <img src='{{page.heroImage}}' class='{{page.heroImageClass}}'/>
+  <img src='{{page.heroImage}}' class='{{page.heroImageClass}} chrome-shadow'/>
 </figure>
 
-<div class="p-grid-wrapper">
-  <div class='p-grid m-longform'>
-    <div class="p-grid__basic">
-      {{content}}
-    </div>
+<div class="m-longform m-wrapper m-wrapper--unpadded">
+  <div class="m-wrapper__content">
+    {{content}}
   </div>
 </div>
 
 
-<div class='cell-t60 projects-outro projects-outro--{{page.customCSSClass}}'>
-  <div class="p-grid-wrapper">
-    <div class='p-nav border-top'>
-      <div class='p-nav-left meta caps'>
-        <a href='/projects'>⇠ Back to Projects</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-{% include projects-footer.html %}
-</div>
+{% include footer.html %}

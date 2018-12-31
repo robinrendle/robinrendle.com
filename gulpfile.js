@@ -66,7 +66,7 @@ function images(cb) {
       svgoPlugins: [{ removeViewBox: false }],
       use: [pngquant()]
     }))
-    .pipe(gulp.dest(paths.images.src)).on('error', cb);
+    .pipe(gulp.dest(paths.images.dest)).on('error', cb);
 }
 
 function browserSyncServe(done) {

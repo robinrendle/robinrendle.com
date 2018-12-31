@@ -2,16 +2,10 @@
 title: The Guide
 date: 2018-06-20 17:21:00 -07:00
 subtitle: Building Gusto’s design system, styleguide, and component library.
-dateRange: 2016-2018
-role: 'Led the design and development of the design system and its many React components.
-
-'
-customCSSClass: guide
-color: "#28d8cb"
+dateRange: May 2016 – January 2019
+role: Led the design and development of the design system and its many React components.
 results: 'High quality front-end code and documentation for the components and assets,
-  such as logos, illustrations, and icons.
-
-'
+  such as logos, illustrations, and icons.'
 extract: 'The Guide is a web app that documents Gusto’s ever-growing design system
   and my goal was to create a tool that anyone at the company could turn to when looking
   for information about the React components, baseline styles, as well as the overall
@@ -26,36 +20,38 @@ layout: projects-detail
 heroImage: "/build/images/portfolio/guide-1.jpg"
 ---
 
-## Project Goals
+## Project goals
 
-<ul class="solutions-list">
-<li>Set high standards for design and front-end development at Gusto.</li>
-<li>Educate the design team about how to use the components.</li>
-<li>Reign in the code and design inconsistencies across Gusto’s apps and brand.</li>
-</ul>
+When I joined Gusto I worked with Dora Chan to build an internal web app that we called The Guide as we constantly saw communication problems across the design and development teams. Throughout this project my role was to act as front-end developer, designer and, well, lead of The Guide — I wrote documentation, refactored our CSS, and implemented visual design improvements throughout the product.
 
-During my time at Gusto I was a designer on the payroll team but I made a considerable effort to start the Design Systems team and build a number of tools and processes that would achieve these three goals above. My role throughout this project was to then act as front-end developer, designer and, well, guide of The Guide — I led the documentation, refactoring efforts, and visual design improvements throughout the product and across each of the distinct missions.
-
-In the introduction to the Guide I described this project like so:
+In the introduction to the Guide I described how it might help like so:
 
 > This is where all of the documentation for Gusto’s design system is archived for safe keeping; it contains all the assets you need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of *The Guide* as a sort of Pokédex.
 >
 > Ideally this is where we can share information and collaborate in a public space to gain consensus across missions in terms of code, design, accessibility, performance, and branding. If we improve a single component here in The Guide then all of our apps and features will reap the rewards at the same time in a predictable manner.
+
+So for this project we had several goals:
+
+<ul class="solutions-list">
+  <li>Set high standards for design and front-end development at Gusto.</li>
+  <li>Reign in the code and design inconsistencies across Gusto’s apps.</li>
+  <li>Document React components for designers and engineers to reference.</li>
+</ul>
 
 
 ## Making a plan
 
 Since there was no project manager or organized effort by the design team it meant that it was my responsibility to come up with a plan to tackle design systems issues at Gusto. So I began by interviewing engineers, project managers, and designers in order to understand what the team was struggling with most. After that I began to make note of upcoming projects and refactoring efforts that would need to take place to best support the team.
 
-<div class="m-wrapper--unpadded-wide project-intro-hero airtable">
+<div class='airtable m-wrapper--full'>
   <figure>
-    <img src="/build/images/portfolio/airtable.jpg" alt="A screenshot of a spreadsheet that lists all of the upcoming projects for the design systems team" />
+    <img class="chrome-shadow" src="/build/images/portfolio/airtable.jpg" alt="A screenshot of a spreadsheet that lists all of the upcoming projects for the design systems team" />
+    <figcaption>
+      <p>
+         By showing the design team this list of projects I could begin to make the case to hire a senior front-end engineer in order to help me build the design system.
+      </p>
+    </figcaption>
   </figure>
-  <figcaption>
-    <p>
-       By showing the design team this list of projects I could begin to make the case to hire a senior front-end engineer in order to help me build the design system.
-    </p>
-  </figcaption>
 </div>
 
 ## Refactoring the core Gusto styles
@@ -68,53 +64,34 @@ This refactoring effort took several weeks but resulted in a solid typographic f
 
 As I refactored components and improved their accessibility and visual design I would then document how to use them in The Guide so that other designers and engineers could use them in the future:
 
-<div class='side-by-side'>
+<div class='side-by-side m-wrapper--full'>
   <div class='side-by-side__child'>
     <figure>
-      <img src="/build/images/portfolio/guide-2.jpg" alt="A picture of the Guide, showing all the illustrations that are available" />
+      <img class="chrome-shadow" src="/build/images/portfolio/guide-2.jpg" alt="A picture of the Guide, showing all the illustrations that are available" />
     </figure>
   </div>
 
   <div class='side-by-side__child'>
     <figure>
-      <img src="/build/images/portfolio/guide-3.jpg" alt="A picture of the Guide, showing the action components like buttons" />
-    </figure>
-  </div>
-</div>
-
-<div class='side-by-side'>
-  <div class='side-by-side__child'>
-    <figure>
-      <img src="/build/images/portfolio/guide-4.jpg" alt="" />
-    </figure>
-  </div>
-
-  <div class='side-by-side__child'>
-    <figure>
-      <img src="/build/images/portfolio/guide-5.jpg" alt="" />
+      <img class="chrome-shadow" src="/build/images/portfolio/guide-3.jpg" alt="A picture of the Guide, showing the action components like buttons" />
     </figure>
   </div>
 </div>
 
+<div class='side-by-side m-wrapper--full'>
+  <div class='side-by-side__child'>
+    <figure>
+      <img class="chrome-shadow" src="/build/images/portfolio/guide-4.jpg" alt="" />
+    </figure>
+  </div>
 
-## Improving the designer experience at Gusto
-
-Once a part of the design system had been refactored or built from the ground up I could then begin to document it in the Guide to ensure that sort of information wouldn’t be siloed away or kept hidden from others in the company. But one of the more interesting aspects of the work besides writing documentation for developers at Gusto was the time I spent improving the designer experience.
-
-The design team at Gusto uses the design web app Figma to make mockups and prototypes and, in some cases, even to flesh out specs for how a product should ultimately be built. Designers then share these documents with project managers, engineers, and stake holders with ease.
-
-This encouraged me to build a number of our React page templates, components, icons and form elements in the Figma pattern library so that they could then be shared immediately across missions and teams — it was extraordinarily helpful for our design team specifically because we no longer had to keep rebuilding the same elements over and over again for every project.
-
-<div class='m-wrapper--unpadded-wide'>
-  <figure>
-    <video src="/uploads/figma-library.mp4" muted autoplay loop playsinline></video>
-    <figcaption>
-      <p>
-         With these new tools in Figma we could quickly make mockups of high-fidelity user interfaces for testing and prototyping.
-      </p>
-    </figcaption>
-  </figure>
+  <div class='side-by-side__child'>
+    <figure>
+      <img class="chrome-shadow" src="/build/images/portfolio/guide-5.jpg" alt="" />
+    </figure>
+  </div>
 </div>
+
 
 ## Project Review
 

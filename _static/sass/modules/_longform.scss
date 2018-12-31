@@ -106,11 +106,9 @@
 		@include typeface("Regular");
 		font-size: 15px;
 		line-height: 1.45;
-
-		.fonts-loaded & {
-			font-size: 15px;
-			line-height: 1.45;
-		}
+    @include media(">large") {
+      max-width: 630px;
+    }
 
 		a {
 			@include links-dark();
@@ -119,7 +117,7 @@
 
   figcaption p {
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 0;
   }
 
 	blockquote > ul {

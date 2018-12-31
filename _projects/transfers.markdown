@@ -10,7 +10,7 @@ extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 compa
 role: Design lead and front-end development
 results: Decreased the amount of time it took to transfer a company by more than 33%.
 customCSSClass: transfers
-dateRange: 2017-2018
+dateRange: November 2017 - January 2018
 company: Gusto
 color: "#539adc"
 heroImage: "/build/images/portfolio/transfer-1.jpg"
@@ -38,10 +38,10 @@ The first thing I noticed was that there were multiple ways to enter that data: 
 
 After the interviews I made a document that summarized my findings and shared it with the rest of the team:
 
-<div class="m-wrapper--unpadded-wide">
+<div class="scrollbox-parent chrome-shadow">
   <!-- Span because md doesn’t process inside block elements -->
     <div class='scrollbox'>
-      <h2>Transfers Research Summary</h2>
+      <h3>Transfers Research Summary</h3>
       <p class="subtitle">A collection of notes about what I’ve learned during my time in interviews with the Transfers Team.</p>
 
 
@@ -58,14 +58,6 @@ After the interviews I made a document that summarized my findings and shared it
       <p><span class='highlight'>About 10% of the time an admin will sign into the front-end during a migration and cause conflicts with a transfer.</span> This is related to historical payroll too which consequently leads to all sorts of issues and confusion.</p>
     </div>
 </div>
-
-<!-- <figure>
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQFxorEobQhWRh38af1yFIsjWDMbpUrk1LsElYtOCoFC-7UqGbjXzle_fysRS5aWaRYc_gdVMPpOYeC/pubhtml?widget=true&amp;headers=false"></iframe>
-  <figcaption>
-    <p>I moved this data from the whiteboard to a spreadsheet so we could share it with the rest of the team and get their feedback. We discovered that we could remove a number of data inputs from the final design.</p>
-  </figcaption>
-</figure> -->
-
 
 
 ## Proposed Solutions
@@ -84,22 +76,22 @@ In Balsamiq I explored ideas for how this payroll and people data might be organ
 
 For example, a member of the team would be assigned a company to transfer via Salesforce and the Sales team at Gusto, so I knew that we could piggyback onto this existing process. By clicking a link they would be sent to a page in our internal app Panda that contained all the information about the company, however it was extremely confusing and wouldn’t let them edit any of the data. So in my design I changed that paradigm with a much more efficient one: the same link in Salesforce would send them directly into a to-do list in the new app that would show them which bits of information had already been entered and where they had to get started.
 
-<div class='m-wrapper--unpadded-wide cell-b20'>
-<figure>
-  <img src="/build/images/portfolio/new-migration.jpg" alt="" />
-  <figcaption>
-    <p>
-      The to-do list that reveals the progress of the transfer and editing employee data such as name, <abbr title='social security number'>SSN</abbr>s and home addresses.
-    </p>
-  </figcaption>
-</figure>
+<div class='m-wrapper--full cell-b20'>
+  <figure>
+    <img src="/build/images/portfolio/new-migration.jpg" alt="" />
+    <figcaption>
+      <p>
+        The to-do list that reveals the progress of the transfer and editing employee data such as name, <abbr title='social security number'>SSN</abbr>s and home addresses.
+      </p>
+    </figcaption>
+  </figure>
 </div>
 
 I used these wireframes to test my initial thoughts with the Transfers team and discovered that the different employee types (currently employed, dismissed and contractors) all required different information for tax and payroll purposes. So I designed a section of this new application where all employees could be batch edited but ultimately where a Transfers team member could focus on one type of employee before moving onto the next (top-right image above).
 
 With historical payroll information the team needed to create a paystub for a specific check date and then immediately start entering data such as the regular wages and cash tips that the employee received on that date. Shown below is the second iteration of that design:
 
-<div class='m-wrapper--unpadded-wide'>
+<div class='m-wrapper--full'>
   <figure>
     <img src="/build/images/portfolio/new-paystub.jpg" alt="" />
     <figcaption>
@@ -110,16 +102,17 @@ With historical payroll information the team needed to create a paystub for a sp
   </figure>
 </div>
 
-<div class='m-wrapper--unpadded-wide'>
-<figure>
-  <img src="/build/images/portfolio/benefits.jpg" alt="" />
-  <figcaption>
-    <p>
-      Left + Right: adding benefits data to an employee is similar to paystub entry, but sadly this feature never shipped due to time constraints.
-    </p>
-  </figcaption>
-</figure>
+<div class='m-wrapper--full'>
+  <figure>
+    <img src="/build/images/portfolio/benefits.jpg" alt="" />
+    <figcaption>
+      <p>
+        Adding benefits data to an employee is similar to paystub entry, but sadly this feature never shipped due to time constraints.
+      </p>
+    </figcaption>
+  </figure>
 </div>
+
 
 ## Designing the Spreadsheet
 
@@ -153,9 +146,9 @@ Whenever we implemented a new feature we could immediately turn around and test 
 
 One of the most enjoyable experiences that I had with this project though was the close collaboration that we had with the Transfers team—especially when it came to the design of the Dashboard or the to-do list that they saw on first viewing. After launch we added a lot of data that they requested and was only obvious after-the-fact; data such as the deadline of a specific transfer or info about which Sales team member had been assigned to which company.
 
-<div class='m-wrapper--unpadded-wide'>
+<div class='m-wrapper--full'>
   <figure>
-    <img src="/build/images/portfolio/transfer-1.jpg" alt="" />
+    <img src="/build/images/portfolio/transfer-1.jpg" alt="" class="chrome-shadow" />
   </figure>
 </div>
 

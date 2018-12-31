@@ -1,41 +1,14 @@
-{% include projects-header.html %}
+{% include header.html %}
 
-
-<div class="projects-wrapper projects-wrapper--{{page.customCSSClass}}">
-<div class="projects-intro-container">
-  <div class="cell-t20 projects-intro-heading p-grid-wrapper">
-    <div class='p-nav border-bottom'>
-      <div class='p-nav-left meta caps'>
-        <a href='/projects'>Projects</a>
-        <span>About</span>
-      </div>
-      <div class='p-nav-right meta caps'>
-        {{page.dateRange}}
-      </div>
-    </div>
+<header class="m-header m-wrapper">
+  <div class="m-wrapper__content">
+    <h1 class='h1 u-reset-margins cell-b15'>Projects & Work</h1>
   </div>
+</header>
 
-  <section class="m-header m-wrapper border-bottom">
-    <div class="m-wrapper__content">
-      <h1 class="h1 u-reset-margins cell-b15 cell-t10">
-        I’m Robin, a web designer, writer and typographer living in San Francisco.
-      </h1>
-      <div class='m-longform cell-b10'>
-        <p>Today I work at <a href='https://gusto.com'>Gusto</a> as a product designer on the payroll team but I spend a significant amount of my time building Gusto’s design system; refactoring the styles, components, and design patterns that our designers and developers use everyday. I’m also on the writing staff at <a href='http://css-tricks.com/'>CSS-Tricks</a> where we write about web design and front-end development best practices, too.</p>
-      </div>
-      <div class="about-links">
-        {{page.links | markdownify}}
-      </div>
-    </div>
-    <div class="m-header__img m-wrapper__side cell-t10">
-      <img src="/build/images/portfolio/robin-rendle.jpg" alt="A portrait of me, Robin, the boy wonder">
-    </div>
-  </section>
-</div>
-
-<div class="m-wrapper">
+<section class="m-wrapper">
   <div class="m-wrapper__content cell-b40">
-  	<h4 class='c-lightgrey text-bold u-reset-margins cell-b10'>Recent Work</h2>
+  	<h4 class='c-lightgrey text-bold u-reset-margins cell-b10'>Work at Gusto</h4>
       {% assign projects = site.projects | sort: 'date' | reverse %}
       {% for post in projects %}
         {% if post.published != false %}
@@ -49,15 +22,6 @@
         {% endif %}
       {% endfor %}
   </div>
-  <div class="m-wrapper__side">
-    <h4 class='c-lightgrey text-bold u-reset-margins cell-b10 border-bottom'>Side Projects</h2>
-      <div class="side-projects">
-        {{page.sideProjects | markdownify}}
-      </div>
-  </div>
-</div>
+</section>
 
-
-
-{% include projects-footer.html %}
-</div>
+{% include footer.html %}
