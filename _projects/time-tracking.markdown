@@ -38,7 +38,7 @@ There were a few issues with this original design, the first being that we knew 
 
 After we prototyped these designs and let real companies test our work we realized it was a far too cumbersome to navigate somewhere because for employees with time tracking enabled it would be the most important thing for them to see as soon as they login to the app.
 
-This consequently led to me and Sara Berry redesigning the dashboard for employees. It was at this point in the design process where Sara led the design and I worked on prototyping her illustrations and the clock-in card component.
+This consequently led to our work redesigning Gusto’s employee dashboard (more on that in a separate posts).
 
 
 

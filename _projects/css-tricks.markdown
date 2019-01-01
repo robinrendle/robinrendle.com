@@ -5,7 +5,7 @@ dateRange: January 2015 – Today
 color: "#ff9801"
 subtitle: Writing for CSS-Tricks about web design and front-end development.
 extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''Cascading
-  style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
+  style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a website by [Chris
   Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology
   and provide tutorials and links to help developers learn more about the web. Over
   the years I’ve written a number of articles and tutorials that explore
