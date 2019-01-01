@@ -22,6 +22,8 @@ As we stand to leave I manage to hide my dumb tears from Ali in the dark. She wo
 
 On Boxing Day we drive over to Huntington Beach and it’s almost empty besides us and a few cyclists riding up and down the boardwalk. We watch the sunset and I make a bad joke about how a Brighton sunset is way more beautiful than this could ever be. 
 
-![IMG_0199.jpg](/uploads/IMG_0199.jpg)
+<figure class="m-wrapper--full>
+  <img src="/uploads/IMG_0199.jpg" alt="Huntington Beach" />
+</figure>
 
 But I’m lying. This is the most beautiful sunset I’ve ever seen. 
