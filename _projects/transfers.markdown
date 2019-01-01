@@ -1,7 +1,7 @@
 ---
 title: The Transfers App
 date: 2018-03-20 17:21:00 -07:00
-subtitle: Improving the onboarding experience at Gusto with a brand new internal app.
+subtitle: Improving onboarding at Gusto with a new internal app.
 extract: 'Gusto is a payroll, benefits and HR platform used by over 65,000 companies.
   Late last year I was tasked with helping the Transfers team; this is the department
   that migrates data from a customer’s existing payroll service into Gusto. I designed

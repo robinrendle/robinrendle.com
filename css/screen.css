@@ -2118,13 +2118,13 @@ hgroup h6 {
   clear: both;
 }
 
-@media (max-width: 619px) {
+@media (max-width: 919px) {
   .m-banner.is--active {
     background-color: var(--main-theme-color);
   }
 }
 
-@media (min-width: 621px) {
+@media (min-width: 921px) {
   .m-banner {
     border-bottom: 1px solid white;
   }
@@ -2166,13 +2166,7 @@ hgroup h6 {
   font-size: 15px !important;
 }
 
-@media (max-width: 619px) {
-  .is--active .m-banner__about {
-    background-color: var(--main-theme-color);
-  }
-}
-
-@media (min-width: 621px) {
+@media (min-width: 921px) {
   .m-banner__about {
     height: 55px;
   }
@@ -2204,7 +2198,7 @@ hgroup h6 {
   }
 }
 
-@media (min-width: 621px) {
+@media (min-width: 921px) {
   .m-banner__menu {
     display: none;
   }
@@ -2250,13 +2244,13 @@ hgroup h6 {
   }
 }
 
-@media (max-width: 619px) {
+@media (max-width: 919px) {
   .js .m-banner__nav {
     display: none;
   }
 }
 
-@media (min-width: 621px) {
+@media (min-width: 921px) {
   .js .m-banner__nav {
     display: inline-block;
     float: left;
@@ -2271,22 +2265,15 @@ hgroup h6 {
             animation: push 0.4s ease;
     width: 100%;
     float: left;
-    width: 100%;
   }
 }
 
-.m-banner__nav a.o-nav__item {
-  color: var(--white-color);
-}
-
-@media (max-width: 619px) {
+@media (max-width: 919px) {
   .m-banner__nav a.o-nav__item {
     display: block;
-    color: var(--white-color);
     padding: 13px 20px;
     margin: 0;
-    background-color: white;
-    color: var(--white-color);
+    background-color: var(--white-color);
     border-bottom: 1px solid var(--main-theme-color);
     position: relative;
     left: -20px;
@@ -2301,7 +2288,10 @@ hgroup h6 {
   }
 }
 
-@media (min-width: 621px) {
+@media (min-width: 921px) {
+  .m-banner__nav a.o-nav__item {
+    color: var(--white-color);
+  }
   .m-banner__nav a.o-nav__item:hover, .m-banner__nav a.o-nav__item:focus {
     color: var(--white-color);
   }

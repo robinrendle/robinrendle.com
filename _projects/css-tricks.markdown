@@ -3,7 +3,7 @@ title: CSS-Tricks
 date: 2015-10-24 11:59:00 -07:00
 dateRange: January 2015 – Today
 color: "#ff9801"
-subtitle: Writing for the CSS-Tricks community about web design and front-end development.
+subtitle: Writing for CSS-Tricks about web design and front-end development.
 extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''Cascading
   style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
   Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology

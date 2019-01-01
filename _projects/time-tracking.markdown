@@ -1,7 +1,7 @@
 ---
 title: Time Tracking
 date: 2018-12-30 17:21:00 -07:00
-subtitle: Designing a developing a new feature for Gusto.
+subtitle: Designing and developing a new feature for Gusto.
 dateRange: November 2017 – December 2018
 role: Design and front-end development.
 results: 'Greatly improves the user experience for hourly employees on Gusto’s platform.'

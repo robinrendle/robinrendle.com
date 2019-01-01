@@ -6,13 +6,13 @@
 	background-color: var(--main-theme-color);
 	transition: background-color 0.3s ease;
 
-	@include media("<medium") {
+	@include media("<large") {
 		&.is--active {
 			background-color: var(--main-theme-color);
 		}
 	}
 
-	@include media(">medium") {
+	@include media(">large") {
 		border-bottom: 1px solid white;
 
 		.m-wrapper__content {
@@ -42,13 +42,13 @@
 		font-size: 15px !important;
 	}
 
-	@include media("<medium") {
+	@include media("<large") {
 		.is--active & {
-			background-color: var(--main-theme-color);
+			// background-color: var(--main-theme-color);
 		}
 	}
 
-	@include media(">medium") {
+	@include media(">large") {
 		height: 55px;
 	}
 
@@ -79,7 +79,7 @@
 		}
 	}
 
-	@include media(">medium") {
+	@include media(">large") {
 		display: none;
 	}
 }
@@ -108,11 +108,11 @@
 	}
 
 	.js & {
-		@include media("<medium") {
+		@include media("<large") {
 			display: none;
 		}
 
-		@include media(">medium") {
+		@include media(">large") {
 			display: inline-block;
 			float: left;
 		}
@@ -125,20 +125,16 @@
 			animation: push 0.4s ease;
 			width: 100%;
 			float: left;
-			width: 100%;
 		}
 	}
 
 	a.o-nav__item {
-		color: var(--white-color);
 
-		@include media("<medium") {
+		@include media("<large") {
 			display: block;
-			color: var(--white-color);
 			padding: 13px 20px;
 			margin: 0;
-			background-color: white;
-			color: var(--white-color);
+			background-color: var(--white-color);
 			border-bottom: 1px solid var(--main-theme-color);
 			position: relative;
 			left: -20px;
@@ -153,7 +149,8 @@
 				color: var(--white-color);
 			}
 		}
-		@include media(">medium") {
+		@include media(">large") {
+      color: var(--white-color);
 			&:hover,
 			&:focus {
 				color: var(--white-color);
