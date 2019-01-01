@@ -3,6 +3,7 @@ title: Christmas in LA
 date: 2019-01-01 15:44:00 -08:00
 City: Brea
 Country: California
+extract: I’m not crying, you’re crying.
 ---
 
 We’re not in LA, Ali reminds me for maybe the fiftieth time as she unlocks her phone and points to the map. “This bit is Orange County, this bit is LA.” She’s mad and calls me an idiot but somehow it’s a mark of friendship when she calls me out for being dumb or lazy.
