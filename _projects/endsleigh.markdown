@@ -11,7 +11,7 @@ heroImage: "/build/images/portfolio/endsleigh-hero.png"
 heroImageClass: no-shadow
 role: Front-end development
 results: 40% increase in conversion rates for key products and a 15% drop in the number
-  of calls to their customer service centre
+  of calls to their customer service center
 extract: 'Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I worked
   with them to develop a framework capable of supporting their vast array of products
   and services, focusing specifically on object-oriented <abbr>CSS</abbr> and web
@@ -23,13 +23,13 @@ extract: 'Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I
 
 <ul class="solutions-list">
   <li>An easy-to-read codebase with object-oriented <abbr title='cascading style sheets'>CSS</abbr>.</li>
-  <li>Make the website as accessible for as many customers and users as possible.</li>
-  <li>Create a performance budget that prioritized speed.</li>
+  <li>Make the website accessible for as many customers as possible.</li>
+  <li>Create a performance budget.</li>
 </ul>
 
-As a front-end developer I worked closely with the head of design at Erskine and the lead front-end developer to break down the design mockups into an ellaborate system of components and templates. Throughout the project we discussed ways in which to cut down on the number of components and re-use them as much as possible. We also constantly discussed ways in which to change the design in order to improve the performance of the website (such as stripping out unnecessary images and replacing them with inline <abbr title='scalable vector graphics'>SVG</abbr>s). That feedback loop between design and development ultimately taught me an awful lot about how a team ought to collaborate and work together in the future.
+As a front-end developer I worked closely with the head of design at Erskine and the lead front-end developer to break down the design mockups into an ellaborate system of components and templates. Throughout the project we discussed ways in which to cut down on the number of components and re-use them as much as possible. We also constantly discussed ways in which to change the design in order to improve the performance of the website (such as stripping out unnecessary images and replacing them with inline <abbr title='scalable vector graphics'>SVG</abbr>s).
 
-But we had several interesting constraints: the most important being the mobile-first design, but shortly followed by the need to ensure that the website worked just as well in IE8 and IE9 as it did in the latest versions of Chrome. This is because of our initial research into the analytics of their old website where we found that even though Endsleigh is a student insurance provider with a young group of customers, they still had a large percentage of customers that were using older browsers. So this had to be taken into account for everything that we designed and built in the months to follow.
+That feedback loop between design and development ultimately taught me an awful lot about how a team ought to collaborate and work together in the future.
 
 
 ## Starting the Design System
@@ -69,4 +69,4 @@ Serving <abbr title='scalable vector graphics'>SVG</abbr> assets and high resolu
 
 ## Project Review
 
-This was one of the first large-scale projects that I ever worked on and it was a very important one since it taught me how to think in systems and relationships when it comes to writing a lot of <abbr title='cascading style sheets'>CSS</abbr> that might conflict with another component. It made me deeply concerned and excited about usability, mobile design, and web performance, too.
+This was one of the first large-scale projects that I ever worked on and it taught me how to think in systems and relationships when it comes to writing a lot of <abbr title='cascading style sheets'>CSS</abbr>. It made me deeply concerned and excited about usability, mobile design, and web performance, too.

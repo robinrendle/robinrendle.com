@@ -22,7 +22,7 @@ heroImage: "/build/images/portfolio/guide-1.jpg"
 
 ## Project goals
 
-When I joined Gusto I worked with Dora Chan to build an internal web app that we called The Guide as we constantly saw communication problems across the design and development teams. Throughout this project my role was to act as front-end developer, designer and, well, lead of The Guide — I wrote documentation, refactored our CSS, and implemented visual design improvements throughout the product.
+When I joined Gusto I worked with Dora Chan to build an internal web app that we called The Guide as we constantly saw communication problems across the design and development teams. Throughout this project my role was to act as front-end developer and designer — I wrote documentation, refactored our CSS, and implemented visual design improvements throughout the product.
 
 In the introduction to the Guide I described how it might help like so:
 

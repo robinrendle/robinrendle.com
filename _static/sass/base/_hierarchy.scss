@@ -81,7 +81,7 @@ h3 {
 		}
 		@include media(">large") {
 			@include remCalc(font-size, 24);
-			line-height: 1.45;
+			line-height: 1.2;
 		}
 	}
 }

@@ -1,17 +1,17 @@
 ---
 title: CSS-Tricks
 date: 2015-10-24 11:59:00 -07:00
-dateRange: January 2015 — Today
+dateRange: January 2015 – Today
 color: "#ff9801"
 subtitle: Writing for the CSS-Tricks community about web design and front-end development.
 extract: 'Since early 2015 I’ve been a regular contributor to [<abbr title=''Cascading
   style sheets''>CSS</abbr>-Tricks](https://css-tricks.com/), a publication by [Chris
   Coyier](http://twitter.com/chriscoyier) that sets out to document front-end technology
   and provide tutorials and links to help developers learn more about the web. Over
-  those years I’ve written a number of articles and tutorials that explore
+  the years I’ve written a number of articles and tutorials that explore
   new browser features and written in-depth articles on the peculiarities of <abbr
-  title=''Cascading style sheets''>CSS</abbr>, JavaScript and HTML. It’s been a wonderful
-  opportunity to improve my front-end and writing skills '
+  title=''Cascading style sheets''>CSS</abbr>, JavaScript and HTML. Quite frankly it’s been a wonderful
+  opportunity to improve my front-end and writing skills as well as work with some of the smartest people in the industry.'
 role: Writing, pitching, and editing articles and contributions.
 results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning
   about the latest and greatest in front-end development.

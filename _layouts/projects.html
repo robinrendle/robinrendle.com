@@ -8,11 +8,10 @@
 
 <section class="m-wrapper">
   <div class="m-wrapper__content cell-b40">
-  	<h4 class='c-lightgrey text-bold u-reset-margins cell-b10'>Work at Gusto</h4>
       {% assign projects = site.projects | sort: 'date' | reverse %}
       {% for post in projects %}
         {% if post.published != false %}
-          <a href="{{post.url}}" class="project-link block rules--top rules rules--light cell-v20">
+          <a href="{{post.url}}" class="project-link block rules--bottom rules rules--light cell-v20">
             <h3 class='links h3 u-text--regular u-text--book u-reset-margins'>{{ post.title }}</h3>
             <div class='m-longform'>
       				<p class="c-grey u-text--regular u-text--book u-reset-margins">{{ post.subtitle }}</p>

@@ -1,7 +1,7 @@
 ---
 title: The XOXO Outpost
 date: 2015-07-30 10:56:00 -07:00
-dateRange: 2016
+dateRange: February 2016 – April 2016
 color: "#ff7c17"
 subtitle: Designing and developing a marketing website for a new type of co-working
   space in Portland.
@@ -34,8 +34,8 @@ Considering this project was a very short, single page advertisement, I thought 
 
 I initially experimented with a darker color palette and overall design language for the site, with lots of animations and twisting, turning `canvas` elements. However, it was pretty obvious that this wasn’t the right decision but since we were designing everything in the browser it was easy to reverse early decisions and play with the code to move the project forward. Looking back on this process now I realize that it was this project that led to my interest in building tiny prototypes of everything that I do.
 
-Here’s a video of the final website that was built after the teaser and it shows a number of the neatest front-end trick that I had begun experimenting with in those early prototyps, including blend-modes and using the new object-fit <abbr title='cascading style sheets'>CSS</abbr> property:
+Here’s a video of the final website that was built after the teaser and it shows a number of the neatest front-end tricks that I had begun experimenting with in those early prototypes, including blend-modes and using the new object-fit <abbr title='cascading style sheets'>CSS</abbr> property:
 
-<figure class=''>
+<figure class='m-wrapper--full'>
   <iframe height="500" class="" src="https://www.youtube.com/embed/x7RaIm7PP1k" frameborder="0" allowfullscreen></iframe>
 </figure>
