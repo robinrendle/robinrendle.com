@@ -1,11 +1,15 @@
 ---
 title: Time Tracking
-date: 2018-12-30 17:21:00 -07:00
+date: 2018-12-30 16:21:00 -08:00
 subtitle: Designing and developing a new feature for Gusto.
 dateRange: November 2017 – December 2018
 role: Design and front-end development.
-results: 'Greatly improves the user experience for hourly employees on Gusto’s platform.'
-extract: 'Gusto helps companies manage their payroll, handle employee benefits, and now we’ve just released a brand new feature that lets companies track employee hours in an effortless and seamless way. With this feature employers on the Gusto platform have fewer tools and apps to manage things and can get a better overview of their business.'
+results: Greatly improves the user experience for hourly employees on Gusto’s platform.
+extract: Gusto helps companies manage their payroll, handle employee benefits, and
+  now we’ve just released a brand new feature that lets companies track employee hours
+  in an effortless and seamless way. With this feature employers on the Gusto platform
+  have fewer tools and apps to manage things and can get a better overview of their
+  business.
 endDate: 12/2018
 company: Gusto
 layout: projects-detail

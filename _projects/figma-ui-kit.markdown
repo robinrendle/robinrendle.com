@@ -1,11 +1,16 @@
 ---
 title: Figma UI Kit
-date: 2018-12-30 17:21:00 -07:00
+date: 2018-12-30 16:21:00 -08:00
 subtitle: Creating design documentation for Gusto’s designers in Figma.
 dateRange: November 2018 – January 2019
 role: Built the UI Kit from the ground up.
-results: 'High quality documentation for Gusto’s design patterns and components.'
-extract: 'At Gusto the design team uses Figma to make mockups and prototypes of new features as well as wireframes for potential improvements to be made. I noticed that there were a lot of discrepancies between what designers were making and what engineers would implement though so I made a UI Kit to improve communication between teams. This included a list of every component including detailed documentation about typesetting, colors, icons, and illustrations.'
+results: High quality documentation for Gusto’s design patterns and components.
+extract: At Gusto the design team uses Figma to make mockups and prototypes of new
+  features as well as wireframes for potential improvements to be made. I noticed
+  that there were a lot of discrepancies between what designers were making and what
+  engineers would implement though so I made a UI Kit to improve communication between
+  teams. This included a list of every component including detailed documentation
+  about typesetting, colors, icons, and illustrations.
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
