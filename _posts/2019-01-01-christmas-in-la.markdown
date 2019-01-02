@@ -18,7 +18,7 @@ But out of nowhere, and for no particular reason, I start crying big blubbery te
 
 Maybe I’m crying because this is the first time I’ve spent Christmas away from my family and outside the UK. Although no, that can’t be it—I wouldn’t have wanted to spend it anywhere else. Or maybe it’s because friendship like this is still an unfamiliar concept to me. Maybe it’s because my visa is running out and my anxiety has become slightly overwhelming as I think about how little control I have over the next twelve months of my life. Although maybe it’s just because I’ve spent nine hours on my motorcycle driving down here from San Francisco and I’m exhausted.
 
-As we stand to leave I manage to hide my dumb tears from Ali in the dark. She would definitely call me an idiot if she saw me crying. 
+As we stand to leave I manage to hide my dumb tears from her in the dark. She would definitely call me an idiot if she saw me crying. 
 
 On Boxing Day we drive over to Huntington Beach and it’s almost empty besides us and a few cyclists riding up and down the boardwalk. We watch the sunset and I make a bad joke about how the sunsets in England are _way_ better than this. 
 
