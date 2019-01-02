@@ -16,7 +16,7 @@ The entire region around LA and Orange County is always going to be _MegaCity On
 
 But out of nowhere, and for no particular reason, I start crying big blubbery tears. Ali’s talking about herself for the first time in a while and I’m starstruck by how kind and earnest she is all of a sudden; Ali is just the sort of friend that makes you a much better and more thoughtful person just by spending time with her.
 
-Maybe I’m crying because this is the first time I’ve spent Christmas away from my family and outside the UK. Although no, that can’t be it—I wouldn’t have wanted to spend it anywhere else. Or maybe it’s because friendship like this is still an unfamiliar concept to me. Maybe it’s because my visa is running out and my anxiety has become slightly overwhelming as I think about how little control I have over the next twelve months of my life.
+Maybe I’m crying because this is the first time I’ve spent Christmas away from my family and outside the UK. Although no, that can’t be it—I wouldn’t have wanted to spend it anywhere else. Or maybe it’s because friendship like this is still an unfamiliar concept to me. Maybe it’s because my visa is running out and my anxiety has become slightly overwhelming as I think about how little control I have over the next twelve months of my life. Although maybe it’s because I’ve spent nine hours on my motorcycle driving down here from San Francisco.
 
 As we stand to leave I manage to hide my dumb tears from Ali in the dark. She would definitely call me an idiot if she saw me crying. 
 
