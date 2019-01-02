@@ -6,7 +6,7 @@ Country: California
 extract: I’m not crying, you’re crying.
 ---
 
-We’re not in Los Angeles, Ali reminds me for maybe the fiftieth time as she unlocks her phone and points to the map. “This bit is Orange County, this bit is LA.” She’s mad and calls me an idiot but somehow it’s a mark of friendship when she reminds me I’m being dumb or lazy.
+We’re not in Los Angeles, Ali reminds me for maybe the fiftieth time as she unlocks her phone and points to the map. “This bit is Orange County, this bit is LA.” She’s mad and tells me I’m an idiot yet somehow it’s a mark of respect, a mark of true friendship even, that when she calls me out for being lazy.
 
 “I dunk because I love,” she says.
 
