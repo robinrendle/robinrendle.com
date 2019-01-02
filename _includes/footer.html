@@ -7,11 +7,11 @@
             <a href="/essays" class="o-nav__item">Essays</a>
           </nav>
           <nav class="o-nav o-nav--bullets m-footer__nav u-inverse">
-            <a href="mailto:desk@robinrendle.com" class="o-nav__item">
-                Email
+            <a href="mailto:robinjrendle@gmail.com" class="o-nav__item">
+              Email
             </a>
             <a href="http://twitter.com/robinrendle" class="o-nav__item">
-                Twitter
+              Twitter
             </a>
             <a href="http://codepen.io/robinrendle" class="o-nav__item">
               Codepen
@@ -24,31 +24,31 @@
     </div>
     <script>
     (function() {
-	var Dropdown = (function() {
-		var Menu = {},
-			menuElem = document.querySelector(".m-banner__menu"),
-			bannerElem = document.querySelector(".m-banner");
+      var Dropdown = (function() {
+    		var Menu = {},
+  			menuElem = document.querySelector(".m-banner__menu"),
+  			bannerElem = document.querySelector(".m-banner");
 
-		var bind = function() {
-			if (menuElem) {
-				menuElem.addEventListener("click", function(e) {
-					e.preventDefault();
-					bannerElem.classList.toggle("is--active");
-				});
-			}
-		};
+    		var bind = function() {
+    			if (menuElem) {
+    				menuElem.addEventListener("click", function(e) {
+    					e.preventDefault();
+    					bannerElem.classList.toggle("is--active");
+    				});
+    			}
+    		};
 
-		Menu.init = function() {
-			bind();
-		};
-		return Menu;
-	})();
+  		Menu.init = function() {
+  			bind();
+  		};
+  		return Menu;
+  	})();
 
-	var App = {
-		init: function() {
-			Dropdown.init();
-		}
-	};
+	  var App = {
+  		init: function() {
+  			Dropdown.init();
+		  }
+    };
 
 	if (window.addEventListener && document.querySelector) {
 		var body = document.documentElement;

@@ -8,10 +8,10 @@
 
 .o-nav {
 	list-style: none;
+  display: flex;
 }
 
 .o-nav__item {
-	display: inline-block;
 	margin-right: 10px;
 }
 // Bullet list nav
@@ -23,6 +23,7 @@
 		text-decoration: none;
 		background: none;
 		transition: background 0.3s ease;
+
 		@include media(">medium") {
 			margin-right: 20px;
 		}

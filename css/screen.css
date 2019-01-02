@@ -1296,10 +1296,12 @@ p code {
 
 .o-nav {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .o-nav__item {
-  display: inline-block;
   margin-right: 10px;
 }
 
@@ -2118,13 +2120,13 @@ hgroup h6 {
   clear: both;
 }
 
-@media (max-width: 919px) {
+@media (max-width: 619px) {
   .m-banner.is--active {
     background-color: var(--main-theme-color);
   }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 621px) {
   .m-banner {
     border-bottom: 1px solid white;
   }
@@ -2166,7 +2168,7 @@ hgroup h6 {
   font-size: 15px !important;
 }
 
-@media (min-width: 921px) {
+@media (min-width: 621px) {
   .m-banner__about {
     height: 55px;
   }
@@ -2198,7 +2200,7 @@ hgroup h6 {
   }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 621px) {
   .m-banner__menu {
     display: none;
   }
@@ -2227,7 +2229,6 @@ hgroup h6 {
 }
 
 .m-banner__nav {
-  display: inline-block;
   float: left;
   padding-top: 0;
   width: 100%;
@@ -2242,15 +2243,20 @@ hgroup h6 {
     letter-spacing: 0.5px;
     width: auto;
   }
+  .m-banner__nav nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
-@media (max-width: 919px) {
+@media (max-width: 619px) {
   .js .m-banner__nav {
     display: none;
   }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 621px) {
   .js .m-banner__nav {
     display: inline-block;
     float: left;
@@ -2268,8 +2274,9 @@ hgroup h6 {
   }
 }
 
-@media (max-width: 919px) {
+@media (max-width: 619px) {
   .m-banner__nav a.o-nav__item {
+    color: var(--main-theme-color);
     display: block;
     padding: 13px 20px;
     margin: 0;
@@ -2288,7 +2295,7 @@ hgroup h6 {
   }
 }
 
-@media (min-width: 921px) {
+@media (min-width: 621px) {
   .m-banner__nav a.o-nav__item {
     color: var(--white-color);
   }

@@ -6,13 +6,13 @@
 	background-color: var(--main-theme-color);
 	transition: background-color 0.3s ease;
 
-	@include media("<large") {
+	@include media("<medium") {
 		&.is--active {
 			background-color: var(--main-theme-color);
 		}
 	}
 
-	@include media(">large") {
+	@include media(">medium") {
 		border-bottom: 1px solid white;
 
 		.m-wrapper__content {
@@ -42,13 +42,13 @@
 		font-size: 15px !important;
 	}
 
-	@include media("<large") {
+	@include media("<medium") {
 		.is--active & {
 			// background-color: var(--main-theme-color);
 		}
 	}
 
-	@include media(">large") {
+	@include media(">medium") {
 		height: 55px;
 	}
 
@@ -79,7 +79,7 @@
 		}
 	}
 
-	@include media(">large") {
+	@include media(">medium") {
 		display: none;
 	}
 }
@@ -95,7 +95,6 @@
 }
 
 .m-banner__nav {
-	display: inline-block;
 	float: left;
 	padding-top: 0;
 	width: 100%;
@@ -105,14 +104,18 @@
 		@include remCalc(font-size, 17);
 		letter-spacing: 0.5px;
 		width: auto;
+
+    nav {
+      display: flex;
+    }
 	}
 
 	.js & {
-		@include media("<large") {
+		@include media("<medium") {
 			display: none;
 		}
 
-		@include media(">large") {
+		@include media(">medium") {
 			display: inline-block;
 			float: left;
 		}
@@ -129,8 +132,8 @@
 	}
 
 	a.o-nav__item {
-
-		@include media("<large") {
+		@include media("<medium") {
+      color: var(--main-theme-color);
 			display: block;
 			padding: 13px 20px;
 			margin: 0;
@@ -149,7 +152,7 @@
 				color: var(--white-color);
 			}
 		}
-		@include media(">large") {
+		@include media(">medium") {
       color: var(--white-color);
 			&:hover,
 			&:focus {
