@@ -12,7 +12,7 @@ We’re not in Los Angeles, Ali reminds me for maybe the fiftieth time as she un
 
 It’s Christmas Day. I’m staying at her family home for the next couple of days and we’ve gone for a walk but now we’re sitting on a bench overlooking LA in the dark – I mean Orange County – I mean wherever the heck we are. 
 
-The entire region around LA and Orange County is always going to be _MegaCity One_ in my head; an enormous landscape filled with a billion cars and stretching out to infinity. In fact my mind still reels a little bit when I think of the urban sprawl and now we can see it before us here—pinpricks of light hover out there in the darkness like a swarm of tiny UFOs.  
+The entire region around LA and Orange County is always going to be _MegaCity One_ in my head; an enormous landscape filled to the brim and stretching out to infinity. In fact my mind still reels a little bit when I think of the urban sprawl and now we can see it before us here—pinpricks of light hover out there in the darkness like a swarm of tiny UFOs.  
 
 But out of nowhere, and for no particular reason, I start crying big blubbery tears. Ali’s talking about herself for the first time in a while and I’m starstruck by how kind and earnest she is all of a sudden; Ali is the sort of person that makes you a much better and more thoughtful person just by spending time with her.
 
