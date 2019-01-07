@@ -6,7 +6,7 @@ categories:
 - books
 tags:
 - Mary Beard
-extract: My first book of 2019 is a damn good start to the year.
+extract: My first book of 2019 is a damn fine start to the year.
 ---
 
 I adore Mary Beard’s latest book [_Women and Power_](https://www.amazon.com/Women-Power-Manifesto-Mary-Beard/dp/1631494759). It’s a slim volume but that makes it the perfect size for Mary to keep you gripped to the edge of your seat as she compares sexism in modernity to that of the ancients. In one glorious passage she writes: 
