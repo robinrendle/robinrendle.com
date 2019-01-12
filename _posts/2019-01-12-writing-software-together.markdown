@@ -4,7 +4,7 @@ date: 2019-01-12 15:22:00 -08:00
 extract: The art of writing software in a group.
 ---
 
-I love this bit from a post by Georgy Marchuk on [a minimal JavaScript setup](https://css-tricks.com/a-minimal-javascript-setup/) but it’s really all about the difficulty of writing software as a group: 
+I like this post by Georgy Marchuk on [a minimal JavaScript setup](https://css-tricks.com/a-minimal-javascript-setup/) but I love the bit about the difficulty of writing software as a group: 
 
 > The success of a development team starts with an agreement. An agreement of how things are done. Without an agreement, code would get messy, and the software unsustainable quite quickly, even for relatively small projects. Therefore, a lot (if not most) of the power of a framework lies within this agreement. The ability to define conventions and common patterns that everyone adheres to. That idea is applicable to any framework, JavaScript or not. Those "rules" are essential to development and bring teams maintainability at any size, reusability of code, and the ability to share work with a community in a form anyone will understand.
 
