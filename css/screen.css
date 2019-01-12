@@ -627,7 +627,7 @@ table {
 }
 
 .c-grey {
-  color: #666;
+  color: var(--secondary-text-color);
 }
 
 .c-lightgrey {

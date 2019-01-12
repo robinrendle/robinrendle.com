@@ -18,7 +18,7 @@ $c-offwhite: lighten($c-text, 10);
 }
 
 .c-grey {
-	color: #666;
+	color: var(--secondary-text-color);
 }
 
 .c-lightgrey {
