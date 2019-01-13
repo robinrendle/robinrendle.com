@@ -18,16 +18,12 @@ hr,
 	line-height: 1;
 
 	&:after {
-		color: lighten($c-secondary, 20);
+		color: var(--secondary-text-color);
 		content: "* * *";
 		display: block;
 		margin: 0 auto;
 		text-align: center;
 		@include remCalc(font-size, 30);
-
-		.t-dark & {
-			color: darken($c-secondary, 20);
-		}
 	}
 }
 
@@ -44,7 +40,7 @@ hr,
 }
 
 .rules {
-	border-color: lighten($c-secondary, 30);
+	border-color: var(--secondary-text-color);
 }
 
 .rules--dotted {
@@ -59,7 +55,7 @@ hr,
 }
 
 .rules--light {
-	border-color: #ddd;
+	border-color: var(--lighter-gray-color);
 }
 
 .rules--white {
@@ -67,9 +63,5 @@ hr,
 }
 
 .rules--transparent {
-	border-color: rgba(0, 0, 0, 0.1);
-
-	.t-dark & {
-		border-color: rgba(255, 255, 255, 0.1);
-	}
+	border-color: var(--off-white);
 }

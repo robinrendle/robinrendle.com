@@ -3,7 +3,7 @@
 // ==========================================================================
 .m-banner {
 	@include clearfix();
-	background-color: var(--main-theme-color);
+	background-color: var(--nav-color);
 	transition: background-color 0.3s ease;
 
 	@include media("<medium") {
@@ -13,8 +13,6 @@
 	}
 
 	@include media(">medium") {
-		border-bottom: 1px solid white;
-
 		.m-wrapper__content {
 			display: flex;
 			align-items: center;
@@ -28,7 +26,7 @@
   text-transform: uppercase;
 	align-items: center;
 	justify-content: center;
-	background-color: rgba(0,0,0,.2);
+	background-color: var(--nav-about);
 	color: white;
 	transition: background-color 0.3s ease;
 	float: left;

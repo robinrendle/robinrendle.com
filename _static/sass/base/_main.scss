@@ -20,7 +20,7 @@ body {
 	font: 400 110%;
 	@include typeface("Regular");
 	line-height: 1.4;
-	background-color: var(--white-color);
+	background-color: var(--background-color);
 	color: var(--main-text-color);
 	font-feature-settings: "liga" 1 !important;
 	min-height: 100%;

@@ -620,9 +620,37 @@ table {
   --main-text-color: #4d4d4d;
   --main-theme-color: #2a7af7;
   --secondary-text-color: #888;
-  --lighter-gray-color: #eee;
+  --lighter-gray-color: #ddd;
   --white-color: #fff;
+  --off-white: #f2f2f2;
   --highlight-color: #ffffc4;
+  --nav-color: var(--main-theme-color);
+  --nav-about: #2262c6;
+  --background-color: #fff;
+}
+
+.dark-mode {
+  --background-color: #1b1b1b;
+  --white-color: #bbb;
+  --heading-text-color: #eee;
+  --main-text-color: #ccc;
+  --nav-color: #0f0f0f;
+  --nav-about: black;
+  --lighter-gray-color: #444;
+  --secondary-text-color: #bbb;
+  --highlight-color: #777;
+  --off-white: #111;
+}
+
+.dark-mode * {
+  transition: background-color .2s linear, color .2s linear;
+}
+
+.dark-mode img, .dark-mode video {
+  opacity: .7;
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+  mix-blend-mode: screen;
 }
 
 .c-grey {
