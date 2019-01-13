@@ -8,6 +8,7 @@
 	padding: 15px 20px;
 	margin-top: 100px;
 	background-color: var(--nav-color);
+  border-top: 1px solid var(--nav-border);
 
 	@include media(">medium") {
 		margin-top: 100px;

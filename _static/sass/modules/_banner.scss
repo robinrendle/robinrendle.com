@@ -5,12 +5,7 @@
 	@include clearfix();
 	background-color: var(--nav-color);
 	transition: background-color 0.3s ease;
-
-	@include media("<medium") {
-		&.is--active {
-			background-color: var(--main-theme-color);
-		}
-	}
+  border-bottom: 1px solid var(--nav-border);
 
 	@include media(">medium") {
 		.m-wrapper__content {
@@ -131,12 +126,12 @@
 
 	a.o-nav__item {
 		@include media("<medium") {
-      color: var(--main-theme-color);
+      color: var(--white-color);
 			display: block;
 			padding: 13px 20px;
 			margin: 0;
-			background-color: var(--white-color);
-			border-bottom: 1px solid var(--main-theme-color);
+			background-color: var(--nav-about);
+			border-bottom: 1px solid var(--theme-color-border);
 			position: relative;
 			left: -20px;
 			width: 100%;
@@ -144,9 +139,8 @@
 
 			&:hover,
 			&:focus {
-				border-bottom: 1px solid var(--main-theme-color);
 				background: none;
-				background-color: var(--main-theme-color);
+				background-color: var(--theme-color-border);
 				color: var(--white-color);
 			}
 		}
