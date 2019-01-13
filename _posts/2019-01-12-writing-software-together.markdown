@@ -12,6 +12,6 @@ I think this comment is probably what I was half-remembering the other day when 
 
 Are there inconsistencies in the position of elements? In the typesetting? In the colors that they use? Are certain parts of an app better than others? Does this app have poor performance when you scroll, when you click, or when you load something?
 
-The important thing to note is that these issues are rarely due to incompetence—there can be hundreds of wonderfully talented people working at a company and the thing that they make together can still have all these flaws.
+The important thing to note is that these issues are rarely due to incompetence—there can be hundreds of wonderfully talented people working at a company and the thing that they make together will still have all these flaws.
 
 Instead, I argue that these issues reveal serious communication flaws in an organization. And so our job as design systems folk isn’t necessarily to fix those bugs with the design or code as much as it is to tackle the very issues that caused them; miscommunication en masse.
