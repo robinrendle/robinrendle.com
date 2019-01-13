@@ -8,7 +8,7 @@ I like this post by Georgy Marchuk on [a minimal JavaScript setup](https://css-t
 
 > The success of a development team starts with an agreement. An agreement of how things are done. Without an agreement, code would get messy, and the software unsustainable quite quickly, even for relatively small projects. Therefore, a lot (if not most) of the power of a framework lies within this agreement. The ability to define conventions and common patterns that everyone adheres to. That idea is applicable to any framework, JavaScript or not. Those "rules" are essential to development and bring teams maintainability at any size, reusability of code, and the ability to share work with a community in a form anyone will understand.
 
-I think this comment is what I was half-remembering the other day when I wrote that “[every interface is an argument](https://buttondown.email/robinrendle/archive/513a2f17-6d8b-4cfb-a5d5-0ac009a65e3f);” you can see it in the design of an interface, you can see how an organization works and how much people inside that org disagree with one another.
+I think this comment is what I was half-remembering the other day when I wrote that “[every interface is an argument](https://buttondown.email/robinrendle/archive/513a2f17-6d8b-4cfb-a5d5-0ac009a65e3f).” You can see it in the design of an interface—how an organization works and how much people inside that org disagree with one another.
 
 Are there inconsistencies in the position of elements? In the typesetting? In the colors that they use? Are certain parts of an app better than others? Does this app have poor performance when you scroll, when you click, or when you load something?
 
