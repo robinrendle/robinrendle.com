@@ -1,7 +1,7 @@
 ---
 title: Writing software together
 date: 2019-01-12 15:22:00 -08:00
-extract: The art of writing software in a group.
+extract: The art of writing software in a group is underrated.
 ---
 
 I like this post by Georgy Marchuk on [a minimal JavaScript setup](https://css-tricks.com/a-minimal-javascript-setup/) but I especially llike this bit where Georgy describes the difficulty of writing software as a group: 
