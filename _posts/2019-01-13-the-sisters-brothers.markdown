@@ -14,7 +14,7 @@ extract: This place is in favor of me.
 
 I can’t remember the last time a book felt like this. It’s the sort of book that makes you want to quit your job and set up camp in bed for the day solely in order to get to the next scene, the next page, to discover what happens next.
 
-Well, _The Brothers Sisters_ is certainly a book of that type for me. It’s a novel about two outlaws that travel to San Francisco from Oregon in order to kill a man and along the way they murder, steal, and plunder the landscape for all it’s worth. But there’s something dazzling and warm about it all despite the grief and violence of the plot. 
+Well, _The Sisters Brothers_ is certainly a book of that type for me. It’s a novel about two outlaws that travel to San Francisco from Oregon in order to kill a man and along the way they murder, steal, and plunder the landscape for all it’s worth. But there’s something dazzling and warm about it all despite the grief and violence of the plot. 
 
 (I would recommend this book in a heart beat.)
 
