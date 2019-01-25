@@ -14,4 +14,4 @@ I love [this story about debugging](http://patrickthomson.tumblr.com/post/249975
 > 
 > The Expert sat down in his chair again, waiting for it to crash. It took something like six hours of waiting, but it crashed again. He still had no idea what was causing it, other than the fact that it happened when the room was crowded. He ordered that the job be restarted, and he sat down again and waited.
 
-This story suggests that in order to debug a system effectively you just need to sit back and wait. You need patience and discipline and coffee.
+This story suggests that in order to debug a system effectively we shouldn’t rush into the codebase; we should instead watch it all crash and burn. But most importantly we need patience and discipline and coffee.
