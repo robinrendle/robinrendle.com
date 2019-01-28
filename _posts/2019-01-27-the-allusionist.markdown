@@ -8,7 +8,7 @@ tags:
 extract: And how English deserves our love but not our worry.
 ---
 
-A couple of my friends dragged me to the Brava Theatre on Friday evening to watch a live version of [The Allusionist](https://www.theallusionist.org/), a podcast by Helen Zaltzman all about language. It was entirely perfect and so I’ve been digging through a ton of episodes today as I loaf about my apartment avoiding writing jobs. 
+A couple of my friends dragged me to the Brava Theatre on Friday evening to watch a live version of [The Allusionist](https://www.theallusionist.org/), the podcast by Helen Zaltzman all about language. It was entirely perfect and so I’ve been digging through a ton of episodes today as I loaf about my apartment avoiding writing jobs. 
 
 I particularly like this one episode, [Across the Pond](https://www.theallusionist.org/allusionist/across-the-pond), that’s about the differences in American vs. English pronunciation and diversions. Helen interviews Lynne Murphy, a professor of English Language and Linguistics at Sussex University, and they talk about the historical concerns that many people have on both side of the pond about proper grammar and proper English. 
 
