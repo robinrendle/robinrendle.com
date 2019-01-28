@@ -1,8 +1,11 @@
 ---
 title: The Allusionist
 date: 2019-01-27 19:48:00 -08:00
+categories:
+- language
 tags:
 - podcasts
+extract: And how English deserves our love but not our worry.
 ---
 
 A couple of my friends dragged me to the Brava Theatre on Friday evening to watch a live version of [The Allusionist](https://www.theallusionist.org/), a podcast by Helen Zaltzman all about language. It was entirely perfect and so I’ve been digging through a ton of episodes today as I loaf about my apartment avoiding writing jobs. 
