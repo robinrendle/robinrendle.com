@@ -35,7 +35,7 @@ This went back and forth for several weeks before I realized what was happening 
 
 It was the first time I noticed that people could have an argument in a codebase. And so I realized that it’s the job of design systems folk to prevent these arguments any way that they can; through documentation, through pairing with designers and engineers, through fixing the code or the design.
 
-Do you have more than one type of card in your app? That’s an argument. Do you have a billion colors and font-sizes? That’s another. Does each page have custom styles applied to it? Or do you have two components that work in a very similar way but the code is entirely different? This is perhaps the worst argument of them all. 
+Do you have more than one type of card in your app? That’s an argument. Do you have a billion colors and font-sizes? That’s another. Does each page have custom styles applied to it? Or do you have two components that work in a very similar way but the code is entirely different? This is perhaps the nastiest argument of them all. 
 
 All of these arguments are completely invisible and silent unless you have the ability to detect them properly (some have this faculty, others do not). But we also need to have the ability to describe them. To point them out. To get other people to recognize these issues. And today I’m good at detecting these issues and working around them but I’m really bad at showing others what’s causing a problem.
 
