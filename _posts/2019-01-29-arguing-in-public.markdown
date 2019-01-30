@@ -19,6 +19,10 @@ We’re one step closer to having a designed system.
 
 I’ve been thinking a lot about why the field is so misunderstood, why so many people take the mantle of design systems work for the title more so than the actual work. I think it’s because a lot of designers tend to think it’s just about making things consistent which...[yes, but](https://robinrendle.com/notes/design-systems-at-gusto-part-ii/)...it’s so much more than that.
 
+I feel as if miscommunication and disorder have to be qualities that upset you. Design systems isn’t a field you can grow into, it’s more like a field for people with specific quirks and personalities (this sounds mean perhaps but it’s true in my experience). 
+
+You need to be the sort of person that will do boring work in order for some distance, greater good.
+
 *** 
 
 A year ago I noticed a fight break out in our codebase. I watched as one team was pitted against another over checkboxes.  
