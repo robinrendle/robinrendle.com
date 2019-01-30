@@ -31,7 +31,7 @@ One team tried to fix the checkboxes that were broken in their feature, so they 
 
 This went back and forth for several weeks before I realized what was happening and how these regressions were taking place. Instead of going back to the core styles and fixing them and then refactoring all checkboxes across the app to use these refactored styles, folks would instead fix their problem without investigating how complex the issue really was under the hood.
 
-It was the first time I noticed that people could have an argument in a codebase. And so I realized that it’s the job of design systems folk to preventing these arguments any way that they can; through documentation, through pairing with designers and engineers, through fixing the code or the design.
+It was the first time I noticed that people could have an argument in a codebase. And so I realized that it’s the job of design systems folk to prevent these arguments any way that they can; through documentation, through pairing with designers and engineers, through fixing the code or the design.
 
 Do you have one type of card in your app? That’s an argument. Do you have a billion colors and font-sizes? That’s another argument. Does each page have custom styles applied to it? That’s another. 
 
