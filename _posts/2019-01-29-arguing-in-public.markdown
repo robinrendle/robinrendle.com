@@ -29,7 +29,7 @@ There’s a certain amount of selflessness required in the job.
 
 A year ago I noticed a fight break out in our codebase. I watched as one team was pitted against another over checkboxes.  
 
-One team tried to fix the checkboxes that were broken in their feature, so they went into the codebase and fixed checkboxes just for this one page. This broke the checkboxes on another page in the app which the engineers on this whole other team then headed into the fray and updated their own components to fix their part of the app. 
+One team tried to fix the checkboxes that were broken in their feature, so they went into the codebase and fixed checkboxes just for this one page. This broke the checkboxes on another page in the app which the engineers on this whole other team then headed into the fray and updated their own components. 
 
 This went back and forth for several weeks before I realized what was happening and how these regressions were taking place. Instead of going back to the core styles and fixing them and then refactoring all checkboxes across the app to use these refactored styles, folks would instead fix their problem without investigating how complex the issue really was under the hood.
 
