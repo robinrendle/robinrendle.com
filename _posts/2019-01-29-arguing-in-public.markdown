@@ -12,7 +12,7 @@ If I can leave the office every day feeling as if I’ve pushed things forward, 
 
 I’m making our application less reliant on Bootstrap, which requires refactoring thousands of lines of CSS and breaking up each section of this mega Bootstrap Sass file by splitting it up into chunks. After today we’re one step closer to having components like `Button` or `Modal` where all the styles and scripts are in a single place. 
 
-We’re one step closer to having a designed system.
+We’re closer to having a designed system.
 
 
 ***
