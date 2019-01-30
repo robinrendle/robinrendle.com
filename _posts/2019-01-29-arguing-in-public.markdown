@@ -23,6 +23,8 @@ I feel as if miscommunication and disorder have to be qualities that upset you. 
 
 You need to be the sort of person that will do boring work in order for some distance, greater good. You need to have the sort of ego for working on giant projects that last for months on end that have no discernible impact whatsoever. 
 
+There’s a certain amount of selflessness required in the job.
+
 *** 
 
 A year ago I noticed a fight break out in our codebase. I watched as one team was pitted against another over checkboxes.  
