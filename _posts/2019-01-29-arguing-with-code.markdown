@@ -1,11 +1,14 @@
 ---
 title: Arguing with Code
 date: 2019-01-29 17:49:00 -08:00
+extract: 'And '
 ---
 
 Today was a big day. I’ve spent the last two and a half years at Gusto working on a side project that’s finally drawing to a close. It’s nothing exceptional, and it doesn’t change the world. But it makes our design system 1% better. 1% easier to maintain. 1% easier to understand.
 
-I’m making our application less reliant on Bootstrap, which requires refactoring thousands of lines of CSS and breaking up each section of this mega Bootstrap Sass file by splitting it up into chunks. We’re one step closer to having components like `Button` or `Modal` where all the styles and scripts are in a single place. 
+If I can leave the office in the evening feeling as if I’ve made things 1% better then I’m happy.
+
+Oh, I’m just making our application less reliant on Bootstrap, which requires refactoring thousands of lines of CSS and breaking up each section of this mega Bootstrap Sass file by splitting it up into chunks. After today we’re one step closer to having components like `Button` or `Modal` where all the styles and scripts are in a single place. 
 
 We’re one step closer to having a designed system.
 
@@ -23,3 +26,12 @@ One team tried to fix the checkboxes were broken in their feature, so they went 
 This went back and forth for several weeks before I realized what was happening and how these regressions were taking place. Instead of going back to the core styles and fixing them and then refactoring all checkboxes across the app to use these refactored styles, folks would instead fix the checkboxes that they could see in their feature.
 
 It was the first time I noticed that people could have an argument in a codebase. And so I realized that it’s the job of design systems folk to preventing these arguments any way that they can; through documentation, through pairing with designers and engineers, through fixing the code or the design.
+
+Do you have one type of card in your app? That’s an argument. Do you have a billion colors and font-sizes? That’s another argument. Does each page have custom styles applied to it? That’s another. 
+
+All of these arguments are completely invisible and silent unless you have the ability to detect them properly (some have this faculty, others do not). But we also need to have the ability to describe them. To point them out. To get other people to recognize these issues. And today I’m good at detecting these issues and working around them but I’m really bad at showing others what’s causing a problem.
+
+I have to fix that. Because this work isn’t just about hiding away and making the perfect design system until you unveil it to the company. A design system is not a thing you can touch or hold in your hands – it’s a company’s culture.  
+
+So design systems is really about finding those arguments  that place in the codebase, in the design, and then making those arguments public.
+
