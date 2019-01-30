@@ -27,7 +27,7 @@ You need to be the sort of person that will do boring work in order for some dis
 
 A year ago I noticed a fight break out in our codebase. I watched as one team was pitted against another over checkboxes.  
 
-One team tried to fix the checkboxes that were broken in their feature, so they went into the codebase and fixed checkboxes just for this one page. This broke the checkboxes on another page in the app which the engineers on that team then headed into the fray and updated the checkboxes to fix their part of the app. 
+One team tried to fix the checkboxes that were broken in their feature, so they went into the codebase and fixed checkboxes just for this one page. This broke the checkboxes on another page in the app which the engineers on that team then headed into the fray and updated their own components to fix their part of the app. 
 
 This went back and forth for several weeks before I realized what was happening and how these regressions were taking place. Instead of going back to the core styles and fixing them and then refactoring all checkboxes across the app to use these refactored styles, folks would instead fix the checkboxes that they could see in their feature.
 
