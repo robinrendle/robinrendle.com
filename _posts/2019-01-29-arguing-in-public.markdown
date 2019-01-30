@@ -39,7 +39,7 @@ Do you have more than one type of card in your app? That’s an argument. Do you
 
 All of these arguments are completely invisible and silent unless you have the ability to detect them properly (some have this faculty, others do not). But we also need to have the ability to describe them. To point them out. To get other people to recognize these issues. And today I’m good at detecting these issues and working around them but I’m really bad at showing others what’s causing a problem.
 
-I have to fix that. Because this work isn’t just about hiding away and making the perfect design system until you unveil it to the company. A design system is not a thing you can touch or hold in your hands – it’s a company’s culture.  
+I have to fix that. Because this work isn’t just about hiding away and making the perfect design system until you unveil it to the company. A design system is not a thing you can touch or hold in your hands – it’s a culture and not a product.  
 
 So design systems is really about finding those arguments  that place in the codebase, in the design, and then making those arguments public.
 
