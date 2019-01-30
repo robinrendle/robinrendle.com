@@ -6,7 +6,7 @@ extract: Design systems and making things 1% better every day.
 
 Today was a big day. I’ve spent the last two and a half years at Gusto working on a side project that’s finally drawing to a close. It’s nothing exceptional, and it doesn’t change the world. But it makes our design system 1% better. 1% easier to maintain. 1% easier to understand.
 
-If I can leave the office in the evening feeling as if I’ve made things 1% better then I’m happy.
+If I can leave the office every day feeling as if I’ve pushed things forward, even by a slim margin, then I’m happy.
 
 Oh, I’m just making our application less reliant on Bootstrap, which requires refactoring thousands of lines of CSS and breaking up each section of this mega Bootstrap Sass file by splitting it up into chunks. After today we’re one step closer to having components like `Button` or `Modal` where all the styles and scripts are in a single place. 
 
