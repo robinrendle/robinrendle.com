@@ -41,5 +41,5 @@ All of these arguments are completely invisible and silent unless you have the a
 
 I have to fix that. Because this work isn’t just about hiding away and making the perfect design system until you unveil it to the company. A design system is not a thing you can touch or hold in your hands – it’s a culture and not a product.  
 
-So design systems is really about finding those arguments  that hide in the codebase, those that take refuge in a mockup, and then our job is to make all those hidden arguments public.
+So design systems is really about finding those arguments  that hide in the codebase, or those that take refuge in a mockup, and then our job is to make all those hidden arguments public.
 
