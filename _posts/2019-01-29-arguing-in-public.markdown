@@ -21,7 +21,7 @@ I’ve been thinking a lot about why the field is so misunderstood, why so many 
 
 I feel as if miscommunication and disorder have to be qualities that upset you. Design systems isn’t a field you can grow into, it’s more like a field for people with specific quirks and personalities (this sounds mean perhaps but it’s true in my experience). 
 
-You need to be the sort of person that will do boring work in order for some distance, greater good.
+You need to be the sort of person that will do boring work in order for some distance, greater good. You need to have the sort of ego for working on giant projects that last for months on end that have no discernible impact whatsoever. 
 
 *** 
 
