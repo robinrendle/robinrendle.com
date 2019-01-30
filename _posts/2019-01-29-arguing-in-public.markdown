@@ -1,7 +1,7 @@
 ---
 title: Arguing in Public
 date: 2019-01-29 17:49:00 -08:00
-extract: And making things 1% better
+extract: And making things 1% better.
 ---
 
 Today was a big day. I’ve spent the last two and a half years at Gusto working on a side project that’s finally drawing to a close. It’s nothing exceptional, and it doesn’t change the world. But it makes our design system 1% better. 1% easier to maintain. 1% easier to understand.
