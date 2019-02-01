@@ -12,7 +12,7 @@ History will look down upon the Republican Party for placing America in a vice, 
 
 Yes, centrism is a philosophy for cowards. 
 
-Centrists are the cowards that during the Civil War believed we could keep slavery in the south so long as the Yankees in the north just calmed down and toed the line. Centrists were the cowards that would happily live in a barbaric and violent nation during the Suffragette and Civil Rights movements so long as the corner on which they stood would be a quiet one.
+Centrists are the cowards that during the Civil War believed we could keep slavery in the south so long as the Yankees in the north just calmed down and toed the line. Centrists were the cowards that would happily live in a barbaric and violent nation during the suffragette and Civil Rights movements so long as the corner on which they stood would be a quiet one.
 
 Centrists are cowards because there‘s a decision we must make in America. And every generation must make it. We can either choose between intellectual treason and villainy, or we can choose to build a nation of kindness. We can build a place where we don’t have to worry about providing healthcare for our children. We can build a place without fear of poisoning the landscape or the ever present horrors of a climate in the midst of crisis. 
 
