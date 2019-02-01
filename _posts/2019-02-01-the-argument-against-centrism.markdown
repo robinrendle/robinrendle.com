@@ -8,7 +8,7 @@ tags:
 extract: And a nation of kindness.
 ---
 
-History will look down upon the Republican Party for placing America in a vice, but it will blame the centrists for holding us there. In fact, there are few words in the English language that I despise more than the word ‘centrist’. ‘Content’ perhaps. Or ‘nevertheless’ just for the way it feels. ‘Moist’ maybe, at a stretch. ‘Centrist’ is a nightmare of its own though because it’s wrong for what it stands for; it’s a collection of cowardly ideas masked as “moderation” and wisdom.
+History will look down upon the Republican Party for placing America in a vice, but it will blame the centrists for holding us there. In fact, there are few words in the English language that I despise more than the word ‘centrist’. ‘Content’ perhaps. Or ‘nevertheless’ just for the way it feels. ‘Moist’ maybe, at a stretch. ‘Centrist’ is a nightmare of its own though because it’s wrong for what it stands for; it’s a collection of cowardly ideas masked as moderation and wisdom.
 
 Yes, centrism is a philosophy for cowards. 
 
