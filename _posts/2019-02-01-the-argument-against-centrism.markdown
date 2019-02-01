@@ -18,7 +18,7 @@ Centrists are cowards because there‘s a decision we must make in America. And 
 
 We can build a place that is worthy of our patriotism. To do so we must abandon centrism and shrug off the villains and cheap thugs from the right.
 
-We must choose to build a nation of kindness.
+It’s only then that we might build a nation of kindness.
 
 ***
 
