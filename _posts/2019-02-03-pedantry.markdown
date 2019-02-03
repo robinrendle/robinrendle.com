@@ -10,8 +10,10 @@ On this note, typography is often mistaken for knowing about the right fonts and
 
 And I see the same thing happening in front-end development circles where there’s a collection of cool dudes that will always punch down, always fill the conversation with snark and cynicism. Their voices are loud and carry out over the vast landscape with retweets and likes.
 
-This is sort of a duh obvious thing to say but Twitter incentivizes this quality of conversation somehow. If you piss all over CSS then you’ll be retweeted hundreds of times if you include a silly gif and I guess what would happen if statistics about retweets, likes and followers were disabled. If you were just a person on Twitter instead of a brand ambassador for X, Y, or Z technology.  I bet we wouldn’t be having these types of arguments if we couldn’t see how many people liked/retweeted a thread.
+This is sort of a duh obvious thing to say but Twitter incentivizes this quality of conversation somehow. If you piss all over CSS then you’ll be retweeted hundreds of times if you include a silly gif and I guess I’m wondering what would happen to tweets like this if statistics about retweets, likes and followers were disabled. What would happen if you were forced to just be a person on Twitter instead of a brand ambassador for X, Y, or Z technology. I bet we wouldn’t be having these types of arguments if we couldn’t see how many people liked/retweeted a thread.
 
-All these conversations are so performative and now I feel weird sharing my work or thoughts on Twitter. I keep posting short missives from this here blog and I always end up deleting them when I find my attempt at earnestness bundled between hundreds of snarky comments or end of the world tweets.
+I’m also wondering if the community has always been like this and I’m just now discovering my own discomfort with it.
+
+All these conversations are so performative and now I feel weird sharing my work or thoughts on Twitter or Instagram or anywhere on the Big Web. I keep posting short missives from this here blog and I always end up deleting them when I find my attempt at earnestness bundled between hundreds of snarky comments or end of the world tweets.
 
 Sometimes I find myself writing in this way, too. Talking down, instead of talking up.
