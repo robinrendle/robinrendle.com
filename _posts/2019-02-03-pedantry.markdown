@@ -12,7 +12,7 @@ And I see the same thing happening in front-end development circles where there�
 
 This is sort of a duh obvious thing to say but Twitter incentivizes this quality of conversation somehow. If you dunk on CSS then you’ll be retweeted hundreds of times if you just include a silly gif and some half-baked snark with it. 
 
-I guess I’m wondering what would happen to tweets like this if statistics about retweets, likes and followers were disabled. What would happen if you were forced to just be a person on Twitter instead of a brand ambassador for X, Y, or Z technology. I bet we wouldn’t be having these types of arguments if we couldn’t see how many people liked/retweeted a thread.
+I guess I’m wondering what would happen to tweets like these if statistics about retweets, likes, and followers were disabled. What would happen if you were forced to just be a person on Twitter instead of a brand ambassador for X, Y, or Z technology. I bet we wouldn’t be having these types of arguments if we couldn’t see how many people liked/retweeted a thread.
 
 I’m also wondering if the community has always been like this and I’m just now discovering my own discomfort with it.
 
