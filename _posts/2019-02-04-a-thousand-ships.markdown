@@ -12,7 +12,7 @@ My introduction to polyamory was then swift and heartbreaking and somehow...ok a
  
 That distance between us was the competition, not this guy she was more than halfway married to. 
 
-Even when she disappeared for a few weeks, a quick getaway to England for a friend’s wedding, we talked on the phone and whilst we’re laughing I hear his voice in the background. O’s almost-husband is out there in the static and the hubbub of the wedding and I can tell it’s his. But oddly enough I don’t feel anger. I don’t imagine myself in his position. I don’t want his relationship with O, and I don’t resent him for it.
+Even when she disappeared for a few weeks, a quick getaway to England for a friend’s wedding, we talked on the phone and whilst we’re laughing I hear his voice in the background. Her almost-husband is out there in the static and the hubbub of the wedding and I can tell it’s his. But oddly enough I don’t feel anger. I don’t imagine myself in his position. I don’t want his relationship with O, and I don’t resent him for it.
 
 Surprisingly I feel pity when I hear his voice because I know that he’ll never have this brief moment between O and me. This one right here, the one where I’m making her laugh until she can’t control herself. 
 
