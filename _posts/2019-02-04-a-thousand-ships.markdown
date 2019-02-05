@@ -6,7 +6,7 @@ extract: And those big blue eyes.
 
 “I have a partner and I live with him,” O said abruptly on our third date as we were in bed together. She was embarrassed to say it, her eyes impossibly and tragically gray-blue (those eyes are the kind of stupid color that launches a thousand ships, breaks a million hearts, etc. etc.) Once the words were out in the open though she looked away in embarrassment, as if she felt too much and figured out precisely how much the words would do damage. 
  
-We had spent only a few hours together but the chemistry was impossible and overwhelming already. We were both stunned by it in fact, horrified by the quickness of our feelings. It was like fate and destiny and love aren’t just bedtime stories for children and that there really is someone out there waiting for you. Someone with stupidly beautiful eyes and a gig in data science.
+We had spent only a few hours together but the chemistry was impossible and overwhelming already. We were both stunned by it in fact, horrified by the quickness of our feelings. It was like fate and destiny and love aren’t just bedtime stories for children and that there really is someone out there waiting for you. Someone with stupidly beautiful eyes and a gig in data science. Someone who also happens to be almost-married.
  
 My introduction to polyamory was then swift and heartbreaking and somehow...ok at the same time. Perhaps the distance between us was the thing I was attracted to. O is impossibly brilliant and funny and yet she’s someone I could never be fully with, never fully love, and that me made me love her even more.
  
