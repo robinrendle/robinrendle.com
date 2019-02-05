@@ -1,6 +1,7 @@
 ---
 title: A Thousand Ships
 date: 2019-02-04 22:22:00 -08:00
+extract: And those big blue eyes.
 ---
 
 “I have a partner and I live with him,” O said abruptly on our third date as we were in bed together. She was embarrassed to say it, her eyes impossibly and tragically blue in the dim light. The kind of stupid color that launches a thousand ships, breaks a million hearts, etc. Afterwards she looked away in embarrassment, as if she felt too much and figured out precisely how much the words would do damage. 
