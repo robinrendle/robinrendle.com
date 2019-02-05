@@ -4,7 +4,7 @@ date: 2019-02-04 22:22:00 -08:00
 extract: And those big blue eyes.
 ---
 
-“I have a partner and I live with him,” O said abruptly on our third date as we were in bed together. She was embarrassed to say it, her eyes impossibly and tragically gray-blue (those eyes are the kind of stupid color that launches a thousand ships, breaks a million hearts, etc. etc.) Once the words were out in the open though she looked away in embarrassment, as if she felt too much and figured out precisely how much the words would do damage. 
+“I have a partner and I live with him,” O said abruptly on our third date as we were in bed together. She was embarrassed to say it, her eyes impossibly and tragically gray-blue (those eyes being the kind of stupid color that launches a thousand ships and breaks a million hearts, etc. etc.) Once the words were out in the open though she looked away in embarrassment, as if she felt too much and figured out precisely how much the words would do damage. 
  
 We had spent only a few hours together but the chemistry was impossible and overwhelming already. We were both stunned by it in fact, horrified by the quickness of our feelings. It was like fate and destiny and love aren’t just bedtime stories for children and that there really is someone out there waiting for you. Someone with stupidly beautiful eyes and a gig in data science. 
 
