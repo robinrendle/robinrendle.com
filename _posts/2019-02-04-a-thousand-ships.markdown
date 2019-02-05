@@ -10,7 +10,7 @@ We had spent only a few hours together but the chemistry was impossible and over
 
 (And someone who happens to be almost-married.)
  
-My introduction to polyamory was then swift and heartbreaking and somehow...ok at the same time. Perhaps the distance between us was the thing I was attracted to. O is impossibly brilliant and funny and yet she’s someone I could never be fully with, never fully love, and that me made me love her even more.
+My introduction to polyamory was then swift and heartbreaking and somehow...ok at the same time. Although looking back perhaps it was the distance between us that was the thing I was attracted to. O is impossibly brilliant and funny and yet she’s someone I could never be fully with, never fully love, and that me made me love her even more.
  
 That distance between us was the competition, not this guy she was more than halfway married to. 
 
