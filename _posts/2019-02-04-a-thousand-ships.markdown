@@ -18,4 +18,6 @@ Even when she disappeared for a few weeks, a quick getaway to England for a frie
 
 Surprisingly I feel pity when I hear his voice because I know that he’ll never have this brief moment between O and me. This one right here, the one where I’m making her laugh until she can’t control herself. And it’s there in that distance between us, and in the laughter so loud that I can’t hear anything else, that I’ve already forgotten that his voice had been drowned out by all the jokes. 
 
-I am ruining this wedding, and I am enjoying it.
+I am ruining this wedding from 5,000 miles away. 
+
+And I am enjoying it.
