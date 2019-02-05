@@ -8,7 +8,7 @@ extract: And those big blue eyes.
  
 We had spent only a few hours together but the chemistry was impossible and overwhelming already. We were both stunned by it in fact, horrified by the quickness of our feelings. It was like fate and destiny and love aren’t just bedtime stories for children and that there really is someone out there waiting for you. Someone with stupidly beautiful eyes and a gig in data science. 
 
-(And someone who also happens to be almost-married.)
+(And someone who happens to be almost-married.)
  
 My introduction to polyamory was then swift and heartbreaking and somehow...ok at the same time. Perhaps the distance between us was the thing I was attracted to. O is impossibly brilliant and funny and yet she’s someone I could never be fully with, never fully love, and that me made me love her even more.
  
