@@ -10,6 +10,6 @@ At Gusto we have a little web app called *The Guide* which contains some of our 
 > 
 > Ideally this is where we can share information and collaborate in a public space to gain consensus across missions in terms of code, design, accessibility, performance, and branding. If we improve a single component here in The Guide then all of our apps and features will reap the rewards at the same time in a predictable manner.
 
-Notice the phrasing there because it’s important: “gaining consensus.” This is the hardest part of design systems work that I don’t really hear anyone talk about because it’s easy to make rules and documentation but it’s nigh on impossible to get a bunch of people in a room to agree on something.
+Notice the phrasing there because it’s important, especially the bit about this app being a place for gaining consensus on an issue. This is the hardest part of design systems work that I don’t really hear anyone talk about because quite frankly it’s easy to make rules and documentation but it’s nigh on impossible to get a bunch of people in a room to agree about something.
 
 This took me a long time to figure out, about how design systems work is much more than being the jerk that sets the rules. Also it took me a long time to figure out that design systems is basically politics. And fixing the front-end of a giant web app is also like trying to combat climate change.
