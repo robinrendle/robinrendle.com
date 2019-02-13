@@ -12,7 +12,7 @@ I think this is the perfect way to describe my own work. I really don’t care a
 
 ***
 
-“Delight” is my least favorite word when it comes to evaluating a design. I believe it relegates designers to the realm of pixel pushers and artists. Design ought to provide value, first and foremost. 
+“Delight” is my least favorite word when it comes to evaluating a design. I believe it relegates designers to the realm of pixel pushers and artists. Design ought to provide value, first and foremost, and not delight. 
 
 ***
 
