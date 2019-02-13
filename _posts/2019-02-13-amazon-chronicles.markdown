@@ -20,4 +20,4 @@ Tim goes on to breakdown what might otherwise be a painfully eye rolling subject
 
 ***
 
-P.S. If you are currently enjoying the italics on Substack then [you have me to thank for it](https://twitter.com/robinrendle/status/1093587547228262401) and no I am not above bragging about this. You’re welcome. 
+P.S. If you’re currently enjoying the italics on Substack then [you have me to thank for it](https://twitter.com/robinrendle/status/1093587547228262401) and no I am not above bragging about this. You’re welcome. 
