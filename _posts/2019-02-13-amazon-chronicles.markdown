@@ -16,7 +16,7 @@ Take this entry where Tim interprets [Amazon’s quarterly earnings](https://ama
 
 > I have an unusual education for a technology reporter. I didn’t study journalism in college or graduate school. I have two undergraduate degrees, one in mathematics and the other in philosophy, and a master’s degree and PhD in comparative literature. I was interested in the way media technologies shape the way people think and write. That helped prepare me for my later jobs a little bit. But what I really learned how to do in being trained as a humanist was how to work a document, how to figure out what kind of work it’s doing, what kinds of rhetorical forms it employs, what kinds of authority it appeals to, and so forth. You have to trace all the vectors that make a text do work in the world. And an earnings statement is definitely a document designed to do work in the world.
 
-Tim goes on to breakdown what might otherwise be a painfully eye rolling subject and explains all the drama and intrigue that this subject demands. 
+Tim goes on to breakdown what might otherwise be a painfully eye rolling subject and explains all the drama and intrigue that this subject demands. In short: I cannot recommend this newsletter highly enough.
 
 ***
 
