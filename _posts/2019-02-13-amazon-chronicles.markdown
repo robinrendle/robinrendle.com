@@ -10,7 +10,7 @@ extract: Tim Carmody’s newsletter is as charming and brilliant as you might ex
 
 [Tim Carmody](https://twitter.com/tcarmody) happens to be one of my favorite writers and he’s just set up a newsletter over at Substack where he’s going to be writing the [Amazon Chronicles](https://amazonchronicles.substack.com/) each week. This beat will cover everything about Amazon – from their ambitions and other-wordly weirdness to all the ways in which a single company can impact our lives. 
 
-Now, normally I wouldn’t recommend yet another tech thing to read but this different – Tim’s work stands above all the other tech journalism out there where I actually start to pay attention to what he has to say. His writing is always kind and sweet and interesting. In fact, it’s just the sort of writing to make me mad with jealousy because you can tell that there’s someone out there sitting in front of their keyboard who happens to be very smart and curious, and we’re just all luck to witness Tim’s wild curiosities.
+Now, normally I wouldn’t recommend yet another tech thing to read but this different – Tim’s work stands above all the other tech journalism out there where I actually start to pay attention to what he has to say. His writing is always kind and sweet and interesting. In fact, it’s just the sort of writing to make me mad with jealousy because you can tell that there’s someone out there, sitting in front of their keyboard, who happens to be exceptionally smart and curious. And we’re just lucky enough to stumble upon his smarts and curiosities.
 
 Take this entry where he interprets Amazon’s earnings call: 
 
