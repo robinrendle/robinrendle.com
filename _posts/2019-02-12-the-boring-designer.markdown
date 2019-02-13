@@ -18,4 +18,4 @@ I think this is the perfect way to describe my own work. I really don’t care a
 
 One of the most incredible UIs I’ve stumbled upon lately is Apex Legends, the new free to play battle-royale FPS that’s all the rage with the teens. And the UI is brilliant because it doesn’t let anything else get in my way of the fun; it has a timer that limits other people’s character selection, it’s insanely fast loading, and removes all the junk and crap between me and playing a dang game.
 
-What this game shows is wondrous, unparalleled focus.
+The speed, the UI, the gameplay physics and character design all add up to something bigger though. What this game really shows us is that great things are possible with unwavering team focus.
