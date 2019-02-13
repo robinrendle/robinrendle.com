@@ -1,6 +1,11 @@
 ---
 title: Amazon Chronicles
 date: 2019-02-13 01:45:00 -08:00
+tags:
+- Tim Carmody
+- amazon
+- substack
+extract: Tim Carmody’s newsletter is as charming and brilliant as you might expect.
 ---
 
 [Tim Carmody](https://twitter.com/tcarmody) happens to be one of my favorite writers and he’s just set up a newsletter over at Substack where he’s going to be writing the [Amazon Chronicles](https://amazonchronicles.substack.com/) each week. This beat will cover everything about Amazon – from their ambitions and other-wordly weirdness to all the ways in which a single company can impact our lives. 
