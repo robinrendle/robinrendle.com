@@ -10,6 +10,6 @@ I love this sentiment from Violet Peña on [getting her own blog off the ground]
 
 Violet writes about not liking her original website’s design and how she criticized her typographic styles until it prevented her from writing. And I guess the thing to remember here is that we should always be constantly improving our blogs, bit by bit. 
 
-There’s a ton of stuff on here that I don’t like but I can fix at some point in the future – but it’s important to remind ourselves that a blog is not a product. And that’s why I don’t think we should really ever redesign our blogs. 
+There’s a ton of stuff on here that I don’t like but I can fix at some point in the future – and it took me so long to learn to stop being a perfectionist on this topic. It’s vital that we remind ourselves that a blog is not a product. 
 
-Instead we should just perpetually be designing them, tweaking them towards something better all the time.
+And that’s why I don’t think we should really ever redesign our blogs. Instead we should just perpetually be designing them, tweaking them towards something better all the time.
