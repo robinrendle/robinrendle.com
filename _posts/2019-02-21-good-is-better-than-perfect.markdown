@@ -12,4 +12,4 @@ Violet writes about not liking her original website’s design and how she criti
 
 There’s a ton of stuff on here that I don’t like but I can fix at some point in the future – and it took me so long to learn to stop being a perfectionist on this topic. It’s vital that we remind ourselves that a blog is not a product. 
 
-And that’s why I don’t think we should really ever redesign our blogs. Instead we should just perpetually be designing them, tweaking them towards something better all the time.
+And that’s why I don’t think we should really ever redesign our blogs. Instead we should just perpetually be designing them, building on top of them, tweaking them towards something better all the time.
