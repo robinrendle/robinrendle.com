@@ -3,6 +3,8 @@ title: Type Choice, Political Choice
 date: 2019-02-21 16:33:00 -08:00
 tags:
 - Agyei Archer
+- fascism
+- type design
 extract: And the work of monsters.
 ---
 
