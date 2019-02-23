@@ -16,7 +16,9 @@ https://matthewstrom.com/writing/the-design-system-you-already-have.html) and wh
 
 I love this sentiment as Matthew argues that there is a system down there, it just wasn’t designed cohesively. But that shouldn’t give us an excuse to start over again or reinvent the wheel.
 
-And on this note, I think people mistake a design system for a _designed_ system — which is an important distinction to make here. Just because this hodgepodge of code and design isn’t cohesively organized and you don’t like it doesn’t mean you can ignore it or start again.
+And on this note, I think people mistake a design system for a _designed_ system — which is an important distinction to make here. Just because this hodgepodge of code and design isn’t cohesively organized and you don’t like it doesn’t mean you can ignore it or start again. 
+
+Regardless of how much this hurts – you must slowly improve things over time, instead of tearing everything apart.
 
 ***
 
