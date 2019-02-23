@@ -4,7 +4,7 @@ date: 2019-02-23 14:51:00 -08:00
 extract: And how to build things the right way.
 ---
 
-Jay Barnson has a story that he calls [The Black Triangle](http://rampantgames.com/blog/?p=7745) and it’s all about a project he worked on whilst at a video game company SingleTrac:
+Jay Barnson has a story that he calls [The Black Triangle](http://rampantgames.com/blog/?p=7745) and it’s all about a project he worked on whilst at a video game company called SingleTrac:
 
 > It was sometime in my first week possibly my first or second day. In the main engineering room, there was a whoop and cry of success.
 > 
