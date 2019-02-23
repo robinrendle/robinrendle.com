@@ -14,11 +14,9 @@ https://matthewstrom.com/writing/the-design-system-you-already-have.html) and wh
 > 
 > If you look close enough at your production code, you’ll see the tell-tale signs. Your engineering friends can point out the components (what you might call molecules or atoms) and variables (design tokens). Ask the engineers how and why they wrote the code: you’ll hear many of the same concepts that designers use when creating a design system.
 
-I love this sentiment as Matthew argues that there is a system down there, it just might not make complete sense or you might just not like it.
+I love this sentiment as Matthew argues that there is a system down there, it just wasn’t designed cohesively. But that shouldn’t give us an excuse to start over again or reinvent the wheel.
 
-Starting over again or reinventing the wheel is foolish though.
-
-And on this note, I think people mistake a design system for a _designed_ system — which is an important distinction to make. And just because this hodgepodge of code and design isn’t cohesively organized and you don’t like it doesn’t mean you can ignore it or start again.
+And on this note, I think people mistake a design system for a _designed_ system — which is an important distinction to make here. Just because this hodgepodge of code and design isn’t cohesively organized and you don’t like it doesn’t mean you can ignore it or start again.
 
 ***
 
