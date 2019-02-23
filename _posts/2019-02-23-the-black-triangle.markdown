@@ -18,4 +18,4 @@ Jay writes:
 
 I see so many parallels between this story and my work – I spend so much of my time trying to figure out the right way to build things. And I often struggle trying to build the black triangle instead of painting over an issue haphazardly.
 
-Thanks to [Matthew Ström](https://matthewstrom.com/writing/the-design-system-you-already-have.html) that pointed to this story a while back.
+Oh and thanks to [Matthew Ström](https://matthewstrom.com/writing/the-design-system-you-already-have.html) that pointed to this story a while back.
