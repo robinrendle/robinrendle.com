@@ -10,8 +10,14 @@ Saying “we need a good design system” – with the implication that we can 
 
 However, so many dudes seem to think that design is a problem of taste rather than a problem of diligent, patient work built up over many years. It appears to me that there’s a large contingent of designers that believe the hard work of design systems is walking into a room and telling everyone they need more drop shadows.
 
-Likewise I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists.
+Fuck your drop shadows.
 
-I’m not saying this to dunk on the work – I love my career – but design systems requires a love of unsexy things. And I want to ensure that folks aren’t turned away by all the dudes with nice hair that talk about their drop shadows.
+I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists.
 
-People that love spreadsheets – we need you, instead.
+Design systems work is painfully, awfully boring. There are no sexy projects after you’ve picked the border-radius of your buttons. Each small project will feel like an enormous hurdle because that’s the nature of the job.
+
+I’m not saying this to dunk on the field – I love my career whole heartedly – but design systems requires a love of all those unsexy things. And I want to ensure that folks aren’t turned away by all the dudes with nice hair that talk about their goddamn drop shadows.
+
+Instead, and to all the people that love making spreadsheets and organizing their cupboards, you are missed.
+
+And we need you.
