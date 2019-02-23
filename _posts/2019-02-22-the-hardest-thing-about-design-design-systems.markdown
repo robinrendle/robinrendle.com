@@ -20,6 +20,6 @@ Anyway, I am an old man and my point is that design systems work is painfully, a
 
 I’m not saying this to dunk on the field – I love my career whole heartedly – but design systems requires a love of all those unsexy things. And I want to ensure that folks aren’t turned away by all the dudes with nice hair that talk about their goddamn drop shadows.
 
-Instead, and to all the people that love making spreadsheets and organizing their cupboards, you are missed.
+To all the people that love making spreadsheets and organizing their cupboards: you are sorely missed.
 
 And we need you.
