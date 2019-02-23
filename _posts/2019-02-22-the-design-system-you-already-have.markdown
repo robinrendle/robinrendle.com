@@ -1,7 +1,7 @@
 ---
 title: The Design System You Already Have
 date: 2019-02-22 16:55:00 -08:00
-extract: The distinction between designed systems and a design system is an important
+extract: The distinction between “a designed system” and “design systems” is an important
   one to make.
 ---
 
