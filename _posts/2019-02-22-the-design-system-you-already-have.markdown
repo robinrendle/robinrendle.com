@@ -6,7 +6,7 @@ extract: The distinction between “a designed system” and “design systems�
 ---
 
 I absolutely adore this post by Matthew Ström about [what design systems really are](
-https://matthewstrom.com/writing/the-design-system-you-already-have.html). He writes:
+https://matthewstrom.com/writing/the-design-system-you-already-have.html) and why they’re so difficult to make. Matthew writes:
 
 > With beautiful design systems like Polaris, Lightning, and Carbon for inspiration, it’s tempting to open up a Sketch file and start your own. A fresh start: all the freedom in the world. Finally, a great-looking date picker.
 > 
