@@ -12,7 +12,7 @@ I see this problem everywhere in the community; dudes seem to think that design 
 
 Fuck your drop shadows.
 
-I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists.
+Likewise I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists.
 
 Design systems work is painfully, awfully boring. There are no sexy projects after you’ve picked the border-radius of your buttons. Each small project will feel like an enormous hurdle because that’s the nature of the job.
 
