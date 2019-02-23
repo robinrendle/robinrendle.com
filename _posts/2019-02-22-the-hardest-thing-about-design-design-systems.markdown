@@ -6,7 +6,7 @@ extract: And a note on drop shadows.
 
 One of the hardest parts about design systems work is that you have to treat it all like designing a blog – the work requires tiny, incremental improvements that build up over time instead of giant reinventions of the wheel that never ship.
 
-Saying “we need a good design system” – with the implication that we can start all over again – is kind of like saying “we need a better government” which...sure...but that’s such an impossibly vague and kinda useless thing to say. Instead, we should get to work improving this button, fixing this infrastructure policy, or this gnarly accessibility issue with our links.
+Saying “we need a good design system” – with the implication that we can start all over again – is kind of like saying “we need a better government” which...sure...but that’s such an impossibly vague and kinda useless thing to say. Instead, we should get to work improving this button, fixing this infrastructure policy, or tackling this gnarly accessibility issue with our links.
 
 However, so many dudes seem to think that design is a problem of taste rather than a problem of diligent, patient work built up over many years. It appears to me that there’s a large contingent of designers that believe the hard work of design systems is walking into a room and telling everyone they need more drop shadows.
 
