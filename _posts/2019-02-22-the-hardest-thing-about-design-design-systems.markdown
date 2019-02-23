@@ -16,7 +16,7 @@ Likewise I’m bored of how many folks treat design systems as this super cool a
 
 Because the only way to build a great website is with a system – we just didn’t call it that back in the day. We called it front-end architecture.
 
-Anyway, my point is that design systems work is painfully, awfully, beautifully boring. There aren’t any sexy projects after you’ve picked the border-radius of your buttons. Each project after that will feel like an enormous hurdle because that’s the nature of the job.
+Anyway, I am an old man and my point is that design systems work is painfully, awfully, beautifully boring. There aren’t any sexy projects after you’ve picked the border-radius of your buttons. Each project after that will feel like an enormous hurdle because that’s the nature of the job.
 
 I’m not saying this to dunk on the field – I love my career whole heartedly – but design systems requires a love of all those unsexy things. And I want to ensure that folks aren’t turned away by all the dudes with nice hair that talk about their goddamn drop shadows.
 
