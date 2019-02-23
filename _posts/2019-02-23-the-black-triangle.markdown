@@ -4,7 +4,7 @@ date: 2019-02-23 14:51:00 -08:00
 extract: And how to build things the right way.
 ---
 
-Jay Barnson has a story that he calls [The Black Triangle](http://rampantgames.com/blog/?p=7745) and it’s all about a project he worked on whilst at a video game company called SingleTrac:
+Jay Barnson was working at video game company called SingleTrac which  has a story that he calls [The Black Triangle](http://rampantgames.com/blog/?p=7745) and it’s all about a project he worked on whilst at:
 
 > It was sometime in my first week possibly my first or second day. In the main engineering room, there was a whoop and cry of success.
 > 
@@ -14,4 +14,4 @@ Jay Barnson has a story that he calls [The Black Triangle](http://rampantgames.c
 > 
 > What she later came to realize (and explain to others) was that the black triangle was a pioneer. It wasn’t just that we’d managed to get a triangle onto the screen. That could be done in about a day. It was the journey the triangle had taken to get up on the screen. It had passed through our new modeling tools, through two different intermediate converter programs, had been loaded up as a complete database, and been rendered through a fairly complex scene hierarchy, fully textured and lit (though there were no lights, so the triangle came out looking black). The black triangle demonstrated that the foundation was finally complete the core of a fairly complex system was completed, and we were now ready to put it to work doing cool stuff. By the end of the day, we had complete models on the screen, manipulating them with the controllers. Within a week, we had an environment to move the model through.
 
-I see so many parallels between this story and my work where I always end up trying to explain that there’s a right way to build things and a wrong way. We can either rush into a project head-first and make a ton of mess or we can focus on building the black triangle instead.
+I see so many parallels between this story and my work – I spend so much of my time trying to figure out the right way to build things. And I often struggle trying to build the black triangle instead.
