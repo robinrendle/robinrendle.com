@@ -12,7 +12,9 @@ I see this problem everywhere in the community; dudes seem to think that design 
 
 Fuck your drop shadows.
 
-Likewise I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists.
+Likewise I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists. I’ve been doing “design systems” work since I was 18 and so many other front-end oriented folks have done likewise. 
+
+Because the only way to build a great website is with a system – we just didn’t call it that back in the day. We called it front-end architecture.
 
 Design systems work is painfully, awfully boring. There are no sexy projects after you’ve picked the border-radius of your buttons. Each small project will feel like an enormous hurdle because that’s the nature of the job.
 
