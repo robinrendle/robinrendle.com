@@ -8,7 +8,10 @@
 
 .o-nav {
 	list-style: none;
-  display: flex;
+
+  @include media(">medium") {
+    display: flex;
+  }
 }
 
 .o-nav__item {
@@ -23,6 +26,12 @@
 		text-decoration: none;
 		background: none;
 		transition: background 0.3s ease;
+
+    @include media("<medium") {
+      border-bottom: 1px dashed rgba(0,0,0,.1);
+      padding: 10px 0;
+      display: block;
+    }
 
 		@include media(">medium") {
 			margin-right: 20px;

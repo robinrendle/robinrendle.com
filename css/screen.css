@@ -620,7 +620,7 @@ table {
   --heading-text-color: #333;
   --main-text-color: #4d4d4d;
   --main-theme-color: #2a7af7;
-  --secondary-text-color: #888;
+  --secondary-text-color: #777;
   --lighter-gray-color: #ddd;
   --white-color: #fff;
   --off-white: #f2f2f2;
@@ -1317,9 +1317,14 @@ p code {
 
 .o-nav {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+}
+
+@media (min-width: 621px) {
+  .o-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .o-nav__item {
@@ -1333,6 +1338,14 @@ p code {
   text-decoration: none;
   background: none;
   transition: background 0.3s ease;
+}
+
+@media (max-width: 619px) {
+  .o-nav--bullets .o-nav__item {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    display: block;
+  }
 }
 
 @media (min-width: 621px) {
