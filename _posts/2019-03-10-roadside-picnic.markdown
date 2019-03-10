@@ -1,6 +1,10 @@
 ---
 title: Roadside Picnic
 date: 2019-03-10 16:52:00 -07:00
+tags:
+- books
+- reading
+extract: Arkady and Boris Strugatsky’s weird and wonderful novel.
 ---
 
 I would heartily recommend _Roadside Picnic_. It’s a sci-fi novel written by Arkady and Boris Strugatsky and the book’s premise is a wonderful if not entirely ghoulish one: aliens land on Earth but leave without contacting us. In their wake they leave polluted landscapes that the government calls Zones which have been locked off for only a small batch of scientists to explore. But there’s another group called the stalkers that sneak in and steal bits of alien junk and sell it for a fortune. 
