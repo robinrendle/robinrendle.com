@@ -15,6 +15,8 @@ If you loved Jeff VanderMeer’s novels _Area X_ or  _Borne_, or if you liked th
 
 This novel was also the inspiration for the 1979 film _Stalker_ though, directed by Andrei Tarkovsky and it was notorious for its hazardous working conditions – they shot the whole film in two days downstream from a nearby chemical plant. And the crazy thing about this is film is how it shows how aliens broke our world but the film is a real recording of environmental devastation in Estonia: it was snowing in summer and poisonous white foam floated down the river during filming which was likely the cause of death for several crew members, including Tarkovsky himself.
 
-Anyway, the reason why I bring this up is because although I haven’t seen the film I have one shot of it imprinted in my mind. I’ve seen this picture so many times that the movie has taken on this mythical, romantic vision in my mind. It’s a photograph of a man standing in a warehouse where the cement floor has bubbled and distorted all around him.
+Anyway, the reason why I bring this up is because although I haven’t seen the film I have one shot of it imprinted in my mind. I’ve seen this picture so many times that the movie has taken on this mythical, romantic vision in my head. It’s a photograph of a man standing in a warehouse where the cement floor has bubbled and distorted all around him:
 
 ![stalker.jpg](/uploads/stalker.jpg)
+
+I think this image perfectly describes the weirdness of _Roadside Picnic_ where familiar things are broken or mutated in frightening ways. Next up after this is the _Dead Mountaineer’s Hotel_ which I’ve also heard wonderful things about.
