@@ -41,7 +41,7 @@ Also there’s a `Symbols` page which, much like in other kits, will be where I 
 
 In the Polaris kit there’s a dedicated page for this that’s pretty nearly organized:
 
-<div class="m-wrapper--full">
+<div class="m-wrapper--full cell-b20">
   <img src="/uploads/aegouahepiguaeg.jpg"/>
 </div>
 
@@ -49,7 +49,7 @@ The neat thing about Figma is that you can move that `Symbols` page into a separ
 
 Anyway, here’s a zoomed in version of just one section of our symbols:
 
-<div class="m-wrapper--full">
+<div class="m-wrapper--full cell-b20">
   <img src="/uploads/symbols-figma.jpg"/>
 </div>
 
@@ -57,7 +57,7 @@ You might notice that weird naming convention: `Input/Default`, `Input/Focus` an
 
 If you were in a new Figma doc and threw in our `Input/Default` component you’ll notice that on the right hand side there’s an `Instances` menu and by selecting that dropdown you’ll see that you can easily switch between the error and focus inputs we setup with that `/`:
 
-<div class="m-wrapper--full">
+<div class="m-wrapper--full cell-b20">
   <video autoplay autostart loop controls="" src="/uploads/error-states-animation.mp4" />
 </div>
 
@@ -65,7 +65,7 @@ I wrote a little bit more about [nesting components in Figma](https://css-tricks
 
 You could set this up in your own kit to switch between different themes of a component, such `ButtonPrimary/Darkmode` or something. But at Gusto we use this in a couple of clever ways: we have a couple of different types of user profiles where the UI will change depending whether you’re an employee or an employer. And so I created a `Layout` component that lets folks switch between the different UIs – and then if you embed components within that component you can then toggle between them like so:
 
-<div class="m-wrapper--full">
+<div class="m-wrapper--full cell-b20">
   <video autoplay autostart loop controls="" src="/uploads/paoeoiaeg.mp4" />
 </div>
 
@@ -113,7 +113,7 @@ One pattern that I really like is the concept of [Overlays](https://www.figma.co
 
 So with this functionality in mind I drew our modal, drawer and popover components as a series of Overlays that designers can more easily use to mockup their ideas:
 
-<div class="m-wrapper--full">
+<div class="m-wrapper--full cell-b20">
   <img src="/uploads/Screenshot%202019-03-17%2015.34.12.jpg"/>
 </div>
 
@@ -172,6 +172,7 @@ Looking at other UI Kits, they seem to struggle with this stuff too.
 
 
 ## One last note I swear: the UI Kit is not our design system
+
 There are tons of things in the front-end that can’t be reflected in our UI Kit today which I find difficult, too. Things like our CSS helpers and how components will change their styles based on the width of the viewport. And this isn’t a criticism of Figma at all by the way, it’s just a good reminder of how difficult it is to represent front-end constraints and design in something that isn’t a browser. 
 
 Anyway, everything I’ve mentioned here is only how we are currently do things today – all of this is likely to change the more we work with our design team and understand what they need to do their work. And I would heartily recommend checking out other UI Kits to learn about how they go about doing that stuff. 
