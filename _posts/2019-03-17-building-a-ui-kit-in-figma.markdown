@@ -7,9 +7,14 @@ tags:
 extract: A few notes on how we built the UI Kit at Gusto.
 ---
 
-Yesterday I changed one symbol in our UI Kit and watched as hundreds of components updated their colors, fonts, and other styles, saving me about a whole day of work. And I realized that being slow and considerate – putting all this effort into how things are built – really pays off in the long run.
-
 I’ve been working on our UI Kit at Gusto for a couple of months now. It’s a project in Figma that lets other designers on our team examine our components and get a better picture of what’s available to use in their own designs. There’s buttons and forms, typographic styles and colors, a verifiable cornucopia of icons and illustrations to reuse and, in time, improve.
+
+The other day I changed one symbol in our UI Kit though and watched as hundreds of components updated their colors, fonts, and other styles, saving me about a whole day of work. And I realized that being slow and considerate – putting all this effort into how things are built – really pays off in the long run. 
+
+Here’s some very rough notes about that process, how I went about organizing the kit, and all the challenges I encountered along the way.
+
+
+## Getting Started
 
 Before starting the UI Kit though I jotted down a quick list of all the things that our team needed to make great work. 
 
