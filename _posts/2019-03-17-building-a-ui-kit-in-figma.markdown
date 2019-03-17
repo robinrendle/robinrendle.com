@@ -11,7 +11,7 @@ Yesterday I changed one symbol in our UI Kit and watched as hundreds of componen
 
 Here’s a copy of [our UI Kit](https://www.figma.com/file/IxdCArrBNi8mVPXgCwXqwN/UI-Kit-Public?node-id=1736%3A1646) that you can play around with (although to see all the pages you’ll need to open up this doc in a new tab):
 
-<div class="m-wrapper--full">
+<div class="m-wrapper--full cell-b30">
 <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIxdCArrBNi8mVPXgCwXqwN%2FUI-Kit-Public%3Fnode-id%3D1736%253A1646" allowfullscreen></iframe>
 </div>
 
