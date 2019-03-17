@@ -11,7 +11,9 @@ Yesterday I changed one symbol in our UI Kit and watched as hundreds of componen
 
 Here’s a copy of [our UI Kit](https://www.figma.com/file/IxdCArrBNi8mVPXgCwXqwN/UI-Kit-Public?node-id=1736%3A1646) that you can play around with:
 
+<div class="m-wrapper--full">
 <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FIxdCArrBNi8mVPXgCwXqwN%2FUI-Kit-Public%3Fnode-id%3D1736%253A1646" allowfullscreen></iframe>
+</div>
 
 I’ve been working on our UI Kit at Gusto for a couple of months now. It’s a project in Figma that lets other designers on our team examine our components and get a better picture of what’s available to use in their own designs. There’s buttons and forms, typographic styles and colors, a verifiable cornucopia of icons and illustrations to reuse and, in time, improve.
 
