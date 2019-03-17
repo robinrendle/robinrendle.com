@@ -107,9 +107,8 @@ One pattern that I really like is the concept of [Overlays](https://www.figma.co
 
 So with this functionality in mind I drew our modal, drawer and popover components as a series of Overlays that designers can more easily use to mockup their ideas:
 
-<div class="m-wrapper--full">
+
   <img class="cell-b40" src="/uploads/Screenshot%202019-03-17%2015.34.12.jpg"/>
-</div>
 
 Anything I can do to make their prototyping experience just a little bit better is worth it in my opinion. 
 
