@@ -58,7 +58,7 @@ You might notice that weird naming convention: `Input/Default`, `Input/Focus` an
 If you were in a new Figma doc and threw in our `Input/Default` component you’ll notice that on the right hand side there’s an `Instances` menu and by selecting that dropdown you’ll see that you can easily switch between the error and focus inputs we setup with that `/`:
 
 <div class="m-wrapper--full cell-b20">
-  <video autoplay autostart loop controls="" src="/uploads/error-states-animation.mp4" />
+  <video autoplay autostart loop src="/uploads/error-states-animation.mp4" />
 </div>
 
 I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents. 
@@ -66,7 +66,7 @@ I wrote a little bit more about [nesting components in Figma](https://css-tricks
 You could set this up in your own kit to switch between different themes of a component, such `ButtonPrimary/Darkmode` or something. But at Gusto we use this in a couple of clever ways: we have a couple of different types of user profiles where the UI will change depending whether you’re an employee or an employer. And so I created a `Layout` component that lets folks switch between the different UIs – and then if you embed components within that component you can then toggle between them like so:
 
 <div class="m-wrapper--full cell-b20">
-  <video autoplay autostart loop controls="" src="/uploads/paoeoiaeg.mp4" />
+  <video autoplay autostart loop src="/uploads/paoeoiaeg.mp4" />
 </div>
 
 So as you can see we have different kinds of `PageTitle` – a regular old title as well as tabs and a progress bar for flows. Ideally designers shouldn’t have to keep dragging in new components and aligning them all over the place and figuring out spacing each time.
