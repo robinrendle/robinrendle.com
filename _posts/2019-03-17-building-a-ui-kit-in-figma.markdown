@@ -16,9 +16,7 @@ Here’s some very rough notes about that process, how I went about organizing t
 
 ## Getting Started
 
-Before starting the UI Kit though I jotted down a quick list of all the things that our team needed to make great work. 
-
-I wrote that our designers at Gusto need to: 
+Before starting the UI Kit though I jotted down a quick list of all the things that our team needed to make great work. I realized that our designers need to: 
 
 - know what components exist
 - have a single source of truth where all the documentation lives
