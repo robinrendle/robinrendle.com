@@ -175,7 +175,7 @@ But it’s important to note that the components that are in our UI Kit are not 
 
 A design system is just a reflection of how our designers communicate with one another and how we translate that relationship between us into front-end code. If our relationships suck then our code will suck and our users will have a sucky experience overall. 
 
-My point is this: it’s important to remember that a design system is a community and not a series of tools.
+And so it’s important to remember that a design system is not a series of tools, but a community instead.
 
 ***
 
