@@ -41,26 +41,33 @@ Also there’s a `Symbols` page which, much like in other kits, will be where I 
 
 In the Polaris kit there’s a dedicated page for this that’s pretty nearly organized:
 
-![aegouahepiguaeg.jpg](/uploads/aegouahepiguaeg.jpg)
-
+<div class="m-wrapper--full">
+  <img src="/uploads/aegouahepiguaeg.jpg"/>
+</div>
 
 The neat thing about Figma is that you can move that `Symbols` page into a separate document entirely and make it private. This means that other designers won’t be able to accidentally edit or destroy those components as they’re looking through our kit.
 
 Anyway, here’s a zoomed in version of just one section of our symbols:
 
-![symbols-figma.jpg](/uploads/symbols-figma.jpg)
+<div class="m-wrapper--full">
+  <img src="/uploads/symbols-figma.jpg"/>
+</div>
 
 You might notice that weird naming convention: `Input/Default`, `Input/Focus` and `Input/Error`. That `/` is because that’s a hack in Figma to identify which components are instances of one another.
 
 If you were in a new Figma doc and threw in our `Input/Default` component you’ll notice that on the right hand side there’s an `Instances` menu and by selecting that dropdown you’ll see that you can easily switch between the error and focus inputs we setup with that `/`:
 
-[error-states-animation.mp4](/uploads/error-states-animation.mp4)
+<div class="m-wrapper--full">
+  <video autoplay autostart loop controls="" src="/uploads/error-states-animation.mp4" />
+</div>
 
 I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents. 
 
 You could set this up in your own kit to switch between different themes of a component, such `ButtonPrimary/Darkmode` or something. But at Gusto we use this in a couple of clever ways: we have a couple of different types of user profiles where the UI will change depending whether you’re an employee or an employer. And so I created a `Layout` component that lets folks switch between the different UIs – and then if you embed components within that component you can then toggle between them like so:
 
-[paoeoiaeg.mp4](/uploads/paoeoiaeg.mp4)
+<div class="m-wrapper--full">
+  <video autoplay autostart loop controls="" src="/uploads/paoeoiaeg.mp4" />
+</div>
 
 So as you can see we have different kinds of `PageTitle` – a regular old title as well as tabs and a progress bar for flows. Ideally designers shouldn’t have to keep dragging in new components and aligning them all over the place and figuring out spacing each time.
 
@@ -68,6 +75,7 @@ The reason why I’m bragging about this is because I’ve found it’s saved me
 
 
 ## A Note on Styles 
+
 At Gusto we have a color palette that can be used to design new components or make slight adjustments to existing ones. It’s what we call a CSS “helper” where you can write code like this in React to change the color of some text:
 
 ```
@@ -105,7 +113,9 @@ One pattern that I really like is the concept of [Overlays](https://www.figma.co
 
 So with this functionality in mind I drew our modal, drawer and popover components as a series of Overlays that designers can more easily use to mockup their ideas:
 
-![Screenshot 2019-03-17 15.34.12.jpg](/uploads/Screenshot%202019-03-17%2015.34.12.jpg)
+<div class="m-wrapper--full">
+  <img src="/uploads/Screenshot%202019-03-17%2015.34.12.jpg"/>
+</div>
 
 Anything I can do to make their prototyping experience just a little bit better is worth it in my opinion. 
 
@@ -129,6 +139,7 @@ In some cases this means that designers have had to detach a component from its 
 At Gusto we’re not so worried about updating old designs with new styles but I can see why encouraging designers to unlink their design from the core symbols is a no-deal thing for other companies.
 
 ### Keeping things in sync
+
 It’s really easy for the UI Kit and the front-end to get out of sync with one another and it feels like a lot of repetitive work to change a front-end thing like the :focus state of something and then have to boot up Figma to change that style in the kit, too. It requires that someone like me is intimately familiar with our front-end code and our design.
 
 For now the way I’m justifying all this extra work is that 1. designers need to use these components in their designs and if I save them 10 minutes drawing things then I’m okay with that and 2. I can’t think of a better solution for now.
@@ -145,6 +156,7 @@ However – how should I name these components in Figma? Should I create a `Tab
 The more I think about this stuff the more I realize that the codebase has to be your real source of truth and all design tools will have to in some way pipe into your component library. I can definitely see how at larger orgs and design teams that this could simply be impossible.
 
 ### Aligning things in a grid with Figma is still kinda annoyin’ too
+
 One thing I always want to do is make a new grid in Figma. Whether that’s aligning a ton of icons next to each other or placing components in a grid. 
 
 In an ideal world I want to set the number of columns and rows and let Figma place things inside that ruleset, just like CSS Grid. And maybe that’s possible today but the current way that the grid system appears to work is that it’s kinda just outlines that you can align things next to. And [Smart Selection](https://www.figma.com/blog/introducing-smart-selection/) is great but it’s also pretty unpredictable about where things will go when I click that button. It’s nice to quickly move items in a group like this and saves a bunch of time but I’d still like a ton of grid and alignment improvements to be made.
