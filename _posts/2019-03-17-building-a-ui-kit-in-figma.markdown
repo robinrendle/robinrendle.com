@@ -52,7 +52,7 @@ Anyway, here’s a zoomed in version of just one section of our symbols:
 
 You might notice that weird naming convention: `Input/Default`, `Input/Focus` and `Input/Error`. That `/` is a hack that helps Figma identify which components are instances of one another and I only found out about this after watching [a Figma tutorial](https://help.figma.com/article/66-components) (and I highly recommend that before you start working with Figma that you go through all of these).
 
-If you were in a new Figma doc and threw in our `Input/Default` component you’ll notice that on the right hand side there’s an `Instances` menu and by selecting that dropdown you’ll see that you can easily switch between the error and focus inputs we setup with that `/`:
+So wait – how do you use instances and why are they neat? Well, if you were in a new Figma doc and threw in our `Input/Default` component you’ll notice that on the right hand side there’s an `Instances` menu and by selecting that dropdown you’ll see that you can easily switch between the error and focus inputs we setup with that `/`:
 
 <div class="m-wrapper--full">
   <video autoplay autostart loop src="/uploads/error-states-animation.mp4" class="cell-b40" />
