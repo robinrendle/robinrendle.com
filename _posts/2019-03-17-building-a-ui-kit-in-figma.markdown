@@ -30,7 +30,7 @@ With that in mind I spent a ton of time looking through different UI Kits, such 
 ## How we’re organizing things today
 I realized that our kit could be broken up into three pages in a Figma doc:
 
-1. Getting Started: this would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
+1. Getting Started: this page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
 2. Components: a list of all the components that are available to them.
 3. Patterns: where designers can learn about our common UX patterns, such as how to combine certain components together. 
 
