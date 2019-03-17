@@ -30,9 +30,23 @@ With that in mind I spent a ton of time looking through different UI Kits, such 
 ## How we’re organizing things today
 I realized that our kit could be broken up into three pages in a Figma doc:
 
-1. Getting Started: this page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
-2. Components: a list of all the components that are available to them.
-3. Patterns: where designers can learn about our common UX patterns, such as how to combine certain components together. 
+**Getting Started**: this page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
+
+<div class="m-wrapper--full">
+  <img class="cell-b40" src="/uploads/getting-started-page.jpg"/>
+</div>
+
+**Components**: a list of all the components that are available to them.
+
+<div class="m-wrapper--full">
+  <img class="cell-b40" src="/uploads/components-page.jpg"/>
+</div>
+
+**Patterns**: a page where designers can learn about our common UX patterns, such as how to combine certain components together. 
+
+<div class="m-wrapper--full">
+  <img class="cell-b40" src="/uploads/patterns-page.jpg"/>
+</div>
 
 Also there’s a `Symbols` page which, much like in other kits, will be where I actually make all the symbols and assets that those three pages above inherit from. What we need is a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
 
@@ -44,7 +58,7 @@ In the Polaris kit there’s a dedicated page for this that’s pretty nearly or
 
 The neat thing about Figma is that you can move that `Symbols` page into a separate document entirely and make it private. This means that other designers won’t be able to accidentally edit or destroy those components as they’re looking through our kit.
 
-Anyway, here’s a zoomed in version of just one section of our symbols:
+Anyway, here’s a zoomed-in version of just one section of our symbols:
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/symbols-figma.jpg"/>
