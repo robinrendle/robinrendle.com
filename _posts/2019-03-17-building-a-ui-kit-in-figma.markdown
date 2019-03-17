@@ -33,9 +33,9 @@ With that in mind I spent a ton of time looking through different UI Kits, such 
 ## How we’re organizing things today
 I realized that our kit could be broken up into three pages in a Figma doc:
 
-- Getting Started: this would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
-- Components: a list of all the components that are available to them.
-- Patterns: where designers can learn about our common UX patterns, such as how to combine certain components together. 
+1. Getting Started: this would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
+2. Components: a list of all the components that are available to them.
+3. Patterns: where designers can learn about our common UX patterns, such as how to combine certain components together. 
 
 Also there’s a `Symbols` page which, much like in other kits, will be where I actually make all the symbols and assets that those three pages above inherit from. What we need is a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
 
