@@ -117,7 +117,7 @@ This is great because often I don’t think designers will even need to view our
 
 To make this color palette I had to go through our front-end and understand our system and make sure that the variable names match up exactly – and that’s when I discovered a lot of this work requires constantly diving into the front-end, looking at what’s currently possible, and then making a system in Figma to reflect that.
 
-Anyway, when a designer starts a new Figma doc (it would be so neat if you could do this with figma.com/new or something like Google Docs) they can immediately use the component from our design system by toggling `option` + `2`. 
+Anyway, when a designer starts a new Figma doc (it would be so neat if you could do this by typing in http://figma.com/new or something like how Google Docs does things) they can immediately use the component from our design system by toggling `option` + `2`. 
 
 On the left hand side there’ll be a list of all the components available to them which they can also drag and drop into their designs without having to head over to our kit.
 
