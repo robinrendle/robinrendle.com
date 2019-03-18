@@ -202,7 +202,7 @@ Anyway, everything I’ve mentioned here is only how we are currently do things 
 
 But it’s important to note that the components that are in our UI Kit are not a reflection of our design system. I think when people say “design system” they think of something visual – the buttons, the forms, the cards and modals. But the more I learn about design systems is it’s not about this technical or visual representation of our code. Neither is a design system a series of cool tools or a repo or a bunch of technologies combined together, as much as we might use those things in our design system work on a day to day basis.
 
-A design system is a mirror of how all the designers communicate with one another and how we translate that relationship between us into front-end code. If our relationships suck then our code will suck and our users will have a sucky experience overall. 
+A design system is a mirror, reflecting how our design team communicates with one another and how we then translate that relationship between us into front-end code. If our relationships suck then our code will suck and our users will have a sucky experience overall. 
 
 And so it’s important to remember that a design system is not a series of tools, but a community instead.
 
