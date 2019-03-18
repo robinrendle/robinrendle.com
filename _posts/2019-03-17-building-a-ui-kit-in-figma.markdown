@@ -14,7 +14,7 @@ The other day I changed one symbol in our UI Kit though and watched as hundreds 
 Here’s some very rough notes about that process, how I went about organizing the kit, and all the challenges I encountered along the way.
 
 
-## Getting Started
+## Understanding the problem
 
 Before I opened up Figma I jotted down a quick list of all the things that our team needed to make great work. After a bit of interviewing and research I found that our designers need to: 
 
@@ -27,28 +27,32 @@ Before I opened up Figma I jotted down a quick list of all the things that our t
 
 With that in mind I spent a ton of time looking through different UI Kits, such as the [Android GUI](https://www.figma.com/file/divF7pYDKIMDfrOH0rQbRa/Android-GUI-by-Great-Simple-Studio-(Copy)?node-id=0%3A4160) or how the team at Shopify has designed their kit for [Polaris](https://polaris.shopify.com/resources/polaris-ui-kit). This all gave me a ton of inspiration as to how to structure things.
 
-## How we’re organizing things today
-I realized that our kit could be broken up into three pages in a Figma doc:
+So I realized that our kit could be broken up into three pages in a Figma doc:
 
-**Getting Started**: this page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
+### Getting started
+
+This page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/getting-started-page.jpg"/>
 </div>
 
-**Components**: a list of all the components that are available to them.
+### Components 
+
+This would just be a list of all the components that are available to them as well as default typography styles, colors, and icons. Pretty standard stuff:
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/components-page.jpg"/>
 </div>
 
-**Patterns**: a page where designers can learn about our common UX patterns, such as how to combine certain components together. 
+### Patterns
+We needed a section of the kit where designers could learn about our common UX patterns and learn how to combine certain components together. This page would show templates and more complete UI examples:
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/patterns-page.jpg"/>
 </div>
 
-Also there’s a `Symbols` page which, much like in other kits, will be where I actually make all the symbols and assets that those three pages above inherit from. What we need is a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
+Also, finally, we needed a `Symbols` page which (much like in other kits) would be where I make all the symbols and assets that those three pages above inherit from. What we needed was a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
 
 In the Polaris kit there’s a dedicated page for this that’s pretty nearly organized:
 
