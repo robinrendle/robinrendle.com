@@ -85,7 +85,7 @@ So wait – how do you use instances and why are they neat? Well, if you were in
   <video autoplay autostart loop src="/uploads/error-states-animation.mp4" class="cell-b40" />
 </div>
 
-I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents. 
+Neat, huh? I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents. 
 
 You could set this up in your own kit to switch between different themes of a component, such `ButtonPrimary/Darkmode` or something. But at Gusto we use this in a couple of clever ways: we have a few user profiles where the UI will change depending whether you’re an employee or an employer. And so I created a `Layout` component that lets folks switch between the different UIs:
 
