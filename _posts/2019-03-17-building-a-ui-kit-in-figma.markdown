@@ -148,7 +148,7 @@ Anything I can do to make their prototyping experience just a little bit better 
 
 I could probably do a much better job of styling the Kit and the components that house things by making them feel a bit more Gusto-y and improve the overall visual fidelity of things. For now, and out of a lack of time, I think things are fine enough though.
 
-I guess the important part to remember is that – even if a kit isn’t exactly what you want – having a half-baked UI Kit is better than nothing at all.
+I guess the important part to remember here is that – even if a kit isn’t exactly the pinnacle of quality – having a half-baked UI Kit is better than nothing at all.
 
 Also I think our design patterns need a ton of love and this is the space where we’ve currently spent the least amount of time. Ideally we could give detailed guidance around typographic hierarchy and form design as well as how to position things in our templates or modals and drawers. I reckon this will slowly improve over time as our team leaves refactoring mode and starts to think more holistically about ways to improve the user experience in our app. 
 
