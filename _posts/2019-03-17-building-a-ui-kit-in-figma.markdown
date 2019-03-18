@@ -39,9 +39,9 @@ This page would inform designers what the UI Kit is and how to go about using it
 
 Ideally this page should kind of act as an FAQ for design systems questions – who the team is, how to contact us, and the basics of how to use Figma.
 
-### Components 
+## Components 
 
-This would just be a list of all the components that are available to them as well as default typography styles, colors, and icons. Pretty standard stuff that you’ve likely seen a million times before already:
+This would be a list of all the components that are available to our design team as well as default typography styles, colors, and icons. Pretty standard stuff that you’ve likely seen a million times before already:
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/components-page.jpg"/>
@@ -49,7 +49,8 @@ This would just be a list of all the components that are available to them as we
 
 
 
-### Patterns
+
+## Patterns
 
 We needed a section of the kit where designers could learn about our common UX patterns and learn how to combine certain components together. This page would show templates and more complete UI examples:
 
