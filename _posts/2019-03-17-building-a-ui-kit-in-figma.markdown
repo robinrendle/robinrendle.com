@@ -47,7 +47,7 @@ This would be a list of all the components that are available to our design team
   <img class="cell-b40" src="/uploads/components-page.jpg"/>
 </div>
 
-
+I spent a ton of time ordering this page and thinking about how designers might quickly skim read this doc to find a specific section – like Alerts. The cool thing about Figma is that you can even send links to specific frames in a design which I find super helpful when I’m pointing designers to a specific component via Slack.
 
 
 ## Patterns
