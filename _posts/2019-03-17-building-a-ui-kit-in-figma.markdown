@@ -95,7 +95,7 @@ You could set this up in your own kit to switch between different themes of a co
   <video autoplay autostart loop src="/uploads/paoeoiaeg.mp4" class="cell-b40" />
 </div>
 
-So as you can see we have different kinds of `PageTitle` – a regular old title as well as tabs and a progress bar for flows. Ideally designers shouldn’t have to keep dragging in new components and aligning them all over the place and figuring out spacing each time.
+So as you can see we have different kinds of `PageTitle` – a regular old title as well as tabs and a progress bar for flows. Ideally designers shouldn’t have to keep dragging in new components and aligning them all over the place and figuring out spacing each time – with Instances we can stop some of those repetitive tasks.
 
 The reason why I’m bragging about this is because I’ve found it’s saved me a TON of time drawing these things. And toggling these components on and off and replacing them with variants feels like working with a space-age design tool. 
 
