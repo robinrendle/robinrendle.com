@@ -128,7 +128,7 @@ I think perhaps the second greatest advantage of using Figma over other design t
 
 On day one of starting Gusto we can just point them to figma.com and they’re off to the races!
 
-Although one thing we have to make sure is that everyone on our team is familiar with Figma’s way of doing things. Using a component library directly in a design tool is still a pretty novel concept for many and so we have to sit down with designers during onboarding to make sure they have a firm grasp of this stuff. So we setup a session with everyone to chat about how Figma works and we let them play around in a new doc. The neat thing is that this gives us an opportunity to get to introduce ourselves and explain how our design systems team can work with them and their design process. 
+Although one thing we have to make sure is that everyone on our team is familiar with Figma’s way of doing things. Using a component library directly in a design tool is still a pretty novel concept for many and so we have to sit down with designers during onboarding to make sure they have a firm grasp of this stuff. A short while ago we started onboarding our designers and familiarizing them with our design system so that we get to chat to them about how Figma works. The neat thing is that this gives us an opportunity to get to introduce ourselves and explain how our design systems team can work with them and their design process, too. 
 
 
 ## Random note: overlays are super neat 
