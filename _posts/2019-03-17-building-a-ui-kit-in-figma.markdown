@@ -24,9 +24,7 @@ Before I opened up Figma I jotted down a quick list of all the things that our t
 - figure out where and how to install our fonts
 - understand the limitations of the system (so that could be typography, colors, and our grid)
 
-With that in mind I spent a ton of time looking through different UI Kits, such as the [Android GUI](https://www.figma.com/file/divF7pYDKIMDfrOH0rQbRa/Android-GUI-by-Great-Simple-Studio-(Copy)?node-id=0%3A4160) or how the team at Shopify has designed their kit for [Polaris](https://polaris.shopify.com/resources/polaris-ui-kit). This all gave me a ton of inspiration as to how to structure things.
-
-Anyway, after that research I believed that our kit could be broken up into four pages in a Figma doc; `Getting Started`, `Components`, `Patterns`, and `Symbols`.
+With that in mind I spent a ton of time looking through different UI Kits, such as the [Android GUI](https://www.figma.com/file/divF7pYDKIMDfrOH0rQbRa/Android-GUI-by-Great-Simple-Studio-(Copy)?node-id=0%3A4160) or how the team at Shopify has designed their kit for [Polaris](https://polaris.shopify.com/resources/polaris-ui-kit). This all gave me a ton of inspiration as to how to structure things so after that research I believed that our kit could be broken up into four pages in a Figma doc; Getting Started, Components, Patterns, and Symbols.
 
 ## Getting started
 
