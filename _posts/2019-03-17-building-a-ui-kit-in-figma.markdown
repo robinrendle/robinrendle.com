@@ -48,7 +48,7 @@ This would be a list of all the components that are available to our design team
 
 I spent a ton of time ordering this page and thinking about how designers might quickly skim read this doc to find a specific section – like Alerts. But the cool thing about Figma is that you can send links to specific frames in a project which I find super helpful when I’m pointing designers to a component via Slack.
 
-(I think the hyperlinkability of Figma is its single greatest reason why I would recommend it to anyone else out there starting a design system.)
+(I think the hyperlinkability of Figma is the single greatest reason why I would recommend it to anyone else out there starting a design system.)
 
 
 ## Patterns
