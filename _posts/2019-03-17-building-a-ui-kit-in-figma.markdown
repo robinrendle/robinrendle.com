@@ -142,11 +142,9 @@ So with this functionality in mind I drew our modal, drawer and popover componen
 
   <img class="cell-b40" src="/uploads/Screenshot%202019-03-17%2015.34.12.jpg"/>
 
-Anything I can do to make their prototyping experience just a little bit better is worth it in my opinion. 
+Anything I can do to make their prototyping experience just a little bit better is worth it in my opinion. However! In Figma there are a ton of things I haven’t figured out yet...
 
-## Things that I haven’t figured out yet
-
-### A lot of stuff is missing from the Kit today
+## A lot of stuff is missing from the Kit today
 
 I could probably do a much better job of styling the Kit and the components that house things by making them feel a bit more Gusto-y and improve the overall visual fidelity of things. For now, and out of a lack of time, I think things are fine enough though.
 
@@ -155,7 +153,7 @@ I guess the important part to remember is that even if a kit isn’t exactly wha
 Also I think our design patterns need a ton of love and this is the space where we’ve currently spent the least amount of time. Ideally we could give detailed guidance around typographic hierarchy and form design as well as how to position things in our templates or modals and drawers. I reckon this will slowly improve over time as our team leaves refactoring mode and starts to think more holistically about ways to improve the user experience in our app. 
 
 
-### Buttons are for nerds
+## Buttons are for nerds
 
 Okay so I don’t know why I typed that, I guess I just assumed that at this point no-one is reading this thing and I can type whatever I want. But also seriously, buttons are kinda hard to work with in Figma because when you import a symbol you often want to change the text inside it – but! – the button can’t increase depending on the content within it.
 
@@ -163,7 +161,7 @@ In some cases this means that designers have had to detach a component from its 
 
 At Gusto we’re not so worried about updating old designs with new styles but I can see why encouraging designers to unlink their design from the core symbols is a no-deal thing for other companies.
 
-### Keeping things in sync
+## Keeping things in sync is tough
 
 It’s really easy for the UI Kit and the front-end to get out of sync with one another and it feels like a lot of repetitive work to change a front-end thing like the :focus state of something and then have to boot up Figma to change that style in the kit, too. It requires that someone like me is intimately familiar with our front-end code and our design.
 
@@ -172,7 +170,7 @@ For now the way I’m justifying all this extra work is that 1. designers need t
 This is why I’m eyeing Framer X and wondering if I can just pipe in our Component Library directly into it. But I don’t think that’s going to be possible for our team anytime soon.  
 
 
-### Making symbols responsive
+## Making symbols responsive is also ugh
 
 Also I’m not sure how to name or handle responsive components. For example, our Table component has one style on desktop but another one on mobile: at smaller screen sizes we break each row into a separate card so that it’s easier to scan and the user doesn’t have to scroll all over the place to read a single row.
 
@@ -180,7 +178,7 @@ However – how should I name these components in Figma? Should I create a `Tab
 
 The more I think about this stuff the more I realize that the codebase has to be your real source of truth and all design tools will have to in some way pipe into your component library. I can definitely see how at larger orgs and design teams that this could simply be impossible.
 
-### Aligning things in a grid with Figma is still kinda annoyin’ too
+## Aligning things in a grid with Figma is still kinda annoyin’ too
 
 One thing I always want to do is make a new grid in Figma. Whether that’s aligning a ton of icons next to each other or placing components in a grid. 
 
@@ -188,7 +186,7 @@ In an ideal world I want to set the number of columns and rows and let Figma pla
 
 Basically the less time I have to manually move things with my mouse or trackpad, the better.
 
-### Organizing components is hard
+## Organizing components is difficult
 
 This is more of a problem of time than a problem with Figma itself, as I’m still not entirely happy with the UX of large parts of our Kit. For example we have one section called “Information organizers” which is really confusing (and isn’t that what pretty much all UI does anyway – organize information?).
 
@@ -196,7 +194,7 @@ Looking at other UI Kits, they seem to struggle with this stuff too.
 
 
 
-## One last note I swear: the UI Kit is not our design system
+## The UI Kit is not our design system
 
 There are tons of things in the front-end that can’t be reflected in our UI Kit today which I find difficult, too. Things like our CSS helpers and how components will change their styles based on the width of the viewport. And this isn’t a criticism of Figma at all by the way, it’s just a good reminder of how difficult it is to represent front-end constraints and design in something that isn’t a browser. 
 
