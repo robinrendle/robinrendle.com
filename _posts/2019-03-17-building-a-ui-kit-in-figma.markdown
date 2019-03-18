@@ -124,7 +124,7 @@ On the left hand side there’ll be a list of all the components available to th
 
 ## Onboarding designers is pretty dang easy 
 
-I think perhaps the greatest advantage of using Figma over other design tools is that I don’t have to worry about which version of the UI Kit, or even which version of Figma to that extent, is being used by our design team. Everyone is constantly on the latest version and so I don’t have to manage software versions or bug folks to update things.
+I think perhaps the second greatest advantage of using Figma over other design tools is that I don’t have to worry about which version of the UI Kit, or even which version of Figma to that extent, is being used by our design team. Everyone is constantly on the latest version and so I don’t have to manage software versions or bug folks to update things.
 
 On day one of starting Gusto we can just point them to figma.com and they’re off to the races!
 
