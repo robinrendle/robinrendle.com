@@ -70,7 +70,7 @@ In the Shopify’s Polaris design system they have their own web UI kit which ha
   <img class="cell-b40" src="/uploads/aegouahepiguaeg.jpg"/>
 </div>
 
-The neat thing about Figma is that you can move that `Symbols` page into a separate document entirely and make it private. This means that other designers won’t be able to accidentally edit or destroy those components as they’re looking through our kit.
+The other nifty thing about Figma is that you can move that `Symbols` page into a separate document entirely and make it private. This means that other designers won’t be able to accidentally edit or destroy those components as they’re looking through our kit.
 
 Anyway, here’s a zoomed-in version of just one section of our symbols:
 
