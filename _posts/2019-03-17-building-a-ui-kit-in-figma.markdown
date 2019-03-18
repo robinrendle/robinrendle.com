@@ -113,7 +113,7 @@ Ideally we probably shouldn’t be using it like that but that just gives you an
 
 ![color-styles-figma.jpg](/uploads/color-styles-figma.jpg)
 
-This is great because often I don’t think designers will even need to view our UI Kit at all – once they start a new doc they can just select a color or a text style from the side bar without moving away from their design at all.
+This is great because often I don’t think designers will even need to view our UI Kit at all – once they start a new doc they can just select a color or a text style from the side bar without moving away from their design.
 
 To make this color palette I had to go through our front-end and understand our system and make sure that the variable names match up exactly – and that’s when I discovered a lot of this work requires constantly diving into the front-end, looking at what’s currently possible, and then making a system in Figma to reflect that.
 
