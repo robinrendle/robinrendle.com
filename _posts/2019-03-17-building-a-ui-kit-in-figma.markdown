@@ -60,7 +60,9 @@ We needed a section of the kit where designers could learn about our common UX p
   <img class="cell-b40" src="/uploads/patterns-page.jpg"/>
 </div>
 
-Also, finally, we needed a `Symbols` page which (much like in other kits) would be where I make all the symbols and assets that those three pages above inherit from. What we needed was a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
+## Symbols
+
+We also needed a `Symbols` page which (much like in other kits) would be where I make all the Master Components that those three pages above inherit from. What we needed was a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
 
 In the Polaris kit there’s a dedicated page for this that’s pretty nearly organized:
 
