@@ -27,25 +27,30 @@ Before I opened up Figma I jotted down a quick list of all the things that our t
 
 With that in mind I spent a ton of time looking through different UI Kits, such as the [Android GUI](https://www.figma.com/file/divF7pYDKIMDfrOH0rQbRa/Android-GUI-by-Great-Simple-Studio-(Copy)?node-id=0%3A4160) or how the team at Shopify has designed their kit for [Polaris](https://polaris.shopify.com/resources/polaris-ui-kit). This all gave me a ton of inspiration as to how to structure things.
 
-So I realized that our kit could be broken up into three pages in a Figma doc:
+So I realized that our kit could be broken up into three pages in a Figma doc.
 
-### Getting started
+## Getting started
 
-This page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know.
+This page would inform designers what the UI Kit is and how to go about using it as well as any setup stuff they need to know. Today that page happens to look like this:
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/getting-started-page.jpg"/>
 </div>
 
+Ideally this page should kind of act as an FAQ for design systems questions – who the team is, how to contact us, and the basics of how to use Figma.
+
 ### Components 
 
-This would just be a list of all the components that are available to them as well as default typography styles, colors, and icons. Pretty standard stuff:
+This would just be a list of all the components that are available to them as well as default typography styles, colors, and icons. Pretty standard stuff that you’ve likely seen a million times before already:
 
 <div class="m-wrapper--full">
   <img class="cell-b40" src="/uploads/components-page.jpg"/>
 </div>
 
+
+
 ### Patterns
+
 We needed a section of the kit where designers could learn about our common UX patterns and learn how to combine certain components together. This page would show templates and more complete UI examples:
 
 <div class="m-wrapper--full">
