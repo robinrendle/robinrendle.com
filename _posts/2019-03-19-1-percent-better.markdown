@@ -10,4 +10,6 @@ Here’s an opinion without any facts or evidence: I only care about making the 
 
 You might argue that all these 1% changes are distractions from much larger projects that might have an enormous impact. 
 
-My argument would be that those massive, revolutionary projects will never happen. Instead it’s best to slowly move towards where we want to, step by step, so that we gather momentum over time.  
+My argument would be that those massive, revolutionary projects will never happen. Instead it’s best to slowly move towards where we want to, step by step, so that we gather momentum over time. 
+
+1% today is better than 50% in some distant and impossible far-flung future.
