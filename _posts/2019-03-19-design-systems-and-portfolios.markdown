@@ -11,5 +11,5 @@ I wrote up some opinions I have about [design systems and portfolios](https://cs
 
 [Jennie Yip replied](https://twitter.com/jenniesyip/status/1106731290122813440) and mentioned that their is a way to show design systems work in a portfolio, pointing to [the lovely work of Jocelyn Wong](https://jocelyn-wong.com/project-modal-component.html). But I guess maybe my point got lost in the rant a little. 
 
-What I was trying to say is that making beautiful things is, quite frankly, easy. Making a beautiful system is hard – and to do that well you often have to sacrifice the beauty of this one component or this one project for the overall harmony of the system.
+What I was trying to say in that post is that making beautiful things is, quite frankly, easier than making a beautiful system – and to do that well you often have to sacrifice or compromise the beauty of this one component or this one project for the overall harmony of the system.
 
