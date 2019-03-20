@@ -1,5 +1,5 @@
 ---
-title: Design Systems and Portfolios
+title: The Harmony of the System
 date: 2019-03-19 20:23:00 -07:00
 ---
 
@@ -9,5 +9,7 @@ I wrote up some opinions I have about [design systems and portfolios](https://cs
 > 
 > You could make things beautiful, but the best work that happens on a design systems team often isn’t beautiful. In fact, a lot of the best work isn’t even _visible_.
 
-[Jennie Yip replied](https://twitter.com/jenniesyip/status/1106731290122813440) and mentioned that their is a way to show design systems work in a portfolio, pointing to [the lovely work of Jocelyn Wong](https://jocelyn-wong.com/project-modal-component.html). But I guess maybe my 
+[Jennie Yip replied](https://twitter.com/jenniesyip/status/1106731290122813440) and mentioned that their is a way to show design systems work in a portfolio, pointing to [the lovely work of Jocelyn Wong](https://jocelyn-wong.com/project-modal-component.html). But I guess maybe my point got lost in the rant a little. 
+
+What I was trying to say is that making beautiful things is, quite frankly, easy. Making a beautiful system is hard – and to do that well you often have to sacrifice the beauty of this one component or this one project for the overall harmony of the system.
 
