@@ -18,5 +18,5 @@ What I was trying to say in that post is that making beautiful things is, quite 
 
 I mentioned to one of our designers today that certain parts of our UI are at war with one another – or that perhaps our entire design team is in a stalemate where our weapons are drawn and are at eachother’s throats. Cards and alerts, illustrations and animations – we use these to hijack attention but this increases the stakes for everyone else on the team. Now to get their UI noticed they have to escalate things even further – bolder text, bigger animations, kaboom!
 
-The goal of a design systems person is to reduce the stalemate, to stop the civil war that’s quietly raging in an organization. And to do that they must sacrifice their portfolio by [making things boring](http://blog.capwatkins.com/the-boring-designer). 
+The goal of a design systems team is to reduce the stalemate, to stop the civil war that’s quietly raging inside an organization. And to do that they must sacrifice their portfolio by [making things boring](http://blog.capwatkins.com/the-boring-designer). 
 
