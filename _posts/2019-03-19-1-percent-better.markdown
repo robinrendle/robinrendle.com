@@ -12,4 +12,4 @@ You might argue that all these 1% changes are distractions from much larger proj
 
 My argument would be that those massive, revolutionary projects will never happen. Instead it’s best to slowly move towards where we want to, step by step, so that we gather momentum over time. 
 
-1% today is better than 50% in some distant and impossible far-flung future.
+1% today is better than 50% tomorrow or some distant and impossible far-flung future.
