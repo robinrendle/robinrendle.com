@@ -10,4 +10,4 @@ Here’s an opinion without any facts or evidence: I only care about making the 
 
 You might argue that all these 1% changes are distractions from much larger projects that might have an enormous impact. 
 
-My argument would be that those massive, revolutionary projects will never happen. Instead it’s best to slowly move towards where we want to, step by step, so that we gather momentum. 
+My argument would be that those massive, revolutionary projects will never happen. Instead it’s best to slowly move towards where we want to, step by step, so that we gather momentum over time.  
