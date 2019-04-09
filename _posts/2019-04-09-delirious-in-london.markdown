@@ -20,4 +20,4 @@ Rob then digs into how you pass that kind of legislation: give people superpower
 
 I got coffee with Rob last week on a rather blustery and rainy day in the city. As we watched folks outside fight the rain we joked about writing and journalism, what makes us petty, and how we pick fights that we’re almost always going to lose. 
 
-Anyway, I’m rambling and delirious but it was one of those rare moments where someone who I admire and deeply respect hopped out of the Internet and they happen to be just as charming and brilliant as they are online.
+Anyway, I’m rambling and delirious but it was one of those rare moments where someone who I admire and deeply respect hopped out of the Internet and instead of being an attention seeking jerk they happen to be just as charming and brilliant as they are online.
