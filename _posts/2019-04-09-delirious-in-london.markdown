@@ -6,7 +6,7 @@ Country: United Kingdom
 extract: Huh? Where am I?
 ---
 
-I just hopped off an eleven hour flight from San Francisco and I feel like I’ve drunk a couple bottles of wine by myself. I’m waiting for my hotel room to open up so I can crawl under the bed, roll up into a ball, and sleep for half a day.
+I just hopped off an eleven hour flight from San Francisco and I feel like I’ve drunk a couple bottles of wine by myself. I’m waiting for my hotel room to open up so I can crawl under the bed, roll up into a ball, and sleep for an eternity.
 
 Right now I’m sat in a cafe and passing the time by reading week notes from [Paul](https://paulrobertlloyd.com/2019/04/weeknotes_13) and [Andy](https://andy-bell.design/wrote/week-notes-11/), as well as becoming one with this piece on the [climate crisis in Miami and the booming real estate market](https://popula.com/2019/04/02/heaven-or-high-water/). I’m also trying to parse this piece by Luke Jackson all about [how to avoid  building yet another React app](https://formidable.com/blog/2019/no-build-step/) but I feel like I need a couple of days to myself to unwind from web tech stuff and curl up with a few books and long stories instead. 
 
