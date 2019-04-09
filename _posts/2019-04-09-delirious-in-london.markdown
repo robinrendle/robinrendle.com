@@ -3,6 +3,7 @@ title: Delirious in London
 date: 2019-04-09 05:36:00 -07:00
 City: London
 Country: United Kingdom
+extract: Huh? Where am I?
 ---
 
 I just got off an eleven hour flight from San Francisco and I feel like I’ve drunk a couple bottles of wine by myself. I’m waiting for my hotel room to open up so I can crawl under the bed, roll up into a ball, and sleep for half a day.
