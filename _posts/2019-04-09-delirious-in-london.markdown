@@ -16,6 +16,8 @@ Speaking of which, on the plane I read my extremely-online pal Robinson Meyer’
 > 
 > Some version of the BAD problem probably exists for every issue. Paying for exorbitant cancer drugs is an outrage, but advocating for state-level insurance laws that could reduce their cost is onerous. In a way, addressing the BAD problem is part of what elected officials are supposed to do in a republic. But it’s a special problem for climate change, with its all-encompassing cause and countless diffuse harms. To fix climate change, you have to pass laws about dirt. Then you have to keep them passed.
 
+Rob then digs into how you pass that kind of legislation: give people superpowers. It’s a great piece and I don’t want to spoil any more of it. Just go read the dang thing.
+
 I got coffee with Rob last week on a rather blustery and rainy day in the city. As we watched folks outside fight the rain we joked about writing and journalism, what makes us petty, and how we pick fights that we’re almost always going to lose. 
 
 Anyway, I’m rambling and delirious but it was one of those rare moments where someone who I admire and deeply respect hopped out of the Internet and they happen to be just as charming and brilliant as they are online.
