@@ -14,7 +14,7 @@ This had me wondering what might be good advice for newsletters based on my expe
 
 ## Focus on one story at a time
 
-I try not to have a ton of disparate thoughts and topics and links in one email. I love [insert cool artists name here] but his newsletter is difficult to read because it’s all over the place. One minute he’s talking about a novel he likes and the next he’s talking about  an illustration style he likes.  
+I try not to have a ton of disparate thoughts and topics and links in one email. I love [insert cool artist’s name here] but his newsletter is difficult to read because it’s all over the place. One minute he’s talking about a novel he likes and the next he’s talking about  an illustration style he likes.  
 
 ## Keep ‘em small 
 
