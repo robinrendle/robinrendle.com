@@ -23,7 +23,7 @@ Don’t write long emails. Think about how folks read their email; it’s not a 
 
 ## Don't cherish your ideas
 
-Don’t worry if it’s perfect prose or the most insightful batch of ideas. Don’t even worry if it’s an original idea. If there’s one thing that Chris Coyier has taught me from CSS Tricks is that if I find something interesting then other folks are likely to as well. No matter how obscure or weird the topic might be. People will always read stuff that’s written in an excited and charming format.  
+Don’t worry if it’s perfect prose or the most insightful batch of ideas. Don’t even worry if it’s an original idea. If there’s one thing that Chris has taught me from CSS Tricks is that if I find something interesting then other folks are likely to as well. No matter how obscure or weird the topic might be. People will always read stuff that’s written in an excited and charming format.  
 
 ## Republish and keep experimenting
 
