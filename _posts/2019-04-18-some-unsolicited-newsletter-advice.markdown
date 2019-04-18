@@ -27,7 +27,7 @@ Don’t worry if it’s perfect prose or the most insightful batch of ideas. Don
 
 ## Republish and keep experimenting
 
-Craig Mod once wrote about how he would advise writers to publish stuff everywhere to see what sticks. Try Wordpress and Medium, try self publishing and publish the same piece in multiple formats and platforms. The reason why is because you should keep experimenting. Plus it’s good practice to figure out what forms you like and which styles, too. But each platform will encourage a certain kind of writing which you must also beware. 
+Craig Mod once wrote about how he would advise writers to publish stuff everywhere to see what sticks. Try Wordpress and Medium, try self publishing and publish the same piece in multiple formats and platforms. The reason why is because you should keep experimenting with writing styles and your own voice. Plus it’s good practice to figure out what applications and processes you like to boot. But beware: each platform will encourage a certain kind of writing.
 
 ## Always write to a best friend
 
