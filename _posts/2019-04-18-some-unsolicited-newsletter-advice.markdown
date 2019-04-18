@@ -12,12 +12,22 @@ extract: 'Punctuation and grammar be damned. '
 
 This had me wondering what might be good advice for newsletters based on my experience with Adventures and the CSS Tricks newsletter. Here’s what I’ve got so far:
 
-**Focus on one story at a time**: I try not to have a ton of disparate thoughts and topics and links in one email. I love [insert cool artists name here] but his newsletter is difficult to read because it’s all over the place. One minute he’s talking about a novel he likes and the next he’s talking about  an illustration style he likes.  
+## Focus on one story at a time
 
-**Keep em small**: don’t write too much. Think about how folks read their email; it’s not a beautiful experience and typography is still pretty dang hard to get right. After following a lot of newsletters, like Matt Taibi’s Hate Inc., I found that I only have enough time to read one with a coffee. Preferably on a Saturday morning. Any longer than that and it starts to feel like something they should post on a website or an idea that belongs in print. 
+I try not to have a ton of disparate thoughts and topics and links in one email. I love [insert cool artists name here] but his newsletter is difficult to read because it’s all over the place. One minute he’s talking about a novel he likes and the next he’s talking about  an illustration style he likes.  
 
-**Dont cherish your ideas**: don’t worry if it’s not the perfect prose or the most insightful batch of ideas. Don’t even worry if it’s an original idea. If there’s one thing that Chris Coyier has taught me from CSS Tricks is that if I find something interesting then other folks are likely to as well. No matter how obscure or weird the topic might be. People will always read stuff that’s written in an excited and charming format.  
+## Keep ‘em small 
 
-**Republish and keep experimenting**: Craig Mod once wrote about how he would advise writers to publish stuff everywhere to see what sticks. Try Wordpress and Medium, try self publishing and publish the same piece in multiple formats and platforms. The reason why is because you should keep experimenting. Plus it’s good practice to figure out what forms you like and which styles, too. But each platform will encourage a certain kind of writing which you must also beware. 
+Don’t write long emails. Think about how folks read their email; it’s not a beautiful experience and typography is still pretty dang hard to get right. After following a lot of newsletters, like Matt Taibi’s Hate Inc., I found that I only have enough time to read one with a coffee. Preferably on a Saturday morning. Any longer than that and it starts to feel like something they should post on a website or an idea that belongs in print. 
 
-**Write to a best friend**: I used to send emails to a friend in Australia. We would write to each other about design and typography as well as how our lives were going. And I cherished those emails because of how honest and sincere they were. It was a conversation between like minded friends and so the tone of each email was deliriously excited and informal. This is what I think newsletters crave to be. It should sound as if a clever friend wants to share something with you urgently; punctuation and grammar be damned. 
+## Don't cherish your ideas
+
+Don’t worry if it’s perfect prose or the most insightful batch of ideas. Don’t even worry if it’s an original idea. If there’s one thing that Chris Coyier has taught me from CSS Tricks is that if I find something interesting then other folks are likely to as well. No matter how obscure or weird the topic might be. People will always read stuff that’s written in an excited and charming format.  
+
+## Republish and keep experimenting
+
+Craig Mod once wrote about how he would advise writers to publish stuff everywhere to see what sticks. Try Wordpress and Medium, try self publishing and publish the same piece in multiple formats and platforms. The reason why is because you should keep experimenting. Plus it’s good practice to figure out what forms you like and which styles, too. But each platform will encourage a certain kind of writing which you must also beware. 
+
+## Always write to a best friend
+
+I used to send emails to a friend in Australia. We would write to each other about design and typography as well as how our lives were going. And I cherished those emails because of how honest and sincere they were. It was a conversation between like minded friends and so the tone of each email was deliriously excited and informal. This is what I think newsletters crave to be. It should sound as if a clever friend wants to share something with you urgently; punctuation and grammar be damned. 
