@@ -50,4 +50,4 @@ Another caller, in a shroud of tears and stutters, apologizes for his vote after
 
 Any other presenter would have taken this as an opportunity to gloat or say I told you so but not James. He tells the caller that isn’t his fault. He was lied to and tricked by wealthy newspaper companies and fraudsters that wanted nothing more than to be elected. You can tell that James is overwhelmed though.
 
-“Don’t be sorry.” He says as he slowly places his hands over his face. “Be angry.”
+“Don’t be sorry,” he says as he leans towards the microphone. “Be angry.”
