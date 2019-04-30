@@ -4,7 +4,7 @@ date: 2019-04-28 23:14:00 -07:00
 extract: And fighting for the middle ground.
 ---
 
-I just re-read this piece from Ethan Marcotte all about design systems and how it’s kinda easy to forget that a system is really a collection of tools, and if those tools aren’t working then that’s a problem:
+I just re-read this piece from Ethan Marcotte [all about design systems](https://ethanmarcotte.com/wrote/design-system/) and how it’s kinda easy to forget that a system is really a collection of tools, and if those tools aren’t working then that’s a problem:
 
 > Let’s say you, a hard-working designer on deadline, have to add a hero image to a page. Your company’s invested quite a bit of time and energy in creating a pattern library, or perhaps an entire design system, so you look to it for a bit of guidance. Unfortunately, none of the existing patterns are quite right: perhaps the proportions are off, or the available options don’t cover the specific combination of image, copy, and color you’ve been asked to incorporate. So: what do you do? Well, chances are high you go ahead and create a new pattern, and go on with your day.
 > 
