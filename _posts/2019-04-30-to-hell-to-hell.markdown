@@ -1,7 +1,7 @@
 ---
 title: To hell, to hell...
 date: 2019-04-30 19:15:00 -07:00
-extract: Boris Strugatsky’s afterword to _Roadside Picnic_.
+extract: Boris Strugatsky’s afterword to his perfect sci-fi novel.
 ---
 
 If you love sci-fi then you should read _Roadside Picnic_ by Arkady and Boris Strugatsky immediately. A while back I wrote a bit about [why it’s my favorite sci-fi novel](https://robinrendle.com/notes/roadside-picnic) of all time but it was only today that I read the afterword by Boris, which was written years after the fall of the Soviet Union, and in it he describes the nightmarish hell that was publishing in the 70’s and 80’s under Soviet bureaucracy:
