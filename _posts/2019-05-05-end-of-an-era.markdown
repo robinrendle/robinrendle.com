@@ -10,4 +10,6 @@ Anna Wiener writing for the New Yorker on [what’s happening with Twitter](http
 
 Boy I can’t stand this idea that technology should be left to its own devices in a short-lived bid for ‘neutrality’ – whatever the hell that means. Why can’t we make these systems honest, lovely, and beautiful instead? What’s so hard about making Twitter _good_? I guess it would require Jack to make the hard call – ban #45 and throw Twitter into a spiral of abuse and drama. Droves of people would leave. The value of Twitter would decrease exponentially with each day. 
 
+There’s often calls that this would break First Amendment rights but the thing is that Twitter is a private space. The constitution is designed to protect us all from the government and Twitter is a privately organized club. They can exclude anyone they like and we should be okay with that.
+
 But when I read about Jack and the future of Twitter it reminds me of an ancient Roman adage I think about often: [do justice and let the sky’s fall.](https://robinrendle.com/notes/do-justice-and-let-the-skies-fall/)
