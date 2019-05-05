@@ -8,6 +8,6 @@ Anna Wiener writing for the New Yorker on [what’s happening with Twitter](http
 
 > The struggle to maintain Twitter is a double referendum: first, on the sustainability of scale; second, on the pervasive belief in Silicon Valley that technology can be neutral and should be treated as such. This idea, that systems will find their own equilibrium, echoes the libertarian spirit that has long animated the Valley and fails to account for actual power imbalances that exist in the real world. In 2019, it also suggests a certain lack of vision or imagination about what social technologies can, or should, be.
 
-Boy I can’t stand this idea that technology should be left to its own devices in a short-lived bid for ‘neutrality’ – whatever the hell that means. Why can’t we make these systems honest, lovely, and beautiful instead? What’s so hard about making Twitter _good_?
+Boy I can’t stand this idea that technology should be left to its own devices in a short-lived bid for ‘neutrality’ – whatever the hell that means. Why can’t we make these systems honest, lovely, and beautiful instead? What’s so hard about making Twitter a tool for _good_?
 
-Whenever I read about Jack and the future of Twitter it reminds me of an ancient Roman adage I think about often: do justice, and let the sky’s fall.
+Whenever I read about Jack and the future of Twitter it reminds me of an ancient Roman adage I think about often: _do justice, and let the sky’s fall._
