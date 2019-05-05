@@ -10,4 +10,4 @@ Anna Wiener writing for the New Yorker on [what’s happening with Twitter](http
 
 Boy I can’t stand this idea that technology should be left to its own devices in a short-lived bid for ‘neutrality’ – whatever the hell that means. Why can’t we make these systems honest, lovely, and beautiful instead? What’s so hard about making Twitter _good_? It would require Jack to make the hard call – ban #45 and throw his whole company into a spiral. 
 
-When I read about Jack and the future of Twitterit reminds me of an ancient Roman adage I think about often: [“do justice and let the sky’s fall.”](https://robinrendle.com/notes/do-justice-and-let-the-skies-fall/)
+When I read about Jack and the future of Twitterit reminds me of an ancient Roman adage I think about often: [do justice and let the sky’s fall.](https://robinrendle.com/notes/do-justice-and-let-the-skies-fall/)
