@@ -4,7 +4,7 @@ date: 2019-05-06 22:54:00 -07:00
 extract: Measuring people makes everything worse.
 ---
 
-Jerry Muller on why using metrics to measure performance is [a really bad idea](https://aeon.co/ideas/against-metrics-how-measuring-performance-by-numbers-backfires): 
+Every tech company does – every once in a while the peer reviews will roll in and you will be Judged. No matter what you do you’ll be assigned a rating, a number, a metric and your job will be given a score. But Jerry Muller thinks that measuring people and their performance is [a bad idea](https://aeon.co/ideas/against-metrics-how-measuring-performance-by-numbers-backfires): 
 
 > More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon. I’ve termed it ‘metric fixation’. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.
 > 
