@@ -4,7 +4,7 @@ date: 2019-05-06 22:54:00 -07:00
 extract: Measuring people is a really bad idea.
 ---
 
-Every company has a Judgement Day. Once in a while the peer reviews will roll in, the managers will require a self-evaluation, and you will be Judged. No matter what you do you’ll be assigned a rating, a number, a metric and your job will be given a score out of ten or out of four. For a long time I’ve felt that this is a monumental waste of time but I’ve never been able to put this feeling into words. 
+Every company has a Judgement Day. Once in a while the peer reviews will roll in, the managers will require a self-evaluation, and you will be Judged. No matter what you do you’ll be assigned a rating, a number, a metric, and your job will be given a score out of ten or out of four. For a long time I’ve felt that this is a monumental waste of time but I’ve never been able to put this feeling into words. 
 
 Thankfully I don’t have to though because Jerry Muller has made my case for me in a brilliant piece for _Aeon_ where he argues that measuring people and their performance is [a thoroughly bad idea](https://aeon.co/ideas/against-metrics-how-measuring-performance-by-numbers-backfires): 
 
