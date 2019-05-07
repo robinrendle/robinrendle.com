@@ -6,7 +6,7 @@ extract: Measuring people makes everything worse.
 
 Every company has a Judgement Day. Once in a while the peer reviews will roll in, the managers will require a self-evaluation, and you will be Judged. No matter what you do you’ll be assigned a rating, a number, a metric and your job will be given a score out of ten or out of four. For a long time I’ve felt that this is a monumental waste of time but I’ve never been able to put this feeling into words. 
 
-Thankfully I don’t have to though because Jerry Muller has made my case for me – in a brilliant piece for _Aeon_ he argues that measuring people and their performance is [a thoroughly bad idea](https://aeon.co/ideas/against-metrics-how-measuring-performance-by-numbers-backfires): 
+Thankfully I don’t have to though because Jerry Muller has made my case for me in a brilliant piece for _Aeon_ where he argues that measuring people and their performance is [a thoroughly bad idea](https://aeon.co/ideas/against-metrics-how-measuring-performance-by-numbers-backfires): 
 
 > More and more companies, government agencies, educational institutions and philanthropic organisations are today in the grip of a new phenomenon. I’ve termed it ‘metric fixation’. The key components of metric fixation are the belief that it is possible – and desirable – to replace professional judgment (acquired through personal experience and talent) with numerical indicators of comparative performance based upon standardised data (metrics); and that the best way to motivate people within these organisations is by attaching rewards and penalties to their measured performance.
 > 
