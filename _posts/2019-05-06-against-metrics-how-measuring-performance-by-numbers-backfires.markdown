@@ -17,3 +17,5 @@ I think I’ve moaned about useless data-gathering and data-fetishism in the pas
 Any who, I really wish I could quote every sentence in this article but since I can’t, this is perhaps my favorite one-two punch from Jerry: 
 
 > Compelling people in an organisation to focus their efforts on a narrow range of measurable features degrades the experience of work. Subject to performance metrics, people are forced to focus on limited goals, imposed by others who might not understand the work that they do. Mental stimulation is dulled when people don’t decide the problems to be solved or how to solve them, and there is no excitement of venturing into the unknown because the unknown is beyond the measureable. The entrepreneurial element of human nature is stifled by metric fixation.
+
+Something something design systems something something.
