@@ -12,7 +12,7 @@ I know for sure I’m not a product designer, or a front end engineer, or a mana
 
 I want to do all of it. 
 
-<LONG SIGH>
+L O N G   S I G H
 
 I think...I’m a design systems product manager? A technical PM? Someone that can figure out all the minutiae of implementing a plan – what to design, how to go about it – and getting people into a room to make a decision that will ship.
 
