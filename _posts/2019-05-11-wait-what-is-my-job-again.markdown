@@ -8,7 +8,7 @@ I’ve had a lot of questions lately about what I do for a living. Not just from
 
 And I kinda get why – my job straddles that Bermuda Triangle of front-end development and design and product management. 
 
-I know for sure I’m not a product designer, or a front end engineer, or a manager though. I’m in the design org but... I pushed the second most amount of code in February? Although I wouldn’t call myself an engineer because I don’t care about the back end and I’ve spent the last decade learning about design (also I couldn’t do a fizz-buzz test if you put a gun to my head). And, sure, I plan a bunch of stuff and tell folks what to tackle but I don’t want to point things and I don’t care about being in 1x1s all day long. I don’t want to be a manager or a product designer or a front end engineer, really.
+But I know for sure I’m not a product designer, or a front end engineer, or a manager though. I’m in the design org but... I pushed the second most amount of code in February? Although I wouldn’t call myself an engineer because I don’t care about the back end and I’ve spent the last decade learning about design (also I couldn’t do a fizz-buzz test if you put a gun to my head). And, sure, I plan a bunch of stuff and tell folks what to tackle but I don’t want to point things and I don’t care about being in 1x1s all day long. I don’t want to be a manager or a product designer or a front end engineer, really.
 
 I want to do all of it. 
 
