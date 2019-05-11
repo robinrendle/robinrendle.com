@@ -36,6 +36,6 @@ And that’s not because I care about ‘career growth’ – today I really enj
 
 I love working quickly, shipping code, doing design and supporting my team in small but meaningful ways. 
 
-Is this a Design Technologist? Ugh I hate that term and I feel like the English language just gasped at me even contemplating saying it out loud. I guess the only other job title I could possibly have is something that sounds much more daring and exciting, something that truly defines what I do everyday. 
+Is this a Design Technologist? Ugh I hate that term though and I feel like the English language just gasped at me for even contemplating saying it out loud. I guess the only other job title I could possibly have is something that sounds much more daring and exciting, something that truly defines what I do everyday. 
 
-Okay, okay. Call me a cyber designer and let’s be done with it. 
+Okay, okay, fine. You can call me a cyber designer I guess. 
