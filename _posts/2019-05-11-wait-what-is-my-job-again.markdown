@@ -4,7 +4,7 @@ date: 2019-05-11 00:11:00 -07:00
 extract: Ugh, whatever.
 ---
 
-I’ve had a lot of questions lately about what I do for a living. Not just from my family and friends but also, heck, even a few managers that I work with at Gusto. In general there’s a lot of folks who ask me what my job is and appear to be confused by it and I’m asked this question so often that lately it’s started to confuse even me. 
+I’ve had a lot of questions lately about what I do for a living. Not just from my family and friends but also, heck, even a few managers that I work with at Gusto. In general there’s a lot of folks who ask me what my job is and appear to be confused by it and I’m asked this question so often that it’s started to confuse even me. 
 
 And I kinda get why – my job straddles that Bermuda Triangle of front-end development and design and product management. 
 
