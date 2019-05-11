@@ -32,7 +32,7 @@ Also? You need to be really, really good at spreadsheets.
 
 But that still doesn’t help describe what my current role is to folks at Gusto, or help me figure out what my career moving forwards is either. Hmph!
 
-And that’s not because I care about career growth – I really enjoy the producing side of getting things done. I love unblocking engineers and setting deadlines for designers so that a project can go out in a timely fashion. I love building UI Kits and understanding the intricacies of Figma and I adore learning about accessibility issues. I love working on a library of rules and documentation and components and I adore pairing with designers or engineers to make a thing real great.
+And that’s not because I care about career growth – today I really enjoy the producing side of getting things done and I don’t care much for titles. I love unblocking engineers and setting deadlines for designers so that a project can go out in a timely fashion. I love building UI Kits and understanding the intricacies of Figma and I adore learning about accessibility issues. I love working on a library of rules and documentation and components and I adore pairing with designers or engineers to make a thing real great.
 
 I love working quickly, shipping code, doing design and supporting my team in small but meaningful ways. 
 
