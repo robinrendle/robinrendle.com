@@ -38,4 +38,4 @@ I love working quickly, shipping code, doing design and supporting my team in sm
 
 Is this a Design Technologist? Ugh I hate that term and I feel like the English language just gasped at me even contemplating saying it out loud. I guess the only other job title I could possibly have is something that sounds much more daring and exciting, something that truly defines what I do everyday. 
 
-Okay, fine. Just call me a cyber designer and be done with it. 
+Okay, okay. Call me a cyber designer and let’s be done with it. 
