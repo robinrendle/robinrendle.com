@@ -22,7 +22,7 @@ Jina Anne mentioned this sort of feeling a couple of years ago for [24 Ways](htt
 
 Being in this hybrid role has made me feel immensely lonely and isolated from the rest of my team as my work appears to be valuable just not in the same measurable way as pure designers or developers. To be honest it’s pretty dang frustrating and at many times it’s impacted my self-esteem and anxiety in gut-crushing ways. 
 
-I’ve gained a ton of weight over the past twelve months and I sort of think it’s because of this.
+I’ve gained a ton of weight over the past twelve months and I sort of think it’s because of this feeling, too.
 
 Yet the weird thing about a design systems team is that there has to be at least one person that can toggle between both worlds and that’s because you need someone to understand the codebase and front-end development intimately as this will let you gauge the fires in front of you and figure out which ones your team must snuff out first. You also need to understand design, you need to be inundated with the culture of the org and you need to be okay with being constantly wrong about everything. You don’t need a product design background to fill this role although you need to be particular about certain things like component or illustration audits. 
 
