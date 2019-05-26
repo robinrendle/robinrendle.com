@@ -5,9 +5,16 @@ module.exports = function(eleventyConfig)  {
   eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
   eleventyConfig.addLayoutAlias('adventures', 'layouts/adventures.html');
   eleventyConfig.addLayoutAlias('projects', 'layouts/projects.html');
-  eleventyConfig.addLayoutAlias('notes', 'layouts/default.html');
+  eleventyConfig.addLayoutAlias('notes', 'layouts/notes.html');
   eleventyConfig.addPassthroughCopy('assets');
 
+  eleventyConfig.addCollection('blogposts', collection => {
+    return collection.getFilteredByGlob('_posts/*.md');
+  });
+
+  eleventyConfig.addCollection('essays', collection => {
+    return collection.getFilteredByGlob('_essays/*.md');
+  });
 
   return {
     dir: {
