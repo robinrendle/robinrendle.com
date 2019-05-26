@@ -261,78 +261,79 @@ That’s the most beautiful and interesting part about the future of typography 
 
 There are infinite *futures* of typography, and the opportunities only expand when new browsers, new features, new devices become available to us. All that’s required is a little patience and a healthy dose of curiosity.
 
+
 <div class="cell-t40 cell-b0">
-    <div class="bg-theme cell-t40 cell-b20 u-text--white about">
-        <div class="about__wrapper">
-            <div class="cell-b30 about__item">
-                <h4 class="h5 caps u-text--white underline">About me</h4>
-                <p>I’m a web designer and writer from the <span class="caps">UK</span> and now I live in San Francisco. I work at Gusto as a product designer and I also work with the team at CSS-Tricks where I try to figure out why browsers misbehave in the way that they do.</p>
-
-                <ul class="unlisted">
-                    <li>
-                        <a class="button" href="http://twitter.com/robinrendle">Twitter</a>
-                    </li>
-                    <li>
-                        <a class="button" href="http://codepen.io/robinrendle">Codepen</a>
-                    </li>
-                    <li>
-                        <a class="button" href="mailto:desk@robinrendle.com">Email</a>
-                    </li>
-                </ul>
-
-                <div class="cell-t20">
-                    <h4 class="h5 caps u-text--white underline">About the design</h4>
-                    <p class="inverse-links">Display text is set in <a href='https://djr.com/gimlet'>Gimlet</a> and running text is set in <a href="https://djr.com/fern/">Fern</a>. Both typefaces are designed by David Jonathan Ross. The first image is a woodcut by Jost Amman, made in the 16th century.</p>
-                </div>
-            </div>
-            <div class="about__item inverse-links cell-t20">
-                <h4 class="h5 underline caps u-text--white">Special thanks to</h4>
-                <ul class="thanks-list">
-                    <li><a href="http://freshpepper.co/">Jules Forrest</a></li>
-                    <li><a href="https://soundcloud.com/torsmashes/the-dress-looks-nice-on-you?in=torsmashes/sets/illinoize/">Tor</a></li>
-                    <li><a href="http://chriscoyier.net/">Chris Coyier</a></li>
-                    <li><a href="http://nicewebtype.com">Tim Brown</a></li>
-                    <li><a href="http://robinsloan.com/">Robin Sloan</a></li>
-                    <li><a href="http://alphabettes.org/">Alphabettes</a></li>
-                    <li><a href="http://djr.com">David Jonathan Ross</a></li>
-                    <li><a href="http://ilovetypography.com">John Boardley</a></li>
-                    <li><a href="http://www.aresluna.org">Marcin Wichary</a></li>
-                    <li><a href="http://jezburrows.com">Jez Burrows</a></li>
-                    <li><a href="http://www.shadycharacters.co.uk">Keith Houston</a></li>
-                    <li><a href="http://jensimmons.com/">Jen Simmons</a></li>
-                    <li><a href="http://goodonpaper.com">Andy McMillan</a></li>
-                    <li><a href="https://open.spotify.com/track/0LPkJ1v9Xirfua2oGYdYK7">American Wrestlers</a></li>
-                    <li><a href="https://twitter.com/doralchan">Dora Chan</a></li>
-                    <li><a href="http://sarahdrasnerdesign.com/">Sarah Drasner</a></li>
-                    <li><a href="http://stephencoles.org/">Stephen Coles</a></li>
-                    <li><a href="https://viljamis.com/">Viljami Salminen</a></li>
-                    <li><a href="https://twitter.com/geoffreygraham/">Geoff Graham</a></li>
-                    <li><a href="http://christophrauscher.de/">Christoph Rauscher</a></li>
-                    <li><a href="https://www.visualgui.com/">Donny Truong</a></li>
-                    <li><a href="https://www.zachleat.com/web">Zach Leatherman</a></li>
-                    <li><a href="http://kupferschrift.de/">Indra Kupferschmid</a></li>
-                    <li><a href="http://aetherpoint.com">Andrew Johnson</a></li>
-                    <li><a href="http://instagram.com/chrisrendle">Chris Rendle</a></li>
-                    <li><a href="http://www.bramstein.com/">Bram Stein</a></li>
-                    <li><a href="http://chloeweil.com/">Chloe Weil</a></li>
-                    <li><a href="http://tanmade.com/">Allen Tan</a></li>
-                    <li><a href="https://www.philswan.co.uk/">Phil Swan</a></li>
-                    <li><a href="http://www.garrettwinder.com/">Garrett Winder</a></li>
-                    <li><a href="http://paulo.is/">Paulo Pereira</a></li>
-                    <li><a href="https://jakegiltsoff.co.uk/">Jake Giltsoff</a></li>
-                    <li><a href="http://nicksherman.com/">Nick Sherman</a></li>
-                    <li><a href="http://craigmod.com/">Craig Mod</a></li>
-                    <li><a href="http://una.im/">Una Kravets</a></li>
-                    <li><a href="http://adactio.com/">Jeremy Keith</a></li>
-                    <li><a href="http://kennethormandy.com">Kenneth Ormandy</a></li>
-                    <li><a href="http://aworkinglibrary.com">Mandy Brown</a></li>
-                    <li><a href="http://robertvinluan.com/">Robert Vinlaun</a></li>
-                    <li><a href="http://www.arionpress.com/">The Arion Press</a></li>
-                </ul>
-            </div>
+  <div class="bg-theme cell-t40 cell-b20 u-text--white about">
+    <div class="about__wrapper">
+      <div class="cell-b30 about__item">
+        <h4 class="h5 caps u-text--white underline">About me</h4>
+        <p>I’m a web designer and writer from the <span class="caps">UK</span> and now I live in San Francisco. I work at Gusto as a product designer and I also work with the team at CSS-Tricks where I try to figure out why browsers misbehave in the way that they do.</p>
+        <ul class="unlisted">
+          <li>
+            <a class="button" href="http://twitter.com/robinrendle">Twitter</a>
+          </li>
+          <li>
+            <a class="button" href="http://codepen.io/robinrendle">Codepen</a>
+          </li>
+          <li>
+            <a class="button" href="mailto:desk@robinrendle.com">Email</a>
+          </li>
+        </ul>
+        <div class="cell-t20">
+          <h4 class="h5 caps u-text--white underline">About the design</h4>
+          <p class="inverse-links">Display text is set in <a href='https://djr.com/gimlet'>Gimlet</a> and running text is set in <a href="https://djr.com/fern/">Fern</a>. Both typefaces are designed by David Jonathan Ross. The first image is a woodcut by Jost Amman, made in the 16th century.</p>
         </div>
     </div>
+    <div class="about__item inverse-links cell-t20">
+      <h4 class="h5 underline caps u-text--white">Special thanks to</h4>
+      <ul class="thanks-list">
+          <li><a href="http://freshpepper.co/">Jules Forrest</a></li>
+          <li><a href="https://soundcloud.com/torsmashes/the-dress-looks-nice-on-you?in=torsmashes/sets/illinoize/">Tor</a></li>
+          <li><a href="http://chriscoyier.net/">Chris Coyier</a></li>
+          <li><a href="http://nicewebtype.com">Tim Brown</a></li>
+          <li><a href="http://robinsloan.com/">Robin Sloan</a></li>
+          <li><a href="http://alphabettes.org/">Alphabettes</a></li>
+          <li><a href="http://djr.com">David Jonathan Ross</a></li>
+          <li><a href="http://ilovetypography.com">John Boardley</a></li>
+          <li><a href="http://www.aresluna.org">Marcin Wichary</a></li>
+          <li><a href="http://jezburrows.com">Jez Burrows</a></li>
+          <li><a href="http://www.shadycharacters.co.uk">Keith Houston</a></li>
+          <li><a href="http://jensimmons.com/">Jen Simmons</a></li>
+          <li><a href="http://goodonpaper.com">Andy McMillan</a></li>
+          <li><a href="https://open.spotify.com/track/0LPkJ1v9Xirfua2oGYdYK7">American Wrestlers</a></li>
+          <li><a href="https://twitter.com/doralchan">Dora Chan</a></li>
+          <li><a href="http://sarahdrasnerdesign.com/">Sarah Drasner</a></li>
+          <li><a href="http://stephencoles.org/">Stephen Coles</a></li>
+          <li><a href="https://viljamis.com/">Viljami Salminen</a></li>
+          <li><a href="https://twitter.com/geoffreygraham/">Geoff Graham</a></li>
+          <li><a href="http://christophrauscher.de/">Christoph Rauscher</a></li>
+          <li><a href="https://www.visualgui.com/">Donny Truong</a></li>
+          <li><a href="https://www.zachleat.com/web">Zach Leatherman</a></li>
+          <li><a href="http://kupferschrift.de/">Indra Kupferschmid</a></li>
+          <li><a href="http://aetherpoint.com">Andrew Johnson</a></li>
+          <li><a href="http://instagram.com/chrisrendle">Chris Rendle</a></li>
+          <li><a href="http://www.bramstein.com/">Bram Stein</a></li>
+          <li><a href="http://chloeweil.com/">Chloe Weil</a></li>
+          <li><a href="http://tanmade.com/">Allen Tan</a></li>
+          <li><a href="https://www.philswan.co.uk/">Phil Swan</a></li>
+          <li><a href="http://www.garrettwinder.com/">Garrett Winder</a></li>
+          <li><a href="http://paulo.is/">Paulo Pereira</a></li>
+          <li><a href="https://jakegiltsoff.co.uk/">Jake Giltsoff</a></li>
+          <li><a href="http://nicksherman.com/">Nick Sherman</a></li>
+          <li><a href="http://craigmod.com/">Craig Mod</a></li>
+          <li><a href="http://una.im/">Una Kravets</a></li>
+          <li><a href="http://adactio.com/">Jeremy Keith</a></li>
+          <li><a href="http://kennethormandy.com">Kenneth Ormandy</a></li>
+          <li><a href="http://aworkinglibrary.com">Mandy Brown</a></li>
+          <li><a href="http://robertvinluan.com/">Robert Vinlaun</a></li>
+          <li><a href="http://www.arionpress.com/">The Arion Press</a></li>
+      </ul>
+    </div>
 </div>
+</div>
+
+</div>
+
 
 <h2 class='footnotes-title'>Footnotes and further reading</h2>
 
