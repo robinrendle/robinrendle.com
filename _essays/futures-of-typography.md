@@ -7,7 +7,7 @@ City: San Francisco
 Country: California
 extract: What are the skills we need to contribute to the future of typography? And
   what do two ghostly figures from the 15th century have to do with that future?
-layout: futures-of-typography
+layout: essays/futures-of-typography
 ---
 
 <span class='dropcap'>1452</span> was a year of witch hunts and plague. Wild bandits were spreading chaos throughout Europe whilst medicine, transportation and science had been in stasis for almost a millennium. But throughout all of this despair there was a glimmer of hope in the German town of Mainz. It was here that a debt-riddled printer with the enviable name Johannes Gensfleisch zur Laden zum Gutenberg had been tirelessly working on his latest project.

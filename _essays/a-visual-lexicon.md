@@ -4,8 +4,7 @@ date: 2013-12-20 06:35:00 -08:00
 tags:
 - design
 - css
-layout: visual-lexicon
-aside: 
+layout: essays/visual-lexicon
 extract: For the past six months I’ve been taking a good look at how designers and
   developers communicate with one another, jotting down the problems as I go.  The
   systems that have cropped up in between are fascinating but I believe they could
@@ -35,7 +34,7 @@ To reveal the whole system though, a true typomaniac will often bring similar al
     </figcaption>
 </figure>
 
-You learn how the smallest decisions can have surprising implications on the rest of the alphabet. An *a* is an *a* is an *a* except that you can now describe the various differences between them. X-height, contrast, descenders, terminals and stroke width become the trusted words in your vocabulary and so all of your friends now think you’ve become terribly smart. This leads to books, articles, even real life discussions where you debate the time and location in which that particular alphabet was designed. 
+You learn how the smallest decisions can have surprising implications on the rest of the alphabet. An *a* is an *a* is an *a* except that you can now describe the various differences between them. X-height, contrast, descenders, terminals and stroke width become the trusted words in your vocabulary and so all of your friends now think you’ve become terribly smart. This leads to books, articles, even real life discussions where you debate the time and location in which that particular alphabet was designed.
 
 You read the names of type designers and typographers hidden in countless rows and fields of metadata (but you want the originals, not the remixes). Yet when you try to connect their relationships with one another you find that there are simply too many of them. If an entire life was devoted to the work of [Moris Fuller Benton](http://en.wikipedia.org/wiki/Morris_Fuller_Benton), his typefaces would still somehow manage to creep up from their gloomy hiding places for so many decades after.
 
@@ -78,7 +77,7 @@ Through [this vocabulary](http://typeanatomy.com/) typographers and designers le
 
 <p>In contrast, the same cannot be said for the web. Our vocabulary seems horrifically stunted in comparison, just try to jot down the popular words and phrases that our industry recruits from day to day and look at them for a moment. It’s a depressing exercise, isn’t it? When we discuss this structure of the web – specifically the visual systems made up of <abbr title="Cascading stylesheets">CSS</abbr> – how do developers and designers describe the various components within? How do we name these things and how can members of a team truly see these systems if they cannot communicate effectively?</p>
 
-If we look at other fields, such as interface design on the iOS platform, then we can begin to see how a limited vocabulary can blind us. The debate between flat design and skeuomorphism is just one such example of interest. 
+If we look at other fields, such as interface design on the iOS platform, then we can begin to see how a limited vocabulary can blind us. The debate between flat design and skeuomorphism is just one such example of interest.
 
 Although, what’s funny about this debate is that it’s been going on for hundreds of years. It wasn’t a revolution that originated in Silicon Valley and it wasn’t the direct result of German minimalism or simplicity. Aside from this oversight, what terrifies me the most about these words is that they’re so definitive. If we choose to limit our vocabulary to these two concepts alone then we artificially set blinders around all of the other possibilities in between.
 
@@ -102,7 +101,7 @@ By looking at the words that other fields employ we can begin to notice how desi
     </figcaption>
 </figure>
 
-That uncomfortable sensation of ‘manipulating shadows’ is one which I’ve been unable to shake for quite some time now. If you’ve spent more than a few minutes in a browser trying to figure out how the cascade works or even filling out a form then you’ve probably sensed that feeling too. With those countless bugs that creep up through testing, the rising and unforeseeable technical issues that appear from seemingly nowhere; web design shares many attributes with shadows, ghosts and apparitions. As such, web design can hardly be described as engineering, a more suitable term might be ghostbusting instead. 
+That uncomfortable sensation of ‘manipulating shadows’ is one which I’ve been unable to shake for quite some time now. If you’ve spent more than a few minutes in a browser trying to figure out how the cascade works or even filling out a form then you’ve probably sensed that feeling too. With those countless bugs that creep up through testing, the rising and unforeseeable technical issues that appear from seemingly nowhere; web design shares many attributes with shadows, ghosts and apparitions. As such, web design can hardly be described as engineering, a more suitable term might be ghostbusting instead.
 
 The ‘visualizing’ part of Tim’s description in the extract above sure is interesting though. How many times has a visual feature (such as a button or list style, a typographic detail or a gradient) rendered beautifully on a desktop browser but has become unusable on a mobile device? You might argue that this is simply because a developer couldn’t see both devices at the same time. You might argue that the solution then would be brighter, shinier tools. Applications such as [Ghostlab](http://vanamco.com/ghostlab/) and [Duo](http://helloduo.com/), whereby developers and designers can visualize these problems across the vast spectrum of available devices, let us see our complex visual systems at work and it’s impossible to argue to the contrary.
 
@@ -112,7 +111,7 @@ Yet “*visualizing a tesseract*” is an incorrect summary of the problem in so
     <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/tesseract.png" alt="An illustration of a tesseract" />
 </figure>
 
-The designers, developers and project managers soon possess nothing more than the vaguest idea as to how each component works and how they can be modified for future use. Our naming conventions for these modules then tumble into abstraction or become too strict to be utilised for any other purpose. Obviously these problems have enormous implications on efficiency in the long run but can even bounce off into the real world, strengthening those negative bonds between individual team members. 
+The designers, developers and project managers soon possess nothing more than the vaguest idea as to how each component works and how they can be modified for future use. Our naming conventions for these modules then tumble into abstraction or become too strict to be utilised for any other purpose. Obviously these problems have enormous implications on efficiency in the long run but can even bounce off into the real world, strengthening those negative bonds between individual team members.
 
 
 ## Constants and variables

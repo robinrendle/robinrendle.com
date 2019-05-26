@@ -14,7 +14,7 @@ intro: We can trace a nervous path through the links and hearts that occupy our 
   principles of good design within. But why are we obsessed with typographic rules?
   And if we were to make guidelines for setting text on the web, what form should
   those rules take?
-layout: new-typography
+layout: essays/new-typography
 ---
 
 <span class="caps">In 1927, twelve months</span> before he published his infamous manifesto on typography, the German book designer Jan Tschichold criticised[^1] designers for mimicking the classical forms of design:
@@ -91,7 +91,7 @@ Thanks to this feeling of inevitable loss whenever we choose a print or a screen
 
 We dissect the media landscape into physical books on one end in order to lump websites off on the other. We love categories, we crave outlines and we need a tidy media landscape where words such as *mobile*, *tablet* and *desktop* have comprehensive, divisible meanings. But there’s an ugly implication that we ought to stick to one side of this modern-day media trench or the other. I get the impression that we should either announce our allegiance for the pro-web or the anti-web cause as there’s just not enough time or room for subtle arguments in between.
 
-Although, the longer I think about this, the more I’m led to believe in something greater than these two conflicting states. I’ve begun to think of design today as not so much defined by a binary option, but instead as a spectrum or a continuum—I’m fascinated in this space *between* the networked and un-networked texts. 
+Although, the longer I think about this, the more I’m led to believe in something greater than these two conflicting states. I’ve begun to think of design today as not so much defined by a binary option, but instead as a spectrum or a continuum—I’m fascinated in this space *between* the networked and un-networked texts.
 
 <div class="cell-t20 cell-b20 scrollable">
     <figure class="island island--transparent cell-v60 cell-l10 cell-r10">
@@ -114,7 +114,7 @@ Although, the longer I think about this, the more I’m led to believe in someth
     </figure>
 </div>
 
-Let’s take a closer look: with ebooks we can share the text, we can make highlights, append notes and in our pockets we have a vast library that follows us all over the world. But that library of ours is not public, it’s not even fair to call that library *ours*. We trade private ownership of these libraries for one with infinite shelves. 
+Let’s take a closer look: with ebooks we can share the text, we can make highlights, append notes and in our pockets we have a vast library that follows us all over the world. But that library of ours is not public, it’s not even fair to call that library *ours*. We trade private ownership of these libraries for one with infinite shelves.
 
 On the other hand, with the web, it’s hard not to dream of a Utopian media format. It’s difficult for us not to pine over what Erasmus once described as *“a library without walls,”*[^5] and it’s easy to fall victim to the excitement of Big Data and Open Source. How is it possible to avoid the giddy sensation of text which is available to edit, share or remix as we see fit? Then, there are the many websites that are publicly accessible via <span class="caps">URL</span>, but they don’t all appear to be built *for* the web: I see Facebook as a portal into a semi-accessible intranet, rather than as a series of interwoven public hypertexts. And that’s ok, too.
 
@@ -122,7 +122,7 @@ So I think the question that we need to ask ourselves, in our own time, in our o
 
 We have to acknowledge the subtlety of this continuum in our work, even if we prefer the comforts of one specific point. It must be said that I don’t have as much empathy for screens as much as I do the networks that make those screens worth having. It’s only been over the past year or so in which I’ve recognised myself as a ‘Web designer’ with a capital W, as I now believe that something happens to information and technology, and even typography itself, when people pass through these interconnected networks and interact with hypertext.
 
-It’s for these reasons that I don’t believe in “digital design” or “designing for screens” and it’s why I’m often attracted to one particular side of this spectrum. Of course, I don’t mean to say that there’s anything inherently wrong with the experience of un-networked, or semi-closed, platforms. 
+It’s for these reasons that I don’t believe in “digital design” or “designing for screens” and it’s why I’m often attracted to one particular side of this spectrum. Of course, I don’t mean to say that there’s anything inherently wrong with the experience of un-networked, or semi-closed, platforms.
 
 Each of them have, for the most part, improved over time. The Kindle’s typography has developed substantially since its original launch, and iBooks has become less gaudy. But really, it’s not the typography or the design of these digital platforms and formats that unnerve me as they once surely did. It’s because the more that I stare at and see the world through them, the more I begin to find someone staring back at me through the glass. A face reveals itself from behind these partly-connected, intranet-like platforms and self-contained applications where links are non-existent and file formats are often used to control people’s behaviour rather than to preserve or honour the integrity of the text.
 
@@ -134,7 +134,7 @@ It won’t take long for me to see an outline of this weathered face, as soon en
 
 What I mean to say is that I don’t see enough of the network in these things, and that bothers me. Instead, I want to recognise our culture and our time in a long line of other cultures and other times, much like Tschichold. So today, even though I acknowledge all the opportunities available to us along this spectrum of networktivity, I really just want to explore what happens way out at the furthest edge where the network is strongest. I’m interested in what happens to typography, or the mechanical process of setting letters into legible text, when we design interfaces on top of flimsy networks and unpredictable browsing environments. I think these technical implications have drastic consequences on how designers and developers ought to see the art of typography itself.
 
-But I think we need a guide of some description, we need rules for this new form of typography and in order to make these rules I think we need to return to Jan Tschichold and his “common, everyday book.” 
+But I think we need a guide of some description, we need rules for this new form of typography and in order to make these rules I think we need to return to Jan Tschichold and his “common, everyday book.”
 
 We must first learn about Johannes, Iwan and Jan.
 
@@ -181,7 +181,7 @@ It was around this time that Tschichold began formulating his ideas for what he 
 
 In *Die neue Typographie*, Tschichold was desperate to supply laws and guidelines for designers to emulate in their work. For example, an important section in the manifesto is written to support the “elemental letterforms,”[^6] or what we might today call *sans-serif* letters. Tschichold believed these letterforms were in “spiritual accordance” with his time and any other typeface choice would almost certainly be a mistake. Although, this was a particularly difficult issue for Tschichold to reconcile with because he despised most of the sans-serif letters that were available.
 
-It’s interesting to note, and few make this point when they recite the history of Tschichold’s work, that during the time when he published some of the most famous examples of this movement, he was still designing books and posters that completely disregarded the strict laws from his own manifesto. It appears that Tschichold was always the first to break his rules. 
+It’s interesting to note, and few make this point when they recite the history of Tschichold’s work, that during the time when he published some of the most famous examples of this movement, he was still designing books and posters that completely disregarded the strict laws from his own manifesto. It appears that Tschichold was always the first to break his rules.
 
 Perhaps this was because of the lack of commercial demand for this New Typographic style, yet I think it’s also because his rules were too specific, such as which graphic forms and styles were permitted, whilst also being too vague—what really makes this new typography *new*? So, despite my love of Tschichold’s early work, I think that preparing a set of rules for typesetting in general is an impossible task because it doesn’t take into account all of the subtleties and nuances of the work. It’s also made more difficult thanks to those churning tidal forces of culture and design, as Tschichold mentioned only a few years earlier.
 
@@ -247,7 +247,7 @@ We can learn more about prioritising the text in this way by diving deeper into 
 
 The web developer Scott Jehl has shown[^10] that the <span class="caps">FOIT</span> approach caused the text in one example to be visible in 2.7s on a 3G connection whereas the <span class="caps">FOUT</span> approach made the text visible in 0.6s. The final approach, where the text is not hidden by <span class="caps">CSS</span> or JavaScript, is therefore much faster for the user, more robust for the network, and manages to prioritise the text over the font.
 
-If you happen to be a typographer from any other realm then you might feel a bit queasy, since this obviously sounds rather perverse. Designers pick certain typefaces because they compliment the written word, why must they be limited to a grotesque smorgasbord of flashing text before they reveal their beautiful typefaces? 
+If you happen to be a typographer from any other realm then you might feel a bit queasy, since this obviously sounds rather perverse. Designers pick certain typefaces because they compliment the written word, why must they be limited to a grotesque smorgasbord of flashing text before they reveal their beautiful typefaces?
 
 From the perspective of a developer this is merely the consequence of sending text via an unstable network; the technique itself is not to blame. We can either feign the same level of control as print designers and ignore these technical considerations at the expense of the reader, or we can instead learn how to dance with this new web typography, what with all its quirks and clumsiness.[^11]
 
@@ -414,7 +414,7 @@ I believe that these weaknesses in the programming—in the technical limitation
 
 There are certainly a few interesting solutions in the works for this particular problem. In [Variable Fonts for Responsive Design](http://alistapart.com/blog/post/variable-fonts-for-responsive-design), [Nick Sherman](http://nicksherman.com/) describes a new, responsive font format for the web:
 
-<figure class="quote"> 
+<figure class="quote">
     <blockquote>
         <p>…the glyph shapes in modern fonts are restricted to a single, static configuration. Any variation in weight, width, stroke contrast, etc.—no matter how subtle—requires separate font files. This concept may not seem particularly bad in the realm of print design, where layouts are also static. On the web, though, this limitation is what I refer to as the “glass floor” of responsive typography: while higher-level typographic variables like margins, line spacing, and font size can adjust dynamically to each reader’s viewing environment, that flexibility disappears for lower-level variables that are defined within the font. Each glyph is like an ice cube floating in a sea of otherwise fluid design.</p>
     </blockquote>
@@ -463,7 +463,7 @@ Other examples[^24] of this kind might appear at first as some kind of fancy art
     </blockquote>
 </figure>
 
-By stark contrast, our current implementation of the limited `font-weight` values, and the limitation of static fonts, appears to be a combination of programmatic *and* aesthetic frailty. Our designs are held back because of the technical limitations imposed upon us. And so I suppose that this begs a question that I find difficult to answer: how else do we notice *weakness* in a typographic system, both in the code and in the design? How do we confront those inherent problems? 
+By stark contrast, our current implementation of the limited `font-weight` values, and the limitation of static fonts, appears to be a combination of programmatic *and* aesthetic frailty. Our designs are held back because of the technical limitations imposed upon us. And so I suppose that this begs a question that I find difficult to answer: how else do we notice *weakness* in a typographic system, both in the code and in the design? How do we confront those inherent problems?
 
 <div class="cell-v20 cell-v40--large">
     <figure>
@@ -475,7 +475,7 @@ Tschichold once saw frailty in a design system as being the visual references it
 
 The elderly Jan Tschichold was a little too severe when looking back at the work of Iwan and Johannes however, since the New Typography, as a movement and as a manifesto, is still important for many reasons. The first and foremost is that designers, even today, are always on the lookout for typographic laws and principles to guide them.
 
-Like Tschichold, for a time I believed that we could very easily define what good typography is. For instance, we could say that good typography is surprising and charming.[^27] Or we could be more verbose and say that good typography is a well documented technical and graphic system. Subsequently, it’s said by many designers that a legible paragraph of text should have a measure, or width from one side to the other, of roughly 75 characters. But what happens in scenarios when that’s entirely impossible? What do we do then? How on earth can small devices be capable of good typography if the classical rules of typography no longer apply? 
+Like Tschichold, for a time I believed that we could very easily define what good typography is. For instance, we could say that good typography is surprising and charming.[^27] Or we could be more verbose and say that good typography is a well documented technical and graphic system. Subsequently, it’s said by many designers that a legible paragraph of text should have a measure, or width from one side to the other, of roughly 75 characters. But what happens in scenarios when that’s entirely impossible? What do we do then? How on earth can small devices be capable of good typography if the classical rules of typography no longer apply?
 
 At some point in 2011 I remember stumbling upon a guide called *On Book Design*, written by Richard Hendel,[^28] which I hoped would unmask these hidden principles. Tell me about letter spacing, I pleaded with the book. Tell me which typefaces to use! For the love of all holy things, tell me how to design a book!
 
@@ -483,7 +483,7 @@ Hendel replied to these questions in the most frustrating way imaginable, he mer
 
 As disturbing as this was to read at the time, I soon found that almost every piece of advice about design, besides “it depends”, was a well disguised cliché of some description. And so I see the flaws in the principles that I’ve half-jokingly described here as the New Web Typography. Perhaps, one day in the near future, our networks will become so fast and so dependable that we won’t have to worry about supporting untrustworthy network conditions with strange typographic hacks. Perhaps font files will become so small that subsetting them will sound as unfamiliar to us as `<table>` based layout appears to us today.
 
-I suppose that these suggestions all deal with the instability I find when setting text for the web, and I hope to remind myself of this when a new feature replaces an older one in a browser, or a new hack emerges. I want to consider technical implications of my decisions, and I want to ensure that we think about the effects of an unstable network sending an unstable codebase, only to be interpreted by an unstable browsing environment. 
+I suppose that these suggestions all deal with the instability I find when setting text for the web, and I hope to remind myself of this when a new feature replaces an older one in a browser, or a new hack emerges. I want to consider technical implications of my decisions, and I want to ensure that we think about the effects of an unstable network sending an unstable codebase, only to be interpreted by an unstable browsing environment.
 
 Our hypertext, as fabulous as it might be,[^30] sits on a network built in the image of a sand dune. The slightest change to the environment and the whole thing topples over or gobbles up our text. Instead of building systems on shifting foundations then we must celebrate a new form of typography where we strive to navigate the instability between reader and text; I see little use in building castles out of sand.
 
@@ -501,7 +501,7 @@ I wouldn’t be writing here today if it were not for the many links that lead m
                 <h4 class="h5 caps u-text--white underline">About the author</h4>
                 <p>Robin Rendle is a web designer and writer from the <span class="caps">UK</span>. Currently he works with the team at CSS-Tricks where he tries to figure out why browsers misbehave in the way that they do.</p>
 
-                <ul class="unlisted"> 
+                <ul class="unlisted">
                     <li>
                         <a class="button" href="http://twitter.com/robinrendle">Twitter</a>
                     </li>
@@ -512,7 +512,7 @@ I wouldn’t be writing here today if it were not for the many links that lead m
                         <a class="button" href="mailto:desk@robinrendle.com">Email</a>
                     </li>
                 </ul>
-                    
+
                 <div class="cell-t20">
                     <h4 class="h5 caps u-text--white underline">Colophon</h4>
                     <p class="inverse-links">Headline text is set in <a href="http://www.houseind.com/fonts/signpainter">SignPainter HouseUpright</a> by House Industries. Running text is set in <a href="http://www.typonine.com/fonts/font-library/nocturno/">Nocturno</a> by Typonine.</p>
@@ -562,7 +562,7 @@ I wouldn’t be writing here today if it were not for the many links that lead m
     <h2 class="h4">Footnotes and further reading</h2>
 </div>
 
-[^1]: *Die literarische Welt*, 22 July 1927, Jan Tschichold. Translation from *Active Literature*, Christopher Burke, p.61. 
+[^1]: *Die literarische Welt*, 22 July 1927, Jan Tschichold. Translation from *Active Literature*, Christopher Burke, p.61.
 
 [^2]: My good pal Alex Charchar has written a more in-depth article about [Tschichold’s work at Penguin](http://retinart.net/graphic-design/jan-tschicholds-inspiring-penguins/) that’s very much worth reading. David Pearson has also made a Flickr collection with some of the [early experimental layouts](https://www.flickr.com/photos/32610318@N06/albums/72157622069144763) by Tschichold.
 
