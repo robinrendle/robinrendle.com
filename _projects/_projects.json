@@ -1,0 +1,5 @@
+{
+  "layout": "projects",
+  "tag": "projects",
+  "permalink": "essays/{{ title | slug }}.html"
+}
