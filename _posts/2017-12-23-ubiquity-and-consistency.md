@@ -7,8 +7,8 @@ tags:
 - Jeremy Keith
 - front-end development
 - web design
-City: Plymouth
-Country: UK
+city: Plymouth
+country: UK
 ---
 
 I really like this post by Jeremy Keith on [the difference between under and over-engineering](https://adactio.com/journal/13229):

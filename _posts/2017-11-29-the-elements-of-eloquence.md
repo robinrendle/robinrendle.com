@@ -7,8 +7,8 @@ categories:
 tags:
 - mark forsyth
 - book
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“English teaching at school is unfortunately, obsessed with what a poet
   thought, as though that were of any interest to anyone.”"
 ---

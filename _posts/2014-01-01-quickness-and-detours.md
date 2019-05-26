@@ -10,11 +10,9 @@ tags:
 extract: In Six Memos for the Next Millennium Italo Calvino outlines all of the attributes
   and properties of great writing that he believed ought to thrive into the distant
   future of literature
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 In *Six Memos for the Next Millennium* Italo Calvino outlines all of the attributes and properties of great writing that he believed ought to thrive into the distant future of literature. One extract which I particularly adore is from the topic of quickness where the author quotes [Carlo Levi](http://en.wikipedia.org/wiki/Carlo_Levi):

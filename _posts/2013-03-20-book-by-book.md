@@ -1,14 +1,12 @@
 ---
 title: Book by Book
 date: 2013-03-20 20:30:00 -07:00
-location: 
+location:
 extract: An article in the Paris Review forced me to look back at the books that have
   impacted my work the most over the years and I wonder how much of my reading should
   be planned and organised in the future.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 [This peculiar article](http://www.farnamstreetblog.com/2013/03/im-just-a-working-class-guy-trying-to-take-part-in-the-conversation-that-all-the-smart-people-are-having-what-books-should-i-read/) caught my eye last week. A reader of the [Paris Review](http://www.theparisreview.org/) asks for advice about how to build their library and how to start reading the very best of literature; from all across the various classics over the centuries to the flood of modern authors, journalists and bloggers of today. But it was the demonstration of sheer thirst that stopped me in my tracks:

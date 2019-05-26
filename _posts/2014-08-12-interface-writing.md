@@ -10,9 +10,9 @@ extract: Nicole Fenton has posted her notes of an excellent talk she gave on how
   improve copywriting for interfaces. Sadly though I often tend to neglect lots of
   this advice...
 update: 
-City:
+city:
 - Berlin
-Country:
+country:
 - Germany
 ---
 

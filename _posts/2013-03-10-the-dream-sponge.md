@@ -3,13 +3,11 @@ title: The Dream Sponge
 date: 2013-03-10 09:12:00 -07:00
 tags:
 - story
-location: 
+location:
 extract: A short story of a room I loved as a kid; learning how to communicate and
   realising that I was going to spend my life in a perpetual state of overactive dream-sharing.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 Several of our closest family friends had gathered at my home. I was about seven or eight at the time and we had met for a party or a celebration of some sort or another but I don’t clearly remember the event itself. Anyway, I recall my excitement about showing the rest of the kids this…well… *wonderful something* that I had stumbled upon.

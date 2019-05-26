@@ -1,6 +1,8 @@
 ---
 title: We can only chart what we can see
 date: 2018-02-22 22:51:00 -08:00
+city: San Francisco
+country: California
 extract: "“Is a word academic jargon? Is it the sort of thing you only see in a Pope
   or Blake poem? What about Doctor Who fanfic? Is this word a slur? Or is this word
   boring and everywhere, the Wonder Bread of words, remarkable only because it is

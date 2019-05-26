@@ -6,6 +6,8 @@ tags:
 - web design
 - design systems
 - featured
+city: San Francisco
+country: California
 extract: There are no heroes or parades for you in this line of work.
 ---
 

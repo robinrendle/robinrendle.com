@@ -5,7 +5,7 @@ categories:
 - books
 tags:
 - Peter Brannen
-City: Emeryville
+city: Emeryville
 extract: "“Eventually humans will be living in a sustainable way.”"
 ---
 

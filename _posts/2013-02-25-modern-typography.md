@@ -11,10 +11,8 @@ extract: How much can web designers learn from the recorded history of old, unde
   about the history of typographic practice.
 Publisher:
 - Hyphen Press
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 Not much needs to be said about <a href="http://www.hyphenpress.co.uk/books/978-0-907259-18-3">this book by Robin Kinross</a>. Once your eyes skim over the words *Hyphen Press* on the title page then you probably already know what to expect. Indeed, this small English publisher has made their consistently euphoric writings on typographic history almost commonplace (as can be seen in their [back catalogue](http://www.hyphenpress.co.uk/books) which holds some of the finest books on typographic history ever printed). But what stood out to me so brightly here is Kinross’ argument about making work public, about focusing on the impact that typographic theory had on its practice.

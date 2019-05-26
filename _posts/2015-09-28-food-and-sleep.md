@@ -8,11 +8,9 @@ tags:
 - health
 extract: When an alcoholic describes their inexorable lust I realise it's precisely
   how I would describe my relationship with Food.
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 When an alcoholic describes their inexorable lust I realise it's precisely how I would describe my relationship with Food. Unlike drinking or smoking however, I still have to eat Food everyday. And not as a guilty compulsion, but as a necessity. This means that the temptation to gorge myself stupid, to destroy my waistline and push myself far beyond the final notch of my belt is an ever-present danger with every godforsaken meal.

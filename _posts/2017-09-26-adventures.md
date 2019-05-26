@@ -6,8 +6,8 @@ categories:
 tags:
 - Writing
 - newsletter
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: If a single intelligible and kind word can be wrenched out of me as I write
   that particular week’s letter than that’s a good enough of an adventure for me.
 ---

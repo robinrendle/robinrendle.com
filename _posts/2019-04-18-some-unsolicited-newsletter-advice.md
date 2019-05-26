@@ -1,8 +1,8 @@
 ---
 title: Some Unsolicited Newsletter Advice
 date: 2019-04-18 05:36:00 -07:00
-City: Saltash
-Country: Cornwall
+city: Saltash
+country: Cornwall
 extract: 'Punctuation and grammar be damned. '
 ---
 

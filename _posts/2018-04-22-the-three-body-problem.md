@@ -4,6 +4,8 @@ date: 2018-04-22 16:21:00 -07:00
 categories:
 - reading
 - books
+city: San Francisco
+country: California
 tags:
 - Liu Cixin
 - sci-fi

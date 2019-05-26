@@ -6,11 +6,9 @@ tags:
 - reading
 - featured
 extract: Make a note of your favourite writers. Now, read their first names aloud.
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 Make a note of your favourite writers. Now, read their first names aloud.

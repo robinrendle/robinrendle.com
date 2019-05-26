@@ -3,6 +3,8 @@ title: Design Systems at Gusto
 date: 2018-04-11 21:41:00 -07:00
 tags:
 - featured
+city: San Francisco
+country: California
 extract: Whether you’re just starting out building a complicated front-end, or if
   you’re getting ready to build a style guide at a large organization then hopefully
   you can learn from some of my mistakes.
@@ -47,7 +49,7 @@ As we started to flesh out Dora’s prototype we had three goals that drove all 
 This is something that all teams of a certain size need and so it’s unlikely that this news to anyone at this point. However, I think it’s easy for these sorts of rules to become mean and nasty given the right tone. So in the introduction to The Guide I set out to inform the team of our goals in a more collaborative spirit:
 
 > This is where all of the documentation for Gusto’s design system is archived for safe keeping; it contains all the assets you need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of The Guide as a sort of Pokédex.
-> 
+>
 > Ideally this is where we can share information and collaborate in a public space to gain consensus across missions in terms of code, design, accessibility, performance, and branding. If we improve a single component here in The Guide then all of our apps and features will reap the rewards at the same time in a predictable manner.
 
 Building The Guide was tough going though. It required taking all of our code out of our main app, cleaning it up, and placing it into a new repo called the Component Library. This way we would have a common group of components that could be used in any application that Gusto builds for the future. But a great deal of time was spent talking to engineers and designers about this plan and imagining a future where design and development was not only easy but breezy, too.
@@ -94,6 +96,6 @@ And the same is true of a design team. With each new addition the relationships 
 
 ![1_xXesP2yaHyOn15a0QhhjZA.png](/uploads/1_xXesP2yaHyOn15a0QhhjZA.png)
 
-Style guides and pattern libraries are important to tackle the inevitable miscommunication errors that pop up in between these complex relationships. However! The real goal of design systems work is to make sure that these relationships are fruitful and in sync with one another from the get go: all of our efforts should be focused on decreasing the social complexity of our teams. That’s the future of design systems. 
+Style guides and pattern libraries are important to tackle the inevitable miscommunication errors that pop up in between these complex relationships. However! The real goal of design systems work is to make sure that these relationships are fruitful and in sync with one another from the get go: all of our efforts should be focused on decreasing the social complexity of our teams. That’s the future of design systems.
 
 At least, it’s how I’m thinking about all of this today.

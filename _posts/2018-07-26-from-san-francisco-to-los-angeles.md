@@ -2,13 +2,15 @@
 title: From San Francisco to Los Angeles
 date: 2018-07-26 23:49:00 -07:00
 extract: You can see the climate crisis everywhere, in everything.
+city: San Francisco
+country: California
 ---
 
-You can see the climate crisis everywhere, in everything. 
+You can see the climate crisis everywhere, in everything.
 
-On the drive down you can see it in the signs that are posted in the dirt by farms on the edge of the freeway: “BUILD DAMS!” they scream. “WE NEED WATER, NOW” another sign begs in giant sans-serif letters next to it. You can see the climate crisis in the crops that stretch to the horizon that ought to be green but are a Mad Max gold instead. You can even feel the climate crisis in the air itself when pulses of heat ripple through the land, just a few degrees short of becoming unbearable, unlivable. 
+On the drive down you can see it in the signs that are posted in the dirt by farms on the edge of the freeway: “BUILD DAMS!” they scream. “WE NEED WATER, NOW” another sign begs in giant sans-serif letters next to it. You can see the climate crisis in the crops that stretch to the horizon that ought to be green but are a Mad Max gold instead. You can even feel the climate crisis in the air itself when pulses of heat ripple through the land, just a few degrees short of becoming unbearable, unlivable.
 
-It’s clear that the climate crisis isn’t going to be some distant trouble of Nairobi or Singapore and you don’t need a degree in climate science to see that California is a paradise in the midst of a catastrophe. 
+It’s clear that the climate crisis isn’t going to be some distant trouble of Nairobi or Singapore and you don’t need a degree in climate science to see that California is a paradise in the midst of a catastrophe.
 
 All the signs are here.
 
@@ -22,9 +24,9 @@ With a light touch on the throttle you blitz past and leave them in your dust.
 
 ![14.jpg](/uploads/14.jpg)
 
-The next day is your birthday. You wake up and head towards the hills and up and around Mulholland Drive. You see the urban sprawl for the first time in all its sheer horror/wonder. You gasp at this city that people have built in such a short amount of time. But LA is not really a city, you realize, it’s a megacity – a metropolis built around the automobile. 
+The next day is your birthday. You wake up and head towards the hills and up and around Mulholland Drive. You see the urban sprawl for the first time in all its sheer horror/wonder. You gasp at this city that people have built in such a short amount of time. But LA is not really a city, you realize, it’s a megacity – a metropolis built around the automobile.
 
-The whole time you’ve been in LA you’ve been wondering where all the movie money goes, now you turn a corner and you find that it’s just been plowed back into the hillsides. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighborhoods. 
+The whole time you’ve been in LA you’ve been wondering where all the movie money goes, now you turn a corner and you find that it’s just been plowed back into the hillsides. Hundreds, thousands of mansions and gorgeous homes dot the cliffs and valleys of the surrounding neighborhoods.
 
 Something like this in England would be torn down in a heartbeat but, out here, flaunting wealth in this way is somehow inspirational to people. We would likely see it as capitalism on steroids. Mass hysteria. People just shouldn’t have this much money. It’s broken, the whole damn thing is broken, you think as you boom around the hillsides.
 
@@ -36,13 +38,13 @@ Public spaces should always have plenty of shade in a city that sits on the edge
 
 ![IMG_4607-1.jpg](/uploads/IMG_4607-1.jpg)
 
-It’s impossible to get anywhere without a car in LA but it’s also impossible to park. Thankfully your bike can fit on the pavement, behind a bush, on the very tip of the road and tuck up and out of the way for everyone else. Parking is always free, too. 
+It’s impossible to get anywhere without a car in LA but it’s also impossible to park. Thankfully your bike can fit on the pavement, behind a bush, on the very tip of the road and tuck up and out of the way for everyone else. Parking is always free, too.
 
 From the Observatory you can see the haze of pollution that hovers over the city at all times of the day, producing beautiful sunsets of orange and the brightest of pinks at night. The climate crisis is something I can’t stop thinking about because here it’s unavoidable. You can’t hide from it, as even in the family-friendly tourist spots, apocalypse looms.
 
 ![38.jpg](/uploads/38.jpg)
 
-The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. Well, now’s your chance. 
+The next day you’re on the bike again. You’re bored of the heat and since a kid you’ve wanted to drive on the Pacific Coast Highway. Well, now’s your chance.
 
 On the way out of the city you drive into another fancy area with McMansions everywhere. At an intersection you get caught in the traffic for a moment and suddenly you find yourself locking eyes with the actress that plays Maeby Fünke in Arrested Development, Alia Shawkat. It’s a weird moment where Hollywood is no longer teeming with movie stars but with people going about doing their jobs. All the magic of the place vanishes with that quick glance.
 
@@ -66,9 +68,9 @@ After seven hours of driving you break off from the mountains and onto the coast
 
 The clouds are tumbling about in the sea of blue above you and are constantly shape-shifting in an effort to impress and cajole you into looking at them.
 
-![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg) 
+![IMG_4739-1.jpg](/uploads/IMG_4739-1.jpg)
 
-The sun is starting to set now. But your bike is ready again. In certain moments your motorcycle is like a horse with a personality and suddenly becomes impatient, wants to get going and move things along. You can feel his anticipation and excitement for what we’re about to do next along these cliffs. 
+The sun is starting to set now. But your bike is ready again. In certain moments your motorcycle is like a horse with a personality and suddenly becomes impatient, wants to get going and move things along. You can feel his anticipation and excitement for what we’re about to do next along these cliffs.
 
 Either that or the California desert sun has finally pushed you over the edge.
 

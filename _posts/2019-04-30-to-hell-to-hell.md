@@ -2,6 +2,8 @@
 title: To hell, to hell...
 date: 2019-04-30 19:15:00 -07:00
 extract: Boris Strugatsky’s afterword to his perfect sci-fi novel.
+city: San Francisco
+country: California
 ---
 
 If you love sci-fi then you should read _Roadside Picnic_ by Arkady and Boris Strugatsky immediately. A while back I wrote a bit about [why it’s my favorite sci-fi novel](https://robinrendle.com/notes/roadside-picnic) of all time but it was only today that I read the afterword by Boris, which was written years after the fall of the Soviet Union, and in it he describes the nightmarish hell that was publishing in the 70’s and 80’s under Soviet bureaucracy:
@@ -11,4 +13,3 @@ If you love sci-fi then you should read _Roadside Picnic_ by Arkady and Boris St
 It took _eight painstaking years_ of correspondence between all the agencies of Moscow and endless letters back and forth between the two brothers (one of which Boris explains the latest delay to Arkady: “To hell, to hell...”). But after all the years of arguments between bureaucrats and agencies, Boris realized that he had it all wrong. The system wasn’t trying to stop them from publishing their book because it was ideological – it was because the language was bleak and hopeless, where most sci-fi at the time was uplifting and fantastical:
 
 > It didn’t even cross our minds that the issue had nothing to do with ideology. They, those quintessential “bloody fools,” _actually did think this way_: that language must be colorless, smooth, and glossy as possible and certainly shouldn’t be at all coarse; that science fiction necessarily has to be fantastic and on no account should have anything to do with crude, observable, and brutal reality; that the reader must in general be protected from reality—let him live by daydreams, reveries, and beautiful incorporeal ideas...
-

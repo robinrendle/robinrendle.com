@@ -15,10 +15,8 @@ update: This is a summary of my talk from our first [Erskine Breakfast](http://b
   a new kind of event where we invite two speakers round for a quick chat about web
   design and development. This week we discussed modularity, both in terms of designing
   components instead of pages and the best practices behind creating front-end interfaces.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 Project:
 - endsleigh
 ---
@@ -31,7 +29,7 @@ There’s been various discussions about [atomic design](http://bradfrostweb.com
 <figcaption class="cite"><p>Nicolas Gallagher, <em><a href="https://twitter.com/necolas/status/360170108028600320">24th July 2013</a></em></p></figcaption>
 </figure>
 
-Anyone that’s worked on a relatively large front-end system has probably experienced that nauseous feeling whilst navigating all of those partials, files and directories that make up [this interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/) and so every developer should be able to empathise with this idea of maintenance. 
+Anyone that’s worked on a relatively large front-end system has probably experienced that nauseous feeling whilst navigating all of those partials, files and directories that make up [this interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/) and so every developer should be able to empathise with this idea of maintenance.
 
 As I’ve flipped between the text editor to the web inspector, from the web inspector and back to the browser again, just to understand how a particular aspect of this system works, I’ve wondered how we can fix these interconnected problems. But it isn’t CSS or Sass specifically that’s slowing us down when we write code, it isn’t what’s driving us mad.
 
@@ -43,7 +41,7 @@ When Nicolas talks about modularity he obviously suggests that websites shouldn�
 
 If modularity is the solution to our problems, then *maintenance is the key problem* that we’re trying to solve here. That’s the goal.
 
-Say a client comes back to you in six months time and asks for a new component to be added to the site. First you have to remember how this site works. You have to remember all of those little hacks you performed to *just make it work*, as well as the areas where documentation is sure to be found wanting. 
+Say a client comes back to you in six months time and asks for a new component to be added to the site. First you have to remember how this site works. You have to remember all of those little hacks you performed to *just make it work*, as well as the areas where documentation is sure to be found wanting.
 
 Next you have to add code to this system that probably wasn’t designed to be built on top of in the first place. Generally our front-end interfaces are not designed to have different types of forms or new sorts of layout modules slapped onto them in the future.
 
@@ -52,7 +50,7 @@ And these are just the problems we face when working within our own projects, im
 In order to make sure that these websites can grow almost organically then we need to guarantee that they can be maintained. Our code needs to be human readable, and if this is the case then maintenance is primarily about interface design; with developers being the users in this example.
 
 ## So how do we make maintainable systems?
-Well, first we need to think about design a little bit. As I’ve worked at Erskine I’ve learnt a ton about the best sorts of processes and mindsets to get into before undertaking complex projects. 
+Well, first we need to think about design a little bit. As I’ve worked at Erskine I’ve learnt a ton about the best sorts of processes and mindsets to get into before undertaking complex projects.
 
 When we begin the design of a website we tend to think of it in steps. We go from a text editor or from a Google Docs file to a sitemap perhaps. Then we begin wireframing – at this stage there is no colour, there’s no fancy typefaces or ‘long-shadows’. Decisions aren’t primarily aesthetic because we know that if we jumped into designing the delicate little buttons and border-radiuses of input fields, before we tackle the vagueness of the whole thing in general, then we’d end up in a world of pain and confusion later. This way we allow for all of the variables that are out there to be systematically dealt with in an orderly fashion and hopefully this lets us confront the needs of many users in the process.
 

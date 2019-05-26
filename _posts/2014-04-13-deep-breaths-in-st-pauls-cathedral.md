@@ -10,11 +10,9 @@ extract: The weeks leading up to a speaking event my nerves will inevitably begi
   and back again, whilst sleep becomes entirely out of the question. Soothing these
   nerves just before I step onto the stage and find these strangers staring back at
   me is difficult work.
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 ![St Paul’s cathedral](/uploads/st-pauls.jpg)

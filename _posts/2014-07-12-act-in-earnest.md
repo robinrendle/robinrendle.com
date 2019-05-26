@@ -12,11 +12,9 @@ extract: Whilst you’re writing it’s entirely possible to throw everything aw
   of those cheesy phrases or clichés are likely to be cast off during the review process
   whilst, for those awkward rhymes and alliterative phrases that pass you by without
   notice, a friendly editor is often there to help tidy your thoughts.
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 Whilst you’re writing it’s entirely possible to throw everything away and start again if you don’t like how things are working out. If the tone is too harsh or your voice is too light, a quick adjustment can tighten the bolts. Likewise most of those cheesy phrases or clichés are likely to be cast off during the review process and for other ailments, such as awkward rhymes or alliterative phrases that pass you by without notice, a friendly editor is often there to help tidy your thoughts.

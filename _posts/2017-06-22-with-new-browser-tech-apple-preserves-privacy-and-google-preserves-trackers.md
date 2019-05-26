@@ -3,8 +3,8 @@ title: With New Browser Tech, Apple Preserves Privacy and Google Preserves Track
 date: 2017-06-22 23:20:00 -07:00
 categories:
 - links
-City: San Francisco
-Country: CA
+city: San Francisco
+country: CA
 extract: "“Ad quality needs to improve and advertisers must abandon any attempt to
   hijack our attention with disruptive audio, flashing animation, or screen takeovers.
   But this alone will not win back the trust of users alienated by an ad system run

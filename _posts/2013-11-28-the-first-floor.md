@@ -9,11 +9,9 @@ tags:
 extract: I can’t stop thinking about this story from the latest issue of Codex magazine
   where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all
   the facets and inner-workings of this celebrated graphic design agency in New York.
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 I can’t stop thinking about this story from the latest issue of Codex magazine where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all the facets and inner-workings of this celebrated graphic design agency in New York. The designer then asks Lubalin how he managed to work in an office filled with such inspiring typographic activity, here came the reply:

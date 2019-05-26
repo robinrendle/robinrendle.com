@@ -6,8 +6,8 @@ categories:
 tags:
 - mandy brown
 - books
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 ---
 
 I often think about a post that Mandy Brown wrote way back in 2009 called [Ways of Reading](http://aworkinglibrary.com/writing/ways-of-reading/). In that post Mandy argues that we should “always read with a pen in hand” and “think of the text as the starting point for your own words” – which, of course, I adore:

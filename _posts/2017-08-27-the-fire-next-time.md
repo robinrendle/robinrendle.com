@@ -6,8 +6,8 @@ categories:
 tags:
 - james baldwin
 - religion
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: Rambling notes on the collection of essays by James Baldwin
 ---
 

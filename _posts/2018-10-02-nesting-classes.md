@@ -1,6 +1,8 @@
 ---
 title: Nesting Classes in Sass
 date: 2018-10-02 23:07:00 -07:00
+city: San Francisco
+country: California
 extract: Nesting classes in Sass is maybe not such a great idea. There, I said it!
 ---
 

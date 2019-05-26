@@ -2,6 +2,8 @@
 title: The hardest thing about design systems
 date: 2019-02-22 19:41:00 -08:00
 extract: And a note on drop shadows.
+city: San Francisco
+country: California
 ---
 
 One of the hardest parts about design systems work is that you have to treat it all like designing a blog – the work requires tiny, incremental improvements that build up over time instead of giant reinventions of the wheel that never ship.
@@ -12,7 +14,7 @@ I see this problem everywhere in the community; dudes seem to think that design 
 
 Fuck your drop shadows.
 
-Likewise I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists. I’ve been doing “design systems” work since I was 18 and so many other front-end oriented folks have done likewise. 
+Likewise I’m bored of how many folks treat design systems as this super cool and sexy work that didn’t exist a couple of years ago. An example? Yesterday I spent all day searching through a million lines of code to find how many instances of the class name “checkbox” exists. I’ve been doing “design systems” work since I was 18 and so many other front-end oriented folks have done likewise.
 
 Because the only way to build a great website is with a system – we just didn’t call it that back in the day. We called it front-end architecture.
 

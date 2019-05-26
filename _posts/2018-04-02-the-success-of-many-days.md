@@ -4,6 +4,8 @@ date: 2018-04-02 11:45:00 -07:00
 categories:
 - reading
 - books
+city: San Francisco
+country: California
 tags:
 - typography
 - nick harkaway

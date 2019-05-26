@@ -9,11 +9,9 @@ extract: Unlike the title suggests however, the book is not in any way didactic 
   scientific, instead it overflows with questions and ideas, each illustrated in a
   way that lets the reader hover over the pages with glee. I’d rather not spoil the
   fun, since his book is endlessly quotable in every which way...
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 I’m adding [Peter Mendelsund’s](https://twitter.com/mendelsund) book *What we see when we read* to the small pile of books that I’ll heartily recommend to everyone – it’s a meandering collection of thoughts about what happens during the act of reading. Unlike the title suggests however, the book is not in any way didactic or scientific, instead it overflows with questions and ideas, each illustrated in a way that lets the reader hover over the pages with glee. I’d rather not spoil the fun, since his book is endlessly quotable in every which way, but I do want to share this short extract:

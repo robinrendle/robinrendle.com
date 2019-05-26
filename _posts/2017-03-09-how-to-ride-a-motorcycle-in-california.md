@@ -3,8 +3,8 @@ title: How to ride a motorcycle in California
 date: 2017-03-09 21:25:00 -08:00
 categories:
 - personal
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: Considering I’m from the UK there were a few peculiar obstacles I had to
   circumnavigate before I could get back to riding a motorcycle, hence I thought it
   might be helpful for others if I jotted that whole process down. At the beginning

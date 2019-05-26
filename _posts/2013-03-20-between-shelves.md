@@ -7,10 +7,8 @@ tags:
 extract: After a few months of using Readmill as my primary go-to reading app, I wanted
   to break down all the reasons why this startup is nailing it in this often miserable
   and overcrowded space.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 The longer I use [Readmill](www.readmill.com/robinrendle) the more quickly I find myself falling in love. Aside from its clean interface and the fine typography though, the limited number of features don’t really leave much of an impression at first. It took a considerable amount of time for me to realise however, that Readmill is one of those exceptional apps that is better judged by what it doesn’t do; those missing features (what might be called distractions from reading) are entirely deliberate.

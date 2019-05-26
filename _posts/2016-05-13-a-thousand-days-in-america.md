@@ -5,8 +5,8 @@ categories:
 - personal
 tags:
 - gusto
-City: London
-Country: UK
+city: London
+country: UK
 extract: I’m moving to San Francisco. After months of waiting, hoping, with fingers-crossed,
   the stars in the constellation of American bureaucracy aligned themselves this morning
   as I stood in the queue at the u.s. Embassy in London. But there was no certificate

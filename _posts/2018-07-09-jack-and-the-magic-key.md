@@ -8,6 +8,8 @@ tags:
 - mom
 - dad
 extract: "“This very special key opens a very special door...”"
+city: San Francisco
+country: California
 ---
 
 It’s 2007: I’m sat in the kitchen watching a family friend and her four year old son talk to my mom. Over the course of a few minutes I notice how this kid, Jack, is starting to get bored; his eyes roll into the back of his head and all of his limbs begin to fidget independently of the host as if he’s possessed by the spirit of boredom itself.
@@ -16,7 +18,7 @@ In a flash my mom notices this before her friend does. Her eyes dart around the 
 
 But my mom gets down to Jack’s level and hijacks his attention with the key. She twirls it between her fingers and Jack’s eyes expand to the size of saucers.
 
-My mom whispers in his ear. 
+My mom whispers in his ear.
 
 “This key opens a door somewhere in our home,” her hand outstretched, sweeps across the air as if our house was a castle in the Scottish highlands, a scary and adventurous place that little Jack might get lost in. “And this very special key opens a very special door. So, Jack…” My mom pauses for emphasis “…you’re the only one that can help me find it.”
 
@@ -24,7 +26,7 @@ At this point all of Jack’s boredom had been converted into pure, unbridled ex
 
 ***
 
-I didn’t realize this until I was an adult but when I was a young kid my family went bankrupt and my father’s successful business disappeared almost over night. Our small family, just my dad, my mom, my brother and me, lost everything. Our grandparents died and we’d been ostracized from cousins, sisters and distant brothers before I was born and so there was no-one to call for backup. 
+I didn’t realize this until I was an adult but when I was a young kid my family went bankrupt and my father’s successful business disappeared almost over night. Our small family, just my dad, my mom, my brother and me, lost everything. Our grandparents died and we’d been ostracized from cousins, sisters and distant brothers before I was born and so there was no-one to call for backup.
 
 After my dad finally relented in telling us the details decades later I remembered that for years my brother and I had slept on the floor without a mattress. We didn’t have wallpaper. We had no toys or even a television until we were much older.
 

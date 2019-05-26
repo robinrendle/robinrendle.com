@@ -1,8 +1,8 @@
 ---
 title: Cassandra Plays the Stock Market
 date: 2017-07-21 23:56:00 -07:00
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 ---
 
 Tim Maly on [the election](http://quietbabylon.com/2017/cassandra-plays-the-stock-market/):

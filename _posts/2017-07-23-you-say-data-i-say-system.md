@@ -8,8 +8,8 @@ tags:
 extract: "“Whenever you look at data — as a spreadsheet or database view or a visualization,
   you are looking at an artifact of such a system. What this diagram doesn’t capture
   is the immense branching of choice that happens at each step along the way”"
-Country: California
-City: San Francisco
+country: California
+city: San Francisco
 ---
 
 [Jer Thorp on data systems](https://hackernoon.com/you-say-data-i-say-system-54e84aa7a421) and how bias, whether intentional or not, affects the representation of that data:

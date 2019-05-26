@@ -10,11 +10,9 @@ tags:
 extract: Last week I wrote about a new method for setting type by using Sass maps.
   In summary I argued that font-size and line-height settings can be tied to specific
   fonts for ease of use when writing a lot of code.
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 Last week I wrote about [an interesting method](http://erskinedesign.com/blog/setting-typographic-scale-with-sass-maps/) for setting type by using a brand new feature in [Sass 3.3](http://blog.sass-lang.com/posts/184094-sass-33-is-released) called maps. This essentially lets you store lots of data in nested lists which can then be accessed via a mixin or a function. In that post on the Erskine blog I ultimately argued for font-size and line-height settings to be tied to specific fonts in these Sass maps because it’s far easier to read, write and, of course, maintain in the long run.

@@ -5,18 +5,20 @@ tags:
 - figma
 - ui kit
 extract: A few notes on how we built the UI Kit at Gusto.
+city: San Francisco
+country: California
 ---
 
 I’ve been working on our UI Kit at Gusto for a couple of months now – this is a project in Figma that lets other designers on our team examine our components and get a better picture of what’s available to use in their own designs. There’s buttons and forms, typographic styles and colors, a verifiable cornucopia of icons and illustrations to reuse and, in time, improve.
 
-The other day I changed one symbol in our UI Kit though and watched as hundreds of components updated their colors, fonts, and other styles, saving me about a whole day of work. And I realized that being slow and considerate – putting all this effort into how things are built – really pays off in the long run. 
+The other day I changed one symbol in our UI Kit though and watched as hundreds of components updated their colors, fonts, and other styles, saving me about a whole day of work. And I realized that being slow and considerate – putting all this effort into how things are built – really pays off in the long run.
 
 Here’s some very rough notes about that process, how I went about organizing the kit, and all the challenges I encountered along the way.
 
 
 ## Understanding the problem
 
-Before I opened up Figma I jotted down a quick list of all the things that our team needed to make great work. After a bit of interviewing and research I found that our designers need to: 
+Before I opened up Figma I jotted down a quick list of all the things that our team needed to make great work. After a bit of interviewing and research I found that our designers need to:
 
 - learn what components exist
 - have a single source of truth where all the documentation lives
@@ -36,7 +38,7 @@ This page would inform designers what the UI Kit is and how to go about using it
 
 Ideally this page should kind of act as an FAQ for design systems questions – who the team is, how to contact us, and the basics of how to use Figma.
 
-## Components 
+## Components
 
 This would be a list of all the components that are available to our design team as well as default typography styles, colors, and icons. Pretty standard stuff that you’ve likely seen a million times before already:
 
@@ -59,7 +61,7 @@ We needed a section of the kit where designers could learn about our common UX p
 
 ## Symbols
 
-We also needed a `Symbols` page which (much like in other kits) would be where I make all the Master Components that those three pages above inherit from. What we needed was a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms. 
+We also needed a `Symbols` page which (much like in other kits) would be where I make all the Master Components that those three pages above inherit from. What we needed was a private space that other designers don’t interact with but is where I can have all the different variants of buttons and forms.
 
 In Shopify’s Polaris design system they have their own web UI kit which happens to be in Sketch and they have a dedicated page for this that’s pretty nearly organized:
 
@@ -85,7 +87,7 @@ So wait – how do you use instances and why are they neat? Well, if you were in
   <video autoplay autostart loop src="/uploads/error-states-animation.mp4" class="cell-b40" />
 </div>
 
-Neat, huh? I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents. 
+Neat, huh? I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents.
 
 You could set this up in your own kit to switch between different themes of a component, such as `ButtonPrimary/Darkmode` or something. But at Gusto we use this in a couple of clever ways: we have a few user profiles where the UI will change depending whether you’re an employee or an employer. And so I created a `Layout` component that lets folks switch between the different UIs:
 
@@ -95,10 +97,10 @@ You could set this up in your own kit to switch between different themes of a co
 
 So as you can see we have different kinds of `PageTitle` – a regular old title as well as tabs and a progress bar for flows. Ideally designers shouldn’t have to keep dragging in new components and aligning them all over the place and figuring out spacing each time – with Instances we can stop some of those repetitive tasks.
 
-The reason why I’m bragging about this is because I’ve found it’s saved me a TON of time drawing these things. And toggling these components on and off and replacing them with variants feels like working with a space-age design tool. 
+The reason why I’m bragging about this is because I’ve found it’s saved me a TON of time drawing these things. And toggling these components on and off and replacing them with variants feels like working with a space-age design tool.
 
 
-## A Note on Styles 
+## A Note on Styles
 
 At Gusto we have a color palette that can be used to design new components or make slight adjustments to existing ones. It’s what we call a CSS “helper” where you can write code like this in React to change the color of some text:
 
@@ -115,23 +117,23 @@ This is great because often I don’t think designers will even need to view our
 
 To make this color palette I had to go through our front-end and understand our system and make sure that the variable names match up exactly – and that’s when I discovered a lot of this work requires constantly diving into the front-end, looking at what’s currently possible, and then making a system in Figma to reflect that.
 
-Anyway, when a designer starts a new Figma doc (it would be so neat if you could do this by typing in http://figma.com/new or something like how Google Docs does things) they can immediately use the component from our design system by toggling `option` + `2`. 
+Anyway, when a designer starts a new Figma doc (it would be so neat if you could do this by typing in http://figma.com/new or something like how Google Docs does things) they can immediately use the component from our design system by toggling `option` + `2`.
 
 On the left hand side there’ll be a list of all the components available to them which they can also drag and drop into their designs without having to head over to our kit.
 
 
-## Onboarding designers is pretty dang easy 
+## Onboarding designers is pretty dang easy
 
 I think perhaps the second greatest advantage of using Figma over other design tools is that I don’t have to worry about which version of the UI Kit, or even which version of Figma to that extent, is being used by our design team. Everyone is constantly on the latest version and so I don’t have to manage software versions or bug folks to update things.
 
 On day one of starting Gusto we can just point them to figma.com and they’re off to the races!
 
-Although one thing we have to make sure is that everyone on our team is familiar with Figma’s way of doing things. Using a component library directly in a design tool is still a pretty novel concept for many and so we have to sit down with designers during onboarding to make sure they have a firm grasp of this stuff. A short while ago we started onboarding our designers and familiarizing them with our design system so that we get to chat to them about how Figma works. The neat thing is that this gives us an opportunity to get to introduce ourselves and explain how our design systems team can work with them and their design process, too. 
+Although one thing we have to make sure is that everyone on our team is familiar with Figma’s way of doing things. Using a component library directly in a design tool is still a pretty novel concept for many and so we have to sit down with designers during onboarding to make sure they have a firm grasp of this stuff. A short while ago we started onboarding our designers and familiarizing them with our design system so that we get to chat to them about how Figma works. The neat thing is that this gives us an opportunity to get to introduce ourselves and explain how our design systems team can work with them and their design process, too.
 
 
-## Random note: overlays are super neat 
+## Random note: overlays are super neat
 
-One pattern that I really like is the concept of [Overlays](https://www.figma.com/blog/introducing-overlays-taking-prototyping-to-the-next-layer/) in Figma, as they noted on their blog: 
+One pattern that I really like is the concept of [Overlays](https://www.figma.com/blog/introducing-overlays-taking-prototyping-to-the-next-layer/) in Figma, as they noted on their blog:
 
 > We reimagined the basic delivery of overlays. Now after you add a prototype link to connect two frames, you will see a new option in the property panel. This option will allow you to set the destination frame as an overlay. Once selected, you can customize where the overlay is placed and how it should appear.
 
@@ -148,7 +150,7 @@ I could probably do a much better job of styling the Kit and the components that
 
 I guess the important part to remember here is that – even if a kit isn’t exactly the pinnacle of quality – having a half-baked UI Kit is better than nothing at all.
 
-Also I think our design patterns need a ton of love and this is the space where we’ve currently spent the least amount of time. Ideally we could give detailed guidance around typographic hierarchy and form design as well as how to position things in our templates or modals and drawers. I reckon this will slowly improve over time as our team leaves refactoring mode and starts to think more holistically about ways to improve the user experience in our app. 
+Also I think our design patterns need a ton of love and this is the space where we’ve currently spent the least amount of time. Ideally we could give detailed guidance around typographic hierarchy and form design as well as how to position things in our templates or modals and drawers. I reckon this will slowly improve over time as our team leaves refactoring mode and starts to think more holistically about ways to improve the user experience in our app.
 
 
 ## Buttons are for nerds
@@ -178,7 +180,7 @@ The more I think about this stuff the more I realize that the codebase has to be
 
 ## Aligning things in a grid with Figma is still kinda annoyin’ too
 
-One thing I always want to do is make a new grid in Figma. Whether that’s aligning a ton of icons next to each other or placing components in a grid. 
+One thing I always want to do is make a new grid in Figma. Whether that’s aligning a ton of icons next to each other or placing components in a grid.
 
 In an ideal world I want to set the number of columns and rows and let Figma place things inside that ruleset, just like CSS Grid. And maybe that’s possible today but the current way that the grid system appears to work is that it’s kinda just outlines that you can align things next to. And [Smart Selection](https://www.figma.com/blog/introducing-smart-selection/) is great but it’s also pretty unpredictable about where things will go when I click that button. It’s nice to quickly move items in a group like this and saves a bunch of time but I’d still like a ton of grid and alignment improvements to be made.
 
@@ -188,19 +190,19 @@ Basically the less time I have to manually move things with my mouse or trackpad
 
 This is more of a problem of time than a problem with Figma itself, as I’m still not entirely happy with the UX of large parts of our Kit. For example we have one section called “Information organizers” which is really confusing (and isn’t that what pretty much all UI does anyway – organize information?).
 
-Looking at other UI Kits, they seem to struggle with this stuff too. 
+Looking at other UI Kits, they seem to struggle with this stuff too.
 
 
 
 ## The UI Kit is not our design system
 
-There are tons of things in the front-end that can’t be reflected in our UI Kit today which I find difficult, too. Things like our CSS helpers and how components will change their styles based on the width of the viewport. And this isn’t a criticism of Figma at all by the way, it’s just a good reminder of how difficult it is to represent front-end constraints and design in something that isn’t a browser. 
+There are tons of things in the front-end that can’t be reflected in our UI Kit today which I find difficult, too. Things like our CSS helpers and how components will change their styles based on the width of the viewport. And this isn’t a criticism of Figma at all by the way, it’s just a good reminder of how difficult it is to represent front-end constraints and design in something that isn’t a browser.
 
-Anyway, everything I’ve mentioned here is only how we are currently do things today – all of this is likely to change the more we work with our design team and understand what they need to do their work. And I would heartily recommend checking out other UI Kits to learn about how they go about doing that stuff. 
+Anyway, everything I’ve mentioned here is only how we are currently do things today – all of this is likely to change the more we work with our design team and understand what they need to do their work. And I would heartily recommend checking out other UI Kits to learn about how they go about doing that stuff.
 
 But it’s important to note that the components that are in our UI Kit are not a reflection of our design system. I think when people say “design system” they think of something visual – the buttons, the forms, the cards and modals. But the more I learn about design systems is it’s not about this technical or visual representation of our code. Neither is a design system a series of cool tools or a repo or a bunch of technologies combined together, as much as we might use those things in our design system work on a day to day basis.
 
-A design system is a mirror, reflecting how our design team communicates with one another and how we then translate that relationship between us into front-end code. If our relationships suck then our code will suck and our users will have a sucky experience overall. 
+A design system is a mirror, reflecting how our design team communicates with one another and how we then translate that relationship between us into front-end code. If our relationships suck then our code will suck and our users will have a sucky experience overall.
 
 And so it’s important to remember that a design system is not a series of tools, but a community instead.
 

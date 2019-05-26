@@ -1,6 +1,8 @@
 ---
 title: Blockchain is not only crappy technology but a bad vision for the future
 date: 2018-04-11 16:50:00 -07:00
+city: San Francisco
+country: California
 extract: "“A lawless and mistrustful world where self-interest is the only principle
   and paranoia is the only source of safety is a not a paradise but a crypto-medieval
   hellhole.”"

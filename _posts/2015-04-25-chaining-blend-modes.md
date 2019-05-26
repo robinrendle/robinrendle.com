@@ -8,9 +8,9 @@ tags:
 - css
 extract: I’ve been obsessed with blend modes over the past couple of weeks.
 update: 
-City:
+city:
 - London
-Country:
+country:
 - UK
 ---
 

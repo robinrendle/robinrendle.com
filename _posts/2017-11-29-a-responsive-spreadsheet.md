@@ -5,8 +5,8 @@ categories:
 - css-tricks
 tags:
 - work
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: A new post for CSS-Tricks all about making a CSS-only responsive spreadsheet
   UI.
 ---

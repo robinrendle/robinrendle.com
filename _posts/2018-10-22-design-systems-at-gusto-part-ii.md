@@ -4,6 +4,8 @@ date: 2018-10-22 22:48:00 -07:00
 tags:
 - Aza Raskin
 - Boss Fight Books
+city: San Francisco
+country: California
 extract: "“Design is not about learning to think outside the box, it’s about finding
   the right box to think inside of.”"
 ---
@@ -169,5 +171,3 @@ So these books about video games and design loops got me thinking: what’s the 
 3. Constantly redraw the box until the end of time based on changing business and organizational needs
 
 This feels helpful to me, but I’m not sure! Feelings!
-
-

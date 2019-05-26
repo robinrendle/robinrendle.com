@@ -4,12 +4,10 @@ date: 2015-08-15 15:09:00 -07:00
 tags:
 - writing
 - flotsam jetsam lagan and derelict
-extract: 
-update: 
-City:
-- Plymouth
-Country:
-- UK
+extract:
+update:
+city: Plymouth
+country: UK
 ---
 
 I’m starting a newsletter called [Flotsam, Jetsam, Lagan and Derelict](https://tinyletter.com/robinrendle) where I’ll begin to publish a short story once every other week. This is a place to help me learn how to write dialogue and think about character development and encourage me to write a little more.
@@ -17,4 +15,3 @@ I’m starting a newsletter called [Flotsam, Jetsam, Lagan and Derelict](https:/
 The name of this series comes from the [nautical terms for shipwrecks](https://en.wikipedia.org/wiki/Flotsam,_jetsam,_lagan,_and_derelict) as I like the metaphor in comparison. These will be notes that I’ve revived from the depths of my drafts folder – some of them are bound to be messy but there’ll always be a little *something* about them that’s worth investigating further.
 
 [Sign up to the newsletter](https://tinyletter.com/robinrendle)
-

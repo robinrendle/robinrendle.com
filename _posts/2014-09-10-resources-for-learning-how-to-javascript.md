@@ -11,11 +11,9 @@ extract: In recent weeks I’ve been trying to improve my fledging JavaScript sk
   which have always bothered me. Sure, for the longest time I’ve been able to hack
   away in order to get something to work in the browser but parsing all the quirks
   and eccentricities of the DOM felt entirely beyond me.
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 In recent weeks I’ve been trying to improve my fledging JavaScript skills, which have *always* bothered me. Sure, for the longest time I’ve been able to hack away in order to get something to work in the browser but parsing all the quirks and eccentricities of the <abbr title="Document Object Model">DOM</abbr>, <abbr title="Browser Object Model">BOM</abbr> and related <abbr title="Application programming interface">API</abbr>s felt entirely beyond me. So now, a couple of weeks later, I thought it might be a nice idea to round up a collection of resources which I found to be particularly helpful along the way.
@@ -24,7 +22,7 @@ In recent weeks I’ve been trying to improve my fledging JavaScript skills, whi
 
 ### [#1: The Javascript Book](http://javascriptbook.com/)
 
-From the people that brought us the excellent [HTML and CSS book](http://www.htmlandcssbook.com/) comes a great resource for folks just starting out with JavaScript. However, more than simply *reading* this book from cover to cover I’d recommend that anyone that’s dedicated should write out *every* single line of code from the examples given inside. 
+From the people that brought us the excellent [HTML and CSS book](http://www.htmlandcssbook.com/) comes a great resource for folks just starting out with JavaScript. However, more than simply *reading* this book from cover to cover I’d recommend that anyone that’s dedicated should write out *every* single line of code from the examples given inside.
 
 I’ve often made the mistake in the past of reading technical books without examining each line of code and ultimately that’s made me a worse programmer in the long run. But now whenever I go through this sort of book I’ll crack open [JSBin](http://jsbin.com/) or [Codepen](http://codepen.io) and get the example actually working in my own browser until I move onto another section.
 

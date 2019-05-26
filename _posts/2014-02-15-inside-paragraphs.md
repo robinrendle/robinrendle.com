@@ -13,11 +13,9 @@ tags:
 extract: "“Gutenberg considered the counter space, letter space, and line space. Every
   paragraph, whether written or printed, has these white spaces in it. But they don’t
   have to be thought of in isolation...”"
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 Last weekend I finally picked up *[Inside Paragraphs](http://insideparagraphs.com/)*, a book by the illustrator and type designer [Cyrus Highsmith](http://www.fontbureau.com/people/cyrushighsmith/). Essentially the book is a primer into the typesetter’s world, with the succinct writing being wonderfully complemented by the format of the book and the charming illustrative style. This combination makes it effortlessly recommendable for those just entering the field, chiefly since the book doesn’t overcomplicate things by focusing on those familiar, unnecessary distractions common to similar books about typography. Instead, Highsmith describes the core foundations of the topic in how we ought to think about these alphabetic puzzle pieces.

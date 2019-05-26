@@ -6,8 +6,8 @@ categories:
 tags:
 - Robin Sloan
 - Jez Burrows
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: There was this sense of history or something, the way that one writer had
   been influenced by the other. It was funny because each of us came from halfway
   across the world to find ourselves in this little bar excitedly talking about bundles

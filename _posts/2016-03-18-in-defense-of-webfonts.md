@@ -7,8 +7,8 @@ tags:
 - typography
 - web fonts
 - css
-City: Plymouth
-Country: UK
+city: Plymouth
+country: UK
 extract: A web font, just like any other visual stimulus, has work to accomplish and
   it has a value and a position in the designer’s toolkit which is one of the most
   effective ways to display the intent of the text. Perhaps we need to spend more

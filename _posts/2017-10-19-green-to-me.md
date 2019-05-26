@@ -5,8 +5,8 @@ categories:
 - links
 tags:
 - helena fitzgerald
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: Helena Fitzgerald on the color green.
 ---
 

@@ -10,12 +10,10 @@ extract: "“...there are very few medieval scenes in which someone is reading b
   medieval study practices. Readers would usually have a pen nearby even when they
   were just reading. After all, remarks and critiques needed to be added to the margin
   at the spur of the moment.”"
-update: 
+update:
 link: http://medievalbooks.nl/2014/10/10/medieval-desktops/
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 ---
 
 Erik Kwakkel on [medieval deskstops](http://medievalbooks.nl/2014/10/10/medieval-desktops/) and how they were designed specifically for reading:

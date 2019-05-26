@@ -3,8 +3,8 @@ title: The Lost Cause Rides Again
 date: 2017-08-11 01:35:00 -07:00
 categories:
 - links
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“The symbols point to something Confederate’s creators don’t seem to understand—the
   war is over for them, not for us.”"
 ---

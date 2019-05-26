@@ -8,12 +8,10 @@ extract: "“Do you mind if I tell you, while I have your ear? All of this, the 
   the family, the sudden reminder that life ends, it makes me realize how ignorant
   I am. I'm so sure I'm clever and sophisticated, a smug little agnostic, but put
   me face forward with death, and I don't know my right from my north...”"
-update: 
-link: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+link:
+city: Plymouth
+country: UK
 ---
 
 I’ve been going back through [Ftrain](http://ftrain.com) thanks to [Paul Ford’s talk at XOXO](https://www.youtube.com/watch?v=WSL5qVL3Mng), and there’s a wondrous archive bundled up in this old site of his—years and years of journal entries. [This post](http://www.ftrain.com/archive_ftrainone_920607237.html) about his grandfather’s funeral is particularly eye-popping:

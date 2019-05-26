@@ -13,11 +13,9 @@ extract: Earlier this week I headed off to the Future of Web Design conference i
   Overall it was a fantastic event with some wonderful talks about JavaScript performance,
   non-linear storytelling, masking shapes in CSS and so much more. It was certainly
   a diverse string of interesting talks.
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 Earlier this week I headed off to the [Future of Web Design](http://futureofwebdesign.com/london-2014/) conference in London to give a talk about systems, language and maintainable interface design which was adapted from an essay I wrote back in December called *[A Visual Lexicon](http://robinrendle.com/essays/a-visual-lexicon/)*. Overall it was a fantastic event with some wonderful talks about JavaScript performance, non-linear storytelling, masking shapes in CSS and so much more. It was certainly a diverse string of interesting talks.
@@ -60,5 +58,3 @@ In a personal project I recently went *crazily* overboard with this OOCSS thinki
 
 ## 7. “The hardest thing about managing a codebase is managing the people that use it.”
 This was the key point that I took away from the day, the idea that designing a maintainable front-end architecture is not really about technology. Creating a manageable codebase is only possible if developers are willing to communicate effectively with one another and challenge the status quo.
-
-

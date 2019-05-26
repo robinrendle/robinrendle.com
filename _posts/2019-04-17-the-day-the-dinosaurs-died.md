@@ -1,8 +1,8 @@
 ---
 title: The Day the Dinosaurs Died
 date: 2019-04-17 06:04:00 -07:00
-City: Plymouth
-Country: United Kingdom
+city: Plymouth
+country: United Kingdom
 extract: And the oldest murder mystery on the planet.
 ---
 

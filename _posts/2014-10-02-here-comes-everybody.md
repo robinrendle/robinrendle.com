@@ -9,11 +9,9 @@ extract: "“Television has millions of inbound arrows—viewers watching the sc
   no outbound arrows at all. You can see Oprah; Oprah can’t see you. On the Web, by
   contrast, the arrows of attention are all potentially reciprocal; anyone can point
   to anyone else, regardless of geography, infrastructure, or other limits.”"
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 Book:
 - here comes everybody
 Author:

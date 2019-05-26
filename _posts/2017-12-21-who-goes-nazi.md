@@ -5,8 +5,8 @@ categories:
 - links
 tags:
 - Dorothy Thompson
-City: Plymouth
-Country: UK
+city: Plymouth
+country: UK
 extract: "“Nazism has nothing to do with race and nationality. It appeals to a certain
   type of mind.”"
 ---

@@ -6,8 +6,8 @@ categories:
 tags:
 - sutro tower
 - writing
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: In my apartment I’ve positioned my desk by the window facing the tower towards
   the west. In fact I only picked this apartment because of the tower and how it looms
   above Twin Peaks right next door — as soon as I saw this place I knew that this

@@ -8,10 +8,8 @@ location: Nottingham, UK
 extract: If we’re serious about designing progressively enhanced then we need to start
   designing websites without assumptions, starting with the overused argument that
   we should be thinking type-first.
-City:
-- Reading
-Country:
-- UK
+city: Reading
+country: UK
 ---
 
 I’ve noticed that many websites break down poorly as their webfonts fail to load for whatever reason and subsequently fall back onto the system fonts. This is quite common, especially on mobile devices with slow connections and yet it’s strange to see websites that have great typography with vendor fonts, but fall to bits when the slightest problem occurs. The measure might be too wide or the line-height too tall for that particular font; what is required of one typeface can sometimes mean actively fighting the typographic requirements of another. As the x-height of a font might call for a shorter line-height in the paragraph, the fallback may be something like Verdana that requires a considerable amount of space between each line. So how can we handle these two possible environments?

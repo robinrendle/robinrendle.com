@@ -10,12 +10,10 @@ tags:
 - word
 - html
 extract: Paul Ford describes the early days of the web...
-update: 
+update:
 link: https://themanual.org/read/issues/4/paul-ford/article
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 Author:
 - Paul Ford
 ---

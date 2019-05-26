@@ -1,8 +1,8 @@
 ---
 title: Delirious in London
 date: 2019-04-09 05:36:00 -07:00
-City: London
-Country: United Kingdom
+city: London
+country: United Kingdom
 extract: Huh? Where am I?
 ---
 

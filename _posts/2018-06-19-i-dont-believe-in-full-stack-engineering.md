@@ -8,9 +8,11 @@ tags:
 - gusto
 - rant
 extract: 'There, I said it. '
+city: San Francisco
+country: California
 ---
 
-There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both. 
+There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both.
 
 But hold up a sec, what is front-end development? Well I believe that this line of work contains the following skills:
 
@@ -43,7 +45,6 @@ Every company that ignores front-end development is doing so at their own peril;
 
 Despite the evidence that front-end development is a focused activity that requires full-time effort I see a lot of companies hiring full-stack engineers and hiring designers without coding experience, and I see design teams focused intently on pixel pushing and making animations without understanding basic HTML structure. I constantly see wildly inaccessible interfaces that don’t have focus states and forms that don’t let you navigate effectively with a keyboard. I see unusable mobile interfaces and giant web apps that feel slow and clunky because no-one really considered how browsers function at the most basic of levels.
 
-If you’re only hiring full-stack engineers then you should carefully consider why that’s the case and you should have a grasp of what you’re sacrificing for that lack of focus and expertise in that area. 
+If you’re only hiring full-stack engineers then you should carefully consider why that’s the case and you should have a grasp of what you’re sacrificing for that lack of focus and expertise in that area.
 
 Because there’s no such thing as a unicorn and there’s no such thing as a full-stack engineer.
-

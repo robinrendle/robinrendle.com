@@ -3,6 +3,8 @@ title: Setting a Typographic Scale with Sass Maps
 date: 2017-11-24 21:06:00 -08:00
 categories:
 - work
+city: Nottingham
+country: UK
 ---
 
 _The other day [Tim Brown](http://nicewebtype.com/) noticed that this old post had been deleted and so I rescued it from the Wayback Machine. It’s a post from several years ago where I wrote about a new typesetting system that we had developed at [Erskine](http://erskine.simplygoodwork.com/). Please note that most of this code wasn’t written by me, but I did contribute to some of the underlying ideas; the credit should be directed towards Mat Hayward and Tom Davies of [Kind](https://madebykind.com/) fame._

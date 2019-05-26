@@ -4,11 +4,13 @@ date: 2018-08-21 21:33:00 -07:00
 tags:
 - web design
 extract: In this game there a lot of rules.
+city: San Francisco
+country: California
 ---
 
 In this game there a lot of rules. The interfaces we design should be accessible to everyone, from color blind users and those that might have limited vision, to those that might not be using a keyboard or a touch screen. Those interfaces ought to be fast and highly performant, we probably shouldn’t load too many fonts, or too many high definition images. Not to mention we should care deeply about semantics, color contrast, etc. etc. etc.
 
-But I reckon it’s important to remember that we don’t always have to make the web for someone else. The web is for us, too. 
+But I reckon it’s important to remember that we don’t always have to make the web for someone else. The web is for us, too.
 
 What I mean by that is we shouldn’t let these rules influence our weird side projects. Websites can be weird and broken and don’t always have to follow all the best practices. We can make wild and foolish experiments that are inaccessible, with tiny font sizes, bad performance, inaccessible color contrast, multiple JS frameworks, for no reason whatsoever besides that we can. We shouldn’t, but we can hijack the scroll, we can override the default keyboard commands, we can have every part of our interface make a booming sound, and we can try our very best to break the browser as we see fit.
 

@@ -6,8 +6,8 @@ tags:
 - blogging
 - writing
 - robinrendle.com
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: How do I see my website? Well, it’s complicated.
 ---
 

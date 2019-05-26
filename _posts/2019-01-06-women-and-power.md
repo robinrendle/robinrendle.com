@@ -4,12 +4,14 @@ date: 2019-01-06 16:46:00 -08:00
 categories:
 - reading
 - books
+city: San Francisco
+country: California
 tags:
 - Mary Beard
 extract: My first book of 2019 is a damn fine start to the year.
 ---
 
-I adore Mary Beard’s latest book [_Women and Power_](https://www.amazon.com/Women-Power-Manifesto-Mary-Beard/dp/1631494759). It’s a slim volume but that makes it the perfect size for Mary to keep you gripped to the edge of your seat as she compares sexism in modernity to that of the ancients. In one glorious passage she writes: 
+I adore Mary Beard’s latest book [_Women and Power_](https://www.amazon.com/Women-Power-Manifesto-Mary-Beard/dp/1631494759). It’s a slim volume but that makes it the perfect size for Mary to keep you gripped to the edge of your seat as she compares sexism in modernity to that of the ancients. In one glorious passage she writes:
 
 > We have to be more reflective about what power is, what it is for, and how it is measured. To put it another way, if women are not perceived to be fully within the structures of power, surely it is power that we need to redefine rather than women?
 

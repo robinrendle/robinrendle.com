@@ -6,13 +6,11 @@ tags:
 - security
 - privacy
 - network
-extract: 
-update: 
-link: 
-City:
-- Plymouth
-Country:
-- UK
+extract:
+update:
+link:
+city: Plymouth
+country: UK
 Book:
 - Big data no thanks
 Author:

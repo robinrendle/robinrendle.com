@@ -9,11 +9,9 @@ extract: Reading is designed to alleviate our curiosity. We all want to know wha
   the rusty machine in their garage, or how long and serious their last relationship
   was. So once in a while, if we're lucky, a good novel might begin to soothe our
   penchant for mischief.
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 Reading is designed to alleviate our curiosity. We all want to know what’s in our neighbors’ pockets, how they style their hair, how much time they spent on the rusty machine in their garage, or how long and serious their last relationship was. So once in a while, if we're lucky, a good novel might begin to soothe our penchant for mischief.
@@ -28,6 +26,6 @@ For instance whenever children fool around with words and speak with a funny acc
 
 Loud or quiet, roared or mumbled, these are fragile times in the life of a story but there’s no denying their potential once Non-Readers grok how each tale can be transformed on screen or warmly wrapped up in the pages of a book. *‘But where are the very best?’* they start to wonder in their late teenage years. *‘How are stories made, and where are they all anyway? How are we supposed to uproot the juiciest tales with the most connective threads – how can we read the stories written for us?’*
 
-To reveal the answers they must find the nearest library to poke, prod and plunder for their own but it’s during these secluded moments that they should expect to get their hands a little dirty. It’s going to take an awful lot of time, money and sheer will power to answer all of those questions which, of course, lead to the penultimate Question of Questions: 
+To reveal the answers they must find the nearest library to poke, prod and plunder for their own but it’s during these secluded moments that they should expect to get their hands a little dirty. It’s going to take an awful lot of time, money and sheer will power to answer all of those questions which, of course, lead to the penultimate Question of Questions:
 
 Which of these stories will delight an audience with a swarm of giggles and which will make them quiver in their seats?

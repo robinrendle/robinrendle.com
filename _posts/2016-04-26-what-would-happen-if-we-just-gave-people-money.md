@@ -14,8 +14,8 @@ extract: From Switzerland to the Netherlands to Kenya to Silicon Valley, a mixtu
   the Swiss referendum organizer, remembers his great-grandfather working 10 hours
   per day, six days per week. That kind of toil is no longer necessary, nor desirable.
   The dream of a world where we produce more than we need has come true.
-City: Didworthy
-Country: UK
+city: Didworthy
+country: UK
 ---
 
 This is [a sharp and brilliant piece](http://fivethirtyeight.com/features/universal-basic-income/) by Andrew Flowers. He looks at the current research behind universal basic income, where the government would effectively cut social benefits and replace them with a single wage for both rich and poor alike.

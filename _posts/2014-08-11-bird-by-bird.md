@@ -12,9 +12,9 @@ extract: Over the weekend I read this great collection of advice for writers by 
   self-help format, what really caught my attention is this extract about encouraging
   other writers to join a community of like-minded folks.
 update: 
-City:
+city:
 - Berlin
-Country:
+country:
 - Germany
 ---
 

@@ -11,11 +11,9 @@ extract: Finishing a book in this environment feels so much more of an accomplis
   it was not written for upcoming graphic designers or art students (like the majority
   of typographic resources out there), instead this book’s aim had been calibrated
   specifically towards writers.
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 For one reason or another I had entirely forgotten about Matthew Buttericks’ excellent book *Practical typography* which he published last year and asked readers to [pay whatever they wanted for it afterwards](http://practicaltypography.com/how-to-pay-for-this-book.html). In his [latest update](http://practicaltypography.com/economics-year-one.html) he described it as *“an experiment in taking the web seriously as a book-publishing medium”* so this weekend I cracked open my browser and tried to catch up on Matthew’s advice on the basics of typesetting.

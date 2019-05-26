@@ -3,8 +3,8 @@ title: How Google Book Search Got Lost
 date: 2017-04-16 01:32:00 -07:00
 categories:
 - links
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“Engineering is great, but it’s not the answer to all problems. Sometimes
   you have to play politics, too — consult stakeholders, line up allies, compromise
   with rivals.”"

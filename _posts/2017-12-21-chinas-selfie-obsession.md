@@ -5,8 +5,8 @@ categories:
 - links
 tags:
 - jiayang fan
-City: Plymouth
-Country: 'UK '
+city: Plymouth
+country: 'UK '
 extract: "“You don’t want to come face-to-face with your god, because it’s frightening
   to think that you might see a pimple on his chin.”"
 ---

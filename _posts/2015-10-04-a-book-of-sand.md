@@ -5,13 +5,11 @@ tags:
 - reading
 - Borges
 - Short story
-extract: 
-update: 
+extract:
+update:
 link: http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 Author:
 - Jorge Luis Borges
 ---

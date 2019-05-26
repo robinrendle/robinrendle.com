@@ -7,12 +7,10 @@ extract: "“If you’re not sure how to finish a sentence, abandon it halfway t
   If you want to write extensively about one particular idea but your mind’s moving
   too quickly to flesh it all out, paraphrase for now and move on to the next big
   point.”"
-update: 
-link: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+link:
+city: Plymouth
+country: UK
 ---
 
 Here’s a neat post from [Sally Kerrigan](http://draftwerk.com/), where she helps writers to make that sometimes terrifying rough draft:
@@ -25,4 +23,3 @@ Here’s a neat post from [Sally Kerrigan](http://draftwerk.com/), where she hel
         <p>Sally Kerrigan, <a href="http://alistapart.com/article/writing-is-thinking">Writing is thinking</a></p>
     </figcaption>
 </figure>
-

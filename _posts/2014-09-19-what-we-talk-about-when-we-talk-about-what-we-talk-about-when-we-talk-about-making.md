@@ -13,11 +13,9 @@ tags:
 extract: "“The boundaries can be drawn wider or narrower, and with more or less care.
   But the starting points of those boundaries are necessarily accidents of history,
   and history is pretty messed up.”"
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 <figure>

@@ -4,8 +4,8 @@ date: 2017-04-16 00:27:00 -07:00
 tags:
 - Maira Kalman
 - Frank Chimero
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: 'Go take a look at your bookshelf: most books are seas of text without pictures.
   When a book does have imagery, they are marooned onto their own page, or the text
   tiptoes alongside the image, reticent and scared of contact. Even this little post

@@ -5,6 +5,8 @@ tags:
 - writing
 - analytics
 extract: I reckon analytics are bad for writers and here’s why.
+city: San Francisco
+country: California
 ---
 
 If you want to be a good writer then you can’t worry about the numbers. The stats, the dashboards, the faves, likes, hearts and yes, even the claps, they all lead to madness and, worst of all in my opinion, bad writing.

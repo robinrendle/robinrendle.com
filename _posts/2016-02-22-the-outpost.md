@@ -5,8 +5,8 @@ tags:
 - xoxo
 - andy mcmillan
 - andy biao
-City: Plymouth
-Country: UK
+city: Plymouth
+country: UK
 ---
 
 In all the excitement of recent months I forgot to mention that a couple of weeks ago we finished work on an update to [The Outpost](http://outpostpdx.com/) website. Blend modes! Viewport units! object-fit magic! This teaser combines a lot of the techniques that [I’ve been learning about](https://css-tricks.com/author/robinrendle/) into one exciting project.

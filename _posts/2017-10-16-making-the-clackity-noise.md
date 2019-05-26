@@ -4,8 +4,8 @@ date: 2017-10-16 20:47:00 -07:00
 categories:
 - links
 - featured
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: To treat that “What’s Happening” input as a free and open text editor, to
   just pour all your energy into it, seems like a waste of time.
 ---

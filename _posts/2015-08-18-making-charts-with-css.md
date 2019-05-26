@@ -7,11 +7,9 @@ tags:
 - web design
 extract: 'Over on CSS-Tricks I take a look at a few interesting ways to make bar charts,
   sparklines and pie charts without resorting to a JavaScript framework. '
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 In *[Making charts with CSS](https://css-tricks.com/making-charts-with-css/)* over on CSS-Tricks I take a look at a few interesting ways to make bar charts, sparklines and pie charts without resorting to a JavaScript framework. Using JS isn’t necessarily a problem here but sometimes we don’t need extra resources and a lot of the time we can handle things with CSS.

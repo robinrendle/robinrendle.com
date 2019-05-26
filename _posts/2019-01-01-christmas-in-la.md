@@ -1,8 +1,8 @@
 ---
 title: Christmas in LA
 date: 2019-01-01 15:44:00 -08:00
-City: Brea
-Country: California
+city: Brea
+country: California
 extract: I’m not crying, you’re crying.
 ---
 

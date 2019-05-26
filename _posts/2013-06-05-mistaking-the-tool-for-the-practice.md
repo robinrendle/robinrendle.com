@@ -10,10 +10,8 @@ extract: Lately I’ve been thinking about how we obsess over our tools instead 
   general principles they’re built on top of.  We pay for these things, we retweet
   posts about them, but most importantly we idolise  them and I think this might hurt
   us all in the long run.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 As a developer I’m always on the lookout for the best applications, the fastest machines and the latest, most colourful updates to a product line. But sometimes I find that this can be unhealthy, addictive behaviour and so slowly, over the years, I’ve tried to become more critical of the tools around me. There are two questions that I try to ask as often as possible.
@@ -31,7 +29,7 @@ There’s a great interview with [Jack Cheng](http://www.jackcheng.com), the wri
 
 There’s an even bigger risk though; when someone can’t tell the difference between the tool and the overarching practice. This can cause all sorts of problems, but perhaps the most infamous example of this is with the introduction of the horseless carriage in the late 19th century. Before the motorcycle and the automobile were given their respective names, the horseless carriage was used to describe every sort of vehicle available. It described everything from the small to the very large, from the heavy to the very light.
 
-![horseless-carriage](/uploads/horseless-carriage.jpg) 
+![horseless-carriage](/uploads/horseless-carriage.jpg)
 
 Hundreds of years with the horse as the primary mode of transportation had confused people, and rightly so. Over time the meaning of the word ‘horse’ had become synonymous with the word ‘transport’ to such an extent that anything that hauled people about without a horse was, as ridiculous as it might sound, still horse-like. This term manages to capture how much people had mistaken the tool for the process.
 
@@ -45,7 +43,7 @@ In excruciating detail it documents not only how, but also why it was made. This
 
 I often wonder how products, whether physical or digital, can act as more than just tools in the long term. I wonder if they can spread out somehow, becoming useful in the instant that you’re using them and yet simultaneously describe the theories behind their assembly.
 
-![axe](/uploads/axe.png) 
+![axe](/uploads/axe.png)
 
 Either way, questions about process always lead to more fulfilling answers. They’re more journalistic in nature and, just like we would expect of a great reporter, we want to understand why things happened as much as we want to learn about what has happened. These sorts of questions shed light on why this tool or that particular feature is of use at a given moment in time and why perhaps in the future it might cease to be of use. But process related questions also make us more adaptable to these sorts of problems too.
 

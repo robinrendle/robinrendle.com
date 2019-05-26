@@ -5,26 +5,24 @@ tags:
 - salman rushdie
 - book reviews
 - new yorker
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 extract: Salman Rushdie’s musical opus, The Ground Beneath Her Feet, is one of a few
   select books that I want to slip into my friends’ backpacks, or hide in their bookshelf,
   or scatter copies under their beds until they must eventually concede.
-update: 
-link: 
+update:
+link:
 ---
 
 > “In love one advances by retreating.”
 
 Salman Rushdie’s musical opus, *The ground beneath her feet*, is one of a few select books that I want to slip into my friends’ backpacks, or hide in their bookshelf, or scatter copies under their beds until they must eventually concede. Later they’ll be reading on the train or on the road or under the sea only to find themselves basking in its warmth; *The ground beneath her feet* is a book that lets you drink bountiful, replenishing slurps from its innards wherever you are.
 
-So much of the book is about *belonging*, whether or not that’s within the universe of art or society at large. Each character hopes to find where they belong and who they belong with: 
+So much of the book is about *belonging*, whether or not that’s within the universe of art or society at large. Each character hopes to find where they belong and who they belong with:
 
 > We find ground on which to make our stand. In India, that place obsessed by place, belonging-to-your-place, we are mostly given that territory, and that’s that, no arguments, get on with it. But Ormus and Vina and I, we couldn’t accept that, we came loose. Among the great struggles of man—good/evil, reason/unreason, etc.—there is also this mighty conflict between the fantasy of Home and the fantasy of Away, the dream of roots and the mirage of the journey.
 
-An excerpt from Rushdie’s autobiography is what led me to it a while ago, and it’s here that he describes the objectives of his work and how this idea of *belonging* ties into all of his books in one way or another: 
+An excerpt from Rushdie’s autobiography is what led me to it a while ago, and it’s here that he describes the objectives of his work and how this idea of *belonging* ties into all of his books in one way or another:
 
 <figure>
     <blockquote>

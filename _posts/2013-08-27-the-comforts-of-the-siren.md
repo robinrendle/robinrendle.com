@@ -8,10 +8,8 @@ tags:
 - featured
 extract: During my holiday I went back to the town I grew up in and listened to the
   sirens from the Blitz that are still operational and are tested once a week.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 My hometown was obliterated during the war. Hitler’s Luftwaffe destroyed the pier and the docks, hoping to eradicate the strong Navy presence in and around Plymouth, historically one of the main military ports in the south of England.

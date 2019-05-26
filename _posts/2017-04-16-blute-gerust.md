@@ -5,8 +5,8 @@ categories:
 - links
 tags:
 - music
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "‘I gave a fifty minute concert in two halves. They poured me a drink in
   the middle. Dunya asked how I found them. I said I just walked past. She smiled
   and said, “That’s how I want it.”’"

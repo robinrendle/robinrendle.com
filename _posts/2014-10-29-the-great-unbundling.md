@@ -12,9 +12,9 @@ extract: Somehow I’ve found myself in a room bustling with all the languages o
   counterparts, tourists speaking English. Although they all share their incompatible
   language with a neighbour, everyone around me can somehow communicate quite easily.
 update: 
-City:
+city:
 - Amsterdam
-Country:
+country:
 - The Netherlands
 ---
 

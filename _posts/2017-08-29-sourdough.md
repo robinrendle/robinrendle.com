@@ -6,8 +6,8 @@ categories:
 tags:
 - Robin Sloan
 - sourdough
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: Robin Sloan’s new book is a precious thing.
 ---
 

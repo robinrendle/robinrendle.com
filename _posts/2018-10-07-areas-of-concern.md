@@ -1,6 +1,8 @@
 ---
 title: Areas of Concern
 date: 2018-10-07 21:36:00 -07:00
+city: San Francisco
+country: California
 extract: Eric Meyer on what makes a good front-end developer.
 ---
 

@@ -8,12 +8,10 @@ extract: All I know is the more I read digitally, the more this feeling — the 
   I can't be the only one to feel this. Adding to the corpus — making things pointable
   — has become habitual, and aspects of it are becoming more and more passive. These
   habits and expectations aren't going anywhere.
-update: 
+update:
 link: http://craigmod.com/sputnik/pointable_01
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 Book:
 - A pointable we
 Author:

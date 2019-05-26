@@ -7,6 +7,8 @@ categories:
 tags:
 - Karin Tidbeck
 extract: Karin Tidbeck’s collection of stories is a haunting and eerie delight.
+city: San Francisco 
+country: California
 ---
 
 Karin Tidbeck’s [Jagannath](https://www.amazon.com/Jagannath-Karin-Tidbeck/dp/1101973978/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=H7AGDWEVX50ZK53AC51K) is a collection of stories that I’ve been utterly obsessed with over the last couple of weeks. Although it’s a small book, I’ve been  ever so slowly chewing on each and every story because I don’t want it to end.

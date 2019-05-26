@@ -6,8 +6,8 @@ tags:
 - public
 - fog of war
 - video games
-City: Plymouth
-Country: UK
+city: Plymouth
+country: UK
 extract: We start off knowing a lot about a little and gradually, as we shake ourselves
   through the world we begin to make all these connections; we find resources, we
   find other people and most importantly we learn about how little we knew when we

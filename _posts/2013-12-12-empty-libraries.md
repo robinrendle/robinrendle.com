@@ -11,11 +11,9 @@ extract: In moving to the next generation of consoles I’ve found that it’s s
   ‘Library’ menu which is hidden amongst the rest of the interface of the Playstation
   4, yet it’s not the questionable typography or arrangement of its icon that bothers
   me about this feature though
-update: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+city: Plymouth
+country: UK
 ---
 
 In moving to the next generation of consoles I’ve found that it’s somehow managed to fill me with a deep and bitter sadness. This is mostly thanks to the ‘Library’ menu which is hidden amongst the rest of the interface of the Playstation 4, yet it’s not the questionable typography or arrangement of its icon that bothers me about this feature though. What troubles me is the sheer audacity of the designer that called it a ‘library’, since opening it reveals nothing at all. But let me just rephrase that if you missed the problem there:

@@ -6,8 +6,8 @@ categories:
 tags:
 - data centers
 - ingrid burrington
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“In purpose-built data centers like Facebook’s, it’s for a general public
   that uses but maybe does not love Facebook. Facebook’s desire to be loved and trusted
   has always struck me as sort of overcompensating. ”"

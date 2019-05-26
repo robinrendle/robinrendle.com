@@ -13,11 +13,9 @@ extract: "“We dream of a library of literature created by everyone and belongi
   no one, a library that is immortal and will mysteriously lend order to the universe,
   and yet we know that every orderly choice, every catalogued realm of the imagination,
   sets up a tyrannical exclusion.”"
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 Written by the prolific [Alberto Manguel](http://www.alberto.manguel.com/), *The Library at Night* examines the history, culture and religious circumstances surrounding the establishment of libraries, both public and private. Throughout what seems like a rather short book in hindsight, the author lovingly takes note of the various ways in which to design and maintain these paperback communities:

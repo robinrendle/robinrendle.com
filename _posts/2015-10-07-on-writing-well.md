@@ -4,13 +4,11 @@ date: 2015-10-07 00:59:00 -07:00
 tags:
 - Writing
 - editing
-extract: 
-update: 
-link: 
-City:
-- Plymouth
-Country:
-- UK
+extract:
+update:
+link:
+city: Plymouth
+country: UK
 Book:
 - On writing well
 Author:

@@ -7,8 +7,8 @@ categories:
 tags:
 - Jared Spool
 - nps
-City: Plymouth
-Country: UK
+city: Plymouth
+country: UK
 ---
 
 Jared Spool [on the harmful measurement of NPS](https://blog.usejournal.com/net-promoter-score-considered-harmful-and-what-ux-professionals-can-do-about-it-fe7a132f4430), the metric that many businesses use, especially in the Bay Area, to define customer satisfaction:

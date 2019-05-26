@@ -7,11 +7,9 @@ tags:
 - featured
 extract: These pages that hijack the scroll might look like slides from shiny keynote
   presentations but as websites they are the usability equivalent of nails on a chalkboard.
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 There is only one law of web design: *don’t mess with the scroll.*
@@ -29,10 +27,10 @@ Whenever I imagine a designer sat at their desk, coffee in hand, working on one 
 But if a designer finds that their users aren’t scrolling as they might hope then there are three potential problems that are probably being overlooked:
 
 - The content / service is not appealing enough.
-- The rhetoric isn’t correctly tuned to the audience or the product. 
+- The rhetoric isn’t correctly tuned to the audience or the product.
 - The interface is broken.
 
-This is not an inherent problem with the scroll itself since billions of people love to scroll. They scroll all day long on webpages with their phones, with tablets, with desktop computers, both on the web and with offline apps. It’s a design pattern that’s been in use since the very first public introduction of the internet almost 20 years ago and even before it with software on clunky desktop computers. 
+This is not an inherent problem with the scroll itself since billions of people love to scroll. They scroll all day long on webpages with their phones, with tablets, with desktop computers, both on the web and with offline apps. It’s a design pattern that’s been in use since the very first public introduction of the internet almost 20 years ago and even before it with software on clunky desktop computers.
 
 It’s so natural to scroll that YouTube is overflowing with videos of young children swiping televisions, magazines, and books. Scrolling has replaced the turning of a page as the primary method of pushing on to the next section, the next chapter; it defines our experience with every machine we encounter.
 
@@ -42,7 +40,7 @@ Likewise I think that having a scroll instruction on a website is like having a 
 
 ***
 
-Over time I’m beginning to see that web designers have two conflicting objectives when making an interface, regardless of whoever might be the end user. 
+Over time I’m beginning to see that web designers have two conflicting objectives when making an interface, regardless of whoever might be the end user.
 
 The first is the [prime directive](http://en.wikipedia.org/wiki/Prime_Directive); designers need to document existing patterns that are inherent in the medium and stick to these conventions if they can.
 

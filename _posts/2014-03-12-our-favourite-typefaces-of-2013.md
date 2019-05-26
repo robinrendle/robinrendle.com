@@ -11,11 +11,9 @@ extract: 'Typographica has published their favourite typefaces from the past yea
   and so I’ll be spending the next couple of days carefully bookmarking and reading
   each of them in turn. In his now familiar and charming way Stephen summarises the
   collection:'
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 *Typographica* has once again published a collection of reviews about last year’s type releases and so I’ll be spending the next couple of days carefully bookmarking and reading each of them in turn. This is one of my favourite annual traditions now – creeping through the spiral of links, stories and subsquent threads of *Typographica*, diving into the comments for more information and slowly weaving together the various interconnected strands of its archive. For a class-A type nerd like yours truly, this is a real treat.

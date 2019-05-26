@@ -10,11 +10,9 @@ extract: Lately I’ve finished reading a fabulous string of novels but it’s m
   feel guilty about ignoring more science-oriented and fact-driven prose. Thanks to
   this guilt my first tentative steps into the field of physics is a book by Neil
   deGrasse Tyson.
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 Lately I’ve been reading a fabulous string of novels yet it’s made me feel a little guilty about ignoring the more science-oriented and fact-driven prose out there. So I’ve been making my first tentative steps into the field of physics with a book by Neil deGrasse Tyson called *[Death by Black Hole](http://www.amazon.co.uk/Death-Black-Hole-Cosmic-Quandaries/dp/0393330168)*. It’s not so much a new body of work but a collection of previous writings, essays and stories about the heat death of the universe, string theory and, of course, what it feels like to get torn apart by the event horizon of a black hole.

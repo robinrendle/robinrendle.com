@@ -11,10 +11,8 @@ extract: A small review of Fred Smeijers’ typographic classic on the mostly fo
   and covert practice of punching typefaces. Due to the lack of primary sources he’s
   forced to take up the old tools  and theorise as to how these craftsman performed
   their work.
-Country:
-- UK
-City:
-- Nottingham
+country: UK
+city: Nottingham
 ---
 
 Written by Fred Smeijers and published by the Hyphen Press, the second edition of [Counterpunch](https://www.typotheque.com/books/counterpunch) is one of the most mesmerising books ever written about the early stages of typography and printing. Originally the author sets out to describe how type was manufactured in the 16th century; how small pieces of steel were filed down, shaped individually by goldsmiths, then used as printing material for well over a century (a process commonly referred to as [punchcutting](http://en.wikipedia.org/wiki/Punchcutting)). But I found a thread in this book that went a little deeper than a discussion about old typographic practices, as wondrous as they might be.

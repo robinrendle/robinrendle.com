@@ -3,8 +3,8 @@ title: The CSS-Tricks Newsletter
 date: 2017-02-26 19:03:00 -08:00
 categories:
 - work
-City: San Francisco
-Country: CA
+city: San Francisco
+country: CA
 extract: 'We try pretty hard to make sure there’s something interesting going on and
   even though we talk about the latest news we hope to deliver something more than
   just a bundle of links each week. There are stories about how the team has messed

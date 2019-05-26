@@ -1,8 +1,8 @@
 ---
 title: Performance and Behavior
 date: 2019-04-11 00:35:00 -07:00
-City: London
-Country: United Kingdom
+city: London
+country: United Kingdom
 extract: What would happen if every website was lightning fast?
 ---
 

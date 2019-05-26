@@ -11,9 +11,9 @@ extract: 'My excitement for a holiday to NYC was of paramount importance then: a
   once we came back or would we just throw caution to the wind and move to America
   and work together?'
 update: 
-City:
+city:
 - New York City
-Country:
+country:
 - USA
 ---
 

@@ -8,12 +8,10 @@ tags:
 extract: "“A common refrain in this new age of self-publishing is that there are too
   many books. The outflow of new material has been likened to all sorts of natural
   disasters spewing forth and flooding the land.”"
-update: 
+update:
 link: http://www.hughhowey.com/the-glut-is-good/
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 ---
 
 [Hugh Howey](http://www.hughhowey.com/the-glut-is-good/) on the self-publishing industry:

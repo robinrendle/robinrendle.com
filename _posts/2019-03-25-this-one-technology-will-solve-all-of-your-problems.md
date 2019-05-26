@@ -2,7 +2,9 @@
 title: This One Technology Will Solve All of Your Problems
 date: 2019-03-25 10:56:00 -07:00
 extract: 'Kelly Sutton’s argument against following the latest trends is a damn good
-  one. '
+  one.'
+city: San Francisco
+country: California
 ---
 
 This post by Kelly Sutton all about [how a new technology is rarely the solution to our problems](https://kellysutton.com/2019/03/23/this-one-technology-will-solve-all-of-your-problems.html) is my new favorite thing:

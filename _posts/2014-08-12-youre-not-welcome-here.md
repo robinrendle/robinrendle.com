@@ -9,9 +9,9 @@ extract: But that’s the thing about travelling – in these foreign places you
   to make yourself welcome. You have to slide through the airport and navigate bus
   timetables and crazy southern dialects as if you have all the papers at the ready.
 update: 
-City:
+city:
 - Berlin
-Country:
+country:
 - Germany
 ---
 

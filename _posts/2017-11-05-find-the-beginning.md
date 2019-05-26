@@ -7,8 +7,8 @@ tags:
 - odyssey
 - cat manning
 - emily wilson
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“Tell me about a complicated man.”"
 ---
 

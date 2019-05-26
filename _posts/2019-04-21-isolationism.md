@@ -3,8 +3,8 @@ title: Isolationism
 date: 2019-04-21 04:39:00 -07:00
 tags:
 - brexit
-City: London
-Country: United Kingdom
+city: London
+country: United Kingdom
 extract: Don’t be sorry. Be angry.
 ---
 

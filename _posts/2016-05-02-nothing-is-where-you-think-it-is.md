@@ -1,8 +1,8 @@
 ---
 title: Nothing is where you think it is
 date: 2016-05-02 16:26:00 -07:00
-City: Wadebridge
-Country: Cornwall
+city: Wadebridge
+country: Cornwall
 ---
 
 I often forget which landmass I should attribute my birth right to. 

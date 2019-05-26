@@ -7,6 +7,8 @@ categories:
 tags:
 - jellyfish
 - nature
+city: San Francisco
+country: California
 extract: 'Jellyfish question everything that we know about life; how they move, how
   they see, how they eat, how they process information. Everything about them is alien
   and beyond comprehension and sci-fi as all hell.

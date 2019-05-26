@@ -5,8 +5,8 @@ categories:
 - links
 tags:
 - nick harkaway
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“I’m familiar with the re-write. This was more like starting a new book
   every four months or so. The number of plotlines and their interactions meant a
   kind of exponential multiplication of possibility. I’d made a maze in my own mind

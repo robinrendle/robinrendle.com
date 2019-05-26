@@ -5,8 +5,8 @@ tags:
 - writing
 - reading
 - books
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: We can’t afford to see books as art if we want to make a contribution, whatever
   size that might be, to the world of bookmaking. Rather, we must see books as work
   instead.

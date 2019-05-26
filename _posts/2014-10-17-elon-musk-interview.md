@@ -9,12 +9,10 @@ extract: "“...you might begin to long for its mountains and rivers, its flower
   trees, the astonishing array of life forms that roam its rainforests and seas. You
   might see a network of light sparkling on its dark side, and realise that its nodes
   were cities, where millions of lives are coming into collision.”"
-update: 
-link: 
-City:
-- Plymouth
-Country:
-- UK
+update:
+link:
+city: Plymouth
+country: UK
 ---
 
 <figure>

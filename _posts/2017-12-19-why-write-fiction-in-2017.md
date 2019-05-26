@@ -5,8 +5,8 @@ categories:
 - links
 tags:
 - reading
-City: London
-Country: UK
+city: London
+country: UK
 extract: "“I think of the angels of the Paradiso, who when asked by Dante for the
   secret of their happiness, say: ‘We long for what we have.’”"
 ---

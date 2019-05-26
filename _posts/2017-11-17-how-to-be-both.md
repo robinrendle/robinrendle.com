@@ -6,8 +6,8 @@ categories:
 tags:
 - ali smith
 - story
-City: San Francisco
-Country: California
+city: San Francisco
+country: California
 extract: "“It is a feeling thing, to be a painter of things: cause every thing, even
   an imagined or gone thing or creature or person has essence: paint a rose or a coin
   or a duck or a brick and you’ll feel it as sure as if a coin had a mouth and told

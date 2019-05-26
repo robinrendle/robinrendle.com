@@ -12,11 +12,9 @@ extract: "“Michel Butor says that to travel is to write, because to travel is 
   is to write, and to read is to travel. But George Steiner says that to translate
   is also to read, and to translate is to write, as to write is to translate and to
   read is to translate...”"
-update: 
-City:
-- Nottingham
-Country:
-- UK
+update:
+city: Nottingham
+country: UK
 ---
 
 In a short story called ‘To Reiterate’ from *The Collected Stories of Lydia Davis* the author wonderfully describes her personal experiences of reading, writing and traveling whilst also taking apart dumb quotations and pithy statements in perhaps the best way possible:

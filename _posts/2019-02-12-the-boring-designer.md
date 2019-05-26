@@ -2,6 +2,8 @@
 title: The Boring Designer
 date: 2019-02-12 19:15:00 -08:00
 extract: And some half-assed thoughts on Apex Legends.
+city: San Francisco
+country: California
 ---
 
 I love this post by Cap Watkins on the traits and values of [the boring designer](http://blog.capwatkins.com/the-boring-designer):
@@ -12,7 +14,7 @@ I think this is the perfect way to describe my own work. I really don’t care a
 
 ***
 
-“Delight” is my least favorite word when it comes to evaluating a design. I believe it relegates designers to the realm of pixel pushers and artists. Design ought to provide value, first and foremost, and not delight. 
+“Delight” is my least favorite word when it comes to evaluating a design. I believe it relegates designers to the realm of pixel pushers and artists. Design ought to provide value, first and foremost, and not delight.
 
 ***
 

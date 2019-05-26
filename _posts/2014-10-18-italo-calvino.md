@@ -5,12 +5,10 @@ tags:
 - italo calvino
 extract: "“Writers do not necessarily cherish their translators, and I occasionally
   had the feeling that Calvino would have preferred to translate his books himself...”"
-update: 
+update:
 link: http://www.theparisreview.org/interviews/2027/the-art-of-fiction-no-130-italo-calvino
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 ---
 
 William Weaver, the translator of many of Calvino’s books, [wrote this great piece](http://www.theparisreview.org/interviews/2027/the-art-of-fiction-no-130-italo-calvino) about his relationship with the author:

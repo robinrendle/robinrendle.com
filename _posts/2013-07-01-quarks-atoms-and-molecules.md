@@ -12,10 +12,8 @@ extract: I wanted to write a little bit about a new process I’ve been working 
 update: "*Update*: This post was re-written and edited into a full blown essay for
   the ever so wonderful Smashing Magazine. Go [read that one](/essays/the-other-interface)
   instead, as this is nothing more than an unpolished note."
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 In [Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/) Brad Frost recently argued that front-end development could be improved by modularising particular aspects of design. Instead of coding a form as a component that is reused throughout a website, he suggested breaking it up even further into smaller modules like a placeholder, an input or a text field (which can then be used to create the form by combining these chunks together). This process can be duplicated for navigational items, text with icons, floated objects and pretty much any other sort of front-end module that needs to be re-used.
@@ -26,7 +24,7 @@ Essentially what Brad calls for is [object oriented design](http://coding.smashi
 
 Brad uses biological terms to quickly describe what sections of a design should do; *atoms* are the main chunks (placeholders, labels etc), whilst *molecules* are combinations of these standard atoms. The simplicity of it piqued my attention since ultimately what we’re discussing here isn’t just a design process, but also a distinction to be made in an interface.
 
-![code](/uploads/code.png) 
+![code](/uploads/code.png)
 
 Whilst reading it I found that as a designer I’m constantly refining two interfaces simultaneously; one for the user when they view the website, the other for developers that have yet to tackle the code in the future, when adjustments or full-scale redesigns must be made. I realised that we throw the role of ‘user’ onto people that navigate the website itself, and yet seem to forget that the code we write will work for developers much in the same way. *Developers are users too*.
 
