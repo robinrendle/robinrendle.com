@@ -17,10 +17,8 @@ aside: |-
 extract: The directories, files and partials, as well as all of the code and documentation
   that makes up our front-end development system, is an interface. It’s high time
   we started thinking about its usability – for the sake of developers and users alike.
-City:
-- Nottingham
-Country:
-- UK
+city: Nottingham
+country: UK
 ---
 
 As front-end developers and designers, we’re constantly refining two interfaces simultaneously: one for visitors who load the website, the other for developers who have to tackle the code in the future, when adjustments or full-scale redesigns must be made. Yet we tend to assign the role of “user” to the first group, often forgetting that the code we write must work for developers in a similar way. We shouldn’t forget that developers are users, too.
@@ -28,7 +26,7 @@ As front-end developers and designers, we’re constantly refining two interface
 If this is the case, then our conventions for naming and organizing files is critical if we are to ensure active (and efficient) development in the future. But do we really design the partials, files and directories that make up this interface with a particular set of users in mind, with a set of clear goals, combined with precise, well-defined documentation? I don’t think we do.
 
 Recently, I’ve been working on many different projects, each wildly different from each other. And the various problems I’ve faced while switching between the projects has made me wonder how we can drastically improve front-end accessibility.
-  
+
 ## We need to follow atomic design principles in our stylesheets
 
 Last month, in a post title [Atomic Design](http://bradfrostweb.com/blog/post/atomic-web-design/) Brad Frost argued that Web development could be improved. He suggested to developers that, instead of coding a form as a component that is reused throughout a website, they could **style smaller modules** — such as a placeholder, input field and text field — and then create each form by combining these chunks together. This process could be duplicated for navigational items, text with icons, floated objects and pretty much any other sort of front-end module that needs to be reused regularly.

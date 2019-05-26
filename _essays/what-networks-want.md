@@ -7,10 +7,8 @@ tags:
 - typography
 - design
 extract: How do we orientate ourselves on the web? What is it for?
-City:
-- San Francisco, California
-Country:
-- USA
+city: San Francisco
+country: California
 layout: essays/what-networks-want
 ---
 

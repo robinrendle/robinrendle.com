@@ -13,10 +13,8 @@ update: Removing the book from its dusty place, I instantly recalled why I had f
   it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness
   and weight. My eyes glanced over its feeble, advertising stricken body and summoned
   the memory of its boring and conventional typesetting.
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 ---
 
 Removing the book from its dusty place, I instantly recalled why I had forgotten it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness and weight. My eyes glanced over its feeble, advertising stricken body and summoned the memory of its boring and conventional typesetting.

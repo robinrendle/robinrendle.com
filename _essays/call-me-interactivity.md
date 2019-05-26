@@ -10,7 +10,7 @@ tags:
 - digital-physical
 - interactivity
 layout: default
-hero: 
+hero:
 aside: The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick
   Sherman</a>. Care to read more about the wonderful typography within? Head on over
   to the book review at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts
@@ -24,10 +24,8 @@ update: On returning home at the start of the Christmas holidays I found the [Ar
   Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition
   of *Moby Dick* waiting for me. However, unlike the majority of other books, you
   cannot but instantly remark upon how special it is.
-City:
-- Plymouth
-Country:
-- UK
+city: Plymouth
+country: UK
 ---
 
 On returning home at the start of the Christmas holidays I found the [Arion

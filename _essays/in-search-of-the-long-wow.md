@@ -7,8 +7,8 @@ tags:
 - featured
 extract: Where was our literary and technological revolution? Where was the future
   book?
-Country: UK
-City: Plymouth
+country: UK
+city: Plymouth
 layout: default
 ---
 
@@ -18,13 +18,13 @@ It’s the books that are infatuated with me.
 
 In hope of spending a weekend by my side, or even just a moment in my bag, books will call out from the shops in airport terminals and reveal themselves along riverbank market stalls. Likewise, I’ve found so many books waiting for me on the midnight trains that slowly criss-cross their way along the English towns near my home that I've begun to imagine a conspiracy of books at work; they’ve heard reports of my forbidden touch, or the color of my eyes, or my prolonged contact with the naked bodies of their friends. And so, hidden in jackets and sheathed in purses, the books plan their approach as they hope to try their luck with me instead.
 
-I find them everywhere, at all times, and they respond to my body like a magnet; jumping into my bag, clinging onto me for dear life. What is it about these books, these inky sponges, I wonder, that make them act so desperately? 
+I find them everywhere, at all times, and they respond to my body like a magnet; jumping into my bag, clinging onto me for dear life. What is it about these books, these inky sponges, I wonder, that make them act so desperately?
 
 That’s not to say that the relationship is all one-way however; over the past year or so the buildings and faces around me have swirled into an incomprehensible blur and it's only when I think about these books that the events lost in that swirl begin to make a little sense. I vividly remember the the final scenes as I turn these books over in my hands; they reveal a collage of where I was, and who I was, when I read them.
 
 Yet in the foreseeable future my library can no longer be brought along for the ride, and I can no longer continue my affairs with the strange books that whisper my name in the dark. This year I'll be attempting to avoid those flirting temptations by reading everything on the new [Kindle Paperwhite](http://www.amazon.co.uk/dp/B00QJDO0QC?tag=googhydr-21&hvadid=103938617776&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3639996746075672616&hvpone=&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_8x9on57jya_b).
 
-I’ve always been fascinated by e-reading devices but I've been continuously frustrated by my expectations of them. Several years ago I owned a Kindle with physical buttons and a keyboard, and I remember how the experience was much like trying to read a novel from an Etch-a-Sketch. 
+I’ve always been fascinated by e-reading devices but I've been continuously frustrated by my expectations of them. Several years ago I owned a Kindle with physical buttons and a keyboard, and I remember how the experience was much like trying to read a novel from an Etch-a-Sketch.
 
 During that time I tried to ignore how the designers appeared oblivious to centuries of typographic discipline, yet the hardware itself was unavoidably primitive and frustrating in every regard. No matter how many reviews I watched or how many friends recommended them I couldn’t understand where this wellspring of sentiment came from. Ultimately I felt that ebooks, and e-readers, showed so much promise but it was a promise that couldn’t be kept, which is why I was so very hesitant when I thought of returning to the Kindle again.
 
@@ -34,9 +34,9 @@ I believe this is for two reasons: one, no-one appears to believe anymore that e
 
 And that’s the first thing you discover when you open the box and setup your account—it dawns on you just how truly boring the Kindle now is. So much so that whenever I’ve tried to bring up a conversation about my latest reading adventures I watch as faces droop and eyes roll, it’s impossible not to yawn in reply. Where are the Watch apps and the VR simulations that will let me read Moby Dick whilst [sitting on the Moon](https://www.youtube.com/watch?time_continue=12&v=fvQS8ImnSsw) or tumbling down a [roller coaster](https://www.youtube.com/watch?v=Odax7F3tWhM), I hear you ask.
 
-Back in 2007 when the Kindle debuted there was so much hope for a literary and technological revolution of some kind. But eight years later, surely we ought to have replaced this antiquated ebook technology by now. 
+Back in 2007 when the Kindle debuted there was so much hope for a literary and technological revolution of some kind. But eight years later, surely we ought to have replaced this antiquated ebook technology by now.
 
-If this is the future that we’ve been promised from the very start, then where is the revolution? Where are the new forms of reading? 
+If this is the future that we’ve been promised from the very start, then where is the revolution? Where are the new forms of reading?
 
 And where is the Kindle?
 
@@ -59,7 +59,7 @@ The *Long Wow* is the sort of action that continues to impress, long after someo
 
 For instance, the first time we saw magazines on the iPad — all those animations and diagrams and Minority Report-like features! — these could each be described as a *Small Wow*. But the gimmicks fade quickly and then you're left wondering how the blasted thing works. (Is this the app where I have to swipe right and then down into the article, or is the one where I have to pinch-zoom out to get to the contents page etc etc.)
 
-However, both types of *Wow* are possible outside the realm of the e-reader, too. I remember [a physical book](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) that was surely capable of both. After years of looking at it, I still gawp at its shape and texture. I think about the custom typeface, about the quality of the paper, about the delicate woodcut illustrations, each a *Small Wow* in their own right, and each leading to a more satisfying reading experience overall. 
+However, both types of *Wow* are possible outside the realm of the e-reader, too. I remember [a physical book](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) that was surely capable of both. After years of looking at it, I still gawp at its shape and texture. I think about the custom typeface, about the quality of the paper, about the delicate woodcut illustrations, each a *Small Wow* in their own right, and each leading to a more satisfying reading experience overall.
 
 In other words, there are _Small Wows_ that contribute to better experiences, and then there are _Small Wows_ that prevent them. This is why designing a reading device is so frustratingly difficult. But in order to understand the *Long Wow* of the Kindle, we have to break it up into each of its component parts, the tiny features that continue to impress and surprise:
 
