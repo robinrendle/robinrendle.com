@@ -6,7 +6,7 @@
       I’m Robin, a designer, writer and typographer living in San Francisco.
     </h1>
     <div class='m-longform cell-b40'>
-      <p>Today I work at <a href='https://gusto.com'>Gusto</a> as a product designer but I spend a lot of my time thinking about design systems, front-end development, and <abbr title='user experience'>UX</abbr>. I’m also on the team at <a href='http://css-tricks.com/'>CSS-Tricks</a> where we write about web design, too. Here though you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of warning; things certainly got a little weird at one point or another.</p>
+      <p>I work at <a href='https://gusto.com'>Gusto</a> as a designer and developer on the design systems team and I spend a lot of my time thinking about web design, front-end development, and <abbr title='user experience'>UX</abbr>. I’m also on the team at <a href='http://css-tricks.com/'>CSS-Tricks</a> where we write about web design, too. Here though you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of warning; things certainly got a little weird at one point or another.</p>
     </div>
   </div>
   <div class="m-header__img m-wrapper__side">
@@ -17,7 +17,6 @@
 <div class="m-wrapper">
   <div class="m-wrapper__content cell-b40">
   	<h4 class='c-lightgrey u-reset-margins cell-b10'>Favorites from the Archive</h4>
-
     {% for item in collections.featured reversed %}
     <a href="{{item.url}}" class="block rules--top rules rules--light cell-v20">
       <h3 class="links h3 u-text--regular u-text--book u-reset-margins">{{item.data.title}}</h3>
@@ -27,9 +26,6 @@
     </a>
     {% endfor %}
   </div>
-
-
-
 
   <div class="m-wrapper__side cell-b40">
   	<h4 class='c-lightgrey u-reset-margins cell-b10'>What I’m Reading</h4>
