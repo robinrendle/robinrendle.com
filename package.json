@@ -12,7 +12,8 @@
     "scripts": "gulp scripts"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "@11ty/eleventy": "^0.8.3",
+    "browser-sync": "^2.26.5",
     "fontfaceobserver": "^1.5.4",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^2.1.0",
