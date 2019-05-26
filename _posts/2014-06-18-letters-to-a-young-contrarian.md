@@ -1,8 +1,6 @@
 ---
 title: Letters to a Young Contrarian
 date: 2014-06-18 07:44:00 -07:00
-categories:
-- books
 tags:
 - language
 - words

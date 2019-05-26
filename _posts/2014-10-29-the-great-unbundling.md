@@ -11,11 +11,9 @@ extract: Somehow I’ve found myself in a room bustling with all the languages o
   are arguing in Romanian (or perhaps Italian) whilst they nudge past their elderly
   counterparts, tourists speaking English. Although they all share their incompatible
   language with a neighbour, everyone around me can somehow communicate quite easily.
-update: 
-city:
-- Amsterdam
-country:
-- The Netherlands
+update:
+city: Amsterdam
+country: The Netherlands
 ---
 
 Somehow I’ve found myself in a room bustling with all the languages of Europe—they’re mixing out in the dusty air around me; Dutch and German, Greek and French, others are arguing in Romanian (or perhaps Italian) whilst they nudge past their elderly counterparts, tourists speaking English. Although they all share their incompatible language with a neighbour, everyone around me can somehow communicate quite easily. Territorial borders and guttural accents cannot stop their obsession for the objects over which they bicker and argue; objects which they’ve come all this way to find; objects which, of course, must be books. Millions of words bundled up in physical, paperback books.

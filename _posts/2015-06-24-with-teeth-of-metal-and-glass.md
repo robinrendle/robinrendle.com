@@ -10,11 +10,9 @@ extract: 'My excitement for a holiday to NYC was of paramount importance then: a
   to New York? What would my girlfriend and I find there? Would she move in with me
   once we came back or would we just throw caution to the wind and move to America
   and work together?'
-update: 
-city:
-- New York City
-country:
-- USA
+update:
+city: New York City
+country: USA
 ---
 
 Since my early childhood I believed that I was a New Yorker in exile. The atmosphere, the energy; I gobbled up every part of it that leaked through a TV or found its way to me via magazines, posters and books. I felt that not only had I the misfortune to have been born in the wrong country with the wrong accent but I also believed that one day, if I tried my very best, then New York might adopt me as one of its own.
