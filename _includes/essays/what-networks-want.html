@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8" />
+
+    <title>{{site.title}} › {{page.title}}</title>
+
+    <meta name="author" content="Robin Rendle">
+    <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://plus.google.com/+RobinRendle">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/images/favicon.png">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/css/what-networks-want.css" />
+</head>
+
+<body class="">
+    <div class="main">
+        <section role="main">
+            <div class="wrapper cell-t80">
+                <h1>{{page.title}}</h1>
+                <small class="italic content date">Robin Rendle • June 1st 2016 • {{page.City}}</small>
+
+                <div class="m-longform cell-t40 cell-b80">
+                    {{content}}
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript">
+        WebFontConfig = {
+          custom: {
+            families: [
+                'FG Display',
+                'Nocturno Book 7',
+                'Nocturno Regular Italic 35',
+                'Nocturno Regular 39',
+                'Nocturno Regular 41' // small caps
+            ],
+            urls: [
+                'http://fonts.typonine.com/WF-003562-001466.css',
+                'http://fonts.typonine.com/WF-003562-001468.css',
+                'http://robinrendle.com/fonts/font.css'
+            ]
+          },
+          timeout: 2000,
+          active: function() {
+            sessionStorage.fonts = true;
+          }
+        };
+
+       (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+          s.parentNode.insertBefore(wf, s);
+       })(document);
+    </script>
+</body>
+</html>
+
