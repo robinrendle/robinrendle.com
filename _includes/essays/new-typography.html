@@ -68,18 +68,9 @@
                 <div class="title__text-wrapper">
                     <div class="meta">
                         <div class="meta__item">
-                            <time datetime="{{page.date}}">
-                                {% assign d = date | date: "%-d"  %}
-                                    {% case d %}
-                                        {% when '1' or '21' or '31' %}{{ d }}st
-                                        {% when '2' or '22' %}{{ d }}nd
-                                        {% when '3' or '23' %}{{ d }}rd
-                                        {% else %}{{ d }}th
-                                    {% endcase %}
-                                    {{ date | date: "%B" }}
-                                    {{ date | date: "%Y" }}
-
-                            </time>
+                          <time datetime="{{date}}">
+                            {{date | date: "%B %d, %Y"}}
+                          </time>
                         </div>
                         <div class="meta__item">
                             {{city}}, <span class="caps">{{country}}</span>
