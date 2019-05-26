@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig)  {
   eleventyConfig.addLayoutAlias('adventures', 'layouts/adventures.html');
   eleventyConfig.addLayoutAlias('projects', 'layouts/projects.html');
   eleventyConfig.addLayoutAlias('notes', 'layouts/notes.html');
+  eleventyConfig.addLayoutAlias('posts', 'layouts/default.html');
   eleventyConfig.addPassthroughCopy('assets');
 
   eleventyConfig.addCollection('blogposts', collection => {
