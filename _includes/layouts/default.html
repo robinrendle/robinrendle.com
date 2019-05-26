@@ -19,7 +19,7 @@
 <div class="m-longform m-wrapper m-wrapper--unpadded">
   <div class="m-wrapper__content">
     {% if intro %}
-        {{intro | markdownify}}
+        {{intro}}
     {% endif %}
     {{ content }}
   </div>
@@ -28,7 +28,7 @@
 <div class="m-longform--small m-wrapper m-wrapper--unpadded cell-t20">
   <div class="m-wrapper__content">
     {% if aside %}
-        {{aside | markdownify}}
+      {{aside}}
     {% endif %}
   </div>
 </div>
