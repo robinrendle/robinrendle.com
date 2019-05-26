@@ -3,21 +3,19 @@
 <div class="m-wrapper">
   <div class="m-wrapper__content">
     <div class="cell-t40 cell-t60--medium cell-b20">
-        <h1>Essays and articles</h1>
+      <h1>Essays and Articles</h1>
     </div>
 
     {% for item in collections.essays reversed %}
-        <div class="cell-b30">
-            <header class="links">
-                <h3 class="h3 u-text--book u-reset-margins">
-                  <a href="{{item.url}}">{{item.data.title}}</a>
-                </h3>
-            </header>
+    <div class="cell-b30">
+      <header class="links">
+        <h3 class="h3 u-text--book u-reset-margins">
+          <a href="{{item.url}}">{{item.data.title}}</a>
+        </h3>
+      </header>
 
-            <div class="m-longform">
-                <p>{{item.data.extract}}</p>
-            </div>
-        </div>
+      <div class="m-longform"><p>{{item.data.extract}}</p></div>
+    </div>
     {% endfor %}
   </div>
 </div>
