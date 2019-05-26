@@ -9,6 +9,25 @@ module.exports = function(eleventyConfig)  {
   eleventyConfig.addLayoutAlias('posts', 'layouts/default.html');
   eleventyConfig.addPassthroughCopy('assets');
 
+
+  ////////////////////////
+  // Markdown
+  ////////////////////////
+  let md = require('markdown-it');
+  let mdFootnote = require('markdown-it-footnote');
+
+  let options = {
+    html: true
+  };
+
+  let mdLib = md(options).use(mdFootnote);
+  eleventyConfig.setLibrary("md", mdLib);
+
+
+
+  ////////////////////////
+  // Collections
+  ////////////////////////
   eleventyConfig.addCollection('blogposts', collection => {
     return collection.getFilteredByGlob('_posts/*.md');
   });
