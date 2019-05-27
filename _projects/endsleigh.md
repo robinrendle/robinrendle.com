@@ -58,7 +58,6 @@ Serving <abbr title='scalable vector graphics'>SVG</abbr> assets and high resolu
         <img class="chrome-shadow" src="/build/images/work/endsleigh/endsleigh-desktop-detail.jpg">
       </figure>
     </div>
-
     <div class='side-by-side__child'>
       <figure>
         <img class="chrome-shadow" src="/build/images/work/endsleigh/endsleigh-desktop-business.jpg">

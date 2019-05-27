@@ -7,21 +7,16 @@
     </div>
   </div>
 </div>
-
 <section class="m-wrapper">
   <div class="m-wrapper__content cell-b40">
-      {% assign projects = site.projects %}
-      {% for post in projects %}
-        {% if post.published != false %}
-          <a href="{{post.url}}" class="project-link block rules--bottom rules rules--light cell-v20">
-            <h3 class='links h3 u-text--regular u-text--book u-reset-margins'>{{ post.title }}</h3>
-            <div class='m-longform'>
-      				<p class="c-grey u-text--regular u-text--book u-reset-margins">{{ post.subtitle }}</p>
-      			</div>
-            <!-- <img src="{{ post.heroImage }}" alt=""> -->
-          </a>
-        {% endif %}
-      {% endfor %}
+    {% for item in collections.projects reversed %}
+      <a href="{{item.url}}" class="project-link block rules--bottom rules rules--light cell-v20">
+        <h3 class='links h3 u-text--regular u-text--book u-reset-margins'>{{ item.data.title }}</h3>
+        <div class='m-longform'>
+  				<p class="c-grey u-text--regular u-text--book u-reset-margins">{{ item.data.subtitle }}</p>
+  			</div>
+      </a>
+    {% endfor %}
   </div>
 </section>
 

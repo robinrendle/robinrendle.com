@@ -3,42 +3,38 @@
 <header class="m-wrapper cell-t40 cell-t60--medium cell-b20">
   <div class="m-wrapper__content">
     <div class="meta-info">
-      <p class="meta-info__item u-reset-margins">{{page.dateRange}}</p>
+      <p class="meta-info__item u-reset-margins">{{dateRange}}</p>
     </div>
-    <h1 class='u-reset-margins'>{{page.title}}</h1>
+    <h1 class='u-reset-margins'>{{title}}</h1>
   </div>
 </header>
 
 <section class="m-wrapper">
   <div class='m-wrapper__content'>
     <div class='m-longform'>
-      {{page.extract | markdownify}}
+      {{extract}}
     </div>
   </div>
   <div class='m-wrapper__side'>
     <div class="m-longform--small m-longform">
       <h4 class='u-reset-margins project-subheading'>Role</h4>
       <p>
-        {{page.role}}
+        {{role}}
       </p>
       <h4 class='u-reset-margins project-subheading'>Result</h4>
       <p>
-        {{page.results}}
+        {{results}}
       </p>
     </div>
   </div>
 </section>
-
-
 <figure class='project-intro-hero'>
-  <img src='{{page.heroImage}}' class='{{page.heroImageClass}} desaturate chrome-shadow'/>
+  <img src='{{heroImage}}' class='{{heroImageClass}} desaturate chrome-shadow'/>
 </figure>
-
 <div class="m-longform m-wrapper m-wrapper--unpadded">
   <div class="m-wrapper__content">
     {{content}}
   </div>
 </div>
-
 
 {% include footer.html %}
