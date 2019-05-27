@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig)  {
   eleventyConfig.addLayoutAlias('home', 'layouts/home.html');
   eleventyConfig.addLayoutAlias('adventures', 'layouts/adventures.html');
   eleventyConfig.addLayoutAlias('projects', 'layouts/projects.html');
+  eleventyConfig.addLayoutAlias('projects-detail', 'layouts/projects-detail.html');
   eleventyConfig.addLayoutAlias('notes', 'layouts/notes.html');
   eleventyConfig.addLayoutAlias('posts', 'layouts/default.html');
   eleventyConfig.addPassthroughCopy('assets');
@@ -30,6 +31,10 @@ module.exports = function(eleventyConfig)  {
   ////////////////////////
   eleventyConfig.addCollection('blogposts', collection => {
     return collection.getFilteredByGlob('_posts/*.md');
+  });
+
+  eleventyConfig.addCollection('projects', collection => {
+    return collection.getFilteredByGlob('_projects/*.md');
   });
 
   eleventyConfig.addCollection('essays', collection => {
