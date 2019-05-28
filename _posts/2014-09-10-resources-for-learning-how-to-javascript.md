@@ -11,7 +11,7 @@ extract: In recent weeks I’ve been trying to improve my fledging JavaScript sk
   which have always bothered me. Sure, for the longest time I’ve been able to hack
   away in order to get something to work in the browser but parsing all the quirks
   and eccentricities of the DOM felt entirely beyond me.
-update:
+update: 
 city: Plymouth
 country: UK
 ---

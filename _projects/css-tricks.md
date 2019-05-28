@@ -13,7 +13,8 @@ extract: Since early 2015 I’ve been a regular contributor to [<abbr title='Cas
   and HTML. Quite frankly it’s been a wonderful opportunity to improve my front-end
   and writing skills as well as work with some of the smartest people in the industry.
 role: Writing, pitching, and editing articles and contributions.
-results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning about the latest and greatest in front-end development.'
+results: Growing the newsletter to more than 32,000 subscribers and constantly learning
+  about the latest and greatest in front-end development.
 customCSSClass: css-tricks
 heroImage: "/images/portfolio/css-tricks-main.jpg"
 layout: projects-detail

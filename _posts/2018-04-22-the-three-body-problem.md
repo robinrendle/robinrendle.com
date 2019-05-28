@@ -4,14 +4,14 @@ date: 2018-04-22 16:21:00 -07:00
 categories:
 - reading
 - books
-city: San Francisco
-country: California
 tags:
 - Liu Cixin
 - sci-fi
 - reading
 - novel
 - book
+city: San Francisco
+country: California
 extract: Liu Cixin’s book all about contacting an alien civilization is outstanding
   and weird as all hell.
 ---

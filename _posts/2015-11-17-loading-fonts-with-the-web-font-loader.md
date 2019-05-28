@@ -12,7 +12,7 @@ extract: Several years ago the consensus on font loading in the community was th
   by a custom font when it loaded. They argued that it would make for a more cohesive
   browsing experience if users simply waited for everything to download instead of
   experiencing this flash from one typeface to another.
-update:
+update: 
 city: Plymouth
 country: UK
 ---

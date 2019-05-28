@@ -11,7 +11,7 @@ extract: Somehow I’ve found myself in a room bustling with all the languages o
   are arguing in Romanian (or perhaps Italian) whilst they nudge past their elderly
   counterparts, tourists speaking English. Although they all share their incompatible
   language with a neighbour, everyone around me can somehow communicate quite easily.
-update:
+update: 
 city: Amsterdam
 country: The Netherlands
 ---

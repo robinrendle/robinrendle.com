@@ -12,7 +12,7 @@ extract: 'For the longest time I’ve taken the sidelines in most arguments, bot
   self righteous. It wasn’t a case of being quietly smug though, I just thought: who
   needs to hear another white guy shout about civil rights or oppression, institutionalised
   sexism or the freakishly calm barbarity of a racist slur?'
-update:
+update: 
 city: Nottingham
 country: UK
 ---

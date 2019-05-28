@@ -1,8 +1,6 @@
 ---
 title: A Rant after a Day
 date: 2018-09-27 20:42:00 -07:00
-city: San Francisco
-country: California
 categories:
 - government
 tags:
@@ -11,6 +9,8 @@ tags:
 - facebook
 - time tracking
 - google
+city: San Francisco
+country: California
 extract: You don’t have to put a dent in the universe. You can just be kind. And put
   things back where you found them. And make a few people laugh along the way.
 ---

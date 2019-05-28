@@ -1,8 +1,9 @@
 ---
 title: And Introducing
 date: 2015-10-24 11:59:00 -07:00
+tags:
+- project
 dateRange: August 2018
-tags: project
 subtitle: A microsite for a wonderful little art book.
 extract: I made a quick microsite for Jez Burrows’ new Kickstarter campaign and art
   book, _And Introducing_. Jez describes this peculiar thing as “an art book that

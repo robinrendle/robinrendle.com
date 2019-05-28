@@ -9,7 +9,7 @@ tags:
 extract: "“Years ago, I asked one of my mentors what he thought was the hardest part
   of designing a typeface. I was expecting “the cap S” or “the italic lowercase” or
   something like that. But he answered without hesitation: the name.”"
-update:
+update: 
 link: http://www.frerejones.com/blog/scrambled-eggs-and-serifs/
 city: Plymouth
 country: UK

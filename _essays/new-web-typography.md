@@ -16,6 +16,7 @@ intro: We can trace a nervous path through the links and hearts that occupy our 
   those rules take?
 layout: essays/new-typography
 ---
+
 In 1927, twelve months before he published his infamous manifesto on typography, the German book designer Jan Tschichold criticised[^1] designers for mimicking the classical forms of design:
 
 <figure class="quote">

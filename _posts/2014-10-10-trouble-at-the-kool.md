@@ -8,7 +8,7 @@ tags:
 extract: "“It begins with simple threats. You know, rape, dismemberment, the usual.
   It’s a good place to start, those threats, because you might simply vanish once
   those threats include your family.”"
-update:
+update: 
 link: http://seriouspony.com/trouble-at-the-koolaid-point
 city: Plymouth
 country: UK

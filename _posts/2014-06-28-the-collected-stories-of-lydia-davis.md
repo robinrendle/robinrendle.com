@@ -12,7 +12,7 @@ extract: "“Michel Butor says that to travel is to write, because to travel is 
   is to write, and to read is to travel. But George Steiner says that to translate
   is also to read, and to translate is to write, as to write is to translate and to
   read is to translate...”"
-update:
+update: 
 city: Nottingham
 country: UK
 ---

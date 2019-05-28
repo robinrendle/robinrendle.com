@@ -11,7 +11,7 @@ extract: Finishing a book in this environment feels so much more of an accomplis
   it was not written for upcoming graphic designers or art students (like the majority
   of typographic resources out there), instead this book’s aim had been calibrated
   specifically towards writers.
-update:
+update: 
 city: Plymouth
 country: UK
 ---

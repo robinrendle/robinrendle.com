@@ -9,7 +9,7 @@ tags:
 extract: Madness, Rack and Honey is a collection of lectures by the poet Mary Ruefle
   in which she contemplates the various struggles surrounding her art, and gosh darn
   it if this book isn’t *endlessly* quotable.
-update:
+update: 
 city: Nottingham
 country: UK
 ---

@@ -6,9 +6,9 @@ tags:
 - security
 - privacy
 - network
-extract:
-update:
-link:
+extract: 
+update: 
+link: 
 city: Plymouth
 country: UK
 Book:

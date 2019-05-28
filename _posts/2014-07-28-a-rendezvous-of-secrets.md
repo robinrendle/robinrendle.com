@@ -9,7 +9,7 @@ extract: Reading is designed to alleviate our curiosity. We all want to know wha
   the rusty machine in their garage, or how long and serious their last relationship
   was. So once in a while, if we're lucky, a good novel might begin to soothe our
   penchant for mischief.
-update:
+update: 
 city: Plymouth
 country: UK
 ---

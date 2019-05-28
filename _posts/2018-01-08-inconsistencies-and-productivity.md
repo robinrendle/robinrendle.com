@@ -3,12 +3,12 @@ title: Inconsistencies and productivity
 date: 2018-01-08 21:26:00 -08:00
 categories:
 - work
-city: San Francisco
-country: California
 tags:
 - Jules Forrest
 - css
 - front-end development
+city: San Francisco
+country: California
 extract: Talking with Jules about design systems and how to incentivize good systems
   work across an organization.
 ---

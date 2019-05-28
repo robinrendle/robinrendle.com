@@ -13,7 +13,7 @@ tags:
 extract: "“Gutenberg considered the counter space, letter space, and line space. Every
   paragraph, whether written or printed, has these white spaces in it. But they don’t
   have to be thought of in isolation...”"
-update:
+update: 
 city: Nottingham
 country: UK
 ---

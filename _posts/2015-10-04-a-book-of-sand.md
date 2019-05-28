@@ -5,8 +5,8 @@ tags:
 - reading
 - Borges
 - Short story
-extract:
-update:
+extract: 
+update: 
 link: http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html
 city: Plymouth
 country: UK

@@ -1,7 +1,8 @@
 ---
 title: The Design System You Already Have
 date: 2019-02-22 16:55:00 -08:00
-extract: The distinction between “a designed system” and “design systems” is an important one to make.
+extract: The distinction between “a designed system” and “design systems” is an important
+  one to make.
 city: San Francisco
 country: California
 ---

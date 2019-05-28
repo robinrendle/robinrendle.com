@@ -5,7 +5,7 @@ tags:
 - italo calvino
 extract: "“Writers do not necessarily cherish their translators, and I occasionally
   had the feeling that Calvino would have preferred to translate his books himself...”"
-update:
+update: 
 link: http://www.theparisreview.org/interviews/2027/the-art-of-fiction-no-130-italo-calvino
 city: Plymouth
 country: UK

@@ -8,7 +8,7 @@ tags:
 extract: All of the parts fit; the graphic design was outstanding, the music was lovely.
   But most importantly, the characters all had motivations and narrative arcs and
   all the things that I crave from a film.
-city: San Francisco 
+city: San Francisco
 country: California
 ---
 

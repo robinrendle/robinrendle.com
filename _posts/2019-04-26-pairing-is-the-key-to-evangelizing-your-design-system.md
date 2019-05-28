@@ -1,7 +1,8 @@
 ---
 title: Pairing is the key to evangelizing your design system
 date: 2019-04-26 16:03:00 -07:00
-extract: It’s perhaps the most underrated aspect of design systems work I’ve read about.
+extract: It’s perhaps the most underrated aspect of design systems work I’ve read
+  about.
 city: San Francisco
 country: California
 ---

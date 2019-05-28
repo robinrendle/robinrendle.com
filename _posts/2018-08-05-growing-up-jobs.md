@@ -3,7 +3,7 @@ title: Growing Up Jobs
 date: 2018-08-05 21:10:00 -07:00
 extract: "“For him, I was a blot on a spectacular ascent, as our story did not fit
   with the narrative of greatness and virtue he might have wanted for himself.”"
-city: San Francisco 
+city: San Francisco
 country: California
 ---
 

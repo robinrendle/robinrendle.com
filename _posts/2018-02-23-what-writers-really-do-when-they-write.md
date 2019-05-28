@@ -1,10 +1,10 @@
 ---
 title: What writers really do when they write
 date: 2018-02-23 15:08:00 -08:00
-city: San Francisco
-country: California
 tags:
 - george saunders
+city: San Francisco
+country: California
 extract: "“A guy (Stan) constructs a model railroad town in his basement. Stan acquires
   a small hobo, places him under a plastic railroad bridge, near that fake campfire,
   then notices he’s arranged his hobo into a certain posture – the hobo seems to be

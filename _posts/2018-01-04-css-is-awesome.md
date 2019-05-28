@@ -1,10 +1,10 @@
 ---
 title: CSS is Awesome
 date: 2018-01-04 17:48:00 -08:00
-city: San Francisco
-country: California
 categories:
 - links
+city: San Francisco
+country: California
 extract: Despite how much you might want to control it, or bury the language in a
   mountainous rubble of JavaScript, the weirdness of the web will still be there,
   baked into the language itself. You can’t escape it.

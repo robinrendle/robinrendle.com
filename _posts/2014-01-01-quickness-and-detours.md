@@ -10,7 +10,7 @@ tags:
 extract: In Six Memos for the Next Millennium Italo Calvino outlines all of the attributes
   and properties of great writing that he believed ought to thrive into the distant
   future of literature
-update:
+update: 
 city: Nottingham
 country: UK
 ---

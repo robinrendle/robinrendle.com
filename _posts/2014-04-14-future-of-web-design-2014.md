@@ -13,7 +13,7 @@ extract: Earlier this week I headed off to the Future of Web Design conference i
   Overall it was a fantastic event with some wonderful talks about JavaScript performance,
   non-linear storytelling, masking shapes in CSS and so much more. It was certainly
   a diverse string of interesting talks.
-update:
+update: 
 city: Nottingham
 country: UK
 ---

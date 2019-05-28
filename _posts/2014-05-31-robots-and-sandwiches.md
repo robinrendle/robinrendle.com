@@ -8,7 +8,7 @@ tags:
 - books
 extract: "“And that is why I had such a hard time writing that first program. Computers
   are way dumber than I was prepared for...”"
-update:
+update: 
 city: Nottingham
 country: UK
 ---

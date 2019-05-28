@@ -13,8 +13,8 @@ extract: Listening is a masochist endeavor. To do it right you have to put every
   focusing on pain, diving into boredom. In order to see the other in slow motion,
   you need to stop the camera of self-perception that makes you the star, and speed
   up the camera that records the outside.
-update:
-link:
+update: 
+link: 
 city: Plymouth
 country: UK
 Book:

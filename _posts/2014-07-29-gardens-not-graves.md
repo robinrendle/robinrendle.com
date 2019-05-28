@@ -9,7 +9,7 @@ extract: "“...for years, we’ve neglected the disciplines of stewardship—th
   and unglamorous work of collecting, restoring, safekeeping, and preservation. Maybe
   the answer isn’t to post more, to add more and more streams. Let’s return to our
   existing content and make it more durable and useful.”"
-update:
+update: 
 city: Plymouth
 country: UK
 ---

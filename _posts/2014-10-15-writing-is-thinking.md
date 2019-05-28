@@ -7,8 +7,8 @@ extract: "“If you’re not sure how to finish a sentence, abandon it halfway t
   If you want to write extensively about one particular idea but your mind’s moving
   too quickly to flesh it all out, paraphrase for now and move on to the next big
   point.”"
-update:
-link:
+update: 
+link: 
 city: Plymouth
 country: UK
 ---

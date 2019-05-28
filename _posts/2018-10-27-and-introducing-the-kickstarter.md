@@ -1,12 +1,12 @@
 ---
 title: 'And Introducing: The Kickstarter'
 date: 2018-10-27 11:45:00 -07:00
-city: San Francisco
-country: California
 tags:
 - Jez Burrows
 - and introducing
 - friends
+city: San Francisco
+country: California
 extract: Jez just announced his Kickstarter campaign for his new book called And Introducing.
 ---
 

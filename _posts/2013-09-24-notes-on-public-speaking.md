@@ -11,6 +11,7 @@ extract: 'Here are some quick fire notes I’ve been making over and over again 
 city: Nottingham
 country: UK
 ---
+
 <ol>
     <li>
         <p>Much like a blog post, an article, or a book, you don’t need to show your entire life’s work to validate your ideas. It’s not really necessary to talk about that complex relationship that you have with your father and the name of your oh so cool (but chubby) cat that you’ve had since high school. Keep your biography at the beginning to a sentence or two and move things along as briskly as possible.</p>

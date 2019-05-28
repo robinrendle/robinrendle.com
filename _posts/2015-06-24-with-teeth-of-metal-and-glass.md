@@ -10,7 +10,7 @@ extract: 'My excitement for a holiday to NYC was of paramount importance then: a
   to New York? What would my girlfriend and I find there? Would she move in with me
   once we came back or would we just throw caution to the wind and move to America
   and work together?'
-update:
+update: 
 city: New York City
 country: USA
 ---

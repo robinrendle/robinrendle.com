@@ -1,7 +1,7 @@
 ---
 title: Book by Book
 date: 2013-03-20 20:30:00 -07:00
-location:
+location: 
 extract: An article in the Paris Review forced me to look back at the books that have
   impacted my work the most over the years and I wonder how much of my reading should
   be planned and organised in the future.

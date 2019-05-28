@@ -10,8 +10,8 @@ country: UK
 extract: Salman Rushdie’s musical opus, The Ground Beneath Her Feet, is one of a few
   select books that I want to slip into my friends’ backpacks, or hide in their bookshelf,
   or scatter copies under their beds until they must eventually concede.
-update:
-link:
+update: 
+link: 
 ---
 
 > “In love one advances by retreating.”

@@ -4,10 +4,10 @@ date: 2018-12-04 21:24:00 -08:00
 categories:
 - reading
 - books
-city: San Francisco
-country: California
 tags:
 - Tom Standage
+city: San Francisco
+country: California
 extract: How the telegraph changed the world.
 ---
 

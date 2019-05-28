@@ -10,7 +10,7 @@ extract: Lately I’ve finished reading a fabulous string of novels but it’s m
   feel guilty about ignoring more science-oriented and fact-driven prose. Thanks to
   this guilt my first tentative steps into the field of physics is a book by Neil
   deGrasse Tyson.
-update:
+update: 
 city: Nottingham
 country: UK
 ---

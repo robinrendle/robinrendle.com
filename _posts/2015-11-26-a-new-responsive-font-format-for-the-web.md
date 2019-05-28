@@ -9,7 +9,7 @@ extract: I think there’s huge potential for a new variable font format to beco
   key part of the designer’s tool belt. It would greatly improve the reading experience
   of general users of the web, too. But that doesn’t mean we can ignore the many problems
   and hurdles that we have to overcome to get a draft spec agreed upon.
-update:
+update: 
 city: Plymouth
 country: UK
 ---

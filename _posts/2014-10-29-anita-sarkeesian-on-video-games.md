@@ -7,7 +7,7 @@ extract: "“In 2006, I was drawn back into video games when Nintendo introduced
   system with intuitive motion controls and a quirky name, Wii. Nintendo projected
   the message that this new console was for everyone. Commercials featuring the tagline
   “Wii would like to play” showed families and friends of all ages.”"
-update:
+update: 
 link: http://www.nytimes.com/2014/10/29/opinion/anita-sarkeesian-on-video-games-great-future.html?_r=0
 city: Plymouth
 country: UK

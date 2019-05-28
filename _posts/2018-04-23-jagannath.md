@@ -7,7 +7,7 @@ categories:
 tags:
 - Karin Tidbeck
 extract: Karin Tidbeck’s collection of stories is a haunting and eerie delight.
-city: San Francisco 
+city: San Francisco
 country: California
 ---
 

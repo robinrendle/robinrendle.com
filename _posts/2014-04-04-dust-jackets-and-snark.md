@@ -9,7 +9,7 @@ extract: The book jackets flipped by, one after another, up on the projector in 
   of us. Pitch-perfect typographic settings and allusions to other graphic material
   presented themselves and struck the balance between describing the story of their
   contents whilst experimenting and drawing something new to the table.
-update:
+update: 
 city: Nottingham
 country: UK
 ---

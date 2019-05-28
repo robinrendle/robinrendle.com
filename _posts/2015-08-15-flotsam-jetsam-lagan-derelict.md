@@ -4,8 +4,8 @@ date: 2015-08-15 15:09:00 -07:00
 tags:
 - writing
 - flotsam jetsam lagan and derelict
-extract:
-update:
+extract: 
+update: 
 city: Plymouth
 country: UK
 ---

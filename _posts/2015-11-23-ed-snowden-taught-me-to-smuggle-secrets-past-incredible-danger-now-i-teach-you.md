@@ -9,7 +9,7 @@ tags:
 city: Plymouth
 country: UK
 extract: Micah Lee on his work regarding the Snowden revelations.
-update:
+update: 
 link: https://theintercept.com/2014/10/28/smuggling-snowden-secrets/
 Book:
 - theintercept.com

@@ -11,7 +11,7 @@ extract: 'Typographica has published their favourite typefaces from the past yea
   and so I’ll be spending the next couple of days carefully bookmarking and reading
   each of them in turn. In his now familiar and charming way Stephen summarises the
   collection:'
-update:
+update: 
 city: Nottingham
 country: UK
 ---
