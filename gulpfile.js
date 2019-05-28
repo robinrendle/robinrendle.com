@@ -1,105 +1,71 @@
-var gulp = require("gulp"),
-  shell = require("gulp-shell"),
-  jshint = require("gulp-jshint"),
-  browserSync = require("browser-sync").create(),
-  autoprefixer = require("gulp-autoprefixer"),
-  sass = require("gulp-sass"),
-  imagemin = require("gulp-imagemin"),
-  pngquant = require("imagemin-pngquant"),
-  uglify = require("gulp-uglify"),
-  concat = require("gulp-concat"),
+var gulp = require('gulp'),
+  sass = require('gulp-sass'),
+  jshint = require('gulp-jshint'),
+  autoprefixer = require('gulp-autoprefixer'),
+  imagemin = require('gulp-imagemin'),
+  pngquant = require('imagemin-pngquant'),
+  uglify = require('gulp-uglify'),
+  concat = require('gulp-concat'),
   log = require('fancy-log'),
-  jekyll = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll',
-  cp = require("child_process");
-
-
-////////////////////////////////////////////////////////////////
-// SCSS / JS
-////////////////////////////////////////////////////////////////
-
-// gulp.task("scripts", function() {
-//   gulp
-//     .src([
-//       './_static/js/lib/*.js',
-//       './_static/js/app.js'
-//     ])
-//     .pipe(uglify())
-//     .pipe(gulp.dest('js'))
-//     .pipe(browserSync.reload({ stream: true }));
-//   gulp
-//     .src(['./_static/js/lib/prism.js'])
-//     .pipe(uglify())
-//     .pipe(gulp.dest('js'))
-//     .pipe(browserSync.reload({ stream: true }));
-// });
+  serve = require('gulp-serve');
 
 
 var paths = {
   styles: {
     src: '_static/sass/**/*.scss',
-    dest: '_site/css',
-    destsecond: 'css'
+    dest: '_site/css'
   },
   images: {
     src: '_static/images/**/*.*',
-    dest: 'build/images'
+    dest: '_site/images'
   }
 };
 
-function style() {
-  return gulp.src(paths.styles.src)
-    .pipe(sass({
-       includePaths: ['scss'],
-       outputStyle: 'expanded',
-       onError: browserSync.notify
-    }))
-    .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
-    .pipe(gulp.dest(paths.styles.dest))
-    .pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest(paths.styles.destsecond));
-}
-
-function images(cb) {
+gulp.task('images', function(done){
   return gulp.src(paths.images.src)
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{ removeViewBox: false }],
       use: [pngquant()]
     }))
-    .pipe(gulp.dest(paths.images.dest)).on('error', cb);
-}
+    .pipe(gulp.dest(paths.images.dest))
+    done();
+});
 
-function browserSyncServe(done) {
-  browserSync.init({
-    server: {
-      baseDir: "_site"
-    }
-  })
-  done();
-}
 
-function browserSyncReload(done) {
-  browserSync.reload();
-  done();
-}
+gulp.task('css', function() {
+  return gulp.src(paths.styles.src)
+    .pipe(sass({
+      outputStyle: 'compressed',
+    }))
+    .pipe(autoprefixer(['last 3 versions', '> 1%', 'ie 9'], { cascade: true }))
+    .pipe(gulp.dest(paths.styles.dest))
+});
 
-function jekyllBuild() {
-  return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-}
+gulp.task('js', function() {
+  return gulp.src("./_static/js/**/*.js")
+    .pipe(concat('scripts.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./_site/js'));
+});
 
-function watch() {
-  gulp.watch(paths.styles.src, style)
-  gulp.watch(paths.images.src, images)
-  gulp.watch(
-    [
-    '*.html',
-    '_layouts/*.html',
-    '/**.*.html',
-    '_includes/*.html',
-    '_projects/*.markdown',
-    '_posts/*'
-  ],
-  gulp.series(jekyllBuild, browserSyncReload));
-}
+gulp.task('watch', function() {
+  gulp.watch([paths.styles.src, '_static/sass/**/**/*.scss', '_static/sass/**/**/*.scss'], gulp.parallel('css'))
+  gulp.watch('./static/js/**/*.js', gulp.parallel('js'))
+});
 
-gulp.task('default', gulp.parallel(jekyllBuild, browserSyncServe, watch));
+gulp.task('build', gulp.parallel(
+  'css',
+  'js',
+  'images'
+));
+
+gulp.task('dev', gulp.parallel(
+  'build',
+  'watch'
+));
+
+gulp.task('serve', serve({
+  root: '_static',
+  port: 8008,
+}));
