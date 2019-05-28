@@ -1,12 +1,36 @@
 
 # [robinrendle.com](http://robinrendle.com)
 
-This is where I work in public. 
+This is where I work in public.
 
 ## Setup
 
-This project runs on [Jekyll](https://jekyllrb.com/), so all content is written in Markdown and processed by [Redcarpet](https://github.com/vmg/redcarpet). At the moment everything is published via [Siteleaf v.2](http://v2.siteleaf.com/).
+Before I get to start writing I do the following in the CL:  
 
-CSS is preprocessed with Sass, whilst JavaScript is written in plain ES5.
+```
+blog title
+```
 
-All assets, including images, JavaScript and Sass files, are contained within the `_static` directory. [Gulp](http://gulpjs.com/) plugins then process these files into `css`, `js` and `images` directories. You can see which plugins are installed by checking out the `package.json` file.
+This will use the following bash function and make a new post in my post directory with today’s date and the title:
+
+```
+function blog() {
+IFS='' read -r -d '' String <<"EOF"
+---
+title:
+date:
+city:
+country:
+categories:
+tags:
+extract:
+---
+EOF
+
+URL="~/workspace/rr.com/_posts/$(date +%Y-%m-%d-)${1}.md"
+
+cd ~/workspace/rr.com/_posts && touch `date +%Y-%m-%d-`$1.md && echo "${String}" >> $_ && a $URL
+}
+```
+
+From there I have an Alfred extension that adds in the date, although I should probably update this script to do that and add the title automagically. The final part of that script will load it up in Atom.

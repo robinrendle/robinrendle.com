@@ -1,0 +1,39 @@
+{% include header.html %}
+
+<div class="m-wrapper">
+  <div class="m-wrapper__content">
+    <div class="cell-t40 cell-t60--medium cell-b0">
+        <h1>Quick Notes & Ramblings</h1>
+    </div>
+
+    {% for item in collections.blogposts reversed %}
+      <a class='block rules--bottom rules--light cell-b15 cell-t15' href='{{ item.url }}'>
+        <time class='h6 c-lightgrey' datetime="{{ item.data.date}}">
+          {{ item.data.date | date: "%m/%d/%y" }}
+        </time>
+        <div class='m-longform'>
+          <h3 class="h3 u-text--regular c-primary u-text--book u-reset-margins">
+            {{item.data.title}}
+          </h3>
+          <p class="c-grey u-text--regular u-text--book u-reset-margins">{{item.data.extract}}</p>
+        </div>
+      </a>
+    {% endfor %}
+
+    {% for item in collection.blogposts %}
+      {% assign date = currentdate %}
+        <a class='block rules--bottom rules--light cell-b15 cell-t15' href='{{ post.url }}'>
+          <div class="c-lightgrey">
+            <time class='h6' datetime="{{ post.data.date}}">
+              {{ item.data.date | date: "%m/%d/%y" }}
+            </time>
+          </div>
+          <div class='m-longform'>
+            <h3 class="h3 u-text--regular c-primary u-text--book u-reset-margins">{{item.data.title}}</h3>
+            <p class="c-grey u-text--regular u-text--book u-reset-margins">{{item.data.extract}}</p>
+          </div>
+        </a>
+    {% endfor %}
+  </div>
+</div>
+{% include footer.html %}
