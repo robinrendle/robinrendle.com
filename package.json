@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "yarn run dev",
-    "dev": "gulp dev & eleventy --serve"
+    "dev": "gulp dev & eleventy --serve",
+    "build": "gulp dev & eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
