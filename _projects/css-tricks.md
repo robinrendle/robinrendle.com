@@ -15,7 +15,7 @@ extract: Since early 2015 I’ve been a regular contributor to [<abbr title='Cas
 role: Writing, pitching, and editing articles and contributions.
 results: 'Growing the newsletter to more than 32,000 subscribers and constantly learning about the latest and greatest in front-end development.'
 customCSSClass: css-tricks
-heroImage: "/build/images/portfolio/css-tricks-main.jpg"
+heroImage: "/images/portfolio/css-tricks-main.jpg"
 layout: projects-detail
 ---
 

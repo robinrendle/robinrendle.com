@@ -7,7 +7,7 @@ layout: projects-detail
 color: "#5c58a4"
 company: Erskine Design
 customCSSClass: endsleigh
-heroImage: "/build/images/portfolio/endsleigh-hero.png"
+heroImage: "/images/portfolio/endsleigh-hero.png"
 heroImageClass: no-shadow
 role: Front-end development
 results: 40% increase in conversion rates for key products and a 15% drop in the number
@@ -39,7 +39,7 @@ First we took a look at the high-fidelity mockups, printed them out and plastere
 <div class="m-wrapper--full">
   <div class='m-wrapper--unpadded-wide'>
     <figure class='cell-t20'>
-      <img src="/build/images/portfolio/endsleigh-layouts.png">
+      <img src="/images/portfolio/endsleigh-layouts.png">
       <figcaption>
         <p>By taking a step back and looking at all the templates and components together before we started building anything was crucial in order to figure out what we should build and in what order.</p>
       </figcaption>
@@ -55,12 +55,12 @@ Serving <abbr title='scalable vector graphics'>SVG</abbr> assets and high resolu
   <div class='side-by-side equal-height'>
     <div class='side-by-side__child'>
       <figure>
-        <img class="chrome-shadow" src="/build/images/work/endsleigh/endsleigh-desktop-detail.jpg">
+        <img class="chrome-shadow" src="/images/work/endsleigh/endsleigh-desktop-detail.jpg">
       </figure>
     </div>
     <div class='side-by-side__child'>
       <figure>
-        <img class="chrome-shadow" src="/build/images/work/endsleigh/endsleigh-desktop-business.jpg">
+        <img class="chrome-shadow" src="/images/work/endsleigh/endsleigh-desktop-business.jpg">
       </figure>
     </div>
   </div>

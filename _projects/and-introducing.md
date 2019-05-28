@@ -12,7 +12,7 @@ extract: I made a quick microsite for Jez Burrows’ new Kickstarter campaign an
   as playing ‘Reluctant Surgeon’ or ‘Dank Jimmy.’
 role: Front-end development, design
 results: An animated website marketing the book
-heroImage: "/build/images/portfolio/and-introducing.png"
+heroImage: "/images/portfolio/and-introducing.png"
 layout: projects-detail
 ---
 

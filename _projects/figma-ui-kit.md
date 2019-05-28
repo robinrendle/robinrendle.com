@@ -14,7 +14,7 @@ extract: At Gusto the design team uses Figma to make mockups and prototypes of n
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
-heroImage: "/build/images/portfolio/figma-ui-kit.jpg"
+heroImage: "/images/portfolio/figma-ui-kit.jpg"
 ---
 
 ## Improving the designer experience at Gusto
@@ -25,7 +25,7 @@ Once I had finished making all of the component symbols I created a sticker shee
 
 <div class='m-wrapper--full'>
   <figure>
-    <img src="/build/images/portfolio/figma-sticker-sheet.jpg" class="chrome-shadow" />
+    <img src="/images/portfolio/figma-sticker-sheet.jpg" class="chrome-shadow" />
   </figure>
 </div>
 

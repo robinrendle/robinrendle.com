@@ -13,7 +13,7 @@ extract: Gusto helps companies manage their payroll, handle employee benefits, a
 endDate: 12/2018
 company: Gusto
 layout: projects-detail
-heroImage: "/build/images/portfolio/time-tracking-drawer.jpg"
+heroImage: "/images/portfolio/time-tracking-drawer.jpg"
 ---
 
 ## Understanding the problem
@@ -30,12 +30,12 @@ There were a few issues with this original design, the first being that we knew 
 <div class='side-by-side m-wrapper--full'>
   <div class='side-by-side__child'>
     <figure>
-      <img src="/build/images/portfolio/time-tracking-dashboard-draft.jpg" class="chrome-shadow"/>
+      <img src="/images/portfolio/time-tracking-dashboard-draft.jpg" class="chrome-shadow"/>
     </figure>
   </div>
   <div class='side-by-side__child'>
     <figure>
-      <img src="/build/images/portfolio/time-tracking-first-draft.jpg" class="chrome-shadow"/>
+      <img src="/images/portfolio/time-tracking-first-draft.jpg" class="chrome-shadow"/>
     </figure>
   </div>
 </div>
@@ -72,12 +72,12 @@ Here’s the final iteration that released after the ever-so-excellent designer 
 <div class='side-by-side m-wrapper--full'>
   <div class='side-by-side__child'>
     <figure>
-      <img src="/build/images/portfolio/time-tracking-final.jpg" class="chrome-shadow"/>
+      <img src="/images/portfolio/time-tracking-final.jpg" class="chrome-shadow"/>
     </figure>
   </div>
   <div class='side-by-side__child'>
     <figure>
-      <img src="/build/images/portfolio/time-tracking-drawer.jpg" class="chrome-shadow"/>
+      <img src="/images/portfolio/time-tracking-drawer.jpg" class="chrome-shadow"/>
     </figure>
   </div>
 </div>
