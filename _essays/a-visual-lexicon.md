@@ -19,7 +19,7 @@ country: UK
 The alphabetic comrades that accompany these letters are all different as well; you begin to see the system beneath the aesthetics and your mind reels at all that energy it must have taken to organise such a lively set of moving parts.
 
 <figure class="figure--bg-blue figure--wide">
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/Q-diagram.png" alt="An image showing the differences between the captial Q in three type systems"/>
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/Q-diagram.png" alt="An image showing the differences between the captial Q in three type systems"/>
     <figcaption class="figure--wide__caption figure--wide__caption--light"><p>Proxima Nova by <a href="http://www.marksimonson.com/">Mark Simonson</a>, Baskerville by <a href="http://www.linotype.com/">Linotype</a> and Bureau Grotesque Three Seven by <a href="http://www.fontbureau.com/">Font Bureau</a></p>
     </figcaption>
 </figure>
@@ -27,7 +27,7 @@ The alphabetic comrades that accompany these letters are all different as well; 
 To reveal the whole system though, a true typomaniac will often bring similar alphabets and faces together side by side. This trains the eye to detect the inner secrets and methods, the logic that went into the construction. Shapes become blotches of negative space, as if the alphabet was carved out of marble, and since then, the first letter, that Colossus that swooped up your attention in the first place, he too, now looks regular and uniform — *almost obvious* in hindsight.
 
 <figure class="figure--wide">
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/a-diagram.png" alt="Comparing the similarities between two sans-serif typefaces"/>
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/a-diagram.png" alt="Comparing the similarities between two sans-serif typefaces"/>
     <figcaption class="figure--wide__caption figure--wide__caption--plain">
     <h4>Seeing the smallest details</h4>
     <p>FF Meta by <a href="http://fontfont.com">FontFont</a> and Ideal Sans by <a href="http://typography.com">H & FJ</a></p>
@@ -39,7 +39,7 @@ You learn how the smallest decisions can have surprising implications on the res
 You read the names of type designers and typographers hidden in countless rows and fields of metadata (but you want the originals, not the remixes). Yet when you try to connect their relationships with one another you find that there are simply too many of them. If an entire life was devoted to the work of [Moris Fuller Benton](http://en.wikipedia.org/wiki/Morris_Fuller_Benton), his typefaces would still somehow manage to creep up from their gloomy hiding places for so many decades after.
 
 <figure class="figure--wide figure--bg-black">
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/R-diagram.png" alt="By overlapping the letters between two separate systems we can notice even the smallest and (at this size) the apparently insignificant differences"/>
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/R-diagram.png" alt="By overlapping the letters between two separate systems we can notice even the smallest and (at this size) the apparently insignificant differences"/>
     <figcaption class="figure--wide__caption figure--wide__caption--light">
     <p>FF Meta by <a href="http://fontfont.com">FontFont</a> overlaying Ideal Sans by <a href="http://typography.com">H & FJ</a></p>
     </figcaption>
@@ -82,7 +82,7 @@ If we look at other fields, such as interface design on the iOS platform, then w
 Although, what’s funny about this debate is that it’s been going on for hundreds of years. It wasn’t a revolution that originated in Silicon Valley and it wasn’t the direct result of German minimalism or simplicity. Aside from this oversight, what terrifies me the most about these words is that they’re so definitive. If we choose to limit our vocabulary to these two concepts alone then we artificially set blinders around all of the other possibilities in between.
 
 <figure class="figure--wide figure--bg-black">
-    <img class="figure--wide__img figure--thin__img" src="/build/images/essays/visual-lexicon/monks-diagram.jpg" alt="A manuscript from 1111 a.d. showing an illustration of two monks in the margins of a book. One sits in a tree, carving a capital letter 'I' from the branches of the tree whilst the monk below prefers his margins without such frills and attempts to chop the whole thing down."/>
+    <img class="figure--wide__img figure--thin__img" src="/images/essays/visual-lexicon/monks-diagram.jpg" alt="A manuscript from 1111 a.d. showing an illustration of two monks in the margins of a book. One sits in a tree, carving a capital letter 'I' from the branches of the tree whilst the monk below prefers his margins without such frills and attempts to chop the whole thing down."/>
     <figcaption class="figure--wide__caption figure--wide__caption--light figure--thin__caption">
     <h4>Skeuomorphism in the middle ages</h4>
     <p>A lone monk carves a capital letter <em>&lsquo;I&rsquo;</em> from the branches of a tree whilst the monk below prefers his margins without such frills. Dijon, <em>Bibliothéque municipale</em>, 1111 a.d. – via <a href="http://vruba.tumblr.com/post/62691534706/erikkwakkel-conundrum-in-a-letter-i-decorators">Charlie Loyd</a></p>
@@ -108,7 +108,7 @@ The ‘visualizing’ part of Tim’s description in the extract above sure is i
 Yet “*visualizing a tesseract*” is an incorrect summary of the problem in some ways. Instead I believe that designing for the web is more like *describing* a tesseract. Then detailing another that’s slightly unrelated, and yet another, and then another again (this one being unalike in situations X and Y but not in Z). These half baked descriptions of components, such as text fields, forms, buttons and grid systems, pass amongst the members of a team like a game of telephone until half way through the project we begin to find that, instead of a well documented, modular system, all we’re left with is a bucket full of useless tesseracts.
 
 <figure>
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/tesseract.png" alt="An illustration of a tesseract" />
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/tesseract.png" alt="An illustration of a tesseract" />
 </figure>
 
 The designers, developers and project managers soon possess nothing more than the vaguest idea as to how each component works and how they can be modified for future use. Our naming conventions for these modules then tumble into abstraction or become too strict to be utilised for any other purpose. Obviously these problems have enormous implications on efficiency in the long run but can even bounce off into the real world, strengthening those negative bonds between individual team members.
@@ -138,7 +138,7 @@ Let’s take, for example, a developer that wants to add a new modifier to this 
 What does an *alt* do in this situation? Surely the developer could have plenty of comments here to describe their motives but it doesn’t avoid the fact that this is a terrible name for a component. If the *alt* only changes the color then we probably should have specifically added ‘color’ and ‘red’ or ‘blue’ into the class name itself. If it’s a geometric modifier then we should have used ‘shape’ and ‘square’ instead. Or, if *alt* does more than one thing then we should [break it apart](http://en.wikipedia.org/wiki/Single_responsibility_principle) and use multiple modifiers to increase the flexibility of this system overall.
 
 <figure class="figure--bg-black figure--wide">
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/code-fork.png" alt="An illustration of how a component becomes less maintainable over time" />
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/code-fork.png" alt="An illustration of how a component becomes less maintainable over time" />
     <figcaption class="figure--wide__caption figure--wide__caption--light"><h4>Maintaining CSS components</h4><p>In a talk called <em><a href="http://www.youtube.com/watch?v=ldx4ZFxMEeo&hd=1">Normalising designs for better quality CSS</a></em>, Harry Roberts used this diagram to explain how a component becomes unmaintainable as more adjustments are made to it over time.</p></figcaption>
 </figure>
 
@@ -176,7 +176,7 @@ Our problems can’t be solved by more frequent handovers or highly documented a
 They only appear when our language is forked.
 
 <figure class="figure--bg-blue figure--wide">
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/burdens.png" alt="A illustraton of a man carrying an elephant from 1825"/>
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/burdens.png" alt="A illustraton of a man carrying an elephant from 1825"/>
     <figcaption class="figure--wide__caption figure--wide__caption--light">
     <h4>Language is a burden that ought to be shared</h4>
     <p>Bernard Blackmantle, <em>The English Spy : An Original Work, Characteristic, Satirical, and Humorous, comprising Scenes and Sketches in every Rank of Society, being Portraits of the Illustrious, Eminent, Eccentric and Notorious</em>, with illustrations by Robert Cruikshank. 1825 <a href="http://bibliodyssey.blogspot.co.uk/2006/12/accumulated-snippets.html">Source</a>.</p>
@@ -196,7 +196,7 @@ In reality those key members of the team *only need to see* the effects of addin
 All of the problems I mentioned (as well as all those affiliated with responsive design in general) suggest to me that we need living, breathing descriptions of these components in order to help us clarify their objectives; what they do, how they work and why they fit into the rest of this complex system. In this way it could be said that we need visual dictionaries, the likes of which Dr Samuel Johnson would be proud.
 
 <figure class="figure--bg-dark figure--bg-image figure--wide">
-    <img class="figure--wide__img" src="/build/images/essays/visual-lexicon/johnson.jpg" alt="A portrait of Dr Samuel Johnson"/>
+    <img class="figure--wide__img" src="/images/essays/visual-lexicon/johnson.jpg" alt="A portrait of Dr Samuel Johnson"/>
     <figcaption class="figure--wide__caption figure--wide__caption--light">
     <h4>Dr Samuel Johnson (1709–1784)</h4>
     <p>Published ‘A Dictionary of the English Language’ in 1755</p>
