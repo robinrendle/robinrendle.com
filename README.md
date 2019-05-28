@@ -33,4 +33,4 @@ cd ~/workspace/rr.com/_posts && touch `date +%Y-%m-%d-`$1.md && echo "${String}"
 }
 ```
 
-From there I have an Alfred extension that adds in the date, although I should probably update this script to do that and add the title automagically. The final part of that script will load it up in Atom  
+From there I have an Alfred extension that adds in the date, although I should probably update this script to do that and add the title automagically. The final part of that script will load it up in Atom.
