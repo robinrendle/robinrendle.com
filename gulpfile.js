@@ -20,12 +20,12 @@ var paths = {
     dest: '_site/images'
   }
 };
-
-gulp.task('images', function(done){
-  return gulp.src(paths.images.src)
-    .pipe(gulp.dest(paths.images.dest))
-    done();
-});
+//
+// gulp.task('images', function(done){
+//   return gulp.src(paths.images.src)
+//     .pipe(gulp.dest(paths.images.dest))
+//     done();
+// });
 
 
 gulp.task('css', function() {
@@ -51,8 +51,7 @@ gulp.task('watch', function() {
 
 gulp.task('build', gulp.parallel(
   'css',
-  'js',
-  'images'
+  'js'
 ));
 
 gulp.task('dev', gulp.parallel(
