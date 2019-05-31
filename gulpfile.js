@@ -23,11 +23,6 @@ var paths = {
 
 gulp.task('images', function(done){
   return gulp.src(paths.images.src)
-    .pipe(imagemin({
-      progressive: true,
-      svgoPlugins: [{ removeViewBox: false }],
-      use: [pngquant()]
-    }))
     .pipe(gulp.dest(paths.images.dest))
     done();
 });
