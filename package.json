@@ -10,7 +10,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "npm dev & eleventy --serve",
-    "build": "npm dev & eleventy"
+    "build": "gulp build & eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
