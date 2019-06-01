@@ -2,14 +2,11 @@ var gulp = require('gulp'),
   sass = require('gulp-sass'),
   jshint = require('gulp-jshint'),
   autoprefixer = require('gulp-autoprefixer'),
-  imagemin = require('gulp-imagemin'),
   pngquant = require('imagemin-pngquant'),
   uglify = require('gulp-uglify'),
   concat = require('gulp-concat'),
   log = require('fancy-log'),
-  size = require('gulp-size'),
   changed = require('gulp-changed'),
-  imagemin = require('gulp-imagemin'),
   serve = require('gulp-serve');
 
 var paths = {
@@ -22,16 +19,6 @@ var paths = {
     dest: '_site/images'
   }
 };
-
-gulp.task('images', function() {
-   var imgSrc = ['./images/*.+(png|jpg|gif|svg)', './images/**/*.+(png|jpg|gif|svg)'];
-   imgDst = '_site/images';
-
-   gulp.src(imgSrc)
-   .pipe(changed(imgDst))
-   .pipe(imagemin())
-   .pipe(gulp.dest(imgDst));
-});
 
 gulp.task('css', function() {
   return gulp.src(paths.styles.src)
@@ -56,8 +43,7 @@ gulp.task('watch', function() {
 
 gulp.task('build', gulp.parallel(
   'css',
-  'js',
-  'images'
+  'js'
 ));
 
 gulp.task('dev', gulp.parallel(
