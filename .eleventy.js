@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig)  {
   eleventyConfig.addLayoutAlias('posts', 'layouts/default.html');
   eleventyConfig.addPassthroughCopy('fonts');
   eleventyConfig.addPassthroughCopy('images');
+  eleventyConfig.addPassthroughCopy('uploads');
 
   ////////////////////////
   // Markdown
