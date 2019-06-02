@@ -7,15 +7,23 @@
 //
 
 code {
-  font-size: 90%;
+  font-size: 15px;
   position: relative;
-  font-family: monospace;
+  font-family: "Input Mono", monospace;
+  background-color: #f5f5f5;
+  padding: 10px;
+  display: block;
+  color: #333;
 }
 
 p code {
-  background-color: var(--lighter-gray-color);
+  position: relative;
+  top: -1px;
+  display: inline;
+  background-color: #f1f1f1;
+  border: 1px solid #eaeaea;
   border-radius: 3px;
-  padding: 2px 2px;
+  padding: 1px 4px !important;
 }
 
 // a > code {
