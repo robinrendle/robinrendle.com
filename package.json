@@ -8,8 +8,7 @@
     "url": "git@github.com:robinrendle/robinrendle.com.git"
   },
   "scripts": {
-    "start": "npm run dev",
-    "dev": "npm dev & eleventy --serve",
+    "start": "gulp dev & eleventy --serve",
     "build": "gulp build & eleventy"
   },
   "devDependencies": {
@@ -28,6 +27,7 @@
     "lodash": "^4.17.11"
   },
   "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.0.6",
     "fancy-log": "^1.3.3",
     "gulp-changed": "^4.0.0",
     "gulp-serve": "^1.4.0",

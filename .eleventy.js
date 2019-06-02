@@ -1,4 +1,8 @@
+const pluginRss = require("@11ty/eleventy-plugin-rss");
+
 module.exports = function(eleventyConfig)  {
+  eleventyConfig.addPlugin(pluginRss);
+
   eleventyConfig.addLayoutAlias('about', 'layouts/about.html');
   eleventyConfig.addLayoutAlias('essays', 'layouts/essays.html');
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
@@ -26,6 +30,13 @@ module.exports = function(eleventyConfig)  {
   eleventyConfig.setLibrary("md", mdLib);
 
 
+  ////////////////////////
+  // Filters
+  ////////////////////////
+  eleventyConfig.addNunjucksFilter("limit", function(array, limit) {
+    return array.slice(0, limit);
+  });
+
 
   ////////////////////////
   // Collections
@@ -45,6 +56,7 @@ module.exports = function(eleventyConfig)  {
   return {
     dir: {
       input: "./",
+      includes: "_includes",
       output: "./_site"
     },
     passthroughFileCopy: true
