@@ -6,9 +6,9 @@ country: California
 extract: And the result of 3 years of refactoring.
 ---
 
-Not only is today my birthday but it also marks [the launch of the Gusto brand refresh](https://gusto.com/company-news/gusto-brand-refresh): we’ve shipped a new website and we’ve redesigned the Gusto web app experience that lets tens of hundreds of thousands of companies run payroll each month. 
+Not only is today my birthday but it also marks [the launch of the Gusto brand refresh](https://gusto.com/company-news/gusto-brand-refresh): we’ve shipped a new website and we’ve redesigned the Gusto web app experience that lets hundreds of thousands of companies run payroll each month. 
 
-I reckon all this work has led to something...outstanding. Screenshots of the UI don’t really do the work justice though as it’s only when you open up the app and use it that you’ll feel things are significantly faster and much easier to read. And in complete earnestness I think this is the best project I’ve ever worked on.
+I reckon all this work has led to something..._outstanding_. Screenshots of the UI don’t really do the work justice though as it’s only when you open up the app and use it that you’ll feel things are significantly faster and much easier to read. And in complete earnestness I think this is the best project I’ve ever worked on.
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
@@ -16,7 +16,7 @@ I reckon all this work has led to something...outstanding. Screenshots of the UI
   </figure>
 </div>
 
-I didn’t play a role in the design of the brand itself (so the logo, the illustrations, the type choices) and so can only compliment our wonderful Brand Studio team for all those decisions. My work was instead focused on the design system of the project where our team refactored hundreds of components and thousands of pages in our web application to ensure that we have an accessible, consistent, and easy to read interface. And to say that it was a lot of work is an understatement to say the least.
+I didn’t play a role in the design of the brand itself (so the logo, the illustrations, the typographic choices like which typefaces we use now) and so I can only compliment our wonderful Brand Studio team for all those decisions. My work was instead focused on the design system of the project where our team refactored hundreds of components and thousands of pages in our web application to ensure that we have an accessible, consistent, and easy to read interface. And to say that it was a lot of work is an understatement to say the least.
 
 Over the coming months I’ll start to write up my thoughts about what I learned along the way (I think maybe I have an idea for a Big Printed Thing) but the funny thing about this rebrand is that although it started a year ago I was really the first person to focus on it. And that’s because as soon as I joined Gusto I dove into refactoring our enormous and overwhelming front-end codebase, removing old components, and cleaning things up – all in service of a day like today. Because you can’t have a good web app or a consistent brand experience without a consistent front-end codebase.
 
@@ -42,6 +42,6 @@ Back in March when this project was heating up I wrote that:
 > 
 > 1% today is better than 50% tomorrow or some distant and impossible far-flung future.
 
-And I know I mention this post an awful lot but I always find it helpful to me as design systems work can be so impossibly stressful and difficult to scope. Everything can be on fire at the same time but you’re only one person – you can’t fix every issue at the same time. And I guess what this means is that today I’m more convinced than ever that our approach is the right way to deal with design systems work – not having great big plans for a utopian vision of the world but instead focusing on tiny improvements every day.
+And I know I mention this post an awful lot but we always find this mantra helpful as design systems work can be so impossibly stressful and difficult to scope. Everything can be on fire at the same time but you’re only one person – you can’t fix every issue at the same time. And I guess what this means is that today I’m more convinced than ever that our approach is the right way to deal with design systems work – not having great big plans for a utopian vision of the world but instead focusing on tiny improvements every day.
 
 Because all those tiny things add up to something beautiful, as the new redesigned Gusto experience shows. And thanks to all those improvements of 1%, today is not a day of success, but [the success of many days](https://www.robinrendle.com/notes/tigerman).
