@@ -42,6 +42,6 @@ Back in March when this project was heating up I wrote that:
 > 
 > 1% today is better than 50% tomorrow or some distant and impossible far-flung future.
 
-And I know I mention this post an awful lot but we always find this mantra helpful as design systems work can be so impossibly stressful and difficult to scope. Everything can be on fire at the same time but you’re only one person – you can’t fix every issue at the same time. And I guess what this means is that today I’m more convinced than ever that our approach is the right way to deal with design systems work – not having great big plans for a utopian vision of the world but instead focusing on tiny improvements every day.
+We’ve found this mantra to be helpful as design systems work can be so impossibly stressful and difficult to scope. Everything can be on fire at the same time but you’re only one person – you can’t fix every issue at the same time. And I guess what this means is that today I’m more convinced than ever that our approach is the right way to deal with design systems work – not having great big plans for a utopian vision of the world but instead focusing on tiny improvements every day.
 
 Because all those tiny things add up to something beautiful, as the new redesigned Gusto experience shows. And thanks to all those improvements of 1%, today is not a day of success, but [the success of many days](https://www.robinrendle.com/notes/tigerman).
