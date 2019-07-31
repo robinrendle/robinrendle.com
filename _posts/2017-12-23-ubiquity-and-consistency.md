@@ -9,6 +9,7 @@ tags:
 - web design
 city: Plymouth
 country: UK
+extract: A note from Jeremy Keith on under/over engineering.
 ---
 
 I really like this post by Jeremy Keith on [the difference between under and over-engineering](https://adactio.com/journal/13229):

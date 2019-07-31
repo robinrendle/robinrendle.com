@@ -7,6 +7,7 @@ tags:
 - rebecca solnit
 city: San Francisco
 country: California
+extract: Rebecca Solnit on the difference between conversationists and environmentalists.
 ---
 
 In *[Letter from a Drowned Canyon](https://story.californiasunday.com/drowned-canyon)* Rebecca Solnit marks a super interesting distinction between being a *conservationist* and being an *environmentalist*:

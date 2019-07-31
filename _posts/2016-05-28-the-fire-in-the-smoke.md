@@ -3,6 +3,7 @@ title: The Fire in the Smoke
 date: 2016-05-28 17:26:00 -07:00
 city: San Francisco
 country: California
+extract: And my greatest failure as a designer.
 ---
 
 My greatest failure as a designer is asking the wrong question at the wrong time. I often jump ahead too quickly and make a string of assumptions because I want to skip to the fun part of designing an interface; fooling around with graphic elements. Everything else in the design process feels like annoying busywork to me, whether that’s the writing, or asking questions, or communicating with my peers. 

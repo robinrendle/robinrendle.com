@@ -4,9 +4,7 @@ date: 2015-10-07 00:59:00 -07:00
 tags:
 - Writing
 - editing
-extract: 
-update: 
-link: 
+extract: And learning how to delete.
 city: Plymouth
 country: UK
 Book:

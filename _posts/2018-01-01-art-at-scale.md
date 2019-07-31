@@ -8,6 +8,7 @@ tags:
 - iA
 - Oliver Reichenstein
 city: San Francisco
+extract: And the private emails of Alan Kay.
 ---
 
 The other day the programmer Bret Victor released [a series of private emails with Alan Kay](http://worrydream.com/2017-12-30-alan/) ([the famous](https://en.wikipedia.org/wiki/Alan_Kay) computer scientist) where Alan discusses how we require public, unfettered research to truly innovate because businesses are trying to solve pre-existing and visible problems, and aren’t looking for them. But I really like [Oliver Reichenstein’s take](https://ia.net/topics/innovation-as-art-at-scale/) on the matter here: 

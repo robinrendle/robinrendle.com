@@ -5,7 +5,7 @@ tags:
 - reading
 - Borges
 - Short story
-extract: 
+extract: A love story by Borges about books.
 update: 
 link: http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html
 city: Plymouth

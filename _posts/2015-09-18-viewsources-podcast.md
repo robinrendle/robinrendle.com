@@ -5,8 +5,7 @@ tags:
 - viewsources
 - typography
 - web design
-extract: 
-update: 
+extract: I was on a podcast.
 city: Plymouth
 country: UK
 ---

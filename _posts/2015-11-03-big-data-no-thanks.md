@@ -6,9 +6,7 @@ tags:
 - security
 - privacy
 - network
-extract: 
-update: 
-link: 
+extract: And the machine that can hold you.
 city: Plymouth
 country: UK
 Book:

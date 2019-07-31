@@ -6,6 +6,7 @@ categories:
 tags:
 - mandy brown
 - books
+extract: Mandy Brown on reading and writing.
 city: San Francisco
 country: California
 ---
