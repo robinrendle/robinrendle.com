@@ -5,6 +5,7 @@ categories:
 - links
 tags:
 - tinyletter
+extract: And the little email service that could.
 city: Tahoe
 ---
 

@@ -6,6 +6,7 @@ tags:
 - sourdough
 city: Denver
 country: Colorado
+extract: Robin Sloan on machine learning.
 ---
 
 In a lovely post about [the relationship between fiction writing and machine learning](https://www.mcdbooks.com/features/sourdough), Robin Sloan discusses how he wrote songs for his novel Sourdough with the help of artificial intelligence. However, Robin has some issues with that phrase in this context: 
