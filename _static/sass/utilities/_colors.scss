@@ -19,9 +19,8 @@ $c-offwhite: lighten($c-text, 10);
   --nav-about: #075a5a;
   --nav-border: #fff;
   --background-color: #fff;
-  --theme-color-border: #2a7af7;
+  --theme-color-border: #0a8080;
 }
-
 
 // @media (prefers-color-scheme: dark) {
 //   :root {
@@ -48,13 +47,13 @@ $c-offwhite: lighten($c-text, 10);
 // }
 
 .c-grey {
-	color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .c-lightgrey {
-	color: var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .c-primary {
-	color: var(--main-theme-color);
+  color: var(--main-theme-color);
 }

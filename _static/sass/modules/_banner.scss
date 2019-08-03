@@ -2,158 +2,158 @@
 // BANNER
 // ==========================================================================
 .m-banner {
-	@include clearfix();
-	background-color: var(--nav-color);
-	transition: background-color 0.3s ease;
+  @include clearfix();
+  background-color: var(--nav-color);
+  transition: background-color 0.3s ease;
   border-bottom: 1px solid var(--nav-border);
 
-	@include media(">medium") {
-		.m-wrapper__content {
-			display: flex;
-			align-items: center;
-		}
-	}
+  @include media(">medium") {
+    .m-wrapper__content {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
 
 .m-banner__about {
-	@include typeface("Small caps");
-	display: flex;
+  @include typeface("Small caps");
+  display: flex;
   text-transform: uppercase;
-	align-items: center;
-	justify-content: center;
-	background-color: var(--nav-about);
-	color: white;
-	transition: background-color 0.3s ease;
-	float: left;
-	font-size: 16px !important;
-	text-align: center;
-	margin-right: 20px;
-	height: 50px;
-	width: 160px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--nav-about);
+  color: white;
+  transition: background-color 0.3s ease;
+  float: left;
+  font-size: 16px !important;
+  text-align: center;
+  margin-right: 20px;
+  height: 50px;
+  width: 160px;
 
-	.fonts-loaded & {
-		font-size: 15px !important;
-	}
+  .fonts-loaded & {
+    font-size: 15px !important;
+  }
 
-	@include media("<medium") {
-		.is--active & {
-			// background-color: var(--main-theme-color);
-		}
-	}
+  @include media("<medium") {
+    .is--active & {
+      // background-color: var(--main-theme-color);
+    }
+  }
 
-	@include media(">medium") {
-		height: 55px;
-	}
+  @include media(">medium") {
+    height: 55px;
+  }
 
-	&:hover,
-	&:focus {
-		background-color: rgba(0, 0, 0, 0.3);
-	}
+  &:hover,
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 .m-banner__menu {
-	display: block;
-	float: right;
-	color: var(--white-color);
-	padding-top: 13px;
-	outline: none;
+  display: block;
+  float: right;
+  color: var(--white-color);
+  padding-top: 13px;
+  outline: none;
 
-	&:focus {
-		background-color: transparent;
-	}
+  &:focus {
+    background-color: transparent;
+  }
 
-	.no-js & {
-		display: none;
-	}
+  .no-js & {
+    display: none;
+  }
 
-	@include media("<medium") {
-		.is--active & {
-			color: white;
-		}
-	}
+  @include media("<medium") {
+    .is--active & {
+      color: white;
+    }
+  }
 
-	@include media(">medium") {
-		display: none;
-	}
+  @include media(">medium") {
+    display: none;
+  }
 }
 
 @keyframes push {
-	0% {
-		transform: translateX(-2000px);
-	}
+  0% {
+    transform: translateX(-2000px);
+  }
 
-	100% {
-		transform: translateY(0);
-	}
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .m-banner__nav {
-	float: left;
-	padding-top: 0;
-	width: 100%;
+  float: left;
+  padding-top: 0;
+  width: 100%;
 
-	@include media(">medium") {
-		@include typeface("Small caps");
-		@include remCalc(font-size, 17);
-		letter-spacing: 0.5px;
-		width: auto;
+  @include media(">medium") {
+    @include typeface("Small caps");
+    @include remCalc(font-size, 17);
+    letter-spacing: 0.5px;
+    width: auto;
 
     nav {
       display: flex;
     }
-	}
+  }
 
-	.js & {
-		@include media("<medium") {
-			display: none;
-		}
+  .js & {
+    @include media("<medium") {
+      display: none;
+    }
 
-		@include media(">medium") {
-			display: inline-block;
-			float: left;
-		}
-	}
+    @include media(">medium") {
+      display: inline-block;
+      float: left;
+    }
+  }
 
-	.js .is--active & {
-		@include media("<medium") {
-			padding: 0;
-			display: block;
-			animation: push 0.4s ease;
-			width: 100%;
-			float: left;
-		}
-	}
+  .js .is--active & {
+    @include media("<medium") {
+      padding: 0;
+      display: block;
+      animation: push 0.4s ease;
+      width: 100%;
+      float: left;
+    }
+  }
 
-	a.o-nav__item {
-		@include media("<medium") {
+  a.o-nav__item {
+    @include media("<medium") {
       color: var(--white-color);
-			display: block;
-			padding: 13px 20px;
-			margin: 0;
-			background-color: var(--nav-about);
-			border-bottom: 1px solid var(--theme-color-border);
-			position: relative;
-			left: -20px;
-			width: 100%;
-			width: calc(100% + 35px);
+      display: block;
+      padding: 13px 20px;
+      margin: 0;
+      background-color: var(--nav-about);
+      border-bottom: 1px solid var(--theme-color-border);
+      position: relative;
+      left: -20px;
+      width: 100%;
+      width: calc(100% + 35px);
 
-			&:hover,
-			&:focus {
-				background: none;
-				background-color: var(--theme-color-border);
-				color: var(--white-color);
-			}
-		}
-		@include media(">medium") {
+      &:hover,
+      &:focus {
+        background: none;
+        background-color: var(--theme-color-border);
+        color: var(--white-color);
+      }
+    }
+    @include media(">medium") {
       color: var(--white-color);
-			&:hover,
-			&:focus {
-				color: var(--white-color);
+      &:hover,
+      &:focus {
+        color: var(--white-color);
 
-				&:after {
-					color: #eee;
-				}
-			}
-		}
-	}
+        &:after {
+          color: #eee;
+        }
+      }
+    }
+  }
 }

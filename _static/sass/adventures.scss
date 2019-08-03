@@ -2,8 +2,12 @@ $base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
 
-$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1200px)
-	!default;
+$breakpoints: (
+  small: 400px,
+  medium: 620px,
+  large: 920px,
+  largest: 1200px
+) !default;
 
 $font-src: "/fonts/";
 $c-black: #222;
@@ -32,105 +36,105 @@ $max-width: 740px;
 @import "base/base-spacing";
 
 $sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-		sans-serif;
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
 $fallback: $sans-fallback;
-$theme: #1496fa;
+$theme: #0a8080;
 
 $breakpoint: 900px;
 
 html {
-	height: 100%;
+  height: 100%;
 }
 
 body {
-	font-family: Geogia, serif;
-	background-color: $theme;
-	padding-bottom: 0;
-	background-color: white;
-	position: relative;
-	font-family: "National", $sans-fallback;
+  font-family: Geogia, serif;
+  background-color: $theme;
+  padding-bottom: 0;
+  background-color: white;
+  position: relative;
+  font-family: "National", $sans-fallback;
 }
 
 .display-img {
-	margin: 0;
-	position: absolute;
+  margin: 0;
+  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   top: 0;
-	overflow: hidden;
-	max-width: 100%;
-	min-height: 100vh;
-	height: 100vh;
-	width: 100%;
-	border-left: 1px solid #222;
-	border-right: 1px solid #222;
-	border-top: 1px solid #222;
+  overflow: hidden;
+  max-width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  border-left: 1px solid #222;
+  border-right: 1px solid #222;
+  border-top: 1px solid #222;
 
-  @media (min-width: $breakpoint){
+  @media (min-width: $breakpoint) {
     overflow: hidden;
     min-height: 100vh;
   }
 
-	img {
-		object-fit: cover;
-		min-width: 100%;
+  img {
+    object-fit: cover;
+    min-width: 100%;
     min-height: 100vh;
-	}
+  }
 
-	&:before {
-		content: "";
-		display: block;
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		opacity: 0.4;
-	}
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+  }
 
-	figcaption {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		background-color: rgba(0, 0, 0, 0.6);
-		line-height: 1.3;
-		color: white;
-		@include media(">large") {
-			width: 50%;
-		}
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    line-height: 1.3;
+    color: white;
+    @include media(">large") {
+      width: 50%;
+    }
 
-		p {
-			padding: 20px;
-			margin-bottom: 0;
-		}
+    p {
+      padding: 20px;
+      margin-bottom: 0;
+    }
 
-		a {
-			&:visited,
-			&:hover {
-				color: $theme;
-			}
-		}
-	}
+    a {
+      &:visited,
+      &:hover {
+        color: $theme;
+      }
+    }
+  }
 }
 
 a {
-	color: $theme !important;
-
-	&:hover {
-		color: #222 !important;
-	}
+  text-decoration: underline;
+  color: $c-black;
+  &:hover {
+    color: $theme !important;
+  }
 }
 
- h1 {
+h1 {
   .m-longform & {
-  	z-index: 888;
-  	display: inline-block;
-  	-webkit-font-smoothing: antialiased;
-  	font-feature-settings: "liga" 1;
-  	line-height: 1;
-  	color: #222;
-  	position: relative;
-  	margin-bottom: 10px;
+    z-index: 888;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "liga" 1;
+    line-height: 1;
+    color: #222;
+    position: relative;
+    margin-bottom: 10px;
     padding-top: 20px;
 
     @media (min-width: $breakpoint) {
@@ -142,15 +146,15 @@ a {
 
 h1,
 h2 {
-	font-family: "National", $sans-fallback;
+  font-family: "National", $sans-fallback;
 }
 
 .wrapper {
-	height: 100%;
+  height: 100%;
   display: flex;
-	width: 100%;
-	max-width: 590px;
-	margin: 0 auto 0;
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto 0;
   position: relative;
   top: 50px;
   z-index: 2;
@@ -171,105 +175,105 @@ h2 {
 }
 
 .footer {
-	align-self: center;
-	width: 100%;
-	border: 1px solid black;
-	position: relative;
-	z-index: 3;
-	padding-bottom: 20px;
+  align-self: center;
+  width: 100%;
+  border: 1px solid black;
+  position: relative;
+  z-index: 3;
+  padding-bottom: 20px;
 
-	&:after {
-		content: "";
-		position: absolute;
-		z-index: -1;
-		right: 0;
-		top: 0;
-		left: 0;
-		bottom: 0;
-		height: 100%;
-		width: 100%;
-		background-image: url("../images/circle-white.svg");
-		background-color: transparent;
-		opacity: 0.4;
-	}
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/circle-white.svg");
+    background-color: transparent;
+    opacity: 0.4;
+  }
 
-	@include media(">medium") {
-		padding: 20px;
-		padding-bottom: 60px;
-	}
+  @include media(">medium") {
+    padding: 20px;
+    padding-bottom: 60px;
+  }
 
-	@include media(">large") {
-		width: 50vw;
-	}
+  @include media(">large") {
+    width: 50vw;
+  }
 }
 
 .footer__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-	max-width: 700px;
+  max-width: 700px;
 }
 
 .intro {
-	line-height: 1.55;
-	width: 100%;
-	margin: 0 auto;
-	font-size: 1em;
-	color: #333;
-	margin-bottom: 0;
+  line-height: 1.55;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 0;
 
-	@include media(">medium") {
-		font-size: 1.15em;
-	}
+  @include media(">medium") {
+    font-size: 1.15em;
+  }
 
-	@include media(">large") {
-		font-size: 1.15em;
-	}
+  @include media(">large") {
+    font-size: 1.15em;
+  }
 }
 
 .small {
-	font-size: 15px;
+  font-size: 15px;
   line-height: 21px;
   color: #666;
 
-	a {
-		&:visited,
-		&:hover {
-			color: $theme;
-		}
-	}
+  a {
+    &:visited,
+    &:hover {
+      color: $theme;
+    }
+  }
 }
 
 input {
-	border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 
 .bg-black {
-	background-color: #222;
+  background-color: #222;
 }
 
 .bg-light {
-	// background-color: #eee;
+  // background-color: #eee;
 }
 
 .archive {
-	padding: 50px 20px;
-	border: 1px solid black;
-	border-top: none;
-	background-color: #eee;
+  padding: 50px 20px;
+  border: 1px solid black;
+  border-top: none;
+  background-color: #eee;
 
-	@include media(">large") {
-		border-left: none;
-		border-right: 1px solid #000000;
-		border-top: 1px solid black;
-		border-bottom: 1px solid #000000;
-	}
+  @include media(">large") {
+    border-left: none;
+    border-right: 1px solid #000000;
+    border-top: 1px solid black;
+    border-bottom: 1px solid #000000;
+  }
 
-	h3 {
-		font-size: 18px;
-		margin: 0;
-		font-family: "National", $sans-fallback;
-	}
+  h3 {
+    font-size: 18px;
+    margin: 0;
+    font-family: "National", $sans-fallback;
+  }
 }
 
 .form-label {
@@ -278,15 +282,16 @@ input {
 }
 
 .meta-info__item {
-	font-size: 14px;
-	padding-right: 10px;
+  font-size: 14px;
+  padding-right: 10px;
 }
 
 .footer__wrapper {
   margin: 0 auto;
 }
 
-.content, .content-box {
+.content,
+.content-box {
   display: flex;
 }
 
@@ -295,37 +300,37 @@ input {
   @include media(">medium") {
     padding: 20px 30px 0;
   }
-	@include media(">large") {
+  @include media(">large") {
     margin-top: 30px;
     padding: 20px 0 0;
-		display: flex;
+    display: flex;
     margin: 0 auto;
-	}
-	.footer {
-		@include media(">large") {
-			width: 100vw;
-		}
-	}
+  }
+  .footer {
+    @include media(">large") {
+      width: 100vw;
+    }
+  }
 }
 
 .flex {
-	display: flex;
+  display: flex;
 }
 
 .flex--truncate {
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .archive-post {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
 
-	.flex {
-		align-items: baseline;
-	}
+  .flex {
+    align-items: baseline;
+  }
 }
 
 .form {
