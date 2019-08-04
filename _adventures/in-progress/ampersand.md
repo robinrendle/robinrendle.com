@@ -1,21 +1,21 @@
 ---
 title: A short note on Conductor
-date: 2018-01-22
+date: 2018-01-29
 tags:
-extract: 
+extract:
 ---
 
 Friends!
 
-If you’ve never heard of the [Ampersand conference](https://2018.ampersandconf.com/) then let me introduce you: it’s the best typography conference you could possibly ever visit. It’s held in the UK, in the sea-side town of Brighton to be more specific, and it’s organised by [Richard Rutter](http://clagnut.com/) and the rest of the team at [Clearleft](https://clearleft.com/). Peculiarly enough though, this is not an annual conference with the same faces on the same stage like many web design conferences. 
+If you’ve never heard of the [Ampersand conference](https://2018.ampersandconf.com/) then let me introduce you: it’s the best typography conference you could possibly ever visit. It’s held in the UK, in the sea-side town of Brighton to be more specific, and it’s organised by [Richard Rutter](http://clagnut.com/) and the rest of the team at [Clearleft](https://clearleft.com/). Peculiarly enough though, this is not an annual conference with the same faces on the same stage like many web design conferences.
 
-This is an entirely different affair. 
+This is an entirely different affair.
 
 I’ve been to every Ampersand event in the UK and each time I’m astounded by the quality of the talks and the diversity of topics on stage. In [2015](http://robinrendle.com/notes/ampersand-2015/) the event introduced me to the work of [Lu Yu](https://twitter.com/lugotype), [Jen Simmons’](http://jensimmons.com) experimental layouts and Marcin’s completely mind-boggling and [hand-made presentation software](https://medium.com/the-rectangle-behind-you/the-rectangle-behind-you-103179fcfc32). Every talk is buoyant and I’d recommend you go even if you don’t care about font rendering or the intricacies of CSS Grid.
 
 For this year’s event though Richard wrote a super interesting piece about the development of [the new Ampersand website](https://medium.com/clear-left-thinking/how-to-use-variable-fonts-in-the-real-world-e6d73065a604) that happens to look like this:
 
-![](https://buttondown.s3.us-west-2.amazonaws.com/images/c87ab7e4-a9f3-4acd-9b4c-f6635627cf7b.png) 
+![](https://buttondown.s3.us-west-2.amazonaws.com/images/c87ab7e4-a9f3-4acd-9b4c-f6635627cf7b.png)
 
 This is a nifty project because it uses a number of variable fonts to showcase the title and body copy but the most interesting part is where Richard argues that this technology is no longer that experimental any more:
 
