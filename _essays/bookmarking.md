@@ -8,11 +8,6 @@ tags:
   - digital-physical
 hero: "/uploads/marking.jpg"
 layout: default
-aside:
-  This article was originally published in the newspaper that came with the goody
-  bags at [New Adventures](http://2013.newadventuresconf.com/), the last in a series
-  of awesome web design conferences in Nottingham. The paper is also available to
-  [download for free](http://2013.newadventuresconf.com/extras/paper/).
 extract:
   When we read books they leave traces of our reading and these traces are
   often used as marks of ownership. So should websites be so squeaky clean when we
