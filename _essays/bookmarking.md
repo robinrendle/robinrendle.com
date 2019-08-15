@@ -2,21 +2,24 @@
 title: Bookmarking
 date: 2013-01-20 05:08:00 -08:00
 tags:
-- book design
-- internet of things
-- book reviews
-- digital-physical
+  - book design
+  - internet of things
+  - book reviews
+  - digital-physical
 hero: "/uploads/marking.jpg"
 layout: default
-aside: This article was originally published in the newspaper that came with the goody
+aside:
+  This article was originally published in the newspaper that came with the goody
   bags at [New Adventures](http://2013.newadventuresconf.com/), the last in a series
   of awesome web design conferences in Nottingham. The paper is also available to
   [download for free](http://2013.newadventuresconf.com/extras/paper/).
-extract: When we read books they leave traces of our reading and these traces are
+extract:
+  When we read books they leave traces of our reading and these traces are
   often used as marks of ownership. So should websites be so squeaky clean when we
   revisit them? Is there some other form of trace that can be left other than the
   snarky comments left hidden in their depths?
-update: Designed by the author Joost Grootens, <cite><a href="http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all">I
+update:
+  Designed by the author Joost Grootens, <cite><a href="http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all">I
   swear I use no art at all</a></cite> is a secret, work-in-progress love letter to
   book design. Borderline autobiographical in nature, the author revisits his notes
   and diagrams of the dozens of printed materials and thousands of pages he published
@@ -26,16 +29,16 @@ country: UK
 ---
 
 Designed by the author Joost Grootens, <cite><a href="http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all">I
-  swear I use no art at all</a></cite> is a secret, work-in-progress love letter to
-  book design. Borderline autobiographical in nature, the author revisits his notes
-  and diagrams of the dozens of printed materials and thousands of pages he published
-  over the years, each meticulously and elaborately detailed.
+swear I use no art at all</a></cite> is a secret, work-in-progress love letter to
+book design. Borderline autobiographical in nature, the author revisits his notes
+and diagrams of the dozens of printed materials and thousands of pages he published
+over the years, each meticulously and elaborately detailed.
 
 The author also carefully outlines his design process whilst on the way exploring hidden patterns in the data. Yet before we can enjoy this particular book for ourselves, Grootens requires something of us. He asks only for a small contribution.
 
 He asks that we mark the book.
 
-Many of the pages are bound shut together and so the only way to read them is to potentially risk damaging the content by ripping the seams apart. In order to examine Grootens’ work then, we’re asked to leave clues and traces of our reading. You might pre-emptively roll your eyes at this but the book is not just an artisinal piece by a contemporary graphic designer, as this act of page ripping adds something to the experience rather than becoming an annoying gimmick. First, we’re obliged to slow down and consciously take part in the unbinding. Second, the book is physically different since we began. Our mark is on it for good and so, to some extent, Grootens prepares the material within, but it’s up to us to finish it.
+Many of the pages are bound shut together and so the only way to read them is to potentially risk damaging the content by ripping the seams apart. In order to examine Grootens’ work then, we’re asked to leave clues and traces of our reading. You might pre-emptively roll your eyes at this but the book is not just an artisanal piece by a contemporary graphic designer, as this act of page ripping adds something to the experience rather than becoming an annoying gimmick. First, we’re obliged to slow down and consciously take part in the unbinding. Second, the book is physically different since we began. Our mark is on it for good and so, to some extent, Grootens prepares the material within, but it’s up to us to finish it.
 
 As few books consider how the reader might contribute to the final work, our tools for marking a text with our own ideas might feel limited. Books with small margins or uncomfortable bindings, or perhaps unchallenging, tried and tested designs also do little to help us to remember the book in the future, or for it to stand proudly on our shelves today. On the other hand, we can immediately see the benefits of the actions and decisions of the reader being reflected by the form of the book.
 

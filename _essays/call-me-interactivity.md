@@ -2,25 +2,28 @@
 title: Call Me Interactivity
 date: 2012-03-10 15:40:00 -08:00
 tags:
-- book design
-- design
-- book reviews
-- interface
-- reading
-- digital-physical
-- interactivity
+  - book design
+  - design
+  - book reviews
+  - interface
+  - reading
+  - digital-physical
+  - interactivity
 layout: default
-hero: 
-aside: The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick
+hero:
+aside:
+  The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick
   Sherman</a>. Care to read more about the wonderful typography within? Head on over
   to the book review at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts
   In Use</a> for more.
-extract: What do we want from storytelling machines? And when publishers use terms
+extract:
+  What do we want from storytelling machines? And when publishers use terms
   such as ‘interactivity’ or ‘immersion’, what do they really mean? These terms either
   describe a genuine glimpse of the future, or a new form of commercial and technological
   chutzpah. But what is it that we’re really hunting here? What’s our digital Moby
   Dick?
-update: On returning home at the start of the Christmas holidays I found the [Arion
+update:
+  On returning home at the start of the Christmas holidays I found the [Arion
   Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition
   of *Moby Dick* waiting for me. However, unlike the majority of other books, you
   cannot but instantly remark upon how special it is.
@@ -29,11 +32,11 @@ country: UK
 ---
 
 On returning home at the start of the Christmas holidays I found the [Arion
-  Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition
-  of *Moby Dick* waiting for me. However, unlike the majority of other books, you
-  cannot but instantly remark upon how special it is.
+Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition
+of _Moby Dick_ waiting for me. However, unlike the majority of other books, you
+cannot but instantly remark upon how special it is.
 
-An unusual thing happened whilst I read it though. The story became, over time, somehow indivisible with the shape and format of its container. The way that pages creak as they’re turned, their thickness, the initials that sink into wide columns of text, they all blend deeply into the narrative. These individual pieces combine to give the book both graceful and savage characterises, oozing with the memories of those horrifying and blood curling moments of man, ocean and beast. The fear of what lurks beneath those depths, but the simultaneous wonder of it too, is captured by the format, by the design. That complex emotional bombardment is further intensified by the hand carved illustrations and the weight of the object; the book feels as if it’s pushing back as you read it, and so I can’t help but think of Leon Weiseltier’s description of his own personal library here:
+An unusual thing happened whilst I read it though. The story became, over time, somehow indivisible with the shape and format of its container. The way that pages creak as they’re turned, their thickness, the initials that sink into wide columns of text, they all blend deeply into the narrative. These individual pieces combine to give the book both graceful and savage characterizes, oozing with the memories of those horrifying and blood curling moments of man, ocean and beast. The fear of what lurks beneath those depths, but the simultaneous wonder of it too, is captured by the format, by the design. That complex emotional bombardment is further intensified by the hand carved illustrations and the weight of the object; the book feels as if it’s pushing back as you read it, and so I can’t help but think of Leon Weiseltier’s description of his own personal library here:
 
 <figure>
 <blockquote>
@@ -66,7 +69,7 @@ To explore what the future book will be capable of we must first try to imagine 
 
 ### There will be many
 
-We have to acknowledge the sheer volume of devices that will soon be available. At what screen size does a piece of text become a digital book? And at what resolution? 320x800? 720x1024? Is an iPad an ebook, but a phone just a single column of scrollable text? What about the plethora of Android devices, the Kindles, the PlayBooks, the other tablets that will soon occupy this marketplace? How are digital books affected by the multiplicity of materials they’re made from and the buttons that skirt their edges? How does this effect the reader?
+We have to acknowledge the sheer volume of devices that will soon be available. At what screen size does a piece of text become a digital book? And at what resolution? 320x800? 720x1024? Is an iPad an ebook, but a phone just a single column of scrollable text? What about the plethora of Android devices, the Kindles, the PlayBooks, the other tablets that will soon occupy this marketplace? How are digital books affected by the multiplicity of materials they’re made from and the buttons that skirt their edges? How does this affect the reader?
 
 <figure>
 <blockquote>
@@ -75,7 +78,7 @@ We have to acknowledge the sheer volume of devices that will soon be available. 
 <figcaption class="cite"><p>Oliver Reichenstein, <cite><a href="http://radar.oreilly.com/2011/10/scrolling-flipping-clicking.html">Scrolling, flipping and clicking</a></cite></p></figcaption>
 </figure>
 
-By looking at these devices it seems that books are no longer objects that we shape and control, a book no longer has any kind of dimension attached to it, at least not one that we define ourselves. The future book will have to respond to these constraints and the smorgasbord of devices that people will soon be reading on: as this problem is only going to get worse over time, we must embrace it now. But it’s a problem that digital books and websites share in common, and so as book designers, writers and readers we should be watching the technological and aesthetic developments of web designers. Since the ePub3 spec is deeply rooted in <span>HTML</span>, <span>CSS</span> and JavaScript, it could even be argued that digital book design *is* web design.
+By looking at these devices it seems that books are no longer objects that we shape and control, a book no longer has any kind of dimension attached to it, at least not one that we define ourselves. The future book will have to respond to these constraints and the smorgasbord of devices that people will soon be reading on: as this problem is only going to get worse over time, we must embrace it now. But it’s a problem that digital books and websites share in common, and so as book designers, writers and readers we should be watching the technological and aesthetic developments of web designers. Since the ePub3 spec is deeply rooted in <span>HTML</span>, <span>CSS</span> and JavaScript, it could even be argued that digital book design _is_ web design.
 
 ### They will be public
 
@@ -85,7 +88,7 @@ But regardless of how the network will be used, we know that the future book wil
 
 One of the most interesting early iPad apps was Al Gore’s <cite><a href="http://pushpoppress.com/ourchoice/">Our Choice</a></cite>, designed by Push Pop Press. After the cheesy intro video concludes, a three dimensional Earth appears in front of you and a small marker blinks on top of it, showing your location. This is pretty cool, but by touching the globe you’re quickly spun decades into the future, where the geography shifts according to some predefined scientific prediction. This small interactive sequence is saying: “Here you are. This piece of content is important to you because if you do not heed these warnings then your home will be eaten by the expanding deserts inflicted by global warming.” This interactive sequence has a message beyond that of mimicking the constraints of previous formats. By linking you personally to the application the book becomes, in a small way, public thanks to this information. However, this kind of public interaction over the web could be developed in more interesting and useful ways.
 
-Imagine if *Our Choice* connected to the network and updated itself according to new scientific research coming in. We could have data showing us how much energy each country is consuming live, or how much CO2 they are pumping out and the text could evolve alongside this information as the latest research is published. The book would suddenly break time. It would no longer be bound by its maker, it would fluctuate and grow into something else, something unexpected.
+Imagine if _Our Choice_ connected to the network and updated itself according to new scientific research coming in. We could have data showing us how much energy each country is consuming live, or how much CO2 they are pumping out and the text could evolve alongside this information as the latest research is published. The book would suddenly break time. It would no longer be bound by its maker, it would fluctuate and grow into something else, something unexpected.
 
 With a public book you could read it in the morning and by the time you come back from work the entire thing has been rewritten, redesigned, republished, transformed. A thing capable of an infinite number of experiences. Mandy Brown criticised the current state of interactivity in an article entitled [Deploy](http://aworkinglibrary.com/library/archives/deploy/):
 
@@ -95,7 +98,6 @@ With a public book you could read it in the morning and by the time you come bac
 </blockquote>
 <figcaption class="cite"><p>Mandy Brown, <cite><a href="http://aworkinglibrary.com/library/archives/deploy/">Deploy</a></cite></p></figcaption>
 </figure>
-
 
 ### There will be no control
 
