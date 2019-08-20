@@ -2,10 +2,9 @@
 title: In Search of the Long Wow
 date: 2016-04-08 23:10:00 -07:00
 categories:
-- kindle
-tags:
-- featured
-extract: Where was our literary and technological revolution? Where was the future
+  - kindle
+extract:
+  Where was our literary and technological revolution? Where was the future
   book?
 country: UK
 city: Plymouth
@@ -40,28 +39,27 @@ If this is the future that we’ve been promised from the very start, then where
 
 And where is the Kindle?
 
-***
+---
 
-After opening the Kindle Paperwhite for the first time my impression was that I had somehow been tricked — I discovered that time had slipped forward by an hour in what felt like a second. *Hmmm...*, I thought. Shortly afterwards, I visited my Kindle library and found that it had automatically downloaded everything from my previous device. *Hmm...*, I thought again. Next, I tried to buy a book and found just how cheap the Kindle versions are, easily saving 50% of the cost of a physical book. This encouraged me to double the size of my library in a matter of minutes. Subsequently they appeared onto the device silently, without any procession, just like magic.
+After opening the Kindle Paperwhite for the first time my impression was that I had somehow been tricked — I discovered that time had slipped forward by an hour in what felt like a second. _Hmmm..._, I thought. Shortly afterwards, I visited my Kindle library and found that it had automatically downloaded everything from my previous device. _Hmm..._, I thought again. Next, I tried to buy a book and found just how cheap the Kindle versions are, easily saving 50% of the cost of a physical book. This encouraged me to double the size of my library in a matter of minutes. Subsequently they appeared onto the device silently, without any procession, just like magic.
 
-*Hmmm...* I continued to think.
+_Hmmm..._ I continued to think.
 
 It slowly dawned on me that the Kindle is such an interesting device today precisely because it is so very boring. It looks and feels like a machine that's finally reached maturity; it’s part of a greater ecosystem that cannot sustain itself by flashy gimmicks or tropes. Instead, it just quietly, expertly, does a very simple job, and does it extraordinarily well.
 
-A string of *Hmmm*’s and *Oooh's* occur with each passing moment spent with the Kindle, and this reminded me of an old post about design by [Craig Mod](craigmod.com). Somewhere deep in his vast archive of book design is a note about two experiences: the *Long Wow* vs. the *Small Wow*. Yet I can’t seem to retrieve the quote from search terms or keyword strings, and this leads me to think that I am garbling the original idea in some horrible manner. Perhaps it wasn’t on Craig’s website that I first heard of this idea after all.
+A string of _Hmmm_’s and _Oooh's_ occur with each passing moment spent with the Kindle, and this reminded me of an old post about design by [Craig Mod](craigmod.com). Somewhere deep in his vast archive of book design is a note about two experiences: the _Long Wow_ vs. the _Small Wow_. Yet I can’t seem to retrieve the quote from search terms or keyword strings, and this leads me to think that I am garbling the original idea in some horrible manner. Perhaps it wasn’t on Craig’s website that I first heard of this idea after all.
 
 But here’s how I remember it.
 
-
 ## The Long Wow vs. the Small Wow
 
-The *Long Wow* is the sort of action that continues to impress, long after someone’s first experienced it. But the *Long Wow* is never really an individual sound, image, graphic element or feature of a product that we can point to. Instead, it’s a collection of features and experiences: it’s how they snap together, and how the seams between these features are then hidden away from view. It’s made up of lots of tiny moments, and identifiable features, but it’s difficult to point to a *Long Wow* with any certainty.
+The _Long Wow_ is the sort of action that continues to impress, long after someone’s first experienced it. But the _Long Wow_ is never really an individual sound, image, graphic element or feature of a product that we can point to. Instead, it’s a collection of features and experiences: it’s how they snap together, and how the seams between these features are then hidden away from view. It’s made up of lots of tiny moments, and identifiable features, but it’s difficult to point to a _Long Wow_ with any certainty.
 
-For instance, the first time we saw magazines on the iPad — all those animations and diagrams and Minority Report-like features! — these could each be described as a *Small Wow*. But the gimmicks fade quickly and then you're left wondering how the blasted thing works. (Is this the app where I have to swipe right and then down into the article, or is the one where I have to pinch-zoom out to get to the contents page etc etc.)
+For instance, the first time we saw magazines on the iPad — all those animations and diagrams and Minority Report-like features! — these could each be described as a _Small Wow_. But the gimmicks fade quickly and then you're left wondering how the blasted thing works. (Is this the app where I have to swipe right and then down into the article, or is the one where I have to pinch-zoom out to get to the contents page etc etc.)
 
-However, both types of *Wow* are possible outside the realm of the e-reader, too. I remember [a physical book](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) that was surely capable of both. After years of looking at it, I still gawp at its shape and texture. I think about the custom typeface, about the quality of the paper, about the delicate woodcut illustrations, each a *Small Wow* in their own right, and each leading to a more satisfying reading experience overall.
+However, both types of _Wow_ are possible outside the realm of the e-reader, too. I remember [a physical book](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) that was surely capable of both. After years of looking at it, I still gawp at its shape and texture. I think about the custom typeface, about the quality of the paper, about the delicate woodcut illustrations, each a _Small Wow_ in their own right, and each leading to a more satisfying reading experience overall.
 
-In other words, there are _Small Wows_ that contribute to better experiences, and then there are _Small Wows_ that prevent them. This is why designing a reading device is so frustratingly difficult. But in order to understand the *Long Wow* of the Kindle, we have to break it up into each of its component parts, the tiny features that continue to impress and surprise:
+In other words, there are _Small Wows_ that contribute to better experiences, and then there are _Small Wows_ that prevent them. This is why designing a reading device is so frustratingly difficult. But in order to understand the _Long Wow_ of the Kindle, we have to break it up into each of its component parts, the tiny features that continue to impress and surprise:
 
 - The prices of ebooks are astoundingly cheap.
 - You can throw the Paperwhite into a bag and not worry for a second whether or not it could be damaged in the process; its plastic body feels durable rather than cheap.
@@ -78,7 +76,7 @@ In other words, there are _Small Wows_ that contribute to better experiences, an
 
 These features aren't thrilling, and they can't easily be made into an advert that sparkles or grabs the reader’s attention; it’s difficult to imagine Zooey Deschanel or Samuel Jackson sitting in a brightly lit room and talking into a camera whilst they _Oooh_ and _Aaah_ about the highlighting gesture or the battery life of a Kindle.
 
-Yet amidst that constant push for faster processors and better cameras, sharper screens and flatter interfaces, the Kindle rises up above these concerns somehow. This might sound ridiculous, but I can imagine owning this device in twenty years time and still being perfectly content with it. It's traded gimmicks and features in search of a more loftier goal: that of the *Long Wow*.
+Yet amidst that constant push for faster processors and better cameras, sharper screens and flatter interfaces, the Kindle rises up above these concerns somehow. This might sound ridiculous, but I can imagine owning this device in twenty years time and still being perfectly content with it. It's traded gimmicks and features in search of a more loftier goal: that of the _Long Wow_.
 
 So where was our literary and technological revolution? Where was the future book, you might ask.
 

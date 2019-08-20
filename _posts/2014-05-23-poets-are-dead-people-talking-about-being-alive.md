@@ -1,20 +1,21 @@
 ---
-title: Poets are dead people talking about being alive
+title: Madness, Rack, and Honey
 date: 2014-05-23 15:38:00 -07:00
 tags:
-- literature
-- books
-- Mary Ruefle
-- poetry
-extract: Madness, Rack and Honey is a collection of lectures by the poet Mary Ruefle
+  - literature
+  - books
+  - Mary Ruefle
+  - poetry
+extract:
+  Madness, Rack and Honey is a collection of lectures by the poet Mary Ruefle
   in which she contemplates the various struggles surrounding her art, and gosh darn
   it if this book isn’t *endlessly* quotable.
-update: 
+update:
 city: Nottingham
 country: UK
 ---
 
-*Madness, Rack and Honey* is a collection of lectures by the poet [Mary Ruefle](http://www.maryruefle.com/) in which she contemplates the various struggles surrounding her art, and gosh darn it if this book isn’t *endlessly* quotable. I haven’t been able to put it down since as Mary eloquently captures, in so many ways, what it feels like to write about literature, poetry and the arts (especially when you’re forced to talk about all this stuff in a classroom). She writes:
+_Madness, Rack and Honey_ is a collection of lectures by the poet [Mary Ruefle](http://www.maryruefle.com/) in which she contemplates the various struggles surrounding her art, and gosh darn it if this book isn’t _endlessly_ quotable. I haven’t been able to put it down since as Mary eloquently captures, in so many ways, what it feels like to write about literature, poetry and the arts (especially when you’re forced to talk about all this stuff in a classroom). She writes:
 
 <figure>
 <blockquote>

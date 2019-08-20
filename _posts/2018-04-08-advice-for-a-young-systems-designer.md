@@ -2,10 +2,9 @@
 title: Advice for a young systems designer
 date: 2018-04-08 19:05:00 -07:00
 tags:
-- front-end development
-- web design
-- design systems
-- featured
+  - front-end development
+  - web design
+  - design systems
 city: San Francisco
 country: California
 extract: There are no heroes or parades for you in this line of work.

@@ -2,10 +2,9 @@
 title: Blogging and Atrophy
 date: 2016-11-02 23:12:00 -07:00
 tags:
-- featured
-- blogging
-- writing
-- robinrendle.com
+  - blogging
+  - writing
+  - robinrendle.com
 city: San Francisco
 country: California
 extract: How do I see my website? Well, it’s complicated.
@@ -23,7 +22,7 @@ At the moment I think about my website from two angles: as a stream and an archi
 
 This is how I’ve organised [/notes](http://robinrendle.com/notes)—they’re tiny bundles of information that don’t really have to go anywhere or do anything. There’s no pressure to polish the language, it’s a stream of consciousness that can be fine tuned and edited into tip-top shape later on.
 
-Ideally these pieces of text are what I think of as *design-agnostic*. If I change the typeface or the background or add crazy animations to the page then the text itself won’t mean something different. The text is fluid and isn’t dependent on complicated graphics and other bits of UI to illustrate a point.
+Ideally these pieces of text are what I think of as _design-agnostic_. If I change the typeface or the background or add crazy animations to the page then the text itself won’t mean something different. The text is fluid and isn’t dependent on complicated graphics and other bits of UI to illustrate a point.
 
 ## An Archive
 
@@ -35,4 +34,4 @@ In early 2013 I decided that I would never delete anything from my site again. E
 
 And that’s ok. Things are going to change over the decades, considering this website will likely outlast many platforms and social networks and browsers.
 
-Hopefully my website will even outlive me, too. That’s because I don’t want my presence online to resolve into a tacky business card once I’m gone — *I’m an XYZ in San Francisco* — instead, I want it to be an archive of everything that I’ve ever thought was worth keeping around. All the things I’ve [pointed at](http://craigmod.com/sputnik/pointable_01/), linked to, discussed, argued about. Once I’m gone I want this place to be an archive of all the things I’ve ever loved, even if they were messy and fragile and a little broken.
+Hopefully my website will even outlive me, too. That’s because I don’t want my presence online to resolve into a tacky business card once I’m gone — _I’m an XYZ in San Francisco_ — instead, I want it to be an archive of everything that I’ve ever thought was worth keeping around. All the things I’ve [pointed at](http://craigmod.com/sputnik/pointable_01/), linked to, discussed, argued about. Once I’m gone I want this place to be an archive of all the things I’ve ever loved, even if they were messy and fragile and a little broken.

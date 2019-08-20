@@ -2,11 +2,11 @@
 title: The Comforts of the Siren
 date: 2013-08-27 00:51:00 -07:00
 tags:
-- story
-- autobiographical
-- the blue of distance
-- featured
-extract: During my holiday I went back to the town I grew up in and listened to the
+  - story
+  - autobiographical
+  - the blue of distance
+extract:
+  During my holiday I went back to the town I grew up in and listened to the
   sirens from the Blitz that are still operational and are tested once a week.
 city: Nottingham
 country: UK
@@ -20,9 +20,9 @@ In the shrieking darkness of the Blitz whole communities vanished and were repla
 
 The photograph above shows how these people were going about their day as if nothing unusual was happening, as if the Third Reich wasn’t looming over the channel and circling their homes in the dark.
 
-“*Fuck Hitler*,” I imagine them calling out into this darkness, “*we’ll build everything you break.*”
+“_Fuck Hitler_,” I imagine them calling out into this darkness, “_we’ll build everything you break._”
 
-***
+---
 
 Without ever having known my grandparents except through second hand accounts and foggy photographs, I have no real connection with all the terrors of that particular moment in time. I don’t know anyone that really understood what it was like to live under these conditions.
 

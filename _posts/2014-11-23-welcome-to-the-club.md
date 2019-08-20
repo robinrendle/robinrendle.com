@@ -2,11 +2,10 @@
 title: Welcome to the club
 date: 2014-11-23 06:39:00 -08:00
 tags:
-- libraries
-- reading
-- featured
+  - libraries
+  - reading
 extract: Make a note of your favourite writers. Now, read their first names aloud.
-update: 
+update:
 city: Plymouth
 country: UK
 ---
@@ -39,4 +38,4 @@ Today the authors on my shelves happily bump into one another whilst their incom
 
 However, my shelves certainly aren’t the model that other bookshelves should aspire to because on quiet, cloudy days I’ll sometimes walk amongst them where they groan under the weight of their neighbours. If I happen to stand in just the right spot, I can begin to hear their mumbles filtered through lips of paper:
 
-*“Try harder”* they mumble in between deep, inky breaths, *“try harder…”*
+_“Try harder”_ they mumble in between deep, inky breaths, _“try harder…”_

@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle-1</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <path d="M0,0 L57,0 L57,57 L0,57 L0,0 L0,0 Z M13.395,13.1575 C15.39,16.15 18.6675,21.28 20.6625,24.51 L25.65,32.3475 L25.65,35.1025 C25.65,38.19 25.555,44.27 25.3175,46.55 L31.8725,46.55 C31.7775,45.22 31.73,41.515 31.73,39.71 L31.73,32.1575 L44.2225,13.0625 L37.3825,13.0625 C35.6725,15.96 33.25,20.14 31.3975,23.0375 L28.785,27.17 L20.0925,12.7775 L13.395,13.1575 L13.395,13.1575 Z" id="Rectangle-1" fill="#000000" sketch:type="MSShapeGroup"></path>
-    </g>
-</svg>
+<svg height="57" viewBox="0 0 57 57" width="57" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h57v57h-57zm13.395 13.1575c1.995 2.9925 5.2725 8.1225 7.2675 11.3525l4.9875 7.8375v2.755c0 3.0875-.095 9.1675-.3325 11.4475h6.555c-.095-1.33-.1425-5.035-.1425-6.84v-7.5525l12.4925-19.095h-6.84c-1.71 2.8975-4.1325 7.0775-5.985 9.975l-2.6125 4.1325-8.6925-14.3925z" fill-rule="evenodd"/></svg>

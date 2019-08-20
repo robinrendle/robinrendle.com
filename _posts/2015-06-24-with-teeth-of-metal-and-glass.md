@@ -2,15 +2,14 @@
 title: With teeth of metal and glass
 date: 2015-06-24 09:09:00 -07:00
 tags:
-- relationships
-- diary
-- featured
-extract: 'My excitement for a holiday to NYC was of paramount importance then: as
+  - relationships
+  - diary
+extract:
+  "My excitement for a holiday to NYC was of paramount importance then: as
   someone that comes from a rural area, would I enjoy it? Would I want to emigrate
   to New York? What would my girlfriend and I find there? Would she move in with me
   once we came back or would we just throw caution to the wind and move to America
-  and work together?'
-update: 
+  and work together?"
 city: New York City
 country: USA
 ---
@@ -27,5 +26,8 @@ As the plane took off and banked left I stared into Manhattan’s voluminous bel
 
 She is not my girlfriend and I am not from New York.
 
-
-<figure><img src='/uploads/tooth.jpg' alt='A picture of a skyscraper'></figure>
+<div class="m-wrapper--full">
+  <figure class="m-wrapper--unpadded">
+    <img src='/uploads/tooth.jpg' alt='A skyscraper'>
+  </figure>
+</div>
