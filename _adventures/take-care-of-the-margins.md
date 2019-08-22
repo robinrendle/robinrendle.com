@@ -3,8 +3,6 @@ title: Take care of the margins
 date: 2018-01-21
 ---
 
-Friends!
-
 I know this is cruel but I always judge a book by its margins; I’ll take the bad paper and boring typefaces, I’ll even forgive a book that has one of those plastic covers (the sort that makes me feel as if the book will slip out of my hand at a moment’s notice).
 
 I will accept all of these things as long as the margins of a book have been cared for.
@@ -38,6 +36,3 @@ In Craig Mod’s ever so lovely tribute to book design, [_Let’s talk about mar
 So I believe we should care for the margins in books and websites because it’s a form of kindness to the reader. It makes following one paragraph to the next ever so slightly easier. Good margins makes holding a book more pleasant too and helps readers slide into a story without having to encounter any friction or struggle against the countless tiny distractions in a book.
 
 But we should really care for the margins simply because we can.
-
-Until next time! <br>
-✌️ Robin

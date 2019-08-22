@@ -1,5 +1,5 @@
 ---
-title: A short note on Conductor
+title: Ampersand
 date: 2018-01-29
 tags:
 extract:

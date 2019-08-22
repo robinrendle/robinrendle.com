@@ -3,8 +3,6 @@ title: The Mark of Sincerity
 date: 2018-07-01
 ---
 
-Friends!
-
 For the Atlantic, Julie Beck has written a lovely piece about [the exclamation mark](https://www.theatlantic.com/technology/archive/2018/06/exclamation-point-inflation/563774/) and how our use of it has changed in recent years:
 
 > Much like _awesome_ once served a greater purpose, the exclamation point has been downgraded from a shout of alarm or intensity to a symbol that indicates politeness and friendliness. As Shipley and Schwalbe put it in their guide: “Exclamation points can instantly infuse electronic communication with human warmth.” And that’s what we use them for now.
@@ -36,5 +34,3 @@ In a lot of places this sort of big, bold, all caps type could look infantilizin
 Quite honestly though I can’t remember the last time I was excited for the future of a political candidate, and I can’t remember the last time I enjoyed the graphic design of a campaign either. Everything about Ocasio-Cortez feels like it was ripped straight out of the West Wing and I worry that as I type this you can hear trumpets and pianos blaring in the background, reaching a crescendo where you feel that everything isn’t going to hell, that this year wasn’t a complete disaster. And if you’re anything like me then you might feel that little stone your heart has become now beating in strange and fabulous ways again.
 
 This is what hope – and more importantly _sincerity_ – really feels like, huh?
-
-✌️ Robin

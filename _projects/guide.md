@@ -4,16 +4,10 @@ date: 2018-06-20 17:21:00 -07:00
 subtitle: Building Gusto’s design system, styleguide, and component library.
 dateRange: May 2016 – January 2019
 role: Led the design and development of the design system and its many React components.
-results: High quality front-end code and documentation for the components and assets,
+results:
+  High quality front-end code and documentation for the components and assets,
   such as logos, illustrations, and icons.
-extract: 'The Guide is a web app that documents Gusto’s ever-growing design system
-  and my goal was to create a tool that anyone at the company could turn to when looking
-  for information about the React components, baseline styles, as well as the overall
-  brand and voice of the company. I broke this work up intro three distinct categories:
-  educating designers and developers, documenting the existing system for future use,
-  and implementing new features and components into our applications.
-
-'
+extract: "<p>The Guide is a web app that documents Gusto’s ever-growing design system and my goal was to create a tool that anyone at the company could turn to when looking for information about the React components, baseline styles, as well as the overall brand and voice of the company. I broke this work up intro three distinct categories: educating designers and developers, documenting the existing system for future use, and implementing new features and components into our applications.</p>"
 endDate: 02/2018
 company: Gusto
 layout: projects-detail
@@ -26,7 +20,7 @@ When I joined Gusto I worked with Dora Chan to build an internal web app that we
 
 In the introduction to the Guide I described how it might help like so:
 
-> This is where all of the documentation for Gusto’s design system is archived for safe keeping; it contains all the assets you need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of *The Guide* as a sort of Pokédex.
+> This is where all of the documentation for Gusto’s design system is archived for safe keeping; it contains all the assets you need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of _The Guide_ as a sort of Pokédex.
 >
 > Ideally this is where we can share information and collaborate in a public space to gain consensus across missions in terms of code, design, accessibility, performance, and branding. If we improve a single component here in The Guide then all of our apps and features will reap the rewards at the same time in a predictable manner.
 
@@ -37,7 +31,6 @@ So for this project we had several goals:
   <li>Reign in the code and design inconsistencies across Gusto’s apps.</li>
   <li>Document React components for designers and engineers to reference.</li>
 </ul>
-
 
 ## Making a plan
 
@@ -91,7 +84,6 @@ As I refactored components and improved their accessibility and visual design I 
     </figure>
   </div>
 </div>
-
 
 ## Project Review
 

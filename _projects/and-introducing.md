@@ -2,15 +2,16 @@
 title: And Introducing
 date: 2015-10-24 11:59:00 -07:00
 tags:
-- project
+  - project
 dateRange: August 2018
 subtitle: A microsite for a wonderful little art book.
-extract: I made a quick microsite for Jez Burrows’ new Kickstarter campaign and art
-  book, _And Introducing_. Jez describes this peculiar thing as “an art book that
+extract:
+  "<p>I made a quick microsite for Jez Burrows’ new Kickstarter campaign and art
+  book, <em>And Introducing</em>. Jez describes this peculiar thing as “an art book that
   collects over 2,500 unlikely, unfortunate, or unintelligible casting credits from
   almost a century of cinema history.” The book ends up being wonderfully funny and
   strange when you read that someone in a real honest-to-goodness movie was credited
-  as playing ‘Reluctant Surgeon’ or ‘Dank Jimmy.’
+  as playing ‘Reluctant Surgeon’ or ‘Dank Jimmy.’</p>"
 role: Front-end development, design
 results: An animated website marketing the book
 heroImage: "/images/portfolio/and-introducing.png"

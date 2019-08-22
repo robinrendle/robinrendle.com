@@ -19,7 +19,7 @@ There’s always a new shape and style of letter to welcome for the first time, 
 
 And, quite frankly, you won’t ever want to return to it. Instead, it’s now your turn to welcome strangers into the fold. You must act as a tour guide, revealing all these new shapes and exciting characters to your friends. Once you find yourself in the city of letters you must pass this new city along to the next friend as a gift, and as a curse.
 
-# Letter of the Week
+## Letter of the Week
 
 I’m not sure how I missed [Blanco](https://www.fostertype.com/retail-type/blanco) by the Foster Type foundry and so someone is going to get the sack. But before I do that, here’s an example from the specimen that I particularly like:
 

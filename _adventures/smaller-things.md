@@ -3,8 +3,6 @@ title: Smaller Things
 date: 2019-07-01
 ---
 
-Friends!
-
 Last year I was talking to an engineer on our team who was leaving for Google and I asked him over coffee: why? Not out of disrespect, or a Big Judgemental Why, I just wanted to know what he expected from the new gig.
 
 After a beat, and a few nervous sips of coffee, he replied that it was because of impact. He wanted to work on something that touches millions of lives every day. And when he finished I let out a sigh so long it was as if I was a six thousand year old man. The sigh was so prolonged in fact that the buildings shook and the leaves from the hedges burst into the air around us. Dogs barked in the distance, sirens wailed, and the cement beneath my feet cracked from the sheer force of apathy.
@@ -22,14 +20,3 @@ I think this is one of many reasons why I adore letters and typography. No typef
 And I think that’s because type designers have to console themselves with the fact that the work they’re doing is small but important. Each beautiful a or ü is but a small improvement today, a minuscule improvement even – but an important one that will make a difference in the end. Even if no-one really notices. And I think there’s something bold and maybe even a little courageous about that, about doing such a beautiful thing on such a small scale.
 
 Because small things are important, too.
-
- <br/>
- <br/>
-Until next week! <br/>
-✌️ Robin
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>

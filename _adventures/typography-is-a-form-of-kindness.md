@@ -27,7 +27,7 @@ I think the reason why I feel this way is because whenever I see anyone tackling
 
 And we need as many careful stewards as we can get, so that they can help take care of the letters for us.
 
-# Letter of the week
+## Letter of the week
 
 My favorite letter can be found in Sven Fuchs’s [Gustav](http://typemedia2017.com/sven/), an impressive and diverse family of sans and serifs for editorial design:
 

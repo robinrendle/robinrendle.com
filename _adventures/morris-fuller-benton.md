@@ -1,5 +1,6 @@
 ---
 title: Morris Fuller Benton
+tags: morris fuller benton, franklin gothic
 date: 2018-08-18
 ---
 
@@ -25,7 +26,8 @@ I really want to spoil what this project is all about because I’m so thoroughl
 
 And it’s going to be damn funny and interesting.
 
-<br>
+<br/>
+
 ## Unrelated Non-Typographic Things That I’ve Been Writing About
 
 - I’ve been taking a lot of notes about CSS in [the CSS-Tricks newsletter](https://css-tricks.com/newsletters/) which I always find super fun and interesting to write. There’s so much weird stuff going on with web design right now and a lot of it has to do with web typography to be quite honest.
@@ -35,6 +37,3 @@ And it’s going to be damn funny and interesting.
 - I made a quick note about a recent trip [from San Francisco to Los Angeles](https://robinrendle.com/notes/from-san-francisco-to-los-angeles/) where I sort of talk about the climate crisis and sort of just straight up brag about how much of a cool motorcycle boy I’ve become.
 
 - And here’s another brief note about something Merlin Mann mentioned the other day where he described his daughter’s laziness contributing to the [Late Muscle](https://robinrendle.com/notes/the-late-muscle/)
-
-Until next time! <br>
-✌️ Robin

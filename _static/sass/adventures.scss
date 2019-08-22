@@ -48,6 +48,7 @@ html {
 }
 
 body {
+  font-size: 100%;
   font-family: Geogia, serif;
   background-color: $theme;
   padding-bottom: 0;
@@ -335,4 +336,55 @@ input {
 
 .form {
   width: 100%;
+}
+
+////////////////////////////////////////////
+// ADVENTURES DETAIL
+////////////////////////////////////////////
+
+.email-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.email-header {
+  color: #000;
+  margin-top: 100px;
+
+  h1 {
+    font-family: "National Display", $sans-fallback;
+    font-size: 25px;
+  }
+}
+
+.email-body {
+  color: #222;
+
+  blockquote {
+    padding-left: 20px;
+    opacity: 0.85;
+  }
+  p {
+    font-size: 18px;
+
+    @media screen and (min-width: 767px) {
+      font-size: 20px;
+    }
+  }
+}
+
+.email-about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.email-profile {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }

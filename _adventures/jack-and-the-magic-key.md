@@ -33,7 +33,7 @@ This is most certainly going to be a non-sequitur but for some reason all of thi
 
 <br>
 
-# Letter of the Week
+## Letter of the Week
 
 [Prospectus](http://prospectus.losttype.com/) is a new type family designed by Dave Bailey and oh boy oh gosh just wow the new website is a force to be reckoned with:
 

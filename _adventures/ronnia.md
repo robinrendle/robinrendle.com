@@ -3,8 +3,6 @@ title: Ronnia
 date: 2018-02-02
 ---
 
-Friends!
-
 There’s something about Ronnia that I completely adore. It’s a sans type family by [TypeTogether](https://www.type-together.com/) released in 2007 and it’s one of those times where I’ve stumbled upon something and then it’s sat patiently in an open tab for a couple of weeks. I find myself opening [the specimen website](https://www.type-together.com/ronnia-font) every couple of hours and just staring at it, longingly, and I’m not entirely certain why.
 
 There’s often no rhyme or reason as to why or when I fall in love, but that’s often the case when it comes to beautiful letters. And especially with Ronnia.
@@ -18,6 +16,3 @@ See what I mean? For whatever reason though I think I’m more fond of the conde
 <br />
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/2520ac09-ca52-4c2f-a872-073653ee6aec.png)
-
-Until next time, <br>
-☕️ Robin

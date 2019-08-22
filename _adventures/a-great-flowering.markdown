@@ -178,7 +178,7 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
     <p>When Alexander the Great died in 323 BC, his empire stretching from Macedon to the western border of India was divided into three dynasties: Antigonids, Seleucids, and Ptolemies. All of the kings of Macedonia competed to become the commander’s rightful successor. The struggle for royal supremacy spilled into scholarship and preservation of Greek culture, giving way to a new wave of elaborate libraries.</p>
 </blockquote>
 
-<h2>Letter of the Week</h2>
+## Letter of the Week
 
 <p>I was bumbling around on the <a href="http://www.typenetwork.com/">Type Network</a> the other day and I gasped when I found <a href="https://store.typenetwork.com/foundry/victoriarushton/fonts/marcia">Marcia by Victoria Rushton</a> and the K! Oh, lord. My heart strings...</p>
 

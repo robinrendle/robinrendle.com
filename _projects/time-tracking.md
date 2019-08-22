@@ -5,11 +5,9 @@ subtitle: Designing and developing a new feature for Gusto.
 dateRange: November 2017 – December 2018
 role: Design and front-end development.
 results: Greatly improves the user experience for hourly employees on Gusto’s platform.
-extract: Gusto helps companies manage their payroll, handle employee benefits, and
-  now we’ve just released a brand new feature that lets companies track employee hours
-  in an effortless and seamless way. With this feature employers on the Gusto platform
-  have fewer tools and apps to manage things and can get a better overview of their
-  business.
+extract:
+  <p>Gusto helps companies manage their payroll, handle employee benefits, and
+  now we’ve just released a brand new feature that lets companies track employee hours. With this feature employers on the Gusto platform have fewer tools and apps to manage things and can get a better overview of their business.</p>
 endDate: 12/2018
 company: Gusto
 layout: projects-detail
@@ -18,10 +16,9 @@ heroImage: "/images/portfolio/time-tracking-drawer.jpg"
 
 ## Understanding the problem
 
-Many companies that use Gusto to run their payroll have a great deal of hourly employees and so after a lot of internal research our team discovered that this is a crucial requirement for these companies to easily manage their business.
+Many companies that use Gusto to run payroll have a great number of hourly employees and so after internal research our team discovered that time tracking is a crucial requirement for these companies to easily manage their business.
 
 Ideally an employee could easily track their time in the Gusto web app and then their employer could review these hours to make sure they’re correct. After that they’d then need to submit that data so that they could run payroll and pay the employees for the hours they tracked.
-
 
 ## Exploration and initial ideas
 
@@ -44,8 +41,6 @@ After we prototyped these designs and let real companies test our work we realiz
 
 This consequently led to our work redesigning Gusto’s employee dashboard (more on that in a separate posts).
 
-
-
 ## Working with prototypes
 
 The clock-in card would be the most important method for employees to track their time, however we also knew there would be a large number of employees that would retroactively add their hours. This led to hundreds of iterations of what we called the “time tracking table” — a component that would show all the previous days in a pay period and the hours that had been tracked. Whole dang essays could be written about this component alone, but here’s one of the prototypes I made in Codepen (you can even click and hover on the demo below):
@@ -61,8 +56,8 @@ With the prototype above we could figure out how the animations work as you clic
 
 We knew that this component would also be important for employers or admins of those companies that would need to review and catch any errors that might’ve occurred during the time tracking process.
 
-
 ## Moving to the design systems team
+
 After the design and development of the table was complete I moved onto the design systems team but provided constant front-end development and design support to the rest of the team. We brainstormed improvements to the direction and worked closely together to iterate on my initial designs.
 
 From this point on I worked with the Time Tracking team to create reusable components such as the `Drawer` and `Toggle` which helped other designers and engineers across Gusto build their own features faster.
@@ -84,6 +79,6 @@ Here’s the final iteration that released after the ever-so-excellent designer 
 
 Letting admins click on an employee’s time and immediately see all of their tracked hours in a drawer made the experience feel infinitely faster than the designs I had worked on previously.
 
-
 ## A brand new feature
+
 The time tracking feature is the most successful project I’ve worked on whilst at Gusto. We created a ton of reusable components that other teams could use as well as provided a much better experience for hourly customers of our product. Sadly I can’t reveal metrics of our success but it was pretty dang surprising to me as to just how many of our customers jumped on this feature within the first two weeks.

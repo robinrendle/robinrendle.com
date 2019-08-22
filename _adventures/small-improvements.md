@@ -1,17 +1,17 @@
 ---
-title: 'Small improvements in the right direction'
+title: "Small improvements in the right direction"
 date: 2018-01-16
 tags:
-extract: 
+extract:
 ---
 
 Friends!
 
-There’s a tendency in web design circles to ditch the old in favor of the new: We’ll blow up the archives! We’ll cut loose all the legacy code! With a little bit of effort our work can feel fresh and exciting again! A new year, a clean slate, a *whole new thing*. Yet the more I work on the web, the more I recognize the benefits of tiny, iterative improvements.
+There’s a tendency in web design circles to ditch the old in favor of the new: We’ll blow up the archives! We’ll cut loose all the legacy code! With a little bit of effort our work can feel fresh and exciting again! A new year, a clean slate, a _whole new thing_. Yet the more I work on the web, the more I recognize the benefits of tiny, iterative improvements.
 
-I’ve been thinking about this over the past month or so at [Gusto](https://gusto.com) as I’ve been tidying up *The Guide* — an internal design tool for the company — and in the introduction I describe it like this:
+I’ve been thinking about this over the past month or so at [Gusto](https://gusto.com) as I’ve been tidying up _The Guide_ — an internal design tool for the company — and in the introduction I describe it like this:
 
-> This is where the documentation for Gusto’s design system is archived for safe-keeping; it contains all the assets we need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of *The Guide* as a sort of Pokédex.
+> This is where the documentation for Gusto’s design system is archived for safe-keeping; it contains all the assets we need, such as images and illustrations as well as notes on our copywriting style and documentation for our React components. In fact, we like to think of _The Guide_ as a sort of Pokédex.
 
 <img src='https://image.ibb.co/jquMCR/Screenshot_2018_01_16_00_38_05.png' />
 
@@ -23,15 +23,16 @@ Paul is somewhat of a stickler for improvements like this and in a similar post 
 
 > I’m a big believer in iteration, and not treating a website as ever being finished.
 
-The reason why I mention this is because I think there’s a wild misunderstanding about the way we ought to build websites in the first place. And it sort of goes all the way back to what we call ourselves here in San Francisco: ”Product Designers.” 
+The reason why I mention this is because I think there’s a wild misunderstanding about the way we ought to build websites in the first place. And it sort of goes all the way back to what we call ourselves here in San Francisco: ”Product Designers.”
 
-I reckon this frames our work as artists and maestros that can paint beautiful pictures — but instead, we should be thinking in terms of maintenance and building on top of what already exists. So the trick then, is this: patience and a healthy dose of restraint but also a constant effort to change the way we work. 
+I reckon this frames our work as artists and maestros that can paint beautiful pictures — but instead, we should be thinking in terms of maintenance and building on top of what already exists. So the trick then, is this: patience and a healthy dose of restraint but also a constant effort to change the way we work.
 
 Let’s help everyone to contribute small improvements in the right direction.
 
-<br> 
+<br>
 
-# Letter of the Week 
+## Letter of the Week
+
 On this note, I think the only letters that I’ve noticed this week have been David Jonathan Ross’ [Extraordinaire](https://djr.com/extraordinaire/extraordinaire-djr-specimen.pdf):
 
 <img src='https://image.ibb.co/nJs8sR/Screenshot_2018_01_16_22_59_27.png'>

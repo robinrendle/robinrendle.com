@@ -7,16 +7,18 @@ layout: projects-detail
 color: "#5c58a4"
 company: Erskine Design
 customCSSClass: endsleigh
-heroImage: "/images/portfolio/endsleigh-hero.png"
+heroImage: "/images/work/endsleigh/endsleigh-hero.png"
 heroImageClass: no-shadow
 role: Front-end development
-results: 40% increase in conversion rates for key products and a 15% drop in the number
+results:
+  40% increase in conversion rates for key products and a 15% drop in the number
   of calls to their customer service center
-extract: Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I worked
+extract:
+  "<p>Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I worked
   with them to develop a framework capable of supporting their vast array of products
   and services, focusing specifically on object-oriented <abbr>CSS</abbr> and web
   performance. The goal was to hand over a design system and web app that could be
-  maintained by their internal team of developers, designers and project managers.
+  maintained by their internal team of developers, designers and project managers.</p>"
 ---
 
 ## Project Goals
@@ -30,7 +32,6 @@ extract: Endsleigh is a student insurance provider in the <abbr>UK</abbr> and I 
 As a front-end developer I worked closely with the head of design at Erskine and the lead front-end developer to break down the design mockups into an ellaborate system of components and templates. Throughout the project we discussed ways in which to cut down on the number of components and re-use them as much as possible. We also constantly discussed ways in which to change the design in order to improve the performance of the website (such as stripping out unnecessary images and replacing them with inline <abbr title='scalable vector graphics'>SVG</abbr>s).
 
 That feedback loop between design and development ultimately taught me an awful lot about how a team ought to collaborate and work together in the future.
-
 
 ## Starting the Design System
 

@@ -7,7 +7,7 @@ Friends!
 
 I received this email the other day that brings up a thoroughly interesting question about typesetting and I reckon it would be neat to reply in public so that we can all talk about this stuff together:
 
-<br/ >
+<br />
 
 ```
 
@@ -23,9 +23,6 @@ Stuck on a Good Typeface (There Are Worse Fates, I Suppose)
 
 ```
 
-<br/ >
-<br/ >
-<br/ >
 Dear Stuck on a Good Typeface,
 
 Whenever I start a new project I always try to focus on what I call _the smallest possible bit_. I’ll ignore all the layouts, avoid comparing typefaces right away, and hunt for the most important piece of information first.

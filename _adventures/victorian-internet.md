@@ -28,7 +28,7 @@ And I couldn’t help but cry big dumb tears after we’d finished talking and m
 <br/>
 <br/>
 
-# Letter of the Week
+## Letter of the Week
 
 [Heldane Display](https://klim.co.nz/retail-fonts/heldane-display/) is a new family by Klim “inspired by the renaissance works of Hendrik van den Keere, Claude Garamont, Robert Granjon and Simon de Colines.” But I particularly like the [Text variant](https://klim.co.nz/retail-fonts/heldane-text/) — it looks like a series of letters made for drafting a constitution or forming a government.
 

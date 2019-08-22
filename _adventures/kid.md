@@ -3,8 +3,6 @@ title: What do you want to be when you grow up, kid?
 date: 2018-11-03
 ---
 
-Friends!
-
 Typekit is no more. As the acquisition of the company back in 2011 implied, Typekit became more integrated with Adobe’s enormous galaxy of apps until it officially became [Adobe Fonts](https://fonts.adobe.com/) a short while ago.
 
 Along with the rebrand there’s a few things I really like about the recent changes. For instance the team has greatly improved the UX for adding fonts to a website – as far as I can tell you no longer have to manage a whole bunch of domains in a project, too. You can just copy and paste the link to the font’s CSS and there you have it!
@@ -35,7 +33,7 @@ Designed by Nicole Dotin and published back in 2014, it’s an embarrassment tha
 <br>
 <br>
 
-# What do you want to do when you grow up, kid?
+## What do you want to do when you grow up, kid?
 
 I fell into web design via books. When I was maybe six or seven I remember reading about polar bears and how they hibernated in a large compendium about all sorts of natural habitats and curiosities ranging from foxes hunting in the desert and wild horses running on the Mongolian plains to Emperor penguins shivering in the Antarctic. And to this day I still remember that giant, double page spread of a bear and her cubs. It was a wondrous illustration but what piqued my curiosity was how the writer described hibernation.
 
@@ -58,9 +56,3 @@ Someone was building an application of some kind and they were referencing somet
 It’s an indescribable feeling, the rush and jolt of publishing I mean. (This is about to get sappy so bear with me). It’s a feeling of boundless enthusiasm for how words can be packaged and transported, and it’s this feeling that we can share ideas in this vast human society that we’re building together, a place where borders are just structures we’ve placed in between ourselves, and that words have momentum; a link to a website can lead to a book in your hand, to a friend at a party, to a conference in another town, to a long lasting love.
 
 Anyway, publishing on the web is an endless thrill, a sort of everlasting, punk-rock feeling and I hope it will never really go away.
-
-Until next week! <br>
-✌️Robin
-<br>
-<br>
-<br>

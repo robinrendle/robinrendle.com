@@ -1,0 +1,7 @@
+{
+  "layout": "adventure",
+  "tag": "adventures",
+  "permalink": "adventures/{{ title | slug }}.html",
+  "city": "San Francisco",
+  "country": "USA"
+}

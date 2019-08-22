@@ -1,12 +1,14 @@
 ---
-title: The Success of Many Days 
+title: The Success of Many Days
 date: 2019-07-24 11:26:59
 city: San Francisco
 country: California
+tags:
+  - featured
 extract: And the result of 3 years of refactoring.
 ---
 
-Not only is today my birthday but it also marks [the launch of the Gusto brand refresh](https://gusto.com/company-news/gusto-brand-refresh): we’ve shipped a new website and we’ve redesigned the Gusto web app experience that lets hundreds of thousands of companies run payroll each month. 
+Not only is today my birthday but it also marks [the launch of the Gusto brand refresh](https://gusto.com/company-news/gusto-brand-refresh): we’ve shipped a new website and we’ve redesigned the Gusto web app experience that lets hundreds of thousands of companies run payroll each month.
 
 I reckon all this work has led to something..._outstanding_. Screenshots of the UI don’t really do the work justice though as it’s only when you open up the app and use it that you’ll feel things are significantly faster and much easier to read. And in complete earnestness I think this is the best project I’ve ever worked on.
 
@@ -30,16 +32,16 @@ This isn’t to say that I was the only person working on this, or the only pers
 
 Anyway, we’re proud of the work we’ve shipped today but it’s important to note that this is only the beginning. There are lots of areas of our product that frustrate and concern us, where we both feel that we fall significantly short of providing the best user experience possible. Our Design System and front-end is nowhere near perfect and we have a number of enormous refactoring projects on the horizon soon.
 
-To get us through this immense project, and to help boost our morale when we became particularly frustrated with something, we would constantly remind ourselves that all we had to do today was make the UI [1% better](https://www.robinrendle.com/notes/1percent-better). 
+To get us through this immense project, and to help boost our morale when we became particularly frustrated with something, we would constantly remind ourselves that all we had to do today was make the UI [1% better](https://www.robinrendle.com/notes/1percent-better).
 
-Back in March when this project was heating up I wrote that: 
+Back in March when this project was heating up I wrote that:
 
 > Here’s an opinion without any facts or evidence: I only care about making the design system 1% better every day. If that means deleting a bit of code that doesn’t have any impact whatsoever then that’s okay. If it means changing the font weight of this one component to be slightly more legible then that’s okay too. So long as every day there’s an improvement of some kind.
-> 
+>
 > You might argue that all these 1% changes are distractions from much larger projects that might have an enormous impact.
-> 
+>
 > My argument would be that those massive, revolutionary projects will never happen. Instead it’s best to slowly move towards where we want to, step by step, so that we gather momentum over time.
-> 
+>
 > 1% today is better than 50% tomorrow or some distant and impossible far-flung future.
 
 We’ve found this mantra to be helpful as design systems work can be so impossibly stressful and difficult to scope. Everything can be on fire at the same time but you’re only one person – you can’t fix every issue today. And I guess what this means is that today I’m more convinced than ever that our approach is the right way to deal with design systems work – not having great big plans for a utopian vision of the world but instead focusing on tiny improvements every single day.
