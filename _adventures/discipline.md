@@ -3,8 +3,6 @@ title: Discipline
 date: 2018-12-22
 ---
 
-Friends!
-
 This past week I’ve been spelunking into the cavernous maw of our CSS as I refactor our codebase to be more resilient, predictable, legible. And in between these lines of code, the tens of thousands that make up our application, I can still see my mentor [Dora Chan](https://twitter.com/doralchan?lang=en) down here even a year after she left my team.
 
 And I’m glad I still see her down here, because at these depths you need every friend you can get.
@@ -41,12 +39,4 @@ I would make sure to check out that microsite as well as the italic in [the spec
 
 Despite looking at a bunch of neat type specimens, yesterday was certainly a tough day though. I had to haul myself out of the codebase to take some time off for the Christmas break. I had to go about realigning my senses for the above-ground world where people breathe oxygen and the CSS language isn’t the most important thing in the universe.
 
-But I want to return to it all – that codebase I mean – desperately. I want to see my friend again down in those depths one last time. I want to see her work, appreciate every line of it, and follow the beacons she set down for me. Because there’s still so much work left to do, and I have so much left to learn.
-
-Until next time! <br />
-✌️ Robin
-
-<br />
-<br />
-<br />
-<br />
+But I want to return to it all—that codebase I mean—desperately. I want to see my friend again down in those depths one last time. I want to see her work, appreciate every line of it, and follow the beacons she set down for me. Because there’s still so much work left to do, and I have so much left to learn.

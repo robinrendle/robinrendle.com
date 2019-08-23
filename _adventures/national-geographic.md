@@ -3,8 +3,6 @@ title: The National Geographic
 date: 2018-04-22
 ---
 
-Friends!
-
 This week I’ve been obsessed with [Foreday](https://www.dstype.com/variable-fonts) by the DSType Foundry and the reason why is quite extraordinary: I think it might be the first variable font where the options aren’t just font weight or the width of the characters. Instead, you can choose whether you have a sans or a serif typeface and change it on the fly.
 
 Here, take a peek:
@@ -32,6 +30,3 @@ Besides adding a brand new typographic system to their palette, National Geograp
 > Oh yeah, about the RA ligature. So, reintroducing the concave leg presented a problem. There was a large amount of space between the R and the A in the 1959 nameplate. The concave leg of the R in the new nameplate introduced even more space. It started to read as “GEOGR APHIC” which isn’t what I was going for. I tried all sorts of stuff before before accidentally overlapping the serif on the A with the leg of the R. “Oh. That could work.” I wish I could claim that it was the result of some sort of brilliant insight, but it just happened.
 
 I love that ligature so dang much.
-
-Until next week!<br>
-✌️Robin

@@ -3,8 +3,6 @@ title: Email is the Magic Key
 date: 2018-05-12
 ---
 
-Type pals!
-
 Earlier this week I read an excellent post called [How to Make a Book](https://thecreativeindependent.com/guides/how-to-make-a-book/) and it’s a collection of advice from writers and novelists about how to get started with a book of your own:
 
 > A book can be inspired by nearly anything: a seemingly stray thought you can’t shake, a lyric, an overheard conversation, another book. Whatever it is, turn it over again and again and again in your mind. Watch it. Listen to it. Be skeptical of it. Let it bother you. Most importantly, take notes.
@@ -38,7 +36,3 @@ And so yes, I guess email is the magic key for writers, but boy oh boy do I wish
 - Marcin Wichary made an impossibly brilliant game (?) called [Segmented Type](https://aresluna.org/segmented-type/) where you can make “segmented” letters, just like the ones you might see on trains, buses or old displays.
 - Scott Kellum’s [Typetura.js](https://twitter.com/ScottKellum/status/993981428097527808) is one of the most impressive variable type / fluid text examples that I’ve ever seen.
 - For some reason I’ve never sat down and read Bethany Heck’s [Font Journal Review](http://fontreviewjournal.com/) but I’ll be sure to make time for it this weekend. It’s a lovely site that reviews typefaces and has truly outstanding typesetting (just the sort to make me fume with jealousy in fact).
-
-Anyway, until next week!
-
-✌️ Robin

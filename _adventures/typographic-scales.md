@@ -3,8 +3,6 @@ title: Typographic scales
 date: 2019-02-10
 ---
 
-Friends!
-
 When young designers are introduced to typography the first thing they learn about are the typefaces: identifying serifs from sans, learning about the history behind which of them came first, etc. Shortly afterwards they probably start learning about grids, layout, and then – typographic scales.
 
 If you’re unfamiliar with that term “a scale” is often a group of font-sizes that are used to help designers make an interface consistent and help them limit their options from a billion different sizes.
@@ -36,6 +34,3 @@ In an old post on the matter, Tim wrote about working with scales in order to [m
 But I’ve never really found this to be the case. I’ve sometimes used scales as a sort of building block but I’ve yet to see any significantly beautiful layouts or typesetting that are dependent entirely on these ratios. As I mentioned, I’ve often found that these numbers need to be tweaked slightly in order to solve the problems I’ve been working on. And even though Robert Bringhurst happened to call a typographic scale a series of “harmonious proportions” – well – I sort of just don’t see it I guess.
 
 Folks will endlessly discuss which ratio is the most mathematically beautiful and I would recommend that we step around them and let them enjoy their ratios – whilst we can focus our attention elsewhere.
-
-Until next time, <br>
-✌️ Robin

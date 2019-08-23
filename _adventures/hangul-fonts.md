@@ -3,8 +3,6 @@ title: Hangul Fonts
 date: 2018-04-08
 ---
 
-Friends!
-
 I’m a little worse for wear this weekend however I just wanted to write a brief note about [a type specimen website](https://googlefonts.github.io/korean/) published by Google that showcases a collection of Hangul fonts that they offer. It’s difficult to describe what’s going on because 1. it’s completely bananas and 2. it’s unlike any other specimen website I’ve seen before:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/38d8219c-328b-4241-a7f5-7ab4eef128ad.png)
@@ -18,5 +16,3 @@ I can’t possibly judge any of these typefaces and how they might address these
 I highly recommend you check it out, but here’s one example:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/12a16c53-fe2a-48cc-8be5-757b75156ca4.gif)
-
-✌️ Robin

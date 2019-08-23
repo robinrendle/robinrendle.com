@@ -3,8 +3,6 @@ title: Jack and the Magic Key
 date: 2018-07-07
 ---
 
-Friends!
-
 It’s 2007: I’m sat in the kitchen watching a family friend and her four year old son talk to my mom. Over the course of a few minutes I notice how this kid, Jack, is starting to get bored; his eyes roll into the back of his head and all of his limbs begin to fidget independently of the host as if he’s possessed by the spirit of boredom itself.
 
 In a flash my mom notices this before her friend does. Her eyes dart around the room, looking for something, anything, to entertain Jack with. Coming up short, my mom grabs the closest thing that was on the table: a key. I think it unlocked one of the older cabinets we had lying around back then so it was very nondescript and boring; it didn’t have any patterns on it, or engravings, and it certainly wasn’t imbued with ancient magic of any kind.
@@ -44,7 +42,3 @@ My favorite letter must be the sophisticated and lowercase g found in these two 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/dfcbb646-7d50-4900-8462-6735387a3198.png)
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/64efc384-84f0-4349-9716-174273c03404.png)
-
-Until next week! <br>
-
-✌️Robin

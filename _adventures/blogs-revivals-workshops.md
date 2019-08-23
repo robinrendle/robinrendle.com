@@ -3,8 +3,6 @@ title: "Blogs, revivals, and workshops"
 date: 2018-01-16
 ---
 
-Friends!
-
 This weekend I’ve updated the fonts on my blog like it’s 2009 and for this version I’ve chosen Commercial Type’s excellent [Caponi Display](https://commercialtype.com/catalog/caponi/caponi_display) and [Caponi Text](https://commercialtype.com/catalog/caponi/caponi_text) to replace David Jonathan Ross’ [Output](https://djr.com/output/) (which I still thoroughly adore and will most certainly forever live on as one of my favorite typefaces of all time).
 
 Here’s what my site looks like now after this little refresh:
@@ -33,8 +31,7 @@ That’s not to say that Caponi is a bad type family, my point is rather that di
 
 Sometimes even ugly typefaces can be [forgiven](https://fontsinuse.com/uses/4135/google-maps-2013-update) though.
 
-<br/>
-# Hand-lettering Workshop
+## Hand-lettering Workshop
 
 Earlier this week the team at Gusto headed up and over the bridge to Mill Valley where we had a couple of team bonding exercises — by far my favorite was [Jenna Carando](http://jennacarando.com/)’s workshop on hand-lettering.
 
@@ -43,6 +40,3 @@ I’d been to one of Jenna’s workshops a couple of years ago and back then it 
 So it was wildly impressive to see the amount of effort and hard work that Jenna’s clearly put into this course since then as it was the best introduction I’ve ever seen, not only of hand-lettering, but on the subject of graphic design in general. It was simply outstanding whilst being light-hearted, funny, and quick-witted to boot.
 
 Jenna’s always been extraordinarily skilled at lettering but I realized during her explanation of the different styles and techniques during the day that it’s one thing to be good at something, but it requires something entirely different to explain that skill in a way that other people will understand it.
-
-Until next week! <br/>
-✌️Robin

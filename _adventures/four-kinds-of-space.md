@@ -3,8 +3,6 @@ title: The Four Kinds of Space
 date: 2018-12-09
 ---
 
-Friends!
-
 This week I’ve been re-reading one of my favorite books about typesetting; _Inside Paragraphs_ by the teacher and type designer Cyrus Highsmith. Unlike many other books on the subject that try to hone in on a specific field, such as book or web design, Cyrus takes a very different approach here: he jumps head first into a paragraph, gets up close to the letters, and tells us how it all works from the inside out.
 
 The book is also beautifully designed with Cyrus’s wacky and crooked illustrating style that makes it feel more like a children’s book than a serious one devoted to the art of typesetting (and it’s designed in such a way that the visuals never feel patronizing either). Each spread has only one or two paragraphs with a big illustration that stretches across the page and yet somehow Cyrus squeezes in more information to this slim volume than most giant graphic design textbooks do.
@@ -22,6 +20,3 @@ On a side note, I think typography is often mistaken for knowing about the right
 And really that’s the loveliest thing about Cyrus’s book. Beyond the useful typesetting practices and lovely illustrations, he removes all the pedantry from the field and makes typography out to be what it really is: a never-ending and fabulous way to appreciate language.
 
 Anyway, go pick up a copy of [Inside Paragraphs](http://insideparagraphs.com/) as I promise it won’t disappoint.
-
-Until next time! <br/>
-✌️ Robin

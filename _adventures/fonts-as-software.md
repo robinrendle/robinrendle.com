@@ -3,8 +3,6 @@ title: Fonts as Software
 date: 2018-03-03
 ---
 
-Friends!
-
 This week [Future Fonts](https://www.futurefonts.xyz/) launched and it’s interesting for several reasons. First: it’s a website that lets you purchase fonts in an unfinished state. Each family might only consist of a single weight, a single style or variant, or even supporting characters from a single language (whereas a great many other type releases will try to support as many weights, styles and languages as possible to increase their value).
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/ce157de6-05d0-41e4-b390-f2d0eeea59cc.png)
@@ -40,7 +38,3 @@ Look at that lowercase q! The commas, the question mark, or the 4! Heck, the cap
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/8cca43e0-9e20-4613-b9ab-91fee1bcbea0.png)
 
 Can you imagine an italic or a light weight version of Goiters? Well now that the Future Fonts platform exists then these variants may no longer sit half finished at the bottom of a type designer’s hard drive for a decade. All we have to do is show our support, give them a tiny nudge of enthusiasm, and then we might see the strangest and most beautiful things flourish.
-
-Until next time!
-
-✌️Robin

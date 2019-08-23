@@ -5,8 +5,6 @@ tags:
 extract:
 ---
 
-Friends!
-
 If you’ve never heard of the [Ampersand conference](https://2018.ampersandconf.com/) then let me introduce you: it’s the best typography conference you could possibly ever visit. It’s held in the UK, in the sea-side town of Brighton to be more specific, and it’s organised by [Richard Rutter](http://clagnut.com/) and the rest of the team at [Clearleft](https://clearleft.com/). Peculiarly enough though, this is not an annual conference with the same faces on the same stage like many web design conferences.
 
 This is an entirely different affair.
@@ -28,7 +26,3 @@ This is fantastic news! The new font format will open up a range of weird possib
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/4434575f-884c-465a-941e-f6b20ee53e81.gif)
 
 Anyway, I hope you get an opportunity to visit Ampersand as soon as possible because it really is quite outstanding.
-
-Until next week!
-
-✌️Robin

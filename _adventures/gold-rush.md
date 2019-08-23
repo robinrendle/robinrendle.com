@@ -3,8 +3,6 @@ title: Gold Rush
 date: 2018-06-09
 ---
 
-Friends!
-
 Being on the lookout for interesting new typefaces is often like panning for gold in a stream. You head out into the world and sift through a ton of dirt yet after weeks of panning all you find are clumps of soil and the odd fish. One day weeks later though, as you’re on your last leg and want to quit the prospect altogether the stream turns in your favor; rocks of diamond gold rush through the water and suddenly you have so much gold that you have no idea what do all with all of it. The river is pure gold at this point and there’s too much to sift and organize, too much to haul back to town. You realize that you can never possibly inspect all of it and so you sit at the edge of the riverbank cursing your gold.
 
 Stupid gold.
@@ -32,14 +30,3 @@ Impossibly lovely! There is so much I want to say about each and every character
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/f5deb9d8-0d4e-4897-ab23-597459ceb5d2.png)
 
 Stupid gold.
-
-Until next time! <br/>
-✌️ Robin
-
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>

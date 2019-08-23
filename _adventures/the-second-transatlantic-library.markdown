@@ -11,40 +11,40 @@ City: San Francisco
 
 <p>I won’t feel truly at home on this new continent, or at least I won’t settle, until my library is with me, too. But in the mean time, a new library emerges; books I’ve gathered from all across the Bay Area. Unfortunately these are not books on the subject of typography, although they most definitely are typographic in nature.</p>
 
-My favourite of the bunch so far has been Jeff Vandermeer’s sci-fi *Southern Reach* trilogy. The novel takes place in and around a mysterious plot of land called Area X and, very much like the landscape that the novels portray, the books themselves tend to have alien characteristics, too. Take, for example, the copy I picked up a couple of weeks ago with cover design by [Rodrigo Corral](http://www.jeffvandermeer.com/2015/01/21/rodrigo-corrals-cover-area-x-hardcover/):
+My favourite of the bunch so far has been Jeff Vandermeer’s sci-fi _Southern Reach_ trilogy. The novel takes place in and around a mysterious plot of land called Area X and, very much like the landscape that the novels portray, the books themselves tend to have alien characteristics, too. Take, for example, the copy I picked up a couple of weeks ago with cover design by [Rodrigo Corral](http://www.jeffvandermeer.com/2015/01/21/rodrigo-corrals-cover-area-x-hardcover/):
 
 ![areax.png](/uploads/areax.png)
 
-The copy of *Area X* above is a collection of the three novels in the series; *Annihilation*, *Authority* and *Acceptance*. Each novel has an animal companion that dominates the story in one way or another and this is more prominent in the editions published by FSG and illustrated by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/), designed by Charlotte Strick and with animations below produced by Emily Bouman:
+The copy of _Area X_ above is a collection of the three novels in the series; _Annihilation_, _Authority_ and _Acceptance_. Each novel has an animal companion that dominates the story in one way or another and this is more prominent in the editions published by FSG and illustrated by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/), designed by Charlotte Strick and with animations below produced by Emily Bouman:
 
 <img src="/uploads/southern-reach.webp" onerror="this.onerror=null; this.src='/uploads/southern-reach.gif'">
 
 On the other hand, [Pablo Delcán’s version](http://delcan.co/case-studies/southern-reach-3/) takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
 
-> These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a *Fritillaria imperialis* beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings.
+> These covers were an exercise of appropriation, the most important part was finding these images. The plant comes from an illustration of a _Fritillaria imperialis_ beautifully drawn by Pierre-Joseph Redouté in the early eighteen hundreds, the hare and the owl are Audubon engravings.
 
 These images were then edited to create a chilling effect of animals and plant matter being stretched out into monsters that occupy the page:
 
-![Southern-Reach_Pablo-Delcan_C.gif](/uploads/Southern-Reach_Pablo-Delcan_C.gif) 
+![Southern-Reach_Pablo-Delcan_C.gif](/uploads/Southern-Reach_Pablo-Delcan_C.gif)
 
-A combination of monstrous distortions and the relatively boring sans-serif that adorns the top corner is somewhat striking, possibly a reference to the government’s response in the novel: *everything is a-ok, there are no monsters here*. 
+A combination of monstrous distortions and the relatively boring sans-serif that adorns the top corner is somewhat striking, possibly a reference to the government’s response in the novel: _everything is a-ok, there are no monsters here_.
 
-Not every edition of the *Southern Reach* is as gloomy as the others however. The UK edition in particular masks a lot of the strangeness of the books’ innards:
+Not every edition of the _Southern Reach_ is as gloomy as the others however. The UK edition in particular masks a lot of the strangeness of the books’ innards:
 
 ![southern-reach.jpg](/uploads/southern-reach.jpg)
 
-The collection above makes Vandermeer’s work look more serene, *Alice in Wonderland*-esque, and I wonder how that changes the reading of the books. Yet to be honest that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version: 
+The collection above makes Vandermeer’s work look more serene, _Alice in Wonderland_-esque, and I wonder how that changes the reading of the books. Yet to be honest that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version:
 
 <figure>
   <img src='/uploads/1f4cd7001.jpg'>
   <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
 </figure>
 
-What I’m trying to get at here is this: there’s something delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience; I can’t think of many novels besides *Area X* that welcome this form of constant graphic translation.
+What I’m trying to get at here is this: there’s something delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience; I can’t think of many novels besides _Area X_ that welcome this form of constant graphic translation.
 
-All of this makes me think about the state of my bookshelves today and I wonder how many books I would like to buy again in duplicate, multiple copies in [different languages](https://www.youtube.com/watch?v=UdbOhvjIJxI) and styles, alternative bindings with artists that adorn and reshape the meaning of the text inside. Consequently, that thought leads me to worry about the splitting of one library into two and my now divided, transatlantic library.  
+All of this makes me think about the state of my bookshelves today and I wonder how many books I would like to buy again in duplicate, multiple copies in [different languages](https://www.youtube.com/watch?v=UdbOhvjIJxI) and styles, alternative bindings with artists that adorn and reshape the meaning of the text inside. Consequently, that thought leads me to worry about the splitting of one library into two and my now divided, transatlantic library.
 
-Which of those books across the ocean led me here? 
+Which of those books across the ocean led me here?
 
 Which book brought me to San Francisco?
 
@@ -52,14 +52,13 @@ And so I think we must be cautious of which books we entertain because each book
 
 Onwards!
 
-
-## The Week in Type 
+## The Week in Type
 
 First, the [great flowering](https://www.robinrendle.com/adventures/a-great-flowering/) has begun! Over the past couple of weeks variable font demos have been starting to appear in the wild. I think it started with [Chris Lewis experimenting with them](https://twitter.com/chrissam42/status/778716592049795075) in Windows 10:
 
 ![Cs6OnRcVIAAYIWE.jpg](/uploads/Cs6OnRcVIAAYIWE.jpg)
 
-And shortly after that Myles Maxfield added support to the latest [Safari nightly build](https://webkit.org/nightly/) and made a neat [variation fonts demo](http://litherum.blogspot.com/2016/09/variation-fonts-demo.html): 
+And shortly after that Myles Maxfield added support to the latest [Safari nightly build](https://webkit.org/nightly/) and made a neat [variation fonts demo](http://litherum.blogspot.com/2016/09/variation-fonts-demo.html):
 
 ![litherum.gif](/uploads/litherum.gif)
 
@@ -73,7 +72,7 @@ Jason Parmental also made [a test page](http://rwt.io/rwt-variablefonts/html/var
 
 <small>Update: Nick Sherman wrote in to mention that Baptiste’s demo wasn’t using OpenType variations, or variable fonts, at all.</small>
 
-However, these experiments were not enough: CJ Dunn also released the typeface [Dunbar](http://cjtype.com/dunbar/), which I think might be the first commercially available variable font. 
+However, these experiments were not enough: CJ Dunn also released the typeface [Dunbar](http://cjtype.com/dunbar/), which I think might be the first commercially available variable font.
 
 ![family_overview_dark_blue.png](/uploads/family_overview_dark_blue.png)
 
@@ -83,7 +82,7 @@ Indra Kupferschmid writes:
 
 The sheer quantity of experiments going on right now is fascinating and I can’t wait to get my mitts on one of these typefaces. Not merely for the technical benefits alone—I’m starting to believe that there’s going to be a significant change due to the variety of options, styles which are now unimaginable to us, which will soon call for a revision to be made in what we think of as typography on the web.
 
-***
+---
 
 [The Bolted Book](http://www.boltedbook.com/) is a project by [Designers & Books](http://www.designersandbooks.com/) that hopes to reprint a facsimile edition of Fortunato Depero’s 1927 monograph _Depero Futurista_. I haven’t heard of it, but the cover certainly looks familiar:
 
@@ -91,19 +90,17 @@ The sheer quantity of experiments going on right now is fascinating and I can’
 
 Designers & Books made a wondrous facsimile of [Ladislav Sutnar’s Visual Design in Action](https://www.kickstarter.com/projects/1204158310/ladislav-sutnar-visual-design-in-action-facsimile) a while back and it happens to be one of my most treasured possessions, so I can’t wait to see the Kickstarter begin for The Bolted Book, too.
 
-***
+---
 
-[Dynamic Font Day](http://2016.dynfntdy.com/) looks like it’s going to be a neat conference all about webfonts. It’s held in Munich on the 26th of November and [some very cool people](http://2016.dynfntdy.com/en/speakers) have lined up to talk about typography and the web. 
+[Dynamic Font Day](http://2016.dynfntdy.com/) looks like it’s going to be a neat conference all about webfonts. It’s held in Munich on the 26th of November and [some very cool people](http://2016.dynfntdy.com/en/speakers) have lined up to talk about typography and the web.
 
-***
+---
 
 Elliot Jay Stocks launched a Kickstarter for [8 Faces: Collected](https://www.kickstarter.com/projects/elliotjaystocks/8-faces-collected) and it’s been nice to watch everyone in the community support it so eagerly.
 
-
 ## New Type Releases
 
-Since I’ve written the last *Adventures* there’s been an enormous swell of beautiful new typefaces and so I’ll be sure to make an entire post devoted to them next week. There’s simply too much to cover and I want to make sure that we explore each new release with the attention it deserves.
-
+Since I’ve written the last _Adventures_ there’s been an enormous swell of beautiful new typefaces and so I’ll be sure to make an entire post devoted to them next week. There’s simply too much to cover and I want to make sure that we explore each new release with the attention it deserves.
 
 ## Letter of the Week
 
@@ -112,13 +109,3 @@ I’ve been looking at Rui Abreu’s [Pathos](http://r-typography.com/12_pathos/
 ![Screenshot 2016-10-23 20.21.16.png](/uploads/Screenshot%202016-10-23%2020.21.16.png)
 
 The flat edge on the top right of the letterform has made me stare at it so much that I no longer see a K, instead the lines blend together and I see a jumble of black and white.
-
-Until next time!<br/>
-✌️ Robin
-
-
-
-
-
-
-

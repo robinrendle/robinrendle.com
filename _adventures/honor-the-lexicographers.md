@@ -3,8 +3,6 @@ title: Honor the Lexicographers
 date: 2018-04-15
 ---
 
-Dictionary friends!
-
 On Tuesday I headed over to a book store in the Haight for the launch of _[Dictionary Stories](http://www.dictionarystories.com)_, a peculiar little book by my pal Jez Burrows, and it just happens to be one of the most charming and joyous things I’ve ever read. In fact the book is overflowing with charm and I find myself thinking about it constantly.
 
 Here’s the cover:
@@ -30,6 +28,3 @@ Speaking of the design though – the book, [the website](http://www.dictionarys
 In fact I wish there was something to criticize about Jez’s book but I find myself only complimenting it the more I try to find something questionable. It’s like reading a Wodehouse novel where all of a sudden you remember what language is capable of and what we all should aspire to.
 
 In short, you’ll find yourself laughing at the punchlines and shuddering at the break-ups in _Dictionary Stories_, and you’ll finish the book wondering what other stories you might find in unlikely places.
-
-Until next time! <br>
-✌️Robin

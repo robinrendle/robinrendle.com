@@ -3,8 +3,6 @@ title: Wild and Kinder Things
 date: 2018-02-19
 ---
 
-Friends!
-
 Every so often I stumble upon a typeface that draws a loud and cartoonish gasp of excitement from me. It’s the sort of typeface that happens to be so weird that I spend hours scanning each and every letter and it’s the sort where I’ll keep finding something new that jolts me awake as if I’ve drunk one too many pints of coffee.
 
 Whilst I’m staring at this typeface all of its unexpected curves are teaching me something new. It’s teaching me all about graphical space and how to arrange it properly – how websites and books can be divided and then subdivided, how large blocks of text can best be shaped to attract and hold someone’s attention.
@@ -32,6 +30,3 @@ Of course I love that idea – of “generously imagining” the person that we�
 However, I also like Anouk because the K is just cute as all heck, too.
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/109ef9aa-5507-4d98-8b18-68e176c3c250.png)
-
-Until next time! <br />
-✌️ Robin

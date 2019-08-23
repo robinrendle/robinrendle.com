@@ -3,8 +3,6 @@ title: IBM Plex
 date: 2018-11-21
 ---
 
-Friends!
-
 Let’s take a look at [Plex](https://www.ibm.com/plex/), a new-ish type family by IBM that’s interesting for a host of reasons. The type specimen and website is the first thing to notice as it explores the abundance of styles which include mono, sans, and serif variants – but it does so in a rather bombastic and flashy way:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/637a563c-1cfc-4c4e-ae8e-5d1169fc181d.png)
@@ -40,6 +38,3 @@ Plex Mono Italic’s f appears out of a dimension of it’s own though and doesn
 Huh? Wah? Yikes! I love all these letters and I can’t wait to explore them in a project of my own. There’s so many details and curiosities to be found, it only requires us to look closely and to have a little patience.
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/ba9bccb9-325e-4385-9b16-a46ed90423f7.png)
-
-Until next time! <br>
-✌️Robin

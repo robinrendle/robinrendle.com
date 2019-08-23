@@ -3,8 +3,6 @@ title: Flexible Typesetting
 date: 2018-09-01
 ---
 
-Friends!
-
 Genuine enthusiasm is hard to come by but especially when it comes to the web. As I sit here in this fabulously raucous café though, reading a real-life book about the web, I find myself cheering quietly to myself. And I can’t stop smiling.
 
 I’m reading Tim Brown’s [_Flexible Typesetting_](https://abookapart.com/products/flexible-typesetting) and I realize it should be the textbook definition for the word _enthusiasm_ itself. And it’s one of those rare examples of a book that’s overwhelmingly charming from start to finish. In fact it’s the sort of book that reminds you that the web is a precious thing worth building, and that the web is, and can still be, ours for the making.
@@ -28,6 +26,3 @@ Or, as Tim puts it rather more succinctly:
 > The better you know your text, the better your typesetting will be.
 
 So! I would highly recommend that you go and pick up your own copy of the book as there’s a lot of interesting information in there around how to build outstanding, resilient, and wondrously typographic interfaces for the web.
-
-Until next week! <br>
-✌️ Robin

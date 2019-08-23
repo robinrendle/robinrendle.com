@@ -40,6 +40,3 @@ These maps don’t draw the world so much as shape it from the ground up.
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/4701898a-dfab-478a-85e9-7b631dba634a.jpg)
 
 All of this is to say that the next time the San Francisco Map Fair rolls into town you should find yourself the nerdiest friend you have and drag them along. Because you’ll both walk out of there with the biggest smiles and perilously empty bank accounts.
-
-Until next time! <br>
-✌️ Robin

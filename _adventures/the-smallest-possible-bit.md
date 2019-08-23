@@ -3,8 +3,6 @@ title: The Smallest Possible Bit
 date: 2018-12-28
 ---
 
-Friends!
-
 I received this email the other day that brings up a thoroughly interesting question about typesetting and I reckon it would be neat to reply in public so that we can all talk about this stuff together:
 
 <br />
@@ -110,9 +108,3 @@ Side note: you can often tell when a design team picked a display typeface first
 Ultimately though I think the reason why typography is hard and/or badly done is because we forget about the text. We forget what the text really sounds like and we try to force our aesthetics on a thing instead of trying to solve a problem. And so Stuck on a Good Typeface I would ask whether you’re just trying to have fun or whether you’re trying to solve a problem. If you’re having trouble picking a typeface it’s probably just because you don’t understand the problem that you want these tools to solve.
 
 If you’re stuck then perhaps starting from scratch will help. But I promise that if you figure out the smallest possible bit first and work your way up from there then things will be much easier in the long run.
-
-Until next time! <br />
-✌️ Robin
-
-<br />
-<br />

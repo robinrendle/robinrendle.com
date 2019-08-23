@@ -3,8 +3,6 @@ title: Working in Public
 date: 2018-10-14
 ---
 
-Pals!
-
 I’ve been thinking a lot about [Future Fonts](https://www.futurefonts.xyz/browse) lately for some reason. If you’re unfamiliar, that’s the typeface shop that opened up about eight months ago. I think my fascination stems from the constant stream of updates I’m seeing from folks publishing their fonts on that platform and the wild contrast in visual styles between them.
 
 There’s something about looking at a type family and seeing that it’s at `VERSION 0.1` that feels very punk rock to me.
@@ -44,6 +42,3 @@ Typefaces like Cheee show that variable fonts are not only limited to width and 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/4d7e44f9-3a62-4c35-b896-42a0c232f67d.gif)
 
 I find all of this stuff thoroughly exciting; the working in public and demystification of type design, the open conversations with customers, and the fantastical and peculiar options that are now available to use via improvements to the OpenType font format.
-
-Until next week! <br>
-✌️ Robin

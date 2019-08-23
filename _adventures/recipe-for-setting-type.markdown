@@ -5,7 +5,7 @@ Country: CA
 City: San Francisco
 ---
 
-I’m thinking of a simple set of instructions, like a guidebook or an illustration, that details how to make a website with accessible and engaging typography. I’m thinking beyond tips or tricks such as “use this typeface,” instead I want something along the lines of a cook book: *‘Here are the ingredients you need’* says the chef, ‘*but feel free to experiment and learn with these rules in mind.*’
+I’m thinking of a simple set of instructions, like a guidebook or an illustration, that details how to make a website with accessible and engaging typography. I’m thinking beyond tips or tricks such as “use this typeface,” instead I want something along the lines of a cook book: _‘Here are the ingredients you need’_ says the chef, ‘_but feel free to experiment and learn with these rules in mind._’
 
 So, what would a recipe for good typography on the web look like?
 
@@ -13,14 +13,13 @@ The answer to that question is always going to be a rather complex and long-wind
 
 We can argue about which typeface might be the best in this case or that, yet for a while now I’ve believed that discussions involving the correct mixture of these three ingredients are far more lucrative and useful for the reader.
 
-On this note, [Tim Brown](https://twitter.com/nicewebtype) mentioned a while back that in web typography there can be a certain amount of *pressure* applied to a block of text for various reasons. For example, the width of a component will change due to the width of the viewport or device, however the other properties, such as line-height and font-size, can’t really adapt to this change without requiring us to write a lot more CSS.
+On this note, [Tim Brown](https://twitter.com/nicewebtype) mentioned a while back that in web typography there can be a certain amount of _pressure_ applied to a block of text for various reasons. For example, the width of a component will change due to the width of the viewport or device, however the other properties, such as line-height and font-size, can’t really adapt to this change without requiring us to write a lot more CSS.
 
 There’s a natural bond here, between these relationships, that’s mostly being ignored when it comes to web development and I think the difficulty lies in the design of CSS itself. Since we don’t have [element queries](https://www.smashingmagazine.com/2013/06/media-queries-are-not-the-answer-element-query-polyfill/) just yet we have to sort of guess which is the least-worst combination of these three properties or we have to customise each element by hand, with a million media queries inside to help us ease that pressure.
 
 But now that an interest in responsive typography has serious traction in the community with variable fonts, I’d like to see a simpler approach to ensuring that this relationship isn’t ever under too much pressure.
 
 Anyway, that’s what I’ve been thinking for the last week as I design a new typography framework for our team: how do I make that relationship obvious and easy to apply to a specific view? How can we ensure a clear system in CSS that provides just enough flexibility without being too demanding and obtuse for everyone?
-
 
 ## New Type Releases
 
@@ -38,7 +37,7 @@ This work is the result of years of careful research into setting type for small
 
 And, as [Tim described in more detail](http://blog.typekit.com/2016/10/05/retina-from-frere-jones-type-available-to-host-on-typekit/), Retina can now be licensed for use with Typekit, too. More on this in a bit.
 
-***
+---
 
 A couple of weeks ago there was an awful lot of talk about [Noto](https://fonts.google.com/specimen/Noto+Sans) and its companion [Noto Serif](https://fonts.google.com/specimen/Noto+Serif). This is an ongoing project by both Monotype and Google, but on the surface of things not much seems to be going on in terms of pure eye-candy:
 
@@ -60,7 +59,7 @@ The team made a cute video that describes the design process and challenges that
     <iframe class="preserve-aspect__element" src="https://player.vimeo.com/video/185700918" frameborder="0" allowfullscreen></iframe>
 </div>
 
-***
+---
 
 The Department of Typography and Graphic Communication at the University of Reading has updated their website with [work from the type design class of 2016](http://typefacedesign.net/typefaces/year/2016/) and oh boy oh boy oh boy.
 
@@ -75,14 +74,12 @@ Above: Ikkat by Rob Pratley
 
 Look at the italics of [Byron](http://typefacedesign.net/typefaces/year/2016/byron/) or [Marjolein](http://typefacedesign.net/typefaces/year/2016/marjolein/):
 
-
 <figure>
   <img src='/uploads/Byron8-1024x1024.png'>
 <figcaption>
 Above: Byron by Gor Jihanian
 </figcaption>
 </figure>
-
 
 Or gasp and wonder at the Arabic glyphs of [Labiba](http://typefacedesign.net/typefaces/year/2016/dialogue/) and [Jali](http://typefacedesign.net/typefaces/year/2016/jali/). Or take a look at the Greek forms in [Amikal](http://typefacedesign.net/typefaces/year/2016/amikal/), the Latin, Sinhala and Tamil shapes in [Maname](http://typefacedesign.net/typefaces/year/2016/maname/):
 
@@ -91,7 +88,7 @@ Or gasp and wonder at the Arabic glyphs of [Labiba](http://typefacedesign.net/ty
   <figcaption>Above: Maname by Pathum Egodawatta</figcaption>
 </figure>
 
-***
+---
 
 Over on the TypeNetwork, Victoria Rushton just published [Embury Text](https://store.typenetwork.com/foundry/victoriarushton/fonts/embury-text), which is a beautiful text face:
 
@@ -121,7 +118,7 @@ In a wonderful [write up about her process](http://victoriarushton.typenetwork.c
 
 I can’t wait to use Embury in an upcoming project.
 
-***
+---
 
 I’m not sure if this is a recent release, but OhNo Type has published [Vulf Mono](http://www.ohnotype.co/product/vulf-mono), designed specifically for the band [Vulfpeck](http://vulfpeck.com/).
 
@@ -133,7 +130,7 @@ The designer James Edmondson wrote about the story behind the type family and [t
 
 As a side note, I kinda think of Vulf Mono as [Nitti’s](https://www.boldmonday.com/typeface/nitti/) cooler, weirder step brother.
 
-***
+---
 
 The Commercial Type foundry published [Robinson](https://commercialtype.com/catalog/robinson/) by Greg Gazdowicz and I particularly adore the italics:
 
@@ -143,20 +140,19 @@ From the specimen page:
 
 > Robinson is evocative of American book cover lettering from the middle of the 20th century while feeling cleanly contemporary. The romans are plainspoken, with proportions more typical of a grotesque than written forms. The italics show a more explicit connection to calligraphy, but have the same dry and stripped down approach to details seen in the romans.
 
-***
+---
 
 [Sharp Grotesk](https://sharptype.co/typefaces/sharp-grotesk/) by the [Sharp Type](https://sharptype.co/about-us/) foundry was released a couple of weeks ago and it’s just as loud and boisterous as a grotesk ought to be, full of bold forms with a striking lack of white space between each character:
 
 ![Screenshot 2016-11-05 16.16.36.png](/uploads/Screenshot%202016-11-05%2016.16.36.png)
 
-***
+---
 
 Speaking of grotesks, the website for the [GT America typeface](http://gt-america.com/) is one of the most beautiful type specimens I’ve ever seen. In fact, it’s such a good website that it’s a little difficult to appreciate the type it’s trying to sell.
 
 ![Screenshot 2016-11-05 16.25.01.png](/uploads/Screenshot%202016-11-05%2016.25.01.png)
 
-
-***
+---
 
 R-Typography, the type foundry by Rui Abreu, released [Pathos](http://r-typography.com/12_pathos/):
 
@@ -164,7 +160,7 @@ R-Typography, the type foundry by Rui Abreu, released [Pathos](http://r-typograp
 
 ![Screenshot 2016-11-05 16.33.37.png](/uploads/Screenshot%202016-11-05%2016.33.37.png)
 
-***
+---
 
 In early October Hoefler & Co. announced [Chronicle Hairline](http://www.typography.com/blog/introducing-chronicle-hairline):
 
@@ -172,7 +168,7 @@ In early October Hoefler & Co. announced [Chronicle Hairline](http://www.typogra
 
 ![chronicle_hairline_specimen4.png](/uploads/chronicle_hairline_specimen4.png)
 
-***
+---
 
 And last but not least, type designer CJ Dunn released [Dunbar](http://cjtype.com/dunbar/), a geometric sans. It comes in two styles: Tall and Low, with the height of the descenders changing in relation to the capital letters depending on your needs:
 
@@ -190,7 +186,7 @@ Typekit announced the [Typekit Marketplace](https://typekit.com/marketplace), an
 
 There’s already a lot of great foundries on board, such as Frere Jones, Type Together, and Dalton Maag. The team also made some cool [promotional videos](https://www.youtube.com/channel/UCmmwb1v48LX3TAKbE6QRExg) that interview the foundries that have signed up so far.
 
-***
+---
 
 Myles Maxfield wrote about variable fonts on the web for the Webkit blog:
 
@@ -200,13 +196,10 @@ One thing to note here: I find it terribly exciting that web designers might not
 
 ## Letter of the Week
 
-[Escrow Display’s](https://store.typenetwork.com/foundry/fontbureau/series/escrow) lowercase *x* caught my eye this week:
+[Escrow Display’s](https://store.typenetwork.com/foundry/fontbureau/series/escrow) lowercase _x_ caught my eye this week:
 
 ![x](/uploads/x.png)
 
 In fact, the whole family of upper case characters are delightful, oozing with charm and finesse:
 
 ![escrow](/uploads/escrow.png)
-
-<p>Until next time!
-<br>✌️ Robin</p>

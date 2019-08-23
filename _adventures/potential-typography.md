@@ -28,6 +28,3 @@ But anyway, here’s an even more off-topic and fragile connection between what 
 Yet there’s potential here. This new typography might be unlike any other, with rules and constraints that we must find.
 
 And then, of course, break.
-
-Until next time! <br>
-✌️ Robin

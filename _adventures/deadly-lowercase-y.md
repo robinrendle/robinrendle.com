@@ -3,8 +3,6 @@ title: A Deadly Lowercase y
 date: 2018-03-31
 ---
 
-Type pals!
-
 Last week [Jason Pamental](https://twitter.com/jpamental) shared a link to [Bona Nova](https://typography.guru/list/best-freeware-fonts/bona-nova/) which is a revival typeface of the serif persuasion and it’s designed by Mateusz Machalski. This specimen of Bona Nova is particularly lovely for so many reasons:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/05b2c354-e167-43ff-bec6-25dea4a34799.gif)
@@ -26,7 +24,3 @@ I don’t think these shapes _should_ work together but somehow, impossibly, the
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/1c52aefa-41a9-453f-a5b1-0d6ed37ed72e.png)
 
 My favorite of course is that lowercase y. Just...gee whiz. The way that the lower half is slightly rounded if you look closely, the way that left side is much thicker than the right, and the corners! How do those shapes work with the curvy, borderline-elegant comma that follows it? I have no clue. But it certainly does.
-
-Anyway, until next week!
-
-✌️ Robin

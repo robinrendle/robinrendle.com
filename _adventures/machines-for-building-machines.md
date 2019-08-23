@@ -3,8 +3,6 @@ title: Machines for Building Machines
 date: 2018-08-26
 ---
 
-Friends!
-
 If you’re unfamiliar with [Framer X](https://framer.com/x) then at first glance it might look like a design tool you’ve already seen before; there’s a side bar and a space for drawing rectangles, there’s a pen for drawing shapes and, besides it looking a little more futuristic than [Sketch](https://www.sketchapp.com/) or [Figma](http://figma.com/), there’s nothing immediately life changing about it.
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/91c55600-79f2-4ac4-aa52-8ab2242430e9.png)
@@ -28,6 +26,3 @@ I think it’s important to see Framer as less like Sketch or Figma then and som
 That’s because Framer X doesn’t leave you stranded and limited to a static representation of your idea. Instead, you’ll find yourself sitting in front of a rogue-like videogame where you can connect all these simple parts together and make something much more complex.
 
 Framer X is not a design tool then. It’s a machine for building machines. And so of course I’m horribly excited to experiment with the beta for now and can’t wait for the general release soon.
-
-Until next time! <br>
-✌️ Robin

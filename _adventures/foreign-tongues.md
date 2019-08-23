@@ -3,8 +3,6 @@ title: The Secretary of Foreign Tongues
 date: 2018-05-20
 ---
 
-Friends!
-
 I’m not sure if you have a favorite passage in the English language but I most certainly do, and it’s really the only parlor trick that I know. At a moment’s notice I can recite this bit of text and immediately become an unbearable 17th century Duke:
 
 > Thoughts, whither have ye led me, with what sweet<br>
@@ -40,7 +38,3 @@ It wasn’t until much later that I found a copy of the book that was, not only 
 But really the whole point of the talk boiled down to this: that we should care more about the text than anything else because words are capable of so much more if we spend a bit of time with them.
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/ef2f058b-4e29-414b-a93d-0277d27a8ceb.jpeg)
-
-<br>
-Until next time! <br>
-✌️ Robin

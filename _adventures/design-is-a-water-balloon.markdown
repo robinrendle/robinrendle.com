@@ -120,6 +120,3 @@ City: San Francisco
 <p>I find that these weird upturned right legs of Clarendon-esque ‘R’s make it ugly for word shapes in general but for standalone letters they are a thing of pure beauty.</p>
 
 <p>Oh, on a final note, and speaking of beautiful letters, Elizabeth Carey Smith made <a href="https://twitter.com/theoriginalecs/status/747791903748399105">the call</a> for a fine looking capital ‘X’ and many type designers replied with their favourites.<br>
-<br>
-Until next time!<br>
-— ✌️ Robin</p>

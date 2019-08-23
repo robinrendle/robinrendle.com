@@ -3,8 +3,6 @@ title: Cool Gray City of Type
 date: 2018-11-24
 ---
 
-Type pals! Friends!
-
 I’m reading Gary Kamiya’s _Cool Gray City of Love_ this week which is all about San Francisco and it’s history, architecture, culture, and people. I’ve been wanting to read it for quite some time and so the long weekend gave me a chance to finally sit down and drink it all in. I’d certainly recommend it too, as Gary writes thoroughly lovely stuff like this throughout the whole book:
 
 > San Francisco is famous for its natural beauty. But to call its beauty “natural” is slightly misleading. For aside from the cliffs at Lands End (which are actually covered with introduced trees), Glen Canyon, and a few other places, its beauty does not derive from nature in its pure state. The paradoxical truth is that before the city existed, its terrain was not particularly beautiful. Covered in sand dunes and with scant trees, it was a monotonous, even dreary landscape, largely devoid of color and contrast. Heretical as it is to say, much of San Francisco’s terrain became more attractive when the city was built. San Francisco is the urban equivalent of an English garden, an artful blend of wildness and cultivation.
@@ -52,10 +50,3 @@ The text would be a mix between the slow, patient waddling of [The Futures of Ty
 It would be a book would be filled with interviews and rambling trips across the Bay Area where I’d try to figure out what makes San Francisco special. I’d split the chapters into the separate regions of the city and look at the neon signs of the Tenderloin, the hand lettering of Chinatown, the house numbers of Noe Valley, and the hectic, bizarre and hand-painted signs of the Mission.
 
 Anyway, I think that’s what Adventures and my blog has always been really; it’s an excuse to, in a rather roundabout sort of way, slowly write a bookish thing.
-
-Until next time! <br>
-✌️ Robin
-
-<br>
-<br>
-<br>

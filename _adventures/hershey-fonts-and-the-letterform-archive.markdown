@@ -122,6 +122,3 @@ Klim Type released two new faces in the same family: Financier <a href="https://
 
 <img class="tl-email-image" data-id="917717" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/fd206d77-2a31-49f4-86c1-68f77aa1bf12.jpg">
 <p>It is perhaps the greatest crime to have been committed in the history of typography.</p>
-
-<p>Until next time!<br>
-—✌️ Robin </p>

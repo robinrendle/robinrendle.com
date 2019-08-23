@@ -3,8 +3,6 @@ title: Ghost Town
 date: 2018-09-15
 ---
 
-Nerds!
-
 Portland is a ghost town. Although the city isn’t deserted, you can find ghosts hidden amongst the buildings, layered on surfaces of every kind, littering the city streets.
 
 Last week I was in Portland for [XOXO](https://2018.xoxofest.com/) and no matter where I turned I found myself haunted by old street signs and giant banners that were fading into the background of a modern city landscape. A landscape where big and beautiful letters are almost entirely forbidden.
@@ -26,6 +24,3 @@ Also! The neon sign for this building is #%\$@\*&:
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/ccf62ef6-9179-4a1e-a262-a14bf09a12e2.jpg)
 
 See how those letters get smaller towards the bottom of the sign? It’s so absurdly adorable to me. I really should have returned to see this thing all lit up at night huh.
-
-Until next time! <br>
-✌️ Robin

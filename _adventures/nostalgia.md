@@ -3,8 +3,6 @@ title: Nostalgia
 date: 2018-03-10
 ---
 
-Pals! Comrades! Big Serif Friends!
-
 Whenever I look at serifs of a certain kind I see them all as children of an era. Take, for example, the big chunky serifs that were popular for a flash in the 70s – a ton of popular letterforms back then chose big, chunky terminals and descenders to punctuate their style. And these letters were used so heavily in that period that now whenever I see anything even remotely like it I see a hint of nostalgia in them.
 
 The rebranding of Mailchimp is one example that uses a typeface of this kind, the Cooper type family:
@@ -36,6 +34,3 @@ Even though I get a strong fuzzy feeling whenever I look at serifs like this I c
 Anyway, I find it super interesting that trends like these come in waves. I assume we’ll have a couple of years of these thick, high contrasted and weird serifs again until someone will have the bright idea to – gasp! – use a lightweight sans for a clean and more modern look. I guess it’s up to us this time though not to reinforce all those batshit insane stereotypes that typesetters and designers of the past did – and still do – today. It’s an important lesson that although typography is a wonderful art, it can be used in devious and awful ways. Typesetting can exclude people, split people up.
 
 I guess my point is that it’s our responsibility to take these old letters and do something kind with them.
-
-Until next time! <br/>
-✌️ Robin

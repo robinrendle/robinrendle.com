@@ -3,8 +3,6 @@ title: The Victorian Internet
 date: 2018-12-05
 ---
 
-Friends!
-
 This week I’ve been entirely obsessed with _The Victorian Internet_ by Tom Standage where he traces the history of the telegraph; from the laying of the Transatlantic submarine cables, to the tales of fraudsters that used the telegraph to find their marks, to those that used this budding technology to find the person they’d soon marry.
 
 There’s so many exciting moments in this book that it’s difficult to contain my excitement. For example, Standage notes how the technology was ignored for many painful years and yet there was this moment in time when the idea suddenly clicked and the telegraph became essential:
@@ -41,6 +39,3 @@ And here’s Text:
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/c8e98546-78d0-4854-b5e9-0bd37c7bc8bf.png)
 
 I’m always impressed by [the little blog posts](https://klim.co.nz/blog/heldane-design-information/) that Klim publishes and the sheer restraint of the type specimens. You can tell that it’s from Kris Sowersby when there’s not a hint of color anywhere to be found. Also? The small caps are a pure wonder.
-
-Until next time! <br/>
-✌️ Robin

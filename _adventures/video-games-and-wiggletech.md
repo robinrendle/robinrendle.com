@@ -3,8 +3,6 @@ title: Videogames and WiggleTech™️
 date: 2018-07-05
 ---
 
-Friends!
-
 This weekend will be the first lazy one I’ve had in quite a while. There’ll be no rushing about sorting out my visa or flying across large bodies of water or working into the middle of the night on a side project. All I have to do for the next couple of days is drink an inhumane amount of coffee, type up a few notes that have been drifting about in my noggin’, and catch up on my backlog of video games.
 
 One of those games I’ve returned to this weekend is [Celeste](http://www.celestegame.com/) – it’s a wonderful platformer from early 2018 and I could write endlessly about the difficulty of the game or its dialogue (which is perhaps the best of any game in recent memory). The entire game oozes with brilliant design, animations, and something else that I didn’t expect going in: _weird_ typography.
@@ -39,6 +37,3 @@ Okay, well, maybe there’s such a thing as too much experimentation.
 <br/>
 <br/>
 <br/>
-
-Until next time!<br/>
-✌️ Robin

@@ -121,5 +121,3 @@ Anyway, it’s important to remember that&nbsp;the trick to reading a post on Fo
 <img class="tl-email-image" data-id="942441" height="480" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/8e70e735-c54e-49ee-b80a-5e4e89fc870c.png" style="width: 640px; max-width: 640px;" width="640"><br>
 Toshi called this prototype typeface Cowhand, and I don’t think it’s been&nbsp;released yet, but I can’t stop staring at the regular widths and daydreaming about how I might use it for the future.<br>
 <br>
-<p>Until next time!<br>
-✌️ Robin</p>

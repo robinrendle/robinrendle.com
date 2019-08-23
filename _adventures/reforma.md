@@ -3,8 +3,6 @@ title: Reforma
 date: 2018-06-09
 ---
 
-Type pals!
-
 If ever there was an award for the type foundry with the best italics then Pampatype would be amongst the front runners. It might come as no surprise then that when I stumbled over a piece they’d written about a new type family designed for Argentina’s Universidad Nacional de Córdoba called [Reforma](https://pampatype.com/blog/reforma) (which is simply beautiful in every which way) I was especially excited to see the italics:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/7942a6b2-4371-4835-9e2e-4f67be20e62a.png)
@@ -41,6 +39,3 @@ Anyway! I ramble. The reason why I bring it up is because the cover has this rat
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/c31e3258-1e17-4735-bd6c-3e8d1b0e276c.jpg)
 
 Check out those two capital A variants! And the H! The H!
-
-Anyway – until next time,<br>
-✌️Robin

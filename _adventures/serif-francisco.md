@@ -32,7 +32,3 @@ Also this sturdy-lookin’ serif is clearly great for tables and other more data
 I think what I adore most about all this though is the [Foster Type](https://www.fostertype.com) website itself. It’s one of those sites where the UI and information is so well organized I can already feel myself hunkering down into it like an old and comfy chair:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/51aa783a-d7cc-4507-8554-8abb68c4fd9b.png)
-
-Anyway, I hope you all have a lovely week.
-
-✌️ Robin

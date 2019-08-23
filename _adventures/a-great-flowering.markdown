@@ -185,6 +185,3 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
 <figure>
     <img class="tl-email-image" data-id="1051513" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6647ead7-0e67-46ce-8128-0cfd44086e89.png">
 </figure>
-
-<p>Until next time!<br/>
-✌️ Robin</p>

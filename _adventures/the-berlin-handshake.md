@@ -3,8 +3,6 @@ title: The Berlin Handshake
 date: 2019-04-04
 ---
 
-Friends!
-
 In Salman Rushdie’s luminous and musical novel _The Ground Beneath Her Feet_, our protagonist Ormus Cama is standing in a Bombay record store. He is seventeen years old and he has just met someone who will change his life forever, his future collaborator Vina Apsara. In a few short years he will ascend with her into unparalleled stardom when they move to England together and become the most famous musical act the world has ever seen.
 
 But today they are looking at records and a new song starts playing over the store radio: _I Want to Hold Your Hand_ by The Beatles. Ormus is upbeat and charming until he hears the song and then immediately throws his hands up in the air and starts pacing around the store in anger whilst Vina asks what’s wrong.
@@ -62,6 +60,3 @@ Now I feel quite differently though. It would have taken half a minute to put th
 And so this handshake that never happened is perhaps one of the few important moments in my life. It showed me that no matter how many typefaces you happen to steal from that creative realm and no matter how talented or skilled you are, it’s not possible to steal the qualities of kindness or grace. You have to work at it independently to become a good person, to learn to care for others as much as yourself.
 
 And I also learnt that there’s always time for a handshake or a high five.
-
-Until next time! <br />
-✌️ Robin

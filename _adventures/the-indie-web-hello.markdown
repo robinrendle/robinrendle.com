@@ -72,6 +72,3 @@ City: San Francisco
 <p>
     <img class="tl-email-image" data-id="926953" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/b6e1ab06-acf2-483d-b862-fa5e8b784718.png">
 </p>
-
-<p>Until next time!<br>
-✌️ Robin</p>

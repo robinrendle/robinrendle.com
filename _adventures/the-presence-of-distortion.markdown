@@ -117,6 +117,3 @@ The church can be found&nbsp;in the Main Quadrangle on campus (not to be mistake
 We were instantly drawn to the letters that adorned the walls and columns, although to me these shapes were very unfamiliar characters.&nbsp;As an Englishman, they looked out of place, at least in the context of a church:<br>
 <img class="tl-email-image" data-id="992573" height="480" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/f97c09e4-5f00-49f7-b323-9b91a6b4dac7.jpg" style="width: 640px; max-width: 640px;" width="640"><br>
 The religious sites I’ve visited across Europe have always been adorned with thick, jagged frakturs and mysterious, inky texturas—blackletter forms that survived the weathering of centuries. That’s why the shapes above, although beautiful, seem totally out of whack.&nbsp;But be sure to take note of the leg of the capital R.&nbsp;Weird, huh?<br>
-
-<p>Until next time!</br>
-✌️ <br>Robin</p>

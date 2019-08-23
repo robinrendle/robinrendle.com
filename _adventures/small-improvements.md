@@ -5,8 +5,6 @@ tags:
 extract:
 ---
 
-Friends!
-
 There’s a tendency in web design circles to ditch the old in favor of the new: We’ll blow up the archives! We’ll cut loose all the legacy code! With a little bit of effort our work can feel fresh and exciting again! A new year, a clean slate, a _whole new thing_. Yet the more I work on the web, the more I recognize the benefits of tiny, iterative improvements.
 
 I’ve been thinking about this over the past month or so at [Gusto](https://gusto.com) as I’ve been tidying up _The Guide_ — an internal design tool for the company — and in the introduction I describe it like this:
@@ -44,7 +42,3 @@ David writes about this new typeface (which was published via his most excellent
 Although I’m not a big fan of art deco styled letters in general, there is something glamorous, charming and almost playful about these letters: the ampersand and the letter M are tiny wonders in particular.
 
 <img src='https://image.ibb.co/dgn8sR/Screenshot_2018_01_16_22_56_42.png'>
-
-<br>
-Anyway, until next week! <br>
-✌️ Robin

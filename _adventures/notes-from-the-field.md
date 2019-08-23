@@ -1,9 +1,7 @@
 ---
-title: A New Home
+title: Notes from the Field
 date: 2019-01-26
 ---
-
-Friends!
 
 Whilst many companies herd towards a similar aesthetic—the ever-so-slightly geometric letters and the rather [plain looking grotesques](https://ohnotype.co/blog/everybody-fall-in-line)—there’s something else going on in the typographic community.
 
@@ -60,6 +58,3 @@ A few scenes later Nick is casually talking about why he lives in Brighton, why 
 All of this is to say that Nick Cave writes in a way that makes me mad with jealousy. It’s last-panel-of-a-comic-book-stuff. You the know the sort, where all is lost and the double page spread ends on a note of sadness, but the hero is defiant against all the calamitous tragedies that have led up to this moment.
 
 Our hero has lost and yet they’re still smiling that big, invincible smile.
-
-Until next time! <br>
-✌️ Robin

@@ -3,8 +3,6 @@ title: Let’s talk about fonts
 date: 2018-04-17
 ---
 
-Friends!
-
 This week I’m writing from England where I’m attempting to navigate the American visa application process without collapsing into a giant puddle of anxiety. But after thirty minutes in the embassy and a small, respectful fist bump with one of the security guards last Thursday I now have my visa in hand.
 
 Over the past week I’ve bopped all over the country though; from every square inch of London and up to Peterborough, across and up to Wales (through breathtaking valleys and mountain ranges), and then across to Liverpool (and its wonderful collection of mummies) before heading back to my hometown in the southwest of the country (where I have acquired both Jet Lag and a Big Flu).
@@ -38,6 +36,3 @@ There’s no swagger here – only confidence made up by years of experience wor
 And now they will speak.
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/d54662a1-1a70-4ff5-816a-39fd816692c1.png)
-
-Until next time! <br>
-✌️ Robin
