@@ -25,7 +25,6 @@ In short: Reforma is beautiful and I recommend you [download the typeface](https
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/44060c8c-ac57-4056-a2a6-f3dd65e1994d.png)
 
-<br>
 ## What I’m Reading this Week
 
 I had coffee with an internet friend the other day for the first time and I asked her what she was reading. She immediately started talking about a book set in Texas that she had fallen completely in love with but couldn’t recommend because it was written for people from Texas. There was something that was impossible to translate for anyone else and to be honest I huffed and puffed – what’s so special about Texas I thought.

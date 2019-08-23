@@ -54,7 +54,7 @@
   width: 90%;
   transition: background-color 0.3s ease;
   background-color: white;
-  border: 1px solid var(--secondary-text-color);
+  border: 1px solid #ccc;
   border-right: none;
   outline: none;
   box-shadow: none;
@@ -78,8 +78,8 @@
   width: 30%;
   max-width: 120px;
   transition: background-color 0.3s ease;
-  background-color: #555;
-  color: #eee;
+  background-color: #ddd;
+  color: #222;
   outline: none;
   font-size: 0.75em;
   text-transform: uppercase;
@@ -90,7 +90,7 @@
     outline: none;
     border-right: none;
     border-top: none;
-    background-color: var(--main-theme-color);
+    background-color: darken(#ddd, 10);
   }
 }
 

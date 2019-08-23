@@ -20,6 +20,3 @@ You can see these charming italics much more clearly in a paragraph of text and 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/fb5e56e5-76fd-4f2b-b2a3-84241de7405c.png)
 
 Of course there’s a lot more to look out for in this collection but I’ll let you find those treasures for yourself.
-
-Until next week! <br>
-✌️ Robin

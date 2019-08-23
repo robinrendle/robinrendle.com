@@ -3,8 +3,6 @@ title: California as an Island
 date: 2018-08-04
 ---
 
-Friends!
-
 For a change of pace let’s talk about some real honest-to-goodness fonts, eh? One release that’s worth your attention and one I noticed that made me squeal with excitement was [Acme Gothic](https://www.marksimonson.com/fonts/view/acme-gothic), a new family my Mark Simonson that’s based on the lettering style that was pretty much everywhere in the U.S. in the early 20th century:
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/741b23a7-bb9d-4a6d-ae5f-dc5b2ce4f3d8.gif)
@@ -34,6 +32,3 @@ Here’s a note from the Map and Atlas Museum website that caught my attention a
 > The Museum’s main hall is divided into sections that show maps categorized by Exploration, Colonization, California as an Island and Sea Charts. There are also galleries set aside for maps of Europe, Celestial, Holy Land, Africa and Asia. Display cases in both the main hall and galleries contain many rare atlases by Blaeu, Ortelius, De Wit and others. Here too can be found work by Father Kino, Benjamin Franklin, a beautiful edition of the “Nuremberg Chronicles” and colorful Gold Rush Map by William Jackson.
 
 There is only one thing I can say in response to all this: road trip, anyone?
-
-Until next week!
-<br> ✌️Robin

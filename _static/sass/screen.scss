@@ -469,10 +469,12 @@ img.timeline-img {
   }
 
   h2 {
+    @include typeface("Regular");
     font-weight: 400;
     color: #999;
     margin: 0;
-    font-size: 26px;
+    margin-top: 5px;
+    font-size: 21px;
   }
 }
 
