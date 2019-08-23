@@ -55,7 +55,7 @@ I tackled several front-end design projects in order to improve the reliability 
 
 This refactoring effort took several weeks but resulted in a solid typographic foundation based on some research that I had done in the past [using Sass maps](https://robinrendle.com/notes/typographic-scale-with-sass-maps/). These changes could would then be applied to The Guide, the core Gusto app, and all our internal tools as well. This was only the beginning of these refactoring efforts, as I also refactored our icon system, our color palette, and our illustration system across the product at Gusto.
 
-As I refactored components and improved their accessibility and visual design I would then document how to use them in The Guide so that other designers and engineers could use them in the future:
+As I refactored components and improved their accessibility and visual design we could then document how to use them in The Guide so that other designers and engineers might reference these assets and guidelines in the future:
 
 <div class='side-by-side m-wrapper--full'>
   <div class='side-by-side__child'>
