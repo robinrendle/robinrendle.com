@@ -6,7 +6,7 @@ country: California
 extract: This Memorial weekend I updated this very website to use the static site generator Eleventy and Netlify as the publishing process. Oh boy was it a dream.
 ---
 
-Last weekend, facing a three day break over the Memorial Day weekend, it dawned on me: it was time to redesign this website. Not the visuals or design, as [I don’t believe in redesigning personal websites like that](/notes/blogging-and-atrophy). Instead, I needed to rethink how I publish writing and in the process I wanted to completely overhaul the technical underpinnings of it all.
+Facing a three day break over the Memorial Day weekend, it dawned on me: it was time to redesign this website. Not the visuals or design, as [I don’t believe in redesigning personal websites like that](/notes/blogging-and-atrophy). Instead, I needed to rethink how I publish writing and in the process I wanted to completely overhaul the technical underpinnings of it all.
 
 For the past six years this blog has been a static website (there was a previous version that was in Wordpress but all that code and writing has thankfully been lost to the sands of time). Since then I’ve been using a combination of [Jekyll](https://jekyllrb.com/) and [Siteleaf](https://siteleaf.com) to write content and publish my website. However, Jekyll happens to be very slow – taking what feels like hours to refresh a page when I change any content – and this would always happen to kill the writing spirit. Siteleaf is frustrating too, but in other ways. When I started experimenting with it I loved the UI for its ease of use but these days it feels like a lot more complexity than I really need.
 
@@ -24,13 +24,14 @@ So it was all of this that had swept me off my feet; the goals of the project, t
 
 On a separate note, for a long time I’d been hearing Chris [talk excitedly](https://www.youtube.com/watch?v=grSxHfGoaeg) about [Netlify](https://www.netlify.com/) and how it gives front-end developers super powers. I wondered if it was all too good to be true, but no; all I had to do was hook it up to my GitHub repo, give it a few DNS magic whispers, and that was it! Now whenever I push some code to the `master` branch it will automatically deploy my website via Netlify in just a few minutes. Magic!
 
-## Migrating from Jekyll  
+## Migrating from Jekyll
+
 I looked into how difficult it would be to move over from Jekyll and I remembered Paul Robert Lloyd writing about [how to get started with Eleventy](https://24ways.org/2018/turn-jekyll-up-to-eleventy/). In that post, Paul describes some of the gotchas and for the most part all I had to do was reshuffle a few things. Some [Liquid filters](https://jekyllrb.com/docs/liquid/filters/) weren’t supported but I figured it out eventually. This post about switching [from Jekyll to Eleventy](https://www.webstoemp.com/blog/from-jekyll-to-eleventy/) by Jérôme Coupé was also very useful.
 
 I have a _lot_ of posts, projects, essays, and assets on this here website so I worried that migrating would be a giant pain but it really wasn’t. Even with all the debt that I had encouraged over the years it pretty much took a day of work to tie things together and figure everything out.
 
-
 ## Bash function
+
 The one thing I loved about Siteleaf is that it would automagically create a markdown file and fill it with all the front-matter that’s required for it, like the date, tags, location and what-not. Now that I had removed Siteleaf from my site I wanted to make sure that it was still easy to create a markdown file and start writing without that GUI.
 
 So last night I set up a bash function for the first time. And if you don’t mind me saying so, it’s pretty darn neat as whenever I want to start writing a new blog post I head to the command line and cast the following magic spell:
