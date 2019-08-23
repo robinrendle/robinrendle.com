@@ -1,49 +1,50 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
- <head>
-  <meta charset="utf-8" />
-  <title>{{site.title}} › {{title}}</title>
-  <meta name="author" content="Robin Rendle">
-  <meta name="description" content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books.">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="author" href="https://plus.google.com/+RobinRendle">
-  <!-- Favicons -->
-  <link rel="shortcut icon" href="/images/favicon.png">
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
-  <!-- Styles -->
-  <link rel="stylesheet" type="text/css" href="/css/adventures.css" />
-</head>
- <body class="">
-  <section role="main" class="wrapper cell-t80">
-    <div class="content">
-      <div class="content-box">
-        <div class="m-longform cell-t40 cell-b80 footer__wrapper">
-          <div>
-            <h1>Adventures in Typography</h1>
-            <div class="intro">
-              <p>This weekly newsletter is about, well, typography, yes. But it’s also about publishing and graphic design. It’s about calligraphy and lettering, display type and micro type (and what those words mean). It’s a newsletter for book nerds, typographers, and neon light enthusiasts. Before you sign up though you can read something from <a href="https://buttondown.email/robinrendle/archive">the archive</a> or check out <a href="https://buttondown.email/robinrendle/archive/690a44fd-826b-4fde-b638-4158db890357">a fan favorite</a>.</p>
-            </div>
-            <p class="small">This is a photograph by the Detroit Publishing Company of Woodward Avenue, Detroit, Michigan in 1917.</p>
-          </div>
-          <form
-            class='form'
-            action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-            method="post"
-            target="popupwindow"
-            onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-            class="embeddable-buttondown-form"
-          >
-            <input class='form-input' placeholder='Email' type="email" name="email" required id="bd-email">
-            <label for="bd-email" class='form-label'>Email</label>
-            <input type="hidden" value="1" name="embed"/>
-            <input class='form-submit' type="submit" value="Subscribe" />
-          </form>
-        </div>
+{% include header.html %}
+<section class="m-header m-wrapper">
+  <div class="m-wrapper__content">
+    <header class="article-header">
+      <h1>Adventures in Typography</h1>
+      <h2 class="cell-b20">
+        A newsletter about type, lettering, neon lights, and books.
+      </h2>
+
+      <div class="m-wrapper__side">
+        <form
+          class="form"
+          action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+          class="embeddable-buttondown-form"
+        >
+          <input
+            class="form-input"
+            type="text"
+            name="email"
+            required
+            id="bd-email"
+          />
+          <label for="bd-email" class="form-label">Email</label>
+          <input type="hidden" value="1" name="embed" />
+          <input class="form-submit" type="submit" value="Subscribe" />
+        </form>
       </div>
-    </section>
-    <figure class="display-img">
-      <img src="../images/woodward-avenue.jpg" alt="">
-    </figure>
-  </body>
-</html>
+    </header>
+  </div>
+</section>
+
+<section class="m-wrapper">
+  <div class="m-wrapper__content">
+    <nav class="cell-b30 email">
+      {% for item in collections.adventures reversed %}
+      <a href="{{ item.url }}" class="email-item">
+        {{ item.data.title }}
+        <div class="email-item-time">
+          {{ item.data.date | date: "%b %d, %Y" }}
+        </div>
+      </a>
+      {% endfor %}
+    </nav>
+  </div>
+</section>
+
+{% include footer.html %}

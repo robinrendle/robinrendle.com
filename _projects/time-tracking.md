@@ -45,14 +45,14 @@ This consequently led to our work redesigning Gusto’s employee dashboard (more
 
 The clock-in card would be the most important method for employees to track their time, however we also knew there would be a large number of employees that would retroactively add their hours. This led to hundreds of iterations of what we called the “time tracking table” — a component that would show all the previous days in a pay period and the hours that had been tracked. Whole dang essays could be written about this component alone, but here’s one of the prototypes I made in Codepen (you can even click and hover on the demo below):
 
-<div class="m-wrapper--full cell-b40">
+<div class="m-wrapper--full">
+<div class="cell-b40">
   <p data-height="680" data-theme-id="20935" data-slug-hash="e3760a8df051d4714ab6f54bbf5ceab3" data-default-tab="result" data-user="robinrendle" data-pen-title="Gusto Table Prototype: Future Test (FORK)" class="codepen">See the Pen <a href="https://codepen.io/robinrendle/pen/e3760a8df051d4714ab6f54bbf5ceab3/">Gusto Table Prototype: Future Test (FORK)</a> by Robin Rendle (<a href="https://codepen.io/robinrendle">@robinrendle</a>) on <a href="https://codepen.io">CodePen</a>.</p>
   <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+  </div>
 </div>
 
-<br/>
-
-With the prototype above we could figure out how the animations work as you click on a table row to open it and how to delete or add a block of time that’s associated with a particular day.
+<p>With the prototype above we could figure out how the animations work as you click on a table row to open it and how to delete or add a block of time that’s associated with a particular day.</p>
 
 We knew that this component would also be important for employers or admins of those companies that would need to review and catch any errors that might’ve occurred during the time tracking process.
 

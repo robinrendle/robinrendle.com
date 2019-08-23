@@ -90,6 +90,14 @@ However, by this point only a sliver of the work had been complete since our job
 
 This led to our documentation being more concise and easily understood by our engineering team as they no longer had to learn about the 5 modal components or 6 different types of alerts.
 
+<div class="m-wrapper--full">
+  <figure class="m-wrapper--unpadded">
+    <img src="/images/work/gusto/product-comparison.jpg" alt="Comparing the old and new brand with the Reports page in the app" >
+  </figure>
+</div>
+
+It might not look like much but what this shows is consolidation of a lot of elements under the hood: the typesetting, restrained use of color, the consistentcy of link colors, etc.
+
 ## Project summary
 
 The exciting thing about this project is that it was the first of the newly formed Design Systems team and it was considerably successful:
@@ -102,3 +110,5 @@ The exciting thing about this project is that it was the first of the newly form
   <li>Improved the documentation for engineers and designers</li>
   <li>Built a solid foundation for future design system projects</li>
 </ul>
+
+A while back I also wrote about what this brand refresh means to me and <a href="/notes/the-success-of-many-days">what I learned along the way</a>.

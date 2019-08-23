@@ -10,11 +10,13 @@
     <div class="cell-b30">
       <header class="links">
         <h3 class="h3 u-text--book u-reset-margins">
-          <a href="{{item.url}}">{{item.data.title}}</a>
+          <a href="{{ item.url }}">{{ item.data.title }}</a>
         </h3>
       </header>
 
-      <div class="m-longform"><p>{{item.data.extract}}</p></div>
+      <div class="m-longform">
+        <p>{{ item.data.extract }}</p>
+      </div>
     </div>
     {% endfor %}
   </div>

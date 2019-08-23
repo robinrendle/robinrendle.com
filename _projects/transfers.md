@@ -4,7 +4,7 @@ date: 2018-03-20 17:21:00 -07:00
 subtitle: Improving onboarding at Gusto with a new internal app.
 extract:
   "<p>Gusto is a payroll, benefits and HR platform used by over 65,000 companies.
-  Late last year I was tasked with helping the Transfers team; this is the department
+  In late 2017 I was tasked with helping the Transfers team; this is the department
   that migrates data from a customer’s existing payroll service into Gusto. I designed
   an internal tool that could extract this information as quickly and as accurately
   as possible whilst improving the team’s process along the way.</p>"

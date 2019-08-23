@@ -2,26 +2,26 @@
 
 <div class="m-wrapper">
   <div class="m-wrapper__content">
-    <div class="cell-t40 cell-t60--medium cell-b0">
+    <div class="cell-t40 cell-t60--medium cell-b20">
       <h1>Projects & Work</h1>
     </div>
   </div>
 </div>
 <section class="m-wrapper">
-  <div class="m-wrapper__content cell-b40">
+  <div class="m-wrapper__projects cell-b40">
     {% for item in collections.projects reversed %}
-    <a
-      href="{{ item.url }}"
-      class="project-link block rules--bottom rules rules--light cell-v20"
-    >
-      <h3 class="links h3 u-text--regular u-text--book u-reset-margins">
-        {{ item.data.title }}
-      </h3>
-      <div class="m-longform">
-        <p class="c-grey u-text--regular u-text--book u-reset-margins">
-          {{ item.data.subtitle }}
-        </p>
+    <a href="{{ item.url }}" class="project-link cell-v20">
+      <div>
+        <h3 class="links h3 u-text--regular u-text--book u-reset-margins">
+          {{ item.data.title }}
+        </h3>
+        <div class="m-longform">
+          <p class="c-grey u-text--regular u-text--book u-reset-margins">
+            {{ item.data.subtitle }}
+          </p>
+        </div>
       </div>
+      <p class="meta-info__item u-reset-margins">{{ item.data.dateRange }}</p>
     </a>
     {% endfor %}
   </div>
