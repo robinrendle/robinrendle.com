@@ -27,7 +27,7 @@ In the announcement post, Lizy Gershenzon describes the project like so:
 
 Exciting stuff! And to be quite honest I think this is the most interesting aspect of what’s going on in the world of typography and type design right now – instead of new technology or apps or even the fonts themselves, it’s the new business and publishing models for this work that’s most exciting for sure.
 
-# Letter of the Week
+## Letter of the Week
 
 It’s tough to pick only a single type family or letter from this already impressive vault of typefaces but I think one type family that immediately caught my attention is [Goiters](https://www.futurefonts.xyz/jake-fleming/goiters?tab=notes) – a horrible bodily affliction but a rather great name for a typeface as well – by [Jake Fleming](https://twitter.com/jakeflem?lang=en):
 

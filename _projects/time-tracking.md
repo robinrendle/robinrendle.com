@@ -7,7 +7,7 @@ role: Design and front-end development.
 results: Greatly improves the user experience for hourly employees on Gusto’s platform.
 extract:
   <p>Gusto helps companies manage their payroll, handle employee benefits, and
-  now we’ve just released a brand new feature that lets companies track employee hours. With this feature employers on the Gusto platform have fewer tools and apps to manage things and can get a better overview of their business.</p>
+  now we’ve just released a brand new feature that lets companies track employee hours. With this feature employers on the Gusto platform have fewer tools and apps to manage their business.</p>
 endDate: 12/2018
 company: Gusto
 layout: projects-detail
@@ -16,9 +16,9 @@ heroImage: "/images/portfolio/time-tracking-drawer.jpg"
 
 ## Understanding the problem
 
-Many companies that use Gusto to run payroll have a great number of hourly employees and so after internal research our team discovered that time tracking is a crucial requirement for these companies to easily manage their business.
+Many companies that use Gusto to run payroll have a great number of hourly employees and so after internal research our team discovered that time tracking is a crucial requirement for these companies to easily manage their business. Without time tracking built into Gusto, customers would use a flurry of third party applications and would then need to manually add those hours into Gusto’s web app eventually.
 
-Ideally an employee could easily track their time in the Gusto web app and then their employer could review these hours to make sure they’re correct. After that they’d then need to submit that data so that they could run payroll and pay the employees for the hours they tracked.
+Ideally an employee could easily track their time in the Gusto web app and then their employer could review these hours to make sure they’re correct. After that they’d then need to submit that data so that they could run payroll and pay the employees for the hours they tracked. This would make the lives of employers significantly easier when running payroll and so our job was to make sure that clocking in was as efficient as possible for employees.
 
 ## Exploration and initial ideas
 
@@ -37,13 +37,11 @@ There were a few issues with this original design, the first being that we knew 
   </div>
 </div>
 
-After we prototyped these designs and let real companies test our work we realized it was a far too cumbersome to navigate somewhere because for employees with time tracking enabled it would be the most important thing for them to see as soon as they login to the app.
-
-This consequently led to our work redesigning Gusto’s employee dashboard (more on that in a separate posts).
+After we prototyped these designs and let real companies test our work we found that it was a far too cumbersome to navigate to the `Time Tracking` section of the app. I shortly realized that for employees with time tracking enabled this feature would be the single most important thing for them to see as soon as they logged into the app. This consequently led to our work redesigning Gusto’s employee dashboard.
 
 ## Working with prototypes
 
-The clock-in card would be the most important method for employees to track their time, however we also knew there would be a large number of employees that would retroactively add their hours. This led to hundreds of iterations of what we called the “time tracking table” — a component that would show all the previous days in a pay period and the hours that had been tracked. Whole dang essays could be written about this component alone, but here’s one of the prototypes I made in Codepen (you can even click and hover on the demo below):
+The clock-in card would allow employees to track their time _today_, however we also knew there would be a large number of employees that would retroactively add their hours. This led to hundreds of iterations of what we called the “time tracking table”—a component that would show all the previous days in a pay period and the hours that had been tracked. Whole dang essays could be written about this component alone, but here’s one of the prototypes I made in Codepen (you can even click and hover on the demo below):
 
 <div class="m-wrapper--full">
 <div class="cell-b40">
@@ -52,9 +50,9 @@ The clock-in card would be the most important method for employees to track thei
   </div>
 </div>
 
-<p>With the prototype above we could figure out how the animations work as you click on a table row to open it and how to delete or add a block of time that’s associated with a particular day.</p>
+With the prototype above we could figure out how the animations work as users clicked on a table row to open it and how to delete or add a block of time that’s associated with a particular day.
 
-We knew that this component would also be important for employers or admins of those companies that would need to review and catch any errors that might’ve occurred during the time tracking process.
+We also designed this component so that employers or admins could review tracked hours within this same component and catch any errors that might’ve occurred during the time tracking process.
 
 ## Moving to the design systems team
 

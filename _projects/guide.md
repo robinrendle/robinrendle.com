@@ -34,7 +34,7 @@ So for this project we had several goals:
 
 ## Making a plan
 
-Since there was no project manager or organized effort by the design team it meant that it was my responsibility to come up with a plan to tackle design systems issues at Gusto. So I began by interviewing engineers, project managers, and designers in order to understand what the team was struggling with most. After that I began to make note of upcoming projects and refactoring efforts that would need to take place to best support the team.
+Since there was no project manager or organized effort by the design team it meant that it was my responsibility to come up with a plan to tackle design systems issues at Gusto. So I began by interviewing engineers, project managers, and designers in order to understand what the team was struggling with most. After that I took note of upcoming projects and refactoring efforts that would need to take place to best support the team.
 
 <div class='airtable m-wrapper--full'>
   <figure>

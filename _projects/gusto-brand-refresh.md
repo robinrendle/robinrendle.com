@@ -42,7 +42,7 @@ After organizing things it was clear that we should focus on updating the Compon
 
 Thanks to the old UI Kit we could see everything that we needed to do to break up the new designs and apply them to the components in the Library (one task might involve updating the text weight of component X or the background color of component Z).
 
-However! I also realized early on that this Figma doc would effectively become the second version of UI Kit—as we settled on the design of each component we could create a symbol in Figma and use these colors, type styles, and symbols as the building blocks of the UI Kit. We could effectively kill two birds with one stone.
+However! I also realized early on that this Figma doc would effectively become the second version of UI Kit—as we settled on the design of each component we could create a symbol in Figma and use these colors, type styles, and symbols as the building blocks.
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
@@ -52,7 +52,7 @@ However! I also realized early on that this Figma doc would effectively become t
 
 Designers and engineers could then quickly reference which components and assets exist; from fonts and icons to illustrations and component mockups.
 
-Our goal was to outline how designers and engineers can use these assets to their advantage without having to build new things all the time. And during the brand refresh we made a ton of improvements along the way such as using tabular lining figures in tables to aid legibility or improving color contrast of text elements.
+Our goal was to outline how designers and engineers can use these assets to their advantage without having to build new things all the time. And during the brand refresh we made a ton of improvements along the way such as using tabular lining figures in tables to aid legibility, or improving the color contrast of text elements.
 
 So in Figma we detailed some of these new design improvements, too:
 
@@ -64,9 +64,9 @@ So in Figma we detailed some of these new design improvements, too:
 
 ## Building the components
 
-Just before the brand refresh we had set up our Component Docs to use Styleguidist so that we could see how our React components would be rendered. This let us update a number of components swiftly and predictably throughout every feature in the app.
+Just before the brand refresh we had set up our Component Docs to use [Styleguidist](https://github.com/styleguidist/react-styleguidist) so that we could see how our React components would be rendered. This let us update a number of components swiftly and predictably throughout every feature in the app.
 
-Here’s an example of the Button component:
+Here’s an example of the Button component in our Component Docs:
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
@@ -76,9 +76,9 @@ Here’s an example of the Button component:
 
 Along the way we decided to audit and remove a number of similar components as well as updating the typesetting, colors, and illustrations of these core components. We also had to ensure that any changes we made to the Library wouldn’t break anything in our primary web application.
 
-The real difficulty with this project was that were so many custom components and older parts of the app that were not in React at all and so although many pages would simply inherit styles and components from the Library, we still had to refactor dozens of pages to make sure that they were using the correct components and design patterns.
+That was the real difficulty of this project: there were so many custom components and older parts of the app that were not in React at all and so although many pages would simply inherit styles and components from the Library, we still had to refactor dozens of pages to make sure that they were using the correct components and design patterns.
 
-One of the features we improved was the Payroll flow which allows customers to pay their employees via Gusto and is the most essential feature of the Gusto web app:
+One of the features we improved was the Payroll flow which allows customers to pay their employees and is perhaps the most essential feature of the Gusto web app:
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
@@ -90,17 +90,17 @@ However, by this point only a sliver of the work had been complete since our job
 
 This led to our documentation being more concise and easily understood by our engineering team as they no longer had to learn about the 5 modal components or 6 different types of alerts.
 
+For the Reports page shown below we eliminated inconsistent illustration styles, improved the typographic hierarchy to make the interface more scannable, and updated our `Card` component so that it can be used by any other team at Gusto. Not to mention the fact that we consolidated six different icon styles and updated the color palette along the way. Phew.
+
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
     <img src="/images/work/gusto/product-comparison.jpg" alt="Comparing the old and new brand with the Reports page in the app" >
   </figure>
 </div>
 
-It might not look like much but what this shows is consolidation of a lot of elements under the hood: the typesetting, restrained use of color, the consistentcy of link colors, etc.
-
 ## Project summary
 
-The exciting thing about this project is that it was the first of the newly formed Design Systems team and it was considerably successful:
+The exciting thing about this project is that it was the first of the newly formed Design Systems team and it was considerably successful. A while back I also wrote about what this brand refresh means to me and [what I learned along the way](/notes/the-success-of-many-days), but these are the highlights:
 
 <ul class="solutions-list">
   <li>We met the brand refresh project deadline</li>
@@ -110,5 +110,3 @@ The exciting thing about this project is that it was the first of the newly form
   <li>Improved the documentation for engineers and designers</li>
   <li>Built a solid foundation for future design system projects</li>
 </ul>
-
-A while back I also wrote about what this brand refresh means to me and <a href="/notes/the-success-of-many-days">what I learned along the way</a>.
