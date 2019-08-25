@@ -24,6 +24,6 @@ Owen continues:
 
 > ...I’m worried that these concerns are too late and that the damage AMP has done to the web is already too extensive. As an independent publisher running my own blog outside of this column on OneZero, I can’t avoid AMP, because I’ll be drowned in Google’s opaque search algorithms and ignored entirely by products like Google News.
 
-Here’s my hot take on this: fuck the algorithm, fuck the impressions, and fuck the king. I would rather trade those benefits and burn my website to the ground than be under the boot and heel and of some giant, uncaring corporation.
+Here’s my hot take on this: fuck the algorithm, fuck the impressions, and fuck the king. I would rather trade those benefits and burn my website to the ground than be under the boot and heel of some giant, uncaring corporation.
 
 Because despite what they’d like you to believe, the web is bigger than Google, more important than Google. And we can do better.
