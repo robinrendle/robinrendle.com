@@ -7,7 +7,7 @@ tags: Dave Rupert, kindness
 extract: Dave Rupert on the art of kindness.
 ---
 
-I love this piece by Dave Rupert on videogames and [the art of kindness](). He quotes [a recent interview](https://www.ign.com/articles/2016/06/15/e3-2016-more-cryptic-death-stranding-details-from-kojima) by Hideo Kojima:
+I love this piece by Dave Rupert on videogames and [the art of kindness](https://daverupert.com/2019/08/sticks-and-ropes/). He quotes [a recent interview](https://www.ign.com/articles/2016/06/15/e3-2016-more-cryptic-death-stranding-details-from-kojima) by Hideo Kojima:
 
 > Most of your tools in action games are sticks. You punch or you shoot or you kick. The communication is always through these sticks, I want people to be connected not through sticks, but through what would be the equivalent of ropes
 
