@@ -40,6 +40,16 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, limit);
   });
 
+  const slugify = require("slugify");
+  eleventyConfig.addFilter("slug", input => {
+    const options = {
+      replacement: "-",
+      remove: /[&,+()$~%.’”“‘'":*?<>{}]/g,
+      lower: true
+    };
+    return slugify(input, options);
+  });
+
   ////////////////////////
   // Collections
   ////////////////////////
