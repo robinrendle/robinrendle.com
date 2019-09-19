@@ -14,6 +14,8 @@ The other day I was talking to Jules about the 99% Invisible episode she’d [wr
 
 There are so many things that are resistant to language! And a couple of weeks ago I was in hospital, I had contracted appendicitis, and whilst I was in the ER I was asked how much pain I was in and _wow_. I found that I have no idea how to put my experience on a chart! My pain is...a...6 maybe? Is that too much? Is my 6 someone else’s 4?
 
-This had me thinking about how design systems is resistant to data in a similar way; it’s almost impossible to measure the success or failure of a design system. It’s impossible to say that having seven modal components instead of one is a good idea and it’s impossible to say what effect four different illustration styles is having on your on your design and engineering team. How much does your team need a UI Kit?
+This had me thinking about how design systems is resistant to data in a similar way; it’s almost impossible to measure the success or failure of a design system. It’s impossible to say that having seven modal components instead of one is a good idea and it’s impossible to say what effect four different illustration styles is having on your design and engineering team.
 
-Is that a 6 or a 7?
+How much does your team need a UI Kit? Is that a 6 or a 7?
+
+I reckon all efforts to measure the success of a design system will come up short and are more likely do [harm by measuring them](/notes/against-metrics-how-measuring-performance-by-numbers-backfires). There is no-one that can tell you how bad things are, you just have to be close enough to the code and close enough to the design to feel things out.
