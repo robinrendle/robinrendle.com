@@ -13,22 +13,26 @@ layout: projects-detail
 heroImageClass: no-shadow cell-0
 ---
 
-I decided that my first task was to break down this enormous project into its constituent parts as it was clear that we needed to do a bit of project management up front. For example, we needed to answer a lot of questions:
+<section class="slides__item">
+  <p>My first task was to break down this enormous project into its constituent parts as it was clear that we needed to do a bit of project management up front. For example, we needed to answer a lot of questions:</p>
 
-<ul class="solutions-list">
-  <li>Which components in our library should we refactor?</li>
-  <li>Were there any particularly nasty hacks on top of our components and were there components that we should avoid refactoring entirely?</li>
-  <li>What illustrations did we need to redesign?</li>
-  <li>And which features in the application should we tackle first, and in what order should we tackle them?</li>
-</ul>
+  <ul class="solutions-list">
+    <li>Which components in our library should we refactor?</li>
+    <li>Were there any particularly nasty hacks on top of our components and were there components that we should avoid refactoring entirely?</li>
+    <li>What illustrations did we need to redesign?</li>
+    <li>And which features in the application should we tackle first, and in what order should we tackle them?</li>
+  </ul>
+</section>
 
-I created a Notion doc to organize our thoughts and communicate to other teams about the project, a Figma doc that would contain screenshots of our current UI so that we could discuss how to tackle things, and an Asana board that broke down the project into specific tasks such as `Refactor Button`:
+<section class="slides__item">
+  <p>I created a Notion doc to organize our thoughts and communicate to other teams about the project, a Figma doc that would contain screenshots of our current UI so that we could discuss how to tackle things, and an Asana board that broke down the project into specific tasks such as ‘Refactor Button’:</p>
 
-<div class="m-wrapper--full">
-  <figure class="m-wrapper--unpadded">
-    <img class="chrome-shadow" src="/images/work/gusto/asana-board.png" alt="Our Asana board breaking things down" >
-  </figure>
-</div>
+  <div class="m-wrapper--full">
+    <figure class="m-wrapper--unpadded">
+      <img class="chrome-shadow" src="/images/work/gusto/asana-board.png" alt="Our Asana board breaking things down" >
+    </figure>
+  </div>
+</section>
 
 Our team decided on a lot of process issues right out of the gate: no stand-ups each day, and no pointing of each task. We would just take whatever task was at the top of the pile and tackle it as best as we could, working as [detectives solving a crime](/notes/partners-in-crime). It was wonderful and we were immensely productive because of this.
 
