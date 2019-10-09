@@ -26,7 +26,7 @@ I created a Notion doc to organize our thoughts and communicate to other teams a
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img class="chrome-shadow" src="/images/work/gusto/asana-board.png" alt="Our Asana board breaking things down" >
+    <img loading="lazy" class="chrome-shadow" src="/images/work/gusto/asana-board.png" alt="Our Asana board breaking things down" >
   </figure>
 </div>
 
@@ -36,7 +36,7 @@ After organizing things it was clear that we should focus on updating the Compon
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src="/images/work/gusto/figma-design-process.png" alt="Figma doc comparing the old and new Gusto brand" >
+    <img loading="lazy" src="/images/work/gusto/figma-design-process.png" alt="Figma doc comparing the old and new Gusto brand" >
   </figure>
 </div>
 
@@ -46,7 +46,7 @@ However! I also realized early on that this Figma doc would effectively become t
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img class="chrome-shadow" src="/images/work/gusto/ui-kit.jpg " alt="A screenshot of the Figma UI kit explaining how to use tabular lining figures" />
+    <img loading="lazy" class="chrome-shadow" src="/images/work/gusto/ui-kit.jpg " alt="A screenshot of the Figma UI kit explaining how to use tabular lining figures" />
   </figure>
 </div>
 
@@ -58,7 +58,7 @@ So in Figma we detailed some of these new design improvements, too:
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src="/images/work/gusto/figma-walkthrough.jpg" alt="A screenshot of the Figma UI kit explaining how to use tabular lining figures" >
+    <img loading="lazy" src="/images/work/gusto/figma-walkthrough.jpg" alt="A screenshot of the Figma UI kit explaining how to use tabular lining figures" >
   </figure>
 </div>
 
@@ -70,7 +70,7 @@ Here’s an example of the Button component in our Component Docs:
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img class="chrome-shadow" loading="lazy" src="/images/work/gusto/component-docs.jpg" alt="The Component Docs" >
+    <img loading="lazy" class="chrome-shadow" loading="lazy" src="/images/work/gusto/component-docs.jpg" alt="The Component Docs" >
   </figure>
 </div>
 
@@ -82,7 +82,7 @@ One of the features we improved was the Payroll flow which allows customers to p
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img class="chrome-shadow" src="/images/work/gusto/payroll.jpg" alt="Payroll page in the Gusto web app" >
+    <img loading="lazy" class="chrome-shadow" src="/images/work/gusto/payroll.jpg" alt="Payroll page in the Gusto web app" >
   </figure>
 </div>
 
@@ -94,7 +94,7 @@ For the Reports page shown below we eliminated inconsistent illustration styles,
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src="/images/work/gusto/product-comparison.jpg" alt="Comparing the old and new brand with the Reports page in the app" >
+    <img loading="lazy" src="/images/work/gusto/product-comparison.jpg" alt="Comparing the old and new brand with the Reports page in the app" >
   </figure>
 </div>
 

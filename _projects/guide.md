@@ -38,7 +38,7 @@ Since there was no project manager or organized effort by the design team it mea
 
 <div class='airtable m-wrapper--full'>
   <figure>
-    <img class="chrome-shadow" src="/images/portfolio/airtable.jpg" alt="A screenshot of a spreadsheet that lists all of the upcoming projects for the design systems team" />
+    <img  loading="lazy" class="chrome-shadow" src="/images/portfolio/airtable.jpg" alt="A screenshot of a spreadsheet that lists all of the upcoming projects for the design systems team" />
     <figcaption>
       <p>
          By showing the design team this list of projects I could begin to make the case to hire a senior front-end engineer in order to help me build the design system.
@@ -60,13 +60,13 @@ As I refactored components and improved their accessibility and visual design we
 <div class='side-by-side m-wrapper--full'>
   <div class='side-by-side__child'>
     <figure>
-      <img class="chrome-shadow" src="/images/portfolio/guide-2.jpg" alt="A picture of the Guide, showing all the illustrations that are available" />
+      <img  loading="lazy" class="chrome-shadow" src="/images/portfolio/guide-2.jpg" alt="A picture of the Guide, showing all the illustrations that are available" />
     </figure>
   </div>
 
   <div class='side-by-side__child'>
     <figure>
-      <img class="chrome-shadow" src="/images/portfolio/guide-3.jpg" alt="A picture of the Guide, showing the action components like buttons" />
+      <img loading="lazy" class="chrome-shadow" src="/images/portfolio/guide-3.jpg" alt="A picture of the Guide, showing the action components like buttons" />
     </figure>
   </div>
 </div>
@@ -74,13 +74,13 @@ As I refactored components and improved their accessibility and visual design we
 <div class='side-by-side m-wrapper--full'>
   <div class='side-by-side__child'>
     <figure>
-      <img class="chrome-shadow" src="/images/portfolio/guide-4.jpg" alt="" />
+      <img  loading="lazy" class="chrome-shadow" src="/images/portfolio/guide-4.jpg" alt="" />
     </figure>
   </div>
 
   <div class='side-by-side__child'>
     <figure>
-      <img class="chrome-shadow" src="/images/portfolio/guide-5.jpg" alt="" />
+      <img loading="lazy" class="chrome-shadow" src="/images/portfolio/guide-5.jpg" alt="" />
     </figure>
   </div>
 </div>

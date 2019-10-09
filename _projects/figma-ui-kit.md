@@ -26,7 +26,7 @@ Once I had finished making all of the component symbols I created a sticker shee
 
 <div class='m-wrapper--full'>
   <figure>
-    <img src="/images/portfolio/figma-sticker-sheet.jpg" class="chrome-shadow" />
+    <img loading="lazy" src="/images/portfolio/figma-sticker-sheet.jpg" class="chrome-shadow" />
   </figure>
 </div>
 
@@ -36,7 +36,7 @@ Here’s one example of how a designer could quickly pull in the components that
 
 <div class='m-wrapper--full'>
   <figure>
-    <video class="chrome-shadow" src="/uploads/figma-ui-kit-2.mp4" muted autoplay loop playsinline></video>
+    <video loading="lazy" class="chrome-shadow" src="/uploads/figma-ui-kit-2.mp4" muted autoplay loop playsinline></video>
     <figcaption>
       <p>
          With these new tools in Figma we could quickly make mockups of high-fidelity user interfaces for testing and prototyping.
