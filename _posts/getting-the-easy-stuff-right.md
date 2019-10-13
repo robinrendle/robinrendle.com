@@ -22,6 +22,6 @@ Scott looks at one example where he tried to help someone else on this front in 
 >
 > Getting a good job, working long hours, keeping your skills relevant, navigating the politics of an organization, finding a work/life balance … these are all really hard, xxxx. In contrast, respecting institutions, having manners, demonstrating a level of humility … these are all (relatively) easy. Get the easy stuff right, xxxx. In and of themselves they will not make you successful. However, not possessing them will hold you back, and you will not achieve your potential, which, by virtue of you being admitted to Stern, you must have in spades. It's not too late, xxxx ...
 
-I mention all this because there was a moment in college where I almost dropped out. And I feel that if a lecturer had said something like this to me I would’ve immediately snapped me out of my ennui and confronted just how damn lucky I was to be there.
+I mention all this because there was a moment in college where I almost dropped out. And I feel that if a lecturer had said something like this to me I would’ve immediately snapped out of my ennui and confronted just how damn lucky I was to be there.
 
 I must take more care of the easy things.
