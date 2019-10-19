@@ -45,6 +45,15 @@ $_max-width-wide: 1000;
   }
 }
 
+figure {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+figure.m-wrapper--unpadded {
+  padding: 0 !important;
+}
+
 // This module resets all of the padding of each element so that certain elements can be
 // toggled into fullwidth much easier.
 .m-wrapper--unpadded .m-wrapper__content {
