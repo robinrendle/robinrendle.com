@@ -25,7 +25,7 @@ So, here’s an example of my GitHub dashboard today:
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-<img class="chrome-shadow" alt="A screenshot of my GitHub dashboard" src="../uploads/github-redesign-before.jpg" />
+<img class="chrome-shadow" alt="A screenshot of my GitHub dashboard" src="../uploads/github-redesign-before.jpg" loading="lazy" />
 </figure>
 </div>
 
@@ -46,7 +46,7 @@ After thinking about it for a while, I realized issues #1 and #2 above can be so
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-<img class="chrome-shadow" alt="A screenshot of my GitHub dashboard redesign" src="../uploads/github-redesign-after.jpg" />
+<img class="chrome-shadow" alt="A screenshot of my GitHub dashboard redesign" src="../uploads/github-redesign-after.jpg" loading="lazy"/>
 </figure>
 </div>
 
