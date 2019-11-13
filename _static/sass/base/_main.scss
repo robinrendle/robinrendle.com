@@ -6,28 +6,28 @@
 //
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	overflow-y: scroll;
-	height: 100%;
-	-webkit-text-size-adjust: 100%;
-	background-color: var(--main-theme-color);
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--main-theme-color);
 }
 
 body {
-	font: 400 110%;
-	@include typeface("Regular");
-	line-height: 1.4;
-	background-color: var(--background-color);
-	color: var(--main-text-color);
-	font-feature-settings: "liga" 1 !important;
-	min-height: 100%;
+  font: 400 110%;
+  @include typeface("Regular");
+  line-height: 1.4;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-feature-settings: "liga" 1 !important;
+  min-height: 100%;
 
-	@include media(">large") {
-		border-top: none;
-	}
+  @include media(">large") {
+    border-top: none;
+  }
 }
 
 // sticky footer styles
@@ -38,8 +38,8 @@ body {
 }
 
 cite {
-	@include typeface("Regular italic");
-	font-style: normal;
+  @include typeface("Regular italic");
+  font-style: normal;
 }
 
 em,
@@ -48,40 +48,46 @@ dfn,
 i,
 q,
 .italic {
-	@include typeface("Regular italic");
+  @include typeface("Regular italic");
 }
 
 mark {
-	background-color: rgb(255, 220, 0);
-	background-color: rgba(255, 220, 0, 0.3);
-	font-weight: normal;
-	color: #444;
+  background-color: rgb(255, 220, 0);
+  background-color: rgba(255, 220, 0, 0.3);
+  font-weight: normal;
+  color: #444;
 }
 
 .caps,
 abbr {
-	@include typeface("Small caps");
+  @include typeface("Small caps");
 }
 
 abbr,
 abbr[title] {
-	border: none;
-	text-decoration: none;
+  border: none;
+  text-decoration: none;
 }
 
 b,
 strong {
-	@include typeface("Book");
+  @include typeface("Book");
 }
 
 acronym {
-	text-transform: normal;
+  text-transform: normal;
 }
 
 iframe {
-	margin: 0 auto !important; // centers tweets
+  margin: 0 auto !important; // centers tweets
 }
 
-img, video {
+img,
+video {
   max-width: 100%;
+}
+
+pre code {
+  display: block;
+  padding: 15px;
 }
