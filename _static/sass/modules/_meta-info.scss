@@ -6,40 +6,35 @@
 //
 
 .meta-info {
-	@include typeface("Small caps");
-	@include remCalc(font-size, 13);
-	@include clearfix();
-	margin: 0;
-	margin-bottom: 0;
+  @include remCalc(font-size, 13);
+  @include clearfix();
+  margin: 0;
+  margin-bottom: 4px;
 
-	@include media(">medium") {
-		@include remCalc(font-size, 15);
-
-		.fonts-loaded & {
-			@include remCalc(font-size, 14);
-		}
-	}
+  @include media(">medium") {
+    @include remCalc(font-size, 19);
+  }
 }
 
 .meta-info__item {
-	color: var(--secondary-text-color);
-	float: left;
-	margin: 0;
-	font-feature-settings: "onum" 1;
+  color: var(--secondary-text-color);
+  float: left;
+  margin: 0;
+  font-feature-settings: "onum" 1;
 
-	&:after {
-		content: "~";
-		@include typeface("Small caps");
-		display: inline-block;
-		margin-left: 0px;
-		margin-right: 5px;
-	}
+  &:after {
+    content: "~";
+    @include typeface("Small caps");
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 5px;
+  }
 
-	&:last-child:after {
-		content: none;
-	}
+  &:last-child:after {
+    content: none;
+  }
 
-	&:only-child:after {
-		content: none;
-	}
+  &:only-child:after {
+    content: none;
+  }
 }

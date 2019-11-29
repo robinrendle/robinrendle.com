@@ -44,28 +44,32 @@
   ol,
   p,
   ul {
-    @include remCalc(font-size, 18);
-    line-height: 1.45;
+    @include remCalc(font-size, 20);
+    line-height: 1.4;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
     -webkit-hyphenate-limit-before: 3;
     hyphens: auto;
     @include media(">small") {
-      @include remCalc(font-size, 18);
-      line-height: 1.55;
+      @include remCalc(font-size, 21);
+      line-height: 1.4;
     }
     @include media(">medium") {
-      @include remCalc(font-size, 19);
+      @include remCalc(font-size, 22);
       line-height: 1.5;
     }
     @include media(">large") {
-      @include remCalc(font-size, 19);
-      line-height: 1.55;
+      @include remCalc(font-size, 24);
+      line-height: 1.37;
     }
 
     & > img {
       @include remCalc(margin-bottom, $base-spacing-unit * 2);
     }
+  }
+
+  p img {
+    margin-bottom: 0;
   }
 
   ul {
@@ -81,7 +85,7 @@
   }
 
   figure > blockquote {
-    @include typeface("Regular Italic");
+    @include typeface("Regular italic");
     margin-bottom: 0;
     padding: 0;
   }
@@ -154,7 +158,7 @@
     }
 
     p {
-      @include typeface("Regular");
+      @include typeface("Regular italic");
     }
 
     p + p {

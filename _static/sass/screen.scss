@@ -53,7 +53,8 @@ $breakpoints: (
 @import "modules/hero";
 @import "modules/highlight";
 @import "modules/form";
-@import "../../fonts/national.scss";
+@import "../../fonts/newzald.scss";
+@import "../../fonts/sohne.scss";
 
 section[role="main"] {
   min-height: 80vh;
@@ -80,12 +81,11 @@ section[role="main"] {
 }
 
 .m-header__img {
-  display: flex;
   img {
     border-radius: 3px;
     object-fit: cover;
     filter: saturate(0);
-    height: 100%;
+    min-height: 20em;
     width: 100%;
   }
 }
@@ -205,91 +205,6 @@ section[role="main"] {
 
 a:focus {
   background-color: rgba(var(--highlight-color), 0.5);
-}
-
-.timeline-reveal {
-  .about-text {
-    display: none;
-  }
-  .about-hidden {
-    display: block;
-  }
-}
-
-.about-hidden {
-  @include typeface("Regular italic");
-  display: none;
-}
-
-.timeline-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
-  background-color: #f2f2f2;
-  top: -1px;
-  padding-bottom: 20px;
-  padding-top: 10px;
-  border-bottom: 1px solid #dddddd;
-}
-
-.timeline-title {
-  display: flex;
-  align-items: center;
-  position: sticky;
-}
-
-img.timeline-img {
-  margin: 0;
-  width: 50px;
-  height: 50px;
-  margin-right: 15px;
-}
-
-.timeline-toggle {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-  width: 60px;
-  background-color: #bbb;
-  overflow: hidden;
-  border-radius: 30px;
-  margin: 10px;
-  cursor: pointer;
-}
-
-.timeline-toggle input {
-  display: none;
-}
-
-.timeline-toggle label {
-  font-size: 13px;
-  @include typeface("Small caps");
-  background-color: #333;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  text-align: center;
-  color: #bbb;
-  transition: margin-left 0.2s ease-in-out;
-  margin: 1px;
-}
-
-.timeline-toggle label:before {
-  content: attr(data-off);
-}
-
-.timeline-toggle input.timeline-reveal + label {
-  margin-left: 31px;
-  background-color: #2a7af7;
-  color: white;
-}
-
-.timeline-toggle input:checked + label:before {
-  content: attr(data-on);
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -444,7 +359,6 @@ img.timeline-img {
   text-decoration: none;
   border-bottom: 1px solid #eee;
   color: black;
-  background-color: white;
   font-size: 17px;
   transition: box-shadow 0.1s ease, transform 0.1s ease;
 
@@ -488,7 +402,7 @@ img.timeline-img {
 .project-link {
   display: block;
   padding: 20px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   transition: all 0.2s ease;
   background-color: white;
@@ -504,7 +418,7 @@ img.timeline-img {
   &:focus {
     z-index: 999;
     transform: scale(1.05);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
     @include media(">large") {
       transform: scale(1.07);
     }
@@ -519,4 +433,39 @@ img.timeline-img {
     color: #aaa;
     font-size: 16px;
   }
+}
+
+.card-list {
+  display: block;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+  color: var(--main-text-color);
+  transition: all 0.3s ease;
+}
+
+a.card-list {
+  &:hover,
+  &:focus {
+    z-index: 999;
+    transform: scale(1.01);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    @include media(">large") {
+      transform: scale(1.07);
+    }
+  }
+}
+
+.card-list__title {
+  font-size: 21px;
+  margin-bottom: 2px;
+  color: var(--main-theme-color);
+}
+
+.card-list__text {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.3;
 }

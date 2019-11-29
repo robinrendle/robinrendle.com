@@ -26,10 +26,10 @@ ol,
 .media,
 .island,
 .islet {
-  @include remCalc(margin-bottom, $base-spacing-unit * 1.2);
+  @include remCalc(margin-bottom, $base-spacing-unit * 1.4);
 
   @include media(">medium") {
-    @include remCalc(margin-bottom, $base-spacing-unit * 1.4);
+    @include remCalc(margin-bottom, $base-spacing-unit * 1.6);
   }
 }
 

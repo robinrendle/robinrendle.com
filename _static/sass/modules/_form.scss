@@ -51,11 +51,9 @@
   -webkit-appearance: none;
   border: none;
   padding: 13px 10px 4px;
-  width: 90%;
   transition: background-color 0.3s ease;
   background-color: white;
   border: 1px solid #ccc;
-  border-right: none;
   outline: none;
   box-shadow: none;
   border-radius: 3px 0px 0px 3px !important;
@@ -73,9 +71,8 @@
 
 .form-submit {
   border-radius: 0;
-  padding: 3px 5px;
+  padding: 3px 8px;
   border: none;
-  width: 30%;
   max-width: 120px;
   transition: background-color 0.3s ease;
   background-color: #ddd;

@@ -3,11 +3,9 @@
 <header class="m-wrapper cell-t40 cell-t60--medium cell-b30">
   <div class="m-wrapper__content">
     <div class="meta-info">
-      <p class="meta-info__item">{{ city }}, {{ country }}</p>
+      <p class="meta-info__item">{{ city }}, {{ country }} </p>
       <div class="meta-info__item">
-        <time datetime="{{ page.date }}">
-          {{ date | date: "%B %d, %Y" }}
-        </time>
+        <time datetime="{{ page.date }}"> {{ date | date: "%B %d, %Y" }}</time>
       </div>
     </div>
     <h1 class="u-reset-margins">{{ title }}</h1>
@@ -16,18 +14,13 @@
 
 <div class="m-longform m-wrapper m-wrapper--unpadded">
   <div class="m-wrapper__content">
-    {% if intro %}
-    {{ intro }}
-    {% endif %}
-    {{ content }}
+    {% if intro %} {{ intro }} {% endif %} {{ content }}
   </div>
 </div>
 
 <div class="m-longform--small m-wrapper m-wrapper--unpadded cell-t20">
   <div class="m-wrapper__content">
-    {% if aside %}
-    {{ aside }}
-    {% endif %}
+    {% if aside %} {{ aside }} {% endif %}
   </div>
 </div>
 

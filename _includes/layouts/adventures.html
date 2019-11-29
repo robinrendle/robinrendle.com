@@ -3,29 +3,6 @@
   <div class="m-wrapper__content">
     <header class="article-header">
       <h1>Adventures in Typography</h1>
-      <h2 class="cell-b20">
-        A newsletter about type, lettering, neon lights, and books.
-      </h2>
-
-      <form
-        class="form"
-        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-        class="embeddable-buttondown-form"
-      >
-        <input
-          class="form-input"
-          type="text"
-          name="email"
-          required
-          id="bd-email"
-        />
-        <label for="bd-email" class="form-label">Email</label>
-        <input type="hidden" value="1" name="embed" />
-        <input class="form-submit" type="submit" value="Subscribe" />
-      </form>
     </header>
   </div>
 </section>
@@ -34,14 +11,17 @@
   <div class="m-wrapper__content">
     <nav class="cell-b30 email">
       {% for item in collections.adventures reversed %}
-      <a href="{{ item.url }}" class="email-item">
-        {{ item.data.title }}
-        <div class="email-item-time">
+      <a href="{{ item.url }}" class="card-list">
+        <h4 class="card-list__title">{{ item.data.title }}</h4>
+        <div class="card-list__time">
           {{ item.data.date | date: "%b %d, %Y" }}
         </div>
       </a>
       {% endfor %}
     </nav>
+  </div>
+  <div class="m-wrapper__side">
+    {% include newsletter.html %}
   </div>
 </section>
 

@@ -10,18 +10,15 @@
 <section class="m-wrapper">
   <div class="m-wrapper__projects cell-b40">
     {% for item in collections.projects reversed %}
-    <a href="{{ item.url }}" class="project-link cell-v20">
+    <a href="{{ item.url }}" class="card-list">
       <div>
-        <h3 class="links h3 u-text--regular u-text--book u-reset-margins">
+        <h3 class="card-list__title">
           {{ item.data.title }}
         </h3>
-        <div class="m-longform">
-          <p class="c-grey u-text--regular u-text--book u-reset-margins">
-            {{ item.data.subtitle }}
-          </p>
-        </div>
+        <p class="card-list__text">
+          {{ item.data.subtitle }}
+        </p>
       </div>
-      <p class="meta-info__item u-reset-margins">{{ item.data.dateRange }}</p>
     </a>
     {% endfor %}
   </div>

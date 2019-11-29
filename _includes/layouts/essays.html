@@ -7,17 +7,12 @@
     </div>
 
     {% for item in collections.essays reversed %}
-    <div class="cell-b30">
-      <header class="links">
-        <h3 class="h3 u-text--book u-reset-margins">
-          <a href="{{ item.url }}">{{ item.data.title }}</a>
-        </h3>
-      </header>
-
-      <div class="m-longform">
-        <p>{{ item.data.extract }}</p>
-      </div>
-    </div>
+    <a href="{{ item.url }}" class="card-list">
+      <h3 class="card-list__title">
+        {{ item.data.title }}
+      </h3>
+      <p class="card-list__text">{{ item.data.extract }}</p>
+    </a>
     {% endfor %}
   </div>
 </div>

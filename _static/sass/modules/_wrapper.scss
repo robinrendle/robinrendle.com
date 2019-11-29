@@ -6,13 +6,12 @@
 //
 
 $_content_max-width: 800;
-$_max-width: 960;
+$_max-width: 1000;
 $_max-width-wide: 1000;
 
 .m-wrapper {
   display: block;
   margin: 0 auto;
-  @include clearfix();
   @include remCalc(max-width, $_content_max-width);
 
   @include media(">large") {
@@ -182,7 +181,8 @@ figure.m-wrapper--unpadded {
   @include remCalc(padding, 0, 15);
   display: grid;
   grid-column: 1/17;
-  grid-gap: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
   grid-template-rows: repeat(1, 1fr);
 
   @include media(">medium") {

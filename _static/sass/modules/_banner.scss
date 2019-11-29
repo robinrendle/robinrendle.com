@@ -21,11 +21,11 @@
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
-  background-color: var(--nav-about);
   color: white;
+  background-color: var(--main-theme-color);
   transition: background-color 0.3s ease;
   float: left;
-  font-size: 16px !important;
+  font-size: 18px;
   text-align: center;
   margin-right: 20px;
   height: 50px;
@@ -35,19 +35,15 @@
     font-size: 15px !important;
   }
 
-  @include media("<medium") {
-    .is--active & {
-      // background-color: var(--main-theme-color);
-    }
-  }
-
   @include media(">medium") {
+    font-size: 18px;
     height: 55px;
   }
 
   &:hover,
   &:focus {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--main-theme-color);
+    color: white;
   }
 }
 
@@ -64,12 +60,6 @@
 
   .no-js & {
     display: none;
-  }
-
-  @include media("<medium") {
-    .is--active & {
-      color: white;
-    }
   }
 
   @include media(">medium") {
@@ -91,10 +81,10 @@
   float: left;
   padding-top: 0;
   width: 100%;
+  @include typeface("Small caps");
 
   @include media(">medium") {
-    @include typeface("Small caps");
-    @include remCalc(font-size, 17);
+    @include remCalc(font-size, 18);
     letter-spacing: 0.5px;
     width: auto;
 
@@ -139,20 +129,17 @@
 
       &:hover,
       &:focus {
-        background: none;
-        background-color: var(--theme-color-border);
-        color: var(--white-color);
+        background-color: var(--main-theme-color);
+        border: none;
+        color: white;
       }
     }
     @include media(">medium") {
       color: var(--white-color);
+
       &:hover,
       &:focus {
         color: var(--white-color);
-
-        &:after {
-          color: #eee;
-        }
       }
     }
   }

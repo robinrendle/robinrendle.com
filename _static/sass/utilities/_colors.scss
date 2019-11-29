@@ -7,19 +7,19 @@ $c-dark: #ddd;
 $c-offwhite: lighten($c-text, 10);
 
 :root {
-  --heading-text-color: #333;
-  --main-text-color: #4d4d4d;
-  --main-theme-color: #0a8080;
+  --background-color: #f8f5f2;
+  --white-color: #444;
+  --heading-text-color: #111;
+  --main-theme-color: #d34c4c;
+  --main-text-color: #333;
+  --nav-color: #fff;
+  --nav-about: #f8f5f2;
+  --nav-border: #ddd;
+  --lighter-gray-color: #ccc;
   --secondary-text-color: #777;
-  --lighter-gray-color: #ddd;
-  --white-color: #fff;
-  --off-white: #f2f2f2; //gets darker in dark mode
-  --highlight-color: #ffffc4;
-  --nav-color: var(--main-theme-color);
-  --nav-about: #075a5a;
-  --nav-border: #fff;
-  --background-color: #fff;
-  --theme-color-border: #0a8080;
+  --highlight-color: rgb(255, 229, 83, 0.4);
+  --off-white: #111;
+  --theme-color-border: #f0ffaf;
 }
 
 // @media (prefers-color-scheme: dark) {
@@ -37,12 +37,6 @@ $c-offwhite: lighten($c-text, 10);
 //     --highlight-color: #888;
 //     --off-white: #111;
 //     --theme-color-border: #444;
-//   }
-//
-//   img, video {
-//     opacity: .7;
-//     filter: grayscale(1);
-//     mix-blend-mode: screen;
 //   }
 // }
 

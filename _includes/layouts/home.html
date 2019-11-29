@@ -2,27 +2,9 @@
 
 <section class="m-header m-wrapper">
   <div class="m-wrapper__content">
-    <h1 class="h1 u-reset-margins cell-b15">
-      I’m Robin, a designer, writer and typographer living in San Francisco.
+    <h1 class="h1 u-reset-margins cell-b60">
+      I’m Robin, a designer, writer, and typographer living in San Francisco.
     </h1>
-    <div class="m-longform cell-b40">
-      <p>
-        I work at <a href="https://gusto.com">Gusto</a> as a designer and
-        developer on the design systems team and I spend a lot of my time
-        thinking about web design, front-end development, and
-        <abbr title="user experience">UX</abbr>. I’m also on the team at
-        <a href="http://css-tricks.com/">CSS-Tricks</a> where we write about web
-        design, too. Here though you’ll find an archive of everything I’ve
-        published in the last five years and so I can only offer a word of
-        warning; things certainly got a little weird at one point or another.
-      </p>
-    </div>
-  </div>
-  <div class="m-header__img m-wrapper__side">
-    <img
-      src="/images/portfolio/robin-rendle.jpg"
-      alt="A portrait of me, Robin, the boy wonder"
-    />
   </div>
 </section>
 
@@ -32,37 +14,21 @@
       Favorites from the Archive
     </h4>
     {% for item in collections.featured reversed %}
-    <a
-      href="{{ item.url }}"
-      class="block rules--top rules rules--light cell-v20"
-    >
-      <h3 class="links h3 u-text--regular u-text--book u-reset-margins">
+    <a href="{{ item.url }}" class="card-list">
+      <h3 class="card-list__title">
         {{ item.data.title }}
       </h3>
-      <div class="m-longform">
-        <p class="c-grey u-text--regular u-text--book u-reset-margins">
-          {{ item.data.extract }}
-        </p>
-      </div>
+      <p class="card-list__text">
+        {{ item.data.extract }}
+      </p>
     </a>
     {% endfor %}
-    <div class="cell-t40">
-      {% include newsletter.html %}
-    </div>
   </div>
-
-  <div class="m-wrapper__side cell-b40">
-    <h4 class="c-lightgrey u-reset-margins cell-b10">What I’m Reading</h4>
-    {% for book in collections.books reversed %}
-    <a
-      href="{{ book.url }}"
-      class="block rules--top rules rules--dotted rules--light cell-v15"
-    >
-      <h3 class="links h4 u-text--regular u-text--book u-reset-margins">
-        {{ book.data.title }}
-      </h3>
-    </a>
-    {% endfor %}
+  <div class="m-wrapper__side">
+    <h4 class="c-lightgrey u-reset-margins cell-b10">
+      Adventures in Typography
+    </h4>
+    {% include newsletter.html %}
   </div>
 </section>
 

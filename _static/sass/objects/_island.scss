@@ -3,8 +3,13 @@
 // ==========================================================================
 
 .o-island {
-  @include clearfix();
-  background-color: var(--off-white);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+}
+
+.o-island__content {
+  padding: 25px;
 }
 
 .o-island--light {
