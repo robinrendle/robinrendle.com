@@ -29,7 +29,7 @@ h1 {
     }
     @include media(">large") {
       line-height: 1.1;
-      @include remCalc(font-size, 38);
+      @include remCalc(font-size, 36);
     }
   }
 }

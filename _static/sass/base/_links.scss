@@ -49,6 +49,7 @@ a {
     text-decoration: underline;
     text-decoration-skip: ink;
     transition: color 0.3s ease;
+    text-decoration-color: #999;
 
     &:hover,
     &:focus {

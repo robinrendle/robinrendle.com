@@ -57,6 +57,7 @@
   outline: none;
   box-shadow: none;
   border-radius: 3px 0px 0px 3px !important;
+  width: calc(100% - 70px);
 
   &:hover {
     cursor: pointer;
