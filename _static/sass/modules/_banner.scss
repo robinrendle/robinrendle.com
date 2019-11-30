@@ -121,17 +121,23 @@
       padding: 13px 20px;
       margin: 0;
       background-color: var(--nav-about);
-      border-bottom: 1px solid var(--theme-color-border);
+      border-bottom: 1px solid #ddd;
       position: relative;
       left: -20px;
       width: 100%;
       width: calc(100% + 35px);
+      background-color: white;
+
+      &:first-child {
+        border-top: 1px solid #ddd;
+      }
+      &:last-child {
+        border: none;
+      }
 
       &:hover,
       &:focus {
-        background-color: var(--main-theme-color);
-        border: none;
-        color: white;
+        background-color: #efefef;
       }
     }
     @include media(">medium") {

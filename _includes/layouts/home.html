@@ -1,8 +1,8 @@
 {% include header.html %}
 
 <section class="m-header m-wrapper">
-  <div class="m-wrapper__content">
-    <h1 class="h1 u-reset-margins cell-b60">
+  <div class="m-wrapper__content cell-b80">
+    <h1 class="h1 u-reset-margins cell-t40">
       I’m Robin, a designer, writer, and typographer living in San Francisco.
     </h1>
   </div>
@@ -10,7 +10,7 @@
 
 <section class="m-wrapper">
   <div class="m-wrapper__content cell-b40">
-    <h4 class="c-lightgrey u-reset-margins cell-b10">
+    <h4 class="u-reset-margins cell-b10">
       Favorites from the Archive
     </h4>
     {% for item in collections.featured reversed %}
@@ -25,7 +25,7 @@
     {% endfor %}
   </div>
   <div class="m-wrapper__side">
-    <h4 class="c-lightgrey u-reset-margins cell-b10">
+    <h4 class="u-reset-margins cell-b10">
       Adventures in Typography
     </h4>
     {% include newsletter.html %}
