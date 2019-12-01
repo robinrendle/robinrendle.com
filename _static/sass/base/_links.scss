@@ -49,7 +49,7 @@ a {
     text-decoration: underline;
     text-decoration-skip: ink;
     transition: color 0.3s ease;
-    text-decoration-color: var(--text-decoration);
+    text-decoration-color: var(--link-underline);
 
     &:hover,
     &:focus {

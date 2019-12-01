@@ -8,7 +8,7 @@ $c-offwhite: lighten($c-text, 10);
 
 :root {
   --background-color: #111;
-  --card-bg: #181818;
+  --card-bg: #191919;
   --card-border: #1a1a1a;
   --white-color: #999;
   --heading-text-color: #fff;
@@ -22,8 +22,8 @@ $c-offwhite: lighten($c-text, 10);
   --highlight-color: rgba(250, 217, 255, 0.2);
   --off-white: #111;
   --theme-color-border: #f0ffaf;
-  --text-decoration: white;
-  --link-color: #ddd;
+  --link-underline: #fff;
+  --link-color: var(--main-text-color);
 }
 
 img {
