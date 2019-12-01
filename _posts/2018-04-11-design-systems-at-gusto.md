@@ -1,11 +1,10 @@
 ---
 title: Design Systems at Gusto
 date: 2018-04-11 21:41:00 -07:00
-tags:
-- featured
 city: San Francisco
 country: California
-extract: Whether you’re just starting out building a complicated front-end, or if
+extract:
+  Whether you’re just starting out building a complicated front-end, or if
   you’re getting ready to build a style guide at a large organization then hopefully
   you can learn from some of my mistakes.
 ---

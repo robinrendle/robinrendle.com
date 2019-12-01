@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: var(--main-theme-color);
+  background-color: var(--nav-about);
   transition: background-color 0.3s ease;
   float: left;
   font-size: 18px;
@@ -121,15 +121,15 @@
       padding: 13px 20px;
       margin: 0;
       background-color: var(--nav-about);
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #000;
       position: relative;
       left: -20px;
       width: 100%;
       width: calc(100% + 35px);
-      background-color: white;
+      background-color: #111;
 
       &:first-child {
-        border-top: 1px solid #ddd;
+        border-top: 1px solid #000;
       }
       &:last-child {
         border: none;
@@ -137,7 +137,7 @@
 
       &:hover,
       &:focus {
-        background-color: #efefef;
+        background-color: #000;
       }
     }
     @include media(">medium") {

@@ -1,10 +1,14 @@
 ---
 title: The Smallest Difference
 date: 2019-11-12 20:38:04
-tags: design, opentype, fonts
-extract: And the art of good table design.
+tags:
+  - featured
+  - design
+  - opentype
+  - fonts
+extract: And the small wonder of OpenType fonts.
 country: California
-city: San Francisco 
+city: San Francisco
 ---
 
 In July the design systems team at Gusto shipped a beautiful thing. Over the course of three months we tried our best not just to update the brand assets, such as logos, colors, and fonts—we also felt that this was an opportunity to give every component in our library an upgrade. We hoped to expand the scope of the project by removing a ton of duplicate components and tech debt, as well as begin tackling a number of longstanding issues with accessibility, too.
@@ -17,7 +21,7 @@ One thing that had been bothering me for quite some time though was the design o
   </figure>
 </div>
 
-When you drop this in a design doc like Figma then there’s not much to be worried about. I can read everything here! But as soon as you fill the component with real data then things quickly get bonkers. 
+When you drop this in a design doc like Figma then there’s not much to be worried about. I can read everything here! But as soon as you fill the component with real data then things quickly get bonkers.
 
 And that’s because at Gusto we’re helping companies run payroll, some of whom have dozens of employees, and so we’re constantly presenting our customers with lots of complex information, like their employee’s salary breakdown as well as federal, state and local taxes. This means that our table component is extremely important to our customers and on the design systems team we have to ensure that we provide a component that works well in data-dense situations like this:
 
@@ -27,7 +31,7 @@ And that’s because at Gusto we’re helping companies run payroll, some of who
   </figure>
 </div>
 
-During user research we found that our customers are skimming through this sea of numbers to make sense of it all. Did this employee get paid correctly? Do all these taxes look correct? What have I inevitably messed up? Unfortunately there’s only so much we can do in terms of UX to make the tax system here less peculiar—however!—there’s one UI issue that had been bugging me for years that I knew would help. 
+During user research we found that our customers are skimming through this sea of numbers to make sense of it all. Did this employee get paid correctly? Do all these taxes look correct? What have I inevitably messed up? Unfortunately there’s only so much we can do in terms of UX to make the tax system here less peculiar—however!—there’s one UI issue that had been bugging me for years that I knew would help.
 
 First we have to dive into how numbers in a font actually work though.
 
@@ -55,7 +59,7 @@ Ideally what we want is every number to align correctly and the decimal point to
 }
 ```
 
-To activate these numbers in Figma you’ll need to select some text and head on over to the OpenType features in the right hand navigation (also this is how things currently look, this menu is likely to change in the future): 
+To activate these numbers in Figma you’ll need to select some text and head on over to the OpenType features in the right hand navigation (also this is how things currently look, this menu is likely to change in the future):
 
 <figure>
   <img alt="Figma’s OpenType menu" src="../uploads/figma-opentype-example.jpg" loading="lazy" />
@@ -77,6 +81,6 @@ You can see how the decimal will now always be in the same position, and you’l
   </figure>
 </div>
 
-I think this is a pretty substantial difference! Whereas before each number blurred into the background, when the tabular options is enabled it’s easier to scan and it’s easier to make complex decisions about the data we’re seeing here. 
+I think this is a pretty substantial difference! Whereas before each number blurred into the background, when the tabular options is enabled it’s easier to scan and it’s easier to make complex decisions about the data we’re seeing here.
 
 All of a sudden there is a little bit more order to all these numbers and it’s only when you compare the two that you begin to see that the smallest difference in a UI can really make all the difference.

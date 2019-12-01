@@ -3,16 +3,18 @@ title: The Dashboard Problem
 date: 2019-10-19 10:06:57
 city: San Francisco
 country: California
-extract: And why good product design is impossible. 
+extract: And why good product design is impossible.
+tags:
+  - featured
 ---
 
 The longer I work on making large web apps, the more I get this feeling, a kind of sixth sense as I’m navigating an interface. It flickers on whenever I stare at a UI for long periods of time, and the more I pay attention to it the easier it is to see the shape of the organization that built it. Weird, huh?
 
-I can begin to tell if the UI was made by one team, and if they’re an engineer-heavy organization. Or whether they have a bunch of junior designers without much UX experience. I can start to tell which parts of a company might own _this_ feature or _that_ one and that they don’t communicate properly with one another. 
+I can begin to tell if the UI was made by one team, and if they’re an engineer-heavy organization. Or whether they have a bunch of junior designers without much UX experience. I can start to tell which parts of a company might own _this_ feature or _that_ one and that they don’t communicate properly with one another.
 
 I can tell if they have a design systems team, too.
 
-This sixth sense is most prevalent whenever I visit the dashboard of an app, the homepage. Because if there was one rule of product design it’s this: all dashboards are bad. Why? Well, for the most part no-one in a company owns the dashboard, the very first page the user sees, and perhaps the most important page of the app itself. No-one is responsible for it or understands how it should work. No-one can see how this section connects to all the others. 
+This sixth sense is most prevalent whenever I visit the dashboard of an app, the homepage. Because if there was one rule of product design it’s this: all dashboards are bad. Why? Well, for the most part no-one in a company owns the dashboard, the very first page the user sees, and perhaps the most important page of the app itself. No-one is responsible for it or understands how it should work. No-one can see how this section connects to all the others.
 
 This is the most dangerous problem a product design team can face in my opinion: putting all these designers on _features_ and _missions_ without anyone thinking about the architecture or how it all fits together. And in this humble blogger’s opinion this is not simply design debt that accrues over time naturally, it is simply extremely poor management.
 
@@ -22,14 +24,13 @@ Almost all of them have poor information hierarchy, with no clear path for peopl
 
 So, here’s an example of my GitHub dashboard today:
 
-
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
 <img class="chrome-shadow" alt="A screenshot of my GitHub dashboard" src="../uploads/github-redesign-before.jpg" loading="lazy" />
 </figure>
 </div>
 
-What is...any of this stuff? The whole dashboard feels like they wanted me to use GitHub as a social network. `All Activity`? Why on earth do I care about any of this? Is it information about a current project I’m working on? Nope. Is it information I need to know about in the future to do a better job? Nope! 
+What is...any of this stuff? The whole dashboard feels like they wanted me to use GitHub as a social network. `All Activity`? Why on earth do I care about any of this? Is it information about a current project I’m working on? Nope. Is it information I need to know about in the future to do a better job? Nope!
 
 What is that everyone wants to see on GitHub, instead? Well, here are the questions I ask myself every time I hit the dashboard:
 
@@ -42,7 +43,6 @@ Everything else is a nice to have, to be honest. Everything else besides these t
 And I want fewer clicks, dammit.
 
 After thinking about it for a while, I realized issues #1 and #2 above can be solved without big animations or fancy graphics. All we need is two lists: the first shows which projects you’re currently working on, and the second shows which folks are asking for code review. There’s nothing world changing about this design of course, but it immediately answers the questions I’m asking when I visit GitHub. And that’s because GitHub is not a social network: it is a tool for me to write code.
-
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
@@ -58,6 +58,6 @@ My point here isn’t to argue that I’m a better designer than anyone. My poin
 
 That’s when I want to burn everything to the ground.
 
-Anyway, emotionally unhealthy drama aside, I reckon design leaders need to consider the Dashboard Problem earnestly and figure out how to build teams that don’t just focus on features or improving metrics. They must build teams to make great software first and foremost, and today they are failing. 
+Anyway, emotionally unhealthy drama aside, I reckon design leaders need to consider the Dashboard Problem earnestly and figure out how to build teams that don’t just focus on features or improving metrics. They must build teams to make great software first and foremost, and today they are failing.
 
 And we, as users, are suffering for their mistakes.

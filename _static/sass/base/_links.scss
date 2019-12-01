@@ -45,15 +45,16 @@ a {
 @mixin links-longform {
   &:link,
   a {
-    color: var(--main-text-color);
+    color: var(--link-color);
     text-decoration: underline;
     text-decoration-skip: ink;
     transition: color 0.3s ease;
-    text-decoration-color: #999;
+    text-decoration-color: var(--text-decoration);
 
     &:hover,
     &:focus {
       color: var(--main-theme-color);
+      text-decoration-color: inherit;
     }
   }
 }

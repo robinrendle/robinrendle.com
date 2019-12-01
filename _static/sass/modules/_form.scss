@@ -52,19 +52,20 @@
   border: none;
   padding: 13px 10px 4px;
   transition: background-color 0.3s ease;
-  background-color: white;
-  border: 1px solid #ccc;
+  background-color: transparent;
+  border: 1px solid #aaa;
+  border-left: none;
+  border-top: none;
+  border-right: none;
   outline: none;
   box-shadow: none;
   border-radius: 3px 0px 0px 3px !important;
   width: calc(100% - 70px);
+  color: white;
 
-  &:hover {
-    cursor: pointer;
-  }
-
+  &:hover,
   &:focus {
-    border: 1px solid var(--main-theme-color);
+    background-color: #000;
     outline: none;
     color: var(--main-text-color);
   }
@@ -76,12 +77,11 @@
   border: none;
   max-width: 120px;
   transition: background-color 0.3s ease;
-  background-color: #ddd;
-  color: #222;
+  background-color: white;
+  color: #111;
   outline: none;
-  font-size: 0.75em;
+  font-size: 0.9em;
   text-transform: uppercase;
-  border-radius: 0 3px 3px 0 !important;
 
   &:hover,
   &:focus {

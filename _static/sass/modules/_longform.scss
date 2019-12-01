@@ -59,8 +59,8 @@
       line-height: 1.35;
     }
     @include media(">large") {
-      @include remCalc(font-size, 24);
-      line-height: 1.37;
+      @include remCalc(font-size, 23);
+      line-height: 1.4;
     }
 
     & > img {

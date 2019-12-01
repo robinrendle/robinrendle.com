@@ -10,11 +10,11 @@ code {
   font-size: 15px;
   position: relative;
   font-family: "Input Mono", monospace;
-  background-color: #fff;
-  border: 1px solid #eaeaea;
+  background-color: var(--card-bg);
+  border: 1px solid var(--lighter-grey);
   border-radius: 3px;
   display: inline;
   padding: 3px 8px;
-  color: #333;
+  color: var(--lighter-grey);
   border-radius: 3px;
 }

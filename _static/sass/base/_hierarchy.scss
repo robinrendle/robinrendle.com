@@ -28,7 +28,7 @@ h1 {
       line-height: 1.2;
     }
     @include media(">large") {
-      line-height: 1.1;
+      line-height: 1.2;
       @include remCalc(font-size, 36);
     }
   }

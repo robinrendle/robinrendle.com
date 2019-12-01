@@ -5,7 +5,7 @@
 // adds max-width
 //
 
-$_content_max-width: 650;
+$_content_max-width: 640;
 $_max-width: 1000;
 $_max-width-wide: 1000;
 
@@ -97,6 +97,12 @@ figure.m-wrapper--unpadded {
   }
 
   .m-wrapper--full {
+    grid-column: 1/17;
+  }
+}
+
+.m-wrapper--full {
+  @include media(">large") {
     grid-column: 1/17;
   }
 }
