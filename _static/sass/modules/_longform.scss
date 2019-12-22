@@ -51,11 +51,11 @@
     -webkit-hyphenate-limit-before: 3;
     hyphens: auto;
     @include media(">small") {
-      @include remCalc(font-size, 21);
+      @include remCalc(font-size, 22);
       line-height: 1.35;
     }
     @include media(">medium") {
-      @include remCalc(font-size, 22);
+      @include remCalc(font-size, 23);
       line-height: 1.35;
     }
     @include media(">large") {
