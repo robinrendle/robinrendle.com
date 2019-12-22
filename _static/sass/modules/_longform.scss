@@ -45,13 +45,13 @@
   p,
   ul {
     @include remCalc(font-size, 20);
-    line-height: 1.25;
+    line-height: 1.2;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
     -webkit-hyphenate-limit-before: 3;
     hyphens: auto;
     @include media(">small") {
-      @include remCalc(font-size, 22);
+      @include remCalc(font-size, 21);
       line-height: 1.35;
     }
     @include media(">medium") {
