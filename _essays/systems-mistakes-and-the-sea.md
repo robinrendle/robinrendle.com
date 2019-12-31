@@ -1,6 +1,6 @@
 ---
 title: Systems, Mistakes, and the Sea
-date: 2019-12-26 17:23:00 -08:00
+date: 2019-12-30 17:23:00 -08:00
 tags:
   - design systems
 layout: essays/systems
