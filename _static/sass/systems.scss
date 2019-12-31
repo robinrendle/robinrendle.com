@@ -28,8 +28,15 @@ $font-stack--sans: Helvetica, sans-serif;
 @import "base/main";
 @import "base/links";
 @import "base/hierarchy";
-@import "../../fonts/newzald.scss";
 @import "../../fonts/caponi.scss";
+
+@font-face {
+  font-family: "Newzald";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/newzald/book.woff2") format("woff2"),
+    url("/fonts/newzald/book.woff") format("woff");
+}
 
 body {
   color: #111;
@@ -135,8 +142,15 @@ code {
   font-size: 0.8em;
 }
 
-blockquote {
-  @include typeface("Regular italic");
+em {
+  font-style: normal !important;
+  background-color: #fff2cc;
+}
+
+.longform blockquote {
+  border-left: 2px solid #ddd;
+  padding-left: 15px;
+  font-size: 1em;
 }
 
 hr {
