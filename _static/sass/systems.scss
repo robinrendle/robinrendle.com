@@ -1,0 +1,166 @@
+// ==========================================================================
+// SYSTEMS, MISTAKES, AND THE SEA
+// ==========================================================================
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+$breakpoints: (
+  small: 400px,
+  medium: 620px,
+  large: 920px,
+  largest: 1100px,
+  gigantic: 1400px
+) !default;
+$max-width: 750px;
+$font-stack: Georgia, serif;
+$font-stack--sans: Helvetica, sans-serif;
+
+@import "utilities/reset";
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+@import "utilities/type";
+@import "utilities/text-style";
+@import "utilities/underline";
+
+@import "base/base-spacing";
+@import "base/main";
+@import "base/links";
+@import "base/hierarchy";
+@import "../../fonts/newzald.scss";
+@import "../../fonts/caponi.scss";
+
+body {
+  color: #111;
+}
+
+.layout-wrapper {
+  @include media(">large") {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 40px;
+  }
+  @include media(">largest") {
+    grid-gap: 50px;
+  }
+}
+
+.wrapper {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0 10px;
+
+  @include media(">medium") {
+    max-width: 43em;
+  }
+  @include media(">large") {
+    grid-column: 6/13;
+    padding-right: 40px;
+    padding-top: 80px;
+    margin: 0;
+  }
+}
+
+.intro-img {
+  margin-bottom: 40px;
+  overflow: hidden;
+  display: block;
+  object-fit: contain;
+  background-color: #eee;
+
+  @include media(">medium") {
+    margin-bottom: 60px;
+  }
+
+  @include media(">large") {
+    margin-bottom: 0;
+    grid-column: 1 / 6;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+
+  img {
+    height: 30vh;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    @include media(">medium") {
+      height: 50vh;
+    }
+    @include media(">large") {
+      height: 100vh;
+    }
+  }
+}
+
+h1 {
+  // font-variant: small-caps;
+  // text-transform: lowercase;
+  color: #000;
+  font-family: "Caponi Display", serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+  @include media(">large") {
+    font-size: 35px;
+  }
+}
+
+.longform {
+  padding-bottom: 100px;
+  p {
+    font-size: 20px;
+    line-height: 1.3;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-after: 2;
+    -webkit-hyphenate-limit-before: 3;
+    hyphens: auto;
+
+    @include media(">medium") {
+      font-size: 22px;
+    }
+
+    @include media(">large") {
+      font-size: 20px;
+    }
+
+    @include media(">largest") {
+      font-size: 22px;
+    }
+  }
+}
+
+code {
+  font-size: 0.8em;
+}
+
+blockquote {
+  @include typeface("Regular italic");
+}
+
+hr {
+  background: url("/images/essays/systems/star.svg");
+  background-size: contain;
+  width: 110px;
+  border: none;
+  opacity: 0.4;
+  height: 35px;
+}
+
+img {
+  margin: 0;
+  display: block;
+}
+
+.last-img {
+  margin-top: 100px;
+}
+
+.meta {
+  color: #777;
+}
+
+::selection {
+  background-color: #fff2cc;
+}

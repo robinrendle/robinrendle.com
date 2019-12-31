@@ -1,26 +1,8 @@
 @font-face {
-	font-family: "Caponi Display";
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-	src: url("/fonts/caponi-display.woff2") format("woff2"),
-		url("/fonts/caponi-display.woff") format("woff");
-}
-
-@font-face {
-	font-family: "Caponi Text";
-	font-weight: 300;
-	font-style: normal;
-	font-display: swap;
-	src: url("/fonts/caponi-text-regular.woff2") format("woff2"),
-		url("/fonts/caponi-text-regular.woff") format("woff");
-}
-
-@font-face {
-	font-family: "Caponi Semibold";
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-	src: url("/fonts/caponi-text-semibold.woff2") format("woff2"),
-		url("/fonts/caponi-text-semibold.woff") format("woff");
+  font-family: "Caponi Display";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/caponi-display.woff2") format("woff2"),
+    url("/fonts/caponi-display.woff") format("woff");
 }
