@@ -25,7 +25,7 @@ The state of things was surely overwhelming but it was also an important lesson;
 
 In time I found that the curse of design systems work was seeing everything that’s broken, whilst on the surface it all looks fine. When you try to repair these problems though that’s when the whole thing collapses and the ruse is up. Every test in your app will break, old parts of the codebase will shatter and engineers will panic as if somehow the sinking ship was your fault and not the work of the gashes in each flank that you’re trying to repair.
 
-So: how we should talk about these broken, invisible systems? And then how do we go about fixing them?
+So: how should we talk about these broken, invisible systems? And then how do we go about fixing them?
 
 ---
 
