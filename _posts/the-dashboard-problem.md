@@ -3,7 +3,7 @@ title: The Dashboard Problem
 date: 2019-10-19 10:06:57
 city: San Francisco
 country: California
-extract: And why good product design is impossible.
+extract: Or, why good product design is impossible.
 tags:
   - featured
 ---
@@ -32,7 +32,7 @@ So, here’s an example of my GitHub dashboard today:
 
 What is...any of this stuff? The whole dashboard feels like they wanted me to use GitHub as a social network. `All Activity`? Why on earth do I care about any of this? Is it information about a current project I’m working on? Nope. Is it information I need to know about in the future to do a better job? Nope!
 
-What is that everyone wants to see on GitHub, instead? Well, here are the questions I ask myself every time I hit the dashboard:
+What does everyone want to see on GitHub, instead? Well, here are the questions I ask myself every time I hit the dashboard:
 
 1. Which of my PRs are currently waiting for review? Which of these do I need to polish and fix?
 2. Who needs me to review some code? How can I unblock someone?

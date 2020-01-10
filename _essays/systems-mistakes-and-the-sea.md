@@ -3,6 +3,7 @@ title: Systems, Mistakes, and the Sea
 date: 2019-12-30 17:23:00 -08:00
 tags:
   - design systems
+  - featured
 layout: essays/systems
 city: San Francisco
 country: California
