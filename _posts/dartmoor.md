@@ -58,4 +58,4 @@ An hour later and I’ve traversed the cliff with a series of precarious ladders
 
 I stop what I’m doing for a moment and think about how this truck will be passed on, player to player, all across this brutal landscape. Likes begetting Likes, forever. 
 
-And for the first time in a video game, I wish a stranger well. As this place might not be in favor of us, but we can all be in favor of eachother.
+And for the first time in a video game I wish a stranger well as although this place might not be in favor of us, we can all be in favor of eachother.
