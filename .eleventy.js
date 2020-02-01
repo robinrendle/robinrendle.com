@@ -69,6 +69,22 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("_essays/*.md");
   });
 
+  eleventyConfig.addCollection("essaysFeed", collection => {
+    return collection
+      .getFilteredByGlob("_essays/*.md")
+      .reverse()
+      .slice(0, 3)
+      .reverse();
+  });
+
+  eleventyConfig.addCollection("feed", collection => {
+    return collection
+      .getFilteredByGlob("_posts/*.md")
+      .reverse()
+      .slice(0, 3)
+      .reverse();
+  });
+
   return {
     dir: {
       input: "./",

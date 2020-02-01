@@ -2,16 +2,45 @@
 
 <section class="m-header m-wrapper">
   <h1 class="heading-home m-wrapper__content m-wrapper--full">
-    I’m Robin, a designer, writer, and typographer living in San Francisco.
+    I’m Robin, a writer, designer, and developer living in San Francisco.
   </h1>
 </section>
 
-<section class="m-wrapper">
-  <div class="m-wrapper__content cell-b40">
+<div class="m-wrapper m-wrapper-blog-newsletter">
+  <section>
     <h4 class="u-reset-margins cell-b10">
-      Favorites from the Archive
+      Notes from the blog
     </h4>
-    {% for item in collections.featured reversed %}
+
+    {% for item in collections.feed reversed %}
+    <a href="{{ item.url }}" class="card-list">
+      <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">
+        {{ item.data.date | date: "%d %B %Y" }}
+      </time>
+      <h3 class="card-list__title">
+        {{ item.data.title }}
+      </h3>
+      <p class="card-list__text">
+        {{ item.data.extract }}
+      </p>
+    </a>
+    {% endfor %}
+  </section>
+
+  <section class="newsletter">
+    <h4 class="u-reset-margins cell-b10">
+      My newsletter (sorry)
+    </h4>
+    {% include newsletter.html %}
+  </section>
+</div>
+
+<section class="m-wrapper">
+  <h4 class="essay-heading u-reset-margins cell-t60 m-wrapper--full">
+    Essays and incomprehensible rants
+  </h4>
+  <nav class="m-wrapper--featured">
+    {% for item in collections.essaysFeed reversed %}
     <a href="{{ item.url }}" class="card-list">
       <h3 class="card-list__title">
         {{ item.data.title }}
@@ -21,13 +50,7 @@
       </p>
     </a>
     {% endfor %}
-  </div>
-  <div class="m-wrapper__side">
-    <h4 class="u-reset-margins cell-b10">
-      Adventures in Typography
-    </h4>
-    {% include newsletter.html %}
-  </div>
+  </nav>
 </section>
 
 {% include footer.html %}
