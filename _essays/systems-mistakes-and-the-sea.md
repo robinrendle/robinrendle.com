@@ -9,7 +9,7 @@ city: San Francisco
 country: California
 footer: "Shipwreck off Nantucket (Wreck off Nantucket after a Storm)
 ca. 1860–61 William Bradford"
-extract: A note about design systems, hyperobjects, and how a codebase almost killed me.
+extract: A note about design systems, boats, and hyperobjects.
 ---
 
 <span class="caps">One evening, several years ago,</span> I dreamt that our design system was a boat. But not just any old thing, I dreamt of a mighty frigate that could cross the open sea, a vessel stocked to the brim with well-documented components full of accessible and responsive chunks of code; interface elements like buttons and forms, all of them built for a single purpose. And on that frigate everyone was working as if they’re part of a seasoned navy or crew; the Powder Monkeys, Swabbies, Riggers, First Mates and Quartermasters, the whole lot of them in perfect sync with one another.
