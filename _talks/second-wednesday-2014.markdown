@@ -4,7 +4,7 @@ date: 2014-05-11 16:00:00 -07:00
 tags:
 - design
 - typography
-- books
+- book
 talk-title: A Visual Lexicon
 talk-link: http://www.secondwednesday.org.uk/archive.php
 layout: talks-detail

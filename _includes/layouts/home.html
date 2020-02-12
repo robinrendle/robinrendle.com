@@ -1,56 +1,23 @@
 {% include header.html %}
 
 <section class="m-header m-wrapper">
-  <h1 class="heading-home m-wrapper__content m-wrapper--full">
-    I’m Robin, a writer, designer, and developer living in San Francisco.
-  </h1>
+  <div class="m-wrapper__content m-longform">
+    <h1 class="heading-home">
+      I’m Robin, a writer and web designer.
+    </h1>
+    <p>
+      Originally from the south-west of England, now I live in cloudy San
+      Francisco where I make websites and write things alongside the ever-so-lovely team at <a href='https://css-tricks.com/'>CSS-Tricks</a>.</p>
+      <p>Here though you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of
+      warning; things certainly got a little weird at one point or another. Over in <a href='/notes'>/notes</a> I blog about whatever’s going on in my head at the moment and <a href='/essays'>/essays</a> is where those notes get polished into something a bit more readable.</p>
+    <p>Also! My current side project is a newsletter
+      all about typefaces and fonts (and what those words mean). It’s for book
+      nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever. You can subscribe below for weekly-ish updates:
+    </p>
+  </div>
+
+  {% include newsletter.html %}
 </section>
-
-<div class="m-wrapper m-wrapper-blog-newsletter">
-  <section>
-    <h4 class="u-reset-margins cell-b10">
-      Notes from the blog
-    </h4>
-
-    {% for item in collections.feed reversed %}
-    <a href="{{ item.url }}" class="card-list">
-      <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">
-        {{ item.data.date | date: "%d %B %Y" }}
-      </time>
-      <h3 class="card-list__title">
-        {{ item.data.title }}
-      </h3>
-      <p class="card-list__text">
-        {{ item.data.extract }}
-      </p>
-    </a>
-    {% endfor %}
-  </section>
-
-  <section class="newsletter">
-    <h4 class="u-reset-margins cell-b10">
-      My newsletter (sorry)
-    </h4>
-    {% include newsletter.html %}
-  </section>
 </div>
-
-<section class="m-wrapper">
-  <h4 class="essay-heading u-reset-margins cell-t60 m-wrapper--full">
-    Essays and incomprehensible rants
-  </h4>
-  <nav class="m-wrapper--featured">
-    {% for item in collections.essaysFeed reversed %}
-    <a href="{{ item.url }}" class="card-list">
-      <h3 class="card-list__title">
-        {{ item.data.title }}
-      </h3>
-      <p class="card-list__text">
-        {{ item.data.extract }}
-      </p>
-    </a>
-    {% endfor %}
-  </nav>
-</section>
 
 {% include footer.html %}
