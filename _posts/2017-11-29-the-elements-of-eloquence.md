@@ -3,7 +3,7 @@ title: The Elements of Eloquence
 date: 2017-11-29 21:51:00 -08:00
 categories:
 - reading
-- books
+- book
 tags:
 - mark forsyth
 - book

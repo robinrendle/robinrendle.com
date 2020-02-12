@@ -4,7 +4,7 @@ date: 2017-09-10 21:26:00 -07:00
 tags:
 - writing
 - reading
-- books
+- book
 city: San Francisco
 country: California
 extract: We can’t afford to see books as art if we want to make a contribution, whatever

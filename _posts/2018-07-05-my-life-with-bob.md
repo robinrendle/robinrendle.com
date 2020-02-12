@@ -2,7 +2,7 @@
 title: My Life with Bob
 date: 2018-07-05 21:45:00 -07:00
 categories:
-- books
+- book
 tags:
 - reading
 - pamela paul

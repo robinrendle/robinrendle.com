@@ -2,7 +2,7 @@
 title: Roadside Picnic
 date: 2019-03-10 16:52:00 -07:00
 tags:
-- books
+- book
 - reading
 extract: Arkady and Boris Strugatsky’s weird and wonderful novel.
 city: San Francisco

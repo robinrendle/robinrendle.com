@@ -2,10 +2,10 @@
 title: The Library at Night
 date: 2014-01-31 13:56:00 -08:00
 categories:
-- books
+- book
 tags:
 - alberto manguel
-- books
+- book
 - reading
 - libraries
 - digital-physical

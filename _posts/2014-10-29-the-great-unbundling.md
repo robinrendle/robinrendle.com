@@ -4,7 +4,7 @@ date: 2014-10-29 05:42:00 -07:00
 tags:
 - margueritte duras
 - reading
-- bookshops
+- bookhops
 - featured
 extract: Somehow I’ve found myself in a room bustling with all the languages of Europe—they’re
   mixing out in the dusty air around me; Dutch and German, Greek and French, others

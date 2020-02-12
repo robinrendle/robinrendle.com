@@ -2,9 +2,9 @@
 title: Quickness and Detours
 date: 2014-01-01 13:21:00 -08:00
 categories:
-- books
+- book
 tags:
-- books
+- book
 - italo calvino
 - literature
 extract: In Six Memos for the Next Millennium Italo Calvino outlines all of the attributes

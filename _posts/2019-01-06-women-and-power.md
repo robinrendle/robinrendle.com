@@ -3,7 +3,7 @@ title: Women and Power
 date: 2019-01-06 16:46:00 -08:00
 categories:
 - reading
-- books
+- book
 tags:
 - Mary Beard
 city: San Francisco

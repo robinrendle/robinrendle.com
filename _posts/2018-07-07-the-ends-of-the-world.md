@@ -2,7 +2,7 @@
 title: The Ends of the World
 date: 2018-07-07 20:56:00 -07:00
 categories:
-- books
+- book
 tags:
 - Peter Brannen
 city: Emeryville

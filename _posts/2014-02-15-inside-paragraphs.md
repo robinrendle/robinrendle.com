@@ -2,12 +2,12 @@
 title: Inside Paragraphs
 date: 2014-02-15 16:34:00 -08:00
 categories:
-- books
+- book
 tags:
 - font bureau
 - cryus highsmith
 - johannes gutenberg
-- books
+- book
 - reading
 - book reviews
 extract: "“Gutenberg considered the counter space, letter space, and line space. Every

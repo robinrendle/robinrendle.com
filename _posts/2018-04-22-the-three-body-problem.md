@@ -3,7 +3,7 @@ title: The Three Body Problem
 date: 2018-04-22 16:21:00 -07:00
 categories:
 - reading
-- books
+- book
 tags:
 - Liu Cixin
 - sci-fi

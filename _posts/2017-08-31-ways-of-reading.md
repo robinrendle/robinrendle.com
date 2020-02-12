@@ -5,7 +5,7 @@ categories:
 - reading
 tags:
 - mandy brown
-- books
+- book
 extract: Mandy Brown on reading and writing.
 city: San Francisco
 country: California

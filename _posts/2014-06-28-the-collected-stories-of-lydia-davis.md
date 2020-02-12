@@ -6,7 +6,7 @@ tags:
 - lydia davis
 - travel
 - satire
-- books
+- book
 extract: "“Michel Butor says that to travel is to write, because to travel is to read.
   This can be developed further: To write is to travel, to write is to read, to read
   is to write, and to read is to travel. But George Steiner says that to translate

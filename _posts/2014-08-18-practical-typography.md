@@ -5,7 +5,7 @@ tags:
 - matthew butterick
 - practical typography
 - reading
-- books
+- book
 extract: Finishing a book in this environment feels so much more of an accomplishment
   than wrapping up a physical book, although it made for interesting reading because
   it was not written for upcoming graphic designers or art students (like the majority

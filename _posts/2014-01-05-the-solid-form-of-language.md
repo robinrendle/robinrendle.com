@@ -2,9 +2,9 @@
 title: The Solid Form of Language
 date: 2014-01-05 13:17:00 -08:00
 categories:
-- books
+- book
 tags:
-- books
+- book
 - Robert Bringhurst
 - language
 - writing

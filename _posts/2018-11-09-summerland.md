@@ -3,7 +3,7 @@ title: Summerland
 date: 2018-11-09 10:52:00 -08:00
 categories:
 - reading
-- books
+- book
 tags:
 - Hannu Rajaniemi
 city: San Francisco

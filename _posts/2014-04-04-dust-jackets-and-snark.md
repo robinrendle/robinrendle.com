@@ -2,7 +2,7 @@
 title: Dust jackets and snark
 date: 2014-04-04 15:14:00 -07:00
 tags:
-- books
+- book
 - design
 - snark
 extract: The book jackets flipped by, one after another, up on the projector in front

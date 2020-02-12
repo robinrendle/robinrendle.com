@@ -3,7 +3,7 @@ title: Madness, Rack, and Honey
 date: 2014-05-23 15:38:00 -07:00
 tags:
   - literature
-  - books
+  - book
   - Mary Ruefle
   - poetry
 extract:

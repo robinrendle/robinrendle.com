@@ -3,7 +3,7 @@ title: Jagannath
 date: 2018-04-23 21:11:00 -07:00
 categories:
 - fiction
-- books
+- book
 tags:
 - Karin Tidbeck
 extract: Karin Tidbeck’s collection of stories is a haunting and eerie delight.

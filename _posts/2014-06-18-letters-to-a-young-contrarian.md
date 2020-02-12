@@ -7,7 +7,7 @@ tags:
 - New York Times
 - Christopher Hitchens
 - reading
-- books
+- book
 extract: "“Every day, the New York Times carries a motto in a box on its front page.
   “All the News That’s Fit to Print,” it says. It’s been saying it for decades, day
   in and day out.”"
