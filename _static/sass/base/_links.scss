@@ -12,7 +12,7 @@ a {
 @mixin links() {
   &,
   a {
-    color: var(--main-theme-color);
+    color: var(--link-color);
     overflow: hidden;
     position: relative;
     z-index: 1;
@@ -21,7 +21,7 @@ a {
     &:hover,
     &:focus {
       text-decoration: none;
-      color: var(--main-theme-color);
+      color: var(--link-color);
       border: none;
     }
   }

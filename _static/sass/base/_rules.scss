@@ -3,44 +3,44 @@
 // ==========================================================================
 hr,
 hr:before {
-	user-select: none;
+  user-select: none;
 }
 
 hr,
 .hr {
-	border: none;
-	display: inline-block;
-	width: 100%;
-	padding: 0 !important;
-	margin-top: 15px;
-	margin-bottom: 32px;
-	height: 20px;
-	line-height: 1;
+  border: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0 !important;
+  margin-top: 15px;
+  margin-bottom: 32px;
+  height: 20px;
+  line-height: 1;
 
-	&:after {
-		color: var(--lighter-gray-color);
-		content: "* * *";
-		display: block;
-		margin: 0 auto;
-		text-align: center;
-		@include remCalc(font-size, 30);
-	}
+  &:after {
+    color: var(--lighter-gray-color);
+    content: "* * *";
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    @include remCalc(font-size, 30);
+  }
 }
 
 .rules--top {
-	border-top: 1px solid;
+  border-top: 1px solid;
 }
 
 .rules--bottom {
-	border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .rules--thick {
-	border-width: 3px;
+  border-width: 3px;
 }
 
 .rules {
-	border-color: var(--secondary-text-color);
+  border-color: var(--secondary-text-color);
 }
 
 .rules--dotted {
@@ -48,20 +48,20 @@ hr,
 }
 
 .rules--all {
-	border-bottom: 1px solid;
-	border-right: 1px solid;
-	border-top: 1px solid;
-	border-left: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-left: 1px solid;
 }
 
 .rules--light {
-	border-color: var(--lighter-gray-color);
+  border-color: var(--lighter-gray-color);
 }
 
 .rules--white {
-	border-color: white;
+  border-color: white;
 }
 
 .rules--transparent {
-	border-color: var(--off-white);
+  border-color: var(--off-white);
 }

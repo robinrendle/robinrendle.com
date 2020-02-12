@@ -7,7 +7,7 @@
 //
 
 .o-nav {
-	list-style: none;
+  list-style: none;
 
   @include media(">medium") {
     display: flex;
@@ -15,67 +15,67 @@
 }
 
 .o-nav__item {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 // Bullet list nav
 .o-nav--bullets {
-	.o-nav__item {
-		position: relative;
-		margin-right: 10px;
-		overflow: visible;
-		text-decoration: none;
-		background: none;
-		transition: background 0.3s ease;
+  .o-nav__item {
+    position: relative;
+    margin-right: 10px;
+    overflow: visible;
+    text-decoration: none;
+    background: none;
+    transition: background 0.3s ease;
 
     @include media("<medium") {
-      border-bottom: 1px dashed rgba(0,0,0,.1);
+      border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
       padding: 10px 0;
       display: block;
     }
 
-		@include media(">medium") {
-			margin-right: 20px;
-		}
+    @include media(">medium") {
+      margin-right: 20px;
+    }
 
-		&:hover {
-			&:after {
-				opacity: 1;
-			}
-		}
+    &:hover {
+      &:after {
+        opacity: 1;
+      }
+    }
 
-		&:after {
-			@include media(">medium") {
-				content: "•";
-				position: absolute;
-				right: -14px;
-				bottom: 0;
-				pointer-events: none;
-			}
-		}
+    &:after {
+      @include media(">medium") {
+        content: "•";
+        position: absolute;
+        right: -14px;
+        bottom: 0;
+        pointer-events: none;
+      }
+    }
 
-		&:last-of-type {
-			margin-right: 0;
-		}
+    &:last-of-type {
+      margin-right: 0;
+    }
 
-		&:last-of-type:after {
-			content: none;
-		}
+    &:last-of-type:after {
+      content: none;
+    }
 
-		&:hover {
-			&:before {
-				color: var(--secondary-text-color);
-			}
-		}
-	}
+    &:hover {
+      &:before {
+        color: var(--secondary-text-color);
+      }
+    }
+  }
 }
 
 .o-nav__item:focus {
-	outline: 1px solid var(--highlight-color) !important;
-	background-color: rgba(var(--highlight-color), 0.4);
+  outline: 1px solid var(--highlight-color) !important;
+  background-color: rgba(var(--highlight-color), 0.4);
 }
 
 .o-nav--large {
-	.o-nav__item {
-		font-size: 18px;
-	}
+  .o-nav__item {
+    font-size: 18px;
+  }
 }

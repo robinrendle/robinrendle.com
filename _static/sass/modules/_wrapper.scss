@@ -1,229 +1,24 @@
 // ==========================================================================
 // WRAPPER
 // ==========================================================================
-//
-// adds max-width
-//
 
-$_content_max-width: 680;
-$_max-width: 1050;
-$_max-width-wide: 1000;
+$_max-width: 700;
 
 .m-wrapper {
-  display: block;
+  @include remCalc(max-width, $_max-width);
+  padding: 0 15px;
   margin: 0 auto;
-  @include remCalc(max-width, $_content_max-width);
-  @include remCalc(padding, 0, 15);
-
-  @include media(">medium") {
-    padding: 0 5%;
-  }
-
-  @include media(">large") {
-    display: grid;
-    grid-gap: 25px;
-    @include remCalc(max-width, $_max-width);
-    grid-template-columns: repeat(16, 1fr);
-    @include remCalc(padding, 0, 25);
-  }
-}
-
-.m-wrapper__content,
-.m-wrapper__side {
-  margin: 0;
-
-  @include media(">large") {
-    grid-column: 1 / 12;
-  }
-}
-
-.m-wrapper__side {
-  @include media(">large") {
-    grid-column: 12 / 17;
-  }
-}
-
-figure {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-figure.m-wrapper--unpadded {
-  padding: 0 !important;
-}
-
-// This module resets all of the padding of each element so that certain elements can be
-// toggled into fullwidth much easier.
-.m-wrapper--unpadded .m-wrapper__content {
-  max-width: none;
-  padding: 0;
-
-  @include media(">large") {
-    display: grid;
-    grid-column: 1/17;
-    grid-template-columns: repeat(16, 1fr);
-  }
-
-  & > p,
-  video,
-  ul,
-  ol,
-  pre,
-  blockquote,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  & > img,
-  figure,
-  div,
-  h6,
-  hr,
-  figcaption {
-    grid-column: 1 / 17;
-
-    @include media(">medium") {
-      grid-column: 1 / 12;
-    }
-
-    @include media(">large") {
-      grid-column: 1 / 12;
-    }
-  }
-
-  .m-wrapper--full {
-    grid-column: 1/17;
-  }
 }
 
 .m-wrapper--full {
-  @include media(">large") {
-    grid-column: 1/17;
-  }
-}
-
-.m-wrapper--unpadded-wide {
-  max-width: none;
-  padding: 0;
-
-  & > p,
-  ul,
-  ol,
-  figure,
-  blockquote,
-  pre,
-  video,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-left: auto;
-    margin-right: auto;
-    @include remCalc(max-width, $_max-width-wide);
-    @include remCalc(padding, 0, 15);
-
-    @include media(">medium") {
-      padding: 0 6%;
-    }
-
-    @include media(">large") {
-      @include remCalc(padding, 0);
-    }
+  @media screen and (min-width: 767px) {
+    width: 80vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 
-  & > div {
-    // this is a hack for Codepen
-    padding: 0;
-    max-width: none;
-  }
-}
-
-.m-wrapper--unpadded {
-  .m-figure--fill {
-    @include clearfix();
-    max-width: 100%;
-
-    img {
-      @include media(">large") {
-        max-width: 79%;
-        float: right;
-      }
-    }
-
-    figcaption {
-      @include media(">large") {
-        font-size: 15px;
-        float: left;
-        margin-left: 10px;
-        width: 18%;
-        padding-top: 10px;
-        text-align: right;
-        position: relative;
-
-        &:before {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-      }
-    }
-  }
-}
-
-.airtable {
-  img {
-    filter: saturate(0);
-  }
-}
-
-.m-wrapper__projects {
-  @include remCalc(padding, 0, 15);
-  display: grid;
-  grid-column: 1/17;
-  grid-column-gap: 20px;
-  grid-row-gap: 0px;
-  grid-template-rows: repeat(1, 1fr);
-
-  @include media(">medium") {
-    padding: 0 5%;
-  }
-
-  @include media(">large") {
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.m-wrapper-blog-newsletter {
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr;
-}
-
-.m-wrapper--featured {
-  display: grid;
-  grid-gap: 25px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-
-  @include media(">large") {
-    grid-column: 1/17;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 350px;
-  }
-
-  .card-list {
-    margin: 0;
-  }
-}
-
-.essay-heading {
-  padding: 10px 0;
-
-  @include media(">medium") {
-    padding: 0 0 0 0;
+  img,
+  video {
+    width: 100%;
   }
 }

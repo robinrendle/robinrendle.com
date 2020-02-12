@@ -94,7 +94,7 @@ h4 {
     @include remCalc(font-size, 17);
     line-height: 1.3;
     @include media(">medium") {
-      @include remCalc(font-size, 17);
+      @include remCalc(font-size, 19);
     }
   }
 }

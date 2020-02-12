@@ -9,7 +9,6 @@
   @include remCalc(font-size, 16);
   @include clearfix();
   margin: 0;
-  margin-bottom: 10px;
 
   @include media(">medium") {
     @include remCalc(font-size, 19);
@@ -17,6 +16,7 @@
 }
 
 .meta-info__item {
+  @include typeface("Small caps");
   color: var(--lighter-gray-color);
   float: left;
   margin: 0;
@@ -24,7 +24,6 @@
 
   &:after {
     content: "~";
-    @include typeface("Small caps");
     display: inline-block;
     margin-left: 0px;
     margin-right: 5px;

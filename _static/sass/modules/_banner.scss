@@ -121,15 +121,15 @@
       padding: 13px 20px;
       margin: 0;
       background-color: var(--nav-about);
-      border-bottom: 1px solid #000;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.35);
       position: relative;
       left: -20px;
       width: 100%;
       width: calc(100% + 35px);
-      background-color: #111;
+      background-color: var(--main-theme-color);
 
       &:first-child {
-        border-top: 1px solid #000;
+        border-top: 1px solid rgba(0, 0, 0, 0.35);
       }
       &:last-child {
         border: none;

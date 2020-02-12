@@ -1,0 +1,57 @@
+// ==========================================================================
+// CARD-LIST
+// ==========================================================================
+
+.card-list {
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  color: var(--main-text-color);
+  transition: all 0.3s ease;
+  border-bottom: 1px solid var(--card-border);
+
+  &:first-of-type {
+    padding-top: 0;
+  }
+}
+
+a.card-list {
+  &:hover,
+  &:focus {
+    z-index: 999;
+    @include media(">large") {
+      transform: scale(1.01);
+    }
+  }
+
+  time {
+    color: #666;
+    display: block;
+    margin-bottom-top: 5px;
+  }
+}
+
+.card-list__title {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: var(--link-color);
+  transition: color 0.3s ease;
+  @include media(">large") {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+}
+
+.card-list__text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.3;
+  transition: color 0.3s ease;
+  color: #555;
+  @include media(">large") {
+    font-size: 22px;
+    line-height: 1.3;
+  }
+}
