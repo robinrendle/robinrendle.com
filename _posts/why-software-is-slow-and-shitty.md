@@ -1,7 +1,8 @@
 ---
 title: Why Software is Slow and Shitty
 date: 2020-01-19 19:08:43
-tags:
+categories: 
+  - management
 extract: Spoilers! It’s because of the way in which companies are organized.
 country: California
 city: San Francisco

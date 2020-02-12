@@ -4,6 +4,8 @@ date: 2019-07-27 11:55:39
 city: San Francisco
 country: California
 extract: And how to build an effective org.
+categories: 
+  - management
 ---
 
 I’ve been a big fan of Matthew Ström’s blog lately and his latest piece on [the management strategy that saved Apollo 11](https://matthewstrom.com/writing/distributed-decision-making/) is likewise excellent. Matthew writes:
