@@ -2,7 +2,12 @@
 // CARD-LIST
 // ==========================================================================
 
+.card-list-wrapper {
+  list-style: none;
+}
+
 .card-list {
+  list-style: none;
   display: block;
   padding-top: 25px;
   padding-bottom: 30px;
@@ -10,10 +15,6 @@
   color: var(--main-text-color);
   transition: all 0.3s ease;
   border-bottom: 1px solid var(--card-border);
-
-  &:first-of-type {
-    padding-top: 0;
-  }
 }
 
 a.card-list {

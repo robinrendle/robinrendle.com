@@ -1,0 +1,62 @@
+{% include header.html %}
+
+<div class="m-wrapper">
+  <div class="m-wrapper__content">
+    <div class="cell-t40 cell-t60--medium cell-b0">
+      <h1>Likes</h1>
+      <div class="m-longform cell-b60">
+        <p>
+          Below you’ll find a list of a few of the things I’ve favorited that
+          you might find of interest, too. I tend to
+          <a href="https://www.robinrendle.com/notes/how-to-read-the-internet"
+            >read the internet</a
+          >
+          with RSS and you can
+          <a href="https://feedbin.com/starred/aLWF-kwUgSwGZ_pDRzeM4w.xml"
+            >subscribe to these posts I like</a
+          >, or you can learn
+          <a
+            href="https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/"
+            >how to make your own feed</a
+          >
+          like this.
+        </p>
+      </div>
+    </div>
+
+    <ul class="card-list-wrapper" id="article-list"></ul>
+
+    <script>
+      const app = document.querySelector("#article-list");
+      const PROXY_URL = "https://cors-anywhere.herokuapp.com/";
+      const RSS_URL = "https://feedbin.com/starred/aLWF-kwUgSwGZ_pDRzeM4w.xml";
+      fetch(PROXY_URL + RSS_URL)
+        .then(response => response.text())
+        .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+        .then(data => {
+          const items = data.querySelectorAll("item");
+          let html = ``;
+          items.forEach(el => {
+            var url = new URL(el.querySelector("link").innerHTML);
+            html += `
+              <li>
+                <a class="card-list" href="${
+                  el.querySelector(" link").innerHTML
+                }" targett="_blank" rel="noopener">
+                  <strong class="card-list__title">
+                    ${el.querySelector("title").innerHTML}
+                  </strong>
+                  <div class="card-list__text">${url.hostname.replace(
+                    "www",
+                    ""
+                  )}</div>
+                </a>
+              </li>
+            `;
+          });
+          app.insertAdjacentHTML("beforeend", html);
+        });
+    </script>
+  </div>
+</div>
+{% include footer.html %}

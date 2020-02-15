@@ -1,9 +1,18 @@
 {% include header.html %}
 <section class="m-header m-wrapper">
   <div class="m-wrapper__content">
-    <header class="article-header">
+    <header>
       <h1>Adventures in Typography</h1>
     </header>
+    <div class="m-longform">
+      <p>
+        This is a newsletter all about typefaces and fonts (and what those words
+        mean). It’s for book nerds, typographers, neon light enthusiasts, and
+        for people who have no interest in typography whatsoever. You can
+        subscribe below for weekly-ish updates:
+      </p>
+    </div>
+    {% include newsletter.html %}
   </div>
 </section>
 
@@ -19,9 +28,6 @@
       </a>
       {% endfor %}
     </nav>
-  </div>
-  <div class="m-wrapper__side">
-    {% include newsletter.html %}
   </div>
 </section>
 

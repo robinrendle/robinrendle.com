@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addLayoutAlias("about", "layouts/about.html");
+  eleventyConfig.addLayoutAlias("likes", "layouts/likes.html");
   eleventyConfig.addLayoutAlias("essays", "layouts/essays.html");
   eleventyConfig.addLayoutAlias("default", "layouts/default.html");
   eleventyConfig.addLayoutAlias("home", "layouts/home.html");
