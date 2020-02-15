@@ -6,6 +6,8 @@ tags:
   - design
   - opentype
   - fonts
+categories: 
+  - design
 extract: And the small wonder of OpenType fonts.
 country: California
 city: San Francisco

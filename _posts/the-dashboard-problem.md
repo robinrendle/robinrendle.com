@@ -4,8 +4,8 @@ date: 2019-10-19 10:06:57
 city: San Francisco
 country: California
 extract: Or, why good product design is impossible.
-tags:
-  - featured
+categories: 
+  - design
 ---
 
 The longer I work on making large web apps, the more I get this feeling, a kind of sixth sense as I’m navigating an interface. It flickers on whenever I stare at a UI for long periods of time, and the more I pay attention to it the easier it is to see the shape of the organization that built it. Weird, huh?

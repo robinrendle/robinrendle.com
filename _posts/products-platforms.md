@@ -4,6 +4,8 @@ date: 2019-10-08 16:53:33
 city: San Francisco
 country: California
 extract: And why a design system is not a product.
+categories: 
+  - design
 ---
 
 The other evening I got to reading this old rant about and how [most companies don’t understand platforms](https://gist.github.com/chitchcock/1281611), being far too focused on building short-sighted products instead of the underlying infrastructure that ties it all together. However, the writer of this post doesn’t make the distinction between ‘platforms and products’ entirely clear, I understood a platform to be APIs, data, and overall communication between teams and codebases whereas a ‘product’ is something that customers end up seeing. Like an app, for instance.

@@ -7,6 +7,8 @@ tags:
 extract: And how to care for the community.
 country: California
 city: San Francisco
+categories: 
+  - web design
 ---
 
 I love this piece by Steve Klabnik on [how to care for an open source community](https://words.steveklabnik.com/how-to-be-an-open-source-gardener). He writes:

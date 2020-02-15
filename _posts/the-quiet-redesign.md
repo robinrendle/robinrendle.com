@@ -5,6 +5,8 @@ tags: redesign
 extract: And how to improve things bit by bit.
 country: California
 city: San Francisco
+categories: 
+  - blog
 ---
 
 Earlier this week I flew down to a friend’s home in Anaheim for Thanksgiving and, in between home made apple pies and far too much turkey, I found time to update the design of this ol’ place a bit. Now I’m using Klim Type’s [Söhne](https://klim.co.nz/collections/soehne/) for headings and the ever-so-lovely [Newzald](https://klim.co.nz/retail-fonts/newzald/) for body copy and blockquotes. The new design is _extremely_ first year graphic design student: everything is black with that giant sans and it all says “hello, yes, I’m moving to New York!” (Although I’m not.)

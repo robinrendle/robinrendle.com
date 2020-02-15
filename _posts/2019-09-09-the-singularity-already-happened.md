@@ -4,6 +4,8 @@ date: 2019-09-09 11:33:33
 city: Portland
 country: Oregon
 extract: Tim Maly on the devil we fear versus the one we face.
+categories: 
+  - science
 ---
 
 Tim Maly compares the rampant and illogical fear of the emergence of AI with [the real threat of corporations](http://quietbabylon.com/tim-maly/):

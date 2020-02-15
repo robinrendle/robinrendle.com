@@ -4,6 +4,8 @@ date: 2020-02-01 11:00:38
 extract: This place is not in favor of you.
 country: California
 city: San Francisco 
+categories: 
+  - video games
 ---
 
 The cliff unfurls in all directions; from inside the truck I stretch to look upwards and find myself before a teetering skyscraper made of rubble, unending and all-consuming. This thing gobbles up the sky and must be visible from every angle for a hundred miles around. So it must be impossible to bump into it at the last second and be surprised by its very—HOW on EARTH did I miss this giant bastard on the map? 

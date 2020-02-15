@@ -6,6 +6,8 @@ tags:
   - radioactivity
   - book
   - reading
+categories: 
+  - book
 extract: Robert McFarlane and the dangers of radioactive waste.
 country: California
 city: San Francisco

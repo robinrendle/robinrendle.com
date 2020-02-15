@@ -4,6 +4,8 @@ date: 2019-11-08 15:13:11
 city: San Francisco
 country: California
 extract: And why our attention is precious.
+categories: 
+  - personal
 ---
 
 > If habits define identity, then given the amount of time so many of us devote to reloading Twitter, opening Netflix, checking reddit, et cetera, are most of our identities that of media addict?

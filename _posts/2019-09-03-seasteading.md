@@ -4,6 +4,8 @@ date: 2019-09-03 10:51:23
 city: San Francisco
 country: California
 extract: Charlie Lloyd on the vast scale of our shared infrastructure.
+categories: 
+  - science
 ---
 
 I just finished reading this excellent rant by Charlie Lloyd all about [the vast scale of our shared infrastructure](https://tinyletter.com/vruba/letters/6-3-seasteading) where he writes:

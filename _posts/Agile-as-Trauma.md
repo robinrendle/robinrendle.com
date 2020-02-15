@@ -1,7 +1,7 @@
 ---
 title: Agile as Trauma
 date: 2020-02-12 13:40:43
-categories: 
+categories:
   - management
 extract: Dorain Taylor on software development.
 country: California

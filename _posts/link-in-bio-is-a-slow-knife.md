@@ -8,6 +8,8 @@ tags:
 extract: Anil Dash on hyperlinks and social networks.
 country: California
 city: San Francisco 
+categories: 
+  - design
 ---
 
 Anil Dash writing about how Instagram is controlling behavior by [limiting the use of hyperlinks](https://anildash.com/2019/12/10/link-in-bio-is-how-they-tried-to-kill-the-web/):

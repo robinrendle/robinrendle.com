@@ -4,6 +4,8 @@ date: 2019-09-29 21:20:00
 city: San Francisco
 country: California
 extract: And the art of fucking things up.
+categories: 
+  - personal
 ---
 
 I’ve been going to the gym every day for the past three months and I’m finally starting to enjoy myself. Although yes I’m still technically obese, and I’m taking pictures of my physical progress as I go this time, it’s not really about losing the weight. It’s not like the last time.

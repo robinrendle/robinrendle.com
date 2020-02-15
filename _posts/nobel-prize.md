@@ -4,6 +4,8 @@ date: 2019-10-17 21:29:56
 city: San Francisco
 country: California
 extract: And how science really works.
+categories: 
+  - science
 ---
 
 [Ed Yong](https://www.theatlantic.com/science/archive/2017/10/the-absurdity-of-the-nobel-prizes-in-science/541863/):

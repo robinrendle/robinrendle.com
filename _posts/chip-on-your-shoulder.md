@@ -4,6 +4,8 @@ date: 2019-10-26 11:32:47
 city: San Francisco
 country: California
 extract: And how to be a terrible writer.
+categories: 
+  - publishing
 ---
 
 I’ve been reading [Chip Scanlan’s newsletter](https://www.chipswritinglessons.com/newsletter/) for the past couple of weeks now and I adore it. With each issue he looks at the writing process, at what works for him and other popular writers, and then he digs into a few stories. 

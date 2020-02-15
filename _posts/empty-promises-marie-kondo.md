@@ -6,6 +6,8 @@ tags:
 extract: And the infrastructure we cannot see.
 country: California
 city: San Francisco
+categories: 
+  - personal
 ---
 
 Kyle Chayka on [the empty promise of minimalism](http://www.theguardian.com/lifeandstyle/2020/jan/03/empty-promises-marie-kondo-craze-for-minimalism) and our obsession with it all:

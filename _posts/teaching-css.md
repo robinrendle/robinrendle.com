@@ -4,6 +4,8 @@ date: 2019-12-01 22:40:18
 extract: Rachel Andrew on learning the language.
 country: California
 city: San Francisco
+categories: 
+  - web design
 ---
 
 Rachel Andrew has written all about her career [helping developers learn CSS](https://css-tricks.com/teaching-css/):

@@ -5,6 +5,8 @@ tags: css-tricks, front-end development, web design
 extract: A collection of thoughts from the CSS-Tricks community.
 country: California
 city: San Francisco
+categories: 
+  - web design
 ---
 
 Over on CSS-Tricks, Chris asked a ton of web designers and developers [what interested them this year when it comes to building websites](https://css-tricks.com/category/2019-end-of-year-thoughts/) and the results are lovely! The overwhelming amount of positivity and charm in these posts reminds me of the Old Web when we all felt like that we were contributing to something grand together, as [Eric Bailey writes](https://css-tricks.com/what-the-web-still-is/):

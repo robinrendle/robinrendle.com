@@ -6,6 +6,8 @@ tags:
 extract: Eric Meyer and the joke that got him in big trouble.
 country: California
 city: San Francisco
+categories: 
+  - web design
 ---
 
 I love [this story from Eric Meyer](https://meyerweb.com/eric/thoughts/2020/01/01/cwru2k/) about building a website that looks as if it was from the 1900s and almost getting fired in the process:

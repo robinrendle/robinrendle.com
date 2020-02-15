@@ -5,6 +5,8 @@ tags: JB
 extract: What does success really look like?
 country: California
 city: San Francisco
+categories: 
+  - personal
 ---
 
 _What does success look like?_ I asked him in the dim light. A jazz band was playing on the mezzanine behind us and I was slumped at the bar in a half-drunken stupor, moaning triumphantly about everything. I whined about how I’d trained myself to see likes, faves, retweets, and hearts as the measure of my life. And how I’d spent the best part of a decade looking at the rectangle in my pocket light up with recognition; I had scrolled endlessly through feeds looking for myself, waiting for attention that, when it came, it always felt a little cold. A little hollow.

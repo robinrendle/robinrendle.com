@@ -4,6 +4,8 @@ date: 2019-11-07 09:13:33
 city: San Francisco
 country: California
 extract: And how you can help your design system today. 
+categories: 
+  - design
 ---
 
 Giving advice about design systems is almost impossible. Every team and codebase is wildly different from one another and what works for one company *now* might not work for the same company in the near future. I’ve noticed this at Gusto too, where lessons that I learned in the very beginning no longer apply to what our team has become.
