@@ -9,12 +9,17 @@
 .card-list {
   list-style: none;
   display: block;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
   border-radius: 5px;
   color: var(--main-text-color);
   transition: all 0.3s ease;
   border-bottom: 1px solid var(--card-border);
+
+  @include media(">medium") {
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
 }
 
 a.card-list {
@@ -34,14 +39,14 @@ a.card-list {
 }
 
 .card-list__title {
-  font-size: 18px;
+  font-size: 21px;
+  line-height: 1.1;
   margin-top: 5px;
   margin-bottom: 0;
   color: var(--link-color);
   transition: color 0.3s ease;
   @include media(">large") {
     font-size: 24px;
-    line-height: 1.1;
   }
 }
 

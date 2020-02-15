@@ -7,7 +7,11 @@
     </div>
 
     {% for item in collections.blogposts reversed %}
-    <a class="card-list" href="{{ item.url }}">
+    <a
+      class="card-list"
+      href="{{ item.url }}"
+      data-category="{% for category in item.data.categories %}{{ category }}{% endfor %}"
+    >
       <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">
         {{ item.data.date | date: "%m/%d/%y" }}
       </time>
