@@ -6,20 +6,21 @@
       <h1>Likes</h1>
       <div class="m-longform cell-b60">
         <p>
-          Below you’ll find a list of a few of the things I’ve favorited that
-          you might find of interest, too. I tend to
+          Below you’ll find a list of a few of the things I’ve favorited in
+          <a href="https://feedbin.com">Feedbin</a> that you might find of
+          interest, too. I tend to
           <a href="https://www.robinrendle.com/notes/how-to-read-the-internet"
             >read the internet</a
           >
           with RSS and you can
           <a href="https://feedbin.com/starred/aLWF-kwUgSwGZ_pDRzeM4w.xml"
             >subscribe to these posts I like</a
-          >, or you can learn
+          >, also here’s how to make
           <a
             href="https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/"
-            >how to make your own feed</a
+            >your own feed</a
           >
-          like this.
+          like this if you are so inclined.
         </p>
       </div>
     </div>
@@ -43,9 +44,9 @@
                 <a class="card-list" href="${
                   el.querySelector(" link").innerHTML
                 }" targett="_blank" rel="noopener">
-                  <strong class="card-list__title">
+                  <h2 class="card-list__title">
                     ${el.querySelector("title").innerHTML}
-                  </strong>
+                  </h2>
                   <div class="card-list__text">${url.hostname.replace(
                     "www",
                     ""
