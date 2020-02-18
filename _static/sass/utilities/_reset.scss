@@ -5,20 +5,20 @@
 *,
 *:after,
 *:before {
-	-ms-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /* Fix font rendering defaults */
 button,
 html {
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-	font-size: 100%;
+  font-size: 100%;
 }
 
 a,
@@ -101,8 +101,8 @@ u,
 ul,
 var,
 video {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /* IE fixes for HTML5 elements */
 article,
@@ -118,27 +118,27 @@ menu,
 nav,
 section,
 summary {
-	display: block;
+  display: block;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 caption,
 td,
 th {
-	text-align: left;
-	font-weight: normal;
-	vertical-align: middle;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
 }
 
 b,
 mark,
 strong {
-	font-weight: bold;
-	font-style: inherit;
+  font-weight: bold;
+  font-style: inherit;
 }
 
 address,
@@ -147,43 +147,43 @@ em,
 i,
 q,
 var {
-	font-style: italic;
-	font-weight: inherit;
+  font-style: normal;
+  font-weight: inherit;
 }
 
 a,
 ins,
 u {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 code,
 kbd,
 pre,
 samp {
-	font-family: monospace;
+  font-family: monospace;
 }
 
 iframe {
-	width: 100%;
+  width: 100%;
 }
 
 a {
-	outline: none;
+  outline: none;
 }
 
 img {
-	max-width: 100%;
-	height: auto;
-	border: none;
+  max-width: 100%;
+  height: auto;
+  border: none;
 }
 
 input,
 select,
 textarea {
-	font: inherit;
+  font: inherit;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
 }

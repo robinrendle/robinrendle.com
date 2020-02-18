@@ -2,7 +2,7 @@
   font-family: "Caponi Display";
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  font-display: fallback;
   src: url("/fonts/caponi-display.woff2") format("woff2"),
     url("/fonts/caponi-display.woff") format("woff");
 }
