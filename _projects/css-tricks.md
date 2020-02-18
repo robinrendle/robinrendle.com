@@ -50,5 +50,3 @@ Here are a couple of demos I’ve made whilst I was writing and researching thos
 ## The Weekly Newsletter
 
 Currently I spend most of my time writing [the weekly newsletter](http://css-tricks.com/newsletter) which collects everything that was posted on the website during the week and then wrap things up with a comment about what I’ve been learning about that week. Sometimes it’s about code, but it’s often about topics that are related to front-end development, such as managing large teams of front-end engineers.
-
-Collaborating with Chris and a few other guest writers for the newsletter, we’ve grown it from zero subscribers to more than 32,000 which is sort of scary, intimidating and exciting all at the same time.

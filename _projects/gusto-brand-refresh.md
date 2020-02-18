@@ -2,7 +2,7 @@
 title: The Gusto Brand Refresh
 date: 2019-08-19 16:12:11
 tags:
-  - project
+  - work
 dateRange: April – July 2019
 subtitle: Refactoring Gusto’s web app in preparation for the beautiful new brand.
 extract: "<p>Rebranding the Gusto web app required our small team to refactor dozens of React components, hundreds of pages, as well as update our type styles, icons, illustrations, and fonts. With this project we finally established the Design Systems team as being one of the fastest and most progressive teams at Gusto. And we built something rather lovely in the process, too.</p>"
