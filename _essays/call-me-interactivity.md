@@ -1,16 +1,7 @@
 ---
 title: Call Me Interactivity
 date: 2012-03-10 15:40:00 -08:00
-tags:
-  - book design
-  - design
-  - book reviews
-  - interface
-  - reading
-  - digital-physical
-  - interactivity
 layout: default
-hero:
 aside:
   The image above is provided courtesy of <a href="http://www.nicksherman.com">Nick
   Sherman</a>. Care to read more about the wonderful typography within? Head on over

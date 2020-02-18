@@ -1,11 +1,9 @@
 ---
 title: A Visual Lexicon
 date: 2013-12-20 06:35:00 -08:00
-tags:
-- design
-- css
 layout: essays/visual-lexicon
-extract: For the past six months I’ve been taking a good look at how designers and
+extract:
+  For the past six months I’ve been taking a good look at how designers and
   developers communicate with one another, jotting down the problems as I go.  The
   systems that have cropped up in between are fascinating but I believe they could
   be better if we examine our use of language.
@@ -24,7 +22,7 @@ The alphabetic comrades that accompany these letters are all different as well; 
     </figcaption>
 </figure>
 
-To reveal the whole system though, a true typomaniac will often bring similar alphabets and faces together side by side. This trains the eye to detect the inner secrets and methods, the logic that went into the construction. Shapes become blotches of negative space, as if the alphabet was carved out of marble, and since then, the first letter, that Colossus that swooped up your attention in the first place, he too, now looks regular and uniform — *almost obvious* in hindsight.
+To reveal the whole system though, a true typomaniac will often bring similar alphabets and faces together side by side. This trains the eye to detect the inner secrets and methods, the logic that went into the construction. Shapes become blotches of negative space, as if the alphabet was carved out of marble, and since then, the first letter, that Colossus that swooped up your attention in the first place, he too, now looks regular and uniform — _almost obvious_ in hindsight.
 
 <figure class="figure--wide">
     <img class="figure--wide__img" src="/images/essays/visual-lexicon/a-diagram.png" alt="Comparing the similarities between two sans-serif typefaces"/>
@@ -34,7 +32,7 @@ To reveal the whole system though, a true typomaniac will often bring similar al
     </figcaption>
 </figure>
 
-You learn how the smallest decisions can have surprising implications on the rest of the alphabet. An *a* is an *a* is an *a* except that you can now describe the various differences between them. X-height, contrast, descenders, terminals and stroke width become the trusted words in your vocabulary and so all of your friends now think you’ve become terribly smart. This leads to books, articles, even real life discussions where you debate the time and location in which that particular alphabet was designed.
+You learn how the smallest decisions can have surprising implications on the rest of the alphabet. An _a_ is an _a_ is an _a_ except that you can now describe the various differences between them. X-height, contrast, descenders, terminals and stroke width become the trusted words in your vocabulary and so all of your friends now think you’ve become terribly smart. This leads to books, articles, even real life discussions where you debate the time and location in which that particular alphabet was designed.
 
 You read the names of type designers and typographers hidden in countless rows and fields of metadata (but you want the originals, not the remixes). Yet when you try to connect their relationships with one another you find that there are simply too many of them. If an entire life was devoted to the work of [Moris Fuller Benton](http://en.wikipedia.org/wiki/Morris_Fuller_Benton), his typefaces would still somehow manage to creep up from their gloomy hiding places for so many decades after.
 
@@ -73,7 +71,7 @@ Through centuries of public scrutiny the field of type design developed an enorm
 
 Through [this vocabulary](http://typeanatomy.com/) typographers and designers learned how to communicate their hopes, their dreams and aspirations. They pushed back against certain trends or held dearly onto a particular style. In this way the vocabulary enabled them to argue or bicker and as you’ve joined their ranks you can glimpse at how these words empowered them over time.
 
-***
+---
 
 <p>In contrast, the same cannot be said for the web. Our vocabulary seems horrifically stunted in comparison, just try to jot down the popular words and phrases that our industry recruits from day to day and look at them for a moment. It’s a depressing exercise, isn’t it? When we discuss this structure of the web – specifically the visual systems made up of <abbr title="Cascading stylesheets">CSS</abbr> – how do developers and designers describe the various components within? How do we name these things and how can members of a team truly see these systems if they cannot communicate effectively?</p>
 
@@ -90,6 +88,7 @@ Although, what’s funny about this debate is that it’s been going on for hund
 </figure>
 
 ## From margins to proton packs
+
 By looking at the words that other fields employ we can begin to notice how design (and specifically constructing large visual systems for the web) is lagging behind in this regard. And I’ve been thinking about this for a long time, wondering how our use of language impedes our vision, how our language obfuscates our ability to engineer complex front-end systems for the web. So it’s become a source of obsession for me now, but I continuously draw lines between this extract by Tim Brown and our various communication problems:
 
 <figure class="blockquote--large">
@@ -105,7 +104,7 @@ That uncomfortable sensation of ‘manipulating shadows’ is one which I’ve b
 
 The ‘visualizing’ part of Tim’s description in the extract above sure is interesting though. How many times has a visual feature (such as a button or list style, a typographic detail or a gradient) rendered beautifully on a desktop browser but has become unusable on a mobile device? You might argue that this is simply because a developer couldn’t see both devices at the same time. You might argue that the solution then would be brighter, shinier tools. Applications such as [Ghostlab](http://vanamco.com/ghostlab/) and [Duo](http://helloduo.com/), whereby developers and designers can visualize these problems across the vast spectrum of available devices, let us see our complex visual systems at work and it’s impossible to argue to the contrary.
 
-Yet “*visualizing a tesseract*” is an incorrect summary of the problem in some ways. Instead I believe that designing for the web is more like *describing* a tesseract. Then detailing another that’s slightly unrelated, and yet another, and then another again (this one being unalike in situations X and Y but not in Z). These half baked descriptions of components, such as text fields, forms, buttons and grid systems, pass amongst the members of a team like a game of telephone until half way through the project we begin to find that, instead of a well documented, modular system, all we’re left with is a bucket full of useless tesseracts.
+Yet “_visualizing a tesseract_” is an incorrect summary of the problem in some ways. Instead I believe that designing for the web is more like _describing_ a tesseract. Then detailing another that’s slightly unrelated, and yet another, and then another again (this one being unalike in situations X and Y but not in Z). These half baked descriptions of components, such as text fields, forms, buttons and grid systems, pass amongst the members of a team like a game of telephone until half way through the project we begin to find that, instead of a well documented, modular system, all we’re left with is a bucket full of useless tesseracts.
 
 <figure>
     <img class="figure--wide__img" src="/images/essays/visual-lexicon/tesseract.png" alt="An illustration of a tesseract" />
@@ -113,21 +112,21 @@ Yet “*visualizing a tesseract*” is an incorrect summary of the problem in so
 
 The designers, developers and project managers soon possess nothing more than the vaguest idea as to how each component works and how they can be modified for future use. Our naming conventions for these modules then tumble into abstraction or become too strict to be utilised for any other purpose. Obviously these problems have enormous implications on efficiency in the long run but can even bounce off into the real world, strengthening those negative bonds between individual team members.
 
-
 ## Constants and variables
+
 During the course of a recent project I noticed how our team had forked into two separate camps. It felt as if developers were working on creating a maintainable, future-proof system and the designers were pulling us in the opposite direction. Whenever we received a handover with adjustments or full-blown redesigns of a component our developers would noticeably twitch with questions. But these weren’t technical issues, mind you.
 
 I’d often receive a series of mockups with a short description alongside a picture of a component – perhaps with variations as to how it would look at assorted stages in our grid system, or maybe how it would work on a specific template. Yet developers obviously need so much more information about a component than what a static, lifeless image can provide us. For example:
 
-- Under what circumstances must this new component (whether it’s a button, form, logo, type setting, whatever), look like this picture? This is the *idealised* version of what this component does; it’s a naive, Utopian snapshot of the design.
+- Under what circumstances must this new component (whether it’s a button, form, logo, type setting, whatever), look like this picture? This is the _idealised_ version of what this component does; it’s a naive, Utopian snapshot of the design.
 - Does this component have modifiers? Say a different color, an alternative shape or a background that an editor might change?
-- And of course, most importantly: *what is the name of this thing and what does it do?*
+- And of course, most importantly: _what is the name of this thing and what does it do?_
 
 Most of the time designers can’t answer these questions at this stage in the process. They’ve worked on one component but have yet to fully grasp the extent of such a large and complex system. Adjustments to the design, and consequently refactoring the codebase, is inevitable then in the early stages. Likewise it would be utter madness for designers to create mockups of every browser rendering, every possible user condition that this information might be filtered through and experienced by. Nevertheless, I felt that our visual and technical systems were colliding with one another, making an awful lot of mess, and I believe that the source of this trouble was with how we named those components.
 
-
 ### The dreaded alt
-Let’s take, for example, a developer that wants to add a new modifier to this project. The designer has handed over a picture of a listing style and so the developer must name this new *thing*. What should they do? Well, the first rule is probably to stick with the pre-existing conventions of the front-end system. In this case they ought to use the [Block Element Modifier](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) syntax that we had all agreed upon in the early stages of development. But the <abbr title="Block Element Modifier">BEM</abbr> formatting rules can sometimes lead to class names such as this in our <abbr title="Cascading Style Sheets">CSS</abbr>:
+
+Let’s take, for example, a developer that wants to add a new modifier to this project. The designer has handed over a picture of a listing style and so the developer must name this new _thing_. What should they do? Well, the first rule is probably to stick with the pre-existing conventions of the front-end system. In this case they ought to use the [Block Element Modifier](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) syntax that we had all agreed upon in the early stages of development. But the <abbr title="Block Element Modifier">BEM</abbr> formatting rules can sometimes lead to class names such as this in our <abbr title="Cascading Style Sheets">CSS</abbr>:
 
     .list--ticked-alt {
         @extend .cf;
@@ -135,7 +134,7 @@ Let’s take, for example, a developer that wants to add a new modifier to this 
         width: percentage(25/100);
     }
 
-What does an *alt* do in this situation? Surely the developer could have plenty of comments here to describe their motives but it doesn’t avoid the fact that this is a terrible name for a component. If the *alt* only changes the color then we probably should have specifically added ‘color’ and ‘red’ or ‘blue’ into the class name itself. If it’s a geometric modifier then we should have used ‘shape’ and ‘square’ instead. Or, if *alt* does more than one thing then we should [break it apart](http://en.wikipedia.org/wiki/Single_responsibility_principle) and use multiple modifiers to increase the flexibility of this system overall.
+What does an _alt_ do in this situation? Surely the developer could have plenty of comments here to describe their motives but it doesn’t avoid the fact that this is a terrible name for a component. If the _alt_ only changes the color then we probably should have specifically added ‘color’ and ‘red’ or ‘blue’ into the class name itself. If it’s a geometric modifier then we should have used ‘shape’ and ‘square’ instead. Or, if _alt_ does more than one thing then we should [break it apart](http://en.wikipedia.org/wiki/Single_responsibility_principle) and use multiple modifiers to increase the flexibility of this system overall.
 
 <figure class="figure--bg-black figure--wide">
     <img class="figure--wide__img" src="/images/essays/visual-lexicon/code-fork.png" alt="An illustration of how a component becomes less maintainable over time" />
@@ -152,7 +151,7 @@ Thanks to the size of this project – combined with the stress of multiple team
 
 <p class="text__voice text__voice--dark">“Yeah, this one right here. This should have 10px padding on that page. And this type of thing ought to have rounded corners of four pixels but only when&hellip;”</p>
 
-Wait – what do you mean *this thing?* Surely it must have a name! This component serves a unique purpose, especially since our modular, component based system in Sass is entirely dependent upon some kind of naming convention. We have a buttons.scss module that styles the buttons and our various list styles are contained within the lists.scss file. Any change to these defaults and we have to create modifiers which then, of course, **must be named**.
+Wait – what do you mean _this thing?_ Surely it must have a name! This component serves a unique purpose, especially since our modular, component based system in Sass is entirely dependent upon some kind of naming convention. We have a buttons.scss module that styles the buttons and our various list styles are contained within the lists.scss file. Any change to these defaults and we have to create modifiers which then, of course, **must be named**.
 
 It was impossible to blame the designer in this situation, as it was my own fault to begin with. I’d been handed a picture, turned it into a component with an absurdly opaque description and never told the design team about it. So the conversations between our teams began to fall into endlessly repeating loops with problems that should have been identified much sooner. This sort of discussion took place dozens of times unnecessarily:
 
@@ -171,7 +170,7 @@ In this instance the designer couldn’t see how flexible the codebase was and t
     </figcaption>
 </figure>
 
-Our problems can’t be solved by more frequent handovers or highly documented and refined mockups then. Neither detailed code reviews or designers learning how to code will help much in this regard either. But these sorts of problems only seem to reveal themselves in large, responsive projects with multiple developers, designers and share holders all tugging in different directions, all trying to make the project *their thing* instead of *our thing*.
+Our problems can’t be solved by more frequent handovers or highly documented and refined mockups then. Neither detailed code reviews or designers learning how to code will help much in this regard either. But these sorts of problems only seem to reveal themselves in large, responsive projects with multiple developers, designers and share holders all tugging in different directions, all trying to make the project _their thing_ instead of _our thing_.
 
 They only appear when our language is forked.
 
@@ -183,15 +182,15 @@ They only appear when our language is forked.
     </figcaption>
 </figure>
 
-This barrier between design and development wasn’t caused by a developer having superior technical literacy, or because a designer had a greater sensitivity to color, shape, or form. In fact, *it had everything to do with our vocabulary*. So we couldn’t communicate with one another because we hadn’t established a common ground. The designers were too busy mocking up new components and worrying about UX to understand how all of the various jigsaw pieces could be combined. Whilst developers on the other hand were too busy writing mixins and focusing on performance issues to really scrutinise each design document and wireframe.
+This barrier between design and development wasn’t caused by a developer having superior technical literacy, or because a designer had a greater sensitivity to color, shape, or form. In fact, _it had everything to do with our vocabulary_. So we couldn’t communicate with one another because we hadn’t established a common ground. The designers were too busy mocking up new components and worrying about UX to understand how all of the various jigsaw pieces could be combined. Whilst developers on the other hand were too busy writing mixins and focusing on performance issues to really scrutinise each design document and wireframe.
 
 This problem bled into every facet of the project; it led to modules being thrown out of the internal review process multiple times unnecessarily, it led to rampant frustration within the team and components having to be refactored before we understood just how flexible some of these styled objects needed to be.
 
-
 ## The semantic handover
+
 Many continue to revive the now tired and worn out question of asking whether designers, writers, journalists or project managers ought to learn how to code. But is it not incredibly inefficient for everyone on a project to learn every minute detail of the codebase?
 
-In reality those key members of the team *only need to see* the effects of adding or subtracting code from the system. Designers don’t need to parse every intricate detail of SVG animations but they ought to understand the effects of adding a new font-size or a new color. In other words they ought to be sharing the same vocabulary as developers and clients during this process.
+In reality those key members of the team _only need to see_ the effects of adding or subtracting code from the system. Designers don’t need to parse every intricate detail of SVG animations but they ought to understand the effects of adding a new font-size or a new color. In other words they ought to be sharing the same vocabulary as developers and clients during this process.
 
 All of the problems I mentioned (as well as all those affiliated with responsive design in general) suggest to me that we need living, breathing descriptions of these components in order to help us clarify their objectives; what they do, how they work and why they fit into the rest of this complex system. In this way it could be said that we need visual dictionaries, the likes of which Dr Samuel Johnson would be proud.
 
@@ -203,13 +202,13 @@ All of the problems I mentioned (as well as all those affiliated with responsive
     </figcaption>
 </figure>
 
-When a designer greets a front-end developer with a new component they should be able to point into this system, give the module a name and the variables that can be changed, documenting the various differences between *this thing* and *that thing* along the way. This is because design isn’t primarily about aesthetics (especially on the web). **Design is about what things mean.** It’s about how these components relate to one another and unfortunately those static mockups just don’t cut it anymore.
+When a designer greets a front-end developer with a new component they should be able to point into this system, give the module a name and the variables that can be changed, documenting the various differences between _this thing_ and _that thing_ along the way. This is because design isn’t primarily about aesthetics (especially on the web). **Design is about what things mean.** It’s about how these components relate to one another and unfortunately those static mockups just don’t cut it anymore.
 
-***
+---
 
 I believe that the solution is made up of a variety of tools that encourage conversation and improve our shared lexicon. Tools such as styleguides, pattern libraries, elemental and modular systems that encourage access not only by developers, but by designers, shareholders and editors as well. We need visual interfaces, like this fantastic [pattern library by Mailchimp](http://ux.mailchimp.com/patterns), to help us create better front-end interfaces that are more flexible and maintainable in the long run.
 
-These libraries ought to be generated automatically and they should remind developers to document almost everything that they write. These libraries (accessible via a URL and not bundled into an Adobe app) should help us name other modules too. I believe that this means the team even ought to implement these components into the styleguide before *anything* touches the local dev environment.
+These libraries ought to be generated automatically and they should remind developers to document almost everything that they write. These libraries (accessible via a URL and not bundled into an Adobe app) should help us name other modules too. I believe that this means the team even ought to implement these components into the styleguide before _anything_ touches the local dev environment.
 
 Tools such as [Kalei](http://kaleistyleguide.com/#/style/fixie-demo.css), [Sassdown](https://github.com/nopr/sassdown) and [Pattern Lab](http://pattern-lab.info/) only hint at the various possibilities afforded to us by these tools. Regardless of their delightful utility however, these apps and interfaces are entirely useless if we stick to the status quo and bumble on as we have – ignoring these semantic and communication problems at the very heart of our work.
 

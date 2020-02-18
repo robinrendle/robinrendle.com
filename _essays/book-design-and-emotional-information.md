@@ -1,10 +1,6 @@
 ---
 title: Book design and emotional information
 date: 2011-09-21 14:12:00 -07:00
-tags:
-  - book design
-  - design
-  - book reviews
 layout: default
 hero: "/uploads/the-greatest-show-on-earth.jpg"
 extract:

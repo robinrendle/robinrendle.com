@@ -2,10 +2,7 @@
 title: Bookmarking
 date: 2013-01-20 05:08:00 -08:00
 tags:
-  - book design
-  - internet of things
-  - book reviews
-  - digital-physical
+  - design
 hero: "/uploads/marking.jpg"
 layout: default
 extract:

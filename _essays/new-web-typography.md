@@ -1,14 +1,11 @@
 ---
 title: The New Web Typography
 date: 2016-02-21 16:00:00 -08:00
-tags:
-- design
-- css
-- jan tschichold
 extract: How should we go about making rules for typesetting on the web?
 city: Plymouth
 country: UK
-intro: We can trace a nervous path through the links and hearts that occupy our timelines.
+intro:
+  We can trace a nervous path through the links and hearts that occupy our timelines.
   In search of answers, we’ve peeked under the covers of Material Design and examined
   hundreds of pattern libraries, since one of them might be secretly withholding the
   principles of good design within. But why are we obsessed with typographic rules?
@@ -313,46 +310,47 @@ First, the typographic frailties to be found in the _programming_ of these desig
 }
 
 @media screen and (min-width: 1200px){
-    .Chartable {
-        margin: 0 auto;
-    }
+.Chartable {
+margin: 0 auto;
+}
 }
 .Chartable-svg {
-  position: relative;
-  display: block;
-  width: 100%;
-  max-width: 100%;
+position: relative;
+display: block;
+width: 100%;
+max-width: 100%;
 }
 .Chartable-line {
-  fill: none;
+fill: none;
 }
 .Chartable-area {}
 .Chartable-rules {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
 }
 .Chartable-rule {
-  position: absolute;
-  width: 100%;
-  border-top-width: 1px;
-  border-top-style: dotted;
-  border-color: rgba(0,0,0,.2);
+position: absolute;
+width: 100%;
+border-top-width: 1px;
+border-top-style: dotted;
+border-color: rgba(0,0,0,.2);
 }
 .Chartable-label {
-    color: #bbb;
-    font-family: Georgia, serif;
-    font-size: 15px;
+color: #bbb;
+font-family: Georgia, serif;
+font-size: 15px;
 }
 
 .wf-active .Chartable-label,
 .wf-active .Chartable-title,
 .wf-active .Chartable-text {
-    font-family: "Nocturno Regular 26", Georgia, serif;
+font-family: "Nocturno Regular 26", Georgia, serif;
 }
 </style>
+
 <div class="Chartable-rules">
   <div style="top:240px" class="Chartable-rule">
     <div class="Chartable-label">30</div>
@@ -379,6 +377,7 @@ First, the typographic frailties to be found in the _programming_ of these desig
           <h4>Specificity Graph</h4>
           <p>Base 10 specificity score for each selector by source order. Generally, lower scores and flatter curves are better for maintainability. Source: <a href="http://cssstats.com">CSS Stats</a></p>
       </figcaption>
+
   </figure>
 
 </div>
