@@ -13,7 +13,7 @@ country: UK
 
 <ol>
     <li>
-        <p>Much like a blog post, an article, or a book, you don’t need to show your entire life’s work to validate your ideas. It’s not really necessary to talk about that complex relationship that you have with your father and the name of your oh so cool (but chubby) cat that you’ve had since high school. Keep your biography at the beginning to a sentence or two and move things along as briskly as possible.</p>
+        <p>Much like a blog post, an article, or a book, you don’t need to show your entire life’s work to validate your ideas. It’s not really necessary to talk about that complex relationship that you have with your father and the name of your oh so cool cat that you’ve had since high school. Keep your biography at the beginning to a sentence or two and move things along as briskly as possible.</p>
     </li>
     <li>
         <p>Apologising for your talk, your slides, your accent, or even your appearance is the most efficient method of making your audience feel uncomfortable: If you suck at something, or if you feel like your presentation is off, fix it.</p>
