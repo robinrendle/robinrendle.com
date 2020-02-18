@@ -1,6 +1,5 @@
 ---
 title: Morris Fuller Benton
-tags: morris fuller benton, franklin gothic
 date: 2018-08-18
 ---
 
