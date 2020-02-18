@@ -12,7 +12,7 @@
     "build": "gulp build & eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^0.10.0",
     "browser-sync": "^2.26.5",
     "fontfaceobserver": "^1.5.4",
     "gulp": "^4.0.0",
