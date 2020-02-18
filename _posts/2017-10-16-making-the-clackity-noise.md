@@ -1,9 +1,8 @@
 ---
 title: Making the Clackity Noise
 date: 2017-10-16 20:47:00 -07:00
-categories:
-- links
-- featured
+tags:
+- link
 city: San Francisco
 country: California
 extract: To treat that “What’s Happening” input as a free and open text editor, to

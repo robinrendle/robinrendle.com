@@ -1,10 +1,8 @@
 ---
 title: The Ledger
 date: 2018-01-08 22:25:00 -08:00
-categories:
-- personal
 tags:
-- Joanna Jao
+- personal
 city: San Francisco
 country: California
 ---

@@ -2,9 +2,7 @@
 title: Seven Days in the Life of the Late, Great John McCain
 date: 2018-04-30 11:21:00 -07:00
 tags:
-- David Foster Wallace
-- profile
-- John McCain
+  - link
 extract: David Foster Wallace on the campaign trail.
 city: San Francisco
 country: California

@@ -1,11 +1,8 @@
 ---
 title: Songs of San Francisco
 date: 2017-10-24 23:00:00 -07:00
-categories:
-- personal
 tags:
-- Robin Sloan
-- Jez Burrows
+- personal
 city: San Francisco
 country: California
 extract: There was this sense of history or something, the way that one writer had

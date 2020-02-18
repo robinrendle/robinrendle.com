@@ -4,7 +4,7 @@ date: 2019-09-11 19:33:30
 city: San Francisco
 country: California
 extract: And how to keep someone with you forever.
-categories: 
+tags: 
   - management
 ---
 

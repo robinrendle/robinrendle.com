@@ -2,23 +2,21 @@
 title: Empty Libraries
 date: 2013-12-12 04:05:00 -08:00
 tags:
-- libraries
-- games
-- playstation
-- design
-extract: In moving to the next generation of consoles I’ve found that it’s somehow
+  - design
+extract:
+  In moving to the next generation of consoles I’ve found that it’s somehow
   managed to fill me with a deep and bitter sadness. This is mostly thanks to the
   ‘Library’ menu which is hidden amongst the rest of the interface of the Playstation
   4, yet it’s not the questionable typography or arrangement of its icon that bothers
   me about this feature though
-update: 
+update:
 city: Plymouth
 country: UK
 ---
 
 In moving to the next generation of consoles I’ve found that it’s somehow managed to fill me with a deep and bitter sadness. This is mostly thanks to the ‘Library’ menu which is hidden amongst the rest of the interface of the Playstation 4, yet it’s not the questionable typography or arrangement of its icon that bothers me about this feature though. What troubles me is the sheer audacity of the designer that called it a ‘library’, since opening it reveals nothing at all. But let me just rephrase that if you missed the problem there:
 
-*My video game library is empty and there’s not a single game inside.*
+_My video game library is empty and there’s not a single game inside._
 
 I mean, how can my library be empty? I’ve spent countless hours (I dread to estimate) and thousands of pounds with my enormous collection of video games. Even if the developers, the platform or even the company might not remember these legacy platforms, I certainly do.
 
@@ -28,9 +26,9 @@ As artistically creative and playful this art form naturally is, we also want to
 
 Games are worth recording simply because of those experiences, now the property of over a billion people that play them on a regular basis. But much like how a physical shelf can shed light on a person’s character, a video game library can reveal so much about how they see the world around them. This is, in and of itself, worth the effort it might take in archiving them all properly.
 
-***
+---
 
-I know that admitting to this sort of unadorned *love* for an art form is still relatively weird (I kind of hope it’s always strange because I remember them as fondly as the vacations I took as a child, or old films, or wonderful museum exhibits, or the books that drove me wild with excitement). So although it might sound kind of silly, all of that time navigating those villages, towns and galaxies that made up the various pixelated stories in between, stories that I’ve spent so much of my life with, all of it is precious to me – I don’t regret a single moment with any of them.
+I know that admitting to this sort of unadorned _love_ for an art form is still relatively weird (I kind of hope it’s always strange because I remember them as fondly as the vacations I took as a child, or old films, or wonderful museum exhibits, or the books that drove me wild with excitement). So although it might sound kind of silly, all of that time navigating those villages, towns and galaxies that made up the various pixelated stories in between, stories that I’ve spent so much of my life with, all of it is precious to me – I don’t regret a single moment with any of them.
 
 But for how long will we remember these experiences without a library to guide us through? Trapped in the carcass of legacy formats, buried on top of older games, there’s a good chance these memories will die with those now useless, unreadable objects that came before us.
 

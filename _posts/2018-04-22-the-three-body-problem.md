@@ -1,14 +1,7 @@
 ---
 title: The Three Body Problem
 date: 2018-04-22 16:21:00 -07:00
-categories:
-- reading
-- book
 tags:
-- Liu Cixin
-- sci-fi
-- reading
-- novel
 - book
 city: San Francisco
 country: California

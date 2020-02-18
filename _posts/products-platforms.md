@@ -4,7 +4,7 @@ date: 2019-10-08 16:53:33
 city: San Francisco
 country: California
 extract: And why a design system is not a product.
-categories: 
+tags: 
   - design
 ---
 

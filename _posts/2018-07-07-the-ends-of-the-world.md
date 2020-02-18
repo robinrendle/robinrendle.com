@@ -1,10 +1,8 @@
 ---
 title: The Ends of the World
 date: 2018-07-07 20:56:00 -07:00
-categories:
-- book
 tags:
-- Peter Brannen
+- book
 city: Emeryville
 extract: "“Eventually humans will be living in a sustainable way.”"
 ---

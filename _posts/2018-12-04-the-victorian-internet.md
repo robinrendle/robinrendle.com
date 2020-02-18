@@ -1,11 +1,8 @@
 ---
 title: The Victorian Internet
 date: 2018-12-04 21:24:00 -08:00
-categories:
-- reading
-- book
 tags:
-- Tom Standage
+- book
 city: San Francisco
 country: California
 extract: How the telegraph changed the world.

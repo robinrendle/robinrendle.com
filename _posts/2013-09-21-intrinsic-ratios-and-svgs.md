@@ -2,10 +2,9 @@
 title: Intrinsic Ratios and SVGs
 date: 2013-09-21 10:08:00 -07:00
 tags:
-- css
-- web design
-- front-end development
-extract: 'This week I came across an interesting design problem: how do you make an
+  - design
+extract:
+  'This week I came across an interesting design problem: how do you make an
   <abbr title="Scalable vector graphics">SVG</abbr> that’s being used as a background-image
   respond to the width of its container, yet also scale its height depending on the
   child elements within?'
@@ -21,4 +20,4 @@ But if you simply attach an <abbr title="Scalable vector graphics">SVG</abbr> ba
 
 The fix is easy enough though; open up the <abbr title="Scalable vector graphics">SVG</abbr> in a text editor and add <code>preserveAspectRatio="none"</code> to the <abbr title="Scalable vector graphics">SVG</abbr> element itself whilst also making sure to remove all width and height parameters that might have been automatically set by an app such as Illustrator. I’ve hooked up <a href="http://cdpn.io/JdnCA">a quick example of this on Codepen</a>, and it seems to work relatively well across various browsers. Remember though that this is obviously only suitable for browsers that support <abbr title="Scalable vector graphics">SVG</abbr>, but with [Modernizr](http://modernizr.com/) we can test for this and give them appropriate fallbacks.
 
-But what about serving these <abbr title="Scalable vector graphics">SVG</abbr>s *only* to browsers that can support them? Well&hellip;that’s [another issue altogether](http://daverupert.com/2013/06/ughck-images/).
+But what about serving these <abbr title="Scalable vector graphics">SVG</abbr>s _only_ to browsers that can support them? Well&hellip;that’s [another issue altogether](http://daverupert.com/2013/06/ughck-images/).

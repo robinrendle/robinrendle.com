@@ -2,17 +2,13 @@
 title: I Don’t Believe in Full-Stack Engineering
 date: 2018-06-19 19:45:00 -07:00
 tags:
-- web design
-- front-end development
-- hiring
-- gusto
-- rant
-extract: 'There, I said it. '
+  - design
+extract: "There, I said it. "
 city: San Francisco
 country: California
 ---
 
-There, I said it.  Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both.
+There, I said it. Of all the engineers I’ve met over the years only one has come close to what that title, _full-stack engineer_, implies: the ability to easily navigate the back-end and front-end with a senior level of expertise. For the rest of us though, it’s simply not possible to do both.
 
 But hold up a sec, what is front-end development? Well I believe that this line of work contains the following skills:
 

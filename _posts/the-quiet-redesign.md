@@ -1,11 +1,10 @@
 ---
 title: The Quiet Redesign
 date: 2019-11-30 21:13:48
-tags: redesign
 extract: And how to improve things bit by bit.
 country: California
 city: San Francisco
-categories: 
+tags: 
   - blog
 ---
 

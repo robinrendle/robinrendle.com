@@ -3,7 +3,6 @@ title: Redesigning in public
 date: 2020-01-17 23:02:08
 tags:
   - blog
-  - redesign
 extract: And how to make a blog.
 country: California
 city: San Francisco

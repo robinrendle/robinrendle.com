@@ -4,7 +4,7 @@ date: 2019-10-19 10:06:57
 city: San Francisco
 country: California
 extract: Or, why good product design is impossible.
-categories: 
+tags: 
   - design
 ---
 

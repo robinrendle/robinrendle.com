@@ -2,7 +2,7 @@
 title: The Great Divide
 date: 2019-01-21 14:46:00 -08:00
 tags:
-- chris coyier
+  - link
 extract: And the growing rift in the field of web design.
 city: San Francisco
 country: California

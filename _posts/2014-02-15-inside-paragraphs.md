@@ -1,15 +1,8 @@
 ---
 title: Inside Paragraphs
 date: 2014-02-15 16:34:00 -08:00
-categories:
-- book
 tags:
-- font bureau
-- cryus highsmith
-- johannes gutenberg
 - book
-- reading
-- book reviews
 extract: "“Gutenberg considered the counter space, letter space, and line space. Every
   paragraph, whether written or printed, has these white spaces in it. But they don’t
   have to be thought of in isolation...”"

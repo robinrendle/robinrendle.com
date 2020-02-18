@@ -1,11 +1,8 @@
 ---
 title: Sourdough
 date: 2017-08-29 21:47:00 -07:00
-categories:
-- book
 tags:
-- Robin Sloan
-- sourdough
+- book
 city: San Francisco
 country: California
 extract: Robin Sloan’s new book is a precious thing.

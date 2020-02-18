@@ -1,11 +1,10 @@
 ---
 title: The Measure of Success
 date: 2019-12-10 13:00:17
-tags: JB
 extract: What does success really look like?
 country: California
 city: San Francisco
-categories: 
+tags: 
   - personal
 ---
 

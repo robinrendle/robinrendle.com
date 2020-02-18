@@ -1,10 +1,8 @@
 ---
 title: Who Goes Nazi?
 date: 2017-12-21 07:51:00 -08:00
-categories:
-- links
 tags:
-- Dorothy Thompson
+- link
 city: Plymouth
 country: UK
 extract: "“Nazism has nothing to do with race and nationality. It appeals to a certain

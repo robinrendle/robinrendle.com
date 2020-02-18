@@ -1,8 +1,8 @@
 ---
 title: The Biodiversity Heritage Library
 date: 2017-11-19 13:52:00 -08:00
-categories:
-- links
+tags:
+- link
 city: San Francisco
 country: California
 extract: Two million nature illustrations, now available from the BHL.

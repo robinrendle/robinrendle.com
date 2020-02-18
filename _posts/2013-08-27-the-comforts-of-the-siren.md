@@ -2,9 +2,7 @@
 title: The Comforts of the Siren
 date: 2013-08-27 00:51:00 -07:00
 tags:
-  - story
-  - autobiographical
-  - the blue of distance
+  - personal
 extract:
   During my holiday I went back to the town I grew up in and listened to the
   sirens from the Blitz that are still operational and are tested once a week.

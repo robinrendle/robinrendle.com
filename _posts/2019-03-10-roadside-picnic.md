@@ -2,8 +2,7 @@
 title: Roadside Picnic
 date: 2019-03-10 16:52:00 -07:00
 tags:
-- book
-- reading
+  - book
 extract: Arkady and Boris Strugatsky’s weird and wonderful novel.
 city: San Francisco
 country: California
@@ -13,7 +12,7 @@ I would heartily recommend _Roadside Picnic_. It’s a sci-fi novel written by A
 
 The landscape and the objects that they’ve left behind in the Zones are peculiar though. They’re indescribably dangerous.
 
-If you loved Jeff VanderMeer’s novels _Area X_ or  _Borne_, or if you liked the _Annihilation_ movie with Natalie Portman, then it’s obvious from the very first page of this book that those things were entirely inspired by _Roadside Picnic_.
+If you loved Jeff VanderMeer’s novels _Area X_ or _Borne_, or if you liked the _Annihilation_ movie with Natalie Portman, then it’s obvious from the very first page of this book that those things were entirely inspired by _Roadside Picnic_.
 
 This novel was also the inspiration for the 1979 film _Stalker_ though, directed by Andrei Tarkovsky and it was notorious for its hazardous working conditions – they shot the whole film in two days downstream from a nearby chemical plant. And the crazy thing about this is film is how it shows how aliens broke our world but the film is a real recording of environmental devastation in Estonia: it was snowing in summer and poisonous white foam floated down the river during filming which was likely the cause of death for several crew members, including Tarkovsky himself.
 

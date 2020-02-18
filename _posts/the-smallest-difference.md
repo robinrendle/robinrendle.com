@@ -1,12 +1,7 @@
 ---
 title: The Smallest Difference
 date: 2019-11-12 20:38:04
-tags:
-  - featured
-  - design
-  - opentype
-  - fonts
-categories: 
+tags: 
   - design
 extract: And the small wonder of OpenType fonts.
 country: California

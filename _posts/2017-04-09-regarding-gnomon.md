@@ -1,13 +1,12 @@
 ---
 title: Regarding Gnomon
 date: 2017-04-09 23:37:00 -07:00
-categories:
-- links
 tags:
-- nick harkaway
+  - link
 city: San Francisco
 country: California
-extract: "“I’m familiar with the re-write. This was more like starting a new book
+extract:
+  "“I’m familiar with the re-write. This was more like starting a new book
   every four months or so. The number of plotlines and their interactions meant a
   kind of exponential multiplication of possibility. I’d made a maze in my own mind
   and I kept getting lost in it. The book was smarter than I was.”"

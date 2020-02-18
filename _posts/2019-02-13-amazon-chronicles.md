@@ -2,9 +2,7 @@
 title: Amazon Chronicles
 date: 2019-02-13 01:45:00 -08:00
 tags:
-- Tim Carmody
-- amazon
-- substack
+  - link
 extract: Tim Carmody’s newsletter is as charming and brilliant as you might expect.
 city: San Francisco
 country: California
@@ -20,6 +18,6 @@ Take this entry where Tim interprets [Amazon’s quarterly earnings](https://ama
 
 Tim goes on to breakdown what might otherwise be a painfully eye rolling subject and explains all the drama and intrigue that this subject demands. In short: I cannot recommend Tim’s newsletter highly enough and I can’t wait to see where this thing goes.
 
-***
+---
 
 P.S. If you’re currently enjoying the italics on Substack then [you have me to thank for it](https://twitter.com/robinrendle/status/1093587547228262401) and no I am not above bragging about this. You’re welcome.

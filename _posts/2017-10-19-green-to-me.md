@@ -1,10 +1,8 @@
 ---
 title: Green to Me
 date: 2017-10-19 21:25:00 -07:00
-categories:
-- links
 tags:
-- helena fitzgerald
+- link
 city: San Francisco
 country: California
 extract: Helena Fitzgerald on the color green.

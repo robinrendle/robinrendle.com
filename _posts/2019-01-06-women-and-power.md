@@ -1,11 +1,8 @@
 ---
 title: Women and Power
 date: 2019-01-06 16:46:00 -08:00
-categories:
-- reading
-- book
 tags:
-- Mary Beard
+- book
 city: San Francisco
 country: California
 extract: My first book of 2019 is a damn fine start to the year.

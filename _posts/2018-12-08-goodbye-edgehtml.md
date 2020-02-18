@@ -2,8 +2,7 @@
 title: Goodbye, EdgeHTML
 date: 2018-12-08 13:25:00 -08:00
 tags:
-- web design
-- browsers
+  - link
 extract: One browser to rule them all.
 city: San Francisco
 country: California

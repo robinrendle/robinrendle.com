@@ -2,17 +2,14 @@
 title: Big data, no thanks
 date: 2015-11-03 10:52:00 -08:00
 tags:
-- Nukes
-- security
-- privacy
-- network
+  - link
 extract: And the machine that can hold you.
 city: Plymouth
 country: UK
 Book:
-- Big data no thanks
+  - Big data no thanks
 Author:
-- James Bridle
+  - James Bridle
 ---
 
 An alluring, essential talk called [Big data, no thanks](http://booktwo.org/notebook/big-data-no-thanks/) from James Bridle:

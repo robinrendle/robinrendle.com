@@ -4,7 +4,7 @@ date: 2019-10-13 09:36:04
 city: San Francisco
 country: California
 extract: Scott Galloway’s secret to a happy life
-categories: 
+tags: 
   - personal
 ---
 

@@ -2,11 +2,9 @@
 title: Mistaking the tool for the practice
 date: 2013-06-05 11:40:00 -07:00
 tags:
-- digital-physical
-- web design
-- css
-- systems
-extract: Lately I’ve been thinking about how we obsess over our tools instead of the
+  - design
+extract:
+  Lately I’ve been thinking about how we obsess over our tools instead of the
   general principles they’re built on top of.  We pay for these things, we retweet
   posts about them, but most importantly we idolise  them and I think this might hurt
   us all in the long run.
@@ -19,7 +17,7 @@ As a developer I’m always on the lookout for the best applications, the fastes
 1. How does this [app/feature/machine/code editor etc.] influence my design and development process?
 2. What can I learn from this tool beyond the immediate and fleeting short-term gains?
 
-It’s strange to think in this way though. Why should a tool do anything more than what it was designed to? Well, I think these sorts of questions give us ample opportunities to learn more about why we work in the ways that we do. *Why these apps or services?* What is it about their functions and style that is of interest in this field? What does this combination of techniques say about the rest of the industry collectively?
+It’s strange to think in this way though. Why should a tool do anything more than what it was designed to? Well, I think these sorts of questions give us ample opportunities to learn more about why we work in the ways that we do. _Why these apps or services?_ What is it about their functions and style that is of interest in this field? What does this combination of techniques say about the rest of the industry collectively?
 
 What tends to bother me is when others fetishise the instruments that they use, for example in an interview when a designer or developer is asked to list their favourite applications. These might be useful in the short term but so little is revealed about their work. It’s here that we let our short term needs for the tool get in the way of the long term benefits of the working process.
 
@@ -39,7 +37,7 @@ On the surface of it though, this system is not much more than a framework, alth
 
 In excruciating detail it documents not only how, but also why it was made. This simple tool for developers became a microscope through which it’s possible to analyse a process which has gone mostly unchanged for years.
 
-***
+---
 
 I often wonder how products, whether physical or digital, can act as more than just tools in the long term. I wonder if they can spread out somehow, becoming useful in the instant that you’re using them and yet simultaneously describe the theories behind their assembly.
 

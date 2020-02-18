@@ -1,10 +1,8 @@
 ---
 title: Stars and Gardens
 date: 2018-03-17 16:40:00 -07:00
-categories:
-- music
 tags:
-- Jon Wayne
+- personal
 city: San Francisco
 country: California
 extract: "“The stars align in my garden.”"

@@ -1,11 +1,8 @@
 ---
 title: Summerland
 date: 2018-11-09 10:52:00 -08:00
-categories:
-- reading
-- book
 tags:
-- Hannu Rajaniemi
+- book
 city: San Francisco
 country: California
 extract: Hannu Rajaniemi’s latest novel is really something special.

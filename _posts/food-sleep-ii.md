@@ -4,7 +4,7 @@ date: 2019-09-29 21:20:00
 city: San Francisco
 country: California
 extract: And the art of fucking things up.
-categories: 
+tags: 
   - personal
 ---
 

@@ -2,15 +2,12 @@
 title: Setting type with Sass maps
 date: 2014-03-16 13:11:00 -07:00
 tags:
-- typography
-- css
-- sass
-- tim brown
-- erskine
-extract: Last week I wrote about a new method for setting type by using Sass maps.
+  - typography
+extract:
+  Last week I wrote about a new method for setting type by using Sass maps.
   In summary I argued that font-size and line-height settings can be tied to specific
   fonts for ease of use when writing a lot of code.
-update: 
+update:
 city: Nottingham
 country: UK
 ---

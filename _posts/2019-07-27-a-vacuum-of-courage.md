@@ -4,7 +4,7 @@ date: 2019-07-27 11:55:39
 city: San Francisco
 country: California
 extract: And how to build an effective org.
-categories: 
+tags: 
   - management
 ---
 

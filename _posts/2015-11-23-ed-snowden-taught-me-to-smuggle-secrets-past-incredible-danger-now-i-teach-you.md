@@ -1,20 +1,19 @@
 ---
-title: Ed Snowden Taught Me To Smuggle Secrets Past Incredible Danger. Now I Teach
+title:
+  Ed Snowden Taught Me To Smuggle Secrets Past Incredible Danger. Now I Teach
   You.
 date: 2015-11-23 05:15:00 -08:00
 tags:
-- security
-- edward snowden
-- web design
+  - design
 city: Plymouth
 country: UK
 extract: Micah Lee on his work regarding the Snowden revelations.
-update: 
+update:
 link: https://theintercept.com/2014/10/28/smuggling-snowden-secrets/
 Book:
-- theintercept.com
+  - theintercept.com
 Author:
-- Micah Lee
+  - Micah Lee
 ---
 
 [Micah Lee on his work](https://theintercept.com/2014/10/28/smuggling-snowden-secrets/) regarding the Snowden revelations:

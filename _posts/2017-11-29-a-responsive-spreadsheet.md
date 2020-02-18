@@ -1,10 +1,8 @@
 ---
 title: A Responsive Spreadsheet
 date: 2017-11-29 20:02:00 -08:00
-categories:
-- css-tricks
 tags:
-- work
+- web design
 city: San Francisco
 country: California
 extract: A new post for CSS-Tricks all about making a CSS-only responsive spreadsheet

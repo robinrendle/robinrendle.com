@@ -1,12 +1,10 @@
 ---
 title: CWRU2K
 date: 2020-01-17 21:01:37
-tags:
-  - Y2K
 extract: Eric Meyer and the joke that got him in big trouble.
 country: California
 city: San Francisco
-categories: 
+tags: 
   - web design
 ---
 

@@ -1,14 +1,8 @@
 ---
 title: The Sisters Brothers
 date: 2019-01-13 22:42:00 -08:00
-categories:
-- reading
-- book
 tags:
-- Patrick DeWitt
-- reading
 - book
-- california light
 extract: This place is in favor of me.
 city: San Francisco
 country: California

@@ -4,7 +4,7 @@ date: 2019-09-18 16:53:40
 city: San Francisco
 country: California
 extract: And why you can’t measure a design system.
-categories: 
+tags: 
   - design
 ---
 

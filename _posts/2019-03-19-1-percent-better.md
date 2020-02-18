@@ -2,7 +2,7 @@
 title: 1% Better
 date: 2019-03-19 20:21:00 -07:00
 tags:
-- design systems
+  - design
 extract: And gathering momentum.
 city: San Francisco
 country: California

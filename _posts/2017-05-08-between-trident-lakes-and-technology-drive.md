@@ -1,11 +1,8 @@
 ---
 title: Between Trident Lakes and Technology Drive
 date: 2017-05-08 19:53:00 -07:00
-categories:
-- links
 tags:
-- data centers
-- ingrid burrington
+- link
 city: San Francisco
 country: California
 extract: "“In purpose-built data centers like Facebook’s, it’s for a general public

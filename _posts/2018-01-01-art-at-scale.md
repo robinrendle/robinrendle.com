@@ -1,12 +1,8 @@
 ---
 title: Art at Scale
 date: 2018-01-01 16:15:00 -08:00
-categories:
-- links
 tags:
-- Alan Kay
-- iA
-- Oliver Reichenstein
+- link
 city: San Francisco
 extract: And the private emails of Alan Kay.
 ---

@@ -1,8 +1,8 @@
 ---
 title: The Internet Got Shrinkwrapped
 date: 2018-04-02 21:24:00 -07:00
-categories:
-- links
+tags:
+- link
 city: San Francisco
 country: California
 extract: "“It’s over. The notion of having to do the heavy-lifting is gone. Everything

@@ -1,12 +1,8 @@
 ---
 title: Jack and the Magic Key
 date: 2018-07-09 23:17:00 -07:00
-categories:
-- featured
 tags:
-- story
-- mom
-- dad
+- personal
 extract: "“This very special key opens a very special door...”"
 city: San Francisco
 country: California

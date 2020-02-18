@@ -1,8 +1,8 @@
 ---
 title: Where the GOP’s Tax Extremism Comes From
 date: 2017-12-06 20:19:00 -08:00
-categories:
-- reading
+tags:
+- link
 city: San Francisco
 country: California
 extract: "“Investments like these build a fair, thriving society…and I think it’s

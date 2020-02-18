@@ -4,8 +4,8 @@ date: 2019-10-07 01:30:06
 city: San Francisco
 country: California
 extract: Or maybe don’t?
-categories: 
-  - relationships
+tags: 
+  - personal
 ---
 
 It’s an evening of clear skies, big hearts, and extremely good Internet. I’m listening to [Cabin](https://open.spotify.com/playlist/6V3hYPBCzmF1IsHRePRD8p?si=-hz8smAORcusz9tmiaRALQ) and working on a project that is suspiciously shaped like a book. As I type, my good friend Trent Reznor is playing the piano in my apartment and soft clouds are rolling behind the tree that happens to be perched in front of my bedroom window.

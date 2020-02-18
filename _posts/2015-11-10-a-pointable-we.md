@@ -2,20 +2,19 @@
 title: A pointable we
 date: 2015-11-10 15:28:00 -08:00
 tags:
-- Craig Mod
-extract: All I know is the more I read digitally, the more this feeling — the strange
+  - link
+extract:
+  All I know is the more I read digitally, the more this feeling — the strange
   joy of adding to the corpus6 and seeing where it takes us — grows inside me, and
   I can't be the only one to feel this. Adding to the corpus — making things pointable
   — has become habitual, and aspects of it are becoming more and more passive. These
   habits and expectations aren't going anywhere.
-update: 
+update:
 link: http://craigmod.com/sputnik/pointable_01
 city: Plymouth
 country: UK
 Book:
-- A pointable we
-Author:
-- Craig Mod
+  - A pointable we
 ---
 
 I keep returning to Craig Mod’s fervent, potent ideas on what it means to be a part of the web, both as a citizen and as a large publisher:

@@ -1,12 +1,8 @@
 ---
 title: In Defense of Webfonts
 date: 2016-03-18 10:26:00 -07:00
-categories:
-- fonts
 tags:
 - typography
-- web fonts
-- css
 city: Plymouth
 country: UK
 extract: A web font, just like any other visual stimulus, has work to accomplish and

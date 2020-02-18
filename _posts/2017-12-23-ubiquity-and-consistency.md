@@ -1,11 +1,7 @@
 ---
 title: Ubiquity and consistency
 date: 2017-12-23 10:49:00 -08:00
-categories:
-- links
 tags:
-- Jeremy Keith
-- front-end development
 - web design
 city: Plymouth
 country: UK

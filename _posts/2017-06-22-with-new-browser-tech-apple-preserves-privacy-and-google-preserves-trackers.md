@@ -1,8 +1,8 @@
 ---
 title: With New Browser Tech, Apple Preserves Privacy and Google Preserves Trackers
 date: 2017-06-22 23:20:00 -07:00
-categories:
-- links
+tags:
+- link
 city: San Francisco
 country: CA
 extract: "“Ad quality needs to improve and advertisers must abandon any attempt to

@@ -2,10 +2,9 @@
 title: Putting thought into things
 date: 2015-12-01 02:45:00 -08:00
 tags:
-- iA
-- web design
-- listening
-extract: Listening is a masochist endeavor. To do it right you have to put everything
+  - link
+extract:
+  Listening is a masochist endeavor. To do it right you have to put everything
   down. Not just your phone, even pen and paper. There is nothing to hold on to when
   you just listen. You have to use your full attention, registering everything that
   you see and hear. You have to slow down your self-perception and focus on the outside,
@@ -13,17 +12,15 @@ extract: Listening is a masochist endeavor. To do it right you have to put every
   focusing on pain, diving into boredom. In order to see the other in slow motion,
   you need to stop the camera of self-perception that makes you the star, and speed
   up the camera that records the outside.
-update: 
-link: 
+update:
+link:
 city: Plymouth
 country: UK
 Book:
-- Putting thought into things
-Author:
-- iA
+  - Putting thought into things
 ---
 
-From the archives of iA, [*Putting Thought Into Things*](https://ia.net/know-how/putting-thought-into-things):
+From the archives of iA, [_Putting Thought Into Things_](https://ia.net/know-how/putting-thought-into-things):
 
 > Listening is a masochist endeavor. To do it right you have to put everything down. Not just your phone, even pen and paper. There is nothing to hold on to when you just listen. You have to use your full attention, registering everything that you see and hear. You have to slow down your self-perception and focus on the outside, on what you do not understand. Compared to how we usually operate, listening means focusing on pain, diving into boredom. In order to see the other in slow motion, you need to stop the camera of self-perception that makes you the star, and speed up the camera that records the outside.
 >

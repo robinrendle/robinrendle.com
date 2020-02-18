@@ -2,9 +2,7 @@
 title: How Long Can Our Content Last?
 date: 2018-06-13 21:58:00 -07:00
 tags:
-- zach leatherman
-- preservation
-- web
+  - link
 extract: The honest answer? Probably not that long.
 city: San Francisco
 country: California

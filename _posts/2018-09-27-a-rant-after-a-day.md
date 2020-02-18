@@ -1,14 +1,8 @@
 ---
 title: A Rant after a Day
 date: 2018-09-27 20:42:00 -07:00
-categories:
-- government
 tags:
-- ranting
-- uber
-- facebook
-- time tracking
-- google
+- personal
 city: San Francisco
 country: California
 extract: You don’t have to put a dent in the universe. You can just be kind. And put

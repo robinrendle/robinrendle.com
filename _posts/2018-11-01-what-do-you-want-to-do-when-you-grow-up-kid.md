@@ -1,8 +1,8 @@
 ---
 title: What do you want to do when you grow up, kid?
 date: 2018-11-01 21:52:00 -07:00
-categories:
-- publishing
+tags:
+  - story
 city: San Francisco
 country: California
 extract: It’s an everlasting, punk-rock feeling that I hope will never really go away.
@@ -22,7 +22,7 @@ The reason why I got into front-end development and web design is because of thi
 
 Sure, [web design is different](https://robinrendle.com/essays/new-web-typography/) but that impossibly dumb and electric feeling of publishing something on the web is why I do what I do. Not for the claps or the high-fives or in search of faint praise—but something else entirely.
 
-***
+---
 
 I was terrified the first day I walked into Gusto, the company I work for today. I was being interviewed more than 5,000 miles from my hometown in England for starters. But as I was walking through the office, palms sweaty and knees trembling, I caught a little something in my peripheral vision.
 

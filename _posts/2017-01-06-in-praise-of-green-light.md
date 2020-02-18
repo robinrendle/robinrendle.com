@@ -1,7 +1,7 @@
 ---
 title: In Praise of Green Light
 date: 2017-01-06 17:31:00 -08:00
-categories:
+tags:
 - personal
 city: Plymouth
 country: UK

@@ -1,11 +1,8 @@
 ---
 title: The Sutro Tower
 date: 2017-08-04 19:45:00 -07:00
-categories:
-- personal
 tags:
-- sutro tower
-- writing
+- personal
 city: San Francisco
 country: California
 extract: In my apartment I’ve positioned my desk by the window facing the tower towards

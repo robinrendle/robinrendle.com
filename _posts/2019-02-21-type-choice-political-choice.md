@@ -2,9 +2,7 @@
 title: Type Choice, Political Choice
 date: 2019-02-21 16:33:00 -08:00
 tags:
-- Agyei Archer
-- fascism
-- type design
+  - typography
 extract: And the work of monsters.
 city: San Francisco
 country: California

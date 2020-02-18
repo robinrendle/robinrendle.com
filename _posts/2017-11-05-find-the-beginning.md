@@ -1,12 +1,8 @@
 ---
 title: Find the Beginning
 date: 2017-11-05 11:01:00 -08:00
-categories:
-- links
 tags:
-- odyssey
-- cat manning
-- emily wilson
+- link
 city: San Francisco
 country: California
 extract: "“Tell me about a complicated man.”"

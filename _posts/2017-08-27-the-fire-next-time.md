@@ -1,11 +1,8 @@
 ---
 title: The Fire Next Time
 date: 2017-08-27 13:05:00 -07:00
-categories:
-- book
 tags:
-- james baldwin
-- religion
+- book
 city: San Francisco
 country: California
 extract: Rambling notes on the collection of essays by James Baldwin

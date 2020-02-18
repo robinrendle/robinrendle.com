@@ -2,8 +2,7 @@
 title: Scrolljacking
 date: 2013-10-23 11:06:00 -07:00
 tags:
-  - web design
-  - front-end development
+  - design
 extract:
   These pages that hijack the scroll might look like slides from shiny keynote
   presentations but as websites they are the usability equivalent of nails on a chalkboard.

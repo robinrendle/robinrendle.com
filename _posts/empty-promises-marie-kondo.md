@@ -1,13 +1,11 @@
 ---
 title: The empty promises of Marie Kondo and the craze for minimalism
 date: 2020-01-09 11:38:30
-tags:
-  - minimalism
 extract: And the infrastructure we cannot see.
 country: California
 city: San Francisco
-categories: 
-  - personal
+tags: 
+  - link
 ---
 
 Kyle Chayka on [the empty promise of minimalism](http://www.theguardian.com/lifeandstyle/2020/jan/03/empty-promises-marie-kondo-craze-for-minimalism) and our obsession with it all:

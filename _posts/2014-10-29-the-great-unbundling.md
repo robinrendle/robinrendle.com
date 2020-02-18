@@ -2,16 +2,14 @@
 title: The Great Unbundling
 date: 2014-10-29 05:42:00 -07:00
 tags:
-- margueritte duras
-- reading
-- bookhops
-- featured
-extract: Somehow I’ve found myself in a room bustling with all the languages of Europe—they’re
+  - personal
+extract:
+  Somehow I’ve found myself in a room bustling with all the languages of Europe—they’re
   mixing out in the dusty air around me; Dutch and German, Greek and French, others
   are arguing in Romanian (or perhaps Italian) whilst they nudge past their elderly
   counterparts, tourists speaking English. Although they all share their incompatible
   language with a neighbour, everyone around me can somehow communicate quite easily.
-update: 
+update:
 city: Amsterdam
 country: The Netherlands
 ---
@@ -44,4 +42,4 @@ I couldn’t resist this fascinating blind date. Immediately I picked it up and 
 
 ![A canal outside the bookshop](/uploads/canal.jpg)
 
-*The book was ‘Writing’ by Margueritte Duras – originally this travelogue was posted over on [Hi](https://hi.co/moments/6metdt9k).*
+_The book was ‘Writing’ by Margueritte Duras – originally this travelogue was posted over on [Hi](https://hi.co/moments/6metdt9k)._

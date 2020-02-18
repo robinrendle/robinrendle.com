@@ -2,34 +2,30 @@
 title: Resources for learning how to JavaScript
 date: 2014-09-10 07:20:00 -07:00
 tags:
-- javascript
-- html
-- css
-- design patterns
-- object oriented design
-extract: In recent weeks I’ve been trying to improve my fledging JavaScript skills,
+  - web design
+extract:
+  In recent weeks I’ve been trying to improve my fledging JavaScript skills,
   which have always bothered me. Sure, for the longest time I’ve been able to hack
   away in order to get something to work in the browser but parsing all the quirks
   and eccentricities of the DOM felt entirely beyond me.
-update: 
+update:
 city: Plymouth
 country: UK
 ---
 
-In recent weeks I’ve been trying to improve my fledging JavaScript skills, which have *always* bothered me. Sure, for the longest time I’ve been able to hack away in order to get something to work in the browser but parsing all the quirks and eccentricities of the <abbr title="Document Object Model">DOM</abbr>, <abbr title="Browser Object Model">BOM</abbr> and related <abbr title="Application programming interface">API</abbr>s felt entirely beyond me. So now, a couple of weeks later, I thought it might be a nice idea to round up a collection of resources which I found to be particularly helpful along the way.
+In recent weeks I’ve been trying to improve my fledging JavaScript skills, which have _always_ bothered me. Sure, for the longest time I’ve been able to hack away in order to get something to work in the browser but parsing all the quirks and eccentricities of the <abbr title="Document Object Model">DOM</abbr>, <abbr title="Browser Object Model">BOM</abbr> and related <abbr title="Application programming interface">API</abbr>s felt entirely beyond me. So now, a couple of weeks later, I thought it might be a nice idea to round up a collection of resources which I found to be particularly helpful along the way.
 
-***
+---
 
 ### [#1: The Javascript Book](http://javascriptbook.com/)
 
-From the people that brought us the excellent [HTML and CSS book](http://www.htmlandcssbook.com/) comes a great resource for folks just starting out with JavaScript. However, more than simply *reading* this book from cover to cover I’d recommend that anyone that’s dedicated should write out *every* single line of code from the examples given inside.
+From the people that brought us the excellent [HTML and CSS book](http://www.htmlandcssbook.com/) comes a great resource for folks just starting out with JavaScript. However, more than simply _reading_ this book from cover to cover I’d recommend that anyone that’s dedicated should write out _every_ single line of code from the examples given inside.
 
 I’ve often made the mistake in the past of reading technical books without examining each line of code and ultimately that’s made me a worse programmer in the long run. But now whenever I go through this sort of book I’ll crack open [JSBin](http://jsbin.com/) or [Codepen](http://codepen.io) and get the example actually working in my own browser until I move onto another section.
 
 ### [#2: A dive into plain JavaScript](http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/)
 
 Next up is an article by [Viljami Salminen](https://twitter.com/viljamis) over on the Adtile blog where he offers a comprehensive intro into plain JavaScript, which is especially useful if you’re more familiar with jQuery. The focus of this piece is mostly on the latest additions to the syntax, whilst taking into consideration progressive enhancement too:
-
 
 <figure>
 <blockquote>
@@ -39,8 +35,6 @@ Next up is an article by [Viljami Salminen](https://twitter.com/viljamis) over o
 </p>
 </figcaption>
 </figure>
-
-
 
 ### [#3: Is it time to drop jQuery?](http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background)
 
@@ -52,8 +46,6 @@ Likwise, this piece by [Todd Motto](https://twitter.com/toddmotto) is another gr
 <figcaption class="cite"><p>Todd Motto, <a href="http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background">toddmotto.com</a></p>
 </figcaption>
 </figure>
-
-
 
 ### [#4: Everything you wanted to know about JavaScript Scope](http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
 
@@ -71,8 +63,7 @@ Through that great primer on plain JavaScript by Todd I also happened to stumble
 
 ### [#5: Help, I’m stuck in an event loop!](http://vimeo.com/96425312)
 
-This video of a talk by [Philip Roberts](https://twitter.com/philip_roberts) at Scotland JS earlier this year piqued my attention because he dives into the inner workings of the JavaScript language. What’s a callback queue? What’s a call stack? How do functions *really* work in this strange and alien environment? [Let’s find out!](http://vimeo.com/96425312)
-
+This video of a talk by [Philip Roberts](https://twitter.com/philip_roberts) at Scotland JS earlier this year piqued my attention because he dives into the inner workings of the JavaScript language. What’s a callback queue? What’s a call stack? How do functions _really_ work in this strange and alien environment? [Let’s find out!](http://vimeo.com/96425312)
 
 ### [#6: JavaScript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
@@ -88,6 +79,6 @@ Finally, I’ve been working my way through this more complicated collection of 
 </figcaption>
 </figure>
 
-***
+---
 
-Usually I disdain from writing listicles, especially the kind which happen to chant all the things I don’t understand about a particular technology – but sometimes it’s difficult to get to those *ah-ha!* moments when learning something new, and these books, websites and videos were invaluable in that regard. Hopefully you’ll find these resources as useful as I have.
+Usually I disdain from writing listicles, especially the kind which happen to chant all the things I don’t understand about a particular technology – but sometimes it’s difficult to get to those _ah-ha!_ moments when learning something new, and these books, websites and videos were invaluable in that regard. Hopefully you’ll find these resources as useful as I have.

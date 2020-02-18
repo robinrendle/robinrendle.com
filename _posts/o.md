@@ -1,12 +1,11 @@
 ---
 title: O
 date: 2019-11-15 19:25:28
-tags: relationships
 extract: What the fuck am I doing?
 country: California
 city: San Francisco
-categories: 
-  - relationships
+tags: 
+  - personal
 ---
 
 I could be halfway towards LA or Vegas by now. I could be tearing it through a canyon in Yosemite. Instead, it’s midnight and I’m sat on my bike in front of O’s apartment with the engine rattling beneath me. I’m about to walk through that front door and kiss her and pick her up and yet somehow I will feel lonelier than if I was by myself.

@@ -2,14 +2,12 @@
 title: Scrambled eggs and serifs
 date: 2014-10-10 00:29:00 -07:00
 tags:
-- typography
-- type design
-- naming things
-- tobias frere-jones
-extract: "“Years ago, I asked one of my mentors what he thought was the hardest part
+  - typography
+extract:
+  "“Years ago, I asked one of my mentors what he thought was the hardest part
   of designing a typeface. I was expecting “the cap S” or “the italic lowercase” or
   something like that. But he answered without hesitation: the name.”"
-update: 
+update:
 link: http://www.frerejones.com/blog/scrambled-eggs-and-serifs/
 city: Plymouth
 country: UK

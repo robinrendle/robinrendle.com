@@ -1,10 +1,8 @@
 ---
 title: Blüte, Gerüst
 date: 2017-04-16 01:35:00 -07:00
-categories:
-- links
 tags:
-- music
+- link
 city: San Francisco
 country: California
 extract: "‘I gave a fifty minute concert in two halves. They poured me a drink in

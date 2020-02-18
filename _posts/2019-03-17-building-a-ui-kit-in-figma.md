@@ -2,8 +2,7 @@
 title: Building a UI Kit in Figma
 date: 2019-03-17 13:01:00 -07:00
 tags:
-- figma
-- ui kit
+  - design
 extract: A few notes on how we built the UI Kit at Gusto.
 city: San Francisco
 country: California
@@ -15,7 +14,6 @@ The other day I changed one symbol in our UI Kit though and watched as hundreds 
 
 Here’s some very rough notes about that process, how I went about organizing the kit, and all the challenges I encountered along the way.
 
-
 ## Understanding the problem
 
 Before I opened up Figma I jotted down a quick list of all the things that our team needed to make great work. After a bit of interviewing and research I found that our designers need to:
@@ -26,7 +24,7 @@ Before I opened up Figma I jotted down a quick list of all the things that our t
 - figure out where and how to install our fonts
 - understand the limitations of the system (so that could be typography, colors, and our grid)
 
-With that in mind I spent a ton of time looking through different UI Kits, such as the [Android GUI](https://www.figma.com/file/divF7pYDKIMDfrOH0rQbRa/Android-GUI-by-Great-Simple-Studio-(Copy)?node-id=0%3A4160) or how the team at Shopify has designed their kit for [Polaris](https://polaris.shopify.com/resources/polaris-ui-kit). This all gave me a ton of inspiration as to how to structure things so after that research I believed that our kit could be broken up into four pages in a Figma doc; Getting Started, Components, Patterns, and Symbols.
+With that in mind I spent a ton of time looking through different UI Kits, such as the [Android GUI](<https://www.figma.com/file/divF7pYDKIMDfrOH0rQbRa/Android-GUI-by-Great-Simple-Studio-(Copy)?node-id=0%3A4160>) or how the team at Shopify has designed their kit for [Polaris](https://polaris.shopify.com/resources/polaris-ui-kit). This all gave me a ton of inspiration as to how to structure things so after that research I believed that our kit could be broken up into four pages in a Figma doc; Getting Started, Components, Patterns, and Symbols.
 
 ## Getting started
 
@@ -49,7 +47,6 @@ This would be a list of all the components that are available to our design team
 I spent a ton of time ordering this page and thinking about how designers might quickly skim read this doc to find a specific section – like Alerts. But the cool thing about Figma is that you can send links to specific frames in a project which I find super helpful when I’m pointing designers to a component via Slack.
 
 (I think the hyperlinkability of Figma is the single greatest reason why I would recommend it to anyone else out there starting a design system.)
-
 
 ## Patterns
 
@@ -99,7 +96,6 @@ So as you can see we have different kinds of `PageTitle` – a regular old title
 
 The reason why I’m bragging about this is because I’ve found it’s saved me a TON of time drawing these things. And toggling these components on and off and replacing them with variants feels like working with a space-age design tool.
 
-
 ## A Note on Styles
 
 At Gusto we have a color palette that can be used to design new components or make slight adjustments to existing ones. It’s what we call a CSS “helper” where you can write code like this in React to change the color of some text:
@@ -121,7 +117,6 @@ Anyway, when a designer starts a new Figma doc (it would be so neat if you could
 
 On the left hand side there’ll be a list of all the components available to them which they can also drag and drop into their designs without having to head over to our kit.
 
-
 ## Onboarding designers is pretty dang easy
 
 I think perhaps the second greatest advantage of using Figma over other design tools is that I don’t have to worry about which version of the UI Kit, or even which version of Figma to that extent, is being used by our design team. Everyone is constantly on the latest version and so I don’t have to manage software versions or bug folks to update things.
@@ -130,7 +125,6 @@ On day one of starting Gusto we can just point them to figma.com and they’re o
 
 Although one thing we have to make sure is that everyone on our team is familiar with Figma’s way of doing things. Using a component library directly in a design tool is still a pretty novel concept for many and so we have to sit down with designers during onboarding to make sure they have a firm grasp of this stuff. A short while ago we started onboarding our designers and familiarizing them with our design system so that we get to chat to them about how Figma works. The neat thing is that this gives us an opportunity to get to introduce ourselves and explain how our design systems team can work with them and their design process, too.
 
-
 ## Random note: overlays are super neat
 
 One pattern that I really like is the concept of [Overlays](https://www.figma.com/blog/introducing-overlays-taking-prototyping-to-the-next-layer/) in Figma, as they noted on their blog:
@@ -138,7 +132,6 @@ One pattern that I really like is the concept of [Overlays](https://www.figma.co
 > We reimagined the basic delivery of overlays. Now after you add a prototype link to connect two frames, you will see a new option in the property panel. This option will allow you to set the destination frame as an overlay. Once selected, you can customize where the overlay is placed and how it should appear.
 
 So with this functionality in mind I drew our modal, drawer and popover components as a series of Overlays that designers can more easily use to mockup their ideas:
-
 
   <img class="cell-b40" src="/uploads/Screenshot%202019-03-17%2015.34.12.jpg"/>
 
@@ -151,7 +144,6 @@ I could probably do a much better job of styling the Kit and the components that
 I guess the important part to remember here is that – even if a kit isn’t exactly the pinnacle of quality – having a half-baked UI Kit is better than nothing at all.
 
 Also I think our design patterns need a ton of love and this is the space where we’ve currently spent the least amount of time. Ideally we could give detailed guidance around typographic hierarchy and form design as well as how to position things in our templates or modals and drawers. I reckon this will slowly improve over time as our team leaves refactoring mode and starts to think more holistically about ways to improve the user experience in our app.
-
 
 ## Buttons are for nerds
 
@@ -167,8 +159,7 @@ It’s really easy for the UI Kit and the front-end to get out of sync with one 
 
 For now the way I’m justifying all this extra work is that 1. designers need to use these components in their designs and if I save them 10 minutes drawing things then I’m okay with that and 2. I can’t think of a better solution for now.
 
-This is why I’m eyeing Framer X and wondering if I can just pipe in our Component Library directly into it. But I don’t think that’s going to be possible for our team anytime soon.  
-
+This is why I’m eyeing Framer X and wondering if I can just pipe in our Component Library directly into it. But I don’t think that’s going to be possible for our team anytime soon.
 
 ## Making symbols responsive is also ugh
 
@@ -192,8 +183,6 @@ This is more of a problem of time than a problem with Figma itself, as I’m sti
 
 Looking at other UI Kits, they seem to struggle with this stuff too.
 
-
-
 ## The UI Kit is not our design system
 
 There are tons of things in the front-end that can’t be reflected in our UI Kit today which I find difficult, too. Things like our CSS helpers and how components will change their styles based on the width of the viewport. And this isn’t a criticism of Figma at all by the way, it’s just a good reminder of how difficult it is to represent front-end constraints and design in something that isn’t a browser.
@@ -206,6 +195,6 @@ A design system is a mirror, reflecting how our design team communicates with on
 
 And so it’s important to remember that a design system is not a series of tools, but a community instead.
 
-***
+---
 
 Anyway, here’s a copy of [our UI Kit](https://www.figma.com/file/IxdCArrBNi8mVPXgCwXqwN/UI-Kit-Public?node-id=1736%3A1646) that you can play around with!

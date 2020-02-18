@@ -1,10 +1,8 @@
 ---
 title: Why Write Fiction in 2017?
 date: 2017-12-19 08:38:00 -08:00
-categories:
-- links
 tags:
-- reading
+- link
 city: London
 country: UK
 extract: "“I think of the angels of the Paradiso, who when asked by Dante for the

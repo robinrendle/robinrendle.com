@@ -1,10 +1,8 @@
 ---
 title: China’s Selfie Obsession
 date: 2017-12-21 01:52:00 -08:00
-categories:
-- links
 tags:
-- jiayang fan
+- link
 city: Plymouth
 country: 'UK '
 extract: "“You don’t want to come face-to-face with your god, because it’s frightening

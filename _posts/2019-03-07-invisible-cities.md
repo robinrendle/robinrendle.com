@@ -1,12 +1,7 @@
 ---
 title: Invisible Cities
 date: 2019-03-07 14:38:00 -08:00
-categories:
-- book
-- reading
 tags:
-- italo calvino
-- reading
 - book
 extract: And how to see the inferno.
 city: San Francisco

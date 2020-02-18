@@ -1,12 +1,8 @@
 ---
 title: Counterpunch
 date: 2013-05-06 11:27:00 -07:00
-categories:
-- book
 tags:
-- typography
-- publishing
-- book reviews
+- book
 extract: A small review of Fred Smeijers’ typographic classic on the mostly forgotten
   and covert practice of punching typefaces. Due to the lack of primary sources he’s
   forced to take up the old tools  and theorise as to how these craftsman performed

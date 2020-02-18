@@ -2,11 +2,12 @@
 title: Saving Zelda
 date: 2018-08-18 18:51:00 -07:00
 tags:
-- zelda
-- video games
+  - video games
+  - link
 city: San Francisco
 country: California
-extract: "“If a legendary quest has no substantial challenge, if it asks nothing of
+extract:
+  "“If a legendary quest has no substantial challenge, if it asks nothing of
   you except that you jump through the hoops it so carefully lays out for you, then
   the very legend is unworthy of being told, and retold.”"
 ---

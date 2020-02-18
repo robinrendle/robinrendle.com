@@ -1,10 +1,8 @@
 ---
 title: One Thousand Days in America
 date: 2016-05-13 11:35:00 -07:00
-categories:
-- personal
 tags:
-- gusto
+- personal
 city: London
 country: UK
 extract: I’m moving to San Francisco. After months of waiting, hoping, with fingers-crossed,

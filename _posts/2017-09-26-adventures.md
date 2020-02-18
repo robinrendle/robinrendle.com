@@ -1,11 +1,8 @@
 ---
 title: Notes on Adventures
 date: 2017-09-26 00:21:00 -07:00
-categories:
-- work
 tags:
-- Writing
-- newsletter
+- writing
 city: San Francisco
 country: California
 extract: If a single intelligible and kind word can be wrenched out of me as I write

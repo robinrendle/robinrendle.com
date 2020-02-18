@@ -1,8 +1,8 @@
 ---
 title: CSS is Awesome
 date: 2018-01-04 17:48:00 -08:00
-categories:
-- links
+tags:
+- link
 city: San Francisco
 country: California
 extract: Despite how much you might want to control it, or bury the language in a

@@ -2,9 +2,7 @@
 title: Blogging and Atrophy
 date: 2016-11-02 23:12:00 -07:00
 tags:
-  - blogging
-  - writing
-  - robinrendle.com
+  - blog
 city: San Francisco
 country: California
 extract: How do I see my website? Well, it’s complicated.

@@ -2,14 +2,12 @@
 title: The first floor
 date: 2013-11-28 14:49:00 -08:00
 tags:
-- business
-- culture
-- typography
-- Herb Lubalin
-extract: I can’t stop thinking about this story from the latest issue of Codex magazine
+  - typography
+extract:
+  I can’t stop thinking about this story from the latest issue of Codex magazine
   where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all
   the facets and inner-workings of this celebrated graphic design agency in New York.
-update: 
+update:
 city: Nottingham
 country: UK
 ---
@@ -27,10 +25,10 @@ I can’t stop thinking about this story from the latest issue of Codex magazine
 </figcaption>
 </figure>
 
-I’m bothered by the fact that to make great work Lubalin was forced to have these embarassing sedimentary layers underneath. I’m bothered by his conviction that this is the only way that an agency can be run. I’m bothered by the *suggestion* that no-one will pay for great work, or that this sort of product cannot be exchanged with a respectable sum in return.
+I’m bothered by the fact that to make great work Lubalin was forced to have these embarassing sedimentary layers underneath. I’m bothered by his conviction that this is the only way that an agency can be run. I’m bothered by the _suggestion_ that no-one will pay for great work, or that this sort of product cannot be exchanged with a respectable sum in return.
 
 There’s another problem too; it’s heavily implied in the retelling of this story that one cannot gain independence from those first two floors and that we’ll be shackled to them forever, regardless of our profession or the nature of our limited success.
 
-For some reason the description of Lubalin’s office has me drawing parallels with [this piece](http://www.shirky.com/weblog/2013/11/healthcare-gov-and-the-gulf-between-planning-and-reality/) by Clay Shirky on how the internal culture of a company has such drastic and unforeseen consequences on their products. And I’m clearly fumbling for connections between the two articles here but *burueacracy*, whether enforced by government protocols, or the natural strains of the marketplace, is kinda sucky either way.
+For some reason the description of Lubalin’s office has me drawing parallels with [this piece](http://www.shirky.com/weblog/2013/11/healthcare-gov-and-the-gulf-between-planning-and-reality/) by Clay Shirky on how the internal culture of a company has such drastic and unforeseen consequences on their products. And I’m clearly fumbling for connections between the two articles here but _burueacracy_, whether enforced by government protocols, or the natural strains of the marketplace, is kinda sucky either way.
 
 I wonder what the people on the first two floors thought of people on the third.

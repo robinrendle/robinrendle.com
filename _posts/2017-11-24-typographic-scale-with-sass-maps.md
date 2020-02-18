@@ -1,8 +1,8 @@
 ---
 title: Setting a Typographic Scale with Sass Maps
 date: 2017-11-24 21:06:00 -08:00
-categories:
-- work
+tags:
+- typography
 city: Nottingham
 country: UK
 extract: An old technique for setting type on the web.

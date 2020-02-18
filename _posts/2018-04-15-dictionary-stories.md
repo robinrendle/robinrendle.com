@@ -1,7 +1,7 @@
 ---
 title: Dictionary Stories
 date: 2018-04-15 19:08:00 -07:00
-categories:
+tags:
 - book
 extract: It’s a lovely book, go read it.
 city: San Francisco

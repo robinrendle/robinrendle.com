@@ -2,8 +2,7 @@
 title: How to Take Criticism
 date: 2018-05-16 23:52:00 -07:00
 tags:
-- design
-- criticism
+  - link
 extract: Design criticism from a different point of view.
 city: San Francisco
 country: California

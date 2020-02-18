@@ -4,7 +4,7 @@ date: 2019-07-24 11:26:59
 city: San Francisco
 country: California
 tags:
-  - featured
+  - work
 extract: And the result of 3 years of refactoring.
 ---
 

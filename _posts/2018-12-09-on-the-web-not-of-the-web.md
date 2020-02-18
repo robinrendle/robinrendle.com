@@ -2,8 +2,7 @@
 title: On the web not of the web
 date: 2018-12-09 09:41:00 -08:00
 tags:
-- andy biao
-- on the web not of the web
+  - link
 extract: Andy Baio’s thoughts on Quora.
 city: San Francisco
 country: California

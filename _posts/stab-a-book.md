@@ -4,7 +4,7 @@ date: 2019-11-08 15:13:11
 city: San Francisco
 country: California
 extract: And why our attention is precious.
-categories: 
+tags: 
   - personal
 ---
 

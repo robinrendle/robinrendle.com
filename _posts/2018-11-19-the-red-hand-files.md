@@ -2,7 +2,7 @@
 title: The Red Hand Files
 date: 2018-11-19 22:17:00 -08:00
 tags:
-- Nick Cave
+  - link
 city: San Francisco
 country: California
 extract: In his newsletter, Nick Cave writes about tragedy and wonder.

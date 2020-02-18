@@ -2,6 +2,8 @@
 title: Eleventy and Netlify
 date: 2019-06-01 19:42:34 -07:00
 city: San Francisco
+tags:
+  - blog
 country: California
 extract: This Memorial weekend I updated this very website to use the static site generator Eleventy and Netlify as the publishing process. Oh boy was it a dream.
 ---

@@ -1,12 +1,12 @@
 ---
-title: 'Design Systems at Gusto: Part II'
+title: "Design Systems at Gusto: Part II"
 date: 2018-10-22 22:48:00 -07:00
 tags:
-- Aza Raskin
-- Boss Fight Books
+  - design
 city: San Francisco
 country: California
-extract: "“Design is not about learning to think outside the box, it’s about finding
+extract:
+  "“Design is not about learning to think outside the box, it’s about finding
   the right box to think inside of.”"
 ---
 
@@ -19,7 +19,6 @@ Today our design systems team is made up of a designer, a design lead, and an en
 Besides trying to listen to my own advice, I always find it interesting to see how other teams and companies are dealing with the various complexities of making a great design system and I’ve learned an awful lot about how I should approach problems from those teams. But since every org is different, every design system has to cater itself to a new culture. So take all of this with a grain of salt as it might not apply to you.
 
 Anyway, last time I ranted about [the mistakes](https://robinrendle.com/notes/design-systems-at-gusto/) I’ve made along the way but this time I’d like to explore what’s been working in our favor and what’s changed for the better. So here are seven clickbaity things that I’ve discovered since then:
-
 
 ## #1. Documentation is just the beginning
 
@@ -122,7 +121,6 @@ Anyway, I slowly came to the conclusion that everyone should be involved and kep
 But a good design system cannot be built by committee.
 
 ## #8. Design Price Points can help resolve arguments
-
 
 I’ve been working with Jordan Townsend on a number of projects lately — he’s an infuriatingly talented designer at Gusto and he has an interesting way of dealing with my design systems nonsense. Whenever we chat about a new project he always shows me three potential solutions to a problem.
 

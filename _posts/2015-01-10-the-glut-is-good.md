@@ -2,13 +2,12 @@
 title: The Glut is Good
 date: 2015-01-10 10:01:00 -08:00
 tags:
-- reading
-- hugh howey
-- book
-extract: "“A common refrain in this new age of self-publishing is that there are too
+  - book
+extract:
+  "“A common refrain in this new age of self-publishing is that there are too
   many books. The outflow of new material has been likened to all sorts of natural
   disasters spewing forth and flooding the land.”"
-update: 
+update:
 link: http://www.hughhowey.com/the-glut-is-good/
 city: Plymouth
 country: UK

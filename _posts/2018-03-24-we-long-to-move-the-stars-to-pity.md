@@ -1,10 +1,8 @@
 ---
 title: We Long to Move the Stars to Pity
 date: 2018-03-24 18:38:00 -07:00
-categories:
-- personal
 tags:
-- Dora Chan
+- personal
 city: San Francisco
 country: California
 extract: "“...exaggerated speeches that concealed mediocre affections”"

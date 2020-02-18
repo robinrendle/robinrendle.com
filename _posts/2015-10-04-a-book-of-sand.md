@@ -2,16 +2,14 @@
 title: A Book of Sand
 date: 2015-10-04 00:30:00 -07:00
 tags:
-- reading
-- Borges
-- Short story
+  - link
 extract: A love story by Borges about books.
-update: 
+update:
 link: http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html
 city: Plymouth
 country: UK
 Author:
-- Jorge Luis Borges
+  - Jorge Luis Borges
 ---
 
 I'm in love with [this short story](http://www4.wittenberg.edu/academics/mathcomp/shelburne/Infinity/notes/BookOfSand.html) by Borges:

@@ -1,7 +1,7 @@
 ---
 title: How to ride a motorcycle in California
 date: 2017-03-09 21:25:00 -08:00
-categories:
+tags:
 - personal
 city: San Francisco
 country: California

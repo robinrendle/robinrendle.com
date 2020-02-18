@@ -1,14 +1,11 @@
 ---
 title: How to be an open source gardener
 date: 2020-01-09 15:47:32
-tags:
-  - open source
-  - programming
 extract: And how to care for the community.
 country: California
 city: San Francisco
-categories: 
-  - web design
+tags:
+  - link
 ---
 
 I love this piece by Steve Klabnik on [how to care for an open source community](https://words.steveklabnik.com/how-to-be-an-open-source-gardener). He writes:

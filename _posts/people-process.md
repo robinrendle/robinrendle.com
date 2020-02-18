@@ -1,13 +1,10 @@
 ---
 title: People > Process
 date: 2020-01-21 17:40:50
-tags:
-  - Paul Robert Lloyd
-  - process
 extract: Paul Robert Lloyd on improving the software building process.
 country: California
 city: San Francisco
-categories: 
+tags: 
   - management
 ---
 

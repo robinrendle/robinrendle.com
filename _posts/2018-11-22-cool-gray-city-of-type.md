@@ -1,13 +1,8 @@
 ---
 title: Cool Gray City of Type
 date: 2018-11-22 22:44:00 -08:00
-categories:
-- reading
-- book
 tags:
-- Gary Kamiya
-- Camellia Neri
-- Adventures
+- book
 city: San Francisco
 country: California
 extract: Okay so I have an idea for a book.

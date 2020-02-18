@@ -1,12 +1,7 @@
 ---
 title: The Hiding Place
 date: 2019-12-08 10:00:49
-tags:
-  - Robert McFarlane
-  - radioactivity
-  - book
-  - reading
-categories: 
+tags: 
   - book
 extract: Robert McFarlane and the dangers of radioactive waste.
 country: California

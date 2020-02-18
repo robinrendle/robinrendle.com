@@ -2,9 +2,7 @@
 title: I’m Not Black, I’m Kanye
 date: 2018-05-12 00:20:00 -07:00
 tags:
-- ta-nehisi coates
-- kanye west
-- michael jackson
+  - link
 extract: "“...he is a man of no mystery, overexposed...”"
 city: San Francisco
 country: California

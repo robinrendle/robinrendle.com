@@ -1,11 +1,8 @@
 ---
 title: How to be both
 date: 2017-11-17 21:04:00 -08:00
-categories:
-- book
 tags:
-- ali smith
-- story
+- book
 city: San Francisco
 country: California
 extract: "“It is a feeling thing, to be a painter of things: cause every thing, even

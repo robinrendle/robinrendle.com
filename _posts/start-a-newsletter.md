@@ -4,7 +4,7 @@ date: 2019-11-07 09:13:33
 city: San Francisco
 country: California
 extract: And how you can help your design system today. 
-categories: 
+tags: 
   - design
 ---
 

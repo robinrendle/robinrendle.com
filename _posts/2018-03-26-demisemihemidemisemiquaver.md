@@ -2,7 +2,7 @@
 title: Demisemihemidemisemiquaver
 date: 2018-03-26 21:58:00 -07:00
 tags:
-- Joanna Jao
+  - personal
 extract: Words fail to do the sound justice.
 city: San Francisco
 country: California

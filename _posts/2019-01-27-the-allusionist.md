@@ -1,10 +1,8 @@
 ---
 title: The Allusionist
 date: 2019-01-27 19:48:00 -08:00
-categories:
-- language
 tags:
-- podcasts
+  - link
 extract: And how English deserves our love but not our worry.
 city: San Francisco
 country: California

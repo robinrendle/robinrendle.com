@@ -1,11 +1,8 @@
 ---
 title: The Vietnam War
 date: 2018-07-21 20:19:00 -07:00
-categories:
-- tv
 tags:
-- ken burns
-- documentary
+- personal
 extract: It asks that we look deep into the heart of this ugly moment in time, so
   that we may never make the same mistakes again.
 city: San Francisco

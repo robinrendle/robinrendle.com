@@ -2,11 +2,8 @@
 title: Net Promoter Score Considered Harmful (and What UX Professionals Can Do About
   It)
 date: 2017-12-21 03:10:00 -08:00
-categories:
-- links
 tags:
-- Jared Spool
-- nps
+- link
 city: Plymouth
 country: UK
 ---

@@ -1,13 +1,8 @@
 ---
 title: Reading Design
 date: 2018-01-23 00:08:00 -08:00
-categories:
-- links
 tags:
-- Dean Allen
-- web design
 - design
-- typography
 city: Oakland
 extract: 'I’ve read this piece about design by Dean Allen multiple times and yet I
   can’t appear to shake it. Every time I read it I find something new that perfectly

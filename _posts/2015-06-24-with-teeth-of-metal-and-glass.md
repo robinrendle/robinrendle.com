@@ -2,8 +2,7 @@
 title: With teeth of metal and glass
 date: 2015-06-24 09:09:00 -07:00
 tags:
-  - relationships
-  - diary
+  - personal
 extract:
   "My excitement for a holiday to NYC was of paramount importance then: as
   someone that comes from a rural area, would I enjoy it? Would I want to emigrate

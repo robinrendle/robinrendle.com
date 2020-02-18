@@ -2,8 +2,7 @@
 title: A rendezvous of secrets
 date: 2014-07-28 08:41:00 -07:00
 tags:
-  - reading
-  - libraries
+  - personal
 extract:
   Reading is designed to alleviate our curiosity. We all want to know what’s
   in our neighbors’ pockets, how they style their hair, how much time they spent on

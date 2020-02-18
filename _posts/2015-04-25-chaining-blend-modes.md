@@ -2,16 +2,13 @@
 title: Chaining blend-modes
 date: 2015-04-25 05:07:00 -07:00
 tags:
-- front-end development
-- blend-modes
-- css-tricks
-- css
+  - design
 extract: I’ve been obsessed with blend modes over the past couple of weeks.
-update: 
+update:
 city:
-- London
+  - London
 country:
-- UK
+  - UK
 ---
 
 I’ve been obsessed with blend modes over the past couple of weeks. First it started when I noticed how the Almanac was missing both [`mix-blend-mode`](https://css-tricks.com/almanac/properties/m/mix-blend-mode/) and [`background-blend-mode`](https://css-tricks.com/almanac/properties/b/background-blend-mode/) so I went ahead and fixed that.

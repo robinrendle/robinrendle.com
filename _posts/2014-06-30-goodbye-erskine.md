@@ -2,13 +2,12 @@
 title: Goodbye Erskine
 date: 2014-06-30 10:43:00 -07:00
 tags:
-- personal
-- work
-- erskine
-extract: 'Today I leave Erskine – this small band of designers and developers pushed
+  - personal
+extract:
+  "Today I leave Erskine – this small band of designers and developers pushed
   my latent skills in writing, programming and design but they also challenged my
-  tendencies to avoid humiliation at all costs. '
-update: 
+  tendencies to avoid humiliation at all costs. "
+update:
 city: Nottingham
 country: UK
 ---
@@ -19,6 +18,6 @@ When I joined almost two years ago I thought that Git was an English slang and I
 
 There’s just so much that I learned in Nottingham and it’s hard to write it all down in a single post – not only about the technical side of web design but also how to communicate with clients, how to manage their expectations and how to work peacefully alongside team members from other fields. This small band of designers and developers at Erskine pushed my latent skills in writing, programming and design but they also challenged my tendencies to avoid humiliation at all costs. Most importantly though I discovered a working environment that was supportive and friendly, so it’s kind of impossible to thank everyone enough for their patience as I tried to figure things out.
 
-So what’s next? Well, I have no immediate plans but I’m looking for an exciting place to work right away. I’ll be leaving Nottingham at the end of the week and doing a lot more traveling which might be fun. Although there’s certainly no denying those noxious fears – *oh my god, how am I going to pay my rent* – but this mixture of terror and unrelenting excitement is often packaged in strange ways.
+So what’s next? Well, I have no immediate plans but I’m looking for an exciting place to work right away. I’ll be leaving Nottingham at the end of the week and doing a lot more traveling which might be fun. Although there’s certainly no denying those noxious fears – _oh my god, how am I going to pay my rent_ – but this mixture of terror and unrelenting excitement is often packaged in strange ways.
 
-[*To adventures!*](https://dl.dropboxusercontent.com/u/7963775/gifs/lets-ride.gif)
+[_To adventures!_](https://dl.dropboxusercontent.com/u/7963775/gifs/lets-ride.gif)

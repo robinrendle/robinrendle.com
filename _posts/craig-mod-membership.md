@@ -1,14 +1,11 @@
 ---
 title: Craig Mod on Membership
 date: 2020-02-03 19:48:08
-tags:
-  - craig mod
-  - subscription
 extract: An honest look at Craig’s paid membership program.
 country: California
 city: San Francisco
-categories: 
-  - publishing
+tags: 
+  - writing
 ---
 
 This is an interesting and honest post by Craig Mod on [how his paid membership program faired in 2019](https://craigmod.com/essays/membership_programs/). He breaks down his costs and what advice he would give to other writers/artists who are interested in becoming more independent. I particularly like this bit, too:

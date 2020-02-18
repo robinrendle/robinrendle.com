@@ -2,9 +2,7 @@
 title: The Argument against Centrism
 date: 2019-02-01 03:08:00 -08:00
 tags:
-- Alexandria Ocasio-Cortez
-- kindness
-- politics
+  - personal
 extract: And a nation of kindness.
 city: San Francisco
 country: California
@@ -22,7 +20,7 @@ We can build a place that is worthy of our patriotism. To do so we must abandon 
 
 It’s only then that we might build a nation of kindness.
 
-***
+---
 
 There’s something very special about this particular moment in time, an age in which we get to watch Alexandria Ocasio-Cortez become the graceful statesfolk she has already shown us to be. When I say grace I don’t mean that lightly either, I mean the way in which she communicates, the way Alexandria is not only careful but concerned about the state of kindness in America. I wonder if this is how it felt like to listen to one of the founders, or Lincoln perhaps, when they spoke in public. That sense of progress and momentum with each and every breath.
 
