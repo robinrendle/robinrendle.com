@@ -78,6 +78,8 @@ module.exports = function(eleventyConfig) {
       .reverse();
   });
 
+  eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
+
   eleventyConfig.addCollection("feed", collection => {
     return collection
       .getFilteredByGlob("_posts/*.md")
