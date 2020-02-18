@@ -441,3 +441,28 @@ a:focus {
     margin-top: 10px;
   }
 }
+
+.tag {
+  margin-right: 13px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  position: relative;
+  font-family: "Input Mono", monospace;
+  background-color: var(--card-bg);
+  border: 1px solid var(--lighter-grey);
+  border-radius: 3px;
+  display: inline-block;
+  padding: 3px 8px;
+  color: var(--lighter-grey);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.tag--active {
+  background-color: var(--nav-color);
+  color: white;
+}
+
+.hide-posts a:not(.card-list--show) {
+  display: none;
+}
