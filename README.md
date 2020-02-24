@@ -1,7 +1,7 @@
 
 # [robinrendle.com](http://robinrendle.com)
 
-My blog
+To get started, run the following command:
 
 ```
 yarn install && yarn start
