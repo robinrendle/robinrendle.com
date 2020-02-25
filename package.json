@@ -14,6 +14,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "browser-sync": "^2.26.5",
+    "dotenv": "^8.2.0",
     "fontfaceobserver": "^1.5.4",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^2.1.0",
@@ -24,7 +25,8 @@
     "gulp-sass": "^4.0.0",
     "gulp-shell": "^0.6.3",
     "gulp-uglify": "^1.2.0",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0"
   },
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.6",

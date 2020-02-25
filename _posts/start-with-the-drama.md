@@ -4,9 +4,8 @@ date: 2019-12-21 18:42:05
 extract: The only writing tip worth paying attention to.
 country: California
 city: San Francisco
-tags: 
+tags:
   - writing
-  - video games
 ---
 
 I reckon every good story begins halfway through. One example is the first scene of _Uncharted 2_: we don’t see our protagonist Nathan Drake at the train station buying his ticket, grabbing a coffee, hopping on the train, finding his seat, taking off his coat, and then finally settling down for the trip. Instead, the game cuts to Drake waking up in his seat upside down with the train teetering on the edge of a cliff in the Himalayas; suitcases are crashing down all around him and into the open maw of a giant canyon.
