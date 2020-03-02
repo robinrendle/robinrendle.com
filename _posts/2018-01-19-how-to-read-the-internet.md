@@ -22,10 +22,13 @@ to work, I would likely stumble on <a href="http://www.kungfugrippe.com/post/169
 <h2 id="the-setup">The Setup</h2>
 <p>There are two services that I’ve fallen in love with over the years: <a href="https://feedbin.com/">Feedbin</a> (a service that saves all my subscriptions and keeps everything in sync) and Reeder (<a href="http://reederapp.com/mac/">a macOS</a> and <a href="http://reederapp.com/ios/">iOS app</a> that lets me read those subscriptions). These two are a match made in heaven and I haven’t changed anything about my setup in <em>years</em> because it’s precisely what I want, although I reckon it’s important to note that there are a number of alternatives out there and so this setup might not be precisely what you want and/or need.</p>
 <p>Also I guess it’s quickly worth mentioning that a feed is typically in a format such as <a href="https://en.wikipedia.org/wiki/Atom_(Web_standard)">Atom</a>, <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>, <a href="https://jsonfeed.org/">json</a> or XML — but you don’t really need to care which format a website supports because most of these feed-reading services will accept them all. We just need to care about the URL of the website we want to subscribe to, such as robinrendle.com, which we would just copy and paste to the RSS feed reader of our choice. What the app will then do is search for a link in the <code class="highlighter-rouge">head</code> of the website that <a href="https://robinrendle.com/feed.xml">looks like this</a>:</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;</span><span class="err">!</span> <span class="na">--</span> <span class="na">other</span> <span class="na">stuff</span> <span class="na">--</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;link</span> <span class="na">href=</span><span class="s">"https://robinrendle.com/feed.xml"</span> <span class="na">rel=</span><span class="s">"alternate"</span> <span class="na">type=</span><span class="s">"application/atom+xml"</span><span class="nt">&gt;</span>
-</code></pre></div></div>
+
+```
+<html>
+  <! -- other stuff -->
+  <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml">
+```
+
 <p>But do you need to know that to use RSS? Absolutely not.</p>
 <p>Anyway, Feedbin is one of those services that’ll take a format like that, check to see if the feed has been updated, and then return the results. Effectively it’s the service that stores all of my RSS subscriptions and makes sure that they’re synced across devices.</p>
 <p>I pay $5 a month for Feedbin but I feel like I get way more than my money’s worth. In fact, Feedbin is sort of like the plumbing of RSS for me — I don’t interact with the site at all and I think perhaps I’ve logged in only a couple of times over the years but I’m still a huge fan. And knowing that I’m a paying customer makes me hopeful that a sustainable business can be built out of it.</p>

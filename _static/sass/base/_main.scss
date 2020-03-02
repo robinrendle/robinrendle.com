@@ -91,7 +91,18 @@ video {
   max-width: 100%;
 }
 
+main {
+  overflow-x: hidden;
+}
+
+pre {
+  overflow: auto;
+  background-color: #f1f1f1;
+  white-space: pre;
+}
+
 pre code {
+  padding: 20px;
+  background-color: transparent;
   display: block;
-  padding: 15px;
 }
