@@ -16,7 +16,7 @@ The other day I mentioned that I might not be taking writing [seriously enough](
 >
 > It’s just incomplete, because writing can also be fun, matter-of-fact, rushed, bonkers, commercial, crass—and totally successful. Anything can work. Not everything does! But the gates of the city are wide open and there are a thousand ways in.
 
-That mythology (about writing having to be painful to be good) is certainly something I was attracted to for a rather long time. Years ago I would hurl myself at the page until my back hurt and my fingers ached. I believed that physical pain and emotional torment would somehow translate into great work. And in the early days of writing the newsletter I would do the same: I wanted to sound like Hitchens or Orwell or Trent Reznor. I wanted to sound important and I wanted the writing to be sad.
+That mythology (about writing having to be painful to be good) was attractive for a long time. Years ago I would hurl myself at the page until my back hurt and my fingers ached. I believed that physical pain and emotional torment would somehow translate into great work. And in the early days of writing the newsletter I would do the same: I wanted to sound like Hitchens or Orwell or Trent Reznor. I wanted to sound important and I wanted the writing to be sad.
 
 But the pain of all that never really helped. In fact, it created nothing but writing that I want to forget.
 
