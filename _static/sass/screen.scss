@@ -42,7 +42,6 @@ $breakpoints: (
 @import "objects/multi";
 @import "objects/preserve-aspect";
 // MODULES
-@import "modules/custom-post";
 @import "modules/longform";
 @import "modules/wrapper";
 @import "modules/codepen";
@@ -54,7 +53,7 @@ $breakpoints: (
 @import "modules/highlight";
 @import "modules/form";
 @import "../../fonts/newzald.scss";
-@import "../../fonts/caponi.scss";
+@import "../../fonts/ayer/ayer.scss";
 
 section[role="main"] {
   min-height: 80vh;
@@ -70,7 +69,7 @@ section[role="main"] {
   padding-top: 50px;
   margin-bottom: 50px;
   @media screen and (min-width: 700px) {
-    margin-bottom: 10px;
+    padding-top: 80px;
   }
 }
 
@@ -190,6 +189,11 @@ section[role="main"] {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.tag-collection {
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .tag {
@@ -454,7 +458,12 @@ a:focus {
   padding: 3px 8px;
   color: var(--lighter-grey);
   border-radius: 3px;
-  cursor: pointer;
+}
+
+.tag:hover {
+  background-color: #cb5b69;
+  color: white;
+  cursor: url("/uploads/hand.png"), auto;
 }
 
 .tag--active {
@@ -464,4 +473,35 @@ a:focus {
 
 .hide-posts a:not(.card-list--show) {
   display: none;
+}
+
+.home-header {
+  @include media(">largest") {
+    margin-bottom: 40px;
+    width: 100%;
+  }
+}
+
+.home-header h1 {
+  @include media(">medium") {
+    line-height: 1 !important;
+  }
+
+  @include media(">largest") {
+    font-size: 70px;
+  }
+}
+
+.home-header span {
+  display: block;
+  color: #a1a1a1;
+}
+
+.lil-heading {
+  @include typeface("Small caps");
+  font-size: 18px !important;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  margin-bottom: 25px !important;
+  color: var(--lighter-gray-color);
 }

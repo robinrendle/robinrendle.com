@@ -1,34 +1,28 @@
 {% include header.html %}
-<section class="m-header m-wrapper">
-  <div class="m-wrapper__content">
-    <header>
-      <h1>Adventures in Typography</h1>
-    </header>
-    <div class="m-longform">
-      <p>
+<div class="m-wrapper">
+  <div class="cell-t40 cell-t60--medium cell-b0">
+    <h1>Adventures in Typography</h1>
+  </div>
+  <div class="m-longform">
+    <p>
         This is a newsletter all about typefaces and fonts (and what those words
         mean). It’s for book nerds, typographers, neon light enthusiasts, and
         for people who have no interest in typography whatsoever. You can
         subscribe below for weekly-ish updates:
       </p>
-    </div>
-    {% include newsletter.html %}
   </div>
+  {% include newsletter.html %}
 </section>
 
-<section class="m-wrapper">
-  <div class="m-wrapper__content">
-    <nav class="cell-b30 email">
-      {% for item in collections.adventures reversed %}
-      <a href="{{ item.url }}" class="card-list">
-        <h4 class="card-list__title">{{ item.data.title }}</h4>
-        <div class="card-list__time">
-          {{ item.data.date | date: "%b %d, %Y" }}
-        </div>
-      </a>
-      {% endfor %}
-    </nav>
-  </div>
-</section>
+<nav class="cell-b30 email">
+  {% for item in collections.adventures reversed %}
+    <a href="{{ item.url }}" class="card-list">
+      <h4 class="card-list__title">{{ item.data.title }}</h4>
+      <div class="card-list__time">
+        {{ item.data.date | date: "%b %d, %Y" }}
+      </div>
+    </a>
+  {% endfor %}
+</nav>
 
 {% include footer.html %}

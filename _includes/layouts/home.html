@@ -1,23 +1,49 @@
 {% include header.html %}
 
-<section class="m-header m-wrapper">
-  <div class="m-wrapper__content m-longform">
-    <h1 class="heading-home">
-      I’m Robin, a writer and web designer.
+<div class="wrapper-wide">
+  <div class="m-header home-header">
+    <h1 class="m-wrapper">
+      Allo, I’m Robin! <span>I make websites and write nonsense.</span>
     </h1>
-    <p>
-      Originally from the south-west of England, now I live in cloudy San
-      Francisco where I make websites and write things alongside the ever-so-lovely team at <a href='https://css-tricks.com/'>CSS-Tricks</a>.</p>
-      <p>Here though you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of
-      warning; things certainly got a little weird at one point or another. Over in <a href='/notes'>/notes</a> I blog about whatever’s going on in my head at the moment and <a href='/essays'>/essays</a> is where those notes get polished into something a bit more readable.</p>
-    <p>Also! My current side project is a newsletter
-      all about typefaces and fonts (and what those words mean). It’s for book
-      nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever. You can subscribe below for weekly-ish updates:
-    </p>
   </div>
+</div>
 
-  {% include newsletter.html %}
-</section>
+<div class="wrapper-wide wrapper-wide--grid">
+  <section class="m-wrapper">
+    <div class="m-longform">
+      <h2 class="lil-heading">About me</h2>
+      <p>
+        I’m from the south-west of England, but now I live in cloudy San
+        Francisco where I make websites and write things alongside the ever-so-lovely team at <a href='https://css-tricks.com/'>CSS-Tricks</a>.</p>
+      <p>Here though you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of
+        warning; things certainly got a little weird at one point or another. Over in <a href='/notes'>/notes</a> I blog about whatever’s going on in my head at the moment and <a href='/essays'>/essays</a> is where those notes get polished into something a bit more readable.</p>
+      <p>Also! My current side project is a newsletter
+        all about typefaces and fonts (and what those words mean). It’s for book
+        nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever. You can subscribe below for weekly-ish updates:
+      </p>
+    </div>
+    {% include newsletter.html %}
+  </section>
+
+  <section class="m-wrapper blog-list">
+    <div class="m-longform">
+      <h2 class="lil-heading">Notes from the field</h2>
+    </div>
+
+    {% assign top_posts = collections.blogposts | reverse %}
+
+    {% for item in top_posts limit : 5 %}
+      <a
+        class="card-list"
+        href="{{ item.url }}"
+        data-category="{% for tag in item.data.tags %}{{ tag }}{% endfor %}"
+      >
+        <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">{{ item.data.date | date: "%m/%d/%y" }}</time>
+        <h2 class="card-list__title">{{ item.data.title }}</h2>
+        <p class="card-list__text">{{ item.data.extract }}</p>
+      </a>
+    {% endfor %}
+  </section>
 </div>
 
 {% include footer.html %}

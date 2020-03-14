@@ -21,7 +21,6 @@ $c-offwhite: lighten($c-text, 10);
   --white-color: #ddd;
 
   --nav-color: #1f223d;
-  --nav-about: var(--main-theme-color);
   --nav-border: #ddd;
 
   --highlight-color: #fff2cc;
@@ -29,7 +28,8 @@ $c-offwhite: lighten($c-text, 10);
   --theme-color-border: #f0ffaf;
 
   --link-underline: #666;
-  --link-color: #4e5060;
+  --link-color: --main-theme-color;
+  --link-hover-color: #ce535c;
 
   // hr, blockquote lines, dates
   --lighter-gray-color: #777;

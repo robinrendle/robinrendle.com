@@ -29,18 +29,12 @@
   }
 
   @if $font == "Bold" {
-    font-weight: 600;
-    font-family: "Caponi", $serif-fallback;
+    font-weight: 400;
+    font-family: "Newzald", $serif-fallback;
   }
 
   @if $font == "Display" {
     font-weight: 600;
-    font-family: "Caponi Display", $serif-fallback;
-  }
-
-  @if $font == "Display caps" {
-    font-weight: 600;
-    font-family: "Caponi Display", $serif-fallback;
-    font-variant: small-caps;
+    font-family: "Ayer", $sans-fallback;
   }
 }

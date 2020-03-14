@@ -1,9 +1,6 @@
 // ==========================================================================
 // MAIN
 // ==========================================================================
-//
-// This module styles the body and html elements
-//
 
 * {
   box-sizing: border-box;
@@ -13,17 +10,32 @@ html {
   overflow-y: scroll;
   height: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: var(--main-theme-color);
+  padding-top: 20px;
+  background: linear-gradient(
+    180deg,
+    #d34646 0%,
+    rgba(23, 45, 241, 0.338557) 19.27%,
+    rgba(0, 26, 255, 0.015625) 99.99%,
+    rgba(20, 44, 255, 0) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: url("/uploads/hand.png"), auto;
+
+  @include media(">large") {
+    padding: 20px;
+  }
 }
 
 body {
-  font: 400 110%;
+  font: 400 100%;
   @include typeface("Regular");
   line-height: 1.4;
-  background-color: var(--background-color);
   color: var(--main-text-color);
   font-feature-settings: "liga" 1 !important;
   min-height: 100%;
+  background-color: white;
+  padding-bottom: 200px;
 
   @include media(">large") {
     border-top: none;
@@ -61,10 +73,6 @@ mark {
 .caps,
 abbr {
   @include typeface("Small caps");
-}
-
-.display-caps {
-  @include typeface("Display caps");
 }
 
 abbr,

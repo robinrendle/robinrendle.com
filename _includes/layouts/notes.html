@@ -6,29 +6,29 @@
       <h1>Quick Notes & Ramblings</h1>
     </div>
 
-    <div class="tag-collection">
+    <div class="tag-collection" aria-hidden="true">
       {% for tag in collections.tagList %}
-      <div class="tag">{{ tag }}</div>
+        <div class="tag">{{ tag }}</div>
       {% endfor %}
     </div>
 
     <section class="blog-list">
       {% for item in collections.blogposts reversed %}
-      <a
+        <a
         class="card-list"
         href="{{ item.url }}"
         data-category="{% for tag in item.data.tags %}{{ tag }}{% endfor %}"
       >
-        <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">
-          {{ item.data.date | date: "%m/%d/%y" }}
-        </time>
-        <h2 class="card-list__title">
-          {{ item.data.title }}
-        </h2>
-        <p class="card-list__text">
-          {{ item.data.extract }}
-        </p>
-      </a>
+          <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">
+            {{ item.data.date | date: "%m/%d/%y" }}
+          </time>
+          <h2 class="card-list__title">
+            {{ item.data.title }}
+          </h2>
+          <p class="card-list__text">
+            {{ item.data.extract }}
+          </p>
+        </a>
       {% endfor %}
     </section>
 
@@ -40,12 +40,18 @@
 
       cleanCache = () => {
         tags.map(i => {
-          i.classList.remove("tag--active");
+          i
+            .classList
+            .remove("tag--active");
         });
         articles.map(i => {
-          i.classList.remove("card-list--show");
+          i
+            .classList
+            .remove("card-list--show");
         });
-        wrapper.classList.remove("hide-posts");
+        wrapper
+          .classList
+          .remove("hide-posts");
       };
 
       tagWrapper.addEventListener("click", e => {
@@ -56,11 +62,14 @@
           }
           cleanCache();
           let selection = e.target.innerText;
-          const selectedItems = Array.from(
-            document.querySelectorAll(`[data-category="${selection}"]`)
-          );
-          e.target.classList.toggle("tag--active");
-          wrapper.classList.toggle("hide-posts");
+          const selectedItems = Array.from(document.querySelectorAll(`[data-category="${selection}"]`));
+          e
+            .target
+            .classList
+            .toggle("tag--active");
+          wrapper
+            .classList
+            .toggle("hide-posts");
           selectedItems.map(i => i.classList.add("card-list--show"));
         }
         e.stopPropagation();

@@ -53,16 +53,13 @@
   padding: 13px 10px;
   font-size: 20px;
   transition: background-color 0.3s ease;
-  background-color: #eee;
-  border: 1px solid #aaa;
-  border-left: none;
-  border-top: none;
-  border-right: none;
+  background-color: #eaeaea;
   outline: none;
   box-shadow: none;
-  border-radius: 3px 0px 0px 3px !important;
+  border-radius: 3px !important;
   width: calc(100% - 70px);
   color: black;
+  margin-right: 10px;
 
   &:hover,
   &:focus {
@@ -79,20 +76,28 @@
   max-width: 120px;
   transition: background-color 0.3s ease;
   background-color: white;
-  color: #111;
+  color: white;
   outline: none;
   font-size: 0.9em;
   text-transform: uppercase;
-  background-color: #ddd;
-  border-bottom: 1px solid #aaa;
-  border-radius: 0 3px 3px 0;
+  background-color: #000;
+  border-radius: 3px;
 
   &:hover,
   &:focus {
     outline: none;
-    border-right: none;
-    border-top: none;
-    background-color: darken(#ddd, 10);
+    background-color: #d14b4f;
+    transition: background-color 0.3s ease;
+    animation: cool 0.5s linear infinite;
+  }
+}
+
+@keyframes cool {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 

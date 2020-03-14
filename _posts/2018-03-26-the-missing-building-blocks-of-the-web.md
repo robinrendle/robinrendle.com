@@ -2,8 +2,9 @@
 title: The Missing Building Blocks of the Web
 date: 2018-03-26 22:52:00 -07:00
 tags:
-- web design
-extract: "“Old-timers might remember when Flash ruled the web, and people made simple
+  - web design
+extract:
+  "“Old-timers might remember when Flash ruled the web, and people made simple
   games or interactive art pieces that would then get shared on blogs or other media
   sites. Except for the occasional SoundCloud song on someone’s Tumblr, it’s a grim
   landscape for anyone that can imagine a web where bits and pieces of different sites
@@ -14,7 +15,7 @@ country: California
 
 Anil Dash on [the early promise of the web](https://medium.com/@anildash/the-missing-building-blocks-of-the-web-3fa490ae5cbc):
 
-> For the first few years of the web, the fundamental way that people learned to build web pages was by using the “View Source” feature in their web browser. You would point your mouse at a menu that said something like “View Source” (nobody was browsing the web on a touchscreen back then) and suddenly you’d see the HTML code that made up the page you were looking at. If you squinted, you could see the text you’d been reading, and wrapped around it was a fairly comprehensible set of tags — you know, that <p>paragraph</p> kind of stuff.
+> For the first few years of the web, the fundamental way that people learned to build web pages was by using the “View Source” feature in their web browser. You would point your mouse at a menu that said something like “View Source” (nobody was browsing the web on a touchscreen back then) and suddenly you’d see the HTML code that made up the page you were looking at. If you squinted, you could see the text you’d been reading, and wrapped around it was a fairly comprehensible set of tags — you know, that paragraph kind of stuff.
 >
 > It was one of the most effective technology teaching tools ever created. And no surprise, since the web was invented for the purpose of sharing knowledge.
 >

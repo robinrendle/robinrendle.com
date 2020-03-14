@@ -1,152 +1,86 @@
 // ==========================================================================
 // BANNER
 // ==========================================================================
-.m-banner {
-  @include clearfix();
-  background-color: var(--nav-color);
-  transition: background-color 0.3s ease;
-  border-bottom: 1px solid var(--nav-border);
 
-  @include media(">medium") {
-    .m-wrapper__content {
-      display: flex;
-      align-items: center;
-    }
+.banner {
+  background-color: #000;
+  overflow-y: hidden;
+
+  @include media(">large") {
+    margin: 0 -10px;
   }
 }
 
-.m-banner__about {
+.banner__nav {
+  padding: 0 10px;
+  margin: 0 auto;
+  max-width: 700px;
+
+  @include media(">largest") {
+    max-width: 1200px;
+  }
+}
+
+.banner__nav nav {
   @include typeface("Small caps");
   display: flex;
-  text-transform: uppercase;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background-color: var(--nav-about);
-  transition: background-color 0.3s ease;
-  float: left;
-  font-size: 18px;
-  text-align: center;
-  margin-right: 20px;
-  height: 50px;
-  width: 160px;
+  flex-wrap: nowrap;
+  margin: 0 10px;
 
-  .fonts-loaded & {
-    font-size: 15px !important;
-  }
-
-  @include media(">medium") {
-    font-size: 18px;
-    height: 55px;
-  }
-
-  &:hover,
-  &:focus {
-    background-color: var(--main-theme-color);
-    color: white;
+  @include media(">largest") {
+    justify-content: space-between;
   }
 }
 
-.m-banner__menu {
-  display: block;
-  float: right;
+.banner__nav nav div {
+  display: inline-flex;
+}
+
+// Eat shit, future Robin. You deserve this.
+.banner__nav nav div:nth-child(2) .banner__nav-item:nth-child(1) {
+  @include media("<largest") {
+    margin-left: 30px;
+    &:before {
+      content: "•";
+      pointer-events: none;
+      position: absolute;
+      left: -16px;
+    }
+  }
+}
+
+.banner__nav-item {
   color: var(--white-color);
-  padding-top: 13px;
-  outline: none;
+  white-space: nowrap;
+  padding: 20px 0;
+  position: relative;
+  overflow: visible;
+  text-decoration: none;
+  background: none;
+  transition: background 0.3s ease;
+  margin-right: 25px;
+  transition: color 0.3s ease;
 
-  &:focus {
-    background-color: transparent;
+  &:after {
+    content: "•";
+    pointer-events: none;
+    position: absolute;
+    right: -16px;
+    color: white !important;
   }
 
-  .no-js & {
-    display: none;
+  &:last-of-type {
+    margin-right: 0;
   }
 
-  @include media(">medium") {
-    display: none;
-  }
-}
-
-@keyframes push {
-  0% {
-    transform: translateX(-2000px);
+  &:last-of-type:after {
+    content: none;
   }
 
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.m-banner__nav {
-  float: left;
-  padding-top: 0;
-  width: 100%;
-  @include typeface("Small caps");
-
-  @include media(">medium") {
-    @include remCalc(font-size, 18);
-    letter-spacing: 0.5px;
-    width: auto;
-
-    nav {
-      display: flex;
-    }
-  }
-
-  .js & {
-    @include media("<medium") {
-      display: none;
-    }
-
-    @include media(">medium") {
-      display: inline-block;
-      float: left;
-    }
-  }
-
-  .js .is--active & {
-    @include media("<medium") {
-      padding: 0;
-      display: block;
-      animation: push 0.4s ease;
-      width: 100%;
-      float: left;
-    }
-  }
-
-  a.o-nav__item {
-    @include media("<medium") {
-      color: var(--white-color);
-      display: block;
-      padding: 13px 20px;
-      margin: 0;
-      background-color: var(--nav-about);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.35);
-      position: relative;
-      left: -20px;
-      width: 100%;
-      width: calc(100% + 35px);
-      background-color: var(--main-theme-color);
-
-      &:first-child {
-        border-top: 1px solid rgba(0, 0, 0, 0.35);
-      }
-      &:last-child {
-        border: none;
-      }
-
-      &:hover,
-      &:focus {
-        background-color: #000;
-      }
-    }
-    @include media(">medium") {
-      color: var(--white-color);
-
-      &:hover,
-      &:focus {
-        color: var(--white-color);
-      }
+  &:hover {
+    color: var(--link-hover-color);
+    &:after {
+      color: white !important;
     }
   }
 }

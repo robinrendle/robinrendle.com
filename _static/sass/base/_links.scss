@@ -7,6 +7,10 @@
 
 a {
   border: none;
+  &,
+  &:hover {
+    cursor: url("/uploads/hand.png"), auto;
+  }
 }
 
 @mixin links() {
@@ -21,7 +25,7 @@ a {
     &:hover,
     &:focus {
       text-decoration: none;
-      color: var(--link-color);
+      color: var(--link-hover-color);
       border: none;
     }
   }
@@ -53,7 +57,7 @@ a {
 
     &:hover,
     &:focus {
-      color: var(--main-theme-color);
+      color: var(--link-hover-color);
       text-decoration-color: inherit;
     }
   }

@@ -11,7 +11,6 @@
   display: block;
   padding-top: 15px;
   padding-bottom: 20px;
-  border-radius: 5px;
   color: var(--main-text-color);
   transition: all 0.3s ease;
   border-bottom: 1px solid var(--card-border);
@@ -23,9 +22,17 @@
 }
 
 a.card-list {
+  &:first-of-type {
+    padding-top: 0;
+  }
+
   &:hover,
   &:focus {
     z-index: 999;
+
+    .card-list__title {
+      color: #cd525a;
+    }
     @include media(">large") {
       transform: scale(1.01);
     }
@@ -39,14 +46,15 @@ a.card-list {
 }
 
 .card-list__title {
-  font-size: 21px;
+  @include typeface("Regular");
+  color: #000;
+  font-size: 22px;
   line-height: 1.1;
   margin-top: 5px;
-  margin-bottom: 0;
-  color: var(--link-color);
+  margin-bottom: 2px;
   transition: color 0.3s ease;
   @include media(">large") {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -57,7 +65,7 @@ a.card-list {
   transition: color 0.3s ease;
   color: #555;
   @include media(">large") {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.3;
   }
 }

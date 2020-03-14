@@ -3,24 +3,24 @@
 <div class="m-wrapper">
   <div class="m-wrapper__content">
     <div class="cell-t40 cell-t60--medium cell-b0">
-      <h1>Likes</h1>
+      <h1>RSS favorites</h1>
       <div class="m-longform cell-b60">
         <p>
           Below you’ll find a list of a few of the things I’ve favorited in
           <a href="https://feedbin.com">Feedbin</a> that you might find of
-          interest, too. I tend to
+          interest. I tend to
           <a href="https://www.robinrendle.com/notes/how-to-read-the-internet"
             >read the internet</a
           >
           with RSS and you can
           <a href="https://feedbin.com/starred/aLWF-kwUgSwGZ_pDRzeM4w.xml"
             >subscribe to these posts I like</a
-          >, also here’s how to make
+          > with your RSS reader of choice. Also! Here’s how to make
           <a
             href="https://css-tricks.com/how-to-fetch-and-parse-rss-feeds-in-javascript/"
             >your own feed</a
           >
-          like this if you are so inclined.
+          of favorites if you have a blog.
         </p>
       </div>
     </div>
@@ -42,15 +42,17 @@
             html += `
               <li>
                 <a class="card-list" href="${
-                  el.querySelector(" link").innerHTML
-                }" targett="_blank" rel="noopener">
+            el
+              .querySelector(" link")
+              .innerHTML}" targett="_blank" rel="noopener">
                   <h2 class="card-list__title">
-                    ${el.querySelector("title").innerHTML}
+                    ${el
+              .querySelector("title")
+              .innerHTML}
                   </h2>
-                  <div class="card-list__text">${url.hostname.replace(
-                    "www",
-                    ""
-                  )}</div>
+                  <div class="card-list__text">${url
+              .hostname
+              .replace("www", "")}</div>
                 </a>
               </li>
             `;

@@ -25,10 +25,111 @@ $font-stack--sans: Helvetica, sans-serif;
 @import "utilities/underline";
 
 @import "base/base-spacing";
-@import "base/main";
 @import "base/links";
 @import "base/hierarchy";
 @import "../../fonts/caponi.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--main-theme-color);
+}
+
+body {
+  font: 400 110%;
+  @include typeface("Regular");
+  line-height: 1.4;
+  background-color: var(--background-color);
+  color: var(--main-text-color);
+  font-feature-settings: "liga" 1 !important;
+  min-height: 100%;
+
+  @include media(">large") {
+    border-top: none;
+  }
+}
+
+// sticky footer styles
+.main {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+cite {
+  @include typeface("Regular italic");
+  font-style: normal;
+}
+
+em,
+small,
+dfn,
+i,
+q,
+.italic {
+  @include typeface("Regular italic");
+}
+
+mark {
+  background-color: rgb(255, 220, 0);
+  background-color: rgba(255, 220, 0, 0.3);
+  font-weight: normal;
+  color: #444;
+}
+
+.caps,
+abbr {
+  @include typeface("Small caps");
+}
+
+.display-caps {
+  @include typeface("Display caps");
+}
+
+abbr,
+abbr[title] {
+  border: none;
+  text-decoration: none;
+}
+
+b,
+strong {
+  @include typeface("Book");
+}
+
+acronym {
+  text-transform: normal;
+}
+
+iframe {
+  margin: 0 auto !important; // centers tweets
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+pre {
+  overflow: auto;
+  background-color: #f1f1f1;
+  white-space: pre;
+}
+
+pre code {
+  padding: 20px;
+  background-color: transparent;
+  display: block;
+}
 
 @font-face {
   font-family: "Newzald";

@@ -45,7 +45,7 @@
   p,
   ul {
     @include remCalc(font-size, 20);
-    line-height: 1.2;
+    line-height: 1.15;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
     -webkit-hyphenate-limit-before: 3;
@@ -55,7 +55,7 @@
       line-height: 1.35;
     }
     @include media(">medium") {
-      @include remCalc(font-size, 23);
+      @include remCalc(font-size, 24);
       line-height: 1.3;
     }
 
