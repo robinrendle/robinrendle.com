@@ -1,17 +1,28 @@
 {% include header.html %}
 
-<div class="m-wrapper">
-  <div class="m-wrapper__content">
-    <div class="cell-t40 cell-t60--medium cell-b0">
-      <h1>Quick Notes & Ramblings</h1>
-    </div>
+<div class="wrapper-wide">
+  <div class="m-header home-header">
+    <h1 class="m-wrapper">
+      Quick Notes & Ramblings
+    </h1>
+  </div>
+</div>
 
+<div class="wrapper-wide wrapper-wide--grid wrapper-wide--grid-reverse">
+  <div class="m-wrapper">
+    <div class="m-longform">
+      <h2 class="lil-heading">Tags</h2>
+    </div>
     <div class="tag-collection" aria-hidden="true">
       {% for tag in collections.tagList %}
         <div class="tag">{{ tag }}</div>
       {% endfor %}
     </div>
-
+  </div>
+  <div class="m-wrapper">
+    <div class="m-longform">
+      <h2 class="lil-heading">Latest posts</h2>
+    </div>
     <section class="blog-list">
       {% for item in collections.blogposts reversed %}
         <a
@@ -31,50 +42,50 @@
         </a>
       {% endfor %}
     </section>
-
-    <script>
-      const wrapper = document.querySelector(".blog-list");
-      const tagWrapper = document.querySelector(".tag-collection");
-      const tags = Array.from(document.querySelectorAll(".tag"));
-      const articles = Array.from(document.querySelectorAll(`.card-list`));
-
-      cleanCache = () => {
-        tags.map(i => {
-          i
-            .classList
-            .remove("tag--active");
-        });
-        articles.map(i => {
-          i
-            .classList
-            .remove("card-list--show");
-        });
-        wrapper
-          .classList
-          .remove("hide-posts");
-      };
-
-      tagWrapper.addEventListener("click", e => {
-        if (e.target != e.currentTarget) {
-          if (e.target.classList.contains("tag--active")) {
-            cleanCache();
-            return;
-          }
-          cleanCache();
-          let selection = e.target.innerText;
-          const selectedItems = Array.from(document.querySelectorAll(`[data-category="${selection}"]`));
-          e
-            .target
-            .classList
-            .toggle("tag--active");
-          wrapper
-            .classList
-            .toggle("hide-posts");
-          selectedItems.map(i => i.classList.add("card-list--show"));
-        }
-        e.stopPropagation();
-      });
-    </script>
   </div>
 </div>
+
+<script>
+  const wrapper = document.querySelector(".blog-list");
+  const tagWrapper = document.querySelector(".tag-collection");
+  const tags = Array.from(document.querySelectorAll(".tag"));
+  const articles = Array.from(document.querySelectorAll(`.card-list`));
+
+  cleanCache = () => {
+    tags.map(i => {
+      i
+        .classList
+        .remove("tag--active");
+    });
+    articles.map(i => {
+      i
+        .classList
+        .remove("card-list--show");
+    });
+    wrapper
+      .classList
+      .remove("hide-posts");
+  };
+
+  tagWrapper.addEventListener("click", e => {
+    if (e.target != e.currentTarget) {
+      if (e.target.classList.contains("tag--active")) {
+        cleanCache();
+        return;
+      }
+      cleanCache();
+      let selection = e.target.innerText;
+      const selectedItems = Array.from(document.querySelectorAll(`[data-category="${selection}"]`));
+      e
+        .target
+        .classList
+        .toggle("tag--active");
+      wrapper
+        .classList
+        .toggle("hide-posts");
+      selectedItems.map(i => i.classList.add("card-list--show"));
+    }
+    e.stopPropagation();
+  });
+</script>
 {% include footer.html %}

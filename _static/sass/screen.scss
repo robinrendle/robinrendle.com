@@ -193,7 +193,7 @@ section[role="main"] {
 
 .tag-collection {
   margin-bottom: 40px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .tag {
@@ -476,8 +476,9 @@ a:focus {
 }
 
 .home-header {
+  margin-bottom: 15px;
   @include media(">largest") {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     width: 100%;
   }
 }
@@ -502,6 +503,10 @@ a:focus {
   font-size: 18px !important;
   border-bottom: 1px solid #ccc;
   padding-bottom: 6px;
-  margin-bottom: 25px !important;
   color: var(--lighter-gray-color);
+  margin-bottom: 8px !important;
+
+  @include media(">medium") {
+    margin-bottom: 15px !important;
+  }
 }
