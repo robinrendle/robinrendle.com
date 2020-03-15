@@ -2,7 +2,7 @@
 title: And Introducing
 date: 2015-10-24 11:59:00 -07:00
 tags:
-  - work
+  - personal
 dateRange: August 2018
 subtitle: A microsite for a wonderful little art book.
 extract:

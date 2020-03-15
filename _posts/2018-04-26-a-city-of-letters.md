@@ -2,7 +2,7 @@
 title: A City of Letters
 date: 2018-04-26 15:51:00 -07:00
 tags:
-- typography
+  - design
 extract: And a place you won’t ever want to leave.
 city: San Francisco
 country: California

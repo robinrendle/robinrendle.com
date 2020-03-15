@@ -2,7 +2,7 @@
 title: What do you want to do when you grow up, kid?
 date: 2018-11-01 21:52:00 -07:00
 tags:
-  - story
+  - personal
 city: San Francisco
 country: California
 extract: It’s an everlasting, punk-rock feeling that I hope will never really go away.

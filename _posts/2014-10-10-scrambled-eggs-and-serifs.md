@@ -2,7 +2,7 @@
 title: Scrambled eggs and serifs
 date: 2014-10-10 00:29:00 -07:00
 tags:
-  - typography
+  - design
 extract:
   "“Years ago, I asked one of my mentors what he thought was the hardest part
   of designing a typeface. I was expecting “the cap S” or “the italic lowercase” or

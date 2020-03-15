@@ -4,8 +4,8 @@ date: 2019-09-11 19:09:19
 city: San Francisco
 country: California
 extract: Paul Ford on becoming a manager.
-tags: 
-  - management
+tags:
+  - link
 ---
 
 Paul Ford on [becoming a manager](https://postlight.com/trackchanges/irony-doesnt-scale) at Postlight, the agency he cofounded:

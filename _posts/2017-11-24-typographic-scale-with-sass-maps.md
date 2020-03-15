@@ -2,7 +2,7 @@
 title: Setting a Typographic Scale with Sass Maps
 date: 2017-11-24 21:06:00 -08:00
 tags:
-- typography
+  - design
 city: Nottingham
 country: UK
 extract: An old technique for setting type on the web.
@@ -10,7 +10,7 @@ extract: An old technique for setting type on the web.
 
 _The other day [Tim Brown](http://nicewebtype.com/) noticed that this old post had been deleted and so I rescued it from the Wayback Machine. It’s a post from several years ago where I wrote about a new typesetting system that we had developed at [Erskine](http://erskine.simplygoodwork.com/). Please note that most of this code wasn’t written by me, but I did contribute to some of the underlying ideas; the credit should be directed towards Mat Hayward and Tom Davies of [Kind](https://madebykind.com/) fame._
 
-***
+---
 
 Last month Tom [discussed a new method](//web.archive.org/web/20170211113632/http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/) for organising colors with Sass lists and over the past few weeks I’ve been happily using it throughout our projects. This newfound ability to remember color settings all of a sudden feels like a weird front-end super power, and for larger projects this technique is sure to save us a large amount of time nipping back and forth between the module file we’re working on (like `_island.scss`) and the file which contains all of the color variable declarations. However, this technique is so useful that we’ve begun to wonder where else we can set data in a Sass list and consequently access it via a mixin.
 
@@ -19,7 +19,6 @@ After a bit of investigation I believe that we ought to use this technique to se
 ## Problem #1: Setting margins, font-size and line-height at the same time
 
 In order to align headings to the baseline we often set margins and padding values on the default `h1` through `h6` elements. Over time however, and especially on larger projects, we’ve noticed that this effects the reusability of these components. What happens if one of these headings are inside another module? Do they _always_ need these specific margin/padding values? Probably not. Either way, we’ll end up resetting these defaults multiple times throughout the stylesheet like this (in the examples we’re going to keep things easier to read by setting everything in pixels but we usually set type with [rems](//web.archive.org/web/20170211113632/http://snook.ca/archives/html_and_css/font-size-with-rem)):
-
 
 ```
 h1, .h1{
@@ -184,7 +183,6 @@ We can use these functions throughout the project to individually set this infor
   font-size: calc-font-size(large);
 }
 ```
-
 
 In those rare instances a developers wants to set a specific typeface we need a function to grab the font stack and remove the quotes surrounding it:
 

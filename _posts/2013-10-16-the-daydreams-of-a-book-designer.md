@@ -2,7 +2,7 @@
 title: The daydreams of a book designer
 date: 2013-10-16 14:09:00 -07:00
 tags:
-  - story
+  - personal
 extract:
   She spent her days ordering circles, squares and rectangles of color on a
   page. In her dreams however, in that alternate universe where she might become anything

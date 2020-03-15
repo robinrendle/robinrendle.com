@@ -4,8 +4,8 @@ date: 2019-09-11 19:33:30
 city: San Francisco
 country: California
 extract: And how to keep someone with you forever.
-tags: 
-  - management
+tags:
+  - link
 ---
 
 This post about the workplace and [creating a sick system](http://www.issendai.com/psychology/sick-systems.html) is outstanding and I’ve been thinking about it all week. I can’t seem to find out anything about who wrote this but they argue that if you want to keep employees working for you forever there are a number of ways to do that, the most important being...

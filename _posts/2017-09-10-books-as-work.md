@@ -2,7 +2,7 @@
 title: Books as Work
 date: 2017-09-10 21:26:00 -07:00
 tags:
-  - writing
+  - personal
 city: San Francisco
 country: California
 extract:

@@ -2,7 +2,7 @@
 title: The first floor
 date: 2013-11-28 14:49:00 -08:00
 tags:
-  - typography
+  - design
 extract:
   I can’t stop thinking about this story from the latest issue of Codex magazine
   where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all

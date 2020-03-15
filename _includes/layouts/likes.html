@@ -7,8 +7,7 @@
       <div class="m-longform cell-b60">
         <p>
           Here you’ll find a list of a few of the things I’ve favorited in
-          <a href="https://feedbin.com">Feedbin</a> that you might find of
-          interest. I tend to
+          <a href="https://feedbin.com">Feedbin</a>. I tend to
           <a href="https://www.robinrendle.com/notes/how-to-read-the-internet"
             >read the internet</a
           >
@@ -40,7 +39,6 @@
           items.forEach(el => {
             var url = new URL(el.querySelector("link").innerHTML);
             html += `
-              <li>
                 <a class="card-list" href="${
             el
               .querySelector(" link")
@@ -54,7 +52,6 @@
               .hostname
               .replace("www", "")}</div>
                 </a>
-              </li>
             `;
           });
           app.insertAdjacentHTML("beforeend", html);

@@ -2,7 +2,7 @@
 title: Quarks, Atoms and Molecules
 date: 2013-07-01 11:46:00 -07:00
 tags:
-  - web design
+  - design
 extract:
   I wanted to write a little bit about a new process I’ve been working on for
   developing sites and maintaining large Sass projects, but first I think it’s worth

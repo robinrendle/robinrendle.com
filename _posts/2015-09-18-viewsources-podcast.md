@@ -2,7 +2,7 @@
 title: Viewsources podcast
 date: 2015-09-18 15:36:00 -07:00
 tags:
-  - typography
+  - design
 extract: I was on a podcast.
 city: Plymouth
 country: UK

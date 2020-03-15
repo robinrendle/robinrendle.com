@@ -2,7 +2,7 @@
 title: The great future of video games
 date: 2014-10-29 04:52:00 -07:00
 tags:
-  - video games
+  - link
 extract:
   "“In 2006, I was drawn back into video games when Nintendo introduced a new
   system with intuitive motion controls and a quirky name, Wii. Nintendo projected

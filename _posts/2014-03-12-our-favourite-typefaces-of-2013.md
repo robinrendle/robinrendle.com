@@ -2,7 +2,7 @@
 title: Our favourite typefaces of 2013
 date: 2014-03-12 05:58:00 -07:00
 tags:
-  - typography
+  - design
 extract:
   "Typographica has published their favourite typefaces from the past year
   and so I’ll be spending the next couple of days carefully bookmarking and reading

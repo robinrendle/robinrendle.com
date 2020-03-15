@@ -2,7 +2,7 @@
 title: Flotsam, Jetsam, Lagan & Derelict
 date: 2015-08-15 15:09:00 -07:00
 tags:
-  - story
+  - personal
 extract: A now defunct newsletter that shortly became Adventures in Typography.
 city: Plymouth
 country: UK

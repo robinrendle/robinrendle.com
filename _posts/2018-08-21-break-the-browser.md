@@ -2,7 +2,7 @@
 title: Break the Browser
 date: 2018-08-21 21:33:00 -07:00
 tags:
-- web design
+  - design
 extract: In this game there a lot of rules.
 city: San Francisco
 country: California

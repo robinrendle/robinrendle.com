@@ -72,7 +72,7 @@ a.card-list {
 
 .card-list--show {
   padding-top: 0;
-  transition: padding-top 0s;
+  transition: padding-top 0s scale 0.3s ease;
 
   & ~ .card-list--show {
     padding-top: 15px;
@@ -83,4 +83,9 @@ a.card-list {
       padding-bottom: 30px;
     }
   }
+}
+
+figure {
+  margin-bottom: 60px;
+  margin-top: 60px;
 }

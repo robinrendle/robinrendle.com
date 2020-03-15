@@ -4,8 +4,8 @@ date: 2020-01-21 17:40:50
 extract: Paul Robert Lloyd on improving the software building process.
 country: California
 city: San Francisco
-tags: 
-  - management
+tags:
+  - link
 ---
 
 Paul wrote [this lovely piece](https://paulrobertlloyd.com/2020/01/people_process) that riffs on my thoughts about [why software is bad](https://www.robinrendle.com/notes/why-software-is-slow-and-shitty) and the the cool thing about it? Paul disagrees with me! He argues in part that building great software will always require some degree of communication and planning:

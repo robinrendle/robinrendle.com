@@ -2,7 +2,7 @@
 title: How to Read the Internet
 date: 2018-01-19 23:14:00 -08:00
 tags:
-  - web design
+  - design
 extract: A love letter to RSS the community and RSS the technology.
 city: San Francisco
 country: California

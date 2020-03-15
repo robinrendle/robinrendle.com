@@ -2,7 +2,7 @@
 title: Setting up a default type stylesheet
 date: 2013-01-18 16:00:00 -08:00
 tags:
-  - web design
+  - design
 location: Nottingham, UK
 extract:
   If we’re serious about designing progressively enhanced then we need to start

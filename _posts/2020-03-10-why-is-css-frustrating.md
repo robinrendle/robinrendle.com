@@ -2,7 +2,7 @@
 title: Why is CSS frustrating?
 date: 2020-03-10 12:36:29
 tags:
-  - web design
+  - design
 extract: Ask me one about fonts.
 country: California
 city: San Francisco

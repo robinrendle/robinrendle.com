@@ -3,8 +3,8 @@ title: Taking shortcuts
 date: 2019-08-21 10:34:26
 city: San Francisco
 country: California
-tags: 
-- web design
+tags:
+  - design
 extract: The web is bigger than Google.
 ---
 

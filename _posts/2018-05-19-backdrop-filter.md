@@ -2,7 +2,7 @@
 title: backdrop-filter
 date: 2018-05-19 23:57:00 -07:00
 tags:
-  - web design
+  - design
 extract: A new CSS property that looks pretty handy.
 city: San Francisco
 country: California

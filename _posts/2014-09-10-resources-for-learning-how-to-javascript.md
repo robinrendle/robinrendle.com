@@ -2,7 +2,7 @@
 title: Resources for learning how to JavaScript
 date: 2014-09-10 07:20:00 -07:00
 tags:
-  - web design
+  - design
 extract:
   In recent weeks I’ve been trying to improve my fledging JavaScript skills,
   which have always bothered me. Sure, for the longest time I’ve been able to hack

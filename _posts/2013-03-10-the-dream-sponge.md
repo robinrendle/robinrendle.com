@@ -2,15 +2,16 @@
 title: The Dream Sponge
 date: 2013-03-10 09:12:00 -07:00
 tags:
-- story
-location: 
-extract: A short story of a room I loved as a kid; learning how to communicate and
+  - personal
+location:
+extract:
+  A short story of a room I loved as a kid; learning how to communicate and
   realising that I was going to spend my life in a perpetual state of overactive dream-sharing.
 city: Nottingham
 country: UK
 ---
 
-Several of our closest family friends had gathered at my home. I was about seven or eight at the time and we had met for a party or a celebration of some sort or another but I don’t clearly remember the event itself. Anyway, I recall my excitement about showing the rest of the kids this…well… *wonderful something* that I had stumbled upon.
+Several of our closest family friends had gathered at my home. I was about seven or eight at the time and we had met for a party or a celebration of some sort or another but I don’t clearly remember the event itself. Anyway, I recall my excitement about showing the rest of the kids this…well… _wonderful something_ that I had stumbled upon.
 
 Without knowing quite how to describe it, I led this ragtag band of explorers away to a small, windowless spare room that had been forgotten in the turmoil of renovating a block of offices into our home. Magazines, clothes, gym equipment and all sorts of general waste lay heaped up in towers and so naturally we jumped in and tore apart everything that we could get our grubby little hands on.
 
@@ -20,7 +21,7 @@ We imagined all the various kinds of magical abilities that might emerge from th
 
 Yet the most interesting object here was a four poster, queen size bed that had been pushed aside and hidden in a dusty corner for years. It was a prehistoric monster that we courageously dug out of the environment and I remember uncovering those nasty chips and dents that unevenly scarred its flank, wondering about their ghostly origins.
 
-Soon enough we had thrown all of our best ideas at this monster, each time hoping to dream it into something more incredible, something more ethereal than our previous efforts. At first it was a legendary sports car, then a boat gliding across the open seas, then suddenly it would transform into a floating fortress. So this dusty old bed quickly became a template, or  a boilerplate of some kind as it allowed us to quickly develop our ideas and share them.
+Soon enough we had thrown all of our best ideas at this monster, each time hoping to dream it into something more incredible, something more ethereal than our previous efforts. At first it was a legendary sports car, then a boat gliding across the open seas, then suddenly it would transform into a floating fortress. So this dusty old bed quickly became a template, or a boilerplate of some kind as it allowed us to quickly develop our ideas and share them.
 
 But there were moments when our dreams didn’t quite translate, as we were forced to explain to the group why we had suddenly jumped, or dived, screamed, giggled, or gasped. Aliens would be attacking, Godzilla would have climbed out of the sewers, or we might have all tripped upon a mystical super weapon that only one of us could see.
 

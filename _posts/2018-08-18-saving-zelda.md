@@ -2,7 +2,6 @@
 title: Saving Zelda
 date: 2018-08-18 18:51:00 -07:00
 tags:
-  - video games
   - link
 city: San Francisco
 country: California
