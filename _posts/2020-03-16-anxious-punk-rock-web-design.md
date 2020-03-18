@@ -8,7 +8,7 @@ country: California
 city: San Francisco
 ---
 
-Whenever I’m nervous or upset I tend to pull up my sleeves and throw myself at the ol’ website. Out of pure anxiety I’ll change the fonts over an evening of frantic typing, or I’ll bump up the font size with a glass of wine. Over a weekend I’ll get frustrated and take out all my anger out on the poor navigation, or I’ll tackle responsive bugs and finally confront my one true nemesis: my homepage (that dang page will forever be undergoing a redesign because I’ll never figure out how to say hello properly).
+Whenever I’m nervous or upset I tend to pull up my sleeves and throw myself at the ol’ website. Out of pure anxiety I’ll change the fonts over an evening of frantic typing, or I’ll bump up the font size with a glass of wine. Over a weekend I’ll get frustrated and take out all my anger on the poor navigation, or I’ll tackle responsive bugs and finally confront my one true nemesis: my homepage (that dang page will forever be undergoing a redesign because I’ll never figure out how to say hello properly).
 
 This week I made some of the biggest changes in years though; I’m using a lot of weird new type choices now—using [Ayer](https://commercialtype.com/catalog/ayer), for starters. I updated the navigation, removed my projects, fixed all the tags on every post (which I’m still deeply _hmmm_-ing about) and I made a splashier redesign of [the newsletter](https://www.robinrendle.com/adventures/).
 
