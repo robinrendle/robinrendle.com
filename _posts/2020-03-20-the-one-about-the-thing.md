@@ -64,9 +64,9 @@ But it’s not just the pandemic, it’s me. There have been heartbreaks of the 
 
 ---
 
-Who came up with this blog format? The one punctuation by `<hr>`s and where each section is a tangent, with perhaps no connection whatsoever to the previous section? It’s a twitter-thread-in-blog media format and I like it because for now it’s the only style I can think in.
+Who came up with this blog format? The one punctuated by `<hr>`s and where each section is a tangent, with perhaps no connection whatsoever to the previous section? It’s a twitter-thread-in-blog media format and I like it because for now it’s the only style I can think in.
 
-Longform-anything is impossible and I feel like I can only cope with short bursts of attention; yesterday I tried reading _The Water Dancer_ by Ta-Nehisi Coates in the bath and instead I spent twenty minutes crying for no real good reason at all.
+Longform-anything right now is impossible; I feel like I can only cope with short bursts of attention. Like yesterday, when I tried reading _The Water Dancer_ by Ta-Nehisi Coates in the bath and instead I spent twenty minutes crying for no real good reason at all.
 
 ---
 
