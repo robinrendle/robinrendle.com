@@ -38,8 +38,6 @@ $breakpoints: (
 @import "base/code";
 @import "base/lists";
 // OBJECTS
-@import "objects/nav";
-@import "objects/multi";
 @import "objects/preserve-aspect";
 // MODULES
 @import "modules/longform";
@@ -47,8 +45,6 @@ $breakpoints: (
 @import "modules/codepen";
 @import "modules/meta-info";
 @import "modules/banner";
-@import "modules/footer";
-@import "modules/hero";
 @import "modules/card-list";
 @import "modules/highlight";
 @import "modules/form";
@@ -143,47 +139,6 @@ section[role="main"] {
 
   100% {
     transform: translate(0, -20px);
-  }
-}
-
-.about-image {
-  position: relative;
-  margin-top: 0;
-  @include media(">medium") {
-    margin-top: 50px;
-  }
-
-  img {
-    z-index: 1;
-    opacity: 0.8;
-    @include media(">medium") {
-      max-width: 300px;
-    }
-  }
-
-  &:after,
-  &:before {
-    @include media(">medium") {
-      z-index: -1;
-      animation: wiggle 10s ease infinite alternate;
-      content: "";
-      background-color: #3d5599;
-      mix-blend-mode: hard-light;
-      opacity: 0.4;
-      position: absolute;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      top: 0;
-    }
-  }
-
-  &:after {
-    z-index: 2;
-    background: transparent;
-    animation: wiggle 10s ease infinite alternate-reverse;
-    border: 3px solid #3d5599;
-    opacity: 1;
   }
 }
 
@@ -346,98 +301,7 @@ a:focus {
   display: none;
 }
 
-////////////////////////////////////////////
-// ADVENTURES EMAIL LIST
-////////////////////////////////////////////
-
-.email {
-  max-width: 700px;
-  margin: auto 0;
-}
-
-.email-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10px;
-  text-decoration: none;
-  border-bottom: 1px solid #eee;
-  color: black;
-  font-size: 17px;
-  transition: box-shadow 0.1s ease, transform 0.1s ease;
-
-  &:hover,
-  &:focus {
-    border-radius: 4px;
-    position: relative;
-    z-index: 2;
-    border-bottom-color: transparent;
-    background-color: white;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
-    transform: scale(1.02);
-    color: black !important;
-  }
-}
-
-.article-header {
-  margin-bottom: 40px;
-
-  h1 {
-    margin-bottom: 0;
-  }
-
-  h2 {
-    @include typeface("Regular");
-    font-weight: 400;
-    color: #999;
-    margin: 0;
-    margin-top: 5px;
-    font-size: 21px;
-  }
-}
-
-.email-item-time {
-  font-size: 15px;
-  color: rgba(0, 0, 0, 0.5);
-}
-
-// PROJECTS AND WORK
-
-.project-link {
-  display: block;
-  padding: 20px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
-  border-radius: 4px;
-  transition: all 0.2s ease;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 130px;
-  @include media(">large") {
-    min-height: 180px;
-  }
-
-  &:hover,
-  &:focus {
-    z-index: 999;
-    transform: scale(1.05);
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
-    @include media(">large") {
-      transform: scale(1.07);
-    }
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 1.4;
-  }
-
-  .meta-info__item {
-    color: #aaa;
-    font-size: 16px;
-  }
-}
-
+// HOMEPAGE
 .heading-home {
   margin-bottom: 60px;
   @include media(">large") {
@@ -453,10 +317,9 @@ a:focus {
   position: relative;
   font-family: "Input Mono", monospace;
   background-color: var(--card-bg);
-  border: 1px solid var(--lighter-grey);
   display: inline-block;
   padding: 3px 8px;
-  color: var(--lighter-grey);
+  color: var(--heading-text-color);
   border-radius: 3px;
 }
 
