@@ -3,7 +3,6 @@
 // ==========================================================================
 
 $c-text: #999;
-$c-dark: #ddd;
 $c-offwhite: lighten($c-text, 10);
 
 :root {
@@ -16,9 +15,6 @@ $c-offwhite: lighten($c-text, 10);
 
   --card-bg: #e9e9e9;
   --card-border: #ddd;
-
-  //banner links
-  --white-color: #ddd;
 
   --nav-color: #1f223d;
   --nav-border: #ddd;

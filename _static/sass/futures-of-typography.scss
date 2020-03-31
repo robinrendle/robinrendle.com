@@ -4,16 +4,21 @@
 $base-spacing-unit: 18;
 $half-spacing-unit: $base-spacing-unit / 2;
 $quarter-spacing-unit: $half-spacing-unit / 2;
-$breakpoints: (small: 400px, medium: 620px, large: 920px, largest: 1100px, gigantic: 1400px) !default;
+$breakpoints: (
+  small: 400px,
+  medium: 620px,
+  large: 920px,
+  largest: 1100px,
+  gigantic: 1400px
+) !default;
 $max-width: 750px;
 $figure-width: 1000px;
 $theme: #e95555;
 $font-stack: Georgia, serif;
-$font-stack--sans: Helvetica,
-sans-serif;
+$font-stack--sans: Helvetica, sans-serif;
+$c-dark: #ddd;
 $c-primary: darken($theme, 20); // because of old links code :-(
 @import "utilities/reset";
-
 
 // ==========================================================================
 // TYPE
@@ -21,37 +26,36 @@ $c-primary: darken($theme, 20); // because of old links code :-(
 // Default typesetting, font-height and font-weight settings.
 
 @mixin typeface($font) {
-    $fallback: Georgia, serif;
+  $fallback: Georgia, serif;
+  .fonts-loaded & {
+    font-weight: normal;
+    font-stretch: normal;
+  }
+
+  @if $font == "Regular" {
+    font-family: $fallback;
+    font-weight: normal;
     .fonts-loaded & {
-        font-weight: normal;
-        font-stretch: normal;
+      font-family: "Fern", $fallback;
     }
+  }
 
-    @if $font == "Regular" {
-        font-family: $fallback;
-        font-weight: normal;
-        .fonts-loaded & {
-            font-family: "Fern", $fallback;
-        }
+  @if $font == "Regular italic" {
+    font-style: italic;
+    font-family: $fallback;
+    .fonts-loaded & {
+      font-style: italic;
+      font-family: "Fern italic", $fallback;
     }
+  }
 
-    @if $font == "Regular italic" {
-        font-style: italic;
-        font-family: $fallback;
-        .fonts-loaded & {
-            font-style: italic;
-            font-family: "Fern italic", $fallback;
-        }
+  @if $font == "Title" {
+    font-family: $fallback;
+    .fonts-loaded & {
+      font-family: "Gimlet condensed", $fallback;
     }
-
-    @if $font == "Title" {
-        font-family: $fallback;
-        .fonts-loaded & {
-            font-family: "Gimlet condensed", $fallback;
-        }
-    }
+  }
 }
-
 
 @import "utilities/rem-calc";
 @import "utilities/normalize";
@@ -65,15 +69,15 @@ $c-primary: darken($theme, 20); // because of old links code :-(
 // OPTIONS
 // ==========================================================================
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 // RESET
 // ==========================================================================
 body,
 html {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -86,42 +90,43 @@ body {
   border-bottom: 35px solid $theme;
   color: #333;
   padding-bottom: 100px;
-  font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0, "onum" 1, "lnum" 0, "dlig" 0;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "pnum" 1, "tnum" 0,
+    "onum" 1, "lnum" 0, "dlig" 0;
   @include media(">medium") {
-      font-size: 120%;
+    font-size: 120%;
   }
   @include media(">large") {
-      font-size: 125%;
+    font-size: 125%;
   }
 }
 
 .wrapper {
-    p,
-    ol,
-    ul,
-    blockquote,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    .h1,
-    .h2,
-    .h3,
-    .h4,
-    .h5,
-    pre {
-        max-width: $max-width;
-        margin-left: auto;
-        margin-right: auto; // center align text
-        padding: 0 15px;
-        @include media(">medium") {
-            padding: 0 5%;
-        }
-        @include media(">large") {
-            padding: 0;
-        }
+  p,
+  ol,
+  ul,
+  blockquote,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  pre {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto; // center align text
+    padding: 0 15px;
+    @include media(">medium") {
+      padding: 0 5%;
     }
+    @include media(">large") {
+      padding: 0;
+    }
+  }
 }
 
 em {
@@ -133,52 +138,63 @@ p {
   hyphens: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @include typeface('Title');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include typeface("Title");
   font-weight: normal;
 }
 
 a {
-    -webkit-appearance: none;
-    color: $theme;
-    position: relative;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .1) 50%);
-    background-repeat: repeat-x;
-    background-size: 2px 3px;
-    background-position: 0 19px;
+  -webkit-appearance: none;
+  color: $theme;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(0, 0, 0, 0.1) 50%
+  );
+  background-repeat: repeat-x;
+  background-size: 2px 3px;
+  background-position: 0 19px;
+  outline: 0 !important;
+  transition: background 0.3s ease;
+  &:hover,
+  &:focus {
     outline: 0 !important;
-    transition: background .3s ease;
-    &:hover,
-    &:focus {
-      outline: 0 !important;
-      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, $theme 50%);
-    }
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      $theme 50%
+    );
+  }
 }
-
 
 // Meta info styles
 .meta {
-    opacity: .8;
+  opacity: 0.8;
 }
 
 .meta__item {
-    font-size: 15px;
-    color: rgba(255, 255, 255, .9);
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.9);
+  display: inline-block;
+  @include media(">large") {
+    // margin-bottom: 10px;
+    font-size: 16px;
+  }
+  &:before {
+    content: "•";
+    color: rgba(darken($theme, 20), 0.7);
     display: inline-block;
-    @include media(">large") {
-        // margin-bottom: 10px;
-        font-size: 16px;
-    }
-    &:before {
-        content: "•";
-        color: rgba(darken($theme,20), .7);
-        display: inline-block;
-    }
-    &:first-of-type:before {
-        content: none;
-    }
+  }
+  &:first-of-type:before {
+    content: none;
+  }
 }
-
 
 // Title area
 .title {
@@ -197,13 +213,13 @@ a {
 
 .title__text-wrapper {
   padding: 0;
-  @include media(">medium"){
+  @include media(">medium") {
     margin: 0 auto;
     max-width: $max-width;
     padding: 0 5%;
   }
 
-  @include media(">large"){
+  @include media(">large") {
     margin: 0;
     padding: 0;
   }
@@ -226,13 +242,13 @@ a {
     object-fit: cover;
     width: 100%;
 
-    @include media(">medium"){
+    @include media(">medium") {
       width: 100%;
       object-fit: cover;
       height: 400px;
     }
 
-    @include media(">large"){
+    @include media(">large") {
       height: auto;
       object-position: 100% 0;
     }
@@ -245,7 +261,7 @@ a {
   align-items: center;
   padding: 30px 15px;
 
-  @include media(">large"){
+  @include media(">large") {
     padding: 0;
   }
 
@@ -257,16 +273,16 @@ a {
     color: white;
     font-size: 35px;
 
-    @include media(">small"){
+    @include media(">small") {
       font-size: 45px;
     }
 
-    @include media(">medium"){
+    @include media(">medium") {
       font-size: 60px;
       margin-bottom: 40px;
     }
 
-    @include media(">large"){
+    @include media(">large") {
       font-size: 70px;
     }
   }
@@ -289,7 +305,7 @@ h2 {
     float: left;
     font-size: 58px;
   }
-  @include media(">large"){
+  @include media(">large") {
     font-size: 62px;
   }
 }
@@ -312,25 +328,25 @@ p {
       background: none !important;
       text-decoration: none !important;
       border: none !important;
-      transition: color .3s ease;
+      transition: color 0.3s ease;
       color: $theme !important;
       &:after {
-          content: none;
+        content: none;
       }
       &:link,
       &:visited {
-          color: $theme;
+        color: $theme;
       }
       &:hover,
       &:focus {
-          color: darken($theme, 20);
+        color: darken($theme, 20);
       }
     }
   }
 }
 
 .flex--lg {
-  @include media('>large'){
+  @include media(">large") {
     display: flex;
   }
 }
@@ -341,7 +357,7 @@ p {
   margin-bottom: 30px;
   margin-top: 50px;
 
-  @include media(">large"){
+  @include media(">large") {
     padding: 0 2.3%;
     margin-bottom: 10px;
   }
@@ -361,11 +377,11 @@ p {
   padding: 0 15px;
   max-width: 750px;
 
-  @include media(">medium"){
+  @include media(">medium") {
     padding: 0 5%;
   }
 
-  @include media(">large"){
+  @include media(">large") {
     margin-bottom: 80px;
     padding-left: 2.3%;
     padding-right: 0;
@@ -387,7 +403,7 @@ p {
   }
 
   h5 {
-    @include typeface('Regular italic');
+    @include typeface("Regular italic");
     color: black;
   }
 }
@@ -396,7 +412,7 @@ blockquote {
   position: relative;
   margin: 0 auto;
   &:before {
-    @include media(">large"){
+    @include media(">large") {
       @include typeface("Title");
       content: "“";
       position: absolute;
@@ -406,11 +422,11 @@ blockquote {
       top: -15px;
       left: -10px;
       @include media(">medium") {
-          left: 15px;
+        left: 15px;
       }
       @include media(">large") {
-          top: -18px;
-          left: -8px;
+        top: -18px;
+        left: -8px;
       }
     }
   }
@@ -419,9 +435,8 @@ blockquote {
     margin-top: 5px;
   }
 
-
   p {
-    @include typeface('Regular italic');
+    @include typeface("Regular italic");
     color: #888;
     padding: 0 !important;
 
@@ -430,8 +445,9 @@ blockquote {
     }
   }
 
-  p, & + figcaption p {
-    @include media('>large'){
+  p,
+  & + figcaption p {
+    @include media(">large") {
       padding-left: 20px !important;
     }
   }
@@ -451,16 +467,16 @@ figcaption p,
 .footnotes {
   margin-top: 0px;
   @include media("<large") {
-      padding-left: 20px;
+    padding-left: 20px;
   }
   .footnote {
-      font-size: 80%;
-      text-decoration: none;
-      border: none;
-      outline: none;
+    font-size: 80%;
+    text-decoration: none;
+    border: none;
+    outline: none;
   }
   hr {
-      display: none;
+    display: none;
   }
   ol {
     li {
@@ -468,7 +484,7 @@ figcaption p,
       font-size: 90%;
       margin-bottom: 0;
       p {
-          padding-left: 0;
+        padding-left: 0;
       }
     }
   }
@@ -488,7 +504,7 @@ figcaption p,
 }
 
 .type-normal {
-  @include typeface('Regular');
+  @include typeface("Regular");
   font-style: normal !important;
 }
 
@@ -521,19 +537,20 @@ figcaption p,
     margin-left: 20px;
   }
 
-  img, svg {
+  img,
+  svg {
     display: block;
     max-width: 300px;
     margin: 0 auto;
     margin-bottom: 20px;
 
-    @include media(">large"){
+    @include media(">large") {
       max-width: 275px;
     }
   }
 
   figcaption {
-    @include media(">large"){
+    @include media(">large") {
       max-width: 275px;
       margin: 0 auto;
     }
@@ -547,7 +564,7 @@ figcaption p,
   margin-left: auto;
   margin-right: auto;
 
-  @include media(">large"){
+  @include media(">large") {
     display: flex;
     justify-content: space-between;
   }
@@ -562,16 +579,17 @@ figcaption p,
     margin-bottom: 40px;
     width: 100%;
 
-    @include media(">large"){
+    @include media(">large") {
       width: 48%;
     }
 
     p {
-      @include typeface('Regular italic');
+      @include typeface("Regular italic");
       margin-bottom: 0;
     }
 
-    p, ul {
+    p,
+    ul {
       font-size: 90%;
     }
 
@@ -583,16 +601,16 @@ figcaption p,
 
 .left {
   @include media(">large") {
-      float: left;
-      clear: both;
-      width: 400px;
-      padding-left: 40px;
-      margin-right: 20px;
+    float: left;
+    clear: both;
+    width: 400px;
+    padding-left: 40px;
+    margin-right: 20px;
   }
 }
 
 .aldine-press {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .w-100 {
@@ -604,17 +622,20 @@ figcaption p,
   margin: 0 auto;
 }
 
-
 @keyframes flicker {
   0% {
     opacity: 1;
-  } 10% {
+  }
+  10% {
     opacity: 0;
-  } 65% {
+  }
+  65% {
     opacity: 1;
-  } 80% {
+  }
+  80% {
     opacity: 0;
-  } 100% {
+  }
+  100% {
     opacity: 1;
   }
 }
@@ -631,7 +652,7 @@ figcaption p,
 
 #Line-Copy,
 #Line-Copy-2 {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 #Line-Copy {
@@ -647,83 +668,89 @@ figcaption p,
 }
 
 .u-text--white {
-    color: #eee !important;
+  color: #eee !important;
 }
 
 .unlisted {
-    list-style: none;
-    margin-top: 5px;
-    margin-bottom: 30px;
-    > li {
-        display: inline-block;
-        margin-right: 8px;
-        a {
-            color: white;
-            background: transparent;
-            font-size: .75em;
-        }
+  list-style: none;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  > li {
+    display: inline-block;
+    margin-right: 8px;
+    a {
+      color: white;
+      background: transparent;
+      font-size: 0.75em;
     }
+  }
 }
 
 .button {
   font-size: 15px !important;
-  background-color: rgba(255, 255, 255, .3) !important;
+  background-color: rgba(255, 255, 255, 0.3) !important;
   border-radius: 3px;
   padding: 4px 10px !important;
-  transition: background-color .2s ease;
+  transition: background-color 0.2s ease;
   &:hover,
   &:focus {
-      background-color: rgba(0, 0, 0, .15) !important;
+    background-color: rgba(0, 0, 0, 0.15) !important;
   }
 }
 
-
 .about__wrapper {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 0 3px;
-    @include media(">large") {
-        display: flex;
-        justify-content: center;
-        .about__item {
-            max-width: 700px !important;
-            padding: 20px;
-            width: 50vw;
-        }
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 3px;
+  @include media(">large") {
+    display: flex;
+    justify-content: center;
+    .about__item {
+      max-width: 700px !important;
+      padding: 20px;
+      width: 50vw;
     }
+  }
 }
 
 .about__item {
-    @include media(">large"){
-        padding: 0 20px !important;
-    }
+  @include media(">large") {
+    padding: 0 20px !important;
+  }
 
-    &:last-of-type {
-        @include media("<large"){
-            margin-top: 30px;
-        }
+  &:last-of-type {
+    @include media("<large") {
+      margin-top: 30px;
     }
+  }
 }
 
-
 .inverse-links {
-    a {
-        outline: 0;
-        border: none;
-        color: #eee !important;
-        background-size: 3px 3px;
-        background-position: 0 18px;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, .2) 50%);
-        background-repeat: repeat-x;
-        transition: color .3s ease;
-        &:hover,
-        &:focus {
-            outline: 0;
-            color: darken($theme, 35) !important;
-            border: none;
-            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .2) 50%);
-        }
+  a {
+    outline: 0;
+    border: none;
+    color: #eee !important;
+    background-size: 3px 3px;
+    background-position: 0 18px;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(255, 255, 255, 0.2) 50%
+    );
+    background-repeat: repeat-x;
+    transition: color 0.3s ease;
+    &:hover,
+    &:focus {
+      outline: 0;
+      color: darken($theme, 35) !important;
+      border: none;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0) 50%,
+        rgba(0, 0, 0, 0.2) 50%
+      );
     }
+  }
 }
 
 .about {
@@ -738,78 +765,78 @@ figcaption p,
     padding-right: 0;
   }
 
-    * {
-        @include media("<large") {
-            max-width: $max-width !important;
-            padding: 0 !important;
-        }
-        @include media(">large") {
-            max-width: 100% !important;
-        }
+  * {
+    @include media("<large") {
+      max-width: $max-width !important;
+      padding: 0 !important;
     }
-    p {
-        font-size: 90%;
-        margin-bottom: 10px;
+    @include media(">large") {
+      max-width: 100% !important;
     }
-    .h5 {
-        color: white !important;
-        font-size: 20px;
+  }
+  p {
+    font-size: 90%;
+    margin-bottom: 10px;
+  }
+  .h5 {
+    color: white !important;
+    font-size: 20px;
 
-        @include media(">large"){
-          font-size: 25px;
-        }
+    @include media(">large") {
+      font-size: 25px;
     }
+  }
 }
 
 .thanks-list {
-    list-style: none;
-    > li {
-        display: inline-block;
-        font-size: 85%;
-        @include typeface("Regular");
-        &:after {
-            content: ",";
-            display: inline-block;
-            margin-right: 3px;
-        }
-        &:last-of-type:after {
-            content: none;
-        }
+  list-style: none;
+  > li {
+    display: inline-block;
+    font-size: 85%;
+    @include typeface("Regular");
+    &:after {
+      content: ",";
+      display: inline-block;
+      margin-right: 3px;
     }
+    &:last-of-type:after {
+      content: none;
+    }
+  }
 }
 
 a[rev="footnote"] {
+  color: white;
+  background: none;
+  position: relative;
+
+  &:after {
+    content: "↑";
+    position: absolute;
+    left: 0;
+    color: red;
+    display: inline-block;
+    font-size: 0.8em;
+    bottom: 0;
+    height: 20px;
+    width: 22px;
+    color: $theme;
+    background-color: white;
+    z-index: 9999;
+  }
+  &:hover,
+  &:focus {
     color: white;
     background: none;
-    position: relative;
-
     &:after {
-        content: "↑";
-        position: absolute;
-        left: 0;
-        color: red;
-        display: inline-block;
-        font-size: .8em;
-        bottom: 0;
-        height: 20px;
-        width: 22px;
-        color: $theme;
-        background-color: white;
-        z-index: 9999;
+      color: darken($theme, 10);
     }
-    &:hover,
-    &:focus {
-        color: white;
-        background: none;
-        &:after {
-            color: darken($theme, 10);
-        }
-    }
+  }
 }
 
 .underline {
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-    margin-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
 }
 
 .footnotes-title {
@@ -818,11 +845,11 @@ a[rev="footnote"] {
 }
 
 .opacity-6 {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .opacity-7 {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .cite-wide {
