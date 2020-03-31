@@ -3,7 +3,7 @@ title: Ghosts V–VI
 date: 2020-03-28 12:17:38
 tags:
   - personal
-extract: I am not sorry about this one, but I apologize nonetheless.
+extract: And treating music like a job.
 country: California
 city: San Francisco
 ---

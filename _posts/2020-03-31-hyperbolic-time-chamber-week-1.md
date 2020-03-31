@@ -2,7 +2,8 @@
 title: Hyperbolic Time Chamber v.1
 date: 2020-03-31 09:44:42
 tags:
-extract:
+  - personal
+extract: I am growing and learning.
 country: California
 city: San Francisco
 ---
