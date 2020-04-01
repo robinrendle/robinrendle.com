@@ -2,7 +2,7 @@
 // WRAPPER
 // ==========================================================================
 
-$_max-width: 720;
+$_max-width: 700;
 
 .wrapper-wide {
   @include media(">largest") {
@@ -42,6 +42,14 @@ $_max-width: 720;
   @include remCalc(max-width, $_max-width);
   padding: 0 15px;
   margin: 0 auto;
+
+  @include media(">medium") {
+    padding: 0 35px;
+  }
+
+  @include media(">large") {
+    padding: 0 10px;
+  }
 }
 
 .m-wrapper--full {
