@@ -8,7 +8,7 @@ country: California
 city: San Francisco
 ---
 
-Helen Macdonald’s novel _H Is for Hawk_ is infuriating because it’s overwhelmingly kind and has just the sort of style that I often shoot for in _Adventures_. It hops and skips along, without a mean bone in its body. There’s so much momentum to every paragraph, every sentence that you cannot help but become infatuated with Helen’s care for detail.
+Helen Macdonald’s novel _H Is for Hawk_ is infuriating because it’s overwhelmingly kind and has just the sort of style that I often shoot for in _Adventures_. It hops and skips along, without a mean bone in its body. There’s so much momentum to every paragraph, every sentence, that you cannot help but become infatuated with Helen’s care for detail.
 
 This is one of those books where I find that I don’t care much for the subject matter (hawks) but you cannot stop me from reading everything Helen has to say about them. This, I feel, is the mark of a truly great book.
 
