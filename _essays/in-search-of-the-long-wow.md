@@ -19,7 +19,7 @@ In hope of spending a weekend by my side, or even just a moment in my bag, books
 
 I find them everywhere, at all times, and they respond to my body like a magnet; jumping into my bag, clinging onto me for dear life. What is it about these books, these inky sponges, I wonder, that make them act so desperately?
 
-That’s not to say that the relationship is all one-way however; over the past year or so the buildings and faces around me have swirled into an incomprehensible blur and it's only when I think about these books that the events lost in that swirl begin to make a little sense. I vividly remember the the final scenes as I turn these books over in my hands; they reveal a collage of where I was, and who I was, when I read them.
+That’s not to say that the relationship is all one-way however; over the past year or so the buildings and faces around me have swirled into an incomprehensible blur and it's only when I think about these books that the events lost in that swirl begin to make a little sense. I vividly remember the final scenes as I turn these books over in my hands; they reveal a collage of where I was, and who I was, when I read them.
 
 Yet in the foreseeable future my library can no longer be brought along for the ride, and I can no longer continue my affairs with the strange books that whisper my name in the dark. This year I'll be attempting to avoid those flirting temptations by reading everything on the new [Kindle Paperwhite](http://www.amazon.co.uk/dp/B00QJDO0QC?tag=googhydr-21&hvadid=103938617776&hvpos=1t1&hvexid=&hvnetw=g&hvrand=3639996746075672616&hvpone=&hvptwo=&hvqmt=b&hvdev=c&ref=pd_sl_8x9on57jya_b).
 

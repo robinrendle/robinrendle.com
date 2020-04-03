@@ -18,7 +18,7 @@ From my experience the best work has always come out of incredibly small teams; 
 
 There are infinite books, blog posts, podcasts, and TED talks—each ranting about how vital these sticky notes are to the survival of our species. But these meetings are not much more than ego-propellent; designed for managers to feel as if they’re contributing to something useful, and for ex-designers to sell a bunch of joyless books.
 
-How do you fix design brainstorms? Break them! Cancel the dang meeting, kick a bunch of people out of the room, and then give your team the autonomy to do the right thing. Ignore the growing industry of con artists and snake-oil salesmen. And don’t invite the Big and Important Design Person who has an embarrassing Twitter bio to speak (_I’m a recovering digital nomad. Previously: Design Architect at Twitter, Chief Design Wizard at Square, Genius Inventor of the Hashtag_). Ignore everyone that is trying to sell you the latest silly trend of putting sticky notes on a wall and calling it Extreme Design Thinking™. It doesn’t work.
+How do you fix design brainstorms? Break them! Cancel the dang meeting, kick a bunch of people out of the room, and then give your team the autonomy to do the right thing. Ignore the growing industry of con artists and snake-oil salesmen. And don’t invite the Big and Important Design Person who has an embarrassing Twitter bio to speak (_I’m a recovering digital nomad. Previously: Design Architect at Twitter, Chief Design Wizard at Square, Genius Inventor of the Hashtag_). Ignore everyone that is trying to sell you the latest trend of putting sticky notes on a wall and calling it Extreme Design Thinking™. It doesn’t work.
 
 What works is caring intensely for the small teams instead.
 
