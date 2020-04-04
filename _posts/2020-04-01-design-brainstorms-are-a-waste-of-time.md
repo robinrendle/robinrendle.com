@@ -20,6 +20,6 @@ There are infinite books, blog posts, podcasts, and TED talks—each ranting abo
 
 How do you fix design brainstorms? Break them! Cancel the dang meeting, kick a bunch of people out of the room, and then give your team the autonomy to do the right thing. Ignore the growing industry of con artists and snake-oil salesmen. And don’t invite the Big and Important Design Person who has an embarrassing Twitter bio to speak (_I’m a recovering digital nomad. Previously: Design Architect at Twitter, Chief Design Wizard at Square, Genius Inventor of the Hashtag_). Ignore everyone that is trying to sell you the latest trend of putting sticky notes on a wall and calling it Extreme Design Thinking™. It doesn’t work.
 
-What works is caring intensely for the small teams instead.
+What works is caring intensely for small teams instead.
 
 (Wow, I really need to go for a walk huh.)
