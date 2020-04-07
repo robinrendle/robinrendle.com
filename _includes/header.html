@@ -9,16 +9,22 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
 -->
   <head>
     <meta charset="utf-8"/>
-    <title>{{ title }} ･ Robin Rendle</title>
+    <title>
+      {% if title == "Home" %}
+      Robin Rendle
+      {% else %}
+        Robin Rendle ･ {{ title }}
+      {% endif %}
+    </title>
     <meta name="author" content="Robin Rendle"/>
     <meta
       name="description"
-      content="Robin is a writer and web designer."
+      content="I’m a designer at Sentry and a writer at CSS-Tricks."
 />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="author" href="https://plus.google.com/+RobinRendle"/>
-    <!-- Favicons -->
 
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/uploads/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/uploads/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/uploads/favicons/favicon-16x16.png">
