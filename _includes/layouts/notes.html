@@ -1,15 +1,12 @@
-{% include header.html %}
 
-<div class="wrapper-wide">
-  <div class="m-header home-header">
-    <h1 class="m-wrapper">
-      Quick Notes & Ramblings
-    </h1>
+  {% include header.html %}
+  <div class="wrapper-wide">
+    <div class="m-header home-header">
+      <h1 class="m-wrapper">Quick Notes & Ramblings</h1>
+    </div>
   </div>
-</div>
-
-<div class="wrapper-wide wrapper-wide--grid wrapper-wide--grid-reverse">
-  <div class="m-wrapper">
+  <div class="wrapper-wide wrapper-wide--grid wrapper-wide--grid-reverse">
+    <!--<div class="m-wrapper">
     <div class="m-longform">
       <h2 class="lil-heading">Tags</h2>
     </div>
@@ -18,74 +15,61 @@
         <div class="tag">{{ tag }}</div>
       {% endfor %}
     </div>
-  </div>
-  <div class="m-wrapper">
-    <div class="m-longform">
-      <h2 class="lil-heading">Latest posts</h2>
+  </div> -->
+    <div class="m-wrapper">
+      <div class="m-longform">
+        <h2 class="lil-heading">Latest posts</h2>
+      </div>
+      <section class="blog-list">
+        {% for item in collections.blogposts reversed %} <a class="card-list"
+                 data-category="{% for tag in item.data.tags %}{{ tag }}{% endfor %}"
+                 href="{{%item.url%}}"><time class="h6 c-lightgrey"
+              datetime="{{ item.data.date }}">{{ item.data.date | date: "%m/%d/%y" }}</time>
+        <h3 class="card-list__title">{{ item.data.title }}</h3>
+        <p class="card-list__text">{{ item.data.extract }}</p></a> {% endfor %}
+      </section>
     </div>
-    <section class="blog-list">
-      {% for item in collections.blogposts reversed %}
-        <a
-        class="card-list"
-        href="{{ item.url }}"
-        data-category="{% for tag in item.data.tags %}{{ tag }}{% endfor %}"
-      >
-          <time class="h6 c-lightgrey" datetime="{{ item.data.date }}">
-            {{ item.data.date | date: "%m/%d/%y" }}
-          </time>
-          <h2 class="card-list__title">
-            {{ item.data.title }}
-          </h2>
-          <p class="card-list__text">
-            {{ item.data.extract }}
-          </p>
-        </a>
-      {% endfor %}
-    </section>
   </div>
-</div>
+  <script>
+      const wrapper = document.querySelector(".blog-list");
+      const tagWrapper = document.querySelector(".tag-collection");
+      const tags = Array.from(document.querySelectorAll(".tag"));
+      const articles = Array.from(document.querySelectorAll(`.card-list`));
 
-<script>
-  const wrapper = document.querySelector(".blog-list");
-  const tagWrapper = document.querySelector(".tag-collection");
-  const tags = Array.from(document.querySelectorAll(".tag"));
-  const articles = Array.from(document.querySelectorAll(`.card-list`));
+      cleanCache = () => {
+        tags.map(i => {
+          i
+            .classList
+            .remove("tag--active");
+        });
+        articles.map(i => {
+          i
+            .classList
+            .remove("card-list--show");
+        });
+        wrapper
+          .classList
+          .remove("hide-posts");
+      };
 
-  cleanCache = () => {
-    tags.map(i => {
-      i
-        .classList
-        .remove("tag--active");
-    });
-    articles.map(i => {
-      i
-        .classList
-        .remove("card-list--show");
-    });
-    wrapper
-      .classList
-      .remove("hide-posts");
-  };
-
-  tagWrapper.addEventListener("click", e => {
-    if (e.target != e.currentTarget) {
-      if (e.target.classList.contains("tag--active")) {
-        cleanCache();
-        return;
-      }
-      cleanCache();
-      let selection = e.target.innerText;
-      const selectedItems = Array.from(document.querySelectorAll(`[data-category="${selection}"]`));
-      e
-        .target
-        .classList
-        .toggle("tag--active");
-      wrapper
-        .classList
-        .toggle("hide-posts");
-      selectedItems.map(i => i.classList.add("card-list--show"));
-    }
-    e.stopPropagation();
-  });
-</script>
-{% include footer.html %}
+      tagWrapper.addEventListener("click", e => {
+        if (e.target != e.currentTarget) {
+          if (e.target.classList.contains("tag--active")) {
+            cleanCache();
+            return;
+          }
+          cleanCache();
+          let selection = e.target.innerText;
+          const selectedItems = Array.from(document.querySelectorAll(`[data-category="${selection}"]`));
+          e
+            .target
+            .classList
+            .toggle("tag--active");
+          wrapper
+            .classList
+            .toggle("hide-posts");
+          selectedItems.map(i => i.classList.add("card-list--show"));
+        }
+        e.stopPropagation();
+      });
+  </script> {% include footer.html %}
