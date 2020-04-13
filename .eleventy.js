@@ -1,7 +1,13 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const pluginFeedbin = require("eleventy-plugin-feedbin");
+const CleanCSS = require("clean-css");
+const slugify = require("slugify");
+const dateFilter = require('./_11ty/date-filter.js');
+const w3DateFilter = require('./_11ty/w3-date-filter.js');
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
+  eleventyConfig.addPlugin(pluginFeedbin);
 
   eleventyConfig.addLayoutAlias("about", "layouts/about.html");
   eleventyConfig.addLayoutAlias("likes", "layouts/likes.html");
@@ -37,11 +43,12 @@ module.exports = function(eleventyConfig) {
   ////////////////////////
   // Filters
   ////////////////////////
-  eleventyConfig.addNunjucksFilter("limit", function(array, limit) {
+  eleventyConfig.addFilter('dateFilter', dateFilter);
+  eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
+  eleventyConfig.addNunjucksFilter("limit", function (array, limit) {
     return array.slice(0, limit);
   });
 
-  const slugify = require("slugify");
   eleventyConfig.addFilter("slug", input => {
     const options = {
       replacement: "-",
@@ -50,6 +57,10 @@ module.exports = function(eleventyConfig) {
     };
     return slugify(input, options);
   });
+
+  eleventyConfig.addFilter("cssmin", function (code) {
+    return new CleanCSS({}).minify(code).styles;
+  })
 
   ////////////////////////
   // Collections
@@ -89,6 +100,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    htmlTemplateEngine: "njk",
     dir: {
       input: "./",
       includes: "_includes",
