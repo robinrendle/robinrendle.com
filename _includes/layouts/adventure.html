@@ -1,13 +1,13 @@
-{% include header.html %}
+{% include "header.html" %}
 
 <section>
   <header class="m-wrapper cell-t40 cell-t60--medium cell-b30">
     <div class="m-wrapper__content">
       <div class="meta-info">
         <div class="meta-info__item">
-          <time datetime="{{ page.date }}">
-            {{ date | date: "%B %d, %Y" }}
-          </time>
+          {% if date %}
+            <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+          {% endif %}
         </div>
       </div>
       <h1 class="u-reset-margins">{{ title }}</h1>
@@ -16,16 +16,16 @@
 
   <div class="m-longform m-wrapper m-wrapper--unpadded">
     <div class="m-wrapper__content">
-      {{ content }}
+      {{ content | safe}}
     </div>
   </div>
 
   <div class="m-longform--small m-wrapper m-wrapper--unpadded cell-t20">
     <div class="m-wrapper__content">
       {% if aside %}
-      {{ aside }}
+        {{ aside }}
       {% endif %}
     </div>
   </div>
 </section>
-{% include footer.html %}
+{% include "footer.html" %}

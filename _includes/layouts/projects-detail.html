@@ -1,4 +1,4 @@
-{% include header.html %}
+{% include "header.html" %}
 
 <header class="m-wrapper cell-t40 cell-t60--medium cell-b20">
   <div class="m-wrapper__content">
@@ -15,27 +15,17 @@
       {{ extract }}
     </div>
   </div>
-  <!-- <div class="m-wrapper__side">
-    <div class="m-longform--small m-longform">
-      <p>
-        Role: {{ role }}
-      </p>
-      <p>
-        Result: {{ results }}
-      </p>
-    </div> -->
-  <!-- </div> -->
 </section>
 <figure class="m-wrapper--full">
   <img
     src="{{ heroImage }}"
     class="{{ heroImageClass }} desaturate chrome-shadow"
-  />
+/>
 </figure>
 <div class="m-longform m-wrapper m-wrapper--unpadded">
   <div class="m-wrapper__content">
-    {{ content }}
+    {{ content | safe }}
   </div>
 </div>
 
-{% include footer.html %}
+{% include "footer.html" %}

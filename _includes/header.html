@@ -17,10 +17,7 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
       {% endif %}
     </title>
     <meta name="author" content="Robin Rendle"/>
-    <meta
-      name="description"
-      content="I’m a designer at Sentry and a writer at CSS-Tricks."
-/>
+    <meta name="description" content="I’m a designer at Sentry and a writer at CSS-Tricks."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="author" href="https://plus.google.com/+RobinRendle"/>
 
@@ -40,7 +37,12 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
       type="application/atom+xml"
 />
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/css/screen.css"/>
+    {% set css %}
+    {% include "_site/css/screen.css" %}
+    {% endset %}
+    <style>
+      {{css | cssmin | safe}}
+    </style>
   </head>
 
   <body>
@@ -52,7 +54,6 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
               <a href="/" class="banner__nav-item">About</a>
               <a href="/notes" class="banner__nav-item">Notes</a>
               <a href="/essays" class="banner__nav-item">Essays</a>
-              <!-- <a href="/projects" class="banner__nav-item">Projects</a> -->
               <a href="/adventures" class="banner__nav-item">Newsletter</a>
               <a href="/likes" class="banner__nav-item">Likes</a>
             </div>

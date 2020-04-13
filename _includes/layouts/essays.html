@@ -1,4 +1,4 @@
-{% include header.html %}
+{% include "header.html" %}
 
 <div class="m-wrapper">
   <div class="m-wrapper__content">
@@ -6,15 +6,15 @@
       <h1>Essays and Articles</h1>
     </div>
 
-    {% for item in collections.essays reversed %}
-    <a href="{{ item.url }}" class="card-list">
-      <h3 class="card-list__title">
-        {{ item.data.title }}
-      </h3>
-      <p class="card-list__text">{{ item.data.extract }}</p>
-    </a>
+    {% for item in collections.essays | reverse %}
+      <a href="{{ item.url }}" class="card-list">
+        <h3 class="card-list__title">
+          {{ item.data.title }}
+        </h3>
+        <p class="card-list__text">{{ item.data.extract }}</p>
+      </a>
     {% endfor %}
   </div>
 </div>
 
-{% include footer.html %}
+{% include "footer.html" %}

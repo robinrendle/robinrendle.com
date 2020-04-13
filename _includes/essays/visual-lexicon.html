@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
 
     <title>{{site.title}} › {{page.title}}</title>
 
-    <meta name="author" content="Robin Rendle" />
+    <meta name="author" content="Robin Rendle"/>
     <meta
       name="description"
       content="Robin Rendle is a designer from the UK and this is where he writes about publishing, networks and books."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="author" href="https://plus.google.com/104389809267012182640" />
+/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="author" href="https://plus.google.com/104389809267012182640"/>
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="/css/visual-lexicon.css" />
+    <link rel="stylesheet" type="text/css" href="/css/visual-lexicon.css"/>
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link rel="shortcut icon" href="/images/favicon.png"/>
+
+    <style>
+      .footnotes-sep {
+        display: none;
+      }
+    </style>
 
     <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+    <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}"/>
 
     <!-- Fonts -->
     <link
@@ -29,13 +35,13 @@
       type="text/css"
       media="none"
       onload="if(media!='all')media='all'"
-    />
+/>
     <noscript
       ><link
         rel="stylesheet"
         href="https://fonts.typonine.com/WF-003562-001254.css"
         type="text/css"
-    /></noscript>
+/></noscript>
 
     <link
       rel="stylesheet"
@@ -43,31 +49,34 @@
       type="text/css"
       media="none"
       onload="if(media!='all')media='all'"
-    />
+/>
     <noscript
       ><link
         rel="stylesheet"
         href="https://fonts.typonine.com/WF-003562-001255.css"
         type="text/css"
-    /></noscript>
+/></noscript>
   </head>
 
   <body class="no-branding custom-post--lexicon">
     <article class="h-entry">
       <figure class="bleed figure--bg-blue custom-post--lexicon__hero">
-        <img src="/images/essays/visual-lexicon/eye.png" />
+        <img src="/images/essays/visual-lexicon/eye.png"/>
       </figure>
 
       <header class="heading-group heading-group--centered bleed">
         <h1>A Visual Lexicon</h1>
         <div class="meta-info-block">
           <p class="meta-info-block__item">{{city}}, {{ country }}</p>
-
-          <div class="meta-info-block__item">{{ date | date: "%d %B %Y"}}</div>
+          <div class="meta-info-block__item">
+            {% if date %}
+              <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+            {% endif %}
+          </div>
         </div>
       </header>
 
-      {{content}}
+      {{content | safe}}
     </article>
 
     <figure
@@ -76,7 +85,7 @@
       <img
         class="figure--wide__img"
         src="/images/essays/visual-lexicon/eye.png"
-      />
+/>
       <figcaption class="figure--wide__caption figure--wide__caption--light">
         <p>
           This illustration is from the cover of the Connecticut General
@@ -88,8 +97,12 @@
 
     <footer>
       <ul class="nav nav--lexicon caps">
-        <li class="nav__item"><a href="/">Home</a></li>
-        <li class="nav__item"><a href="/about">About</a></li>
+        <li class="nav__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="/about">About</a>
+        </li>
         <li class="nav__item">
           <a href="http://www.twitter.com/robinrendle">@robinrendle</a>
         </li>
