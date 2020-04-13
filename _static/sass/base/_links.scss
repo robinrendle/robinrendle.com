@@ -7,10 +7,6 @@
 
 a {
   border: none;
-  &,
-  &:hover {
-    cursor: url("/uploads/hand.png"), auto;
-  }
 }
 
 @mixin links() {
