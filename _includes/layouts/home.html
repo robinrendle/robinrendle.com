@@ -25,7 +25,7 @@
     </div>
 
     {% for item in collections.blogposts | reverse %}
-      {% if loop.index0 < 6 %}
+      {% if loop.index0 < 5 %}
         <a class="card-list" href="{{item.url}}">
           {% if item.data.date %}
             <time class="h6 c-lightgrey" datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
