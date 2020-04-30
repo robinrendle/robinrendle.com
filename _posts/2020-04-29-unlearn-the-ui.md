@@ -24,7 +24,7 @@ I’ve found that great product design requires two things. First off: no ego, n
 
 Anyway, before good work can be done I must unlearn the UI and ask the same question over and over again until hurts, until everyone in the room is visibly upset.
 
-And so I must to return to the realm of maps and questions, nouns and verbs.
+And so I must return to the realm of maps and questions, nouns and verbs.
 
 
 
