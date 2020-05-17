@@ -37,8 +37,8 @@ $font-stack--sans: Helvetica, sans-serif;
   font-family: "Display";
   font-weight: 600;
   font-style: normal;
-  src: url("/fonts/md-system/MDSystem-Medium.woff2") format("woff2"),
-    url("/fonts/md-system/MDSystem-Medium.woff") format("woff");
+  src: url("/fonts/md-system/MDSystem-Bold.woff2") format("woff2"),
+    url("/fonts/md-system/MDSystem-Bold.woff") format("woff");
 }
 
 
@@ -152,7 +152,8 @@ abbr {
 }
 
 .caps {
-  font-family: "Display", $font-stack--sans;
+  color: #1e1b30;
+  font-size: 112%;
 }
 
 abbr,
@@ -215,7 +216,7 @@ pre code {
 .wrapper {
   max-width: 40em;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 15px;
 
   @include media(">medium") {
     max-width: 43em;
@@ -277,7 +278,7 @@ h1 {
 .longform {
   padding-bottom: 100px;
   p {
-    font-size: 20px;
+    font-size: 19px;
     line-height: 1.45;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
@@ -319,7 +320,7 @@ hr {
   border: none;
   opacity: 0.2;
   height: 45px;
-  margin: 60px auto 50px;
+  margin: 60px auto 25px;
 }
 
 img {
