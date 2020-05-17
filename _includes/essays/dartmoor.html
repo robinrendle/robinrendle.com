@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Dartmoor, Death Stranding, and me › Robin Rendle</title>
+    <meta name="author" content="Robin Rendle"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="author" href="https://plus.google.com/104389809267012182640"/>
+
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="/css/dartmoor.css"/>
+    <!-- Feed -->
+    <link
+      href="https://robinrendle.com/feed.xml"
+      rel="alternate"
+      type="application/atom+xml"
+/>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-touch-icon.png"
+/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-16x16.png"
+/>
+  </head>
+  <body>
+    <article class="h-entry">
+      <div class="layout-wrapper">
+        <figure class="intro-img">
+          <img
+            src="/uploads/california-4.jpg"
+            alt="An old map California"
+/>
+        </figure>
+        <div class="wrapper longform">
+          <header>
+            <aside class="meta">
+              {% if date %}
+                <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
+              {% endif %}
+              • {{city}}, {{country}}
+            </aside>
+            <h1>
+              <span>Dartmoor,</span>
+              <span>Death Stranding,</span> and me
+            </h1>
+          </header>
+          {{content | safe }}
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
