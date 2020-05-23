@@ -3,7 +3,9 @@ title: Blogging should be easy
 date: 2020-05-23T05:35:58.377Z
 city: San Francisco
 country: Califoria
-tag: blog
+extract: Did this work?
+tags: 
+  - blog
 ---
 I wish blogging was easier. I reckon that 95% of the reason why people don’t write more on the Internet, on their own little spot with their own URL, is that it’s just a *pain*. 
 

@@ -14,5 +14,5 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "City", name: "city", widget: "string"}
       - {label: "Country", name: "country", widget: "string"}
-      - {label: "Tag", name: "tag", widget: "string" }
+      - {label: "Extract", name: "extract", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
