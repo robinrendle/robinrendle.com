@@ -2,8 +2,6 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 media_folder: "uploads"
-
-
 collections:
   - name: "notes" # Used in routes, e.g., /admin/collections/notes
     label: "Notes" # Used in the UI
