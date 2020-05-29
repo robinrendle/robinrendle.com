@@ -12,7 +12,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "City", name: "city", widget: "string"}
-      - {label: "Country", name: "country", widget: "string"}
+      - {label: "City", name: "city", widget: "string", default: "San Francisco"}
+      - {label: "Country", name: "country", widget: "string", default: "California"}
       - {label: "Extract", name: "extract", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
