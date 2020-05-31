@@ -4,6 +4,8 @@ date: 2020-05-26T16:53:35.581Z
 city: San Francisco
 country: California
 extract: Counting the lives of 100,000 people.
+tags: 
+  - design
 ---
 Over on the NYT, [An Incalculable Loss](https://www.nytimes.com/interactive/2020/05/24/us/us-coronavirus-deaths-100000.html) is equal parts beautiful and horrific. It says a giant “fuck you” to the charts and statistics and shows everyone that’s died so far during the pandemic in a way that’s entirely heartbreaking. 
 
