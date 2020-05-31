@@ -3,7 +3,7 @@ title: The Apparatus
 date: 2020-05-31T17:36:52.589Z
 city: San Francisco
 country: California
-extract: The other-thing that I one day hope to see clearly.
+extract: The other-thing that I one day hope to see.
 ---
 Still enslaved to a white man, Frederick Douglass is climbing to the top of a hill. After some time he reaches the very top where he now has a vantage of the whole bay—beneath him the ships are gently rolling into the dock, men are unloading the boats and setting up wagons in the town, and high above him the clouds are gently swaying back and forth in the currents; leaves attached to invisible, celestial branches.
 
