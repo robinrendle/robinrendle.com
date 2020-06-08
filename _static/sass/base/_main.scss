@@ -10,7 +10,6 @@ html {
   overflow-y: scroll;
   height: 100%;
   -webkit-text-size-adjust: 100%;
-  padding-top: 20px;
   background: linear-gradient(
     180deg,
     #d34646 0%,
@@ -20,6 +19,7 @@ html {
   );
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 1px;
 
   @include media(">large") {
     padding: 20px;
