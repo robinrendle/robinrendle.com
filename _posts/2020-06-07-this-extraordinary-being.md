@@ -6,7 +6,7 @@ country: California
 extract: And the Fire Next Time.
 ---
 
-This week I was reminded me with a big, thundering _oomph_ that the sixth episode of HBO’s The Watchmen, _This Extraordinary Being_, is some of the finest television I’ve ever seen. The focus of this episode is inherited pain, the idea that it can be passed on from generation to generation. And at the heart of all this pain is a virus called white supremacy.
+This week I was reminded with a big, thundering _oomph_ that the sixth episode of HBO’s The Watchmen, _This Extraordinary Being_, is some of the finest television I’ve ever seen. The focus of this episode is inherited pain, the idea that it can be passed on from generation to generation. And at the heart of all this pain is a virus called white supremacy.
 
 I won’t spoil anything more than that because this episode rewrites The Watchmen comic and if you haven’t read it then I highly recommend you would before you start the show. I watched it with my roommate not so long ago, who hadn’t read the comic, and afterwards she was so baffled by what she’d seen that I began to appreciate the show even more. The fact that not only would it have the courage to say “absolutely not, fuck white supremacy” but also to rewrite the intent and themes of the graphic novel without providing any hand holding to the folks who don’t know what this world is all about...just...woah. 
 
