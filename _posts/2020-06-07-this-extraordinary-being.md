@@ -1,6 +1,6 @@
 ---
 title: This Extraordinary Being
-date: 2020-06-07 17:00:38
+date: 2020-06-07T17:00:38.000Z
 city: San Francisco
 country: California
 extract: And the Fire Next Time.
@@ -16,7 +16,7 @@ I won’t spoil anything more than that because this episode rewrites The Watchm
   </figure>
 </div>
 
-I love this episode for so many reasons; the dad stuff, the confrontation of racism, the black and white saturation, the way the camera stops and stutters through time. In one moment a baby is born and in his mother’s arms, and as she carries him behind a door frame he’s suddenly a young boy. People age and get younger, characters return from the far future, and in the background the protagainst’s dead mother is constantly playing piano. Even the camera is haunted; it floats around this space watching each character ominiously. Speaking of which, this whole episode reminds me of _A Ghost Story_ in that way.
+I love this episode for so many reasons; the dad stuff, the confrontation of racism, the black and white saturation, the way the camera stops and stutters through time. In one moment a baby is born and in his mother’s arms, and as she carries him behind a door frame he’s suddenly a young boy. People age and get younger, characters return from the far future, and in the background the protagonist’s dead mother is constantly playing piano. Even the camera is haunted; it floats around this space watching each character ominously. Speaking of which, this whole episode reminds me of _A Ghost Story_ in that way.
 
 It also reminds me of _The Fire Next Time_, a book I’ve been thinking about all week. It’s a collection of essays from James Baldwin and one of them is a letter he sent to his nephew in 1963, the anniversary of one hundred years of emancipation. And in it, he writes:
 
