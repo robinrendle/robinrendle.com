@@ -21,4 +21,4 @@ For example, Olivia writes of her experience with Twitter:
 
 Or her experience of moving to New York:
 
-> ...the way I recovered a sense of wholeness was not by meeting someone or by falling in love, but rather by handling the things that other people had made, slowly absorbing by way of this contact the fact that loneliness, longing, does not mean on has failed, but simply that one is alive.
+> ...the way I recovered a sense of wholeness was not by meeting someone or by falling in love, but rather by handling the things that other people had made, slowly absorbing by way of this contact the fact that loneliness, longing, does not mean one has failed, but simply that one is alive.
