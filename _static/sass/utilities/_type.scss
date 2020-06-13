@@ -23,7 +23,7 @@
   }
 
   @if $font == "Regular italic" {
-    font-style: regular;
+    font-style: italic;
     font-weight: 400;
     font-family: "Newzald", $serif-fallback;
   }
