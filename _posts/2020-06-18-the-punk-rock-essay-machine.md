@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: Yet another vitally important critique of the Kindle.
 ---
-Arguments, political pamphlets, essays about civil rights; the longer I look at The Kindle this time around the more I see it as the perfect little punk rock essay machine. Sure, a lot of [what I said about the Kindle](https://www.robinrendle.com/essays/in-search-of-the-long-wow) is still true. But now I feel like this thing has been designed to radicalize me, a pamphlet thrown in my hand on a street corner, asking that I change how I vote.
+Arguments, political pamphlets, essays about civil rights; the longer I look at the Kindle this time around the more I see it as the perfect little punk rock essay machine. Sure, a lot of [what I said about the Kindle](https://www.robinrendle.com/essays/in-search-of-the-long-wow) is still true. But now I feel like this thing has been designed to radicalize me, a pamphlet thrown in my hand on a street corner, asking that I change how I vote.
 
 Maybe it’s just because of what I’ve been reading lately as of course this thing most certainly wasn’t designed to be a platform for essays and what not. It appears that from all the ads I see it was designed instead to sell me as many cheap and easy going novels as it possibly can. But reading novels or longer texts on the Kindle doesn’t feel as satisfying for reasons that I find difficult to point to. But an essay? A very long blog post? That’s the sweet spot for the Kindle! No images, no animations, nothing but pure, unfiltered argument.
 
