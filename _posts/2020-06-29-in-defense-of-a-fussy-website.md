@@ -3,7 +3,7 @@ title: In Defense of a Fussy Website
 date: 2020-06-29T18:06:09.725Z
 city: San Francisco
 country: California
-extract: Sarah Drasner writes about the sorts of websites she adores.
+extract: Sarah Drasner writes about attention to detail and caring for a website.
 ---
 [Sarah](https://sarahdrasnerdesign.com/) wrote this great post for CSS-Tricks the other day about making [fussy websites](https://css-tricks.com/in-defense-of-a-fussy-website/);
 
