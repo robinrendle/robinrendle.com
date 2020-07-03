@@ -10,13 +10,7 @@ html {
   overflow-y: scroll;
   height: 100%;
   -webkit-text-size-adjust: 100%;
-  background: linear-gradient(
-    180deg,
-    #d34646 0%,
-    rgba(23, 45, 241, 0.338557) 19.27%,
-    rgba(0, 26, 255, 0.015625) 99.99%,
-    rgba(20, 44, 255, 0) 100%
-  );
+  background-color: var(--html-bg-color);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 1px;
@@ -40,7 +34,7 @@ body {
   color: var(--main-text-color);
   font-feature-settings: "liga" 1 !important;
   min-height: 100%;
-  background-color: white;
+  background-color: var(--body-bg-color);
   padding-bottom: 200px;
 
   @include media(">large") {

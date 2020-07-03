@@ -40,7 +40,7 @@
 
 .form-label {
   @include typeface("Small caps");
-  color: var(--secondary-text-color);
+  color: var(--heading-color);
   font-size: 16px;
   padding: 0;
   cursor: pointer;
@@ -53,7 +53,7 @@
   padding: 13px 10px;
   font-size: 20px;
   transition: background-color 0.3s ease;
-  background-color: #eaeaea;
+  background-color: var(--form-bg-color);
   outline: none;
   box-shadow: none;
   border-radius: 3px !important;
@@ -61,9 +61,13 @@
   color: black;
   margin-right: 10px;
 
+  &:hover {
+    background-color: var(--form-bg-color);
+  }
+
   &:hover,
   &:focus {
-    background-color: #dfdfdf;
+    background-color: var(--form-bg-color);
     outline: none;
     color: black;
   }
@@ -86,18 +90,9 @@
   &:hover,
   &:focus {
     outline: none;
-    background-color: #d14b4f;
+    background-color: var(--main-theme-color);
+    color: var(--html-bg-color);
     transition: background-color 0.3s ease;
-    animation: cool 0.5s linear infinite;
-  }
-}
-
-@keyframes cool {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
 

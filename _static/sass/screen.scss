@@ -57,7 +57,6 @@ section[role="main"] {
 
 ::selection {
   background-color: var(--highlight-color);
-  color: var(--heading-text-color);
   text-shadow: none;
 }
 
@@ -144,19 +143,6 @@ section[role="main"] {
 
 .overflow-hidden {
   overflow: hidden;
-}
-
-.tag-collection {
-  margin-bottom: 40px;
-  margin-top: 10px;
-}
-
-.tag {
-  @include remCalc(font-size, 12);
-  border-radius: 3px;
-  background-color: #eee;
-  padding: 3px 5px;
-  color: #777;
 }
 
 @import "utilities/reset-margins";
@@ -305,9 +291,13 @@ a:focus {
 .heading-home {
   margin-bottom: 60px;
   @include media(">large") {
-    // font-size: 40px;
     margin-top: 10px;
   }
+}
+
+.tag-collection {
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .tag {
@@ -316,15 +306,15 @@ a:focus {
   font-size: 13px;
   position: relative;
   font-family: "Input Mono", monospace;
-  background-color: var(--card-bg);
+  background-color: var(--form-bg-color);
   display: inline-block;
   padding: 3px 8px;
-  color: var(--heading-text-color);
+  color: var(--secondary-text-color);
   border-radius: 3px;
 }
 
 .tag:hover {
-  background-color: #cb5b69;
+  background-color: var(--custom-theme-color);
   color: white;
 }
 
@@ -357,13 +347,13 @@ a:focus {
 
 .home-header span {
   display: block;
-  color: #a1a1a1;
+  color: var(--heading-color);
 }
 
 .lil-heading {
   @include typeface("Small caps");
   font-size: 18px !important;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--card-border);
   padding-bottom: 6px;
   color: var(--lighter-gray-color);
   margin-bottom: 8px !important;

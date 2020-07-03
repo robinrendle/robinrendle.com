@@ -31,7 +31,7 @@ a.card-list {
     z-index: 999;
 
     .card-list__title {
-      color: #cd525a;
+      color: var(--custom-theme-color);
     }
     @include media(">large") {
       transform: scale(1.01);
@@ -41,13 +41,12 @@ a.card-list {
   time {
     color: #666;
     display: block;
-    margin-bottom-top: 5px;
   }
 }
 
 .card-list__title {
   @include typeface("Regular");
-  color: #000;
+  color: var(--heading-color);
   font-size: 22px;
   line-height: 1.1;
   margin-top: 5px;
@@ -63,7 +62,7 @@ a.card-list {
   font-size: 18px;
   line-height: 1.3;
   transition: color 0.3s ease;
-  color: #555;
+  color: var(--secondary-text-color);
   @include media(">large") {
     font-size: 20px;
     line-height: 1.3;

@@ -2,24 +2,12 @@
 // HIERARCHY
 // ==========================================================================
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--heading-text-color);
-
-  .is-darkMode & {
-    color: #ddd;
-  }
-}
-
 .h1,
 h1 {
   &,
   .m-longform & {
     @include remCalc(font-size, 45);
+    color: var(--custom-theme-color);
     line-height: 1;
     margin-bottom: 20px;
     @include media(">medium") {
@@ -29,6 +17,10 @@ h1 {
     @include media(">large") {
       line-height: 1.2;
       @include remCalc(font-size, 60);
+    }
+
+    .meta-info + & {
+      color: var(--heading-color);
     }
   }
 }

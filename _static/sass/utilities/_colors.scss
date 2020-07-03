@@ -6,26 +6,32 @@ $c-text: #999;
 $c-offwhite: lighten($c-text, 10);
 
 :root {
+  --banner-bg-color: #222;
+  --body-bg-color: #111;
+  --html-bg-color: #000;
   --background-color: #fff;
-  --main-theme-color: #363a59;
+  --main-theme-color: #ffc227;
+  --custom-theme-color: #ffc227;
 
-  --heading-text-color: #111;
-  --secondary-text-color: #444;
-  --main-text-color: #393939;
+  --secondary-text-color: #777;
+  --main-text-color: #999;
+
+  --heading-color: #ddd;
 
   --card-bg: #e9e9e9;
-  --card-border: #ddd;
+  --card-border: #222;
+
+  --form-bg-color: #333;
 
   --nav-color: #1f223d;
   --nav-border: #ddd;
 
-  --highlight-color: #fff2cc;
+  --highlight-color: #ffd86e21;
   --off-white: #111;
   --theme-color-border: #f0ffaf;
-
   --link-underline: #666;
   --link-color: --main-theme-color;
-  --link-hover-color: #ce535c;
+  --link-hover-color: #ffc227;
 
   // hr, blockquote lines, dates
   --lighter-gray-color: #777;

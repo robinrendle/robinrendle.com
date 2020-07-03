@@ -13,28 +13,21 @@
     margin-bottom: 50px;
   }
 
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+  }
+  
   h3,
   h4,
   h5,
   h6 {
     @include remCalc(margin-top, ($base-spacing-unit * 1.6));
     @include remCalc(margin-bottom, ($base-spacing-unit));
-  }
-
-  .hgroup,
-  hgroup {
-    margin-bottom: 20px;
-    margin-top: 10px;
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      margin-top: 0;
-      margin-bottom: 0;
-    }
   }
 
   ol li {
@@ -60,7 +53,7 @@
     }
 
     @include media(">large") {
-      @include remCalc(font-size, 24);
+      @include remCalc(font-size, 23);
       line-height: 1.35;
     }
 
@@ -167,7 +160,7 @@
     position: relative;
 
     & > * {
-      border-left: 1px solid var(--lightest-gray-color);
+      border-left: 1px solid var(--card-border);
       @include remCalc(padding-bottom, $base-spacing-unit - 5);
       margin-bottom: 0;
       position: relative;
@@ -246,49 +239,6 @@
   .h5,
   h5 {
     @include typeface("Small caps");
-    color: #000;
     margin-top: 40px;
-  }
-}
-
-.m-longform--small {
-  ol,
-  p,
-  ul {
-    @include remCalc(font-size, 15);
-    line-height: 1.5;
-    @include links-longform();
-    @include media(">medium") {
-      @include remCalc(font-size, 18);
-    }
-  }
-}
-
-.m-longform--intro {
-  p {
-    @include media(">medium") {
-      @include remCalc(font-size, 18);
-      line-height: 1.5;
-    }
-    @include media(">large") {
-      @include remCalc(font-size, 20);
-      line-height: 1.5;
-    }
-  }
-}
-
-.hgroup,
-hgroup {
-  margin-bottom: 20px;
-  margin-top: 10px;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 0;
-    margin-bottom: 0;
   }
 }
