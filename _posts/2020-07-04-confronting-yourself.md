@@ -7,7 +7,7 @@ extract: Ignoring our mistakes will only make things worse.
 ---
 Here’s something distasteful I've noticed over the past few weeks: instead of folks saying ”I am learning and growing”—being honest with their mistakes—a large number of people are just shouting constantly into the void of social media hell, desperately trying to prove that they're on the right side of history, that they’re fighting for the cause. From where I’m standing though, some part of it looks like people are trying to make themselves the hero. They’re not really confronting their own behavior.
 
-But I reckon that this is the same for both BLM and the quarantine; ignoring our own mistakes seem like it only makes things exponentially worse.
+But I reckon that this is the same for both BLM and the quarantine; ignoring our own mistakes seems like it only makes things worse.
 
 So, I’ll go first: I’ve done and said racist things, I ignored the mask advice at the early stages, I got real mad about folks at the beach (even when the evidence suggests it’s one of the better activities we can do), I didn’t say “black lives matter” soon enough, I’ve not done enough for social justice causes, I didn’t read enough, I’ve not been paying enough attention in general. I didn’t write about it, I didn’t confront myself, and I certainly haven’t donated as much as I ought to. 
 
