@@ -10,10 +10,10 @@ html {
   overflow-y: scroll;
   height: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: var(--html-bg-color);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 1px;
+  background-color: var(--html-bg-color);
 
   @include media(">large") {
     padding: 20px;

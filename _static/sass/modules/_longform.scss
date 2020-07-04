@@ -37,14 +37,14 @@
   ol,
   p,
   ul {
-    @include remCalc(font-size, 20);
+    @include remCalc(font-size, 21);
     line-height: 1.15;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
     -webkit-hyphenate-limit-before: 3;
     hyphens: auto;
     @include media(">small") {
-      @include remCalc(font-size, 20);
+      @include remCalc(font-size, 21);
       line-height: 1.35;
     }
     @include media(">medium") {
