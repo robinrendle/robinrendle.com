@@ -1,5 +1,5 @@
 ---
-title: Maps and spreadsheets
+title: Maps and Spreadsheets
 date: 2020-07-04T19:38:45.238Z
 city: San Francisco
 country: California
