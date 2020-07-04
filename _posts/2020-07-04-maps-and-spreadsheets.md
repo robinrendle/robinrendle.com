@@ -9,4 +9,4 @@ When it comes to design systems I don’t have many words of advice. I have *opi
 
 That’s because it naturally puts boundaries around the project, it defines this one small part of the hyperobject, and helps so you don’t fall down too many rabbit holes. Countless times I have found myself abandoning a project because I’ve bitten off more than I can chew. Instead of slowly tackling things as a checklist, I’ve jumped head first into the fray. And that almost always leads to disappointment of one kind of another. Eventually, without a trusty spreadsheet at my side, I find that I’ve broken too many tests and I can no longer see how much that I’ve changed. The project stalls, my enthusiasm wanes. 
 
-So when it comes to design systems, a spreadsheet is a map.
+So when it comes to design systems, a spreadsheet is a map and guide, a breadcrumb trail through the bonkers state of things.
