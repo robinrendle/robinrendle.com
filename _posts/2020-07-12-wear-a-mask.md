@@ -3,7 +3,7 @@ title: Wear a Mask
 date: 2020-07-12T18:32:02.923Z
 city: San Francisco
 country: California
-extract: A rant, a website.
+extract: A walk, a rant, a website.
 ---
 I made [this silly thing](https://codepen.io/robinrendle/pen/NWxzJPe) yesterday after I got back from a walk and was feeling rage beyond words:
 
