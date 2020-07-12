@@ -33,8 +33,7 @@ metadata:
       <id>{{ absolutePostUrl }}</id>
       <content type="html">
         {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-        <br/>
-        <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
+        {{ "<hr/><p><a href='mailto:robinjrendle@gmail.com'>Reply via email</a></p>" | escape }}
       </content>
     </entry>
   {%- endfor %}
@@ -47,8 +46,7 @@ metadata:
       <id>{{ absolutePostUrl }}</id>
       <content type="html">
         {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
-        <br/>
-        <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
+        {{ "<hr/><p><a href='mailto:robinjrendle@gmail.com'>Reply via email</a></p>" | escape }}
       </content>
     </entry>
   {%- endfor %}
