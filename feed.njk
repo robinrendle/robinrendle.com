@@ -31,9 +31,11 @@ metadata:
       <link href="{{ absolutePostUrl }}"/>
       <updated>{{ post.date | rssDate }}</updated>
       <id>{{ absolutePostUrl }}</id>
-      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-      <br/>
-      <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
+      <content type="html">
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+        <br/>
+        <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
+      </content>
     </entry>
   {%- endfor %}
   {% for post in collections.essays | reverse | limit(10) %}
@@ -43,9 +45,11 @@ metadata:
       <link href="{{ absolutePostUrl }}"/>
       <updated>{{ post.date | rssDate }}</updated>
       <id>{{ absolutePostUrl }}</id>
-      <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-      <br/>
-      <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
+      <content type="html">
+        {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+        <br/>
+        <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
+      </content>
     </entry>
   {%- endfor %}
 </feed>
