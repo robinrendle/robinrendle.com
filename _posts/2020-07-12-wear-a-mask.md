@@ -14,4 +14,4 @@ I made [this silly thing](https://codepen.io/robinrendle/pen/NWxzJPe) yesterday 
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script> 
 
-I’ll be sure to write about how I made it in the [CSS-Tricks newsletter](https://css-tricks.com/newsletters/) which is published every Monday morning. But! This newsletter always has a bunch of hot-takes and/or links to interesting web design things if that’s your jam.
+I’ll be sure to write about how I made it in the [CSS-Tricks newsletter](https://css-tricks.com/newsletters/) which is published every Monday morning and it always has a bunch of hot-takes and/or links to interesting web design things if that’s your jam.
