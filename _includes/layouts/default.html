@@ -3,8 +3,7 @@
 <header class="m-wrapper cell-t40 cell-t60--medium cell-b30">
   <div class="m-wrapper__content">
     <div class="meta-info">
-      <p class="meta-info__item">{{ city }}, {{ country }}
-      </p>
+      <p class="meta-info__item">{{ city }}, {{ country }}</p>
       <div class="meta-info__item">
         {% if date %}
           <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>

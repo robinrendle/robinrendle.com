@@ -13,7 +13,6 @@
     margin-bottom: 50px;
   }
 
-
   h2,
   h3,
   h4,
@@ -37,24 +36,24 @@
   ol,
   p,
   ul {
-    @include remCalc(font-size, 21);
+    @include remCalc(font-size, 23);
     line-height: 1.15;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
     -webkit-hyphenate-limit-before: 3;
     hyphens: auto;
     @include media(">small") {
-      @include remCalc(font-size, 21);
-      line-height: 1.35;
+      @include remCalc(font-size, 23);
+      line-height: 1.34;
     }
     @include media(">medium") {
-      @include remCalc(font-size, 22);
-      line-height: 1.35;
+      @include remCalc(font-size, 24);
+      line-height: 1.34;
     }
 
     @include media(">large") {
-      @include remCalc(font-size, 23);
-      line-height: 1.35;
+      @include remCalc(font-size, 26);
+      line-height: 1.34;
     }
 
     & > img {
@@ -140,7 +139,7 @@
   }
 
   blockquote > ul {
-    padding-left: 38px;
+    padding-left: 40px !important;
   }
 
   .cite,
@@ -152,10 +151,6 @@
     }
   }
 
-  blockquote > ul {
-    padding-left: 40px !important;
-  }
-
   blockquote {
     position: relative;
 
@@ -164,7 +159,7 @@
       @include remCalc(padding-bottom, $base-spacing-unit - 5);
       margin-bottom: 0;
       position: relative;
-      color: var(--secondary-text-color);
+      color: var(--main-text-color);
 
       &:last-child,
       &:only-child {

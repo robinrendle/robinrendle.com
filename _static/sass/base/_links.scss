@@ -17,6 +17,7 @@ a {
     position: relative;
     z-index: 1;
     transition: color 0.3s ease;
+    text-decoration-style: wavy;
     text-decoration-skip: ink;
     &:hover,
     &:focus {
@@ -50,6 +51,7 @@ a {
     text-decoration-skip: ink;
     transition: color 0.3s ease;
     text-decoration-color: var(--link-underline);
+    text-decoration-color: white;
 
     &:hover,
     &:focus {

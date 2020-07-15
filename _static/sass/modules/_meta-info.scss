@@ -23,9 +23,11 @@
   font-feature-settings: "onum" 1;
 
   &:after {
-    content: "~";
+    content: "•";
     display: inline-block;
-    margin-left: 0px;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
     margin-right: 5px;
   }
 

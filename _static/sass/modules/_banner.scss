@@ -15,6 +15,7 @@
   padding: 0 10px;
   margin: 0 auto;
   max-width: 700px;
+  @include remCalc(font-size, 19);
 
   @include media(">largest") {
     max-width: 1200px;
@@ -63,10 +64,11 @@
 
   &:after {
     content: "•";
+    top: 22px;
     pointer-events: none;
     position: absolute;
     right: -16px;
-    color: white !important;
+    color: var(--secondary-text-color) !important;
   }
 
   &:last-of-type {
@@ -80,7 +82,7 @@
   &:hover {
     color: var(--link-hover-color);
     &:after {
-      color: white !important;
+      color: var(--secondary-text-color) !important;
     }
   }
 }

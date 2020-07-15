@@ -58,7 +58,7 @@
   box-shadow: none;
   border-radius: 3px !important;
   width: calc(100% - 70px);
-  color: black;
+  color: var(--main-text-color);
   margin-right: 10px;
 
   &:hover {
@@ -69,7 +69,7 @@
   &:focus {
     background-color: var(--form-bg-color);
     outline: none;
-    color: black;
+    color: var(--main-text-color);
   }
 }
 

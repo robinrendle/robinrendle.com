@@ -29,6 +29,66 @@ $font-stack--sans: Helvetica, sans-serif;
 @import "base/hierarchy";
 @import "../../fonts/caponi.scss";
 
+@font-face {
+  font-family: "Newzald";
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  src: url("/fonts/newzald/book.woff2") format("woff2"),
+    url("/fonts/newzald/book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Newzald";
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+  src: url("/fonts/newzald/book-italic.woff2") format("woff2"),
+    url("/fonts/newzald/book-italic.woff") format("woff");
+}
+
+// ==========================================================================
+// TYPE
+// ==========================================================================
+// Default typesetting, font-height and font-weight settings.
+
+@mixin typeface($font) {
+  $sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  $serif-fallback: Georgia, serif;
+
+  @if $font == "Small caps" {
+    font-weight: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-family: "Newzald", $serif-fallback;
+  }
+
+  @if $font == "Regular" {
+    font-weight: 400;
+    font-family: "Newzald", $serif-fallback;
+  }
+
+  @if $font == "Regular italic" {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Newzald", $serif-fallback;
+  }
+
+  @if $font == "Bold" {
+    font-weight: 400;
+    font-family: "Newzald", $serif-fallback;
+  }
+
+  @if $font == "Display" {
+    font-weight: 600;
+    font-family: "Caponi Display", $sans-fallback;
+  }
+}
+
+
 * {
   box-sizing: border-box;
 }

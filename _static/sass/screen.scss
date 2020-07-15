@@ -48,8 +48,8 @@ $breakpoints: (
 @import "modules/card-list";
 @import "modules/highlight";
 @import "modules/form";
-@import "../../fonts/newzald.scss";
-@import "../../fonts/ayer/ayer.scss";
+@import "../../fonts/aluminia/aluminia";
+@import "../../fonts/ayer/ayer";
 
 section[role="main"] {
   min-height: 80vh;
@@ -311,6 +311,7 @@ a:focus {
   padding: 3px 8px;
   color: var(--secondary-text-color);
   border-radius: 3px;
+  transition: all .3s ease;
 }
 
 .tag:hover {
@@ -341,7 +342,7 @@ a:focus {
   }
 
   @include media(">largest") {
-    font-size: 70px;
+    font-size: 65px;
   }
 }
 
@@ -352,7 +353,7 @@ a:focus {
 
 .lil-heading {
   @include typeface("Small caps");
-  font-size: 18px !important;
+  font-size: 1.25rem !important;
   border-bottom: 1px solid var(--card-border);
   padding-bottom: 6px;
   color: var(--lighter-gray-color);
@@ -360,12 +361,5 @@ a:focus {
 
   @include media(">medium") {
     margin-bottom: 15px !important;
-  }
-}
-
-.adventures-hero {
-  margin: 0;
-  img {
-    width: 100%;
   }
 }

@@ -40,31 +40,32 @@ a.card-list {
 
   time {
     color: #666;
+    @include remCalc(font-size, 17);
     display: block;
   }
 }
 
 .card-list__title {
   @include typeface("Regular");
+  @include remCalc(font-size, 24);
   color: var(--heading-color);
-  font-size: 22px;
   line-height: 1.1;
   margin-top: 5px;
   margin-bottom: 2px;
   transition: color 0.3s ease;
   @include media(">large") {
-    font-size: 22px;
+    @include remCalc(font-size, 24);
   }
 }
 
 .card-list__text {
   margin: 0;
-  font-size: 18px;
+  @include remCalc(font-size, 20);
   line-height: 1.3;
   transition: color 0.3s ease;
   color: var(--secondary-text-color);
   @include media(">large") {
-    font-size: 20px;
+    @include remCalc(font-size, 22);
     line-height: 1.3;
   }
 }
