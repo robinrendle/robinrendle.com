@@ -74,24 +74,24 @@
 }
 
 .form-submit {
+  @include typeface("Small caps");
   border-radius: 0;
   padding: 3px 8px;
   border: none;
   max-width: 120px;
   transition: background-color 0.3s ease;
-  background-color: white;
-  color: white;
+  color: var(--body-bg-color);
   outline: none;
   font-size: 0.9em;
   text-transform: uppercase;
-  background-color: #000;
+  background-color: white;
   border-radius: 3px;
 
   &:hover,
   &:focus {
     outline: none;
     background-color: var(--main-theme-color);
-    color: var(--html-bg-color);
+    color: var(--body-bg-color);
     transition: background-color 0.3s ease;
   }
 }
