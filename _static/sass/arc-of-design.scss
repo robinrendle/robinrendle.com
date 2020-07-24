@@ -1,0 +1,380 @@
+// ==========================================================================
+// THE ARC OF DESIGN
+// ==========================================================================
+
+:root {
+  --main-text-color: #333;
+  --heading-color: #111;
+}
+
+$base-spacing-unit: 18;
+$half-spacing-unit: $base-spacing-unit / 2;
+$quarter-spacing-unit: $half-spacing-unit / 2;
+$breakpoints: (
+  small: 400px,
+  medium: 620px,
+  large: 920px,
+  largest: 1400px,
+  gigantic: 1400px
+) !default;
+$max-width: 700px;
+$font-stack: Georgia, serif;
+
+@import "../../fonts/ayer/ayer";
+@import "../../fonts/aluminia/aluminia";
+
+@mixin typeface($font) {
+  $sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  $serif-fallback: Georgia, serif;
+
+  @if $font == "Small caps" {
+    font-weight: normal;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    font-family: "Aluminia", $serif-fallback;
+  }
+
+  @if $font == "Regular" {
+    font-weight: 400;
+    font-family: "Aluminia", $serif-fallback;
+  }
+
+  @if $font == "Regular italic" {
+    font-style: italic;
+    font-weight: 400;
+    font-family: "Aluminia", $serif-fallback;
+  }
+
+  @if $font == "Bold" {
+    font-weight: 400;
+    font-family: "Aluminia", $serif-fallback;
+  }
+
+  @if $font == "Display" {
+    font-weight: 400;
+    font-family: "Aluminia", $serif-fallback;
+  }
+}
+
+@import "utilities/reset";
+@import "utilities/rem-calc";
+@import "utilities/normalize";
+@import "utilities/clearfix";
+@import "utilities/breakpoints";
+@import "utilities/text-style";
+@import "utilities/underline";
+@import "tools/trim";
+@import "base/base-spacing";
+@import "base/links";
+@import "base/hierarchy";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--main-theme-color);
+  background-color: white;
+
+  @include media(">large") {
+    padding: 10px;
+  }
+}
+
+body {
+  font: 400 110%;
+  font-weight: 400;
+  font-family: "Aluminia", $font-stack;
+  line-height: 1.4;
+  font-feature-settings: "liga" 1 !important;
+  min-height: 100%;
+  background-color: white;
+  color: #444;
+  padding: 50px 15px;
+  background-color: #eee;
+
+  @include media(">large") {
+    padding-bottom: 300px;
+    padding-top: 80px;
+  }
+}
+
+.wrapper {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+// ==========================================================================
+// LONGFORM
+// ==========================================================================
+//
+// Custom styles for blog post formats
+//
+
+.meta {
+  @include typeface("Small caps");
+  font-size: 1.2rem;
+  color: #888;
+
+  time:after {
+    display: inline-block;
+    content: "·";
+    position: relative;
+    top: 2px;
+    margin-left: 3px;
+  }
+}
+
+.m-longform {
+  @include links-longform();
+  @include trim();
+
+  > div {
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    color: #000;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
+    @include media(">large") {
+      font-size: 2.5rem;
+    }
+  }
+
+  abbr {
+    @include typeface("Small caps");
+    text-decoration: none;
+    border: none;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6 {
+    @include remCalc(margin-top, ($base-spacing-unit * 1.6));
+    @include remCalc(margin-bottom, ($base-spacing-unit));
+  }
+
+  ol li {
+    margin-bottom: 0;
+  }
+
+  ol,
+  p,
+  ul {
+    @include remCalc(font-size, 23);
+    line-height: 1.15;
+    -webkit-hyphens: auto;
+    -webkit-hyphenate-limit-after: 2;
+    -webkit-hyphenate-limit-before: 3;
+    hyphens: auto;
+    @include media(">small") {
+      @include remCalc(font-size, 23);
+      line-height: 1.34;
+    }
+    @include media(">medium") {
+      @include remCalc(font-size, 24);
+      line-height: 1.34;
+    }
+
+    @include media(">large") {
+      @include remCalc(font-size, 25);
+      line-height: 1.34;
+    }
+
+    & > img {
+      @include remCalc(margin-bottom, $base-spacing-unit * 2);
+    }
+  }
+
+  figure blockquote {
+    padding-left: 0 !important;
+  }
+
+  p img {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin-left: 0;
+    list-style: none;
+
+    li {
+      list-style: none;
+      margin-bottom: 5px;
+      position: relative;
+      font-size: 0.95em;
+
+      &:before {
+        content: "";
+        display: block;
+        height: 7px;
+        width: 7px;
+        background-color: var(--secondary-text-color);
+        transform: rotate(45deg);
+        font-size: 1.1em;
+        position: absolute;
+        top: 12px;
+        left: -20px;
+      }
+    }
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  ul ul {
+    margin-left: 20px;
+  }
+
+  figure > blockquote {
+    @include typeface("Regular italic");
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  figure > img + blockquote {
+    margin-top: 20px;
+  }
+
+  figure,
+  img,
+  ol,
+  p,
+  ul {
+    & + .h3,
+    & + h3 {
+      @include remCalc(margin-top, $base-spacing-unit * 2);
+    }
+  }
+
+  figcaption,
+  figcaption p {
+    @include typeface("Regular");
+    font-size: 15px;
+    line-height: 1.45;
+    @include media(">large") {
+      max-width: 630px;
+    }
+
+    a {
+      @include links-dark();
+    }
+  }
+
+  figcaption p {
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  blockquote > ul {
+    padding-left: 40px !important;
+  }
+
+  .cite,
+  blockquote > p,
+  figcaption {
+    padding-left: 7px;
+    @media screen and (min-width: 500px) {
+      padding-left: 18px;
+    }
+  }
+
+  blockquote {
+    position: relative;
+
+    & > * {
+      border-left: 1px solid var(--card-border);
+      @include remCalc(padding-bottom, $base-spacing-unit - 5);
+      margin-bottom: 0;
+      position: relative;
+      color: var(--main-text-color);
+
+      &:last-child,
+      &:only-child {
+        padding-bottom: 0;
+      }
+    }
+
+    p {
+      @include typeface("Regular italic");
+    }
+
+    p + p {
+      padding-top: 5px;
+    }
+  }
+
+  .blockquote--none {
+    p {
+      border-left: 0;
+      padding-left: 0;
+    }
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+
+    & + figcaption {
+      padding: 10px 0 0;
+    }
+  }
+
+  .cite,
+  figcaption {
+    display: block;
+    position: relative;
+    padding-top: 4px;
+    border-left: 2px solid transparent;
+
+    > p {
+      @include remCalc(font-size, 14);
+      margin-bottom: 0;
+      text-align: left;
+      width: 100%;
+      @include media(">medium") {
+        @include remCalc(font-size, 15);
+      }
+    }
+  }
+
+  .h2,
+  h2 {
+    margin-bottom: 20px;
+    @include remCalc(margin-top, ($base-spacing-unit * 2));
+  }
+
+  .h3,
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  .h4,
+  h4 {
+    margin-top: 40px;
+  }
+
+  .h5,
+  h5 {
+    @include typeface("Small caps");
+    margin-top: 40px;
+  }
+}
