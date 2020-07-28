@@ -13,6 +13,6 @@ I somehow stumbled upon a piece this morning called [_Mourning a Patriot Whose P
 
 McCain was one of those frustrating Sorkin-esque West Wing Republicans where you disagree with his politics in every which way, and fundamentally because they’re cruel and short-sighted, but he was still an honest man. He was not an evil caricature or an ego-driven maniac. And so it’s troubling that in the Republican party today there’s not one person I could count in that camp. Not a single damn one. 
 
-Those that let #45 continue his rampage are not good, honest people. And we must not forgive them for it.
+My point: those that let #45 continue his rampage are not good, honest people. And we must not forgive them for it.
 
 
