@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: Jon Lovett on the passing of John McCain.
 ---
-I somehow stumbled upon a piece this morning called [_Mourning a Patriot Whose Politics You Hate_](https://crooked.com/articles/john-mccain-death-politics/) by Jon Lovett. It’s about the death of Senator John McCain and how, although Jon disagrees with everything about McCain’s politics, there’s a shred of hope to be found in that disagreement:
+I somehow stumbled upon a piece this morning called [_Mourning a Patriot Whose Politics You Hate_](https://crooked.com/articles/john-mccain-death-politics/) by Jon Lovett. It’s written just after the death of Senator John McCain in August of 2018 and it’s about how, although Jon disagrees with everything about McCain’s politics, there’s a shred of hope to be found in that disagreement:
 
 > John McCain was funny and acerbic and had soul and pathos and blind spots and cruelty and conviction. He was bellicose. He was bled and broken and brave for his country. He was dangerous and his decency as a man is belied by the death toll of the foreign policy he espoused. He sold out to corporations but he believed in campaign finance reform. He saved Obamacare but would have repealed it. He was enamored of independence and then surprised you by living up to it, rarely. He was complicated. He believed in America. He was big in a place filled with tiny tiny little fuckers. He was a patriot and he was wrong. He was a patriot and if there is a core challenge we face right now, if you could say in one sentence what may doom this country, it is that cowardice, greed, hate, and power have drained the patriotism of one of our two political parties.
 > 
