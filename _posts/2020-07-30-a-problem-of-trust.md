@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: The virus has found other forms of weakness.
 ---
-When the pandemic hit, it wasn’t just attacking our bodies. Instead, it had found a weakness in the unbreakable social bonds that we share with one another. Our need to hold someone, to hug them, to be close to another person, anyone, even a stranger. But now, as cases in Europe are falling and the pandemic is still devastating us here in the States, I realize that the virus attacks more than just our bodies and the social bonds between us. 
+It wasn’t just attacking our bodies. Instead, the pandemic had found a weakness in the unbreakable social bonds that we share with one another. Our need to hold someone, to hug them, to be close to another person, anyone, even a stranger. But now, as cases in Europe are falling and the pandemic is still devastating us here in the States, I realize that the virus attacks more than just our bodies and the social bonds between us. 
 
 The virus has found other forms of weakness.
 
