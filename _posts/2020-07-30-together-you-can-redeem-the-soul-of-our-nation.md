@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: John Lewis’s final speech.
 ---
-John Lewis [wrote this essay](https://www.nytimes.com/2020/07/30/opinion/john-lewis-civil-rights-america.html) to be read on the date of his funeral:
+John Lewis [wrote this essay](https://www.nytimes.com/2020/07/30/opinion/john-lewis-civil-rights-america.html) to be read on the day of his funeral:
 
 > When you see something that is not right, you must say something. You must do something. Democracy is not a state. It is an act, and each generation must do its part to help build what we called the Beloved Community, a nation and world society at peace with itself.
 > 
