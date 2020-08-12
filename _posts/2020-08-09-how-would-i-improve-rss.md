@@ -3,7 +3,7 @@ title: How would I improve RSS?
 date: 2020-08-09T03:00:06.301Z
 city: San Francisco
 country: California
-extract: Matt Webb
+extract: Matt Webb’s notes and The OmniBlog.
 ---
 [Matt Webb](http://interconnected.org/home/2020/07/29/improving_rss): 
 
