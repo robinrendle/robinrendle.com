@@ -3,7 +3,7 @@ title: Oh! What a Joyous Thing
 date: 2020-08-17T20:30:08.445Z
 city: San Francisco
 country: California
-extract: Context-switching and design
+extract: Context-switching and design.
 ---
 Today I’m struggling with context-switching as I’m hopping wildly between front-end development to visual design and icon alignment back to copywriting and then user research. It’s a lot to juggle and today is one of those days where I feel like I’m goofing everything up. Too many plates are spinning and I don’t have the focus or the nerve required to keep them all up in the air.
 
