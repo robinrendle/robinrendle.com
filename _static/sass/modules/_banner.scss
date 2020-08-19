@@ -68,7 +68,7 @@
     pointer-events: none;
     position: absolute;
     right: -16px;
-    color: var(--secondary-text-color) !important;
+    color: var(--form-bg-color) !important;
   }
 
   &:last-of-type {
@@ -80,9 +80,9 @@
   }
 
   &:hover {
-    color: var(--link-hover-color);
+    color: var(--heading-color);
     &:after {
-      color: var(--secondary-text-color) !important;
+      color: var(--form-bg-color) !important;
     }
   }
 }

@@ -97,15 +97,13 @@ html {
   overflow-y: scroll;
   height: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: var(--main-theme-color);
 }
 
 body {
   font: 400 110%;
   @include typeface("Regular");
   line-height: 1.4;
-  background-color: var(--background-color);
-  color: var(--main-text-color);
+  background-color: #fff;
   font-feature-settings: "liga" 1 !important;
   min-height: 100%;
 

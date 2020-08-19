@@ -37,12 +37,13 @@
           const items = data.querySelectorAll("item");
           let html = ``;
           items.forEach(el => {
+            console.log(el.querySelector("title"));
             var url = new URL(el.querySelector("link").innerHTML);
             html += `
                 <a class="card-list" href="${
             el
               .querySelector(" link")
-              .innerHTML}" targett="_blank" rel="noopener">
+              .innerHTML}" target="_blank" rel="noopener">
                   <h2 class="card-list__title">
                     ${el
               .querySelector("title")

@@ -7,7 +7,7 @@ h1 {
   &,
   .m-longform & {
     @include remCalc(font-size, 48);
-    color: var(--custom-theme-color);
+    color: var(--heading-color);
     line-height: 1;
     margin-bottom: 20px;
     @include media(">medium") {

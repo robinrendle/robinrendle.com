@@ -31,7 +31,7 @@ a.card-list {
     z-index: 999;
 
     .card-list__title {
-      color: var(--custom-theme-color);
+      color: var(--main-theme-color);
     }
     @include media(">large") {
       transform: scale(1.01);

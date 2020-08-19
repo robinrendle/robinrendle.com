@@ -315,7 +315,7 @@ a:focus {
 }
 
 .tag:hover {
-  background-color: var(--custom-theme-color);
+  background-color: var(--main-theme-color);
   color: white;
 }
 
@@ -334,6 +334,10 @@ a:focus {
     margin-bottom: 10px;
     width: 100%;
   }
+}
+
+.about-page h1 {
+  color: var(--main-theme-color);
 }
 
 .home-header h1 {
