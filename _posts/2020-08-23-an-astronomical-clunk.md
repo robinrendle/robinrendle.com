@@ -9,9 +9,9 @@ Sometimes I forget what the web is capable of. I watch the code and the text and
 
 But then there are the other times. The ones where I have an idea, jot it down with Codepen, and send the link to a pal to see what they think. Or there are those rare and special moments when a stranger emails me with a link to a doc or a project they’re working on—websites about books or books about design or random fonts wrenched out of the aether.
 
-It’s these moments where the web holds up to its original promise; the web standards, the infrastructure, the open web. With eyes wide open I watch as this beige suite of specifications link together until they’re like constellations out of stars in the sky. It all makes snese. But it’s not just the technologies that fit together, it’s the skills, too. When design, writing, and coding can all be seen as the same thing, just from different angles.
+It’s these moments when the web holds up to its original promise; the web standards, the infrastructure, the open web. With eyes wide open I watch as this beige suite of specifications link together until they’re like constellations out of stars in the sky. It all begin to makes sense. But it’s not just the technologies that fit together in these moments, it’s the skills, too. When I’m excited about design, and writing, and coding all at the same time, and when each of them can be seen as the same thing, just from different angles.
 
-There’s this feeling when this happens; an immensely satisfying _clunk_ inside me.
+There’s this feeling when this happens; an immensely satisfying _clunk_.
 
 ---
 
