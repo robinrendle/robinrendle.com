@@ -3,7 +3,7 @@ title: An Astronomical Clunk
 date: 2020-08-23T02:38:06.788Z
 city: San Francisco
 country: California
-extract: Distant technologies and unlikely skills.
+extract: And extraordinary luck.
 ---
 Sometimes I forget what the web is capable of. I watch the code and the text and the opinions fly around and it feels like I’ve seen it all.\
 \
@@ -11,7 +11,7 @@ But then there are the other times. The ones where I have an idea, jot it down w
 \
 It’s these moments where the web holds up to its original promise; the web standards, the infrastructure, the open web. With eyes wide open I watch as this constellation of boring technologies link together like constellations out of stars in the sky. It’s not just the technologies that fit together, it’s the skills, too. When design, writing, and coding can all be seen as the same thing, just from different angles.\
 \
-There’s this feeling when this happens, this immensely satisfying \_clunk\_ inside me.\
+There’s this feeling when this happens; an immensely satisfying \_clunk\_ inside me.\
 \
 ---\
 \
@@ -19,4 +19,4 @@ When someone asks me what I do I tend to say “web designer” but that’s not
 \
 I don’t get this feeling with the web and writing everyday. But when I do it reaffirms every decision I’ve made in my life. Earlier this evening I was helping my pal \[Lucy](<https://twitter.com/LuBellWoo>) work on a small website and all these feelings struck me again; when you just can’t type fast enough, when every idea is possible and teasing you to explore it further, where you get to question what a website even is.\
 \
-I guess my point is that I’m extraordinary lucky. Just look at this satellite of beautiful web weirdos I’ve surrounded myself with! This astronomical \_clunk\_ of distant technologies and most unlikely skills.
+I guess my point is that I’m extraordinary lucky. Just look at this satellite of beautiful web weirdos I’ve surrounded myself with! This astronomical \_clunk\_ of technologies and most unlikely skills.
