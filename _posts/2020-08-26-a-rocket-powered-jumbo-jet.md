@@ -96,11 +96,15 @@ But wait, where does the Magic Keyboard come into this though? Well.
 
 When I first heard of the Magic Keyboard I scoffed aloud because it’s horribly overpriced and is made of that same nasty plastic material they use for their old iPad covers. _Nah, I’m good mate_, I thought rather obnoxiously.
 
-But! The Magic Keyboard changes _everything_. And I feel like a terrible-tech-daddy-shill for saying this, but it’s true. The Magic Keyboard feels like a Kindle in the same way that you’re not precious about it. It is designed to get a job done and it feels like a keyboard from those old plastic laptops made for kids back in the 90s. It is familiar and warm and somehow...better than a laptop keyboard (?) because it’s so much closer to the table that your wrists don’t have to arch up slightly to type. 
+But! The Magic Keyboard changes _everything_. And I feel like a terrible-tech-daddy-shill for saying this, but it’s true. The Magic Keyboard feels like a Kindle in the same way that you’re not precious about it. It is designed to get a job done and it feels like a keyboard from those old plastic laptops made for kids back in the 90s. It is familiar and warm and somehow...better than a laptop keyboard (?) because it’s so much closer to the table that your wrists don’t have to arch up slightly to type.
+
+Sketching an idea, then snapping the iPad back onto the keyboard to record a longer paragraph of text, is how...well...it’s not just how design should work. It’s what we ought to expect of computers in general. 
+
+---
 
 The Magic Keyboard by itself is nothing more than an expensive keyboard. The Apple Pencil by itself is nothing more than a fancy and expensive stylus. The iPad Pro by itself is nothing more than an expensive, bigger tablet. 
 
-But together, this fabulous system emerges. I can hop into a text file, edit things on my site, and then I can pop the iPad out and sit on my couch and sketch out UI ideas without having to be precious about them. I can share my screen with distant colleagues and scratch notes and improvements that need to be made. 
+But together, this fabulous system emerges. I can hop into a text file, edit things on my site, and then I can pop the iPad out and sit on my couch and sketch out UI ideas without having to be precious about them. I can share my screen with distant colleagues and scratch notes and improvements that need to be made. With the Files app and iPhoto, sharing bits of data back and forth between people is almost perfect.
 
 It is serious bicycle-of-the-mind type stuff. 
 
