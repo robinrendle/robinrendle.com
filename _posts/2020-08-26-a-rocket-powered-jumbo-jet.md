@@ -67,7 +67,7 @@ Let me explain.
 
 First off I downloaded [Paper](https://paper.bywetransfer.com), a sketching app that I had used years ago. It’s formed around the idea of Journals and within each of them I realized I could treat them like a sketchbook. I could brainstorm first and write notes. I could combine it with Safari to take screenshots from the Sentry app, throw them into a  Journal, and then make messy designs on top of them.
 
-The reason why Paper is so damn good is because it’s not a sketching app. It it secretly another kind of app altogether...
+The reason why Paper is so damn good is because it’s not a sketching app though. It’s secretly another kind of app altogether...
 
 I realized that half my problem when it comes to design is that I’m terrible at giving context. In design crits I can’t seem to find the right words—why did I do this, why does it help? But I avoided making formal presentations because those absolutely suck and exporting things from Figma into Google Slides is exhausting and a lot of dumb, stupid work. 
 
