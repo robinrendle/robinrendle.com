@@ -81,7 +81,7 @@ I wanted to do the same for my designs. To share the screen on the iPad you can 
 
 Also, side note, the tools in the Paper app are _perfect_ for making quick wireframes for things, too. There’s one tool which fills in color and it is _magic_ and genuinely ingenious. 
 
-Being able to draw well with Paper is not really the point. You don’t need to be able to draw to be a designer, you just need to be willing to think about problems intensely. Look, I will prove it. Examine this absolute crap design I made earlier:
+Also also: being able to draw well with Paper is not really the point. You don’t need to be able to draw to be a designer, you just need to be willing to think about problems intensely. Look, I will prove it. Examine this absolute crap design I made earlier:
 
 ![A bad drawing in the Paper app for the iPad Pro](/uploads/issues.png)
 
