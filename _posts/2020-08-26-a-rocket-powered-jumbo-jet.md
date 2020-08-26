@@ -84,3 +84,35 @@ Also, side note, the tools in the Paper app are _perfect_ for making quick wiref
 Being able to draw well with Paper is not really the point. You don’t need to be able to draw to be a designer, you just need to be willing to think about problems intensely. Look, I will prove it. Examine this absolute crap design I made earlier:
 
 ![A bad drawing in the Paper app for the iPad Pro](/uploads/issues.png)
+
+
+Is it beautiful? No. Can I draw a straight line to save my life? Also no. Does this look like a sketch you’d find on the back of a toilet stall? Absolutely yes. 
+
+But that’s not the point! _In search of great design we must forego being pretty for being understood_. And this setup—the pencil, the iPad Pro, the Paper app, and the Magic Keyboard—becomes the perfect way for me to lock myself into the first mode of design until the time is right to zoom in. 
+
+After my first experiment with this stuff this morning I had a ton of feedback and it was unanimous: this way of making designs and presenting them helps me focus, helps me communicate, guiding my hand as I walk through the problems and the potential solutions to them. 
+
+But wait, where does the Magic Keyboard come into this though? Well. 
+
+When I first heard of the Magic Keyboard I scoffed aloud because it’s horribly overpriced and is made of that same nasty plastic material they use for their old iPad covers. _Nah, I’m good mate_, I thought rather obnoxiously.
+
+But! The Magic Keyboard changes _everything_. And I feel like a terrible-tech-daddy-shill for saying this, but it’s true. The Magic Keyboard feels like a Kindle in the same way that you’re not precious about it. It is designed to get a job done and it feels like a keyboard from those old plastic laptops made for kids back in the 90s. It is familiar and warm and somehow...better than a laptop keyboard (?) because it’s so much closer to the table that your wrists don’t have to arch up slightly to type. 
+
+The Magic Keyboard by itself is nothing more than an expensive keyboard. The Apple Pencil by itself is nothing more than a fancy and expensive stylus. The iPad Pro by itself is nothing more than an expensive, bigger tablet. 
+
+But together, this fabulous system emerges. I can hop into a text file, edit things on my site, and then I can pop the iPad out and sit on my couch and sketch out UI ideas without having to be precious about them. I can share my screen with distant colleagues and scratch notes and improvements that need to be made. 
+
+It is serious bicycle-of-the-mind type stuff. 
+
+This reminds me of seeing the iPhone for the first time; I genuinely didn’t care. _Eh_. It has a touch screen, sure, but it’s expensive. There’s so few apps, it has a broken web browser where I have to zoom in all the time. The things are cool and interesting but the system is bad. Not bicycle-of-the-mind at least.
+
+And then the second generation iPod Touch came out. By that time the App Store had released, the device wasn’t tethered to a network but you could use WiFi, responsive design had swept the world, and a million iterative improvements had suddenly made the device this glorious, perfect machine. All the constituent parts made sense and improved all the other parts in the system. Absolutely perfect, bicycle-of-the-mind.
+
+The Apple Watch right now is just before that stage, I think. It‘s mostly useless except for the calorie counting stuff. Notifications are a bad and a stressful idea. Phone calls on it don’t really make sense (yet?). Other apps don’t make sense for it either, to me at least. But maybe in a few years all these disparate, clunky, half-finished parts will click satisfyingly together and then—boom!
+
+This is the space where the iPad Pro, the Apple Pencil, and the Magic Keyboard, occupies today. They’re not just another way to do laptop-things-on-the-go. It lets me perform entirely non-laptop actions. 
+
+It’s not even a bicycle-for-the-mind, it’s a rocket powered jumbo jet; this little machine is what every computer should aspire to be.
+
+
+
