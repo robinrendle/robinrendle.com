@@ -15,6 +15,6 @@ This CSS property hasn’t landed in browsers yet—right now it’s just a spec
 
 The other day [Robin](http://robinsloan.com) mentioned that CSS has now gathered this massive collection of tools into this big beautiful thing, and I would most certainly agree. CSS is actually, yes, awesome now. Over the past 5-10 years styling things has _exponentially_ improved. And not just with tacked-on features, but the whole infrastructure underlying the language; the foundations of CSS itself. So much so that the way we think about CSS must change with these improvements.
 
-I’ve mentioned this before somewhere but years ago I was talking to a fantastic web developer who’s work I admired a great deal and they didn’t know what a clearfix was. Flexbox had existed for such a long time that they hadn’t need to learn about floats or clearfixes or any of the bonkers stuff tied to laying out websites in that way. 
+I’ve mentioned this before somewhere but years ago I was talking to a fantastic web developer whose work I admired a great deal and they didn’t know what a clearfix was. Flexbox had existed for such a long time that they hadn’t need to learn about floats or clearfixes or any of the bonkers stuff tied to laying out websites in that way. 
 
 And `leading-trim`? Well, it contributes to that future where everything I know is sort of irrelevant. But in a good way! 
