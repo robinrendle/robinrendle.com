@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" color-mode="light">
   <!--
 We dream of a library of literature created by everyone and belonging to no one, a library that is immortal and will mysteriously lend order to the universe, and yet we know that every orderly choice, every catalogued realm of the imagination, sets up a tyrannical exclusion. Every library is exclusionary, since its selection, however vast, leaves outside its walls endless shelves of writing that, for reasons of taste, knowledge, space and time, have not been included.
 
@@ -43,6 +43,13 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
     <style>
       {{css | cssmin | safe}}
     </style>
+    <script>
+      if (localStorage.getItem('color-mode') === 'dark' || (window.matchMedia('(prefers-color-scheme:dark)').matches && !localStorage.getItem('color-mode'))) {
+        document
+          .documentElement
+          .setAttribute('color-mode', 'dark');
+      }
+    </script>
   </head>
 
   <body>
@@ -55,12 +62,23 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
               <a href="/notes" class="banner__nav-item">Notes</a>
               <a href="/essays" class="banner__nav-item">Essays</a>
               <a href="/adventures" class="banner__nav-item">Newsletter</a>
-              <a href="/likes" class="banner__nav-item">Likes</a>
+              <a href="/feed.xml" class="banner__nav-item">RSS feed</a>
             </div>
             <div>
-              <a href="mailto:robinjrendle@gmail.com" class="banner__nav-item">Email</a>
-              <a href="https://twitter.com/robinrendle" class="banner__nav-item">Twitter</a>
-              <a href="/feed.xml" class="banner__nav-item">RSS feed</a>
+              <form class="toggle-theme">
+                <div>
+                  <label for="light" class="toggle-label toggle-label-light">
+                    <span>Light</span>
+                    <input name="theme" class="toggle-btn" id="light" type="radio" value="light">
+                  </label>
+                </div>
+                <div>
+                  <label for="dark" class="toggle-label toggle-label-dark">
+                    <span>Dark</span>
+                    <input class="toggle-btn" name="theme" id="dark" type="radio" value="dark">
+                  </label>
+                </div>
+              </form>
             </div>
           </nav>
         </div>
