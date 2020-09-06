@@ -19,7 +19,7 @@ When the BLM marches started earlier this summer, so many people started sharing
 
 Organizations like [the Brooklyn Community Bail Fund](https://brooklynbailfund.org/) are a truly wonderful thing, but they fall short of the end goal here: the complete dismantling of this racist money-bail system. 
 
-So how do we go about getting rid of it? Well, voting for Biden. His public policy on criminal justice reform makes it clear that [they’ll fight hard against this system](https://joebiden.com/justice/): 
+So how do we go about getting rid of it? Well, voting for Biden. His public policy on criminal justice reform makes it clear that [they despise it](https://joebiden.com/justice/): 
 
 > Cash bail is the modern-day debtors’ prison. The cash bail system incarcerates people who are presumed innocent. And, it disproportionately harms low-income individuals. Biden will lead a national effort to end cash bail and reform our pretrial system by putting in place, instead, a system that is fair and does not inject further discrimination or bias into the process.
 
