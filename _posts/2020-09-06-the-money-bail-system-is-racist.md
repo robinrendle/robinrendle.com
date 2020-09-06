@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: How do we destroy it?
 ---
-Clint Smith writes about the overwhelming tragedy that is the money-bail system here in America, where defendants are required to pay money in order to get out of jail before their trial takes place. These are innocent people—and those that don’t have the money to pay bail are then presumed guilty if they’re poor.
+Clint Smith writes about the overwhelming tragedy that is the money-bail system here in America, where defendants are required to pay money in order to get out of jail before their trial takes place. These are innocent people treated as if they’re guilty simply because they’re poor.
 
 Smith begins his piece with [the bail of Martin Luther King Jr.](https://www.theatlantic.com/magazine/archive/2018/02/clint-smith-freedom-aint-free/552506/) in 1963 and what’s changed since:
 
