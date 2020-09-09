@@ -11,4 +11,4 @@ I’ve been making videos of myself talking through a problem, giving all the ne
 
 I hope that these videos will help people manage their time better and so they don’t have to drop everything for this one big meeting. They can grab lunch whilst listening to me rant or even treat it like a podcast. 
 
-But also this is an archive of everything I’m working on, everything I’m thinking about at the moment. We’ll see if it helps my team get on the same page but I reckon it could start saving me a bunch of time too.
+But also this is an archive of everything I’m working on and what I’m thinking about at the moment. We’ll see if it helps my team get on the same page but I reckon it’s going to be wonderful to be able to go back and say “ah, yes. I had this all wrong. And this is the moment I realized...”
