@@ -1,5 +1,5 @@
 ---
-title: The Failure of Many Days
+title: Fighting with a Smile
 date: 2020-09-12T01:36:51.258Z
 city: San Francisco
 country: California
@@ -35,6 +35,8 @@ Sadly this year I can’t vote, I can’t even donate because I don’t have a g
 
 And panic donating four days before the election will help no-one.
 
-So! We need optimism. We need [to donate](https://secure.actblue.com/donate/great_slate). And then [we need to vote](https://votesaveamerica.com). Because there’s eight weekends left to save the world. I know that sounds dumb and extremist because we’ve been told that the two parties are the same and politics is broken. But that’s the cynicism we need to avoid if we want to fix things. 
+So! We need optimism. We need [to donate](https://secure.actblue.com/donate/great_slate). And then [we need to vote](https://votesaveamerica.com). Because there’s eight weekends left to save the world. I know that sounds dumb and extremist because we’ve been told that the two parties are the same and that politics is broken—but!—that’s the cynicism we need to avoid if we want to fix things. 
+ 
+We can only win with each gruelling, hard-earned vote at a time. And we must fight for every single one. But we can do so with a smile, with a boundless optimism because we know that this is the right moment, the right cause, for the right people.
 
-And so we need to fight as if we’re losing because in 53 days we get a chance to fix this whole damn mess. And we can only do that with one humble vote at a time. 
+53 days of optimism. Of hope. That’s what we need; to fight with a smile.
