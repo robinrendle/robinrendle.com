@@ -37,6 +37,6 @@ And panic donating four days before the election will help no-one.
 
 So! We need optimism. We need [to donate](https://secure.actblue.com/donate/great_slate). And then [we need to vote](https://votesaveamerica.com). Because there’s eight weekends left to save the world. I know that sounds dumb and extremist because we’ve been told that the two parties are the same and that politics is broken—but!—that’s the cynicism we need to avoid if we want to fix things. 
  
-We can only win with each gruelling, hard-earned vote at a time. And we must fight for every single one. But we can do so with a smile, with a boundless optimism because we know that this is the right moment, the right cause, for the right people.
+We can only win with each gruelling, hard-earned vote at a time. And we must fight for every single one of them. But we can do that with a smile, with a boundless optimism because we know that this is the right moment, the right cause, for the right people.
 
 53 days of optimism. Of hope. That’s what we need; to fight with a smile.
