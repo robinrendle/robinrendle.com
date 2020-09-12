@@ -7,7 +7,7 @@ extract: And avoiding cynicism like the plague.
 ---
 The next 53 days are the most important of our lives. For the pandemic, for civil rights, for ending the fillibuster and fighting the climate crisis, for sane gun control, for providing universal health care to everyone, for tax reform, and for so many other vital issues. However, the only way we can tackle these problems is if we flip the ballot; from the White House all the way down to the rural Senate races across the country.
 
-But we should avoid cynicism like hell.
+And to do _that_ we need to avoid cynicism like hell.
 
 Maciej Cegłowski had a great piece about [how to give money](https://idlewords.com/2020/09/effective_political_giving.htm) to political campaigns the other day, where he writes: 
 
