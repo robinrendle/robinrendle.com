@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: And avoiding cynicism like the plague.
 ---
-The next 53 days are the most important of our lives. For the pandemic, for civil rights, for ending the filibuster and fighting the climate crisis, for sane gun control, for providing universal health care to everyone, and for so many other vital issues. The only way we can tackle these problems is if we flip the ballot; from the White House all the way down to the rural Senate races across the country.
+The next 53 days are the most important of our lives. For the pandemic, for civil rights, for ending the fillibuster and fighting the climate crisis, for sane gun control, for providing universal health care to everyone, for tax reform, and for so many other vital issues. The only way we can tackle these problems is if we flip the ballot; from the White House all the way down to the rural Senate races across the country.
 
 But we should avoid cynicism like hell.
 
