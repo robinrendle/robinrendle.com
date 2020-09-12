@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: And avoiding cynicism like the plague.
 ---
-The next 52 days are the most important of our lives. For the pandemic, for civil rights, for ending the filibuster and fighting the climate crisis, for sane gun control, for providing universal health care to everyone, and for so many other vital issues. The only way we can tackle these problems is if we flip the ballot; from the White House all the way down to the rural Senate races across the country.
+The next 53 days are the most important of our lives. For the pandemic, for civil rights, for ending the filibuster and fighting the climate crisis, for sane gun control, for providing universal health care to everyone, and for so many other vital issues. The only way we can tackle these problems is if we flip the ballot; from the White House all the way down to the rural Senate races across the country.
 
 But we should avoid cynicism like hell.
 
@@ -37,4 +37,4 @@ And panic donating four days before the election will help no-one.
 
 So! We need optimism. We need [to donate](https://secure.actblue.com/donate/great_slate). And then [we need to vote](https://votesaveamerica.com). Because there’s eight weekends left to save the world. I know that sounds dumb and extremist because we’ve been told that the two parties are the same and politics is broken. But goddamn that’s the cynicism we need to avoid if we want to fix things. 
 
-And so we need to fight as if we’re losing. Because in 53 days we get a chance to fix this whole damn mess. And we can only do that by one humble vote at a time. 
+And so we need to fight as if we’re losing because in 53 days we get a chance to fix this whole damn mess. And we can only do that with one humble vote at a time. 
