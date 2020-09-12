@@ -3,7 +3,7 @@ title: Fighting with a Smile
 date: 2020-09-12T01:36:51.258Z
 city: San Francisco
 country: California
-extract: And avoiding cynicism like the plague.
+extract: And avoiding cynicism like hell.
 ---
 The next 53 days are the most important of our lives. For the pandemic, for civil rights, for ending the fillibuster and fighting the climate crisis, for sane gun control, for providing universal health care to everyone, for tax reform, and for so many other vital issues. However, the only way we can tackle these problems is if we flip the ballot; from the White House all the way down to the rural Senate races across the country.
 
