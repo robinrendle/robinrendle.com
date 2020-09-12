@@ -25,7 +25,7 @@ This sort of optimism is extremely rare. And before our own natural political cy
 
 2020 is what we get when the whole country is forced to reconcile a debt it’s ignored. The orange-black smoke that descended this week on the Bay Area and the fires happening everywhere across the West, to the Black Lives Matter movement, to the pandemic still raging in our cities. This is the result of years of cruelty—cruelty stacked on top of cruelty—that is biting us in the ass today.
 
-This year is not just a bad year, it is the failure of many days. And within the next 53 days we get to fix that, if we’re smart.
+So 2020 is not just a shitty year, it’s the failure of many days. And within the next 53 days we get to fix that, if we’re smart.
 
 [The damage](https://youtu.be/Wy8iiC2Mqso) will take the rest of our lives to undo, yes. Cynicism is likely to kick in again during the moments where we most need quiet heroism and faith in political change. But we don’t have any more time to lament this year, we don’t have the resources to say “fuck 2020” or sigh that “this year is an eternity” or “wow this is the darkest timeline.” Because in these next 53 days we get to turn this ship around. We get to skip, hop, and jump into the right timeline. 
 
