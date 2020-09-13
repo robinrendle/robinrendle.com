@@ -5,9 +5,13 @@ city: San Francisco
 country: California
 extract: Dan Pfeiffer’s newsletter about politics.
 ---
-For the last couple of months as the political situation here intensifies I wondered: why isn’t there a CSS-Tricks for politics? Why does every conversation about politics stress me the fuck out and why can’t I find a place that is hopeful and consistent but isn’t just offering faint praise?
+For the last couple of months I’ve wondered: why isn’t there a CSS-Tricks for politics? Why does every conversation about politics stress me the fuck out and why can’t I find a place that is hopeful and consistent but isn’t just offering half-baked takes or click-bait trash? Is there a place to learn about politics without giving me a heart attack in the process?
 
-Not so long ago I saw a technical post on a startup’s blog about how to create a 3D map but instead of talking about what they built or giving a brief intro, the writer instead began with the sort of Big Romantic Introduction like “Maps have always been important to the human species...” and man this always hurts me to read.
+Because I think all the major news orgs fail gloriously on this front. They have great stuff, yes. Lots of swell writers doing important work. But you have to wade through endless garbage and opinions that have no expertise or have been written to get you to click them. The great, important political writing gets lost in all that noise which is designed to feed a social network’s algo. 
+
+It is writing designed to be retweeted, but not read.
+
+This reminds me: not so long ago I saw a technical post on a startup’s blog about how to create a 3D map but instead of talking about what they built or giving a brief intro, the writer instead began with the sort of Big Romantic Introduction like “Maps have always been important to the human species...” and man this always hurts me to read.
 
 I think this is why I adore these CSS-Tricks / Chris Coyier-esque posts. There’s no faffing about, and each of these posts just dives straight into the fray. “Over the weekend I was messing about with X and here’s what I built.” It’s so much more approachable and there’s no ego involved. Technology X is not a stepping stone to some utopian vision of technology. It’s more like: _Look I made a thing!_
 
