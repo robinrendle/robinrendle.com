@@ -3,7 +3,7 @@ title: Retweet but do not read
 date: 2020-09-13T19:12:06.247Z
 city: San Francisco
 country: California
-extract: Dan Pfeiffer’s newsletter about politics.
+extract: And what most writing has become.
 ---
 For the last couple of months I’ve wondered why there isn’t a CSS-Tricks for politics. Why does every conversation about this subject stress me the fuck out and why can’t I find a place that is hopeful and consistent but isn’t just offering half-baked rants or click-bait trash? Is there a place to learn about politics without giving me a heart attack in the process?
 
