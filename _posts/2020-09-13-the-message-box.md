@@ -13,7 +13,7 @@ I think it’s because most writing is designed to be retweeted, but not to be r
 
 This reminds me: not so long ago I saw a technical post on a startup’s blog about how to create a 3D map but instead of talking about what they built or giving a brief intro, the writer instead began with the sort of Big Romantic Introduction like “Maps have always been important to the human species because...” And, woof. This is also why I can’t watch a lot of talks about design, too. A few years ago I went to a conference in New York about type and every single talk began with a 15 minute breakdown of the person’s career. There was so much fluff, so much useless intro. _Tell me a story!_ Give me some drama! I don’t care that you worked at Nike, christ alive.
 
-I think this is why I adore CSS-Tricks / Chris Coyier-esque posts (I know I write there but I can still appreciate what everyone else does despite me slowly taking it down from the inside). There’s no faffing about, and each post just dives straight into the fray. _Over the weekend I was messing about with X and here’s what I built..._ It’s so much more approachable and there’s no ego involved. Technology X is not a stepping stone to some utopian vision of technology. 
+I think this is why I adore CSS-Tricks / Chris Coyier-esque posts (I know I write there but I can still appreciate what everyone else does despite me slowly taking it down from the inside). There’s no faffing about, and each post just dives straight into the fray. _Over the weekend I was messing about with X and here’s what I built..._ It’s so much more approachable and there’s no ego involved. Technology X is not a stepping stone to some utopian vision of the world. 
 
 It’s more like: _Look, I made a thing!_
 
