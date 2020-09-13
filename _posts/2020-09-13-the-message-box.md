@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: Dan Pfeiffer’s newsletter about politics.
 ---
-For the last couple of months I’ve wondered: why isn’t there a CSS-Tricks for politics? Why does every conversation about this subject stress me the fuck out and why can’t I find a place that is hopeful and consistent but isn’t just offering half-baked rants or click-bait trash? Is there a place to learn about politics without giving me a heart attack in the process?
+For the last couple of months I’ve wondered why there isn’t a CSS-Tricks for politics? Why does every conversation about this subject stress me the fuck out and why can’t I find a place that is hopeful and consistent but isn’t just offering half-baked rants or click-bait trash? Is there a place to learn about politics without giving me a heart attack in the process?
 
 Because I think all the major news orgs fail gloriously on this front. They have great stuff, yes. Lots of swell writers doing important work. But you have to wade through endless garbage and arm-chair opinions with no real political expertise. The great writers get lost in all that noise.
 
