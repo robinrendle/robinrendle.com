@@ -25,7 +25,7 @@ I’ve been thinking about this in a different light this week since I read Mand
 
 > Disability in part results when the shape of the world—buildings and streets but also institutions, cultural organizations, centers of power—operates rigidly, with a brittle and scripted sense of what a body does or does not do, how it moves and organizes its world.
 
-When I think of web apps I think of them as brittle, rigid, dumb machines; software that doesn’t flex to meet us here in our bodies.
+When I think of web apps I think of them as brittle, rigid, dumb machines; software that can’t flex to meet us here in our bodies.
 
 And I reckon this is what inspired me about Ethan Marcotte’s original [argument for building responsive websites](https://alistapart.com/article/responsive-web-design/). Not the cool tech, or the new working philosophy, but instead how that tiny blog post is an act of rebellion against this way of thinking, of fighting laziness. Responsive web design and accessibility work and everything that goes into making a great “website” expands the scope of what we expect software to be. 
 
