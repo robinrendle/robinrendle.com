@@ -27,6 +27,6 @@ I’ve been thinking about this in a different light this week since I read Mand
 
 When I think of web apps I think of them as brittle, rigid, dumb machines; software that can’t flex to meet us here in our bodies.
 
-And I reckon this is what inspired me about Ethan Marcotte’s original [argument for building responsive websites](https://alistapart.com/article/responsive-web-design/). Not the cool tech, or the new working philosophy, but instead how that tiny blog post is an act of rebellion against this way of thinking, of fighting laziness. Responsive web design and accessibility work and everything that goes into making a great “website” expands the scope of what we expect software to be. 
+And I reckon this is what inspired me about Ethan Marcotte’s original [argument for building responsive websites](https://alistapart.com/article/responsive-web-design/). Not the cool tech, or the new working philosophy, but instead that tiny act of rebellion against brittle software. Everything that goes into making a great “website” expands the scope of what we expect software to be; fast, accessible, responsive, kind. 
 
-Building software that is fast, accessible, responsive, kind. Building a Web for us all. 
+But we can only do this if we stop making the distinction between “web apps” and “websites.” Only then can we start to build a Web for us all. 
