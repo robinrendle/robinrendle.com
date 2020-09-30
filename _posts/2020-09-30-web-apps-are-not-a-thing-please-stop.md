@@ -15,7 +15,7 @@ But to people, to the browser, to the network, it’s all the same.
 
 And maybe this is why people in this town are too ashamed to call themselves web designers. 
 
-Anyway, when building web apps I keep hearing that we don’t need to care about responsive design or accessibility and it troubles me. It’s like saying the “mobile web.” It’s an excuse to be lazy, a small sad vote for bloat and unnecessary complexity. The thinking goes in most companies that “we don’t need to care about responsive design because we’ll just build an app” but really I hear that as just another excuse to do a bad job. 
+Anyway, when building web apps I keep hearing that we don’t need to care about responsive design or accessibility and it troubles me. It’s like saying the “mobile web,” it’s an excuse to be lazy. The thinking goes in most companies that “we don’t need to care about responsive design because we’ll just build an app” but really I hear that as just another excuse to do a bad job, too.
 
 Do folks know that we can make fantastic websites that are responsive now? That we can change the layout without the source order? Why has our profession become such a joke that we’re willing to hire a whole other team, build for one specific platform, when we could expand our current design and codebase to support smaller screens? Why do I assume whenever I go to a website on my phone it’s going to be an embarrassing mess? Why do I immediately copy the address, just in case I need to email it to myself to view it on a desktop browser later?
 
