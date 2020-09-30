@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: "A Web for us all. "
 ---
-In the Bay Area there’s this very clear distinction folks make between websites and web apps. Somehow, the thinking goes, if we make a web app then we don’t need to care about accessibility or responsive design. We don’t need to care about all the work that goes into making a typical website great; semantic HTML, fast performance, responsive design.
+In the Bay Area there’s this very clear distinction folks make between “websites” and “web apps.” Somehow, the thinking goes, if we make a web app then we don’t need to care about accessibility or responsive design. We don’t need to care about all the work that goes into making a typical website great; semantic HTML, fast performance, responsive design.
 
 “Web apps” play by different rules than “websites.”
 
