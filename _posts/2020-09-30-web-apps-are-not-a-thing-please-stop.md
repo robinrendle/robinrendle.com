@@ -7,7 +7,7 @@ extract: "And building a Web for us all. "
 ---
 In the Bay Area there’s this very clear distinction folks make between “websites” and “web apps.” Somehow, the thinking goes, if we make a web app then we don’t need to care about accessibility or responsive design. We don’t need to care about all the work that goes into making a typical website great; semantic HTML, fast performance, responsive design.
 
-“Web apps” play by different rules than “websites.”
+“Web apps” somehow play by different unwritten rules than “websites.”
 
 There’s a lot written about this subject but ultimately I think the difference between “web apps” and “websites” is complete bullshit. When you’re looking at a web app or a website you’re still using all the same technology; URLs, HTML, CSS, and JavaScript. The only difference is the way they’re built under the hood. Typically, “web apps” tend to use bloated JavaScript frameworks and ”websites” are written by hand by the marketing team and perhaps at most use a CMS. 
 
