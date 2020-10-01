@@ -9,7 +9,7 @@ Ethan Marcotte’s [latest talk](https://youtu.be/7bAETIw8lA0?t=985) is so great
 
 > Creating modular components isn’t the primary goal or even the primary benefit of creating a design system. And what’s more, a focus on process and people always leads to more sustainable systems.
 
-This angered me because yes but also I tend to forget this. It’s easy to get so lost in the details when it comes to design systems that fixing problems can actually be a distraction. 
+I tend to forget this, perhaps the most important bit of advice for starting work on a design system. It’s easy to get so lost in the details when it comes to fixing problems, so much so that the work can actually be a distraction. 
 
 Just last week this happened to me where I went down the rabbit hole of fixing all the Tag components in our app; making documentation, tidying up our Storybook examples, doing an audit in the app and fixing the styles. But then I realized the scope and impact of these changes. Instead of fixing these problems myself it actually made more sense that I start to make the case for a dedicated UI engineer to join our team. So I went off and wrote a doc suggesting why changing our culture and our org is so important. 
 
