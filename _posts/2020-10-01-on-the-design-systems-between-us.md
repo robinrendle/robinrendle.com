@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: And avoiding the rabbit holes.
 ---
-Ethan Marcotte’s [latest talk](https://youtu.be/7bAETIw8lA0?t=985) is so great and I think summarizes the feeling of the whole industy/craft right now. But the part that really stuck out to me is where Ethan argued that:
+Ethan Marcotte’s [latest talk](https://youtu.be/7bAETIw8lA0?t=985) is so great and I think he captures the feeling of the whole industy/craft right now. But the part that really stuck out to me is where Ethan argued that:
 
 > Creating modular components isn’t the primary goal or even the primary benefit of creating a design system. And what’s more, a focus on process and people always leads to more sustainable systems.
 
