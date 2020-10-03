@@ -15,7 +15,7 @@ Most tech companies work like a Communist party from the 80s; there is the infal
 
 That’s how most tech companies work, sadly.
 
-At my last gig there was this other Force though, as real and as powerful as gravity. I imagined it as a ladder where everyone appeared to be ruthlessly fighting their way to the top of it regardless of what it would cost them. Of course they’d smile and giggle and talk about their weekends in Tahoe, but there was this whole other thing going on in those meetings. It was this subterfuge and coup after coup that I didn’t understand and was too naive to see.
+At my last gig there was this other Force though, as real and as powerful as gravity. I imagined it as a ladder where everyone appeared to be ruthlessly fighting their way to the top, regardless of what it would cost them. Of course they’d smile and giggle and talk about their weekends in Tahoe, but there was this whole other thing going on in those meetings. It was subterfuge and coup after coup that I didn’t understand and was too naive to see.
 
 But fuck man, I dunno. I just want to make websites. 
 
