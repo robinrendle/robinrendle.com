@@ -11,7 +11,7 @@ I don’t know how much I agree with Slava Akhmechet on [how to get promoted](ht
 
 First: #designsystems. Second: I have a story to tell about my first gig in tech that I can’t for legal reasons, yet this post reminds me of how toxic and poisonous a lot of companies become. They are made up of vast bureaucracies and an overwhelming number of people that come to work each day aren’t there to do the work, not really. Or perhaps we disagree about what good work is? I’m still unsure. 
 
-Most tech companies work like a Communist party from the 80s; there is the infallible leader at the top, then there’s a cabal of Yes Men middle managers, then there’s the people at the bottom doing the work. I remember reading about Chernobyl years ago and the writer mentioned that some random dude would be told to run the Department of Finance or what have you and they wouldn’t know the first thing about the work.
+Most tech companies work like a Communist party from the 80s; there is the infallible leader at the top, then there’s a cabal of Yes Men middle managers, then there’s the people at the bottom doing the actual work. On this note, this reminds me of reading about Chernobyl years ago and this writer mentioned that some random dude would be told to run the Department of Finance or what have you and they wouldn’t know the first thing about the work. They’d just be some asshole running this important, vital piece of government infrastructure. 
 
 That’s how most tech companies work, sadly.
 
