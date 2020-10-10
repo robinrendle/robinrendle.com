@@ -3,7 +3,7 @@ title: The case for rereading
 date: 2020-10-10T17:47:44.334Z
 city: San Francisco
 country: California
-extract: Mandy Brown
+extract: Mandy Brown and the Thought of Thoughts, the Thing of Things.
 ---
 I want to quote this whole piece by Mandy Brown about [rereading books](https://aworkinglibrary.com/writing/case-for-rereading) but to avoid plagiarism I will only mention this graf:
 
