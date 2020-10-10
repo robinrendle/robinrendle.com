@@ -17,7 +17,7 @@ Mandy then lists some of the books that all her thoughts orbit around, those fou
 
 But I think there is a Solar Thought here—thoughts that resolve around a central capital T thought, that one Thing of Things, the Thought of Thoughts that you can’t ever let go. Sometimes there’s a singular, unremovable pillar buried inside that our whole personality has formed around. It’s this thought that you see every place and every book and every person by. And, for me at least, that’s PG Wodehouse; his vision of humor and England and how silliness ought to be embedded within every sentence is just pure magic.
 
-I dearly wish more people read Wodehouse. If you’ve never read his work before then I apologize in advance because it will feel like getting struck by lightning. Wait!—you will most undoubtedly cry—writing can work like this? Writing can hop and dance and skip all over the place? Why does anyone write in any other way? 
+I dearly wish more people read Wodehouse. If you’ve never read his work before then I apologize in advance because it will feel like getting struck by lightning. Wait!—you will most undoubtedly cry—writing can work like this? Writing can hop and dance and skip all over the place? Why does anyone write in any other way? Why did no-one tell me about this silly chap?
 
 Every Wodehouse story is an excuse to tell the same story, with the same jokes in the same spot, simply rearranged. But that’s quickly forgiven because each and every sentence is like this:
 
