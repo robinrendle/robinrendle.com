@@ -9,7 +9,7 @@ I want to quote this whole piece by Mandy Brown about [rereading books](https://
 
 > Reread a book enough times, or often enough—keep it at hand so you can flip to dog-eared pages and marked up passages here and there—and it will eventually root itself in your mind. It becomes both a reference point and a connector, a means of gathering your knowledge and experience, drawing it all together. It becomes the material through which you engage with the world.
 
-Okay, I lied. Because I also want to point at this one too because it’s this point that Mandy makes here that had me hollering aloud in my empty apartment:
+Well, okay, I lied—because I also want to point to this section where I began hollering aloud in my empty apartment:
 
 > Rereading packs your brain with thoughts to think with. It also makes other thoughts—like those that might flit by you in the form of various newsfeeds—less likely to be thought with. It gives you something to hold on to, something to draw back to, when everything else is in flux. 
 
