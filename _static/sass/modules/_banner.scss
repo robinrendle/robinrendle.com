@@ -4,7 +4,6 @@
 
 .banner {
   background-color: var(--banner-bg-color);
-  overflow-y: hidden;
 
   @include media(">large") {
     margin: 0 -10px;
@@ -13,28 +12,31 @@
 
 .banner__nav {
   padding: 0 10px;
-  margin: 0 auto;
   max-width: 700px;
   @include remCalc(font-size, 19);
+  @include typeface("Small caps");
+  display: flex;
+  margin: 0 10px;
+  overflow: scroll;
 
   @include media(">largest") {
+    margin: 0 auto;
+    justify-content: space-between;
     max-width: 1200px;
   }
 }
 
-.banner__nav nav {
-  @include typeface("Small caps");
+.banner__nav-items {
+  flex-shrink: 0;
   display: flex;
-  flex-wrap: nowrap;
-  margin: 0 10px;
-
-  @include media(">largest") {
-    justify-content: space-between;
-  }
 }
 
-.banner__nav nav div {
-  display: inline-flex;
+.toggle-theme {
+  flex-shrink: 0;
+}
+
+.toggle-item {
+  display: flex;
 }
 
 // Eat shit, future Robin. You deserve this.

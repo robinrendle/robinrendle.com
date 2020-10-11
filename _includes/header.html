@@ -55,32 +55,28 @@ Every library conjures up its own dark ghost; every ordering sets up, in its wak
   <body>
     <div class="main">
       <header class="banner" role="banner">
-        <div class="banner__nav">
-          <nav>
-            <div>
-              <a href="/" class="banner__nav-item">About</a>
-              <a href="/notes" class="banner__nav-item">Notes</a>
-              <a href="/essays" class="banner__nav-item">Essays</a>
-              <a href="/adventures" class="banner__nav-item">Newsletter</a>
-              <a href="/feed.xml" class="banner__nav-item">RSS feed</a>
+        <nav class="banner__nav">
+          <div class="banner__nav-items">
+            <a href="/" class="banner__nav-item">About</a>
+            <a href="/notes" class="banner__nav-item">Notes</a>
+            <a href="/essays" class="banner__nav-item">Essays</a>
+            <a href="/adventures" class="banner__nav-item">Newsletter</a>
+            <a href="/feed.xml" class="banner__nav-item">RSS feed</a>
+          </div>
+          {# <form class="toggle-theme">
+            <div class="theme-group">
+              <label for="light" class="toggle-label toggle-label-light">
+                <span>Light</span>
+                <input name="theme" class="toggle-btn" id="light" type="radio" value="light">
+              </label>
             </div>
-            <div>
-              <form class="toggle-theme">
-                <div>
-                  <label for="light" class="toggle-label toggle-label-light">
-                    <span>Light</span>
-                    <input name="theme" class="toggle-btn" id="light" type="radio" value="light">
-                  </label>
-                </div>
-                <div>
-                  <label for="dark" class="toggle-label toggle-label-dark">
-                    <span>Dark</span>
-                    <input class="toggle-btn" name="theme" id="dark" type="radio" value="dark">
-                  </label>
-                </div>
-              </form>
+            <div class="theme-group">
+              <label for="dark" class="toggle-label toggle-label-dark">
+                <span>Dark</span>
+                <input class="toggle-btn" name="theme" id="dark" type="radio" value="dark">
+              </label>
             </div>
-          </nav>
-        </div>
+          </form> #}
+        </nav>
       </header>
       <main>

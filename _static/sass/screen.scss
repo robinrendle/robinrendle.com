@@ -342,7 +342,7 @@ a:focus {
 
 .home-header h1 {
   @include media(">medium") {
-    line-height: 1 !important;
+    line-height: 1.1 !important;
   }
 
   @include media(">largest") {
@@ -350,7 +350,7 @@ a:focus {
   }
 }
 
-.home-header span {
+.home-header span:not(#demo) {
   display: block;
   color: var(--heading-color);
 }
@@ -438,5 +438,6 @@ iframe {
 .toggle-btn {
   position: absolute;
 	opacity: 0;
-	width: 0;	
+  width: 0;	
+  display: none;
 }

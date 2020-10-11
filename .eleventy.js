@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("essays", "layouts/essays.html");
   eleventyConfig.addLayoutAlias("default", "layouts/default.html");
   eleventyConfig.addLayoutAlias("home", "layouts/home.html");
+  eleventyConfig.addLayoutAlias("vote", "layouts/vote.html");
   eleventyConfig.addLayoutAlias("adventures", "layouts/adventures.html");
   eleventyConfig.addLayoutAlias("adventure", "layouts/adventure.html");
   eleventyConfig.addLayoutAlias("projects", "layouts/projects.html");
