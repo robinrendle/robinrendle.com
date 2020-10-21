@@ -5,9 +5,9 @@ city: San Francisco
 country: California
 extract: And why do I always have to be the hero?
 ---
-When a design crit goes south, it’s almost impossible to take all that brutal feedback and focus on course correction; going back to the interface or limp away and reassess my approach to the problem. Instead, when I get feedback what I just received, I sorta just want to mope around my apartment all day long or walk into the ocean.
+When a design crit goes south, it’s almost impossible to take all that brutal feedback and focus on course correction; going back to the interface, reviewing ten thousand comments, limping away and reassessing my approach to the problem. Instead, when I get feedback like I received earlier today, I sorta just want to mope around my apartment all day long or walk into the ocean.
 
-If you want praise then being a designer is not the job for you. Because in order to do that work well you constantly have to take feedback from  a network of people and then you have to ignore some things, focus on what hurts, and then get right back to work. And if you’re not getting feedback that hurts? If you’re constantly getting high fives all the time? Either you’re the best designer who’s ever lived or you’re working in [a toxic workplace](https://www.robinrendle.com/notes/signs-of-a-toxic-workplace.html).
+If you want praise then being a designer is not the job for you. Because in order to do that work well you constantly have to take feedback from  a network of people and then you have to ignore some things, ignore what hurts, and then get right back to it. And if you’re not getting feedback that hurts? Or what if you’re constantly getting high fives all the time? Well, either you’re the greatest designer who’s ever walked the earth or you’re working in [a toxic workplace](https://www.robinrendle.com/notes/signs-of-a-toxic-workplace.html).
 
 My point is: when someone says “hey, this design doesn’t make sense” it’s so very difficult for that not spiral into “wow, I’m a terrible person huh!”
 
@@ -15,6 +15,6 @@ I mean, feedback is *always* personal, it’s never just about the work. When so
 
 But I know all this already, so why do design crits still hurt?
 
-Is it my ego? Am I always so desperate for praise and for being the hero to every problem? Am I a bad designer and should I quit the field altogether? 
+Is it my ego? Am I always so desperate for praise and for being the hero in every situation? Am I a bad designer and should I quit the field altogether? 
 
 Or should I just get back to work?
