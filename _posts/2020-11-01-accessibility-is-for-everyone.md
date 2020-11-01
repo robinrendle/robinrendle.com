@@ -3,7 +3,7 @@ title: Accessibility is for Everyone
 date: 2020-11-01T18:52:09.831Z
 city: San Francisco
 country: California
-extract: "And how accessibility options are for us all. "
+extract: And my beautiful horse, Sebastian.
 ---
 One thing I’ve noticed in video games this past year is the huge improvement they’ve made when it comes to accessibility. Crack open [_The Last of Us: Part II_](https://www.polygon.com/2020/7/2/21310396/last-of-us-2-accessibility-vision-difficulty-gameplay-opinions) or _Watch Dogs: Legion_ or [_Gears 5_](https://www.polygon.com/2019/9/25/20879919/gears-5-accessibility-deaf-hard-of-hearing-legally-blind-options) and they’ll begin with a series of accessibility options that can be tweaked and improved for you and your body. These options have never been so prominent in so many games before. 
 
