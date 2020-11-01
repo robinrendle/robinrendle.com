@@ -4,6 +4,7 @@
 
 .banner {
   background-color: var(--banner-bg-color);
+  overflow: hidden;
 
   @include media(">large") {
     margin: 0 -10px;
@@ -17,7 +18,7 @@
   @include typeface("Small caps");
   display: flex;
   margin: 0 10px;
-  overflow: scroll;
+  overflow: hidden;
 
   @include media(">largest") {
     margin: 0 auto;
@@ -29,6 +30,7 @@
 .banner__nav-items {
   flex-shrink: 0;
   display: flex;
+  overflow: scroll;
 }
 
 .toggle-theme {
