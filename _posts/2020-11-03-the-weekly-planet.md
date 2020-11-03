@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: A newsletter by Robinson Meyer.
 ---
-Robinson Meyer just started a newsletter about the environment called [_The Weekly Planet_](https://www.theatlantic.com/newsletters/sign-up/weekly-planet/) that I’m pretty excited about. Rob is on the climate crisis beat for _The Atlantic_ and he writes: 
+Robinson Meyer just started a newsletter about the environment called [_The Weekly Planet_](https://www.theatlantic.com/newsletters/sign-up/weekly-planet/) that I’m pretty excited about. He’s on the climate crisis beat for _The Atlantic_, where he writes: 
 
 > Many readers, as well as some of my own colleagues, think it’s a depressing job. But in the past few years, I’ve become convinced that this story—the effort to understand climate change, to live with it, and to fight it—is the most thrilling tale of our time.
 
