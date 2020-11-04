@@ -33,7 +33,9 @@ The most damning problems here are technical; it’s difficult to read and it’
 
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
-There’s no dance, no swagger. There’s nothing playful or insightful here and it functions as most writing does today: simply fulfilling a word count.
+There’s no dance, no swagger to it. It’s like walking through a swamp of porridge in the dark. There’s nothing to play with, nothing insightful or childlike, and so it functions as most writing does today: simply fulfilling a word count.
+
+But writing can be so much more than this. Every sentence can be as playful as the flairs in a type designer’s serifs, as straight-forward and focused as the great marble chunks they cut out of each letter.
 
 Now I know I’m being quite mean when I point to this one sentence over and over again but I’ve noticed this style of writing bleed into almost every subject. The very worst kind of writing is this academic style (followed shortly thereafter by the writing found on art museum placards). 
 
