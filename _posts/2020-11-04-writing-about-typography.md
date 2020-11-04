@@ -15,7 +15,7 @@ Students at the Plantin Institute of Typography in Antwerp documented their rese
 
 ![An example of the flourished capitals](/uploads/decorative.jpg)
 
-There’s almost too much to love with this project. For one, the students all worked towards building a single typographic system which I’ve never heard of before. From what I understand, most type courses  work like most courses of every field: students are effectively in competition with one another, working on their own projects. This seems like a much healthier way to foster collaboration.
+Here’s another punk rock thing: the students all worked towards building a single typographic system. From what I understand, most type courses work like courses of every field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration.
 
 Also the website is fantastic and the fact that they’re treating this course like a publishing project is _fascinating_ to me.  But wait—what’s a revival again? Well, the website notes:
 
