@@ -21,7 +21,7 @@ Also the website is fantastic and the fact that they’re treating this course l
 
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
-Ugh. What does any of this mean? The words make sense but it’s written in a style that’s familiar to anyone that reads about the field of typography. It’s what’s known to folks outside the field as bad writing—waffling, unclear, and academic. The word “nevertheless” is a good sign that a paragraph needs to be ejected into the Sun and the whole piece requires a rewrite.
+Ugh. This is where things begin to sour; what does any of this mean? The words make sense but it’s written in a style that’s familiar to anyone that reads about the field of typography. It’s what’s known to folks outside the field as “academic writing” or “bad writing”—waffling and unclear. In my experience, the word “nevertheless” is a good sign that a paragraph needs to be ejected into the Sun and the whole piece requires a rewrite. As much as that might hurt.
 
 Read this sentence again though because I think it’s extremely important if we want to become good writers, regardless of the field: 
  
