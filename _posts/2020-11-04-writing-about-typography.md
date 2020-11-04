@@ -7,7 +7,7 @@ extract: Abandon the academic style.
 ---
 Students at the Plantin Institute of Typography in Antwerp documented their research of the 18th-century Belgian punchcutter Jacques-François Rosart and turned it into a fabulous website called [The Rosart Project](https://www.rosart.nl//). But what’s so interesting here is that the research was treated as a network of publishing projects. 
 
-First up, students photographed Rosart’s dazzling punches from the North Holland Archives in Haarlem:
+First up, the team photographed Rosart’s dazzling punches from the North Holland Archives in Haarlem:
 
 ![A photograph by Walda Verbaenen of Rosart’s punches](/uploads/rosart-punches.png)
 
@@ -17,15 +17,15 @@ First up, students photographed Rosart’s dazzling punches from the North Holla
 
 ![An example of the flourished capitals](/uploads/decorative.jpg)
 
-Here’s another punk rock thing: the students all worked towards building a single typographic system. From what I understand, most type courses work like courses of every field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration.
+Here’s another punk rock thing: the students all worked towards building this typographic system. This is odd because most type courses work like courses of any field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration.
 
 Also the website is fantastic and the fact that they’re treating this course like a publishing project is _fascinating_ to me.  But wait—what’s a revival again? Well, the website notes:
 
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
-Ugh. This is where things begin to sour; what does any of this mean? The words make sense but it’s written in a style that’s familiar to anyone that reads about the field of typography. It’s what’s known to folks outside the field as “academic writing” or “bad writing”—waffling and unclear. In my experience, the word “nevertheless” is a good sign that a paragraph needs to be ejected into the Sun and the whole piece requires a rewrite. As much as that might hurt.
+Ugh. This is where things begin to sour for me; what does any of this mean? The words make sense but it’s written in a style that’s familiar to anyone that reads about the field of typography. It’s what’s known to folks outside the field as “academic writing” but it’s what I consider to simply be bad writing—it’s waffling and unclear. In my experience, the word “nevertheless” is a good sign that a paragraph needs to be ejected into the Sun and the whole piece desperately requires a rewrite. As much as that might hurt.
 
-Read this sentence again though because I think it’s extremely important if we want to become good writers, regardless of the field: 
+Read this sentence again though because I think it’s extremely important if we want to become good writers, regardless of the field in which we write: 
  
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
@@ -35,7 +35,7 @@ The most damning problems here are technical; it’s difficult to read and it’
 
 There’s no dance, no swagger. There’s nothing playful or insightful here and it functions as most writing does today: simply fulfilling a word count.
 
-Now I know I’m being quite mean when I point to this one sentence over and over again but I’ve noticed this style of writing bleed into almost every subject. The very worst kind of writing is this academic style (followed shortly thereafter by the writing found on museum placards). 
+Now I know I’m being quite mean when I point to this one sentence over and over again but I’ve noticed this style of writing bleed into almost every subject. The very worst kind of writing is this academic style (followed shortly thereafter by the writing found on art museum placards). 
 
 Okay, so we get it. The words ain’t good. How do we fix them? How do we avoid falling into the trap of this style? Well, let’s attempt a rewrite: 
 
@@ -47,7 +47,7 @@ It’s not great, but it’s certainly better. There’s not much dance or swagg
 
 It sounds like a person is writing.
 
-I think this is the most frustrating thing about being interested in the field of typography. The art is beautiful but the description of the art pales in comparison to it. And whenever I read almost anything about typography I find myself nodding off, getting frustrated, and reminded of Orwell’s [_Politics and the English Language_](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/), an essay where Orwell grabs us all by the lapel and begs us to bring more to our keyboards:
+I think this is the most frustrating thing about being interested in the field of typography. The art is beautiful but the description of the art pales in comparison to it. And whenever I read almost anything about typography I find myself nodding off, getting frustrated, or reminded of Orwell’s [_Politics and the English Language_](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/), an essay where Orwell grabs us all by the lapel and begs us to bring more to our keyboards:
 
 > In certain kinds of writing, particularly in art criticism and literary criticism, it is normal to come across long passages which are almost completely lacking in meaning[2]. Words like _romantic, plastic, values, human, dead, sentimental, natural, vitality,_ as used in art criticism, are strictly meaningless, in the sense that they not only do not point to any discoverable object, but are hardly even expected to do so by the reader. When one critic writes, ‘The outstanding feature of Mr. X’s work is its living quality’, while another writes, ‘The immediately striking thing about Mr. X’s work is its peculiar deadness’, the reader accepts this as a simple difference opinion. If words like _black_ and _white_ were involved, instead of the jargon words dead and living, he would see at once that language was being used in an improper way.
 
