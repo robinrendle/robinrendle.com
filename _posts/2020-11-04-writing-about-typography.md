@@ -51,7 +51,7 @@ I think this is the most frustrating thing about being interested in the field o
 
 > In certain kinds of writing, particularly in art criticism and literary criticism, it is normal to come across long passages which are almost completely lacking in meaning. Words like _romantic, plastic, values, human, dead, sentimental, natural, vitality,_ as used in art criticism, are strictly meaningless, in the sense that they not only do not point to any discoverable object, but are hardly even expected to do so by the reader. When one critic writes, ‘The outstanding feature of Mr. X’s work is its living quality’, while another writes, ‘The immediately striking thing about Mr. X’s work is its peculiar deadness’, the reader accepts this as a simple difference opinion. If words like _black_ and _white_ were involved, instead of the jargon words dead and living, he would see at once that language was being used in an improper way.
 
-I want to underline how much I adore The Rosart Project and I only criticize it because I want to see the whole typographic community break the shackles of this style of writing. And so here is my advice for type designers: write to swoon, to convince, to make a stranger fall in love. Abandon the academic style. Because it’s making your beautiful work so very boring.
+I want to underline how much I adore The Rosart Project and I only criticize it because I want to see the whole typographic community break the shackles of this style of writing. And so here is my advice for type designers, if I might be so bold: write to swoon, to convince, to make a stranger fall in love. Abandon the academic style. Because it’s making your beautiful work so very boring.
 
 
 
