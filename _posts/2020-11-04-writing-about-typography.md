@@ -33,19 +33,19 @@ The most damning problems here are technical; it’s difficult to read and it’
 
 There’s no dance, no swagger. There’s nothing playful or insightful here and it functions as most writing does today: simply fulfilling a word count.
 
-Now I know I’m being mean here but I’ve noticed this style of writing bleed into everything from everywhere. The very worst kind of writing is this academic style and then followed shortly after it is the writing found on museum placards. 
+Now I know I’m being quite mean when I point to this one sentence over and over again but I’ve noticed this style of writing bleed into almost every subject. The very worst kind of writing is this academic style (followed shortly thereafter by the writing found on museum placards). 
 
-Okay, so we get it. The problem is with the words. How do we fix it? How do we avoid falling into the trap of this style?
+Okay, so we get it. The words ain’t good. How do we fix them? How do we avoid falling into the trap of this style? Well, let’s attempt a rewrite: 
 
-Well, let’s attempt a rewrite: 
+> Type designers will often look at letterforms that were made in the past and then redraw them for modern day use. This is called a “revival” by the type community but I like to think of it as a remix: a type designer will unavoidably apply their own style and harmonies, their own deviations and melodies to the song. 
+> 
+> Every remix is different, every remix is important. 
 
-> Type designers will often look at letterforms that were made in the past and then redraw them for modern day use. This is called a revival by the community but I like to think of it as a remix: a type designer will unavoidably apply their own style and harmonies and deviations to the song. Every remix is important, every remix is different. 
+It’s not great, but it’s certainly better. There’s not much dance or swagger to it and it’s not High Literature but dammit I can now read the thing and I don’t have to, parse, the, thoughts, with, so, many, commas. It feels like the writing has a point of view, with something reasonable to say. It feels like I’m talking to an excitable friend.
 
-It’s not great, but it’s certainly better. There’s not much dance or swagger to it and it’s not High Poetry, but dammit I can now read the thing and I don’t have to, parse, the, thoughts, with, so, many, commas. It feels like the writing has a point of view, with something reasonable to say. 
+It sounds like a person is writing.
 
-It sounds like a person is writing to me.
-
-I think this is the most frustrating thing about being interested in typography though. So much of the writing reminds me of Orwell’s [_Politics and the English Language_](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/):
+I think this is the most frustrating thing about being interested in the field of typography So much of the writing reminds me of Orwell’s [_Politics and the English Language_](https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/):
 
 > In certain kinds of writing, particularly in art criticism and literary criticism, it is normal to come across long passages which are almost completely lacking in meaning[2]. Words like _romantic, plastic, values, human, dead, sentimental, natural, vitality,_ as used in art criticism, are strictly meaningless, in the sense that they not only do not point to any discoverable object, but are hardly even expected to do so by the reader. When one critic writes, ‘The outstanding feature of Mr. X’s work is its living quality’, while another writes, ‘The immediately striking thing about Mr. X’s work is its peculiar deadness’, the reader accepts this as a simple difference opinion. If words like _black_ and _white_ were involved, instead of the jargon words dead and living, he would see at once that language was being used in an improper way.
 
