@@ -27,7 +27,7 @@ Read this sentence again though because I think it’s extremely important if we
  
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
-The most damning problems here are technical; it’s difficult to read and it’s unclear. But worse again it’s _boring_. Look at the photographs of Rosart’s work, the book, the type design. Look at the design of the website and how gobsmacking it all is together and then read that sentence one more time:
+The most damning problems here are technical; it’s difficult to read and it’s unclear. But worse again it’s _boring_. Look at the photographs of Rosart’s punches, or the book, or the design of any of those fonts. Look at the visual design of the website and how gobsmacking it all is packaged together and then read that sentence one more time:
 
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
