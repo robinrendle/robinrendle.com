@@ -37,9 +37,10 @@
 }
 
 .toggle-theme {
-  grid-column: 5/13;
+  @include media(">medium") {
+    grid-column: 5/13;
+  }
   justify-self: end;
-  min-width: 150px;
 }
 
 .toggle-item {
