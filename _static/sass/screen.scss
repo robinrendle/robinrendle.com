@@ -375,8 +375,12 @@ iframe {
 
 
 .toggle-theme {
-  display: flex;
-  align-items: center;
+  display: none;
+
+  @include media(">medium") {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .toggle-label {

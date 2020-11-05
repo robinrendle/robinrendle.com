@@ -6,7 +6,7 @@
 @mixin typeface($font) {
   $sans-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
     "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-sans;
 
   $serif-fallback: Georgia, serif;
 
@@ -14,23 +14,23 @@
     font-weight: normal;
     font-variant: small-caps;
     text-transform: lowercase;
-    font-family: "Greta", $serif-fallback;
+    font-family: "Greta", $sans-fallback;
   }
 
   @if $font == "Regular" {
     font-weight: 400;
-    font-family: "Greta", $serif-fallback;
+    font-family: "Greta", $sans-fallback;
   }
 
   @if $font == "Regular italic" {
     font-style: normal;
     font-weight: 400;
-    font-family: "Greta", $serif-fallback;
+    font-family: "Greta", $sans-fallback;
   }
 
   @if $font == "Bold" {
     font-weight: 400;
-    font-family: "Greta", $serif-fallback;
+    font-family: "Greta", $sans-fallback;
   }
 
   @if $font == "Display" {

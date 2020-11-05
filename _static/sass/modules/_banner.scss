@@ -14,14 +14,15 @@
 .banner__nav {
   @include remCalc(font-size, 17);
   @include typeface("Small caps");
-  padding: 0 10px;
-  display: flex;
-  margin: 0 10px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
   overflow: scroll;
 
   @include media(">large") {
     margin: 0 auto;
-    justify-content: space-between;
+    padding: 0 30px;
   }
 
   @include media(">largest") {
@@ -31,13 +32,14 @@
 }
 
 .banner__nav-items {
-  flex-shrink: 0;
-  display: flex;
-  overflow: scroll;
+  display: grid; 
+  grid-template-columns: repeat(4, auto);
 }
 
 .toggle-theme {
-  flex-shrink: 0;
+  grid-column: 5/13;
+  justify-self: end;
+  min-width: 150px;
 }
 
 .toggle-item {
@@ -68,6 +70,7 @@
   transition: background 0.3s ease;
   margin-right: 25px;
   transition: color 0.3s ease;
+  display: inline-block;
 
   &:after {
     content: "•";
