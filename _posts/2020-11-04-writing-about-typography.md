@@ -13,7 +13,7 @@ First up, the team photographed Rosart’s dazzling punches from the North Holla
 
 <small>Photos by Walda Verbaenen</small>
 
-...and then they wrote a nifty book about the process! But not only that, the team then created revivals of Rosart’s letters, creating a number of lovely fonts. Especially the flourished capitals here:
+...and then they wrote a nifty book about their research. But not only that, the team then made revivals (or remixes) of Rosart’s letters, creating a number of lovely fonts in the process. Especially these flourished capitals below:
 
 ![An example of the flourished capitals](/uploads/decorative.jpg)
 
