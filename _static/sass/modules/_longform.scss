@@ -36,8 +36,8 @@
   ol,
   p,
   ul {
-    @include remCalc(font-size, 18);
-    line-height: 1.15;
+    @include remCalc(font-size, 19);
+    line-height: 1.34;
     -webkit-hyphens: auto;
     -webkit-hyphenate-limit-after: 2;
     -webkit-hyphenate-limit-before: 3;

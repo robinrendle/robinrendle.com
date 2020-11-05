@@ -12,7 +12,7 @@
 }
 
 .banner__nav {
-  @include remCalc(font-size, 19);
+  @include remCalc(font-size, 17);
   @include typeface("Small caps");
   padding: 0 10px;
   display: flex;
@@ -25,6 +25,7 @@
   }
 
   @include media(">largest") {
+    @include remCalc(font-size, 19);
     max-width: 1200px;
   }
 }
