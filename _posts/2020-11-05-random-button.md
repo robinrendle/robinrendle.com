@@ -12,3 +12,5 @@ I also added a random link button to the bottom of a post. It’s partly inspire
 Still no luck on fixing the iOS/Safari flexbox `overflow: scroll` bug on mobile. I looked into it a bit and it absolutely _must_ be a bug at this point, so I should probably file a ticket. Basically on mobile there’s an annoying horizontal scroll which is caused because of the header. But! The header has `overflow: scroll` applied to it and other browsers respect my CSS, as they darn well should. It’s so very rare for me to encounter browser bugs like this anymore so it’s both annoyin’ and suprisin’.
 
 Finally, I tidied up the fonts. I’m now using [Greta Sans](https://www.typotheque.com/fonts/greta_sans) by Typotheque. It has a bit more of a formal feel but I much prefer reading it on smaller screens now. Oh, that reminds me — I also improved the light theme of the site which had been bugging me for a bit. 
+
+Yay for anxiety!
