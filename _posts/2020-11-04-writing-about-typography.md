@@ -9,7 +9,11 @@ Students at the Plantin Institute of Typography in Antwerp documented their rese
 
 First up, the team photographed Rosart’s dazzling punches from the North Holland Archives in Haarlem:
 
-![A photograph by Walda Verbaenen of Rosart’s punches](/uploads/rosart-punches.png)
+<div class="m-wrapper--full">
+  <figure class="m-wrapper--unpadded">
+    <img src='/uploads/rosart-punches.png' alt='A photograph by Walda Verbaenen of Rosart’s punches'>
+  </figure>
+</div>
 
 <small>Photos by Walda Verbaenen</small>
 
