@@ -17,11 +17,11 @@ First up, the team photographed Rosart’s dazzling punches from the North Holla
 
 ![An example of the flourished capitals](/uploads/decorative.jpg)
 
-Besides the course-as-publishing-project, here’s another punk rock thing: the students all worked towards building this typographic system. This is odd because most type courses work like courses of any field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration and to create a more beautiful, complete thing.
+Besides the course-as-publishing-project, here’s another punk rock thing: the students all worked towards building this typographic system together. This is odd because most type courses work like courses of any field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration and to create a more beautiful, complete thing.
 
-Also? The website is fantastic and the fact that they’re treating this whole course like a publishing project is _fascinating_ to me; it’s how all courses should be run. 
+Also? The website is fantastic and did I mention that this whole publishing platform thing is _fascinating_ to me? It’s how all courses should be run. Students working towards a single goal, making things together, and then publishing all that work to the outside world. 
 
-But, there was a moment in reading the website where I started to feel the familiar hmmmmmmm of typography writing. It’s the part where the website describes what a type design revival is:
+But there was a moment in reading about all this where I started to feel the familiar oof of typography writing. It’s the part where the website describes what a type design revival is:
 
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
