@@ -22,6 +22,10 @@
     {{ content |safe }}
 
     <a class="link-email" href="mailto:robinjrendle@gmail.com?subject={{title}}">Reply via email</a>
+
+    {% set randomPost = collections.blogposts | getRandom %}
+
+    <a class="link-email" href="{{randomPost.url}}">Random post</a>
   </div>
 </div>
 

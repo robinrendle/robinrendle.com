@@ -6,7 +6,7 @@ $c-text: #999;
 $c-offwhite: lighten($c-text, 10);
 
 :root {
-  --theme-light: #e95555;
+  --theme-light: #2754bd;
   --theme-light-accent: #efefef;
   --theme-dark: #ffc227;
   --theme-dark-accent: #111;
@@ -22,7 +22,7 @@ $c-offwhite: lighten($c-text, 10);
 
   --main-theme-color: var(--theme-light);
   --link-color: var(--main-text-color);
-  --link-hover-color: #d95555;
+  --link-hover-color: #2754bd;
   --link-underline: #444;
 
   --card-bg: #e9e9e9;

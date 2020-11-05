@@ -25,7 +25,7 @@
   }
 
   @include media(">largest") {
-    @include remCalc(font-size, 19);
+    @include remCalc(font-size, 18);
     max-width: 1200px;
   }
 }

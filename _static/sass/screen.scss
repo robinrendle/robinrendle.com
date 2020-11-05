@@ -308,7 +308,7 @@ a:focus {
   position: relative;
   background-color: var(--form-bg-color);
   display: inline-block;
-  padding: 3px 8px;
+  padding: 3px 5px;
   color: var(--secondary-text-color);
   border-radius: 3px;
   transition: all .3s ease;
@@ -444,11 +444,12 @@ iframe {
 }
 
 .link-email {
-  padding: 10px 15px;
+  padding: 7px 15px;
   border-radius: 4px;
   background-color: var(--html-bg-color);
   border: 1px solid var(--card-border);
   text-decoration: none !important;
   margin-top: 30px;
   display: inline-block;
+  margin-right: 5px;
 }

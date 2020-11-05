@@ -64,6 +64,11 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   })
 
+  eleventyConfig.addFilter("getRandom", function (items) {
+    let selected = items[Math.floor(Math.random() * items.length)];
+    return selected;
+  });
+
   ////////////////////////
   // Collections
   ////////////////////////
