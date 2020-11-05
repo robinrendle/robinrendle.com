@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: Abandon the academic style.
 ---
-Students at the Plantin Institute of Typography in Antwerp documented their research of the 18th-century Belgian punchcutter Jacques-François Rosart and turned it into a fabulous website called [The Rosart Project](https://www.rosart.nl//). But what’s so interesting here is that the research was treated as a network of publishing projects. 
+Students at the Plantin Institute of Typography in Antwerp documented their research of the 18th-century Belgian punchcutter Jacques-François Rosart and turned it into a fabulous website called [The Rosart Project](https://www.rosart.nl//). But what’s so interesting here is that the research was treated as a network of publishing projects; an archive, a book, a typefamily, a website. 
 
 First up, the team photographed Rosart’s dazzling punches from the North Holland Archives in Haarlem:
 
