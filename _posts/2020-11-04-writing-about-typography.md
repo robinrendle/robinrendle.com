@@ -19,7 +19,11 @@ First up, the team photographed Rosart’s dazzling punches from the North Holla
 
 ...and then they wrote a nifty book about their research. But not only that, the team then made revivals (or remixes) of Rosart’s letters, creating a number of lovely fonts in the process. Especially these flourished capitals below:
 
-![An example of the flourished capitals](/uploads/decorative.jpg)
+<div class="m-wrapper--full">
+  <figure class="m-wrapper--unpadded">
+    <img src='/uploads/decorative.jpg' alt='An example of the flourished capitals from The Rosart Project'>
+  </figure>
+</div>
 
 Besides the course-as-publishing-project, here’s another punk rock thing: the students all worked towards building this typographic system together. This is odd because most type courses work like courses of any field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration and to create a more beautiful, complete thing.
 
