@@ -13,17 +13,19 @@ First up, the team photographed Rosart’s dazzling punches from the North Holla
 
 <small>Photos by Walda Verbaenen</small>
 
-...and in the process they wrote a nifty book about the process! But not only that, the team then created revivals of Rosart’s letters, creating a number of lovely fonts. Especially the flourished capitals:
+...and then they wrote a nifty book about the process! But not only that, the team then created revivals of Rosart’s letters, creating a number of lovely fonts. Especially the flourished capitals here:
 
 ![An example of the flourished capitals](/uploads/decorative.jpg)
 
-Here’s another punk rock thing: the students all worked towards building this typographic system. This is odd because most type courses work like courses of any field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration.
+Besides the course-as-publishing-project, here’s another punk rock thing: the students all worked towards building this typographic system. This is odd because most type courses work like courses of any field: students are effectively in competition with one another, working on their own projects. But this seems like a much healthier way to foster collaboration and to create a more beautiful, complete thing.
 
-Also the website is fantastic and the fact that they’re treating this course like a publishing project is _fascinating_ to me.  But wait—what’s a revival again? Well, the website notes:
+Also? The website is fantastic and the fact that they’re treating this whole course like a publishing project is _fascinating_ to me; it’s how all courses should be run. 
+
+But, there was a moment in reading the website where I started to feel the familiar hmmmmmmm of typography writing. It’s the part where the website describes what a type design revival is:
 
 > A revival is based on historical models, made suitable for contemporary use, adapted to the typographical and technical needs of today, but nevertheless relies on a personal response to the historical style.
 
-Ugh. This is where things begin to sour for me; what does any of this mean? The words make sense but it’s written in a style that’s familiar to anyone that reads about the field of typography. It’s what’s known to folks outside the field as “academic writing” but it’s what I consider to simply be bad writing—it’s waffling and unclear. In my experience, the word “nevertheless” is a good sign that a paragraph needs to be ejected into the Sun and the whole piece desperately requires a rewrite. As much as that might hurt.
+This is where things began to sour for me because—ugh—what does any of this mean? The words make sense but it’s written in a style that’s familiar to anyone that reads about the field of typography. It’s what’s known to folks outside the field as “academic writing” but it’s what I consider to simply be bad writing—it’s waffling and unclear. In my experience, the word “nevertheless” is a good sign that a paragraph needs to be ejected into the Sun and the whole piece desperately requires a rewrite. As much as that might hurt.
 
 Read this sentence again though because I think it’s extremely important if we want to become good writers, regardless of the field in which we write: 
  
