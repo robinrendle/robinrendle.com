@@ -47,14 +47,14 @@ a.card-list {
 
 .card-list__title {
   @include typeface("Regular");
-  @include remCalc(font-size, 24);
+  @include remCalc(font-size, 20);
   color: var(--heading-color);
   line-height: 1.1;
   margin-top: 5px;
   margin-bottom: 2px;
   transition: color 0.3s ease;
   @include media(">large") {
-    @include remCalc(font-size, 24);
+    @include remCalc(font-size, 21);
   }
 }
 
@@ -65,7 +65,7 @@ a.card-list {
   transition: color 0.3s ease;
   color: var(--secondary-text-color);
   @include media(">large") {
-    @include remCalc(font-size, 22);
+    @include remCalc(font-size, 19);
     line-height: 1.3;
   }
 }

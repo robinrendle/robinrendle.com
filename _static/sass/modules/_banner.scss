@@ -12,17 +12,19 @@
 }
 
 .banner__nav {
-  padding: 0 10px;
-  max-width: 700px;
   @include remCalc(font-size, 19);
   @include typeface("Small caps");
+  padding: 0 10px;
   display: flex;
   margin: 0 10px;
-  overflow: hidden;
+  overflow: scroll;
 
-  @include media(">largest") {
+  @include media(">large") {
     margin: 0 auto;
     justify-content: space-between;
+  }
+
+  @include media(">largest") {
     max-width: 1200px;
   }
 }
@@ -68,7 +70,7 @@
 
   &:after {
     content: "•";
-    top: 22px;
+    top: 21px;
     pointer-events: none;
     position: absolute;
     right: -16px;

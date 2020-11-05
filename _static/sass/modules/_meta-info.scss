@@ -21,6 +21,7 @@
   float: left;
   margin: 0;
   font-feature-settings: "onum" 1;
+  font-variant-numeric: oldstyle-nums;
 
   &:after {
     content: "•";

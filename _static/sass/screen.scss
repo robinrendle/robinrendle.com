@@ -48,7 +48,7 @@ $breakpoints: (
 @import "modules/card-list";
 @import "modules/highlight";
 @import "modules/form";
-@import "../../fonts/aluminia/aluminia";
+@import "../../fonts/greta/greta";
 @import "../../fonts/ayer/ayer";
 
 section[role="main"] {
@@ -301,17 +301,18 @@ a:focus {
 }
 
 .tag {
+  font-variant: small-caps;
   margin-right: 13px;
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 17px;
   position: relative;
-  font-family: "Input Mono", monospace;
   background-color: var(--form-bg-color);
   display: inline-block;
   padding: 3px 8px;
   color: var(--secondary-text-color);
   border-radius: 3px;
   transition: all .3s ease;
+  cursor: pointer;
 }
 
 .tag:hover {
@@ -320,7 +321,7 @@ a:focus {
 }
 
 .tag--active {
-  background-color: var(--nav-color);
+  background-color: var(--main-theme-color);
   color: white;
 }
 
@@ -440,4 +441,14 @@ iframe {
 	opacity: 0;
   width: 0;	
   display: none;
+}
+
+.link-email {
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: var(--html-bg-color);
+  border: 1px solid var(--card-border);
+  text-decoration: none !important;
+  margin-top: 30px;
+  display: inline-block;
 }
