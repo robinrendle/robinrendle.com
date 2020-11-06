@@ -98,12 +98,13 @@ main {
 
 pre {
   overflow: auto;
-  background-color: #f1f1f1;
   white-space: pre;
+  background: var(--form-bg-color);
+  border-radius: 4px;
 }
 
 pre code {
+  background: var(--form-bg-color);
   padding: 20px;
-  background-color: transparent;
   display: block;
 }
