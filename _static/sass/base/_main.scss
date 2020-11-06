@@ -29,6 +29,7 @@ body {
   min-height: 100%;
   background-color: var(--body-bg-color);
   padding-bottom: 200px;
+  border-bottom: 10px solid var(--banner-bg-color);
 
   @include media(">large") {
     border-top: none;

@@ -466,4 +466,11 @@ html[color-mode="dark"] {
   margin-top: 30px;
   display: inline-block;
   margin-right: 5px;
+
+  &:hover, &:focus {
+    background: var(--main-theme-color);
+    border-color: var(--main-theme-color);
+    color: white !important;
+    transition: .2s all linear !important; 
+  }
 }
