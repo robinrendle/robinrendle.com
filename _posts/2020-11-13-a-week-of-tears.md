@@ -13,8 +13,8 @@ I’m certainly not shaming anyone who felt like celebrating—dear god, please 
 
 It’s taken 8 long years to build that organization across the country, state by state. And now we have to build on it.
 
-One thing that shocked me this year is that all my friends got involved; writing letters, sending text messages, making phone calls, getting people out to vote. This is what we need to keep up after January if we want to make forward progress, actual progressive momentum. 
+One thing that shocked me this year is that all my friends got involved; writing letters, sending text messages, making phone calls, getting people out to vote. This is what we need to keep up after January if we want to make forward progress, actual progressive momentum. Voting is not enough.
 
-So this weekend I’m going to be joining a text bank with [Fair Fight](https://fairfight.com) to help Georgia take back the Senate. It’s not saving the world or anything but I see it as an extremely small way to continue the momentum that we’ve all built up over the last year.
+So this weekend I’m going to be joining a text bank with [Fair Fight](https://fairfight.com) to help Georgia take back the Senate. It’s not saving the world or anything but I see it as an extremely small way to continue the momentum that we’ve all built up over the last year. Because progress is not made federally every four years, but locally every single day. 
 
-Because progress is not made federally every four years, but locally every single day. And it took me such a long time to see that. 
+And it took me such a long time to see that. 
