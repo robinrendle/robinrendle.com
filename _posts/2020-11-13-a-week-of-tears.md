@@ -1,5 +1,5 @@
 ---
-title: A Week of Tears
+title: Voting is Not Enough
 date: 2020-11-13T19:17:38.516Z
 city: San Francisco
 country: California
