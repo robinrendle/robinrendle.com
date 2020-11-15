@@ -32,10 +32,13 @@
 }
 
 .toggle-theme {
+  justify-self: end;
   @include media(">medium") {
     grid-column: 5/13;
   }
-  justify-self: end;
+  @include media(">large") {
+    margin-left: auto;
+  }
 }
 
 .toggle-item {
@@ -59,6 +62,7 @@
   height: 65px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .banner__nav-item {
