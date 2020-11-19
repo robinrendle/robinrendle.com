@@ -7,7 +7,7 @@ extract: Eddie Glaude’s excellent book about James Baldwin and who we really a
 ---
 I saw Eddie Glaude as all good things used to appear—in a flash, captured somewhere in a snippet of video in my timeline. I can’t remember how and when and where but I remember thinking “holy shit, I want to read something like this.” A quick scan later and I found _Begin Again_, a book written by Glaude earlier this year, before the election, about where we are and, more importantly, _who_ we are. 
 
-It is also a book about James Baldwin—one of greatest writers to have ever lived. Glaude takes a running hop, skip, and jump at Baldwin’s work. Which is so entirely fascinating because Baldwin’s feelings about America changed throughout the Civil Rights Movement and into the terrors of the Reagan administration. His notes were constantly in flux.
+It is also a book about James Baldwin—one of the greatest writers to have ever lived. Glaude takes a running hop, skip, and jump at Baldwin’s work. Which is so entirely fascinating because Baldwin’s feelings about America changed throughout the Civil Rights Movement and into the terrors of the Reagan administration. His notes were constantly in flux.
 
 But Baldwin was consistent on one front at least. Throughout all his interviews and essays and novels, he only asks us to look and see who we really are. Glaude writes:
 
