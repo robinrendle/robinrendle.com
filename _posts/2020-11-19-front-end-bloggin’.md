@@ -3,7 +3,7 @@ title: Front-end Bloggin’
 date: 2020-11-19T17:19:21.303Z
 city: San Francisco
 country: California
-extract: Some things I’ve written lately.
+extract: Some things I’ve written for CSS-Tricks lately.
 ---
 Over the past few weeks I’ve made a few notes about some front-end things.
 
