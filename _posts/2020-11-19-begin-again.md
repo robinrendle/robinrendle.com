@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: Eddie Glaude’s excellent book about James Baldwin and who we really are.
 ---
-I saw Eddie Glaude as all good things used to appear—in a flash, captured somewhere in a snippet of video in my timeline. I can’t remember how and when and where but I remember thinking “holy shit, I want to read something like this.” A quick scan later and I found _Begin Again_, a book written by Glaude earlier this year, before the election, about where we are and, more importantly, _who_ we are. 
+I saw Eddie Glaude as all good things used to appear—in a flash, captured somewhere in a snippet of video in my timeline. I can’t remember how and when and where but I remember thinking “holy shit, I want to read something like this.” A quick scan later and I found *Begin Again*, a book written by Glaude earlier this year, before the election, about where we are and, more importantly, *who* we are. 
 
 It is also a book about James Baldwin—one of the greatest writers to have ever lived. Glaude takes a running hop, skip, and jump at Baldwin’s work. Which is so entirely fascinating because Baldwin’s feelings about America changed throughout the Civil Rights Movement and into the terrors of the Reagan administration. His notes were constantly in flux.
 
@@ -21,7 +21,7 @@ We (white people) tell ourselves the lie in order to preserve our idea of Americ
 
 And all of America with us.
 
-I noticed this lie in England—any mention of India is strictly forbidden. We’ll happily talk all day long about the Vietnam War and the evils of the Soviet Union but when it comes to how the British Empire and India...no. You’re simply being disrespectful for bringing it up. In fact, I’ve always sensed this from British people that they should be _glad_ for the colonies. The implication is that we civilized them and they should be grateful.
+I noticed this lie in England—any mention of India is strictly forbidden. We’ll happily talk all day long about the Vietnam War and the evils of the Soviet Union but when it comes to how the British Empire and India...no. You’re simply being disrespectful for bringing it up. In fact, I’ve always sensed this from British people that they should be *glad* for the colonies. The implication is that we civilized them and they should be grateful.
 
 So many lies.
 
@@ -39,5 +39,4 @@ Like this part, which I hope to etch into my memory, where Baldwin wrote about t
 
 > Perhaps even more than the death itself, the manner of his death has forced me into a judgement concerning human life and human beings which I have always been reluctant to make....Incontestably, alas, most people are not, in action, worth very much; and yet, every human being is an unprecedented miracle. One tries to treat them as the miracles they are, while trying to protect oneself against the disasters they’ve become. 
 
-Glaude’s book is a celebration of Baldwin’s work and life, and a plead for white people like myself to confront the lie that is at the root of all our problems. And it’s the best dang book I’ve read all year.
-
+Glaude’s book is a celebration of Baldwin’s work and life, and a plea for white people like myself to confront the lie that is at the root of all our problems. And it’s the best dang book I’ve read all year.
