@@ -19,6 +19,13 @@
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1rem;
   overflow: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
 
   @include media(">large") {
     margin: 0 auto;
