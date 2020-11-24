@@ -11,7 +11,7 @@ On one of these long summer nights I stumbled upon SONOIO, a gloriously dark and
 
 The first computer I ever bought for myself, a white plastic shell MacBook, was and still is the most startling and beautiful little machine. It felt like a toy. And as soon as I opened it up I knew what it was designed to do and I suddenly understood what all computers really ask of us: remix absolutely everything. I’m talking about the purest joys of computers here when you take something beautiful or busted and then fine tune it or blow it up just because you can.
 
-Speaking of which, one evening in that delirium I was listening to SONOIO’s Houdini over and over again and it struck me that I could just make a music video. That was a thing you could just _do_. I had no idea how to do that of course, had never edited video together before in my life, but dangit I had all the chaos emeralds in front of me and an endless supply of Diet Coke. Who the hell was going to stop me?
+Speaking of which, one evening in that delirium I was listening to SONOIO’s Houdini over and over again and it struck me that I could just make a music video. That was a thing you could just _do_. I had no idea how of course, I’d never edited video together before in my life, but dangit I had all the chaos emeralds in front of me and an endless supply of Diet Coke. Who the hell was going to stop me?
 
 I began by downloading every recording that exists of Harry Houdini and I found archive after archive teeming with resources. This might’ve been the first evening I heard of The Internet Archive and I’m sure my eyes popped out of my head when I found it and started reading about The Presidio. Perhaps that evening was when the very first thought of San Francisco popped into my head.
 
