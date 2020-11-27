@@ -12,9 +12,9 @@
 }
 
 .banner__nav {
-  @include remCalc(font-size, 17);
+  @include remCalc(font-size, 20);
   @include typeface("Small caps");
-  padding: 0 20px;
+  padding: 0 10px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1rem;
@@ -33,7 +33,6 @@
   }
 
   @include media(">largest") {
-    @include remCalc(font-size, 18);
     max-width: 1200px;
   }
 }
@@ -66,10 +65,14 @@
 }
 
 .banner__nav-items {
-  height: 65px;
+  height: 55px;
   display: flex;
   align-items: center;
   width: 100%;
+
+  @include media(">large") {
+    height: 65px;
+  }
 }
 
 .banner__nav-item {
@@ -89,7 +92,7 @@
 
   &:after {
     content: "•";
-    top: 9px;
+    top: 7px;
     pointer-events: none;
     position: absolute;
     right: -16px;

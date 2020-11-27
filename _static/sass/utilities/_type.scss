@@ -14,27 +14,27 @@
     font-weight: normal;
     font-variant: small-caps;
     text-transform: lowercase;
-    font-family: "Greta", $sans-fallback;
+    font-family: "Nitti", $sans-fallback;
   }
 
   @if $font == "Regular" {
     font-weight: 400;
-    font-family: "Greta", $sans-fallback;
+    font-family: "Nitti", $sans-fallback;
   }
 
   @if $font == "Regular italic" {
-    font-style: normal;
+    font-style: italic;
     font-weight: 400;
-    font-family: "Greta", $sans-fallback;
+    font-family: "Nitti", $sans-fallback;
   }
 
   @if $font == "Bold" {
-    font-weight: 400;
-    font-family: "Greta", $sans-fallback;
+    font-weight: 600;
+    font-family: "Nitti", $sans-fallback;
   }
 
   @if $font == "Display" {
     font-weight: 600;
-    font-family: "Ayer", $sans-fallback;
+    font-family: "Nitti", $sans-fallback;
   }
 }

@@ -6,17 +6,15 @@
 h1 {
   &,
   .m-longform & {
-    @include remCalc(font-size, 48);
+    @include remCalc(font-size, 30);
     color: var(--heading-color);
     line-height: 1;
     margin-bottom: 20px;
     @include media(">medium") {
-      @include remCalc(font-size, 50);
-      line-height: 1.2;
+      @include remCalc(font-size, 43);
     }
     @include media(">large") {
-      line-height: 1.2;
-      @include remCalc(font-size, 60);
+      @include remCalc(font-size, 40);
     }
 
     .meta-info + & {

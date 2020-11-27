@@ -48,8 +48,7 @@ $breakpoints: (
 @import "modules/card-list";
 @import "modules/highlight";
 @import "modules/form";
-@import "../../fonts/greta/greta";
-@import "../../fonts/ayer/ayer";
+@import "../../fonts/nitti_test/nitti";
 
 section[role="main"] {
   min-height: 80vh;
@@ -292,6 +291,7 @@ a:focus {
   margin-bottom: 60px;
   @include media(">large") {
     margin-top: 10px;
+    @include remCalc(font-size, 45);
   }
 }
 
@@ -308,7 +308,8 @@ a:focus {
   position: relative;
   background-color: var(--form-bg-color);
   display: inline-block;
-  padding: 1px 5px;
+  padding: 1px 9px;
+  height: 26px;
   color: var(--secondary-text-color);
   border-radius: 3px;
   transition: all .3s ease;
@@ -343,11 +344,7 @@ a:focus {
 
 .home-header h1 {
   @include media(">medium") {
-    line-height: 1.1 !important;
-  }
-
-  @include media(">largest") {
-    font-size: 65px;
+    line-height: 0.9 !important;
   }
 }
 
@@ -393,6 +390,7 @@ html[color-mode="dark"] {
 
 
 .toggle-label {
+  font-size: 16px;
   display: block;
   transition: transform .3s ease;
 

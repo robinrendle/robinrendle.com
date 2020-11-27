@@ -6,28 +6,25 @@
 //
 
 .meta-info {
-  @include remCalc(font-size, 16);
+  @include remCalc(font-size, 18);
   @include clearfix();
   margin: 0;
 
   @include media(">medium") {
-    @include remCalc(font-size, 19);
+    @include remCalc(font-size, 20);
   }
 }
 
 .meta-info__item {
-  @include typeface("Small caps");
   color: var(--lighter-gray-color);
   float: left;
   margin: 0;
-  font-feature-settings: "onum" 1;
-  font-variant-numeric: oldstyle-nums;
 
   &:after {
     content: "•";
     display: inline-block;
     position: relative;
-    top: 2px;
+    top: 0px;
     margin-left: 5px;
     margin-right: 5px;
   }
