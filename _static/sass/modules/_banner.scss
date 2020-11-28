@@ -78,7 +78,7 @@
 .banner__nav-item {
   color: var(--nav-border);
   white-space: nowrap;
-  padding: 20px 10px;
+  padding: 14px 10px;
   position: relative;
   overflow: visible;
   text-decoration: none;
@@ -92,7 +92,7 @@
 
   &:after {
     content: "•";
-    top: 7px;
+    top: 1px;
     pointer-events: none;
     position: absolute;
     right: -16px;
