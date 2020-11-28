@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: A life, a story, a map.
 ---
-Via [Susan Jean Robertson](https://www.susanjeanrobertson.com/links/link-literary-life-octavia-butler/), here’s a lovely story about [Octavia Butler's life](https://www.latimes.com/projects/la-libraries-octavia-butler-books-life/). For the LA Times, Aida Ylanan and Casey Miller have made a particularly lovely story here by binding the map of Butler’s life with the format of the site itself. 
+Via [Susan Jean Robertson](https://www.susanjeanrobertson.com/links/link-literary-life-octavia-butler/), here’s a story about [Octavia Butler's life](https://www.latimes.com/projects/la-libraries-octavia-butler-books-life/) for the LA Times by Aida Ylanan and Casey Miller—they’ve made a particularly lovely story here by binding the map of Butler’s life with the format of the site itself. 
 
 It's all focused on a bird’s eye view of LA—as you scroll, the story jumps from one location in Butler’s life to the next with these tiny cards. But I sort of finished this story wanting so much more. This format has a ton of promise and I wanted to see it used in some other way, but it also left me wanting to read so much more about Butler’s life, too.
 
