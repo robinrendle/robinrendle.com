@@ -1,8 +1,8 @@
 ---
 title: "Ice Breaker "
 date: 2020-11-30T06:37:24.371Z
-city: San Francisco
-country: California
+city: Kilsyth
+country: Scotland
 extract: And all the music that must be set free.
 ---
 This was the job: sit in the tractor, break the ice, save the world. It was boredom beyond boredom, the sort of monotony that stretched out all day long, but each time Marlo climbed into his tractor, the world became safer by a smudge. 
