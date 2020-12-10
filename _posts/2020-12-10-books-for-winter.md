@@ -3,7 +3,7 @@ title: Books for Winter
 date: 2020-12-10T06:42:34.002Z
 city: San Francisco
 country: California
-extract: What are your favorite books to sit next to a fire with?
+extract: What is your favorite book to sit next to a fire with?
 ---
 I’m running out of books, and I need your help. It looks like I’ll be spending Christmas alone here in San Francisco and so I need copious _distractions_. 
 
