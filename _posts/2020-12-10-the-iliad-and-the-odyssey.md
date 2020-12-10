@@ -15,6 +15,6 @@ Even just _thinking_ about the great expanse of time between us and these storie
 
 My point here is that I find all of this beautiful, the idea that these poems just sort of coalesced over centuries. They were edited, rewritten, destroyed, burned, and banned. They were distorted, broken, added to, updated, expanded, uplifted, and _changed_.
 
-It is an absolute wonder that these stories still survive. But they also sort of...haven’t. What we read today are not the poems that were sung. We have invented our own _Iliads_ and _Odysseys_ and that’s why I find this book so thoroughly exciting. So those stories might be lost, but this new stories have been found.
+It is an absolute wonder that these stories still survive. But they also sort of...haven’t. What we read today are not the poems that were sung; we have invented our own _Iliads_ and _Odysseys_ and that’s why I find this book so thoroughly exciting. 
 
-And somehow, even after all this time, there are even more stories out there to find.
+Alberto argues that although those stories might be lost in translation and to the ravages of time, there are somehow, even after all these centuries, even more stories left to find within them. Stories within stories and translations within translations. Songs within songs.
