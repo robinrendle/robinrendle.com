@@ -3,7 +3,7 @@ title: Is Substack the Media Future We Want?
 date: 2020-12-29T00:34:23.296Z
 city: San Francisco
 country: California
-extract: Nah.
+extract: Yes and No.
 ---
 [Anna Wiener](https://www.newyorker.com/magazine/2021/01/04/is-substack-the-media-future-we-want):
 
