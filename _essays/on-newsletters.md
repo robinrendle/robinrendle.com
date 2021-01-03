@@ -394,16 +394,7 @@ extract: Is this progress?
       <p>I reckon this is the future we should be striving towards.</p>
     </div>
   </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A person walks into a storm" src="/uploads/essays/on-newsletters/40-pencroff-ran.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>I reckon this is the future we should be striving towards.</p>
-    </div>
-  </div>
-
+  
   <div class="slide slide-chapter">
     <div class="slide-text">
       <h2>Problem #2</h2>
@@ -598,6 +589,14 @@ extract: Is this progress?
     </div>
   </div>
 
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="" src="/uploads/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>Writers choose a newsletter service like Substack because the business model is straight forward. I just sort of wish this infrastructure was built into the writers’s websites themselves.</p>
+    </div>
+  </div>
 
 
 
