@@ -206,7 +206,7 @@ extract: Is this progress?
       <img alt="Two divers fight an enormous crab" src="/uploads/essays/on-newsletters/21-spider-crab.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But websites are treated as these embarrassing, ugly, ad-riddled things, whilst newsletters have established some kind of prestige for themselves somehow.</p>
+      <p>Yet websites are treated as these embarrassing, ugly, ad-riddled things, whilst newsletters have established some kind of prestige for themselves somehow.</p>
     </div>
   </div>
 
@@ -215,7 +215,7 @@ extract: Is this progress?
       <img alt="Nusretiye Mosque" src="/uploads/essays/on-newsletters/23-nusretiye-mosque.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Perhaps the web doesn’t have to be this ugly and embarrassing thing any more; perhaps the web can be made beautiful.</p>
+      <p>The web doesn’t have to be this ugly and embarrassing thing though; the web can be made beautiful.</p>
     </div>
   </div>
 
@@ -224,7 +224,7 @@ extract: Is this progress?
       <img alt="A table floats into the air" src="/uploads/essays/on-newsletters/24-table-slipped.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I’m saying this as someone who’s spent the better part of the last three years writing emails to strangers because I feel both liberated and yet also cursed by them. Newsletters are just inescapable if you want to be a writer today.</p>
+      <p>And I’m saying this as someone who’s spent the better part of the last three years writing emails to strangers—because I feel both liberated and yet also cursed by them. Newsletters are just&hellip;inescapable if you want to be a writer today.</p>
     </div>
   </div>
 
@@ -233,7 +233,7 @@ extract: Is this progress?
       <img alt="Skull and crossbones" src="/uploads/essays/on-newsletters/25-skull-crossbones.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But if websites are so great then why did everyone (including me) move to newsletters instead of making more websites? Why did blogs mostly die off? Well, there are ten million reasons, but only three I want to focus on&hellip;</p>
+      <p>But if websites are so great then why did everyone (including me) move to newsletters? Why did blogs die off? Well, there are ten million answers to that question, but only three I want to focus on&hellip;</p>
     </div>
   </div>
 
@@ -260,8 +260,8 @@ extract: Is this progress?
       <p>Alternatively, websites today&hellip;</p>
       <ol>
         <li>Are difficult to make.</li>
-        <li>Can’t notify people of new content.</li>
-        <li>Aren’t able to pay writers.</li>
+        <li>Can’t notify people of new stuff.</li>
+        <li>Aren’t able to pay writers easily.</li>
       </ol>
     </div>
   </div>
@@ -271,7 +271,7 @@ extract: Is this progress?
       <img alt="A handmade organ" src="/uploads/essays/on-newsletters/28-organ.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Also now because of newsletters, I look back on writing for the web as this clunky, annoying process in comparison; the machine sure is beautiful but it requires so much damn work to get singing.</p>
+      <p>These are the main problems today but now, because of newsletters, I look back on writing for the web as this clunky, annoying process in comparison. The machine sure is beautiful but it requires so much damn work to get singing.</p>
     </div>
   </div>
 
@@ -289,7 +289,7 @@ extract: Is this progress?
       <img alt="A beautiful landscape" src="/uploads/essays/on-newsletters/30-abbey-mussorie.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>&hellip;how do we make a web for everyone?</p>
+      <p>&hellip;how do we make the web for everyone?</p>
     </div>
   </div>
 
@@ -323,7 +323,7 @@ extract: Is this progress?
       <img alt="Demons gather in hell" src="/uploads/essays/on-newsletters/33-dreadful-din.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>You still need to learn <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr> to make a website. You still need to learn about hosting and domain names. You might even be forced to learn what the abbreviation  <abrr title="Content management system">CMS</abbr> stands for, and I simply refuse to curse you with that knowledge.</p>
+      <p>You still need to learn <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr> to make a website. You still need to learn about hosting and domain names. You might even be forced to learn what the abbreviation  <abbr title="Content management system">CMS</abbr> stands for, and I simply refuse to curse you with that knowledge.</p>
     </div>
   </div>
 
@@ -332,7 +332,7 @@ extract: Is this progress?
       <img alt="A gondola falls from the sky" src="/uploads/essays/on-newsletters/34-gondola.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting a website up excludes the vast majority of people today; we should’ve made all of these constituent parts easier.</p>
+      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting up a website excludes the vast majority of people today; we should’ve made all of these constituent parts easier.</p>
     </div>
   </div>
 
@@ -350,7 +350,7 @@ extract: Is this progress?
       <img alt="Looting a pirate ship of its treasure" src="/uploads/essays/on-newsletters/36-removing-treasure.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But perhaps we didn’t bother improving all this stuff because we let social networks devour all our writing. The archives be damned.</p>
+      <p>But perhaps we didn’t bother trying to improve writing on the web because we let social networks devour all our words. The archives be damned.</p>
     </div>
   </div>
 
@@ -359,7 +359,7 @@ extract: Is this progress?
       <img alt="Looting a pirate ship of its treasure" src="/uploads/essays/on-newsletters/37-wolves-wolves.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>There’s no one solution to making websites easier to build, but I’m dead certain that startups shouldn’t be fixing this for us.</p>
+      <p>The solution? Well, there’s a lot of different answers here, but one thing I’m dead certain of is that startups shouldn’t be fixing this for us.</p>
     </div>
   </div>
 
@@ -429,7 +429,7 @@ extract: Is this progress?
       <img alt="A head rests on a table in a museum" src="/uploads/essays/on-newsletters/44-talking-head.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>It’s called RSS; an ancient, dusty technology that lets you subscribe to a website and see updates as they happen. </p>
+      <p>It’s called <abbr title="Really Simple Syndication">RSS</abbr>; an ancient, dusty technology that lets you subscribe to a website and see updates as they happen. With an <abbr title="Really Simple Syndication">RSS</abbr> reader app you can see what’s new from your favorite writers.</p>
     </div>
   </div>
 
