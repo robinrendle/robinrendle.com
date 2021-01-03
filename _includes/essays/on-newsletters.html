@@ -83,7 +83,6 @@ body {
   min-height: 100vh;
   background-color: white;
   scroll-snap-align: start;
-  border-bottom: 1px solid #111;
 }
 
 @media screen and (min-width: 767px) {
@@ -93,10 +92,15 @@ body {
   }
 }
 
+abbr {
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
 .slide--chapter {
   display: grid;
   place-items: center;
-  background: black;
+  background: #111;
   color: white;
   font-size: 8vw;
 }
@@ -104,10 +108,11 @@ body {
 .slide-text {
   padding: 40px;
   font-size: 30px;
-  background-color: black;
+  background-color: #111;
   color: white;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (min-width: 767px) {
@@ -116,25 +121,88 @@ body {
   }
 }
 
+.slide-text p {
+  margin: 0;
+}
+
+.slide-text ol {
+  padding-left: 0;
+}
+
 .slide-img {
   flex-grow: 1;
   display: grid;
   place-items: center;
+  animation: imageIn .5s easeIn forwards;
+}
+
+@media screen and (min-width: 767px) {
+  .slide-img {
+    width: calc(100vw - 450px);
+  }
 }
 
 .slide-img img {
-  max-height: 500px;
+  max-height: 80vh;
+  max-width: 100%;
+}
+
+@keyframes imageIn {
+  0% {
+    opacity: 0;
+  } 100% {
+    opacity: 1;
+  }
 }
 
 .slide-title {
   color: white;
 }
 
+.slide-chapter {
+  border-bottom: 1px solid #555;
+}
+
+.slide-chapter .slide-text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.slide-chapter .slide-text p {
+  font-size: ;
+}
+
+.slide-chapter .slide-text h2 {
+  color: #5e5e5e;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+.slide-chapter .slide-text h2,
+.slide-chapter .slide-text p {
+  margin: 0;
+}
+
+.slide--empty {
+  background-color: #111;
+}
+
+.date {
+  color: #5e5e5e;
+}
+
+.date span {
+font-variant-numeric: ordinal;
+}
 
   </style>
   </head>
   <body>
-
-  {{content | safe }}
+    {{content | safe }}
   </body>
 </html>

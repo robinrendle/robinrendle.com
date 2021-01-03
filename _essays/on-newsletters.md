@@ -8,9 +8,13 @@ extract: Is this progress?
 ---
 
 <section class="slide-container">
-  <div class="slide slide--chapter">
-    <div class="slide-title">
-    An Ode to Newsletters
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="An ornamental leaf design with the word 'newsletter' in the center" src="/uploads/essays/on-newsletters/00-newsletters.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>Newsletters; or, an enormous rant about writing on the web that doesn’t really go anywhere and that’s okay with me</p>
+      <p class="date">Robin Rendle ∙ <time datetime="2021-01-03">January 2021</time></p>
     </div>
   </div>
 
@@ -82,7 +86,7 @@ extract: Is this progress?
       <img alt="A horseshoe geranium flower" src="/uploads/essays/on-newsletters/08-flower-horseshoe-geranium.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Not to mention the smaller—although no less ambitious—newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! And all of these sit side by side with newsletters that are outstandingly, unabashedly&hellip;</p>
+      <p>Not to mention the smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! And all of these sit side by side with newsletters that are outstandingly, unabashedly&hellip;</p>
     </div>
   </div>
 
@@ -91,7 +95,7 @@ extract: Is this progress?
       <img alt="A dog plays the flute" src="/uploads/essays/on-newsletters/09-playing-flute.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>&hellip;weird.</p>
+      <p>&hellip;<em>weird.</em></p>
     </div>
   </div>
 
@@ -100,7 +104,7 @@ extract: Is this progress?
       <img alt="A group of women at the post office" src="/uploads/essays/on-newsletters/10-post-office.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>So I guess my question here is a difficult one to ask, because I love newsletters so very much, but&hellip;</p>
+      <p>So my question here is a difficult one to ask, because I love newsletters so very much, but&hellip;</p>
     </div>
   </div>
 
@@ -128,7 +132,7 @@ extract: Is this progress?
       <img alt="Edison’s electric pen" src="/uploads/essays/on-newsletters/13-edisons-electric-pen.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>It bothers me that writers today can’t create audiences on their own websites, with their own archives, and their own formats. And they certainly can’t get paid in the process whilst writing independently for them. (Although yes, there are exceptions).</p>
+      <p>It bothers me that writers can’t create audiences on their own websites, with their own archives, and their own formats. And they certainly can’t get paid in the process. (Although yes, there are exceptions).</p>
     </div>
   </div>
 
@@ -156,7 +160,7 @@ extract: Is this progress?
       <img alt="A man sits in a cave surrounded by coins" src="/uploads/essays/on-newsletters/16-lilliputian-troops-marching.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But focusing on the money is the wrong take, I think; the real advantage of newsletters is that they give us super powers as well. You don’t need to learn about HTML or CSS or databases to get started. You pick a service and with three clicks you’re good to go.</p>
+      <p>But the real advantage with newsletters is that they give us super powers. You don’t need to learn about <abbr title="Hypertext markup language">HTML</abbr> or <abbr title="Cascading stylesheets">CSS</abbr> or databases to get started.</p>
     </div>
   </div>
 
@@ -165,7 +169,7 @@ extract: Is this progress?
       <img alt="A giant person towers over an army" src="/uploads/essays/on-newsletters/17-sad-boy-zoom.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>And yet—despite these super powers—I still think that using email to send words back and forth to each other just sucks.</p>
+      <p>Despite these super powers, I still think that using email to send words back and forth to each other is just entirely <em>ugh</em>.</p>
     </div>
   </div>
 
@@ -208,19 +212,10 @@ extract: Is this progress?
 
   <div class="slide">
     <div class="slide-img">
-      <img alt="Zoom into sad boy being sad" src="/uploads/essays/on-newsletters/22-sad-boy.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Today web designers are so embarrassed by the web that they don’t even call themselves “web designers” at all&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
       <img alt="Nusretiye Mosque" src="/uploads/essays/on-newsletters/23-nusretiye-mosque.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>And yet the web doesn’t have to be this ugly and embarrassing thing; the web can be made beautiful.</p>
+      <p>Perhaps the web doesn’t have to be this ugly and embarrassing thing any more; perhaps the web can be made beautiful.</p>
     </div>
   </div>
 
@@ -229,7 +224,7 @@ extract: Is this progress?
       <img alt="A table floats into the air" src="/uploads/essays/on-newsletters/24-table-slipped.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I’m saying all this as someone who’s spent the better part of the last three years writing emails to strangers; I feel both liberated and yet also cursed by them. Newsletters are simply inescapable if you want to be a writer today.</p>
+      <p>I’m saying this as someone who’s spent the better part of the last three years writing emails to strangers because I feel both liberated and yet also cursed by them. Newsletters are just inescapable if you want to be a writer today.</p>
     </div>
   </div>
 
@@ -265,8 +260,8 @@ extract: Is this progress?
       <p>Alternatively, websites today&hellip;</p>
       <ol>
         <li>Are difficult to make.</li>
-        <li>Impossible to notify people of new stuff.</li>
-        <li>Annoying to pay writers.</li>
+        <li>Can’t notify people of new content.</li>
+        <li>Aren’t able to pay writers.</li>
       </ol>
     </div>
   </div>
@@ -276,7 +271,7 @@ extract: Is this progress?
       <img alt="A handmade organ" src="/uploads/essays/on-newsletters/28-organ.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I don’t think these are problems with the medium, so much as they’re just straight up missing features from browsers. But now because of newsletters, I look back on writing for the web as this clunky, annoying process in comparison; the machine sure is beautiful but it requires so much damn work to get singing.</p>
+      <p>Also now because of newsletters, I look back on writing for the web as this clunky, annoying process in comparison; the machine sure is beautiful but it requires so much damn work to get singing.</p>
     </div>
   </div>
 
@@ -285,7 +280,7 @@ extract: Is this progress?
       <img alt="The bottom of the sea" src="/uploads/essays/on-newsletters/29-bottom-sea.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I wonder how we can get the best of both worlds here; the ease of publishing newsletters, with all the beauty and archivability of websites. But I guess what I’m really asking is&hellip;</p>
+      <p>So I wonder how we can get the best of both worlds here; the ease of publishing newsletters, with all the beauty and archivability of websites. But what I’m really asking here is&hellip;</p>
     </div>
   </div>
 
@@ -309,7 +304,7 @@ extract: Is this progress?
 
   <div class="slide slide-chapter">
     <div class="slide-text">
-      <h2>Problem #1</h2>
+      <h2>Part One</h2>
       <p>Websites are too damn complicated</p>
     </div>
   </div>
@@ -319,7 +314,7 @@ extract: Is this progress?
       <img alt="A compositor selects metal letters from a case" src="/uploads/essays/on-newsletters/32-compositor.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Over the past 30 years websites haven’t really gotten any easier to make.</p>
+      <p>Over the past 30 years websites haven’t gotten any easier to make.</p>
     </div>
   </div>
 
@@ -328,7 +323,7 @@ extract: Is this progress?
       <img alt="Demons gather in hell" src="/uploads/essays/on-newsletters/33-dreadful-din.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>You still need to learn HTML and CSS to make a website. You still need to learn about hosting and domain names. You might even be forced to learn what the abbreviation  “CMS” stands for, and I simply refuse to curse you with that knowledge.</p>
+      <p>You still need to learn <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr> to make a website. You still need to learn about hosting and domain names. You might even be forced to learn what the abbreviation  <abrr title="Content management system">CMS</abbr> stands for, and I simply refuse to curse you with that knowledge.</p>
     </div>
   </div>
 
@@ -337,7 +332,7 @@ extract: Is this progress?
       <img alt="A gondola falls from the sky" src="/uploads/essays/on-newsletters/34-gondola.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting a website up excludes the vast majority of people today. We should’ve made all of these constituent parts easier. </p>
+      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting a website up excludes the vast majority of people today; we should’ve made all of these constituent parts easier.</p>
     </div>
   </div>
 
@@ -382,7 +377,7 @@ extract: Is this progress?
       <img alt="Sea biscuit machine" src="/uploads/essays/on-newsletters/39-appeared-flash.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>On this note, not so long ago I stumbled upon a service called blot.im and it showed me what building a website *could* be like; easy, fast, accessible.</p>
+      <p>On this note, not so long ago I stumbled upon a service called blot.im and it showed me what building a website <em>could</em> be like; easy, fast, accessible.</p>
     </div>
   </div>
 
@@ -394,10 +389,10 @@ extract: Is this progress?
       <p>I reckon this is the future we should be striving towards.</p>
     </div>
   </div>
-  
+
   <div class="slide slide-chapter">
     <div class="slide-text">
-      <h2>Problem #2</h2>
+      <h2>Part Two</h2>
       <p>RSS is for nerds</p>
     </div>
   </div>
@@ -512,7 +507,7 @@ extract: Is this progress?
 
   <div class="slide slide-chapter">
     <div class="slide-text">
-      <h2>Problem #3</h2>
+      <h2>Part Three</h2>
       <p>Paying writers is too damn hard</p>
     </div>
   </div>
@@ -531,7 +526,7 @@ extract: Is this progress?
       <img alt="A room full of people clap" src="/uploads/essays/on-newsletters/54-gun-club-meeting.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>And I guess if you have enough technical knowledge or a big enough following then you can build the infrastructure to make a subscription service for your website. This isn’t possible for a lot of writers though.</p>
+      <p>If you have enough technical knowledge or a big enough following then you can build a subscription service for your website. This isn’t possible for a lot of writers though.</p>
     </div>
   </div>
 
@@ -582,7 +577,7 @@ extract: Is this progress?
 
   <div class="slide">
     <div class="slide-img">
-      <img alt="" src="/uploads/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy"/>
+      <img alt="A painter at work" src="/uploads/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
       <p>My point here is that being able to pay folks through the browser easily could open up the door for all sorts of other artists, not just writers too. </p>
@@ -591,14 +586,109 @@ extract: Is this progress?
 
   <div class="slide">
     <div class="slide-img">
-      <img alt="" src="/uploads/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy"/>
+      <img alt="A young boy rides a strange contraption" src="/uploads/essays/on-newsletters/61-deghens-machine.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
       <p>Writers choose a newsletter service like Substack because the business model is straight forward. I just sort of wish this infrastructure was built into the writers’s websites themselves.</p>
     </div>
   </div>
 
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="A man is led into a secret door by the devil" src="/uploads/essays/on-newsletters/62-stealing.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>Anyway, there’s a viable alternative to newsletters if we fill in all these gaps.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="Two men float in a balloon" src="/uploads/essays/on-newsletters/63-altitude-experiments.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>All I know is that the web today is not made for us.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="A person in a very strange underwater suit" src="/uploads/essays/on-newsletters/64-klingerts-diving-machine.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>It’s no longer made for people to send charming bits of texts to strangers. Instead, I see the web as this public good that’s been hijacked by companies trying to sell us mostly heartless junk.</p>
+    </div>
+  </div>
 
 
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="Knights storm a castle" src="/uploads/essays/on-newsletters/65-scotch-soldiers.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>The web today is built for apps—and I think we need to take it back.</p>
+    </div>
+  </div>
+
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="Knights storm a castle" src="/uploads/essays/on-newsletters/66-time-zone-watch.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>Because there are so many break-ups and coffee beans to write about! There are stories about clocks and Northumberland flower gardens waiting to be recorded, gift-wrapped, and delivered to us.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="A woman reads a letter" src="/uploads/essays/on-newsletters/67-imogen.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>What really excites me about the sudden popularity of newsletters is this: it shows us that people desperately want this kind of writing. They value the web in the same way that I do.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="A monster attacks a ship" src="/uploads/essays/on-newsletters/68-arm-glided.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>What this also shows me is that we haven’t given everything up to social networks yet. This makes me hopeful&hellip;</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="A monster attacks a ship" src="/uploads/essays/on-newsletters/69-electrical-devices.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>&hellip;because the web is still unfinished and there is so much work left to do.</p>
+    </div>
+  </div>
+
+  <div class="slide slide--empty"></div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="Making a toast at dinner" src="/uploads/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>Thanks to everyone that helped me figure out these notes. Special thanks to Old Book Illustations, Lucy Bellwood.</p>
+    </div>
+  </div>
+
+  <div class="slide">
+    <div class="slide-img">
+      <img alt="A man saying goodbye" src="/uploads/essays/on-newsletters/71-after-dark.jpg" loading="lazy"/>
+    </div>
+    <div class="slide-text">
+      <p>Now go away.</p>
+    </div>
+  </div>
+
+  <div class="slide slide--empty"></div>
+
+  
 
 </section>
