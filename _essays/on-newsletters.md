@@ -233,7 +233,7 @@ extract: Is this progress?
       <img alt="Skull and crossbones" src="/uploads/essays/on-newsletters/25-skull-crossbones.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But if websites are so great then why did everyone (including me) move to newsletters? Why did blogs die off? Well, there are ten million answers to that question, but only three I want to focus on&hellip;</p>
+      <p>But if websites are so great then why did everyone (including me) move to newsletters? Why did blogs die off? Well, there are ten million answers to those questions, but only three I want to focus on.</p>
     </div>
   </div>
 
@@ -314,7 +314,7 @@ extract: Is this progress?
       <img alt="A compositor selects metal letters from a case" src="/uploads/essays/on-newsletters/32-compositor.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Over the past 30 years websites haven’t gotten any easier to make.</p>
+      <p>Over the past 30 years, websites haven’t gotten any easier to make.</p>
     </div>
   </div>
 
@@ -332,7 +332,7 @@ extract: Is this progress?
       <img alt="A gondola falls from the sky" src="/uploads/essays/on-newsletters/34-gondola.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting up a website excludes the vast majority of people today; we should’ve made all of these constituent parts easier.</p>
+      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting up a website excludes the vast majority of people today; we should’ve made all of these constituent parts easier so much easier.</p>
     </div>
   </div>
 
@@ -438,7 +438,7 @@ extract: Is this progress?
       <img alt="Fortifications outside the city walls of the Alhambra" src="/uploads/essays/on-newsletters/45-alhambra-entrance.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Basically my whole political platform is this: RSS is the promised land for writers.</p>
+      <p>Basically my whole political platform is this: <abbr title="Really Simple Syndication">RSS</abbr> is the promised land for writers.</p>
     </div>
   </div>
 
@@ -447,7 +447,7 @@ extract: Is this progress?
       <img alt="A dog reads the newspaper" src="/uploads/essays/on-newsletters/46-reading-news.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>It’s the perfect way to read the web and to keep up to date with things. So much so that I consider my RSS reader (Reeder.app) to be my favorite web browser, not Chrome or Firefox or Safari.</p>
+      <p>It’s the perfect way to read the web and to keep up to date with things. So much so that I consider my <abbr title="Really Simple Syndication">RSS</abbr> reader (Reeder.app) to be my favorite web browser, not Chrome, Firefox, or Safari.</p>
     </div>
   </div>
 
@@ -456,7 +456,7 @@ extract: Is this progress?
       <img alt="Manufacturing glass bottles" src="/uploads/essays/on-newsletters/47-manufacture-bottles.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The problem with RSS is that you need to know that RSS exists, how it works, which websites support it, etc. Like I said: an enormous faff.</p>
+      <p>The problem with <abbr title="Really Simple Syndication">RSS</abbr> is that you need to know that RSS exists, how it works, which websites support it, etc. Like I said: an enormous faff.</p>
     </div>
   </div>
 
@@ -465,7 +465,7 @@ extract: Is this progress?
       <img alt="A microscope" src="/uploads/essays/on-newsletters/48-microscope.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>It’s not like RSS is brain surgery but it’s hidden away and just complicated enough that 99% of folks won’t care about it.</p>
+      <p>It’s not like <abbr title="Really Simple Syndication">RSS</abbr> is brain surgery but it’s hidden away and just complicated enough that 99% of folks won’t care about it.</p>
     </div>
   </div>
 
@@ -474,7 +474,7 @@ extract: Is this progress?
       <img alt="An enormous steam hammer" src="/uploads/essays/on-newsletters/49-creusot-steam-hammer.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>“But RSS was just for nerds!” you might say. Well, RSS-the-technology today is fantastically popular—it’s the machine that powers podcasts. So how can RSS be just for nerds if we use it everyday for podcasts?</p>
+      <p>“But <abbr title="Really Simple Syndication">RSS</abbr> was just for nerds!” you might say. Well, <abbr title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine that powers podcasts. So how can <abbr title="Really Simple Syndication">RSS</abbr> be just for nerds if we use it everyday for podcasts?</p>
     </div>
   </div>
 
@@ -483,7 +483,7 @@ extract: Is this progress?
       <img alt="An enormous steam hammer" src="/uploads/essays/on-newsletters/50-halleys-diving-bell.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I reckon RSS never reached critical scale for websites because it was never built into the browser itself. The failure here wasn’t the technology but the distance between RSS and the browser.</p>
+      <p>I reckon <abbr title="Really Simple Syndication">RSS</abbr> never reached critical scale for websites because it was never built into the browser itself. The failure here wasn’t the technology but the distance between <abbr title="Really Simple Syndication">RSS</abbr> and the browser.</p>
     </div>
   </div>
 
@@ -492,7 +492,7 @@ extract: Is this progress?
       <img alt="Eads Bridge" src="/uploads/essays/on-newsletters/51-eads-bridge.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But if RSS was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
+      <p>But if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
     </div>
   </div>
 
@@ -674,7 +674,7 @@ extract: Is this progress?
       <img alt="Making a toast at dinner" src="/uploads/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Thanks to everyone that helped me figure out these notes. Special thanks to Old Book Illustations, Lucy Bellwood.</p>
+      <p>Thanks to everyone that helped me figure out these notes. Special thanks to Old Book Illustations for the lovely woodcuts and metal engravings, Lucy Bellwood for editing, and the Letterform Archive for the LfA Aluminia type family.</p>
     </div>
   </div>
 
