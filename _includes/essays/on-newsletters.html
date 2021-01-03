@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Robin Rendle › On Newsletters</title>
+    <meta name="author" content="Robin Rendle"/>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="author" href="https://plus.google.com/104389809267012182640"/>
+
+    <!-- Feed -->
+    <link
+      href="https://robinrendle.com/feed.xml"
+      rel="alternate"
+      type="application/atom+xml"
+/>
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicon/apple-touch-icon.png"
+/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon/favicon-32x32.png"
+/>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon/favicon-16x16.png"
+/>
+
+  <style>
+
+@font-face {
+  font-family: "Aluminia";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2"),
+    url("/fonts/aluminia/LfAAluminia-Roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aluminia";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("./fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2"),
+    url("/fonts/aluminia/LfAAluminia-Italic.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Aluminia, serif;
+}
+
+.slide-container {
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  scroll-snap-align: start;
+  border-bottom: 1px solid #111;
+}
+
+@media screen and (min-width: 767px) {
+  .slide {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.slide--chapter {
+  display: grid;
+  place-items: center;
+  background: black;
+  color: white;
+  font-size: 8vw;
+}
+
+.slide-text {
+  padding: 40px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  display: grid;
+  place-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .slide-text {
+    width: 450px;
+  }
+}
+
+.slide-img {
+  flex-grow: 1;
+  display: grid;
+  place-items: center;
+}
+
+.slide-img img {
+  max-height: 500px;
+}
+
+.slide-title {
+  color: white;
+}
+
+
+  </style>
+  </head>
+  <body>
+
+  {{content | safe }}
+  </body>
+</html>
