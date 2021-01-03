@@ -13,8 +13,8 @@ extract: Is this progress?
       <img alt="An ornamental leaf design with the word 'newsletter' in the center" src="/uploads/essays/on-newsletters/00-newsletters.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Newsletters; or, an enormous rant about writing on the web that doesn’t really go anywhere and that’s okay with me</p>
       <p class="date">Robin Rendle ∙ <time datetime="2021-01-03">January 2021</time></p>
+      <h1>Newsletters; or, an enormous rant about writing on the web that doesn’t really go anywhere and that’s okay with me</h1>
     </div>
   </div>
 
