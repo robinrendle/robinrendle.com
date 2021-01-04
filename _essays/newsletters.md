@@ -674,7 +674,7 @@ extract: Is this progress?
       <img alt="Making a toast at dinner" src="/uploads/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustations</a> for all these lovely woodcuts and metal engravings, Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali Burnett, Crick, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
+      <p>Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustations</a> for all these lovely woodcuts and metal engravings. Also thanks to Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali Burnett, Crick, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
     </div>
   </div>
 
@@ -686,9 +686,4 @@ extract: Is this progress?
       <p>Now go away.</p>
     </div>
   </div>
-
-  <div class="slide slide--empty"></div>
-
-  
-
 </section>
