@@ -69,6 +69,13 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Aluminia, serif;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 767px) {
+  body {
+    line-height: 1.2;
+  }
 }
 
 .slide-container {
@@ -169,8 +176,15 @@ abbr {
 }
 
 .slide-img .slide-img__giant {
-  max-width: 400px;
+  max-width: 350px;
 }
+
+@media screen and (min-width: 767px) {
+  .slide-img .slide-img__giant {
+    max-width: 450px;
+  }
+}
+
 
 @media screen and (min-width: 767px) {
   .slide-img__coins {
