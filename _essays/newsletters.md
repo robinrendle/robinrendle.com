@@ -86,7 +86,7 @@ extract: Is this progress?
       <img class="slide-img__flowers" alt="A horseshoe geranium flower" src="/uploads/essays/on-newsletters/08-flower-horseshoe-geranium.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Not to forget smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! These sit side by side newsletters that are just&hellip;</p>
+      <p>Not to forget smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! These sit side by side with newsletters that are just&hellip;</p>
     </div>
   </div>
 
@@ -169,7 +169,7 @@ extract: Is this progress?
       <img alt="A giant person towers over an army" src="/uploads/essays/on-newsletters/17-sad-boy-zoom.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Despite these super powers, I still think that using email to send words back and forth to each other is just entirely <em>ugh</em>.</p>
+      <p>Despite these super powers, I still think that using email to send words to each other is just entirely <em>ugh</em>.</p>
     </div>
   </div>
 
@@ -280,7 +280,7 @@ extract: Is this progress?
       <img alt="The bottom of the sea" src="/uploads/essays/on-newsletters/29-bottom-sea.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>So I wonder how we can get the best of both worlds here; the ease of publishing newsletters, with all the beauty and archivability of websites. But what I’m really asking here is&hellip;</p>
+      <p>So I wonder how we can get the best of both worlds here: the ease of publishing newsletters, with all the beauty and archivability of websites. But what I’m really asking is&hellip;</p>
     </div>
   </div>
 
@@ -305,7 +305,7 @@ extract: Is this progress?
   <div class="slide slide-chapter">
     <div class="slide-text">
       <h2>Part One</h2>
-      <p>Websites are too damn complicated</p>
+      <p>Websites are too damn complicated&hellip;</p>
     </div>
   </div>
 
@@ -314,7 +314,7 @@ extract: Is this progress?
       <img alt="A compositor selects metal letters from a case" src="/uploads/essays/on-newsletters/32-compositor.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Over the past 30 years, websites haven’t gotten any easier to make.</p>
+      <p>&hellip;and the past 30 years websites haven’t gotten any easier to make.</p>
     </div>
   </div>
 
@@ -332,7 +332,7 @@ extract: Is this progress?
       <img alt="A gondola falls from the sky" src="/uploads/essays/on-newsletters/34-gondola.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The web was originally intended to be read and written by everyone but the technical hurdles of setting up a website excludes the vast majority of people today; we should’ve made all of these constituent parts easier so much easier.</p>
+      <p>The web was originally intended to be read and written by everyone, but the technical hurdles of setting up a website excludes the vast majority of people. It should be easier so much easier.</p>
     </div>
   </div>
 
@@ -350,7 +350,7 @@ extract: Is this progress?
       <img alt="Looting a pirate ship of its treasure" src="/uploads/essays/on-newsletters/36-removing-treasure.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But perhaps we didn’t bother trying to improve writing on the web because we let social networks devour all our words. The archives be damned.</p>
+      <p>But perhaps we didn’t bother trying to improve writing on the web because we let social networks devour all our words—the archives be damned.</p>
     </div>
   </div>
 
