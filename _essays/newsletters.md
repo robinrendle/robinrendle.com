@@ -1,7 +1,7 @@
 ---
-title: On Newsletters
+title: Newsletters
 date: 2021-01-01 09:00:00 -08:00
-layout: essays/on-newsletters
+layout: essays/newsletters
 city: San Francisco
 country: California
 extract: Is this progress?
@@ -83,10 +83,10 @@ extract: Is this progress?
 
   <div class="slide">
     <div class="slide-img">
-      <img alt="A horseshoe geranium flower" src="/uploads/essays/on-newsletters/08-flower-horseshoe-geranium.jpg" loading="lazy"/>
+      <img class="slide-img__flowers" alt="A horseshoe geranium flower" src="/uploads/essays/on-newsletters/08-flower-horseshoe-geranium.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Not to mention the smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! And all of these sit side by side with newsletters that are outstandingly, unabashedly&hellip;</p>
+      <p>Not to forget smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! These sit side by side newsletters that are just&hellip;</p>
     </div>
   </div>
 
@@ -104,7 +104,7 @@ extract: Is this progress?
       <img alt="A group of women at the post office" src="/uploads/essays/on-newsletters/10-post-office.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>So my question here is a difficult one to ask, because I love newsletters so very much, but&hellip;</p>
+      <p>So my question here is a difficult one to ask, because I love newsletters so very much&hellip;</p>
     </div>
   </div>
 
@@ -114,7 +114,7 @@ extract: Is this progress?
       <img alt="An astronomer looks up at the stars" src="/uploads/essays/on-newsletters/11-herschel.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>&hellip;is this progress?</p>
+      <p>&hellip;but is this progress?</p>
     </div>
   </div>
 
@@ -157,7 +157,7 @@ extract: Is this progress?
 
   <div class="slide">
     <div class="slide-img">
-      <img alt="A man sits in a cave surrounded by coins" src="/uploads/essays/on-newsletters/16-lilliputian-troops-marching.jpg" loading="lazy"/>
+      <img class="slide-img__giant" alt="A man sits in a cave surrounded by coins" src="/uploads/essays/on-newsletters/16-lilliputian-troops-marching.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
       <p>But the real advantage with newsletters is that they give us super powers. You don’t need to learn about <abbr title="Hypertext markup language">HTML</abbr> or <abbr title="Cascading stylesheets">CSS</abbr> or databases to get started.</p>
@@ -260,7 +260,7 @@ extract: Is this progress?
       <p>Alternatively, websites today&hellip;</p>
       <ol>
         <li>Are difficult to make.</li>
-        <li>Can’t notify people of new stuff.</li>
+        <li>Can’t notify people of new work.</li>
         <li>Aren’t able to pay writers easily.</li>
       </ol>
     </div>
@@ -359,7 +359,7 @@ extract: Is this progress?
       <img alt="Looting a pirate ship of its treasure" src="/uploads/essays/on-newsletters/37-wolves-wolves.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The solution? Well, there’s a lot of different answers here, but one thing I’m dead certain of is that startups shouldn’t be fixing this for us.</p>
+      <p>The solution? Well, I have a few ideas, but one thing I’m dead certain of is that startups shouldn’t be fixing this for us.</p>
     </div>
   </div>
 
@@ -393,7 +393,7 @@ extract: Is this progress?
   <div class="slide slide-chapter">
     <div class="slide-text">
       <h2>Part Two</h2>
-      <p>RSS is for nerds</p>
+      <p>RSS is for Nerds</p>
     </div>
   </div>
 
@@ -438,7 +438,7 @@ extract: Is this progress?
       <img alt="Fortifications outside the city walls of the Alhambra" src="/uploads/essays/on-newsletters/45-alhambra-entrance.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Basically my whole political platform is this: <abbr title="Really Simple Syndication">RSS</abbr> is the promised land for writers.</p>
+      <p>Basically my whole political platform is this: <abbr title="Really Simple Syndication">RSS</abbr> is the promised land.</p>
     </div>
   </div>
 
@@ -456,7 +456,7 @@ extract: Is this progress?
       <img alt="Manufacturing glass bottles" src="/uploads/essays/on-newsletters/47-manufacture-bottles.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The problem with <abbr title="Really Simple Syndication">RSS</abbr> is that you need to know that RSS exists, how it works, which websites support it, etc. Like I said: an enormous faff.</p>
+      <p>The problem with <abbr title="Really Simple Syndication">RSS</abbr> is that you need to know that <abbr title="Really Simple Syndication">RSS</abbr> exists, how it works, which websites support it, etc. It’s nothing short of an enormous faff.</p>
     </div>
   </div>
 
@@ -465,7 +465,7 @@ extract: Is this progress?
       <img alt="A microscope" src="/uploads/essays/on-newsletters/48-microscope.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>It’s not like <abbr title="Really Simple Syndication">RSS</abbr> is brain surgery but it’s hidden away and just complicated enough that 99% of folks won’t care about it.</p>
+      <p>But it’s not like <abbr title="Really Simple Syndication">RSS</abbr> is brain surgery, the problem is that it’s hidden away and just complicated enough that 99% of folks won’t care about it.</p>
     </div>
   </div>
 
@@ -474,7 +474,7 @@ extract: Is this progress?
       <img alt="An enormous steam hammer" src="/uploads/essays/on-newsletters/49-creusot-steam-hammer.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>“But <abbr title="Really Simple Syndication">RSS</abbr> was just for nerds!” you might say. Well, <abbr title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine that powers podcasts. So how can <abbr title="Really Simple Syndication">RSS</abbr> be just for nerds if we use it everyday for podcasts?</p>
+      <p>“<abbr title="Really Simple Syndication">RSS</abbr> was just for nerds!” you might say. Well, <abbr title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine that powers podcasts. So how can <abbr title="Really Simple Syndication">RSS</abbr> be just for nerds if we use it everyday for audio?</p>
     </div>
   </div>
 
@@ -483,7 +483,7 @@ extract: Is this progress?
       <img alt="An enormous steam hammer" src="/uploads/essays/on-newsletters/50-halleys-diving-bell.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I reckon <abbr title="Really Simple Syndication">RSS</abbr> never reached critical scale for websites because it was never built into the browser itself. The failure here wasn’t the technology but the distance between <abbr title="Really Simple Syndication">RSS</abbr> and the browser.</p>
+      <p>I reckon <abbr title="Really Simple Syndication">RSS</abbr> never reached critical scale for websites because it was never built into the browser itself. The failure here wasn’t the technology but the distance between <abbr title="Really Simple Syndication">RSS</abbr> and how we browse the web.</p>
     </div>
   </div>
 
@@ -492,7 +492,7 @@ extract: Is this progress?
       <img alt="Eads Bridge" src="/uploads/essays/on-newsletters/51-eads-bridge.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>But if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
+      <p>Here me out: if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
     </div>
   </div>
 
@@ -501,7 +501,7 @@ extract: Is this progress?
       <img alt="A skeleton pursues a man on a bobsled" src="/uploads/essays/on-newsletters/52-demon-pursuer.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>And if we could subscribe to websites once again then maybe the web itself might not feel quite so forgettable.</p>
+      <p>And if we could subscribe to websites once again then the web itself might not feel quite so forgettable.</p>
     </div>
   </div>
 
@@ -559,10 +559,10 @@ extract: Is this progress?
 
   <div class="slide">
     <div class="slide-img">
-      <img alt="Coins" src="/uploads/essays/on-newsletters/58-coins.jpg" loading="lazy"/>
+      <img class="slide-img__coins" alt="Coins" src="/uploads/essays/on-newsletters/58-coins.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>There are neat developments in this space: services such as Coil or web browsers like Puma are worth paying attention to because they’re trying to upend the way that money is distributed on the web today.</p>
+      <p>There are neat developments in this space: services such as Coil or web browsers like Puma are worth paying attention to because they’re trying to upend the way that money is distributed on the web.</p>
     </div>
   </div>
 
@@ -571,7 +571,7 @@ extract: Is this progress?
       <img alt="" src="/uploads/essays/on-newsletters/59-dragged.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>There’s also, well, brace yourself: the Web Monetization API. That sounds scary! But I think it’s where things get truly interesting.</p>
+      <p>There’s also, well, brace yourself: the Web Monetization <abbr tite="Application programming interface">API</abbr>. That sounds scary! But I think it’s where things get truly interesting (although it’s still far too complicated for most writers to benefit from).</p>
     </div>
   </div>
 
@@ -589,7 +589,7 @@ extract: Is this progress?
       <img alt="A young boy rides a strange contraption" src="/uploads/essays/on-newsletters/61-deghens-machine.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Writers choose a newsletter service like Substack because the business model is straight forward. I just sort of wish this infrastructure was built into the writers’s websites themselves.</p>
+      <p>Also, writers choose a newsletter service like Substack because the business model is straight forward. I just sort of wish this infrastructure was built into the writers’s websites themselves.</p>
     </div>
   </div>
 
@@ -598,7 +598,7 @@ extract: Is this progress?
       <img alt="A man is led into a secret door by the devil" src="/uploads/essays/on-newsletters/62-stealing.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Anyway, there’s a viable alternative to newsletters if we fill in all these gaps.</p>
+      <p>My point is this: there’s a viable alternative to newsletters if we fill in all these gaps.</p>
     </div>
   </div>
 
@@ -645,7 +645,7 @@ extract: Is this progress?
       <img alt="A woman reads a letter" src="/uploads/essays/on-newsletters/67-imogen.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>What really excites me about the sudden popularity of newsletters is this: it shows us that people desperately want this kind of writing. They value the web in the same way that I do.</p>
+      <p>What really excites me about the sudden popularity of newsletters is that it shows us how people desperately want this kind of writing still. They value the web in the same way that I do.</p>
     </div>
   </div>
 
@@ -674,7 +674,7 @@ extract: Is this progress?
       <img alt="Making a toast at dinner" src="/uploads/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Thanks to everyone that helped me figure out these notes. Special thanks to Old Book Illustations for the lovely woodcuts and metal engravings, Lucy Bellwood for editing, and the Letterform Archive for the LfA Aluminia type family.</p>
+      <p>Thanks to everyone that helped me figure out these notes. Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustations</a> for the lovely woodcuts and metal engravings, <a href="https://lucybellwood.com">Lucy Bellwood</a> for editing, Crick for listening to these rants, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
     </div>
   </div>
 

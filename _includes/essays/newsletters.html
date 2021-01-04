@@ -2,7 +2,7 @@
 <html lang="en" class="no-js">
   <head>
     <meta charset="utf-8"/>
-    <title>Robin Rendle › On Newsletters</title>
+    <title>Robin Rendle › Newsletters</title>
     <meta name="author" content="Robin Rendle"/>
     <meta name="description" content=""/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -65,6 +65,7 @@ body {
 }
 
 body {
+  font-size: 100%;
   display: flex;
   flex-direction: column;
   font-family: Aluminia, serif;
@@ -106,8 +107,8 @@ abbr {
 }
 
 .slide-text {
-  padding: 40px;
-  font-size: 30px;
+  padding: 40px 20px;
+  font-size: 1.55rem;
   background-color: #111;
   color: white;
   display: flex;
@@ -118,6 +119,8 @@ abbr {
 @media screen and (min-width: 767px) {
   .slide-text {
     width: 450px;
+    font-size: 1.875rem;
+    padding: 40px;
   }
 }
 
@@ -132,8 +135,9 @@ abbr {
 
 .slide-img {
   flex-grow: 1;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   animation: imageIn .5s easeIn forwards;
 }
 
@@ -144,8 +148,34 @@ abbr {
 }
 
 .slide-img img {
-  max-height: 80vh;
+  max-height: 70vh;
   max-width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+  .slide-img img {
+    max-width: 100%;
+  }
+}
+
+.slide-img .slide-img__flowers {
+  max-width: 300px;
+}
+
+@media screen and (min-width: 767px) {
+  .slide-img .slide-img__flowers {
+    max-width: 400px;
+  }
+}
+
+.slide-img .slide-img__giant {
+  max-width: 400px;
+}
+
+@media screen and (min-width: 767px) {
+  .slide-img__coins {
+    max-width: 600px;
+  }
 }
 
 @keyframes imageIn {
@@ -178,10 +208,11 @@ abbr {
 }
 
 .slide-chapter .slide-text h2 {
-  color: #5e5e5e;
+  color: #ffc227;
   font-size: 1.5rem;
   text-transform: lowercase;
   font-variant: small-caps;
+  font-weight: 400;
 }
 
 .slide-chapter .slide-text h2,
@@ -194,7 +225,7 @@ abbr {
 }
 
 .date {
-  color: #5e5e5e;
+  color: #ffc227;
   font-size: .8em;
   text-transform: lowercase;
   font-variant: small-caps;
@@ -213,6 +244,10 @@ h1 {
   margin: 0;
   font-weight: 400;
   font-size: 1em;
+}
+
+a {
+  color: #ffc227;
 }
 
   </style>
