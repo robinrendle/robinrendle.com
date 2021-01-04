@@ -492,7 +492,7 @@ extract: Is this progress?
       <img alt="Eads Bridge" src="/uploads/essays/on-newsletters/51-eads-bridge.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Here me out: if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
+      <p>Hear me out: if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
     </div>
   </div>
 
