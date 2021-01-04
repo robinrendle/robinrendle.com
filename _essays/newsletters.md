@@ -305,7 +305,7 @@ extract: Is this progress?
   <div class="slide slide-chapter">
     <div class="slide-text">
       <h2>Part One</h2>
-      <p>Websites are too damn complicated&hellip;</p>
+      <p>Websites are too damn complicated</p>
     </div>
   </div>
 
@@ -314,7 +314,7 @@ extract: Is this progress?
       <img alt="A compositor selects metal letters from a case" src="/uploads/essays/on-newsletters/32-compositor.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>&hellip;and the past 30 years websites haven’t gotten any easier to make.</p>
+      <p>Websites haven’t gotten any easier to make over the past thirty years.</p>
     </div>
   </div>
 
@@ -341,7 +341,7 @@ extract: Is this progress?
       <img alt="A circle of giant men gather around a fire" src="/uploads/essays/on-newsletters/35-fire-circle.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>I’m not even talking about the complexity of building bonkers web apps that can geo-locate your cat’s best friend and upload that picture to Hunky Cats dot com. I’m thinking about the web as a series of documents here: just the document writing part of the web hasn’t gotten any easier.</p>
+      <p>I’m not talking about the complexity of building giant web apps here. Even the smallest websites—with nothing more than text—are far too difficult to build.</p>
     </div>
   </div>
 
@@ -377,7 +377,7 @@ extract: Is this progress?
       <img alt="Sea biscuit machine" src="/uploads/essays/on-newsletters/39-appeared-flash.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>On this note, not so long ago I stumbled upon a service called blot.im and it showed me what building a website <em>could</em> be like; easy, fast, accessible.</p>
+      <p>On this note, not so long ago I stumbled upon a service called <a href="https://blot.im/">blot.im</a> and it showed me what building a website <em>could</em> be like; easy, fast, accessible.</p>
     </div>
   </div>
 
@@ -474,7 +474,7 @@ extract: Is this progress?
       <img alt="An enormous steam hammer" src="/uploads/essays/on-newsletters/49-creusot-steam-hammer.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>“<abbr title="Really Simple Syndication">RSS</abbr> was just for nerds!” you might say. Well, <abbr title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine that powers podcasts. So how can <abbr title="Really Simple Syndication">RSS</abbr> be just for nerds if we use it everyday for audio?</p>
+      <p>“<abbr title="Really Simple Syndication">RSS</abbr> is far too complex!” you might say. Well, <abbr title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine that powers podcasts. So why isn’t <abbr title="Really Simple Syndication">RSS</abbr> used for websites if we use it everyday for audio?</p>
     </div>
   </div>
 
@@ -501,7 +501,7 @@ extract: Is this progress?
       <img alt="A skeleton pursues a man on a bobsled" src="/uploads/essays/on-newsletters/52-demon-pursuer.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>And if we could subscribe to websites once again then the web itself might not feel quite so forgettable.</p>
+      <p>And if we could subscribe to websites easily then the web itself might not feel quite so forgettable.</p>
     </div>
   </div>
 
@@ -517,7 +517,7 @@ extract: Is this progress?
       <img alt="A ghostly figure haunts a woodsman" src="/uploads/essays/on-newsletters/53-mercury-woodman.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>This has been called the original sin of the internet—since you can’t pay someone directly through the browser, the thinking goes, then all these other hacks pop up to squeeze money out of folks; invasive and ugly advertising, privacy-breaking data collection, etc. </p>
+      <p>This has been called the original sin of the internet. Since you can’t pay someone directly through the browser, the thinking goes, then all these other hacks pop up to squeeze money out of folks; invasive and ugly advertising, privacy-breaking data collection, etc. </p>
     </div>
   </div>
 
@@ -562,7 +562,7 @@ extract: Is this progress?
       <img class="slide-img__coins" alt="Coins" src="/uploads/essays/on-newsletters/58-coins.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>There are neat developments in this space: services such as Coil or web browsers like Puma are worth paying attention to because they’re trying to upend the way that money is distributed on the web.</p>
+      <p>There are neat developments in this space: services like Coil or web browsers like Puma are worth paying attention to because they’re trying to upend the way that money is distributed on the web.</p>
     </div>
   </div>
 
@@ -580,7 +580,7 @@ extract: Is this progress?
       <img alt="A painter at work" src="/uploads/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>My point here is that being able to pay folks through the browser easily could open up the door for all sorts of other artists, not just writers too. </p>
+      <p>My point here is that being able to pay folks easily through the browser could open the door for all sorts of other artists, not just writers. </p>
     </div>
   </div>
 
@@ -589,7 +589,7 @@ extract: Is this progress?
       <img alt="A young boy rides a strange contraption" src="/uploads/essays/on-newsletters/61-deghens-machine.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Also, writers choose a newsletter service like Substack because the business model is straight forward. I just sort of wish this infrastructure was built into the writers’s websites themselves.</p>
+      <p>Also, writers choose a newsletter service like Substack because the business model is straightforward. I just sort of wish this infrastructure was built into websites themselves.</p>
     </div>
   </div>
 
@@ -607,7 +607,7 @@ extract: Is this progress?
       <img alt="Two men float in a balloon" src="/uploads/essays/on-newsletters/63-altitude-experiments.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>All I know is that the web today is not made for us.</p>
+      <p>All I know is that the web today is not made for us. It’s no longer made for people to send charming bits of texts to strangers. </p>
     </div>
   </div>
 
@@ -616,7 +616,7 @@ extract: Is this progress?
       <img alt="A person in a very strange underwater suit" src="/uploads/essays/on-newsletters/64-klingerts-diving-machine.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>It’s no longer made for people to send charming bits of texts to strangers. Instead, I see the web as this public good that’s been hijacked by companies trying to sell us mostly heartless junk.</p>
+      <p>Instead, I see the web as this public good that’s been hijacked by companies trying to sell us mostly heartless junk.</p>
     </div>
   </div>
 
@@ -636,7 +636,7 @@ extract: Is this progress?
       <img alt="Knights storm a castle" src="/uploads/essays/on-newsletters/66-time-zone-watch.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Because there are so many break-ups and coffee beans to write about! There are stories about clocks and Northumberland flower gardens waiting to be recorded, gift-wrapped, and delivered to us.</p>
+      <p>Because there are so many break-ups and coffee beans to write about! There are stories about clocks and Northumberland flower gardens waiting to be recorded, gift-wrapped, and delivered to us!</p>
     </div>
   </div>
 
@@ -663,7 +663,7 @@ extract: Is this progress?
       <img alt="A monster attacks a ship" src="/uploads/essays/on-newsletters/69-electrical-devices.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>&hellip;because the web is still unfinished and there is so much work left to do.</p>
+      <p>&hellip;because the web is still unfinished and there’s so much work left to do.</p>
     </div>
   </div>
 
@@ -674,7 +674,7 @@ extract: Is this progress?
       <img alt="Making a toast at dinner" src="/uploads/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Thanks to everyone that helped me figure out these notes. Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustations</a> for the lovely woodcuts and metal engravings, <a href="https://lucybellwood.com">Lucy Bellwood</a> for editing, Crick for listening to these rants, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
+      <p>Thanks to everyone that helped me figure out these notes. Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustations</a> for the lovely woodcuts and metal engravings, Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali Burnett, Crick, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
     </div>
   </div>
 
