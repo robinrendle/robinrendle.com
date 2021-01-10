@@ -15,6 +15,6 @@ Maybe I’m nodding along so violently to this talk because I’m playing throug
 
 So _Cyberpunk_ is the most beautiful and, somehow, the most broken game I’ve ever played. 
 
-The foundations are not just worse for games though, where a floating cigar is relatively harmless. For Blow, declining software quality is a hallmark of the end times, a threat to this civilization that’s entirely based on soft (this is what the folks in Cyberpunk call “software” and it bugs me each time they say it but I can’t possibly tell you why).
+The foundations are not just worse for games though, where a floating cigar is relatively harmless. For Blow, declining software quality is a hallmark of the end times, a threat to this civilization that’s entirely based on soft (this is what the folks in _Cyberpunk_ call “software” and it bugs me each time they say it but I can’t possibly tell you why).
 
 So: let’s go make better soft (ugh, I’m sorry). 
