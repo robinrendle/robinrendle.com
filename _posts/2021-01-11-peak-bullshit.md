@@ -7,4 +7,4 @@ extract: "Jon Lovett’s commencement speech "
 ---
 Jon Lovett’s 2013 [commencement speech](https://youtu.be/JHl80Wmpj40) is great:
 
-> One of the greatest threats we face, simply put: is bullshit. We are drowning in it [...] I believe we are at peak bullshit.
+> One of the greatest threats we face, simply put, is bullshit. We are drowning in it [...] I believe we are at peak bullshit.
