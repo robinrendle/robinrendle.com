@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: A scrolly map thing by J. R. Carpenter
 ---
-Here is [a website](http://luckysoap.com/andbyislands/). Click on it. You’ll find yourself sat in front of a giant pirate treasure map with absolutely no clue as to what it is or how to use it. Scroll around a bit and you’ll see bits of text floating in the open ocean and clicking the island next to it, the text will change. 
+Here is [a website](http://luckysoap.com/andbyislands/). Click on it. You’ll find yourself sat in front of a giant pirate treasure map with absolutely no clue as to what it is or how to use it. Scroll around a bit and you’ll see islands of text floating in the open ocean and clicking the landmass next to it, the text will change. 
 
 Is this a story? Or is it just a tech demo? I sort of refuse to learn anything more about it because then the mystery of this little website will disappear and I simply adore that. I have no idea who made this, besides “J. R. Carpenter” in the opening text, and there’s no retweet button, no desperate links to reblog it.
 
