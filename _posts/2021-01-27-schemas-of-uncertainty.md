@@ -7,6 +7,9 @@ extract: What the what.
 ---
 Lucy sent me [Schemas of Uncertainty](http://schemasofuncertainty.com/) and I keep opening the tab, looking at it, and realizing that it needs far more of my attention and focus than I have left over right now. The homepage for _whatever_ this is is sort of remarkable:
 
+<figure>
+<video src="/uploads/uncertainty.mp4">
+
 ![An animation of the Schemas of Uncertainty website](/uploads/uncertainty.mp4)
 
 As much as I like the design of this thing, I must say the writing makes my eye twitch: 
