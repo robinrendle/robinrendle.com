@@ -19,7 +19,7 @@ I most certainly feel the unintelligible flow through me as I read this: what th
 
 > [This website] is not one thing, but many. That makes introducing it difficult to describe. However: do not take this as an invitation to explore further, but instead take it as a warning. Take a lantern, take a rope; you might get lost.
 
-Okay, I added some unnecessary juice to it. But that’s basically the point of this paragraph: tell the reader that hey there’s a lot of weird stuff on this website, mention how the articles don’t really click together, make it interesting, and then get out of the way. But instead we’ve been asked to mentally kickflip around words such as _proposition_, _indeterminacy_, _pre-emption_. These words do not clarify, they make the image here much harder to grasp. “Take a lantern, take a rope; you might get lost” isn’t poetry or anything but at least the image in your mind is crystal clear.
+Okay, I added some unnecessary juice to it. But that’s basically the point of this paragraph: tell the reader that hey there’s a lot of weird stuff on this website, mention how the articles don’t really click together, make it interesting, and then get out of the way. But instead we’ve been asked to mentally kickflip around words such as _proposition_, _indeterminacy_, _pre-emption_. These words do not clarify, they make the image here much harder to grasp. “Take a lantern, take a rope; you might get lost” isn’t poetry or anything but at least the image in your mind is clear.
 
 When I began reading this website I couldn’t help but wonder if this was an extremely cool website that I just couldn’t parse the language of or whether instead it was a legally binding contract I had stumbled upon.
 
