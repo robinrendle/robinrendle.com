@@ -29,7 +29,7 @@ This is what I call [The Guy Debord Problem](https://www.robinrendle.com/notes/w
 
 But! We shouldn’t be thinking of ourselves at all as we write. We should instead be asking ourselves the most important question when it comes to writing: am I caring for the reader? Is every word, every sentence and paragraph caring for those strangers I’ll never meet?
 
-Am I writing in service of me, or of them?
+Am I writing in service of them, or of me?
 
 “Service” here means not wasting their time: avoiding words designed to make you (the writer) sound clever, and never letting an unkind word slip. (You can get mad all you like with your writing, but you can never be petty.) Basically: [“simplify, simplify, simplify. Or, as I like to paraphrase: simplify.”](https://youtu.be/eky5uKILXtM)
 
@@ -37,7 +37,7 @@ Any bit of writing should be in service to the reader in these ways, but I think
 
 It’s all complete junk. And we have to learn to see this junk in the wild if we’re going to banish it from our work.
 
-I also think part of this is because we don’t study bad writing at all, and we jump straight to _Macbeth_ and _Paradise Lost_. We’re introduced to writing as if we ought to be poets reclining on love seats whereas instead we should treat writing as if we’re editors that are sat hunched around a table, half-drunk and smoking profusely whilst a bar brawl breaks out all around us and we’re on a deadline for tomorrow morning at 8am and—we check our watch—it’s already tomorrow morning, the clock has just violently turned 2am, and we’ve barely finished reading the first draft. All the while we’re overwhelmed because the only way that we can focus on the task at hand is to obsessively keep asking that question, over and over again, each time increasing the volume to shut out the cacophony of noise around us and to make sure that we never slip up, not even for a moment:
+I also think part of this is because we don’t study bad writing at all, and we jump straight to _Macbeth_ and _Paradise Lost_. We’re introduced to writing as if we ought to be poets reclining on love seats whereas instead we should treat writing as if we’re editors that are sat hunched around a table, half-drunk and smoking profusely whilst a bar brawl breaks out all around us and we’re on a deadline for tomorrow morning at 8am and—we check our watch—it’s already tomorrow morning, the clock has just violently turned 2am, and we’ve barely finished reading the first draft. All the while we’re overwhelmed because the only way that we can focus on the task at hand is to obsessively keep asking that question, over and over again, each time increasing the volume to shut out the noise all around us and to make sure that we never slip up, not even for a moment:
 
 “Am I writing in service of my reader?”
 
