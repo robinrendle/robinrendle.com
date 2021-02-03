@@ -7,7 +7,7 @@ extract: The Society of the Double Dagger returns!
 ---
 Robin made a few adjustments to [The Society of the Double Dagger](https://society.robinsloan.com/) and the new format is great: he’s split it up into all sorts of micro-newsletters and then he creates adjacent secret websites that’ll dive into a subject more. 
 
-In the secret website to Robin’s most recent newsletter, [In Foundation (part 2)](https://society.robinsloan.com/archive/january-2021/), he very kindly refers to _Newsletters_ and then mentions one of the biggest problems he has with the web today:
+In the secret website to Robin’s most recent newsletter, [Foundation (part 2)](https://society.robinsloan.com/archive/january-2021/), he very kindly refers to _Newsletters_ and then mentions one of the biggest problems he has with the web today:
 
 > Among the many small violences of the social media platforms is the way they squash every contribution into the same rectangle, framed by the same buttons. They do this so they can assemble those contributions into a larger structure; a timeline. They prefer neat bricks; stackable, interchangeable. Heterogeneous, weird-shaped content won’t do — although it’s interesting to imagine what that kind of timeline might look like…
 
