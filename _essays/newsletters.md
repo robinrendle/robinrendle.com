@@ -332,7 +332,7 @@ extract: Is this progress?
       <img alt="A gondola falls from the sky" src="/uploads/essays/on-newsletters/34-gondola.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>The web was originally intended to be read and written by everyone, but the technical hurdles of setting up a website excludes the vast majority of people. It should be easier so much easier.</p>
+      <p>The web was originally intended to be read and written by everyone, but the technical hurdles of setting up a website excludes the vast majority of people. It should all be so much easier.</p>
     </div>
   </div>
 
