@@ -11,7 +11,7 @@ $breakpoints: (
   small: 400px,
   medium: 620px,
   large: 920px,
-  largest: 1200px
+  largest: 1200px,
 ) !default;
 // UTILITIES : functions + settings to be used anywhere
 // # TODO: separate utils into tools + utils
@@ -48,7 +48,7 @@ $breakpoints: (
 @import "modules/card-list";
 @import "modules/highlight";
 @import "modules/form";
-@import "../../fonts/nitti_test/nitti";
+@import "../../fonts/columba/columba";
 
 section[role="main"] {
   min-height: 80vh;
@@ -312,7 +312,7 @@ a:focus {
   height: 26px;
   color: var(--secondary-text-color);
   border-radius: 3px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 
@@ -370,7 +370,6 @@ iframe {
   margin-bottom: 30px;
 }
 
-
 .toggle-theme {
   display: flex;
   align-items: center;
@@ -388,34 +387,33 @@ html[color-mode="dark"] {
   }
 }
 
-
 .toggle-label {
   font-size: 16px;
   display: block;
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 
   &:hover {
     transform: scale(1.1);
   }
   span {
-    clip: rect(0 0 0 0); 
+    clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
     position: absolute;
-    white-space: nowrap; 
+    white-space: nowrap;
     display: none;
   }
 }
 
 .toggle-label:before,
-.toggle-label:after { 
+.toggle-label:after {
   content: "";
   width: 30px;
   height: 30px;
   background-color: black;
   border-radius: 50%;
   display: inline-block;
-  border: 1px solid rgba(255,255,255,.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .toggle-label-dark {
@@ -449,8 +447,8 @@ html[color-mode="dark"] {
 
 .toggle-btn {
   position: absolute;
-	opacity: 0;
-  width: 0;	
+  opacity: 0;
+  width: 0;
   display: none;
 }
 
@@ -464,10 +462,11 @@ html[color-mode="dark"] {
   display: inline-block;
   margin-right: 5px;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background: var(--main-theme-color);
     border-color: var(--main-theme-color);
     color: white !important;
-    transition: .2s all linear !important; 
+    transition: 0.2s all linear !important;
   }
 }
