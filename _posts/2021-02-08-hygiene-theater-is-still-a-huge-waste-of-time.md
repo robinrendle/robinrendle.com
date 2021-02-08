@@ -11,7 +11,7 @@ extract: Always blame the boss.
 
 One small note to add here: all this confusion around how the virus spreads is not the federal government’s fault but the previous _administration’s_ fault. That’s a key difference to make here, I think—constantly saying the federal government is nothing more than a fuck-up reads to me now as an extremely dangerous precedent to set. We need to stop blaming the amorphous blob of agencies and staff and blame the managers—the people we voted in—who did not protect us and led to the deaths of more than 460,000 people.
 
-Saying “the federal government” is at fault without pointing at the lazy mafia boss that ran the show is lazy at best and disingenuous at worst; I strongly believe that complaining about things in this way makes us less willing to expand the scope of services that the federal government provides, less willing to give them the budgets to function properly, and less interested to care for how it all works under the hood. It’s talking points like this—absolute contempt for the federal government—that explain why healthcare is rigged. 
+Saying “the federal government” is at fault without pointing at the half-baked mafia boss that ran the show is lazy at best and disingenuous at worst; I strongly believe that complaining about things in this way makes us less willing to expand the scope of services that the federal government provides, less willing to give them the budgets to function properly, and less interested to care for how it all works under the hood. It’s talking points like this—absolute contempt for the federal government—that explains why healthcare is rigged. 
 
 In short: always blame the boss.
 
