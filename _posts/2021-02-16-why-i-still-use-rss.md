@@ -11,7 +11,7 @@ Marc wrote about [why he still uses RSS](https://atthis.link/blog/2021/rss.html)
 >
 > However it wasn't until I began working from home and everything in my life moved online that I really began to notice how beneficial RSS could be with relation to Digital Wellbeing. By selecting only the sites, blogs, creators etc. that I had a serious interest in, I could effectively remove the negative effects of social media and excessive online usage from my life.
 
-On a completely different tangent here: Marc doesn't share his last name or anything and whenever I see that on the web I'm always impressed. There's an alt-timeline Robin who never shared his name on the web and writes outrageous things about the thoughts in his head via a cool pseudonym like `Infinite Mess` or something I don’t know I haven’t had coffee yet. 
+On a completely separate tangent here: Marc doesn't share his last name or anything and whenever I see that on the web I'm always impressed. There's an alt-timeline Robin who never shared his name on the web and writes outrageous things about the thoughts in his head via a cool pseudonym like `Infinite Mess` or something I don’t know I haven’t had coffee yet. 
 
 Anyway, this reminds me of two things.
 
@@ -19,6 +19,6 @@ First: a while back I tried to learn more about [Kicks Condor](https://www.kicks
 
 And some writers are extremely good at that Sexy Mystery Distance but I think I’m always going to be the opposite end of that spectrum. Blogging is the opposite of all that mystery, in a way.
 
-Second: this reminds me of [Coates's piece about Kanye and Michael Jackson](https://www.theatlantic.com/entertainment/archive/2018/05/im-not-black-im-kanye/559763/):
+Second: this reminds me of [Coates’s piece about Kanye and Michael Jackson](https://www.theatlantic.com/entertainment/archive/2018/05/im-not-black-im-kanye/559763/):
 
 > ...[Kanye] is a god, though one born of a different time and a different need. Jackson rose in the last days of enigma and wonder; West, in an accessible age, when every fuck is a tweet and every defecation a status update. And perhaps, in that way, West has done something more remarkable, more amazing than Jackson, because he is a man of no mystery, overexposed, who holds the world’s attention through simply the consistent, amazing, near-peerless quality of his work.
