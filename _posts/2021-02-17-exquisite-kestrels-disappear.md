@@ -16,9 +16,6 @@ There’s something about this piece that I love—the discipline(?) of it. Ther
 Lewis writes about the 15th century Dutch painter Jan van Eyck and how he added such phenomenal detail to his paintings that no-one would ever notice:
 
 > He was able to depict in the series of painted panels for St Bavo’s seventy-five identifiable tree, plant and flower species, a large variety of known birds species (as distant silhouettes in the sky), and clouds so detailed they can be recognised as stratus, altocumulus, cirrocumulus and cirrus. However, the Ghent Altarpiece is 3.5 metres in height and hangs well above eye level. Van Eyck’s method of minute veristic realism — which led him to paint birds so detailed that their species is identifiable by silhouette alone — meant that these animals were rendered so small that to the cathedral-going viewer they were imperceivable. Would a cathedral-goer see those tiny details by candle light even sat in the first row of the pews? Hung over the dim altar as they were, Van Eyck’s kestrels would always disappear. 
-> 
-> So, as Julian Bell asks in the London Review of Books,
-> 
-> > … why did he bother? A pious answer might compare his unerringly aimed globs of pigment — kestrel, burgher, spout — to those delicate carvings masons are said to have added to cathedral spires for God’s eyes alone
+
 
 
