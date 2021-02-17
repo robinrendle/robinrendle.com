@@ -2,8 +2,8 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginFeedbin = require("eleventy-plugin-feedbin");
 const CleanCSS = require("clean-css");
 const slugify = require("slugify");
-const dateFilter = require('./_11ty/date-filter.js');
-const w3DateFilter = require('./_11ty/w3-date-filter.js');
+const dateFilter = require("./_11ty/date-filter.js");
+const w3DateFilter = require("./_11ty/w3-date-filter.js");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("uploads");
   eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("css");
 
   ////////////////////////
   // Markdown
@@ -36,7 +37,7 @@ module.exports = function (eleventyConfig) {
   let mdFootnote = require("markdown-it-footnote");
 
   let options = {
-    html: true
+    html: true,
   };
 
   let mdLib = md(options).use(mdFootnote);
@@ -45,24 +46,24 @@ module.exports = function (eleventyConfig) {
   ////////////////////////
   // Filters
   ////////////////////////
-  eleventyConfig.addFilter('dateFilter', dateFilter);
-  eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
+  eleventyConfig.addFilter("dateFilter", dateFilter);
+  eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
   eleventyConfig.addNunjucksFilter("limit", function (array, limit) {
     return array.slice(0, limit);
   });
 
-  eleventyConfig.addFilter("slug", input => {
+  eleventyConfig.addFilter("slug", (input) => {
     const options = {
       replacement: "-",
       remove: /[&,+#;()$~%.’”“‘'":*?<>{}]/g,
-      lower: true
+      lower: true,
     };
     return slugify(input, options);
   });
 
   eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
-  })
+  });
 
   eleventyConfig.addFilter("getRandom", function (items) {
     let selected = items[Math.floor(Math.random() * items.length)];
@@ -72,23 +73,23 @@ module.exports = function (eleventyConfig) {
   ////////////////////////
   // Collections
   ////////////////////////
-  eleventyConfig.addCollection("blogposts", collection => {
+  eleventyConfig.addCollection("blogposts", (collection) => {
     return collection.getFilteredByGlob("_posts/*.md");
   });
 
-  eleventyConfig.addCollection("projects", collection => {
+  eleventyConfig.addCollection("projects", (collection) => {
     return collection.getFilteredByGlob("_projects/*.md");
   });
 
-  eleventyConfig.addCollection("adventures", collection => {
+  eleventyConfig.addCollection("adventures", (collection) => {
     return collection.getFilteredByGlob("_adventures/*.md");
   });
 
-  eleventyConfig.addCollection("essays", collection => {
+  eleventyConfig.addCollection("essays", (collection) => {
     return collection.getFilteredByGlob("_essays/*.md");
   });
 
-  eleventyConfig.addCollection("essaysFeed", collection => {
+  eleventyConfig.addCollection("essaysFeed", (collection) => {
     return collection
       .getFilteredByGlob("_essays/*.md")
       .reverse()
@@ -98,7 +99,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
-  eleventyConfig.addCollection("feed", collection => {
+  eleventyConfig.addCollection("feed", (collection) => {
     return collection
       .getFilteredByGlob("_posts/*.md")
       .reverse()
@@ -111,8 +112,8 @@ module.exports = function (eleventyConfig) {
     dir: {
       input: "./",
       includes: "_includes",
-      output: "./_site"
+      output: "./_site",
     },
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
   };
 };

@@ -1,51 +1,110 @@
 {% include "header.html" %}
-  <div class="wrapper-wide wrapper-wide--grid">
+  <div class="wrapper-wide cell-t60">
     <section class="m-wrapper">
-      <div class="m-longform">
-        <h2 class="lil-heading">Robin Rendle</h2>
-        <p>My name’s Robin and I’m from the south-west of England, but now I live in cloudy San Francisco. From this tiny desk by the window I design things at <a href="https://sentry.io">Sentry</a> and write for <a href=
-  'https://css-tricks.com/'>CSS-Tricks</a>.</p>
+      <h2 class="lil-heading">About me</h2>
+      <div class="wrapper-wide--grid">
+        <div class="m-longform">
+          <p>My name’s Robin and I’m from the south-west of England, but now I live in cloudy San Francisco. From this tiny desk by the window I design things at <a href="https://sentry.io">Sentry</a> and write for <a href=
+  'https://css-tricks.com/'>CSS-Tricks</a>. Oh, and you can reach out <a href="mailto:robinjrendle@gmail.com?subject=Hello">via email</a>.</p>
+        </div>
+      </div>
+      <figure>
+        <img src="http://placehold.it/1600x850" />
+      </figure>
     </section>
   </div>
 
-  <div class="wrapper-wide wrapper-wide--grid">
+  <div class="wrapper-wide">
     <section class="m-wrapper">
       <div class="m-longform">
         <h2 class="lil-heading">Essays</h2>
-        <p>Over the years I’ve published a number of book-shaped websites. Each usually takes me a few weeks of research, design, and development—the idea is to try and push the web in weird directions. (This is where I try too hard).</p>
+        <div class="wrapper-wide--grid">
+          <p class="margin-none">Over the years I’ve published a number of book-shaped websites. They usually take a few weeks of research, design, and development—the idea is to try and push the web in weird directions. (This is where I try too hard).</p>
+        </div>
+        <div class="perspective">
+          <div class="book">
+            <div class="side cover"></div>
+            <div class="side bind"><span>The Futures of Typography</span></div>
+          </div>
+        </div>
+        <div class="wrapper-wide--essays">
+          <a href="/essays/newsletters" class="essay-card essay-card--newsletters">
+            <article>
+              <div class="essay-card__belly-band">
+                <time datetime="2021-01-03">January 2021</time>
+                <h3>Newsletters</h3>
+              </div>
+            </article>
+            <aside aria-hidden="true">
+              <time datetime="2021-01-03">January 2021</time>
+              <h3>Newsletters</h3>
+            </aside>
+          </a>
+          <a href="/essays/systems-mistakes-and-the-sea" class="essay-card essay-card--systems">
+            <article>
+              <div class="essay-card__belly-band">
+                <time datetime="2019-12-31T01:23:00.000Z">December 2019</time>
+                <h3>Systems, Mistakes, and the Sea</h3>
+              </div>
+            </article>
+          </a>
+          <a href="/essays/the-futures-of-typography" class="essay-card essay-card--futures">
+            <article>
+              <div class="essay-card__belly-band">
+                <time datetime="2017-01-06T20:25:00.000Z">January 2017</time>
+                <h3>The Futures of Typography</h3>
+              </div>
+            </article>
+          </a>
+        </div>
       </div>
     </section>
   </div>
 
-  <div class="wrapper-wide wrapper-wide--grid">
+  <div class="wrapper-wide">
     <section class="m-wrapper">
       <div class="m-longform">
-        <h2 class="lil-heading">Adventures in Typography: Season 3</h2>
-        <p>My current side project is a newsletter all about typefaces and fonts (and what those words mean). It’s for book nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever. Each week I write about <a href="/adventures/ghost-town.html">a stroll through the city</a> and a letter that caught my eye, or <a href="/adventures/take-care-of-the-margins.html">a beautiful book</a>, or even <a href=
+        <h2 class="lil-heading">Adventures in Typography</h2>
+        <div class="wrapper-wide--grid">
+          <div>
+          <p>My current side project is a newsletter all about typefaces and fonts (and what those words mean) called <em>Adventures in Typography</em>. It’s for book nerds, neon light enthusiasts, and for people who have no interest in typography whatsoever. Each week I write about <a href="/adventures/ghost-town.html">a stroll through the city</a> and a letter that caught my eye, or <a href="/adventures/take-care-of-the-margins.html">a beautiful book</a>, or even <a href=
   "/adventures/videogames-and-wiggletechtm%EF%B8%8F.html">a wiggly videogame</a>.</p>
+          {% include "newsletter.html" %}
+        </div>
+        <div class="letter-section">
+          <figure aria-hidden="true"><span class="columba">Aa</span><span class="display">Aa</span></figure><figcaption>Take a close look at the letters on this website, for instance. See how the body copy is stately without being <em>too</em> serious? That’s thanks to <a href="https://www.colophon-foundry.org/typefaces/columba">Columba Text</a> from the Colophon Foundry. And notice the titles: see how they’re rounder and a bit less sharp than Columba? That’s <a href="https://commercialtype.com/catalog/caponi">Caponi</a> by Commercial Type.</figcaption></div>
+        </div>
       </div>
-      {% include "newsletter.html" %}
     </section>
   </div>
 
-  <div class="wrapper-wide wrapper-wide--grid">
-    <section class="m-wrapper blog-list">
+  <div class="wrapper-wide">
+    <section class="m-wrapper">
       <div class="m-longform">
         <h2 class="lil-heading">Notes from the field</h2>
-        <p>I also blog basically every thought that goes through my head. It’s sort of embarrassing and yet somehow also extremely punk rock and impressive. You can <a href="https://www.robinrendle.com/feed.xml">subscribe via RSS</a>. (This is where I don’t try hard enough).</p>
+        <div class="m-longform">
+          <div class="wrapper-wide--grid">
+            <p>I also blog every thought that goes through my head. It’s sort of embarrassing and yet somehow also extremely impressive. You can <a href="https://www.robinrendle.com/feed.xml">subscribe via RSS</a>. (This is where I don’t try hard enough).</p>
+          </div>
+        </div>
       </div>
-
-      {% for item in collections.blogposts | reverse %}
-        {% if loop.index0 < 5 %}
-          <a class="card-list" href="{{item.url}}">
-            {% if item.data.date %}
-              <time class="h6 c-lightgrey" datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
-            {% endif %}
-            <h3 class="card-list__title">{{ item.data.title }}</h3>
-            <p class="card-list__text">{{ item.data.extract }}</p>
-          </a>
-        {% endif %}
-      {% endfor %}
+      <div>
+        <div class="wrapper-wide--grid blog-list">
+          <div>
+            {% for item in collections.blogposts | reverse %}
+              {% if loop.index0 < 5 %}
+                <a class="card-list" href="{{item.url}}">
+                  {% if item.data.date %}
+                    <time class="h6 c-lightgrey" datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
+                  {% endif %}
+                  <h3 class="card-list__title">{{ item.data.title }}</h3>
+                  <p class="card-list__text">{{ item.data.extract }}</p>
+                </a>
+              {% endif %}
+            {% endfor %}          
+          </div>
+        </div>
+      </div>
     </section>
   </div>
 

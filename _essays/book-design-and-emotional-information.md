@@ -3,9 +3,7 @@ title: Book design and emotional information
 date: 2011-09-21 14:12:00 -07:00
 layout: default
 hero: "/uploads/the-greatest-show-on-earth.jpg"
-extract:
-  The journey from reader to writer is a perilous one, and bad design affects
-  all of this information on transit as we read.
+extract: The journey from reader to writer is a perilous one.
 update:
   Removing the book from its dusty place, I instantly recalled why I had forgotten
   it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness
