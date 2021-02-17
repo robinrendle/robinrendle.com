@@ -3,7 +3,7 @@ title: Exquisite kestrels disappear
 date: 2021-02-17T16:41:44.431Z
 city: San Francisco
 country: California
-extract: Type design and scale
+extract: Lewis Mcguffie on type design and scale.
 ---
 Lewis Mcguffie, the designer of [Columba](https://buttondown.email/robinrendle/archive/kickflip-typography/), wrote this piece about [designing with scale in mind](https://lewisandhistype.medium.com/exquisite-kestrels-disappear-317fd3f81cc5):
 
