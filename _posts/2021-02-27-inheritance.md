@@ -15,7 +15,7 @@ I thought about this the other day, too. When I die my website will probably sti
 
 At some point or another this website, this URL, won’t resolve though. Maybe the Internet Archive will stick around for a while, but then everything is locked within this vast archive. 
 
-But really if my URL is dead, my website dies with it.
+But if my URL is dead, my website dies with it.
 
 My work shouldn’t be presented in the Smithsonian behind glass or anything, I’m just pointing at this enormous flaw in the architecture of the web itself: you’re renting servers and renting URLs. Nothing is permanent because on the web we don’t really own any space, we’re just borrowing land temporarily.
 
