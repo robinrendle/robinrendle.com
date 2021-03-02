@@ -3,7 +3,7 @@ title: The Arch of Honor
 date: 2021-03-02T16:37:53.064Z
 city: San Francisco
 country: California
-extract: A woodblock illustration by Albrecht Dürer in 1515.
+extract: A woodblock illustration made by Albrecht Dürer in 1515.
 ---
 Just look at this enormous woodblock illustration by Albrecht Dürer made in 1515. From [The Met](https://www.metmuseum.org/art/collection/search/388475) archives:
 
