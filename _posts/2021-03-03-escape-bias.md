@@ -11,7 +11,7 @@ For example: at [Sentry](https://sentry.io/) I’m on the Workflow team. We work
 
 It’s magic. 
 
-The problem here is that because I’m on the Workflow team I see every problem as one that can be solved with what I know and the features that I work on. These feelings are natural because our perspective is skewed: we ourselves as the protagonist at the center of the galaxy. Try to imagine yourself as an NPC, try to un-think what you currently know about the world and it’ll require some serious four dimensional chess in your brain. 
+The problem here is that because I’m on the Workflow team I see every problem as one that can be solved with what I know and the features that I work on. These feelings are natural because our perspective is skewed: we ourselves as the protagonist at the center of the galaxy. Try to imagine yourself as an [NPC](https://en.wikipedia.org/wiki/Non-player_character), try to un-think what you currently know about the world and it’ll require some serious four dimensional chess in your brain. 
 
 Simply put: if you’re on Team Hammer then you’ll see every problem as one that can only be solved with a hammer. 
 
