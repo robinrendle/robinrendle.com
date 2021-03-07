@@ -17,6 +17,6 @@ I’ve only studied a few economics classes but I knew then that those two thing
 
 I sort of pitied this guy, in a way. Sure he was going to be richer than I ever will be, that much was certain. But the way he talked about money, the way he imagined himself on top of people, crunching their poor bones beneath him, the way he saw himself as the master of this vast ponzi scheme—one that only he knew how to navigate...it was pitiable, cowardly, short-sighted. I knew I had to get away from it all at light-speed. 
 
-In his vision of the world he didn’t need to create anything brilliant or heartwarming, needn’t build anything of any real value. There was no magic in this vision of the world, and no wonder. 
+In his vision of the world he didn’t need to create anything brilliant or heartwarming, needn’t build anything of any real value. There was no magic in this vision, and no wonder. 
 
 All he saw was a pyramid and his own place within it.
