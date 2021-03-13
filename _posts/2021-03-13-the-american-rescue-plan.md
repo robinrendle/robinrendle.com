@@ -9,9 +9,9 @@ Thinking about the American Rescue Plan this morning and I feel light as a feath
 \
 Hope.\
 \
-Look at the American Rescue Plan and you'll see a federal government that you can admire, an elected body that doesn't despise you. And goddamn if that isn't something to be extremely hopeful for.
+Look at Biden's $1.9 trillion dollar stimulus package and you'll see a federal government that you can admire, an elected body that doesn't despise you. And goddamn if that isn't something to be extremely hopeful for.
 
-Just look at what's in this thing:
+Just _look_ at what's in this thing:
 
 - Extends unemployment benefits 
 - $1400 checks to folks who need it most 
