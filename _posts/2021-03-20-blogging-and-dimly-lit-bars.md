@@ -30,7 +30,7 @@ Or this piece from [Cassie](https://twitter.com/cassmarketos) back in '15 (the l
 
 And so although Robin writes that "the High Blogging Era might be behind us" we can—and should—return to it often because there are so many old and half-forgotten treasures to dig up. And there might be one or two of those dazzling things that we can resurrect for ourselves.
 
-The second thought I had with Robin's piece isn't really a thought so much as a memory, where Robin writes about Daniel Levin Becker’s book [_Many Subtle Channels_](https://bookshop.org/books/many-subtle-channels-in-praise-of-potential-literature/9780674065772) and oh boy [how much I loved that thing](https://www.robinrendle.com/adventures/potential-typography-and-the-oulipo). 
+The second thought I had with Robin's piece isn't really a thought so much as a memory, where Robin writes about Daniel Levin Becker’s book [_Many Subtle Channels_](https://bookshop.org/books/many-subtle-channels-in-praise-of-potential-literature/9780674065772) and oh boy [how much did I love that thing](https://www.robinrendle.com/adventures/potential-typography-and-the-oulipo). 
 
 But I remember something else, too: back in 2018 I followed Jez into a bar in the Inner Richmond after a reading of [his similarly lovely book](https://bookshop.org/books/dictionary-stories-short-fictions-and-other-findings/9780062652614). We gathered together in the gloomiest corner and our pearlescent drinks were dancing in their cups, illuminated by the flickering candle perched on the table. But at one point or another in the evening I made a particularly dumb joke and someone looked me dead in the eyes and called me a complete and utter bastard (in a sort of British, loving way).
 
