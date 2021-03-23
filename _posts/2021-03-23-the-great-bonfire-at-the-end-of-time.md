@@ -13,4 +13,4 @@ James Bridle on [museums, archivists, and art](http://booktwo.org/notebook/the-g
 > 
 > And the job of the rest of the culture is to come up with new things to put on the conveyor belt, making that work so much harder. Sorry.
 
-Damn.
+Damn. _Loads blog post onto the great bonfire._
