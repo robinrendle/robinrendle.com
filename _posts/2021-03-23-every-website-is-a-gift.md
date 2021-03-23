@@ -7,7 +7,7 @@ extract: ...only to make someone you love smile.
 ---
 “Let a website be a worry stone,” [Ethan wrote last year](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/) and I believe that’s so very true. We can treat our personal sites like stress balls and use all that pent up anxiety about the state of the world; we can tidy up the fonts, improve the Lighthouse score, tweak the colors, or edit the copy of an old blog post just because it helps. 
 
-I’ve spent many an anxious weekend doing just that. Every time the fonts on here change it’s because I’ve been worried about something and I just need to direct my focus into this one, tiny little detail to smooth things over. 
+I’ve spent many an anxious weekend doing just that. Every time the fonts on here change it’s because I’ve been worried about something and I just need to direct my focus into this one, tiny little detail to smoothe things over. 
 
 And so over the years I’ve found that my website is a worry stone, yes. But at the beginning of the pandemic it struck me all of a sudden that a website can be a gift. Like the example I made a few weeks ago when I wrote about how I made a little website for my girlfriend’s birthday and transformed myself into [a Stardew Valley character](https://buttondown.email/robinrendle/archive/be7f666f-0c9e-4992-ab44-f708886a27c6). I then continued to passive aggressively wish her happy birthday...
 
