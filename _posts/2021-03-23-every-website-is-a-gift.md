@@ -5,7 +5,7 @@ city: Oakland
 country: California
 extract: ...only to make someone you love smile.
 ---
-“Let a website be a worry stone,” [Ethan wrote last year](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/) and I believe that’s so very true. We can treat our personal sites like stress balls and use all that pent up anxiety about the state of the world and tidy up the fonts, bump the Lighthouse score, tweak the colors, or edit the copy of an old blog post just because it helps. 
+“Let a website be a worry stone,” [Ethan wrote last year](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/) and I believe that’s so very true. We can treat our personal sites like stress balls and use all that pent up anxiety about the state of the world; we can tidy up the fonts, improve the Lighthouse score, tweak the colors, or edit the copy of an old blog post just because it helps. 
 
 I’ve spent many an anxious weekend doing just that. Every time the fonts on here change it’s because I’ve been worried about something and I just need to direct my focus into this one, tiny little detail to smooth things over. 
 
@@ -19,11 +19,11 @@ Before that I made a website for a pal’s birthday because he happens to be som
 
 ![A text adventure game inspired by Animal Crossing](uploads/cleanshot-2021-03-22-at-21.33.45-2x.png)
 
-Finally, for another close friend’s birthday I made a website that mimics a thread of texts sent to her from Jeff Goldblum. Jeff introduces himself and then introduces each of her friends in turn to wish her happy birthday. This was fun to write because I got to write in Jeff’s peculiar cadence but also got to imagine what my pal would reply in kind:
+Finally, for another close friend’s birthday I made a website that mimics a thread of texts sent to her from Jeff Goldblum. Jeff introduces himself and then introduces each of her friends in turn to wish her happy birthday. This was fun because I got to write in Jeff’s peculiar cadence but also got to imagine what my pal would reply in kind:
 
 ![An example of the website](uploads/cleanshot-2021-03-22-at-21.37.49-2x.png)
 
-Websites can be serious things; we can turn them into great wells for us to cast our anxieties into, or stress balls for us to relieve the pressure of our lives. But a website can also be a delicately wrapped bundle of words and colors, with the express purpose only to make someone you love smile. 
+So websites can be serious things; we can turn them into great wells for us to cast our anxieties into, or stress balls for us to relieve the pressure of our lives. But a website can also be a delicately wrapped bundle of words and colors, with the express purpose only to make someone you love smile. 
 
 We should remember that every website is a gift.
 
