@@ -1,7 +1,7 @@
 ---
 title: The Great Bonfire at the End of Time
 date: 2021-03-23T04:05:26.117Z
-city: San Francisco
+city: Oakland
 country: California
 extract: Goddamn.
 ---
