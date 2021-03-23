@@ -1,7 +1,7 @@
 ---
 title: Every website is a gift
 date: 2021-03-23T04:19:34.239Z
-city: San Francisco
+city: Oakland
 country: California
 extract: ...only to make someone you love smile.
 ---
