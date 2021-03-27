@@ -29,4 +29,4 @@ Miller writes:
 
 > I wake sometimes in the dark terrified by my life's precariousness, its thready breath. Beside me, my husband's pulse beats at his throat; in their beds, my children's skin shows every faintest scratch. A breeze would blow them over, and the world is filled with more than breezes: diseases and disasters, monsters and pain in a thousand variations. I do not forget either my father and his kind hanging over us, bright and sharp as swords, aimed at our tearing flesh. If they do not fall on us in spite and malice, then they will fall by accident or whim. My breath fights in my throat. How can I live on beneath such a burden of doom? I rise then and go to my herbs. I create something, I transform something...
 
-Circe has taught me that in moments like these we must do something brave: we must go to our herbs.
+So Circe has taught me that in moments like these we must do something brave: we must go to our herbs.
