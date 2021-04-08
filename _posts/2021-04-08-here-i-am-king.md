@@ -15,4 +15,4 @@ But the ending of this piece is what slapped me awake:
 
 I know this is bonkers but I can't help but wonder if this piece is somewhat inspired by [Newsletters](https://www.robinrendle.com/essays/newsletters) though—the snapping of new chunks of text into view, the beginning of sentences with "...", the pace of it—it all reminds me of...me?
 
-Perhaps that's an absolutely bonkers thing to say out loud, but it would be super neat if this beautiful thing was inspired by something I made. And if not, then it's equally neat that we kind of made something similar whilst also each of them being distinct from one another. 
+Perhaps that's an absolutely bonkers thing to say out loud, but it would be super neat if this beautiful thing was inspired by something I made. And if not, then it's equally neat that we kind of made something similar by happenstance. 
