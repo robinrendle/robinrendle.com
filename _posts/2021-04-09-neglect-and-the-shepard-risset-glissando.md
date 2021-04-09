@@ -3,7 +3,7 @@ title: Neglect and the Shepard-Risset glissando
 date: 2021-04-09T07:05:50.080Z
 city: San Francisco
 country: California
-extract: And the guilt of being worthy enough.
+extract: Or, the guilt of being worthy.
 ---
 I’m obsessed with work. It’s the first thing I wake up with in the morning and it’s the last thing I think of before I fall asleep. Well, “sleep” wouldn’t be fair because it’s a shattered, partial, broken half-trance that I slip into these days. Throughout the night I’ll wake up with my jaw clamped down as if a wire has been pulled taut in my body and my back will scream as if a violin string is being pulled through me.
 
