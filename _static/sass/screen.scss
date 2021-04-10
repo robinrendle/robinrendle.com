@@ -338,19 +338,15 @@ a:focus {
   }
 }
 
-.about-page h1 {
-  color: var(--main-theme-color);
-}
-
-.home-header h1 {
+h1.home-header  {
+  font-size: clamp(100%, 1rem + 2vw, 24px);
   @include media(">medium") {
     line-height: 0.9 !important;
   }
 }
 
-.home-header span:not(#demo) {
-  display: block;
-  color: var(--heading-color);
+h2.home-header  {
+  font-size: clamp(100%, 1rem + 2vw, 24px);
 }
 
 .lil-heading {
@@ -610,10 +606,16 @@ figure {
 
 .letter-section {
   figure {
+    display: flex;
+    align-items: baseline;
     margin-top: 0;
-    font-size: 160px;
-    color: var(--main-text-color);
+    font-size: 190px;
+    color: var(--html-bg-color);
     text-align: center;
+    gap: 20px;
+    opacity: 0.3;
+    border-radius: 4px;
+    background-color: var(--secondary-text-color);
   }
 
   span {
@@ -629,5 +631,16 @@ figure {
     padding: 0;
     margin-top: 0 !important;
     font-style: italic;
+  }
+}
+
+.friends {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+
+  li:after {
+    content: ",";
   }
 }

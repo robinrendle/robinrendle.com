@@ -5,6 +5,7 @@
 $_max-width: 670;
 
 .wrapper-wide {
+  margin-bottom: 60px;
   @include media(">largest") {
     max-width: 1200px;
     margin: 0 auto;

@@ -10,10 +10,6 @@
   margin-top: 30px;
   margin-bottom: 40px;
 
-  @include media(">large") {
-    align-self: center;
-  }
-
   ::-webkit-input-placeholder {
     color: #ddd;
   }
