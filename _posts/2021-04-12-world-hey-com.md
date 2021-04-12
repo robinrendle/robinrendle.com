@@ -9,6 +9,6 @@ I loved [this episode](https://overcast.fm/+JptjDjl1o) of the Rework podcast abo
 
 Spoilers: I love this idea.
 
-Besides how neat that is (tying blogging to your email address) there's this other remarkable thing about how this is built: There's no JavaScript! No ads! No analytics! No cookies! Each post on HEY World is devoid of popups, too. And it's simply bonkers to me that this feels like a new kind of software, a fresh and exciting website with no junk. 
+Besides how neat that is (tying blogging to your email address) there's this other remarkable thing about how this is built: There's no JavaScript! No ads! No analytics! No cookies! Each post on HEY World is devoid of popups, too. And it's simply bonkers to me that this feels like a new kind of software; a fresh and exciting website with no junk. 
 
-This is probably the biggest indictment new again when you take the web back to 1.0 and it feels _new_ again. Just the sheer restraint required to not add so much junk and JavaScript or an infinite scroll or ten million other things  is remarkable, I think.
+This is probably the biggest indictment of modern web design...when you take the web back to 1.0 and it feels _new_ again.
