@@ -10,7 +10,7 @@ a {
 }
 
 @mixin links() {
-  &,
+  &:is(a),
   a {
     color: var(--link-color);
     overflow: hidden;
@@ -19,17 +19,34 @@ a {
     transition: color 0.3s ease;
     text-decoration-style: wavy;
     text-decoration-skip: ink;
+
     &:hover,
     &:focus {
       text-decoration: none;
       color: var(--link-hover-color);
       border: none;
+
+      &:before,
+      &:after {
+        color: currentColor;
+      }
     }
   }
 }
 
 .links {
   @include links();
+
+  &.card-list__text a {
+    color: var(--secondary-text-color);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+    &:hover {
+      text-decoration: underline;
+      color: var(--link-hover-color);
+    }
+  }
 }
 
 .links--underline {

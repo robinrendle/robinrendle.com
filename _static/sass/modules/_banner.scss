@@ -19,13 +19,12 @@
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 1rem;
   overflow: scroll;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 
   &::-webkit-scrollbar {
     display: none;
   }
-
 
   @include media(">large") {
     margin: 0 auto;
@@ -33,7 +32,7 @@
   }
 
   @include media(">largest") {
-    max-width: 1200px;
+    max-width: 1125px;
   }
 }
 
@@ -108,7 +107,7 @@
   }
 
   &:hover {
-    background: rgba(255,255,255,.2);
+    background: rgba(255, 255, 255, 0.2);
     &:after {
       color: var(--form-bg-color) !important;
     }

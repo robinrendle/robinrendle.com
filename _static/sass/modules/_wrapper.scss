@@ -7,7 +7,7 @@ $_max-width: 670;
 .wrapper-wide {
   margin-bottom: 60px;
   @include media(">largest") {
-    max-width: 1200px;
+    max-width: 1125px;
     margin: 0 auto;
     padding: 0 20px;
 
@@ -15,6 +15,28 @@ $_max-width: 670;
       margin: 0;
       padding: 0;
       max-width: 100%;
+    }
+  }
+}
+
+.m-home-wrapper {
+  article {
+    padding-bottom: 70px;
+
+    &:after {
+      content: "***";
+      color: var(--secondary-text-color);
+      display: block;
+      margin: 40px auto;
+      width: 30px;
+      height: 30px;
+      opacity: 0.4;
+    }
+
+    h2:hover,
+    h2:focus {
+      transition: color 0.2s linear;
+      color: var(--main-theme-color);
     }
   }
 }
