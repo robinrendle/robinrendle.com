@@ -23,7 +23,7 @@ For years I would call my family. I would pace around my apartment in the middle
 
 It seemed so futile, like a virus without a cure. Yet I believed I could purge these fascist sympathies from my family through sheer force of will. Through sheer stubbornness. And love.
 
-Since then I keep coming back to this piece by Dorothy Thompson from 1941 called [Who Goes Nazi?](https://harpers.org/archive/1941/08/who-goes-nazi/). She wrote:
+Since then I keep coming back to this piece by Dorothy Thompson from 1941 called [Who Goes Nazi?](https://harpers.org/archive/1941/08/who-goes-nazi/) She wrote:
 
 > It is an interesting and somewhat macabre parlor game to play at a large gathering of one’s acquaintances: to speculate who in a showdown would go Nazi. By now, I think I know. I have gone through the experience many times—in Germany, in Austria, and in France. I have come to know the types: the born Nazis, the Nazis whom democracy itself has created, the certain-to-be fellow-travelers. And I also know those who never, under any conceivable circumstances, would become Nazis.
 >
