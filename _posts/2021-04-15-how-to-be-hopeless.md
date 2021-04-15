@@ -19,7 +19,7 @@ And so I chose to ignore the plague.
 
 But then I watched it roll into my hometown and by then it was too late. My family was consumed whole by racist propaganda; my mom, my dad, my brother. Fascist ideology took hold of their minds until today I barely recognize them.
 
-For years I would call my family. I would pace around my apartment in the middle of the night whilst screaming and wailing and pleading with them. I read everything I could about Brexit, about how to argue against it, and tried to figure out which arguments worked best. Nothing worked.
+For years I would call my family. I would pace around my apartment in the middle of the night whilst screaming and wailing and pleading with them. I read everything I could about Brexit and tried to figure out which arguments worked best. Nothing worked.
 
 It seemed so futile, like a virus without a cure. Yet I believed I could purge these fascist sympathies from my family through sheer force of will. Through sheer stubbornness. And love.
 
