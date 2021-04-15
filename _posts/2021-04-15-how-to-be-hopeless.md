@@ -1,7 +1,7 @@
 ---
 title: How To Be Hopeless
 date: 2021-04-15T04:33:39.900Z
-city: San Francisco
+city: Oakland
 country: California
 extract: “The only means of fighting a plague is common decency.”
 ---
