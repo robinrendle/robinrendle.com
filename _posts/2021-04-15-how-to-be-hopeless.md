@@ -33,7 +33,7 @@ Since then I keep coming back to this piece by Dorothy Thompson from 1941 called
 
 Dorothy is describing the same plague, and 71 years later we’re still fighting this thing. In Carlos’s video he makes a startling argument: we’ll _always_ be fighting this plague, fascism isn’t something that ever goes away. The problems within our society are buried so deep that it’s impossible to ever fully uproot this thing. But that doesn’t mean we should give up.
 
-How do we fight the plague? Carlos quotes Albert Camus in _The Plague_ with perhaps the only good answer we have:
+How do we fight it? Carlos quotes Albert Camus in _The Plague_ with perhaps the only good answer we have:
 
 > The only means of fighting a plague is common decency.
 
