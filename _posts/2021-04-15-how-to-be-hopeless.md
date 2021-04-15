@@ -33,11 +33,11 @@ Since then I keep coming back to this piece by Dorothy Thompson from 1941 called
 
 Dorothy is describing the same plague, and 71 years later we’re still fighting this thing. In Carlos’s video he makes a startling argument: we’ll _always_ be fighting this plague, fascism isn’t something that ever goes away. The problems within our society are buried so deep that it’s impossible to ever fully uproot this thing. But that doesn’t mean we should give up.
 
-How do we fight it? Carlos quotes Albert Camus in _The Plague_ with perhaps the only good answer we have:
+How do we fight it? Carlos quotes Albert Camus with perhaps the only good answer we have:
 
 > The only means of fighting a plague is common decency.
 
-I don’t find much solace in that, but I like it. It reminds me of _Invisible Cities_ where Italo Calvino describes how we must fight the inferno:
+I don’t find much solace in this, but I do like it. It reminds me of _Invisible Cities_ where Italo Calvino describes how we must fight the inferno:
 
 > ...the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it. The second is risky and demands constant vigilance and apprehension: seek and learn to recognize who and what, in the midst of the inferno, are not inferno, then make them endure, give them space.
 
