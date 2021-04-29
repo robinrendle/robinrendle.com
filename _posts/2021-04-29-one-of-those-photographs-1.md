@@ -15,7 +15,9 @@ I got the first shot of the Pfizer vaccine today. Celine dropped me off at the O
 
 Except, well, as a Brit there's something odd, something evil in fact, about getting a vaccination from a company (in my case, Kaiser Permanente). I'm incredibly lucky to have health insurance but standing in that room made my blood boil. You see, getting a vaccine from Kaiser is like getting a vaccine from Coca Cola or McDonald's. Why the fuck is a company giving out the vaccine?
 
-As I’m in line, standing there teary-eyed from the downright majesty of the moment but also standing there with a clenched fist from the absolute evil of commercialized medicine, someone behind me called a nurse over. “Excuse me," she said “is this vaccine free?”
+As I’m in line, standing there teary-eyed from the downright majesty of the moment but also standing there with a clenched fist from the absolute evil of commercialized medicine, someone behind me calls out to a nurse. “Excuse me," she said “is this vaccine free?”
+
+“Of course,” she replied. Of course.
 
 I’m outside waiting for Celine to pick me up now and I can’t stop thinking of that photograph over and over again. I was in one of those photographs just a moment ago. That was me.
 
