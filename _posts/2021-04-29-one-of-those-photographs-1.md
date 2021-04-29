@@ -5,9 +5,9 @@ city: Oakland
 country: California
 extract: And at just the right moment he looks at the camera.
 ---
-A few months ago I couldn't stop looking at a photograph. It was taken at Fort Riley in Kansas around 1918 and shows an enormous, cavernous room stacked full of patients lying on beds; soldiers stricken with the Spanish Flu. They're wearing masks whilst doctors and nurses make their rounds. 
+A few months ago I couldn't stop looking at a photograph. It was taken at Fort Riley in Kansas around 1918 and shows an enormous, cavernous room stacked full of patients lying on beds; soldiers stricken with the Spanish Flu. Hats, masks, no phones. Doctors and nurses make their rounds. 
 
-In one corner a man younger than me is holding a letter and, at just the right moment, he looks at the camera.
+In the center of the photograph, a man younger than me is holding a letter and, at just the right moment, he looks at the camera.
 
 ![A photograph taken around 1918 of soldiers lying in beds during the Spanish Flu](uploads/2560px-emergency_hospital_during_influenza_epidemic-_camp_funston-_kansas_-_ncp_1603.jpeg)
 
