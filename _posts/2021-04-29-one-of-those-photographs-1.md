@@ -17,7 +17,7 @@ Except, well, as a Brit there's something odd, something evil in fact, about get
 
 As I’m in line, standing there teary-eyed from the downright majesty of the moment but also standing there with a clenched fist from the absolute evil of commercialized medicine, someone behind me called a nurse over. “Excuse me," she said “is this vaccine free?”
 
-Outside waiting for Celine I thought of that photograph again and realized suddenly that I was in one of those photographs today. 
+I'm outside waiting for Celine to pick me up now and I can’t stop thinking of that photograph over and over again. I was in one of those photographs just a moment ago. That was me.
 
 And I thought about what all this means, and I wanted to cry.
 
