@@ -1,15 +1,26 @@
 {% include "header.html" %}
 
 <div class="wrapper-wide">
-  <div class="m-header home-header">
-    <h1 class="m-wrapper">
-      Robin Rendle
-      <span
-        >Designer at <a href="https://sentry.io">Sentry</a> and writer at
-        <a href="https://css-tricks.com">CSS-Tricks</a></span
-      >
-    </h1>
-    <figure class="home-figure"></figure>
+  <div class="intro">
+    <div class="m-header home-header">
+      <div class="m-wrapper">
+        <div class="m-longform">
+          <h1>Robin Rendle</h1>
+          <p>
+            I’m a designer at <a href="https://sentry.io">Sentry</a> and staff
+            writer at <a href="https://css-tricks.com">CSS-Tricks</a> (right now
+            I’m focused on
+            <a href="https://css-tricks.com/newsletter/248-unlearning-css/"
+              >the newsletter</a
+            >). My latest side project was a sprawling rant about
+            <a href="https://www.robinrendle.com/essays/newsletters"
+              >how we read and write on the web</a
+            >. Oh, and you can always reach out
+            <a href="mailto:robinjrendle@gmail.com?subject=Hello">via email</a>.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -21,11 +32,11 @@
     <div class="m-home-wrapper">
       {% for item in collections.blogposts | reverse %} {% if loop.index0 < 8 %}
       <article>
-        <div class="m-header home-header">
+        <div>
           <div class="meta-info">
-            <p class="meta-info__item">
+            <div class="meta-info__item">
               {{ item.data.city }}, {{ item.data.country }}
-            </p>
+            </div>
             <div class="meta-info__item">
               {% if item.data.date %}
               <time
@@ -36,18 +47,18 @@
               {% endif %}
             </div>
           </div>
-          <a href="{{item.url}}">
-            <h2 class="h1">{{ item.data.title }}</h2>
-          </a>
         </div>
-        <div class="m-longform">{{ item.data.content | safe}}</div>
+        <div class="m-longform">
+          <a href="{{item.url}}"><h2>{{ item.data.title }}</h2></a>
+          {{ item.data.content | safe}}
+        </div>
       </article>
       {% endif %} {% endfor %}
     </div>
   </section>
 
   <section>
-    <section class="m-wrapper cell-t20">
+    <section class="m-wrapper">
       <div class="m-longform">
         <h2 class="lil-heading">Colophon</h2>
       </div>
@@ -66,16 +77,6 @@
         <span class="font-example font-example-text">Aa</span>
       </figure>
     </section>
-    <section class="m-wrapper">
-      <div class="m-longform">
-        <h2 class="lil-heading">Contact</h2>
-      </div>
-      <p class="card-list__text links">
-        You can reach out
-        <a href="mailto:robinjrendle@gmail.com?subject=Hello">via email</a>.
-      </p>
-    </section>
-
     <section class="m-wrapper cell-t20">
       <div class="m-longform">
         <h2 class="lil-heading">Essays</h2>
@@ -84,7 +85,7 @@
         Every year I try to write a small bookish thing which is usually a
         collection of thoughts from /notes:
       </p>
-      <ul class="links">
+      <ul class="links essay-list">
         <li><a href="/essays/newsletters">Newsletters</a></li>
         <li>
           <a href="essays/systems-mistakes-and-the-sea">
@@ -98,14 +99,13 @@
         </li>
       </ul>
     </section>
-
-    <section class="m-wrapper">
+    <section class="m-wrapper cell-t20">
       <div class="m-longform">
         <h2 class="lil-heading">Folks I admire</h2>
       </div>
       <p class="card-list__text">
-        I love RSS, newsletters, and reading notes on the web. Here’s some of
-        the folks who I admire:
+        I adore RSS, newsletters, and reading notes on the web so here’s some of
+        the folks who I love reading:
       </p>
     </section>
     <div>

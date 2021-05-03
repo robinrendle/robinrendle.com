@@ -41,13 +41,7 @@ h2 {
   .m-longform & {
     @include remCalc(font-size, 28);
     line-height: 1.3;
-    @include media(">medium") {
-      @include remCalc(font-size, 35);
-      line-height: 1.2;
-    }
-    @include media(">large") {
-      @include remCalc(font-size, 40);
-    }
+    margin-top: 0;
   }
 }
 

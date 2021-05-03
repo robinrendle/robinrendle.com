@@ -5,6 +5,10 @@
 // Styles for date, time, location etc.
 //
 
+.m-home-wrapper .meta-info {
+  margin-bottom: 0;
+}
+
 .meta-info {
   @include typeface("Regular italic");
   @include remCalc(font-size, 16);

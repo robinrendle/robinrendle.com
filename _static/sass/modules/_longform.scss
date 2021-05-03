@@ -218,7 +218,9 @@
   .h2,
   h2 {
     margin-bottom: 20px;
-    @include remCalc(margin-top, ($base-spacing-unit * 2));
+    a {
+      text-decoration: none !important;
+    }
   }
 
   .h3,
