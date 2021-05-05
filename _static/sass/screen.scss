@@ -83,7 +83,8 @@ section[role="main"] {
 
     a {
       color: inherit;
-      text-decoration: 1px solid underline;
+      text-decoration: 1.5px solid underline;
+      text-decoration-color: var(--heading-color);
     }
   }
 
@@ -96,7 +97,7 @@ section[role="main"] {
 
 .m-header {
   padding-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   @media screen and (min-width: 700px) {
     padding-top: 80px;
   }
@@ -253,7 +254,7 @@ a:focus {
 
 .home-header h1 {
   color: var(--main-theme-color) !important;
-  line-height: 1.5;
+  line-height: 1;
   @include links();
 
   @include media(">medium") {
@@ -479,4 +480,8 @@ figure {
 
 .cell-t20 {
   margin-top: 20px !important;
+}
+
+.cell-b20 {
+  margin-bottom: 20px !important;
 }
