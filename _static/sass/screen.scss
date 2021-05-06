@@ -417,6 +417,13 @@ figure {
   line-height: 0.73;
 }
 
+.font-example-italic {
+  transition: all 0.3s ease-in;
+  @include typeface("Regular italic");
+  z-index: 0;
+  line-height: 0.73;
+}
+
 .typography {
   position: relative;
   height: 150px;
