@@ -61,6 +61,11 @@ section[role="main"] {
 
 .intro {
   font-size: 1.8rem !important;
+
+  @include media("<medium") {
+    margin-bottom: 40px;
+  }
+
   p {
     font-size: 1.4rem !important;
     @include typeface("Regular");
@@ -421,7 +426,7 @@ figure {
   transition: all 0.3s ease-in;
   @include typeface("Regular italic");
   z-index: 0;
-  line-height: 0.73;
+  line-height: 0.6;
 }
 
 .typography {
@@ -449,6 +454,7 @@ figure {
 
   li:not(:last-of-type):after {
     content: ",";
+    color: var(--secondary-text-color) !important;
   }
 
   li a {

@@ -5,11 +5,12 @@ city: Oakland
 country: California
 extract: And at just the right moment he looks at the camera.
 ---
-A few months ago I couldn't stop looking at a photograph. It was taken at Fort Riley in Kansas around 1918 and shows an enormous, cavernous room stacked full of patients lying on beds; soldiers stricken with the Spanish Flu. Hats, masks, no phones. Doctors and nurses make their rounds. 
+
+A few months ago I couldn't stop looking at a photograph. It was taken at Fort Riley in Kansas around 1918 and shows an enormous, cavernous room stacked full of patients lying on beds; soldiers stricken with the Spanish Flu. Hats, masks, no phones. Doctors and nurses make their rounds.
 
 In the center of the photograph, a man younger than me is holding a letter and, at just the right moment, he looks at the camera.
 
-![A photograph taken around 1918 of soldiers lying in beds during the Spanish Flu](uploads/2560px-emergency_hospital_during_influenza_epidemic-_camp_funston-_kansas_-_ncp_1603.jpeg)
+![A photograph taken around 1918 of soldiers lying in beds during the Spanish Flu](/uploads/2560px-emergency_hospital_during_influenza_epidemic-_camp_funston-_kansas_-_ncp_1603.jpeg)
 
 I got the first shot of the Pfizer vaccine today. Celine dropped me off at the Oakland Convention Center — an enormous, cavernous room setup for vaccinations. And as soon as I walked in I thought of that photograph. Imagine the _scale_ of this machine, all over the country there are rooms like this.
 
@@ -21,4 +22,4 @@ As I’m in line, standing there teary-eyed from the downright majesty of the mo
 
 I’m outside waiting for Celine to pick me up now and I can’t stop thinking of that photograph over and over again. I was in one of those photographs just a moment ago. That was me.
 
-![A picture of me with the vaccine sticker](uploads/d7948191-77d5-4fc7-aa48-c63e3b075325_1_105_c-1.jpg)
+![A picture of me with the vaccine sticker](/uploads/d7948191-77d5-4fc7-aa48-c63e3b075325_1_105_c-1.jpg)
