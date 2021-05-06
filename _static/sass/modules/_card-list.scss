@@ -23,7 +23,7 @@
 
 a.card-list {
   &:first-of-type {
-    padding-top: 0;
+    padding-top: 15px;
   }
 
   &:hover,
@@ -39,6 +39,7 @@ a.card-list {
   }
 
   time {
+    @include typeface("Regular italic");
     color: #666;
     @include remCalc(font-size, 17);
     display: block;
@@ -79,9 +80,4 @@ a.card-list {
       padding-bottom: 30px;
     }
   }
-}
-
-figure {
-  margin-bottom: 60px;
-  margin-top: 60px;
 }

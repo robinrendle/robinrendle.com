@@ -6,8 +6,8 @@ $c-text: #999;
 $c-offwhite: lighten($c-text, 10);
 
 :root {
-  --theme-light: #2754bd;
-  --theme-light-accent: #efefef;
+  --theme-light: #3a589e;
+  --theme-light-accent: #dae4ea;
   --theme-dark: #ffc227;
   --theme-dark-accent: #111;
 }
@@ -15,23 +15,22 @@ $c-offwhite: lighten($c-text, 10);
 :root[color-mode="light"] {
   --html-bg-color: #fff;
   --body-bg-color: var(--theme-light-accent);
-  
+
   --main-text-color: #444;
   --secondary-text-color: #555;
   --heading-color: #222;
 
   --main-theme-color: var(--theme-light);
   --link-color: var(--main-text-color);
-  --link-hover-color: #2754bd;
+  --link-hover-color: var(--theme-light);
   --link-underline: #888;
 
   --card-bg: #e9e9e9;
   --card-border: #ccc;
 
-  --form-bg-color: #ddd;
+  --form-bg-color: white;
 
   --banner-bg-color: var(--main-theme-color);
-  --nav-color: #ffc227;
   --nav-border: var(--html-bg-color);
 
   --highlight-color: #ffd86e21;
@@ -53,7 +52,7 @@ $c-offwhite: lighten($c-text, 10);
 
   --main-theme-color: var(--theme-dark);
   --link-color: var(--main-text-color);
-  --link-hover-color: #ffc227;
+  --link-hover-color: var(--theme-dark);
   --link-underline: #777;
 
   --card-bg: #e9e9e9;
@@ -62,7 +61,6 @@ $c-offwhite: lighten($c-text, 10);
   --form-bg-color: #333;
 
   --banner-bg-color: #222222;
-  --nav-color: #1f223d;
   --nav-border: #ddd;
 
   --highlight-color: #ffd86e21;

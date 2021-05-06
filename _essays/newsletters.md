@@ -108,7 +108,6 @@ extract: Is this progress?
     </div>
   </div>
 
-
   <div class="slide">
     <div class="slide-img">
       <img alt="An astronomer looks up at the stars" src="/uploads/essays/on-newsletters/11-herschel.jpg" loading="lazy"/>
@@ -135,7 +134,6 @@ extract: Is this progress?
       <p>It bothers me that writers can’t create audiences on their own websites, with their own archives, and their own formats. And they certainly can’t get paid in the process. (Although yes, there are exceptions).</p>
     </div>
   </div>
-
 
   <div class="slide">
     <div class="slide-img">
@@ -191,7 +189,6 @@ extract: Is this progress?
     </div>
   </div>
 
-
   <div class="slide">
     <div class="slide-img">
       <img alt="A person setting metal type" src="/uploads/essays/on-newsletters/20-printing-form.jpg" loading="lazy"/>
@@ -236,7 +233,6 @@ extract: Is this progress?
       <p>But if websites are so great then why did everyone (including me) move to newsletters? Why did blogs die off? Well, there are ten million answers to those questions, but only three I want to focus on.</p>
     </div>
   </div>
-
 
   <div class="slide">
     <div class="slide-img">
@@ -620,7 +616,6 @@ extract: Is this progress?
     </div>
   </div>
 
-
   <div class="slide">
     <div class="slide-img">
       <img alt="Knights storm a castle" src="/uploads/essays/on-newsletters/65-scotch-soldiers.jpg" loading="lazy"/>
@@ -629,7 +624,6 @@ extract: Is this progress?
       <p>The web today is built for apps—and I think we need to take it back.</p>
     </div>
   </div>
-
 
   <div class="slide">
     <div class="slide-img">
@@ -674,7 +668,7 @@ extract: Is this progress?
       <img alt="Making a toast at dinner" src="/uploads/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
     </div>
     <div class="slide-text">
-      <p>Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustations</a> for all these lovely woodcuts and metal engravings. Also thanks to Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali Burnett, Crick, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
+      <p>Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a> for all these lovely woodcuts and metal engravings. Also thanks to Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali Burnett, Crick, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
     </div>
   </div>
 

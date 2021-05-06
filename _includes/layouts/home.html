@@ -1,40 +1,190 @@
 {% include "header.html" %}
+
 <div class="wrapper-wide">
-  <div class="m-header home-header about-page">
-    <h1 class="m-wrapper">Robin Rendle <span>Reading and writing, designing and ranting.</span></h1>
+  <div class="intro">
+    <div class="m-header home-header">
+      <div class="m-wrapper">
+        <div class="m-longform">
+          <h1>Robin Rendle</h1>
+          <p>
+            I’m a designer at <a href="https://sentry.io">Sentry</a> and staff
+            writer at <a href="https://css-tricks.com">CSS-Tricks</a>. Each week
+            I write
+            <a
+              href="https://css-tricks.com/newsletter/249-decoding-async-tree-rings-and-flexbox-gap/"
+              >a newsletter about the web</a
+            >
+            and my latest rant was about, well,
+            <a href="https://www.robinrendle.com/essays/newsletters"
+              >newsletters</a
+            >. Of course, you’re very welcome for whatever this is and yet I’m
+            also extremely sorry.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-<div class="wrapper-wide wrapper-wide--grid">
+
+<div class="wrapper-wide wrapper-wide--grid wrapper-wide--home">
   <section class="m-wrapper">
     <div class="m-longform">
-      <h2 class="lil-heading">About me</h2>
-      <p>I’m from the south-west of England, but now I live in cloudy San Francisco where I design things at <a href="https://sentry.io">Sentry</a> whilst I blog alongside the ever-so-lovely team at <a href=
-'https://css-tricks.com/'>CSS-Tricks</a>. Here you’ll find an archive of everything I’ve published in the last five years and so I can only offer a word of warning; things certainly got a little weird at one point or another. Over in <a href='/notes'>/notes</a> I write
-        about whatever’s going on in my head at the moment and <a href='/essays'>/essays</a> is where those notes get polished into something a bit more readable.</p>
-      <p>Also! My current side project is a newsletter all about typefaces and fonts (and what those words mean). It’s for book nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever. Each week I
-        write about <a href="/adventures/ghost-town.html">a stroll through the city</a> and a letter that caught my eye, or <a href="/adventures/take-care-of-the-margins.html">a beautiful book</a>, or even <a href=
-"/adventures/videogames-and-wiggletechtm%EF%B8%8F.html">a wiggly videogame</a>.</p>
-      <p>You can subscribe below for weekly-ish updates:</p>
+      <h2 class="lil-heading">Latest Notes</h2>
     </div>
-    {% include "newsletter.html" %}
-  </section>
-  <section class="m-wrapper blog-list">
-    <div class="m-longform">
-      <h2 class="lil-heading">Notes from the field</h2>
+    <div class="m-home-wrapper">
+      {% for item in collections.blogposts | reverse %} {% if loop.index0 < 8 %}
+      <article>
+        <div>
+          <div class="meta-info">
+            <div class="meta-info__item">
+              {{ item.data.city }}, {{ item.data.country }}
+            </div>
+            <div class="meta-info__item">
+              {% if item.data.date %}
+              <time
+                datetime="{{ item.data.date | w3DateFilter }}"
+                class="dt-publised"
+                >{{ item.data.date | dateFilter }}</time
+              >
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        <div class="m-longform">
+          <a href="{{item.url}}"><h2>{{ item.data.title }}</h2></a>
+          {{ item.data.content | safe}}
+        </div>
+      </article>
+      {% endif %} {% endfor %}
     </div>
-
-    {% for item in collections.blogposts | reverse %}
-      {% if loop.index0 < 5 %}
-        <a class="card-list" href="{{item.url}}">
-          {% if item.data.date %}
-            <time class="h6 c-lightgrey" datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
-          {% endif %}
-          <h3 class="card-list__title">{{ item.data.title }}</h3>
-          <p class="card-list__text">{{ item.data.extract }}</p>
-        </a>
-      {% endif %}
-    {% endfor %}
-
   </section>
 
-</div>{% include "footer.html" %}
+  <section>
+    <section class="m-wrapper">
+      <div class="m-longform">
+        <h2 class="lil-heading">Colophon</h2>
+      </div>
+      <p class="card-list__text links">
+        Okay, let’s get the important stuff out of the way: this website is set
+        in
+        <a href="https://commercialtype.com/catalog/caponi">Caponi Display</a>
+        by Commercial Type and
+        <a href="https://www.colophon-foundry.org/typefaces/columba/"
+          >Columba</a
+        >
+        by Colophon.
+      </p>
+      <figure class="typography">
+        <span class="font-example font-example-display">Aa</span>
+        <span class="font-example font-example-text">Aa</span>
+      </figure>
+    </section>
+
+    <section class="m-wrapper cell-t20">
+      <div class="m-longform">
+        <h2 class="lil-heading">Contact</h2>
+      </div>
+      <p class="card-list__text links">
+        Oh, you can always reach out
+        <a href="mailto:robinjrendle@gmail.com?subject=Hello">via email</a> or
+        <a href="https://twitter.com/robinrendle">twitter dot com</a>.
+      </p>
+    </section>
+
+    <section class="m-wrapper cell-t20">
+      <div class="m-longform">
+        <h2 class="lil-heading">Essays</h2>
+      </div>
+      <p class="card-list__text">
+        Every year I try to write a small bookish thing which is usually a
+        collection of thoughts from /notes:
+      </p>
+      <ul class="links essay-list">
+        <li><a href="/essays/newsletters">Newsletters</a></li>
+        <li>
+          <a href="essays/systems-mistakes-and-the-sea">
+            Systems, Mistakes, and the Sea
+          </a>
+        </li>
+        <li>
+          <a href="essays/the-futures-of-typography"
+            >The Futures of Typography</a
+          >
+        </li>
+      </ul>
+    </section>
+    <section class="m-wrapper cell-t20">
+      <div class="m-longform">
+        <h2 class="lil-heading">Folks I admire</h2>
+      </div>
+      <p class="card-list__text">
+        Here’s some of the folks that have inspired the design or writing of
+        this here website:
+      </p>
+    </section>
+    <div>
+      <ul class="friends links cell-t10">
+        <li><a href="https://chriscoyier.net/">Chris Coyier</a></li>
+        <li><a href="http://daverupert.com">Dave Rupert</a></li>
+        <li><a href="https://lucybellwood.com/">Lucy Bellwood</a></li>
+        <li><a href="https://www.cassie.codes/">Cassie Evans</a></li>
+        <li><a href="https://www.adactio.com ">Jeremy Keith</a></li>
+        <li><a href="https://alicebartlett.co.uk/">Alice Bartlett</a></li>
+        <li><a href="http://madelinemiller.com/">Madeline Miller</a></li>
+        <li><a href="http://jezburrows.com/">Jez Burrows</a></li>
+        <li><a href="https://www.nicolefenton.com/">Nicole Fenton</a></li>
+        <li><a href="https://www.ishadeed.com/">Ahmad Shadeed</a></li>
+        <li><a href="https://colly.com/">Simon Collison</a></li>
+        <li><a href="https://ilovetypography.com/">John Boardley</a></li>
+        <li><a href="https://sarahdrasnerdesign.com/">Sarah Drasner</a></li>
+        <li><a href="https://robinsloan.com">Robin Sloan</a></li>
+        <li><a href="https://ethanmarcotte.com/">Ethan Marcotte</a></li>
+        <li><a href="https://piperhaywood.com/">Piper Haywood</a></li>
+        <li><a href="https://varun.ca/">Varun Vacchar</a></li>
+        <li><a href="https://www.zachleat.com/">Zach Leatherman</a></li>
+        <li><a href="https://idlewords.com/">Maciej Cegłowski</a></li>
+        <li><a href="https://katydecorah.com/">Katy DeCorah</a></li>
+        <li><a href="https://bradfrost.com/">Brad Frost</a></li>
+        <li><a href="https://wattenberger.com/">Amelia Wattenberger</a></li>
+        <li><a href="https://meyerweb.com/">Eric Meyer</a></li>
+        <li>
+          <a href="https://djr.com/font-of-the-month-club"
+            >David Jonathan Ross</a
+          >
+        </li>
+        <li><a href="https://geoffgraham.me/">Geoff Graham</a></li>
+        <li><a href="https://shadycharacters.co.uk/">Keith Houston</a></li>
+        <li><a href="https://www.miriamsuzanne.com/">Miriam Suzanne</a></li>
+        <li><a href="https://craigmod.com/">Craig Mod</a></li>
+        <li><a href="https://rachelandrew.co.uk/">Rachel Andrew</a></li>
+        <li><a href="http://tinyletter.com/vruba/">Charlie Loyd</a></li>
+        <li>
+          <a href="https://www.susanjeanrobertson.com/">Susan Jean Robertson</a>
+        </li>
+        <li><a href="https://www.kickscondor.com/">Kicks Condor</a></li>
+        <li><a href="https://css-irl.info/">Michelle Barker</a></li>
+        <li><a href="https://stephaniestimac.com/">Stephanie Stimac</a></li>
+        <li><a href="https://waxy.org/about/">Andy Baio</a></li>
+        <li><a href="https://ohnotype.co/">James Edmondson</a></li>
+        <li><a href="https://bitsofco.de/">Ire Aderinokun</a></li>
+        <li><a href="https://ftrain.com/">Paul Ford</a></li>
+        <li><a href="https://chenhuijing.com/">Chen Hui Jing</a></li>
+      </ul>
+    </div>
+    <section class="m-wrapper cell-t10">
+      <div class="m-longform">
+        <h2 class="lil-heading">Oh, and one last thing</h2>
+      </div>
+      <p class="card-list__text links">
+        Have you seen the italics on this bad boy?
+      </p>
+      <figure class="typography">
+        <span class="font-example font-example-display font-example-italic"
+          >Rr</span
+        >
+        <span class="font-example font-example-text">Rr</span>
+      </figure>
+    </section>
+  </section>
+</div>
+{% include "footer.html" %}

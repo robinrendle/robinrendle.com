@@ -7,12 +7,7 @@ aside:
   Sherman</a>. Care to read more about the wonderful typography within? Head on over
   to the book review at <a href="http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition">Fonts
   In Use</a> for more.
-extract:
-  What do we want from storytelling machines? And when publishers use terms
-  such as ‘interactivity’ or ‘immersion’, what do they really mean? These terms either
-  describe a genuine glimpse of the future, or a new form of commercial and technological
-  chutzpah. But what is it that we’re really hunting here? What’s our digital Moby
-  Dick?
+extract: What do we want from storytelling machines?
 update:
   On returning home at the start of the Christmas holidays I found the [Arion
   Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition

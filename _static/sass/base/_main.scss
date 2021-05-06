@@ -7,7 +7,6 @@
 }
 
 html {
-  overflow-y: scroll;
   height: 100%;
   -webkit-text-size-adjust: 100%;
   background-size: cover;
@@ -93,10 +92,6 @@ iframe {
 img,
 video {
   max-width: 100%;
-}
-
-main {
-  overflow-x: hidden;
 }
 
 pre {
