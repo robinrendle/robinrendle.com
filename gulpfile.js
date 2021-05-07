@@ -9,7 +9,6 @@ function cssTask() {
   return src("./_static/sass/**/*.scss", { allowEmpty: true })
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: "compressed" }))
-    .on("error", sass.logError)
     .pipe(postcss([autoprefixer(), cssnano()]))
     .pipe(sourcemaps.write("."))
     .pipe(dest("./css"));
