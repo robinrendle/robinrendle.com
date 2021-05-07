@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "gulp & eleventy --serve",
-    "build": "gulp & eleventy --serve"
+    "build": "gulp & eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
