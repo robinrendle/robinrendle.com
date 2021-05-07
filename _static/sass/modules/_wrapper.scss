@@ -89,6 +89,7 @@ $_max-width: 670;
 .m-wrapper--full {
   @media screen and (min-width: 767px) {
     width: 80vw;
+    max-width: 1000px;
     margin-left: 50%;
     transform: translateX(-50%);
   }
@@ -97,4 +98,11 @@ $_max-width: 670;
   video {
     width: 100%;
   }
+}
+
+.m-home-wrapper .m-wrapper--full {
+  max-width: 100%;
+  transform: none;
+  width: 100%;
+  margin-left: 0;
 }
