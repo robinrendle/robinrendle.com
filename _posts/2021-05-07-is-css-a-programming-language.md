@@ -7,7 +7,7 @@ extract: “Respect is in order, no matter what any of us come to for an answer.
 ---
 I love this post from Chris where he asks if [CSS is a programming language](https://css-tricks.com/is-css-a-programming-language/) and confronts it in a way I’ve always felt quietly but never put into words:
 
-> I have a real distaste for this question. It might seem like a fun question to dig into on the surface, but the way it enters public discourse rarely seems to be in good faith. There are ulterior motives at play involving respect, protective emotions, and desires to break or maintain the status quo.I have a real distaste for this question. It might seem like a fun question to dig into on the surface, but the way it enters public discourse rarely seems to be in good faith. There are ulterior motives at play involving respect, protective emotions, and desires to break or maintain the status quo.
+> I have a real distaste for this question. It might seem like a fun question to dig into on the surface, but the way it enters public discourse rarely seems to be in good faith. There are ulterior motives at play involving respect, protective emotions, and desires to break or maintain the status quo.
 
 And I am legally bound to quote this part, too:
 
