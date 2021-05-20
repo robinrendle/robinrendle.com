@@ -1,7 +1,7 @@
 ---
 title: Marvel Superhero Lettering
 date: 2021-05-20T15:50:08.210Z
-city: San Francisco
+city: Oakland
 country: California
 extract: Gah, so good.
 ---
