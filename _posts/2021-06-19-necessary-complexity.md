@@ -1,9 +1,9 @@
 ---
-title: The Web is Too Damn Complex
+title: The web is too damn complex
 date: 2021-06-18T23:58:48.483Z
 city: San Francisco
 country: California
-extract: A few more thoughts on Astro.
+extract: A few more thoughts on Astro and the web.
 ---
 For the newsletter last week I jotted down [some quick thoughts about Astro](https://css-tricks.com/newsletter/255-thoughts-on-astro/)—it’s a static site generator that lets you build with React/Vue/Svelte components but then it produces plain ol’ HTML and CSS:
 
