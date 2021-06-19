@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: A few more thoughts on Astro.
 ---
-For the CSS-Tricks newsletter last week I jotted down [some quick thoughts about Astro](https://css-tricks.com/newsletter/255-thoughts-on-astro/)—a new static site generator that lets you build with React/Vue/Svelte components:
+For the newsletter last week I jotted down [some quick thoughts about Astro](https://css-tricks.com/newsletter/255-thoughts-on-astro/)—it’s a static site generator that lets you build with React/Vue/Svelte components:
 
 > I guess that’s what’s so exciting to me: the philosophy behind Astro, more so than just what it is today.
 > 
