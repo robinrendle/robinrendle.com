@@ -11,7 +11,7 @@ For the newsletter last week I jotted down [some quick thoughts about Astro](htt
 > 
 > It’s a hopeful vision of a future web where we’re not limited by past technical decisions and our users aren’t harmed by our neato developer experience.
 
-This is great for performance, accessibility, and for us as developers. So I’m sat at my desk now thinking of what I could build with this thing. It’s dang exciting! Why? There’s a few reasons. 
+Astro looks great for performance, accessibility, and for us as developers. So I’m sat at my desk now thinking of what I could build with this thing. It’s dang exciting! Why? There’s a few reasons. 
 
 Instead of building a web app with a monolithic JavaScript framework out of the box, Astro encourages you to build a static website like Eleventy and _then_ pull in the best parts of those big frameworks. 
 
@@ -19,13 +19,7 @@ Let’s say you want to use a fancy [React toast component](https://react-hot-to
 
 I believe you can even mix and match components across frameworks, which is magic. But this is also good for the long run since perhaps your team made a mistake and now wants to introduce components from a different framework. With Astro you can slowly remove those old ones without having to do a complete re-haul of your app.
 
-Another reason to love Astro is the new file format `.astro`. It’s a heavenly combination of lots of different web technologies. Take a look at [this example](https://github.com/chriscoyier/astro-css-trickzz/blob/master/src/pages/index.astro#L4) where Chris fetches data, imports a component, and then builds a whole mini-site with it. 
-
-Did I mention that by default it all compiles down to plain HTML and CSS?
-
-Oh, also—CSS Modules are supported out of the gate which I think is a pretty big deal since you don’t need a framework to support that. And the way Astro lets you manipulate [Markdown content](https://github.com/snowpackjs/astro/blob/main/docs/markdown.md) is pitch perfect for publishing and writing projects. Whatever side project I start next I will most certainly be Astro to build it.
-
-Astro files are a pleasure to read. You start with imports at the top, but then you have a style tag, then you have the HTML that gets rendered. Simple. Direct. No faffing about. And I’m sure you can have complex `.astro` components, but that’ll be _only when that complexity is necessary_.
+Another reason to love Astro is the new file format `.astro`. It’s a heavenly combination of lots of different web technologies. Take a look at [this example](https://github.com/chriscoyier/astro-css-trickzz/blob/master/src/pages/index.astro#L4) where Chris fetches data, imports a component, and then builds a whole mini-site with it. Isn’t that file just a pleasure to read? You start with imports at the top, but then you have a style tag for your CSS (where CSS Modules are supported out of the box), then you have the HTML that gets rendered beneath. Simple. Direct. No faffing about. And I’m sure you can have complex `.astro` components, but that’ll be _only when that complexity is necessary_. 
 
 That last point is the most important thing to me that I missed in the newsletter: all these features sure are nice but there’s a bigger story here about frameworks and our relationship with them.
 
