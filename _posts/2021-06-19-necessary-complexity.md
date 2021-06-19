@@ -23,7 +23,7 @@ Another reason to love Astro is the new file format `.astro`. It’s a heavenly 
 
 That last point is the most important thing to me that I missed in the newsletter: all these features sure are nice but there’s a bigger story here about frameworks and our relationship with them.
 
-The modern web wouldn’t be possible without big ol’ JavaScript frameworks, but—_but_—much of the web today is held back because of these frameworks. There’s a lot of folks out there that think that every website _must_ use their framework of choice even when it’s not necessary. Although those framework solve a great number of problems, they introduce new problems; performance issues, complex build processes, and endless dependency updates.
+The modern web wouldn’t be possible without big ol’ JavaScript frameworks, but—_but_—much of the web today is held back because of these frameworks. There’s a lot of folks out there that think that every website _must_ use their framework of choice even when it’s not necessary. And although those frameworks solve a great number of problems, they introduce a substantial number of trade-offs; performance issues you have to deal with, complex build processes you have to learn, and endless dependency updates that can introduce bugs.
 
 I think of [this tweet by Ben](https://twitter.com/bentlegen/status/1258581839343611905) a lot when it comes to the modern web:
 
@@ -32,9 +32,9 @@ I think of [this tweet by Ben](https://twitter.com/bentlegen/status/125858183934
 > 
 > Then I asked myself “what the hell am I doing”, uploaded an index.html file and called it a day.
 
-And that’s the point I’m getting to with this rant: when you pick a framework today that complexity is overwhelming and, for a lot of cases, pretty unnecessary.
+And that’s the point I’m getting to with this rant: when you pick a framework today that complexity is overwhelming and, for a lot of cases, pretty dang unnecessary.
 
-If React is a giant fortress that can walk around the landscape on enormous mechanical legs, then Astro is a bicycle. Do you need rocket boosters? Add ‘em! Do you need a bedroom on your bicycle? That’s great—go do that. But you have to opt-in to all that complexity.  
+The way I’m starting to think about it is this: if React is a giant fortress that can walk around the landscape on enormous mechanical legs, then Astro is a bicycle. Do you need rocket boosters? Add ‘em! Do you need a bedroom on your bicycle? That’s great—go do that. But you have to opt-in to all that complexity.  
 
 And that’s why I’m in love with this way of building websites, because software should only be as complex as it needs to be. 
 
