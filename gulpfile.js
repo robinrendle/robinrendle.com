@@ -1,8 +1,5 @@
 const { watch, src, dest, parallel } = require("gulp");
-const sass = require("gulp-sass");
-const autoprefixer = require("gulp-autoprefixer");
-const cssnano = require("cssnano");
-const postcss = require("postcss");
+const sass = require("gulp-dart-sass");
 const sourcemaps = require("gulp-sourcemaps");
 
 function cssTask() {

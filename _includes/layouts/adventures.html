@@ -1,43 +1,37 @@
 {% include "header.html" %}
 
-<div class="wrapper-wide">
-  <div class="m-header home-header ">
-    <h1 class="m-wrapper">
-      Adventures in Typography
-    </h1>
-  </div>
-</div>
+<h1 class="m-wrapper">Adventures in Typography</h1>
+<p>
+  Adventures is a newsletter all about typefaces and fonts (and what those words
+  mean). It’s for book nerds, typographers, neon light enthusiasts, and for
+  people who have no interest in typography whatsoever. Each week I write about
+  <a href="/adventures/ghost-town.html">a stroll through the city</a>—and a
+  letter that caught my eye—or
+  <a href="/adventures/take-care-of-the-margins.html">a beautiful book</a> or
+  even
+  <a href="/adventures/videogames-and-wiggletechtm%EF%B8%8F.html"
+    >a wiggly videogame</a
+  >.
+</p>
 
-<div class="wrapper-wide wrapper-wide--grid">
-  <div class="m-wrapper">
-    <div class="m-longform">
-      <h2 class="lil-heading">What’s this all about then?</h2>
-      <p>
-          Adventures is a newsletter all about typefaces and fonts (and what those words
-          mean). It’s for book nerds, typographers, neon light enthusiasts, and for people who have no interest in typography whatsoever. Each week I write about <a href="/adventures/ghost-town.html">a stroll through the city</a>—and a letter that caught my eye—or <a href="/adventures/take-care-of-the-margins.html">a beautiful book</a> or even <a href="/adventures/videogames-and-wiggletechtm%EF%B8%8F.html">a wiggly videogame</a>.
-          <p>You can subscribe below for weekly-ish updates:
-        </p>
-        {% include "newsletter.html" %}
-      </div>
+<p>You can subscribe below for weekly-ish updates:</p>
+{% include "newsletter.html" %}
+
+<h2 class="lil-heading">Previous entries</h2>
+
+<nav class="cell-b30 email">
+  {% for item in collections.adventures | reverse %}
+  <a href="{{ item.url }}" class="card-list">
+    <h4 class="card-list__title">{{ item.data.title }}</h4>
+    <div class="card-list__time">
+      {% if item.data.date %}
+      <time datetime="{{ item.data.date | w3DateFilter }}"
+        >{{ item.data.date | dateFilter }}</time
+      >
+      {% endif %}
     </div>
+  </a>
+  {% endfor %}
+</nav>
 
-    <div class="m-wrapper">
-      <div class="m-longform">
-        <h2 class="lil-heading">Previous entries</h2>
-      </div>
-      <nav class="cell-b30 email">
-        {% for item in collections.adventures | reverse %}
-          <a href="{{ item.url }}" class="card-list">
-            <h4 class="card-list__title">{{ item.data.title }}</h4>
-            <div class="card-list__time">
-              {% if item.data.date %}
-                <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
-              {% endif %}
-            </div>
-          </a>
-        {% endfor %}
-      </nav>
-    </div>
-  </div>
-
-  {% include "footer.html" %}
+{% include "footer.html" %}

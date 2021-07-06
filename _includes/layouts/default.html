@@ -1,40 +1,30 @@
 {% include "header.html" %}
 
-<header class="m-wrapper cell-t40 cell-t60--medium cell-b30">
-  <div class="m-wrapper__content">
-    <div class="meta-info">
-      <p class="meta-info__item">{{ city }}, {{ country }}</p>
-      <div class="meta-info__item">
-        {% if date %}
-          <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-        {% endif %}
-      </div>
-    </div>
-    <h1>{{ title }}</h1>
+<header>
+  <div class="post-time">
+    <div>{{ city }}, {{ country }}</div>
+
+    {% if date %}
+    <time datetime="{{ date | w3DateFilter }}" class="dt-published"
+      >{{ date | dateFilter }}</time
+    >
+    {% endif %}
   </div>
+  <h1>{{ title }}</h1>
 </header>
 
-<div class="m-longform m-wrapper m-wrapper--unpadded">
-  <div class="m-wrapper__content">
-    {% if intro %}
-      {{ intro }}
-    {% endif %}
-    {{ content |safe }}
+<div>
+  {% if intro %} {{ intro }} {% endif %} {{ content |safe }}
 
-    <a class="link-email" href="mailto:robinjrendle@gmail.com?subject={{title}}">Reply via email</a>
+  <a class="link-email" href="mailto:robinjrendle@gmail.com?subject={{title}}"
+    >Reply via email</a
+  >
 
-    {% set randomPost = collections.blogposts | getRandom %}
+  {% set randomPost = collections.blogposts | getRandom %}
 
-    <a class="link-email" href="{{randomPost.url}}">Random post</a>
-  </div>
+  <a class="link-email" href="{{randomPost.url}}">Random post</a>
 </div>
 
-<div class="m-longform--small m-wrapper m-wrapper--unpadded cell-t20">
-  <div class="m-wrapper__content">
-    {% if aside %}
-      {{ aside }}
-    {% endif %}
-  </div>
-</div>
+<div>{% if aside %} {{ aside }} {% endif %}</div>
 
 {% include "footer.html" %}
