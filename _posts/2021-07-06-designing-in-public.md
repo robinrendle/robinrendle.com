@@ -1,5 +1,5 @@
 ---
-title: Designing in public
+title: Designing in Public
 date: 2021-07-06T15:39:09.793Z
 city: San Francisco
 country: California
