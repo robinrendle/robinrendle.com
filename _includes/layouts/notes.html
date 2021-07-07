@@ -1,14 +1,14 @@
 {% include "header.html" %}
 
 <h1>Quick Notes & Ramblings</h1>
-<h2>Tags</h2>
-<div class="tag-collection" aria-hidden="true">
+<!-- <h2>Tags</h2> -->
+<!-- <div class="tag-collection" aria-hidden="true">
   {% for tag in collections.tagList %}
   <div class="tag">{{ tag }}</div>
   {% endfor %}
-</div>
+</div> -->
 
-<h2 class="lil-heading">Latest posts</h2>
+<!-- <h2 class="lil-heading">Latest posts</h2> -->
 <section>
   {% for item in collections.blogposts | reverse %}
   <a
