@@ -30,12 +30,17 @@ body {
   color: var(--color-text);
   font: 100%/1.35 var(--font-fallback);
   background: var(--color-background);
+
+  // layout
+  padding: 0 10px;
+  max-width: 43rem;
 }
 
 // font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
 
 h1 {
   line-height: 1.1;
+  margin-top: 0;
 }
 
 h3 {
@@ -45,7 +50,7 @@ h3 {
 p {
   margin-bottom: 0;
   padding-top: 0;
-  font-size: clamp(100%, 1rem + 0.5vw, 22px);
+  font-size: clamp(100%, 1rem + 0.5vw, 20px);
 }
 
 a {
@@ -112,4 +117,9 @@ hr {
     content: "***";
     color: var(--color-faded);
   }
+}
+
+pre {
+  max-width: 100%;
+  overflow: scroll;
 }

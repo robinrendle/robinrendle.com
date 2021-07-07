@@ -1,6 +1,6 @@
 {% include "header.html" %}
 
-<h1 class="m-wrapper">Adventures in Typography</h1>
+<h1>Adventures in Typography</h1>
 <p>
   Adventures is a newsletter all about typefaces and fonts (and what those words
   mean). It’s for book nerds, typographers, neon light enthusiasts, and for
@@ -17,9 +17,9 @@
 <p>You can subscribe below for weekly-ish updates:</p>
 {% include "newsletter.html" %}
 
-<h2 class="lil-heading">Previous entries</h2>
+<h2>Previous entries</h2>
 
-<nav class="cell-b30 email">
+<nav>
   {% for item in collections.adventures | reverse %}
   <a href="{{ item.url }}" class="card-list">
     <h4 class="card-list__title">{{ item.data.title }}</h4>

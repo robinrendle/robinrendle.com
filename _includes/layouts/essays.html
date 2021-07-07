@@ -1,39 +1,23 @@
 {% include "header.html" %}
-<div class="wrapper-wide">
-  <div class="m-header home-header">
-    <h1 class="m-wrapper">Essays and Articles</h1>
-  </div>
-</div>
 
-<div class="wrapper-wide wrapper-wide--grid wrapper-wide--grid-reverse">
-  <aside class="m-wrapper cell-b20">
-    <div class="m-longform">
-      <h2 class="lil-heading">Wah?</h2>
-    </div>
-    <p class="card-list__text">
-      These entries are like tiny books. I probably only publish one of these a
-      year and they’re usually a collection of thoughts I’ve gathered together
-      from <a href="/notes" class="links">/notes</a>.
-    </p>
-  </aside>
-  <div class="m-wrapper">
-    <div class="m-longform">
-      <h2 class="lil-heading">Latest posts</h2>
-    </div>
-    <div>
-      {% for item in collections.essays | reverse %}
-      <a href="{{ item.url }}" class="card-list">
-        <time
-          class="h6 c-lightgrey"
-          datetime="{{ item.data.date | w3DateFilter }}"
-          >{{ item.data.date | dateFilter }}</time
-        >
-        <h3 class="card-list__title">{{ item.data.title }}</h3>
-        <p class="card-list__text">{{ item.data.extract }}</p>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<h1>Essays and Articles</h1>
 
+<p>
+  These entries are like tiny books. I probably only publish one of these a year
+  and they’re usually a collection of thoughts I’ve gathered together from
+  <a href="/notes" class="links">/notes</a>.
+</p>
+
+<h2>Latest posts</h2>
+<div>
+  {% for item in collections.essays | reverse %}
+  <a href="{{ item.url }}" class="card-list">
+    <time class="h6 c-lightgrey" datetime="{{ item.data.date | w3DateFilter }}"
+      >{{ item.data.date | dateFilter }}</time
+    >
+    <h3 class="card-list__title">{{ item.data.title }}</h3>
+    <p class="card-list__text">{{ item.data.extract }}</p>
+  </a>
+  {% endfor %}
+</div>
 {% include "footer.html" %}

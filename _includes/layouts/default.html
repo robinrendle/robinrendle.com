@@ -1,6 +1,6 @@
 {% include "header.html" %}
 
-<header>
+<article>
   <div class="post-time">
     <div>{{ city }}, {{ country }}</div>
 
@@ -10,21 +10,18 @@
     >
     {% endif %}
   </div>
+
   <h1>{{ title }}</h1>
-</header>
-
-<div>
   {% if intro %} {{ intro }} {% endif %} {{ content |safe }}
+</article>
 
-  <a class="link-email" href="mailto:robinjrendle@gmail.com?subject={{title}}"
-    >Reply via email</a
-  >
+<a class="link-email" href="mailto:robinjrendle@gmail.com?subject={{title}}"
+  >Reply via email</a
+>
 
-  {% set randomPost = collections.blogposts | getRandom %}
+{% set randomPost = collections.blogposts | getRandom %}
 
-  <a class="link-email" href="{{randomPost.url}}">Random post</a>
-</div>
+<a class="link-email" href="{{randomPost.url}}">Random post</a>
 
 <div>{% if aside %} {{ aside }} {% endif %}</div>
-
 {% include "footer.html" %}
