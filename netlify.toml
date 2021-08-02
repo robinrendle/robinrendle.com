@@ -1,6 +1,6 @@
 [build]
-  publish = "_site/"
-  command = "yarn run build"
+  publish = "dist"
+  command = "npm run build"
 
 [[redirects]]
   from = "/essays/futures-of-typography"
