@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Future of Web Design 2014 • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/future-of-web-design-2014/"><meta property="og:title" content="Future of Web Design 2014"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2014-04-14T10:16:00.000Z" class="astro-V2H4nGwR">April 14, 2014</time> • Nottingham, UK</div><h1 class="page-title astro-V2H4nGwR">Future of Web Design 2014</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-HTFXiPzR">Earlier this week I headed off to the <a href="http://futureofwebdesign.com/london-2014/" class="astro-HTFXiPzR">Future of Web Design</a> conference in London to give a talk about systems, language and maintainable interface design which was adapted from an essay I wrote back in December called <em class="astro-HTFXiPzR"><a href="http://robinrendle.com/essays/a-visual-lexicon/" class="astro-HTFXiPzR">A Visual Lexicon</a></em>. Overall it was a fantastic event with some wonderful talks about JavaScript performance, non-linear storytelling, masking shapes in CSS and so much more. It was certainly a diverse string of interesting talks.</p><p class="astro-HTFXiPzR">The conference kicked off with a series of workshops on a variety of topics including one that caught my eye: <em class="astro-HTFXiPzR">CSS architecture for big front ends</em> with <a href="http://twitter.com/csswizardry" class="astro-HTFXiPzR">Harry Roberts</a>. Throughout the day he covered all sorts of interesting topics from communicating with other developers to creating well structured and documented systems for the web, during which I made a lot of notes – but these certainly don’t cover everything in the workshop, since these are just the points that grabbed my attention.</p><h2 id="1-designers-dont-always-know-what-developers-need" class="astro-HTFXiPzR">1. Designers don’t always know what developers need.</h2><p class="astro-HTFXiPzR">As developers we often require more information from designers than they provide in the initial handover stages. <em class="astro-HTFXiPzR">We can only fix this if we start asking better questions</em>, so it might be necessary to ask which systematic values we’ll need to repeat in the future (say, the values that might go into a <a href="https://github.com/ultimate-package/tools.color-palette" class="astro-HTFXiPzR">global color palette tool</a> or all of the settings of <a href="https://github.com/ultimate-package/tools.font-scale" class="astro-HTFXiPzR">a typographic scale</a>).</p><p class="astro-HTFXiPzR">It might be useful to consider which other global variables can be used throughout the system, too. Defaults are especially handy but are frequently left out; link styles and hover states, alternative button modifiers and navigational items might be examples of these styles that slip through the cracks.</p><p class="astro-HTFXiPzR">In other cases it’s often necessary to ask for mockups of a single component (like every button in the entire codebase) without any contextual styling around it. In complex design systems we might need to print these components out and then break them down with the design team in person.</p><p class="astro-HTFXiPzR">A lot of designers hand over insufficient design mockups because developers have let this sorry state of affairs carry on for such a long time. <em class="astro-HTFXiPzR">We need to fix this.</em></p><h2 id="2-design-systems-ought-to-be-normalised" class="astro-HTFXiPzR">2. Design systems ought to be normalised.</h2><p class="astro-HTFXiPzR"><em class="astro-HTFXiPzR">“Are there are any visual inconsistencies that we can remove entirely?</em>” Developers should question designs that have superfluous styles added to them – do we really need red buttons with square corners <em class="astro-HTFXiPzR">and</em> green buttons with rounded ones? We can simplify this system if we start thinking a little bit more pragmatically about how each decision really effects someone’s experience of the website.</p><p class="astro-HTFXiPzR">In this case <em class="astro-HTFXiPzR">“there are some things we shouldn’t build”</em>. Every design decision has a benefit cost involved so if a new component doesn’t dramatically improve usability then we should probably reconsider building it in the first place.</p><p class="astro-HTFXiPzR">This sort of thinking reminds me of the designers from <a href="https://www.gov.uk/" class="astro-HTFXiPzR">gov.uk</a> where they discussed <a href="https://insidegovuk.blog.gov.uk/2014/02/20/gov-uk-social-sharing-buttons-the-first-10-weeks/" class="astro-HTFXiPzR">the implications of adding share buttons</a> to the site – they only did so when they had received enough research and data to justify the expense in time and energy.</p><h2 id="3-build-for-systems-not-for-pages" class="astro-HTFXiPzR">3. Build for systems, not for pages.</h2><p class="astro-HTFXiPzR">Duh, but this still happens all the time in agency life. Mocking up whole pages might be useful for designers and UX folk to get a feel for the system – they absolutely do have some practical purposes, for sure. However, for developers these mockups are next to useless. Instead we need component styles first and then those extra, contextual styles to be applied afterwards, once we’ve set the initial foundations.</p><h2 id="4-developers-should-be-more-confrontational-during-the-handover-process" class="astro-HTFXiPzR">4. Developers should be more confrontational during the handover process.</h2><p class="astro-HTFXiPzR">OK, so I guess it’s not about being <em class="astro-HTFXiPzR">confrontational</em> per se, but there should be a different sort of balance during the conversations that team members are having right now. This is not about designers/developers being right or wrong though – it’s all about the quality of the end product.</p><p class="astro-HTFXiPzR"><em class="astro-HTFXiPzR">“I can make this work – I can build this, no problem. But if we change the design ever so slightly then we won’t have to use all this hacky CSS.”</em></p><p class="astro-HTFXiPzR">This is why the waterfall workflow process doesn’t work. It suggests that designer’s decisions can’t be influenced by the limits of technology or more programmatic concerns. (On a side note: I’ve heard stories about some people having four hour handover meetings where they go over each design component in excruciating detail and this makes me spit-take so very hard).</p><h2 id="5-we-havent-had-a-profound-change-to-front-end-architecture-since-the-early-2000s" class="astro-HTFXiPzR">5. “We haven’t had a profound change to front-end architecture since the early 2000s.”</h2><p class="astro-HTFXiPzR">It looks like we need a new wave of web standards which concentrates on naming these components and changing the current design/dev workflow. I’m not sure if this involves more focus on ‘web standards’ specifically though – I think the challenges seem to come more from poor organisational structure and a lack of clear communication between team members in general.</p><h2 id="6-describing-content-with-semantic-classes-is-completely-redundant" class="astro-HTFXiPzR">6. Describing content with semantic classes is completely redundant.</h2><p class="astro-HTFXiPzR">In this case the <code class="astro-HTFXiPzR">.about-box</code> module sucks as class name, a better name for it would describe the sort of visual changes that these components effect (like <code class="astro-HTFXiPzR">.box</code> or <code class="astro-HTFXiPzR">.island</code> instead).</p><p class="astro-HTFXiPzR">In a personal project I recently went <em class="astro-HTFXiPzR">crazily</em> overboard with this OOCSS thinking and added modules like <code class="astro-HTFXiPzR">.bordered</code> and <code class="astro-HTFXiPzR">.font--tisa-bold</code> to the framework, so when the pendulum swings too far in this direction then it can cause just as many problems as not using objects and modules at all.</p><h2 id="7-the-hardest-thing-about-managing-a-codebase-is-managing-the-people-that-use-it" class="astro-HTFXiPzR">7. “The hardest thing about managing a codebase is managing the people that use it.”</h2><p class="astro-HTFXiPzR">This was the key point that I took away from the day, the idea that designing a maintainable front-end architecture is not really about technology. Creating a manageable codebase is only possible if developers are willing to communicate effectively with one another and challenge the status quo.</p></article></div></main></body></html>

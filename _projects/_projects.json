@@ -1,4 +1,0 @@
-{
-  "tag": "projects-detail",
-  "permalink": "projects/{{ title | slug }}.html"
-}

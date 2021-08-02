@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>The web is too damn complex • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/necessary-complexity/"><meta property="og:title" content="The web is too damn complex"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2021-06-18T23:58:48.483Z" class="astro-V2H4nGwR">June 18, 2021</time> • San Francisco, California</div><h1 class="page-title astro-V2H4nGwR">The web is too damn complex</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-alFu1iI2">For the newsletter last week I jotted down <a href="https://css-tricks.com/newsletter/255-thoughts-on-astro/" class="astro-alFu1iI2">some quick thoughts about Astro</a>—it’s a static site generator that lets you build with React/Vue/Svelte components but then it produces plain ol’ HTML and CSS:</p><blockquote class="astro-alFu1iI2"><p class="astro-alFu1iI2">I guess that’s what’s so exciting to me: the philosophy behind Astro, more so than just what it is today.</p><p class="astro-alFu1iI2">It’s a hopeful vision of a future web where we’re not limited by past technical decisions and our users aren’t harmed by our neato developer experience.</p></blockquote><p class="astro-alFu1iI2">Astro looks great for performance, accessibility, and for us as developers. So I’m sat at my desk now thinking of what I could build with this thing. It’s dang exciting! Why? There’s a few reasons.</p><p class="astro-alFu1iI2">Instead of building a web app with a monolithic JavaScript framework out of the box, Astro encourages you to build a static website like Eleventy and <em class="astro-alFu1iI2">then</em> pull in the best parts of those big frameworks.</p><p class="astro-alFu1iI2">Let’s say you want to use a fancy <a href="https://react-hot-toast.com/" class="astro-alFu1iI2">React toast component</a> but you don’t want to be bogged down with everything else when it comes to React. Well, with Astro you can do just that. Install the npm package, import the component, and away you go.</p><p class="astro-alFu1iI2">I believe you can even mix and match components across frameworks, which is magic. But this is also good for the long run since perhaps your team made a mistake and now wants to introduce components from a different framework. With Astro you can slowly remove those old ones without having to do a complete re-haul of your app.</p><p class="astro-alFu1iI2">Another reason to love Astro is the new file format <code class="astro-alFu1iI2">.astro</code>. It’s a heavenly combination of lots of different web technologies. Take a look at <a href="https://github.com/chriscoyier/astro-css-trickzz/blob/master/src/pages/index.astro#L4" class="astro-alFu1iI2">this example</a> where Chris fetches data, imports a component, and then builds a whole mini-site with it. Isn’t that file just a pleasure to read? You start with imports at the top, but then you have a style tag for your CSS (where CSS Modules are supported out of the box), then you have the HTML that gets rendered beneath. Simple. Direct. No faffing about. And I’m sure you can have complex <code class="astro-alFu1iI2">.astro</code> components, but that’ll be <em class="astro-alFu1iI2">only when that complexity is necessary</em>.</p><p class="astro-alFu1iI2">That last point is the most important thing to me that I missed in the newsletter: all these features sure are nice but there’s a bigger story here about frameworks and our relationship with them.</p><p class="astro-alFu1iI2">The modern web wouldn’t be possible without big ol’ JavaScript frameworks, but—<em class="astro-alFu1iI2">but</em>—much of the web today is held back because of these frameworks. There’s a lot of folks out there that think that every website <em class="astro-alFu1iI2">must</em> use their framework of choice even when it’s not necessary. And although those frameworks solve a great number of problems, they introduce a substantial number of trade-offs; performance issues you have to deal with, complex build processes you have to learn, and endless dependency updates that can introduce bugs.</p><p class="astro-alFu1iI2">I think of <a href="https://twitter.com/bentlegen/status/1258581839343611905" class="astro-alFu1iI2">this tweet by Ben</a> a lot when it comes to the modern web:</p><blockquote class="astro-alFu1iI2"><p class="astro-alFu1iI2">In January I spent about 3 hours trying to convert my personal website to
+@gatsbyjs.</p><p class="astro-alFu1iI2">Then I asked myself “what the hell am I doing”, uploaded an index.html file and called it a day.</p></blockquote><p class="astro-alFu1iI2">And that’s the point I’m getting to with this rant: when you pick a framework today that complexity is overwhelming and, for a lot of cases, pretty dang unnecessary.</p><p class="astro-alFu1iI2">The way I’m starting to think about it is this: if React is a giant fortress that can walk around the landscape on enormous mechanical legs, then Astro is a bicycle. Do you need rocket boosters? Add ‘em! Do you need a bedroom on your bicycle? That’s great—go do that. But you have to opt-in to all that complexity.</p><p class="astro-alFu1iI2">And that’s why I’m in love with this way of building websites, because software should only be as complex as it needs to be.</p><p class="astro-alFu1iI2">No more, no less.</p></article></div></main></body></html>

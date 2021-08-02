@@ -1,0 +1,71 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Setting up a default type stylesheet • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/setting-up-a-default-type-stylesheet/"><meta property="og:title" content="Setting up a default type stylesheet"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2013-01-19T00:00:00.000Z" class="astro-V2H4nGwR">January 19, 2013</time> • Reading, UK</div><h1 class="page-title astro-V2H4nGwR">Setting up a default type stylesheet</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-CIof4U6o">I’ve noticed that many websites break down poorly as their webfonts fail to load for whatever reason and subsequently fall back onto the system fonts. This is quite common, especially on mobile devices with slow connections and yet it’s strange to see websites that have great typography with vendor fonts, but fall to bits when the slightest problem occurs. The measure might be too wide or the line-height too tall for that particular font; what is required of one typeface can sometimes mean actively fighting the typographic requirements of another. As the x-height of a font might call for a shorter line-height in the paragraph, the fallback may be something like Verdana that requires a considerable amount of space between each line. So how can we handle these two possible environments?</p><p class="astro-CIof4U6o">What we really need here is to define two rules for typography in our stylesheets; one for the core fonts, the other for those from a vendor. Thankfully this is relatively easy if we use <a href="http://modernizr.com/" class="astro-CIof4U6o">Modernizr</a>.</p><p class="astro-CIof4U6o">If you haven’t fooled around with Modernizr before then it’s best to describe it as magic, but <em class="astro-CIof4U6o">technically</em> it’s a feature detection library which will add a class to the <code class="astro-CIof4U6o">html</code> element depending on a browser's features. This might be support for <code class="astro-CIof4U6o">svg</code>, <code class="astro-CIof4U6o">audio</code> or even Javascript itself. On a modern Webkit browser you’ll probably see something like this appended to the <code class="astro-CIof4U6o">html</code> element if Javascript and Modernizr are running properly:</p><p class="astro-CIof4U6o"><code class="astro-CIof4U6o">html class=<code class="class astro-CIof4U6o">"js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"</code></code></p><p class="astro-CIof4U6o">These classes are a standard listing of the capabilities of the device but it’s also possible to configure particular tests that we want Modernizr to run. In this case we’ll be using <code class="class astro-CIof4U6o">fontface</code> to detect whether the custom webfonts in our stylesheets are running. If a browser does not detect those <code class="astro-CIof4U6o">@fontface</code> rules in our stylesheet then Modernizr will do nothing and the <code class="astro-CIof4U6o">html</code> element won’t have this class added to it. But now we can begin to separate the two styles like this with <abbr title="syntactically awesome style sheets" class="astro-CIof4U6o">SASS</abbr>:</p><pre class="astro-CIof4U6o"><code class="astro-CIof4U6o">body {
+    font-size: 100%;
+    font-family: Georgia, serif;
+    line-height: 1.55;
+    font-weight: 600;
+
+    .fontface &amp; {
+        font-size: 105%;
+        font-family: "Poynter Serif RE", serif;
+        line-height: 1.65;
+        font-weight: 400;
+    }
+}
+</code></pre><p class="astro-CIof4U6o">And there we have it. Since Modernizr requires us to have the <code class="class astro-CIof4U6o">.no-js</code> class appended to the <code class="astro-CIof4U6o">html</code> element before anything happens, it will swap that out as it detects the device’s capabilities. With the code above we’ve separated the default styles that will apply to every child element within. Now we can begin to break down all of our typographic styles into two factions as necessary.</p><p class="astro-CIof4U6o">Ideally this would go further, so that as a browser moves through the array of the <code class="astro-CIof4U6o">font-family</code> it would automatically pass through an array of predetermined styles. I’m not so sure if that’s really feasible at the moment, nor am I certain that this will work with mobile browsers with poor connections (since Modernizr might append the <code class="class astro-CIof4U6o">fontface</code> class to the element <em class="astro-CIof4U6o">and then</em> fail to fully load the webfonts afterwards). This is a promising start though and since I haven’t read anything elsewhere about this technique I thought I might share it here.</p></article></div></main></body></html>

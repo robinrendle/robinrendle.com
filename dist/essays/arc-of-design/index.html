@@ -1,0 +1,1087 @@
+<!DOCTYPE html><html class="no-js" lang="en"><head><meta charset="utf-8"><title>The Arc of Design</title><meta content="Robin Rendle" name="author"><meta content="" name="description"><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://plus.google.com/104389809267012182640" rel="author"><link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml"><link href="/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"><link href="/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"><link href="/images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"><style type="text/css">
+@charset "UTF-8";
+:root.astro-L8GE1z0v {
+  --main-text-color: #333;
+  --heading-color: #111;
+}
+
+@font-face {
+  font-family: "Ayer";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/ayer/ayer-medium.woff2") format("woff2"), url("/fonts/ayer/ayer-medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Aluminia";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2"), url("/fonts/aluminia/LfAAluminia-Roman.woff") format("woff");
+}
+@font-face {
+  font-family: "Aluminia";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("/fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2"), url("/fonts/aluminia/LfAAluminia-Italic.woff") format("woff");
+}
+.astro-L8GE1z0v,
+*.astro-L8GE1z0v:after,
+*.astro-L8GE1z0v:before {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+button.astro-L8GE1z0v,
+html.astro-L8GE1z0v {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.body.astro-L8GE1z0v {
+  font-size: 100%;
+}
+
+a.astro-L8GE1z0v,
+abbr.astro-L8GE1z0v,
+acronym.astro-L8GE1z0v,
+address.astro-L8GE1z0v,
+applet.astro-L8GE1z0v,
+article.astro-L8GE1z0v,
+aside.astro-L8GE1z0v,
+audio.astro-L8GE1z0v,
+b.astro-L8GE1z0v,
+big.astro-L8GE1z0v,
+blockquote.astro-L8GE1z0v,
+.body.astro-L8GE1z0v,
+canvas.astro-L8GE1z0v,
+caption.astro-L8GE1z0v,
+center.astro-L8GE1z0v,
+cite.astro-L8GE1z0v,
+code.astro-L8GE1z0v,
+dd.astro-L8GE1z0v,
+del.astro-L8GE1z0v,
+dfn.astro-L8GE1z0v,
+div.astro-L8GE1z0v,
+dl.astro-L8GE1z0v,
+dt.astro-L8GE1z0v,
+em.astro-L8GE1z0v,
+embed.astro-L8GE1z0v,
+fieldset.astro-L8GE1z0v,
+figcaption.astro-L8GE1z0v,
+figure.astro-L8GE1z0v,
+footer.astro-L8GE1z0v,
+form.astro-L8GE1z0v,
+h1.astro-L8GE1z0v,
+h2.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+h4.astro-L8GE1z0v,
+h5.astro-L8GE1z0v,
+h6.astro-L8GE1z0v,
+header.astro-L8GE1z0v,
+hgroup.astro-L8GE1z0v,
+html.astro-L8GE1z0v,
+i.astro-L8GE1z0v,
+iframe.astro-L8GE1z0v,
+img.astro-L8GE1z0v,
+input.astro-L8GE1z0v,
+ins.astro-L8GE1z0v,
+kbd.astro-L8GE1z0v,
+label.astro-L8GE1z0v,
+legend.astro-L8GE1z0v,
+li.astro-L8GE1z0v,
+mark.astro-L8GE1z0v,
+menu.astro-L8GE1z0v,
+nav.astro-L8GE1z0v,
+object.astro-L8GE1z0v,
+ol.astro-L8GE1z0v,
+output.astro-L8GE1z0v,
+p.astro-L8GE1z0v,
+pre.astro-L8GE1z0v,
+q.astro-L8GE1z0v,
+s.astro-L8GE1z0v,
+samp.astro-L8GE1z0v,
+section.astro-L8GE1z0v,
+small.astro-L8GE1z0v,
+span.astro-L8GE1z0v,
+strike.astro-L8GE1z0v,
+strong.astro-L8GE1z0v,
+sub.astro-L8GE1z0v,
+summary.astro-L8GE1z0v,
+sup.astro-L8GE1z0v,
+table.astro-L8GE1z0v,
+tbody.astro-L8GE1z0v,
+td.astro-L8GE1z0v,
+tfoot.astro-L8GE1z0v,
+th.astro-L8GE1z0v,
+thead.astro-L8GE1z0v,
+time.astro-L8GE1z0v,
+tr.astro-L8GE1z0v,
+tt.astro-L8GE1z0v,
+u.astro-L8GE1z0v,
+ul.astro-L8GE1z0v,
+var.astro-L8GE1z0v,
+video.astro-L8GE1z0v {
+  margin: 0;
+  padding: 0;
+}
+
+article.astro-L8GE1z0v,
+aside.astro-L8GE1z0v,
+details.astro-L8GE1z0v,
+figcaption.astro-L8GE1z0v,
+figure.astro-L8GE1z0v,
+footer.astro-L8GE1z0v,
+header.astro-L8GE1z0v,
+hgroup.astro-L8GE1z0v,
+main.astro-L8GE1z0v,
+menu.astro-L8GE1z0v,
+nav.astro-L8GE1z0v,
+section.astro-L8GE1z0v,
+summary.astro-L8GE1z0v {
+  display: block;
+}
+
+table.astro-L8GE1z0v {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption.astro-L8GE1z0v,
+td.astro-L8GE1z0v,
+th.astro-L8GE1z0v {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+b.astro-L8GE1z0v,
+mark.astro-L8GE1z0v,
+strong.astro-L8GE1z0v {
+  font-weight: bold;
+  font-style: inherit;
+}
+
+address.astro-L8GE1z0v,
+dfn.astro-L8GE1z0v,
+em.astro-L8GE1z0v,
+i.astro-L8GE1z0v,
+q.astro-L8GE1z0v,
+var.astro-L8GE1z0v {
+  font-style: normal;
+  font-weight: inherit;
+}
+
+a.astro-L8GE1z0v,
+ins.astro-L8GE1z0v,
+u.astro-L8GE1z0v {
+  text-decoration: none;
+}
+
+code.astro-L8GE1z0v,
+kbd.astro-L8GE1z0v,
+pre.astro-L8GE1z0v,
+samp.astro-L8GE1z0v {
+  font-family: monospace;
+}
+
+iframe.astro-L8GE1z0v {
+  width: 100%;
+}
+
+a.astro-L8GE1z0v {
+  outline: none;
+}
+
+img.astro-L8GE1z0v {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+input.astro-L8GE1z0v,
+select.astro-L8GE1z0v,
+textarea.astro-L8GE1z0v {
+  font: inherit;
+}
+
+button.astro-L8GE1z0v {
+  cursor: pointer;
+}
+
+article.astro-L8GE1z0v,
+aside.astro-L8GE1z0v,
+details.astro-L8GE1z0v,
+figcaption.astro-L8GE1z0v,
+figure.astro-L8GE1z0v,
+footer.astro-L8GE1z0v,
+header.astro-L8GE1z0v,
+hgroup.astro-L8GE1z0v,
+main.astro-L8GE1z0v,
+nav.astro-L8GE1z0v,
+section.astro-L8GE1z0v,
+summary.astro-L8GE1z0v,
+video.astro-L8GE1z0v {
+  display: block;
+}
+
+audio.astro-L8GE1z0v,
+canvas.astro-L8GE1z0v {
+  display: inline-block;
+}
+
+audio.astro-L8GE1z0v:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden].astro-L8GE1z0v {
+  display: none;
+}
+
+html {
+  font-family: "Aluminia", Georgia, serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a.astro-L8GE1z0v:focus {
+  outline: thin dotted;
+}
+
+a.astro-L8GE1z0v:active,
+a.astro-L8GE1z0v:hover {
+  outline: 0;
+}
+
+abbr[title].astro-L8GE1z0v {
+  border-bottom: 1px dotted;
+}
+
+dfn.astro-L8GE1z0v {
+  font-style: italic;
+}
+
+hr.astro-L8GE1z0v {
+  box-sizing: content-box;
+  height: 0;
+}
+
+mark.astro-L8GE1z0v {
+  background: #ff0;
+  color: #000;
+}
+
+code.astro-L8GE1z0v,
+kbd.astro-L8GE1z0v,
+pre.astro-L8GE1z0v,
+samp.astro-L8GE1z0v {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre.astro-L8GE1z0v {
+  white-space: pre-wrap;
+}
+
+q.astro-L8GE1z0v {
+  quotes: "“" "”" "‘" "’";
+}
+
+small.astro-L8GE1z0v {
+  font-size: 80%;
+}
+
+sub.astro-L8GE1z0v,
+sup.astro-L8GE1z0v {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup.astro-L8GE1z0v {
+  top: -0.5em;
+}
+
+sub.astro-L8GE1z0v {
+  bottom: -0.25em;
+}
+
+img.astro-L8GE1z0v {
+  border: 0;
+}
+
+svg.astro-L8GE1z0v:not(:root) {
+  overflow: hidden;
+}
+
+figure.astro-L8GE1z0v {
+  margin: 0;
+}
+
+fieldset.astro-L8GE1z0v {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend.astro-L8GE1z0v {
+  border: 0;
+  padding: 0;
+}
+
+button.astro-L8GE1z0v,
+input.astro-L8GE1z0v,
+select.astro-L8GE1z0v,
+textarea.astro-L8GE1z0v {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button.astro-L8GE1z0v,
+input.astro-L8GE1z0v {
+  line-height: normal;
+}
+
+button.astro-L8GE1z0v,
+select.astro-L8GE1z0v {
+  text-transform: none;
+}
+
+button.astro-L8GE1z0v,
+html.astro-L8GE1z0v input[type=button].astro-L8GE1z0v,
+input[type=reset].astro-L8GE1z0v,
+input[type=submit].astro-L8GE1z0v {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled].astro-L8GE1z0v,
+html.astro-L8GE1z0v input[disabled].astro-L8GE1z0v {
+  cursor: default;
+}
+
+input[type=checkbox].astro-L8GE1z0v,
+input[type=radio].astro-L8GE1z0v {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type=search].astro-L8GE1z0v {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type=search].astro-L8GE1z0v::-webkit-search-cancel-button,
+input[type=search].astro-L8GE1z0v::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button.astro-L8GE1z0v::-moz-focus-inner,
+input.astro-L8GE1z0v::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea.astro-L8GE1z0v {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table.astro-L8GE1z0v {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.cf.astro-L8GE1z0v:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.u-text--bold.astro-L8GE1z0v {
+  font-weight: bold;
+}
+
+.u-text--italic.astro-L8GE1z0v {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif;
+}
+
+.u-text--small-caps.astro-L8GE1z0v {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-family: "Aluminia", Georgia, serif;
+}
+
+.u-text--regular.astro-L8GE1z0v {
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif;
+}
+
+h1.astro-L8GE1z0v,
+h2.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+h4.astro-L8GE1z0v,
+h5.astro-L8GE1z0v,
+h6.astro-L8GE1z0v,
+hgroup.astro-L8GE1z0v,
+ul.astro-L8GE1z0v,
+ol.astro-L8GE1z0v,
+dl.astro-L8GE1z0v,
+blockquote.astro-L8GE1z0v,
+p.astro-L8GE1z0v,
+address.astro-L8GE1z0v,
+table.astro-L8GE1z0v,
+video.astro-L8GE1z0v,
+fieldset.astro-L8GE1z0v,
+figure.astro-L8GE1z0v,
+pre.astro-L8GE1z0v,
+hr.astro-L8GE1z0v,
+ul.astro-L8GE1z0v,
+ol.astro-L8GE1z0v,
+.media.astro-L8GE1z0v,
+.island.astro-L8GE1z0v,
+.islet.astro-L8GE1z0v {
+  margin-bottom: 25.2px;
+  margin-bottom: 1.575rem;
+}
+
+@media (min-width: 621px) {
+  h1.astro-L8GE1z0v,
+h2.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+h4.astro-L8GE1z0v,
+h5.astro-L8GE1z0v,
+h6.astro-L8GE1z0v,
+hgroup.astro-L8GE1z0v,
+ul.astro-L8GE1z0v,
+ol.astro-L8GE1z0v,
+dl.astro-L8GE1z0v,
+blockquote.astro-L8GE1z0v,
+p.astro-L8GE1z0v,
+address.astro-L8GE1z0v,
+table.astro-L8GE1z0v,
+video.astro-L8GE1z0v,
+fieldset.astro-L8GE1z0v,
+figure.astro-L8GE1z0v,
+pre.astro-L8GE1z0v,
+hr.astro-L8GE1z0v,
+ul.astro-L8GE1z0v,
+ol.astro-L8GE1z0v,
+.media.astro-L8GE1z0v,
+.island.astro-L8GE1z0v,
+.islet.astro-L8GE1z0v {
+    margin-bottom: 28.8px;
+    margin-bottom: 1.8rem;
+  }
+}
+dd.astro-L8GE1z0v {
+  margin-bottom: 9px;
+  margin-bottom: 0.5625rem;
+}
+
+iframe.astro-L8GE1z0v,
+.widescreen.astro-L8GE1z0v {
+  margin: 18px 0px 36px 0px;
+  margin: 1.125rem 0rem 2.25rem 0rem;
+}
+
+a.astro-L8GE1z0v {
+  border: none;
+}
+
+.links.astro-L8GE1z0v:is(a),
+.links.astro-L8GE1z0v a.astro-L8GE1z0v {
+  color: var(--link-color);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip: ink;
+}
+
+.links.astro-L8GE1z0v:is(a):hover,
+.links.astro-L8GE1z0v:is(a):focus,
+.links.astro-L8GE1z0v a.astro-L8GE1z0v:hover,
+.links.astro-L8GE1z0v a.astro-L8GE1z0v:focus {
+  text-decoration: none;
+  color: var(--link-hover-color);
+  border: none;
+}
+
+.links.astro-L8GE1z0v:is(a):hover:before,
+.links.astro-L8GE1z0v:is(a):hover:after,
+.links.astro-L8GE1z0v:is(a):focus:before,
+.links.astro-L8GE1z0v:is(a):focus:after,
+.links.astro-L8GE1z0v a.astro-L8GE1z0v:hover:before,
+.links.astro-L8GE1z0v a.astro-L8GE1z0v:hover:after,
+.links.astro-L8GE1z0v a.astro-L8GE1z0v:focus:before,
+.links.astro-L8GE1z0v a.astro-L8GE1z0v:focus:after {
+  color: currentColor;
+}
+
+.links.card-list__text.astro-L8GE1z0v a.astro-L8GE1z0v {
+  color: var(--secondary-text-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+
+.links.card-list__text.astro-L8GE1z0v a.astro-L8GE1z0v:hover {
+  text-decoration: underline;
+  color: var(--link-hover-color);
+}
+
+.links--underline.astro-L8GE1z0v:is(a),
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v {
+  color: var(--link-color);
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  transition: color 0.3s ease;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip: ink;
+}
+
+.links--underline.astro-L8GE1z0v:is(a):hover,
+.links--underline.astro-L8GE1z0v:is(a):focus,
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v:hover,
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v:focus {
+  text-decoration: none;
+  color: var(--link-hover-color);
+  border: none;
+}
+
+.links--underline.astro-L8GE1z0v:is(a):hover:before,
+.links--underline.astro-L8GE1z0v:is(a):hover:after,
+.links--underline.astro-L8GE1z0v:is(a):focus:before,
+.links--underline.astro-L8GE1z0v:is(a):focus:after,
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v:hover:before,
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v:hover:after,
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v:focus:before,
+.links--underline.astro-L8GE1z0v a.astro-L8GE1z0v:focus:after {
+  color: currentColor;
+}
+
+.links--dark.astro-L8GE1z0v:link:link,
+.links--dark.astro-L8GE1z0v:link a.astro-L8GE1z0v,
+.links--dark.astro-L8GE1z0v a.astro-L8GE1z0v:link,
+.links--dark.astro-L8GE1z0v a.astro-L8GE1z0v a.astro-L8GE1z0v {
+  color: #777;
+}
+
+.h1.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h1.astro-L8GE1z0v,
+h1.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h1.astro-L8GE1z0v {
+  font-size: 28px;
+  font-size: 1.75rem;
+  color: var(--heading-color);
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 621px) {
+  .h1.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h1.astro-L8GE1z0v,
+h1.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h1.astro-L8GE1z0v {
+    font-size: 30px;
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 921px) {
+  .h1.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h1.astro-L8GE1z0v,
+h1.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h1.astro-L8GE1z0v {
+    font-size: 33px;
+    font-size: 2.0625rem;
+  }
+}
+.meta-info.astro-L8GE1z0v + .h1.astro-L8GE1z0v,
+.meta-info.astro-L8GE1z0v + .m-longform.astro-L8GE1z0v .h1.astro-L8GE1z0v,
+.meta-info.astro-L8GE1z0v + h1.astro-L8GE1z0v,
+.meta-info.astro-L8GE1z0v + .m-longform.astro-L8GE1z0v h1.astro-L8GE1z0v {
+  color: var(--heading-color);
+}
+
+.h1.astro-L8GE1z0v,
+.h2.astro-L8GE1z0v,
+.h3.astro-L8GE1z0v,
+.h4.astro-L8GE1z0v,
+.h5.astro-L8GE1z0v,
+h1.astro-L8GE1z0v,
+h2.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+h4.astro-L8GE1z0v,
+h5.astro-L8GE1z0v {
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif;
+}
+
+.m-longform.astro-L8GE1z0v .h2.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h2.astro-L8GE1z0v {
+  font-size: 28px;
+  font-size: 1.75rem;
+  line-height: 1.3;
+  margin-top: 0;
+}
+
+.h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h3.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h3.astro-L8GE1z0v {
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 1.45;
+}
+
+@media (min-width: 621px) {
+  .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h3.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h3.astro-L8GE1z0v {
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 1.55;
+  }
+}
+@media (min-width: 921px) {
+  .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h3.astro-L8GE1z0v,
+h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h3.astro-L8GE1z0v {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+}
+.h4.astro-L8GE1z0v,
+h4.astro-L8GE1z0v {
+  margin-bottom: 20px;
+}
+
+.h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h4.astro-L8GE1z0v,
+h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h4.astro-L8GE1z0v {
+  font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 1.3;
+}
+
+@media (min-width: 621px) {
+  .h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h4.astro-L8GE1z0v,
+h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h4.astro-L8GE1z0v {
+    font-size: 19px;
+    font-size: 1.1875rem;
+  }
+}
+.h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h5.astro-L8GE1z0v,
+h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h5.astro-L8GE1z0v {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+@media (min-width: 621px) {
+  .h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h5.astro-L8GE1z0v,
+h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h5.astro-L8GE1z0v {
+    font-size: 17px;
+    font-size: 1.0625rem;
+  }
+}
+.h6.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v .h6.astro-L8GE1z0v,
+h6.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h6.astro-L8GE1z0v {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.3;
+}
+
+.astro-L8GE1z0v {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--main-theme-color);
+  background-color: white;
+}
+
+@media (min-width: 921px) {
+  html {
+    padding: 10px;
+  }
+}
+body {
+  font: 400 110%;
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif !important;
+  line-height: 1.4;
+  font-feature-settings: "liga" 1 !important;
+  min-height: 100%;
+  background-color: white;
+  color: #444;
+  padding: 50px 15px;
+  background-color: #eee;
+}
+
+@media (min-width: 921px) {
+  body {
+    padding-bottom: 300px;
+    padding-top: 80px;
+  }
+}
+.wrapper.astro-L8GE1z0v {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.meta.astro-L8GE1z0v {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-family: "Aluminia", Georgia, serif;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.meta.astro-L8GE1z0v time.astro-L8GE1z0v:after {
+  display: inline-block;
+  content: "·";
+  position: relative;
+  top: 2px;
+  margin-left: 3px;
+}
+
+.m-longform.astro-L8GE1z0v:link,
+.m-longform.astro-L8GE1z0v a.astro-L8GE1z0v {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip: ink;
+  transition: color 0.3s ease;
+  -webkit-text-decoration-color: var(--link-underline);
+          text-decoration-color: var(--link-underline);
+}
+
+.m-longform.astro-L8GE1z0v:link:hover,
+.m-longform.astro-L8GE1z0v:link:focus,
+.m-longform.astro-L8GE1z0v a.astro-L8GE1z0v:hover,
+.m-longform.astro-L8GE1z0v a.astro-L8GE1z0v:focus {
+  color: var(--link-hover-color);
+  -webkit-text-decoration-color: inherit;
+          text-decoration-color: inherit;
+}
+
+.m-longform.astro-L8GE1z0v > *.astro-L8GE1z0v:last-child {
+  margin-bottom: 0;
+}
+
+.m-longform.astro-L8GE1z0v > div.astro-L8GE1z0v {
+  margin-bottom: 50px;
+}
+
+.m-longform.astro-L8GE1z0v h1.astro-L8GE1z0v {
+  color: #000;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+
+.m-longform.astro-L8GE1z0v abbr.astro-L8GE1z0v {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-family: "Aluminia", Georgia, serif;
+  text-decoration: none;
+  border: none;
+}
+
+.m-longform.astro-L8GE1z0v h2.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h6.astro-L8GE1z0v {
+  color: var(--heading-color);
+}
+
+.m-longform.astro-L8GE1z0v h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h6.astro-L8GE1z0v {
+  margin-top: 28.8px;
+  margin-top: 1.8rem;
+  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
+}
+
+.m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v li.astro-L8GE1z0v {
+  margin-bottom: 0;
+}
+
+.m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v {
+  font-size: 23px;
+  font-size: 1.4375rem;
+  line-height: 1.15;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-after: 2;
+  -webkit-hyphenate-limit-before: 3;
+  -ms-hyphens: auto;
+      hyphens: auto;
+}
+
+@media (min-width: 401px) {
+  .m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v {
+    font-size: 23px;
+    font-size: 1.4375rem;
+    line-height: 1.34;
+  }
+}
+@media (min-width: 621px) {
+  .m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.34;
+  }
+}
+@media (min-width: 921px) {
+  .m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v {
+    font-size: 25px;
+    font-size: 1.5625rem;
+    line-height: 1.34;
+  }
+}
+.m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v > img.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v > img.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v > img.astro-L8GE1z0v {
+  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
+}
+
+.m-longform.astro-L8GE1z0v figure.astro-L8GE1z0v blockquote.astro-L8GE1z0v {
+  padding-left: 0 !important;
+}
+
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v img.astro-L8GE1z0v {
+  margin-bottom: 0;
+}
+
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v {
+  margin-left: 0;
+  list-style: none;
+}
+
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v li.astro-L8GE1z0v {
+  list-style: none;
+  margin-bottom: 5px;
+  position: relative;
+  font-size: 0.95em;
+}
+
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v li.astro-L8GE1z0v:before {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 7px;
+  background-color: var(--secondary-text-color);
+  transform: rotate(45deg);
+  font-size: 1.1em;
+  position: absolute;
+  top: 12px;
+  left: -20px;
+}
+
+.m-longform.astro-L8GE1z0v em.astro-L8GE1z0v {
+  font-style: italic;
+}
+
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v ul.astro-L8GE1z0v {
+  margin-left: 20px;
+}
+
+.m-longform.astro-L8GE1z0v figure.astro-L8GE1z0v > blockquote.astro-L8GE1z0v {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.m-longform.astro-L8GE1z0v figure.astro-L8GE1z0v > img.astro-L8GE1z0v + blockquote.astro-L8GE1z0v {
+  margin-top: 20px;
+}
+
+.m-longform.astro-L8GE1z0v figure.astro-L8GE1z0v + .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figure.astro-L8GE1z0v + h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v img.astro-L8GE1z0v + .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v img.astro-L8GE1z0v + h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v + .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ol.astro-L8GE1z0v + h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v + .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v p.astro-L8GE1z0v + h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v + .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v ul.astro-L8GE1z0v + h3.astro-L8GE1z0v {
+  margin-top: 36px;
+  margin-top: 2.25rem;
+}
+
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v p.astro-L8GE1z0v {
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+@media (min-width: 921px) {
+  .m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v p.astro-L8GE1z0v {
+    max-width: 630px;
+  }
+}
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v a.astro-L8GE1z0v:link,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v a.astro-L8GE1z0v a.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v p.astro-L8GE1z0v a.astro-L8GE1z0v:link,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v p.astro-L8GE1z0v a.astro-L8GE1z0v a.astro-L8GE1z0v {
+  color: #777;
+}
+
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v p.astro-L8GE1z0v {
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v > ul.astro-L8GE1z0v {
+  padding-left: 40px !important;
+}
+
+.m-longform.astro-L8GE1z0v .cite.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v > p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v {
+  padding-left: 7px;
+}
+
+@media screen and (min-width: 500px) {
+  .m-longform.astro-L8GE1z0v .cite.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v > p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v {
+    padding-left: 18px;
+  }
+}
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v {
+  position: relative;
+}
+
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v > .astro-L8GE1z0v {
+  border-left: 1px solid var(--card-border);
+  padding-bottom: 13px;
+  padding-bottom: 0.8125rem;
+  margin-bottom: 0;
+  position: relative;
+  color: var(--main-text-color);
+}
+
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v > *.astro-L8GE1z0v:last-child,
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v > *.astro-L8GE1z0v:only-child {
+  padding-bottom: 0;
+}
+
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v p.astro-L8GE1z0v {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Aluminia", Georgia, serif;
+}
+
+.m-longform.astro-L8GE1z0v blockquote.astro-L8GE1z0v p.astro-L8GE1z0v + p.astro-L8GE1z0v {
+  padding-top: 5px;
+}
+
+.m-longform.astro-L8GE1z0v .blockquote--none.astro-L8GE1z0v p.astro-L8GE1z0v {
+  border-left: 0;
+  padding-left: 0;
+}
+
+.m-longform.astro-L8GE1z0v img.astro-L8GE1z0v {
+  display: block;
+  margin: 0 auto;
+}
+
+.m-longform.astro-L8GE1z0v img.astro-L8GE1z0v + figcaption.astro-L8GE1z0v {
+  padding: 10px 0 0;
+}
+
+.m-longform.astro-L8GE1z0v .cite.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v {
+  display: block;
+  position: relative;
+  padding-top: 4px;
+  border-left: 2px solid transparent;
+}
+
+.m-longform.astro-L8GE1z0v .cite.astro-L8GE1z0v > p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v > p.astro-L8GE1z0v {
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-bottom: 0;
+  text-align: left;
+  width: 100%;
+}
+
+@media (min-width: 621px) {
+  .m-longform.astro-L8GE1z0v .cite.astro-L8GE1z0v > p.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v figcaption.astro-L8GE1z0v > p.astro-L8GE1z0v {
+    font-size: 15px;
+    font-size: 0.9375rem;
+  }
+}
+.m-longform.astro-L8GE1z0v .h2.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h2.astro-L8GE1z0v {
+  margin-bottom: 20px;
+  margin-top: 36px;
+  margin-top: 2.25rem;
+}
+
+.m-longform.astro-L8GE1z0v .h3.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h3.astro-L8GE1z0v {
+  margin-bottom: 20px;
+}
+
+.m-longform.astro-L8GE1z0v .h4.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h4.astro-L8GE1z0v {
+  margin-top: 40px;
+}
+
+.m-longform.astro-L8GE1z0v .h5.astro-L8GE1z0v,
+.m-longform.astro-L8GE1z0v h5.astro-L8GE1z0v {
+  font-weight: normal;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-family: "Aluminia", Georgia, serif;
+  margin-top: 40px;
+}</style></head><body class="body"><article class="h-entry astro-L8GE1z0v"><div class="layout-wrapper astro-L8GE1z0v"><div class="wrapper m-longform astro-L8GE1z0v"><header class="astro-L8GE1z0v"><aside class="meta astro-L8GE1z0v">2020-07-24T17:00:00.000ZSan FranciscoCalifornia</aside><h1 class="astro-L8GE1z0v">The Arc of Design</h1></header><p class="astro-L8GE1z0v">In any videogame you’ll spot it right away. Equip an object like a grenade or a stone—anything you want to throw at an enemy—and you’ll see the arc: dotted lines reveal the path that the object will take through the air. Pretty much every game uses this visual trick for two reasons; first, because perceiving depth in a three-dimensional game is difficult (this is why Nintendo de-emphasized perfectly timed jumps in <em class="astro-L8GE1z0v">Mario 64</em> onwards and it’s why the two dimensional platformer <em class="astro-L8GE1z0v">Super Meat Boy</em> requires near pixel-perfect timing). But second, this throwing-arc is important because, well...</p><p class="astro-L8GE1z0v">Great interface design is about seeing the future.</p><p class="astro-L8GE1z0v">Let me explain. Not so long ago the throwing arc disappeared in the game I was playing. But I didn’t notice the bug and I didn’t notice the arc missing at all, one day I just found that my accuracy was terrible. I was throwing grenades ten, twenty feet off the mark each time and I kept blaming myself for being lazy or bad. It took me weeks to realize what the problem was and, sure enough, a patch released that fixed the issue and I could suddenly throw things properly again. It wasn’t me—it was the design!</p><p class="astro-L8GE1z0v">Since that throwing-arc mysteriously disappeared I’ve thought a lot about what this means for my job as a designer and how I might alleviate someone’s anxiety about the future; <em class="astro-L8GE1z0v">what happens when I click this? Or what if I go here, select this thingy and move it over there? What does this mean? Who is that? Also: why??? What impact will this button have on my data? Where am I going? How will this decision hurt or help me?</em></p><p class="astro-L8GE1z0v">The throwing-arc mechanic that we see in pretty much every videogame answers one of these questions (or existential anxieties). What happens when I throw this thing? <em class="astro-L8GE1z0v">Well</em>, the throwing arc says, <em class="astro-L8GE1z0v">if you click this button then this precise thing will happen this far away.</em> Sometimes a game will even show how much damage this will do as well—great for RPGs when you often need to calculate turns and percentages, hit points, and ammo. My point here is that the throwing-arc shows us the future.</p><p class="astro-L8GE1z0v">Another example of this can be found in <em class="astro-L8GE1z0v">Ghost of Tsushima</em>: in many free-roam games there’s a map dotted with markers and it’s always visible in the bottom left of the screen. Some have complained for years now that this drags us out of the stunning environment of the videogame world and instead we spend most of our time focused on this tiny map in the corner of the screen, figuring out where we need to go. We ignore the wonderful animations and other-worldly environments because we’re looking at the UI and not the world.</p><p class="astro-L8GE1z0v"><em class="astro-L8GE1z0v">Ghost of Tsushima</em> is quite different because there is no map.</p><p class="astro-L8GE1z0v">Instead, we must follow the wind; all the trees and flowers, the petals in the breeze, all of nature guides our progress to the next important thing. And I think this is quite honestly the single most beautiful bit of design I’ve seen for a while now: the world itself is showing me the future. This makes me closely watch the trees, the grass, and the petals in the river. And so I cannot help but stare at the absolute wondrous beauty of this game’s environment design, but it’s smarter than that because it alleviates my anxiety when it comes to free-roam games: <em class="astro-L8GE1z0v">where am I going now?</em></p><p class="astro-L8GE1z0v">This anxiety about the future is true outside of videogame design, too. It’s why we should label icons and provide folks with accessible interfaces. It’s why we should build clear hover and focus states that let someone sort of guess what will happen when they click something or when they type. It’s why we should write copy to prevent confusion about the terms of an agreement or the complexity of a feature. It’s why responsive design is important. It’s why good URL design is worthy of our time and attention.</p><p class="astro-L8GE1z0v">And so I’m glad for the bug I came across that day because it re-framed my work. Or rather, clarified something that I’d been thinking about for a long time. All of this work that we do as designers is about comforting people in the face of an uncertain future; one wrong click, one poorly-timed refresh, and suddenly all your data is gone, you’ve sent an embarrassing message to someone, the interface has hurt you.</p><p class="astro-L8GE1z0v">Perhaps our motto as designers should then be this: <em class="astro-L8GE1z0v">Do no harm. Make things clear. And show us the future.</em></p></div></div></article></body></html>

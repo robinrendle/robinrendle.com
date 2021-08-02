@@ -1,0 +1,71 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Products and platforms • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/products-platforms/"><meta property="og:title" content="Products and platforms"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2019-10-08T16:53:33.000Z" class="astro-V2H4nGwR">October 8, 2019</time> • San Francisco, California</div><h1 class="page-title astro-V2H4nGwR">Products and platforms</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-rty8pZdc">The other evening I got to reading this old rant about and how <a href="https://gist.github.com/chitchcock/1281611" class="astro-rty8pZdc">most companies don’t understand platforms</a>, being far too focused on building short-sighted products instead of the underlying infrastructure that ties it all together. However, the writer of this post doesn’t make the distinction between ‘platforms and products’ entirely clear, I understood a platform to be APIs, data, and overall communication between teams and codebases whereas a ‘product’ is something that customers end up seeing. Like an app, for instance.</p><p class="astro-rty8pZdc">Stevey argues that Amazon is way better at building platforms than Google is:</p><blockquote class="astro-rty8pZdc"><p class="astro-rty8pZdc">So one day Jeff Bezos issued a mandate. He's doing that all the time, of course, and people scramble like ants being pounded with a rubber mallet whenever it happens. But on one occasion -- back around 2002 I think, plus or minus a year -- he issued a mandate that was so out there, so huge and eye-bulgingly ponderous, that it made all of his other mandates look like unsolicited peer bonuses.</p><p class="astro-rty8pZdc">His Big Mandate went something along these lines:</p></blockquote><pre class="language-html astro-y5UYZ7uS"><code class="language-html astro-y5UYZ7uS">1. All teams will henceforth expose their data and functionality through service interfaces.
+
+2. Teams must communicate with each other through these interfaces.
+
+3. There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+
+4. It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols -- doesn't matter. Bezos doesn't care.
+
+5. All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+
+6. Anyone who doesn't do this will be fired.
+
+7. Thank you; have a nice day!
+</code></pre><blockquote class="astro-rty8pZdc"><p class="astro-rty8pZdc">Ha, ha! You 150-odd ex-Amazon folks here will of course realize immediately that #7 was a little joke I threw in, because Bezos most definitely does not give a shit about your day.</p></blockquote><p class="astro-rty8pZdc">This is all written nearly a decade ago now so it’s probably not the case today. But the reason why this post caught my attention is because I reckon this is something that relates to design systems somewhat: most folks think that design systems should be owned by a product team at a company but this is totally the wrong way to think about it in my opinion. Yes, a DS team is supporting multiple products — apps, websites, internal tools — but really they’re platform people. They should care first and foremost about the platform.</p><p class="astro-rty8pZdc">The platform in this example would be their component library, the styles, their guide, their design process feedback. Which is weird because I’m a product designer on a platform team and so the job description doesn’t make much sense to me. <em class="astro-rty8pZdc">Platform designer</em> sounds better.</p><p class="astro-rty8pZdc">Anyway, I loved this post a great deal and this distinction between platforms and products made something click in my head that I’ve been thinking about for a long time but have been unable to put into words.</p></article></div></main></body></html>

@@ -1,7 +1,0 @@
-{
-  "layout": "default",
-  "tag": "note",
-  "permalink": "notes/{{ title | slug }}.html",
-  "city": "San Francisco",
-  "country": "USA"
-}

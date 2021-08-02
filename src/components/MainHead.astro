@@ -1,0 +1,36 @@
+---
+// props
+export let title: string;
+export let description: string;
+export let image: string | undefined;
+export let type: string | undefined;
+export let next: string | undefined;
+export let prev: string | undefined;
+export let canonicalURL: string | undefined;
+---
+
+<!-- Common -->
+<meta charset="UTF-8">
+<title>{title} • Robin Rendle</title>
+<meta name="description" content={description}>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/global.css">
+<!-- Sitemap -->
+<link rel="sitemap" href="/sitemap.xml">
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" href="/feed/posts.xml">
+
+<!-- SEO -->
+<link rel="canonical" href={canonicalURL}>
+{next && <link rel="next" href={new URL(next, canonicalURL).href}>}
+{prev && <link rel="prev" href={new URL(prev, canonicalURL).href}>}
+
+<!-- OpenGraph -->
+<meta property="og:title" content={title}>
+<meta property="og:description" content={description}>
+{image && (<meta property="og:image" content={new URL(image, canonicalURL)}>)}
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" href="/favicon.png">
+

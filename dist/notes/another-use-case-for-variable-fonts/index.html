@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Another use case for variable fonts • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/another-use-case-for-variable-fonts/"><meta property="og:title" content="Another use case for variable fonts"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2020-05-23T16:03:02.322Z" class="astro-V2H4nGwR">May 23, 2020</time> • San Francisco, California</div><h1 class="page-title astro-V2H4nGwR">Another use case for variable fonts</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-Ir2ycGYI">There’s a lot of nifty things you can do with variable fonts. You can make <a href="https://css-tricks.com/dark-mode-and-variable-fonts/" class="astro-Ir2ycGYI">small design adjustments</a>, or you can get a bunch of performance benefits...<em class="astro-Ir2ycGYI">kinda</em>. If you load a giant variable font with a ton of different axes then your users are going to have a bad time. But! Loading one font like Newzald.woff2 is likely going to be faster than loading Newzald-bold.woff2, Newzald-italic.woff2, Newzald-regular.woff2, etc. Lots of folks like <a href="https://codepen.io/collection/XqRLMb/" class="astro-Ir2ycGYI">Mandy Michael</a> have written a ton of stuff about this before so I won’t retread those thoughts.</p><p class="astro-Ir2ycGYI">But what if we could combine fonts together easily? So say we have a display font (Display.woff2) and it has one weight we want to use for our headings. Then we have a body text font (Body.woff2) and it has multiple styles—italic, bold, regular, etc. Instead of loading two separate fonts here it would be great to combine two very different type families into a single file (Project.woff2) (and I’m imagining an interface similar to ImageOptim here for some reason).</p><p class="astro-Ir2ycGYI">I <a href="https://twitter.com/robinrendle/status/1245066797897809921" class="astro-Ir2ycGYI">mentioned this</a> not so long ago and <a href="https://twitter.com/NickSherman/status/1245082954579263492" class="astro-Ir2ycGYI">Nick Sherman replied</a> that <a href="https://docs.microsoft.com/en-us/typography/opentype/spec/otff#collections" class="astro-Ir2ycGYI">OpenType Collections</a> are designed for just this very thing.</p><p class="astro-Ir2ycGYI">Nifty! I’ll be sure to dig into that at one point or another.</p></article></div></main></body></html>

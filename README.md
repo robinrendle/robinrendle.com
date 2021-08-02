@@ -1,7 +1,15 @@
-# [robinrendle.com](http://robinrendle.com)
+# Robin Rendle
 
-To set things up, run the following command:
+My personal website, running on Astro.
+
+### Run
 
 ```
-yarn install && yarn start
+npm start
+```
+
+### Build
+
+```
+npm run build
 ```

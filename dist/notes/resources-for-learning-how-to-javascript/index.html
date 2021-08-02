@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Resources for learning how to JavaScript • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/resources-for-learning-how-to-javascript/"><meta property="og:title" content="Resources for learning how to JavaScript"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2014-09-10T14:20:00.000Z" class="astro-V2H4nGwR">September 10, 2014</time> • Plymouth, UK</div><h1 class="page-title astro-V2H4nGwR">Resources for learning how to JavaScript</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-RyrJAqtE">In recent weeks I’ve been trying to improve my fledging JavaScript skills, which have <em class="astro-RyrJAqtE">always</em> bothered me. Sure, for the longest time I’ve been able to hack away in order to get something to work in the browser but parsing all the quirks and eccentricities of the <abbr title="Document Object Model" class="astro-RyrJAqtE">DOM</abbr>, <abbr title="Browser Object Model" class="astro-RyrJAqtE">BOM</abbr> and related <abbr title="Application programming interface" class="astro-RyrJAqtE">API</abbr>s felt entirely beyond me. So now, a couple of weeks later, I thought it might be a nice idea to round up a collection of resources which I found to be particularly helpful along the way.</p><hr class="astro-RyrJAqtE"><h3 id="1-the-javascript-book" class="astro-RyrJAqtE"><a href="http://javascriptbook.com/" class="astro-RyrJAqtE">#1: The Javascript Book</a></h3><p class="astro-RyrJAqtE">From the people that brought us the excellent <a href="http://www.htmlandcssbook.com/" class="astro-RyrJAqtE">HTML and CSS book</a> comes a great resource for folks just starting out with JavaScript. However, more than simply <em class="astro-RyrJAqtE">reading</em> this book from cover to cover I’d recommend that anyone that’s dedicated should write out <em class="astro-RyrJAqtE">every</em> single line of code from the examples given inside.</p><p class="astro-RyrJAqtE">I’ve often made the mistake in the past of reading technical books without examining each line of code and ultimately that’s made me a worse programmer in the long run. But now whenever I go through this sort of book I’ll crack open <a href="http://jsbin.com/" class="astro-RyrJAqtE">JSBin</a> or <a href="http://codepen.io" class="astro-RyrJAqtE">Codepen</a> and get the example actually working in my own browser until I move onto another section.</p><h3 id="2-a-dive-into-plain-javascript" class="astro-RyrJAqtE"><a href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/" class="astro-RyrJAqtE">#2: A dive into plain JavaScript</a></h3><p class="astro-RyrJAqtE">Next up is an article by <a href="https://twitter.com/viljamis" class="astro-RyrJAqtE">Viljami Salminen</a> over on the Adtile blog where he offers a comprehensive intro into plain JavaScript, which is especially useful if you’re more familiar with jQuery. The focus of this piece is mostly on the latest additions to the syntax, whilst taking into consideration progressive enhancement too:</p><figure class="astro-RyrJAqtE"><blockquote class="astro-RyrJAqtE"><p class="astro-RyrJAqtE">While libraries like jQuery help to forget most of the browser inconsistencies, you really become familiar with them once you start using plain JavaScript for everything. To avoid writing JavaScript that’s full of browser hacks and code which only solves browser compatibility issues, I recommend building a progressively enhanced experience using feature detection to only target the more modern browsers.</p></blockquote><figcaption class="cite astro-RyrJAqtE"><p class="astro-RyrJAqtE">Viljami Salminen, <a href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/" class="astro-RyrJAqtE">Adtile blog</a></p></figcaption></figure><h3 id="3-is-it-time-to-drop-jquery" class="astro-RyrJAqtE"><a href="http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background" class="astro-RyrJAqtE">#3: Is it time to drop jQuery?</a></h3><p class="astro-RyrJAqtE">Likwise, this piece by <a href="https://twitter.com/toddmotto" class="astro-RyrJAqtE">Todd Motto</a> is another great introduction to plain JavaScript that takes an interesting look at what jQuery’s doing in the background:</p><figure class="astro-RyrJAqtE"><blockquote class="astro-RyrJAqtE"><p class="astro-RyrJAqtE">HTML5 doesn't just mean a few extra HTML elements, if you're putting down on your CV/Resume that you know HTML5 because you've used the new elements, then think again! HTML5 covers such a mass of technology, and also alongside it comes ECMAScript 5, the future of JavaScript. Combining HTML5 APIs, of which most require JavaScript, we need to adopt a more native structure of working as each day jQuery becomes less important, and here's why.</p></blockquote><figcaption class="cite astro-RyrJAqtE"><p class="astro-RyrJAqtE">Todd Motto, <a href="http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background" class="astro-RyrJAqtE">toddmotto.com</a></p></figcaption></figure><h3 id="4-everything-you-wanted-to-know-about-javascript-scope" class="astro-RyrJAqtE"><a href="http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/" class="astro-RyrJAqtE">#4: Everything you wanted to know about JavaScript Scope</a></h3><p class="astro-RyrJAqtE">Through that great primer on plain JavaScript by Todd I also happened to stumble upon his article which meticulously explains lexical scope. Compared to any other resource out there, I haven’t found a better description, as Todd carefully takes the reader through this unfamiliar concept, step by step:</p><figure class="astro-RyrJAqtE"><blockquote class="astro-RyrJAqtE"><p class="astro-RyrJAqtE">The JavaScript language has a few concepts of "scope", none of which are straightforward or easy to understand as a new JavaScript developer (and even some experienced JavaScript developers). This post is aimed at those wanting to learn about the many depths of JavaScript after hearing words such as scope, closure, this, namespace, function scope, global scope, lexical scope and public/private scope.
+</p></blockquote><figcaption class="cite astro-RyrJAqtE"><p class="astro-RyrJAqtE">Todd Motto, <a href="http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/" class="astro-RyrJAqtE">toddmotto.com</a></p></figcaption></figure><h3 id="5-help-im-stuck-in-an-event-loop" class="astro-RyrJAqtE"><a href="http://vimeo.com/96425312" class="astro-RyrJAqtE">#5: Help, I’m stuck in an event loop!</a></h3><p class="astro-RyrJAqtE">This video of a talk by <a href="https://twitter.com/philip_roberts" class="astro-RyrJAqtE">Philip Roberts</a> at Scotland JS earlier this year piqued my attention because he dives into the inner workings of the JavaScript language. What’s a callback queue? What’s a call stack? How do functions <em class="astro-RyrJAqtE">really</em> work in this strange and alien environment? <a href="http://vimeo.com/96425312" class="astro-RyrJAqtE">Let’s find out!</a></p><h3 id="6-javascript-design-patterns" class="astro-RyrJAqtE"><a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" class="astro-RyrJAqtE">#6: JavaScript Design Patterns</a></h3><p class="astro-RyrJAqtE">Finally, I’ve been working my way through this more complicated collection of design patterns as detailed by <a href="https://twitter.com/addyosmani" class="astro-RyrJAqtE">Addy Osmani</a>. Although it looks a little scary at first, understanding how to organise a lot of JavaScript into a cohesive pattern is vital for maintaining the codebase and working on larger JS applications:</p><figure class="astro-RyrJAqtE"><blockquote class="astro-RyrJAqtE"><p class="astro-RyrJAqtE">A pattern is a reusable solution that can be applied to commonly occurring problems in software design - in our case - in writing JavaScript web applications. Another way of looking at patterns are as templates for how we solve problems - ones which can be used in quite a few different situations.</p><p class="astro-RyrJAqtE">Patterns are not an exact solution. It’s important that we remember the role of a pattern is merely to provide us with a solution scheme. Patterns don’t solve all design problems nor do they replace good software designers, however, they do support them. Next we’ll take a look at some of the other advantages patterns have to offer.</p></blockquote><figcaption class="cite astro-RyrJAqtE"><p class="astro-RyrJAqtE">Addy Osmani, <a href="http://addyosmani.com/resources/essentialjsdesignpatterns/book/" class="astro-RyrJAqtE">addyosmani.com</a></p></figcaption></figure><hr class="astro-RyrJAqtE"><p class="astro-RyrJAqtE">Usually I disdain from writing listicles, especially the kind which happen to chant all the things I don’t understand about a particular technology – but sometimes it’s difficult to get to those <em class="astro-RyrJAqtE">ah-ha!</em> moments when learning something new, and these books, websites and videos were invaluable in that regard. Hopefully you’ll find these resources as useful as I have.</p></article></div></main></body></html>

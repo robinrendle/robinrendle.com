@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Improving my workflow • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/Improving-my-workflow/"><meta property="og:title" content="Improving my workflow"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2019-11-09T22:37:46.000Z" class="astro-V2H4nGwR">November 9, 2019</time> • San Francisco, California</div><h1 class="page-title astro-V2H4nGwR">Improving my workflow</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-EqeSa8wW">The biggest problem with having your own blog is that it’s pretty difficult to write and publish anything. You likely don’t have a fancy Medium-style interface if you want complete control over every little detail and you’re probably writing things from within a CMS or a code editor.</p><p class="astro-EqeSa8wW">Right now I’m writing this blog post from within <a href="https://code.visualstudio.com/" class="astro-EqeSa8wW">VS Code</a> for example:</p><div class="m-wrapper--full astro-EqeSa8wW"><figure class="m-wrapper--unpadded astro-EqeSa8wW"><img alt="A screenshot of VS Code" src="/images/vs-code-example.jpg" loading="lazy" class="astro-EqeSa8wW"></figure></div><p class="astro-EqeSa8wW">Even though I think that blogging is essential to becoming a better writer, the process around the writing can be super annoying and right now requires a ton of manual work for me. Over the past couple of weeks I’ve noticed how this process is actively hindering me from sharing links, quick ideas, or even embarassing relationship melodrama (oh, you’re <em class="astro-EqeSa8wW">very</em> welcome).</p><p class="astro-EqeSa8wW">Just look at this nightmare blogging process:</p><ol class="astro-EqeSa8wW"><li class="astro-EqeSa8wW">Open up VS Code and the workspace <code class="astro-EqeSa8wW">robinrendle.com</code>.</li><li class="astro-EqeSa8wW">Create the file name <code class="astro-EqeSa8wW">improving-my-workflow.md</code> inside <code class="astro-EqeSa8wW">/_posts</code>.</li><li class="astro-EqeSa8wW">Go to another file and copy/paste the metadata to the top of this one.</li><li class="astro-EqeSa8wW">Add the title and the correct date.</li><li class="astro-EqeSa8wW">Write the dang blog post.</li><li class="astro-EqeSa8wW">Push that code to the master branch so Netlify can publish.</li></ol><p class="astro-EqeSa8wW">Steps 1 through 4 are just far too much effort as the goal of any good blogging system should be to publish things as easily and as quickly as possible; ideally I should be spending all of my time and attention on the writing instead.</p><p class="astro-EqeSa8wW">So today I decided to tackle this problem once and for all. Right away I knew that I could experiment with <a href="https://www.alfredapp.com/" class="astro-EqeSa8wW">Alfred’s Workflows</a>; this lets you make little programs when you activate Alfred (so for me that’s <code class="astro-EqeSa8wW">cmd</code> + <code class="astro-EqeSa8wW">space</code>). What I wanted was to open up Alfred and then create a new file depending on the keyword I gave it and then I wanted it to automatically boot VS Code up with that new file. That way I could skip all those annoying steps entirely!</p><p class="astro-EqeSa8wW">After about ten minutes of tinkering with it all, I came up with the following workflow:</p><ol class="astro-EqeSa8wW"><li class="astro-EqeSa8wW">The Alfred extension takes the keyword I pass it after typing <code class="astro-EqeSa8wW">b</code> (oh and <code class="astro-EqeSa8wW">b</code> stands for blog).</li><li class="astro-EqeSa8wW">It replaces each space in the keyword with a hypen.</li><li class="astro-EqeSa8wW">Then that output is set to a variable called <code class="astro-EqeSa8wW">filename</code>.</li><li class="astro-EqeSa8wW">Create a text file with an extension of <code class="astro-EqeSa8wW">.md</code> and add the default meta data, including the current date to the top of the file.</li><li class="astro-EqeSa8wW">Open that file in VS Code.</li><li class="astro-EqeSa8wW">Alfred will then post a notification that everything is complete!</li></ol><div class="m-wrapper--full astro-EqeSa8wW"><figure class="m-wrapper--unpadded astro-EqeSa8wW"><video alt="A video of this new blogging workflow with Alfred" src="/images/a-new-blog-post.mp4" loading="lazy" autoplay="" loop="" class="astro-EqeSa8wW"></video></figure></div><p class="astro-EqeSa8wW">It’s pretty nifty that this only took me ten minutes to figure out. Since I’ll be using this command pretty much every day I also decided to <a href="https://thenounproject.com/icon/2021913/" class="astro-EqeSa8wW">pick up an icon</a> from the Noun Project as the thumbnail for this new workflow, too. Oh and this is what it looks like to make a program in Alfred’s UI:</p><div class="m-wrapper--full astro-EqeSa8wW"><figure class="m-wrapper--unpadded astro-EqeSa8wW"><img alt="The Alfred Workflow" src="/images/alfred-workflow.jpg" loading="lazy" class="astro-EqeSa8wW"></figure></div><p class="astro-EqeSa8wW">Anyway, now it takes all of three seconds to start blogging! And so I would highly recommend you invest a bit of time to make your own experience easier—whether that’s updating the back-end of your blog, or cleaning up the styles, or making a tiny tool like this to encourage you to write.</p><p class="astro-EqeSa8wW">Because blogging is back, baby!</p></article></div></main></body></html>

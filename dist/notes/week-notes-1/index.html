@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Week notes #1 • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/week-notes-1/"><meta property="og:title" content="Week notes #1"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2015-01-30T19:12:00.000Z" class="astro-V2H4nGwR">January 30, 2015</time> • Plymouth, UK</div><h1 class="page-title astro-V2H4nGwR">Week notes #1</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-mA6ltUyS">This is the beginning of a new side project in which every Friday evening I’ll write for thirty minutes about what I’ve been working on over the past seven days. For a while I’ve been stashing these notes in private but I’ve finally decided to start publishing them because I want to recognise what I’ve accomplished, what I’ve screwed up and what I can do better come Monday morning.</p><p class="astro-mA6ltUyS">So to kick things off, this is what I’ve been working on:</p><h2 id="strtr" class="astro-mA6ltUyS">strtr</h2><p class="astro-mA6ltUyS">At the beginning of each web design project I often return to the project I just finished, copying and pasting bits of code as I go. This feels haphazard and unorganised to say the least; I want to spend more of my time building a website rather than dealing with the tedious interlinking of dependencies that I commonly have to work with.</p><p class="astro-mA6ltUyS">This is where <a href="https://github.com/robinrendle/strtr" class="astro-mA6ltUyS">strtr</a> comes in. It’s a simple, relatively neutral strting™ point for small-to-medium sized websites. It contains the following:</p><ul class="astro-mA6ltUyS"><li class="astro-mA6ltUyS">An <code class="astro-mA6ltUyS">index.html</code> file with best practices for writing clean, semantic markup.</li><li class="astro-mA6ltUyS">A CSS reset is imported with regular ol’ Sass.</li><li class="astro-mA6ltUyS">Gulp tasks which ought to: - compile Sass - minimise the CSS output - optimise images + SVGs</li></ul><p class="astro-mA6ltUyS">For this <a href="https://github.com/paulrobertlloyd/barebones" class="astro-mA6ltUyS">Barebones</a>-esque project I’m hoping to avoid tools such Compass or Bourbon as ideally this should give me the autonomy to pick whichever Sass or JS framework or CMS or templating system I’ll need for a particular project.</p><p class="astro-mA6ltUyS">We’ll see how this goes but for now it’s already saved me about an hour of fiddling with dependencies.</p><h2 id="dotfiles" class="astro-mA6ltUyS">.dotfiles</h2><p class="astro-mA6ltUyS">As I was messing around with strtr I tried to run a command that basically gave my laptop <a href="https://twitter.com/robinrendle/status/560113019251077120" class="astro-mA6ltUyS">a heart attack</a>. It was nothing serious but it gave me the incentive to run a fresh copy of Yosemite with everything set to their natural defaults. Pruning your operating system with a fine tooth comb feels really good and thanks to Backblaze I didn’t lose any data in the process (get yourself a backup, y’all).</p><p class="astro-mA6ltUyS">Anyway, in the past I’ve stuck to using <a href="https://github.com/mathiasbynens/dotfiles" class="astro-mA6ltUyS">THE dotfiles</a> without any personal customization and this led to an awful amount of developer-guilt. So I decided to get <a href="https://github.com/robinrendle/dotfiles" class="astro-mA6ltUyS">my own dotfiles</a> sorted out once and for all.</p><p class="astro-mA6ltUyS"><a href="http://code.tutsplus.com/tutorials/setting-up-a-mac-dev-machine-from-zero-to-hero-with-dotfiles--net-35449" class="astro-mA6ltUyS">This tutorial on Tuts+</a> was particularly helpful for understanding the nitty gritty details of which file does what and how to get started making your own.</p><h2 id="a-better-javascript" class="astro-mA6ltUyS">A better JavaScript</h2><p class="astro-mA6ltUyS">In my spare time I worked on a dummy project to play around with <a href="http://jspm.io/" class="astro-mA6ltUyS">jspm</a> and oh boy does it feel like a nice way to write JavaScript. The complexity of modules and using AMD and incorporating jQuery into a project has always felt like an uncertain, hazy and complicated mess to me. However with Traceur and System.js added to a project, writing classes and using ES6 feels glorious in comparison. On the next project I’m going to try this out for sure.</p><h2 id="picture-problems" class="astro-mA6ltUyS">Picture problems</h2><p class="astro-mA6ltUyS">I also tried a weird thing with the <code class="astro-mA6ltUyS">picture</code> element which was pretty dumb.</p><p class="astro-mA6ltUyS">Let’s say we have 3 images visible on a small viewport and on desktop sizes there should be 5 images on display. Instead of hiding those images with CSS (where the files will still load in many browsers despite their invisibility) or writing whacky JS I wanted to figure out a way to do this with markup and <a href="https://github.com/scottjehl/picturefill" class="astro-mA6ltUyS">Picturefill</a>.</p><p class="astro-mA6ltUyS">So if you include the <code class="astro-mA6ltUyS">source</code> element and fill in the necessary <code class="astro-mA6ltUyS">media</code> attributes BUT remove the <code class="astro-mA6ltUyS">src</code> tag of the image inside the <code class="astro-mA6ltUyS">picture</code> element then images are not present on mobile yet they are progressively loaded in at wider viewports. Euruka!</p><p class="astro-mA6ltUyS">Let’s just go ahead and ignore the fact that Chrome happens to be the only browser that supports this behaviour. In this instance hiding the <code class="astro-mA6ltUyS">img</code> tags that didn’t load properly in other browsers made a cool idea unforgivably disgusting. Although, I am surprised I couldn’t find anything written about loading inline images like this elsewhere.</p><h2 id="talk-ideas" class="astro-mA6ltUyS">Talk ideas</h2><p class="astro-mA6ltUyS">I’ve begun work on my next talk which I’ve decided to call <em class="astro-mA6ltUyS">A brief and scattered history of letters</em>. In a single evening I had the intro, the end and the title pop into my head out of nowhere and I realised that over the next year what I really want to accomplish, as a sort of personal goal, is to set a firm timeline as to which events were important in the history of communication. I can recount the work of figures such as Gutenberg and Fournier or Benton and Haultin but fitting them onto a timeline is impossible without a search engine; dates smudge together and I often realise that I’ve mistaken one figure for another.</p><p class="astro-mA6ltUyS">So I want to explore these odd, printed shapes that we call letters and how they influence our daily lives yet I also want to figure out how they influenced each other, in a particular order, too.</p><h2 id="books-etc" class="astro-mA6ltUyS">Books, etc.</h2><p class="astro-mA6ltUyS">I’ve been rereading <a href="https://hyphenpress.co.uk/products/books/978-0-907259-42-8" class="astro-mA6ltUyS">Counterpunch</a>, perhaps my favourite book on design in general, and on returning to <a href="http://robinrendle.com/reading/counterpunch/" class="astro-mA6ltUyS">my review</a> I can see that I got pretty damn close to describing just how good it really is.</p><p class="astro-mA6ltUyS">As a side note I picked up <a href="http://www.nickharkaway.com/books/tigerman/" class="astro-mA6ltUyS">Tigerman</a> a couple of days ago and I immediately fell in a deep and insatiable love for the world Nick Harkaway imagines. And now I discover that he has an honest to goodness WEBSITE with a BLOG where he LINKS to things like the Force Awakens trailer with the crazy lightsaber, or what he describes as the ”Wibbly Sword Of Evil Flames.”</p><p class="astro-mA6ltUyS">This is undoubtedly where I’ll be camped out for the next week or so.</p></article></div></main></body></html>

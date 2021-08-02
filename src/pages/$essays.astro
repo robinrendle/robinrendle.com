@@ -1,0 +1,80 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Nav from '../components/Nav.astro';
+import ArticleList from '../components/ArticleList.astro';
+import ArticleItem from '../components/ArticleItem.astro';
+import Pagination from '../components/Pagination.astro';
+
+// page
+let title = 'Essays';
+let description = 'An example blog on Astro';
+let canonicalURL = Astro.request.canonicalURL;
+
+// collection
+export let collection: any;
+export async function createCollection() {
+  return {
+    /** Load posts, sort newest -> oldest */
+    async data() {
+      let allPosts = Astro.fetchContent('./essays/*.md');
+      allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+      return allPosts;
+    },
+    /** Set page size */
+    pageSize: 12,
+    /** Generate RSS feed (only for main /posts/ feed) */
+    rss: {
+      title: 'Robin Rendle',
+      description: 'An example blog on Astro',
+      customData: `<language>en-us</language>`,
+      item: (item) => ({
+        title: item.title,
+        description: item.description,
+        link: item.url,
+        pubDate: item.date,
+      }),
+    }
+  };
+}
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <MainHead
+      title={title}
+      description={description}
+      image={collection.data[0].image}
+      canonicalURL={canonicalURL}
+      prev={collection.url.prev}
+      next={collection.url.next}
+    />
+
+    <style lang="scss">
+      .title {
+        font-size: 3em;
+        letter-spacing: -0.04em;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      .count {
+        font-size: 1em;
+        display: block;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <Nav title={title} />
+    <main class="wrapper">
+      <ArticleList title="Essays & Articles">
+        {collection.data.map((post) => <ArticleItem post={post}  />)}
+      </ArticleList>
+    </main>
+    <footer>
+      <Pagination prevUrl={collection.url.prev} nextUrl={collection.url.next} />
+    </footer>
+  </body>
+</html>

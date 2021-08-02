@@ -1,0 +1,28 @@
+---
+export let title: string;
+export let description: string;
+---
+
+<style lang="scss">
+  .wrapper {
+    padding: 0 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+    @media screen and (min-width: 900px) {
+      
+    }
+  }
+  h1 {
+    margin-bottom: 40px;
+  }
+</style>
+
+<div class="wrapper">
+  <h1>{title}</h1>
+
+  <div class="list">
+    <slot />
+  </div>
+</div>

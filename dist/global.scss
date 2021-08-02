@@ -1,0 +1,153 @@
+@import "./fonts/clarendon/clarendon";
+@import "./fonts/national/national";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: #111;
+  --color-border: #222;
+  --color-text: #ddd;
+  --color-subtext: #555;
+  --color-faded: #444;
+  --color-link: #fe7b53;
+  --color-backgroundNav: #000;
+  --spacing: 20px;
+  --base-font-size: clamp(100%, 1rem + 0.5vw, 21px);
+  --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Helvetica, Arial, sans-serif;
+}
+
+* + * {
+  margin-bottom: 0;
+  margin-top: 1.25rem;
+}
+
+html {
+  background: var(--color-backgroundNav);
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--color-text);
+  font: 100%/1.4 var(--font-fallback);
+  background: var(--color-background);
+  font-family: National, var(--font-fallback);
+}
+
+h1 {
+  line-height: 1.05;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Clarendon", var(--font-fallback);
+  font-weight: 400;
+  font-size: 3em;
+
+  @media screen and (min-width: 900px) {
+    font-size: 5em;
+  }
+}
+
+h3 {
+  font-size: clamp(100%, 1.2rem + 0.5vw, 28px);
+}
+
+pre[class^="language"] {
+  background-color: var(--color-faded);
+  font-size: clamp(100%, 1rem + 0.5vw, 18px);
+  padding: var(--spacing);
+  border-radius: 10px;
+}
+
+p,
+li {
+  font-size: var(--base-font-size);
+}
+
+p {
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+a {
+  color: var(--color-link);
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.post-time {
+  display: flex;
+  gap: 5px;
+  color: var(--color-subtext);
+
+  time {
+    margin: 0;
+  }
+
+  > div:nth-child(1):after {
+    content: "•";
+    margin-left: 5px;
+  }
+}
+
+blockquote {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 20px;
+  border-left: 1px solid var(--color-faded);
+}
+
+.post {
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-faded);
+  color: inherit;
+  text-decoration: none;
+
+  time {
+    color: var(--color-subtext);
+  }
+
+  h3 {
+    color: var(--color-link);
+    margin-bottom: 0;
+  }
+}
+
+.banner__nav-item {
+  padding: 5px;
+}
+
+hr {
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+
+  &:before {
+    font-size: 28px;
+    margin: 0 auto;
+    content: "***";
+    color: var(--color-faded);
+  }
+}
+
+pre {
+  max-width: 100%;
+  overflow: scroll;
+}

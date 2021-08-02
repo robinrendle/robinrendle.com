@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>The Thing with Leading in CSS • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/the-thing-with-leading-in-css/"><meta property="og:title" content="The Thing with Leading in CSS"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2020-08-29T04:53:52.821Z" class="astro-V2H4nGwR">August 29, 2020</time> • San Francisco, California</div><h1 class="page-title astro-V2H4nGwR">The Thing with Leading in CSS</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-whaevQCn">Matthias Ott has made some notes about the upcoming <a href="https://matthiasott.com/notes/the-thing-with-leading-in-css" class="astro-whaevQCn">leading-trim CSS property</a> which is the best intro I’ve read of this thing so far:</p><blockquote class="astro-whaevQCn"><p class="astro-whaevQCn">The spacing between individual elements of a website and, in particular, the vertical spacing, has been a regular matter of debate between web designers and developers. Designers insist that what they see in the browser doesn’t look at all like the layout they originally designed. Developers respond that all the margins in the style sheets exactly match the margins in the layout. So who is right? The tricky thing is: In a way, they are both right.</p></blockquote><p class="astro-whaevQCn">This CSS property hasn’t landed in browsers yet—right now it’s just a spec—but it does solve a real problem that I’ve simply gotten used to: spacing blocks of text on the web is either impossible, annoying, or requires tons of hacks to make it mathematically correct. To this day I don’t really care about pixel perfect interfaces—I’ll eye things up and if they look okay then I sort of don’t care about the math.</p><p class="astro-whaevQCn"><code class="astro-whaevQCn">leading-trim</code> takes all of the guesswork and eyeballing out of it by letting you take out the space within the letters themselves, so thaat now it’s possible to accurately align two bits of text together on the web. It doesn’t sound like a big deal but I sort of reckon it could become something like <code class="astro-whaevQCn">box-sizing: border-box;</code>. We use it all the time, and so frequently, that we forget it’s not the default in browsers.</p><p class="astro-whaevQCn">The other day <a href="http://robinsloan.com" class="astro-whaevQCn">Robin</a> mentioned that CSS has now gathered this massive collection of tools into this big beautiful thing, and I would most certainly agree. CSS is actually, yes, awesome now. Over the past 5-10 years styling things has <em class="astro-whaevQCn">exponentially</em> improved. And not just with tacked-on features, but the whole infrastructure underlying the language; the foundations of CSS itself. So much so that the way we think about CSS must change with these improvements.</p><p class="astro-whaevQCn">I’ve mentioned this before somewhere but years ago I was talking to a fantastic web developer whose work I admired a great deal and they didn’t know what a clearfix was. Flexbox had existed for such a long time that they hadn’t need to learn about floats or clearfixes or any of the bonkers stuff tied to laying out websites in that way.</p><p class="astro-whaevQCn">And <code class="astro-whaevQCn">leading-trim</code>? Well, it contributes to that future where everything I know is sort of irrelevant. But in a good way!</p></article></div></main></body></html>

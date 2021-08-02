@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Week notes #9 • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/week-notes-9/"><meta property="og:title" content="Week notes #9"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2015-03-27T19:59:00.000Z" class="astro-V2H4nGwR">March 27, 2015</time> • Somewhere between Nottingham and London, UK</div><h1 class="page-title astro-V2H4nGwR">Week notes #9</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-g6S0Hj21">This week I’ve been in Nottingham working with the team at <a href="http://madebykind.com/" class="astro-g6S0Hj21">Kind</a> on a freelance gig. What’s particularly interesting is that this is the first project I’ve worked on that’s been styleguide-first—so before a single mockup is visible in the browser we’ve normalised the design into a programmatic language, written clear documentation for developers and considered the many various ways in which this codebase might change over time. It also forces me to write that code to a much higher standard than I might otherwise.</p><p class="astro-g6S0Hj21">At the moment we’re using a fairly customised version of <a href="http://trulia.github.io/hologram/" class="astro-g6S0Hj21">Hologram</a> to help us plan this system of front-end components and I’m sure we’ll be sharing the final design at a later stage. Here’s what it looks like right now:</p><p class="astro-g6S0Hj21"><img src="/images/styleguide.png" alt="Styleguide made with Hologram" class="astro-g6S0Hj21"></p><p class="astro-g6S0Hj21">The menu at the top displays all the different types of component and I’m still not happy with the naming conventions as I really dig the <a href="http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/" class="astro-g6S0Hj21">namespacing idea that Harry Roberts described</a> earlier this month. But anyway, we have the name of the current breakpoint in the top right which is useful for debugging things. And one really useful part of our styleguide is the ability to add a renderer that appends <code class="astro-g6S0Hj21">contenteditable="true"</code> to the markup of an example. This is handy if we need to double-check the line-height of a heading, for example:</p><p class="astro-g6S0Hj21"><img src="/images/headings.gif" alt="Editable headings in the styleguide" class="astro-g6S0Hj21"></p><hr class="astro-g6S0Hj21"><p class="astro-g6S0Hj21">Styleguide-first design and development makes sense for a host of reasons, most of which I tried to outline in <a href="https://speakerdeck.com/robinrendle/a-visual-lexicon" class="astro-g6S0Hj21">my talk last year</a>. I’m not sure I did a particularly great job at the time but there was one theme that emerged which still interests me:</p><p class="astro-g6S0Hj21"><img src="/images/a-website-is-a-service.jpg" alt="A website is a service" class="astro-g6S0Hj21"></p><p class="astro-g6S0Hj21">I wish I took a closer look at this idea back then because the slide makes it sound kinda self-helpy. What I was trying to say was that a website is a service for users (it’s a tool that changes over time) but it’s also a service for designers and developers (they have to keep coming back to the codebase and making adjustments). This is what makes a website different to a book or a newspaper or television.</p><p class="astro-g6S0Hj21"><a href="https://www.gov.uk/" class="astro-g6S0Hj21">gov.uk</a> is one excellent example of a <em class="astro-g6S0Hj21">website as a service</em>.</p><p class="astro-g6S0Hj21">One reason why a styleguide is an invaluable asset for those services is the way it immediately sets up the team’s expectations. The designer must make compromises for the sake of normalising the system programmatically whilst developers are forced to acknowledge that their shitty code just won’t cut it anymore. They have to think beyond whacky hacks and short-term tricks.</p><p class="astro-g6S0Hj21">Perhaps I’m preaching to a very bored and unenthusiastic choir, so I apologise if you’ve heard this all before, yet I feel that this cant be the case when I see lots of folks still calling themselves <em class="astro-g6S0Hj21">product</em> designers without a hint of sarcasm. All their beautiful, pixel-perfect products are merely next year’s half-assed, poorly implemented services that another designer and developer must unfortunately inherit.</p><p class="astro-g6S0Hj21">What it comes down to is this: there are no products on the web. It’s services all the way down.</p></article></div></main></body></html>

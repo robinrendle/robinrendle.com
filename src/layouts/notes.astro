@@ -1,0 +1,95 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Nav from '../components/Nav.astro';
+
+function formatDate(stupidIdiotDate) {
+  const newFancyDate = new Date(stupidIdiotDate).toLocaleDateString(
+    'en-us',
+    {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'utc'
+    }
+  );
+  return newFancyDate;
+}
+
+export let content;
+---
+
+<html>
+  <head>
+    <MainHead title={content.title} description={content.description} image={content.image} canonicalURL={Astro.request.canonicalURL} />
+    <style lang="scss">
+      .wide-wrapper {
+        max-width: 1800px;
+        padding: 0 30px;
+      }
+      .wrapper {
+        padding: 0 15px;
+        margin: 0 auto;
+      
+        @media screen and (min-width: 900px) {
+          margin-top: 0;
+          max-width: 720px;
+        }
+      }
+
+      h1 {
+        font-weight: bold;
+        font-size: 2.2em;
+        font-family: National, var(--font-fallback);
+      }
+
+      .header {
+        margin-top: 30px;
+        border-top: 1px solid var(--color-background);
+        @media screen and (min-width: 900px) {
+          margin-top: 60px;
+        }
+      }
+
+      .page-title, main {
+        margin-top: 0;
+      }
+      
+      .page-title {
+        margin-bottom: 30px;
+      }
+
+      .article {
+        margin-top: 0; 
+        padding-bottom: 200px;
+        @media screen and (min-width: 900px) {
+          grid-column: 6 / 13;
+        }
+      }
+
+      .time {
+        margin-bottom: 5px;
+        color: var(--color-subtext);
+        border-top: 1px solid var(--color-background);
+      }
+    </style>
+  </head>
+  <body>
+    <Nav />
+    <main>
+      <div class="header">
+        <div class="wrapper">
+          <div class="time">
+            <time datetime={content.date}>{formatDate(content.date)}</time> 
+            {content.city && ` • ${content.city}, ${content.country}`}
+          </div>
+          <h1 class="page-title">{content.title}</h1>
+        </div>
+      </div>
+      <div class="wrapper">
+        <article class="article">
+          <slot />
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

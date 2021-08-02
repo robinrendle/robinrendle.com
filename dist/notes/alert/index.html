@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Sentry Alerts • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/alert/"><meta property="og:title" content="Sentry Alerts"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2021-05-07T15:43:45.874Z" class="astro-V2H4nGwR">May 7, 2021</time> • San Francisco, California</div><h1 class="page-title astro-V2H4nGwR">Sentry Alerts</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-6cbILtrP">When you’re building an app you often want to know two things: why are things slow and what’s on fire? Or: how miserable are my users and where is that pain felt the most? That’s why we just shipped a host of improvements that should help you answer those types of questions.</p><p class="astro-6cbILtrP">It also happens to be my first big project at Sentry: a sweeping update to alerts.</p><p class="astro-6cbILtrP">With Sentry you can set up an alert to monitor <a href="https://katydecorah.com/code/monitor-404s-with-sentry/" class="astro-6cbILtrP">when your users see 404 pages</a> or we can alert you when your app has too many errors. We can also alert you when performance is bad, for example when <a href="https://twitter.com/bentlegen/status/1390376607756468226?s=20" class="astro-6cbILtrP">a Core Web Vital is too dang slow</a>. There’s a host of other things we can alert you about too which is why we now show you a handy list of examples when you’re creating an alert:</p><figure class="m-wrapper--full astro-6cbILtrP"><img src="/images/cleanshot-2021-05-07-at-08.56.56.png" alt="The Sentry app showing all of the alerts you can now create" class="astro-6cbILtrP"></figure><p class="astro-6cbILtrP">Once you’ve set up an alert you can head on over to the Alerts page where you’ll see a list of the alert rules you’ve created and their status. Is everything green? Neato, you don’t have to worry about anything (yet).</p><p class="astro-6cbILtrP">But if an alert rule detects a problem then it’ll float to the top of the list and tell you precisely what’s on fire and how bad that fire is:</p><figure class="m-wrapper--full astro-6cbILtrP"><img alt="The Alerts page in Sentry where you can see the status of your alert rules" src="/images/alerts-homepage.png" class="astro-6cbILtrP"></figure><p class="astro-6cbILtrP">Okay, neat. So let’s say you have an alert that’s shouting at you about the <a href="https://web.dev/lcp/" class="astro-6cbILtrP">Largest Contentful Paint</a> on the Checkout page. Dang, I thought we fixed that! Well, not to worry. If you click on that alert you’ll now find a page that explains what’s happening in more detail and it’ll show you some hints as to what the solution might be. You can also zoom in and zoom out to see how many alerts were triggered by that rule over the past 7 days, giving a better idea of patterns instead of a specific problem:</p><figure class="m-wrapper--full astro-6cbILtrP"><img alt="The alerts detail page" src="/images/alert-details-page.png" class="astro-6cbILtrP"></figure><p class="astro-6cbILtrP">You’ll see which transactions were slow or which issues have happened in that period of time so you can see the impact of the problem and information about how to go about fixing it.</p><p class="astro-6cbILtrP">We’re pretty dang happy with how this project turned out but your scalding, uncompromisingly brutal feedback is always very welcome. Also compliments. I love those, too.</p></article></div></main></body></html>

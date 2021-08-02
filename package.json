@@ -1,45 +1,12 @@
 {
-  "author": "Robin Rendle",
-  "name": "robin-rendle",
-  "version": "1.0.0",
-  "license": "UNLICENSED",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:robinrendle/robinrendle.com.git"
-  },
+  "name": "@astrojs/example-blog",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "gulp & eleventy --serve",
-    "build": "gulp & eleventy"
+    "start": "astro dev",
+    "build": "astro build"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "cssnano": "^4.1.10",
-    "dotenv": "^8.2.0",
-    "fontfaceobserver": "^1.5.4",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^2.3.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-dart-sass": "^1.0.2",
-    "gulp-imagemin": "^6.0.0",
-    "gulp-jshint": "^2.1.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-shell": "^0.6.3",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-uglify": "^1.2.0",
-    "lodash": "^4.17.11",
-    "node-fetch": "^2.6.0",
-    "postcss": "^4.1.16"
-  },
-  "dependencies": {
-    "clean-css": "^4.2.3",
-    "eleventy-plugin-feedbin": "^0.0.2",
-    "fancy-log": "^1.3.3",
-    "gulp-changed": "^4.0.0",
-    "gulp-serve": "^1.4.0",
-    "gulp-style-inject": "^0.1.2",
-    "jshint": "^2.9.7",
-    "markdown-it-footnote": "^3.0.1",
-    "slugify": "^1.3.5",
-    "yarn": "^1.12.3"
+    "astro": "^0.13.0"
   }
 }

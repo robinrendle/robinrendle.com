@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Scrolljacking • Robin Rendle</title><meta name="description"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/_astro/common-ZuqbKU.css" type="text/css"><link rel="sitemap" href="/sitemap.xml"><link rel="alternate" type="application/rss+xml" href="/feed/posts.xml"><link rel="canonical" href="http://robinrendle.com/notes/scrolljacking/"><meta property="og:title" content="Scrolljacking"><meta property="og:description"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" href="/favicon.png"><style type="text/css">
+
+.wide-wrapper.astro-V2H4nGwR {
+  max-width: 1800px;
+  padding: 0 30px;
+}
+
+.wrapper.astro-V2H4nGwR {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 900px) {
+  .wrapper.astro-V2H4nGwR {
+    margin-top: 0;
+    max-width: 720px;
+  }
+}
+
+h1.astro-V2H4nGwR {
+  font-weight: bold;
+  font-size: 2.2em;
+  font-family: National, var(--font-fallback);
+}
+
+.header.astro-V2H4nGwR {
+  margin-top: 30px;
+  border-top: 1px solid var(--color-background);
+}
+@media screen and (min-width: 900px) {
+  .header.astro-V2H4nGwR {
+    margin-top: 60px;
+  }
+}
+
+.page-title.astro-V2H4nGwR, main.astro-V2H4nGwR {
+  margin-top: 0;
+}
+
+.page-title.astro-V2H4nGwR {
+  margin-bottom: 30px;
+}
+
+.article.astro-V2H4nGwR {
+  margin-top: 0;
+  padding-bottom: 200px;
+}
+@media screen and (min-width: 900px) {
+  .article.astro-V2H4nGwR {
+    grid-column: 6/13;
+  }
+}
+
+.time.astro-V2H4nGwR {
+  margin-bottom: 5px;
+  color: var(--color-subtext);
+  border-top: 1px solid var(--color-background);
+}</style>
+</head><body><div class="header astro-ahFEmudE"><div class="title astro-ahFEmudE"><a href="/" class="astro-ahFEmudE">Robin Rendle</a></div><nav class="nav astro-ahFEmudE"><a href="/notes" class="astro-ahFEmudE">Notes</a><a href="/essays" class="astro-ahFEmudE">Essays</a><a href="/adventures" class="astro-ahFEmudE">Adventures</a></nav></div><main class="astro-V2H4nGwR"><div class="header astro-V2H4nGwR"><div class="wrapper astro-V2H4nGwR"><div class="time astro-V2H4nGwR"><time datetime="2013-10-23T18:06:00.000Z" class="astro-V2H4nGwR">October 23, 2013</time> • Nottingham, UK</div><h1 class="page-title astro-V2H4nGwR">Scrolljacking</h1></div></div><div class="wrapper astro-V2H4nGwR"><article class="article astro-V2H4nGwR"><p class="astro-t8R2cuVv">There is only one law of web design: <em class="astro-t8R2cuVv">don’t mess with the scroll.</em></p><p class="astro-t8R2cuVv">Although there are infinite ways to mess with it, it’s possibly the most underestimated side effect of poor web performance. This might happen when an interface dips beneath the 60fps threshold when a user is scrolling around and a script causes <a href="http://www.youtube.com/watch?v=HAqjyCH_LOE" class="astro-t8R2cuVv">a flood of repaints to the page</a>. This jaggy, unfamiliar feedback as the content moves around on the screen has the effect of disturbing users from navigating the rest of the interface.</p><p class="astro-t8R2cuVv">However, there appear to be even more websites where this is a <em class="astro-t8R2cuVv">feature of the design</em> and not just an unintended byproduct. Take a look at the the <a href="http://www.apple.com/ipad-air/" class="astro-t8R2cuVv">iPad Air site</a> that launched yesterday, or <a href="https://square.com/cash" class="astro-t8R2cuVv">Square Cash</a> and scroll around for a few minutes.</p><p class="astro-t8R2cuVv">These pages might look like slides from shiny keynote presentations but as websites they are the usability equivalent of nails on a chalkboard.</p><hr class="astro-t8R2cuVv"><p class="astro-t8R2cuVv">Whenever I imagine a designer sat at their desk, coffee in hand, working on one of these websites I think of them as control freaks of the worst kind. I imagine designers thinking things like: <em class="astro-t8R2cuVv">They will use this interface the way that I want them to</em>. And yet, even though the sites that come out of this sort of thinking might live on the web, they will never be <em class="astro-t8R2cuVv">of the web</em> itself. Hijacking the scroll provides barriers to entry and tiny blockades to the information within; they shine a heavy spotlight on the design rather than the information they are built to support.
+But if a designer finds that their users aren’t scrolling as they might hope then there are three potential problems that are probably being overlooked:</p><ul class="astro-t8R2cuVv"><li class="astro-t8R2cuVv">The content / service is not appealing enough.</li><li class="astro-t8R2cuVv">The rhetoric isn’t correctly tuned to the audience or the product.</li><li class="astro-t8R2cuVv">The interface is broken.</li></ul><p class="astro-t8R2cuVv">This is not an inherent problem with the scroll itself since billions of people love to scroll. They scroll all day long on webpages with their phones, with tablets, with desktop computers, both on the web and with offline apps. It’s a design pattern that’s been in use since the very first public introduction of the internet almost 20 years ago and even before it with software on clunky desktop computers.</p><p class="astro-t8R2cuVv">It’s so natural to scroll that YouTube is overflowing with videos of young children swiping televisions, magazines, and books. Scrolling has replaced the turning of a page as the primary method of pushing on to the next section, the next chapter; it defines our experience with every machine we encounter.</p><p class="astro-t8R2cuVv">Designers might argue that there are superior alternatives to the scroll, or they might say that there are more interesting and <a href="http://en.wikipedia.org/wiki/Zooming_user_interface" class="astro-t8R2cuVv">possibly more efficient</a> means of navigating information. What cannot be argued however is that this is an unrecognisable pattern, that people must be treated like mindless herds whilst designers ought to splatter large, condescending arrows across an interface or hijack the scroll completely.</p><p class="astro-t8R2cuVv">Likewise I think that having a scroll instruction on a website is like having a ‘turn the page’ instruction in a book.</p><hr class="astro-t8R2cuVv"><p class="astro-t8R2cuVv">Over time I’m beginning to see that web designers have two conflicting objectives when making an interface, regardless of whoever might be the end user.</p><p class="astro-t8R2cuVv">The first is the <a href="http://en.wikipedia.org/wiki/Prime_Directive" class="astro-t8R2cuVv">prime directive</a>; designers need to document existing patterns that are inherent in the medium and stick to these conventions if they can.</p><p class="astro-t8R2cuVv">This is what <a href="http://www.craigmod.com" class="astro-t8R2cuVv">Craig</a> discusses in <a href="http://www.youtube.com/watch?v=7z169AfJvM4" class="astro-t8R2cuVv">this wonderful talk</a> at O'Reilly. Essentially he describes the ways in which books don’t need a crazy number of tutorials for the user to understand how they work — the constraints of the format encourage designers to experiment in other ways. Yet by latching on to the user’s expectations of what a book is (for more content just keep swiping pages) you can do all sorts of magical things without messing with what might be considered this standardised, baseline user experience that designers get out of the box for free.</p><p class="astro-t8R2cuVv">The second objective that a designer must struggle with on a daily basis is completely incompatible with the first however. They must also be tirelessly searching for <em class="astro-t8R2cuVv">better</em> patterns all the time. Pull to refresh is perhaps the best example of this because it builds on existing user expectations, and it even compliments the scroll itself.</p><p class="astro-t8R2cuVv">Scrolljacking, as I shall now refer to it both sarcastically and honestly, is a failure of the web designer's first objective; it attacks a standardised pattern and greedily assumes control over the user’s input. Generally this principle in software design is a Bad Idea™, as described by <a href="http://en.wikipedia.org/wiki/Jef_Raskin" class="astro-t8R2cuVv">Jef Raskin</a>, grandfather of the Macintosh:</p><figure class="astro-t8R2cuVv"><blockquote class="astro-t8R2cuVv"><p class="astro-t8R2cuVv">That a user should not be kept waiting unnecessarily is an obvious and humane design principle. [...] Users should set the pace of interaction.</p></blockquote><figcaption class="cite astro-t8R2cuVv"><p class="astro-t8R2cuVv">Jef Raskin, <cite class="astro-t8R2cuVv"><a href="http://www.amazon.com/Humane-Interface-Directions-Designing-Interactive/dp/0201379376" class="astro-t8R2cuVv">The Humane Interface</a>, p.8</cite></p></figcaption></figure><hr class="astro-t8R2cuVv"><figure class="astro-t8R2cuVv"><blockquote lang="en" class="astro-t8R2cuVv"><p class="astro-t8R2cuVv">Scrolling is the default behaviour of the web. If a design conflicts with that then there has to be a pretty damn good reason why.</p>— Robin Rendle (@robinrendle) <a href="https://twitter.com/robinrendle/status/349557342519566337" class="astro-t8R2cuVv">June 25, 2013</a></blockquote></figure></article></div></main></body></html>

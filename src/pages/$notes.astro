@@ -1,0 +1,64 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Nav from '../components/Nav.astro';
+import Pagination from '../components/Pagination.astro';
+import ArticleList from '../components/ArticleList.astro';
+import ArticleItem from '../components/ArticleItem.astro';
+
+// page
+let description = 'Designer and writer';
+let canonicalURL = Astro.request.canonicalURL;
+let title="Notes";
+
+// collection
+export let collection: any;
+export async function createCollection() {
+  return {
+    /** Load posts, sort newest -> oldest */
+    async data() {
+      let allPosts = Astro.fetchContent('./notes/*.md');
+      allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+      return allPosts;
+    },
+    /** Set page size */
+    pageSize: 50,
+    /** Generate RSS feed (only for main /notes/ feed) */
+    rss: {
+      title: 'Robin Rendle',
+      description: 'Designer and writer',
+      customData: `<language>en-us</language>`,
+      item: (item) => ({
+        title: item.title,
+        description: item.description,
+        link: item.url,
+        pubDate: item.date,
+      }),
+    }
+  };
+}
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <MainHead
+      title={'Notes'}
+      description={description}
+      image={collection.data[0].image}
+      canonicalURL={canonicalURL}
+      prev={collection.url.prev}
+      next={collection.url.next}
+    />
+  </head>
+
+  <body>
+    <Nav title={title} />
+    <ArticleList 
+      title='Quick Notes & Ramblings'} 
+    >
+      {collection.data.map((post) => <ArticleItem post={post}  />)}
+    </ArticleList>
+    <footer>
+      <Pagination prevUrl={collection.url.prev} nextUrl={collection.url.next} />
+    </footer>
+  </body>
+</html>
