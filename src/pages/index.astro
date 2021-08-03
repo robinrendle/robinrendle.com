@@ -59,6 +59,7 @@ let description = 'An example blog on Astro';
 
 <html>
   <head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Robin Rendle</title>
     <MainHead
       description={description}
@@ -83,5 +84,16 @@ let description = 'An example blog on Astro';
       I don’t mean making a website just-as-pretty-as-a-printed-book, but perhaps something more punk-rock; websites that are prettier, perhaps even more useful, and much weirder than books. So I reckon words on the Internet is something we haven’t figured out just yet, we’re still learning what websites are and what they can really be. And, well, that’s what I’m trying to figure out here, at least.
       </Markdown>
     </main>
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
   </body>
 </html>
