@@ -22,6 +22,7 @@ site/cache/7ecb9812e507ad9f91804947318ab2f9.php
 ##############
 node_modules
 npm-debug.log
+package-lock.json
 
 app/_cache/
 .htaccess
