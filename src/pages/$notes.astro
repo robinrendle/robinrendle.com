@@ -6,9 +6,9 @@ import ArticleList from '../components/ArticleList.astro';
 import ArticleItem from '../components/ArticleItem.astro';
 
 // page
-let description = 'Designer and writer';
+const { title = 'Notes' } = Astro.props;
+const { descriptioj = 'Designer and writer' } = Astro.props;
 let canonicalURL = Astro.request.canonicalURL;
-let title="Notes";
 
 // collection
 export let collection: any;

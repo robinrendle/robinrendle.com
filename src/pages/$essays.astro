@@ -6,8 +6,8 @@ import ArticleItem from '../components/ArticleItem.astro';
 import Pagination from '../components/Pagination.astro';
 
 // page
-let title = 'Essays';
-let description = 'An example blog on Astro';
+const { title = 'Essays and Articles' } = Astro.props;
+const { description = 'Designer and writer' } = Astro.props;
 let canonicalURL = Astro.request.canonicalURL;
 
 // collection
@@ -25,7 +25,7 @@ export async function createCollection() {
     /** Generate RSS feed (only for main /posts/ feed) */
     rss: {
       title: 'Robin Rendle',
-      description: 'An example blog on Astro',
+      description: 'Designer and writer',
       customData: `<language>en-us</language>`,
       item: (item) => ({
         title: item.title,

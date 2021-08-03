@@ -5,8 +5,8 @@ import ArticleItem from '../components/ArticleItem.astro';
 import Pagination from '../components/Pagination.astro';
 import { Markdown } from 'astro/components';
 
-let title = 'Robin Rendle';
-let description = 'An example blog on Astro';
+const { title = 'Robin Rendle' } = Astro.props;
+const { description = 'Designer and writer' } = Astro.props;
 ---
 
 <style lang="scss">

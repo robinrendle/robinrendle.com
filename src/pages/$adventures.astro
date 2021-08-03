@@ -6,8 +6,8 @@ import ArticleItem from '../components/ArticleItem.astro';
 import Pagination from '../components/Pagination.astro';
 
 // page
-let title = 'Adventures';
-let description = 'An example blog on Astro';
+const { title = 'Adventures' } = Astro.props;
+const { description = 'A newsletter about typography' } = Astro.props;
 let canonicalURL = Astro.request.canonicalURL;
 
 // collection
