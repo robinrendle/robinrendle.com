@@ -6,7 +6,17 @@
     "start": "astro dev",
     "build": "astro build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinrendle/robinrendle.com"
+  },
+  "author": {
+    "name": "Robin Rendle",
+    "email": "robinjrendle@gmail.com",
+    "url": "https://robinrendle.com"
+  },
+  "license": "MIT",
   "devDependencies": {
-    "astro": "^0.13.0"
+    "astro": "latest"
   }
 }
