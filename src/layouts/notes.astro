@@ -2,6 +2,9 @@
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 
+const {content} = Astro.props;
+const {title, extract, date, city, country} = content;
+
 function formatDate(stupidIdiotDate) {
   const newFancyDate = new Date(stupidIdiotDate).toLocaleDateString(
     'en-us',
@@ -14,13 +17,11 @@ function formatDate(stupidIdiotDate) {
   );
   return newFancyDate;
 }
-
-export let content;
 ---
 
 <html>
   <head>
-    <MainHead title={content.title} description={content.description} image={content.image} canonicalURL={Astro.request.canonicalURL} />
+    <MainHead title={title} description={extract} />
     <style lang="scss">
       .wide-wrapper {
         max-width: 1800px;
@@ -79,10 +80,10 @@ export let content;
       <div class="header">
         <div class="wrapper">
           <div class="time">
-            <time datetime={content.date}>{formatDate(content.date)}</time> 
-            {content.city && ` • ${content.city}, ${content.country}`}
+            <time datetime={date}>{formatDate(date)}</time> 
+            {city && ` • ${city}, ${country}`}
           </div>
-          <h1 class="page-title">{content.title}</h1>
+          <h1 class="page-title">{title}</h1>
         </div>
       </div>
       <div class="wrapper">

@@ -4,9 +4,6 @@ import Nav from '../components/Nav.astro';
 import ArticleItem from '../components/ArticleItem.astro';
 import Pagination from '../components/Pagination.astro';
 import { Markdown } from 'astro/components';
-
-const { title = 'Robin Rendle' } = Astro.props;
-const { description = 'Designer and writer' } = Astro.props;
 ---
 
 <style lang="scss">
@@ -62,7 +59,7 @@ const { description = 'Designer and writer' } = Astro.props;
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Robin Rendle</title>
     <MainHead
-      description={description}
+      description={'Designer and writer'}
       canonicalURL={Astro.request.canonicalURL.href}
     />
   </head>

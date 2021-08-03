@@ -1,12 +1,11 @@
 ---
 // props
-export let title: string;
-export let description: string;
-export let image: string | undefined;
-export let type: string | undefined;
-export let next: string | undefined;
-export let prev: string | undefined;
-export let canonicalURL: string | undefined;
+export interface Props {
+  title: string;
+  description: string;
+  permalink: string;
+}
+const { title, description, permalink } = Astro.props;
 ---
 
 <!-- Common -->
@@ -20,15 +19,10 @@ export let canonicalURL: string | undefined;
 <!-- RSS -->
 <link rel="alternate" type="application/rss+xml" href="/feed/posts.xml">
 
-<!-- SEO -->
-<link rel="canonical" href={canonicalURL}>
-{next && <link rel="next" href={new URL(next, canonicalURL).href}>}
-{prev && <link rel="prev" href={new URL(prev, canonicalURL).href}>}
-
 <!-- OpenGraph -->
 <meta property="og:title" content={title}>
 <meta property="og:description" content={description}>
-{image && (<meta property="og:image" content={new URL(image, canonicalURL)}>)}
+<!-- {image && (<meta property="og:image" content={new URL(image, canonicalURL)}>)} -->
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">

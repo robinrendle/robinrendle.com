@@ -17,6 +17,6 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "astro": "latest"
+    "astro": "^0.18.5"
   }
 }

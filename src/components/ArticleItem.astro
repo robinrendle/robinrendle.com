@@ -1,6 +1,9 @@
 ---
-export let post;
-export let author;
+export interface Props {
+  post: any;
+}
+
+const { post } = Astro.props;
 
 function formatDate(date) {
   return new Date(date).toUTCString().replace(/(\d\d\d\d) .*/, '$1'); // remove everything after YYYY
