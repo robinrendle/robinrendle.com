@@ -27,7 +27,7 @@ export async function createCollection() {
             // enforce GMT timezone (otherwise it'll be different based on where it's built)
             pubDate: item.date + 'Z',
             // link is required, shows up in RSS readers
-            link: '/collection/' + item.id
+            link: '/notes/' + item.id
             // (optional) custom data is supported here as well
             customData: ``<id>${Astro.site}collection/${item.id}</id>``
           }),
