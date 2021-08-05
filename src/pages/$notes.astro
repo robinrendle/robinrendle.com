@@ -16,30 +16,22 @@ export async function createCollection() {
      async props({paginate}) {
       return {
         posts: paginate(allPosts, {pageSize: 20}),
-    //     rss: {
-    //       title: 'My RSS Feed',
-    //       // if you want a full text feed, add your markup here (e.g. item.astro.html)
-    //       description: 'Description of the feed',
-    //       // (optional) add xmlns:* properties to root element
-    //       xmlns: {
-    //         itunes: 'http://www.itunes.com/dtds/podcast-1.0.dtd',
-    //         content: 'http://purl.org/rss/1.0/modules/content/',
-    //       },
-    //       // (optional) add arbitrary XML to <channel>
-    //       customData: `<language>en-us</language>
-    // <itunes:author>The Sunset Explorers</itunes:author>`,
-    //       // Format each paginated item in the collection
-    //       item: (item) => ({
-    //         title: item.title,
-    //         description: item.description,
-    //         // enforce GMT timezone (otherwise it'll be different based on where it's built)
-    //         pubDate: item.pubDate + 'Z',
-    //         // link is required, shows up in RSS readers
-    //         link: '/collection/' + item.id
-    //         // (optional) custom data is supported here as well
-    //         customData: ``<id>${Astro.site}collection/${item.id}</id>``
-    //       }),
-    //     },
+        rss: {
+          title: 'Robin Rendle',
+          // if you want a full text feed, add your markup here (e.g. item.astro.html)
+          description: 'Notes',
+          // Format each paginated item in the collection
+          item: (item) => ({
+            title: item.title,
+            description: item.extract,
+            // enforce GMT timezone (otherwise it'll be different based on where it's built)
+            pubDate: item.date + 'Z',
+            // link is required, shows up in RSS readers
+            link: '/collection/' + item.id
+            // (optional) custom data is supported here as well
+            customData: ``<id>${Astro.site}collection/${item.id}</id>``
+          }),
+        },
       };
     },
   }
