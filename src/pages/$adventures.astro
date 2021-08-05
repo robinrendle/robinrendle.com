@@ -10,32 +10,21 @@ const { title = 'Adventures' } = Astro.props;
 const { description = 'A newsletter about typography' } = Astro.props;
 let canonicalURL = Astro.request.canonicalURL;
 
-// collection
-export let collection: any;
 export async function createCollection() {
+  const allPosts = Astro.fetchContent('../pages/adventures/*.md') // fetch local posts...
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
   return {
-    /** Load posts, sort newest -> oldest */
-    async data() {
-      let allPosts = Astro.fetchContent('./adventures/*.md');
-      allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-      return allPosts;
+     paginate: true,
+     route: '/adventures/:page?',
+     async props({paginate}) {
+      return {
+        posts: paginate(allPosts, {pageSize: 20}),
+      };
     },
-    /** Set page size */
-    pageSize: 20,
-    /** Generate RSS feed (only for main /posts/ feed) */
-    rss: {
-      title: 'Don’s Blog',
-      description: 'An example blog on Astro',
-      customData: `<language>en-us</language>`,
-      item: (item) => ({
-        title: item.title,
-        description: item.description,
-        link: item.url,
-        pubDate: item.date,
-      }),
-    }
-  };
+  }
 }
+
+const {posts} = Astro.props;
 ---
 
 <html>
@@ -43,10 +32,7 @@ export async function createCollection() {
     <MainHead
       title={title}
       description={description}
-      image={collection.data[0].image}
       canonicalURL={canonicalURL}
-      prev={collection.url.prev}
-      next={collection.url.next}
     />
 
     <style lang="scss">
@@ -70,11 +56,14 @@ export async function createCollection() {
     <Nav title={title} />
     <main class="wrapper">
       <ArticleList title="Adventures in Typography">
-        {collection.data.map((post) => <ArticleItem post={post}  />)}
+        {posts.data.map((post) => (
+          <ArticleItem post={post} />
+        ))}
       </ArticleList>
     </main>
     <footer>
-      <Pagination prevUrl={collection.url.prev} nextUrl={collection.url.next} />
+      <a class="prev" href={posts.url.prev || '#'}>Prev</a>
+      <a class="next" href={posts.url.next || '#'}>Next</a>
     </footer>
   </body>
 </html>

@@ -5,6 +5,14 @@ import ArticleItem from '../components/ArticleItem.astro';
 import Pagination from '../components/Pagination.astro';
 import { Markdown } from 'astro/components';
 ---
+<html>
+  <head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <title>Robin Rendle</title>
+    <MainHead
+      description={'Designer and writer'}
+      canonicalURL={Astro.request.canonicalURL.href}
+    />
 
 <style lang="scss">
   .wrapper {
@@ -18,6 +26,7 @@ import { Markdown } from 'astro/components';
   }
 
   a {
+    display: inline;
     text-decoration-thickness: 2px;
   }
 
@@ -40,7 +49,8 @@ import { Markdown } from 'astro/components';
     }
   }
 
-  .q p {
+  .q {
+    font-family: "Clarendon", var(--font-fallback);
     margin-bottom: 50px;
     line-height: 1;
     text-align: center;
@@ -51,35 +61,27 @@ import { Markdown } from 'astro/components';
       font-size: 80vw !important;
     }
   }
-
 </style>
-
-<html>
-  <head>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <title>Robin Rendle</title>
-    <MainHead
-      description={'Designer and writer'}
-      canonicalURL={Astro.request.canonicalURL.href}
-    />
   </head>
   <body>
     <Nav />
     <main class="wrapper">
       
-      <Markdown>
-      Allo! My name’s Robin and I’m a designer at [Sentry](https://sentry.io/), staff writer at [CSS-Tricks](https://css-tricks.com), and my latest project is [a newsletter about the web](https://css-tricks.com/newsletters). 
+      <p>Allo! My name’s Robin and I’m a designer at <a href="https://sentry.io/">Sentry</a>, staff writer at <a href="https://css-tricks.com">CSS-Tricks</a>, and my latest project is <a href="https://css-tricks.com/newsletters">a newsletter about the web</a>.</p>
       
-      But this right here? This is where I write about everything—[heartbreak](/notes/crease) and [RSS](https://www.robinrendle.com/notes/how-to-read-the-internet), along with other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Here, take a closer look: 
+      <p>But this right here? This is where I write about everything—<a href="/notes/crease">heartbreak</a> and <a href="https://www.robinrendle.com/notes/how-to-read-the-internet">RSS</a>, along with other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Here, take a closer look:</p>
+      
       
       <div class="q">Q</div>
+
       
-      Wonderful, huh? This particular Q is from a typeface by David Jonathan Ross and Bethany Heck called [Job Clarendon](https://djr.com/job-clarendon). Anyway, where was I? Ah yes, because of this swirling, uncordinated mess of distractions, I’ve organized this place into [notes](/notes) (my blog and journal) and then [essays](/essays) (with my last big project being a rant about the limitations and joyous wonders of [newsletters](https://robinrendle.com/essays/newsletters)). 
+      <p>Wonderful, huh? This particular Q is from a typeface by David Jonathan Ross and Bethany Heck called <a href="https://djr.com/job-clarendon">Job Clarendon</a>. Anyway, where was I? Ah yes, because of this swirling, uncordinated mess of distractions, I’ve organized this place into <a href="/notes">notes</a> (my blog and journal) and then <a href="/essays">essays</a> (with my last big project being a rant about the limitations and joyous wonders of <a href="https://robinrendle.com/essays/newsletters">newsletters</a>).</p>
       
-      Despite all this work being a little all over the place, I think there’s something that holds it all together: (brace yourself for my manifesto) I believe that the web is a place to write beautiful things (gasp!) and then subsequently make those beautiful words look as beautiful as they sound (double gasp!). 
+      <p>Despite all this work being a little all over the place, I think there’s something that holds it all together: (brace yourself for my manifesto) I believe that the web is a place to write beautiful things (gasp!) and then subsequently make those beautiful words look as beautiful as they sound (double gasp!).</p>
       
-      I don’t mean making a website just-as-pretty-as-a-printed-book, but perhaps something more punk-rock; websites that are prettier, perhaps even more useful, and much weirder than books. So I reckon words on the Internet is something we haven’t figured out just yet, we’re still learning what websites are and what they can really be. And, well, that’s what I’m trying to figure out here, at least.
-      </Markdown>
+      <p>I don’t mean making a website just-as-pretty-as-a-printed-book, but perhaps something more punk-rock; websites that are prettier, perhaps even more useful, and much weirder than books. In fact, I reckon that we haven’t figured out what websites are just yet, we’re still learning what they’re capable of, what they can really be. And, well, that’s what I’m trying to figure out here.</p> 
+      
+      <p>Or whatever, man, I don’t care. Bye.</p>
     </main>
     <script>
   if (window.netlifyIdentity) {

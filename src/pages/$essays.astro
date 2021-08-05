@@ -10,43 +10,29 @@ const { title = 'Essays and Articles' } = Astro.props;
 const { description = 'Designer and writer' } = Astro.props;
 let canonicalURL = Astro.request.canonicalURL;
 
-// collection
-export let collection: any;
 export async function createCollection() {
+  const allPosts = Astro.fetchContent('../pages/essays/*.md') // fetch local posts...
+    .sort((a, b) => new Date(b.date) - new Date(a.date));
   return {
-    /** Load posts, sort newest -> oldest */
-    async data() {
-      let allPosts = Astro.fetchContent('./essays/*.md');
-      allPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-      return allPosts;
+     paginate: true,
+     route: '/essays/:page?',
+     async props({paginate}) {
+      return {
+        posts: paginate(allPosts, {pageSize: 20}),
+      };
     },
-    /** Set page size */
-    pageSize: 12,
-    /** Generate RSS feed (only for main /posts/ feed) */
-    rss: {
-      title: 'Robin Rendle',
-      description: 'Designer and writer',
-      customData: `<language>en-us</language>`,
-      item: (item) => ({
-        title: item.title,
-        description: item.description,
-        link: item.url,
-        pubDate: item.date,
-      }),
-    }
-  };
+  }
 }
+
+const {posts} = Astro.props;
 ---
 <!DOCTYPE html>
 <html>
   <head>
     <MainHead
-      title={title}
+      title={'Essays'}
       description={description}
-      image={collection.data[0].image}
       canonicalURL={canonicalURL}
-      prev={collection.url.prev}
-      next={collection.url.next}
     />
 
     <style lang="scss">
@@ -70,11 +56,10 @@ export async function createCollection() {
     <Nav title={title} />
     <main class="wrapper">
       <ArticleList title="Essays & Articles">
-        {collection.data.map((post) => <ArticleItem post={post}  />)}
+        {posts.data.map((post) => (
+          <ArticleItem post={post} />
+        ))}
       </ArticleList>
     </main>
-    <footer>
-      <Pagination prevUrl={collection.url.prev} nextUrl={collection.url.next} />
-    </footer>
   </body>
 </html>
