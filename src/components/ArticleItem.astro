@@ -39,7 +39,11 @@ function formatDate(date) {
 <article class="post">
   <div class="data">
     <time class="date" datetime={post.date}>{formatDate(post.date)}</time>
-    <h2><a class="link" href={post.url}>{post.title}</a></h2>
+    <h2>
+      <a class="link" href={post.url}>
+        {post.title}
+      </a>
+    </h2>
     <p class="description">
       {post.extract}
     </p>

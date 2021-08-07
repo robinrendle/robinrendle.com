@@ -1,38 +1,34 @@
 ---
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
-import Pagination from '../components/Pagination.astro';
 import ArticleList from '../components/ArticleList.astro';
 import ArticleItem from '../components/ArticleItem.astro';
 
 let canonicalURL = Astro.request.canonicalURL;
 
 export async function createCollection() {
-  const allPosts = Astro.fetchContent('../pages/notes/*.md') // fetch local posts...
-    .sort((a, b) => new Date(b.date) - new Date(a.date));
+  const allPosts = Astro.fetchContent('../pages/notes/*.md').sort((a, b) => new Date(b.date) - new Date(a.date));
   return {
-     paginate: true,
-     route: '/notes/:page?',
-     async props({paginate}) {
+    paginate: true,
+    route: '/notes/:page?',
+    async props({paginate}) {
       return {
         posts: paginate(allPosts, {pageSize: 20}),
-        rss: {
-          title: 'Robin Rendle',
-          // if you want a full text feed, add your markup here (e.g. item.astro.html)
-          description: 'Notes',
-          // Format each paginated item in the collection
-          item: (item) => ({
-            title: item.title,
-            description: item.extract,
-            // enforce GMT timezone (otherwise it'll be different based on where it's built)
-            pubDate: item.date + 'Z',
-            // link is required, shows up in RSS readers
-            link: '/notes/' + item.id
-            // (optional) custom data is supported here as well
-            customData: ``<id>${Astro.site}collection/${item.id}</id>``
-          }),
-        },
       };
+    },
+     rss: {
+      title: 'Robin Rendle',
+      description: 'Notes and articles',
+      // Format each paginated item in the collection
+      item: (item) => ({
+        title: item.title,
+        description: item.extract,
+        // enforce GMT timezone (otherwise it'll be different based on where it's built)
+        pubDate: item.date,
+        customData: item.astro.html,
+        // link is required, shows up in RSS readers
+        link: '/notes/' + item.url,
+      }),
     },
   }
 }
