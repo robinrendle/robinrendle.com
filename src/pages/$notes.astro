@@ -16,7 +16,7 @@ export async function createCollection() {
         posts: paginate(allPosts, {pageSize: 20}),
       };
     },
-     rss: {
+    rss: {
       title: 'Robin Rendle',
       description: 'Notes and articles',
       item: (item) => ({
