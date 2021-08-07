@@ -19,14 +19,11 @@ export async function createCollection() {
      rss: {
       title: 'Robin Rendle',
       description: 'Notes and articles',
-      // Format each paginated item in the collection
       item: (item) => ({
         title: item.title,
         description: item.extract,
-        // enforce GMT timezone (otherwise it'll be different based on where it's built)
         pubDate: item.date,
         customData: item.astro.html,
-        // link is required, shows up in RSS readers
         link: '/notes/' + item.url,
       }),
     },
