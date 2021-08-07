@@ -18,17 +18,28 @@ export async function createCollection() {
     },
     rss: {
       title: 'Robin Rendle',
-      description: 'Notes and articles',
+      description: 'Notes feed',
       item: (item) => ({
         title: item.title,
         description: item.extract,
-        pubDate: item.date,
-        customData: item.astro.html,
-        link: '/notes/' + item.url,
+        pubdate: item.date,
+        link: '/notes' + item.url,
       }),
     },
-  }
+  };
 }
+
+    // rss: {
+    //   title: 'Robin Rendle',
+    //   description: 'Notes and articles',
+    //   item: (item) => ({
+    //     title: item.title,
+    //     description: item.extract,
+    //     pubDate: item.date,
+    //     customData: item.astro.html,
+    //     link: '/notes/' + item.url,
+    //   }),
+    // },
 
 const {posts} = Astro.props;
 ---
