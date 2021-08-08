@@ -51,7 +51,7 @@ const {posts} = Astro.props;
       }
 
       form {
-        margin-bottom: 60px;
+        margin-bottom: 100px;
       }
 
       form div {
@@ -75,6 +75,8 @@ const {posts} = Astro.props;
         margin: 0;
         border: none;
         padding: 15px;
+        font-size: 1.2em;
+        font-family: National, var(--font-fallback);
       }
 
       p {
@@ -87,12 +89,12 @@ const {posts} = Astro.props;
         justify-content: center;
         align-items: center;
         line-height: 1;
-        font-family: National, var(--font-fallback);
         font-weight: 500;
         font-size: 16px;
         padding: 0;
         background: var(--color-link);
         color: var(--color-backgroundNav);
+        cursor: pointer;
       }
     </style>
   </head>
@@ -101,23 +103,21 @@ const {posts} = Astro.props;
     <Nav title={title} />
     <main class="wrapper">
       <ArticleList title="Adventures in Typography">
-      <p>A weekly newsletter about fonts. Adventures is currently on hiatus, but sign up below to be notified when the next season begins:</p>
-      <form
-        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-        class="embeddable-buttondown-form"
-      >
-        <label for="bd-email">Email Address</label>
-        <div>
-          <input type="email" name="email" id="bd-email" />
-          <input type="hidden" value="1" name="embed" />
-          <input type="submit" value="Subscribe" />
-        </div>
-      </form>
-
-
+        <p>A weekly newsletter about fonts and typefaces and the differences between them. Adventures is currently on hiatus, but sign up below to be notified when the next season begins:</p>
+        <form
+          action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+          method="post"
+          target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+          class="embeddable-buttondown-form"
+        >
+          <label for="bd-email">Email Address</label>
+          <div>
+            <input type="email" name="email" id="bd-email" />
+            <input type="hidden" value="1" name="embed" />
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
         {posts.data.map((post) => (
           <ArticleItem post={post} />
         ))}

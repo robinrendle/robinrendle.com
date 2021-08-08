@@ -10,7 +10,6 @@
   from = "/essays/new-web-typography/"
   to = "/essays/the-new-web-typography"
 
-
 [[redirects]]
   from = "/feed.xml"
   to = "/feed/notes.xml"
