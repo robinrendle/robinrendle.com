@@ -1,0 +1,13 @@
+---
+export interface Props {
+  prev: any;
+  next: any;
+}
+
+const { prev, next } = Astro.props;
+---
+
+<footer>
+  <a class="prev" href={prev]}>Prev</a>
+  <a class="next" href={next}>Next</a>
+</footer>

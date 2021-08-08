@@ -10,7 +10,7 @@ const { title } = Astro.props;
   .wrapper {
     padding: 0 10px;
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 50px auto;
     padding-top: 50px;
   }
   h1 {
@@ -20,6 +20,8 @@ const { title } = Astro.props;
 
 <div class="wrapper">
   <h1>{title}</h1>
+
+  <slot/>
 
   <div class="list">
     <slot />

@@ -3,6 +3,7 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import ArticleList from '../components/ArticleList.astro';
 import ArticleItem from '../components/ArticleItem.astro';
+import Pagination from '../components/Pagination.astro';
 
 // page
 const { title = 'Adventures' } = Astro.props;
@@ -48,6 +49,51 @@ const {posts} = Astro.props;
         display: block;
         text-align: center;
       }
+
+      form {
+        margin-bottom: 60px;
+      }
+
+      form div {
+        display: flex;
+        gap: 16px;
+        margin-top: 5px;
+      }
+
+      label {
+        margin-bottom: 0;
+        padding: 0;
+        text-transform: uppercase;
+        color: var(--color-subtext);
+        font-size: 15px;
+      }
+
+      input {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        border: none;
+        padding: 15px;
+      }
+
+      p {
+        margin-top: -20px;
+      }
+
+      input[type="submit"] {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 1;
+        font-family: National, var(--font-fallback);
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0;
+        background: var(--color-link);
+        color: var(--color-backgroundNav);
+      }
     </style>
   </head>
 
@@ -55,14 +101,28 @@ const {posts} = Astro.props;
     <Nav title={title} />
     <main class="wrapper">
       <ArticleList title="Adventures in Typography">
+      <p>A weekly newsletter about fonts. Adventures is currently on hiatus, but sign up below to be notified when the next season begins:</p>
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+        class="embeddable-buttondown-form"
+      >
+        <label for="bd-email">Email Address</label>
+        <div>
+          <input type="email" name="email" id="bd-email" />
+          <input type="hidden" value="1" name="embed" />
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
+
+
         {posts.data.map((post) => (
           <ArticleItem post={post} />
         ))}
       </ArticleList>
     </main>
-    <footer>
-      <a class="prev" href={posts.url.prev || '#'}>Prev</a>
-      <a class="next" href={posts.url.next || '#'}>Next</a>
-    </footer>
+    <Pagination prev={posts.url.prev || '#'} next={posts.url.next || '#'} />
   </body>
 </html>
