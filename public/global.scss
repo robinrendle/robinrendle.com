@@ -10,7 +10,8 @@
 :root {
   --color-background: #111;
   --color-border: #222;
-  --color-text: #ddd;
+  --color-title: #fff;
+  --color-text: #bbb;
   --color-subtext: #555;
   --color-faded: #444;
   --color-link: #fe7b53;
@@ -48,6 +49,7 @@ h1 {
   font-family: "Clarendon", var(--font-fallback);
   font-weight: 400;
   font-size: 3em;
+  color: var(--color-title);
 
   @media screen and (min-width: 900px) {
     font-size: 5em;
