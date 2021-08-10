@@ -5,8 +5,17 @@ export interface Props {
 
 const { post } = Astro.props;
 
-function formatDate(date) {
-  return new Date(date).toUTCString().replace(/(\d\d\d\d) .*/, '$1'); // remove everything after YYYY
+function formatDate(stupidIdiotDate) {
+  const newFancyDate = new Date(stupidIdiotDate).toLocaleDateString(
+    'en-us',
+    {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      timeZone: 'utc'
+    }
+  );
+  return newFancyDate;
 }
 ---
 
