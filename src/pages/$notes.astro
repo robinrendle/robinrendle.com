@@ -24,7 +24,7 @@ export async function createCollection() {
         title: item.title,
         description: item.astro.html,
         pubdate: item.date,
-        link: '/notes' + item.url,
+        link: item.url,
       }),
     }),
   };
