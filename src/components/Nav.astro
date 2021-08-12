@@ -4,40 +4,72 @@ const { title } = Astro.props;
 
 <style lang="scss">
 .header {
-  background: var(--color-faded);
   width: 100%;
-  padding: 10px;
   display: flex;
-  align-items: center;
-  padding: 20px;
-  gap: 20px;
-  margin-bottom: 20px;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  height: var(--header-height);
 }
 
 .nav {
+  width: 100%;
+  background: var(--color-link);
   display: flex;
+  gap: 0;
   list-style: none;
-  gap: 20px;
   align-items: center;
   margin-left: 0;
   margin: 0;
+  font-size: 27px;
+  font-weight: bold;
+  padding-left: 10px;
 
   a {
+    display: grid;
+    place-items: center;
+    height: var(--header-height);
+    padding: 0 15px;
+    color: #222;
+    font-variant: small-caps;
+    text-transform: lowercase;
     line-height: 1;
     margin: 0;
     text-decoration: none;
+    transition: transform .1s ease;
+    transform: translateY(-2px);
+
+
+    &:focus {
+      transform: translateY(-1px);
+    }
   }
 }
 
 .title {
+  min-width: fit-content;
   color: white;
   line-height: 1;
   margin: 0;
   font-family: inherit;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  font-size: 27px;
+  font-weight: bold;
+  color: #222;
+  display: flex;
+  align-items: center;
+  height: var(--header-height);
+  background: white;
 
   a {
+    display: grid;
+    place-items: center;
+    height: var(--header-height);
+    line-height: 1;
     color: inherit;
     text-decoration: none;
+    padding: 0 20px;
+    transform: translateY(-2px);
   }
 }
 </style>

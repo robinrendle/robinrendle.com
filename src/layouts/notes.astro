@@ -39,8 +39,12 @@ function formatDate(stupidIdiotDate) {
 
       h1 {
         font-weight: bold;
-        font-size: 2.2em;
         font-family: National, var(--font-fallback);
+        font-size: 2em;
+
+        @media screen and (min-width: 767px) {
+          font-size: 2.4em;
+        }
       }
 
       .header {
