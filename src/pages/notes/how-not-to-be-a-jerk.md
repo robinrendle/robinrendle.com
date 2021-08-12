@@ -8,7 +8,7 @@ layout: ../../layouts/notes.astro
 ---
 I’ve had a few folks I admire message me over the years and infrequently it’s a bummer—gasp! wow this person is reaching out!—only to find out that they’re a bit of a jerk.
 
-And I’m never quite so sure how to deal with a jerk that I admire.
+But I’m never quite so sure how to deal with a jerk that I admire.
 
 Jerks that are strangers? That’s easy. Walk away from snarky tweets or shitty comments because there’s ten billion other things to be doing with your time. Unfollow, unfollow, unfollow. No one else besides you should get to ruin your day.
 
