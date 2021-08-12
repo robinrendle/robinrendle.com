@@ -3,7 +3,7 @@ title: "Redesign: The Source of Truth"
 date: 2021-08-12T05:00:29.652Z
 city: San Francisco
 country: California
-extract: And the loss of all those images.
+extract: And the future loss of all those images.
 layout: ../../layouts/notes.astro
 ---
 One of the things I regret with my website is using a third party newsletter service for Adventures. Or, at least not archiving things properly. 
