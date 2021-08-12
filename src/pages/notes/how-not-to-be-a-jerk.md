@@ -26,6 +26,6 @@ Oh, all the ways to reply! I could destroy them with a tweet, or a well worded r
 
 I fantasized about all that for a good long while. Then one day I just archived their message. There’s no need for that person to take up any more space in my brain than is absolutely necessary and telling them that they’re being an asshat is extremely unlikely to convince them to stop.
 
-But now I feel bad that I never replied. I’m sort of...morally culpable for the next person they abuse in a horrible and snarky email. They couldn’t do anything to my career and so I’m basically invulnerable to their vitriol and their power. And because of THAT, I feel like I have this responsibility to make sure that people in less fortunate positions don’t get bullied by them.
+But now I feel bad that I never replied. I’m sort of...morally culpable for the next person they abuse in a horrible and snarky email. They couldn’t do anything to my career and so I’m basically invulnerable to their vitriol and their power. And because of that, I feel like I have a responsibility of some kind to make sure that people in less fortunate positions don’t get bullied by them.
 
 And it also tells ass hats that their behavior is unacceptable. Even if it’s a shitty email. Even if it’s the smallest thing.  
