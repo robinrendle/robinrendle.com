@@ -24,11 +24,11 @@ collections:
           widget: "string",
           default: "California",
         }
-      - { label: "Extract", name: "extract", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Layout",
           name: "layout",
           widget: "string",
           default: "../../layouts/notes.astro",
         }
+      - { label: "Extract", name: "extract", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
