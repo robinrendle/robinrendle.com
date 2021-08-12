@@ -28,4 +28,4 @@ I fantasized about all that for a good long while. Then one day I just archived 
 
 But now I feel bad that I never replied. I’m sort of...morally culpable for the next person they abuse in a horrible and snarky email. They couldn’t do anything to my career and so I’m basically invulnerable to their vitriol and their power. And because of that, I feel like I have a responsibility of some kind to make sure that people in less fortunate positions don’t get bullied by them.
 
-And it also tells ass hats that their behavior is unacceptable. Even if it’s a shitty email. Even if it’s the smallest thing.  
+Replying to ass hats also tells them that their behavior is unacceptable. Even if it’s an email. Even if it’s the smallest thing.  
