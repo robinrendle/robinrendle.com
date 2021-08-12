@@ -14,7 +14,7 @@ Jerks that are strangers? That’s easy. Walk away from snarky tweets or shitty 
 
 But jerks that I admire? Ugh. I feel like I have a moral obligation to say “hey pal, you’re being a real tiny fucker right now with that snarky, whiney language and just because you have a bunch of followers and a few books under your belt doesn’t give you the right to be an ass hat.” 
 
-Walking away from those folk’s snarky messages and comments feels like enabling their toxic behavior.
+Walking away from those snarky messages and comments feels like enabling their toxic behavior.
 
 Not so long ago I got an email from someone who used to be a hero of mine. I read all their books and watched all their interviews. I was absolutely positively smitten with them. But, over time, things changed. Their behavior and language became obviously toxic and unnecessarily cruel. I could no longer call them a hero. I unfollowed them, untangled my online life from theirs.
 
@@ -22,7 +22,7 @@ But then they emailed me out of the blue.
 
 I remember getting the email and thinking (loudly) “woof, my dude.” They were correcting me on a few small points I’d made in a blog post but they sort of misunderstood what I was saying (I could’ve clearer, to be fair) but they took all that dumb playfulness out of my original work and started to belittle me on semantics. 
 
-Oh, all the ways to reply! I could destroy them with a tweet, or a well worded reposte in iambic penatameter, I would slam dunk their cruelty from the walled fortifications of my newsletter.
+Oh, all the ways to reply! I could destroy them with a tweet, or a well worded riposte in iambic pentameter, I could slam dunk their cruelty from the walled fortifications of my newsletter.
 
 I fantasized about all that for a good long while. Then one day I just archived their message. There’s no need for that person to take up any more space in my brain than is absolutely necessary and telling them that they’re being an asshat is extremely unlikely to convince them to stop.
 
