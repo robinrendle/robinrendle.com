@@ -10,7 +10,7 @@ I’ve had a few folks I admire message me over the years and infrequently it’
 
 And I’m never quite so sure how to deal with a jerk that I admire.
 
-Jerks that are strangers? That’s easy. I simply walk away from snarky tweets or shitty comments because there’s ten billion other things to be doing with my time. Unfollow, unfollow, unfollow. No one else besides me gets to ruin my day, thank you very much sir.
+Jerks that are strangers? That’s easy. Walk away from snarky tweets or shitty comments because there’s ten billion other things to be doing with your time. Unfollow, unfollow, unfollow. No one else besides you should get to ruin your day.
 
 But jerks that I admire? Ugh. I feel like I have a moral obligation to say “hey pal, you’re being a real tiny fucker right now with that snarky, whiney language and just because you have a bunch of followers and a few books under your belt doesn’t give you the right to be an ass hat.” 
 
