@@ -16,7 +16,7 @@ That’s why in-app notifications are important (although extremely boring). So 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Ws7l0B9yp8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-For the demo website I made [thefuturetomorrow.today](www.thefuturetomorrow.today) and built it with Astro. And I know I’ve been moaning a little bit about it lately but, for a project like this, Astro is absolutely incredible. It’s so dang nice to be able to to use components just like React and give them props but without having to load a gigantic pile of JavaScript at the same time.
+For the demo website I made [thefuturetomorrow.today](http://thefuturetomorrow.today) and built it with Astro. And I know I’ve been moaning a little bit about it lately but, for a project like this, Astro is absolutely incredible. It’s so dang nice to be able to to use components just like React and give them props but without having to load a gigantic pile of JavaScript at the same time.
 
 For the homepage of this thing I could write the following: 
 
