@@ -3,12 +3,21 @@ const { title } = Astro.props;
 ---
 
 <style lang="scss">
+:root {
+  --link-font-size: 22px;
+
+  @media screen and (min-width: 767px) {
+    --link-font-size: 27px;
+  }
+}
+
 .header {
   width: 100%;
   display: flex;
   align-items: flex-start;
   margin-bottom: 40px;
   height: var(--header-height);
+  overflow: hidden;
 }
 
 .nav {
@@ -20,9 +29,9 @@ const { title } = Astro.props;
   align-items: center;
   margin-left: 0;
   margin: 0;
-  font-size: 27px;
-  font-weight: bold;
+  font-size: var(--link-font-size);
   padding-left: 10px;
+  overflow: scroll;
 
   a {
     display: grid;
@@ -30,17 +39,14 @@ const { title } = Astro.props;
     height: var(--header-height);
     padding: 0 15px;
     color: #222;
-    font-variant: small-caps;
-    text-transform: lowercase;
     line-height: 1;
     margin: 0;
     text-decoration: none;
     transition: transform .1s ease;
-    transform: translateY(-2px);
 
 
-    &:focus {
-      transform: translateY(-1px);
+    &:active {
+      transform: translateY(2px);
     }
   }
 }
@@ -51,15 +57,13 @@ const { title } = Astro.props;
   line-height: 1;
   margin: 0;
   font-family: inherit;
-  font-variant: small-caps;
-  text-transform: lowercase;
-  font-size: 27px;
-  font-weight: bold;
+  font-size: var(--link-font-size);
   color: #222;
   display: flex;
   align-items: center;
   height: var(--header-height);
   background: white;
+  
 
   a {
     display: grid;
@@ -69,7 +73,6 @@ const { title } = Astro.props;
     color: inherit;
     text-decoration: none;
     padding: 0 20px;
-    transform: translateY(-2px);
   }
 }
 </style>
