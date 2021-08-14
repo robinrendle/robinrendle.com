@@ -163,3 +163,17 @@ pre {
 iframe {
   width: 100%;
 }
+
+pre code {
+  font-size: 1rem;
+}
+
+pre {
+  background: var(--color-border);
+  border-radius: 4px;
+  padding: 10px;
+
+  @media screen and (min-width: 767px) {
+    padding: 25px 20px;
+  }
+}
