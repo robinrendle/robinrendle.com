@@ -1,6 +1,6 @@
 # Robin Rendle
 
-My personal website, running on Astro.
+My personal website, running on [Astro](https://astro.build/).
 
 ### Run
 
