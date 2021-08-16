@@ -25,7 +25,7 @@ to work, I would likely stumble on <a href="http://www.kungfugrippe.com/post/169
 <p>Also I guess it’s quickly worth mentioning that a feed is typically in a format such as <a href="https://en.wikipedia.org/wiki/Atom_(Web_standard)">Atom</a>, <a href="https://en.wikipedia.org/wiki/RSS">RSS</a>, <a href="https://jsonfeed.org/">json</a> or XML — but you don’t really need to care which format a website supports because most of these feed-reading services will accept them all. We just need to care about the URL of the website we want to subscribe to, such as robinrendle.com, which we would just copy and paste to the RSS feed reader of our choice. What the app will then do is search for a link in the <code class="highlighter-rouge">head</code> of the website that <a href="https://robinrendle.com/feed.xml">looks like this</a>:</p>
 
 ```
-<html>
+<html lang="en">
   <! -- other stuff -->
   <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml">
 ```

@@ -10,7 +10,7 @@ const { title, description, permalink } = Astro.props;
 
 <!-- Common -->
 <meta charset="UTF-8">
-<title>{title} • Robin Rendle</title>
+<title>{title ? `${title} • Robin Rendle` : `Robin Rendle`}</title>
 <meta name="description" content={description}>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/global.css">
