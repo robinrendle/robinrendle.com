@@ -4,7 +4,7 @@ date: 2021-08-18T03:23:39.002Z
 city: San Francisco
 country: California
 layout: ../../layouts/notes.astro
-extract: A damn fine typeface by Mass-Driver
+extract: A damn fine typeface by Mass-Driver.
 ---
 [MD Nichrome](https://nichrome.mass-driver.com/) is a new type family from Mass-Driver and boy howdy does it look wondrous. I love the marketing website for it with all the flashy-as-hell animations showing just how flexible Nichrome is. Some of those animations are made with a python library called [Cold Type](https://coldtype.goodhertz.com/). Never heard of it before, but sure looks neat. 
 
