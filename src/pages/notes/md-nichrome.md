@@ -12,7 +12,7 @@ Gah! If you scroll down the page to the blue section the background starts to fu
 
 Double gah! Look at that footer.
 
-Of course I hit Inspect Element and scrolled around a bit, noticing that—_huh_—isn’t it neat that today you can see the design tokens of modern websites like this:
+Of course I hit Inspect Element and scrolled around a bit, noticing that—_huh_—isn’t it neat that today you can see the design tokens of modern websites like this?
 
 ```css
 :root {
