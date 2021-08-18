@@ -21,24 +21,35 @@ For the demo website I made [thefuturetomorrow.today](http://thefuturetomorrow.t
 
 For the homepage of this thing I could write the following:
 
-```
+```javascript
 <AppWrapper>
   <Header>
     <Tabs>
-      <TabItem unread={40} url="/" active>All</TabItem>
-      <TabItem unread={12} url="/alerts">Alerts</TabItem>
-      <TabItem unread={7} url="/workflow">Workflow</TabItem>
-      <TabItem unread={6} url="/account">Account</TabItem>
-      <TabItem unread={2} url="/new">What’s New</TabItem>
+      <TabItem unread={40} url="/" active>
+        All
+      </TabItem>
+      <TabItem unread={12} url="/alerts">
+        Alerts
+      </TabItem>
+      <TabItem unread={7} url="/workflow">
+        Workflow
+      </TabItem>
+      <TabItem unread={6} url="/account">
+        Account
+      </TabItem>
+      <TabItem unread={2} url="/new">
+        What’s New
+      </TabItem>
     </Tabs>
   </Header>
-  <Filters/>
+  <Filters />
   <Table>
     <Notification
-      title='Approve Request'
-      desc='Jane Schmidt wants to join the #workflow team'
-      type='Account'
-      time='1 minute ago'/>
+      title="Approve Request"
+      desc="Jane Schmidt wants to join the #workflow team"
+      type="Account"
+      time="1 minute ago"
+    />
   </Table>
 </AppWrapper>
 ```
