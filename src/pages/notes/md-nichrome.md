@@ -16,21 +16,21 @@ Of course I hit Inspect Element and scrolled around a bit, noticing that—_huh_
 
 ```css
 :root {
-    --black: #000000;
-    --night: #112233;
-    --cobalt: #3050FF;
-    --rhubarb: #D46379;
-    --tangerine: #FA935E;
-    --straw: #DCCC9C;
-    --sage: #CCCEC3;
-    --off-white: #EEEAE5;
-    --v-margin: 100px;
-    --h-margin: 75px;
-    --gutter: 25px;
-    --text: var(--black);
-    --background: var(--off-white);
-    --wght: 92;
-    --slnt: 0;
+  --black: #000000;
+  --night: #112233;
+  --cobalt: #3050FF;
+  --rhubarb: #D46379;
+  --tangerine: #FA935E;
+  --straw: #DCCC9C;
+  --sage: #CCCEC3;
+  --off-white: #EEEAE5;
+  --v-margin: 100px;
+  --h-margin: 75px;
+  --gutter: 25px;
+  --text: var(--black);
+  --background: var(--off-white);
+  --wght: 92;
+  --slnt: 0;
 }
 ```
 
@@ -59,6 +59,6 @@ You can take a look at mine on this very website, too:
 }
 ```
 
-I’m doing some whacky shit I shouldn’t be doing with the `--header-height` variable in my `global.scss` file. But it’s neat you can do even that in the first place (even if I shouldn’t be because it makes for some weird-lookin’ and fragile CSS)! 
+I’m doing some whacky stuff I shouldn’t be doing with the `--header-height` variable in my `global.scss` file. But it’s neat you can do even that in the first place (even if I shouldn’t be because it makes for some weird-lookin’ and fragile CSS)! 
 
 Anyway. MD Nichrome rules. CSS custom properties rule. That is all. 
