@@ -70,7 +70,7 @@ pre[class^="language"] {
   background-color: var(--color-faded);
   font-size: clamp(100%, 1rem + 0.5vw, 18px);
   padding: var(--spacing);
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 p,
@@ -176,13 +176,7 @@ pre code {
 }
 
 pre {
-  background: var(--color-border);
-  border-radius: 4px;
-  padding: 10px;
-
-  @media screen and (min-width: 767px) {
-    padding: 25px 20px;
-  }
+  border-radius: 3px;
 }
 
 /*
@@ -238,15 +232,15 @@ code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
-  margin: 0.5em 0;
+  padding: 1.3em;
+  margin: 2rem 0;
   overflow: auto;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
   padding: 0.1em;
-  border-radius: 0.3em;
+  border-radius: 2px;
 }
 
 .token.comment,
