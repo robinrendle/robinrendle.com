@@ -4,7 +4,7 @@ date: 2021-08-21T01:48:00.878Z
 city: San Francisco
 country: California
 layout: ../../layouts/notes.astro
-extract: Oh what a beautiful thing it is.
+extract: Oh what a beautiful thing.
 ---
 Oh what a beautiful thing BART is. Yesterday I snuck out of my apartment and hopped aboard a train that wound it’s way through a snaking series of underground and above-ground lines that link the city of San Francisco to the East Bay—and it might’ve been for the first time in nearly two years. 
 
