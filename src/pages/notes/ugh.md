@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: New books, new friends.
 ---
-Lately I’m feeling rather _ugh_. I know why; reading has lost its luster. I find myself uninterested in almost every book, every essay, every tweet. One morning I’ll get all excited and pick up a book that someone recommends and then—bah!—the text is lifeless, joyless, banal. It doesn’t have that peculiar _kick_ of newness to it and at that very moment my RSS wellspring runs dry, too.
+Lately I’m feeling rather _ugh_. I know why; reading has lost its luster. I find myself uninterested in almost every book, every essay, every tweet. One morning I’ll get all excited and pick up a book that someone recommends and then—bah!—the text is joyless. It doesn’t have that peculiar _kick_ of newness to it and at that very moment my RSS wellspring runs dry, too.
 
 Without a dazzling book the world suddenly feels quiet, empty. Lonely, even. And ugh I feel like I need high quality hypertext to simply be a functional person.
 
