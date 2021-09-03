@@ -6,7 +6,6 @@ import { Markdown } from 'astro/components';
 ---
 <html lang="en">
   <head>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <MainHead
       description={'Designer and writer'}
       canonicalURL={Astro.request.canonicalURL.href}
@@ -76,16 +75,5 @@ import { Markdown } from 'astro/components';
       
       <p>Anyway, because of this uncordinated mess of distractions, I’ve organized this place into <a href="/notes">notes</a> (my blog and journal) and then <a href="/essays">essays</a> (with my last big project being a rant about the limitations and joyous wonders of <a href="https://robinrendle.com/essays/newsletters">newsletters</a>).</p>
     </main>
-    <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
   </body>
 </html>
