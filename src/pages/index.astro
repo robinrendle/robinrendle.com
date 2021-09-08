@@ -2,7 +2,11 @@
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import ArticleItem from '../components/ArticleItem.astro';
+import Essays from '../components/Essays.astro';
 import { Markdown } from 'astro/components';
+let allPosts = Astro.fetchContent('./notes/*.md');
+allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
+
 ---
 <html lang="en">
   <head>
@@ -15,7 +19,8 @@ import { Markdown } from 'astro/components';
   .wrapper {
     margin: 0 auto;
     padding: 10px 15px 200px;
-    max-width: 1600px;
+    max-width: 1300px;
+    overflow: hidden;
 
     @media screen and (min-width: 900px) {
       padding: 40px 60px 200px;
@@ -27,7 +32,7 @@ import { Markdown } from 'astro/components';
     text-decoration-thickness: 2px;
   }
 
-  p {
+  .special {
     line-height: 1.1;
     margin-top: 0;
     margin-bottom: 1em;
@@ -60,20 +65,63 @@ import { Markdown } from 'astro/components';
       font-size: 80vw !important;
     }
   }
+
+  h2 {
+    border-bottom: 1px solid var(--color-faded);
+    text-transform: lowercase;
+    font-variant: small-caps;
+    margin: 0;
+    color: var(--color-title);
+    padding-bottom: 5px;
+  }
+
+  .align {
+    section {
+      margin: 0;
+    }
+    @media screen and (min-width: 767px) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr;
+      gap: 40px;
+
+      p {
+        justify-self: start;
+      }
+    }
+  }
+
+  .about-me {
+    @media screen and (min-width: 767px) {
+      p { font-size: 140%; } 
+    }
+  }
 </style>
   </head>
   <body>
     <Nav />
     <main class="wrapper">
-      <p>Allo! My name’s Robin and I’m a designer at <a href="https://sentry.io/">Sentry</a>, staff writer at <a href="https://css-tricks.com">CSS-Tricks</a>, and my latest project is <a href="https://css-tricks.com/newsletters">a newsletter about the web</a>.</p>
-      
-      <p>This is where I write about everything—<a href="/notes/crease">heartbreak</a> and <a href="https://www.robinrendle.com/notes/how-to-read-the-internet">RSS</a>, along with other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Here, take a closer look:</p>
-      
-      <div class="q">Q</div>
+      <p class="special">I’m a designer at <a href="https://sentry.io/">Sentry</a>, staff writer at <a href="https://css-tricks.com">CSS-Tricks</a>, and my latest project is <a href="https://css-tricks.com/newsletters">a newsletter about the web</a>.</p>
 
-      <p>Wonderful, huh? This particular Q is from a typeface by David Jonathan Ross and Bethany Heck called <a href="https://djr.com/job-clarendon">Job Clarendon</a>.</p> 
-      
-      <p>Anyway, because of this uncordinated mess of distractions, I’ve organized this place into <a href="/notes">notes</a> (my blog and journal) and then <a href="/essays">essays</a> (with my last big project being a rant about the limitations and joyous wonders of <a href="https://robinrendle.com/essays/newsletters">newsletters</a>).</p>
+      <div class="align">
+        <section class="about-me">
+          <h2>About me</h2>
+          <p>This is where I write about everything—front-end development, heartbreak, and RSS, along with other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Speaking of which, the two Qs that I’m using on this very website are from <a href="https://djr.com/job-clarendon">Job Clarendon</a> and <a href="https://klim.co.nz/retail-fonts/national-2/">National 2</a>.</p> 
+          
+          <p>Anyway, because of this uncordinated mess of distractions, I’ve organized this place into <a href="/notes">/notes</a> and <a href="/essays">/essays</a>. Notes are little ideas, blog posts, and links to things that I’m thinking about whilst essays are rambling, bookish-sized projects where I get to experiment with typography and CSS.</p>
+
+          <p>Oh and never reach out <a href="mailto:robinjrendle@gmail.com">via email</a> or <a href="https://twitter.com/robinrendle">@robinrendle</a>. Please leave me alone.</p>
+        </section>
+        <section>
+          <h2>Quick Notes</h2>
+          {allPosts.map(p => <ArticleItem post={p} />)}
+        </section>
+      </div>
+
+      <section class="tiny-section">
+        <h2>Essays</h2>
+        <Essays />
+      </section>
     </main>
   </body>
 </html>
