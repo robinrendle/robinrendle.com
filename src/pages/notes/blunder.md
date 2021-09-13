@@ -8,7 +8,7 @@ extract: How do I make my life messier?
 ---
 These are the days that I want; half in a book, half in a text file, halfway through two videogames in two separate rooms. I am plodding through ideas, running from room to room, from one thing to another. 
 
-These days begin with a long walk in the morning for coffee—either up and over the hill onto the Bernal strip or down the hill into Glenn Park—and so the day begins with rigid structure; shower, shave, dress. But eventually the day crumbles into a beautiful, disorganized blunder with no plans or goals. It’s at this time of the day I begin roaming about the apartment with a website half finished, a blog post in progress, a homepage redesigned. Bliss. 
+These most perfect of days always begin with a long walk in the morning for coffee—either up and over the hill onto the Bernal strip or down the hill into Glenn Park—and so the day begins with rigid structure; shower, shave, dress. But eventually the day crumbles into a beautiful, disorganized blunder with no plans or goals. It’s at this time of the day I begin roaming about the apartment with a website half finished, a blog post in progress, a homepage redesigned. Bliss. 
 
 Like today; I shipped a new design for the homepage and updated the colors of the site, played an embarrassing amount of _Ghost of Tsushima_ and _Psychonauts 2_—stopping only to pace around the apartment thinking of new ideas for writing projects—and now I’m putting the finishing touches to the CSS-Tricks newsletter. 
 
