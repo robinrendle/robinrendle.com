@@ -12,6 +12,6 @@ These days begin with a long walk in the morning for coffee—either up and over
 
 Like today; I shipped a new design for the homepage and updated the colors of the site, played an embarrassing amount of _Ghost of Tsushima_ and _Psychonauts 2_—stopping only to pace around the apartment thinking of new ideas for writing projects—and now I’m putting the finishing touches to the CSS-Tricks newsletter. 
 
-I wish the structure of my days could be more like this though; more haphazard, more jumping from thing to thing with reckless abandon. There’s a punch-in-the-gut feeling I get when my days have too much structure to them. I require that feeling of jumping around whenever I want to, and I think it’s what gives me the energy to be a functional person. That jumpiness feeds back into my work and makes everything so much lighter and energetic.
+I wish the structure of my days could be more like this though; more haphazard, more jumping from thing to thing with reckless abandon. There’s a punch-in-the-gut feeling I get when my days have too much structure to them. I require that feeling of jumping around whenever I want to, and I think it’s what gives me the energy to be a functional person. That jumpiness feeds back into my work and makes everything so much lighter and energetic, too.
 
 How do I push my working life further in this direction then? How do I make my life...messier?
