@@ -6,13 +6,11 @@ country: California
 layout: ../../layouts/notes.astro
 extract: "Spreadsheets and publishing. "
 ---
-
-
-Lucy made [a huge spreadsheet](https://www.patreon.com/posts/setting-sail-for-56514754) to help her see the status of her project and hot dang it looks scary to me.
+Lucy made [a huge spreadsheet](https://www.patreon.com/posts/setting-sail-for-56514754) to help her see the status of her project and hot dang it looks scary to me:
 
 > This was actually hugely helpful, because I've been watching my overachiever tendencies flare up during meetings with Susan, whispering "Surely you can get this done in a year and a half. That's so much time! Don't be unreasonable and ask for more." But I also have a strong sense of self-preservation standing on my other shoulder hollering "YOU DESERVE A PUBLISHING SCHEDULE THAT DOESN'T REDUCE YOUR BONES TO DUST, BITCH." 
 
-Likewise, Dave Rupert wrote about  [making a spreadsheet to help him blog](https://daverupert.com/2021/09/my-notion-blogging-kanban/): 
+Likewise, Dave Rupert [made a spreadsheet to help him blog](https://daverupert.com/2021/09/my-notion-blogging-kanban/): 
 
 > Another problem I had with all my folder full o’ posts strategy was that I didn’t know whether a post was nearly done or a scrap of an idea. I was lost. Every two months or so I’d have to click through each file to repopulate my memory buffer with the statuses of each post. A lack of a system made it more difficult and time-consuming maintain.
 
