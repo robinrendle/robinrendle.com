@@ -10,6 +10,6 @@ In his excellent newsletter, Font of the Month Club (which I cannot recommend mo
 
 > In my perception, they’re in a bit of an awkward phase right now. Support in browsers is great, and designers are using techniques such as animation to push the limits of the technology — after five years we can hardly think of them as a shiny new toy. But at the same time I don’t think they’ve fully left the “experimental” realm and entered the day-to-day workflow of the average designer.
 
-I had never but this thought to words before but I’ve felt this way for some time, too. This is likely to a number of reasons: education and price are probably the biggest though. 
+I had never put this thought to words before but I’ve felt this way for some time, too. Variable fonts are struggling to gain traction for a number of reasons (education and price are maybe the biggest barriers to entry though). 
 
 Anyway, to help fix this problem, DJR made his excellent Output Sans available for free with the newsletter. So go subscribe to this thing and then download Output Sans. 
