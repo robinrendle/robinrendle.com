@@ -14,7 +14,8 @@
   --color-text: #bbb;
   --color-subtext: #777;
   --color-faded: #444;
-  --color-link: #99aa99;
+  --color-link-rgb: 153, 170, 153;
+  --color-link: rgb(var(--color-link-rgb));
   --color-backgroundNav: #000;
   --spacing: 20px;
   --base-font-size: clamp(100%, 1rem + 0.5vw, 21px);
@@ -92,19 +93,7 @@ a {
   &:focus {
     text-decoration-color: var(--color-title);
     color: var(--color-title);
-
-    &:before {
-      content: "";
-      width: 100%;
-      height: 3px;
-      position: absolute;
-      left: 0px;
-      right: 0px;
-      height: 100%;
-      background: var(--color-link);
-      z-index: 1;
-      opacity: 0.2;
-    }
+    background-color: rgba(var(--color-link-rgb), 0.2);
   }
 }
 
