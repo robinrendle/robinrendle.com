@@ -1,5 +1,5 @@
 ---
-title: Manual of Diacritics
+title: The Manual of Diacritics
 date: 2021-10-11T23:35:01.713Z
 city: San Francisco
 country: California
