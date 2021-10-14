@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: Or, how to sample ghosts.
 ---
-_White Tears_ kicked my ass and it’s impossible to describe why. I read it in three or four big gulps this week and I am currently in a deep fit of despair about how good it is. It’s a novel by Hari Kunzru about music and ghosts; two chaps from New York are chasing old records and their addiction cracks open all sorts of hidden secrets in the world. Secrets that lead them on a delirious ghost chase across America.
+_White Tears_ kicked my ass and it’s impossible to describe why. I read it in three or four big gulps this week and I am currently in a deep fit of despair about how good it is. It’s a novel by Hari Kunzru about music and ghosts and the cost of addiction but shortly it becomes this swirling vortex of memories and conversations and pure, utter delirium. 
 
 One of the songs mentioned in that novel is Tommy Johnson and Ishman Bracey’s [_Canned Heat Blues_](https://youtu.be/RHw1ugBLS5g), a beautiful song written in 1928. I’ve been listening to it all week. And so—just like the characters in _White Tears_—I find myself falling down this rabbit hole of music I’ve never listened to before: Charles Brown, Henry Thomas, Blind Boy Fuller, Sylvester Weaver, Skip James. 
  
