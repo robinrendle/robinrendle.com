@@ -4,7 +4,7 @@ date: 2021-10-14T00:53:09.987Z
 city: San Francisco
 country: California
 layout: ../../layouts/notes.astro
-extract: And how to sample ghosts.
+extract: Or, how to sample ghosts.
 ---
 _White Tears_ kicked my ass and it’s impossible to describe why. I read it in three or four big gulps this week and I am currently in a deep fit of despair about how good it is. It’s a novel by Hari Kunzru about music and ghosts; two chaps from New York are chasing old records and their addiction cracks open all sorts of hidden secrets in the world. Secrets that lead them on a delirious ghost chase across America.
 
