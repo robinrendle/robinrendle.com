@@ -16,4 +16,4 @@ In the most C way imaginable, she just said 👀 👀 👀.
 
 So now, ever since my birthday, as I walk through the hallways of this house I think about all the other gifts, those hidden in every corner of our home; in the closets and cabinets, above us in the ceiling, and in the floorboards beneath. We’re surrounded by gifts.
 
-I can’t stop smiling as I walk through this house now, because I know what my job is: add more to the collection. Build a bigger house of lovely secrets and hidden gifts.
+I can’t stop smiling as I walk through this house now because I know what my job is: add more to the collection. Build a bigger house of lovely secrets and hidden gifts.
