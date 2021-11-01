@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: 👀 👀 👀
 ---
-C bought a typewriter and hid it in her car. Each week she’d drive out to her parents’ house without telling me and, under this veil of secrecy, she’d type out messages on little cards. On each of card she’d write a joke, a memory, a secret about a secret that we’d told each other over the past year.
+C bought a typewriter and hid it in her car. Each week she’d drive out to her parents’ house without telling me and, under this veil of secrecy, she’d type out messages on little cards. On each card she’d write a joke, a memory, a secret about a secret that we’d told each other over the past year.
 
 On my birthday I entered the kitchen and found myself surrounded by balloons and cakes and hugs. C then handed me a book—it was a collection of all those cards bound together. A book of secrets.
 
