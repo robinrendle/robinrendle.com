@@ -1,12 +1,12 @@
 ---
-layout: ../../layouts/notes.astro
 title: Design Systems Metrics
 date: 2021-11-02 19:21:00 -07:00
+city: San Francisco
+country: California
+layout: ../../layouts/notes.astro
 tags:
   - design
 extract: What signals would we need to see a design system clearly?
-city: San Francisco
-country: California
 ---
 
 <style lang="scss">
@@ -75,7 +75,7 @@ Or to put this another way:
 - Is it getting better?
 - Is it helping?
 
-Hre’s a sketch of what this could look like:
+Here’s a sketch of what this could look like:
 
 <div class="metrics">
   <div class="metric-card good">
