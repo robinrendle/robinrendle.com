@@ -65,7 +65,7 @@ p {
 
 This is dumb, but hear me out: what if there was an equivalent of Google’s Web Vitals but for design systems? What if you could look at a report that showed precisely how bad your design system was and what you needed to fix right away?
 
-What signals would we need to see a design system clearly? My hunch right now is productivity, consistency, and accessibility. If one or all of those signals are off then you could use this report to make the case to hire a dedicated front-end engineer or designer for the team. Or maybe it could help you focus on a specific area of the design system that you didn’t realize was a problem before (like, say, the accessibility of your form components). Perhaps once you start monitoring these signals in your codebase and your component library it could tell you when something is going well even! I’m great! Give me a raise!
+What signals would we need to see a design system clearly? My hunch right now is: productivity, consistency, and accessibility. If one or all of those signals are off then you could use this report to make the case to hire a dedicated front-end engineer or designer for the team. Or maybe it could help you focus on a specific area of the design system that you didn’t realize was a problem before (like, say, the accessibility of your form components). Perhaps once you start monitoring these signals in your codebase and your component library it could tell you when something is going well even! I’m great! Give me a raise!
 
 So my thinking here is that productivity tells you if people are fast or slow using the system, consistency shows you if they’re sticking to the system or going off the rails and making their own stuff, and accessibility shows the impact of that system on customers.
 
@@ -75,7 +75,7 @@ Or to put this another way:
 - Is it getting better?
 - Is it helping?
 
-Hre’s a sketch of what this could look like:
+Here’s a sketch of what this could look like:
 
 <div class="metrics">
   <div class="metric-card good">
