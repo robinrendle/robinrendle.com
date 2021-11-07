@@ -28,3 +28,4 @@ George continues:
 
 > We've said that a story is a system for the transfer of energy. Energy made in the early pages gets transferred along through the story, passed from section to section, like a bucket of water headed for a fire, and the hope is that not a drop gets lost.
 
+George’s book makes me feel that this way of learning about stories—this way of talking about capital L literature and sentences and people—is what I needed sooner in my writing career.
