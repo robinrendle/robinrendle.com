@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: A book about storytelling by George Saunders.
 ---
-I’ve been haunted by a question lately: how I could I have kick-started my writing career? What if I read *these* books sooner? What if I wrote every day? What if I didn’t get side-tracked with music or video games or—*oof*—friendship? 
+I’ve been haunted by a question lately: how could I have kick-started my writing career? What if I read *these* books sooner? What if I wrote every day? What if I didn’t get side-tracked with music or video games or—*oof*—friendship? 
 
 This is all incorrect of course and perhaps the worst imaginable way to think about your career. It’s toxic and childish, for one. For second, it’s unkind to yourself. All those things could feed into your work, sure, maybe. But those things don’t exist *for* your work, they can exist outside of it. My point here is: You can be happy and have a career that makes you proud of your work without having to lock yourself away in a room and abandon life in order to achieve it.
 
