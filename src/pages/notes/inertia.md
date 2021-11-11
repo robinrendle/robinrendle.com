@@ -14,7 +14,7 @@ I couldn’t agree more. There’s this feeling when using [Astro](https://astro
 
 With Sass you’re going to start using variables first, most likely. Then you might move on to creating functions and using mixins, and then moving onto the nifty things you can do with maps. You get immediate value out of using Sass but then you can opt-in, slowly, to the really complex and powerful stuff. One doesn’t exclude the other though. But it’s also okay if you never move on to the more buck-wild and technically impressive tools. If variables and imports is all you need, you’re good to go. 
 
-The other thing that I really love about Astro is the language in the docs and in the community. There’s no talk about redesigning the world from scratch or introducing a buzzword like Web3—which a lot of technologies often claim. You also don’t have to read their manifesto or unlearn what the web is and how it works. Do you want to build faster websites? Great. Go go go.
+Also, side note: I love Astro’s language in the docs and how the community...uh...communes? There’s no talk about redesigning the world from scratch or introducing a buzzword like Web3. You don’t have to read their shitty manifesto or unlearn what the web is or learn some big philosophy about how it works together. The question they ask is simple: Do you want to build faster websites? Great. Go go go.
 
 
 
