@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: Jeremy Keith compares Sass and Astro.
 ---
-I really like this comparison Jeremy makes when it comes to [evaluating technology](https://adactio.com/journal/18604):
+I love this comparison Jeremy makes when it comes to [evaluating technology](https://adactio.com/journal/18604):
 
 > Astro reminds me of Sass. Specifically, it reminds me of the `.scss` syntax. You could take any CSS file, rename its file extension from `.css` to `.scss` and it was automatically a valid Sass file. You could start using Sass features incrementally. You didn’t have to rewrite all your style sheets.
 
