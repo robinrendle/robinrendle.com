@@ -1,0 +1,56 @@
+---
+import MainHead from '../../components/MainHead.astro';
+import Nav from '../../components/Nav.astro';
+import ArticleList from '../../components/ArticleList.astro';
+import ArticleItem from '../../components/ArticleItem.astro';
+import Pagination from '../../components/Pagination.astro';
+
+let canonicalURL = Astro.request.canonicalURL;
+
+export async function getStaticPaths({ paginate, rss }) {
+  const allPosts = Astro.fetchContent('./*.md').sort((a, b) => new Date(b.date) - new Date(a.date));
+  console.log({allPosts})
+  rss({
+    title: 'Robin Rendle',
+    description: 'Notes feed',
+    item: (item) => ({
+      title: item.title,
+      description: item.astro.html,
+      pubdate: item.date,
+      link: item.url,
+    }),
+  })
+  return paginate(
+    allPosts,
+    {
+      pageSize: 20,
+      paginate: true,
+    }
+  );
+}
+
+const { page } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MainHead
+      title={'Notes'}
+      description={'Designer and writer'}
+      prev={page.url.prev}
+      next={page.url.next}
+    />
+  </head>
+
+  <body>
+    <Nav title={'Notes'}} />
+    <ArticleList
+      title='Quick Notes & Ramblings'}
+    >
+      {page.data.map((post) => (
+        <ArticleItem post={post} />
+      ))}
+    </ArticleList>
+    <Pagination prev={page.url.prev || '#'} next={page.url.next || '#'} />
+  </body>
+</html>

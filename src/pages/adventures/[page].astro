@@ -10,21 +10,19 @@ const { title = 'Adventures' } = Astro.props;
 const { description = 'A newsletter about typography' } = Astro.props;
 let canonicalURL = Astro.request.canonicalURL;
 
-export async function createCollection() {
+export async function createCollection({ paginate }) {
   const allPosts = Astro.fetchContent('../pages/adventures/*.md') // fetch local posts...
     .sort((a, b) => new Date(b.date) - new Date(a.date));
-  return {
-     paginate: true,
-     route: '/adventures/:page?',
-     async props({paginate}) {
-      return {
-        posts: paginate(allPosts, {pageSize: 20}),
-      };
+  return paginate(
+    allPosts,
+    {
+      pageSize: 20,
+      paginate: true
     },
-  }
+  );
 }
 
-const {posts} = Astro.props;
+const { page } = Astro.props;
 ---
 
 <html lang="en">
@@ -122,11 +120,11 @@ const {posts} = Astro.props;
             <input type="submit" value="Subscribe" />
           </div>
         </form>
-        {posts.data.map((post) => (
+        {page.data.map((post) => (
           <ArticleItem post={post} />
         ))}
       </ArticleList>
     </main>
-    <Pagination prev={posts.url.prev || '#'} next={posts.url.next || '#'} />
+    <Pagination prev={page.url.prev || '#'} next={page.url.next || '#'} />
   </body>
 </html>
