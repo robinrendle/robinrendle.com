@@ -4,7 +4,7 @@ date: 2021-11-14T17:22:03.161Z
 city: San Francisco
 country: California
 layout: ../../layouts/notes.astro
-extract: And some thoughts on web3.
+extract: And some notes on the Web History podcast.
 ---
 Since I had a terrifying dentist appointment the other day I needed something to listen to whilst I clenched my fists in absolute terror. And that’s when I realized that I hadn’t listened to Web History yet, originally written by Jay Hoffman [over on CSS-Tricks](https://css-tricks.com/chapter-1-birth/) and now excellently [narrated by Jeremy Keith](https://adactio.com/journal/18602).
 
