@@ -32,7 +32,7 @@ On this note: Ethan wrote about [the problems with AMP](https://ethanmarcotte.co
 
 > The questions to ask are “Whose benefits? Whose risks?” rather than “What benefits? What risks?”
 
-Who is web3 for? Let’s be honest: it’s a way to help crypto folks inflate the value of coins or to solve a problem that doesn’t really exist. It’s not an improvement on the core technologies of the web and does nothing to really move the needle on the real problems with the web today.
+Who is web3 for? Let’s be honest: it’s a way to help crypto folks inflate the value of coins or to solve a problem that doesn’t really exist. It’s not an improvement on the core technologies of the web and does nothing to move the needle on the real problems with the web today.
 
 Who is the web for? Originally the web was made for the benefit of everyone, everywhere, and not the few with a financial stake in it. It’s still this enormously beautiful thing that has so much potential. 
 
