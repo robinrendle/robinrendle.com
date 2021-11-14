@@ -14,7 +14,7 @@
   --color-text: #bbb;
   --color-subtext: #777;
   --color-faded: #444;
-  --color-link-rgb: 153, 170, 153;
+  --color-link-rgb: 140, 155, 179;
   --color-link: rgb(var(--color-link-rgb));
   --color-backgroundNav: #000;
   --spacing: 20px;
@@ -89,9 +89,10 @@ p {
 }
 
 a {
-  color: var(--color-link);
+  color: var(--color-text);
   position: relative;
   z-index: 2;
+  text-decoration-thickness: 1px;
 
   &:hover,
   &:focus {

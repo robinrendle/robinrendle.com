@@ -27,11 +27,6 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
     }
   }
 
-  a {
-    display: inline;
-    text-decoration-thickness: 2px;
-  }
-
   .special {
     line-height: 1.1;
     margin-top: 0;
@@ -41,6 +36,11 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
     font-size: 3.5em;
     hyphens: auto;
     color: var(--color-title);
+
+    a {
+      text-decoration-thickness: 3px;
+      color: var(--color-title);
+    }
 
     @media screen and (min-width: 600px) {
       font-weight: 400;
