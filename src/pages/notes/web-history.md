@@ -14,7 +14,7 @@ Sitting down in that chair whilst the dentist kicked my ass, I realized once aga
 
 > It was hard to explain, difficult to demo, and had overly lofty ambition. It was created by a man who didn’t have much interest in marketing his ideas. Even the name was somewhat absurd. “WWW” is one of only a handful of acronyms that actually takes longer to say than the full “World Wide Web.”
 
-This is what’s shocking to me whenever says that the web is for “more than documents” as if, well, documents and writing and language zipping between us all is an absolute wonder.
+This is what’s shocking to me whenever says that the web is for “more than documents” as if, well, documents and writing and language zipping between us all isn’t somehow magic enough. 
 
 Afterwards, I began comparing all this hope and enthusiasm that I still have for the web with Robin’s [notes on web3](https://society.robinsloan.com/archive/notes-on-web3/). His piece is excellent and kind and although he disagrees fundamentally with web3 and all the awfulness of it, he still has the humility to explore why folks are so drawn to it:
 
@@ -27,3 +27,9 @@ Putting all those feelings about crypto scam stuff aside though, I think this is
 Claustrophobic is certainly not how I feel about the web, but I imagine most people do. They feel trapped by it. The future owned by Google or some other enormous corporate interest. So I can understand that need to create something new like web3 because of that. 
 
 But man. I can’t help but feel that all these crypto folks are looking in the wrong place. [Merging the blockchain and the web](https://blog.cloudflare.com/what-is-web3/) is not how we make the web better, less scary, more safe, more free.
+
+On this note: Ethan Marcotte wrote about [the problems with AMP](https://ethanmarcotte.com/wrote/seven-into-seven/) and how it was very un-web like back when Google forced publishers to use it and single-handledly [messed with an entire industry](https://wptavern.com/amp-has-irreparably-damaged-publishers-trust-in-google-led-initiatives). But instead of digging into the specifics of the AMP “standards”, Ethan quotes Ursula Franlin where she reminds us to think about who a specific technology helps and who it hurts:
+
+> The questions to ask are “Whose benefits? Whose risks?” rather than “What benefits? What risks?”
+
+The web was made for the benefit of everyone, everywhere, and not the few with a financial stake in it.
