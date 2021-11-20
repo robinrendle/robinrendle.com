@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: Or a once-in-a-lifetime thing.
 ---
-Lucy and I were texting about [The Fairy Tales of Oscar Wilde](https://www.arionpress.com/store/114-the-fairy-tales-of-oscar-wilde) by the Arion Press the other day (it’s perhaps the most beautiful book I’ve seen in years). The shocker here is the price tag though: each book is $680! Heck, the even more beautiful [Frankenstein](https://www.arionpress.com/store/115-frankenstein)—look at those gosh darn illustrations—is $1020 a pop!
+Lucy and I were texting about [The Fairy Tales of Oscar Wilde](https://www.arionpress.com/store/114-the-fairy-tales-of-oscar-wilde) by the Arion Press the other day (it’s perhaps the most beautiful book I’ve seen in years). The shocker here is the price tag though: each book is $680! Wait, nope: that’s just for the paper. The standard edition is $800. And heck, their equally beautiful and weird edition [Frankenstein](https://www.arionpress.com/store/115-frankenstein)—look at those gosh darn illustrations—is $1020 a pop!
 
 Questioning the price here feels somewhat wrong and makes me sweaty though. Just [look at Bourdain walk around in awe](https://www.youtube.com/watch?v=i-5NhxYRqUI) as everyone just does their job at the Arion Press. We could only hope to do half as good a job as them.
 
