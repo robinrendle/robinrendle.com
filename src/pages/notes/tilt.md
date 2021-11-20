@@ -14,4 +14,4 @@ Incredible! But here’s something even better: on the website you can move your
 
 > With the advent of the variable font format, I like to think that a designer is freed from the traditional layout of a family of type. Tilt doesn’t give a designer variable control over the parameters you might expect — such as weight and width — but instead lets you dial in the “Horizontal Rotation” (HROT) and “Vertical Rotation” (VROT) of the tilting letterforms.
 
-Even if this type family didn’t have all this fancy variable font stuff I would still be enamored by it. So I’m gonna bookmark the heck out of this and use it in my next project.
+Even if this type family didn’t have all this fancy variable font stuff I would still be enamored by it. So I’m gonna bookmark the heck out of this and use it in my next project. Heck yeah.
