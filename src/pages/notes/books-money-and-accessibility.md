@@ -6,9 +6,9 @@ country: California
 layout: ../../layouts/notes.astro
 extract: Or a once-in-a-lifetime thing.
 ---
-Lucy and I were texting about [The Fairy Tales of Oscar Wilde](https://www.arionpress.com/store/114-the-fairy-tales-of-oscar-wilde) by the Arion Press the other day (it’s perhaps the most beautiful book I’ve seen in years). The shocker here is the price tag though: each book is $680! Wait, nope: that’s just for the paper. The standard edition is $800. And heck, their equally beautiful and weird edition [Frankenstein](https://www.arionpress.com/store/115-frankenstein)—look at those gosh darn illustrations—is $1020 a pop!
+Lucy and I were texting about [The Fairy Tales of Oscar Wilde](https://www.arionpress.com/store/114-the-fairy-tales-of-oscar-wilde) by the Arion Press the other day (it’s perhaps the most beautiful book I’ve seen in years). The shocker here is the price tag though: each book is $680! Wait, nope: that’s just for the paper. The standard edition is $800. And heck, their equally beautiful and weird edition of [Frankenstein](https://www.arionpress.com/store/115-frankenstein)—look at those gosh darn illustrations—is $1000 a pop!
 
-Questioning the price here feels somewhat wrong and makes me sweaty though. Just [look at Bourdain walk around in awe](https://www.youtube.com/watch?v=i-5NhxYRqUI) as everyone just does their job at the Arion Press. We could only hope to do half as good a job as them.
+Questioning the price here feels somewhat wrong and makes me sweaty though. Just [look at Bourdain walk around in awe](https://www.youtube.com/watch?v=i-5NhxYRqUI) as everyone just does their job at the Arion Press. We could only hope to do half as good a job as them at anything else.
 
 But that price...? It still makes me gasp a bit. Or, as I less eloquently said to Lucy:
 
@@ -24,7 +24,7 @@ Agreed! This is the reason why I was attracted to the web in the first place, be
 
 So questioning the price of these books is also questioning their accessibility. 
 
-Yet! Yet! All this free work we’re doing, doesn’t it somewhat devalue the work itself? Take those essays I write once every 2-ish years. I can only make those for free because I have a day job and I can only make something essay-shaped because I take two weeks off in December to make them. Does this free work devalue the writing and work of others who are trying to make a living just from their writing? But then again who would pay for something like those essays? (My hunch: almost no-one). And it would severely limit their accessibility. But if good writing (I am being too generous to myself here) can _only_ be done part-time by everyone then...ugh. That’s not a good sign for writing as an art form.
+Yet! Yet! All this free work we’re doing, doesn’t it somewhat devalue the work itself? Take those essays I write once every 2-ish years. I can only make those for free because I have a day job and I can only make something essay-shaped because I take two weeks off in December to make them. Does this free work devalue the writing and work of others who are trying to make a living just from their writing? But then again who would pay for something like those essays? (My hunch: almost no-one). And it would severely limit their accessibility if it had a price tag. But if good writing (I am being too generous to myself here) can _only_ be done part-time by everyone then...ugh. That’s not a good sign for writing as an art form.
 
 Lucy took my anxiety and packaged it up much more neatly here, but put in the context of cartoonists:
 
