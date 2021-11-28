@@ -4,34 +4,23 @@ import Nav from '../components/Nav.astro';
 import ArticleList from '../components/ArticleList.astro';
 import ArticleItem from '../components/ArticleItem.astro';
 
-// page
-const { title = 'Essays and Articles' } = Astro.props;
-const { description = 'Designer and writer' } = Astro.props;
-let canonicalURL = Astro.request.canonicalURL;
-
-export async function createCollection() {
-  const allPosts = Astro.fetchContent('../pages/essays/*.md') // fetch local posts...
-    .sort((a, b) => new Date(b.date) - new Date(a.date));
-  return {
-     paginate: true,
-     route: '/essays/:page?',
-     async props({paginate}) {
-      return {
-        posts: paginate(allPosts, {pageSize: 20}),
-      };
-    },
-  }
+interface MarkdownFrontmatter {
+  date: number;
 }
 
-const {posts} = Astro.props;
+const { title = 'Adventures in Typography' } = Astro.props;
+const { description = 'Designer and writer' } = Astro.props;
+
+let essayPosts = await Astro.fetchContent('../pages/adventures/*.md');
+essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.date).valueOf());
+
 ---
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <MainHead
-      title={'Essays'}
+      title={'Adventures in Typography'}
       description={description}
-      canonicalURL={canonicalURL}
     />
 
     <style lang="scss">
@@ -54,10 +43,8 @@ const {posts} = Astro.props;
   <body>
     <Nav title={title} />
     <main class="wrapper">
-      <ArticleList title="Essays & Articles">
-        {posts.data.map((post) => (
-          <ArticleItem post={post} />
-        ))}
+      <ArticleList title="Adventures in Typography">
+        {essayPosts.map(p => <ArticleItem post={p} />)}        
       </ArticleList>
     </main>
   </body>

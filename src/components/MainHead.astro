@@ -11,7 +11,8 @@ const { title, description } = Astro.props;
 <title>{title ? `${title} • Robin Rendle` : `Robin Rendle`}</title>
 <meta name="description" content={description}>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/global.css">
+<link rel="stylesheet" href={Astro.resolve('../styles/global.scss')} />
+
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap.xml">
 <!-- RSS -->

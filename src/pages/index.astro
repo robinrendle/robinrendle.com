@@ -15,89 +15,89 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
       canonicalURL={Astro.request.canonicalURL.href}
     />
 
-<style lang="scss">
-  .wrapper {
-    margin: 0 auto;
-    padding: 10px 15px 200px;
-    max-width: 1300px;
-    overflow: hidden;
+    <style lang="scss">
+      .wrapper {
+        margin: 0 auto;
+        padding: 10px 15px 200px;
+        max-width: 1300px;
+        overflow: hidden;
 
-    @media screen and (min-width: 900px) {
-      padding: 40px 60px 200px;
-    }
-  }
-
-  .special {
-    line-height: 1.1;
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-family: "Clarendon", var(--font-fallback);
-    font-weight: 300;
-    font-size: 3.5em;
-    hyphens: auto;
-    color: var(--color-title);
-
-    a {
-      text-decoration-thickness: 3px;
-      color: var(--color-title);
-    }
-
-    @media screen and (min-width: 600px) {
-      font-weight: 400;
-      font-size: 4em;
-    }
-
-    @media screen and (min-width: 900px) {
-      font-size: 5em;
-    }
-  }
-
-  .q {
-    font-family: "Clarendon", var(--font-fallback);
-    margin-bottom: 50px;
-    line-height: 1;
-    text-align: center;
-    font-size: 200vw !important;
-    font-weight: 250;
-    color: var(--color-title);
-
-    @media screen and (min-width: 900px) {
-      font-size: 80vw !important;
-    }
-  }
-
-  h2 {
-    border-bottom: 1px solid var(--color-faded);
-    text-transform: lowercase;
-    font-variant: small-caps;
-    margin: 0;
-    color: var(--color-title);
-    padding-bottom: 5px;
-  }
-
-  .align {
-    section {
-      margin: 0;
-    }
-    @media screen and (min-width: 767px) {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr;
-      gap: 40px;
-
-      p {
-        justify-self: start;
+        @media screen and (min-width: 900px) {
+          padding: 40px 60px 200px;
+        }
       }
-    }
-  }
 
-  .about-me {
-    margin-bottom: 40px !important;
-    @media screen and (min-width: 767px) {
-      p { font-size: 140%; } 
-    }
-  }
-</style>
+      .special {
+        line-height: 1.1;
+        margin-top: 0;
+        margin-bottom: 1em;
+        font-family: "Clarendon", var(--font-fallback);
+        font-weight: 300;
+        font-size: 3.5em;
+        hyphens: auto;
+        color: var(--color-title);
+
+        a {
+          text-decoration-thickness: 3px;
+          color: var(--color-title);
+        }
+
+        @media screen and (min-width: 600px) {
+          font-weight: 400;
+          font-size: 4em;
+        }
+
+        @media screen and (min-width: 900px) {
+          font-size: 5em;
+        }
+      }
+
+      .q {
+        font-family: "Clarendon", var(--font-fallback);
+        margin-bottom: 50px;
+        line-height: 1;
+        text-align: center;
+        font-size: 200vw !important;
+        font-weight: 250;
+        color: var(--color-title);
+
+        @media screen and (min-width: 900px) {
+          font-size: 80vw !important;
+        }
+      }
+
+      h2 {
+        border-bottom: 1px solid var(--color-faded);
+        text-transform: lowercase;
+        font-variant: small-caps;
+        margin: 0;
+        color: var(--color-title);
+        padding-bottom: 5px;
+      }
+
+      .align {
+        section {
+          margin: 0;
+        }
+        @media screen and (min-width: 767px) {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+          grid-template-rows: 1fr;
+          gap: 40px;
+
+          p {
+            justify-self: start;
+          }
+        }
+      }
+
+      .about-me {
+        margin-bottom: 40px !important;
+        @media screen and (min-width: 767px) {
+          p { font-size: 140%; } 
+        }
+      }
+    </style>
   </head>
   <body>
     <Nav />

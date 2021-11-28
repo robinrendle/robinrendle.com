@@ -1,4 +1,9 @@
-<html lang="en" class="no-js"><head>
+---
+import { Markdown } from 'astro/components';
+---
+
+<html lang="en" class="no-js">
+  <head>
     <meta charset="utf-8">
 
     <title>Robin Rendle › A Visual Lexicon</title>
@@ -2958,6 +2963,8 @@
 <p>Most of the time designers can’t answer these questions at this stage in the process. They’ve worked on one component but have yet to fully grasp the extent of such a large and complex system. Adjustments to the design, and consequently refactoring the codebase, is inevitable then in the early stages. Likewise it would be utter madness for designers to create mockups of every browser rendering, every possible user condition that this information might be filtered through and experienced by. Nevertheless, I felt that our visual and technical systems were colliding with one another, making an awful lot of mess, and I believe that the source of this trouble was with how we named those components.</p>
 <h3>The dreaded alt</h3>
 <p>Let’s take, for example, a developer that wants to add a new modifier to this project. The designer has handed over a picture of a listing style and so the developer must name this new <em>thing</em>. What should they do? Well, the first rule is probably to stick with the pre-existing conventions of the front-end system. In this case they ought to use the <a href="http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">Block Element Modifier</a> syntax that we had all agreed upon in the early stages of development. But the <abbr title="Block Element Modifier">BEM</abbr> formatting rules can sometimes lead to class names such as this in our <abbr title="Cascading Style Sheets">CSS</abbr>:</p>
+
+<Markdown>
 ```
   .list--ticked-alt {
     @extend .cf;
@@ -2965,6 +2972,7 @@
     width: percentage(25/100);
 }
 ```
+</Markdown>
 
 <p>What does an <em>alt</em> do in this situation? Surely the developer could have plenty of comments here to describe their motives but it doesn’t avoid the fact that this is a terrible name for a component. If the <em>alt</em> only changes the color then we probably should have specifically added ‘color’ and ‘red’ or ‘blue’ into the class name itself. If it’s a geometric modifier then we should have used ‘shape’ and ‘square’ instead. Or, if <em>alt</em> does more than one thing then we should <a href="http://en.wikipedia.org/wiki/Single_responsibility_principle">break it apart</a> and use multiple modifiers to increase the flexibility of this system overall.</p>
 <figure class="figure--bg-black figure--wide">
