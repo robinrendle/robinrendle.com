@@ -16,7 +16,7 @@ Everyone shut up, Saunders is talking:
 > 
 > This was, I realized with a start, the first time in years that anyone had reacted to my writing with pleasure.
 
-This is an extract from _A Swim in a Pond in the Rain_, Saunders’s book about writing that I won’t stop talking about, and it perfectly captures how I think about my own somewhat-idle-somewhat-stalled-somewhat-_something_-career. 
+This is an extract from _A Swim in a Pond in the Rain_, Saunders’s book about writing that I won’t stop talking about, and it perfectly captures how I think about my own somewhat-idle-somewhat-stalled-somewhat-_something_ writing career. 
 
 But hush! There’s more:
 
@@ -24,7 +24,7 @@ But hush! There’s more:
 
 Of course this is upsetting because that shit-hill is a glorious, beautiful shit-hill that formed the ever so perfect novel _Lincoln in the Bardo_. But sure, okay. I’ll play along here, George. Yes. You indeed do suck.
 
-I’m not sure which mountain I climbed up before I realized I could go no further. Oscar Wilde Mountain? George Orwell Rock Formation? In work from just a few years ago, my writing is _excruciatingly_ dry, formal to a fault. I’m trying so hard to copy poor old Oscar and George in that old work—and it wasn’t until someone told me to stop writing manifestos that I bucked the trend.
+I guess I’m not sure which mountain I climbed up before I realized I could go no further and had to turn back. Oscar Wilde Mountain? George Orwell Rock Formation? My writing from just a few years ago is _excruciatingly_ dry, formal to a fault. It’s like a chap dressed up to the wrong party, wearing 13th century ballroom shoes to a skatepark. I was trying so damn hard to copy poor old Oscar and George back then—and it wasn’t until someone told me to stop writing manifestos that I bucked the trend.
 
 Anyway, Saunders continues...
 
