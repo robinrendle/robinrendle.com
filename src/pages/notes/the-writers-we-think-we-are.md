@@ -1,5 +1,5 @@
 ---
-title: The Writers We Think We Are
+title: The Writers We Thought We Were
 date: 2021-12-02T05:06:41.234Z
 city: San Francisco
 country: California
