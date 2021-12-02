@@ -90,6 +90,11 @@
     "@vitejs/plugin-vue" "^1.9.4"
     "vue" "^3.2.22"
 
+"@astropub/icons@^0.2.0":
+  "integrity" "sha512-qM/ldW/9rVHULNOZgz/23Yzgm2r3Iy2JJ1FuvJB6sFU67n61o1ImuXdHiaWSNoEHubD+IUkD9WG0hbhINgszqA=="
+  "resolved" "https://registry.npmjs.org/@astropub/icons/-/icons-0.2.0.tgz"
+  "version" "0.2.0"
+
 "@babel/code-frame@^7.16.0":
   "integrity" "sha512-IF4EOMEV+bfYwOmNxGzSnjR2EmQod7f1UXOpZM3l4i4o4QNwzjtJAu/HxdjHq0aYBvdqMuQEY1eg0nqW9ZPORA=="
   "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.16.0.tgz"
@@ -671,7 +676,7 @@
   "resolved" "https://registry.npmjs.org/astring/-/astring-1.7.5.tgz"
   "version" "1.7.5"
 
-"astro@^0.21.0":
+"astro@*", "astro@^0.21.0":
   "integrity" "sha512-GQ+OJk4+vJsX94X/zxpbyYKb2KyzrCMdn3wwl3UBA7sjcXyfAzig7eujN+r9EgHvVOGI7QSiTTmrxBDCNYZrCg=="
   "resolved" "https://registry.npmjs.org/astro/-/astro-0.21.0.tgz"
   "version" "0.21.0"

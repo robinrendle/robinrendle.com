@@ -1,6 +1,7 @@
 ---
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
+import * as Icon from '@astropub/icons'
 
 const {content} = Astro.props;
 const {title, extract, date, city, country} = content;
@@ -31,20 +32,21 @@ function formatDate(stupidIdiotDate) {
       .wrapper {
         padding: 0 15px;
         margin: 0 auto;
+        max-width: 660px;
       
         @media screen and (min-width: 900px) {
           margin-top: 0;
-          max-width: 720px;
+          max-width: 660px;
         }
       }
 
       h1 {
         font-weight: bold;
-        font-family: National, var(--font-fallback);
-        font-size: 2em;
+        font-family: Degular, var(--font-fallback);
+        font-size: 1.6em;
 
         @media screen and (min-width: 767px) {
-          font-size: 2.4em;
+          font-size: 2em;
         }
       }
 
@@ -79,9 +81,26 @@ function formatDate(stupidIdiotDate) {
       }
 
       .reply {
+        background: var(--color-faded);
         margin-top: 100px;
         border-top: 1px solid var(--color-faded);
         padding-top: 15px;
+        min-height: 3.5em;
+        font-size: 1.2em;
+
+        a {
+          width: 180px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          text-decoration: none;
+          padding: 10px;
+          border-radius: 10px;
+
+          &:hover svg {
+            fill: var(--color-link);
+          }
+        }
       }
     </style>
   </head>
@@ -100,11 +119,18 @@ function formatDate(stupidIdiotDate) {
       <div class="wrapper">
         <article class="article">
           <slot />
-          <div class="reply">
-            <a href={`mailto:robinjrendle@gmail.com?subject=${title}`}>Reply via Email</a>
-          </div>
         </article>
       </div>
+      <aside>
+        <div class="reply">
+          <div class="wrapper">
+            <a href={`mailto:robinjrendle@gmail.com?subject=${title}`}>
+              <Icon.Pencil2 size="18" />
+              Reply via Email
+            </a>
+          </div>
+        </div>
+      </aside>
     </main>
   </body>
 </html>
