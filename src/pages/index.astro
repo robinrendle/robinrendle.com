@@ -8,6 +8,7 @@ let allPosts = Astro.fetchContent('./notes/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
 
 ---
+
 <html lang="en">
   <head>
     <MainHead
@@ -20,7 +21,6 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
         padding: 10px 15px 200px;
         max-width: 1300px;
         overflow: hidden;
-
         @media screen and (min-width: 900px) {
           padding: 40px 60px 200px;
         }
