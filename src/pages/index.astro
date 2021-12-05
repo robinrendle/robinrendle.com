@@ -8,96 +8,104 @@ let allPosts = Astro.fetchContent('./notes/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
 
 ---
+
 <html lang="en">
   <head>
     <MainHead
       description={'Designer and writer'}
-      canonicalURL={Astro.request.canonicalURL.href}
     />
 
-<style lang="scss">
-  .wrapper {
-    margin: 0 auto;
-    padding: 10px 15px 200px;
-    max-width: 1300px;
-    overflow: hidden;
-
-    @media screen and (min-width: 900px) {
-      padding: 40px 60px 200px;
-    }
-  }
-
-  .special {
-    line-height: 1.1;
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-family: "Clarendon", var(--font-fallback);
-    font-weight: 300;
-    font-size: 3.5em;
-    hyphens: auto;
-    color: var(--color-title);
-
-    a {
-      text-decoration-thickness: 3px;
-      color: var(--color-title);
-    }
-
-    @media screen and (min-width: 600px) {
-      font-weight: 400;
-      font-size: 4em;
-    }
-
-    @media screen and (min-width: 900px) {
-      font-size: 5em;
-    }
-  }
-
-  .q {
-    font-family: "Clarendon", var(--font-fallback);
-    margin-bottom: 50px;
-    line-height: 1;
-    text-align: center;
-    font-size: 200vw !important;
-    font-weight: 250;
-    color: var(--color-title);
-
-    @media screen and (min-width: 900px) {
-      font-size: 80vw !important;
-    }
-  }
-
-  h2 {
-    border-bottom: 1px solid var(--color-faded);
-    text-transform: lowercase;
-    font-variant: small-caps;
-    margin: 0;
-    color: var(--color-title);
-    padding-bottom: 5px;
-  }
-
-  .align {
-    section {
-      margin: 0;
-    }
-    @media screen and (min-width: 767px) {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr;
-      gap: 40px;
-
-      p {
-        justify-self: start;
+    <style lang="scss">
+      .wrapper {
+        margin: 0 auto;
+        padding: 10px 15px 200px;
+        max-width: 1300px;
+        overflow: hidden;
+        @media screen and (min-width: 900px) {
+          padding: 40px 60px 200px;
+        }
       }
-    }
-  }
 
-  .about-me {
-    margin-bottom: 40px !important;
-    @media screen and (min-width: 767px) {
-      p { font-size: 140%; } 
-    }
-  }
-</style>
+      .special {
+        line-height: 1.1;
+        margin-top: 0;
+        margin-bottom: 1em;
+        font-family: "Clarendon", var(--font-fallback);
+        font-weight: 300;
+        font-size: 3.5em;
+        hyphens: auto;
+        color: var(--color-title);
+
+        a {
+          text-decoration-thickness: 3px;
+          color: var(--color-title);
+        }
+
+        @media screen and (min-width: 600px) {
+          font-weight: 400;
+          font-size: 4em;
+        }
+
+        @media screen and (min-width: 900px) {
+          font-size: 5em;
+        }
+      }
+
+      .q {
+        font-family: "Clarendon", var(--font-fallback);
+        margin-bottom: 50px;
+        line-height: 1;
+        text-align: center;
+        font-size: 200vw !important;
+        font-weight: 250;
+        color: var(--color-title);
+
+        @media screen and (min-width: 900px) {
+          font-size: 80vw !important;
+        }
+      }
+
+      h2 {
+        border-bottom: 1px solid var(--color-faded);
+        text-transform: lowercase;
+        letter-spacing: 1px;
+        font-variant: small-caps;
+        font-size: 120%;
+        margin: 0;
+        color: var(--color-title);
+        padding-bottom: 5px;
+      }
+
+      .align {
+        section {
+          margin: 0;
+        }
+        @media screen and (min-width: 767px) {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+          grid-template-rows: 1fr;
+          gap: 40px;
+
+          p {
+            justify-self: start;
+          }
+        }
+      }
+
+      .about-me {
+        font-family: Degular, var(--font-fallback);
+        margin-bottom: 40px !important;
+
+        p { 
+          font-size: 120%; 
+          
+          @media screen and (min-width: 767px) {
+            font-size: 140%; 
+            line-height: 1.25;
+          }
+        }
+      }
+    </style>
   </head>
   <body>
     <Nav />
@@ -107,7 +115,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
       <div class="align">
         <section class="about-me">
           <h2>About me</h2>
-          <p>This is where I write about everything—front-end development, heartbreak, and RSS, along with other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Speaking of which, the two Qs that I’m using on this very website are from <a href="https://djr.com/job-clarendon">Job Clarendon</a> and <a href="https://klim.co.nz/retail-fonts/national-2/">National 2</a>.</p> 
+          <p>This is where I write about web design, heartbreak, RSS, and other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Speaking of which, the two Qs that I’m using on this very website are from <a href="https://djr.com/job-clarendon">Job Clarendon</a> and <a href="https://ohnotype.co/fonts/degular">Degular</a>.</p> 
           
           <p>Anyway, because of this uncordinated mess of distractions, I’ve organized this place into <a href="/notes">/notes</a> and <a href="/essays">/essays</a>. Notes are little ideas, blog posts, and links to things that I’m thinking about whilst essays are rambling, bookish-sized projects where I get to experiment with typography and CSS.</p>
 
@@ -118,7 +126,6 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
           {allPosts.map(p => <ArticleItem post={p} />)}
         </section>
       </div>
-
       <section class="tiny-section">
         <h2>Essays</h2>
         <Essays />

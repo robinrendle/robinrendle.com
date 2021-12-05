@@ -17,6 +17,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "astro": "^0.18.5"
+    "astro": "^0.21.0"
+  },
+  "dependencies": {
+    "@astropub/icons": "^0.2.0"
   }
 }

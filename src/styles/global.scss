@@ -1,5 +1,5 @@
-@import "./fonts/clarendon/clarendon";
-@import "./fonts/national/national";
+@import "../../public/fonts/clarendon/clarendon";
+@import "../../public/fonts/degular/degular";
 
 *,
 *:after,
@@ -13,12 +13,14 @@
   --color-title: #fff;
   --color-text: #bbb;
   --color-subtext: #777;
-  --color-faded: #444;
+  --color-faded: #333;
   --color-link-rgb: 140, 155, 179;
   --color-link: rgb(var(--color-link-rgb));
   --color-backgroundNav: #000;
   --spacing: 20px;
   --base-font-size: clamp(100%, 1rem + 0.5vw, 21px);
+  --base-line-height: 1.4;
+  --max-wrapper-width: 680px;
   --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
   --header-height: 40px;
@@ -43,10 +45,10 @@ body {
   margin: 0;
   padding: 0;
   color: var(--color-text);
-  font: 100%/1.4 var(--font-fallback);
+  font: 100% / var(--base-line-height) var(--font-fallback);
   background: var(--color-background);
-  font-family: National, var(--font-fallback);
-  border-bottom: 2px solid var(--color-link);
+  font-family: DegularText, var(--font-fallback);
+  border-bottom: 2px solid var(--color-faded);
 }
 
 h1 {
@@ -61,6 +63,10 @@ h1 {
   @media screen and (min-width: 900px) {
     font-size: 5em;
   }
+}
+
+h2 {
+  font-family: Degular, var(--font-fallback);
 }
 
 h3 {

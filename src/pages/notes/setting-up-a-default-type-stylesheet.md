@@ -23,7 +23,8 @@ If you haven’t fooled around with Modernizr before then it’s best to describ
 
 These classes are a standard listing of the capabilities of the device but it’s also possible to configure particular tests that we want Modernizr to run. In this case we’ll be using <code class="class">fontface</code> to detect whether the custom webfonts in our stylesheets are running. If a browser does not detect those <code>@fontface</code> rules in our stylesheet then Modernizr will do nothing and the <code>html</code> element won’t have this class added to it. But now we can begin to separate the two styles like this with <abbr title="syntactically awesome style sheets">SASS</abbr>:
 
-<pre><code>body {
+```
+body {
     font-size: 100%;
     font-family: Georgia, serif;
     line-height: 1.55;
@@ -36,7 +37,7 @@ These classes are a standard listing of the capabilities of the device but it’
         font-weight: 400;
     }
 }
-</code></pre>
+```
 
 And there we have it. Since Modernizr requires us to have the <code class="class">.no-js</code> class appended to the <code>html</code> element before anything happens, it will swap that out as it detects the device’s capabilities. With the code above we’ve separated the default styles that will apply to every child element within. Now we can begin to break down all of our typographic styles into two factions as necessary.
 
