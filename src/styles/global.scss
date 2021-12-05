@@ -23,11 +23,7 @@
   --max-wrapper-width: 680px;
   --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
-  --header-height: 40px;
-
-  @media screen and (min-width: 767px) {
-    --header-height: 50px;
-  }
+  --header-height: 50px;
 }
 
 * + * {
