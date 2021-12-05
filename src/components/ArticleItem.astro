@@ -21,19 +21,31 @@ function formatDate(stupidIdiotDate) {
 
 <style lang="scss">
   article {
+    margin: 0;
+  }
+
+  .post {
     display: block;
-    padding: 20px 0 25px 0;
-    margin-top: 0;
-    border-bottom: 1px solid var(--color-faded);
+    padding: 20px 0 25px;
+    margin: 0 !important;
+    border-bottom: 1px solid var(--color-faded) !important;
     color: inherit;
     text-decoration: none;
+    transition: all .2s linear;
+    z-index: 0;
+    position: relative;
+
+    &:hover {
+      padding: 20px 20px 25px;
+      z-index: 1;
+      border-radius: 5px;
+      transform: scale(1.01);
+      z-index: 999;
+      background: var(--color-faded);
+    }
 
     &:last-child {
       border-bottom: none;
-    }
-
-    time {
-      color: var(--color-subtext);
     }
   }
 
@@ -44,14 +56,17 @@ function formatDate(stupidIdiotDate) {
     margin-bottom: 5px;
     text-decoration-color: red !important;
     padding: 0;
+  }
 
-    a {
-      color: var(--color-title);
-    }
+  time {
+    color: var(--color-subtext);
+    margin-bottom: 5px;
+    display: block;
   }
 
   p {
     margin-top: 0;
+    color: var(--color-subtext);
   }
 
   .description {
@@ -60,16 +75,16 @@ function formatDate(stupidIdiotDate) {
   }
 </style>
 
-<article class="post">
-  <div class="data">
-    <time class="date" datetime={post.date}>{formatDate(post.date)}</time>
-    <h2>
-      <a class="link" href={post.url}>
+<article>
+  <a class="post" href={post.url}>
+    <div class="data">
+      <time class="date" datetime={post.date}>{formatDate(post.date)}</time>
+      <h2>
         {post.title}
-      </a>
-    </h2>
-    <p class="description">
-      {post.extract}
-    </p>
-  </div>
+      </h2>
+      <p class="description">
+        {post.extract}
+      </p>
+    </div>
+  </a>
 </article>

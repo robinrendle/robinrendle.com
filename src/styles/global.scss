@@ -18,8 +18,9 @@
   --color-link: rgb(var(--color-link-rgb));
   --color-backgroundNav: #000;
   --spacing: 20px;
-  --base-font-size: clamp(100%, 1rem + 0.5vw, 20px);
-  --base-line-height: 1.3;
+  --base-font-size: clamp(100%, 1rem + 0.5vw, 21px);
+  --base-line-height: 1.4;
+  --max-wrapper-width: 660px;
   --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
   --header-height: 40px;
