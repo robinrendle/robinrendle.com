@@ -6,7 +6,7 @@ country: California
 layout: ../../layouts/notes.astro
 extract: And a book about browsers.
 ---
-I’ve only just started this excellent book called [browser.engineering](https://browser.engineering) but it’s already so dang good that I have to stop reading it in order to quote this sectionL:
+I’ve only just started this excellent book called [Web Browser Engineering](https://browser.engineering) but it’s already so dang good that I have to stop reading it in order to quote this section:
 
 > The web is a grand, crazy experiment. It’s natural, nowadays, to watch videos, read news, and connect with friends on the web. That can make the web seem simple and obvious, finished, already built. But the web is neither simple nor obvious. It is the result of experiments and research reaching back to nearly the beginning of computing.
 > 
