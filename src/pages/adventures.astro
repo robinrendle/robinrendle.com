@@ -3,6 +3,7 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import ArticleList from '../components/ArticleList.astro';
 import ArticleItem from '../components/ArticleItem.astro';
+import Card from '../components/Card.astro';
 
 interface MarkdownFrontmatter {
   date: number;
@@ -31,11 +32,13 @@ essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.
         margin-bottom: 0;
         text-align: center;
       }
-
       .count {
         font-size: 1em;
         display: block;
         text-align: center;
+      }
+      .newsletter-card {
+        margin-bottom: 40px;
       }
     </style>
   </head>
@@ -44,6 +47,7 @@ essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.
     <Nav title={title} />
     <main class="wrapper">
       <ArticleList title="Adventures in Typography">
+        <Card className="newsletter-card"><p>A now dormant newsletter about typography, graphic design, and the web that ran from 2018-2020.</p></Card>
         {essayPosts.map(p => <ArticleItem post={p} />)}        
       </ArticleList>
     </main>

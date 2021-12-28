@@ -3,18 +3,16 @@ import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import ArticleItem from '../components/ArticleItem.astro';
 import Essays from '../components/Essays.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
 import { Markdown } from 'astro/components';
 let allPosts = Astro.fetchContent('./notes/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
+allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 2);
 
 ---
 
 <html lang="en">
   <head>
-    <MainHead
-      description={'Designer and writer'}
-    />
-
+    <MainHead description={'Designer and writer'} />
     <style lang="scss">
       .wrapper {
         margin: 0 auto;
@@ -25,7 +23,9 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
           padding: 40px 60px 200px;
         }
       }
-
+      .tiny-section {
+        margin-bottom: 60px;
+      }
       .special {
         line-height: 1.1;
         margin-top: 0;
@@ -68,12 +68,30 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
       h2 {
         border-bottom: 1px solid var(--color-faded);
         text-transform: lowercase;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         font-variant: small-caps;
         font-size: 120%;
         margin: 0;
         color: var(--color-title);
         padding-bottom: 5px;
+
+        & + p {
+          margin-top: var(--spacing);
+        }
+      }
+
+      .essays {
+        margin-top: 40px;
+        @media screen and (min-width: 767px) {
+          margin-top: 60px;
+        }
+      }
+
+      .newsletter {
+        margin-bottom: 40px !important;
+        @media screen and (min-width: 767px) {
+          margin-bottom: 0 !important;
+        }
       }
 
       .align {
@@ -91,44 +109,30 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
           }
         }
       }
-
-      .about-me {
-        font-family: Degular, var(--font-fallback);
-        margin-bottom: 40px !important;
-
-        p { 
-          font-size: 120%; 
-          
-          @media screen and (min-width: 767px) {
-            font-size: 140%; 
-            line-height: 1.25;
-          }
-        }
-      }
     </style>
   </head>
   <body>
     <Nav />
     <main class="wrapper">
       <p class="special">I’m a designer at <a href="https://sentry.io/">Sentry</a>, staff writer at <a href="https://css-tricks.com">CSS-Tricks</a>, and my latest project is <a href="https://css-tricks.com/newsletters">a newsletter about the web</a>.</p>
-
       <div class="align">
-        <section class="about-me">
-          <h2>About me</h2>
-          <p>This is where I write about web design, heartbreak, RSS, and other joyous things such as the underbelly of a lowercase A or the swish-swash-swish of an uppercase Q. Speaking of which, the two Qs that I’m using on this very website are from <a href="https://djr.com/job-clarendon">Job Clarendon</a> and <a href="https://ohnotype.co/fonts/degular">Degular</a>.</p> 
-          
-          <p>Anyway, because of this uncordinated mess of distractions, I’ve organized this place into <a href="/notes">/notes</a> and <a href="/essays">/essays</a>. Notes are little ideas, blog posts, and links to things that I’m thinking about whilst essays are rambling, bookish-sized projects where I get to experiment with typography and CSS.</p>
-
-          <p>Oh and you can reach out <a href="mailto:robinjrendle@gmail.com">via email</a> or <a href="https://twitter.com/robinrendle">@robinrendle</a>.</p>
+        <section class="tiny-section newsletter">
+          <h2>The newsletter</h2>
+          <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
+          <NewsletterForm/>
         </section>
         <section>
-          <h2>Quick Notes</h2>
+          <h2>Latest Notes</h2>
           {allPosts.map(p => <ArticleItem post={p} />)}
         </section>
       </div>
-      <section class="tiny-section">
+      <section class="tiny-section essays">
         <h2>Essays</h2>
         <Essays />
+      </section>
+      <section class="tiny-section">
+        <h2>About this website</h2>
+        <p>This website was built with <a href="https://astro.build/">Astro</a> and published via <a href="https://netlify.com/">Netlify</a>. You can view all the code <a href="https://github.com/robinrendle/robinrendle.com">over on GitHub</a>. Paragraphs are set in James Edmonson’s <a href="https://ohnotype.co/fonts/degular">Degular</a> and titles are set in David Jonathan Ross and Bethany Heck’s ever-so-lovely <a href="https://djr.com/job-clarendon">Job Clarendon</a>. Oh and you can reach out <a href="mailto:robinjrendle@gmail.com">via email</a> or <a href="https://twitter.com/robinrendle">@robinrendle</a>.</p>
       </section>
     </main>
   </body>

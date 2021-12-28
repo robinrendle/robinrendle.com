@@ -1,6 +1,8 @@
 ---
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
+import Card from '../components/Card.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
 
 const {content} = Astro.props;
 const {title, extract, date, city, country} = content;
@@ -76,6 +78,13 @@ function formatDate(stupidIdiotDate) {
         border-top: 1px solid var(--color-background);
       }
 
+      .subscribe {
+        margin-top: 100px;
+        p {
+          margin-top: 0;
+        }
+      }
+
       .reply {
         background: var(--color-faded);
         margin-top: 100px;
@@ -115,6 +124,10 @@ function formatDate(stupidIdiotDate) {
       <div class="wrapper">
         <article class="article">
           <slot />
+          <Card className="subscribe">
+            <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it’ll contain notes about web design and publishing things that I’m interested in, too.</p>
+            <NewsletterForm />
+          </Card>
         </article>
       </div>
     </main>

@@ -3,7 +3,7 @@ import MainHead from '../../components/MainHead.astro';
 import Nav from '../../components/Nav.astro';
 import ArticleList from '../../components/ArticleList.astro';
 import ArticleItem from '../../components/ArticleItem.astro';
-import Pagination from '../../components/Pagination.astro';
+import Card from '../../components/Card.astro';
 
 interface MarkdownFrontmatter {
   date: number;
@@ -41,11 +41,35 @@ const { page } = Astro.props;
       title={'Notes'}
       description={'Designer and writer'}
     />
+
+    <style lang="scss">
+      .card-text {
+        margin: 0;
+        display: inline;
+      }
+
+      form, input {
+        display: inline;
+      }
+
+      label {
+        display: none;
+      }
+
+      .subscribe p {
+        margin-top: 0 !important;
+      }
+    </style>
   </head>
 
   <body>
     <Nav title={'Notes'} />
     <ArticleList title='Quick Notes & Ramblings'>
+
+    <Card className="subscribe">
+      <p class="card-text">Follow along <a href="./feed.xml">via RSS</a>, or check out the feed on <a href="https://twitter.com/robiswriting">this stressful, hellscape website</a>.</p>
+    </Card>
+  
       <section aria-label="Blog post list">
         {page.data.map(p => <ArticleItem post={p} />)}  
       </section>

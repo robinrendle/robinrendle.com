@@ -1,11 +1,14 @@
 ---
-// props
 export interface Props {
   title?: string;
   description: string;
 }
 const { title, description } = Astro.props;
 ---
+
+<!-- 
+  Behold: here lies a website. 
+-->
 
 <meta charset="UTF-8">
 <title>{title ? `${title} • Robin Rendle` : `Robin Rendle`}</title>
