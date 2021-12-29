@@ -19,8 +19,8 @@ city: Nottingham
 country: UK
 ---
 
-Designed by the author Joost Grootens, <cite><a href="http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all">I
-swear I use no art at all</a></cite> is a secret, work-in-progress love letter to
+Designed by the author Joost Grootens, [_I
+swear I use no art at all_](http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all) is a secret, work-in-progress love letter to
 book design. Borderline autobiographical in nature, the author revisits his notes
 and diagrams of the dozens of printed materials and thousands of pages he published
 over the years, each meticulously and elaborately detailed.
