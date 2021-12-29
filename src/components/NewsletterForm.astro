@@ -17,6 +17,7 @@
   }
   input[type="submit"] {
     background-color: var(--color-link);
+    letter-spacing: 0;
     &:hover {
       cursor: pointer;
     }
@@ -27,7 +28,7 @@
     border-radius: 4px;
     padding: 10px 15px;
     font-family: DegularText, var(--font-fallback);
-    font-size: 110%;
+    font-size: 100%;
 
     @media screen and (min-width: 767px) {
       font-size: 120%;
@@ -38,11 +39,15 @@
     text-transform: lowercase;
     letter-spacing: 0.5px;
     font-variant: small-caps;
-    font-size: 120%;
     display: block;
     margin-bottom: 5px;
     color: var(--color-subtext);
     padding-bottom: 5px;
+    font-size: 110%;
+
+    @media screen and (min-width: 767px) {
+      font-size: 120%;
+    }
   }
 </style>
 
