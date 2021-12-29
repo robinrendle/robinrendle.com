@@ -8,19 +8,17 @@ I received this email the other day that brings up a thoroughly interesting ques
 
 <br />
 
-```
+> Dear Adventurer:
+>
+> What do I do when I'm stuck on a good typeface? I was recently freshening up my website for the new year, and as part of the process, I decided I ought to finally change the somewhat showy typeface that I use for all my `<h1>`'s and `<h2>`'s -- my page and article titles. I thought: "I'll swap it out for something else, just as showy, but a little different!" I had plenty of contenders: typefaces I've had bookmarked for ages, all beautiful and interesting and usable. But… they just didn't look as good. I would toggle from Showy Original to New Contender, look at the page, think "hmm… maybe!" -- then toggle back, and be so delighted with Showy Original again that I couldn't even contemplate changing it.
+>
+> So here I am, with a website that's been using the same typeface for years. Will I ever change? Can I? How?
+>
+> Yours,
+>
+> Stuck on a Good Typeface (There Are Worse Fates, I Suppose)
 
-Dear Adventurer:
-
-What do I do when I'm stuck on a good typeface? I was recently freshening up my website for the new year, and as part of the process, I decided I ought to finally change the somewhat showy typeface that I use for all my <h1>'s and <h2>'s -- my page and article titles. I thought: "I'll swap it out for something else, just as showy, but a little different!" I had plenty of contenders: typefaces I've had bookmarked for ages, all beautiful and interesting and usable. But… they just didn't look as good. I would toggle from Showy Original to New Contender, look at the page, think "hmm… maybe!" -- then toggle back, and be so delighted with Showy Original again that I couldn't even contemplate changing it.
-
-So here I am, with a website that's been using the same typeface for years. Will I ever change? Can I? How?
-
-Yours,
-
-Stuck on a Good Typeface (There Are Worse Fates, I Suppose)
-
-```
+<br />
 
 Dear Stuck on a Good Typeface,
 
