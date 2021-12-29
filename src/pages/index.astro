@@ -75,6 +75,10 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
         color: var(--color-title);
         padding-bottom: 5px;
 
+        @media screen and (min-width: 767px) {
+          padding-bottom: 10px;
+        }
+
         & + p {
           margin-top: 10px;
           @media screen and (min-width: 767px) {
