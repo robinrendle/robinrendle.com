@@ -61,22 +61,26 @@ function formatDate(stupidIdiotDate) {
     }
   }
   h2 {
-    line-height: 1;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 5px;
     text-decoration-color: red !important;
     padding: 0;
     font-size: 1.2em;
     margin-bottom: 0;
-    
+
     @media screen and (min-width: 767px) {
+      margin-bottom: 3px;
       font-size: 1.3em;
     }
   }
   time {
     color: var(--color-subtext);
-    margin-bottom: 5px;
     display: block;
+    margin-bottom: 0;
+    @media screen and (min-width: 767px) {
+      margin-bottom: 2px;
+    }
   }
   p {
     margin-top: 0;
