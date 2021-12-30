@@ -56,8 +56,13 @@ const { page } = Astro.props;
         display: none;
       }
 
-      .subscribe p {
-        margin-top: 0 !important;
+      .subscribe {
+        z-index: 1;
+
+        p {
+          font-size: 110%;
+          margin-top: 0 !important;
+        }
       }
     </style>
   </head>

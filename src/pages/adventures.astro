@@ -39,6 +39,10 @@ essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.
       }
       .newsletter-card {
         margin-bottom: 40px;
+
+        p {
+          font-size: 110%;
+        }
       }
     </style>
   </head>
@@ -47,7 +51,7 @@ essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.
     <Nav title={title} />
     <main class="wrapper">
       <ArticleList title="Adventures in Typography">
-        <Card className="newsletter-card"><p>A now dormant newsletter about typography, graphic design, and the web that ran from 2018-2020.</p></Card>
+        <Card className="newsletter-card"><p>A now dormant newsletter about typography that ran from 2018-2020.</p></Card>
         {essayPosts.map(p => <ArticleItem post={p} />)}        
       </ArticleList>
     </main>
