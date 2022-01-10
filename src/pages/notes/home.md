@@ -1,5 +1,5 @@
 ---
-title: Home
+title: The Houses on the Hill
 date: 2022-01-09T23:51:06.863Z
 city: San Francisco
 country: California
@@ -16,6 +16,4 @@ It’s in these moments—watching California bask its inhabitants with golden a
 
 Huh. An enormous bubble just appeared in front of one of the houses over there. Up and up this bubble floats until—pop!—it’s gone. I assume there’s a garden, hidden behind all the layers of homes stacked on top of one another, and children are playing in it. 
 
-Bubbles! Dozens more, smaller now, all float above the houses on the hill. It’s a cornucopia of bubbles over there, a utopia of bubbles, bubbles galore. They churn and warp in the soft breeze.
-
-I’m home.
+Bubbles! Dozens more, smaller now, all float above the houses on the hill. It’s a cornucopia of bubbles over there, a utopia of bubbles, bubbles galore. They churn and warp in the breeze and then, in a beat, they’re gone.
