@@ -1,9 +1,9 @@
 ---
-title: The Houses on the Hill
+title: Escape
 date: 2022-01-09T23:51:06.863Z
 city: San Francisco
 country: California
-extract: And escape.
+extract: And a family of bubblists.
 layout: ../../layouts/notes.astro
 tags:
   - personal
@@ -14,6 +14,6 @@ The hill over there is a random assortment of everything; homes both quaint and 
 
 It’s in these moments—watching California bask its inhabitants with golden amber light—that I feel like I’ve escaped Plymouth, my hometown back in the UK. Through mostly luck (and perhaps a tiny, almost insignificant amount of skill) I have somehow teleported myself here and into a quiet dimension of clumsy homes with glacial blues enveloping them all. I’ve escaped the poverty and the sadness and the no-future-present of that other place. I’ve escaped the language and the clouds and, well, I’ve escaped my family, too.
 
-Huh. An enormous bubble just appeared in front of one of the houses over there. Up and up this bubble floats until—pop!—it’s gone. I assume there’s a garden, hidden behind all the layers of homes stacked on top of one another, and children are playing in it. 
+Huh. An enormous bubble just appeared in front of one of the houses over there. Up and up this bubble floats until—pop!—nothing. I assume there’s a garden, hidden behind all the layers of homes stacked on top of one another, and children are playing in it. Or perhaps a whole family of bubblists.
  
-Bubbles! Dozens more, smaller now, all float above the houses on the hill. It’s a cornucopia of bubbles over there, a utopia of bubbles, bubbles galore. They churn and warp in the breeze and then, in a beat, they’re gone.
+More bubbles! Dozens more in fact, but smaller now, hover above the houses on the hill. It’s a cornucopia of bubbles over there, a utopia of bubbles, bubbles galore. They churn and warp in the breeze and then, in a beat, they’re gone.
