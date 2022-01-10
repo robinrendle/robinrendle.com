@@ -8,7 +8,7 @@ layout: ../../layouts/notes.astro
 tags:
   - personal
 ---
-The light is perfect today; the sky a glacial blue, the sun setting off to the left. On the hill just over there, layers upon layers of houses like a great slanting and disorganized cake. I watch them everyday. When I wake up they’re quiet, hazy, somewhat-blue, and then at night they’re buzzing with electricity. Thanks to this hill of hodge podge homes, we’re protected from the harshest weather the peninsula has to offer. (There’s no fog on this side of the Bay. Thanks, hill.)
+The light is perfect today; the sky a glacial blue, the sun setting off to the left. On the hill just over there, layers upon layers of houses like a great slanting and disorganized cake. I watch them everyday. When I wake up they’re quiet, hazy, somewhat-blue, and then at night they’re buzzing with electricity. Also, thanks to this hill of hodge podge homes, we’re protected from the harshest weather the peninsula has to offer.
 
 From over here, the hill over there is a complete random assortment; quaint, small, enormous, violent green, mahogany red. Dashes of fertile green, strokes of graffiti on a tiny wall. There are balconies and tiny windows, solar panels, and platforms. In between all this pure chaos, there’s a few minimal-esque mansions spread about with their absolute conformity to square shapes and bright, white paint. One home that sits just in front of a square white mansion happens to be a dazzling, neon colored structure with everything out of place. Both of them feel like the punk-rock alternative to the other.
 
