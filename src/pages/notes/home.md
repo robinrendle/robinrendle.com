@@ -15,5 +15,5 @@ From over here, the hill over there is a complete random assortment; quaint, sma
 It’s in these moments—watching California bask its inhabitants with golden amber light—that I feel like I’ve escaped Plymouth, my hometown back in the UK. Through mostly luck (and perhaps a tiny, almost insignificant amount of skill) I have somehow teleported myself here and into a quiet dimension of clumsy homes with glacial blues enveloping them all. I’ve escaped the poverty and the sadness and the no-future-present of that other place. I’ve escaped the language and the clouds and, well, I’ve escaped my family, too.
 
 Huh. An enormous bubble just appeared in front of one of the houses over there. Up and up this bubble floats until—pop!—it’s gone. I assume there’s a garden, hidden behind all the layers of homes stacked on top of one another, and children are playing in it. 
-
+ 
 Bubbles! Dozens more, smaller now, all float above the houses on the hill. It’s a cornucopia of bubbles over there, a utopia of bubbles, bubbles galore. They churn and warp in the breeze and then, in a beat, they’re gone.
