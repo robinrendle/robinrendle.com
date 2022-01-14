@@ -10,9 +10,9 @@ tags:
   - relationship
   - personal
 ---
-A clock arrived one day at our door. A special clock. But the mechanism inside failed in some obtuse way. We checked the batteries, examined the little gears, everything looked fine. But no tick, no tock. The clock was busted.  
+A clock arrived one day at our door. A special clock. But the mechanism inside had failed in some way. We checked the batteries, examined the little gears, everything looked fine. But no tick, no tock. The clock was busted.  
 
-After ten minutes trying to figure the dumb thing out, I left the room. When I returned to the living room an hour later, there she was; C, surrounded by tiny gears and batteries and screw drivers. A video was screaming at her about how to repair clocks and she had the largest grin on her face I’ve ever seen.
+After ten minutes trying to figure the dumb thing out, I left. But returning to the living room an hour later, there she was; C, surrounded by tiny gears and batteries and screw drivers. A video was screaming at her about how to repair clocks and she had the largest grin on her face I’ve ever seen.
 
 She had fixed the tiny motor inside.
 
