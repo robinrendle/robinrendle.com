@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Gimlet text";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/gimlet/GimletText-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gimlet text";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/gimlet/GimletText-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gimlet bold"; /* actually, gimlet text medium condensed */
+  font-style: bold;
+  src: url("/fonts/gimlet/GimletTextCondensed-Medium.woff2") format("woff2");
+}
