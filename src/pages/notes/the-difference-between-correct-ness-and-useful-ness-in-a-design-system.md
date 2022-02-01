@@ -31,7 +31,7 @@ I’d say no, even though it’s more correct.
 
 Because this is the true challenge of design systems work: the difference between correct-ness and useful-ness. We could document everything—every disabled button hover state and every possible combination of components—within Figma. We could name them precisely as we do in the front-end. That’s correct-ness. I see a ton of design systems within Figma that are desperately trying to be correct. But if we want our design system to be _useful_ to our team then we need to cut things out. We really don’t need everything in Figma, only what will speed us up as designers.
 
-Here’s another example: in the Sentry design system in Figma I’ve made an <Avatar> component. All it does is let you choose between user, organization, and team icons. Now does a component like that exist in the front-end? Nope. It’s a bit bonkers down there right now. But it saves me so much time when doing design so that I don’t have to import 3 separate icons to make 1 simple table.
+Here’s another example: in the Sentry design system in Figma I made an Avatar component. All it does is let you choose between user, organization, and team icons. Now does a component like that exist in the front-end? Nope. It’s a bit bonkers down there right now. But it saves me so much time when doing design so that I don’t have to import 3 separate icons to make 1 simple table.
 
 So: clear communication and efficiency. They’re the two qualities of a design system that we have to constantly keep in balance. And if we put too much focus on one end of that spectrum then we might neglect the other in the process.
 
