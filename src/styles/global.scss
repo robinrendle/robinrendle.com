@@ -1,4 +1,3 @@
-@import "../../public/fonts/clarendon/clarendon";
 @import "../../public/fonts/degular/degular";
 
 *,
@@ -11,18 +10,22 @@
   --color-background: #111;
   --color-border: #222;
   --color-title: #fff;
-  --color-text: #bbb;
+  --color-text: rgb(150, 150, 150);
   --color-subtext: #777;
   --color-faded: #333;
   --color-link-rgb: 213, 82, 87;
   --color-link: rgb(var(--color-link-rgb));
   --color-backgroundNav: #000;
+
   --spacing: 20px;
-  --base-font-size: clamp(100%, 1rem + 0.5vw, 21px);
+  --base-font-size: clamp(100%, 1.1rem + 0.5vw, 21px);
   --base-line-height: 1.4;
-  --max-wrapper-width: 680px;
+  --max-wrapper-width: 660px;
   --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
+  --font-display: Degular, var(--font-fallback);
+  --font-text: DegularText, var(--font-fallback);
+  --font-subheading: Degular, var(--font-fallback);
   --header-height: 50px;
 }
 
@@ -34,35 +37,34 @@
 html {
   background: var(--color-link);
   min-height: 100%;
-  padding-bottom: 10px;
 }
 
 body {
-  min-height: 99.5vh;
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  margin: 0 0 4px 0;
+  padding: 0 0 200px 0;
   color: var(--color-text);
-  font: 100% / var(--base-line-height) var(--font-fallback);
+  font: 100% / var(--base-line-height) var(--font-text);
   background: var(--color-background);
-  font-family: DegularText, var(--font-fallback);
+  overflow-x: hidden;
 }
 
 h1 {
   line-height: 1.05;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "Clarendon", var(--font-fallback);
+  font-family: var(--font-display);
   font-weight: 400;
-  font-size: 3em;
+  font-size: 2em;
   color: var(--color-title);
 
   @media screen and (min-width: 900px) {
-    font-size: 5em;
+    font-size: 2.6rem;
   }
 }
 
 h2 {
-  font-family: Degular, var(--font-fallback);
+  font-family: var(--font-text);
 }
 
 h3 {
@@ -186,10 +188,10 @@ iframe {
 }
 
 p code {
-  font-size: 1.2rem;
+  font-size: 1rem;
   background: var(--color-border);
   border-radius: 3px;
-  padding: 0 6px;
+  padding: 0 3px;
 }
 
 pre code {
@@ -207,6 +209,7 @@ Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/pr
 Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
 */
 
+code,
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
@@ -383,4 +386,30 @@ pre > code.highlight {
     rgba(224, 145, 66, 0.2) 70%,
     rgba(224, 145, 66, 0)
   );
+}
+
+.nav-logo {
+  background: white;
+  font-family: var(--font-subheading);
+  display: grid;
+  place-items: center;
+  height: var(--header-height);
+  line-height: 1;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0 10px !important;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 20px;
+
+  &:hover {
+    background: white !important;
+    color: var(--color-link-rgb);
+  }
+
+  @media screen and (min-width: 767px) {
+    padding: 0 20px;
+    width: 144px;
+  }
 }

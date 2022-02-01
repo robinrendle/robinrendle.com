@@ -1,0 +1,19 @@
+---
+export interface Props {
+  className?: any;
+}
+
+const { className } = Astro.props;
+---
+
+<style>
+  .wrapper {
+    padding: 0 10px;
+    max-width: var(--max-wrapper-width);
+    margin: 0 auto;
+  }
+</style>
+
+<div class=`wrapper ${className ? className : ''}`>
+  <slot/>
+</div>

@@ -1,10 +1,11 @@
 ---
+import { Markdown } from 'astro/components';
 import MainHead from '../components/MainHead.astro';
 import Nav from '../components/Nav.astro';
 import ArticleItem from '../components/ArticleItem.astro';
 import Essays from '../components/Essays.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-import { Markdown } from 'astro/components';
+import Subheading from '../components/Subheading.astro';
 let allPosts = Astro.fetchContent('./notes/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 2);
 
@@ -27,63 +28,30 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
         margin-bottom: 60px;
       }
       .special {
-        line-height: 1.1;
+        line-height: 1.2;
         margin-top: 0;
-        margin-bottom: 1em;
-        font-family: "Clarendon", var(--font-fallback);
+        margin-bottom: 4rem;
+        font-family: var(--font-display);
         font-weight: 300;
-        font-size: 3.5em;
+        font-size: 2em;
         hyphens: auto;
         color: var(--color-title);
 
         a {
-          text-decoration-thickness: 3px;
+          text-decoration-thickness: 0.5px;
           color: var(--color-title);
         }
 
         @media screen and (min-width: 600px) {
           font-weight: 400;
-          font-size: 4em;
+          font-size: 2.5rem;
+          margin-bottom: 4rem;
+          width: 90%;
         }
 
-        @media screen and (min-width: 900px) {
-          font-size: 5em;
-        }
-      }
-
-      .q {
-        font-family: "Clarendon", var(--font-fallback);
-        margin-bottom: 50px;
-        line-height: 1;
-        text-align: center;
-        font-size: 200vw !important;
-        font-weight: 250;
-        color: var(--color-title);
-
-        @media screen and (min-width: 900px) {
-          font-size: 80vw !important;
-        }
-      }
-
-      h2 {
-        border-bottom: 1px solid var(--color-faded);
-        text-transform: lowercase;
-        letter-spacing: 0.5px;
-        font-variant: small-caps;
-        font-size: 120%;
-        margin: 0;
-        color: var(--color-title);
-        padding-bottom: 5px;
-
-        @media screen and (min-width: 767px) {
-          padding-bottom: 10px;
-        }
-
-        & + p {
-          margin-top: 10px;
-          @media screen and (min-width: 767px) {
-            margin-top: var(--spacing);
-          }
+        @media screen and (min-width: 1280px) {
+          width: 75%;
+          font-size: 2.5rem;
         }
       }
 
@@ -98,6 +66,10 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
         margin-bottom: 40px !important;
         @media screen and (min-width: 767px) {
           margin-bottom: 0 !important;
+        }
+
+        p {
+          margin-top: 20px;
         }
       }
 
@@ -119,27 +91,23 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
     </style>
   </head>
   <body>
-    <Nav />
+    <Nav homepage/>
     <main class="wrapper">
       <p class="special">I’m a designer at <a href="https://sentry.io/">Sentry</a>, staff writer at <a href="https://css-tricks.com">CSS-Tricks</a>, and my latest project is <a href="https://css-tricks.com/newsletters">a newsletter about the web</a>.</p>
       <div class="align">
         <section class="tiny-section newsletter">
-          <h2>The newsletter</h2>
+          <Subheading>The newsletter</Subheading>
           <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
           <NewsletterForm/>
         </section>
         <section>
-          <h2>Latest Notes</h2>
+          <Subheading>Latest notes</Subheading>
           {allPosts.map(p => <ArticleItem post={p} />)}
         </section>
       </div>
       <section class="tiny-section essays">
-        <h2>Essays</h2>
+        <Subheading>Essays</Subheading>
         <Essays />
-      </section>
-      <section class="tiny-section">
-        <h2>About this website</h2>
-        <p>This website was built with <a href="https://astro.build/">Astro</a> and published via <a href="https://netlify.com/">Netlify</a>. You can view all the code <a href="https://github.com/robinrendle/robinrendle.com">over on GitHub</a>. Paragraphs are set in James Edmonson’s <a href="https://ohnotype.co/fonts/degular">Degular</a> and titles are set in David Jonathan Ross and Bethany Heck’s ever-so-lovely <a href="https://djr.com/job-clarendon">Job Clarendon</a>. Oh and you can reach out <a href="mailto:robinjrendle@gmail.com">via email</a> or <a href="https://twitter.com/robinrendle">@robinrendle</a>.</p>
       </section>
     </main>
   </body>
