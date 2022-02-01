@@ -23,7 +23,7 @@ You can’t put your entire design system in [Storybook](https://storybook.js.or
 
 The second option is always better in my opinion. Not because it’s the most correct, but because it’s the most useful.
 
-Let explain.
+Let me explain.
 
 Sometimes you need to make concessions or create Figma components that just don’t exist in the front-end at all and are instead useful tools for the team just to get shit done. For example: a state prop on a Button component with hover, focus, active, and disabled. Now, in the `<Button>` component all those things are not part of the state React prop, and so isn’t it more correct to document the component in Storybook precisely?
 
