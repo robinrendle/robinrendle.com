@@ -17,9 +17,9 @@ So we want to have our icons and colors in there, right? We don’t want to keep
 
 But at some point it gets tricky to decide what should be in the Figma library vs. what should be in something that lives in Storybook. Do we put all our guides about how to use these components in Figma? Or what about the does and dont’s? What about props and component names—do we follow precisely what’s in Storybook even if it’s bad or something we’re embarrassed by? 
 
-When documenting a design system the goal is clear communication and efficiency. We don’t want designers to open up Figma and then ask “what do our popovers look like?” and then have to go into the app to find out. They don’t want to go into Figma and find a component called Pagination and then be told by a developer there is no such thing, that it’s actually looks like something called NumberedFlorpf.
+When documenting a design system the goal is clear communication and efficiency. We don’t want designers to open up Figma and then ask “what do our popovers look like?” and then have to go into the app to find out. They don’t want to go into Figma and find a component called Pagination and then be told by a developer there is no such thing, that it’s the infamously named NumberedFlorpfSwitcher.
 
-You can’t put your entire design system in [Storybook](https://storybook.js.org/) because that’s not where most of the design work happens. So we have to make a decision: use Pagination and be correct for the future once we fix it or live with the horrid NumberedFlorpf?
+You can’t put your entire design system in [Storybook](https://storybook.js.org/) because that’s not where most of the design work happens. So we have to make a decision: use Pagination and be correct for the future once we fix it or live with the horrid NumberedFlorpfSwitcher?
 
 The second option is always better in my opinion. Not because it’s the most correct, but because it’s the most useful.
 
