@@ -70,9 +70,6 @@ const { page } = Astro.props;
   <body>
     <Nav title={'Notes'} />
     <ArticleList title='Quick Notes & Ramblings'>
-      <Card className="subscribe">
-        <p class="card-text">Follow along <a href="https://robinrendle.com/feed.xml">via RSS</a>, or check out the feed on <a href="https://twitter.com/robiswriting">this stressful website</a>.</p>
-      </Card>
       <section aria-label="Blog post list">
         {page.data.map(p => <ArticleItem post={p} />)}  
       </section>
