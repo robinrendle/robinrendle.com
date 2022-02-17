@@ -12,7 +12,7 @@ tags:
 
 “And I thought to myself, ya know, ‘ruthless honesty’ and all that. This guy sold me a terrible sandwich and I’m going to tell him just how terrible it was. But then he was upset when I told him! He made this shitty, awful sandwich—which I paid money for—and when he asked me how it was, what was I supposed to tell him? What did he think I was going to say! I said it was just awful. The worst sandwich I’ve ever had. He got upset! So I told him, if you don’t want the truth—don’t ask.”
 
-A long pause. No one laughed. Someone eventually coughed. I tried to imagine what the weaver of this intricate, melancholy tale expected from us. Did they expect us to laugh? Or for everyone on the video call to slam the poor shop owner and belittle that sandwich, too? Maybe this Sandwich Cicero imagined we were going to be impressed by their high standards? Or the sheer courage they had to look someone in the eye and tell them, and their bad sandwich, to fuck right off.
+A long pause. No one laughed. Someone eventually coughed. I tried to imagine what the weaver of this intricate, melancholy tale expected from this little group, all of us looking into our cameras and illumatined in a soft blue. Did they expect us all to laugh? Or for everyone on the video call to slam the poor shop owner and belittle that sandwich, too? Maybe this Sandwich Cicero imagined we were going to be impressed by their high standards? Or the sheer courage they had to look someone in the eye and tell them, and their bad sandwich, to fuck right off.
 
 No one, I must say, was impressed.
 
