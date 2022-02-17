@@ -24,6 +24,6 @@ But it’s the kind of cruelty that we let go. It’s really difficult to confro
 
 I think what the last two years has taught me, it’s that these small details are the things to watch out for in people. Because I believe deep down in my gut that intelligence isn’t enough. I really don’t care how well you know flexbox or how many beautiful typefaces you’ve made, because if you are an asshole then that’s the ballgame. 
 
-You don’t have license to be an enormous, raging bastard if you’re smart, or if you’re good enough at your job, or if you’re rich enough. 
+You don’t have license to be an enormous, raging bastard if you’re smart, or if you’re good enough at your job, or if you’re rich. Here in the Bay Area tech scene, I think that this the worst thing people took from a certain bespectacled, turtle-necked gentleman—they don’t quite get that he was good at his job _despite_ being an absolute bastard. But we can all aspire to be better than the turtle neck guy. 
 
-Because here’s the thing that’s impossible to teach (and extremely, extremely difficult to learn): _kindness_ is the only kind of intelligence that counts.
+Because here’s the thing that’s impossible to teach (and extremely difficult to learn): _kindness_ is the only kind of intelligence that counts.
