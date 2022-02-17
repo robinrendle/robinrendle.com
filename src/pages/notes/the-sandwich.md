@@ -16,7 +16,7 @@ A long pause. No one laughed. Someone eventually coughed. I tried to imagine wha
 
 No one, I must say, was impressed.
 
-For months I’ve thought about this conversation, and all the ways I might’ve been small and petty like them. It’s such an insignificant thing to point at, or to write about, but these little acts of meanness are no less painful because they’re common. But to then brag about the story afterwards? 
+For months I’ve thought about this conversation, and all the ways I might’ve been small and petty like them. It’s such an insignificant thing to point at, or write about, but these little acts of meanness are no less painful because they’re common. But to then brag about the story afterwards? 
 
 Sweet, I must say, _Christ_.
 
