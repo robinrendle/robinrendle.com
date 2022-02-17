@@ -10,9 +10,9 @@ tags:
 ---
 “So I sat there,” he said. 
 
-“I thought to myself, ya know, ‘ruthless honesty’ and all that. I’m going to tell this guy how awful this sandwich is. And then he was upset when I told him! He made this shitty, awful sandwich—which I paid for—and when he asked me how it was, what was I supposed to tell him? What did he think I was going to say! I said it was awful. The worst sandwich I’ve ever had. And he got upset! So I told him, if you don’t want the truth—don’t ask.”
+“And I thought to myself, ya know, ‘ruthless honesty’ and all that. I’m going to tell this guy how awful this sandwich is. And then he was upset when I told him! He made this shitty, awful sandwich—which I paid for—and when he asked me how it was, what was I supposed to tell him? What did he think I was going to say! I said it was awful. The worst sandwich I’ve ever had. And he got upset! So I told him, if you don’t want the truth—don’t ask.”
 
-A long pause. No one laughed. Someone eventually coughed. The silence after that tirade was so embarrassing that it was funny. I tried to imagine what the teller of this tale expected from us. Did he expect us to laugh? Did he expect everyone on the video call to jump onto the poor shop owner and belittle that sandwich, too? Were we expected to be impressed by this chap’s high standards? Were we supposed to be in awe that he had the courage to look someone in the eye and tell them and their bad sandwich to fuck right off?
+A long pause. No one laughed. Someone eventually coughed. The silence after that tirade was so embarrassing that it was funny. I tried to imagine what the teller of this tale expected from us. Did he expect us to laugh? Did he expect everyone on the video call to jump onto the poor shop owner and belittle that sandwich, too? Or perhaps impressed by this chap’s high standards? Were we supposed to be in awe that he had the courage to look someone in the eye and tell them and their bad sandwich to fuck right off?
 
 No one, I must say, was impressed.
 
