@@ -9,7 +9,7 @@ tags:
   - dictionary
   - writing
 ---
-Back in ye olde 2014, James Somers wrote about dictionaries and his particular fancy for Webster’s. However! James argues that dictionaries are not tools for showing you what words mean, but instead can be used as [prompts for better writing](https://www.newyorker.com/magazine/2013/04/29/draft-no-4):
+Back in ye olde 2014, James Somers wrote about dictionaries and his particular fancy for Webster’s. However! James argues that dictionaries are not tools for showing you what words mean, but instead can be used as [prompts for better writing](https://jsomers.net/blog/dictionary):
 
 > Notice, too, how much less certain the Webster definition seems about itself, even though it’s more complete — as if to remind you that the word came first, that the word isn’t defined by its definition here, in this humble dictionary, that definitions grasp, tentatively, at words, but that what words really are is this haze and halo of associations and evocations, a little networked cloud of uses and contexts.
 > 
