@@ -11,9 +11,7 @@ tags:
   - language
   - writing
 ---
-After reading [James’ rant about dictionaries](https://jsomers.net/blog/dictionary) yesterday it was pretty clear that _Webster’s_ is the best of the lot; poetic, romantic, playful. It’s more than a dictionary, really. But after looking for an old copy I just couldn’t find a half decent one anywhere.
-
-That is,  until [Lucy](https://lucybellwood.com/) found [Webster’s 1913](https://www.websters1913.com/) and sent it my way because, quite frankly, it is the perfect website; great typesetting, fast, ad-free, no nonsense. Why is it great though? Well, as Somers wrote:
+After reading [James’ rant about dictionaries](https://jsomers.net/blog/dictionary) yesterday it was pretty clear that _Webster’s_ is the best of the lot; poetic, romantic, playful. It’s more than a dictionary, really. But after looking for an old copy I just couldn’t find a half decent one anywhere. That is,  until [Lucy](https://lucybellwood.com/) found [Webster’s 1913](https://www.websters1913.com/) and sent it my way because, quite frankly, it is the perfect website; great typesetting, fast, ad-free, no nonsense. Why is it great though? Well, as Somers wrote:
 
 > You can see why it became cliché to start a speech with “Webster’s defines X as…”: with his dictionary the definition that followed was actually likely to lend gravitas to your remarks, to sound so good, in fact, that it’d beat anything you could come up with on your own.
 
