@@ -3,7 +3,8 @@ title: "Webster’s 1913 "
 date: 2022-02-21T21:35:33.928Z
 city: San Francisco
 country: California
-extract: "The "
+extract: “...a powerful engine; a powerful argument; a powerful light; a
+  powerful vessel”
 layout: ../../layouts/notes.astro
 tags:
   - dictionaries
