@@ -11,7 +11,7 @@ tags:
   - language
   - writing
 ---
-After reading [James’ rant about dictionaries](https://jsomers.net/blog/dictionary) yesterday it was pretty clear that _Webster’s_ is the best of the lot; poetic, romantic, playful. It’s more than a dictionary, really. But after looking for an old copy I just couldn’t find a half decent one anywhere. That is,  until [Lucy](https://lucybellwood.com/) found [Webster’s 1913](https://www.websters1913.com/) and sent it my way because, quite frankly, it is the perfect website; great typesetting, fast, ad-free, no nonsense. 
+After reading [James’ rant about dictionaries](https://jsomers.net/blog/dictionary) yesterday it was clear that _Webster’s_ is the best of the lot; poetic, romantic, playful. It’s more than a dictionary, really. But after looking for an old copy I just couldn’t find a half decent one anywhere. That is,  until [Lucy](https://lucybellwood.com/) found [Webster’s 1913](https://www.websters1913.com/) and sent it my way because, quite frankly, it is the perfect website; great typesetting, fast, ad-free, no nonsense. 
 
 Why is Webster’s the best dictionary though? Well, as Somers wrote:
 
