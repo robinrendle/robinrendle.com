@@ -21,7 +21,7 @@ Just take this definition, from Webster’s, of the word [“powerful”](https:
 
 > Full of power; capable of producing great effects of any kind; potent; mighty; efficacious; intense; as, a powerful man or beast; a powerful engine; a powerful argument; a powerful light; a powerful vessel.
 
-It feels like this dang dictionary is trying to date me, to woo me off my chair. Like, check out [“despair”](https://www.websters1913.com/words/Despair), too:
+Efficacious! It feels like this dang dictionary is trying to date me, to woo me off my chair. Like, check out [“despair”](https://www.websters1913.com/words/Despair), too:
 
 > Loss of hope; utter hopelessness; complete despondency.
 > 
