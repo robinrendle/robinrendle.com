@@ -1,8 +1,8 @@
 ---
 title: The Parthenon Sculptures
 date: 2022-03-02T05:52:48.814Z
-city: San Francisco
-country: California
+city: London
+country: UK
 extract: A handsome comic book in marble.
 layout: ../../layouts/notes.astro
 tags:
