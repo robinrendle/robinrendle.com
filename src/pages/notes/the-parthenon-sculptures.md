@@ -28,4 +28,4 @@ Setting all of this aside, the fact that these marbles are separated—some in L
 
 Despite this beautiful room I’m standing in right now it feels wrong that it exists. It is a gallery of a crime, one that we can easily undo and make right.
 
-![A photograph of the Parthenon Sculptures](images/dscf0335-1.jpg)
+![A photograph of the Parthenon Sculptures](/images/dscf0335-1.jpg)
