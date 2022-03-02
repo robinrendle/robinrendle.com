@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 extract: A handsome comic book in marble.
 layout: ../../layouts/notes.astro
+tags:
+  - art
 ---
 Today we saw [the Parthenon Sculptures](https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/parthenon-sculptures)—once known as the Elgin Marbles—in the British Museum in London. They are beautiful; 6000 year old marble panels which tell a comic book story of a Greek mythological war between Centaurs and Lapiths, with the gods watching from the stands.
 
