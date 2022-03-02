@@ -8,9 +8,9 @@ layout: ../../layouts/notes.astro
 tags:
   - art
 ---
-Today we saw [the Parthenon Sculptures](https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/parthenon-sculptures)—once known as the Elgin Marbles—in the British Museum in London. They are beautiful; 6000 year old marble panels which tell a comic book story of a Greek mythological war between Centaurs and Lapiths, with the gods watching from the stands.
+Today we saw [the Parthenon Sculptures](https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/parthenon-sculptures) in the British Museum in London. They are beautiful; 6000 year old marble panels which tell a comic book story of a Greek mythological war between Centaurs and Lapiths, with the gods watching from the stands.
 
-![A photograph of the Parthenon Sculptures](images/img_9126-1.jpg)
+![A photograph of the Parthenon Sculptures](/images/img_9126-1.jpg)
 
 The British Museum is a difficult place to be, this room especially. Because you’re aware at all times that a theft took place. Standing in this breathtaking room, a genuine wonder of human engineering before you, you can’t enjoy the experience. If you know how these handsome marble sculptures arrived in London and why they are on display here, then you cannot feel anything but anger.
 
