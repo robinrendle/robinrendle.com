@@ -10,7 +10,7 @@ tags:
 ---
 Today we saw [the Parthenon Sculptures](https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/parthenon-sculptures) in the British Museum in London. They are beautiful; 6000 year old marble panels which tell a comic book story of a Greek mythological war between Centaurs and Lapiths, with the gods watching from the stands.
 
-![A photograph of the Parthenon Sculptures](/images/img_9126-1.jpg)
+![A photograph of the Parthenon Sculptures](/images/parthenon-marbles.jpg)
 
 The British Museum is a difficult place to be, this room especially. You’re aware at all times that a theft took place and the spoils are on display. Standing in this breathtaking room, a genuine wonder of human engineering before you, yet you can’t really enjoy the experience. If you know how these handsome marble sculptures found their way to London and why they are on display here, then you cannot feel anything but anger.
 
@@ -31,5 +31,3 @@ Setting all of this aside, the fact that these marbles are separated—some in L
 Despite this beautiful room I’m standing in right now it feels wrong that this half is on display so far from home. It’s a crime that they’re separated, and the cruelty is made clear by how easy it would be to undo and make right. 
 
 If only we gave them back.
-
-![A photograph of the Parthenon Sculptures](/images/dscf0335-1.jpg)
