@@ -1,8 +1,8 @@
 ---
 title: Two Years of Mass-Driver
 date: 2022-03-03T08:09:11.003Z
-city: San Francisco
-country: California
+city: London
+country: UK
 extract: Rutherford Craze breaks down the last two years of his type foundry.
 layout: ../../layouts/notes.astro
 tags:
