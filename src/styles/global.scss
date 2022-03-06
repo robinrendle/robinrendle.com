@@ -13,13 +13,13 @@
   --color-text: rgb(180, 180, 180);
   --color-subtext: #777;
   --color-faded: #333;
-  --color-link-rgb: 213, 82, 87;
+  --color-link-rgb: 101, 106, 197;
   --color-link: rgb(var(--color-link-rgb));
   --color-backgroundNav: #000;
 
   --spacing: 20px;
-  --base-font-size: clamp(18px, 1.1rem + 0.5vw, 20px);
-  --heading-font-size: clamp(30px, 0.4rem + 1vw, 38px);
+  --base-font-size: clamp(17px, 1.1rem + 0.2vw, 20px);
+  --heading-font-size: clamp(26px, 1rem + 1vw, 32px);
   --max-wrapper-width: 630px;
   --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif;
@@ -28,7 +28,6 @@
   --font-subheading: Degular, var(--font-fallback);
   --header-height: 50px;
   --base-line-height: 1.3;
-
   --wrapper-padding: 15px;
 
   @media screen and (min-width: 500px) {
@@ -52,6 +51,7 @@ html {
 }
 
 body {
+  min-height: 99vh;
   height: 100%;
   margin: 0 0 4px 0;
   padding: 0 0 200px 0;
@@ -59,6 +59,10 @@ body {
   font: 100% / var(--base-line-height) var(--font-text);
   background: var(--color-background);
   overflow-x: hidden;
+}
+
+main {
+  margin: 0;
 }
 
 h1 {
@@ -104,6 +108,10 @@ li {
   margin-top: 0;
 }
 
+section p:first-of-type {
+  margin-top: 0;
+}
+
 p,
 li {
   font-size: var(--base-font-size);
@@ -112,10 +120,6 @@ li {
 p {
   margin-bottom: 0;
   padding-top: 0;
-
-  &:first-of-type {
-    margin-top: 0;
-  }
 }
 
 a {
@@ -195,7 +199,7 @@ hr {
   &:before {
     font-size: 28px;
     margin: 0 auto;
-    content: "***";
+    content: "* * *";
     color: var(--color-faded);
   }
 }
@@ -434,4 +438,26 @@ pre > code.highlight {
     padding: 0 20px;
     width: 144px;
   }
+}
+
+.card p {
+  margin-top: 0;
+}
+
+.article img {
+  margin-left: -3rem;
+  max-width: calc(100% + 6rem);
+  border-radius: 3px;
+}
+
+.body-gallery {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.gallery {
+  height: 100vh;
+  overflow: hidden;
 }

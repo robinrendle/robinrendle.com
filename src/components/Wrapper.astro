@@ -6,11 +6,15 @@ export interface Props {
 const { className } = Astro.props;
 ---
 
-<style>
+<style lang="scss">
   .wrapper {
     padding: 0 var(--wrapper-padding);
     max-width: var(--max-wrapper-width);
     margin: 0 auto;
+
+    @media screen and (min-width: 900px) {
+      padding-top: 40px;
+    }
   }
 </style>
 

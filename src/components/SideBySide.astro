@@ -1,0 +1,21 @@
+<style lang="scss">
+.align {
+  margin: 0;
+
+  @media screen and (min-width: 767px) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+
+    p {
+      justify-self: start;
+    }
+  }
+}
+
+</style>
+
+<div class="align">
+  <slot/>
+</div>

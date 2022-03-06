@@ -1,9 +1,10 @@
 ---
 import MainHead from '../../components/MainHead.astro';
+import Title from '../../components/Title.astro';
 import Nav from '../../components/Nav.astro';
 import ArticleList from '../../components/ArticleList.astro';
 import ArticleItem from '../../components/ArticleItem.astro';
-import Card from '../../components/Card.astro';
+import PhotoGalleryItem from '../../components/PhotoGalleryItem.astro';
 
 interface MarkdownFrontmatter {
   date: number;
@@ -38,41 +39,19 @@ const { page } = Astro.props;
 <html lang="en">
   <head>
     <MainHead
-      title={'Notes'}
+      title={'Photos'}
       description={'Designer and writer'}
     />
 
     <style lang="scss">
-      .card-text {
-        margin: 0;
-        display: inline;
-      }
 
-      form, input {
-        display: inline;
-      }
-
-      label {
-        display: none;
-      }
-
-      .subscribe {
-        z-index: 1;
-
-        p {
-          font-size: 110%;
-          margin-top: 0 !important;
-        }
-      }
     </style>
   </head>
 
   <body>
-    <Nav title={'Notes'} />
-    <ArticleList title='Quick Notes & Ramblings'>
-      <section>
-        {page.data.map(p => <ArticleItem post={p} />)}  
-      </section>
+    <Nav title={'Photos'} />
+    <ArticleList title='Photos'>
+      {page.data.map(p => <ArticleItem post={p} />)}        
     </ArticleList>
   </body>
 </html>

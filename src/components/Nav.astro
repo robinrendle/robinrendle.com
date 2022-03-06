@@ -12,7 +12,7 @@ const { title, homepage } = Astro.props;
   width: 100%;
   display: flex;
   align-items: flex-start;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   height: var(--header-height);
   overflow: hidden;
   text-transform: lowercase;
@@ -73,8 +73,9 @@ const { title, homepage } = Astro.props;
     {homepage ? `<h1 class="nav-logo">Robin Rendle</h1>` : `<a class="nav-logo" href="/">Robin Rendle</a>`}
   </div>
   <nav class="nav">
-    <!-- <a href="/about">About</a> -->
+    <a href="/about">About</a>
     <a href="/notes">Notes</a>
+    <!-- <a href="/photos">Photos</a> -->
     <a href="/essays">Essays</a>
     <a href="/adventures">Adventures</a>
   </nav>

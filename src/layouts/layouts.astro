@@ -33,12 +33,10 @@ const {title, extract, date, city, country} = content;
   <body>
     <Nav />
     <main>
-      <Wrapper>
-        <TitleArticle title={title} city={city} country={country} date={date} />
-        <article class="article">
-          <slot />
-        </article>
-      </Wrapper>
+      <TitleArticle title={title} city={city} country={country} date={date} />
+      <article class="article">
+        <slot />
+      </article>
     </main>
   </body>
 </html>
