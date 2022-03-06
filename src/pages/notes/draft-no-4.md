@@ -1,8 +1,8 @@
 ---
 title: Draft no.4
 date: 2022-03-06T08:19:29.746Z
-city: San Francisco
-country: California
+city: Paris
+country: France
 extract: Complain to your mother.
 layout: ../../layouts/notes.astro
 ---
