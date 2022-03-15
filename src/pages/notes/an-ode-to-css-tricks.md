@@ -50,6 +50,6 @@ But! I’m also excited about what this opens up for me. The newsletter was basi
 
 …but also because I get to stand on my own two feet now. I won’t have the prestige of CSS-Tricks in the ol’ bio and I won’t have any laurels to rest on. I think that’s good! It’ll make me terrified which will subsequently force me to try something new and different and punk rock and maybe also bad. But dangit, bad is the bit before it gets good.
 
-Anyway, thanks for everything Chris. Thanks to all the writers and contributors, thanks to [Geoff](https://geoffgraham.me/) for editing everything, thanks to [Sarah](https://sarahdrasnerdesign.com/) and [Miriam](https://www.miriamsuzanne.com/) and everyone who’s ever written anything for the site, and anyone I’ve ever linked to. 
+Anyway, thanks for everything Chris. Thanks to all the writers and contributors, thanks to [Geoff](https://geoffgraham.me/) for editing everything, thanks to [Sarah](https://sarahdrasnerdesign.com/) and [Miriam](https://www.miriamsuzanne.com/) and everyone who’s ever written anything for the site, as well as anyone I’ve ever linked to. 
 
 Your work has made me a better writer, sure, but also (I hope) a better person, too. 
