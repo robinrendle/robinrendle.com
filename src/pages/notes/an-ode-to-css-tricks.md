@@ -18,8 +18,6 @@ Big news! [Hot off the press, Chris writes](https://css-tricks.com/css-tricks-is
 > 
 > [...] The site and content is staying right here. DigitalOcean is committed to continuing to produce high-quality content on front-end development and tending to the trove of content that exists here already.
 
-This post is a perfect example of Chris’s writing style and all writers should be taking notes; there’s no faffing about, no long ramble about the past, just super to the point without sounding brutish or cutthroat. 
-
 So Chris is stepping back from CSS-Tricks and although I’ve already said goodbye in this week’s newsletter, I think it’s the right time to celebrate CSS-Tricks and everything that Chris has done for the web community over the years. Because I can’t think of another resource that I’ve grown up with and that’s continued to be such an important part of my life. 
 
 Whenever I’ve been stuck on a front-end problem or whenever I hit a snag with something, there is an almost 100% chance that Chris would’ve already written about the problem and the 18 different solutions to it. Or the answer would’ve been found in one of CSS-Tricks’ enormous and highly detailed guides. But solving my front-end problems has only been way way in which CSS-Tricks was important to me.
