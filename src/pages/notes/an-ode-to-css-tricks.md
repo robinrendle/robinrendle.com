@@ -34,22 +34,8 @@ CSS-Tricks had an enormous impact on what kind of work I do, it gave shape to my
 
 So I’m excited to see what DigitalOcean does with CSS-Tricks as Chris will still be working as an advisor. The ship is in safe hands.
 
-But! I’m also excited about what this opens up for me. The newsletter was basically my whole Sunday for years and years and so now I hope to keep that ritual up but focus it on other efforts. First off, by writing my own fledgling newsletter which you can sign up for below...
+But! I’m also excited about what this opens up for me. The newsletter was basically my whole Sunday for years and years and so now I hope to keep that ritual up but focus it on other efforts. First off, by writing my own fledgling newsletter but also because I get to stand on my own two feet now. I won’t have the prestige of CSS-Tricks in the ol’ bio and I won’t have any laurels to rest on. I think that’s good! It’ll make me terrified which will subsequently force me to try something new and different and punk rock and maybe also bad. But dangit, bad is the bit before it gets good.
 
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Email address</label>
-  <input type="email" name="email" id="bd-email" />
-  <input type="submit" value="Subscribe" />
-</form>
-
-…but also because I get to stand on my own two feet now. I won’t have the prestige of CSS-Tricks in the ol’ bio and I won’t have any laurels to rest on. I think that’s good! It’ll make me terrified which will subsequently force me to try something new and different and punk rock and maybe also bad. But dangit, bad is the bit before it gets good.
-
-Anyway, thanks for everything Chris. Thanks to all the writers and contributors, thanks to [Geoff](https://geoffgraham.me/) for editing everything, thanks to [Sarah](https://sarahdrasnerdesign.com/) and [Miriam](https://www.miriamsuzanne.com/) and everyone who’s ever written anything for the site, as well as anyone I’ve ever linked to. 
+Anyway, thanks so very much for everything Chris. Thanks to all the writers and contributors, thanks to [Geoff](https://geoffgraham.me/) for editing everything, thanks to [Sarah](https://sarahdrasnerdesign.com/) and [Miriam](https://www.miriamsuzanne.com/) and thanks to everyone who’s contributed to the site. Oh! And thanks to everyone I’ve ever linked to. 
 
 Your work has made me a better writer, sure, but also (I hope) a better person, too. 
