@@ -28,12 +28,10 @@ Chris has always been a mentor. Not just to me, but I think pretty much everyone
 
 I’ve been real lucky to contribute to CSS-Tricks over the years. Chris was the first person to give me a shot and back in 2014 when he began looking for writers on Twitter, I sent a gushing email which went something like: OMG OMG OMG OMG. I’m sure that email is now horrendously embarrassing and so I refuse to go find it but it got me my first writing gig. And over the years I learned so much about writing and publishing by working on the site; how to research something, how to get to the point right away, and how to not be lazy. Show examples! Cut out the dry stuff! Add a weird joke! Later though, when we started publishing the newsletter, it was the first beat I ever had. Writing those posts each week was difficult sometimes but it always a little exciting. 
 
-CSS-Tricks had an enormous impact on what kind of work I do, it gave shape to my twenties and my early thirties (yikes!) and I am endlessly thankful for the opportunity.
-
-So I’m excited to see what DigitalOcean does with CSS-Tricks as Chris will still be working as an advisor. The ship is in safe hands.
+CSS-Tricks had an enormous impact on what kind of work I do, it gave shape to my twenties and my early thirties (yikes!) and I am endlessly thankful for the opportunity. So I’m excited to see what DigitalOcean does with CSS-Tricks, as Chris will still be working as an advisor. The ship is in safe hands.
 
 But! I’m also excited about what this opens up for me. The newsletter was basically my whole Sunday for years and years and so now I hope to keep that ritual up but focus it on other efforts. First off, by writing my own fledgling newsletter but also because I get to stand on my own two feet now. I won’t have the prestige of CSS-Tricks in the ol’ bio and I won’t have any laurels to rest on. I think that’s good! It’ll make me terrified which will subsequently force me to try something new and different and punk rock and maybe also bad. But dangit, bad is the bit before it gets good.
 
-Anyway, thanks so very much for everything Chris. Thanks to all the writers and contributors, thanks to [Geoff](https://geoffgraham.me/) for editing everything, thanks to [Sarah](https://sarahdrasnerdesign.com/) and [Miriam](https://www.miriamsuzanne.com/) and thanks to everyone who’s contributed to the site. Oh! And thanks to everyone I’ve ever linked to. 
+Anyway, thanks so very much for everything Chris. Thanks to all the writers and contributors, thanks to [Geoff](https://geoffgraham.me/) for editing everything, thanks to [Sarah](https://sarahdrasnerdesign.com/), and [Miriam](https://www.miriamsuzanne.com/) and thanks to everyone who’s contributed to the site. Oh! And thanks to everyone I’ve ever linked to. 
 
 Your work has made me a better writer, sure, but also (I hope) a better person, too. 
