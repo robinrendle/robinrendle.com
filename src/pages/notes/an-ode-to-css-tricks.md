@@ -10,7 +10,7 @@ tags:
   - front-end
   - css-tricks
 ---
-Big news! [Hot off the press, Chris writes](https://css-tricks.com/css-tricks-is-joining-digitalocean/)
+Big news! [Hot off the press](https://css-tricks.com/css-tricks-is-joining-digitalocean/), Chris writes:
 
 > CSS-Tricks, this very website you’re looking at, has been acquired by DigitalOcean! 
 >
