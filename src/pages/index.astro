@@ -66,7 +66,7 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
   <body>
     <Nav homepage/>
     <WrapperBig>
-      <p class="special">I’m a designer at <a href="https://sentry.io/">Sentry</a>, staff writer at <a href="https://css-tricks.com">CSS-Tricks</a>, and my latest project is <a href="https://css-tricks.com/newsletters">a newsletter about the web</a>.</p>
+      <p class="special">Allo! I’m Robin, a web designer, blogger, cursed front-end developer, and satanic .woff enthusiast.</p>
       <SideBySide>
         <section class="tiny-section newsletter">
           <Subheading>The newsletter</Subheading>
@@ -78,8 +78,6 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
           {allPosts.map(p => <ArticleItem post={p} />)}
         </section>
       </SideBySide>
-
-
       <section class="tiny-section essays">
         <Subheading>Essays</Subheading>
         <Essays />
