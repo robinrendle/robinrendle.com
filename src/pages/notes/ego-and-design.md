@@ -9,7 +9,7 @@ tags:
   - work
   - design
 ---
-I see this all the time in design circles: a lot of folks tend to think their work must be vital in order for it to be worthwhile. Their ego demands that they wake up every day and change the world before lunch.
+I see this all the time in design circles: a lot of folks tend to think their work must be vital in order for it to be good. Their ego demands that they wake up every day and change the world before lunch. (Hello, it is me).
 
 I feel like this is why designers and engineers constantly feel burnt out. They’re putting themselves under all this pressure because they must prove their worth with how fast and hard they type. But hey: the things you type on your keyboard do not make you more valuable as a human person. Everyday we’re bombarded with folks bragging about how they’re changing the world, so in order to prove it to ourselves and everyone around us that we’re a hero, we work ourselves down to the bone. We type like hell and hope that the typing will make us heroes.
 
