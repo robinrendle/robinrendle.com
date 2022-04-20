@@ -11,6 +11,7 @@ Here’s a fun thing: the other day [Matthias linked](https://twitter.com/m_ott/
 
 What happened here?
 
+Well, some things were lost in the shuffle from one build process to another but these regressions also happened because I was using a lot of third party scripts and, dearest of readers, [you should avoid them altogether](https://css-tricks.com/aint-no-party-like-a-third-party/). It wasn’t until a few years ago that I started to bundle all of my essays up into pure HTML. Inject the CSS into them, save it as a .html file, and make sure that even if I change build processes nothing can ever really break (like there’s no dependencies on some weird markdown plugin only available through the Liquid templating language or some such thing I’ll forget in 5 years).
 
 The way that this essay has slowly regressed over the years isn’t something I lament though. Sure, it’s a bit embarrassing maybe, but it’s also a sign of something important: all websites want to be HTML. Regardless of all the complexity, the kick-flip JavaScript you write, or the fancy fonts you throw in there, eventually all that stuff will fade away.
 
