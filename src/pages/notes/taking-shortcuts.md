@@ -1,30 +1,54 @@
 ---
 layout: ../../layouts/notes.astro
-title: Taking shortcuts
-date: 2019-08-21 10:34:26
+title: Taking Shortcuts
+date: 2022-04-23
 city: San Francisco
 country: California
-tags:
-  - design
-extract: The web is bigger than Google.
+extract: And holding your blog real close.
 ---
 
-Owen Willaims on [how Google is tightening its grip on the web](https://onezero.medium.com/google-is-tightening-its-iron-grip-on-your-website-27e06b3150e0) with AMP:
+As I was reading this post from Jim [about his setup](https://blog.jim-nielsen.com/2019/netlify-public-folder-part-i-what/) I got wildly, incomprehensibly jealous; he writes about having a folder on his desktop that he can just throw stuff into and it publishes to a website. This, to me, is the absolute dream. The ultimate writing setup.
 
-> To be clear, the concept behind AMP isn’t a problem. In fact, it’s fundamentally a good idea. Why shouldn’t mobile users have access to faster-loading, stripped-down web pages? The problem is that speed comes with a major catch.
->
-> AMP strips publishers of full autonomy and control over their content. Hosted AMP pages obfuscate the source of what you’re reading, removes some control over your own brand, and essentially allows Google to use your content for free under the guise of making the web better. It hides your URL in favor of a Google.com-hosted version.
+Last week I was then determined to fix mine. I don’t want to have to go to a URL and click-clack my way through a clunky CMS, and I don’t want to have to constantly copy/paste things in VSCode. What I want instead is to just click a single button or drop a Markdown file in a folder. I want the distance between me and my website to be as small as possible.
 
-Here’s the thing: I don’t think AMP is evil. But I think that folks wanting to take shortcuts to appease a single platform like Google kinda sort of is evil. Although Google might have 92% market share of the search market they are not the web. As unlikely as it seems today there will be a future web where Google no longer holds any power, its dominant position overthrown by another platform.
+So as I was playing with a million different ideas I started noodling with Shortcuts.app on macOS and I kept going and going, spending the next few nights playing with it and trying to optimize things.
 
-We must remember that by building a website for one company and one platform for the sake of analytics and eyeballs will provide only short term gains. There are more important things in this world than impressions and clicks, and there is something important we must sacrifice to the Big G in order to get them.
+![](/images/blog-shortcuts-image.webp)
 
-To make a website fast and performant, to make a website accessible and easy to read, to make a website [kind](/notes/baseline)— it all takes effort and skill. It is only possible to build a great website by building it the long, hard stupid way. There are no shortcuts. There is no `npm install good-website` and every effort to cut corners will always come back to bite us in the ass.
+After a bit of faffing about, here’s what my new blogging setup looks like then:
 
-Owen continues:
+1. Write the blog post in iA Writer
+2. Despair
+3. Copy all the text from that markdown file
+4. Hit the Shortcut icon called "Blog" that now sits in my Dock
+5. This prompts me to add an extract for the post
+6. The shortcut then gets to work, saving that extract text in a variable
+7. And then it automatically adds this post metadata to a new file:
 
-> ...I’m worried that these concerns are too late and that the damage AMP has done to the web is already too extensive. As an independent publisher running my own blog outside of this column on OneZero, I can’t avoid AMP, because I’ll be drowned in Google’s opaque search algorithms and ignored entirely by products like Google News.
+```
+---
+layout: ../../layouts/notes.astro
+title:
+date:
+city: San Francisco
+country: California
+extract:
+---
+```
 
-Here’s my hot take on this: fuck the algorithm, fuck the impressions, and fuck the king. I would rather trade those benefits and burn my website to the ground than be under the boot and heel of some giant, uncaring corporation.
+8. It gets today's date and fills that in along with the extract from the variable saved earlier
+9. It magically grabs the title (like `# Taking Shortcuts`) from the copied text and then renames the file to `taking-shortcuts.md`
+10. Then it moves that file to `/workspace/robinrendle.com/src/pages/notes/` which is where the git repo for my website lives locally.
+11. After that, the shortcut opens the file in VS Code for any last minute changes and also GitHub.app, so I can quickly hit publish
 
-Because despite what they’d like you to believe, the web is bigger than Google, more important than Google. And we can do better.
+I’m sure I’ve made this a bit too complicated or fragile, and ideally I could somehow publish all this from the macOS Shortcut. But it’s somewhat better than what I had before. It would also be neat to boot up my site and see a quick preview of the same post, maybe popping open Chrome and heading to `localhost:1234/notes/name-of-post`! That would be really cool.
+
+Anyway, I still think the ideal blogging setup is [Blot](https://blot.im/). You have a folder on your desktop, throw a markdown file into it, and blammo—your website updates immediately. Because of that setup, your website is always with you, always close by. And I feel that the only way to ensure that you write for your website is if it’s easy to update, easy to publish, easy to fix.
+
+During all this I also added the `/images` folder for my website and moved it to my Dock. That way I can just drag and drop images in quickly. But ideally my macOS Shortcut would look for image paths in the markdown text, move that image to my repo, resize, compress, and then convert it to .webp.
+
+For now I’ve just set up a custom [Permute](https://software.charliemonroe.net/permute/) action to do that so it’s a separate annoying step but I wonder if I can connect all these dots together somehow. Also I can’t believe Permute doesn’t come with all computers out of the box. It’s essential.
+
+![](/images/permute-example.webp)
+
+ANYWAY. I’m gonna keep tweaking my Blog shortcut and see if this really is better than anything else I can come up with.
