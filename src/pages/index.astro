@@ -10,7 +10,8 @@ import SideBySide from '../components/SideBySide.astro';
 let allPosts = Astro.fetchContent('./notes/*.md');
 allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 2);
 ---
-<html lang="en">
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
   <head>
     <MainHead description={'Designer and writer'} />
     <style lang="scss">

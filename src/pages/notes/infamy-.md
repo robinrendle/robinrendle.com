@@ -7,9 +7,7 @@ country: California
 extract: Or, why not to be famous.
 ---
 
-There’s a famous blogger who lives near me.
-
-We don’t know each other, I’m as far off their radar as could possibly be. But it reminds of what San Francisco felt like when I first moved here six years ago; less a city full of anonymous strangers and more like the timeline come to life. You’d see your heroes in the corridor, in the street, at the airport, at a party, and you’d have been reading their work, watching their videos, retweeting them for decades.
+There’s a famous blogger who lives near me. We don’t know each other, I’m as far off their radar as could possibly be. But it reminds of what San Francisco felt like when I first moved here six years ago; less a city full of anonymous strangers and more like the timeline come to life. You’d see your heroes in the corridor, in the street, at the airport, at a party, and you’d have been reading their work, watching their videos, retweeting them for decades.
 
 Oh, that house over there in Berkeley? That’s a famous journalist who writes wondrous things about climate change. Oh, that park near those colorful houses over there? That’s where the best writer in the video game business walks their dog. Oh, that curiously-shaped building next to the freeway? Your favorite novelist lives there.
 

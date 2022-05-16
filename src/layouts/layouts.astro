@@ -7,8 +7,8 @@ import TitleArticle from '../components/TitleArticle.astro';
 const {content} = Astro.props;
 const {title, extract, date, city, country} = content;
 ---
-
-<html lang="en">
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
   <head>
     <MainHead title={title} description={extract} />
     <style lang="scss">

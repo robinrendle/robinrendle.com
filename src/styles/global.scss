@@ -7,15 +7,35 @@
 }
 
 :root {
-  --color-background: #111;
-  --color-border: #222;
-  --color-title: #fff;
-  --color-text: rgb(180, 180, 180);
-  --color-subtext: #777;
-  --color-faded: #333;
-  --color-link-rgb: 101, 106, 197;
-  --color-link: rgb(var(--color-link-rgb));
-  --color-backgroundNav: #000;
+  &[data-theme='light']{
+    --color-background: #fafafa;
+    --color-border: #aaa;
+    --color-title: #111;
+    --color-text: #222;
+    --color-subtext: #555;
+    --color-faded: #ddd;
+    --color-link-rgb: 101, 106, 197;
+    --color-link: rgb(var(--color-link-rgb));
+    --color-backgroundNav: #000;
+    --color-nav: var(--color-link);
+    --color-nav-logo-bg: black;
+    --color-nav-logo-text: white;
+  }
+
+  &[data-theme='dark']{
+    --color-background: #111;
+    --color-border: #222;
+    --color-title: #fff;
+    --color-text: rgb(180, 180, 180);
+    --color-subtext: #777;
+    --color-faded: #333;
+    --color-link-rgb: 101, 106, 197;
+    --color-link: rgb(var(--color-link-rgb));
+    --color-backgroundNav: #000;
+    --nav-color: var(--color-link);
+    --nav-logo-bg: #fff;
+    --nav-logo-color: inherit;
+  }
 
   --spacing: 20px;
   --base-font-size: clamp(17px, 1.1rem + 0.2vw, 20px);
@@ -194,7 +214,7 @@ hr {
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
-  margin-top: 15px;
+  margin-top: 30px;
 
   &:before {
     font-size: 28px;
@@ -415,13 +435,13 @@ pre > code.highlight {
 }
 
 .nav-logo {
-  background: white;
+  background: var(--color-nav-logo-bg);
   font-family: var(--font-subheading);
   display: grid;
   place-items: center;
   height: var(--header-height);
   line-height: 1;
-  color: inherit;
+  color: var(--color-nav-logo-text);
   text-decoration: none;
   font-size: 1rem;
   padding: 0 10px !important;
@@ -430,7 +450,6 @@ pre > code.highlight {
   padding: 20px;
 
   &:hover {
-    background: white !important;
     color: var(--color-link-rgb);
   }
 
