@@ -20,6 +20,7 @@
     --color-nav: var(--color-link);
     --color-nav-logo-bg: black;
     --color-nav-logo-text: white;
+    --color-nav-items: white;
   }
 
   &[data-theme='dark']{
@@ -35,6 +36,7 @@
     --nav-color: var(--color-link);
     --nav-logo-bg: #fff;
     --nav-logo-color: inherit;
+    --color-nav-items: white;
   }
 
   --spacing: 20px;
@@ -448,10 +450,6 @@ pre > code.highlight {
   letter-spacing: 0.5px;
   text-decoration: none;
   padding: 20px;
-
-  &:hover {
-    color: var(--color-link-rgb);
-  }
 
   @media screen and (min-width: 767px) {
     padding: 0 20px;

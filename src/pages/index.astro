@@ -8,7 +8,7 @@ import Subheading from '../components/Subheading.astro';
 import WrapperBig from '../components/WrapperBig.astro';
 import SideBySide from '../components/SideBySide.astro';
 let allPosts = Astro.fetchContent('./notes/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 2);
+allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 4);
 ---
 <!DOCTYPE html>
 <html data-theme="light" lang="en">
@@ -28,9 +28,14 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
         }
       }
       .newsletter {
-        margin-bottom: 40px !important;
-        @media screen and (min-width: 767px) {
-          margin-bottom: 0 !important;
+
+        &:not(:first-child) {
+          margin-top: 40px !important;
+        }
+        @media screen and (max-width: 767px) {
+          &:first-child {
+            margin-top: 40px !important;
+          }
         }
 
         p {
@@ -58,8 +63,8 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
           width: 90%;
         }
         @media screen and (min-width: 1280px) {
-          width: 75%;
-          font-size: 2.5rem;
+          width: 100%;
+          font-size: 3.5rem;
         }
       }
     </style>
@@ -67,20 +72,26 @@ allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,
   <body>
     <Nav homepage/>
     <WrapperBig>
-      <p class="special">Allo! I’m Robin, a web designer, blogger, cursed front-end developer, and satanic .woff enthusiast.</p>
+      <p class="special">Allo! I’m Robin, a web designer, writer, cursed front-end developer, and satanic .woff enthusiast.</p>
       <SideBySide>
-        <section class="tiny-section newsletter">
-          <Subheading>The newsletter</Subheading>
-          <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
-          <NewsletterForm/>
-        </section>
         <section>
-          <Subheading>Latest notes</Subheading>
+          <Subheading>Notes from the field</Subheading>
           {allPosts.map(p => <ArticleItem post={p} />)}
+        </section>
+        <section class="tiny-section">
+          <div class="newsletter">
+            <Subheading>What I’m working on</Subheading>
+            <p>A big project at <a href="https://sentry.io/">Sentry</a> and a weird essay.</p>
+          </div>
+          <div class="newsletter">
+            <Subheading>The newsletter</Subheading>
+            <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
+            <NewsletterForm/>
+          </div>
         </section>
       </SideBySide>
       <section class="tiny-section essays">
-        <Subheading>Essays</Subheading>
+        <Subheading>This here is the secret punk rock stuff</Subheading>
         <Essays />
       </section>
     </WrapperBig>
