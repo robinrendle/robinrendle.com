@@ -13,7 +13,7 @@ First up, the team photographed Rosart’s dazzling punches from the North Holla
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src='/images/rosart-punches.png' alt='A photograph by Walda Verbaenen of Rosart’s punches'>
+    <img src='/images/rosart-punches.png' alt='A photograph by Walda Verbaenen of Rosart’s punches' />
   </figure>
 </div>
 
@@ -23,7 +23,7 @@ First up, the team photographed Rosart’s dazzling punches from the North Holla
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src='/images/decorative.jpg' alt='An example of the flourished capitals from The Rosart Project'>
+    <img src='/images/decorative.jpg' alt='An example of the flourished capitals from The Rosart Project' />
   </figure>
 </div>
 

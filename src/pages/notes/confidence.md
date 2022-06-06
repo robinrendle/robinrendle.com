@@ -23,7 +23,7 @@ Merlin doesn’t chime in with a joke as usual but instead leans into the microp
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src='/images/bike-portland.jpg'>
+    <img src='/images/bike-portland.jpg'/>
   </figure>
 </div>
 

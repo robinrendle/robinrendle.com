@@ -17,7 +17,9 @@ It feels very _webbish_ to me. Like the way it hijacks your scroll isn’t offen
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <video controls src="/images/carousel.mp4"></video>
+    <video controls>
+      <source src="/images/carousel.mp4" />
+    </video>
   </figure>
 </div>
 

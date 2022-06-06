@@ -17,7 +17,9 @@ Volmer designed the website as well as the font family itself, and this rather j
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <video autoplay loop muted playsinline src="/images/seraph.mp4"></video>
+    <video autoplay loop muted playsinline>
+      <source src="/images/seraph.mp4" />
+    </video>
   </figure>
 </div>
 

@@ -21,8 +21,7 @@ The idea goes something like this: Thanks to the printing methods that descended
 “So!” Anna excitedly gasped. “Not only do we owe Gutenberg thanks for this delightful ability to read a book, but also for the ability to read the stars.”
 
 <figure>
-<img src='/uploads/line-machine.jpg'>
-  <figcaption><p>The machine above printed the horizontal and vertical lines that can be found in old ledgers.</p></figcaption>
+  <img src='/uploads/line-machine.jpg' />
 </figure>
 
 As delightful as that story might’ve been, the smiles begin to fade when I realise that printing has always been a miserable, painful business. For me, a book will always be reminiscent to me of time travel and hiding under the covers on a long winter’s night, but for the majority of the people that manufactured these books it was always a living nightmare of grinding metal and hazardous, dreary hours.
@@ -98,5 +97,5 @@ The Fedra superfamily is designed by [Typotheque](https://www.typotheque.com/fon
 
 ![Screenshot 2016-12-11 13.25.21.png](/uploads/Screenshot%202016-12-11%2013.25.21.png)
 
-<p>Thanks for reading!<br>
+<p>Thanks for reading!<br/>
 ✌️ Robin </p>

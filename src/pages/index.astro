@@ -7,92 +7,109 @@ import NewsletterForm from '../components/NewsletterForm.astro';
 import Subheading from '../components/Subheading.astro';
 import WrapperBig from '../components/WrapperBig.astro';
 import SideBySide from '../components/SideBySide.astro';
-let allPosts = Astro.fetchContent('./notes/*.md');
-allPosts = allPosts.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 4);
+let allPosts = await Astro.glob('./notes/*.md');
+allPosts = allPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()).slice(0, 4);
 ---
+
 <!DOCTYPE html>
 <html data-theme="light" lang="en">
-  <head>
-    <MainHead description={'Designer and writer'} />
-    <style lang="scss">
-      section {
-        margin: 0;
+
+<head>
+  <MainHead description={'Designer and writer'} />
+  <style lang="scss">
+    section {
+      margin: 0;
+    }
+
+    .tiny-section {
+      margin-bottom: 60px;
+    }
+
+    .essays {
+      margin-top: 40px;
+
+      @media screen and (min-width: 767px) {
+        margin-top: 60px;
       }
-      .tiny-section {
-        margin-bottom: 60px;
+    }
+
+    .newsletter {
+      &:not(:first-child) {
+        margin-top: 40px !important;
       }
-      .essays {
-        margin-top: 40px;
-        @media screen and (min-width: 767px) {
-          margin-top: 60px;
-        }
-      }
-      .newsletter {
-        &:not(:first-child) {
+
+      @media screen and (max-width: 767px) {
+        &:first-child {
           margin-top: 40px !important;
         }
-        @media screen and (max-width: 767px) {
-          &:first-child {
-            margin-top: 40px !important;
-          }
-        }
-
-        p {
-          margin-top: 20px;
-        }
       }
-      .special {
-        line-height: 1.2;
-        margin-top: 40px;
-        margin-bottom: 3rem;
-        font-family: var(--font-display);
-        font-weight: 300;
-        font-size: 2em;
-        hyphens: auto;
+
+      p {
+        margin-top: 20px;
+      }
+    }
+
+    .special {
+      line-height: 1.2;
+      margin-top: 40px;
+      margin-bottom: 3rem;
+      font-family: var(--font-display);
+      font-weight: 300;
+      font-size: 2em;
+      hyphens: auto;
+      color: var(--color-title);
+
+      a {
+        text-decoration-thickness: 0.5px;
         color: var(--color-title);
-
-        a {
-          text-decoration-thickness: 0.5px;
-          color: var(--color-title);
-        }
-        @media screen and (min-width: 600px) {
-          font-weight: 400;
-          font-size: 2.5rem;
-          margin-bottom: 4rem;
-          width: 90%;
-        }
-        @media screen and (min-width: 1280px) {
-          width: 100%;
-          font-size: 3.5rem;
-        }
       }
-    </style>
-  </head>
-  <body>
-    <Nav homepage/>
-    <WrapperBig>
-      <p class="special">Allo! I’m Robin, a web designer, writer, cursed front-end developer, and satanic .woff enthusiast.</p>
-      <SideBySide>
-        <section>
-          <Subheading>Notes from the field</Subheading>
-          {allPosts.map(p => <ArticleItem post={p} />)}
-        </section>
-        <section class="tiny-section">
-          <div class="newsletter">
-            <Subheading>What I’m working on</Subheading>
-            <p>A big project at <a href="https://sentry.io/">Sentry</a> and a weird essay.</p>
-          </div>
-          <div class="newsletter">
-            <Subheading>The newsletter</Subheading>
-            <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
-            <NewsletterForm/>
-          </div>
-        </section>
-      </SideBySide>
-      <section class="tiny-section essays">
-        <Subheading>This here is the secret punk rock stuff</Subheading>
-        <Essays />
+
+      @media screen and (min-width: 600px) {
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 4rem;
+        width: 90%;
+      }
+
+      @media screen and (min-width: 1280px) {
+        width: 100%;
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <Nav homepage />
+  <WrapperBig>
+    <p class="special">Allo! I’m Robin, a web designer, writer, cursed front-end developer, and satanic .woff
+      enthusiast.</p>
+    <SideBySide>
+      <section>
+        <Subheading>Notes from the field</Subheading>
+        {allPosts.map(p =>
+        <ArticleItem post={p} />)}
       </section>
-    </WrapperBig>
-  </body>
+      <section class="tiny-section">
+        <div class="newsletter">
+          <Subheading>What I’m working on</Subheading>
+          <p>A big project at <a href="https://sentry.io/">Sentry</a> and <a href="/newsletter/thud">a weird essay</a>.
+          </p>
+        </div>
+        <div class="newsletter">
+          <Subheading>The newsletter</Subheading>
+          <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains
+            notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and
+            won’t always be about web design or fonts. You have been warned.</p>
+          <NewsletterForm />
+        </div>
+      </section>
+    </SideBySide>
+    <section class="tiny-section essays">
+      <Subheading>This here is the secret punk rock stuff</Subheading>
+      <Essays />
+    </section>
+  </WrapperBig>
+</body>
+
 </html>

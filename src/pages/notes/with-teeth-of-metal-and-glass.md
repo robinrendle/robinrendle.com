@@ -28,6 +28,6 @@ She is not my girlfriend and I am not from New York.
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src='/images/tooth.jpg' alt='A skyscraper'>
+    <img src='/images/tooth.jpg' alt='A skyscraper' />
   </figure>
 </div>

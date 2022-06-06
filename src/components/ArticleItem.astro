@@ -24,6 +24,7 @@ function formatDate(stupidIdiotDate) {
     max-width: 100vw;
     margin: 0;
   }
+
   .post {
     display: block;
     margin: 0 !important;
@@ -37,6 +38,7 @@ function formatDate(stupidIdiotDate) {
     @media screen and (min-width: 767px) {
       padding: 20px 0 25px;
     }
+
     &:hover {
       --side-padding: 20px;
       padding-top: 16px;
@@ -56,10 +58,8 @@ function formatDate(stupidIdiotDate) {
         padding-bottom: 24px;
       }
     }
-    &:last-child {
-      border-bottom: none;
-    }
   }
+
   h2 {
     line-height: 1.2;
     margin-top: 0;
@@ -74,21 +74,26 @@ function formatDate(stupidIdiotDate) {
       font-size: 1.3em;
     }
   }
+
   time {
     color: var(--color-subtext);
     display: block;
     margin-bottom: 0;
+
     @media screen and (min-width: 767px) {
       margin-bottom: 2px;
     }
   }
+
   p {
     margin-top: 0;
     color: var(--color-subtext);
   }
+
   .description {
     font-size: 1.1rem;
     line-height: 1.3;
+
     @media screen and (min-width: 767px) {
       font-size: 1.2rem;
     }
@@ -98,12 +103,12 @@ function formatDate(stupidIdiotDate) {
 <article>
   <a class="post" href={post.url}>
     <div class="data">
-      <time class="date" datetime={post.date}>{formatDate(post.date)}</time>
+      <time class="date" datetime={post.frontmatter.date}>{formatDate(post.frontmatter.date)}</time>
       <h2>
-        {post.title}
+        {post.frontmatter.title}
       </h2>
       <p class="description">
-        {post.extract}
+        {post.frontmatter.extract}
       </p>
     </div>
   </a>

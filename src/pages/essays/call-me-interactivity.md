@@ -29,14 +29,14 @@ An unusual thing happened whilst I read it though. The story became, over time, 
   <p>My books are not dead weight, they are live weight — matter infused by spirit, every one of them, even the silliest. They do not block the horizon; they draw it. They free me from the prison of contemporaneity: one should not live only in one’s own time.</p>
 </blockquote>
 <figcaption class="cite">
-  <p>Leon Weiseltier, <cite><a href="http://www.tnr.com/article/washington-diarist/magazine/100979/library-books-paper-texts-voluminous">Voluminous</a></cite></p>
+  Leon Weiseltier, <cite><a href="http://www.tnr.com/article/washington-diarist/magazine/100979/library-books-paper-texts-voluminous">Voluminous</a></cite>
 </figcaption>
 </figure>
 
 This book sure has plenty of ‘live weight’, but there is no other way to describe it; it’s a paper Leviathan. The typefaces were carved from whalebone whilst hidden in some dark corner of this tome most probably lies a gigantic pair of white, fishy lungs. It could be said that I was swallowed by its sheer physicalness, gobbled up by this imaginary landscape. And yet in these delicious moments of storytelling and design you suddenly become a part of the story – one of the crew. Cutting the flesh, draining the skull, eating the steak, sleeping on the boat in the middle of the storm. You are Ishmael. You are the Pequod. You are the whale. You are Moby Dick.
 
 <figure>
-  <img src="/images/moby.jpg">
+  <img src="/images/moby.jpg" />
 </figure>
 
 To put it simply this book haunts me. It’s not necessarily the literary brilliance of it, or that the object itself is the consummate model for what a book should be (although it is). It’s because I can’t shake this feeling, this question. That ethereal bond between content and form asks something from me. I’m reminded of this question whenever I leave the paper world and enter the one made of pixels and then I realise that I’ve never had a similar experience with a machine or with a piece of software, and so I begin to ask: how can this experience, this feeling, be translated into a digital space?
@@ -61,7 +61,7 @@ We have to acknowledge the sheer volume of devices that will soon be available. 
 <blockquote>
   <p>Am I the only one who asks himself whether it is appropriate to read Melville on a tablet in Georgia or Times? Is “Moby Dick” the same text in a liquid browser window set in Arial or Courier as in a carefully set printed publication? I doubt it.</p>
 </blockquote>
-<figcaption class="cite"><p>Oliver Reichenstein, <cite><a href="http://radar.oreilly.com/2011/10/scrolling-flipping-clicking.html">Scrolling, flipping and clicking</a></cite></p></figcaption>
+<figcaption class="cite">Oliver Reichenstein, <cite><a href="http://radar.oreilly.com/2011/10/scrolling-flipping-clicking.html">Scrolling, flipping and clicking</a></cite></figcaption>
 </figure>
 
 By looking at these devices it seems that books are no longer objects that we shape and control, a book no longer has any kind of dimension attached to it, at least not one that we define ourselves. The future book will have to respond to these constraints and the smorgasbord of devices that people will soon be reading on: as this problem is only going to get worse over time, we must embrace it now. But it’s a problem that digital books and websites share in common, and so as book designers, writers and readers we should be watching the technological and aesthetic developments of web designers. Since the ePub3 spec is deeply rooted in <span>HTML</span>, <span>CSS</span> and JavaScript, it could even be argued that digital book design _is_ web design.
@@ -82,7 +82,7 @@ With a public book you could read it in the morning and by the time you come bac
 <blockquote>
   <p>Ebooks can be updated, but only dumbly: a new file will wipe out annotations made to an earlier version, and no useful convention yet exists for communicating what was changed and why. Our content management systems know of only two states—draft and published—either privately in progress or publicly neglected. Nowhere is there a third state—in the world, but still evolving.</p>
 </blockquote>
-<figcaption class="cite"><p>Mandy Brown, <cite><a href="http://aworkinglibrary.com/library/archives/deploy/">Deploy</a></cite></p></figcaption>
+<figcaption class="cite">Mandy Brown, <cite><a href="http://aworkinglibrary.com/library/archives/deploy/">Deploy</a></cite></figcaption>
 </figure>
 
 ### There will be no control

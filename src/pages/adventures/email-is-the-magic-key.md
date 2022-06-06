@@ -30,7 +30,7 @@ Email typography is the wild west; I can never be certain that my message hasn�
 
 And so yes, I guess email is the magic key for writers, but boy oh boy do I wish it didn’t get stuck in the lock so dang often.
 
-<br>
+<br/>
 
 # Links to Things That I’ve Been Oooing and Aaahing over Lately But Haven’t Had Enough Time To Write About Just Yet
 

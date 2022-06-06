@@ -21,24 +21,24 @@ Iâ€™ve been going back through [Ftrain](http://ftrain.com) thanks to [Paul Fordâ
 
 In the talk, Paul also mentions a poem by the 13th century Persian poet [Jelaluddin Rumi](http://en.wikipedia.org/wiki/Rumi) called the _Guest House_. It feels somewhat complimentary to what Paul wrote above:
 
-<blockquote><p><em>This being human is a guest house.<br>
-Every morning a new arrival.</em></p>
-
-<p><em>A joy, a depression, a meanness,<br>
-some momentary awareness comes<br>
-as an unexpected visitor.</em></p>
-
-<p><em>Welcome and entertain them all!<br>
-Even if they are a crowd of sorrows,<br>
-who violently sweep your house<br>
-empty of its furniture,<br>
-still, treat each guest honorably.<br>
-He may be clearing you out<br>
-for some new delight.</em></p>
-
-<p><em>The dark thought, the shame, the malice<br>
-meet them at the door laughing and invite them in.</em></p>
-
-<p><em>Be grateful for whatever comes</br>
-because each has been sent<br>
-as a guide from beyond.</em></p></blockquote>
+> This being human is a guest house.
+> Every morning a new arrival.
+>
+> A joy, a depression, a meanness,
+> some momentary awareness comes
+> as an unexpected visitor.
+>
+> Welcome and entertain them all!
+> Even if they are a crowd of sorrows,
+> who violently sweep your house
+> empty of its furniture,
+> still, treat each guest honorably.
+> He may be clearing you out
+> for some new delight.
+>
+> The dark thought, the shame, the malice
+> meet them at the door laughing and invite them in.
+>
+> Be grateful for whatever comes
+> because each has been sent
+> as a guide from beyond.

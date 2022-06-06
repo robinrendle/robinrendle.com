@@ -30,7 +30,7 @@ This is most certainly going to be a non-sequitur but for some reason all of thi
 
 > My idea for a class is you just sit in the classroom and read aloud until everyone is smiling, and then you look around, and if someone is not smiling you ask them why, and then you keep reading—it may take many different books—until they start smiling, too.
 
-<br>
+<br/>
 
 ## Letter of the Week
 

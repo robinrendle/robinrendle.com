@@ -11,7 +11,7 @@ city: San Francisco
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded" style="margin-top: 0; margin-bottom: 10px;"> 
-    <img alt="The Hyperbolic Time Chamber" src="/images/htc.jpg">
+    <img alt="The Hyperbolic Time Chamber" src="/images/htc.jpg" />
   </figure>
 </div>
 
@@ -25,7 +25,7 @@ My body hasn’t visibly changed much yet but my legs are completely wild. “_M
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img alt="Workout stats for this week" src="/images/april-6.jpg" loading="lazy">
+    <img alt="Workout stats for this week" src="/images/april-6.jpg" loading="lazy"/>
   </figure>
 </div>
 

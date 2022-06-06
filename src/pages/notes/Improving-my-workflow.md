@@ -45,7 +45,9 @@ After about ten minutes of tinkering with it all, I came up with the following w
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-  <video alt="A video of this new blogging workflow with Alfred" src="/images/a-new-blog-post.mp4" loading="lazy" autoplay loop/>
+  <video alt="A video of this new blogging workflow with Alfred" loading="lazy" autoplay loop>
+    <source src="/images/a-new-blog-post.mp4" type="video/mp4" />
+  </video>
 </figure>
 </div>
 

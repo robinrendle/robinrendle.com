@@ -11,17 +11,17 @@ City: San Francisco
 <p>A couple of years ago, Nick Sherman did just that when he wrote about the 240 year old founding document for&nbsp;<a href="http://fontsinuse.com/uses/1666/the-dunlap-broadside">Fonts In Use</a>. He went into great detail about its typography and commented on its… well, <em>ugliness</em>:</p>
 
 <blockquote>
-<p>From a modern perspective, all of these factors might add up to the Dunlap Broadside being considered a poor example of typographic composition. However, there is something about it which transcends any aesthetic critique or commentary on the typefaces. In many ways it is a piece of printing in the highest form. It carried its message — one of the most important messages in the history of Western culture — quickly to a larger number of people than would have been possible otherwise. That practice of printing, the one that secured John Dunlap a spot below John Hancock in the history books, is a big part of what the United States is founded on. In the end, the freedom of the press isn’t about composing conceptually or aesthetically pleasing layouts, it’s about facilitating the communication of ideas.<br>
+<p>From a modern perspective, all of these factors might add up to the Dunlap Broadside being considered a poor example of typographic composition. However, there is something about it which transcends any aesthetic critique or commentary on the typefaces. In many ways it is a piece of printing in the highest form. It carried its message — one of the most important messages in the history of Western culture — quickly to a larger number of people than would have been possible otherwise. That practice of printing, the one that secured John Dunlap a spot below John Hancock in the history books, is a big part of what the United States is founded on. In the end, the freedom of the press isn’t about composing conceptually or aesthetically pleasing layouts, it’s about facilitating the communication of ideas.<br/>
 &nbsp;</p>
 </blockquote>
-<img class="tl-email-image" data-id="891021" height="142" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/e5bc6f23-6447-4bd9-a631-084f1774aeb8.jpg" style="width: 640px; max-width: 640px;" width="640"><br>
+<img class="tl-email-image" data-id="891021" height="142" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/e5bc6f23-6447-4bd9-a631-084f1774aeb8.jpg" style="width: 640px; max-width: 640px;" width="640"/><br/>
 <em>Above:&nbsp;the Dunlap Broadside text overlapped with Caslon’s Four Lines Pica type from a 1776 specimen</em>
 
 <p>I’ve been thinking about this a great deal lately, about what the goal of typesetting should be. And it might take me a while to make the link here but I especially think of typography’s role whenever I hear one of these words: <em>Dvorak, Colemak, Qwerty.</em></p>
 
-<p>Despite sounding like the codenames for a suite of Russian AI war bots designed to enslave us all, these are instead various types of keyboard configurations. The dominant type we’re all familiar with is Q-W-E-R-T-Y, named because of the order in which the letters appear in the top left of our keyboards. It was originally implemented by <a href="https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter">Scholes and Glidden</a>, the world’s first commercially successful typewriter in 1874, and we’ve lived with only a slightly modified version of this keyboard ever since:<br>
-<br>
-<img class="tl-email-image" data-id="891029" height="624" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/9d9f3f14-4665-417c-96c4-7327f94c01f3.png" style="width: 384px; max-width: 384px;" width="384"></p>
+<p>Despite sounding like the codenames for a suite of Russian AI war bots designed to enslave us all, these are instead various types of keyboard configurations. The dominant type we’re all familiar with is Q-W-E-R-T-Y, named because of the order in which the letters appear in the top left of our keyboards. It was originally implemented by <a href="https://en.wikipedia.org/wiki/Sholes_and_Glidden_typewriter">Scholes and Glidden</a>, the world’s first commercially successful typewriter in 1874, and we’ve lived with only a slightly modified version of this keyboard ever since:<br/>
+<br/>
+<img class="tl-email-image" data-id="891029" height="624" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/9d9f3f14-4665-417c-96c4-7327f94c01f3.png" style="width: 384px; max-width: 384px;" width="384"/></p>
 
 <p>This was a wonder of its time to be sure, but many of the typographic decisions that went into this typewriter and its predecessors went unquestioned for decades. In fact, Marcin Wichary wrote a particularly scathing article about <a href="https://medium.com/design/death-to-typewriters-9b7712847639#.nea0o9bea">his distaste for these machines</a> and the pure hell they wrought to the field of typography:</p>
 
@@ -33,9 +33,9 @@ City: San Francisco
 
 <p>I try to remember that it’s an act and a process. Typography is the mechanical reproduction of our alphabet from start to finish, and the fact that these typewriters made the written word accessible to millions can’t be simply brushed aside. So as horrible as the outcome might be, I will always treasure the engineering, the scalability and the access to the written word far more than the mere aesthetic nuances I might secretly hope for.</p>
 
-<p>Imagine, for a moment, that the year is 1494 and a group of Venetian scribes are huddled in a tavern, hovering over the first printed book by the <a href="https://en.wikipedia.org/wiki/Aldine_Press">Aldine Press</a>. They poke and prod at the book with swollen thumbs and calloused fingertips, the letters of the page and <a href="http://timescolumns.typepad.com/.a/6a00d83451da9669e201b7c70d6bb8970b-pi">the press’ emblem</a> barely visible under the dim candlelight.<br>
-<br>
-<img class="tl-email-image" data-id="891037" height="857" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/26e749be-367e-4506-8841-803dc63f1da1.jpg" style="width: 640px; max-width: 640px;" width="640"></p>
+<p>Imagine, for a moment, that the year is 1494 and a group of Venetian scribes are huddled in a tavern, hovering over the first printed book by the <a href="https://en.wikipedia.org/wiki/Aldine_Press">Aldine Press</a>. They poke and prod at the book with swollen thumbs and calloused fingertips, the letters of the page and <a href="http://timescolumns.typepad.com/.a/6a00d83451da9669e201b7c70d6bb8970b-pi">the press’ emblem</a> barely visible under the dim candlelight.<br/>
+<br/>
+<img class="tl-email-image" data-id="891037" height="857" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/26e749be-367e-4506-8841-803dc63f1da1.jpg" style="width: 640px; max-width: 640px;" width="640"/></p>
 
 <p>This book would have taken a fraction of the time to produce over their handwritten method, but they still pick at this ugly thing for its absence of <a href="http://ilovetypography.com/2015/11/20/pure-gold-incunabula-gold-typography/">illumination</a>, its uniformity and stark lack of nuance and fidelity. Each of these scribes in turn brag of their magnificent, handwritten letters, and each of them scoff at the mechanical nightmare wrought by Aldus’ press: <em>How basic, how primitive,</em> they boast.</p>
 
@@ -43,9 +43,9 @@ City: San Francisco
 
 <p>Anyway…where was I? Oh yeah, keyboards.</p>
 
-<p>I’ve been thinking about the typographic organisation of them since I read about the <a href="https://viralintrospection.wordpress.com/2010/09/06/a-different-philosophy-in-designing-keyboard-layouts/">Workman Layout</a> and as soon as I saw the post’s&nbsp;table of contents I knew that I was in for a wondrously nerdy ride. The programmer OJ Bucao describes his quest for the perfect keyboard layout where he decided to move all of the letters around to best fit his needs.<br>
-<br>
-<img class="tl-email-image" data-id="891041" height="213" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/05ec9a52-53e1-4c57-a497-3605aee31000.png" style="width: 640px; max-width: 640px;" width="640"></p>
+<p>I’ve been thinking about the typographic organisation of them since I read about the <a href="https://viralintrospection.wordpress.com/2010/09/06/a-different-philosophy-in-designing-keyboard-layouts/">Workman Layout</a> and as soon as I saw the post’s&nbsp;table of contents I knew that I was in for a wondrously nerdy ride. The programmer OJ Bucao describes his quest for the perfect keyboard layout where he decided to move all of the letters around to best fit his needs.<br/>
+<br/>
+<img class="tl-email-image" data-id="891041" height="213" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/05ec9a52-53e1-4c57-a497-3605aee31000.png" style="width: 640px; max-width: 640px;" width="640"/></p>
 
 <p>Bucao wrote about his experience in designing&nbsp;this new layout:</p>
 
@@ -62,9 +62,9 @@ City: San Francisco
 <p>First up, Stephen Coles has made a collection on Flickr which highlights some interesting <a href="https://www.flickr.com/photos/stewf/galleries/72157669873820592/">lettering he found in New Orleans cemeteries</a>.</p>
 
 <hr>
-<p>Type designer and <a href="https://twitter.com/fostertype/status/441173853167824898">expert Tweetist</a>, Dave Foster, has started a neat project where he’ll attempt to draw <a href="https://twitter.com/fostertype/status/748849317406908416">a new font for every day of the Tour de France</a>. So far I think Stage 2 is particularly delightful:<br>
-<br>
-<img class="tl-email-image" data-id="891045" height="640" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/c1674b6c-1639-4850-b54c-bd1ad9a318f1.jpg" style="width: 640px; max-width: 640px;" width="640"></p>
+<p>Type designer and <a href="https://twitter.com/fostertype/status/441173853167824898">expert Tweetist</a>, Dave Foster, has started a neat project where he’ll attempt to draw <a href="https://twitter.com/fostertype/status/748849317406908416">a new font for every day of the Tour de France</a>. So far I think Stage 2 is particularly delightful:<br/>
+<br/>
+<img class="tl-email-image" data-id="891045" height="640" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/c1674b6c-1639-4850-b54c-bd1ad9a318f1.jpg" style="width: 640px; max-width: 640px;" width="640"/></p>
 
 <hr>
 <p>David Shields has written a short biography of <a href="http://www.woodtyperesearch.com/william-morgans/">William Thomas Morgans</a>, who was one of the early pioneers wood type in the late 19th century.</p>
@@ -77,14 +77,15 @@ City: San Francisco
 
 <h2>New type releases</h2>
 
-<p>Type and Media is a type design Master degree program held at the Royal Academy of Art in the Netherlands and <a href="http://typemedia.org/?p=481">the final show</a> is currently taking place between July 1st through to the 7th. This is an opportunity to get a sneak peek of the type specimens from the graduates before they launch the new website (which I’m sure will be as great as <a href="http://www.typemedia2015.com/">last year’s gallery</a>).<br>
-<br>
-<img class="tl-email-image" data-id="891049" height="960" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/3627150a-a6d1-4246-b6a6-ce77f0b7c610.jpg" style="width: 640px; max-width: 640px;" width="640"></p>
+<p>Type and Media is a type design Master degree program held at the Royal Academy of Art in the Netherlands and <a href="http://typemedia.org/?p=481">the final show</a> is currently taking place between July 1st through to the 7th. This is an opportunity to get a sneak peek of the type specimens from the graduates before they launch the new website (which I’m sure will be as great as <a href="http://www.typemedia2015.com/">last year’s gallery</a>).<br/>
+<br/>
+<img class="tl-email-image" data-id="891049" height="960" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/3627150a-a6d1-4246-b6a6-ce77f0b7c610.jpg" style="width: 640px; max-width: 640px;" width="640"/></p>
 
 <hr>
-<p>David Jonathan Ross made an update to <a href="https://djr.com/manicotti">Manicotti</a> recently by <a href="https://djr.com/manicotti/cyrillic-greek/">adding support for Cyrillic</a>. Manicotti is a typeface “inspired by the boisterous wood types of the nineteenth century” and oh boy oh boy if it isn’t my favourite reverse-stressed typeface out there at the moment:<br>
-<br>
-<img class="tl-email-image" data-id="891057" height="467" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/d6907c65-4084-4c6f-9778-ef07c5125429.jpg" style="width: 640px; max-width: 640px;" width="640"></p>
+
+David Jonathan Ross made an update to <a href="https://djr.com/manicotti">Manicotti</a> recently by <a href="https://djr.com/manicotti/cyrillic-greek/">adding support for Cyrillic</a>. Manicotti is a typeface “inspired by the boisterous wood types of the nineteenth century” and oh boy oh boy if it isn’t my favourite reverse-stressed typeface out there at the moment:<br/>
+<br/>
+<img class="tl-email-image" data-id="891057" height="467" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/d6907c65-4084-4c6f-9778-ef07c5125429.jpg" style="width: 640px; max-width: 640px;" width="640"/>
 
 <hr>
 <p>On July 1st the Tiny Type Co., a new foundry by Rob Mientjes, <a href="https://twitter.com/tinytypeco/status/748815261671624705">opened for business</a> with two typeface releases. First up, <a href="http://tinytype.co/type/monumental-grotesk">Monumental Grotesk</a>:</p>
@@ -93,7 +94,7 @@ City: San Francisco
 <p>Monumental Grotesk is a true The Hague typeface: its stone-carved forms grace a few buildings and a monument in the government quarters. It’s based on the work of graphic designer Piet Zwart, a Dutch Bauhaus proponent.</p>
 </blockquote>
 
-<p><img class="tl-email-image" data-id="891065" height="231" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/75206fe9-5f1c-4286-a687-e6ad6c885202.jpg" style="width: 640px; max-width: 640px;" width="640"></p>
+<img class="tl-email-image" data-id="891065" height="231" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/75206fe9-5f1c-4286-a687-e6ad6c885202.jpg" style="width: 640px; max-width: 640px;" width="640" />
 
 <p>And Mientjes also released <a href="http://tinytype.co/type/dover-display">Dover Display</a>, which comes in two flavors: a geometric sans and a serif display face:</p>
 
@@ -101,23 +102,24 @@ City: San Francisco
 <p>Dover is a long-running exploration of the quintessential British types. It is an attempt at historical design fiction: what if Caslon and Gill Sans had been designed by the same person? What if that person were me?</p>
 </blockquote>
 
-<p><img class="tl-email-image" data-id="891069" height="292" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/377cec32-1d65-4dd5-bb47-19ed7909d9b3.png" style="width: 640px; max-width: 640px;" width="640"></p>
+<img class="tl-email-image" data-id="891069" height="292" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/377cec32-1d65-4dd5-bb47-19ed7909d9b3.png" style="width: 640px; max-width: 640px;" width="640" />
 
 <hr>
-<p>And finally, although I don’t think it’s commercially available just yet, <a href="https://twitter.com/font_taste?lang=en">Miguel Reyes</a> has been working on a new display face and <a href="https://www.instagram.com/p/BHUh82aBFbi/">it’s really quite striking</a>:<br>
-<br>
-<img class="tl-email-image" data-id="891073" height="640" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/429a3671-dca4-49c2-8e6f-4eb827880bdd.jpg" style="width: 640px; max-width: 640px;" width="640"><br>
-<br>
+<p>And finally, although I don’t think it’s commercially available just yet, <a href="https://twitter.com/font_taste?lang=en">Miguel Reyes</a> has been working on a new display face and <a href="https://www.instagram.com/p/BHUh82aBFbi/">it’s really quite striking</a>:<br/>
+<br/>
+<img class="tl-email-image" data-id="891073" height="640" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/429a3671-dca4-49c2-8e6f-4eb827880bdd.jpg" style="width: 640px; max-width: 640px;" width="640"><br/>
+<br/>
 &nbsp;</p>
 
 <h2>Letter of the week</h2>
 
 <p><a href="https://www.instagram.com/klim_type_foundry/">Kris Sowersby’s account</a> is certainly in the running for the most beautiful galleries&nbsp;for fans of graphic design and type. He continuously posts <a href="https://www.instagram.com/p/BE40cn0NPlT/">understated</a> and <a href="https://www.instagram.com/p/BD9N0mXtPi1/?taken-by=klim_type_foundry">lovely</a> snaps of his work as well as from examples he finds in the wild.</p>
 
-<p>Last week Kris published an image from a specimen of a wood type capital ‘R’ and I can’t stop thinking about it:<br>
-<br>
-<img class="tl-email-image" data-id="891077" height="640" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/159d3cd2-2270-4cb2-a069-f9af75c95f46.jpg" style="width: 640px; max-width: 640px;" width="640"></p>
+Last week Kris published an image from a specimen of a wood type capital ‘R’ and I can’t stop thinking about it:<br/>
+<br/>
+
+<img class="tl-email-image" data-id="891077" height="640" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/159d3cd2-2270-4cb2-a069-f9af75c95f46.jpg" style="width: 640px; max-width: 640px;" width="640" />
 
 <p>I find that these weird upturned right legs of Clarendon-esque ‘R’s make it ugly for word shapes in general but for standalone letters they are a thing of pure beauty.</p>
 
-<p>Oh, on a final note, and speaking of beautiful letters, Elizabeth Carey Smith made <a href="https://twitter.com/theoriginalecs/status/747791903748399105">the call</a> for a fine looking capital ‘X’ and many type designers replied with their favourites.<br>
+<p>Oh, on a final note, and speaking of beautiful letters, Elizabeth Carey Smith made <a href="https://twitter.com/theoriginalecs/status/747791903748399105">the call</a> for a fine looking capital ‘X’ and many type designers replied with their favourites.<br/>

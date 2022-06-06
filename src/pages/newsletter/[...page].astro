@@ -3,76 +3,60 @@ import MainHead from '../../components/MainHead.astro';
 import Nav from '../../components/Nav.astro';
 import ArticleList from '../../components/ArticleList.astro';
 import ArticleItem from '../../components/ArticleItem.astro';
-import Card from '../../components/Card.astro';
-
 interface MarkdownFrontmatter {
   date: number;
 }
+export async function getStaticPaths({ paginate }) {
+  const allPosts = await Astro.glob('./*.md');
+  const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
 
-export async function getStaticPaths({rss, paginate}) {
-  const allPosts = await Astro.fetchContent('./*.md');
-  const sortedPosts = allPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.date).valueOf());
-  rss({
-    title: 'Robin Rendle',
-    description: 'Designer and writer',
-    customData: `<language>en-us</language>`,
-    // The list of items for your RSS feed, sorted.
-    items: sortedPosts.map(item => {
-      return {
-        title: item.title,
-        description: item.astro.html,
-        link: item.url,
-        pubDate: item.date,
-      }
-    }),
-    dest: "/newsletter-feed.xml",
-  })
-
-  return paginate(sortedPosts, {pageSize: 1000});
+  return paginate(sortedPosts, { pageSize: 1000 });
 }
 
 const { page } = Astro.props;
 
 ---
+
 <!DOCTYPE html>
 <html data-theme="light" lang="en">
-  <head>
-    <MainHead
-      title={'Notes'}
-      description={'Designer and writer'}
-    />
 
-    <style lang="scss">
-      .card-text {
-        margin: 0;
-        display: inline;
+<head>
+  <MainHead title={'Newslettter'} description={'Designer and writer'} />
+
+  <style lang="scss">
+    .card-text {
+      margin: 0;
+      display: inline;
+    }
+
+    form,
+    input {
+      display: inline;
+    }
+
+    label {
+      display: none;
+    }
+
+    .subscribe {
+      z-index: 1;
+
+      p {
+        font-size: 110%;
+        margin-top: 0 !important;
       }
+    }
+  </style>
+</head>
 
-      form, input {
-        display: inline;
-      }
+<body>
+  <Nav />
+  <ArticleList title='Newsletter'>
+    <section>
+      {page.data.map(p =>
+      <ArticleItem post={p} />)}
+    </section>
+  </ArticleList>
+</body>
 
-      label {
-        display: none;
-      }
-
-      .subscribe {
-        z-index: 1;
-
-        p {
-          font-size: 110%;
-          margin-top: 0 !important;
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <Nav title={'Notes'} />
-    <ArticleList title='Newsletter'>
-      <section>
-        {page.data.map(p => <ArticleItem post={p} />)}  
-      </section>
-    </ArticleList>
-  </body>
 </html>

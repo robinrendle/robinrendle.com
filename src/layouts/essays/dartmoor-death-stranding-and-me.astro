@@ -1,394 +1,485 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js"><head>
-    <meta charset="utf-8">
-    <title>Dartmoor, Death Stranding, and me › Robin Rendle</title>
-    <meta name="author" content="Robin Rendle">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" class="no-js">
 
-    <!-- Styles -->
-    <style lang="scss">
-      @font-face {
-        font-family: "MDSystem";
-        font-weight: 400;
-        font-style: normal;
-        font-display: swap;
-        src: url("../../fonts/md-system/MDSystem-Regular.woff2") format("woff2"),
-          url("../../fonts/md-system/MDSystem-Regular.woff") format("woff");
-      }
-      @font-face {
-        font-family: "MDSystem";
-        font-weight: 400;
-        font-style: italic;
-        font-display: swap;
-        src: url("../../fonts/md-system/MDSystem-Italic.woff2") format("woff2"),
-          url("../../fonts/md-system/MDSystem-Italic.woff") format("woff");
-      }
-      @font-face {
-        font-family: "Display";
-        font-weight: 600;
-        font-style: normal;
-        src: url("../../fonts/md-system/MDSystem-Bold.woff2") format("woff2"),
-          url("../../fonts/md-system/MDSystem-Bold.woff") format("woff");
-      }
-      *,
-      *:after,
-      *:before {
-        -ms-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-      }
-      button,
-      html {
-        -ms-text-size-adjust: 100%;
-        -webkit-text-size-adjust: 100%;
-      }
-      body {
-        font-size: 100%;
-      }
-      a,
-      abbr,
-      acronym,
-      address,
-      applet,
-      article,
-      aside,
-      audio,
-      b,
-      big,
-      blockquote,
-      body,
-      canvas,
-      caption,
-      center,
-      cite,
-      code,
-      dd,
-      del,
-      dfn,
-      div,
-      dl,
-      dt,
-      em,
-      embed,
-      fieldset,
-      figcaption,
-      figure,
-      footer,
-      form,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      header,
-      hgroup,
-      html,
-      i,
-      iframe,
-      img,
-      input,
-      ins,
-      kbd,
-      label,
-      legend,
-      li,
-      mark,
-      menu,
-      nav,
-      object,
-      ol,
-      output,
-      p,
-      pre,
-      q,
-      s,
-      samp,
-      section,
-      small,
-      span,
-      strike,
-      strong,
-      sub,
-      summary,
-      sup,
-      table,
-      tbody,
-      td,
-      tfoot,
-      th,
-      thead,
-      time,
-      tr,
-      tt,
-      u,
-      ul,
-      var,
-      video {
-        margin: 0;
-        padding: 0;
-      }
-      article,
-      aside,
-      details,
-      figcaption,
-      figure,
-      footer,
-      header,
-      hgroup,
-      main,
-      menu,
-      nav,
-      section,
-      summary {
-        display: block;
-      }
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-      caption,
-      td,
-      th {
-        text-align: left;
-        font-weight: normal;
-        vertical-align: middle;
-      }
-      b,
-      mark,
-      strong {
-        font-weight: bold;
-        font-style: inherit;
-      }
-      address,
-      dfn,
-      em,
-      i,
-      q,
-      var {
-        font-style: normal;
-        font-weight: inherit;
-      }
-      a,
-      ins,
-      u {
-        text-decoration: none;
-      }
-      code,
-      kbd,
-      pre,
-      samp {
-        font-family: monospace;
-      }
-      iframe {
-        width: 100%;
-      }
-      a {
-        outline: none;
-      }
-      img {
-        max-width: 100%;
-        height: auto;
-        border: none;
-        margin-bottom: 0;
-      }
-      input,
-      select,
-      textarea {
-        font: inherit;
-      }
-      button {
-        cursor: pointer;
-      }
-      article,
-      aside,
-      details,
-      figcaption,
-      figure,
-      footer,
-      header,
-      hgroup,
-      main,
-      nav,
-      section,
-      summary,
-      video {
-        display: block;
-      }
-      audio,
-      canvas {
-        display: inline-block;
-      }
-      audio:not([controls]) {
-        display: none;
-        height: 0;
-      }
-      [hidden] {
-        display: none;
-      }
-      html {
-        font-family: sans-serif;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-      }
-      body {
-        margin: 0;
-      }
-      a:focus {
-        outline: thin dotted;
-      }
-      a:active,
-      a:hover {
-        outline: 0;
-      }
-      abbr[title] {
-        border-bottom: 1px dotted;
-      }
-      dfn {
-        font-style: italic;
-      }
-      hr {
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        height: 0;
-      }
-      mark {
-        background: #ff0;
-        color: #000;
-      }
-      code,
-      kbd,
-      pre,
-      samp {
-        font-family: monospace, serif;
-        font-size: 1em;
-      }
-      pre {
-        white-space: pre-wrap;
-      }
-      q {
-        quotes: "\201C""\201D""\2018""\2019";
-      }
-      small {
-        font-size: 80%;
-      }
-      sub,
-      sup {
-        font-size: 75%;
-        line-height: 0;
-        position: relative;
-        vertical-align: baseline;
-      }
-      sup {
-        top: -0.5em;
-      }
-      sub {
-        bottom: -0.25em;
-      }
-      img {
-        border: 0;
-      }
-      svg:not(:root) {
-        overflow: hidden;
-      }
-      figure {
-        margin: 0 !important;
-      }
-      fieldset {
-        border: 1px solid #c0c0c0;
-        margin: 0 2px;
-        padding: 0.35em 0.625em 0.75em;
-      }
-      legend {
-        border: 0;
-        padding: 0;
-      }
-      button,
-      input,
-      select,
-      textarea {
-        font-family: inherit;
-        font-size: 100%;
-        margin: 0;
-      }
-      button,
-      input {
-        line-height: normal;
-      }
-      button,
-      select {
-        text-transform: none;
-      }
-      button,
-      html input[type="button"],
-      input[type="reset"],
-      input[type="submit"] {
-        -webkit-appearance: button;
-        cursor: pointer;
-      }
-      button[disabled],
-      html input[disabled] {
-        cursor: default;
-      }
-      input[type="checkbox"],
-      input[type="radio"] {
-        box-sizing: border-box;
-        padding: 0;
-      }
-      input[type="search"] {
-        -webkit-appearance: textfield;
-        -moz-box-sizing: content-box;
-        -webkit-box-sizing: content-box;
-        box-sizing: content-box;
-      }
-      input[type="search"]::-webkit-search-cancel-button,
-      input[type="search"]::-webkit-search-decoration {
-        -webkit-appearance: none;
-      }
-      button::-moz-focus-inner,
-      input::-moz-focus-inner {
-        border: 0;
-        padding: 0;
-      }
-      textarea {
-        overflow: auto;
-        vertical-align: top;
-      }
-      table {
-        border-collapse: collapse;
-        border-spacing: 0;
-      }
-      .cf:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      .u-text--bold {
-        font-weight: bold;
-      }
-      .u-text--italic {
-        font-style: regular;
-        font-weight: 400;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-      }
-      .u-text--small-caps {
-        font-weight: normal;
-        font-variant: small-caps;
-        text-transform: lowercase;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-      }
-      .u-text--regular {
-        font-weight: 400;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-      }
+<head>
+  <meta charset="utf-8">
+  <title>Dartmoor, Death Stranding, and me › Robin Rendle</title>
+  <meta name="author" content="Robin Rendle">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Styles -->
+  <style lang="scss" is:inline>
+    @font-face {
+      font-family: "MDSystem";
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      src: url("../../fonts/md-system/MDSystem-Regular.woff2") format("woff2"),
+        url("../../fonts/md-system/MDSystem-Regular.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "MDSystem";
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+      src: url("../../fonts/md-system/MDSystem-Italic.woff2") format("woff2"),
+        url("../../fonts/md-system/MDSystem-Italic.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "Display";
+      font-weight: 600;
+      font-style: normal;
+      src: url("../../fonts/md-system/MDSystem-Bold.woff2") format("woff2"),
+        url("../../fonts/md-system/MDSystem-Bold.woff") format("woff");
+    }
+
+    *,
+    *:after,
+    *:before {
+      -ms-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    button,
+    html {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      font-size: 100%;
+    }
+
+    a,
+    abbr,
+    acronym,
+    address,
+    applet,
+    article,
+    aside,
+    audio,
+    b,
+    big,
+    blockquote,
+    body,
+    canvas,
+    caption,
+    center,
+    cite,
+    code,
+    dd,
+    del,
+    dfn,
+    div,
+    dl,
+    dt,
+    em,
+    embed,
+    fieldset,
+    figcaption,
+    figure,
+    footer,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    hgroup,
+    html,
+    i,
+    iframe,
+    img,
+    input,
+    ins,
+    kbd,
+    label,
+    legend,
+    li,
+    mark,
+    menu,
+    nav,
+    object,
+    ol,
+    output,
+    p,
+    pre,
+    q,
+    s,
+    samp,
+    section,
+    small,
+    span,
+    strike,
+    strong,
+    sub,
+    summary,
+    sup,
+    table,
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    time,
+    tr,
+    tt,
+    u,
+    ul,
+    var,
+    video {
+      margin: 0;
+      padding: 0;
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    section,
+    summary {
+      display: block;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    caption,
+    td,
+    th {
+      text-align: left;
+      font-weight: normal;
+      vertical-align: middle;
+    }
+
+    b,
+    mark,
+    strong {
+      font-weight: bold;
+      font-style: inherit;
+    }
+
+    address,
+    dfn,
+    em,
+    i,
+    q,
+    var {
+      font-style: normal;
+      font-weight: inherit;
+    }
+
+    a,
+    ins,
+    u {
+      text-decoration: none;
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: monospace;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    a {
+      outline: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: none;
+      margin-bottom: 0;
+    }
+
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section,
+    summary,
+    video {
+      display: block;
+    }
+
+    audio,
+    canvas {
+      display: inline-block;
+    }
+
+    audio:not([controls]) {
+      display: none;
+      height: 0;
+    }
+
+    [hidden] {
+      display: none;
+    }
+
+    html {
+      font-family: sans-serif;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    a:focus {
+      outline: thin dotted;
+    }
+
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+
+    abbr[title] {
+      border-bottom: 1px dotted;
+    }
+
+    dfn {
+      font-style: italic;
+    }
+
+    hr {
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      height: 0;
+    }
+
+    mark {
+      background: #ff0;
+      color: #000;
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: monospace, serif;
+      font-size: 1em;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
+
+    q {
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+
+    small {
+      font-size: 80%;
+    }
+
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+    }
+
+    sup {
+      top: -0.5em;
+    }
+
+    sub {
+      bottom: -0.25em;
+    }
+
+    img {
+      border: 0;
+    }
+
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    figure {
+      margin: 0 !important;
+    }
+
+    fieldset {
+      border: 1px solid #c0c0c0;
+      margin: 0 2px;
+      padding: 0.35em 0.625em 0.75em;
+    }
+
+    legend {
+      border: 0;
+      padding: 0;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      margin: 0;
+    }
+
+    button,
+    input {
+      line-height: normal;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    html input[type="button"],
+    input[type="reset"],
+    input[type="submit"] {
+      -webkit-appearance: button;
+      cursor: pointer;
+    }
+
+    button[disabled],
+    html input[disabled] {
+      cursor: default;
+    }
+
+    input[type="checkbox"],
+    input[type="radio"] {
+      box-sizing: border-box;
+      padding: 0;
+    }
+
+    input[type="search"] {
+      -webkit-appearance: textfield;
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none;
+    }
+
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+    }
+
+    textarea {
+      overflow: auto;
+      vertical-align: top;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    .cf:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .u-text--bold {
+      font-weight: bold;
+    }
+
+    .u-text--italic {
+      font-style: regular;
+      font-weight: 400;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    }
+
+    .u-text--small-caps {
+      font-weight: normal;
+      font-variant: small-caps;
+      text-transform: lowercase;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    }
+
+    .u-text--regular {
+      font-weight: 400;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hgroup,
+    ul,
+    ol,
+    dl,
+    blockquote,
+    p,
+    address,
+    table,
+    video,
+    fieldset,
+    figure,
+    pre,
+    hr,
+    ul,
+    ol,
+    .media,
+    .island,
+    .islet {
+      margin-bottom: 25.2px;
+      margin-bottom: 1.575rem;
+    }
+
+    @media (min-width: 621px) {
+
       h1,
       h2,
       h3,
@@ -413,545 +504,649 @@
       .media,
       .island,
       .islet {
-        margin-bottom: 25.2px;
-        margin-bottom: 1.575rem;
+        margin-bottom: 28.8px;
+        margin-bottom: 1.8rem;
       }
-      @media (min-width: 621px) {
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        hgroup,
-        ul,
-        ol,
-        dl,
-        blockquote,
-        p,
-        address,
-        table,
-        video,
-        fieldset,
-        figure,
-        pre,
-        hr,
-        ul,
-        ol,
-        .media,
-        .island,
-        .islet {
-          margin-bottom: 28.8px;
-          margin-bottom: 1.8rem;
-        }
-      }
-      dd {
-        margin-bottom: 9px;
-        margin-bottom: 0.5625rem;
-      }
-      iframe,
-      .widescreen {
-        margin: 18px 0px 36px 0px;
-        margin: 1.125rem 0rem 2.25rem 0rem;
-      }
-      a {
-        border: none;
-      }
-      .links:is(a),
-      .links a {
-        color: var(--link-color);
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        transition: color 0.3s ease;
-        text-decoration-skip: ink;
-      }
-      .links:is(a):hover,
-      .links:is(a):focus,
-      .links a:hover,
-      .links a:focus {
-        text-decoration: none;
-        color: var(--link-hover-color);
-        border: none;
-      }
-      .links:is(a):hover:before,
-      .links:is(a):hover:after,
-      .links:is(a):focus:before,
-      .links:is(a):focus:after,
-      .links a:hover:before,
-      .links a:hover:after,
-      .links a:focus:before,
-      .links a:focus:after {
-        color: currentColor;
-      }
-      .links.card-list__text a {
-        color: var(--secondary-text-color);
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-      }
-      .links.card-list__text a:hover {
-        text-decoration: underline;
-        color: var(--link-hover-color);
-      }
-      .links--underline:is(a),
-      .links--underline a {
-        color: var(--link-color);
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
-        transition: color 0.3s ease;
-        text-decoration-skip: ink;
-      }
-      .links--underline:is(a):hover,
-      .links--underline:is(a):focus,
-      .links--underline a:hover,
-      .links--underline a:focus {
-        text-decoration: none;
-        color: var(--link-hover-color);
-        border: none;
-      }
-      .links--underline:is(a):hover:before,
-      .links--underline:is(a):hover:after,
-      .links--underline:is(a):focus:before,
-      .links--underline:is(a):focus:after,
-      .links--underline a:hover:before,
-      .links--underline a:hover:after,
-      .links--underline a:focus:before,
-      .links--underline a:focus:after {
-        color: currentColor;
-      }
-      .links--dark:link:link,
-      .links--dark:link a,
-      .links--dark a:link,
-      .links--dark a a {
-        color: #777;
-      }
+    }
+
+    dd {
+      margin-bottom: 9px;
+      margin-bottom: 0.5625rem;
+    }
+
+    iframe,
+    .widescreen {
+      margin: 18px 0px 36px 0px;
+      margin: 1.125rem 0rem 2.25rem 0rem;
+    }
+
+    a {
+      border: none;
+    }
+
+    .links:is(a),
+    .links a {
+      color: var(--link-color);
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      transition: color 0.3s ease;
+      text-decoration-skip: ink;
+    }
+
+    .links:is(a):hover,
+    .links:is(a):focus,
+    .links a:hover,
+    .links a:focus {
+      text-decoration: none;
+      color: var(--link-hover-color);
+      border: none;
+    }
+
+    .links:is(a):hover:before,
+    .links:is(a):hover:after,
+    .links:is(a):focus:before,
+    .links:is(a):focus:after,
+    .links a:hover:before,
+    .links a:hover:after,
+    .links a:focus:before,
+    .links a:focus:after {
+      color: currentColor;
+    }
+
+    .links.card-list__text a {
+      color: var(--secondary-text-color);
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+    }
+
+    .links.card-list__text a:hover {
+      text-decoration: underline;
+      color: var(--link-hover-color);
+    }
+
+    .links--underline:is(a),
+    .links--underline a {
+      color: var(--link-color);
+      overflow: hidden;
+      position: relative;
+      z-index: 1;
+      transition: color 0.3s ease;
+      text-decoration-skip: ink;
+    }
+
+    .links--underline:is(a):hover,
+    .links--underline:is(a):focus,
+    .links--underline a:hover,
+    .links--underline a:focus {
+      text-decoration: none;
+      color: var(--link-hover-color);
+      border: none;
+    }
+
+    .links--underline:is(a):hover:before,
+    .links--underline:is(a):hover:after,
+    .links--underline:is(a):focus:before,
+    .links--underline:is(a):focus:after,
+    .links--underline a:hover:before,
+    .links--underline a:hover:after,
+    .links--underline a:focus:before,
+    .links--underline a:focus:after {
+      color: currentColor;
+    }
+
+    .links--dark:link:link,
+    .links--dark:link a,
+    .links--dark a:link,
+    .links--dark a a {
+      color: #777;
+    }
+
+    .h1,
+    .m-longform .h1,
+    h1,
+    .m-longform h1 {
+      font-size: 28px;
+      font-size: 1.75rem;
+      color: var(--heading-color);
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: 621px) {
+
       .h1,
       .m-longform .h1,
       h1,
       .m-longform h1 {
-        font-size: 28px;
-        font-size: 1.75rem;
-        color: var(--heading-color);
-        line-height: 1;
-        margin-bottom: 20px;
+        font-size: 30px;
+        font-size: 1.875rem;
       }
-      @media (min-width: 621px) {
-        .h1,
-        .m-longform .h1,
-        h1,
-        .m-longform h1 {
-          font-size: 30px;
-          font-size: 1.875rem;
-        }
-      }
-      @media (min-width: 921px) {
-        .h1,
-        .m-longform .h1,
-        h1,
-        .m-longform h1 {
-          font-size: 33px;
-          font-size: 2.0625rem;
-        }
-      }
-      .meta-info + .h1,
-      .meta-info + .m-longform .h1,
-      .meta-info + h1,
-      .meta-info + .m-longform h1 {
-        color: var(--heading-color);
-      }
+    }
+
+    @media (min-width: 921px) {
+
       .h1,
-      .h2,
-      .h3,
-      .h4,
-      .h5,
+      .m-longform .h1,
       h1,
-      h2,
-      h3,
-      h4,
-      h5 {
-        font-weight: 600;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
+      .m-longform h1 {
+        font-size: 33px;
+        font-size: 2.0625rem;
       }
-      .m-longform .h2,
-      .m-longform h2 {
-        font-size: 28px;
-        font-size: 1.75rem;
-        line-height: 1.3;
-        margin-top: 0;
-      }
+    }
+
+    .meta-info+.h1,
+    .meta-info+.m-longform .h1,
+    .meta-info+h1,
+    .meta-info+.m-longform h1 {
+      color: var(--heading-color);
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-weight: 600;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    }
+
+    .m-longform .h2,
+    .m-longform h2 {
+      font-size: 28px;
+      font-size: 1.75rem;
+      line-height: 1.3;
+      margin-top: 0;
+    }
+
+    .h3,
+    .m-longform .h3,
+    h3,
+    .m-longform h3 {
+      font-size: 25px;
+      font-size: 1.5625rem;
+      line-height: 1.45;
+    }
+
+    @media (min-width: 621px) {
+
       .h3,
       .m-longform .h3,
       h3,
       .m-longform h3 {
-        font-size: 25px;
-        font-size: 1.5625rem;
-        line-height: 1.45;
+        font-size: 26px;
+        font-size: 1.625rem;
+        line-height: 1.55;
       }
-      @media (min-width: 621px) {
-        .h3,
-        .m-longform .h3,
-        h3,
-        .m-longform h3 {
-          font-size: 26px;
-          font-size: 1.625rem;
-          line-height: 1.55;
-        }
+    }
+
+    @media (min-width: 921px) {
+
+      .h3,
+      .m-longform .h3,
+      h3,
+      .m-longform h3 {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 1.2;
       }
-      @media (min-width: 921px) {
-        .h3,
-        .m-longform .h3,
-        h3,
-        .m-longform h3 {
-          font-size: 28px;
-          font-size: 1.75rem;
-          line-height: 1.2;
-        }
-      }
-      .h4,
-      h4 {
-        margin-bottom: 20px;
-      }
+    }
+
+    .h4,
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    .h4,
+    .m-longform .h4,
+    h4,
+    .m-longform h4 {
+      font-size: 17px;
+      font-size: 1.0625rem;
+      line-height: 1.3;
+    }
+
+    @media (min-width: 621px) {
+
       .h4,
       .m-longform .h4,
       h4,
       .m-longform h4 {
-        font-size: 17px;
-        font-size: 1.0625rem;
-        line-height: 1.3;
+        font-size: 19px;
+        font-size: 1.1875rem;
       }
-      @media (min-width: 621px) {
-        .h4,
-        .m-longform .h4,
-        h4,
-        .m-longform h4 {
-          font-size: 19px;
-          font-size: 1.1875rem;
-        }
-      }
+    }
+
+    .h5,
+    .m-longform .h5,
+    h5,
+    .m-longform h5 {
+      font-size: 16px;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    @media (min-width: 621px) {
+
       .h5,
       .m-longform .h5,
       h5,
       .m-longform h5 {
-        font-size: 16px;
-        font-size: 1rem;
-        line-height: 1.3;
+        font-size: 17px;
+        font-size: 1.0625rem;
       }
-      @media (min-width: 621px) {
-        .h5,
-        .m-longform .h5,
-        h5,
-        .m-longform h5 {
-          font-size: 17px;
-          font-size: 1.0625rem;
-        }
-      }
-      .h6,
-      .m-longform .h6,
-      h6,
-      .m-longform h6 {
-        font-size: 15px;
-        font-size: 0.9375rem;
-        line-height: 1.3;
-      }
-      * {
-        box-sizing: border-box;
-      }
-      html {
-        overflow-y: scroll;
-        height: 100%;
-        -webkit-text-size-adjust: 100%;
-        background-color: var(--main-theme-color);
-      }
+    }
+
+    .h6,
+    .m-longform .h6,
+    h6,
+    .m-longform h6 {
+      font-size: 15px;
+      font-size: 0.9375rem;
+      line-height: 1.3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      overflow-y: scroll;
+      height: 100%;
+      -webkit-text-size-adjust: 100%;
+      background-color: var(--main-theme-color);
+    }
+
+    body {
+      font: 400 110%;
+      font-weight: 400;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+      line-height: 1.4;
+      font-feature-settings: "liga" 1 !important;
+      min-height: 100%;
+      background-color: white;
+      color: #222;
+    }
+
+    @media (min-width: 921px) {
       body {
-        font: 400 110%;
-        font-weight: 400;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        line-height: 1.4;
-        font-feature-settings: "liga" 1 !important;
-        min-height: 100%;
-        background-color: white;
-        color: #222;
+        border-top: none;
       }
-      @media (min-width: 921px) {
-        body {
-          border-top: none;
-        }
-      }
-      .main {
-        min-height: 100vh;
+    }
+
+    .main {
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    cite {
+      font-style: regular;
+      font-weight: 400;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+      font-style: normal;
+    }
+
+    em,
+    small,
+    dfn,
+    i,
+    q,
+    .italic {
+      font-style: regular;
+      font-weight: 400;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    }
+
+    mark {
+      background-color: #ffdc00;
+      background-color: rgba(255, 220, 0, 0.3);
+      font-weight: normal;
+      color: #444;
+    }
+
+    .caps,
+    abbr {
+      font-weight: normal;
+      font-variant: small-caps;
+      text-transform: lowercase;
+      font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    }
+
+    .caps {
+      color: #1e1b30;
+      font-size: 112%;
+    }
+
+    abbr,
+    abbr[title] {
+      border: none;
+      text-decoration: none;
+    }
+
+    acronym {
+      text-transform: normal;
+    }
+
+    iframe {
+      margin: 0 auto !important;
+    }
+
+    img,
+    video {
+      max-width: 100%;
+    }
+
+    main {
+      overflow-x: hidden;
+    }
+
+    pre {
+      overflow: auto;
+      background-color: #f1f1f1;
+      white-space: pre;
+    }
+
+    pre code {
+      padding: 20px;
+      background-color: transparent;
+      display: block;
+    }
+
+    @font-face {
+      font-family: "Newzald";
+      font-weight: 400;
+      font-style: normal;
+      src: url("../../fonts/newzald/book.woff2") format("woff2"),
+        url("../../fonts/newzald/book.woff") format("woff");
+    }
+
+    @media (min-width: 1401px) {
+      .layout-wrapper {
         display: grid;
-        grid-template-rows: auto 1fr auto;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 40px;
       }
-      cite {
-        font-style: regular;
-        font-weight: 400;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        font-style: normal;
-      }
-      em,
-      small,
-      dfn,
-      i,
-      q,
-      .italic {
-        font-style: regular;
-        font-weight: 400;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-      }
-      mark {
-        background-color: #ffdc00;
-        background-color: rgba(255, 220, 0, 0.3);
-        font-weight: normal;
-        color: #444;
-      }
-      .caps,
-      abbr {
-        font-weight: normal;
-        font-variant: small-caps;
-        text-transform: lowercase;
-        font-family: "MDSystem", -apple-system, BlinkMacSystemFont, "Segoe UI",
-          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-      }
-      .caps {
-        color: #1e1b30;
-        font-size: 112%;
-      }
-      abbr,
-      abbr[title] {
-        border: none;
-        text-decoration: none;
-      }
-      acronym {
-        text-transform: normal;
-      }
-      iframe {
-        margin: 0 auto !important;
-      }
-      img,
-      video {
-        max-width: 100%;
-      }
-      main {
-        overflow-x: hidden;
-      }
-      pre {
-        overflow: auto;
-        background-color: #f1f1f1;
-        white-space: pre;
-      }
-      pre code {
-        padding: 20px;
-        background-color: transparent;
-        display: block;
-      }
-      @font-face {
-        font-family: "Newzald";
-        font-weight: 400;
-        font-style: normal;
-        src: url("../../fonts/newzald/book.woff2") format("woff2"),
-          url("../../fonts/newzald/book.woff") format("woff");
-      }
-      @media (min-width: 1401px) {
-        .layout-wrapper {
-          display: grid;
-          grid-template-columns: repeat(12, 1fr);
-          grid-gap: 40px;
-        }
-      }
+    }
+
+    .wrapper {
+      max-width: 40em;
+      margin: 0 auto !important;
+      padding: 0 15px;
+    }
+
+    @media (min-width: 621px) {
       .wrapper {
-        max-width: 40em;
-        margin: 0 auto !important;
-        padding: 0 15px;
+        max-width: 43em;
       }
-      @media (min-width: 621px) {
-        .wrapper {
-          max-width: 43em;
-        }
-      }
-      @media (min-width: 1401px) {
-        .wrapper {
-          grid-column: 8/13;
-          padding-right: 40px !important;
-          padding-top: 80px !important;
-          margin: 0;
-        }
-      }
-      .intro-img {
-        margin-bottom: 40px;
-        overflow: hidden;
-        display: block;
-        object-fit: contain;
-        background-color: #1e1b30;
-        display: grid;
-        place-items: center;
-      }
-      .intro-img img {
-        width: 100%;
-        background-color: #1e1b30;
-      }
-      @media (min-width: 621px) {
-        .intro-img {
-          margin-bottom: 60px;
-        }
-      }
-      @media (min-width: 1401px) {
-        .intro-img {
-          margin-bottom: 0;
-          grid-row: 1;
-          grid-column: 1 / 8;
-          position: sticky;
-          top: 0;
-          height: 100vh;
-        }
-      }
-      header {
-        margin-bottom: 40px;
-        margin-top: 40px !important;
-        @media (min-width: 1401px) {
-          margin-top: 0 !important;
-        }
-      }
-      .h1 {
-        font-weight: 600 !important;
-        font-family: "Display", Helvetica, sans-serif;
-        font-size: 30px;
-        margin-top: 3px;
-        margin-bottom: 7px;
-        color: #111;
-      }
-      @media (min-width: 921px) {
-        .h1 {
-          line-height: 0.8;
-          font-size: 30px;
-        }
-      }
-      .longform {
-        padding-bottom: 100px !important;
-      }
-      .longform p {
-        font-size: 19px;
-        line-height: 1.45;
-        -webkit-hyphens: auto;
-        -webkit-hyphenate-limit-after: 2;
-        -webkit-hyphenate-limit-before: 3;
-        hyphens: auto;
-      }
-      @media (min-width: 621px) {
-        .longform p {
-          font-size: 20px;
-        }
-      }
-      @media (min-width: 921px) {
-        .longform p {
-          font-size: 20px;
-        }
-      }
-      @media (min-width: 1401px) {
-        .longform p {
-          font-size: 20px;
-        }
-      }
-      code {
-        font-size: 0.8em;
-      }
-      em {
-        font-style: italic;
-      }
-      .longform blockquote {
-        border-left: 2px solid #ddd;
-        padding-left: 15px;
-        font-size: 1em;
-      }
-      hr {
-        background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCA0OCAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDFWNi41TTIwIDE1VjkuNU0yMCA2LjVWOS41TTIwIDYuNUgyNEgyOE0yOCAxVjkuNU0yOCAxNVYxMS44ODQ2VjkuNU0yMCA5LjVIMjRIMjhNMjAgMTIuNUgyOE0yMCAzLjVIMjRIMjgiIHN0cm9rZT0iIzFFMUIzMCIvPgo8cGF0aCBkPSJNMzggMVY2LjVNMzggMTVWOS41TTM4IDYuNVY5LjVNMzggNi41SDQySDQ2TTQ2IDFWOS41TTQ2IDE1VjExLjg4NDZWOS41TTM4IDkuNUg0Mkg0Nk0zOCAxMi41SDQ2TTM4IDMuNUg0Mkg0NiIgc3Ryb2tlPSIjMUUxQjMwIi8+CjxwYXRoIGQ9Ik0yIDFWNi41TTIgMTVWOS41TTIgNi41VjkuNU0yIDYuNUg2SDEwTTEwIDFWOS41TTEwIDE1VjExLjg4NDZWOS41TTIgOS41SDZIMTBNMiAxMi41SDEwTTIgMy41SDZIMTAiIHN0cm9rZT0iIzFFMUIzMCIvPgo8L3N2Zz4K)
-          no-repeat;
-        background-size: 100%;
-        width: 80px;
-        border: none;
-        opacity: 0.2;
-        height: 45px;
-        margin: 60px auto 25px;
-      }
-      img {
+    }
+
+    @media (min-width: 1401px) {
+      .wrapper {
+        grid-column: 8/13;
+        padding-right: 40px !important;
+        padding-top: 80px !important;
         margin: 0;
-        display: block;
       }
-      .last-img {
-        margin-top: 100px;
-      }
-      .meta {
-        color: #777;
-      }
-      ::selection {
-        background-color: #fff2cc;
-      }
-    </style>
-    <!-- Feed -->
-    <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml">
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-  </head>
-  <body>
-    <article class="h-entry">
-      <div class="layout-wrapper">
-        <figure class="intro-img">
-          <img src="/images/california-4.jpg" alt="An old map California">
-        </figure>
-        <div class="wrapper longform">
-          <header>
-            <aside class="meta">
-              
-              <time datetime="2020-02-01T11:00:38.000Z">1st February 2020</time>
-               • San Francisco, California
-            </aside>
-            <h1 class="h1">
-              <span>Dartmoor, </span>
-              <span>Death Stranding,</span> and me
-            </h1>
-          </header>
-          <p><span class="caps">The cliff unfurls in all directions;</span> from inside the truck I stretch to look upwards and find myself before a teetering skyscraper made of rubble, unending and all-consuming. This thing gobbles up the sky and must be visible from every angle for a hundred miles around. So it must be impossible to bump into it at the last second and be surprised by its very—HOW on EARTH did I miss this giant bastard on the map?</p>
-<p>I brace myself for the climb by sighing as loudly as possible and the cliff appears to respond in kind; it <em>grows</em> before me. It stretches and unbuckles its belt, unfolding itself as I stare at it, the climb becoming more impossible with each passing moment. Above me, the wind violently roars as—UGH!—I have to leave this stupid idiot truck behind even though this half-busted dumb fool of an automobile was supposed to take me all the faffing way.</p>
-<p>Stupid truck. Stupid map.</p>
-<p>I slowly climb out of the truck because unloading my gear is always extremely difficult work and I extremely don’t want to do it. Should I take the ladders, ropes, and cargo I’ll need for the cliff? Or will I need the gun when I find myself at the top? What should I do about the materials that will help me build things? The metals, the ceramics. I <em>have</em> to take the grenades, right? What about the exoskeleton?</p>
-<p>“BUGGER!” I exclaim far too loudly for a fully grown British gentleman to exclaim.</p>
-<p>After some time debating which objects are essential and which must be left behind I abandon the truck and walk towards the cliff face, prepping my first ladder. But then I imagine something...kind. I think of the next porter that might stumble their way down this cliff in search of help. I imagine them without any gear, without any shoes. I look back at the truck.</p>
-<p>Someone might need this dumb idiot.</p>
-<hr>
-<p>This is what it feels like to play <em>Death Stranding</em>, the latest videogame from Kojima Productions—and it’s unlike anything I’ve ever played before.</p>
-<p>In videogames you are often pitched against everyone in the world; you must stomp and murder them, block their path, or trick and ultimately deceive them. You steal other players’ gold and their time, you take their weapons and sometimes even quite literally their beating hearts (which you happen to gently place in your backpack full of them). You use pistols and rocket launchers, grenades and the momentum of a car going full speed; everything in a videogame is a weapon.</p>
-<p>That’s not the case in <em>Death Stranding</em>. Instead, this game does something remarkable; it places you in a traitorous, evil landscape and it encourages gift-giving in the form of ladders, ropes, and equipment. As you traverse the environment you’re constantly thinking about the obstacles in your way—the rocks, the rivers, the cliffs—but you’re also careful to help players that you’ll never meet, players you’ll never even see. You can leave ladders and ropes in the environment and over time you’ll see the brutal landscape change as more folks leave equipment for you to use as well.</p>
-<p>At the beginning of the game you don’t see these gifts, it’s only with the passing of time that they begin to appear around you. But there’s something about this changing landscape—something about the cruelty of this place in <em>Death Stranding</em> that encourages...I’m not sure what. Perhaps a form of kindness that’s unfamiliar to me.</p>
-<p>And where I’m from.</p>
-<hr>
-<p>Dartmoor national park can be found nestled in the south west of England, a twenty minute drive from the city of Plymouth, and as a kid I would often walk our dogs along the moor or hike around during a day trip. These walks would always remind me of the most famous portrayal of Dartmoor: Sherlock Holmes and <em>The Hound of the Baskervilles</em>, where the moor is a frightening place full of murder and dark magic.</p>
-<p>But in my opinion nothing has quite captured the horror of Dartmoor itself. Where to begin though? It’s bitterly cold and inconsistently swampy. You can imagine ancient mythological beasts gathering near rivers and climbing the granite peaks that dot the landscape. It’s barren and wild, uncontrollable. Dartmoor is a Jeff Vandermeer wet-dream and a wicked place that scares me; it’s unlike anywhere else. You walk across the moor and realize that it does not want you here. This place isn’t for people, it’s not for creatures of any sort.</p>
-<p>Dartmoor wants all things dead.</p>
-<p>And so when I moved to California I gasped on the plane here; rivers made of light, easy-going mountains with trees casually perched on hilltops; I found that everything in California is in recline. It reminds of a scene in <em>The Sisters Brothers</em>:</p>
-<blockquote>
-<p>Charlie called over to say he was impressed with California, that there was something in the air, a fortuitous energy, was the phrase he used. I did not feel this but understood what he meant. It was the thought that something as scenic as this running water might offer you not only aesthetic solace but also golden riches; the thought that the earth itself was taking care of you, was in favor of you.</p>
-</blockquote>
-<p>And so although <em>Death Stranding</em> is set in America, and eventually what remains of California itself, it doesn’t feel ‘American’ to me at all. Instead, <em>Death Stranding</em> is the first game to accurately portray what it feels like to walk across Dartmoor. Every step requires energy and effort. Every breath, every heartbeat is in conflict with your surroundings; the rivers can knock you over and drown you in an instant; the mountains can appear out of the fog and block your path; invisible monsters lurk under the snow, watching and waiting.</p>
-<hr>
-<p><em>Ugh.</em> I carefully place “Free to use!” signs all around the truck as I hope that someone in need will find this utterly useless thing somewhat half-useful. Maybe they’ll need the gun I’ve left in the boot or maybe they’ll use it to hide from the rain and the painful weathering effects of the Time Fall.</p>
-<p>An hour later and I’ve traversed the cliff with a series of precarious ladders and ropes, delivered the package, and built a generator to recharge my exoskeleton. But suddenly another player—<em>xAbsoluteStevex</em>—overwhelms me with dozens of likes, which are racking up in the corner of my screen. Of course! The truck has been found and this player must now be barreling through the landscape and smashing that like button as fast as they can.</p>
-<p>I stop what I’m doing for a moment and think about how this truck will be passed on, player to player, all across this brutal landscape. Likes begetting Likes, forever.</p>
-<p>And for the first time in a video game I wish a stranger well as although this place might not be in favor of us, we can all be in favor of eachother.</p>
+    }
 
-        </div>
+    .intro-img {
+      margin-bottom: 40px;
+      overflow: hidden;
+      display: block;
+      object-fit: contain;
+      background-color: #1e1b30;
+      display: grid;
+      place-items: center;
+    }
+
+    .intro-img img {
+      width: 100%;
+      background-color: #1e1b30;
+    }
+
+    @media (min-width: 621px) {
+      .intro-img {
+        margin-bottom: 60px;
+      }
+    }
+
+    @media (min-width: 1401px) {
+      .intro-img {
+        margin-bottom: 0;
+        grid-row: 1;
+        grid-column: 1 / 8;
+        position: sticky;
+        top: 0;
+        height: 100vh;
+      }
+    }
+
+    header {
+      margin-bottom: 40px;
+      margin-top: 40px !important;
+
+      @media (min-width: 1401px) {
+        margin-top: 0 !important;
+      }
+    }
+
+    .h1 {
+      font-weight: 600 !important;
+      font-family: "Display", Helvetica, sans-serif;
+      font-size: 30px;
+      margin-top: 3px;
+      margin-bottom: 7px;
+      color: #111;
+    }
+
+    @media (min-width: 921px) {
+      .h1 {
+        line-height: 0.8;
+        font-size: 30px;
+      }
+    }
+
+    .longform {
+      padding-bottom: 100px !important;
+    }
+
+    .longform p {
+      font-size: 19px;
+      line-height: 1.45;
+      -webkit-hyphens: auto;
+      -webkit-hyphenate-limit-after: 2;
+      -webkit-hyphenate-limit-before: 3;
+      hyphens: auto;
+    }
+
+    @media (min-width: 621px) {
+      .longform p {
+        font-size: 20px;
+      }
+    }
+
+    @media (min-width: 921px) {
+      .longform p {
+        font-size: 20px;
+      }
+    }
+
+    @media (min-width: 1401px) {
+      .longform p {
+        font-size: 20px;
+      }
+    }
+
+    code {
+      font-size: 0.8em;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    .longform blockquote {
+      border-left: 2px solid #ddd;
+      padding-left: 15px;
+      font-size: 1em;
+    }
+
+    hr {
+      background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCA0OCAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIwIDFWNi41TTIwIDE1VjkuNU0yMCA2LjVWOS41TTIwIDYuNUgyNEgyOE0yOCAxVjkuNU0yOCAxNVYxMS44ODQ2VjkuNU0yMCA5LjVIMjRIMjhNMjAgMTIuNUgyOE0yMCAzLjVIMjRIMjgiIHN0cm9rZT0iIzFFMUIzMCIvPgo8cGF0aCBkPSJNMzggMVY2LjVNMzggMTVWOS41TTM4IDYuNVY5LjVNMzggNi41SDQySDQ2TTQ2IDFWOS41TTQ2IDE1VjExLjg4NDZWOS41TTM4IDkuNUg0Mkg0Nk0zOCAxMi41SDQ2TTM4IDMuNUg0Mkg0NiIgc3Ryb2tlPSIjMUUxQjMwIi8+CjxwYXRoIGQ9Ik0yIDFWNi41TTIgMTVWOS41TTIgNi41VjkuNU0yIDYuNUg2SDEwTTEwIDFWOS41TTEwIDE1VjExLjg4NDZWOS41TTIgOS41SDZIMTBNMiAxMi41SDEwTTIgMy41SDZIMTAiIHN0cm9rZT0iIzFFMUIzMCIvPgo8L3N2Zz4K) no-repeat;
+      background-size: 100%;
+      width: 80px;
+      border: none;
+      opacity: 0.2;
+      height: 45px;
+      margin: 60px auto 25px;
+    }
+
+    img {
+      margin: 0;
+      display: block;
+    }
+
+    .last-img {
+      margin-top: 100px;
+    }
+
+    .meta {
+      color: #777;
+    }
+
+    ::selection {
+      background-color: #fff2cc;
+    }
+  </style>
+  <!-- Feed -->
+  <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml">
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+</head>
+
+<body>
+  <article class="h-entry">
+    <div class="layout-wrapper">
+      <figure class="intro-img">
+        <img src="/images/california-4.jpg" alt="An old map California" />
+      </figure>
+      <div class="wrapper longform">
+        <header>
+          <aside class="meta">
+
+            <time datetime="2020-02-01T11:00:38.000Z">1st February 2020</time>
+            • San Francisco, California
+          </aside>
+          <h1 class="h1">
+            <span>Dartmoor, </span>
+            <span>Death Stranding,</span> and me
+          </h1>
+        </header>
+        <p><span class="caps">The cliff unfurls in all directions;</span> from inside the truck I stretch to look
+          upwards and find myself before a teetering skyscraper made of rubble, unending and all-consuming. This thing
+          gobbles up the sky and must be visible from every angle for a hundred miles around. So it must be impossible
+          to bump into it at the last second and be surprised by its very—HOW on EARTH did I miss this giant bastard on
+          the map?</p>
+        <p>I brace myself for the climb by sighing as loudly as possible and the cliff appears to respond in kind; it
+          <em>grows</em> before me. It stretches and unbuckles its belt, unfolding itself as I stare at it, the climb
+          becoming more impossible with each passing moment. Above me, the wind violently roars as—UGH!—I have to leave
+          this stupid idiot truck behind even though this half-busted dumb fool of an automobile was supposed to take me
+          all the faffing way.
+        </p>
+        <p>Stupid truck. Stupid map.</p>
+        <p>I slowly climb out of the truck because unloading my gear is always extremely difficult work and I extremely
+          don’t want to do it. Should I take the ladders, ropes, and cargo I’ll need for the cliff? Or will I need the
+          gun when I find myself at the top? What should I do about the materials that will help me build things? The
+          metals, the ceramics. I <em>have</em> to take the grenades, right? What about the exoskeleton?</p>
+        <p>“BUGGER!” I exclaim far too loudly for a fully grown British gentleman to exclaim.</p>
+        <p>After some time debating which objects are essential and which must be left behind I abandon the truck and
+          walk towards the cliff face, prepping my first ladder. But then I imagine something...kind. I think of the
+          next porter that might stumble their way down this cliff in search of help. I imagine them without any gear,
+          without any shoes. I look back at the truck.</p>
+        <p>Someone might need this dumb idiot.</p>
+        <hr>
+        <p>This is what it feels like to play <em>Death Stranding</em>, the latest videogame from Kojima Productions—and
+          it’s unlike anything I’ve ever played before.</p>
+        <p>In videogames you are often pitched against everyone in the world; you must stomp and murder them, block
+          their path, or trick and ultimately deceive them. You steal other players’ gold and their time, you take their
+          weapons and sometimes even quite literally their beating hearts (which you happen to gently place in your
+          backpack full of them). You use pistols and rocket launchers, grenades and the momentum of a car going full
+          speed; everything in a videogame is a weapon.</p>
+        <p>That’s not the case in <em>Death Stranding</em>. Instead, this game does something remarkable; it places you
+          in a traitorous, evil landscape and it encourages gift-giving in the form of ladders, ropes, and equipment. As
+          you traverse the environment you’re constantly thinking about the obstacles in your way—the rocks, the rivers,
+          the cliffs—but you’re also careful to help players that you’ll never meet, players you’ll never even see. You
+          can leave ladders and ropes in the environment and over time you’ll see the brutal landscape change as more
+          folks leave equipment for you to use as well.</p>
+        <p>At the beginning of the game you don’t see these gifts, it’s only with the passing of time that they begin to
+          appear around you. But there’s something about this changing landscape—something about the cruelty of this
+          place in <em>Death Stranding</em> that encourages...I’m not sure what. Perhaps a form of kindness that’s
+          unfamiliar to me.</p>
+        <p>And where I’m from.</p>
+        <hr>
+        <p>Dartmoor national park can be found nestled in the south west of England, a twenty minute drive from the city
+          of Plymouth, and as a kid I would often walk our dogs along the moor or hike around during a day trip. These
+          walks would always remind me of the most famous portrayal of Dartmoor: Sherlock Holmes and <em>The Hound of
+            the Baskervilles</em>, where the moor is a frightening place full of murder and dark magic.</p>
+        <p>But in my opinion nothing has quite captured the horror of Dartmoor itself. Where to begin though? It’s
+          bitterly cold and inconsistently swampy. You can imagine ancient mythological beasts gathering near rivers and
+          climbing the granite peaks that dot the landscape. It’s barren and wild, uncontrollable. Dartmoor is a Jeff
+          Vandermeer wet-dream and a wicked place that scares me; it’s unlike anywhere else. You walk across the moor
+          and realize that it does not want you here. This place isn’t for people, it’s not for creatures of any sort.
+        </p>
+        <p>Dartmoor wants all things dead.</p>
+        <p>And so when I moved to California I gasped on the plane here; rivers made of light, easy-going mountains with
+          trees casually perched on hilltops; I found that everything in California is in recline. It reminds of a scene
+          in <em>The Sisters Brothers</em>:</p>
+        <blockquote>
+          <p>Charlie called over to say he was impressed with California, that there was something in the air, a
+            fortuitous energy, was the phrase he used. I did not feel this but understood what he meant. It was the
+            thought that something as scenic as this running water might offer you not only aesthetic solace but also
+            golden riches; the thought that the earth itself was taking care of you, was in favor of you.</p>
+        </blockquote>
+        <p>And so although <em>Death Stranding</em> is set in America, and eventually what remains of California itself,
+          it doesn’t feel ‘American’ to me at all. Instead, <em>Death Stranding</em> is the first game to accurately
+          portray what it feels like to walk across Dartmoor. Every step requires energy and effort. Every breath, every
+          heartbeat is in conflict with your surroundings; the rivers can knock you over and drown you in an instant;
+          the mountains can appear out of the fog and block your path; invisible monsters lurk under the snow, watching
+          and waiting.</p>
+        <hr>
+        <p><em>Ugh.</em> I carefully place “Free to use!” signs all around the truck as I hope that someone in need will
+          find this utterly useless thing somewhat half-useful. Maybe they’ll need the gun I’ve left in the boot or
+          maybe they’ll use it to hide from the rain and the painful weathering effects of the Time Fall.</p>
+        <p>An hour later and I’ve traversed the cliff with a series of precarious ladders and ropes, delivered the
+          package, and built a generator to recharge my exoskeleton. But suddenly another
+          player—<em>xAbsoluteStevex</em>—overwhelms me with dozens of likes, which are racking up in the corner of my
+          screen. Of course! The truck has been found and this player must now be barreling through the landscape and
+          smashing that like button as fast as they can.</p>
+        <p>I stop what I’m doing for a moment and think about how this truck will be passed on, player to player, all
+          across this brutal landscape. Likes begetting Likes, forever.</p>
+        <p>And for the first time in a video game I wish a stranger well as although this place might not be in favor of
+          us, we can all be in favor of eachother.</p>
+
       </div>
-    </article>
-  
+    </div>
+  </article>
 
-</body></html>
+
+</body>
+
+</html>

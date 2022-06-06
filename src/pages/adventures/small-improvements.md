@@ -28,13 +28,13 @@ I reckon this frames our work as artists and maestros that can paint beautiful p
 
 Let’s help everyone to contribute small improvements in the right direction.
 
-<br>
+<br/>
 
 ## Letter of the Week
 
 On this note, I think the only letters that I’ve noticed this week have been David Jonathan Ross’ [Extraordinaire](https://djr.com/extraordinaire/extraordinaire-djr-specimen.pdf):
 
-<img src='https://image.ibb.co/nJs8sR/Screenshot_2018_01_16_22_59_27.png'>
+<img src='https://image.ibb.co/nJs8sR/Screenshot_2018_01_16_22_59_27.png'/>
 
 David writes about this new typeface (which was published via his most excellent [Font of the Month](https://fontofthemonth.club/) club that you should sign up for if you haven’t just yet):
 
@@ -42,4 +42,4 @@ David writes about this new typeface (which was published via his most excellent
 
 Although I’m not a big fan of art deco styled letters in general, there is something glamorous, charming and almost playful about these letters: the ampersand and the letter M are tiny wonders in particular.
 
-<img src='https://image.ibb.co/dgn8sR/Screenshot_2018_01_16_22_56_42.png'>
+<img src='https://image.ibb.co/dgn8sR/Screenshot_2018_01_16_22_56_42.png'/>

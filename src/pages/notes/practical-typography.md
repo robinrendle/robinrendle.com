@@ -19,9 +19,9 @@ For one reason or another I had entirely forgotten about Matthew Buttericks’ e
 
 Finishing a book in this environment feels so much more of an accomplishment than wrapping up a physical book, although it made for interesting reading because it was not written for upcoming graphic designers or art students (like the majority of typographic resources out there), instead this book’s aim had been calibrated specifically towards writers:
 
-<figure>
-<blockquote><p>I’m not here to tell you that typography is more important than the substance of your writing. It’s not. But typography can optimise your writing. Typography  can create a better first impression. Typography can reinforce your key points. Typography can extend reader attention. When you ignore typography, you’re ignoring an opportunity to improve the effectiveness of your writing. And isn’t that why you write? To have an effect on readers? To move them, to persuade them, to spur them to action?</p></blockquote>
-<figcaption class="cite"><p>Matthew Butterick, <em><a href="http://practicaltypography.com/introduction.html">Practical Typography</a></em></p></figcaption></figure>
+> I’m not here to tell you that typography is more important than the substance of your writing. It’s not. But typography can optimise your writing. Typography can create a better first impression. Typography can reinforce your key points. Typography can extend reader attention. When you ignore typography, you’re ignoring an opportunity to improve the effectiveness of your writing. And isn’t that why you write? To have an effect on readers? To move them, to persuade them, to spur them to action?
+
+Matthew Butterick, <a href="http://practicaltypography.com/introduction.html">Practical Typography</a>
 
 Think about that for a second, the idea that typography’s contribution isn’t merely an artistic embellishment, but an optimisation power-up, or even a performance hack. That’s why I was mesmerised with the act of design to begin with; I felt surrounded by sloppy typesetting made up of thin margins or the cheap paper stock, and it was these disabilties that just slowed the reading process to a crawl.
 

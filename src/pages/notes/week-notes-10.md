@@ -17,7 +17,7 @@ This week I was recovering from a fever/cold/nightmare illness that left me with
 
 <p>I also started work on a post about <code>background-blend-mode</code> for the <a href="https://css-tricks.com/almanac/">Almanac</a> and it’s an interesting property that gives developers the ability to manipulate images, sort of like Photoshop. Here’s a quick demo I was messing around with:</p>
 
-<p data-height="400" data-theme-id="12465" data-slug-hash="NPmpGK" data-default-tab="result" data-user="robinrendle" class="codepen">See the Pen <a href="http://codepen.io/robinrendle/pen/NPmpGK/">Background blend mode</a> by Robin Rendle (<a href="http://codepen.io/robinrendle">@robinrendle</a>) on <a href="http://codepen.io">CodePen</a>.</p><script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+<p data-height="400" data-theme-id="12465" data-slug-hash="NPmpGK" data-default-tab="result" data-user="robinrendle" class="codepen">See the Pen <a href="http://codepen.io/robinrendle/pen/NPmpGK/">Background blend mode</a> by Robin Rendle (<a href="http://codepen.io/robinrendle">@robinrendle</a>) on <a href="http://codepen.io">CodePen</a>.</p><script is:inline async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 <p>One of the cool things about front-end development is that you might have a string of projects which don’t require any of the latest properties or tools, so much so that when you try and figure out how they work it feels like designing things in the future. This is certainly the case with <code>background-blend-mode</code>, especially when you start chaining these values together for each layer of a background.</p>
 
@@ -27,6 +27,6 @@ This week I was recovering from a fever/cold/nightmare illness that left me with
 
 <p>Cool, huh? I’m not sure how useful this is in day-to-day front-end development but who cares when it’s this pretty?</p>
 
-<hr>
+<hr />
 
 <p>Next week there’ll be more about the redesign of the site, notes about a new office I’ll be moving into and some info about a couple of interesting posts I’m working on. </p>

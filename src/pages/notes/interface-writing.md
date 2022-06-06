@@ -20,7 +20,7 @@ country: Germany
 <p>Don’t assume you’re the core audience. Most of the time, we’re not designing for ourselves. Think about the universe of people out there. Word choice is extremely important when you’re trying to grow.</p>
 <p>Avoid jargon and catchphrases. Cut the bullshit. You don’t have to be hip or clever, but you do have to be nice.</p>
 </blockquote>
-<figcaption class="cite"><p>Nicole Fenton, <em><a href="http://nicolefenton.com/interface-writing/">Interface Writing</a></em></p></figcaption>
+<figcaption class="cite">Nicole Fenton, <em><a href="http://nicolefenton.com/interface-writing/">Interface Writing</a></em></figcaption>
 </figure>
 
 This talk carries on from _[Nicely Said](http://nicelysaid.co/)_, a book which Nicole co-wrote with [Kate Kiefer Lee](http://katekieferlee.com/) and where they both cling onto this branch of web design and reveal a host of issues that have bugged me for a long time as a reader. Sometimes these are issues that I couldn’t put into words properly but many of them were copywriting problems that I hadn’t even noticed consciously, problems that I merely felt as I used an interface.

@@ -28,39 +28,23 @@ I’ve often made the mistake in the past of reading technical books without exa
 
 Next up is an article by [Viljami Salminen](https://twitter.com/viljamis) over on the Adtile blog where he offers a comprehensive intro into plain JavaScript, which is especially useful if you’re more familiar with jQuery. The focus of this piece is mostly on the latest additions to the syntax, whilst taking into consideration progressive enhancement too:
 
-<figure>
-<blockquote>
-<p>While libraries like jQuery help to forget most of the browser inconsistencies, you really become familiar with them once you start using plain JavaScript for everything. To avoid writing JavaScript that’s full of browser hacks and code which only solves browser compatibility issues, I recommend building a progressively enhanced experience using feature detection to only target the more modern browsers.</p></blockquote>
-<figcaption class="cite">
-<p>Viljami Salminen, <a href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/">Adtile blog</a>
-</p>
-</figcaption>
-</figure>
+While libraries like jQuery help to forget most of the browser inconsistencies, you really become familiar with them once you start using plain JavaScript for everything. To avoid writing JavaScript that’s full of browser hacks and code which only solves browser compatibility issues, I recommend building a progressively enhanced experience using feature detection to only target the more modern browsers.
 
 ### [#3: Is it time to drop jQuery?](http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background)
 
 Likwise, this piece by [Todd Motto](https://twitter.com/toddmotto) is another great introduction to plain JavaScript that takes an interesting look at what jQuery’s doing in the background:
 
-<figure>
-<blockquote>
-<p>HTML5 doesn't just mean a few extra HTML elements, if you're putting down on your CV/Resume that you know HTML5 because you've used the new elements, then think again! HTML5 covers such a mass of technology, and also alongside it comes ECMAScript 5, the future of JavaScript. Combining HTML5 APIs, of which most require JavaScript, we need to adopt a more native structure of working as each day jQuery becomes less important, and here's why.</p></blockquote>
-<figcaption class="cite"><p>Todd Motto, <a href="http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background">toddmotto.com</a></p>
-</figcaption>
-</figure>
+> HTML5 doesn't just mean a few extra HTML elements, if you're putting down on your CV/Resume that you know HTML5 because you've used the new elements, then think again! HTML5 covers such a mass of technology, and also alongside it comes ECMAScript 5, the future of JavaScript. Combining HTML5 APIs, of which most require JavaScript, we need to adopt a more native structure of working as each day jQuery becomes less important, and here's why.
+
+Todd Motto, <a href="http://toddmotto.com/is-it-time-to-drop-jquery-essentials-to-learning-javascript-from-a-jquery-background">toddmotto.com</a>
 
 ### [#4: Everything you wanted to know about JavaScript Scope](http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/)
 
 Through that great primer on plain JavaScript by Todd I also happened to stumble upon his article which meticulously explains lexical scope. Compared to any other resource out there, I haven’t found a better description, as Todd carefully takes the reader through this unfamiliar concept, step by step:
 
-<figure>
-<blockquote>
-<p>The JavaScript language has a few concepts of "scope", none of which are straightforward or easy to understand as a new JavaScript developer (and even some experienced JavaScript developers). This post is aimed at those wanting to learn about the many depths of JavaScript after hearing words such as scope, closure, this, namespace, function scope, global scope, lexical scope and public/private scope.
-</p>
-</blockquote>
-<figcaption class="cite">
-<p>Todd Motto, <a href="http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/">toddmotto.com</a></p>
-</figcaption>
-</figure>
+> The JavaScript language has a few concepts of "scope", none of which are straightforward or easy to understand as a new JavaScript developer (and even some experienced JavaScript developers). This post is aimed at those wanting to learn about the many depths of JavaScript after hearing words such as scope, closure, this, namespace, function scope, global scope, lexical scope and public/private scope.
+
+Todd Motto, <a href="http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/">toddmotto.com</a>
 
 ### [#5: Help, I’m stuck in an event loop!](http://vimeo.com/96425312)
 
@@ -70,15 +54,9 @@ This video of a talk by [Philip Roberts](https://twitter.com/philip_roberts) at 
 
 Finally, I’ve been working my way through this more complicated collection of design patterns as detailed by [Addy Osmani](https://twitter.com/addyosmani). Although it looks a little scary at first, understanding how to organise a lot of JavaScript into a cohesive pattern is vital for maintaining the codebase and working on larger JS applications:
 
-<figure>
-<blockquote>
-<p>A pattern is a reusable solution that can be applied to commonly occurring problems in software design - in our case - in writing JavaScript web applications. Another way of looking at patterns are as templates for how we solve problems - ones which can be used in quite a few different situations.</p>
-<p>Patterns are not an exact solution. It’s important that we remember the role of a pattern is merely to provide us with a solution scheme. Patterns don’t solve all design problems nor do they replace good software designers, however, they do support them. Next we’ll take a look at some of the other advantages patterns have to offer.</p>
-</blockquote>
-<figcaption class="cite">
-<p>Addy Osmani, <a href ="http://addyosmani.com/resources/essentialjsdesignpatterns/book/">addyosmani.com</a></p>
-</figcaption>
-</figure>
+> A pattern is a reusable solution that can be applied to commonly occurring problems in software design - in our case - in writing JavaScript web applications. Another way of looking at patterns are as templates for how we solve problems - ones which can be used in quite a few different situations.
+>
+> Patterns are not an exact solution. It’s important that we remember the role of a pattern is merely to provide us with a solution scheme. Patterns don’t solve all design problems nor do they replace good software designers, however, they do support them. Next we’ll take a look at some of the other advantages patterns have to offer.
 
 ---
 

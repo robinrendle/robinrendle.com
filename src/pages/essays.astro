@@ -11,41 +11,42 @@ interface MarkdownFrontmatter {
 const { title = 'Essays and Articles' } = Astro.props;
 const { description = 'Designer and writer' } = Astro.props;
 
-let essayPosts = await Astro.fetchContent('../pages/essays/*.md');
-essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.date).valueOf());
+let essayPosts = await Astro.glob('../pages/essays/*.md');
+essayPosts = essayPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
 
 ---
+
 <!DOCTYPE html>
 <html data-theme="light" lang="en">
-  <head>
-    <MainHead
-      title={'Essays'}
-      description={description}
-    />
 
-    <style lang="scss">
-      .title {
-        font-size: 3em;
-        letter-spacing: -0.04em;
-        margin-top: 2rem;
-        margin-bottom: 0;
-        text-align: center;
-      }
+<head>
+  <MainHead title={'Essays'} description={description} />
 
-      .count {
-        font-size: 1em;
-        display: block;
-        text-align: center;
-      }
-    </style>
-  </head>
+  <style lang="scss">
+    .title {
+      font-size: 3em;
+      letter-spacing: -0.04em;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      text-align: center;
+    }
 
-  <body>
-    <Nav title={title} />
-    <main class="wrapper">
-      <ArticleList title="Essays & Articles">
-        {essayPosts.map(p => <ArticleItem post={p} />)}        
-      </ArticleList>
-    </main>
-  </body>
+    .count {
+      font-size: 1em;
+      display: block;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <Nav title={title} />
+  <main class="wrapper">
+    <ArticleList title="Essays & Articles">
+      {essayPosts.map(p =>
+      <ArticleItem post={p} />)}
+    </ArticleList>
+  </main>
+</body>
+
 </html>

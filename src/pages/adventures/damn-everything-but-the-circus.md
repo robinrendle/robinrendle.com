@@ -30,9 +30,9 @@ The title of her book is a reference to a poem by E.E. Cummings that I had never
 
 > Damn everything but the circus! ...damn everything that is grim, dull, motionless, unrisking, inward turning, damn everything that won’t get into the circle, that won’t enjoy. That won’t throw it’s heart into the tension, surprise, fear and delight of the circus, the round world, the full existence...
 
-Until next week! <br>
+Until next week! <br/>
 ✌️ Robin
 
-<br>
-<br>
-<br>
+<br/>
+<br/>
+<br/>

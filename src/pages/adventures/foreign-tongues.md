@@ -6,12 +6,12 @@ date: 2018-05-20
 
 I’m not sure if you have a favorite passage in the English language but I most certainly do, and it’s really the only parlor trick that I know. At a moment’s notice I can recite this bit of text and immediately become an unbearable 17th century Duke:
 
-> Thoughts, whither have ye led me, with what sweet<br>
-> Compulsion thus transported to forget, <br>
-> What hither brought us hate, not love, nor hope <br>
-> Of Paradise for Hell, hope here to taste<br>
-> Of pleasure, but all pleasure to destroy,<br>
-> Save what is in destroying, other joy <br>
+> Thoughts, whither have ye led me, with what sweet<br/>
+> Compulsion thus transported to forget, <br/>
+> What hither brought us hate, not love, nor hope <br/>
+> Of Paradise for Hell, hope here to taste<br/>
+> Of pleasure, but all pleasure to destroy,<br/>
+> Save what is in destroying, other joy <br/>
 > To me is lost.
 
 It’s a passage from Milton’s _Paradise Lost_ where Lucifer describes how he gains pleasure only in breaking things and being a big, dumb jerk all the time. But he’s angry and doesn’t really want to be the devil and there’s something wildly interesting to me about that idea. Plus, the words just sound real good. Oh and try reading them aloud because that’s how Milton, once appointed as the Secretary for Foreign Tongues by the British Government (which is by far the coolest government position of all time if you ask me), dictated them due to his blindness. In other words his writing at this point was meant to be heard aloud, preferably as close as you can get to the seventeenth century; with a cozy fire and a sleeping dog.

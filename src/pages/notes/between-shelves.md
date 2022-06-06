@@ -19,7 +19,7 @@ I wanted to write a little bit about this service because I’ve been looking fo
 Right off the bat you’ll probably notice how it deals with social stuff in a peculiar way. Your stream of friends and the books that they’re reading doesn’t interrupt your own reading and scrambles aside when necessary. Likewise, finding books to read within this stream leaves me without the programmatic responses of a Twitter feed or an Instapaper queue. That feeling of trying to catch up and _read everything_ simply doesn’t exist within this service.
 
 <figure class="pull_left">
-    <img src="/images/readmill.png" alt="Readmill’s iPad app">
+    <img src="/images/readmill.png" alt="Readmill’s iPad app" />
 </figure>
 
 Managing that balance between letting the network in and keeping it out of the way for a good read is more difficult than it seems. With my Kindle I feel entirely alone, as if I was reading a physical book, the connections between readers is distant. But the guys at Readmill clearly want you to take your time and enjoy the book you’re currently reading and then, perhaps later, take in a broad overview of your friends’ books that you might find interesting.
@@ -28,13 +28,7 @@ Managing that balance between letting the network in and keeping it out of the w
 
 A few months ago I read Italo Calvino’s novel _If on a winter’s night a traveler_ and it wasn’t until several weeks later that I realised how perfectly it captured my sentiments about this little application. In the extract below, the protagonist of the novel is imagining what reading can become and what sort of untapped potential, in the act of reading itself, is lying dormant. He wonders how it might stir if we were to dream beyond the page or the spine:
 
-<figure class="quote">
-    <img src="/images/calvino.png" alt="Italo Calivino">
-    <blockquote>
-        <p>Your reading is not solitary: you think of the Other Reader, who, at this same moment, is also opening the book: and there, the novel to be read is superimposed by a possible novel to be lived, the continuation of your story with her, or better still the beginning of a possible story. [&hellip;] Does this mean that the book has become an instrument, a channel of communication, a rendezvous?</p>
-    </blockquote>
-    <figcaption class="cite"><p>Italo Calvino, <em>If on a winter’s night a traveller</em></p></figcaption>
-</figure>
+> Your reading is not solitary: you think of the Other Reader, who, at this same moment, is also opening the book: and there, the novel to be read is superimposed by a possible novel to be lived, the continuation of your story with her, or better still the beginning of a possible story. [&hellip;] Does this mean that the book has become an instrument, a channel of communication, a rendezvous?
 
 When the author describes these _possible stories_ and this _rendezvous_ between novels, my mind instantly hops around the idea of plugging our books into the web and connecting all of the dots and nodes in between. I dream of how the network splits the books further and further down into segments and searchable components, easily referenced at any given moment. With the ability to trace a person’s thoughts through a text they can become something more than what they were; we can make these books our own. So, as my mind swims through through all of this, I can’t help but dream of all the possible stories that will live online.
 
@@ -45,7 +39,7 @@ Much as been written about how ebooks should be sold and how they should work; t
 Whenever I see folks hunched over their phones at a bar, or reading their Kindles in coffee shops, these are the questions that I find myself trying to answer. But these questions can be easily summarised: _is the platform flexible and trustworthy for the future?_
 
 <figure class="pull_right">
-    <img src="/images/book.gif" alt="Pages from an early 16th century book">
+    <img src="/images/book.gif" alt="Pages from an early 16th century book"/>
 </figure>
 
 At the moment we must secede this point – companies that often conflict with our own desires are truly in control of our digital libraries. Amazon for example, lock their books’ contents to a particular format, and in so doing, limit all of the opportunities between them. [DRM hurts books](http://alistapart.com/article/publication-standards-part-1-the-fragmented-present) and the libraries that hold them, it’s as simple as that. But what might be considered a problem of standards, much like in the early days of the web, we find that other problems unfold when we try to envision this library of rendezvous and possible stories:

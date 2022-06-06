@@ -1,948 +1,1049 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js html">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Robin Rendle › Newsletters</title>
-    <meta name="author" content="Robin Rendle"/>
-    <meta name="description" content=""/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="author" href="https://plus.google.com/104389809267012182640"/>
 
-    <!-- Feed -->
-    <link
-      href="https://robinrendle.com/feed.xml"
-      rel="alternate"
-      type="application/atom+xml"
-/>
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/favicons/apple-touch-icon.png"
-/>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/favicons/favicon-32x32.png"
-/>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/favicons/favicon-16x16.png"
-/>
+<head>
+  <meta charset="utf-8" />
+  <title>Robin Rendle › Newsletters</title>
+  <meta name="author" content="Robin Rendle" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="author" href="https://plus.google.com/104389809267012182640" />
 
-<link rel="alternate icon" href="/favicons/favicon.ico">
-    <style lang="scss">
+  <!-- Feed -->
+  <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-@font-face {
-  font-family: "Aluminia";
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-  src: url("../../fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2"),
-    url("../../fonts/aluminia/LfAAluminia-Roman.woff") format("woff");
-}
+  <link rel="alternate icon" href="/favicons/favicon.ico">
+  <style lang="scss" is:inline>
+    @font-face {
+      font-family: "Aluminia";
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      src: url("../../../fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2");
+    }
 
-@font-face {
-  font-family: "Aluminia";
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-  src: url("../../fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2"),
-    url("../../fonts/aluminia/LfAAluminia-Italic.woff") format("woff");
-}
+    @font-face {
+      font-family: "Aluminia";
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+      src: url("../../../fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2");
+    }
 
-* {
-  box-sizing: border-box;
-}
+    * {
+      box-sizing: border-box;
+    }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
 
-body {
-    margin: 0;
-  font-size: 100%;
-  display: flex;
-  flex-direction: column;
-  font-family: Aluminia, serif;
-  line-height: 1.2;
-  height: 100vh;
-}
+    body {
+      margin: 0;
+      font-size: 100%;
+      display: flex;
+      flex-direction: column;
+      font-family: Aluminia, serif;
+      line-height: 1.2;
+      height: 100vh;
+    }
 
-@media screen and (min-width: 767px) {
-  body {
-    line-height: 1.2;
-  }
-}
+    @media screen and (min-width: 767px) {
+      body {
+        line-height: 1.2;
+      }
+    }
 
-.slide-container {
-  scroll-snap-type: y mandatory;
-  height: 100vh;
-  height: 100vh;
-  overflow-y: scroll;
-}
+    .slide-container {
+      scroll-snap-type: y mandatory;
+      height: 100vh;
+      height: 100vh;
+      overflow-y: scroll;
+    }
 
-.slide {
-    background: red;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  background-color: white;
-  scroll-snap-align: start;
-}
+    .slide {
+      background: red;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      min-height: 100vh;
+      background-color: white;
+      scroll-snap-align: start;
+    }
 
-@media screen and (min-width: 767px) {
-  .slide {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+    }
 
-abbr {
-  text-transform: lowercase;
-  font-variant: small-caps;
-}
+    abbr {
+      text-transform: lowercase;
+      font-variant: small-caps;
+    }
 
-.slide--chapter {
-  display: grid;
-  place-items: center;
-  background: #111;
-  color: white;
-  font-size: 8vw;
-}
+    .slide--chapter {
+      display: grid;
+      place-items: center;
+      background: #111;
+      color: white;
+      font-size: 8vw;
+    }
 
-.slide-text {
-  padding: 40px 20px;
-  font-size: 1.55rem;
-  background-color: #111;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+    .slide-text {
+      padding: 40px 20px;
+      font-size: 1.55rem;
+      background-color: #111;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
 
-@media screen and (min-width: 767px) {
-  .slide-text {
-    width: 450px;
-    font-size: 1.875rem;
-    padding: 40px;
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide-text {
+        width: 450px;
+        font-size: 1.875rem;
+        padding: 40px;
+      }
+    }
 
-.slide-text p {
-  margin: 0;
-}
+    .slide-text p {
+      margin: 0;
+    }
 
-.slide-text ol {
-  padding-left: 0;
-  font-size: .9em;
-}
+    .slide-text ol {
+      padding-left: 0;
+      font-size: .9em;
+    }
 
-.slide-img {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: imageIn .5s easeIn forwards;
-}
+    .slide-img {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      animation: imageIn .5s easeIn forwards;
+    }
 
-@media screen and (min-width: 767px) {
-  .slide-img {
-    width: calc(100vw - 450px);
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide-img {
+        width: calc(100vw - 450px);
+      }
+    }
 
-.slide-img img {
-  max-height: 60vh;
-  max-height: 60vh;
-  max-width: 100%;
-}
+    .slide-img img {
+      max-height: 60vh;
+      max-height: 60vh;
+      max-width: 100%;
+    }
 
-@media screen and (min-width: 767px) {
-  .slide-img img {
-    max-width: 100%;
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide-img img {
+        max-width: 100%;
+      }
+    }
 
-.slide-img .slide-img__flowers {
-  max-width: 300px;
-}
+    .slide-img .slide-img__flowers {
+      max-width: 300px;
+    }
 
-@media screen and (min-width: 767px) {
-  .slide-img .slide-img__flowers {
-    max-width: 400px;
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide-img .slide-img__flowers {
+        max-width: 400px;
+      }
+    }
 
-.slide-img .slide-img__giant {
-  max-width: 350px;
-}
+    .slide-img .slide-img__giant {
+      max-width: 350px;
+    }
 
-@media screen and (min-width: 767px) {
-  .slide-img .slide-img__giant {
-    max-width: 450px;
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide-img .slide-img__giant {
+        max-width: 450px;
+      }
+    }
 
-@media screen and (min-width: 767px) {
-  .slide-img__coins {
-    max-width: 600px !important;
-  }
-}
+    @media screen and (min-width: 767px) {
+      .slide-img__coins {
+        max-width: 600px !important;
+      }
+    }
 
-@keyframes imageIn {
-  0% {
-    opacity: 0;
-  } 100% {
-    opacity: 1;
-  }
-}
+    @keyframes imageIn {
+      0% {
+        opacity: 0;
+      }
 
-.slide-title {
-  color: white;
-}
+      100% {
+        opacity: 1;
+      }
+    }
 
-.slide-chapter {
-  border-bottom: 1px solid #555;
-}
+    .slide-title {
+      color: white;
+    }
 
-.slide-chapter .slide-text {
-  width: 100%;
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-}
+    .slide-chapter {
+      border-bottom: 1px solid #555;
+    }
 
-.slide-chapter .slide-text h2 {
-  color: #ffc227;
-  font-size: 1.5rem;
-  text-transform: lowercase;
-  font-variant: small-caps;
-  font-weight: 400;
-}
+    .slide-chapter .slide-text {
+      width: 100%;
+      height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+    }
 
-.slide-chapter .slide-text h2,
-.slide-chapter .slide-text p {
-  margin: 0;
-}
+    .slide-chapter .slide-text h2 {
+      color: #ffc227;
+      font-size: 1.5rem;
+      text-transform: lowercase;
+      font-variant: small-caps;
+      font-weight: 400;
+    }
 
-.slide--empty {
-  background-color: #111;
-}
+    .slide-chapter .slide-text h2,
+    .slide-chapter .slide-text p {
+      margin: 0;
+    }
 
-.date {
-  color: #ffc227;
-  font-size: .8em;
-  text-transform: lowercase;
-  font-variant: small-caps;
-}
+    .slide--empty {
+      background-color: #111;
+    }
 
-.date span {
-  position: relative;
-  top: 4px;
-}
+    .date {
+      color: #ffc227;
+      font-size: .8em;
+      text-transform: lowercase;
+      font-variant: small-caps;
+    }
 
-abbr {
-  text-decoration: none;
-}
+    .date span {
+      position: relative;
+      top: 4px;
+    }
 
-h1 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1em;
-}
+    abbr {
+      text-decoration: none;
+    }
 
-a {
-  color: #ffc227;
-}
+    h1 {
+      margin: 0;
+      font-weight: 400;
+      font-size: 1em;
+    }
 
+    a {
+      color: #ffc227;
+    }
   </style>
-  </head>
+</head>
+
 <body class="body">
-<section class="slide-container">
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An ornamental leaf design with the word 'newsletter' in the center" src="/images/essays/on-newsletters/00-newsletters.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p class="date">Robin Rendle <span>∙</span> <time datetime="2021-01-03">January 2021</time></p>
-      <h1>Newsletters; or, an enormous rant about writing on the web that doesn’t really go anywhere and that’s okay with me</h1>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An illustration of a house at night with a figure at the window" src="/images/essays/on-newsletters/01-lucy-bellwood.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>My friend Lucy once told me that she falls in love with the way that someone thinks&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An illustration of a man looking at a watch being built" src="/images/essays/on-newsletters/02-setting-up-watches.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>&hellip;and that’s what newsletters make possible for me; they’re a record of how strangers see the world.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An illustration of a group of people playing music" src="/images/essays/on-newsletters/03-music-water.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Newsletters give me permission to fall in love with someone I’ll never meet&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A group of people on a hot air balloon looking back at Earth" src="/images/essays/on-newsletters/04-looking-at-world.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>&hellip;someone very far away&hellip;</p>
-    </div>
-  </div>
-  
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Under a streetlamp a man reads a letter" src="/images/essays/on-newsletters/05-fathers-letter.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>And over the past few years I’ve fallen in love with so many writers through newsletters! On all sorts of subjects!</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="The Cistern of Philoxenos, a subterranean reservoir in Istanbul" src="/images/essays/on-newsletters/06-cistern-philoxenos.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>There are dazzling newsletters; those of grand adventures and epic mysteries&hellip;</p>
-    </div>
-  </div>
-  
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An enormous wallpaper printing machine" src="/images/essays/on-newsletters/07-wallpaper-printing-machine.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>...and newsletters about complex systems, showing us how the world is put together.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img class="slide-img__flowers" alt="A horseshoe geranium flower" src="/images/essays/on-newsletters/08-flower-horseshoe-geranium.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Not to forget smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! These sit side by side with newsletters that are just&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A dog plays the flute" src="/images/essays/on-newsletters/09-playing-flute.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>&hellip;<em>weird.</em></p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A group of women at the post office" src="/images/essays/on-newsletters/10-post-office.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>So my question here is a difficult one to ask, because I love newsletters so very much&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An astronomer looks up at the stars" src="/images/essays/on-newsletters/11-herschel.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>&hellip;but is this progress?</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A sad boy is sat in a chair feeling sad" src="/images/essays/on-newsletters/12-sad-boy.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>I guess there’s something about newsletters that bugs me, and I can’t put my finger on it.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Edison’s electric pen" src="/images/essays/on-newsletters/13-edisons-electric-pen.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>It bothers me that writers can’t create audiences on their own websites, with their own archives, and their own formats. And they certainly can’t get paid in the process. (Although yes, there are exceptions).</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A carbonated water factory" src="/images/essays/on-newsletters/14-carbonated-water-factory.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Heck, just the technical expertise required to have your own website is extremely cumbersome and inaccessible to many.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A man sits in a cave surrounded by coins" src="/images/essays/on-newsletters/15-minted-money.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>You might think: ah, newsletters are the future because that’s where the money is!</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img class="slide-img__giant" alt="A man sits in a cave surrounded by coins" src="/images/essays/on-newsletters/16-lilliputian-troops-marching.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>But the real advantage with newsletters is that they give us super powers. You don’t need to learn about <abbr title="Hypertext markup language">HTML</abbr> or <abbr title="Cascading stylesheets">CSS</abbr> or databases to get started.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A giant person towers over an army" src="/images/essays/on-newsletters/17-sad-boy-zoom.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Despite these super powers, I still think that using email to send words to each other is just entirely <em>ugh</em>.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two people look at a piece of paper" src="/images/essays/on-newsletters/18-colonel-stood-by.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Perhaps I feel this way because reading everything in my inbox is somewhat antiquated. It’s almost as if we’ve gone back to reading off parchment after we invented books.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two people look up at a series of beautiful paintings" src="/images/essays/on-newsletters/19-comfort-forgive.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Books are so much better than parchment in the same way that websites are so much better than email.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A person setting metal type" src="/images/essays/on-newsletters/20-printing-form.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>And we’ve all moved to newsletters at the very moment when websites can do amazing things with layout and typography! We finally have grids and beautiful fonts and the wonders of print design on the web for the first time.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two divers fight an enormous crab" src="/images/essays/on-newsletters/21-spider-crab.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Yet websites are treated as these embarrassing, ugly, ad-riddled things, whilst newsletters have established some kind of prestige for themselves somehow.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Nusretiye Mosque" src="/images/essays/on-newsletters/23-nusretiye-mosque.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>The web doesn’t have to be this ugly and embarrassing thing though; the web can be made beautiful.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A table floats into the air" src="/images/essays/on-newsletters/24-table-slipped.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>And I’m saying this as someone who’s spent the better part of the last three years writing emails to strangers—because I feel both liberated and yet also cursed by them. Newsletters are just&hellip;inescapable if you want to be a writer today.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Skull and crossbones" src="/images/essays/on-newsletters/25-skull-crossbones.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>But if websites are so great then why did everyone (including me) move to newsletters? Why did blogs die off? Well, there are ten million answers to those questions, but only three I want to focus on.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two men fight fight with swords" src="/images/essays/on-newsletters/26-bout-stranger.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Newsletters killed blogs because&hellip;</p>
-      <ol>
-        <li>They’re impossibly easy to publish.</li>
-        <li>Your inbox is a notification stream.</li>
-        <li>Writers can actually, ya know, get paid.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A man falls from the sky" src="/images/essays/on-newsletters/27-de-groof-falling.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Alternatively, websites today&hellip;</p>
-      <ol>
-        <li>Are difficult to make.</li>
-        <li>Can’t notify people of new work.</li>
-        <li>Aren’t able to pay writers easily.</li>
-      </ol>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A handmade organ" src="/images/essays/on-newsletters/28-organ.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>These are the main problems today but now, because of newsletters, I look back on writing for the web as this clunky, annoying process in comparison. The machine sure is beautiful but it requires so much damn work to get singing.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="The bottom of the sea" src="/images/essays/on-newsletters/29-bottom-sea.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>So I wonder how we can get the best of both worlds here: the ease of publishing newsletters, with all the beauty and archivability of websites. But what I’m really asking is&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A beautiful landscape" src="/images/essays/on-newsletters/30-abbey-mussorie.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>&hellip;how do we make the web for everyone?</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A dog walks down a street with a monocle" src="/images/essays/on-newsletters/31-zoom-in-dog.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Let’s take a closer look.</p>
-    </div>
-  </div>
-
-  <div class="slide slide-chapter">
-    <div class="slide-text">
-      <h2>Part One</h2>
-      <p>Websites are too damn complicated</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A compositor selects metal letters from a case" src="/images/essays/on-newsletters/32-compositor.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Websites haven’t gotten any easier to make over the past thirty years.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Demons gather in hell" src="/images/essays/on-newsletters/33-dreadful-din.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>You still need to learn <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cascading Stylesheets">CSS</abbr> to make a website. You still need to learn about hosting and domain names. You might even be forced to learn what the abbreviation  <abbr title="Content management system">CMS</abbr> stands for, and I simply refuse to curse you with that knowledge.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A gondola falls from the sky" src="/images/essays/on-newsletters/34-gondola.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>The web was originally intended to be read and written by everyone, but the technical hurdles of setting up a website excludes the vast majority of people. It should all be so much easier.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A circle of giant men gather around a fire" src="/images/essays/on-newsletters/35-fire-circle.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>I’m not talking about the complexity of building giant web apps here. Even the smallest websites—with nothing more than text—are far too difficult to build.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Looting a pirate ship of its treasure" src="/images/essays/on-newsletters/36-removing-treasure.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>But perhaps we didn’t bother trying to improve writing on the web because we let social networks devour all our words—the archives be damned.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Looting a pirate ship of its treasure" src="/images/essays/on-newsletters/37-wolves-wolves.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>The solution? Well, I have a few ideas, but one thing I’m dead certain of is that startups shouldn’t be fixing this for us.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Sea biscuit machine" src="/images/essays/on-newsletters/38-sea-biscuit-machine.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>There have been some positive developments in recent years with the likes of static site generators, but again they still feel way too complex to me.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Sea biscuit machine" src="/images/essays/on-newsletters/39-appeared-flash.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>On this note, not so long ago I stumbled upon a service called <a href="https://blot.im/">blot.im</a> and it showed me what building a website <em>could</em> be like; easy, fast, accessible.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A person walks into a storm" src="/images/essays/on-newsletters/40-pencroff-ran.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>I reckon this is the future we should be striving towards.</p>
-    </div>
-  </div>
-
-  <div class="slide slide-chapter">
-    <div class="slide-text">
-      <h2>Part Two</h2>
-      <p>RSS is for Nerds</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two men looking at a book" src="/images/essays/on-newsletters/41-unintelligible-writing.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>When you subscribe to a newsletter you don’t have to keep coming back to the source to see if there’s something new. Whenever a writer publishes something then you just get an email.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two men looking at a book" src="/images/essays/on-newsletters/42-my-friend-please.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>The problem with the web is that when you publish something it just sort of disappears from sight. Writers have to spam all the social networks to remind people that they even exist.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A woman looks into a mirror to see a ghostly face look back" src="/images/essays/on-newsletters/43-dead-aunt.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>And yet the web sort of has this built-in notification stream and sort of…doesn’t at the same time.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A head rests on a table in a museum" src="/images/essays/on-newsletters/44-talking-head.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>It’s called <abbr title="Really Simple Syndication">RSS</abbr>; an ancient, dusty technology that lets you subscribe to a website and see updates as they happen. With an <abbr title="Really Simple Syndication">RSS</abbr> reader app you can see what’s new from your favorite writers.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Fortifications outside the city walls of the Alhambra" src="/images/essays/on-newsletters/45-alhambra-entrance.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Basically my whole political platform is this: <abbr title="Really Simple Syndication">RSS</abbr> is the promised land.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A dog reads the newspaper" src="/images/essays/on-newsletters/46-reading-news.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>It’s the perfect way to read the web and to keep up to date with things. So much so that I consider my <abbr title="Really Simple Syndication">RSS</abbr> reader (Reeder.app) to be my favorite web browser, not Chrome, Firefox, or Safari.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Manufacturing glass bottles" src="/images/essays/on-newsletters/47-manufacture-bottles.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>The problem with <abbr title="Really Simple Syndication">RSS</abbr> is that you need to know that <abbr title="Really Simple Syndication">RSS</abbr> exists, how it works, which websites support it, etc. It’s nothing short of an enormous faff.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A microscope" src="/images/essays/on-newsletters/48-microscope.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>But it’s not like <abbr title="Really Simple Syndication">RSS</abbr> is brain surgery, the problem is that it’s hidden away and just complicated enough that 99% of folks won’t care about it.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An enormous steam hammer" src="/images/essays/on-newsletters/49-creusot-steam-hammer.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>“<abbr title="Really Simple Syndication">RSS</abbr> is far too complex!” you might say. Well, <abbr title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine that powers podcasts. So why isn’t <abbr title="Really Simple Syndication">RSS</abbr> used for websites if we use it everyday for audio?</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="An enormous steam hammer" src="/images/essays/on-newsletters/50-halleys-diving-bell.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>I reckon <abbr title="Really Simple Syndication">RSS</abbr> never reached critical scale for websites because it was never built into the browser itself. The failure here wasn’t the technology but the distance between <abbr title="Really Simple Syndication">RSS</abbr> and how we browse the web.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Eads Bridge" src="/images/essays/on-newsletters/51-eads-bridge.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Hear me out: if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the surface of the browser then I expect legions of people would adore it. No longer would you have to give all these strangers your email address to sign up for the newsletter. </p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A skeleton pursues a man on a bobsled" src="/images/essays/on-newsletters/52-demon-pursuer.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>And if we could subscribe to websites easily then the web itself might not feel quite so forgettable.</p>
-    </div>
-  </div>
-
-  <div class="slide slide-chapter">
-    <div class="slide-text">
-      <h2>Part Three</h2>
-      <p>Paying writers is too damn hard</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A ghostly figure haunts a woodsman" src="/images/essays/on-newsletters/53-mercury-woodman.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>This has been called the original sin of the internet. Since you can’t pay someone directly through the browser, the thinking goes, then all these other hacks pop up to squeeze money out of folks; invasive and ugly advertising, privacy-breaking data collection, etc. </p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A room full of people clap" src="/images/essays/on-newsletters/54-gun-club-meeting.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>If you have enough technical knowledge or a big enough following then you can build a subscription service for your website. This isn’t possible for a lot of writers though.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A diamond boring machine" src="/images/essays/on-newsletters/55-diamond-boring-machine.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>But why should subscribing to a website be any more complex than subscribing to a newsletter? Why do I have to go through Substack or Patreon or the Kindle as a middleman?</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A diamond boring machine" src="/images/essays/on-newsletters/56-corpse-candles.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Look—I adore these services because they open the doors for so many new writers and buck wild stories. But that’s only because the web itself is so damn difficult to make work as an independent publishing platform.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A man is pushed off a gangplank" src="/images/essays/on-newsletters/57-walking-plank.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Paying and subscribing to a writer’s work should be one click away, without having to go through a middleman who takes a big percentage off the top.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img class="slide-img__coins" alt="Coins" src="/images/essays/on-newsletters/58-coins.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>There are neat developments in this space: services like Coil or web browsers like Puma are worth paying attention to because they’re trying to upend the way that money is distributed on the web.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="" src="/images/essays/on-newsletters/59-dragged.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>There’s also, well, brace yourself: the Web Monetization <abbr tite="Application programming interface">API</abbr>. That sounds scary! But I think it’s where things get truly interesting (although it’s still far too complicated for most writers to benefit from).</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A painter at work" src="/images/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>My point here is that being able to pay folks easily through the browser could open the door for all sorts of other artists, not just writers. </p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A young boy rides a strange contraption" src="/images/essays/on-newsletters/61-deghens-machine.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Also, writers choose a newsletter service like Substack because the business model is straightforward. I just sort of wish this infrastructure was built into websites themselves.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A man is led into a secret door by the devil" src="/images/essays/on-newsletters/62-stealing.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>My point is this: there’s a viable alternative to newsletters if we fill in all these gaps.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Two men float in a balloon" src="/images/essays/on-newsletters/63-altitude-experiments.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>All I know is that the web today is not made for us. It’s no longer made for people to send charming bits of texts to strangers. </p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A person in a very strange underwater suit" src="/images/essays/on-newsletters/64-klingerts-diving-machine.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Instead, I see the web as this public good that’s been hijacked by companies trying to sell us mostly heartless junk.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Knights storm a castle" src="/images/essays/on-newsletters/65-scotch-soldiers.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>The web today is built for apps—and I think we need to take it back.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Knights storm a castle" src="/images/essays/on-newsletters/66-time-zone-watch.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Because there are so many break-ups and coffee beans to write about! There are stories about clocks and Northumberland flower gardens waiting to be recorded, gift-wrapped, and delivered to us!</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A woman reads a letter" src="/images/essays/on-newsletters/67-imogen.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>What really excites me about the sudden popularity of newsletters is that it shows us how people desperately want this kind of writing still. They value the web in the same way that I do.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A monster attacks a ship" src="/images/essays/on-newsletters/68-arm-glided.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>What this also shows me is that we haven’t given everything up to social networks yet. This makes me hopeful&hellip;</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A monster attacks a ship" src="/images/essays/on-newsletters/69-electrical-devices.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>&hellip;because the web is still unfinished and there’s so much work left to do.</p>
-    </div>
-  </div>
-
-  <div class="slide slide--empty"></div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="Making a toast at dinner" src="/images/essays/on-newsletters/70-toast.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a> for all these lovely woodcuts and metal engravings. Also thanks to Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali Burnett, Crick, and the Letterform Archive for the <a href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a> type family.</p>
-    </div>
-  </div>
-
-  <div class="slide">
-    <div class="slide-img">
-      <img alt="A man saying goodbye" src="/images/essays/on-newsletters/71-after-dark.jpg" loading="lazy"/>
-    </div>
-    <div class="slide-text">
-      <p>Now go away.</p>
-    </div>
-  </div>
-</section>
+  <section class="slide-container">
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An ornamental leaf design with the word 'newsletter' in the center"
+          src="/images/essays/on-newsletters/00-newsletters.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p class="date">Robin Rendle <span>∙</span> <time datetime="2021-01-03">January 2021</time></p>
+        <h1>Newsletters; or, an enormous rant about writing on the web that doesn’t really go anywhere and that’s okay
+          with me</h1>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An illustration of a house at night with a figure at the window"
+          src="/images/essays/on-newsletters/01-lucy-bellwood.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>My friend Lucy once told me that she falls in love with the way that someone thinks&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An illustration of a man looking at a watch being built"
+          src="/images/essays/on-newsletters/02-setting-up-watches.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>&hellip;and that’s what newsletters make possible for me; they’re a record of how strangers see the world.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An illustration of a group of people playing music"
+          src="/images/essays/on-newsletters/03-music-water.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Newsletters give me permission to fall in love with someone I’ll never meet&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A group of people on a hot air balloon looking back at Earth"
+          src="/images/essays/on-newsletters/04-looking-at-world.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>&hellip;someone very far away&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Under a streetlamp a man reads a letter" src="/images/essays/on-newsletters/05-fathers-letter.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>And over the past few years I’ve fallen in love with so many writers through newsletters! On all sorts of
+          subjects!</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="The Cistern of Philoxenos, a subterranean reservoir in Istanbul"
+          src="/images/essays/on-newsletters/06-cistern-philoxenos.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>There are dazzling newsletters; those of grand adventures and epic mysteries&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An enormous wallpaper printing machine"
+          src="/images/essays/on-newsletters/07-wallpaper-printing-machine.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>...and newsletters about complex systems, showing us how the world is put together.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img class="slide-img__flowers" alt="A horseshoe geranium flower"
+          src="/images/essays/on-newsletters/08-flower-horseshoe-geranium.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Not to forget smaller newsletters, too. Break-ups! Coffee beans! Clocks! Northumberland flower gardens! These
+          sit side by side with newsletters that are just&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A dog plays the flute" src="/images/essays/on-newsletters/09-playing-flute.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>&hellip;<em>weird.</em></p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A group of women at the post office" src="/images/essays/on-newsletters/10-post-office.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>So my question here is a difficult one to ask, because I love newsletters so very much&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An astronomer looks up at the stars" src="/images/essays/on-newsletters/11-herschel.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>&hellip;but is this progress?</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A sad boy is sat in a chair feeling sad" src="/images/essays/on-newsletters/12-sad-boy.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>I guess there’s something about newsletters that bugs me, and I can’t put my finger on it.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Edison’s electric pen" src="/images/essays/on-newsletters/13-edisons-electric-pen.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>It bothers me that writers can’t create audiences on their own websites, with their own archives, and their
+          own formats. And they certainly can’t get paid in the process. (Although yes, there are exceptions).</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A carbonated water factory" src="/images/essays/on-newsletters/14-carbonated-water-factory.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Heck, just the technical expertise required to have your own website is extremely cumbersome and inaccessible
+          to many.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A man sits in a cave surrounded by coins" src="/images/essays/on-newsletters/15-minted-money.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>You might think: ah, newsletters are the future because that’s where the money is!</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img class="slide-img__giant" alt="A man sits in a cave surrounded by coins"
+          src="/images/essays/on-newsletters/16-lilliputian-troops-marching.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>But the real advantage with newsletters is that they give us super powers. You don’t need to learn about
+          <abbr title="Hypertext markup language">HTML</abbr> or <abbr title="Cascading stylesheets">CSS</abbr> or
+          databases to get started.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A giant person towers over an army" src="/images/essays/on-newsletters/17-sad-boy-zoom.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Despite these super powers, I still think that using email to send words to each other is just entirely
+          <em>ugh</em>.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two people look at a piece of paper" src="/images/essays/on-newsletters/18-colonel-stood-by.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Perhaps I feel this way because reading everything in my inbox is somewhat antiquated. It’s almost as if
+          we’ve gone back to reading off parchment after we invented books.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two people look up at a series of beautiful paintings"
+          src="/images/essays/on-newsletters/19-comfort-forgive.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Books are so much better than parchment in the same way that websites are so much better than email.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A person setting metal type" src="/images/essays/on-newsletters/20-printing-form.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>And we’ve all moved to newsletters at the very moment when websites can do amazing things with layout and
+          typography! We finally have grids and beautiful fonts and the wonders of print design on the web for the first
+          time.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two divers fight an enormous crab" src="/images/essays/on-newsletters/21-spider-crab.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Yet websites are treated as these embarrassing, ugly, ad-riddled things, whilst newsletters have established
+          some kind of prestige for themselves somehow.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Nusretiye Mosque" src="/images/essays/on-newsletters/23-nusretiye-mosque.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>The web doesn’t have to be this ugly and embarrassing thing though; the web can be made beautiful.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A table floats into the air" src="/images/essays/on-newsletters/24-table-slipped.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>And I’m saying this as someone who’s spent the better part of the last three years writing emails to
+          strangers—because I feel both liberated and yet also cursed by them. Newsletters are just&hellip;inescapable
+          if you want to be a writer today.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Skull and crossbones" src="/images/essays/on-newsletters/25-skull-crossbones.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>But if websites are so great then why did everyone (including me) move to newsletters? Why did blogs die off?
+          Well, there are ten million answers to those questions, but only three I want to focus on.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two men fight fight with swords" src="/images/essays/on-newsletters/26-bout-stranger.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Newsletters killed blogs because&hellip;</p>
+        <ol>
+          <li>They’re impossibly easy to publish.</li>
+          <li>Your inbox is a notification stream.</li>
+          <li>Writers can actually, ya know, get paid.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A man falls from the sky" src="/images/essays/on-newsletters/27-de-groof-falling.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Alternatively, websites today&hellip;</p>
+        <ol>
+          <li>Are difficult to make.</li>
+          <li>Can’t notify people of new work.</li>
+          <li>Aren’t able to pay writers easily.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A handmade organ" src="/images/essays/on-newsletters/28-organ.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>These are the main problems today but now, because of newsletters, I look back on writing for the web as this
+          clunky, annoying process in comparison. The machine sure is beautiful but it requires so much damn work to get
+          singing.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="The bottom of the sea" src="/images/essays/on-newsletters/29-bottom-sea.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>So I wonder how we can get the best of both worlds here: the ease of publishing newsletters, with all the
+          beauty and archivability of websites. But what I’m really asking is&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A beautiful landscape" src="/images/essays/on-newsletters/30-abbey-mussorie.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>&hellip;how do we make the web for everyone?</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A dog walks down a street with a monocle" src="/images/essays/on-newsletters/31-zoom-in-dog.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Let’s take a closer look.</p>
+      </div>
+    </div>
+
+    <div class="slide slide-chapter">
+      <div class="slide-text">
+        <h2>Part One</h2>
+        <p>Websites are too damn complicated</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A compositor selects metal letters from a case" src="/images/essays/on-newsletters/32-compositor.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Websites haven’t gotten any easier to make over the past thirty years.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Demons gather in hell" src="/images/essays/on-newsletters/33-dreadful-din.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>You still need to learn <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr
+            title="Cascading Stylesheets">CSS</abbr> to make a website. You still need to learn about hosting and domain
+          names. You might even be forced to learn what the abbreviation <abbr
+            title="Content management system">CMS</abbr> stands for, and I simply refuse to curse you with that
+          knowledge.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A gondola falls from the sky" src="/images/essays/on-newsletters/34-gondola.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>The web was originally intended to be read and written by everyone, but the technical hurdles of setting up a
+          website excludes the vast majority of people. It should all be so much easier.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A circle of giant men gather around a fire" src="/images/essays/on-newsletters/35-fire-circle.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>I’m not talking about the complexity of building giant web apps here. Even the smallest websites—with nothing
+          more than text—are far too difficult to build.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Looting a pirate ship of its treasure" src="/images/essays/on-newsletters/36-removing-treasure.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>But perhaps we didn’t bother trying to improve writing on the web because we let social networks devour all
+          our words—the archives be damned.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Looting a pirate ship of its treasure" src="/images/essays/on-newsletters/37-wolves-wolves.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>The solution? Well, I have a few ideas, but one thing I’m dead certain of is that startups shouldn’t be
+          fixing this for us.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Sea biscuit machine" src="/images/essays/on-newsletters/38-sea-biscuit-machine.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>There have been some positive developments in recent years with the likes of static site generators, but
+          again they still feel way too complex to me.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Sea biscuit machine" src="/images/essays/on-newsletters/39-appeared-flash.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>On this note, not so long ago I stumbled upon a service called <a href="https://blot.im/">blot.im</a> and it
+          showed me what building a website <em>could</em> be like; easy, fast, accessible.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A person walks into a storm" src="/images/essays/on-newsletters/40-pencroff-ran.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>I reckon this is the future we should be striving towards.</p>
+      </div>
+    </div>
+
+    <div class="slide slide-chapter">
+      <div class="slide-text">
+        <h2>Part Two</h2>
+        <p>RSS is for Nerds</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two men looking at a book" src="/images/essays/on-newsletters/41-unintelligible-writing.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>When you subscribe to a newsletter you don’t have to keep coming back to the source to see if there’s
+          something new. Whenever a writer publishes something then you just get an email.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two men looking at a book" src="/images/essays/on-newsletters/42-my-friend-please.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>The problem with the web is that when you publish something it just sort of disappears from sight. Writers
+          have to spam all the social networks to remind people that they even exist.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A woman looks into a mirror to see a ghostly face look back"
+          src="/images/essays/on-newsletters/43-dead-aunt.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>And yet the web sort of has this built-in notification stream and sort of…doesn’t at the same time.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A head rests on a table in a museum" src="/images/essays/on-newsletters/44-talking-head.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>It’s called <abbr title="Really Simple Syndication">RSS</abbr>; an ancient, dusty technology that lets you
+          subscribe to a website and see updates as they happen. With an <abbr
+            title="Really Simple Syndication">RSS</abbr> reader app you can see what’s new from your favorite writers.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Fortifications outside the city walls of the Alhambra"
+          src="/images/essays/on-newsletters/45-alhambra-entrance.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Basically my whole political platform is this: <abbr title="Really Simple Syndication">RSS</abbr> is the
+          promised land.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A dog reads the newspaper" src="/images/essays/on-newsletters/46-reading-news.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>It’s the perfect way to read the web and to keep up to date with things. So much so that I consider my <abbr
+            title="Really Simple Syndication">RSS</abbr> reader (Reeder.app) to be my favorite web browser, not Chrome,
+          Firefox, or Safari.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Manufacturing glass bottles" src="/images/essays/on-newsletters/47-manufacture-bottles.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>The problem with <abbr title="Really Simple Syndication">RSS</abbr> is that you need to know that <abbr
+            title="Really Simple Syndication">RSS</abbr> exists, how it works, which websites support it, etc. It’s
+          nothing short of an enormous faff.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A microscope" src="/images/essays/on-newsletters/48-microscope.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>But it’s not like <abbr title="Really Simple Syndication">RSS</abbr> is brain surgery, the problem is that
+          it’s hidden away and just complicated enough that 99% of folks won’t care about it.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An enormous steam hammer" src="/images/essays/on-newsletters/49-creusot-steam-hammer.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>“<abbr title="Really Simple Syndication">RSS</abbr> is far too complex!” you might say. Well, <abbr
+            title="Really Simple Syndication">RSS</abbr>-the-technology today is fantastically popular—it’s the machine
+          that powers podcasts. So why isn’t <abbr title="Really Simple Syndication">RSS</abbr> used for websites if we
+          use it everyday for audio?</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="An enormous steam hammer" src="/images/essays/on-newsletters/50-halleys-diving-bell.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>I reckon <abbr title="Really Simple Syndication">RSS</abbr> never reached critical scale for websites because
+          it was never built into the browser itself. The failure here wasn’t the technology but the distance between
+          <abbr title="Really Simple Syndication">RSS</abbr> and how we browse the web.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Eads Bridge" src="/images/essays/on-newsletters/51-eads-bridge.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Hear me out: if <abbr title="Really Simple Syndication">RSS</abbr> was renamed, rebranded, and brought to the
+          surface of the browser then I expect legions of people would adore it. No longer would you have to give all
+          these strangers your email address to sign up for the newsletter. </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A skeleton pursues a man on a bobsled" src="/images/essays/on-newsletters/52-demon-pursuer.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>And if we could subscribe to websites easily then the web itself might not feel quite so forgettable.</p>
+      </div>
+    </div>
+
+    <div class="slide slide-chapter">
+      <div class="slide-text">
+        <h2>Part Three</h2>
+        <p>Paying writers is too damn hard</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A ghostly figure haunts a woodsman" src="/images/essays/on-newsletters/53-mercury-woodman.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>This has been called the original sin of the internet. Since you can’t pay someone directly through the
+          browser, the thinking goes, then all these other hacks pop up to squeeze money out of folks; invasive and ugly
+          advertising, privacy-breaking data collection, etc. </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A room full of people clap" src="/images/essays/on-newsletters/54-gun-club-meeting.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>If you have enough technical knowledge or a big enough following then you can build a subscription service
+          for your website. This isn’t possible for a lot of writers though.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A diamond boring machine" src="/images/essays/on-newsletters/55-diamond-boring-machine.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>But why should subscribing to a website be any more complex than subscribing to a newsletter? Why do I have
+          to go through Substack or Patreon or the Kindle as a middleman?</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A diamond boring machine" src="/images/essays/on-newsletters/56-corpse-candles.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Look—I adore these services because they open the doors for so many new writers and buck wild stories. But
+          that’s only because the web itself is so damn difficult to make work as an independent publishing platform.
+        </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A man is pushed off a gangplank" src="/images/essays/on-newsletters/57-walking-plank.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Paying and subscribing to a writer’s work should be one click away, without having to go through a middleman
+          who takes a big percentage off the top.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img class="slide-img__coins" alt="Coins" src="/images/essays/on-newsletters/58-coins.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>There are neat developments in this space: services like Coil or web browsers like Puma are worth paying
+          attention to because they’re trying to upend the way that money is distributed on the web.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="" src="/images/essays/on-newsletters/59-dragged.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>There’s also, well, brace yourself: the Web Monetization <abbr
+            title="Application programming interface">API</abbr>. That sounds scary! But I think it’s where things get
+          truly interesting (although it’s still far too complicated for most writers to benefit from).</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A painter at work" src="/images/essays/on-newsletters/60-painter-at-work.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>My point here is that being able to pay folks easily through the browser could open the door for all sorts of
+          other artists, not just writers. </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A young boy rides a strange contraption" src="/images/essays/on-newsletters/61-deghens-machine.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Also, writers choose a newsletter service like Substack because the business model is straightforward. I just
+          sort of wish this infrastructure was built into websites themselves.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A man is led into a secret door by the devil" src="/images/essays/on-newsletters/62-stealing.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>My point is this: there’s a viable alternative to newsletters if we fill in all these gaps.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Two men float in a balloon" src="/images/essays/on-newsletters/63-altitude-experiments.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>All I know is that the web today is not made for us. It’s no longer made for people to send charming bits of
+          texts to strangers. </p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A person in a very strange underwater suit"
+          src="/images/essays/on-newsletters/64-klingerts-diving-machine.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Instead, I see the web as this public good that’s been hijacked by companies trying to sell us mostly
+          heartless junk.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Knights storm a castle" src="/images/essays/on-newsletters/65-scotch-soldiers.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>The web today is built for apps—and I think we need to take it back.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Knights storm a castle" src="/images/essays/on-newsletters/66-time-zone-watch.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Because there are so many break-ups and coffee beans to write about! There are stories about clocks and
+          Northumberland flower gardens waiting to be recorded, gift-wrapped, and delivered to us!</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A woman reads a letter" src="/images/essays/on-newsletters/67-imogen.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>What really excites me about the sudden popularity of newsletters is that it shows us how people desperately
+          want this kind of writing still. They value the web in the same way that I do.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A monster attacks a ship" src="/images/essays/on-newsletters/68-arm-glided.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>What this also shows me is that we haven’t given everything up to social networks yet. This makes me
+          hopeful&hellip;</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A monster attacks a ship" src="/images/essays/on-newsletters/69-electrical-devices.jpg"
+          loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>&hellip;because the web is still unfinished and there’s so much work left to do.</p>
+      </div>
+    </div>
+
+    <div class="slide slide--empty"></div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="Making a toast at dinner" src="/images/essays/on-newsletters/70-toast.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a> for all these
+          lovely woodcuts and metal engravings. Also thanks to Lucy Bellwood, Celine Xu, Jez Burrows, Tori Hinn, Ali
+          Burnett, Crick, and the Letterform Archive for the <a
+            href="https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892">LfA Aluminia</a>
+          type family.</p>
+      </div>
+    </div>
+
+    <div class="slide">
+      <div class="slide-img">
+        <img alt="A man saying goodbye" src="/images/essays/on-newsletters/71-after-dark.jpg" loading="lazy" />
+      </div>
+      <div class="slide-text">
+        <p>Now go away.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
 
-  </body>
 </html>

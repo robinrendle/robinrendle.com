@@ -14,7 +14,7 @@ country: Germany
 ---
 
 <figure>
-    <img src="/images/53e3d5f37480b494458b55f7.jpg" alt="A picture of the Brandenburg Gate">
+    <img src="/images/53e3d5f37480b494458b55f7.jpg" alt="A picture of the Brandenburg Gate" />
 </figure>
 
 I get the impression that I’m not supposed to be here; the impassable language, the strange food, and my own fumbling terror as I accidentally stroll through the red light district at eight in the morning. These unfamiliar surroundings are beacons warning me away, and sometimes I catch them whisper _you are not welcome here_ through muted Umlauts and Eszetts.

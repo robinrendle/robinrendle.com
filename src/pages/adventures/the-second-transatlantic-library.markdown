@@ -18,7 +18,7 @@ My favourite of the bunch so far has been Jeff Vandermeer’s sci-fi _Southern R
 
 The copy of _Area X_ above is a collection of the three novels in the series; _Annihilation_, _Authority_ and _Acceptance_. Each novel has an animal companion that dominates the story in one way or another and this is more prominent in the editions published by FSG and illustrated by [Eric Nyquist](http://www.jeffvandermeer.com/2014/05/02/eric-nyquist-and-the-southern-reach-series/), designed by Charlotte Strick and with animations below produced by Emily Bouman:
 
-<img src="/images/southern-reach.webp" onerror="this.onerror=null; this.src='/uploads/southern-reach.gif'">
+<img src="/images/southern-reach.webp" onerror="this.onerror=null; this.src='/uploads/southern-reach.gif'"/>
 
 On the other hand, [Pablo Delcán’s version](http://delcan.co/case-studies/southern-reach-3/) takes a darker and more surreal approach. In fact, [Jeff Vandermeer interviewed Pablo](http://www.fsgworkinprogress.com/2014/06/foreign-editions-the-southern-reach-trilogy) and in a separate article discussed [the origins of the series](http://www.theatlantic.com/entertainment/archive/2015/01/from-annihilation-to-acceptance-a-writers-surreal-journey/384884/):
 
@@ -37,8 +37,7 @@ Not every edition of the _Southern Reach_ is as gloomy as the others however. Th
 The collection above makes Vandermeer’s work look more serene, _Alice in Wonderland_-esque, and I wonder how that changes the reading of the books. Yet to be honest that’s nothing compared to some of the designs by fans that I’ve seen floating around, particularly this cute version:
 
 <figure>
-  <img src='/uploads/1f4cd7001.jpg'>
-  <figcaption>Fan art by Australian designer <a href='http://www.jeffvandermeer.com/2014/05/12/the-southern-reach-goes-retro-with-covers-by-matthew-revert'>Matthew Revert</a></figcaption>
+  <img src='/uploads/1f4cd7001.jpg' />
 </figure>
 
 What I’m trying to get at here is this: there’s something delightful about the idea that the novelist can entertain three loose themes for a series—the dragonfly, the hare, the owl—only for them to be constantly reimagined by the audience; I can’t think of many novels besides _Area X_ that welcome this form of constant graphic translation.

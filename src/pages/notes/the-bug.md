@@ -23,5 +23,5 @@ This small exchange between Ethan and another programmer explains so much of wha
 <blockquote><p>"You wrote this—what? a couple of months ago? And it's all gone down a well, hasn't it? Gone, vanished, wiped clean from your brain. You don't remember a thing about it. Do you? Do you!"</p>
 <p>Thorne gave Ethan his back, but Ethan didn’t need a reply. Of course Thorne didn't remember. Like every programmer, he wrote thousands of lines of code a week, all in the interest of passing ideas through his brain then putting them into the machine, where he never had to think about them again. There was a time when he did know what his code was doing—when he wrote it, when he sat there with his brain exploded and coded like mad to get it all down, all the exploded thoughts, before they blew away.</p>
 <p>But as Ethan stood there looking at Thorne’s back, it came to him that the explosion could not run backward. The thoughts were gone, decomposed, passed into code, where they worked, where they ran, but could not be reassembled into human-think.</p></blockquote>
-<figcaption class="cite"><p>Ellen Ullman, <cite><a href="http://www.amazon.com/Bug-Novel-Ellen-Ullman/dp/1250002494">The Bug</a></cite></p></figcaption>
+<figcaption class="cite">Ellen Ullman, <cite><a href="http://www.amazon.com/Bug-Novel-Ellen-Ullman/dp/1250002494">The Bug</a></cite></figcaption>
 </figure>

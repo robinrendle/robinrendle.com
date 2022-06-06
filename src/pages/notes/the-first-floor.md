@@ -16,15 +16,13 @@ country: UK
 I can’t stop thinking about this story from the latest issue of Codex magazine where an upcoming designer visits Herb Lubalin’s studio and began to wonder at all the facets and inner-workings of this celebrated graphic design agency in New York. The designer then asks Lubalin how he managed to work in an office filled with such inspiring typographic activity, here came the reply:
 
 <figure>
-<blockquote>
     <p>“I’m going to tell you a secret: on the first floor, there’s a room full of people working, but they only do retail down there, which I don’t show to anyone and which doesn’t appear in any book. We make a lot of money there.”</p>
     <p>“On the second floor, we produce publications of a slightly higher level: some adverts, but mostly magazine page spreads, medical pamphlets, and these make reasonable money. I don’t publish this stuff anywhere either.”</p>
     <p>“Then there is this room here, where I do the things you see; the Avant Garde alphabet, <em>Eros</em> magazine, etc. These don’t bring in a dime, they just cost money.”</p>
     <p>“It’s the first floor that sustains the other two.”</p>
-</blockquote>
-<figcaption class="cite"><p>Nick Shinn, <cite><a href="http://www.codexmag.com/product/codex-3">Codex: Issue 3</a></cite></p>
-</figcaption>
 </figure>
+
+Nick Shinn, <a href="http://www.codexmag.com/product/codex-3">Codex: Issue 3</a>
 
 I’m bothered by the fact that to make great work Lubalin was forced to have these embarassing sedimentary layers underneath. I’m bothered by his conviction that this is the only way that an agency can be run. I’m bothered by the _suggestion_ that no-one will pay for great work, or that this sort of product cannot be exchanged with a respectable sum in return.
 

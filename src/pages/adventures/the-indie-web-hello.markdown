@@ -8,7 +8,7 @@ City: San Francisco
 
 <p>This week I’ve been thinking a lot about maps. It began with a website that&nbsp;<a href="http://www.100yearsofnps.com/">celebrates the National Parks Act of 1872</a>, which was&nbsp;signed by President&nbsp;Ulysees S. Grant.&nbsp;This was the act that established America’s&nbsp;public parks, and the website takes a glance at how&nbsp;this policy has adapted over the past century. But, somehow, this led me to the <a href="http://phenomena.nationalgeographic.com/2016/06/20/heres-why-national-parks-maps-are-some-of-the-best/">National Geographic</a>&nbsp;where Greg Miller writes about some of the beautiful (although often&nbsp;typographically strange)&nbsp;maps that are created by the National Park Service.</p>
 
-<img class="tl-email-image" data-id="926949" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/c739cdb7-71f5-4840-a5c9-df33de51b323.jpg">
+<img class="tl-email-image" data-id="926949" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/c739cdb7-71f5-4840-a5c9-df33de51b323.jpg"/>
 
 <p>It’s here that Greg&nbsp;talks with&nbsp;Tom Patterson, the senior cartographer:</p>
 
@@ -16,7 +16,7 @@ City: San Francisco
 
 <p>Oh boy. Prepare yourself before you click that link:&nbsp;Tom’s blog is so impossibly cute in a web-master-circa-1997-sort-of-way that I couldn’t help but take a closer look.&nbsp;Yet it was here that I found he had made his own map: the Patterson projection!</p>
 
-<img class="tl-email-image" data-id="926917" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/a7191f25-57b3-4019-923d-9a9a7323df9d.jpeg">
+<img class="tl-email-image" data-id="926917" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/a7191f25-57b3-4019-923d-9a9a7323df9d.jpeg" />
 
 <p>I don’t really know what excites me about this so much, and I certainly don’t know enough about maps to say what problems or advantages the Patterson projection has over the more familiar types, such as the Mercator projection. I guess I’m excited because the act of&nbsp;making&nbsp;a projection and putting it on your blog&nbsp;is something that anyone, from anywhere,&nbsp;can do. It’s so&nbsp;punk rock. It’s so Web.</p>
 
@@ -30,8 +30,8 @@ City: San Francisco
 
 <h2>The Week in Type</h2>
 
-<p>Over on I Love Typography, Jasper De Waard has written about <a href="http://ilovetypography.com/2016/07/14/making-fonts-proza-libre/">the design of Proza Libre</a>, which is now available on <a href="https://fonts.google.com/specimen/Proza+Libre">Google Fonts</a>.<br>
-<img class="tl-email-image" data-id="926897" height="359" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/eb479348-2635-4f83-bef3-fd4ca38ddab9.png">
+<p>Over on I Love Typography, Jasper De Waard has written about <a href="http://ilovetypography.com/2016/07/14/making-fonts-proza-libre/">the design of Proza Libre</a>, which is now available on <a href="https://fonts.google.com/specimen/Proza+Libre">Google Fonts</a>.<br/>
+<img class="tl-email-image" data-id="926897" height="359" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/eb479348-2635-4f83-bef3-fd4ca38ddab9.png"/>
 
 ¶¶¶
 
@@ -41,7 +41,7 @@ City: San Francisco
 <p>Typefaces created for typewriters were designed with the limitations of the machine in mind. Despite the variety of styles created, most typefaces shared certain features. To fulfill the monospace need of mechanical models, letters sometimes adopted different shapes from printing type: for instance, the ‘J’ with a large tail aligned with the baseline; the ‘W’ and ‘M’ with a shorter middle joint; or the ‘t’ with a long curved bottom ending. The ink spread caused by the transfer printing method demanded large countershapes and a generous x-height. It was also very difficult to print high-contrast characters and sharp outlines with transfer printing. In typewritten documents, the corners and joints between strokes took on a rounded and irregular appearance. This led designers to create rather monolinear designs to get a more predictable result.</p>
 </blockquote>
 
-<img class="tl-email-image" data-id="926905" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/9de763de-865a-4713-b24c-8239ab5299e7.png">
+<img class="tl-email-image" data-id="926905" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/9de763de-865a-4713-b24c-8239ab5299e7.png"/>
 
 <p>María also links to <a href="http://www.lettersofnote.com/2015/10/new-fangled-writing-machine.html">a fine Letters of Note entry</a> where Samuel Clemens, aka Mark Twain, wrote about his typewriter (which could only print in all caps):</p>
 
@@ -57,7 +57,7 @@ City: San Francisco
 
 <p>The new Netflix show ‘Stranger Things’ uses <a href="http://www.ohnotype.co/product/hobeaux">Hobeaux</a>, a beautiful and peculiar typeface by Oh No Type Co.</p>
 
-<img class="tl-email-image" data-id="926913" height="799" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/47f4dcfa-f1bd-40a7-93a0-26bc87a644bd.jpg">
+<img class="tl-email-image" data-id="926913" height="799" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/47f4dcfa-f1bd-40a7-93a0-26bc87a644bd.jpg"/>
 
 <p>¶¶¶</p>
 
@@ -70,6 +70,4 @@ City: San Francisco
 <h2>Letter of the Week</h2>
 <p>I’ve been oogling over <a href="http://www.contrastfoundry.com/portfolio/chimera">Chimera</a> by the Contrast type foundry lately and trying to find a good use for it in a project or two. This week I will be cheating however, because I want to covet multiple styles of Chimera’s lowercase 'a'.</p>
 
-<p>
-    <img class="tl-email-image" data-id="926953" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/b6e1ab06-acf2-483d-b862-fa5e8b784718.png">
-</p>
+<img class="tl-email-image" data-id="926953" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/b6e1ab06-acf2-483d-b862-fa5e8b784718.png"/>

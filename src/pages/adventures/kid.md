@@ -27,12 +27,12 @@ These delicious glyphs are just the small caps of Pique – the standard charact
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/4dfbf3a9-5895-405b-b1af-89118fb99d8f.png)
 
 Designed by Nicole Dotin and published back in 2014, it’s an embarrassment that I have never seen Pique before. I’m certainly glad that I did though because I stumbled upon their [type testing tool](https://processtypefoundry.com/fonts/pique/try-it) which is super fast and lovely.
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 ## What do you want to do when you grow up, kid?
 

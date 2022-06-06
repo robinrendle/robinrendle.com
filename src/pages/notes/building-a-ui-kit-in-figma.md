@@ -82,7 +82,9 @@ If you look closely at the image above you might notice that weird naming conven
 So wait – how do you use instances and why are they neat? Well, if you were in a new Figma doc and threw in our `Input/Default` component you’ll notice that on the right hand side there’s an `Instances` menu and by selecting that dropdown you’ll see that you can easily switch between the error and focus inputs we setup with that `/`:
 
 <div class="m-wrapper--full">
-  <video autoplay autostart loop src="/images/error-states-animation.mp4" class="cell-b40" />
+  <video autoplay autostart loop class="cell-b40">
+    <source src="/images/error-states-animation.mp4" type="video/mp4" />
+  </video>
 </div>
 
 Neat, huh? I wrote a little bit more about [nesting components in Figma](https://css-tricks.com/nesting-components-in-figma/) a while back but I think the main benefit is that folks on our design team can easily see what all the variations of a component are and manipulate components and their various subcomponents.
@@ -90,7 +92,9 @@ Neat, huh? I wrote a little bit more about [nesting components in Figma](https:/
 You could set this up in your own kit to switch between different themes of a component, such as `ButtonPrimary/Darkmode` or something. But at Gusto we use this in a couple of clever ways: we have a few user profiles where the UI will change depending whether you’re an employee or an employer. And so I created a `Layout` component that lets folks switch between the different UIs:
 
 <div class="m-wrapper--full">
-  <video autoplay autostart loop src="/images/paoeoiaeg.mp4" class="cell-b40" />
+  <video autoplay autostart loop class="cell-b40">
+    <source src="/images/paoeoiaeg.mp4" type="video/mp4" />
+  </video>
 </div>
 
 So as you can see we have different kinds of `PageTitle` – a regular old title as well as tabs and a progress bar for flows. Ideally designers shouldn’t have to keep dragging in new components and aligning them all over the place and figuring out spacing each time – with Instances we can stop some of those repetitive tasks.

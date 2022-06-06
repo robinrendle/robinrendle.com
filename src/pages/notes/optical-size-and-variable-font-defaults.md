@@ -30,7 +30,7 @@ Below you can see that I’ve selected a variable font version of [Output](https
 ...see how in the variable submenu that 'Set optical size automatically' is on? What that means is that when I change the font-size then a number of properties will change to make the text more readable. You can see this best though when you turn it off and manually change the optical size axis:
 
 <video autoplay loop muted inline>
-  <source src="/images/figma-example-animated.mp4" type="video/mp4">
+  <source src="/images/figma-example-animated.mp4" type="video/mp4" />
 </video>
 
 At larger sizes the text will tighten up, getting rid of excess white space. At small sizes, everything stretches out to make it easier to discern one character from another. Now, optical size isn’t something I’ve ever messed with before. But I’ve always felt that it should be automatic (just as Figma does it today) and I don’t think this was ever possible before variable fonts (but I could be wrong there). It’s pretty darn neat.

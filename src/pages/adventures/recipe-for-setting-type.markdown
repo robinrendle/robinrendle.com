@@ -67,26 +67,19 @@ The Department of Typography and Graphic Communication at the University of Read
 That’s 14 new typefaces to gawk at all at once:
 
 <figure>
-  <img src='/images/ikkatmultilingual-1024x470.png'>
-<figcaption>
-Above: Ikkat by Rob Pratley
-</figcaption>
+  <img src='/images/ikkatmultilingual-1024x470.png' />
 </figure>
 
 Look at the italics of [Byron](http://typefacedesign.net/typefaces/year/2016/byron/) or [Marjolein](http://typefacedesign.net/typefaces/year/2016/marjolein/):
 
 <figure>
-  <img src='/uploads/Byron8-1024x1024.png'>
-<figcaption>
-Above: Byron by Gor Jihanian
-</figcaption>
+  <img src='/uploads/Byron8-1024x1024.png'/>
 </figure>
 
 Or gasp and wonder at the Arabic glyphs of [Labiba](http://typefacedesign.net/typefaces/year/2016/dialogue/) and [Jali](http://typefacedesign.net/typefaces/year/2016/jali/). Or take a look at the Greek forms in [Amikal](http://typefacedesign.net/typefaces/year/2016/amikal/), the Latin, Sinhala and Tamil shapes in [Maname](http://typefacedesign.net/typefaces/year/2016/maname/):
 
 <figure>
-  <img src='/uploads/maname.jpg'>
-  <figcaption>Above: Maname by Pathum Egodawatta</figcaption>
+  <img src='/uploads/maname.jpg' />
 </figure>
 
 ---

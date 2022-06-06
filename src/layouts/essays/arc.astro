@@ -1,8 +1,8 @@
 ---
 import { Markdown } from 'astro/components';
 
-const {content} = Astro.props;
-const {title, extract, date, city, country} = content;
+const { content } = Astro.props;
+const { title, extract, date, city, country } = content;
 
 function formatDate(stupidIdiotDate) {
   const newFancyDate = new Date(stupidIdiotDate).toLocaleDateString(
@@ -20,614 +20,703 @@ function formatDate(stupidIdiotDate) {
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>The Arc of Design</title>
-    <meta content="Robin Rendle" name="author" />
-    <meta content="" name="description" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <link href="https://plus.google.com/104389809267012182640" rel="author" />
-    <!-- Styles -->
 
-    <!-- Feed -->
-    <link
-      href="https://robinrendle.com/feed.xml"
-      rel="alternate"
-      type="application/atom+xml"
-    />
-    <!-- Favicons -->
-    <link
-      href="/images/favicon/apple-touch-icon.png"
-      rel="apple-touch-icon"
-      sizes="180x180"
-    />
-    <link
-      href="/images/favicon/favicon-32x32.png"
-      rel="icon"
-      sizes="32x32"
-      type="image/png"
-    />
-    <link
-      href="/images/favicon/favicon-16x16.png"
-      rel="icon"
-      sizes="16x16"
-      type="image/png"
-    />
-      <style lang="scss">
-:root {
---main-text-color: #333;
---heading-color: #111;
-}
-@font-face {
-font-family: "Ayer";
-font-weight: 600;
-font-style: normal;
-font-display: swap;
-src: url("/fonts/ayer/ayer-medium.woff2") format("woff2"),
-    url("/fonts/ayer/ayer-medium.woff") format("woff");
-}
-@font-face {
-font-family: "Aluminia";
-font-weight: 400;
-font-style: normal;
-font-display: swap;
-src: url("/fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2"),
-    url("/fonts/aluminia/LfAAluminia-Roman.woff") format("woff");
-}
-@font-face {
-font-family: "Aluminia";
-font-weight: 400;
-font-style: italic;
-font-display: swap;
-src: url("/fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2"),
-    url("/fonts/aluminia/LfAAluminia-Italic.woff") format("woff");
-}
-*,
-*:after,
-*:before {
--ms-box-sizing: border-box;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
-}
-button,
-html {
--ms-text-size-adjust: 100%;
--webkit-text-size-adjust: 100%;
-}
-.body {
-font-size: 100%;
-}
-a,
-abbr,
-acronym,
-address,
-applet,
-article,
-aside,
-audio,
-b,
-big,
-blockquote,
-.body,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-dfn,
-div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
-html,
-i,
-iframe,
-img,
-input,
-ins,
-kbd,
-label,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-output,
-p,
-pre,
-q,
-s,
-samp,
-section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
-margin: 0;
-padding: 0;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-display: block;
-}
-table {
-border-collapse: collapse;
-border-spacing: 0;
-}
-caption,
-td,
-th {
-text-align: left;
-font-weight: normal;
-vertical-align: middle;
-}
-b,
-mark,
-strong {
-font-weight: bold;
-font-style: inherit;
-}
-address,
-dfn,
-em,
-i,
-q,
-var {
-font-style: normal;
-font-weight: inherit;
-}
-a,
-ins,
-u {
-text-decoration: none;
-}
-code,
-kbd,
-pre,
-samp {
-font-family: monospace;
-}
-iframe {
-width: 100%;
-}
-a {
-outline: none;
-}
-img {
-max-width: 100%;
-height: auto;
-border: none;
-}
-input,
-select,
-textarea {
-font: inherit;
-}
-button {
-cursor: pointer;
-}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary,
-video {
-display: block;
-}
-audio,
-canvas {
-display: inline-block;
-}
-audio:not([controls]) {
-display: none;
-height: 0;
-}
-[hidden] {
-display: none;
-}
-html {
-font-family: "Aluminia", Georgia, serif;
--webkit-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
-}
-a:focus {
-outline: thin dotted;
-}
-a:active,
-a:hover {
-outline: 0;
-}
-abbr[title] {
-border-bottom: 1px dotted;
-}
-dfn {
-font-style: italic;
-}
-hr {
--moz-box-sizing: content-box;
-box-sizing: content-box;
-height: 0;
-}
-mark {
-background: #ff0;
-color: #000;
-}
-code,
-kbd,
-pre,
-samp {
-font-family: monospace, serif;
-font-size: 1em;
-}
-pre {
-white-space: pre-wrap;
-}
-q {
-quotes: "\201C""\201D""\2018""\2019";
-}
-small {
-font-size: 80%;
-}
-sub,
-sup {
-font-size: 75%;
-line-height: 0;
-position: relative;
-vertical-align: baseline;
-}
-sup {
-top: -0.5em;
-}
-sub {
-bottom: -0.25em;
-}
-img {
-border: 0;
-}
-svg:not(:root) {
-overflow: hidden;
-}
-figure {
-margin: 0;
-}
-table {
-border-collapse: collapse;
-border-spacing: 0;
-}
-.cf:after {
-content: "";
-display: table;
-clear: both;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hgroup,
-ul,
-ol,
-dl,
-blockquote,
-p,
-address,
-table,
-video,
-fieldset,
-figure,
-pre,
-hr,
-ul,
-ol,
-.media,
-.island,
-.islet {
-margin-bottom: 25.2px;
-margin-bottom: 1.575rem;
-}
-@media (min-width: 621px) {
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hgroup,
-ul,
-ol,
-dl,
-blockquote,
-p,
-address,
-table,
-video,
-fieldset,
-figure,
-pre,
-hr,
-ul,
-ol,
-.media,
-.island,
-.islet {
-    margin-bottom: 28.8px;
-    margin-bottom: 1.8rem;
-}
-}
-dd {
-margin-bottom: 9px;
-margin-bottom: 0.5625rem;
-}
-iframe,
-.widescreen {
-margin: 18px 0px 36px 0px;
-margin: 1.125rem 0rem 2.25rem 0rem;
-}
-a {
-border: none;
-}
+<head>
+  <meta charset="utf-8" />
+  <title>The Arc of Design</title>
+  <meta content="Robin Rendle" name="author" />
+  <meta content="" name="description" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link href="https://plus.google.com/104389809267012182640" rel="author" />
+  <!-- Styles -->
 
-
-.meta-info + .h1,
-.meta-info + .m-longform .h1,
-.meta-info + h1,
-.meta-info + .m-longform h1 {
-color: var(--heading-color);
-}
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-h1,
-h2,
-h3,
-h4,
-h5 {
-font-weight: 400;
-font-family: "Aluminia", Georgia, serif;
-}
-.m-longform .h2,
-.m-longform h2 {
-font-size: 28px;
-font-size: 1.75rem;
-line-height: 1.3;
-margin-top: 0;
-}
-.h3,
-.m-longform .h3,
-h3,
-.m-longform h3 {
-font-size: 25px;
-font-size: 1.5625rem;
-line-height: 1.45;
-}
-@media (min-width: 621px) {
-.h3,
-.m-longform .h3,
-h3,
-.m-longform h3 {
-    font-size: 26px;
-    font-size: 1.625rem;
-    line-height: 1.55;
-}
-}
-@media (min-width: 921px) {
-.h3,
-.m-longform .h3,
-h3,
-.m-longform h3 {
-    font-size: 28px;
-    font-size: 1.75rem;
-    line-height: 1.2;
-}
-}
-.h4,
-h4 {
-margin-bottom: 20px;
-}
-.h4,
-.m-longform .h4,
-h4,
-.m-longform h4 {
-font-size: 17px;
-font-size: 1.0625rem;
-line-height: 1.3;
-}
-@media (min-width: 621px) {
-.h4,
-.m-longform .h4,
-h4,
-.m-longform h4 {
-    font-size: 19px;
-    font-size: 1.1875rem;
-}
-}
-.h5,
-.m-longform .h5,
-h5,
-.m-longform h5 {
-font-size: 16px;
-font-size: 1rem;
-line-height: 1.3;
-}
-@media (min-width: 621px) {
-.h5,
-.m-longform .h5,
-h5,
-.m-longform h5 {
-    font-size: 17px;
-    font-size: 1.0625rem;
-}
-}
-.h6,
-.m-longform .h6,
-h6,
-.m-longform h6 {
-font-size: 15px;
-font-size: 0.9375rem;
-line-height: 1.3;
-}
-* {
-box-sizing: border-box;
-}
-html {
-overflow-y: scroll;
-height: 100%;
--webkit-text-size-adjust: 100%;
-background-color: var(--main-theme-color);
-background-color: white;
-}
-@media (min-width: 921px) {
-html {
-    padding: 10px;
-}
-}
-body {
-font: 400 110% "Aluminia", Georgia, serif !important;
-line-height: 1.4;
-font-feature-settings: "liga" 1 !important;
-min-height: 100%;
-background-color: white;
-color: #444;
-padding: 50px 15px;
-background-color: #eee;
-}
-@media (min-width: 921px) {
-  body {
-    padding-bottom: 300px;
-    padding-top: 80px;
-  }
-}
-
-h1 {
-  font-size: 40px;
-}
-.wrapper {
-  max-width: 700px;
-  margin: 0 auto;
-}
-.body-wrapper {
-  font-size: 23px;
-  font-size: 1.4375rem;
-  line-height: 1.4;
-  hyphens: auto;
-}
-.meta {
-  font-size: 18px;
-  font-variant: small-caps;
-  text-transform: lowercase;
-  display: flex;
-  align-items: center;
-  color: #888;
-
-  time {
-    margin-right: 10px;
-    &:after {
-      content: "•";
-      margin-left: 5px;
-      position: relative;
-      top: 2px;
+  <!-- Feed -->
+  <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml" />
+  <!-- Favicons -->
+  <link href="/images/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+  <link href="/images/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+  <link href="/images/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+  <style lang="scss" is:inline>
+    :root {
+      --main-text-color: #333;
+      --heading-color: #111;
     }
-  }
-}
-</style>
 
-  </head>
-  <body class="body">
-    <article class="h-entry">
-      <div class="layout-wrapper">
-        <div class="wrapper m-longform">
-          <header>
-            <aside class="meta">
+    @font-face {
+      font-family: "Ayer";
+      font-weight: 600;
+      font-style: normal;
+      font-display: swap;
+      src: url("/fonts/ayer/ayer-medium.woff2") format("woff2"),
+        url("/fonts/ayer/ayer-medium.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "Aluminia";
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+      src: url("/fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2"),
+        url("/fonts/aluminia/LfAAluminia-Roman.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "Aluminia";
+      font-weight: 400;
+      font-style: italic;
+      font-display: swap;
+      src: url("/fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2"),
+        url("/fonts/aluminia/LfAAluminia-Italic.woff") format("woff");
+    }
+
+    *,
+    *:after,
+    *:before {
+      -ms-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    button,
+    html {
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .body {
+      font-size: 100%;
+    }
+
+    a,
+    abbr,
+    acronym,
+    address,
+    applet,
+    article,
+    aside,
+    audio,
+    b,
+    big,
+    blockquote,
+    .body,
+    canvas,
+    caption,
+    center,
+    cite,
+    code,
+    dd,
+    del,
+    dfn,
+    div,
+    dl,
+    dt,
+    em,
+    embed,
+    fieldset,
+    figcaption,
+    figure,
+    footer,
+    form,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    header,
+    hgroup,
+    html,
+    i,
+    iframe,
+    img,
+    input,
+    ins,
+    kbd,
+    label,
+    legend,
+    li,
+    mark,
+    menu,
+    nav,
+    object,
+    ol,
+    output,
+    p,
+    pre,
+    q,
+    s,
+    samp,
+    section,
+    small,
+    span,
+    strike,
+    strong,
+    sub,
+    summary,
+    sup,
+    table,
+    tbody,
+    td,
+    tfoot,
+    th,
+    thead,
+    time,
+    tr,
+    tt,
+    u,
+    ul,
+    var,
+    video {
+      margin: 0;
+      padding: 0;
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    menu,
+    nav,
+    section,
+    summary {
+      display: block;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    caption,
+    td,
+    th {
+      text-align: left;
+      font-weight: normal;
+      vertical-align: middle;
+    }
+
+    b,
+    mark,
+    strong {
+      font-weight: bold;
+      font-style: inherit;
+    }
+
+    address,
+    dfn,
+    em,
+    i,
+    q,
+    var {
+      font-style: normal;
+      font-weight: inherit;
+    }
+
+    a,
+    ins,
+    u {
+      text-decoration: none;
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: monospace;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    a {
+      outline: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: none;
+    }
+
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section,
+    summary,
+    video {
+      display: block;
+    }
+
+    audio,
+    canvas {
+      display: inline-block;
+    }
+
+    audio:not([controls]) {
+      display: none;
+      height: 0;
+    }
+
+    [hidden] {
+      display: none;
+    }
+
+    html {
+      font-family: "Aluminia", Georgia, serif;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    a:focus {
+      outline: thin dotted;
+    }
+
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+
+    abbr[title] {
+      border-bottom: 1px dotted;
+    }
+
+    dfn {
+      font-style: italic;
+    }
+
+    hr {
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      height: 0;
+    }
+
+    mark {
+      background: #ff0;
+      color: #000;
+    }
+
+    code,
+    kbd,
+    pre,
+    samp {
+      font-family: monospace, serif;
+      font-size: 1em;
+    }
+
+    pre {
+      white-space: pre-wrap;
+    }
+
+    q {
+      quotes: "\201C""\201D""\2018""\2019";
+    }
+
+    small {
+      font-size: 80%;
+    }
+
+    sub,
+    sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+    }
+
+    sup {
+      top: -0.5em;
+    }
+
+    sub {
+      bottom: -0.25em;
+    }
+
+    img {
+      border: 0;
+    }
+
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    .cf:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    hgroup,
+    ul,
+    ol,
+    dl,
+    blockquote,
+    p,
+    address,
+    table,
+    video,
+    fieldset,
+    figure,
+    pre,
+    hr,
+    ul,
+    ol,
+    .media,
+    .island,
+    .islet {
+      margin-bottom: 25.2px;
+      margin-bottom: 1.575rem;
+    }
+
+    @media (min-width: 621px) {
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hgroup,
+      ul,
+      ol,
+      dl,
+      blockquote,
+      p,
+      address,
+      table,
+      video,
+      fieldset,
+      figure,
+      pre,
+      hr,
+      ul,
+      ol,
+      .media,
+      .island,
+      .islet {
+        margin-bottom: 28.8px;
+        margin-bottom: 1.8rem;
+      }
+    }
+
+    dd {
+      margin-bottom: 9px;
+      margin-bottom: 0.5625rem;
+    }
+
+    iframe,
+    .widescreen {
+      margin: 18px 0px 36px 0px;
+      margin: 1.125rem 0rem 2.25rem 0rem;
+    }
+
+    a {
+      border: none;
+    }
+
+
+    .meta-info+.h1,
+    .meta-info+.m-longform .h1,
+    .meta-info+h1,
+    .meta-info+.m-longform h1 {
+      color: var(--heading-color);
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-weight: 400;
+      font-family: "Aluminia", Georgia, serif;
+    }
+
+    .m-longform .h2,
+    .m-longform h2 {
+      font-size: 28px;
+      font-size: 1.75rem;
+      line-height: 1.3;
+      margin-top: 0;
+    }
+
+    .h3,
+    .m-longform .h3,
+    h3,
+    .m-longform h3 {
+      font-size: 25px;
+      font-size: 1.5625rem;
+      line-height: 1.45;
+    }
+
+    @media (min-width: 621px) {
+
+      .h3,
+      .m-longform .h3,
+      h3,
+      .m-longform h3 {
+        font-size: 26px;
+        font-size: 1.625rem;
+        line-height: 1.55;
+      }
+    }
+
+    @media (min-width: 921px) {
+
+      .h3,
+      .m-longform .h3,
+      h3,
+      .m-longform h3 {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 1.2;
+      }
+    }
+
+    .h4,
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    .h4,
+    .m-longform .h4,
+    h4,
+    .m-longform h4 {
+      font-size: 17px;
+      font-size: 1.0625rem;
+      line-height: 1.3;
+    }
+
+    @media (min-width: 621px) {
+
+      .h4,
+      .m-longform .h4,
+      h4,
+      .m-longform h4 {
+        font-size: 19px;
+        font-size: 1.1875rem;
+      }
+    }
+
+    .h5,
+    .m-longform .h5,
+    h5,
+    .m-longform h5 {
+      font-size: 16px;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+
+    @media (min-width: 621px) {
+
+      .h5,
+      .m-longform .h5,
+      h5,
+      .m-longform h5 {
+        font-size: 17px;
+        font-size: 1.0625rem;
+      }
+    }
+
+    .h6,
+    .m-longform .h6,
+    h6,
+    .m-longform h6 {
+      font-size: 15px;
+      font-size: 0.9375rem;
+      line-height: 1.3;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      overflow-y: scroll;
+      height: 100%;
+      -webkit-text-size-adjust: 100%;
+      background-color: var(--main-theme-color);
+      background-color: white;
+    }
+
+    @media (min-width: 921px) {
+      html {
+        padding: 10px;
+      }
+    }
+
+    body {
+      font: 400 110% "Aluminia", Georgia, serif !important;
+      line-height: 1.4;
+      font-feature-settings: "liga" 1 !important;
+      min-height: 100%;
+      background-color: white;
+      color: #444;
+      padding: 50px 15px;
+      background-color: #eee;
+    }
+
+    @media (min-width: 921px) {
+      body {
+        padding-bottom: 300px;
+        padding-top: 80px;
+      }
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    .wrapper {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .body-wrapper {
+      font-size: 23px;
+      font-size: 1.4375rem;
+      line-height: 1.4;
+      hyphens: auto;
+    }
+
+    .meta {
+      font-size: 18px;
+      font-variant: small-caps;
+      text-transform: lowercase;
+      display: flex;
+      align-items: center;
+      color: #888;
+
+      time {
+        margin-right: 10px;
+
+        &:after {
+          content: "•";
+          margin-left: 5px;
+          position: relative;
+          top: 2px;
+        }
+      }
+    }
+  </style>
+
+</head>
+
+<body class="body">
+  <article class="h-entry">
+    <div class="layout-wrapper">
+      <div class="wrapper m-longform">
+        <header>
+          <aside class="meta">
             <time datetime={content.date}>{formatDate(content.date)}</time>
-            <div>{content.city}, 
-            {content.country}</div>
-            </aside>
-            <h1>The Arc of Design</h1>
-          </header>
-          <div class="body-wrapper">
+            <div>{content.city},
+              {content.country}</div>
+          </aside>
+          <h1>The Arc of Design</h1>
+        </header>
+        <div class="body-wrapper">
           <Markdown>
-          In any videogame you’ll spot it right away. Equip an object like a grenade or a stone—anything you want to throw at an enemy—and you’ll see the arc: dotted lines reveal the path that the object will take through the air. Pretty much every game uses this visual trick for two reasons; first, because perceiving depth in a three-dimensional game is difficult (this is why Nintendo de-emphasized perfectly timed jumps in _Mario 64_ onwards and it’s why the two dimensional platformer _Super Meat Boy_ requires near pixel-perfect timing). But second, this throwing-arc is important because, well...
+            In any videogame you’ll spot it right away. Equip an object like a grenade or a stone—anything you want to
+            throw at an enemy—and you’ll see the arc: dotted lines reveal the path that the object will take through the
+            air. Pretty much every game uses this visual trick for two reasons; first, because perceiving depth in a
+            three-dimensional game is difficult (this is why Nintendo de-emphasized perfectly timed jumps in _Mario 64_
+            onwards and it’s why the two dimensional platformer _Super Meat Boy_ requires near pixel-perfect timing).
+            But second, this throwing-arc is important because, well...
 
-Great interface design is about seeing the future.
+            Great interface design is about seeing the future.
 
-Let me explain. Not so long ago the throwing arc disappeared in the game I was playing. But I didn’t notice the bug and I didn’t notice the arc missing at all, one day I just found that my accuracy was terrible. I was throwing grenades ten, twenty feet off the mark each time and I kept blaming myself for being lazy or bad. It took me weeks to realize what the problem was and, sure enough, a patch released that fixed the issue and I could suddenly throw things properly again. It wasn’t me—it was the design!
+            Let me explain. Not so long ago the throwing arc disappeared in the game I was playing. But I didn’t notice
+            the bug and I didn’t notice the arc missing at all, one day I just found that my accuracy was terrible. I
+            was throwing grenades ten, twenty feet off the mark each time and I kept blaming myself for being lazy or
+            bad. It took me weeks to realize what the problem was and, sure enough, a patch released that fixed the
+            issue and I could suddenly throw things properly again. It wasn’t me—it was the design!
 
-Since that throwing-arc mysteriously disappeared I’ve thought a lot about what this means for my job as a designer and how I might alleviate someone’s anxiety about the future; _what happens when I click this? Or what if I go here, select this thingy and move it over there? What does this mean? Who is that? Also: why??? What impact will this button have on my data? Where am I going? How will this decision hurt or help me?_
+            Since that throwing-arc mysteriously disappeared I’ve thought a lot about what this means for my job as a
+            designer and how I might alleviate someone’s anxiety about the future; _what happens when I click this? Or
+            what if I go here, select this thingy and move it over there? What does this mean? Who is that? Also: why???
+            What impact will this button have on my data? Where am I going? How will this decision hurt or help me?_
 
-The throwing-arc mechanic that we see in pretty much every videogame answers one of these questions (or existential anxieties). What happens when I throw this thing? _Well_, the throwing arc says, _if you click this button then this precise thing will happen this far away._ Sometimes a game will even show how much damage this will do as well—great for RPGs when you often need to calculate turns and percentages, hit points, and ammo. My point here is that the throwing-arc shows us the future.
+            The throwing-arc mechanic that we see in pretty much every videogame answers one of these questions (or
+            existential anxieties). What happens when I throw this thing? _Well_, the throwing arc says, _if you click
+            this button then this precise thing will happen this far away._ Sometimes a game will even show how much
+            damage this will do as well—great for RPGs when you often need to calculate turns and percentages, hit
+            points, and ammo. My point here is that the throwing-arc shows us the future.
 
-Another example of this can be found in _Ghost of Tsushima_: in many free-roam games there’s a map dotted with markers and it’s always visible in the bottom left of the screen. Some have complained for years now that this drags us out of the stunning environment of the videogame world and instead we spend most of our time focused on this tiny map in the corner of the screen, figuring out where we need to go. We ignore the wonderful animations and other-worldly environments because we’re looking at the UI and not the world.
+            Another example of this can be found in _Ghost of Tsushima_: in many free-roam games there’s a map dotted
+            with markers and it’s always visible in the bottom left of the screen. Some have complained for years now
+            that this drags us out of the stunning environment of the videogame world and instead we spend most of our
+            time focused on this tiny map in the corner of the screen, figuring out where we need to go. We ignore the
+            wonderful animations and other-worldly environments because we’re looking at the UI and not the world.
 
-_Ghost of Tsushima_ is quite different because there is no map.
+            _Ghost of Tsushima_ is quite different because there is no map.
 
-Instead, we must follow the wind; all the trees and flowers, the petals in the breeze, all of nature guides our progress to the next important thing. And I think this is quite honestly the single most beautiful bit of design I’ve seen for a while now: the world itself is showing me the future. This makes me closely watch the trees, the grass, and the petals in the river. And so I cannot help but stare at the absolute wondrous beauty of this game’s environment design, but it’s smarter than that because it alleviates my anxiety when it comes to free-roam games: _where am I going now?_
+            Instead, we must follow the wind; all the trees and flowers, the petals in the breeze, all of nature guides
+            our progress to the next important thing. And I think this is quite honestly the single most beautiful bit
+            of design I’ve seen for a while now: the world itself is showing me the future. This makes me closely watch
+            the trees, the grass, and the petals in the river. And so I cannot help but stare at the absolute wondrous
+            beauty of this game’s environment design, but it’s smarter than that because it alleviates my anxiety when
+            it comes to free-roam games: _where am I going now?_
 
-This anxiety about the future is true outside of videogame design, too. It’s why we should label icons and provide folks with accessible interfaces. It’s why we should build clear hover and focus states that let someone sort of guess what will happen when they click something or when they type. It’s why we should write copy to prevent confusion about the terms of an agreement or the complexity of a feature. It’s why responsive design is important. It’s why good URL design is worthy of our time and attention.
+            This anxiety about the future is true outside of videogame design, too. It’s why we should label icons and
+            provide folks with accessible interfaces. It’s why we should build clear hover and focus states that let
+            someone sort of guess what will happen when they click something or when they type. It’s why we should write
+            copy to prevent confusion about the terms of an agreement or the complexity of a feature. It’s why
+            responsive design is important. It’s why good URL design is worthy of our time and attention.
 
-And so I’m glad for the bug I came across that day because it re-framed my work. Or rather, clarified something that I’d been thinking about for a long time. All of this work that we do as designers is about comforting people in the face of an uncertain future; one wrong click, one poorly-timed refresh, and suddenly all your data is gone, you’ve sent an embarrassing message to someone, the interface has hurt you.
+            And so I’m glad for the bug I came across that day because it re-framed my work. Or rather, clarified
+            something that I’d been thinking about for a long time. All of this work that we do as designers is about
+            comforting people in the face of an uncertain future; one wrong click, one poorly-timed refresh, and
+            suddenly all your data is gone, you’ve sent an embarrassing message to someone, the interface has hurt you.
 
-Perhaps our motto as designers should then be this: _Do no harm. Make things clear. And show us the future._
+            Perhaps our motto as designers should then be this: _Do no harm. Make things clear. And show us the future._
 
           </Markdown>
-          </div>
         </div>
       </div>
-    </article>
-  </body>
+    </div>
+  </article>
+</body>
+
 </html>

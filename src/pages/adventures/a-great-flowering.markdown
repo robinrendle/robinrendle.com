@@ -40,9 +40,7 @@ bodyclass: adventures-blue
 <p>This lonely font file will have all the instructions inside that let&nbsp;us manipulate—or to use the correct term, <em>interpolate</em>—other shapes; bold, thin, condensed and extended styles can then be made from its outlines, as shown below:</p>
 
 <figure>
-    <img class="tl-email-image" data-id="1051205" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/3a1485b3-a38f-4f18-8caf-b149125b867f.gif">
-
-<figcaption>Above: Erik van Blokland has created<a href="http://letterror.com/dev/mathshapes/"> a number of examples</a> that teases me every time I look at them.</figcaption>
+    <img class="tl-email-image" data-id="1051205" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/3a1485b3-a38f-4f18-8caf-b149125b867f.gif"/>
 </figure>
 
 <p>There’s at least two immediate benefits that I can think of when it comes to a variable font format.</p>
@@ -53,7 +51,7 @@ bodyclass: adventures-blue
 
 <h3>#2 Flexible design systems.</h3>
 
-<p>Once font variants are implemented in browsers designers will suddenly have access to a far greater number of options for styling text. Should the text on mobile be more condensed to squeeze a larger number of<br>
+<p>Once font variants are implemented in browsers designers will suddenly have access to a far greater number of options for styling text. Should the text on mobile be more condensed to squeeze a larger number of<br/>
 characters into a line? No problem. Should the text expand to fit the whole width of the window? You got it.</p>
 
 <p>All this&nbsp;should mark a significant visual change on the web.</p>
@@ -90,35 +88,35 @@ characters into a line? No problem. Should the text expand to fit the whole widt
 
 <p>Nina Stössinger’s delightful serif <a href="https://monokrom.no/fonts/nordvest">Nordvest</a> was published a short while back. I’m not sure what else there is to say about the typeface, other than to just <em>oogle</em> at it:</p>
 
-<img class="tl-email-image" data-id="1038961" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/0a2b70d7-48dc-48a5-bccf-c4453ffb4704.jpg">
+<img class="tl-email-image" data-id="1038961" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/0a2b70d7-48dc-48a5-bccf-c4453ffb4704.jpg" />
 
 <p>What’s of particular interest with this release isn’t only the shape of the characters however, but also with the way in which Monokrom are publicizing it with <a href="https://monokrom.no/nordvesttour/">the Nordvest Tour</a>. This project is an all-in-one&nbsp;travelogue, type specimen and&nbsp;collection of stories about the Nordic languages:</p>
 
-<img class="tl-email-image" data-id="1038973" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/148eee8c-c139-479f-ab71-009ae9cd6738.png">
+<img class="tl-email-image" data-id="1038973" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/148eee8c-c139-479f-ab71-009ae9cd6738.png" />
 
 <p style="text-align: center;">¶ ¶ ¶</p>
 
-<p style="text-align: left;"><br>
+<p style="text-align: left;"><br/>
 Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-multi/">Multi,</a>&nbsp;in&nbsp;both text and display&nbsp;variants, which happens to be a sans serif family with elements of “humanist calligraphy.” This term&nbsp;means that the stroke of each letter appears to be drawn with a pen angled ever so slightly to one side.&nbsp;Effectively, there’s a lot more&nbsp;contrast between strokes than there might be in, say, a bog standard grotesk like Helvetica.</p>
 
-<img class="tl-email-image" data-id="1039125" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/50dc2935-9f97-4494-8fc2-54715ce8806d.png">
+<img class="tl-email-image" data-id="1039125" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/50dc2935-9f97-4494-8fc2-54715ce8806d.png" />
 
 <p>It’s easier to see this sort of flare when compared to other typefaces however, just as&nbsp;Laura reveals in <a href="http://www.laurameseguer.com/multi/design/">the underlying design of Multi:</a></p>
 
-<img class="tl-email-image" data-id="1039129" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/b44710f0-49f3-4d65-a23a-02294eb6c4bf.png">
+<img class="tl-email-image" data-id="1039129" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/b44710f0-49f3-4d65-a23a-02294eb6c4bf.png" />
 
 <p style="text-align: center;"><span style="color: rgb(85, 85, 85); font-size: 16px; font-style: normal; font-weight: normal; line-height: 24px; text-align: center;">¶ ¶ ¶</p>
 
 <p>I’m not entirely sure when <a href="https://www.typotheque.com/fonts/bara/about">Bara</a> by Nikola Djurek was released, so I’ll include it here for safe measure. Bara is a serif rooted in 16th century metal types of the Dutch Golden Age. It has three optical sizes: Text for body copy, Display for headings and Grande for headlines.</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039137" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/be16e7c4-1ea3-4bb7-a033-00ed63a02e93.png">
+<img class="tl-email-image" data-id="1039137" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/be16e7c4-1ea3-4bb7-a033-00ed63a02e93.png" />
 </figure>
 
 <p>If you have a moment or two, be sure to ponder over the numerals of Bara. They’re a pure delight:</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039141" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/7af89002-d62d-42bd-80bd-b9ddd4a50768.png">
+<img class="tl-email-image" data-id="1039141" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/7af89002-d62d-42bd-80bd-b9ddd4a50768.png" />
 </figure>
 
 <p style="text-align: center;"><span style="color: rgb(85, 85, 85); font-size: 16px; font-style: normal; font-weight: normal; line-height: 24px; text-align: center;">¶ ¶ ¶</span></p>
@@ -126,13 +124,13 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
 <p style="text-align: left;">In my absence over the last couple of weeks I also happened to miss the release of <a href="https://www.typotheque.com/fonts/zico/about">Zico</a>, which&nbsp;was&nbsp;published next to Bara on Typotheque, too. Unlike Bara however, Zico is designed by Marko Hrastovec and originates more closely from the world of lettering:</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039145" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/534b2872-4485-4e83-a03b-a1c59814e428.png">
+<img class="tl-email-image" data-id="1039145" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/534b2872-4485-4e83-a03b-a1c59814e428.png" />
 </figure>
 
 <p>In <a href="https://www.typotheque.com/articles/zico_how_lettering_became_type_design">the design notes for Zico</a>, Marko describes how the type family found inspiration in tennis ball packaging and motor oil cans:</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039157" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/0b440dd9-70a3-4150-b75a-313d7e71dd6c.jpg">
+<img class="tl-email-image" data-id="1039157" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/0b440dd9-70a3-4150-b75a-313d7e71dd6c.jpg" />
 </figure>
 
 <p style="text-align: center;">¶ ¶ ¶</p>
@@ -140,7 +138,7 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
 <p>Via the Type Together foundry, Veronika Burian and José Scaglione released <a href="http://www.type-together.com/Portada">Portada</a>, a serif designed for the screen:</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039181" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/450da728-bc64-4940-8c5d-e1a3e3d5c993.png">
+<img class="tl-email-image" data-id="1039181" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/450da728-bc64-4940-8c5d-e1a3e3d5c993.png" /> 
 </figure>
 
 <p style="text-align: center;">¶ ¶ ¶</p>
@@ -148,11 +146,11 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
 <p>David Jonathan Ross and Roger Black teamed up to create <a href="https://djr.com/forma/">Forma</a>, a revival of the 1968 sans serif by the Italian foundry Nebiolo:</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039225" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/f3376968-b713-4b6c-a397-5efd9f5f0b2c.png">
+<img class="tl-email-image" data-id="1039225" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/f3376968-b713-4b6c-a397-5efd9f5f0b2c.png" />
 </figure>
 
 <figure>
-<img class="tl-email-image" data-id="1039249" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6c2978e2-3257-408f-b064-10f296ec41f7.jpg">
+<img class="tl-email-image" data-id="1039249" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6c2978e2-3257-408f-b064-10f296ec41f7.jpg" />
 </figure>
 
 <p>From DJR’s site:</p>
@@ -164,7 +162,7 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
 <p>To my shame I had never heard of the lead designer of the project, Aldo Novarese, and so I was thankful for the Type Network to publish <a href="http://www.typenetwork.com/news/article/aldo-novarese/">a bio of Aldo and his work</a>. Likewise, <a href="http://djr.typenetwork.com/news/article/finding-forma">Indra Kupferschmid wrote a lovely companion piece</a> that describes how she&nbsp;found the original fonts to be used as research material for the revival:</p>
 
 <figure>
-<img class="tl-email-image" data-id="1039537" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6c002b65-6bab-40ec-a6bf-f9fd331d0ec0.jpg">
+<img class="tl-email-image" data-id="1039537" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6c002b65-6bab-40ec-a6bf-f9fd331d0ec0.jpg" />
 </figure>
 
 <h2>The Week in Type</h2>
@@ -184,5 +182,5 @@ Laura Meseguer released <a href="http://www.laurameseguer.com/multi/what-is-mult
 <p>I was bumbling around on the <a href="http://www.typenetwork.com/">Type Network</a> the other day and I gasped when I found <a href="https://store.typenetwork.com/foundry/victoriarushton/fonts/marcia">Marcia by Victoria Rushton</a> and the K! Oh, lord. My heart strings...</p>
 
 <figure>
-    <img class="tl-email-image" data-id="1051513" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6647ead7-0e67-46ce-8128-0cfd44086e89.png">
+    <img class="tl-email-image" data-id="1051513" src="http://gallery.tinyletterapp.com/ed299f0ca02cd22d04c76c6e447e68a7851ec03d/images/6647ead7-0e67-46ce-8128-0cfd44086e89.png" />
 </figure>

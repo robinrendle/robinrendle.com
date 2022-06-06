@@ -47,7 +47,7 @@ Things are improving though. What was once considered daring typographically is 
 </blockquote>
 
 <figcaption class="cite">
-<p>Joost Grootens, <cite><a href="http://www.amazon.com/Swear-Use-No-Art-All/dp/9064507198">I swear I use no art at all</a></cite></p>
+Joost Grootens, <cite><a href="http://www.amazon.com/Swear-Use-No-Art-All/dp/9064507198">I swear I use no art at all</a></cite>
 </figcaption>
 </figure>
 

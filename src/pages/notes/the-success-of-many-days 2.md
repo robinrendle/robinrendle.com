@@ -15,7 +15,7 @@ I reckon all this work has led to something..._outstanding_. Screenshots of the 
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img src="/images/gusto-new-brand-dashboard.png" alt="The new dashboard for the Gusto app">
+    <img src="/images/gusto-new-brand-dashboard.png" alt="The new dashboard for the Gusto app" />
   </figure>
 </div>
 

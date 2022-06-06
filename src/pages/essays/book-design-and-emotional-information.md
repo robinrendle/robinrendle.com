@@ -38,7 +38,7 @@ Some believe that there are two things in an object that must come together in o
 <blockquote>
   <p>A book is a flexible mirror of the mind. Its overall size and proportions, the color and texture of the paper, the sound it makes as the pages turn, and the smell of the paper, adhesive and ink, all blend with the size and form and placement of the type to reveal a little about the world in which it was made. If the book appears to be only a paper machine, produced at their own convenience by other machines, only machines will want to read it.</p>
 </blockquote>
-<figcaption class="cite"><p>Robert Bringhurst, <em><a href="http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1315871728&amp;sr=1-1">Elements of Typographic Style</a></em></p></figcaption>
+<figcaption class="cite">Robert Bringhurst, <em><a href="http://www.amazon.co.uk/Elements-Typographic-Style-Robert-Bringhurst/dp/0881792063/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1315871728&amp;sr=1-1">Elements of Typographic Style</a></em></figcaption>
 </figure>
 
 An example that sets itself apart and uses emotional information to its advantage would be the recently published books by the [Wabi-Sabi Press](http://www.wabisabi-press.co.uk/). They are cheap, small paperbacks and contain various essays by Patrick Lafcadio Hearn, an early 20th century author that wrote extensively about Japanese culture.

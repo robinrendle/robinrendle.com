@@ -17,14 +17,7 @@ Bound up in papyrus or transcribed onto silk, the mysterious history of our book
 
 <p>The author wastes no time by jumping into the early calligraphic methods of Egyptian scribes, before moving swiftly onto the work of Cai Lun, Gutenburg’s printing press and Ottmar Mergenthaler’s Linotype machine. Along the way, Houston explores the impact of <em>proto-books</em>, like etchings on walls, or illumination in manuscripts, and explains how each of these steps towards the manufacture and design of books left their mark:</p>
 
-<figure>
-  <blockquote>
-    <p>Whether or not a scribe understood a word of the text he was copying, progress was slow and methodical. Each letter was constructed stroke by stroke in iron gall ink, and a conscientious scribe would pause to sharpen his quill tens of times each day to maintain an even line. The penknife with which he did that, in fact, was every bit as important as his pen: with it, he could prick holes for guidelines; scrape off a mistake before its ink soaked into the page; or hold springy parchment flat so as to write upon it more easily. At the end of all this he would have picked up the completed page, cast an expert eye over its neatly ruled lines and disciplined text, and then passed it on to a colleague practiced in the graphic arts.</p>
-   </blockquote>
-   <figcaption>
-     <p><em>The Book</em>, Keith Houston, page 170</p>
-   </figcaption>
-</figure>
+> Whether or not a scribe understood a word of the text he was copying, progress was slow and methodical. Each letter was constructed stroke by stroke in iron gall ink, and a conscientious scribe would pause to sharpen his quill tens of times each day to maintain an even line. The penknife with which he did that, in fact, was every bit as important as his pen: with it, he could prick holes for guidelines; scrape off a mistake before its ink soaked into the page; or hold springy parchment flat so as to write upon it more easily. At the end of all this he would have picked up the completed page, cast an expert eye over its neatly ruled lines and disciplined text, and then passed it on to a colleague practiced in the graphic arts.
 
 But! Unlike the vast majority of books on this topic, Houston doesn’t focus solely on Western characters in the tale. Publishers across China and Japan are of central importance too and so many of these stories were new to me.
 

@@ -11,7 +11,7 @@ city: San Francisco
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded" style="margin-top: 0; margin-bottom: 10px;"> 
-    <img alt="The Hyperbolic Time Chamber" src="/images/htc.jpg">
+    <img alt="The Hyperbolic Time Chamber" src="/images/htc.jpg"/>
   </figure>
 </div>
 
@@ -23,7 +23,7 @@ There’s no progress to speak of, it’s still far too soon for that, but there
 
 <div class="m-wrapper--full">
   <figure class="m-wrapper--unpadded">
-    <img alt="Workout stats for this week" src="/images/htc-week3.png" loading="lazy">
+    <img alt="Workout stats for this week" src="/images/htc-week3.png" loading="lazy"/>
   </figure>
 </div>
 

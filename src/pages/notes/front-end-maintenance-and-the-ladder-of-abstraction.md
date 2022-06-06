@@ -24,9 +24,7 @@ There’s been various discussions about [atomic design](http://bradfrostweb.com
 
 [Nicolas Gallagher](http://twitter.com/necolas), a front-end developer at Twitter, summarised this problem wonderfully however:
 
-<figure><blockquote><p>Replace “can you build this?” with “can you maintain this without losing your minds?”</p></blockquote>
-<figcaption class="cite"><p>Nicolas Gallagher, <em><a href="https://twitter.com/necolas/status/360170108028600320">24th July 2013</a></em></p></figcaption>
-</figure>
+> Replace “can you build this?” with “can you maintain this without losing your minds?”
 
 Anyone that’s worked on a relatively large front-end system has probably experienced that nauseous feeling whilst navigating all of those partials, files and directories that make up [this interface](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/) and so every developer should be able to empathise with this idea of maintenance.
 
@@ -60,5 +58,5 @@ If we take this design process and focus again on the front-end interface then w
 
 Generally, I think that we should spend more time on these sorts of problems. If we start to consider how the developers that follow us will tidy up the things we break, or perhaps even add new components to the site, then perhaps we’ll answer Nicolas’ question after all; in the end we won’t lose our minds.
 
-<hr>
+<hr />
 *The image above is this glorious [bird’s eye view](http://commons.wikimedia.org/wiki/File:Atlanta_Koch_map_1892.jpg) of Atlanta in 1892 by Augustus Koch.*

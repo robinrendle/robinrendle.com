@@ -17,10 +17,11 @@
     "url": "https://robinrendle.com"
   },
   "license": "MIT",
-  "devDependencies": {
-    "astro": "^0.21.0"
-  },
   "dependencies": {
-    "@astropub/icons": "^0.2.0"
+    "@astrojs/rss": "^0.2.0",
+    "astro": "^1.0.0-beta.36"
+  },
+  "devDependencies": {
+    "sass": "^1.52.1"
   }
 }

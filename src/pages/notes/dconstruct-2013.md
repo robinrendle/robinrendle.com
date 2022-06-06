@@ -21,7 +21,6 @@ Watching the fields pass as we caught the train to Brighton, I had no idea what 
 
 <figure>
 <img src="/images/brighton-pier.jpg" alt="Brighton pier" />
-<figcaption><p>Heading to the party before the event for registration I remembered how much I miss the sea and the pier and the lights and the campfires and the everything about Brighton.</p></figcaption>
 </figure>
 
 I don’t want to write about this year’s event that much and how it supplanted all of my expectations. There’s been plenty of note taking and talking about it that puts everything into words better than I ever could. But I do want to write a little about _seeing_ however, about perspective and attention, since the event showed me how negligent I’ve been and how much should be within my field of vision.

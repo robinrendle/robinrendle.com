@@ -22,7 +22,7 @@ This year’s [Ampersand](http://2015.ampersandconf.com) was a perfect cavalcade
 Indra’s discussion about the design of the [Benton Modern website](http://bentonmodern.webtype.com) was particularly insightful, too.
 
 <p class="full">
-<img src="/images/ampersand.jpg" class="full">
+<img src="/images/ampersand.jpg" class="full" />
 </p>
 
 Next, [Marcin Wichary](https://medium.com/@mwichary) gave a talk about his typographic monomania at Medium. It was interesting to learn about the sheer number of hacks that are required to [get proper underlines for links](https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9), [or the Chrome dictionary bug that almost drove him insane](https://medium.com/@mwichary/fixing-a-chrome-dictionary-issue-bbd7c5314f01). I’ve been following his work for the last year or so and each time I’m always astonished by his perseverance (also this was one of the most technically and visually impressive talks I’ve ever seen).
@@ -36,8 +36,7 @@ As a presiding member of the NSSFC (the [Nick Sherman](https://twitter.com/NickS
 In type design there’s a practice called interpolation where you have two designs, say a light weight and a black weight, and then you can use a tool to generate a design between these two extremes. In this case you might want to generate a regular weight and so using this tool would save a lot of time designing everything by hand. Although, in practice these algorithmically generated fonts require a lot of fine tuning.
 
 <figure>
-		<img src="/images/interpolate.gif">
-		<figcaption>An example of interpolation from a demo by <a href="http://www.aetherpoint.com/blogpost/typographics-nyc-typelab-interpolation">Andrew Johnson</a></figcaption>
+		<img src="/images/interpolate.gif" />
 </figure>
 
 We can interpolate an almost infinite combination of weights and widths that we need. But what if we take this practice of type design and move it over to the web? What might this mean for developers and designers? Well, it would be helpful because we’d only be making a request for a single font, instead of the multiple fonts we need today for book, medium and bold weights or thin, compressed and wide fonts. Secondly, we’d have a lot more control; sometimes tiny adjustments to an interface, like beefing up the font-weight of some text when it’s placed on a light background, can have a big impact on usability.

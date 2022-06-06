@@ -1,12 +1,15 @@
 <style lang="scss">
-  .inputs, .inputs input {
+  .inputs,
+  .inputs input {
     font-size: 100%;
     margin-top: 0 !important;
   }
+
   .inputs {
     display: flex;
     gap: 10px;
   }
+
   input[type="email"] {
     width: 100%;
     display: flex;
@@ -16,16 +19,19 @@
     background-color: var(--color-faded);
     color: var(--color-title);
   }
+
   input[type="submit"] {
     background-color: var(--color-title);
     letter-spacing: 0;
     color: var(--color-background);
+
     &:hover {
       color: var(--color-title);
       background-color: var(--color-link);
       cursor: pointer;
     }
   }
+
   input {
     border: none;
     box-shadow: none;
@@ -34,6 +40,7 @@
     font-family: var(--font-text);
     -webkit-appearance: none;
   }
+
   label {
     font-family: var(--font-subheading);
     text-transform: lowercase;
@@ -46,13 +53,8 @@
   }
 </style>
 
-<form
-  action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
+<form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow"
+  onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form">
   <div class="inputs">
     <input type="email" name="email" id="bd-email" required placeholder="Email address" />
     <input type="submit" value="Subscribe" />

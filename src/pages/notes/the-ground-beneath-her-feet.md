@@ -24,11 +24,6 @@ So much of the book is about _belonging_, whether or not that’s within the uni
 
 An excerpt from Rushdie’s autobiography is what led me to it a while ago, and it’s here that he describes the objectives of his work and how this idea of _belonging_ ties into all of his books in one way or another:
 
-<figure>
-    <blockquote>
-    <p>There was a novel growing in him, but its exact nature eluded him. It would be a big book, he knew that, ranging widely over space and time. A book of journeys. That felt right. He had dealt, as well as he knew how, with the worlds from which he had come. Now he needed to connect those worlds to the very different world in which he had made his life. He was beginning to see that this, rather than India or Pakistan or politics or magic realism, would be his real subject, the one he would worry away at for the rest of his career: the great question of how the world joins up—not only how the East flows into the West and the West into the East but how the past shapes the present even as the present changes our understanding of the past, and how the imagined world, the location of dreams, art, invention, and, yes, faith, sometimes leaks across the frontier separating it from the “real” place in which human beings mistakenly believe they live. </p>
-    </blockquote>
-    <figcaption class="cite">
-        <p>Salman Rushdie, <a href="http://www.newyorker.com/reporting/2012/09/17/120917fa_fact_rushdie?currentPage=all">New Yorker</a></p>
-    </figcaption>
-</figure>
+> There was a novel growing in him, but its exact nature eluded him. It would be a big book, he knew that, ranging widely over space and time. A book of journeys. That felt right. He had dealt, as well as he knew how, with the worlds from which he had come. Now he needed to connect those worlds to the very different world in which he had made his life. He was beginning to see that this, rather than India or Pakistan or politics or magic realism, would be his real subject, the one he would worry away at for the rest of his career: the great question of how the world joins up—not only how the East flows into the West and the West into the East but how the past shapes the present even as the present changes our understanding of the past, and how the imagined world, the location of dreams, art, invention, and, yes, faith, sometimes leaks across the frontier separating it from the “real” place in which human beings mistakenly believe they live.
+
+Salman Rushdie, <a href="http://www.newyorker.com/reporting/2012/09/17/120917fa_fact_rushdie?currentPage=all">New Yorker</a>

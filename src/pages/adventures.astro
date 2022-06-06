@@ -12,48 +12,53 @@ interface MarkdownFrontmatter {
 const { title = 'Adventures in Typography' } = Astro.props;
 const { description = 'Designer and writer' } = Astro.props;
 
-let essayPosts = await Astro.fetchContent('../pages/adventures/*.md');
-essayPosts = essayPosts.sort((a, b) =>  new Date(b.date).valueOf() - new Date(a.date).valueOf());
+let essayPosts = await Astro.glob('../pages/adventures/*.md');
+essayPosts = essayPosts.sort((a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf());
 
 ---
+
 <!DOCTYPE html>
 <html data-theme="light" lang="en">
-  <head>
-    <MainHead
-      title={'Adventures in Typography'}
-      description={description}
-    />
 
-    <style lang="scss">
-      .title {
-        font-size: 3em;
-        letter-spacing: -0.04em;
-        margin-top: 2rem;
-        margin-bottom: 0;
-        text-align: center;
-      }
-      .count {
-        font-size: 1em;
-        display: block;
-        text-align: center;
-      }
-      .newsletter-card {
-        margin-bottom: 40px;
+<head>
+  <MainHead title={'Adventures in Typography'} description={description} />
 
-        p {
-          font-size: 110%;
-        }
-      }
-    </style>
-  </head>
+  <style lang="scss">
+    .title {
+      font-size: 3em;
+      letter-spacing: -0.04em;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      text-align: center;
+    }
 
-  <body>
-    <Nav title={title} />
-    <main class="wrapper">
-      <ArticleList title="Adventures in Typography">
-        <Card className="newsletter-card"><p>A now dormant newsletter about typography that ran from 2018-2020.</p></Card>
-        {essayPosts.map(p => <ArticleItem post={p} />)}        
-      </ArticleList>
-    </main>
-  </body>
+    .count {
+      font-size: 1em;
+      display: block;
+      text-align: center;
+    }
+
+    .newsletter-card {
+      margin-bottom: 40px;
+
+      p {
+        font-size: 110%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <Nav />
+  <main class="wrapper">
+    <ArticleList title="Adventures in Typography">
+      <Card className="newsletter-card">
+        <p>A dormant newsletter about typography that ran from 2018-2020.</p>
+      </Card>
+      {essayPosts.map(p =>
+      <ArticleItem post={p} />)}
+    </ArticleList>
+  </main>
+</body>
+
 </html>
