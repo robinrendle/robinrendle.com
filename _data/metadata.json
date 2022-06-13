@@ -6,11 +6,11 @@
   "feed": {
     "subtitle": "Notes from the field.",
     "filename": "feed.xml",
-    "path": "/feed/feed.xml",
+    "path": "/feed.xml",
     "id": "https://robinrendle.com/"
   },
   "jsonfeed": {
-    "path": "/feed/feed.json",
+    "path": "/feed.json",
     "url": "https://robinrendle.com/feed/feed.json"
   },
   "author": {
