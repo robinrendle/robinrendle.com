@@ -1,27 +1,30 @@
 {
-  "name": "@robinrendle/robinrendle",
-  "version": "0.0.1",
-  "private": true,
+  "name": "robinrendlev2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robinrendle/robinrendle.com"
+    "build": "npx @11ty/eleventy",
+    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+    "watch": "npx @11ty/eleventy --watch",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "author": {
     "name": "Robin Rendle",
     "email": "robinjrendle@gmail.com",
-    "url": "https://robinrendle.com"
+    "url": "https://robinrendle.com/"
   },
-  "license": "MIT",
+  "keywords": [],
+  "license": "ISC",
   "dependencies": {
-    "@astrojs/rss": "^0.2.0",
-    "astro": "^1.0.0-beta.36"
-  },
-  "devDependencies": {
-    "sass": "^1.52.1"
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-navigation": "^0.3.3",
+    "@11ty/eleventy-plugin-rss": "^1.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
+    "luxon": "^2.4.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-anchor": "^8.6.4"
   }
 }

@@ -1,15 +1,13 @@
-# Robin Rendle
+# robinrendle.com
 
-My personal website, running on [Astro](https://astro.build/).
+To begin:
 
-### Run
+```
+npm install
+```
+
+To start:
 
 ```
 npm start
-```
-
-### Build
-
-```
-npm run build
 ```

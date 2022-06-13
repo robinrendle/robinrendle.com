@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Gimlet text";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/gimlet/GimletText-Regular.woff2") format("woff2"),
+    url("/fonts/gimlet/GimletText-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gimlet text italic";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/gimlet/GimletText-Italic.woff2") format("woff2"),
+    url("/fonts/gimlet/GimletText-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gimlet bold"; /* really just gimlet text medium condensed */
+  font-style: bold;
+  src: url("/fonts/gimlet/GimletTextCondensed-Medium.woff2") format("woff2"),
+    url("/fonts/gimlet/GimletTextCondensed-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gimlet condensed";
+  src: url("/fonts/gimlet/GimletCondensed.woff2") format("woff2"),
+    url("/fonts/gimlet/GimletCondensed.woff") format("woff");
+}

@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+permalink: /newsletter/
+---
+
+{# eleventyNavigation:
+  key: Archive
+  order: 2 #}
+
+<h1>Newsletter</h1>
+
+<ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+{% for note in collections.newsletter | reverse %}
+  <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
+    <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
+    <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
+  </li>
+{% endfor %}
+</ol>
+

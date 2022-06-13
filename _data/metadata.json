@@ -1,0 +1,21 @@
+{
+  "title": "Robin Rendle",
+  "url": "https://robinrendle.com/",
+  "language": "en",
+  "description": "Blogger, font man",
+  "feed": {
+    "subtitle": "Notes from the field.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://robinrendle.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://robinrendle.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Robin Rendle",
+    "email": "robinjrendle@gmail.com.com",
+    "url": "https://robinrendle.com/about/"
+  }
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Newzald";
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+  src: url("/fonts/newzald/book.woff2") format("woff2"),
+    url("/fonts/newzald/book.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Newzald";
+  font-weight: 400;
+  font-style: italic;
+  font-display: fallback;
+  src: url("/fonts/newzald/book-italic.woff2") format("woff2"),
+    url("/fonts/newzald/book-italic.woff") format("woff");
+}

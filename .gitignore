@@ -1,36 +1,3 @@
-composer.lock
-/vendor
-/web/static/css/
-Gemfile.lock
-
-dist/
-/_site
-/site/cache
-site/cache/7ecb9812e507ad9f91804947318ab2f9.php
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-
-# Stylesheets #
-##############
-*.scssc
-
-
-# Build #
-##############
-node_modules
-npm-debug.log
+_site/
+node_modules/
 package-lock.json
-
-app/_cache/
-.htaccess
-config.ru
-
-/design
-
-*.rb
-license.mdown
-*.sublime-project
-*.sublime-workspace

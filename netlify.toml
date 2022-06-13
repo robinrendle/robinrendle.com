@@ -1,17 +1,11 @@
 [build]
-  command = "astro build"
-  publish = "dist"
-
-[[redirects]]
-  from = "/essays/futures-of-typography"
-  to = "/essays/the-futures-of-typography"
-
-[[redirects]]
-  from = "/essays/new-web-typography/"
-  to = "/essays/the-new-web-typography"
+  command = "npm run build"
+  publish = "_site"
 
 [[redirects]]
   from = "/feed/notes.xml"
-  to = "/feed.xml"
+  to = "/feed/feed.xml"
 
-  
+[[redirects]]
+  from = "/feed.xml"
+  to = "/feed/feed.xml"

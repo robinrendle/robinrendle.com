@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Aluminia";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/aluminia/LfAAluminia-Roman.woff2") format("woff2"),
+    url("/fonts/aluminia/LfAAluminia-Roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Aluminia";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("/fonts/aluminia/LfAAluminia-Italic.woff2") format("woff2"),
+    url("/fonts/aluminia/LfAAluminia-Italic.woff") format("woff");
+}

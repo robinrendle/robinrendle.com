@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "National";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url("/fonts/National2-Regular.woff2") format("woff2"),
+       url("/fonts/National2-Regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "National Italic";
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	src: url("/fonts/National2-RegularItalic.woff2") format("woff2"),
+       url("/fonts/National2-Regular.woff") format("woff");;
+}
+
+@font-face {
+	font-family: "National Display";
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+	src: url("/fonts/National2Narrow-Medium.woff2") format("woff2"),
+      url("/fonts/National2Narrow-Medium.woff") format("woff");
+}
