@@ -2,9 +2,9 @@
 layout: layouts/base.njk
 ---
 
-<h2>Allo! I’m Robin, a web designer, writer, cursed front-end developer, and satanic .woff enthusiast.</h2>
+<h1>Allo! I’m Robin, a web designer, writer, cursed front-end developer, and satanic .woff enthusiast.</h1>
 
-<h3>Newsletter</h3>
+<h2>Newsletter</h2>
 <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form astro-2WPH57EV">
@@ -14,12 +14,8 @@ layout: layouts/base.njk
   </div>
 </form>
 
-<h3>Notes</h3>
+<h2>Notes</h2>
 
 {% set noteslist = collections.notes %}
 {% set noteslistCounter = collections.notes | length %}
 {% include "noteslist.njk" %}
-
-{# <h3>Adventures</h3>
-
-<h3>Essays</h3> #}
