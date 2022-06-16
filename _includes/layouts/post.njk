@@ -4,7 +4,8 @@ templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> / {{city}}, {{country}}
+
 
 
 {# {%- for tag in tags | filterTagList -%}

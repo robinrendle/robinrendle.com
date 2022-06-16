@@ -9,7 +9,14 @@
 <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     {# <link rel="stylesheet" href="{{ '/css/index.css' | url }}"> #}
     <style>
-      img {
+      :root {
+        --color-gray: #777;
+        --space-3: 24px;
+        --space-2: 16px;
+        --space-1: 8px;
+      }
+
+      img, iframe {
         max-width: 100%;
       }
 
@@ -18,16 +25,61 @@
         color-scheme: light dark;
       } #}
 
+      *, *:after, *:before {
+        box-sizing: border-box;
+      }
+
       body {
-        padding: 0 15px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        max-width: 650px;
-        font-size: 115%; 
-        line-height: 1.4;
+        padding: 0;
+        font: clamp(1rem, 3vw, 1.2rem)/1.4 system-ui, sans-serif;
+        width: min(95%, 50ch);
+        margin-inline: auto;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 3vw, 2.8rem);
+        line-height: 1.2;
       }
 
       pre code {
         white-space: pre-wrap;
+      }
+
+      .inputs {
+        display: flex;
+        gap: 10px;
+        height: 40px;
+      }
+
+      .inputs input {
+        display: flex;
+        margin: auto;
+        height: 100%;
+      }
+
+      input[type="email"] {
+        width: 100%;
+        padding-left: 15px;
+      }
+
+      .notes-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .notelist-item {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: var(--space-3);
+      }
+
+      .notelist-item p {
+        margin: 0;
+      }
+
+      .notelist-date {
+        font-size: 80%;
+        color: var(--color-gray);
       }
     </style>
   </head>
