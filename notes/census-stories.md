@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Census Stories
 date: 2019-06-16 21:22:44
 city: San Francisco

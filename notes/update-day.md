@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Update Day
 date: 2017-04-20 23:03:00 -07:00
 city: San Francisco

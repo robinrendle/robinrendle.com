@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How to be an open source gardener
 date: 2020-01-09 15:47:32
 extract: And how to care for the community.

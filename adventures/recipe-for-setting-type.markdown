@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Recipe for Setting Type
 date: 2016-11-05 15:09:00 -07:00
 Country: CA

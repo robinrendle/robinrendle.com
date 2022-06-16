@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Scrolljacking
 date: 2013-10-23 11:06:00 -07:00
 tags:

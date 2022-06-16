@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: world@hey.com
 date: 2021-04-12T02:31:01.137Z
 city: San Francisco

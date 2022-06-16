@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Quiet Redesign
 date: 2019-11-30 21:13:48
 extract: And how to improve things bit by bit.

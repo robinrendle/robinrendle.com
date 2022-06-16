@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Food and Sleep
 date: 2015-09-28 11:59:00 -07:00
 tags:

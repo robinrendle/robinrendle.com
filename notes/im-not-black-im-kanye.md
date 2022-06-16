@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: I’m Not Black, I’m Kanye
 date: 2018-05-12 00:20:00 -07:00
 tags:

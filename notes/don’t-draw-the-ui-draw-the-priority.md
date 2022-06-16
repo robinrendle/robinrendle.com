@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Don’t draw the UI, draw the priority
 date: 2020-09-02T15:23:35.851Z
 city: San Francisco

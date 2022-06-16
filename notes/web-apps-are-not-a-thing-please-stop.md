@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Web Apps Are Not A Thing, Please Stop
 date: 2020-09-30T05:34:27.802Z
 city: San Francisco

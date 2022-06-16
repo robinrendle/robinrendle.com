@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Confidence and Berry Glen
 date: 2019-07-13 11:23:11
 city: San Francisco

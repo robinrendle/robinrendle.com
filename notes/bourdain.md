@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Bourdain
 date: 2018-06-12 21:36:00 -07:00
 extract: Not a chef, barely even a cook, but a damn fine writer.

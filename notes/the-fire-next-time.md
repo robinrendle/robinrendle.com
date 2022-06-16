@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Fire Next Time
 date: 2017-08-27 13:05:00 -07:00
 tags:

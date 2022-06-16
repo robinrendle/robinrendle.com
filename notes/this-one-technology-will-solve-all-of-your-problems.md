@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: This One Technology Will Solve All of Your Problems
 date: 2019-03-25 10:56:00 -07:00
 extract:

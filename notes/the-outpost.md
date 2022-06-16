@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Outpost
 date: 2016-02-22 03:22:00 -08:00
 extract: A new project for the XOXO folks.

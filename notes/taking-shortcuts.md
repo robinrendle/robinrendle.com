@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Taking Shortcuts
 date: 2022-04-23
 city: San Francisco
@@ -27,7 +27,7 @@ After a bit of faffing about, here’s what my new blogging setup looks like the
 
 ```
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title:
 date:
 city: San Francisco

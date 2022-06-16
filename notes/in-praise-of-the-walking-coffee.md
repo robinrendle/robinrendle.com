@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: In Praise of the Walking Coffee
 date: 2020-06-17T17:32:44.674Z
 city: San Francisco

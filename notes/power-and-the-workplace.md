@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Power and the workplace
 date: 2021-05-13T16:54:09.821Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: An interview with Ted Chiang
 date: 2020-04-02 19:50:44
 tags:

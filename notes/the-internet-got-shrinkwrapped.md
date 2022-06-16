@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Internet Got Shrinkwrapped
 date: 2018-04-02 21:24:00 -07:00
 tags:

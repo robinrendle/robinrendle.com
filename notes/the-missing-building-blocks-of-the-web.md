@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Missing Building Blocks of the Web
 date: 2018-03-26 22:52:00 -07:00
 tags:

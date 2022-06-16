@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "And Introducing: The Kickstarter"
 date: 2018-10-27 11:45:00 -07:00
 tags:

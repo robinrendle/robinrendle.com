@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Out of Reach
 date: 2020-06-17T17:55:55.947Z
 city: San Francisco

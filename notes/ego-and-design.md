@@ -4,7 +4,7 @@ date: 2022-03-29T15:45:13.504Z
 city: San Francisco
 country: California
 extract: We type like hell, and hope that the typing will make us heroes.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - work
   - design

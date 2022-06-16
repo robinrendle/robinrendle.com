@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Eleventy and Netlify
 date: 2019-06-01 19:42:34 -07:00
 city: San Francisco

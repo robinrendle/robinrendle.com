@@ -3,7 +3,7 @@ title: Spacing and Sci-Fi
 date: 2021-10-21T02:58:48.992Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And the design of MD Nichrome.
 ---
 

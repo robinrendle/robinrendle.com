@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Yay Computers
 date: 2018-05-29 20:01:00 -07:00
 extract: A note from the CSS-Tricks newsletter.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why is file manipulation so hard?
 date: 2021-07-10
 city: San Francisco

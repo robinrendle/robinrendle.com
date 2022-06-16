@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Peak Bullshit
 date: 2021-01-11T17:13:45.033Z
 city: San Francisco

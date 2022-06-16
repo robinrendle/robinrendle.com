@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Vulf Sans
 date: 2019-07-12 08:31:01
 city: San Francisco

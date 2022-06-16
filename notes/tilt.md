@@ -3,7 +3,7 @@ title: Tilt
 date: 2021-11-20T16:40:56.786Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: A curious type family by Andy Clymer.
 ---
 

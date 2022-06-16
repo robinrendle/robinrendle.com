@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design Systems is Easy
 date: 2018-12-07 13:25:00 -08:00
 extract: Hey. Maybe this job is just, like, super easy or whatever.

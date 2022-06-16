@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Six"
 date: 2015-11-02 03:09:00 -08:00
 tags:

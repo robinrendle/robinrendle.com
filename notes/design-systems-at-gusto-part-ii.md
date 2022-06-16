@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Design Systems at Gusto: Part II"
 date: 2018-10-22 22:48:00 -07:00
 tags:

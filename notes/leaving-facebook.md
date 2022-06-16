@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Leaving Facebook
 date: 2018-05-06 20:24:00 -07:00
 extract: "“Facebook turns a necessary labor of love into a profitable business.”"

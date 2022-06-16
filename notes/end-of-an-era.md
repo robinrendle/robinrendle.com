@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: End of an Era
 date: 2019-05-05 10:12:00 -07:00
 extract: Anna Wiener on Twitter and the legacy of Jack.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: My Increasing Wariness of Dogmatism
 date: 2018-08-02 10:58:00 -07:00
 extract: Chris is smart and he writes smart things.

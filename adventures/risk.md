@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The projects we risk everything for
 date: 2019-11-23
 ---

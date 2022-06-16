@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Week of Too Many Things
 date: 2022-05-26
 city: San Francisco

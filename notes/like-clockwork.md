@@ -4,7 +4,7 @@ date: 2022-01-14T03:22:39.239Z
 city: San Francisco
 country: California
 extract: It’s one of the many things I love about C.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - celine
   - relationship

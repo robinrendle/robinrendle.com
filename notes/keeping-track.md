@@ -3,7 +3,7 @@ title: Keeping Track
 date: 2021-09-25T04:16:37.660Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: "Spreadsheets and publishing. "
 ---
 

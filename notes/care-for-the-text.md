@@ -4,7 +4,7 @@ date: 2021-12-25T00:36:57.166Z
 city: San Francisco
 country: California
 extract: How do you make a website great?
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - writing
 ---

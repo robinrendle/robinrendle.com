@@ -3,7 +3,7 @@ title: The Crane Wife
 date: 2021-11-23T22:18:18.029Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: If you want to save a species…
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Timefulness
 date: 2021-06-25T16:49:57.076Z
 city: San Francisco

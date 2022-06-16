@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: We’re looking for a designer
 date: 2020-12-01T17:04:57.554Z
 city: San Francisco

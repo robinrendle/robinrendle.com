@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Websites? Wobsites. Wibsits!
 date: 2021-03-08T16:57:51.233Z
 city: San Francisco

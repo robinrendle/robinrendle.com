@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Ghosts V–VI
 date: 2020-03-28 12:17:38
 tags:

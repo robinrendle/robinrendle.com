@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Irony doesn’t scale
 date: 2019-09-11 19:09:19
 city: San Francisco

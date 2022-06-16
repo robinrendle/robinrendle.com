@@ -5,7 +5,7 @@ city: San Francisco
 country: California
 extract: “...a powerful engine; a powerful argument; a powerful light; a
   powerful vessel”
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - dictionaries
   - language

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Three Body Problem
 date: 2018-04-22 16:21:00 -07:00
 tags:

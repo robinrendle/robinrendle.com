@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why does this design crit hurt?
 date: 2020-10-21T00:07:29.983Z
 city: San Francisco

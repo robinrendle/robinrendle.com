@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Text for Proofing Fonts
 date: 2020-05-25T00:57:38.214Z
 city: San Francisco

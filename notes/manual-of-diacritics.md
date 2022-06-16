@@ -3,7 +3,7 @@ title: The Manual of Diacritics
 date: 2021-10-11T23:35:01.713Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Words fail to make sense without them.
 ---
 

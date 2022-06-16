@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Collected Stories of Lydia Davis
 date: 2014-06-28 14:51:00 -07:00
 tags:

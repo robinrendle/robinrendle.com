@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Every website is a gift
 date: 2021-03-23T04:19:34.239Z
 city: Oakland

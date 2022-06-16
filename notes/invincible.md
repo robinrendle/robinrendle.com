@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Invincible
 date: 2021-06-05T06:46:55.769Z
 city: San Francisco

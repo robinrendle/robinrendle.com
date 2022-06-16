@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why the web is such a mess
 date: 2020-11-29T20:46:01.396Z
 city: San Francisco

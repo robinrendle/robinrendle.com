@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Practical typography
 date: 2014-08-18 14:25:00 -07:00
 tags:

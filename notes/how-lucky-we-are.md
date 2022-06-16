@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How lucky we are
 date: 2021-02-11T17:01:42.295Z
 city: San Francisco

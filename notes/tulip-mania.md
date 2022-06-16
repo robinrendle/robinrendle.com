@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Tulip Mania
 date: 2021-03-07T23:10:46.585Z
 city: Oakland

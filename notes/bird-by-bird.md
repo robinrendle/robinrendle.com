@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Bird by Bird
 date: 2014-08-11 04:04:00 -07:00
 tags:

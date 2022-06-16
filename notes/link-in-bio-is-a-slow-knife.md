@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: “Link in Bio” is a Slow Knife
 date: 2019-12-13 14:48:49
 extract: Anil Dash on hyperlinks and social networks.

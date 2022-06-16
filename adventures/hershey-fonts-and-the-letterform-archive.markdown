@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hershey Fonts and the Letterform Archive
 date: 2016-07-19 00:42:00 -07:00
 City: San Francisco

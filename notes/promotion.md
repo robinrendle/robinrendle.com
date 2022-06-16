@@ -4,7 +4,7 @@ date: 2022-02-04T21:39:55.735Z
 city: San Francisco
 country: California
 extract: I am on track. Success. Eggs!
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - work
   - sentry

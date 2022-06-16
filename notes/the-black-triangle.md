@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Black Triangle
 date: 2019-02-23 14:51:00 -08:00
 extract: And how to build things the right way.

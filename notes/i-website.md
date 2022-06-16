@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: I, Website
 date: 2016-04-15 11:49:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Demisemihemidemisemiquaver
 date: 2018-03-26 21:58:00 -07:00
 tags:

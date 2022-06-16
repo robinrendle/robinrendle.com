@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: On Writing
 date: 2020-03-01 08:59:43
 tags:

@@ -3,7 +3,7 @@ title: Money Stuff
 date: 2021-09-22T16:03:30.757Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: $$$
 ---
 

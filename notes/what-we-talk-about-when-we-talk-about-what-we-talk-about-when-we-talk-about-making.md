@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title:
   What we talk about when we talk about what we talk about when we talk about
   making

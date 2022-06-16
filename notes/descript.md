@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Descript
 date: 2021-01-15T22:56:40.465Z
 city: San Francisco

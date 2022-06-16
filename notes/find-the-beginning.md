@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Find the Beginning
 date: 2017-11-05 11:01:00 -08:00
 tags:

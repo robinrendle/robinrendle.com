@@ -4,7 +4,7 @@ date: 2021-12-30T03:57:55.882Z
 city: San Francisco
 country: California
 extract: For a new year.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - writing
   - newsletter

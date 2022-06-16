@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Retweet but do not read
 date: 2020-09-13T19:12:06.247Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Potential Typography and the Oulipo
 date: 2018-04-28
 ---

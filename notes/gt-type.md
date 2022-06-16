@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: GT Type catalogue
 date: 2020-03-27 15:27:07
 tags:

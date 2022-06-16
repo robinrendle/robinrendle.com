@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: You need front-end engineers
 date: 2019-03-25 12:53:00 -07:00
 extract: There, I said it.

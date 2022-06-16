@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Blogging and Atrophy
 date: 2016-11-02 23:12:00 -07:00
 tags:

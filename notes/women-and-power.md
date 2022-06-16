@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Women and Power
 date: 2019-01-06 16:46:00 -08:00
 tags:

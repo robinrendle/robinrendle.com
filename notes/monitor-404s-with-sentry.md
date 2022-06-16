@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Monitor 404s with Sentry
 date: 2021-04-13T15:49:19.995Z
 city: San Francisco

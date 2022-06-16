@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: An Astronomical Clunk
 date: 2020-08-23T02:38:06.788Z
 city: San Francisco

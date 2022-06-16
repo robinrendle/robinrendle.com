@@ -4,7 +4,7 @@ date: 2022-04-14T16:20:03.157Z
 city: San Francisco
 country: California
 extract: And your least rambly self.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - writing
   - powerpoint

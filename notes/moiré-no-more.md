@@ -3,7 +3,7 @@ title: Moiré no more
 date: 2021-09-02T07:26:24.017Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Marcin summons FFT.
 ---
 

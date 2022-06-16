@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: New CSS Tricks and Design Engineers
 date: 2021-02-25T03:11:51.037Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Blogging should be easy
 date: 2020-05-23T05:35:58.377Z
 city: San Francisco

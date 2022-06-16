@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How Long Can Our Content Last?
 date: 2018-06-13 21:58:00 -07:00
 tags:

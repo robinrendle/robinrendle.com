@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Just link!
 date: 2021-06-20T20:57:57.917Z
 city: San Francisco

@@ -3,7 +3,7 @@ title: Epicene design information
 date: 2021-09-24T17:35:18.135Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: New fonts, new essay.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Now Available for Freelance Work
 date: 2016-04-13 05:59:00 -07:00
 tags:

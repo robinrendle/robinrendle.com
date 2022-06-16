@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Transformation of Silence into Language and Action
 date: 2020-06-05T16:04:08.741Z
 city: San Francisco

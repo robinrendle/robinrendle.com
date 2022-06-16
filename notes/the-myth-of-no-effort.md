@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Myth of No Effort
 date: 2020-04-15 11:30:09
 tags:

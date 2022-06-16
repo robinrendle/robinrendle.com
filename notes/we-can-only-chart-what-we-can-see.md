@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: We can only chart what we can see
 date: 2018-02-22 22:51:00 -08:00
 city: San Francisco

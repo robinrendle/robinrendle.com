@@ -3,7 +3,7 @@ title: A Web Browser Built for Me
 date: 2021-11-01T15:04:44.463Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Anarchy in the UK.
 ---
 

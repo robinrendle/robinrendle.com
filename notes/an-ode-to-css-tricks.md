@@ -4,7 +4,7 @@ date: 2022-03-15T15:48:16.865Z
 city: San Francisco
 country: California
 extract: And endless thanks.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - web
   - front-end

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Sticks and Ropes
 date: 2019-08-31 14:49:31
 city: San Francisco

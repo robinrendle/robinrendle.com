@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Buttondown
 date: 2018-01-06 14:56:00 -08:00
 tags:

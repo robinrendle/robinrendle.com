@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Subtle Optical Phenomenons
 date: 2020-06-12T21:13:16.207Z
 city: San Francisco

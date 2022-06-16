@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Visa acquired!
 date: 2020-04-02 19:21:23
 tags:

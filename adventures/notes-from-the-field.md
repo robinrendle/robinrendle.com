@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Notes from the Field
 date: 2019-01-26
 ---

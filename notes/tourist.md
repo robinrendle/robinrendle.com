@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Tourist
 date: 2014-11-15 16:34:00 -08:00
 tags:

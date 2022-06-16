@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Email is the Magic Key
 date: 2018-05-06 18:48:00 -07:00
 extract: It’s a lovely, wondrous, and utterly frustrating thing.

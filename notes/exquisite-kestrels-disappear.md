@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Exquisite kestrels disappear
 date: 2021-02-17T16:41:44.431Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Tools for Thinking and Tools for Systems
 date: 2018-01-28 14:35:00 -08:00
 extract:

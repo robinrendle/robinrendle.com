@@ -3,7 +3,7 @@ title: I Love Typography
 date: 2021-11-25T02:49:08.360Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And their ever-so-good font catalogue.
 ---
 

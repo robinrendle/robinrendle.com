@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Arrow Type Blog
 date: 2021-01-28T19:24:32.198Z
 city: San Francisco

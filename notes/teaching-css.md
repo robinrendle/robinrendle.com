@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Teaching CSS
 date: 2019-12-01 22:40:18
 extract: Rachel Andrew on learning the language.

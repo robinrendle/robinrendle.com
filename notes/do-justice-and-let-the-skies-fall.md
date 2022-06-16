@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Do justice and let the skies fall
 date: 2014-06-18 22:14:00 -07:00
 tags:

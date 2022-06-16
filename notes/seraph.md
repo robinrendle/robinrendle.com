@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Seraph
 date: 2020-04-11 09:10:38
 tags:

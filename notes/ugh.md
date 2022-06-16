@@ -3,7 +3,7 @@ title: Ugh
 date: 2021-09-02T03:01:33.244Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: New books, new friends.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Last Adventure
 date: 2016-12-11 12:26:00 -08:00
 Country: California

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Momentum
 date: 2020-07-10T01:56:01.724Z
 city: San Francisco

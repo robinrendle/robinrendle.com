@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Isle of Dogs
 date: 2018-04-01 11:06:00 -07:00
 tags:

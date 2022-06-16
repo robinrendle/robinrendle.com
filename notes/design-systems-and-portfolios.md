@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Harmony of the System
 date: 2019-03-19 20:23:00 -07:00
 tags:

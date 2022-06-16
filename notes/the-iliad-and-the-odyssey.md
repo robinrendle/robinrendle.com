@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Iliad and the Odyssey
 date: 2020-12-10T06:18:33.569Z
 city: San Francisco

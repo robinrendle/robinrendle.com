@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Call Me Interactivity
 date: 2012-03-10
 aside:

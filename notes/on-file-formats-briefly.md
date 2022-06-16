@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: On File Formats, Very Briefly
 date: 2016-01-18 15:58:00 -08:00
 tags:

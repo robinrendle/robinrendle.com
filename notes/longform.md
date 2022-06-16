@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Longform
 date: 2015-11-29 05:39:00 -08:00
 tags:

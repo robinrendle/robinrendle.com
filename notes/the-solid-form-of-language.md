@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Solid Form of Language
 date: 2014-01-05 13:17:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Switchin’ to Firefox
 date: 2018-12-16 20:32:00 -08:00
 extract: Fighting against a Chromium-only world.

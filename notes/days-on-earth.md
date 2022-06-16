@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 20,000 Days on Earth
 date: 2019-01-26 10:45:00 -08:00
 tags:

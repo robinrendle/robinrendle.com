@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: dConstruct
 date: 2013-09-09 12:59:00 -07:00
 tags:

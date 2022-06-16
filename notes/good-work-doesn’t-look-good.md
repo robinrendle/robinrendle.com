@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Good work doesn’t look good
 date: 2020-10-03T17:22:10.444Z
 city: San Francisco

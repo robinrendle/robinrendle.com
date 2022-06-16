@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cold Lasagne Hate Myself 1999
 date: 2021-03-14T17:49:49.350Z
 city: San Francisco

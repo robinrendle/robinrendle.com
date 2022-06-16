@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Jazz Musician Lettering
 date: 2020-09-24T04:49:22.521Z
 city: San Francisco

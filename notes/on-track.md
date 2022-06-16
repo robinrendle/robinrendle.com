@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: On Track
 date: 2017-12-26 13:49:00 -08:00
 tags:

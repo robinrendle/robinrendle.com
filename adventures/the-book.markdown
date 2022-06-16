@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Book
 date: 2016-11-26 15:45:00 -08:00
 tags:

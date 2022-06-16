@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "1% Better"
 date: 2019-03-19 20:21:00 -07:00
 tags:

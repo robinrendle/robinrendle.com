@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Owning the Archive
 date: 2019-08-31 14:22:51
 city: San Francisco

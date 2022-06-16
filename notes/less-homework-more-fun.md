@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Less homework! More fun!
 date: 2020-09-22T17:39:32.376Z
 city: San Francisco

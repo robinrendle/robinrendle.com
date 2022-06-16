@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design Systems at Gusto
 date: 2018-04-11 21:41:00 -07:00
 city: San Francisco

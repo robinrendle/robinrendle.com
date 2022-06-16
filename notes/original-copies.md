@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 10,000 Original Copies
 date: 2018-08-09 14:57:00 -07:00
 city: San Francisco

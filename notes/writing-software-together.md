@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Writing software together
 date: 2019-01-12 15:22:00 -08:00
 extract: The art of writing software in a group is underrated.

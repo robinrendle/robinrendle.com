@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Profits ≠ Economy
 date: 2020-08-06T16:27:58.210Z
 city: San Francisco

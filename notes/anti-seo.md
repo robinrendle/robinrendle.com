@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Anti-SEO
 date: 2021-05-05T21:04:56.202Z
 city: San Francisco

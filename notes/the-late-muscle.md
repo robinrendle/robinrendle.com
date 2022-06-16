@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Late Muscle
 date: 2018-07-31 23:21:00 -07:00
 extract: I need to try harder with this stuff. A lot harder.

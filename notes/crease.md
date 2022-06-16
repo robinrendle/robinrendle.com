@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Crease
 date: 2021-07-22
 city: San Francisco

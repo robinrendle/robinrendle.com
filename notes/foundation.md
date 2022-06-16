@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Foundation
 date: 2021-02-03T00:15:57.027Z
 city: San Francisco

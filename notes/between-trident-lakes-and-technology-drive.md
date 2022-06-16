@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Between Trident Lakes and Technology Drive
 date: 2017-05-08 19:53:00 -07:00
 tags:

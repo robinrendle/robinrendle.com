@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Redesigning in public
 date: 2020-01-17 23:02:08
 tags:

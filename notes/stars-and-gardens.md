@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Stars and Gardens
 date: 2018-03-17 16:40:00 -07:00
 tags:

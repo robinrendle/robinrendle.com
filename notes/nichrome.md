@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Nichrome
 date: 2020-07-09T01:46:14.900Z
 city: San Francisco

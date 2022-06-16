@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Books for Winter
 date: 2020-12-10T06:42:34.002Z
 city: San Francisco

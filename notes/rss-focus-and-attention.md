@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: RSS, Focus, and Attention
 date: 2021-03-14T00:28:35.182Z
 city: Oakland

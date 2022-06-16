@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Trouble at the Koolaid Point
 date: 2014-10-10 01:09:00 -07:00
 tags:

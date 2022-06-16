@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Running a Successful Membership Program
 date: 2021-02-02T23:53:19.893Z
 city: San Francisco

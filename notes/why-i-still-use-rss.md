@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why I still use RSS
 date: 2021-02-16T17:30:31.060Z
 city: San Francisco

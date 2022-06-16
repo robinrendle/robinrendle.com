@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Songs of San Francisco
 date: 2017-10-24 23:00:00 -07:00
 tags:

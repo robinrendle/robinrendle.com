@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Careful Work
 date: 2019-06-08 12:38:27 -07:00
 city: San Francisco

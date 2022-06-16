@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Agile as Trauma
 date: 2020-02-12 13:40:43
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Apparatus
 date: 2020-05-31T17:36:52.589Z
 city: San Francisco

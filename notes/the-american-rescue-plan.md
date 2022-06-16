@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The American Rescue Plan
 date: 2021-03-13T16:36:31.832Z
 city: San Francisco

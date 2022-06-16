@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: AMPstinction
 date: 2018-06-04 20:27:00 -07:00
 extract: A note on frameworks and AMP.

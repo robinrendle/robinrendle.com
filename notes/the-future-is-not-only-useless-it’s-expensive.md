@@ -4,7 +4,7 @@ date: 2021-12-26T19:26:24.939Z
 city: San Francisco
 country: California
 extract: And the problem with NFTs.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - NFTs
   - web

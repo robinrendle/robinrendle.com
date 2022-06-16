@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Right Number
 date: 2020-09-02T15:19:47.518Z
 city: San Francisco

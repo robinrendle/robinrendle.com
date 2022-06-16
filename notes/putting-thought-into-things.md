@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Putting thought into things
 date: 2015-12-01 02:45:00 -08:00
 tags:

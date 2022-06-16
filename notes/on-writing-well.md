@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: On Writing Well
 date: 2015-10-07 00:59:00 -07:00
 tags:

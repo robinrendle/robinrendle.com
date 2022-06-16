@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: End of year optimism
 date: 2019-11-22 09:43:05
 extract: A collection of thoughts from the CSS-Tricks community.

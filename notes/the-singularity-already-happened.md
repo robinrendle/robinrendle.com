@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Singularity Already Happened; We Got Corporations
 date: 2019-09-09 11:33:33
 city: Portland

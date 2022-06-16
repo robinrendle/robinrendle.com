@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The daydreams of a book designer
 date: 2013-10-16 14:09:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Sick systems
 date: 2019-09-11 19:33:30
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How would I improve RSS?
 date: 2020-08-09T03:00:06.301Z
 city: San Francisco

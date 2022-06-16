@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hijack
 date: 2021-01-19T21:43:47.671Z
 city: San Francisco

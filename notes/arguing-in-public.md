@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Arguing in Public
 date: 2019-01-29 17:49:00 -08:00
 extract: Design systems and making things 1% better every day.

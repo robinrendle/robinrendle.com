@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A pointable we
 date: 2015-11-10 15:28:00 -08:00
 tags:

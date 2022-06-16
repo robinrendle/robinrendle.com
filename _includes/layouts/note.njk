@@ -2,11 +2,14 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
+<header class="note-header">
+  <h1 class="note-title">{{ title }}</h1>
 
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> / {{city}}, {{country}}
 
-
+  <div class="note-meta">
+    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> / {{city}}, {{country}}
+  </div>
+</header>
 
 {# {%- for tag in tags | filterTagList -%}
   {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}

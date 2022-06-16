@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Typeface 3
 date: 2022-05-10
 city: San Francisco

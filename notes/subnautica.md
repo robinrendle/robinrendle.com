@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Subnautica
 date: 2020-09-05T18:03:26.105Z
 city: San Francisco

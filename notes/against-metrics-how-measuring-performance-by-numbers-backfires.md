@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Against metrics: how measuring performance by numbers backfires"
 date: 2019-05-06 22:54:00 -07:00
 extract: Measuring people is a really bad idea.

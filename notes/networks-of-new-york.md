@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Networks of New York
 date: 2018-07-14 19:29:00 -07:00
 tags:

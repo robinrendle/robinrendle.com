@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Secretary of Foreign Tongues
 date: 2018-05-20
 ---

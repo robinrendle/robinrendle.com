@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The CSS-Tricks Newsletter
 date: 2017-02-26 19:03:00 -08:00
 tags:

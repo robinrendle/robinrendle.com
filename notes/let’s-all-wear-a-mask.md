@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Let’s all wear a mask
 date: 2020-04-05 13:03:49
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Blogging and Dimly Lit Bars
 date: 2021-03-20T21:06:14.586Z
 city: San Francisco

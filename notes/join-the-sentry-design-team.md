@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Join the Sentry Design Team
 date: 2021-03-18T01:12:16.139Z
 city: San Francisco

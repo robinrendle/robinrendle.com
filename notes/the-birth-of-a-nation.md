@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Birth of a Nation
 date: 2019-12-12 10:42:52
 extract: And making a thing for no reason at all.

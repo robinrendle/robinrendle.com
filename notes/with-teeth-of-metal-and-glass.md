@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: With teeth of metal and glass
 date: 2015-06-24 09:09:00 -07:00
 tags:

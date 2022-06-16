@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Newsletters vs. Ye Olde Blog
 date: 2020-05-25T01:10:29.575Z
 city: San Francisco

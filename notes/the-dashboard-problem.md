@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Dashboard Problem
 date: 2019-10-19 10:06:57
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How I Became a Police Abolitionist
 date: 2020-07-07T20:07:06.767Z
 city: San Francisco

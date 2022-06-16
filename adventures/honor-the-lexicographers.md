@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Honor the Lexicographers
 date: 2018-04-15
 ---

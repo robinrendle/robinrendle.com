@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Nesting Classes in Sass
 date: 2018-10-02 23:07:00 -07:00
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Lubalin’s Logotypes
 date: 2020-05-23T16:28:10.141Z
 city: San Francisco

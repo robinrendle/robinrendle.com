@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Hiding Place
 date: 2019-12-08 10:00:49
 tags:

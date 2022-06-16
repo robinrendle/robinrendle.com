@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Volume A
 date: 2020-06-20T04:11:14.958Z
 city: San Francisco

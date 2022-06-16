@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Performance Monitoring "
 date: 2020-07-15T01:02:38.707Z
 city: San Francisco

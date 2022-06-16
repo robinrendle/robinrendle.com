@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Setting up a default type stylesheet
 date: 2013-01-18 16:00:00 -08:00
 tags:

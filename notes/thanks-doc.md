@@ -4,7 +4,7 @@ date: 2022-03-17T05:18:11.283Z
 city: San Francisco
 country: California
 extract: Copy and paste all compliments.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - personal
 ---

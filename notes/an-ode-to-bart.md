@@ -3,7 +3,7 @@ title: An Ode to BART
 date: 2021-08-21T01:48:00.878Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Oh what a beautiful thing.
 ---
 

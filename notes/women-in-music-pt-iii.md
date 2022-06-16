@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Women In Music Pt.III
 date: 2020-07-03T19:28:42.366Z
 city: San Francisco

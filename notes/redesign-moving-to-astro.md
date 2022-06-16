@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Redesign: Moving to Astro"
 date: 2021-07-10
 city: San Francisco
@@ -23,7 +23,7 @@ For instance I had to go through each markdown file and let Astro know which lay
 
 ```
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Blog Post
 // other stuff
 ---

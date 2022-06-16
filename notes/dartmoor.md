@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Dartmoor, Death Stranding, and me
 date: 2020-02-01 11:00:38
 extract: This place is not in favor of you.

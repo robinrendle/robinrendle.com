@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Mark of Sincerity
 date: 2018-07-01
 ---

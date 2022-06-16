@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Return of the Blogroll
 date: 2021-05-09T17:10:58.870Z
 city: San Francisco

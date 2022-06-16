@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Here comes everybody
 date: 2014-10-02 08:13:00 -07:00
 tags:

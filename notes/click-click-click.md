@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Click, click, click
 date: 2021-03-10T18:41:34.530Z
 city: San Francisco

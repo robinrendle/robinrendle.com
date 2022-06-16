@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Medieval desktops
 date: 2014-10-20 02:02:00 -07:00
 tags:

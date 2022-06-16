@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cassandra Plays the Stock Market
 date: 2017-07-21 23:56:00 -07:00
 city: San Francisco

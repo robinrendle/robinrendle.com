@@ -3,7 +3,7 @@ title: Climate Change Is the New Dot-Com Bubble
 date: 2021-09-29T01:03:38.217Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And a mid-life crisis.
 ---
 

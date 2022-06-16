@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: I wish I could control CSS scroll-snap with Javascript
 date: 2022-04-30
 city: Hollywood

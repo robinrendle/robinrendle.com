@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Performance and Behavior
 date: 2019-04-11 00:35:00 -07:00
 city: London

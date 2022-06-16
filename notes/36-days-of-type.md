@@ -4,7 +4,7 @@ date: 2022-03-13T12:16:09.057Z
 city: San Francisco
 country: California
 extract: And the work of Alisa Burzic.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - type
 ---

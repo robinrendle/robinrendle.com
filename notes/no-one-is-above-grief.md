@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: No one is above grief
 date: 2020-07-28T15:00:21.916Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Source code
 date: 2019-09-19 17:47:01
 city: San Francisco

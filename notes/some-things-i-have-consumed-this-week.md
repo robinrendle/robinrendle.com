@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Some Things I Have Consumed This Week
 date: 2020-11-01T23:06:02.636Z
 city: San Francisco

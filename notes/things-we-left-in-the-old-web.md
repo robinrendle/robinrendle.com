@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Things we left in the old web
 date: 2020-03-08 10:44:58
 tags:

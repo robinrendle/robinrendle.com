@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Strange Cultural Force of the Book Deal
 date: 2020-07-11T16:58:10.139Z
 city: San Francisco

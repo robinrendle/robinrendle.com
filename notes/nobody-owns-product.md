@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Nobody really owns product work
 date: 2019-06-13 20:35:40
 city: San Francisco

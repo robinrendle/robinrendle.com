@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Letter from Birmingham Jail
 date: 2020-07-08T04:00:17.891Z
 city: San Francisco

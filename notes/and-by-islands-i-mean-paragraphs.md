@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: ...and by islands I mean paragraphs
 date: 2021-01-13T16:54:47.570Z
 city: San Francisco

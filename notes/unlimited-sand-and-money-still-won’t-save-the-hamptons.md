@@ -3,7 +3,7 @@ title: Unlimited Sand and Money Still Won’t Save the Hamptons
 date: 2021-10-30T16:52:52.427Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And empty mansions on the shore.
 ---
 

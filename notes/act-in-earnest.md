@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Act in earnest
 date: 2014-07-12 09:01:00 -07:00
 tags:

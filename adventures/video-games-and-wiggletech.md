@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Videogames and WiggleTech™️
 date: 2018-07-05
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Typography is a Form of Kindness
 date: 2018-03-25
 ---

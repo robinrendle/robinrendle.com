@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Blot
 date: 2020-09-20T23:53:20.591Z
 city: San Francisco

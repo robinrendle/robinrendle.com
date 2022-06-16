@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Potential and Loss
 date: 2018-12-13 10:13:00 -08:00
 extract: Some notes on Brexit.

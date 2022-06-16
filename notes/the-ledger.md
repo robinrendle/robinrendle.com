@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Ledger
 date: 2018-01-08 22:25:00 -08:00
 tags:

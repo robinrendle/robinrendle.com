@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Crypto art
 date: 2021-03-07T23:08:50.832Z
 city: Oakland

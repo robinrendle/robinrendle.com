@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Okay, sue me!
 date: 2021-04-08T22:59:06.989Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Vacuum of Courage
 date: 2019-07-27 11:55:39
 city: San Francisco

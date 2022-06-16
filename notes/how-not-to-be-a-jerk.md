@@ -4,7 +4,7 @@ date: 2021-08-12T16:31:42.951Z
 city: San Francisco
 country: California
 extract: Sweet christ.
-layout: layouts/post.njk
+layout: layouts/note.njk
 ---
 
 I’ve had a few folks I admire message me over the years and infrequently it’s a bummer—gasp! wow this person is reaching out!—only to find out that they’re a bit of a jerk.

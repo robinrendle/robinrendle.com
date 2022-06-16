@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Stab a Book, the Book Won’t Die
 date: 2019-11-08 15:13:11
 city: San Francisco

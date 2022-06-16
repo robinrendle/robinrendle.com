@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Float
 date: 2013-05-25 11:32:00 -07:00
 tags:

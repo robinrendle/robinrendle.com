@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: That Blessed Destination
 date: 2020-08-01T22:02:30.346Z
 city: San Francisco

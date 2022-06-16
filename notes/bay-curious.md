@@ -3,7 +3,7 @@ title: "Bay Curious "
 date: 2021-08-30T01:23:40.148Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: "A great lil podcast. "
 ---
 

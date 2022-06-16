@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Old Place, New Place, Reef
 date: 2021-06-08T14:07:45.275Z
 city: San Francisco

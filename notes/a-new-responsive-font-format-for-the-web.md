@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A New Responsive Font Format for the Web
 date: 2015-11-26 14:08:00 -08:00
 tags:

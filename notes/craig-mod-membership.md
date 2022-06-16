@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Craig Mod on Membership
 date: 2020-02-03 19:48:08
 extract: An honest look at Craig’s paid membership program.

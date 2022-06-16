@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Problem of Trust
 date: 2020-07-30T15:30:08.223Z
 city: San Francisco

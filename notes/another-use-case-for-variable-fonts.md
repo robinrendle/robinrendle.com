@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Another use case for variable fonts
 date: 2020-05-23T16:03:02.322Z
 city: San Francisco

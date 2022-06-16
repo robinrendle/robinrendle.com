@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hookshot
 date: 2021-03-17T16:28:20.724Z
 city: San Francisco

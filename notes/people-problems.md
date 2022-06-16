@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: People Problems
 date: 2020-10-19T01:27:14.538Z
 city: San Francisco

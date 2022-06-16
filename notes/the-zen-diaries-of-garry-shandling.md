@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Zen Diaries of Garry Shandling
 date: 2018-03-31 17:41:00 -07:00
 tags:

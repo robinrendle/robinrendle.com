@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Arch of Honor
 date: 2021-03-02T16:37:53.064Z
 city: San Francisco

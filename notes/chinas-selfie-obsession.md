@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: China’s Selfie Obsession
 date: 2017-12-21 01:52:00 -08:00
 tags:

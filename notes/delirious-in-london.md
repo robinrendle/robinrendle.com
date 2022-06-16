@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Delirious in London
 date: 2019-04-09 05:36:00 -07:00
 city: London

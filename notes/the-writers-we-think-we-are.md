@@ -3,7 +3,7 @@ title: The Writers We Thought We Were
 date: 2021-12-02T05:06:41.234Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: George Saunders and how to avoid writing like anyone else.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Sutro Tower
 date: 2017-08-04 19:45:00 -07:00
 tags:

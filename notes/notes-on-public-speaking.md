@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Notes on public speaking
 date: 2013-09-24 14:01:00 -07:00
 tags:

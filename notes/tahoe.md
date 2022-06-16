@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Tahoe
 date: 2018-03-19 23:31:00 -07:00
 tags:

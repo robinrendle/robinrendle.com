@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Searching the Creative Internet
 date: 2018-12-13 09:45:00 -08:00
 extract: An exciting idea for a new type of search engine.

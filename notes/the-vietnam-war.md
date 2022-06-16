@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Vietnam War
 date: 2018-07-21 20:19:00 -07:00
 tags:

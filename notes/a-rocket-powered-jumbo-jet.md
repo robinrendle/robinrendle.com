@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Rocket-Powered Jumbo Jet
 date: 2020-08-26T23:09:14.383Z
 city: San Francisco

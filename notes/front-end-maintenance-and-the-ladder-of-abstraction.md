@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Front-end Maintenance and the Ladder of Abstraction
 date: 2013-09-04 14:12:00 -07:00
 tags:

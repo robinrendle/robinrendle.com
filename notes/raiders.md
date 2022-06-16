@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Raiders
 date: 2020-06-26T22:57:16.849Z
 city: San Francisco

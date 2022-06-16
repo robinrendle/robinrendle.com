@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Wear a Mask
 date: 2020-07-12T18:32:02.923Z
 city: San Francisco

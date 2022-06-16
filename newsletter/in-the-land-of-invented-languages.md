@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: In the Land of Invented Languages
 date: 2022-04-29
 city: Hollywood

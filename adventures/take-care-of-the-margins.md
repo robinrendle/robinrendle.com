@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Take care of the margins
 date: 2018-01-21
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: You Need a Budget
 date: 2018-12-20 19:29:00 -08:00
 tags:

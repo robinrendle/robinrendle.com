@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Thud
 date: 2022-05-31
 city: San Francisco

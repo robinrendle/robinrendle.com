@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Food and Sleep: II"
 date: 2019-09-29 21:20:00
 city: San Francisco

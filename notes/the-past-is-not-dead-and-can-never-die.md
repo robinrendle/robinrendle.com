@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Past is Not Dead and Can Never Die
 date: 2020-08-12T15:00:56.851Z
 city: San Francisco

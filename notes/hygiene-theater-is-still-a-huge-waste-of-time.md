@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hygiene Theater Is Still a Huge Waste of Time
 date: 2021-02-08T17:08:32.370Z
 city: San Francisco

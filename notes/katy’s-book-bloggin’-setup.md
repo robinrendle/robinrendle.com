@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Katy’s Book Bloggin’ Setup
 date: 2021-01-11T23:37:35.971Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Accessibility is for Everyone
 date: 2020-11-01T18:52:09.831Z
 city: San Francisco

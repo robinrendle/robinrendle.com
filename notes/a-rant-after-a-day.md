@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Rant after a Day
 date: 2018-09-27 20:42:00 -07:00
 tags:

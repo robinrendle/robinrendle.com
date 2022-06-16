@@ -4,7 +4,7 @@ date: 2021-12-17T17:11:25.367Z
 city: San Francisco
 country: California
 extract: I really, really like this.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - frontend
   - web

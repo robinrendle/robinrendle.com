@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cardigan Sci-fi
 date: 2019-07-20
 ---

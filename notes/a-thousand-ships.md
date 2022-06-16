@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Thousand Ships
 date: 2019-02-04 22:22:00 -08:00
 extract: And those big blue eyes.

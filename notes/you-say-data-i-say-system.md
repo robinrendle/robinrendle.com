@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: You Say Data, I Say System
 date: 2017-07-23 11:59:00 -07:00
 tags:

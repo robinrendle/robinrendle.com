@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Pairing is the key to evangelizing your design system
 date: 2019-04-26 16:03:00 -07:00
 extract:

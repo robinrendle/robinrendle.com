@@ -3,7 +3,7 @@ title: Type Specimen As Essay
 date: 2021-11-28T02:33:45.826Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And the design behind Retail.
 ---
 

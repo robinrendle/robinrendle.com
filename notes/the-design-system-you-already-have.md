@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Design System You Already Have
 date: 2019-02-22 16:55:00 -08:00
 extract:

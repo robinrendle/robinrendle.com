@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Behold the Glorious FAQ
 date: 2020-03-04
 ---

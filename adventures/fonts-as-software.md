@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Fonts as Software
 date: 2018-03-03
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Book design and emotional information
 date: 2011-09-21
 extract: The journey from reader to writer is a perilous one.

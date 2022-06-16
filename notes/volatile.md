@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Unknown Sea
 date: 2021-01-18T20:34:06.368Z
 city: San Francisco

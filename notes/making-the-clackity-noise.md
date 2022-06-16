@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Making the Clackity Noise
 date: 2017-10-16 20:47:00 -07:00
 tags:

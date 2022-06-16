@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Unlearning the UI
 date: 2020-04-29 21:33:01
 tags:

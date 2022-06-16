@@ -3,7 +3,7 @@ title: The Power of a Link
 date: 2021-08-29T01:36:33.088Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: A quick note about hyperlinks.
 ---
 

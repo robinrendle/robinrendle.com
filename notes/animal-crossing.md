@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Animal Crossing
 date: 2021-05-20T18:10:06.047Z
 city: Oakland

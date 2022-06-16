@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: In Defense of a Difficult Industry
 date: 2019-06-01 18:20:23 -07:00
 city: San Francisco

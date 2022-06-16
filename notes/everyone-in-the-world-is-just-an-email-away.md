@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Everyone in the world is just an email away
 date: 2021-04-21T15:38:15.830Z
 city: San Francisco

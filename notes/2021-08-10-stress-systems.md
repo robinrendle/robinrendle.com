@@ -4,7 +4,7 @@ date: 2021-08-10T23:54:09.758Z
 city: San Francisco
 country: California
 extract: Ethan on design systems and stress.
-layout: layouts/post.njk
+layout: layouts/note.njk
 ---
 
 Ethan on [stress and design systems](https://ethanmarcotte.com/wrote/stress-systems/):

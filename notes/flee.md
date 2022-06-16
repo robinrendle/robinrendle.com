@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Flee
 date: 2016-12-19 19:12:00 -08:00
 city: San Francisco

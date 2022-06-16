@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Growing Up Jobs
 date: 2018-08-05 21:10:00 -07:00
 extract:

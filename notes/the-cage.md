@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Cage
 date: 2021-05-18T18:14:10.992Z
 city: San Francisco

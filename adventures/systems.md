@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Systems, Mistakes, and the Sea
 date: 2020-01-02
 ---

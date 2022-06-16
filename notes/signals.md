@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Signals
 date: 2020-10-23T04:14:10.934Z
 city: San Francisco

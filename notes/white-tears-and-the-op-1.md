@@ -3,7 +3,7 @@ title: White Tears and the OP-1
 date: 2021-10-14T00:53:09.987Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Or, how to sample ghosts.
 ---
 

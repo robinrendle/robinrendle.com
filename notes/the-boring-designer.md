@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Boring Designer
 date: 2019-02-12 19:15:00 -08:00
 extract: And some half-assed thoughts on Apex Legends.

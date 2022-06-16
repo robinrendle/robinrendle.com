@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A short note on Conductor
 date: 2018-01-22
 tags:

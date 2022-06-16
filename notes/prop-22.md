@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Prop 22
 date: 2020-11-05T22:52:33.793Z
 city: San Francisco

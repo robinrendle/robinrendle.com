@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Shout shout shout
 date: 2020-06-12T16:37:19.740Z
 city: San Francisco

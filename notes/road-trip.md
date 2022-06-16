@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: To Oregon!
 date: 2018-05-11 20:50:00 -07:00
 extract: Last week I went on a solo road trip and it was unforgettably beautiful.

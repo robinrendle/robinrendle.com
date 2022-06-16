@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Castlevania
 date: 2020-03-07 10:06:56
 tags:

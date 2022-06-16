@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 𝘾Ǭ𝐅𝗙ē⒠, 𝘾Ǭ𝐅𝗙ē⒠,  𝘾Ǭ𝐅𝗙ē⒠
 date: 2019-08-10
 ---

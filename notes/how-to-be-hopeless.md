@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How To Be Hopeless
 date: 2021-04-15T04:33:39.900Z
 city: Oakland

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Baseline
 date: 2019-08-18 20:06:46
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Making charts with CSS
 date: 2015-08-18 07:47:00 -07:00
 tags:

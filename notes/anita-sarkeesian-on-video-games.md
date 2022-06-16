@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The great future of video games
 date: 2014-10-29 04:52:00 -07:00
 tags:

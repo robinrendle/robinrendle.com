@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Least Harm
 date: 2019-02-02 15:21:00 -08:00
 extract: And a good reckon.

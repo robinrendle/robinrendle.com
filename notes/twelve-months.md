@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Twelve months
 date: 2013-10-29 13:48:00 -07:00
 tags:

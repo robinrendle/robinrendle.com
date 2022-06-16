@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Pop Music / False B-Sides II
 date: 2020-09-07T06:23:38.788Z
 city: San Francisco

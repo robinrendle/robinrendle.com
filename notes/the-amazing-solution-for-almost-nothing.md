@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Amazing Solution for Almost Nothing
 date: 2021-03-28T17:05:49.877Z
 city: Oakland

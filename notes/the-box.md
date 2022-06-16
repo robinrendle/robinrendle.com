@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Box
 date: 2019-08-31 20:10:22
 city: San Francisco

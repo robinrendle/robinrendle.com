@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Is CSS a Programming Language?
 date: 2021-05-07T23:23:40.489Z
 city: San Francisco

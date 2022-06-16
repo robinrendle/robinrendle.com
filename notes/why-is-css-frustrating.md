@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why is CSS frustrating?
 date: 2020-03-10 12:36:29
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What the Redesign
 date: 2021-05-02T18:14:57.113Z
 city: San Francisco

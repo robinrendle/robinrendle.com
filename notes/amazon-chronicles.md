@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Amazon Chronicles
 date: 2019-02-13 01:45:00 -08:00
 tags:

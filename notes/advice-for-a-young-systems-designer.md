@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Advice for a young systems designer
 date: 2018-04-08 19:05:00 -07:00
 tags:

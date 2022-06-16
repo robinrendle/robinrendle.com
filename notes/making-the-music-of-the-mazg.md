@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Making the Music of the Mazg
 date: 2018-01-15 10:25:00 -08:00
 tags:

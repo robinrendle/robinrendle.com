@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Ways of Reading
 date: 2017-08-31 21:59:00 -07:00
 tags:

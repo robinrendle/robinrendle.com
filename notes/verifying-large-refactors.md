@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Verifying Large Refactors
 date: 2020-10-20T20:11:05.042Z
 city: San Francisco

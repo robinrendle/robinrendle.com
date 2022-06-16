@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A website is an essay
 date: 2020-07-29T15:33:49.946Z
 city: San Francisco

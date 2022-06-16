@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Good Writing and Analytics Don’t Mix
 date: 2018-05-22 20:44:00 -07:00
 tags:

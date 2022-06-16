@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Letters to a Young Contrarian
 date: 2014-06-18 07:44:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Redesign: Measure Once"
 date: 2021-07-07T02:50:23.068Z
 city: San Francisco

@@ -4,7 +4,7 @@ date: 2021-12-12T00:04:50.847Z
 city: San Francisco
 country: California
 extract: Whoa.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - typeface
 ---

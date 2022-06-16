@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Measure of Success
 date: 2019-12-10 13:00:17
 extract: What does success really look like?

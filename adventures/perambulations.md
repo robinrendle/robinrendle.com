@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Typographic perambulations"
 date: 2018-02-22
 ---

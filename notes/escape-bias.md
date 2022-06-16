@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Escape Bias
 date: 2021-03-03T16:46:11.086Z
 city: San Francisco

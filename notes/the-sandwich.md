@@ -4,7 +4,7 @@ date: 2022-02-17T02:34:45.918Z
 city: San Francisco
 country: California
 extract: Sweet, I must say, Christ.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - personal
 ---

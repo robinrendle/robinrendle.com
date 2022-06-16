@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The empty promises of Marie Kondo and the craze for minimalism
 date: 2020-01-09 11:38:30
 extract: And the infrastructure we cannot see.

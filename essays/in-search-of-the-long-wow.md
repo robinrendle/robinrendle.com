@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: In Search of the Long Wow
 date: 2016-04-08
 categories:

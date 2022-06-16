@@ -4,7 +4,7 @@ date: 2022-03-19T20:26:06.058Z
 city: San Francisco
 country: California
 extract: Half Life redesigned and reimagined.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - videogames
   - games

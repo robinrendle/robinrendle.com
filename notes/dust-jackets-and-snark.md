@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Dust jackets and snark
 date: 2014-04-04 15:14:00 -07:00
 tags:

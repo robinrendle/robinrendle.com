@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Products and platforms
 date: 2019-10-08 16:53:33
 city: San Francisco

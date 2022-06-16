@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Money-Bail System is Racist
 date: 2020-09-06T01:53:22.640Z
 city: San Francisco

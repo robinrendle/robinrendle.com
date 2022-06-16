@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Secret (and Very Important) History of the U.S. Solar Industry
 date: 2021-06-16T03:43:39.742Z
 city: San Francisco

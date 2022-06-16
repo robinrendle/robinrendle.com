@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Infamy
 date: 2022-05-13
 city: San Francisco

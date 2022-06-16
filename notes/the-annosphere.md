@@ -3,7 +3,7 @@ title: The Annosphere
 date: 2021-08-13T18:48:48.604Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: A sundial that works without the sun.
 ---
 

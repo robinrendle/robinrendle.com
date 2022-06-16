@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Comforts of the Siren
 date: 2013-08-27 00:51:00 -07:00
 tags:

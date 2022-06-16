@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Victorian Internet
 date: 2018-12-04 21:24:00 -08:00
 tags:

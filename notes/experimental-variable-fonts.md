@@ -3,7 +3,7 @@ title: Experimental Variable Fonts
 date: 2021-10-02T19:47:48.760Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And why they’re not so experimental.
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Letter from a Drowned Canyon
 date: 2017-04-07 18:07:00 -07:00
 tags:

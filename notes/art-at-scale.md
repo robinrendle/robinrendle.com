@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Art at Scale
 date: 2018-01-01 16:15:00 -08:00
 tags:

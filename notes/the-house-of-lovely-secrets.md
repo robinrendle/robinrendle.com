@@ -3,7 +3,7 @@ title: This House of Lovely Secrets
 date: 2021-11-01T14:48:10.245Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: 👀 👀 👀
 ---
 

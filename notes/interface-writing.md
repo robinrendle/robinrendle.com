@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Interface Writing
 date: 2014-08-12 00:46:00 -07:00
 tags:

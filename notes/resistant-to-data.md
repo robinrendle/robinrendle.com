@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Resistant to data
 date: 2019-09-18 16:53:40
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Green to Me
 date: 2017-10-19 21:25:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Lost Cause Rides Again
 date: 2017-08-11 01:35:00 -07:00
 tags:

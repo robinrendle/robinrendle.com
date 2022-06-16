@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Setting type with Sass maps
 date: 2014-03-16 13:11:00 -07:00
 tags:

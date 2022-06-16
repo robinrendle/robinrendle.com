@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The World Wide Work
 date: 2019-06-04 00:11:58 -07:00
 city: San Francisco

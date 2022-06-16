@@ -3,7 +3,7 @@ title: Occupant Oldstyle
 date: 2021-10-28T15:41:42.969Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: A new type family from Occupant Fonts.
 ---
 

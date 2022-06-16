@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: IBM Plex
 date: 2018-11-21
 ---

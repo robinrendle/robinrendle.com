@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Blogging and the heat death of the universe
 date: 2022-04-20
 city: San Francisco

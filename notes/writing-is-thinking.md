@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Writing is thinking
 date: 2014-10-15 16:57:00 -07:00
 tags:

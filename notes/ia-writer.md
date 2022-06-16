@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: iA Writer
 date: 2018-09-20 21:36:00 -07:00
 extract: My favorite writing app has just been updated.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Front-end Bloggin’
 date: 2020-11-19T17:19:21.303Z
 city: San Francisco

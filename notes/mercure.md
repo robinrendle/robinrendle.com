@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Mercure
 date: 2021-05-05T14:58:42.882Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: One of those photographs
 date: 2021-04-29T16:14:33.787Z
 city: Oakland

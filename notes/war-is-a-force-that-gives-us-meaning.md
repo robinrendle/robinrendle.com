@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: War is a force that gives us meaning
 date: 2020-07-05T16:05:43.752Z
 city: San Francisco

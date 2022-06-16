@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Utopia for Realists
 date: 2020-06-26T05:06:17.174Z
 city: San Francisco

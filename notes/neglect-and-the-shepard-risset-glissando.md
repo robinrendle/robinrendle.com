@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Neglect and the Shepard-Risset glissando
 date: 2021-04-09T07:05:50.080Z
 city: San Francisco

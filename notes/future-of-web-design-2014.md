@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Future of Web Design 2014
 date: 2014-04-14 03:16:00 -07:00
 tags:

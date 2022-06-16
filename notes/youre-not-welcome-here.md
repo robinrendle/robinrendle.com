@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: You’re not welcome here
 date: 2014-08-12 08:52:00 -07:00
 tags:

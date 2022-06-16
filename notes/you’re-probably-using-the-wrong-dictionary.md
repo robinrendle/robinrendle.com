@@ -4,7 +4,7 @@ date: 2022-02-20T22:55:39.508Z
 city: San Francisco
 country: California
 extract: “The destination is the dictionary.”
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - dictionary
   - writing

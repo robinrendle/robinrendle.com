@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Autonomy and Hong Kong
 date: 2020-10-03T17:07:12.674Z
 city: San Francisco

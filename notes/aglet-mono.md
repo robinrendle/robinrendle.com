@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Aglet Mono
 date: 2020-08-12T17:21:26.057Z
 city: San Francisco

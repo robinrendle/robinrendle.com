@@ -4,7 +4,7 @@ date: 2022-03-06T08:19:29.746Z
 city: Paris
 country: France
 extract: Complain to your mother.
-layout: layouts/post.njk
+layout: layouts/note.njk
 ---
 
 John McPhee [on writer’s block](https://www.newyorker.com/magazine/2013/04/29/draft-no-4):

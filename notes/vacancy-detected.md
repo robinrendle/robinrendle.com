@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Vacancy Has Been Detected
 date: 2019-06-20 20:21:32
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Huh
 date: 2020-09-17T16:15:19.177Z
 city: San Francisco

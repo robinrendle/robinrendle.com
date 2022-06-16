@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Great Unbundling
 date: 2014-10-29 05:42:00 -07:00
 tags:

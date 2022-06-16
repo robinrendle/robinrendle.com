@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Be a Big Fan
 date: 2021-06-05T03:13:22.358Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Year Without Books
 date: 2021-03-27T03:09:40.372Z
 city: San Francisco

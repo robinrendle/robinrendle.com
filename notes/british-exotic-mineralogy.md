@@ -4,7 +4,7 @@ date: 2022-01-11T03:23:10.775Z
 city: San Francisco
 country: California
 extract: And Nicholas Rougeaux’s extraordinary work.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - website
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Imposter syndrome
 date: 2019-09-13 09:33:30
 city: San Francisco

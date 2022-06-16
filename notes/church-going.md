@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Church Going
 date: 2022-04-23
 city: San Francisco

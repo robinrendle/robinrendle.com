@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A City of Letters
 date: 2018-04-26 15:51:00 -07:00
 tags:

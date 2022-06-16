@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Signs of a Toxic Workplace
 date: 2020-08-27T16:03:06.854Z
 city: San Francisco

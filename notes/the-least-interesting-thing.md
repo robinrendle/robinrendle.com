@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The least interesting thing
 date: 2020-10-10T18:26:31.381Z
 city: San Francisco

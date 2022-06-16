@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Wait, what is my job again?
 date: 2019-05-11 00:11:00 -07:00
 extract: Ugh, whatever.

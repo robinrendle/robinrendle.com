@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The first floor
 date: 2013-11-28 14:49:00 -08:00
 tags:

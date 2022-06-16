@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Everything Is Embarrassing"
 date: 2020-04-16 15:16:23
 tags:

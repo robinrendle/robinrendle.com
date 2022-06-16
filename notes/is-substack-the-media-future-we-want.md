@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Is Substack the Media Future We Want?
 date: 2020-12-29T00:34:23.296Z
 city: San Francisco

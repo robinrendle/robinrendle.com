@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: object-fit and object-position
 date: 2016-02-21 12:57:00 -08:00
 tags:

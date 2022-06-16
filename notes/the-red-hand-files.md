@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Red Hand Files
 date: 2018-11-19 22:17:00 -08:00
 tags:

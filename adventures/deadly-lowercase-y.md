@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Deadly Lowercase y
 date: 2018-03-31
 ---

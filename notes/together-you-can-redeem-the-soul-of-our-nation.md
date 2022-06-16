@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Together, You Can Redeem the Soul of Our Nation
 date: 2020-07-30T16:24:37.062Z
 city: San Francisco

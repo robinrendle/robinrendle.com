@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Bug
 date: 2013-12-13 14:27:00 -08:00
 tags:

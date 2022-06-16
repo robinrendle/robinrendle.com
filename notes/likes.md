@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: RSS favorites
 date: 2020-02-16 14:27:55
 country: California

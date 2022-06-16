@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: LfA Aluminia
 date: 2020-07-16T00:21:17.470Z
 city: San Francisco

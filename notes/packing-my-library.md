@@ -3,7 +3,7 @@ title: "Packing My Library "
 date: 2021-09-28T15:57:24.711Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Alberto Manguel on loss.
 ---
 

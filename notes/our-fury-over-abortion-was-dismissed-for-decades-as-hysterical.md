@@ -3,7 +3,7 @@ title: Our Fury Over Abortion Was Dismissed for Decades As Hysterical
 date: 2021-09-03T16:30:56.552Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And when the organizing happens in earnest.
 ---
 

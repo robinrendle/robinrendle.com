@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Quarks, Atoms and Molecules
 date: 2013-07-01 11:46:00 -07:00
 tags:

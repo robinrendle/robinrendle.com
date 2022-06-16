@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Books as Work
 date: 2017-09-10 21:26:00 -07:00
 tags:

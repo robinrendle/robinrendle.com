@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Blogs, revivals, and workshops"
 date: 2018-01-16
 ---

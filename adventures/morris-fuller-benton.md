@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Morris Fuller Benton
 date: 2018-08-18
 ---

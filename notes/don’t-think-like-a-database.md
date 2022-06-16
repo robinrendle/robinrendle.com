@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Don’t think like a database
 date: 2021-04-27T16:37:53.405Z
 city: Oakland

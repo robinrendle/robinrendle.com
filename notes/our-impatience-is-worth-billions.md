@@ -3,7 +3,7 @@ title: Our Impatience Is Worth Billions
 date: 2021-08-28T02:07:17.676Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And the moment you feel trapped in.
 ---
 

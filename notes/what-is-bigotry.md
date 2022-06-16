@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What is Bigotry?
 date: 2021-01-27T16:27:59.469Z
 city: San Francisco

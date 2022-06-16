@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Goodbye Erskine
 date: 2014-06-30 10:43:00 -07:00
 tags:

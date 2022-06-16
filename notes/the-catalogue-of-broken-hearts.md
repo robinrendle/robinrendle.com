@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Catalogue of Broken Hearts
 date: 2020-12-18T10:42:45.379Z
 city: San Francisco

@@ -3,7 +3,7 @@ title: MD Nichrome
 date: 2021-08-18T03:23:39.002Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: A damn fine typeface by Mass-Driver.
 ---
 

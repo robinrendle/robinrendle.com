@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Mighty Fine Content that I am Consuming Online™
 date: 2017-03-14 23:27:00 -07:00
 city: San Fransisco

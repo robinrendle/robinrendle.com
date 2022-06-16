@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Wild and Kinder Things
 date: 2018-02-19
 ---

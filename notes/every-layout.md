@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Every Layout
 date: 2019-06-15 23:26:48
 city: San Francisco

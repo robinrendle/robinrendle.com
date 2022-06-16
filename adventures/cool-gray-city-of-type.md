@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cool Gray City of Type
 date: 2018-11-24
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Four Kinds of Space
 date: 2018-12-09
 ---

@@ -3,7 +3,7 @@ title: The Healing Power of JavaScript
 date: 2021-08-20T22:29:17.366Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Or how blogging is an act of stewardship.
 ---
 

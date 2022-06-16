@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: To hell, to hell...
 date: 2019-04-30 19:15:00 -07:00
 extract: Boris Strugatsky’s afterword to his perfect sci-fi novel.

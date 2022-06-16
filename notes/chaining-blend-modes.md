@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Chaining blend-modes
 date: 2015-04-25 05:07:00 -07:00
 tags:

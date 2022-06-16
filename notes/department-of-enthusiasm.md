@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Dept. of Enthusiasm
 date: 2020-03-21 10:45:11
 tags:

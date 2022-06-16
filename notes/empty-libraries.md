@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Empty Libraries
 date: 2013-12-12 04:05:00 -08:00
 tags:

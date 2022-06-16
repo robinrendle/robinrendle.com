@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The History of the Web
 date: 2018-08-09 16:44:00 -07:00
 city: San Francisco

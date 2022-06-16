@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Getting to the bottom of line height in Figma
 date: 2019-04-27 11:40:00 -07:00
 extract: "“The history of web design can be seen as a set of tensions...”"

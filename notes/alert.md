@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Sentry Alerts
 date: 2021-05-07T15:43:45.874Z
 city: San Francisco

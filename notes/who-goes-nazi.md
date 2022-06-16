@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Who Goes Nazi?
 date: 2017-12-21 07:51:00 -08:00
 tags:

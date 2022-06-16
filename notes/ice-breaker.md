@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Ice Breaker "
 date: 2020-11-30T06:37:24.371Z
 city: Kilsyth

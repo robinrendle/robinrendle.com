@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why Write Fiction in 2017?
 date: 2017-12-19 08:38:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Notes about product design
 date: 2020-05-09 12:00:31
 tags:

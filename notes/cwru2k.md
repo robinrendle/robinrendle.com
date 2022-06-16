@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: CWRU2K
 date: 2020-01-17 21:01:37
 extract: Eric Meyer and the joke that got him in big trouble.

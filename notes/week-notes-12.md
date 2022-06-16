@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Week notes #12"
 date: 2015-04-18 07:16:00 -07:00
 tags:

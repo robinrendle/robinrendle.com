@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hey
 date: 2019-05-11 15:22:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Dream Wiki
 date: 2020-06-13T19:33:25.588Z
 city: San Francisco

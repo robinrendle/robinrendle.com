@@ -3,7 +3,7 @@ title: Why Is Every Young Person in America Watching ‘The Sopranos’?
 date: 2021-10-07T15:26:54.705Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: “...a humiliating, slow-motion slide down a hill into a puddle of filth.”
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Anxious punk rock web design
 date: 2020-03-16 20:12:30
 tags:

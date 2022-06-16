@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Triumph Street Triple
 date: 2018-04-13 23:22:00 -07:00
 extract: A new motorcycle, a new me.

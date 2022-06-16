@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Spineless
 date: 2018-04-01 19:49:00 -07:00
 tags:

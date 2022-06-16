@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Bias is Inevitable
 date: 2020-07-15T16:59:37.386Z
 city: San Francisco

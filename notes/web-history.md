@@ -3,7 +3,7 @@ title: Who is web3 for?
 date: 2021-11-14T17:22:03.161Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And some notes on the Web History podcast.
 ---
 

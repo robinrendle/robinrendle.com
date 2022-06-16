@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: I Was Tough, Now I’m Needy
 date: 2020-11-25T20:46:25.292Z
 city: San Francisco

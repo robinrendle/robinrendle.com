@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design is not about solving problems
 date: 2020-07-09T16:48:48.647Z
 city: San Francisco

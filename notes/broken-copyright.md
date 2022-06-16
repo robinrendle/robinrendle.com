@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The world’s copyright system is broken
 date: 2020-03-24 13:57:13
 tags:

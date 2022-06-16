@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Consensus in design systems
 date: 2019-02-10 14:39:00 -08:00
 extract: And learning how difficult this job truly is.

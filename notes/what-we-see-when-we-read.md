@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What we see when we read
 date: 2014-09-19 05:38:00 -07:00
 tags:

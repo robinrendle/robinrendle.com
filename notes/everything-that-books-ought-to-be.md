@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Everything that books ought to be
 date: 2021-06-05T03:36:36.751Z
 city: San Francisco

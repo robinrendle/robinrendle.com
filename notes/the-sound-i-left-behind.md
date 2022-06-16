@@ -4,7 +4,7 @@ date: 2022-03-06T20:00:02.548Z
 city: Plymouth
 country: UK
 extract: Violins and pianos all the way.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - england
   - personal

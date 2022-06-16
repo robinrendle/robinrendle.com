@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Growing and Learning
 date: 2020-06-05T19:34:23.910Z
 city: San Francisco

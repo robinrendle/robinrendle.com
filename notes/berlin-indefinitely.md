@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Berlin, indefinitely
 date: 2017-06-07 23:43:00 -07:00
 country: California

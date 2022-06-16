@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Argument against Centrism
 date: 2019-02-01 03:08:00 -08:00
 tags:

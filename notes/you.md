@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: You
 date: 2015-03-01 15:05:00 -08:00
 tags:

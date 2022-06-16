@@ -4,7 +4,7 @@ date: 2021-12-31T22:17:29.998Z
 city: San Francisco
 country: California
 extract: Writing every day is an apple.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - writing
 ---

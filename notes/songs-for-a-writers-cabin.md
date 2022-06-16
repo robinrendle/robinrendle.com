@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Songs for a Writer’s Cabin
 date: 2018-08-29 18:47:00 -07:00
 tags:

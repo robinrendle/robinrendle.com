@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Tokyo Train Station Stamps
 date: 2020-07-31T15:55:38.176Z
 city: San Francisco

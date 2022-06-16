@@ -3,7 +3,7 @@ title: MÖRK BORG
 date: 2021-09-16T22:10:58.795Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: What the who.
 ---
 

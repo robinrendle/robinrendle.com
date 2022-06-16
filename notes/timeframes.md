@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 10 Timeframes
 date: 2018-04-13 13:19:00 -07:00
 tags:

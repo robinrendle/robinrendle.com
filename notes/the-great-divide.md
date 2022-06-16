@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Great Divide
 date: 2019-01-21 14:46:00 -08:00
 tags:

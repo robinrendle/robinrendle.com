@@ -4,7 +4,7 @@ date: 2021-12-29T20:58:09.587Z
 city: San Francisco
 country: California
 extract: This was the best year for CSS yet.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - css
   - web

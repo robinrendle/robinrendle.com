@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The one about the thing
 date: 2020-03-20 23:32:51
 tags:

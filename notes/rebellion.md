@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: That Feeling of Rebellion
 date: 2019-07-21 10:52:51
 city: San Francisco

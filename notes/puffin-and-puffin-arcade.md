@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Puffin and Puffin Arcade
 date: 2021-04-19T23:28:17.708Z
 city: Oakland

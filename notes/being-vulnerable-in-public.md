@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Being vulnerable in public
 date: 2020-06-30T17:38:39.959Z
 city: San Francisco

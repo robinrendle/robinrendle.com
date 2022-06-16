@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 2D Websites
 date: 2020-06-12T04:00:33.231Z
 city: San Francisco

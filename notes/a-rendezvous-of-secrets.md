@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A rendezvous of secrets
 date: 2014-07-28 08:41:00 -07:00
 tags:

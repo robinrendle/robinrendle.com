@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The 2nd Trip to Portland
 date: 2018-09-28 17:45:00 -07:00
 city: San Francisco

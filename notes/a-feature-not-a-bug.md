@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A feature, not a bug
 date: 2020-07-10T18:33:55.011Z
 city: San Francisco

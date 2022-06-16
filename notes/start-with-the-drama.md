@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Start with the drama
 date: 2019-12-21 18:42:05
 extract: The only writing tip worth paying attention to.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Damn everything but the circus
 date: 2019-09-05
 ---

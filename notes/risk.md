@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Risk
 date: 2020-09-04T16:02:24.997Z
 city: San Francisco

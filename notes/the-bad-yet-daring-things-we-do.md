@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Bad-Yet-Daring Things We Do
 date: 2020-11-24T16:50:04.648Z
 city: San Francisco

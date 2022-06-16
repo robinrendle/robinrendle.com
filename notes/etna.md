@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Etna
 date: 2020-12-23T05:14:11.015Z
 city: San Francisco

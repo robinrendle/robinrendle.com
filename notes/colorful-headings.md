@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Colorful Headings
 date: 2020-07-13T15:45:06.709Z
 city: San Francisco

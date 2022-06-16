@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: All I Want
 date: 2021-04-08T13:15:40.098Z
 city: Oakland

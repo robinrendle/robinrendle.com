@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Pointing at things
 date: 2021-02-21T07:51:50.722Z
 city: San Francisco

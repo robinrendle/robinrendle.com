@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Preventing the Collapse of Civilization
 date: 2021-01-10T18:19:01.925Z
 city: San Francisco

@@ -3,7 +3,7 @@ title: Books, Money, and Accessibility
 date: 2021-11-19T16:36:47.360Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Or a once-in-a-lifetime thing.
 ---
 

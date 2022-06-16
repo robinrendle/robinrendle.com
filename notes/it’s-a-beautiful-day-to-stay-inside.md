@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: It’s a beautiful day to stay inside
 date: 2021-06-16T20:51:10.332Z
 city: San Francisco

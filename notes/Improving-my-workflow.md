@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Improving my workflow
 date: 2019-11-09 22:37:46
 extract: An Alfred workflow to help me blog faster.

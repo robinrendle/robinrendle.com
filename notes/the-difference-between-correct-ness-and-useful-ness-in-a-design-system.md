@@ -4,7 +4,7 @@ date: 2022-02-01T07:36:02.997Z
 city: San Francisco
 country: California
 extract: Just when I thought I was out...they pull me back in.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - design
   - systems

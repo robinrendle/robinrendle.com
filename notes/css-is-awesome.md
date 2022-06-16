@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: CSS is Awesome
 date: 2018-01-04 17:48:00 -08:00
 tags:

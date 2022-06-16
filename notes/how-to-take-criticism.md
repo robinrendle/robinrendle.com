@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How to Take Criticism
 date: 2018-05-16 23:52:00 -07:00
 tags:

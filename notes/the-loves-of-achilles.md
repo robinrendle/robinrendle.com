@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Loves of Achilles
 date: 2021-04-07T06:18:09.771Z
 city: Oakland

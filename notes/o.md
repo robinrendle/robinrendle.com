@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: O
 date: 2019-11-15 19:25:28
 extract: What the fuck am I doing?

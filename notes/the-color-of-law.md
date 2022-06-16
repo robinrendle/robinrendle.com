@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Color of Law
 date: 2020-07-27T15:35:31.953Z
 city: San Francisco

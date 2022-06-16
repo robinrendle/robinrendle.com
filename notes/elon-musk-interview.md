@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Elon Musk interview on Mars colonisation
 date: 2014-10-17 04:11:00 -07:00
 tags:

@@ -3,7 +3,7 @@ title: Things Learned Blogging
 date: 2021-10-07T15:28:18.050Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Momentum and the cursed rewrite.
 ---
 

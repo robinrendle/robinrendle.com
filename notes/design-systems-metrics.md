@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design Systems Metrics
 date: 2021-11-02 19:21:00 -07:00
 tags:

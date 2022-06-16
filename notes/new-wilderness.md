@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The New Wilderness
 date: 2019-06-14 00:02:12
 city: San Francisco

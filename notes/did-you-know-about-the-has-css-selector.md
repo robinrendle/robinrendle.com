@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Did you know about the :has CSS selector?
 date: 2021-03-19T18:46:33.454Z
 city: San Francisco

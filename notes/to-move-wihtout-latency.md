@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: To Move Without Latency
 date: 2019-07-24 18:18:39
 city: San Francisco

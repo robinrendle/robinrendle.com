@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Flexible Typesetting
 date: 2018-09-01
 ---

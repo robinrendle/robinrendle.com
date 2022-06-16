@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Responsive Spreadsheet
 date: 2017-11-29 20:02:00 -08:00
 tags:

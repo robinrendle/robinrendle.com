@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Attention and Email
 date: 2022-04-28
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Home Sweet Homepage
 date: 2022-04-15
 city: San Francisco

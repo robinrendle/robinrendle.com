@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Regarding Gnomon
 date: 2017-04-09 23:37:00 -07:00
 tags:

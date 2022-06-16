@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The incredible boxes of Hock Wah Yeo
 date: 2021-03-30T19:30:12.157Z
 city: San Francisco

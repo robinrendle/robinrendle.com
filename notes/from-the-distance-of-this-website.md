@@ -3,7 +3,7 @@ title: From the distance of this website
 date: 2021-10-01T14:55:34.923Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: What you see here isn’t me
 ---
 

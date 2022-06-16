@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 41 Shots
 date: 2020-06-06T17:26:04.854Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Machines for Building Machines
 date: 2018-08-26
 ---

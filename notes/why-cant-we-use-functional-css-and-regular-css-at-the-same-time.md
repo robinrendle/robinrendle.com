@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why can’t we use functional and regular CSS at the same time?
 date: 2018-11-19 22:41:00 -08:00
 city: San Francisco

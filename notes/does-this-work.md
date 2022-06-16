@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Does this work?
 date: 2021-08-06T20:40:03.227Z
 city: San Francisco

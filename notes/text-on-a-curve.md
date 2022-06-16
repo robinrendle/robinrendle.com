@@ -3,7 +3,7 @@ title: Text on a Curve
 date: 2021-08-15T15:50:17.891Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Nick Sherman’s neat flickr group.
 ---
 

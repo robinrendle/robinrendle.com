@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Inside Paragraphs
 date: 2014-02-15 16:34:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Indie Web Hello
 date: 2016-07-24 00:34:00 -07:00
 Country: California

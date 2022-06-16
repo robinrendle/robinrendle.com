@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Allusionist
 date: 2019-01-27 19:48:00 -08:00
 tags:

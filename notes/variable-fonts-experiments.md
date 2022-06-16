@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Variable Fonts Experiments
 date: 2020-07-07T20:20:40.895Z
 city: San Francisco

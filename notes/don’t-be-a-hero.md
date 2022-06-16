@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Don’t Be A Hero
 date: 2020-09-18T18:48:42.373Z
 city: San Francisco

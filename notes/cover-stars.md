@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cover stars
 date: 2020-08-24T16:16:43.084Z
 city: San Francisco

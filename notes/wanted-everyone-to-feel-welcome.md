@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Wanted everyone to feel welcome
 date: 2020-05-26T16:53:35.581Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Quitting Analytics
 date: 2019-10-18 21:16:44
 city: San Francisco

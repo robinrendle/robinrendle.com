@@ -3,7 +3,7 @@ title: Blunder
 date: 2021-09-13T00:53:08.308Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: How do I make my life messier?
 ---
 

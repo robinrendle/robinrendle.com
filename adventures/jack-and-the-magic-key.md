@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Jack and the Magic Key
 date: 2018-07-07
 ---

@@ -3,7 +3,7 @@ title: What Does a Good Design System Feel Like?
 date: 2021-11-02T17:24:21.373Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: When the whole system begins to make sense in your mind.
 ---
 

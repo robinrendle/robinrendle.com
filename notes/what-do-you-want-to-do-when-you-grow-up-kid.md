@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What do you want to do when you grow up, kid?
 date: 2018-11-01 21:52:00 -07:00
 tags:

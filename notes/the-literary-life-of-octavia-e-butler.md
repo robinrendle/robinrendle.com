@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The literary life of Octavia E. Butler
 date: 2020-11-28T07:16:37.098Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Some Unsolicited Newsletter Advice
 date: 2019-04-18 05:36:00 -07:00
 city: Saltash

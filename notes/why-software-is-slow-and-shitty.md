@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Why Software is Slow and Shitty
 date: 2020-01-19 19:08:43
 tags:

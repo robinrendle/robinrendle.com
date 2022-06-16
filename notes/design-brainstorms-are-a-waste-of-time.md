@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: I need a hobby, do not read this one
 date: 2020-04-01 12:23:09
 tags:

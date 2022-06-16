@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Reading Design
 date: 2018-01-23 00:08:00 -08:00
 tags:

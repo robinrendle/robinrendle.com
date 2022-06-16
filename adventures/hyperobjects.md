@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hyperobjects and the Black Triangle
 date: 2018-02-23
 ---

@@ -3,7 +3,7 @@ title: Sentry Hackweek 2021
 date: 2021-08-13T23:31:15.045Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And a particularly dumb video.
 ---
 

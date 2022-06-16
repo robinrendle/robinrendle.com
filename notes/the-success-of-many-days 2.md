@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Success of Many Days
 date: 2019-07-24 11:26:59
 city: San Francisco

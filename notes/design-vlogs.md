@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design Vlogs
 date: 2020-09-09T16:20:17.908Z
 city: San Francisco

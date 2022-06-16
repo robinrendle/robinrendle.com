@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: People > Process
 date: 2020-01-21 17:40:50
 extract: Paul Robert Lloyd on improving the software building process.

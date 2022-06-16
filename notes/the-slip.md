@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Slip
 date: 2019-01-17 00:07:00 -08:00
 tags:

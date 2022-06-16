@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Chip on your shoulder"
 date: 2019-10-26 11:32:47
 city: San Francisco

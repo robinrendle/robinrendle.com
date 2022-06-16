@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Building Dark Mode
 date: 2021-03-16T17:35:17.231Z
 city: San Francisco

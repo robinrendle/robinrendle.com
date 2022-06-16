@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Isolationism
 date: 2019-04-21 04:39:00 -07:00
 tags:

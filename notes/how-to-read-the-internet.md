@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How to Read the Internet
 date: 2018-01-19 23:14:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: On the design systems between us
 date: 2020-10-01T22:12:06.921Z
 city: San Francisco

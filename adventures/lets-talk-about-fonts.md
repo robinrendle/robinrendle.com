@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Let’s talk about fonts
 date: 2018-04-17
 ---

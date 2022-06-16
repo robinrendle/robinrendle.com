@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Intrinsic Ratios and SVGs
 date: 2013-09-21 10:08:00 -07:00
 tags:

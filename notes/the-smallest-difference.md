@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Smallest Difference
 date: 2019-11-12 20:38:04
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 8 minutes and 46 seconds
 date: 2020-06-12T15:24:36.956Z
 city: San Francisco

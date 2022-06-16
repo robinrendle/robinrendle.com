@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Summerland
 date: 2018-11-09 10:52:00 -08:00
 tags:

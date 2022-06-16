@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Small improvements in the right direction"
 date: 2018-01-16
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Partners in Crime
 date: 2019-06-29 14:51:06
 city: San Francisco

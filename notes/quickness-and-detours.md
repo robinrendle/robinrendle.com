@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Quickness and Detours
 date: 2014-01-01 13:21:00 -08:00
 tags:

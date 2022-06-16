@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Putting Landsat 8’s Bands to Work
 date: 2021-03-10T18:44:36.706Z
 city: San Francisco

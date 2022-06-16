@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Lonely City
 date: 2020-06-13T19:21:09.597Z
 city: San Francisco

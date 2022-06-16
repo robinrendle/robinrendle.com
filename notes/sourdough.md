@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Sourdough
 date: 2017-08-29 21:47:00 -07:00
 tags:

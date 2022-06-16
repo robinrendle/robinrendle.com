@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Dream Sponge
 date: 2013-03-10 09:12:00 -07:00
 tags:

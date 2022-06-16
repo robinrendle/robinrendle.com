@@ -3,7 +3,7 @@ title: Punctuation in novels
 date: 2021-10-11T01:13:29.354Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Look at the array of dots and dashes!
 ---
 

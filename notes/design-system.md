@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design, system.
 date: 2019-04-28 23:14:00 -07:00
 extract: And fighting for the middle ground.

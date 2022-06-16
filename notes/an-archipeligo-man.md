@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: An Archipelago Man
 date: 2018-06-23 13:52:00 -07:00
 extract: Mitt Romney isn’t blue or red.

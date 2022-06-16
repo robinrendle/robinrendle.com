@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Scrambled eggs and serifs
 date: 2014-10-10 00:29:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: An interview with Italo Calvino
 date: 2014-10-18 03:17:00 -07:00
 tags:

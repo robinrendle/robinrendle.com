@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Gardens and Systems
 date: 2018-06-05 22:03:00 -07:00
 extract: Please make me stop.

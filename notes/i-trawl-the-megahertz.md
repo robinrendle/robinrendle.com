@@ -4,7 +4,7 @@ date: 2022-02-04T21:22:11.256Z
 city: San Francisco
 country: California
 extract: Tell the stars I’m coming.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - music
 ---

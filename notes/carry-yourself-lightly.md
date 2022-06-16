@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Carry Yourself Lightly
 date: 2021-02-15T23:27:52.808Z
 city: San Francisco

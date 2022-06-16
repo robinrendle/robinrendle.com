@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Setting a Typographic Scale with Sass Maps
 date: 2017-11-24 21:06:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Begin Again
 date: 2020-11-19T07:28:11.283Z
 city: San Francisco

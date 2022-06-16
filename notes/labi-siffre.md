@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Remember My Song
 date: 2020-06-15T01:47:31.614Z
 city: San Francisco

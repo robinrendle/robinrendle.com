@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Best Debugging Story I’ve Ever Heard
 date: 2019-01-25 09:28:00 -08:00
 extract: Patience and discipline and coffee.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title:
   Net Promoter Score Considered Harmful (and What UX Professionals Can Do About
   It)

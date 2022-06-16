@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Random Button
 date: 2020-11-05T05:33:54.707Z
 city: San Francisco

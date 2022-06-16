@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Serif Francisco
 date: 2018-03-18
 ---

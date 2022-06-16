@@ -4,7 +4,7 @@ date: 2022-01-09T23:51:06.863Z
 city: San Francisco
 country: California
 extract: And a family of bubblists.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - personal
 ---

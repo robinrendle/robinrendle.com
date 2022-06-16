@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Phone of the Wind
 date: 2020-09-04T16:13:19.545Z
 city: San Francisco

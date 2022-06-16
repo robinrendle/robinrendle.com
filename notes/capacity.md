@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Capacity
 date: 2020-07-17T15:40:59.360Z
 city: San Francisco

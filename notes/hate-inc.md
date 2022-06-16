@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hate Inc. and the Serial Book
 date: 2018-12-28 12:43:00 -08:00
 extract: Fiction via email can be a wondrous thing.

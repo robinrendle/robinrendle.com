@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: From way out here
 date: 2021-05-22T17:57:40.033Z
 city: Oakland

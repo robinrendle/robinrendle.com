@@ -4,7 +4,7 @@ date: 2021-08-12T05:00:29.652Z
 city: San Francisco
 country: California
 extract: And the future loss of all those images.
-layout: layouts/post.njk
+layout: layouts/note.njk
 ---
 
 One of the things I regret with my website is using a third party newsletter service for Adventures. Or, at least not archiving things properly.

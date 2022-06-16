@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Big data, no thanks
 date: 2015-11-03 10:52:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Feedback
 date: 2017-10-31 22:29:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Impress Yourself "
 date: 2020-11-17T07:48:23.080Z
 city: San Francisco

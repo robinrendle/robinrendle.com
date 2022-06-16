@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Optical Size And Variable Fonts
 date: 2022-05-15
 city: San Francisco

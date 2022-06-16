@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Who the fuck is Guy Debord?
 date: 2020-02-24 10:48:17
 tags:

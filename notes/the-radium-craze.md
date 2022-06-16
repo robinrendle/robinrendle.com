@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Radium Craze
 date: 2020-08-29T04:38:33.114Z
 city: San Francisco

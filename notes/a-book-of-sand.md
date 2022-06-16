@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Book of Sand
 date: 2015-10-04 00:30:00 -07:00
 tags:

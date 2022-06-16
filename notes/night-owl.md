@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Night Owl
 date: 2020-11-01T23:01:48.613Z
 city: San Francisco

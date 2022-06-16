@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Everything is a Story
 date: 2020-09-30T04:46:20.354Z
 city: San Francisco

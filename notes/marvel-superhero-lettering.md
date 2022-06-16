@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Marvel Superhero Lettering
 date: 2021-05-20T15:50:08.210Z
 city: Oakland

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Gregor
 date: 2019-02-05 20:46:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Chloe
 date: 2014-07-10 18:24:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Seven Days in the Life of the Late, Great John McCain
 date: 2018-04-30 11:21:00 -07:00
 tags:

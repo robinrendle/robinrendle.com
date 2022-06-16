@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Good is better than perfect
 date: 2019-02-21 15:39:00 -08:00
 extract: Especially when it comes to blogs.

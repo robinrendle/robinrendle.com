@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hyperbolic Time Chamber v.2
 date: 2020-04-06 14:32:24
 tags:

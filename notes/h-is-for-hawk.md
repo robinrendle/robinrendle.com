@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: H Is for Hawk
 date: 2020-02-25 17:52:50
 tags:

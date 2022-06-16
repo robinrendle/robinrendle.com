@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Weekly Planet
 date: 2020-11-03T23:48:05.272Z
 city: San Francisco

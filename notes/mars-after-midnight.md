@@ -3,7 +3,7 @@ title: Mars After Midnight
 date: 2021-08-22T04:51:42.596Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Lucas Pope is blogging about his latest game and hell yes it is good.
 ---
 

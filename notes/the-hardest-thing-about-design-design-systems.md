@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The hardest thing about design systems
 date: 2019-02-22 19:41:00 -08:00
 extract: And a note on drop shadows.

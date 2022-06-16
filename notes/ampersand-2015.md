@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Ampersand 2015
 date: 2015-11-14 10:11:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Writing and lightness
 date: 2020-03-04 11:06:25
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Blüte, Gerüst
 date: 2017-04-16 01:35:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Berlin Handshake
 date: 2019-04-04
 ---

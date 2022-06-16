@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The DNC
 date: 2020-08-19T15:47:08.773Z
 city: San Francisco

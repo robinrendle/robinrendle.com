@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: fraidycat
 date: 2020-02-26 16:57:13
 tags:

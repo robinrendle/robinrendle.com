@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: An Incomplete List of Mistakes
 date: 2017-07-01 00:55:00 -07:00
 tags:

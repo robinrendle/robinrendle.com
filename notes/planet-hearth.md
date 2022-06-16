@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Planet Hearth
 date: 2020-04-04 13:03:03
 tags:

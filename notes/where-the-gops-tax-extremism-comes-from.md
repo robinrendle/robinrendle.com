@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Where the GOP’s Tax Extremism Comes From
 date: 2017-12-06 20:19:00 -08:00
 tags:

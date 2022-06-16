@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Now I Am Going to Write a Book
 date: 2017-12-21 05:03:00 -08:00
 tags:

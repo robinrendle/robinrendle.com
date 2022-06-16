@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Confronting yourself
 date: 2020-07-04T20:14:27.311Z
 city: San Francisco

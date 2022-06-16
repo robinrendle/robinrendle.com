@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Rise and Demise of RSS
 date: 2019-06-09 19:13:12 -07:00
 city: San Francisco

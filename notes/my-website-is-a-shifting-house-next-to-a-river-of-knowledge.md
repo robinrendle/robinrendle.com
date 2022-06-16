@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: My website is a shifting house next to a river of knowledge
 date: 2020-12-04T18:27:58.041Z
 city: San Francisco

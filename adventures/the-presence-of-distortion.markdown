@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Presence of Distortion
 date: 2016-08-27 00:29:00 -07:00
 Country: California

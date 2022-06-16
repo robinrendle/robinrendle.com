@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Roadside Picnic
 date: 2019-03-10 16:52:00 -07:00
 tags:

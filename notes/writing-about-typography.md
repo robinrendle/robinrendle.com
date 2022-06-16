@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Writing about Typography
 date: 2020-11-04T21:47:57.251Z
 city: San Francisco

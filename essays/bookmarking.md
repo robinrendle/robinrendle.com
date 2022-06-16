@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Bookmarking
 date: 2013-01-20
 tags:

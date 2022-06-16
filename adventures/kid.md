@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What do you want to be when you grow up, kid?
 date: 2018-11-03
 ---

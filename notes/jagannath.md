@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Jagannath
 date: 2018-04-23 21:11:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Glut is Good
 date: 2015-01-10 10:01:00 -08:00
 tags:

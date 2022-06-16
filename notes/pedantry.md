@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Pedantry
 date: 2019-02-03 11:49:00 -08:00
 extract: Talking down instead of talking up.

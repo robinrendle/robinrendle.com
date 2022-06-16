@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Punk Rock Essay Machine
 date: 2020-06-18T16:09:15.574Z
 city: San Francisco

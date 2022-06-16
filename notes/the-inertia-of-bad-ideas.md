@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Inertia of Bad Ideas
 date: 2020-02-24 23:29:37
 tags:

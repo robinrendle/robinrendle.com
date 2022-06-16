@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How to be both
 date: 2017-11-17 21:04:00 -08:00
 tags:

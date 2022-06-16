@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: With New Browser Tech, Apple Preserves Privacy and Google Preserves Trackers
 date: 2017-06-22 23:20:00 -07:00
 tags:

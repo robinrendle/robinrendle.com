@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Sloanstarter
 date: 2020-07-09T01:56:01.724Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Purdy
 date: 2013-10-14 14:25:00 -07:00
 tags:

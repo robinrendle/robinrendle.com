@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Omens
 date: 2021-07-06T15:32:08.662Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Smallest Possible Bit
 date: 2018-12-28
 ---

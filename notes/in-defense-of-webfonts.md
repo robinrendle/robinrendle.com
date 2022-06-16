@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: In Defense of Webfonts
 date: 2016-03-18 10:26:00 -07:00
 tags:

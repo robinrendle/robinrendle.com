@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cool +1
 date: 2020-10-26T20:34:22.090Z
 city: San Francisco

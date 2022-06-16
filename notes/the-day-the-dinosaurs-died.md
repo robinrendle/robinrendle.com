@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Day the Dinosaurs Died
 date: 2019-04-17 06:04:00 -07:00
 city: Plymouth

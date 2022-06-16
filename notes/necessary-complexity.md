@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The web is too damn complex
 date: 2021-06-18T23:58:48.483Z
 city: San Francisco

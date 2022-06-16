@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Other Interface
 date: 2013-08-02
 aside: |-

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Foghorn
 date: 2020-09-02T16:12:51.770Z
 city: San Francisco

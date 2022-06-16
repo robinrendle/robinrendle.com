@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The new reading stack
 date: 2021-02-08T17:26:39.477Z
 city: San Francisco

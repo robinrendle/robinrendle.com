@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: From San Francisco to Los Angeles
 date: 2018-07-26 23:49:00 -07:00
 extract: You can see the climate crisis everywhere, in everything.

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Areas of Concern
 date: 2018-10-07 21:36:00 -07:00
 city: San Francisco

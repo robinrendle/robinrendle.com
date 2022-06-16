@@ -3,7 +3,7 @@ title: browser.engineering
 date: 2021-12-05T05:50:23.250Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: And a book about browsers.
 ---
 

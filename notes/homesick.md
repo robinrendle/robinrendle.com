@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Homesick
 date: 2020-06-15T15:49:09.581Z
 city: San Francisco

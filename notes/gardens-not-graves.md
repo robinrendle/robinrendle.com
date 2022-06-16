@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Gardens, not graves
 date: 2014-07-29 10:21:00 -07:00
 tags:

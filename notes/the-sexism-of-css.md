@@ -4,7 +4,7 @@ date: 2021-12-21T00:10:47.872Z
 city: San Francisco
 country: California
 extract: And how it haunts our industry.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - css
   - front-end

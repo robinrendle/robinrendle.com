@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: It’s Time to Hunker Down
 date: 2020-11-26T07:58:17.127Z
 city: San Francisco

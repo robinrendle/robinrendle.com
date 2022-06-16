@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: So You Want to Talk About Race
 date: 2020-06-18T03:30:26.869Z
 city: San Francisco

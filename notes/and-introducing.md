@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: And Introducing
 date: 2018-08-14 19:08:00 -07:00
 city: San Francisco

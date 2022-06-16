@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Second Transatlantic Library
 date: 2016-10-18 18:19:00 -07:00
 Country: California

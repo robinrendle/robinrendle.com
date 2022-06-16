@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Flotsam, Jetsam, Lagan & Derelict
 date: 2015-08-15 15:09:00 -07:00
 tags:

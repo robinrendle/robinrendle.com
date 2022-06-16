@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Oh! What a Joyous Thing
 date: 2020-08-17T20:30:08.445Z
 city: San Francisco

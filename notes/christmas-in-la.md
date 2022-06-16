@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Christmas in LA
 date: 2019-01-01 15:44:00 -08:00
 city: Brea

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What would happen if we just gave people money?
 date: 2016-04-26 06:52:00 -07:00
 tags:

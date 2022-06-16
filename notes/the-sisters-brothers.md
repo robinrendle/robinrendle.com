@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Sisters Brothers
 date: 2019-01-13 22:42:00 -08:00
 tags:

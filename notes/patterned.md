@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Patterned
 date: 2021-04-04T07:30:13.750Z
 city: Oakland

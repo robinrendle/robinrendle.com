@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Fonts in Focus: Louche"
 date: 2021-04-11T01:20:39.412Z
 city: San Francisco

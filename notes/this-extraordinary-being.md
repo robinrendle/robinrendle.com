@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: This Extraordinary Being
 date: 2020-06-07T17:00:38.000Z
 city: San Francisco

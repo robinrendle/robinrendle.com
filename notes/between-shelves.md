@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Between Shelves
 date: 2013-03-20 14:05:00 -07:00
 extract:

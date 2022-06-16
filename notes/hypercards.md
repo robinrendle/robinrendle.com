@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Hypercards
 date: 2020-08-15T17:20:29.925Z
 city: San Francisco

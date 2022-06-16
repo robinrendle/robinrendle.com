@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Hardest Thing to Measure
 date: 2021-02-03T17:21:20.908Z
 city: San Francisco

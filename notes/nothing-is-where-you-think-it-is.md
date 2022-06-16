@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Nothing is where you think it is
 date: 2016-05-02 16:26:00 -07:00
 city: Wadebridge

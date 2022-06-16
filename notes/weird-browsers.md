@@ -3,7 +3,7 @@ title: Weird Browsers
 date: 2021-10-19T16:14:01.948Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: Wrote a little thing for the CSS-Tricks newsletter.
 ---
 

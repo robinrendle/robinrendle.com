@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: 8 to Abolition
 date: 2020-06-08T04:34:50.985Z
 city: San Francisco

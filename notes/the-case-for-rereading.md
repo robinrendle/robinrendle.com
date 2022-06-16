@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The case for rereading
 date: 2020-10-10T17:47:44.334Z
 city: San Francisco

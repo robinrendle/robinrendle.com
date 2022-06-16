@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Reply links in RSS feeds
 date: 2020-07-12T17:23:48.528Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design is a Water Balloon
 date: 2016-07-04 00:55:00 -07:00
 Country: California

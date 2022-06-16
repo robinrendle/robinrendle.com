@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Style Check
 date: 2021-04-03T18:54:18.842Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Organizing as a Machine
 date: 2020-09-20T17:35:43.431Z
 city: San Francisco

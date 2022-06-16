@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Treasures in progress
 date: 2019-12-14
 ---

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Between the Third and Fifth Apology
 date: 2020-06-10T15:27:36.582Z
 city: San Francisco

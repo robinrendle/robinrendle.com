@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Death by Black Hole
 date: 2014-05-03 12:09:00 -07:00
 tags:

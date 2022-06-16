@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Library at Night
 date: 2014-01-31 13:56:00 -08:00
 tags:

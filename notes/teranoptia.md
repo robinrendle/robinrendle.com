@@ -3,7 +3,7 @@ title: Teranoptia
 date: 2021-11-24T17:10:32.487Z
 city: San Francisco
 country: California
-layout: layouts/post.njk
+layout: layouts/note.njk
 extract: What the absolute what.
 ---
 

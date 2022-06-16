@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Cushion
 date: 2016-01-02 16:21:00 -08:00
 tags:

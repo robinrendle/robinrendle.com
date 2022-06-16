@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: "Redesign: Content Migration"
 date: 2021-07-12
 city: San Francisco

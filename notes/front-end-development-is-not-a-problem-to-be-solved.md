@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Front-end development is not a problem to be solved
 date: 2018-11-27 17:30:00 -08:00
 city: San Francisco

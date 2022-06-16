@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Indeterminacy
 date: 2021-01-30T02:07:08.290Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Inconsistencies and productivity
 date: 2018-01-08 21:26:00 -08:00
 tags:

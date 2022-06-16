@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: What do you wish you had known about engineering before getting started?
 date: 2019-08-03 09:57:27
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Fighting with a Smile
 date: 2020-09-12T01:36:51.258Z
 city: San Francisco

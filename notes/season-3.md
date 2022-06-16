@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Season 3
 date: 2021-01-18T00:54:51.675Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Lighthouse, A Man, A City
 date: 2020-08-21T16:27:19.450Z
 city: San Francisco

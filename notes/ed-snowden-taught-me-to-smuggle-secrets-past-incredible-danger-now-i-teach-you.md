@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title:
   Ed Snowden Taught Me To Smuggle Secrets Past Incredible Danger. Now I Teach
   You.

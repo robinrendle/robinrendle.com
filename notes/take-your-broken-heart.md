@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Take your broken heart and blog
 date: 2019-10-07 01:30:06
 city: San Francisco

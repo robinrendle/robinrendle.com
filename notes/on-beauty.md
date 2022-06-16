@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: On Beauty
 date: 2018-06-11 21:13:00 -07:00
 tags:

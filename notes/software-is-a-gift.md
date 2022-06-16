@@ -4,7 +4,7 @@ date: 2021-12-30T23:14:33.539Z
 city: San Francisco
 country: California
 extract: Open source software, at least.
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - gifts
 ---

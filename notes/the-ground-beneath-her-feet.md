@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Ground Beneath Her Feet
 date: 2014-12-17 15:14:00 -08:00
 tags:

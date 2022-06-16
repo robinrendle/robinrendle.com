@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A Great Flowering
 date: 2016-09-25 16:38:00 -07:00
 Country: California

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Learning in public
 date: 2016-03-22 13:26:00 -07:00
 tags:

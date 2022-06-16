@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Notes on Adventures
 date: 2017-09-26 00:21:00 -07:00
 tags:

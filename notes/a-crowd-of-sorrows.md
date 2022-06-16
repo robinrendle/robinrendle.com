@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: A crowd of sorrows
 date: 2014-11-02 15:06:00 -08:00
 tags:

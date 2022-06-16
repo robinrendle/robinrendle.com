@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Strawberries and Cheese
 date: 2016-06-20 20:46:00 -07:00
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Art of Whaling
 date: 2021-01-20T18:56:28.573Z
 city: San Francisco

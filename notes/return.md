@@ -4,7 +4,7 @@ date: 2022-02-27T11:53:38.074Z
 city: London
 country: UK
 extract: "He’s back. "
-layout: layouts/post.njk
+layout: layouts/note.njk
 tags:
   - Personal
 ---

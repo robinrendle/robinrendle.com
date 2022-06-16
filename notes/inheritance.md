@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Inheritance
 date: 2021-02-27T18:30:10.060Z
 city: Oakland

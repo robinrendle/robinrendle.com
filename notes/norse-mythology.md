@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Norse Mythology
 date: 2020-03-26 10:28:57
 tags:

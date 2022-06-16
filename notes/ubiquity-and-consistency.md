@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Ubiquity and consistency
 date: 2017-12-23 10:49:00 -08:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Dora
 date: 2017-12-18 00:25:00 -08:00
 tags:

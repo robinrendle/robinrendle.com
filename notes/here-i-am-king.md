@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Here, I am king
 date: 2021-04-08T13:35:03.670Z
 city: Oakland

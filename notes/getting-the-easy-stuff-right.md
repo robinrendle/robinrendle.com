@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Getting the easy stuff right
 date: 2019-10-13 09:36:04
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Art of Typewriting
 date: 2021-04-08T22:43:36.159Z
 city: San Francisco

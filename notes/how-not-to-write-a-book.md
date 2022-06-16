@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: How Not to Write a Book
 date: 2021-03-31T15:53:43.660Z
 city: Oakland

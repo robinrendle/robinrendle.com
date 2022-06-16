@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: RBG
 date: 2020-09-19T18:48:00.140Z
 city: San Francisco

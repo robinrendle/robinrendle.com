@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Everything is the thing
 date: 2020-07-09T16:15:53.083Z
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Fire in the Smoke
 date: 2016-05-28 17:26:00 -07:00
 city: San Francisco

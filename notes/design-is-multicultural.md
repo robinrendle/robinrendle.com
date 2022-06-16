@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Design Is [Multicultural]
 date: 2020-07-02T00:08:34.290Z
 city: San Francisco

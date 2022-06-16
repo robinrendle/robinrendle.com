@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Deep breaths in St Paul’s cathedral
 date: 2014-04-13 07:36:00 -07:00
 tags:

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Thing with Leading in CSS
 date: 2020-08-29T04:53:52.821Z
 city: San Francisco

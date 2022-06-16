@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: The Absurdity of the Nobel Prizes in Science
 date: 2019-10-17 21:29:56
 city: San Francisco

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/note.njk
 title: Accessibility Weekly
 date: 2021-01-14T02:19:58.359Z
 city: San Francisco
