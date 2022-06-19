@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 extract: Sweet christ.
 layout: layouts/note.njk
+tags:
+  - personal
 ---
 
 I’ve had a few folks I admire message me over the years and infrequently it’s a bummer—gasp! wow this person is reaching out!—only to find out that they’re a bit of a jerk.

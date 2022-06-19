@@ -5,6 +5,8 @@ date: 2021-03-23T04:19:34.239Z
 city: Oakland
 country: California
 extract: ...only to make someone you love smile.
+tags:
+  - website
 ---
 
 “Let a website be a worry stone,” [Ethan wrote last year](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/) and I believe that’s so very true. We can treat our personal sites like stress balls and use all that pent up anxiety about the state of the world; we can tidy up the fonts, improve the Lighthouse score, tweak the colors, or edit the copy of an old blog post just because it helps.

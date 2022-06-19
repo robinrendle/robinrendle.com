@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Take care of the margins
 date: 2018-01-21
+tags:
+  - typography
 ---
 
 I know this is cruel but I always judge a book by its margins; I’ll take the bad paper and boring typefaces, I’ll even forgive a book that has one of those plastic covers (the sort that makes me feel as if the book will slip out of my hand at a moment’s notice).

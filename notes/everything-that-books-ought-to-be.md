@@ -5,6 +5,8 @@ date: 2021-06-05T03:36:36.751Z
 city: San Francisco
 country: California
 extract: Hardcover books suck. There, I said it.
+tags:
+  - books
 ---
 
 I do not hate many things in this world but I will make one exception. Each day I pour all my vitriol and hatred into this thing and hour by hour my hatred increases steadily. So I ask you to please bear with me whilst I throw off this veil of enthusiasm and show you how utterly spiteful I can be at my very worst: hardcover books are the single worst thing in the entire galaxy.

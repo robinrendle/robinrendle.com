@@ -5,6 +5,8 @@ date: 2020-07-11T16:58:10.139Z
 city: San Francisco
 country: California
 extract: Anne Trubek’s newsletter is a grand little thing.
+tags:
+  - books
 ---
 
 Anne Trubek, writing in her excellent newsletter, [_Notes From A Small Press_](https://notesfromasmallpress.substack.com/), has some thoughts about how writing a book isn’t really the point for many authors. Instead, they’re all attracted to the prestige of publishing and its many trappings. And this is why they hire ghost writers and receive giant book deals, which subsequently distorts the field for so many honest folks trying to make a lovely thing. Anne writes:

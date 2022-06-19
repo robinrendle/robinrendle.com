@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Discipline
 date: 2018-12-22
+tags:
+  - typography
 ---
 
 This past week I’ve been spelunking into the cavernous maw of our CSS as I refactor our codebase to be more resilient, predictable, legible. And in between these lines of code, the tens of thousands that make up our application, I can still see my mentor [Dora Chan](https://twitter.com/doralchan?lang=en) down here even a year after she left my team.

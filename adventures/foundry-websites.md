@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Foundry websites
 date: 2020-01-25
+tags:
+  - typography
 ---
 
 Pals! Acquaintances! Friends whom I am eternally jealous of because your hair is cooler than mine!

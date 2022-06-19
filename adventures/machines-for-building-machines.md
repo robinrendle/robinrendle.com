@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Machines for Building Machines
 date: 2018-08-26
+tags:
+  - typography
 ---
 
 If you’re unfamiliar with [Framer X](https://framer.com/x) then at first glance it might look like a design tool you’ve already seen before; there’s a side bar and a space for drawing rectangles, there’s a pen for drawing shapes and, besides it looking a little more futuristic than [Sketch](https://www.sketchapp.com/) or [Figma](http://figma.com/), there’s nothing immediately life changing about it.

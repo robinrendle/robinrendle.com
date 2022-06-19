@@ -3,13 +3,8 @@ layout: layouts/note.njk
 title: Bird by Bird
 date: 2014-08-11 04:04:00 -07:00
 tags:
-  - book
-extract:
-  Over the weekend I read this great collection of advice for writers by Anne
-  Lammot called Bird by Bird. The goal of this short little book is to help young
-  writers learn more about the design and publication of fiction but, aside from the
-  self-help format, what really caught my attention is this extract about encouraging
-  other writers to join a community of like-minded folks.
+  - books
+extract: Over the weekend I read this great collection of advice for writers by Anne Lammot called Bird by Bird. The goal of this short little book is to help young writers learn more about the design and publication of fiction but, aside from the self-help format, what really caught my attention is this extract about encouraging other writers to join a community of like-minded folks.
 update:
 city: Berlin
 country: Germany

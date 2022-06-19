@@ -5,6 +5,8 @@ date: 2019-02-10 14:39:00 -08:00
 extract: And learning how difficult this job truly is.
 city: San Francisco
 country: California
+tags:
+  - designsystems
 ---
 
 At Gusto we have a little web app called _The Guide_ which contains some of our documentation for our React components, illustrations, and CSS helpers. And in its introduction I set out to inform the team of our goals in a more collaborative spirit:

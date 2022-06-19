@@ -4,6 +4,8 @@ title: Design is a Water Balloon
 date: 2016-07-04 00:55:00 -07:00
 Country: California
 City: San Francisco
+tags:
+  - typography
 ---
 
 <p><span style="font-size: 1em;">As my homeland slips further into </span><a href="https://www.theguardian.com/media/2016/jul/03/facebook-bubble-brexit-filter" style="font-size: 1em;">a zealous fever of madness</a><span style="font-size: 1em;">, this holiday weekend I’ll be committing&nbsp;my second act of treason by celebrating Independence Day. And so what better moment could there be to explore the typesetting of the Declaration of Independence?</span></p>

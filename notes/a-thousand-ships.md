@@ -5,6 +5,8 @@ date: 2019-02-04 22:22:00 -08:00
 extract: And those big blue eyes.
 city: San Francisco
 country: California
+tags:
+  - personal
 ---
 
 “I have a partner and I live with him,” O said abruptly on our third date as we were in bed together. She was embarrassed to say it, her eyes impossibly and tragically gray-blue (those eyes being the kind of stupid color that launches a thousand ships and breaks a million hearts, etc. etc.) Once the words were out in the open though she looked away in embarrassment, as if she felt too much and figured out precisely how the words would do their damage.

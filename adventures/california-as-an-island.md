@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: California as an Island
 date: 2018-08-04
+tags:
+  - typography
 ---
 
 For a change of pace let’s talk about some real honest-to-goodness fonts, eh? One release that’s worth your attention and one I noticed that made me squeal with excitement was [Acme Gothic](https://www.marksimonson.com/fonts/view/acme-gothic), a new family my Mark Simonson that’s based on the lettering style that was pretty much everywhere in the U.S. in the early 20th century:

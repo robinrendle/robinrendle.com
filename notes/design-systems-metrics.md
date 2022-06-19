@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Design Systems Metrics
 date: 2021-11-02 19:21:00 -07:00
 tags:
-  - design
+  - designsystems
 extract: What signals would we need to see a design system clearly?
 city: San Francisco
 country: California

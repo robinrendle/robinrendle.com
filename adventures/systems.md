@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Systems, Mistakes, and the Sea
 date: 2020-01-02
+tags:
+  - typography
 ---
 
 It might be the start of a new year but I will never quit my rambling nonsense: over the holidays I wrote a piece about design systems and the field of web design called [Systems, Mistakes, and the Sea](https://www.robinrendle.com/essays/systems-mistakes-and-the-sea). I argue that everyone in the field is, well, pretty dang frightened to tell the truth about their work and how it’s extremely difficult building software at scale.

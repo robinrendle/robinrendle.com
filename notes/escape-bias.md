@@ -5,6 +5,8 @@ date: 2021-03-03T16:46:11.086Z
 city: San Francisco
 country: California
 extract: And the biggest threat to great design.
+tags:
+  - design
 ---
 
 The biggest threat to great design is bias.

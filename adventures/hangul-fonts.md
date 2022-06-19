@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Hangul Fonts
 date: 2018-04-08
+tags:
+  - typography
 ---
 
 I’m a little worse for wear this weekend however I just wanted to write a brief note about [a type specimen website](https://googlefonts.github.io/korean/) published by Google that showcases a collection of Hangul fonts that they offer. It’s difficult to describe what’s going on because 1. it’s completely bananas and 2. it’s unlike any other specimen website I’ve seen before:

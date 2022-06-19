@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The National Geographic
 date: 2018-04-22
+tags:
+  - typography
 ---
 
 This week I’ve been obsessed with [Foreday](https://www.dstype.com/variable-fonts) by the DSType Foundry and the reason why is quite extraordinary: I think it might be the first variable font where the options aren’t just font weight or the width of the characters. Instead, you can choose whether you have a sans or a serif typeface and change it on the fly.

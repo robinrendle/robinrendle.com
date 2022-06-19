@@ -6,10 +6,7 @@ tags:
   - personal
 extract:
   "My excitement for a holiday to NYC was of paramount importance then: as
-  someone that comes from a rural area, would I enjoy it? Would I want to emigrate
-  to New York? What would my girlfriend and I find there? Would she move in with me
-  once we came back or would we just throw caution to the wind and move to America
-  and work together?"
+  someone that comes from a rural area, would I enjoy it? Would I want to emigrate to New York? What would my girlfriend and I find there? Would she move in with me once we came back or would we just throw caution to the wind and move to America and work together?"
 city: New York City
 country: USA
 ---

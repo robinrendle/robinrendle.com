@@ -6,9 +6,7 @@ tags:
   - personal
 city: San Francisco
 country: California
-extract:
-  You don’t have to put a dent in the universe. You can just be kind. And put
-  things back where you found them. And make a few people laugh along the way.
+extract: You don’t have to put a dent in the universe. You can just be kind. And put things back where you found them. And make a few people laugh along the way.
 ---
 
 Today was a _day_. It was exhausting and upsetting, and not the useful kind but rather instead the kind that strips you of all of your energy and enthusiasm. The kind that makes you climb back into bed with your tail between your legs.

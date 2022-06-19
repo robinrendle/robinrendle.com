@@ -4,8 +4,9 @@ title: Blogging and Dimly Lit Bars
 date: 2021-03-20T21:06:14.586Z
 city: San Francisco
 country: California
-extract: Oh to be called a bastard by a writer you admire whilst hovering over
-  drinks in a dimly lit bar.
+extract: Oh to be called a bastard by a writer you admire whilst hovering over drinks in a dimly lit bar.
+tags:
+  - websites
 ---
 
 Sloan [wrote about blogging](https://www.robinsloan.com/notes/many-subtle-channels/) this morning and so of course I must excitedly reblog this:

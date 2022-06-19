@@ -5,6 +5,8 @@ date: 2020-12-10T06:18:33.569Z
 city: San Francisco
 country: California
 extract: Alberto Manguel on “the idea of Homer.”
+tags:
+  - books
 ---
 
 I’ve been reading _The Iliad and the Odyssey_ by Alberto Manguel where he looks at those two epic poems and before you yawn and click away—wait! This book sure is yawn inducing from a mile away, but up close I think it’s extremely interesting.

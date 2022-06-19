@@ -5,6 +5,8 @@ date: 2021-04-11T01:20:39.412Z
 city: San Francisco
 country: California
 extract: An upright italic? Huh, okay. Sure.
+tags:
+  - typography
 ---
 
 Louche is a striking typeface and [John Boardley has the scoop](https://ilovetypography.com/2021/04/03/fonts-in-focus-louche/):

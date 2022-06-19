@@ -5,6 +5,8 @@ date: 2019-02-21 15:39:00 -08:00
 extract: Especially when it comes to blogs.
 city: San Francisco
 country: California
+tags:
+  - writing
 ---
 
 I love this sentiment from Violet Peña on [getting her own blog off the ground](https://vgpena.github.io/good-is-better-than-perfect/):

@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Ampersand
 date: 2018-01-29
 tags:
-extract:
+  - typography
 ---
 
 If you’ve never heard of the [Ampersand conference](https://2018.ampersandconf.com/) then let me introduce you: it’s the best typography conference you could possibly ever visit. It’s held in the UK, in the sea-side town of Brighton to be more specific, and it’s organised by [Richard Rutter](http://clagnut.com/) and the rest of the team at [Clearleft](https://clearleft.com/). Peculiarly enough though, this is not an annual conference with the same faces on the same stage like many web design conferences.

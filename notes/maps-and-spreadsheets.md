@@ -5,6 +5,8 @@ date: 2020-07-04T19:38:45.238Z
 city: San Francisco
 country: California
 extract: And how to work on a design systems project.
+tags:
+  - designsystems
 ---
 
 When it comes to design systems I don’t have many words of advice. I have _opinions_ and _intense anxiety_ but giving advice without context of the organization, the codebase, the people, is so very hard to do. But if there’s one word of advice that I keep learning, over and over again, and with almost every design systems project, is this: all design systems work should begin with a spreadsheet.

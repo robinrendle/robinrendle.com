@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: The Elements of Eloquence
 date: 2017-11-29 21:51:00 -08:00
 tags:
-  - book
+  - books
 city: San Francisco
 country: California
 extract:

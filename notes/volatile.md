@@ -5,6 +5,8 @@ date: 2021-01-18T20:34:06.368Z
 city: San Francisco
 country: California
 extract: Alberto Manguel on the volatility of the Web.
+tags:
+  - websites
 ---
 
 Alberto Manguel, writing in _The Library at Night_:

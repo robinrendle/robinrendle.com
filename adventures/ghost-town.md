@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Ghost Town
 date: 2018-09-15
+tags:
+  - typography
 ---
 
 Portland is a ghost town. Although the city isn’t deserted, you can find ghosts hidden amongst the buildings, layered on surfaces of every kind, littering the city streets.

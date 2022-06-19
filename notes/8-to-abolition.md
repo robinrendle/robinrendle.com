@@ -5,6 +5,8 @@ date: 2020-06-08T04:34:50.985Z
 city: San Francisco
 country: California
 extract: And the end of the police.
+tags:
+  - justice
 ---
 
 Reading over the [8 to Abolition](https://www.8toabolition.com/) website made me gasp this morning because I had never even considered a world without police:

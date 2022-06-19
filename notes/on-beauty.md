@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: On Beauty
 date: 2018-06-11 21:13:00 -07:00
 tags:
-  - book
+  - books
 extract: Zadie Smith’s book, to me, is all about England.
 city: San Francisco
 country: California

@@ -5,6 +5,8 @@ date: 2021-07-06T15:32:08.662Z
 city: San Francisco
 country: California
 extract: Why is my jaw clamping up like this?
+tags:
+  - personal
 ---
 
 It starts with the jaw; wires taught, grinding teeth, clenched muscles running up and down each cheek. I catch myself biting my lower lip and pulling funny faces in an effort to release the tension. But where is all this stress coming from?

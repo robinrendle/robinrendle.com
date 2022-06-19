@@ -5,6 +5,8 @@ date: 2020-10-26T20:34:22.090Z
 city: San Francisco
 country: California
 extract: And the legend of the 6 foot tall puddle.
+tags:
+  - personal
 ---
 
 Woh Hei Yuen is a little park in Chinatown and I’m the only one here; I’m sat at a picnic table in the dark and the cold, looking forlornly at the pagoda across from me where a cat is showing off, prowling along the very top. This whole time I’ve been watching this cat I can’t help but wonder if he’s about to give me an annoying side quest but truth be told I’m extremely anxious for other reasons that are quite beyond me.

@@ -5,6 +5,8 @@ date: 2021-05-20T15:50:08.210Z
 city: Oakland
 country: California
 extract: Gah, so good.
+tags:
+  - typography
 ---
 
 Somehow I had missed this excellent blog post from Reagan Ray about [the lettering in Marvel comics](https://reaganray.com/2021/04/06/marvel-lettering.html):

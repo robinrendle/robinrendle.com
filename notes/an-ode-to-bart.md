@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: Oh what a beautiful thing.
+tags:
+  - personal
 ---
 
 Oh what a beautiful thing it is. Yesterday I snuck out of my apartment and hopped aboard BART—a series of snaking underground and above-ground lines that link the city of San Francisco to the East Bay—and it might’ve been for the first time in nearly two years.

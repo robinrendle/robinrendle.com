@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The Mark of Sincerity
 date: 2018-07-01
+tags:
+  - typography
 ---
 
 For the Atlantic, Julie Beck has written a lovely piece about [the exclamation mark](https://www.theatlantic.com/technology/archive/2018/06/exclamation-point-inflation/563774/) and how our use of it has changed in recent years:

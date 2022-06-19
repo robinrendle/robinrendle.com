@@ -5,6 +5,8 @@ date: 2019-04-11 00:35:00 -07:00
 city: London
 country: United Kingdom
 extract: What would happen if every website was lightning fast?
+tags:
+  - websites
 ---
 
 I’m hoofing it around London today preparing some last minute things for my visa. The weather could not be more beautiful as puffy little clouds float above me in a cerulean blue playground.

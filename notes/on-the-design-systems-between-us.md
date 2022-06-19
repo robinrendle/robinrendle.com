@@ -5,6 +5,8 @@ date: 2020-10-01T22:12:06.921Z
 city: San Francisco
 country: California
 extract: And avoiding the rabbit holes.
+tags:
+  - designsystems
 ---
 
 Ethan Marcotte’s [latest talk](https://youtu.be/7bAETIw8lA0?t=985) is so great and I think he captures the feeling of the whole industy/craft right now. But the part that really stuck out to me is where Ethan argued that:

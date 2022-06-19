@@ -5,6 +5,8 @@ date: 2020-05-25T01:10:29.575Z
 city: San Francisco
 country: California
 extract: I have nothing to type in this field, go away.
+tags:
+  - robinrendledotcom
 ---
 
 I think the weird thing about newsletters is that they’re so..._formal_. It would make for a cruel and unusual punishment if I sent an email out to a bunch of people that was nonsensical, doesn’t conclude properly, doesn’t have some sense of progress or I-don’t-know-what. But with a blog post? I don’t care!

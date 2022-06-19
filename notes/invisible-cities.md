@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Invisible Cities
 date: 2019-03-07 14:38:00 -08:00
 tags:
-  - book
+  - books
 extract: And how to see the inferno.
 city: San Francisco
 country: California

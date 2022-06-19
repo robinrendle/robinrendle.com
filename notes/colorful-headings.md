@@ -5,6 +5,8 @@ date: 2020-07-13T15:45:06.709Z
 city: San Francisco
 country: California
 extract: And a bit of typography advice.
+tags:
+  - typography
 ---
 
 Good morning! One small tip for your Monday morning typographic perambulations: I think we should always make headings darker than the body text. It’s a small change but it has a significant impact on longer chunks of text and is especially useful if you’re typesetting both headings and body text with the same typeface. Here’s an example:

@@ -3,12 +3,9 @@ layout: layouts/note.njk
 title: The Missing Building Blocks of the Web
 date: 2018-03-26 22:52:00 -07:00
 tags:
-  - design
+  - websites
 extract:
-  "“Old-timers might remember when Flash ruled the web, and people made simple
-  games or interactive art pieces that would then get shared on blogs or other media
-  sites. Except for the occasional SoundCloud song on someone’s Tumblr, it’s a grim
-  landscape for anyone that can imagine a web where bits and pieces of different sites
+  "“Old-timers might remember when Flash ruled the web, and people made simple games or interactive art pieces that would then get shared on blogs or other media sites. Except for the occasional SoundCloud song on someone’s Tumblr, it’s a grim landscape for anyone that can imagine a web where bits and pieces of different sites
   are combined together like Legos.”"
 city: San Francisco
 country: California

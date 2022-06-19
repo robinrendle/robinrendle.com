@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: George Saunders and how to avoid writing like anyone else.
+tags:
+  - writing
 ---
 
 Everyone shut up, Saunders is talking:

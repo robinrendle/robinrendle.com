@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: "And Introducing: The Kickstarter"
 date: 2018-10-27 11:45:00 -07:00
 tags:
-  - personal
+  - books
 city: San Francisco
 country: California
 extract: Jez just announced his Kickstarter campaign for his new book called And Introducing.

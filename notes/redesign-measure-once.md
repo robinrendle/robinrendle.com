@@ -5,6 +5,8 @@ date: 2021-07-07T02:50:23.068Z
 city: San Francisco
 country: California
 extract: Let’s talk about the measure.
+tags:
+  - robinrendledotcom
 ---
 
 The most important thing about any website is the measure. Okay, so that’s a lie. It’s not the most important thing but it most certainly is a _thing_. The measure is the fancy typesetting word for the width of a paragraph. Ah!—that reminds me—years ago I wrote a piece called [Six tips for better web typography](https://css-tricks.com/six-tips-for-better-web-typography/) where I talked about all this stuff:

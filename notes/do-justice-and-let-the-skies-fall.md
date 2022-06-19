@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Do justice and let the skies fall
 date: 2014-06-18 22:14:00 -07:00
 tags:
-  - personal
+  - justice
 extract:
   "For the longest time I’ve taken the sidelines in most arguments, both online
   and in daily conversations with strangers. I believed that trying to correct the

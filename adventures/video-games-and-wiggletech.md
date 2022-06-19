@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Videogames and WiggleTech™️
 date: 2018-07-05
+tags:
+  - typography
 ---
 
 This weekend will be the first lazy one I’ve had in quite a while. There’ll be no rushing about sorting out my visa or flying across large bodies of water or working into the middle of the night on a side project. All I have to do for the next couple of days is drink an inhumane amount of coffee, type up a few notes that have been drifting about in my noggin’, and catch up on my backlog of video games.

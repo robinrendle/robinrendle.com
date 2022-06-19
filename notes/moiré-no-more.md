@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: Marcin summons FFT.
+tags:
+  - typography
 ---
 
 Just as I finished moaning about not finding any good reading out there, I spotted this post by Marcin on [how he fixed old photographs for his book](https://www.getrevue.co/profile/shift-happens/issues/moire-no-more-688319):

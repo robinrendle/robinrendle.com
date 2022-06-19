@@ -6,7 +6,7 @@ extract: An Alfred workflow to help me blog faster.
 country: California
 city: San Francisco
 tags:
-  - blog
+  - robinrendledotcom
 ---
 
 The biggest problem with having your own blog is that it’s pretty difficult to write and publish anything. You likely don’t have a fancy Medium-style interface if you want complete control over every little detail and you’re probably writing things from within a CMS or a code editor.

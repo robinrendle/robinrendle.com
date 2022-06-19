@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 extract: Astro was harder to work with than I first thought.
 layout: layouts/note.njk
+tags:
+  - robinrendledotcom
 ---
 
 Okay, so. I spent far too long trying to push my build of Astro via Netlify.

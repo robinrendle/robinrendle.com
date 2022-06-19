@@ -5,6 +5,8 @@ date: 2021-05-02T18:14:57.113Z
 city: San Francisco
 country: California
 extract: How do I prevent future problems?
+tags:
+  - robinrendledotcom
 ---
 
 I’m redesigning the homepage right now (it’s so dang hard introducing yourself on the web!) and I’m bumping into tons of weird, old decisions I made whilst writing the CSS maybe four or five years ago. I try hard not to rewrite things from scratch when it comes to my personal site but the styles are starting to creak and moan under the weight of so many tiny bug fixes and what-if-I-just-change-this-one-thing moments.

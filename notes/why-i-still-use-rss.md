@@ -5,6 +5,8 @@ date: 2021-02-16T17:30:31.060Z
 city: San Francisco
 country: California
 extract: RSS and the Sexy Mystery Distance.
+tags:
+  - websites
 ---
 
 Marc wrote about [why he still uses RSS](https://atthis.link/blog/2021/rss.html):

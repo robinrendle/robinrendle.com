@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: GT Type catalogue
 date: 2020-03-27 15:27:07
 tags:
-  - fonts
+  - typography
 extract: In the words of Luigi, “wowie zowie!”
 country: California
 city: San Francisco

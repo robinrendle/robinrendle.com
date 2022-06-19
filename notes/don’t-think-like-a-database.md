@@ -5,6 +5,8 @@ date: 2021-04-27T16:37:53.405Z
 city: Oakland
 country: California
 extract: Pretend it isn’t there
+tags:
+  - design
 ---
 
 This is something I have to keep reminding myself when it comes to design: don't think like a database.

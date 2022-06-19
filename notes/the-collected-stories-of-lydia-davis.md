@@ -3,13 +3,8 @@ layout: layouts/note.njk
 title: The Collected Stories of Lydia Davis
 date: 2014-06-28 14:51:00 -07:00
 tags:
-  - book
-extract:
-  "“Michel Butor says that to travel is to write, because to travel is to read.
-  This can be developed further: To write is to travel, to write is to read, to read
-  is to write, and to read is to travel. But George Steiner says that to translate
-  is also to read, and to translate is to write, as to write is to translate and to
-  read is to translate...”"
+  - books
+extract: "“Michel Butor says that to travel is to write, because to travel is to read. This can be developed further: To write is to travel, to write is to read, to read is to write, and to read is to travel. But George Steiner says that to translate is also to read, and to translate is to write, as to write is to translate and to read is to translate...”"
 update:
 city: Nottingham
 country: UK

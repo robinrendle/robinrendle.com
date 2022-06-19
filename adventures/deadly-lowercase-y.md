@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: A Deadly Lowercase y
 date: 2018-03-31
+tags:
+  - typography
 ---
 
 Last week [Jason Pamental](https://twitter.com/jpamental) shared a link to [Bona Nova](https://typography.guru/list/best-freeware-fonts/bona-nova/) which is a revival typeface of the serif persuasion and it’s designed by Mateusz Machalski. This specimen of Bona Nova is particularly lovely for so many reasons:

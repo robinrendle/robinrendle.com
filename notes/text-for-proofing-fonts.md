@@ -6,7 +6,7 @@ city: San Francisco
 country: California
 extract: Jonathan Hoefler on the art of type design and pangrams.
 tags:
-  - design
+  - typography
 ---
 
 Type designers often use pangrams (a sentence with every letter of the alphabet in it) to design their letters and “the quick brown fox jumps over the lazy dog” is undoubtedly the most famous. It’s supposed to be an easy way to see if every letter of the alphabet fits with all the others.

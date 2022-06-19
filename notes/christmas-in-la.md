@@ -5,6 +5,8 @@ date: 2019-01-01 15:44:00 -08:00
 city: Brea
 country: California
 extract: I’m not crying, you’re crying.
+tags:
+  - personal
 ---
 
 We’re not in Los Angeles, Ali reminds me for maybe the fiftieth time as she unlocks her phone and points to the map. “This bit is Orange County, this bit is LA.” She’s mad and tells me I’m an idiot yet somehow it’s a mark of respect, a mark of true friendship even, that she calls me out for being lazy.

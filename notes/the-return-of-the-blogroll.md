@@ -5,6 +5,8 @@ date: 2021-05-09T17:10:58.870Z
 city: San Francisco
 country: California
 extract: And memories of desk rummaging.
+tags:
+  - robinrendledotcom
 ---
 
 New design day! Well, really it’s more of a typographic facelift with a few improvements to the homepage, but still.

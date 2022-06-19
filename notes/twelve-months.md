@@ -3,11 +3,8 @@ layout: layouts/note.njk
 title: Twelve months
 date: 2013-10-29 13:48:00 -07:00
 tags:
-  - personal
-extract:
-  This time last year I was a pup. I had never used Sass before, I didn’t know
-  what the shell was and the DOM was a ghostly, nightmarish thing that infiltrated
-  my dreams.
+  - websites
+extract: This time last year I was a pup. I had never used Sass before, I didn’t know what the shell was and the DOM was a ghostly, nightmarish thing that infiltrated my dreams.
 update:
 city: Nottingham
 country: UK

@@ -5,6 +5,8 @@ date: 2020-07-16T00:21:17.470Z
 city: San Francisco
 country: California
 extract: A typefamily from the Letterform Archive.
+tags:
+  - typography
 ---
 
 By some cruel fate and in a long running conspiracy involving secret foreign governments and spies, not to mention the tens of millions of dollars of shady private funding that has been poured into this network of deception...something something something...I somehow missed the release of [LfA Aluminia](https://shop.letterformarchive.org/products/aluminia-fonts?variant=7014645497892), a typeface designed by Jim Parkinson and published by the Letterform Archive back in 2017.

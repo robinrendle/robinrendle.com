@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: Look at the array of dots and dashes!
+tags:
+  - writing
 ---
 
 [Adam J Calhoun:](https://medium.com/@neuroecology/punctuation-in-novels-8f316d542ec4)

@@ -3,12 +3,10 @@ layout: layouts/note.njk
 title: dConstruct
 date: 2013-09-09 12:59:00 -07:00
 tags:
-  - personal
+  - talks
 extract:
   From cyborgs and toasters with personalities to community infrastructure
-  and feeling the deep, moaning rumbles of an organ's infrasound – the talks were
-  a delicate sequence of heart wrenching delight, mechanical whimsy and straight up
-  nerd love.
+  and feeling the deep, moaning rumbles of an organ's infrasound – the talks were a delicate sequence of heart wrenching delight, mechanical whimsy and straight up nerd love.
 city:
   - Brighton
 country:

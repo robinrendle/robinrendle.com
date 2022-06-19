@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The Victorian Internet
 date: 2018-12-05
+tags:
+  - typography
 ---
 
 This week I’ve been entirely obsessed with _The Victorian Internet_ by Tom Standage where he traces the history of the telegraph; from the laying of the Transatlantic submarine cables, to the tales of fraudsters that used the telegraph to find their marks, to those that used this budding technology to find the person they’d soon marry.

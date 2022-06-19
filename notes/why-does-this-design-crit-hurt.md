@@ -5,6 +5,8 @@ date: 2020-10-21T00:07:29.983Z
 city: San Francisco
 country: California
 extract: And why do I always have to be the hero?
+tags:
+  - design
 ---
 
 When a design crit goes south, it’s almost impossible to take all that brutal feedback and focus on course correction; going back to the interface, reviewing ten thousand comments, limping away and reassessing my approach to the problem. Instead, when I get feedback like I received earlier today, I sorta just want to mope around my apartment all day long or walk into the ocean.

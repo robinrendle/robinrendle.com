@@ -5,7 +5,7 @@ date: 2019-07-12 08:31:01
 city: San Francisco
 country: California
 tags:
-  - design
+  - typography
 extract: The new type family by OhNo Type Co.
 ---
 

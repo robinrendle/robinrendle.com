@@ -5,6 +5,8 @@ date: 2020-06-18T03:30:26.869Z
 city: San Francisco
 country: California
 extract: Ijeoma Oluo’s ever-so-excellent book.
+tags:
+  - books
 ---
 
 I just started reading Ijeoma Oluo’s ever so excellent book _So You Want to Talk About Race_. Her writing is laser-focused and this bit in particular where Ijeoma compares white supremacy to an abusive relationship jolted me awake:

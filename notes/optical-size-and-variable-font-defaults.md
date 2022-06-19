@@ -5,6 +5,8 @@ date: 2022-05-15
 city: San Francisco
 country: California
 extract: Autopilot no control.
+tags:
+  - typography
 ---
 
 Choosing a font is always a problem of size. Sure, you want to pick a serif or a fancy geometric sans—the style is important—but what’s the size of the text? There’s an enormous difference between 14px and 200px and likewise you can’t pick a typeface for a billboard and a tiny book and expect them to both look just fine. You have to optimize for one size or another.

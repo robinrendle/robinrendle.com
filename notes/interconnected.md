@@ -5,6 +5,8 @@ date: 2022-05-13
 city: San Francisco
 country: California
 extract: And the world of Elden Ring.
+tags:
+  - videogames
 ---
 
 The most upsetting thing about Elden Ring is not the difficulty, it’s the sheer imagination of the world building.

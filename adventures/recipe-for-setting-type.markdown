@@ -4,6 +4,8 @@ title: A Recipe for Setting Type
 date: 2016-11-05 15:09:00 -07:00
 Country: CA
 City: San Francisco
+tags:
+  - typography
 ---
 
 I’m thinking of a simple set of instructions, like a guidebook or an illustration, that details how to make a website with accessible and engaging typography. I’m thinking beyond tips or tricks such as “use this typeface,” instead I want something along the lines of a cook book: _‘Here are the ingredients you need’_ says the chef, ‘_but feel free to experiment and learn with these rules in mind._’

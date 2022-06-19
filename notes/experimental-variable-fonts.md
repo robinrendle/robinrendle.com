@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: And why they’re not so experimental.
+tags:
+  - typography
 ---
 
 In his excellent newsletter, Font of the Month Club (which I cannot recommend more highly), DJR wrote about variable fonts and how they’ve been out for a while yet [they still feel like an experimental technology](https://mailchi.mp/252c1a3e328e/your-october-font-of-the-month-190523?e=62d470e7e3):

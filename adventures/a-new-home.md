@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: A New Home
 date: 2019-07-05
+tags:
+  - typography
 ---
 
 If you happen to find yourself in San Francisco for the first time I would ignore the big red Bridge, skip all the trams, and head straight to the Letterform Archive.

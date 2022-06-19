@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Cool Gray City of Type
 date: 2018-11-24
+tags:
+  - typography
 ---
 
 I’m reading Gary Kamiya’s _Cool Gray City of Love_ this week which is all about San Francisco and it’s history, architecture, culture, and people. I’ve been wanting to read it for quite some time and so the long weekend gave me a chance to finally sit down and drink it all in. I’d certainly recommend it too, as Gary writes thoroughly lovely stuff like this throughout the whole book:

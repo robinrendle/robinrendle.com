@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: Alberto Manguel on loss.
+tags:
+  - books
 ---
 
 I was reading Alberto Manguel’s _Packing My Library_ on the train back to SF the other day and the moment I read this passage I hurriedly underlined it over and over again:

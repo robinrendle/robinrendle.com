@@ -5,6 +5,8 @@ date: 2020-07-07T20:07:06.767Z
 city: San Francisco
 country: California
 extract: Derecka Purnell on why she changed her mind.
+tags:
+  - justice
 ---
 
 [Derecka Purnell](https://www.theatlantic.com/ideas/archive/2020/07/how-i-became-police-abolitionist/613540/):

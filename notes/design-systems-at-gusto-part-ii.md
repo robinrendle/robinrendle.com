@@ -3,12 +3,10 @@ layout: layouts/note.njk
 title: "Design Systems at Gusto: Part II"
 date: 2018-10-22 22:48:00 -07:00
 tags:
-  - design
+  - designsystems
 city: San Francisco
 country: California
-extract:
-  "“Design is not about learning to think outside the box, it’s about finding
-  the right box to think inside of.”"
+extract: "“Design is not about learning to think outside the box, it’s about finding the right box to think inside of.”"
 ---
 
 Lately I’ve been jotting down some haphazard notes about the challenges that the Design Systems team at Gusto has encountered along the way and I’m learning a whole bunch about how we should interact with the rest of the organization (a team of over a hundred engineers and a dozen designers working on our product).

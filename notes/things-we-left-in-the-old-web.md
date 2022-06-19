@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Things we left in the old web
 date: 2020-03-08 10:44:58
 tags:
-  - design
+  - websites
 extract: And what we can learn from websites past.
 country: California
 city: San Francisco

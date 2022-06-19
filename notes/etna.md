@@ -5,6 +5,8 @@ date: 2020-12-23T05:14:11.015Z
 city: San Francisco
 country: California
 extract: A new typefamily from Mark Simonson.
+tags:
+  - typography
 ---
 
 I spotted [Etna](https://www.marksimonson.com/fonts/view/etna) the other day and it’s pretty remarkable. It’s a new typefamily by Mark Simonson, inspired by wood type in the 19th century, and the [micro-site](https://etna.marksimonson.com/) is so much fun even if you absolutely hate fonts and your nemesis is a .woff file. Ahem, anyway—this litte site lets you click-clack different chunks of text together in a big carousel and I think it’s rather handsome.

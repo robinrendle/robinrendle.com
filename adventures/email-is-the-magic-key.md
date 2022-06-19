@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Email is the Magic Key
 date: 2018-05-12
+tags:
+  - typography
 ---
 
 Earlier this week I read an excellent post called [How to Make a Book](https://thecreativeindependent.com/guides/how-to-make-a-book/) and it’s a collection of advice from writers and novelists about how to get started with a book of your own:

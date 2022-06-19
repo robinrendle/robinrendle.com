@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Fonts as Software
 date: 2018-03-03
+tags:
+  - typography
 ---
 
 This week [Future Fonts](https://www.futurefonts.xyz/) launched and it’s interesting for several reasons. First: it’s a website that lets you purchase fonts in an unfinished state. Each family might only consist of a single weight, a single style or variant, or even supporting characters from a single language (whereas a great many other type releases will try to support as many weights, styles and languages as possible to increase their value).

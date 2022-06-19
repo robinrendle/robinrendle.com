@@ -5,6 +5,8 @@ date: 2021-06-08T14:07:45.275Z
 city: San Francisco
 country: California
 extract: On moving to our first home.
+tags:
+  - personal
 ---
 
 You know those documentaries where you see a tiny octopus on a reef and they’re getting completely annihilated by the crushing waves above and all around? They’ll clutch onto that tiny rock with all their tiny might and won’t ever let go, no matter how much their world rocks from side to side.

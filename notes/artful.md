@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Artful
 date: 2018-03-16 20:50:00 -07:00
 tags:
-  - book
+  - books
 city: San Francisco
 country: California
 extract:

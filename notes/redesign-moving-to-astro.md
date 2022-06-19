@@ -5,6 +5,8 @@ date: 2021-07-10
 city: San Francisco
 country: California
 extract: Sorry in advance.
+tags:
+  - robinrendledotcom
 ---
 
 Okay, so we’re moving the ol’ site from Eleventy to Astro. I think what finally convinced me to make the switch was, of all things, gulp.

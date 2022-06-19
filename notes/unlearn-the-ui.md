@@ -2,11 +2,11 @@
 layout: layouts/note.njk
 title: Unlearning the UI
 date: 2020-04-29 21:33:01
-tags:
-  - design
 extract: And how to forget about border-radius.
 country: California
 city: San Francisco
+tags:
+  - design
 ---
 
 With my new gig at Sentry I’ve returned to product design again as I hope to move as far away from design systems for as long as I can. Buttons and colors and fonts will catch up to me eventually, as they always do, but for the moment I need to slow down, be quiet, hands placed firmly in pockets. Because in order to do a good job I have to understand how everything click-clacks together in the way that it does.

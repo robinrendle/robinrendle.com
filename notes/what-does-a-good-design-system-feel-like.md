@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: When the whole system begins to make sense in your mind.
+tags:
+  - designsystems
 ---
 
 When folks talk about design systems they often mention developer productivity (ew), or consistency (better), or accessibility (best).

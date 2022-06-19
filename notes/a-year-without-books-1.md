@@ -5,6 +5,8 @@ date: 2021-03-27T03:09:40.372Z
 city: San Francisco
 country: California
 extract: And yet, and yet.
+tags:
+  - books
 ---
 
 I haven’t read a book all year. During the course of the pandemic I haven’t been able to focus enough to get through anything longer than a blog post or a newsletter. Typically I’ll start reading something, the novelty will wear off, and then I’ll have no interest in pushing forwards. It’s like I can’t hold all the pieces of the story in my mind right now — the plot either gallops off leaving me behind or it’ll freeze in its step and I suddenly find myself begging to speed things up.

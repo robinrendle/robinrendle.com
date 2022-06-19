@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Gimlet
 date: 2016-09-04 23:15:00 -07:00
 tags:
-  - design
+  - typography
 city: Dana Point
 country: CA
 extract:

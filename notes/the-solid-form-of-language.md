@@ -3,11 +3,8 @@ layout: layouts/note.njk
 title: The Solid Form of Language
 date: 2014-01-05 13:17:00 -08:00
 tags:
-  - book
-extract:
-  "... a script occasionally proves to be more like a brand, or indeed like
-  a prison tattoo, re-engraved on the brain with every letter written and every letter
-  read."
+  - books
+extract: "... a script occasionally proves to be more like a brand, or indeed like a prison tattoo, re-engraved on the brain with every letter written and every letter read."
 update:
 city: Nottingham
 country: UK

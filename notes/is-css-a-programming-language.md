@@ -5,6 +5,8 @@ date: 2021-05-07T23:23:40.489Z
 city: San Francisco
 country: California
 extract: “Respect is in order, no matter what any of us come to for an answer.”
+tags:
+  - css
 ---
 
 I love this post from Chris where he asks if [CSS is a programming language](https://css-tricks.com/is-css-a-programming-language/) and confronts it in a way I’ve always felt quietly but never put into words:

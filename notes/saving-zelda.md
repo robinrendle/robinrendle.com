@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Saving Zelda
 date: 2018-08-18 18:51:00 -07:00
 tags:
-  - link
+  - videogames
 city: San Francisco
 country: California
 extract:

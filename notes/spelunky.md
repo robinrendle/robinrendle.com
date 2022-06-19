@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Spelunky
 date: 2018-08-18 11:59:00 -07:00
 tags:
-  - book
+  - books
 city: San Francisco
 country: California
 extract: My favorite book from the Boss Fight Books collection so far.

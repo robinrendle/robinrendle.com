@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The San Francisco Map Fair
 date: 2018-09-25
+tags:
+  - typography
 ---
 
 Fellow cartographers!

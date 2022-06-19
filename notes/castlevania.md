@@ -2,8 +2,6 @@
 layout: layouts/note.njk
 title: Castlevania
 date: 2020-03-07 10:06:56
-tags:
-  - personal
 extract: Warren Ellis’s latest comic-book-shaped thing.
 country: California
 city: San Francisco

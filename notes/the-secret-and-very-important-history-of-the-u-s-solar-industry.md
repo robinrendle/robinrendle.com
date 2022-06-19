@@ -5,6 +5,8 @@ date: 2021-06-16T03:43:39.742Z
 city: San Francisco
 country: California
 extract: Robinson Meyer and the problem with how folks see technology.
+tags:
+  - environment
 ---
 
 Robinson Meyer on [what folks get wrong about technology](https://www.theatlantic.com/science/archive/2021/06/why-the-us-doesnt-really-make-solar-panels-anymore-industrial-policy/619213/):

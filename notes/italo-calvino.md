@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: An interview with Italo Calvino
 date: 2014-10-18 03:17:00 -07:00
 tags:
-  - link
+  - writing
 extract:
   "“Writers do not necessarily cherish their translators, and I occasionally
   had the feeling that Calvino would have preferred to translate his books himself...”"

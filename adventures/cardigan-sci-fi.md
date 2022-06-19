@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Cardigan Sci-fi
 date: 2019-07-20
+tags:
+  - typography
 ---
 
 There are many subgenres within sci-fi. You’ve got your steam punk sci-fi, your miserable dystopian sci-fi, and you have your big city Bladerunner/Transmetropolitan sci-fi. But my favorite category of all the varieties of science fiction that you can find is the much rarer sort:

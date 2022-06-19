@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The Four Kinds of Space
 date: 2018-12-09
+tags:
+  - typography
 ---
 
 This week I’ve been re-reading one of my favorite books about typesetting; _Inside Paragraphs_ by the teacher and type designer Cyrus Highsmith. Unlike many other books on the subject that try to hone in on a specific field, such as book or web design, Cyrus takes a very different approach here: he jumps head first into a paragraph, gets up close to the letters, and tells us how it all works from the inside out.

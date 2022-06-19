@@ -5,6 +5,8 @@ date: 2021-06-25T16:49:57.076Z
 city: San Francisco
 country: California
 extract: A novel about Deep Time by the geologist Marcia Bjornerud.
+tags:
+  - books
 ---
 
 I just finished reading Marcia Bjornerud’s _Timefulness_ this morning. Marcia writes about Deep Time of the past— mountain formation and the Cambrian explosion—and Deep Time of the future—the disappearance of the Atlantic ocean and the rush of America into Europe and the creation of a single mega continent a few hundred million years from now.

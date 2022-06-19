@@ -5,14 +5,16 @@ date: 2021-07-06T15:39:09.793Z
 city: San Francisco
 country: California
 extract: Delete the CSS.
+tags:
+  - robinrendledotcom
 ---
 
 Because of, you know—the omens—I’ve started working on a new design again. I’m not entirely sure what version I’m up to at this point but it doesn’t really matter. With each iteration of this website I feel like I’m getting closer to what it ought to be.
 
 But! I want to do things differently this time: I’m updating the styles of this site slowly over time. Each time you pop back here something will be different. One night I’ll tidy up the copy, the next I’ll be fixing up the font-sizes, adding margins. Last night I spent an hour switching out the fonts to use [National 2](https://klim.co.nz/retail-fonts/national-2/) again and I deleted all the CSS. So no longer do I have classes like...
 
-```
-<div class="wrapper-wide wrapper-wide--grid wrapper-wide--grid-reverse">
+```html
+<div class="wrapper-wide wrapper-wide--grid wrapper-wide--grid-reverse"></div>
 ```
 
 ...which has plagued this here website for far too long.

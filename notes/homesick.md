@@ -5,6 +5,8 @@ date: 2020-06-15T15:49:09.581Z
 city: San Francisco
 country: California
 extract: I just miss it all like hell.
+tags:
+  - personal
 ---
 
 Good morning! Today I'm homesick. Although it is most certainly weird to use that word, _home_, when speaking of the UK so I'm not sure what would be a better an alternative.

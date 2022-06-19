@@ -5,6 +5,8 @@ date: 2022-06-13
 city: San Francisco
 country: California
 extract: And 15 lines of CSS.
+tags:
+  - css
 ---
 
 What’s the smallest amount of CSS that you can write to make HTML look halfway decent? I took a crack at that today after I removed all the styles from my website and went back to Eleventy. Here’s what I’ve got so far.

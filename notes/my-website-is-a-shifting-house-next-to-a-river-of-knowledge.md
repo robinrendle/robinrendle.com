@@ -5,6 +5,8 @@ date: 2020-12-04T18:27:58.041Z
 city: San Francisco
 country: California
 extract: A library and a puddle.
+tags:
+  - websites
 ---
 
 Last night was manic and dizzying, and it all began with re-reading Alberto Manguel’s book _A Reader on Reading_. Manguel is one of my favorite writers and if you’ve never read or even heard his name then go and pick up _The Library at Night_ immediately. I command you.

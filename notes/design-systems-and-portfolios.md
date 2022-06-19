@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: The Harmony of the System
 date: 2019-03-19 20:23:00 -07:00
 tags:
-  - design
+  - designsystems
 extract: And the civil war that rages in the codebase.
 city: San Francisco
 country: California

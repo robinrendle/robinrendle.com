@@ -5,6 +5,8 @@ date: 2018-12-13 10:13:00 -08:00
 extract: Some notes on Brexit.
 city: San Francisco
 country: California
+tags:
+  - personal
 ---
 
 What troubles me most about Brexit, despite that abomination of a name, is the wasted intellectual, emotional, and creative resources that have been spent on it so far. Two years of doubt, anxiety, and arguments. For nothing.

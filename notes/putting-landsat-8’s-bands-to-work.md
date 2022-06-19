@@ -5,6 +5,8 @@ date: 2021-03-10T18:44:36.706Z
 city: San Francisco
 country: California
 extract: Here’s a picture of LA...
+tags:
+  - environment
 ---
 
 Charlie Loyd wrote this great piece about [Landsat 8](https://blog.mapbox.com/putting-landsat-8s-bands-to-work-631c4029e9d1):

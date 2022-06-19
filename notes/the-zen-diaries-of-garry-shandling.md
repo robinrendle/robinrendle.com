@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: The Zen Diaries of Garry Shandling
 date: 2018-03-31 17:41:00 -07:00
 tags:
-  - personal
+  - movies
 extract:
   Last night I watched the new documentary about Garry Shandling by Judd Apatow
   and I hadn’t quite expected to fall in love with it as much as I did. Quite frankly,

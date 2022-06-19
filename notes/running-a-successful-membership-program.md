@@ -5,6 +5,8 @@ date: 2021-02-02T23:53:19.893Z
 city: San Francisco
 country: California
 extract: And the half-finished, excitable huhs.
+tags:
+  - writing
 ---
 
 Craig is back to talk about [year three of Special Projects](https://craigmod.com/essays/successful_memberships/) where he describes how this subscription service is working out for him so far:

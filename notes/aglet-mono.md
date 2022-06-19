@@ -5,6 +5,8 @@ date: 2020-08-12T17:21:26.057Z
 city: San Francisco
 country: California
 extract: "Jesse Ragan’s latest monospace. "
+tags:
+  - typography
 ---
 
 For more than a week I’ve had a tab open just for [Aglet Mono](https://xyztype.com/fonts/aglet_mono) from XYZ Type and I can’t seem close it. And in a world overrun by _ehhhhh_ lookin’ monospace fonts, I think this one stands up and has something new to say. It has all the oomph of FF Meta, and the rounded loveliness of Aglet Slab:

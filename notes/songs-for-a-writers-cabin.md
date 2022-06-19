@@ -3,12 +3,10 @@ layout: layouts/note.njk
 title: Songs for a Writer’s Cabin
 date: 2018-08-29 18:47:00 -07:00
 tags:
-  - personal
+  - music
 city: San Francisco
 country: California
-extract:
-  Pretty much everything I’ve ever published and every line of code I’ve ever
-  written has been typed whilst listening to this playlist.
+extract: Pretty much everything I’ve ever published and every line of code I’ve ever written has been typed whilst listening to this playlist.
 ---
 
 Cabin is my work buddy. My meditation buddy. My focus buddy. Cabin is a Spotify playlist that I’ve been adding songs to for a very long time now and it has almost ten hours of music to help me get work done.

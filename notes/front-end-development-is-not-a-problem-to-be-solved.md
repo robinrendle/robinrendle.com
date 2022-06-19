@@ -4,9 +4,9 @@ title: Front-end development is not a problem to be solved
 date: 2018-11-27 17:30:00 -08:00
 city: San Francisco
 country: California
-extract:
-  I think I finally figured out what upsets me when people talk about front-end
-  development.
+extract: I think I finally figured out what upsets me when people talk about front-end development.
+tags:
+  - websites
 ---
 
 Today we published something over on CSS-Tricks that I’ve been thinking about over the past year or so. A lot of folks tend to think that front-end development is a problem to be solved with tools, processes, or frameworks. [And I disagree](https://css-tricks.com/front-end-development-is-not-a-problem-to-be-solved/):

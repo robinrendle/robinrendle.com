@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: What writers really do when they write
 date: 2018-02-23 15:08:00 -08:00
 tags:
-  - link
+  - writing
 city: San Francisco
 country: California
 extract:

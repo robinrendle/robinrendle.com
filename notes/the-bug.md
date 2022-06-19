@@ -3,11 +3,8 @@ layout: layouts/note.njk
 title: The Bug
 date: 2013-12-13 14:27:00 -08:00
 tags:
-  - book
-extract:
-  Trying to keep the number of book recommendations to a minimum is difficult
-  when I keep stumbling over novels by Ellen Ullman. This time it’s The Bug, a story
-  about programming, information theory and obsession.
+  - books
+extract: Trying to keep the number of book recommendations to a minimum is difficult when I keep stumbling over novels by Ellen Ullman. This time it’s The Bug, a story about programming, information theory and obsession.
 update:
 city: Plymouth
 country: UK

@@ -5,6 +5,8 @@ date: 2020-09-04T16:13:19.545Z
 city: San Francisco
 country: California
 extract: And dealing with grief.
+tags:
+  - stories
 ---
 
 [Krissy Howard](https://allthatsinteresting.com/phone-of-the-wind):

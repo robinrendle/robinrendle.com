@@ -4,6 +4,8 @@ title: The Indie Web Hello
 date: 2016-07-24 00:34:00 -07:00
 Country: California
 City: San Francisco
+tags:
+  - typography
 ---
 
 <p>This week I’ve been thinking a lot about maps. It began with a website that&nbsp;<a href="http://www.100yearsofnps.com/">celebrates the National Parks Act of 1872</a>, which was&nbsp;signed by President&nbsp;Ulysees S. Grant.&nbsp;This was the act that established America’s&nbsp;public parks, and the website takes a glance at how&nbsp;this policy has adapted over the past century. But, somehow, this led me to the <a href="http://phenomena.nationalgeographic.com/2016/06/20/heres-why-national-parks-maps-are-some-of-the-best/">National Geographic</a>&nbsp;where Greg Miller writes about some of the beautiful (although often&nbsp;typographically strange)&nbsp;maps that are created by the National Park Service.</p>

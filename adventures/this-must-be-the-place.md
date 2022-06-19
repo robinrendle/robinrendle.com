@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: This must be the place
 date: 2019-10-19
+tags:
+  - typography
 ---
 
 Friends!

@@ -4,6 +4,8 @@ title: Hershey Fonts and the Letterform Archive
 date: 2016-07-19 00:42:00 -07:00
 City: San Francisco
 Country: California
+tags:
+  - typography
 ---
 
 <p>Amidst a cacophony of movement and noise I now find myself with a spare moment or two to collect my thoughts. I’m lounging on the terrace outside my new apartment, watching the sun set behind&nbsp;Sutro Tower and I’m trying to find some way to apologize for missing last week’s <em>Adventures</em>.</p>

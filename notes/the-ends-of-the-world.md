@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: The Ends of the World
 date: 2018-07-07 20:56:00 -07:00
 tags:
-  - book
+  - books
 city: Emeryville
 extract: "“Eventually humans will be living in a sustainable way.”"
 ---

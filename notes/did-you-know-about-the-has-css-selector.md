@@ -5,6 +5,8 @@ date: 2021-03-19T18:46:33.454Z
 city: San Francisco
 country: California
 extract: A fancy new parent selector that might be coming to CSS (eventually, maybe)
+tags:
+  - css
 ---
 
 Wrote this lil piece about the [:has selector](https://css-tricks.com/did-you-know-about-the-has-css-selector/):

@@ -5,6 +5,8 @@ date: 2019-04-18 05:36:00 -07:00
 city: Saltash
 country: Cornwall
 extract: "Punctuation and grammar be damned. "
+tags:
+  - writing
 ---
 
 [Dave gathered some thoughts around blogging](https://daverupert.com/2019/04/some-unsolicited-blogging-advice/) the other day and I agree with a lot of them but _especially_ this one:

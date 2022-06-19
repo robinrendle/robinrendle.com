@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Hyperobjects and the Black Triangle
 date: 2018-02-23
+tags:
+  - typography
 ---
 
 In his first week at SingleTrac, a video game company that made cult classics like Twisted Metal, Jay Barnson discovered what he called the “[black triangle](http://rampantgames.com/blog/?p=7745).” This is a way of describing problems that happen to be giant engineering infrastructure projects but they don’t tend to be all that impressive visually:

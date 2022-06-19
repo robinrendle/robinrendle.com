@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Working in Public
 date: 2018-10-14
+tags:
+  - typography
 ---
 
 I’ve been thinking a lot about [Future Fonts](https://www.futurefonts.xyz/browse) lately for some reason. If you’re unfamiliar, that’s the typeface shop that opened up about eight months ago. I think my fascination stems from the constant stream of updates I’m seeing from folks publishing their fonts on that platform and the wild contrast in visual styles between them.

@@ -6,7 +6,7 @@ country: California
 extract: Copy and paste all compliments.
 layout: layouts/note.njk
 tags:
-  - personal
+  - writing
 ---
 
 A couple of months back, [Craig](https://craigmod.com) mentioned in a video that he has a doc filled to the brim with snippets of text—nice words, compliments, and thanks that had been sent his way for his work. Whenever someone says something nice he just copy/pastes it into that doc.

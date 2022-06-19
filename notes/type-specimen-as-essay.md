@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: And the design behind Retail.
+tags:
+  - typography
 ---
 
 One thing I love about [Retail](https://ohnotype.co/fonts/retail) by OhNo Type Co. is that the type specimen is sort of like an essay. As you scroll through and see each of the designs for the bold, the thin, and the display styles, you also get a story about the design of the type family.

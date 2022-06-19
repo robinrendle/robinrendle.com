@@ -5,6 +5,8 @@ date: 2019-06-29 14:51:06
 city: San Francisco
 country: California
 extract: Software development is all wrong.
+tags:
+  - design
 ---
 
 In videogame design there’s the concept of ‘the loop’ – a pattern that a game has been designed around. You shoot, you drive, you jump. There’s a finite number of things you can do in a world, and the real videogame design magic is the order in which you let a player experiment with those mechanics. A game isn’t a good one if it has jumping, shooting, or driving, but instead it’s good if the order of those actions makes sense and is constantly surprising.

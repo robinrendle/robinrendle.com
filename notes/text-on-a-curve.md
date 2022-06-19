@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: Nick Sherman’s neat flickr group.
+tags:
+  - typography
 ---
 
 Nick Sherman’s flickr group called [Text on a Curve](https://www.flickr.com/groups/textonacurve/) is just neat as hell. And this example from Patricia is especially beautiful; [The Fan Safety Matches](https://www.flickr.com/photos/taffeta/4924587795/in/pool-textonacurve/).

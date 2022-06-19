@@ -5,6 +5,8 @@ date: 2021-05-22T17:57:40.033Z
 city: Oakland
 country: California
 extract: And the color of that blue.
+tags:
+  - personal
 ---
 
 Yesterday the sky was so very blue. It was the sort of day that’s impossible in England, a country where the blue is rare and on the occasion it does appear, it’s now faded somewhat to my eye. But just when I thought the color yesterday could not possibly improve here, that’s when a prolonged evening of dazzling colors crashed into one another and made a glorious mess everywhere. Evenings like this are yellowy-gold-explosion-blankets of color. A great fire-storm of orange and purples and yellows.

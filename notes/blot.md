@@ -5,6 +5,8 @@ date: 2020-09-20T23:53:20.591Z
 city: San Francisco
 country: California
 extract: A cute and simple blogging platform.
+tags:
+  - website
 ---
 
 [Blot](https://blot.im) makes me angry. It’s so painfully simple to make tiny websites, and the video there shows just how straightforward writing on the web can be instead of the rather blotted and clunky system that I’m working with today.

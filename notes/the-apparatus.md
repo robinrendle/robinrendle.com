@@ -6,7 +6,7 @@ city: San Francisco
 country: California
 extract: The other-thing that I one day hope to see.
 tags:
-  - personal
+  - justice
 ---
 
 Still enslaved to a white man, Frederick Douglass is climbing to the top of a hill. After some time he reaches the very top where he now has a vantage of the whole bay—beneath him the ships are rolling into the dock with piercing white sails, men are unloading the boats and setting up wagons in the town, and high above him the clouds are swaying back and forth in the currents; leaves attached to invisible, celestial branches.

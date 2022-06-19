@@ -5,6 +5,8 @@ date: 2019-02-03 11:49:00 -08:00
 extract: Talking down instead of talking up.
 city: San Francisco
 country: California
+tags:
+  - typography
 ---
 
 There’s a guy that’s famous for sliding into conversations between type folks when they’re having a discussion on Twitter. He’ll always break up the party with a “well actually” no matter what the topic happens to be or who it is that happens to be speaking. Even if this chap is interrupting and correcting the foremost expert in the field he’ll always find something snarky to point out.

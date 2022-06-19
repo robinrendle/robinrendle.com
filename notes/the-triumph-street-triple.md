@@ -5,6 +5,8 @@ date: 2018-04-13 23:22:00 -07:00
 extract: A new motorcycle, a new me.
 city: San Francisco
 country: California
+tags:
+  - personal
 ---
 
 Of all the things my father tried to introduce me to, only one thing has ever stuck. There was no David Bowie or Lou Reed LP, and there was no Scotland, Spain or trip to northern France that could seduce me. Neither was there a sip of cognac or shooting escapade where I could sit back and enjoy myself. All of those things bored me to tears as a kid. But there was something that loomed in the background I could never really ignore. No matter how hard I fought back I knew it was only a matter of time before I was bitten by “the bug” as he calls it.

@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Jack and the Magic Key
 date: 2018-07-07
+tags:
+  - typography
 ---
 
 It’s 2007: I’m sat in the kitchen watching a family friend and her four year old son talk to my mom. Over the course of a few minutes I notice how this kid, Jack, is starting to get bored; his eyes roll into the back of his head and all of his limbs begin to fidget independently of the host as if he’s possessed by the spirit of boredom itself.

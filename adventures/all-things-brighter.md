@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: All things brighter
 date: 2019-11-06
+tags:
+  - typography
 ---
 
 Friends! Comrades! Letterpress lovers!

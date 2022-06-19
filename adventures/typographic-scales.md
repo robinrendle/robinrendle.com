@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Typographic scales
 date: 2019-02-10
+tags:
+  - typography
 ---
 
 When young designers are introduced to typography the first thing they learn about are the typefaces: identifying serifs from sans, learning about the history behind which of them came first, etc. Shortly afterwards they probably start learning about grids, layout, and then – typographic scales.

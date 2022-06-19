@@ -5,6 +5,8 @@ date: 2019-04-27 11:40:00 -07:00
 extract: "“The history of web design can be seen as a set of tensions...”"
 city: San Francisco
 country: California
+tags:
+  - design
 ---
 
 Marcin Wichary has written yet another outstanding piece about how the team at Figma has redesigned [how they treat line-height and spacing](https://www.figma.com/blog/line-height-changes). But I can’t stop thinking about this bit where Marcin writes:

@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: "Typographic perambulations"
 date: 2018-02-22
+tags:
+  - typography
 ---
 
 There’s far too much to do. There are three websites to be built, a countless number of books on my shelf to be read, several drafts about CSS to publish and a secret project that didn’t exist until a flurry of text messages spurred the idea the other afternoon. It’s exciting and yet wildly daunting to find myself with so little time and energy and focus left over all of a sudden.

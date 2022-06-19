@@ -5,6 +5,8 @@ date: 2021-03-16T17:35:17.231Z
 city: San Francisco
 country: California
 extract: 1% better every day.
+tags:
+  - design
 ---
 
 Over on the Sentry blog I wrote about [how we shipped dark mode](https://blog.sentry.io/2021/03/16/building-dark-mode); what we did, what we struggled with, and ultimately why this was such a great project for our team and our design system:

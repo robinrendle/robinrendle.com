@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: object-fit and object-position
 date: 2016-02-21 12:57:00 -08:00
 tags:
-  - design
+  - css
 extract: A quick write up of my favourite CSS properties.
 city: Plymouth
 country: UK

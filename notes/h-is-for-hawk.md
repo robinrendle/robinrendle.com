@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: H Is for Hawk
 date: 2020-02-25 17:52:50
 tags:
-  - book
+  - books
 extract: I am late to the party.
 country: California
 city: San Francisco

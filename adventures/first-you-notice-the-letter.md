@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: First you notice the letter
 date: 2019-12-22
+tags:
+  - typography
 ---
 
 Friends! Pals! Comrades!

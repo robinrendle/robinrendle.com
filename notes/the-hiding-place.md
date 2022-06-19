@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: The Hiding Place
 date: 2019-12-08 10:00:49
 tags:
-  - book
+  - books
 extract: Robert McFarlane and the dangers of radioactive waste.
 country: California
 city: San Francisco

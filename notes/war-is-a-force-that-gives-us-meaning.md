@@ -5,6 +5,8 @@ date: 2020-07-05T16:05:43.752Z
 city: San Francisco
 country: California
 extract: Chris Hedges writes about the myth of war.
+tags:
+  - books
 ---
 
 “As long as we think abstractly,” writes Chris Hedges in his fantastic and heart-wrenching book _War is a force that gives us meaning_, “...as long as we find in patriotism and the exuberance of war our fulfillment [...] we will never discover who we are.” Every sentence of Hedges’s book is like this: punch after punch to the gut. In fact, the whole time I was reading his short book about war I felt that not a single sentence is wasted, almost everything is quotable.

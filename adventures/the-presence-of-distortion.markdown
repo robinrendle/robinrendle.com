@@ -4,6 +4,8 @@ title: The Presence of Distortion
 date: 2016-08-27 00:29:00 -07:00
 Country: California
 City: San Francisco
+tags:
+  - typography
 ---
 
 <p>Web typography is a fragile sport, and&nbsp;thanks to the swarm of devices and browsers, network conditions and disabilities, it can often feel overwhelming to set type on the web.&nbsp;<span style="font-size: 1em;">Earlier in the week <a href="https://medium.com/type-thursday/typography-is-fragile-c7e1d54a9d4b#.wmiww6epk">I talked with Thomas Jockin</a> about this feeling and&nbsp;specifically&nbsp;the differences between&nbsp;<em>networked</em> and <em>un-networked</em> texts.&nbsp;What happens to typography, I wondered aloud, when an unreliable&nbsp;network&nbsp;gets in between us and our readers?</span></p>

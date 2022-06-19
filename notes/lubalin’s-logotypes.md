@@ -5,6 +5,8 @@ date: 2020-05-23T16:28:10.141Z
 city: San Francisco
 country: California
 extract: A website dedicated to Herb Lubalin.
+tags:
+  - typography
 ---
 
 > Herb Lubalin and his studios created a vast number of logos over the years. In a career that spanned over 40 years, Lubalin easily created over a hundred marks. Some were corporate logos, some were for non-profits, some were merely tight lock-ups that could act as titles on books, or seen on ads. The range is pretty spectacular.

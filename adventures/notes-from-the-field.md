@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Notes from the Field
 date: 2019-01-26
+tags:
+  - typography
 ---
 
 Whilst many companies herd towards a similar aesthetic—the ever-so-slightly geometric letters and the rather [plain looking grotesques](https://ohnotype.co/blog/everybody-fall-in-line)—there’s something else going on in the typographic community.

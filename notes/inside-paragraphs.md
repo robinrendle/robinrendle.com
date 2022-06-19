@@ -3,7 +3,8 @@ layout: layouts/note.njk
 title: Inside Paragraphs
 date: 2014-02-15 16:34:00 -08:00
 tags:
-  - book
+  - books
+  - typography
 extract:
   "“Gutenberg considered the counter space, letter space, and line space. Every
   paragraph, whether written or printed, has these white spaces in it. But they don’t

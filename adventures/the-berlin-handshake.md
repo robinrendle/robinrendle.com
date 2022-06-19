@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The Berlin Handshake
 date: 2019-04-04
+tags:
+  - typography
 ---
 
 In Salman Rushdie’s luminous and musical novel _The Ground Beneath Her Feet_, our protagonist Ormus Cama is standing in a Bombay record store. He is seventeen years old and he has just met someone who will change his life forever, his future collaborator Vina Apsara. In a few short years he will ascend with her into unparalleled stardom when they move to England together and become the most famous musical act the world has ever seen.

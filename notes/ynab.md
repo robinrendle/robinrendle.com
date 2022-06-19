@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: You Need a Budget
 date: 2018-12-20 19:29:00 -08:00
 tags:
-  - personal
+  - money
 extract: An app for tracking your finances that actually makes a difference.
 city: San Francisco
 country: California

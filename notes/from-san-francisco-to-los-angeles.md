@@ -5,6 +5,9 @@ date: 2018-07-26 23:49:00 -07:00
 extract: You can see the climate crisis everywhere, in everything.
 city: San Francisco
 country: California
+tags:
+  - personal
+  - environment
 ---
 
 You can see the climate crisis everywhere, in everything.

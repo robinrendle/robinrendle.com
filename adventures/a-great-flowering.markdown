@@ -5,6 +5,8 @@ date: 2016-09-25 16:38:00 -07:00
 Country: California
 City: San Francisco
 bodyclass: adventures-blue
+tags:
+  - typography
 ---
 
 <p>Apple, Google, Microsoft and Adobe&nbsp;<a href="http://medium.com/@tiro/https-medium-com-tiro-introducing-opentype-variable-fonts-12ba6cd2369#.80ro6ha2q">introduced a new addition to the OpenType specification</a>&nbsp;earlier&nbsp;this month. It’s called “Font Variations” and it’s difficult to overhype such an announcement because it brings a host of welcome improvements just in reach of designers.</p>

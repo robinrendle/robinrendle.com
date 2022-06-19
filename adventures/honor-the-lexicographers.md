@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Honor the Lexicographers
 date: 2018-04-15
+tags:
+  - typography
 ---
 
 On Tuesday I headed over to a book store in the Haight for the launch of _[Dictionary Stories](http://www.dictionarystories.com)_, a peculiar little book by my pal Jez Burrows, and it just happens to be one of the most charming and joyous things I’ve ever read. In fact the book is overflowing with charm and I find myself thinking about it constantly.

@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Let’s talk about fonts
 date: 2018-04-17
+tags:
+  - typography
 ---
 
 This week I’m writing from England where I’m attempting to navigate the American visa application process without collapsing into a giant puddle of anxiety. But after thirty minutes in the embassy and a small, respectful fist bump with one of the security guards last Thursday I now have my visa in hand.

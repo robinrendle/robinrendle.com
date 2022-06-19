@@ -5,6 +5,8 @@ date: 2018-11-19 22:41:00 -08:00
 city: San Francisco
 country: California
 extract: Surprise! I blogged about CSS again. Sorry.
+tags:
+  - css
 ---
 
 Over on CSS-Tricks I’ve written a bit about [how we write CSS today at Gusto](https://css-tricks.com/why-cant-we-use-functional-css-and-regular-css-at-the-same-time/) and how I’ve been thinking about the whole “functional vs. regular CSS” debate. I apologize profusely in advance for all the nuance because here’s the thing: I think using both systems is actually what we need to write maintainable CSS.

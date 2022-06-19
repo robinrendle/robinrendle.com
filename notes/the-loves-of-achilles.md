@@ -5,6 +5,8 @@ date: 2021-04-07T06:18:09.771Z
 city: Oakland
 country: California
 extract: "The lost play of Sophocles. "
+tags:
+  - books
 ---
 
 Alberto Manguel in _The Library at Night_:

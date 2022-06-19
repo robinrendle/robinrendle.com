@@ -4,6 +4,8 @@ title: The Second Transatlantic Library
 date: 2016-10-18 18:19:00 -07:00
 Country: California
 City: San Francisco
+tags:
+  - typography
 ---
 
 <p>This week it <a href="https://twitter.com/vruba/status/786964172428816384">rained</a> in San Francisco. It’s been almost five months of unadulterated sunshine and so I’m a little wistful of England, where a week of summer would interrupt an otherwise casual storm that lasts all year. Besides the rain, these wistful reveries also flare up whenever my thoughts turn to the five thousand miles of American continent and Atlantic ocean that sit between my library and me; it must be said that I left my books behind in a hurry. I locked them up in a series of cardboard boxes and hurled them all into a storage container before I boarded a one way flight. Now, they lie dormant beneath the everlasting raincloud I think of as <em>England</em>.</p>

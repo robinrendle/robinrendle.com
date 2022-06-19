@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: What do you want to be when you grow up, kid?
 date: 2018-11-03
+tags:
+  - typography
 ---
 
 Typekit is no more. As the acquisition of the company back in 2011 implied, Typekit became more integrated with Adobe’s enormous galaxy of apps until it officially became [Adobe Fonts](https://fonts.adobe.com/) a short while ago.

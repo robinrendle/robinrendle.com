@@ -6,10 +6,12 @@
     <title>{{ title or metadata.title }}</title>
     {# <meta name="color-scheme" content="light dark"> #}
     <meta name="description" content="{{ description or metadata.description }}">
-<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     {# <link rel="stylesheet" href="{{ '/css/index.css' | url }}"> #}
     <style>
       :root {
+        --color-cream: #FAE8DA;
+        --color-text: #222; 
         --color-gray: #888;
         --space-5: 96px;
         --space-4: 48px;
@@ -17,16 +19,28 @@
         --space-2: 16px;
         --space-1: 8px;
         --font-size-small: 14px;
+        --monospace: ui-monospace, SFMono-Regular, monospace;
+        --sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
       }
 
-      img, iframe {
+      img, iframe, video, figure {
         max-width: 100%;
       }
 
       {# Dangit, Safari. This was so close to being cool. #}
       html { 
+        min-height: 100%;
         margin: 0;
         padding: 0;
+        border-top: 10px solid var(--color-cream);
+        border-bottom: 10px solid var(--color-cream);
+      }
+
+      @media screen and (min-width: 600px) {
+        html {
+          border-left: 20px solid var(--color-cream);
+          border-right: 20px solid var(--color-cream);
+        }
       }
 
       *, *:after, *:before {
@@ -34,11 +48,20 @@
       }
 
       body {
-        padding: 0 0 var(--space-5) 0;
+        padding: 20px 0 var(--space-5) 0;
         margin: 0;
-        font: clamp(1rem, 3vw, 1.2rem)/1.4 system-ui, sans-serif;
+        font: clamp(1rem, 3vw, 1.2rem)/1.4 var(--sans);
         width: min(95%, 50ch);
         margin-inline: auto;
+        color: var(--text);
+      }
+
+      body p {
+        hyphens: auto;
+        hyphenate-limit-chars: 6 3 3;
+        hyphenate-limit-lines: 2;
+        hyphenate-limit-last: always;
+        hyphenate-limit-zone: 8%;
       }
 
       h1 {
@@ -49,7 +72,12 @@
       blockquote {
         margin-left: 0;
         padding-left: var(--space-2);
-        border-left: 1px solid var(--color-gray);
+        border-left: 3px solid var(--color-cream);
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid var(--color-cream);
       }
 
       pre code {
@@ -88,9 +116,30 @@
         margin: 0;
       }
 
+      figure {
+        margin: 0;
+      }
+
       .notelist-date {
         font-size: 80%;
         color: var(--color-gray);
+      }
+
+      nav {
+        display: flex;
+        gap: var(--space-2);
+      }
+
+      .home-header {
+        margin-top: var(--space-3);
+      }
+
+      .home-header h1 {
+        margin: 0;
+      }
+      .home-header h2 {
+        margin-top: 0;
+        font-weight: 400;
       }
     </style>
     {# Note styles #}
@@ -120,7 +169,7 @@
 
       code[class*="language-"],
       pre[class*="language-"] {
-        font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+        font-family: var(--monospace);
         font-size: 14px;
         line-height: 1.375;
         direction: ltr;
@@ -285,9 +334,9 @@
 
       {# Code generated from markdown back ticks: `<html>` #}
       code {
-        font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+        font-family: var(--monospace);
         font-size: 14px;
-        background: rgba(224, 145, 66, 0.2);
+        background: var(--color-cream);
         padding: 2px 3px;
         border-radius: 3px;
       }
@@ -296,7 +345,7 @@
   <body>
     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #} 
     <nav>
-      <a href="/">Robin Rendle</a>
+      <a href="/">⬥</a>
       <a href="/about">About</a>
       <a href="/notes">Notes</a>
       <a href="/essays">Essays</a>

@@ -5,6 +5,8 @@ date: 2021-02-21T07:51:50.722Z
 city: San Francisco
 country: California
 extract: Point at things, say whoa, and elaborate.
+tags:
+  - personal
 ---
 
 Austin riffed on that bit I wrote about how [blogging is pointing at things and falling in love](https://buttondown.email/robinrendle/archive/8907d5a1-bc42-4a51-a1fb-19e0af6f40ec)—but!—he takes it one step further when he writes what [good writing is](https://austinkleon.com/2021/02/16/pointing-at-things/):

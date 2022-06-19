@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Building a UI Kit in Figma
 date: 2019-03-17 13:01:00 -07:00
 tags:
-  - design
+  - designsystems
 extract: A few notes on how we built the UI Kit at Gusto.
 city: San Francisco
 country: California

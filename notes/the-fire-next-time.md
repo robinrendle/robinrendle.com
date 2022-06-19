@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: The Fire Next Time
 date: 2017-08-27 13:05:00 -07:00
 tags:
-  - book
+  - books
 city: San Francisco
 country: California
 extract: Rambling notes on the collection of essays by James Baldwin

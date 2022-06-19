@@ -5,6 +5,8 @@ date: 2020-07-09T16:48:48.647Z
 city: San Francisco
 country: California
 extract: And seeing far too much of yourself in the work.
+tags:
+  - design
 ---
 
 Well, now there’s a hot take huh. But let me explain. I think one of my shortcomings when it comes to design is this: I always want to fix the problem. I want to have the perfect idea, the perfect design doc, ready to go and implement right this second. But wait...isn’t this what design is supposed to do, solve problems?

@@ -5,6 +5,8 @@ date: 2020-05-23T16:03:02.322Z
 city: San Francisco
 country: California
 extract: What if we combined multiple type families together?
+tags:
+  - typography
 ---
 
 There’s a lot of nifty things you can do with variable fonts. You can make [small design adjustments](https://css-tricks.com/dark-mode-and-variable-fonts/), or you can get a bunch of performance benefits..._kinda_. If you load a giant variable font with a ton of different axes then your users are going to have a bad time. But! Loading one font like Newzald.woff2 is likely going to be faster than loading Newzald-bold.woff2, Newzald-italic.woff2, Newzald-regular.woff2, etc. Lots of folks like [Mandy Michael](https://codepen.io/collection/XqRLMb/) have written a ton of stuff about this before so I won’t retread those thoughts.

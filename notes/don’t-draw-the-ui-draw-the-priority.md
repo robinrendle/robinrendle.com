@@ -5,6 +5,8 @@ date: 2020-09-02T15:23:35.851Z
 city: San Francisco
 country: California
 extract: And the work of design.
+tags:
+  - design
 ---
 
 Someone gave me some great feedback in the moments when I’m struggling with a design: “Don’t draw the UI, draw the priority instead.”

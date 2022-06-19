@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Morris Fuller Benton
 date: 2018-08-18
+tags:
+  - typography
 ---
 
 I have a draft of a thing that’s been sitting in a folder for several years. It’s unpublishable, unresearched, unfinished. But there’s something to it that makes me want to quit my job and run away up into the forests of northern California, renting a cabin somewhere along the way, in order to spend a whole year typing away at this thing and building a little shrine of a website around the idea.

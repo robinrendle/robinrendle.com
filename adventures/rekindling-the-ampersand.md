@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Rekindling the Ampersand
 date: 2019-10-06
+tags:
+  - typography
 ---
 
 Friends!

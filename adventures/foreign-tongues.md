@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The Secretary of Foreign Tongues
 date: 2018-05-20
+tags:
+  - typography
 ---
 
 I’m not sure if you have a favorite passage in the English language but I most certainly do, and it’s really the only parlor trick that I know. At a moment’s notice I can recite this bit of text and immediately become an unbearable 17th century Duke:

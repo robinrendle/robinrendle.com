@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Behold the Glorious FAQ
 date: 2020-03-04
+tags:
+  - typography
 ---
 
 The plan was nothing short of genius.

@@ -5,6 +5,8 @@ date: 2020-08-24T16:16:43.084Z
 city: San Francisco
 country: California
 extract: Henning Lederer’s fabulous animated covers
+tags:
+  - books
 ---
 
 This collection of [animated book covers](http://blog.presentandcorrect.com/cover-stars-2) from Henning Lederer is fascinating and delightful. This video that collects many of these covers is especially worth studying if you’re into animation:

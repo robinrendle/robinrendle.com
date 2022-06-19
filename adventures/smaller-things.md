@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Smaller Things
 date: 2019-07-01
+tags:
+  - typography
 ---
 
 Last year I was talking to an engineer on our team who was leaving for Google and I asked him over coffee: why? Not out of disrespect, or a Big Judgemental Why, I just wanted to know what he expected from the new gig.

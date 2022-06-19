@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: And a mid-life crisis.
+tags:
+  - environment
 ---
 
 Paul Ford describes [his climate mid-life crisis](https://www.wired.com/story/climate-change-economy-dot-com-bubble/):

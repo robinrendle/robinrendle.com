@@ -5,6 +5,8 @@ date: 2021-03-14T00:28:35.182Z
 city: Oakland
 country: California
 extract: I love RSS because of how it focuses my attention...
+tags:
+  - websites
 ---
 
 I love RSS because of how it focuses my attention on the right stuff: big, complex, and contradicting ideas that let you chew on them over extended periods of time. No one can jump into your timeline and hijack your focus or throw junk in front of you.

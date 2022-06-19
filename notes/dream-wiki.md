@@ -5,6 +5,8 @@ date: 2020-06-13T19:33:25.588Z
 city: San Francisco
 country: California
 extract: I have no idea what this is but I love it all the same.
+tags:
+  - websites
 ---
 
 I found out about [Dream Wiki](https://dreamwiki.sixey.es/welcome.dream/) through Kicks Condor’s [surreal blog](https://www.kickscondor.com/) and damn is this just what I meant about making websites _weird_. I have no idea who made this “GARDEN OF ASSOCIATIVE THOUGHT SLURRY COMBINED FIELD NOTES-CAREFULLY GROWN.” Just...what?

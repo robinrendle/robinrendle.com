@@ -5,6 +5,8 @@ date: 2021-03-08T16:57:51.233Z
 city: San Francisco
 country: California
 extract: Lucy and I chat about websites, writing, online dating, and Miss Piggy.
+tags:
+  - websites
 ---
 
 On the way down to California, my dearest [Lucy Bellwood](https://lucybellwood.com/) stopped by to have a fun, distanced chat about websites, online dating, science writing, and Miss Piggy. It’s the first episode in our dark-web-punk-rock podcast: [I’m Sorry, You’re Welcome](https://lucybellwood.com/websites-wobsites-wibsits/).

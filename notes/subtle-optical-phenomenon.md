@@ -5,6 +5,8 @@ date: 2020-06-12T21:13:16.207Z
 city: San Francisco
 country: California
 extract: Or, the Überstrahlung.
+tags:
+  - typography
 ---
 
 In a post I wrote a while back about [dark mode and variable fonts](https://css-tricks.com/dark-mode-and-variable-fonts/), Gerhard Großmann made this rather lovely comment:

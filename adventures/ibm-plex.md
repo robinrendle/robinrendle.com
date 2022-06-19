@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: IBM Plex
 date: 2018-11-21
+tags:
+  - typography
 ---
 
 Let’s take a look at [Plex](https://www.ibm.com/plex/), a new-ish type family by IBM that’s interesting for a host of reasons. The type specimen and website is the first thing to notice as it explores the abundance of styles which include mono, sans, and serif variants – but it does so in a rather bombastic and flashy way:

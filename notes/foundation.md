@@ -5,6 +5,8 @@ date: 2021-02-03T00:15:57.027Z
 city: San Francisco
 country: California
 extract: The Society of the Double Dagger returns!
+tags:
+  - writing
 ---
 
 Robin made a few adjustments to [The Society of the Double Dagger](https://society.robinsloan.com/) and the new format is great: he’s split up this newsletter into all sorts of micro-newsletters that you can pick and choose from. Not only that, but he’s also going to create a series of secret websites that adjoin each newsletter so we can dive into a subject more afterwards, with the blog post acting as a kind of footnote.

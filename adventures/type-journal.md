@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Type Journal
 date: 2018-08-12
+tags:
+  - typography
 ---
 
 The other day I stumbled upon [Type Journal](https://typejournal.ru/en/), a website “de­voted to type design, visu­al cul­ture and ty­po­graphy in the Rus­si­an-speak­ing world,” and this year they collected ten of their favorite [Cyrillic](https://en.wikipedia.org/wiki/Cyrillic_script) typefaces, bundling them all up into [a lovely little microsite](http://2017.typejournal.ru/):

@@ -5,6 +5,8 @@ date: 2020-09-05T18:03:26.105Z
 city: San Francisco
 country: California
 extract: And the art of doing small things.
+tags:
+  - videogames
 ---
 
 It begins with a crash; spiraling, hurtling, spinning, dragged in every direction at once. From inside the escape pod you look up and see through the small window at the top, back at the battleship, just at the very moment where it explodes into a million fragments. You brace yourself for the shockwave but it rattles the pod so violently that pieces of it tear off and start flying about. You watch one chunk of metal bounce off the walls like a tennis ball until it’s the last thing you remember.

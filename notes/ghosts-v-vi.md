@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Ghosts V–VI
 date: 2020-03-28 12:17:38
 tags:
-  - personal
+  - music
 extract: And treating music like a job.
 country: California
 city: San Francisco

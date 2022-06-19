@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Nostalgia
 date: 2018-03-10
+tags:
+  - typography
 ---
 
 Whenever I look at serifs of a certain kind I see them all as children of an era. Take, for example, the big chunky serifs that were popular for a flash in the 70s – a ton of popular letterforms back then chose big, chunky terminals and descenders to punctuate their style. And these letters were used so heavily in that period that now whenever I see anything even remotely like it I see a hint of nostalgia in them.

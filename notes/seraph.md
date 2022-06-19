@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Seraph
 date: 2020-04-11 09:10:38
 tags:
-  - fonts
+  - typography
 extract: A variable font family from Bernd Volmer.
 country: California
 city: San Francisco

@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: The Smallest Possible Bit
 date: 2018-12-28
+tags:
+  - typography
 ---
 
 I received this email the other day that brings up a thoroughly interesting question about typesetting and I reckon it would be neat to reply in public so that we can all talk about this stuff together:

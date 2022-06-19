@@ -5,6 +5,8 @@ date: 2020-08-29T04:53:52.821Z
 city: San Francisco
 country: California
 extract: And a micro-rant about styling on the web.
+tags:
+  - css
 ---
 
 Matthias Ott has made some notes about the upcoming [leading-trim CSS property](https://matthiasott.com/notes/the-thing-with-leading-in-css) which is the best intro I’ve read of this thing so far:

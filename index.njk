@@ -2,9 +2,80 @@
 layout: layouts/base.njk
 ---
 
-<h1>Allo! I’m Robin, a web designer, writer, cursed front-end developer, and satanic .woff enthusiast.</h1>
+<header class="home-header">
+<h1>Robin Rendle</h1>
+<h2>Writer, designer, cursed front-end developer, and satanic .woff enthusiast.</h1>
+</header>
 
-<h2>Newsletter</h2>
+<h3>Notes from the field</h3>
+
+<details>
+  <summary>Books</summary>
+  <ul>
+{%- for post in collections.books | reverse -%}
+  <li>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
+  </li>
+{%- endfor -%}
+</ul>
+</details>
+
+<details>
+  <summary>Typography</summary>
+  <ul>
+  {%- for post in collections.typography | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details> 
+
+<details>
+  <summary>Writing</summary>
+  <ul>
+  {%- for post in collections.writing | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details>
+
+<details>
+  <summary>Drama!</summary>
+  <ul>
+  {%- for post in collections.personal | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details>
+
+<details>
+  <summary>Design Systems</summary>
+  <ul>
+  {%- for post in collections.designsystems | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details>
+
+<details>
+  <summary>CSS</summary>
+  <ul>
+  {%- for post in collections.css | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details>
+
+
+<details>
+  <summary>Videogames</summary>
+  <ul>
+  {%- for post in collections.videogames | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details>
+
+<h3>Newsletter</h3>
 <p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
 
 <form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form astro-2WPH57EV">
@@ -13,9 +84,3 @@ layout: layouts/base.njk
     <input type="submit" value="Subscribe" class="astro-2WPH57EV">
   </div>
 </form>
-
-<h2>Notes</h2>
-
-{% set noteslist = collections.notes %}
-{% set noteslistCounter = collections.notes | length %}
-{% include "noteslist.njk" %}

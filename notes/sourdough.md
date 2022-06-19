@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Sourdough
 date: 2017-08-29 21:47:00 -07:00
 tags:
-  - book
+  - books
 city: San Francisco
 country: California
 extract: Robin Sloan’s new book is a precious thing.

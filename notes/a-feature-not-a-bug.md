@@ -5,6 +5,8 @@ date: 2020-07-10T18:33:55.011Z
 city: San Francisco
 country: California
 extract: The consequences of the federal aid program.
+tags:
+  - justice
 ---
 
 [Jamelle Bouie](https://www.nytimes.com/2020/07/10/opinion/trump-schools-reopening.html):

@@ -5,6 +5,8 @@ date: 2020-06-26T05:06:17.174Z
 city: San Francisco
 country: California
 extract: Rutger Bregman’s notes on a kinder future.
+tags:
+  - books
 ---
 
 Imagine a future made perfect. What would you fix? Think of all the ways our society could be made better, kinder. Well, I think the problem with all these wondrous futures and more perfect worlds is that they often make for not-so-lovely-books. Take _Sapiens_ by Yuval Noah Harari, for example. Everyone reveres that book (and in San Francisco especially as it was the only book anyone read for a year at the very least). Ultimately, I agree with [Jeremy’s notes](https://adactio.com/journal/14304) though.

@@ -5,14 +5,18 @@ date: 2021-07-12
 city: San Francisco
 country: California
 extract: Eek!
+tags:
+  - robinrendledotcom
 ---
 
 Well, moving everything over from Eleventy to Astro is a little trickier than I first imagined. I’ve spent the last two days moving content around, updating the frontmatter, learning about Astro’s approach to CSS. It certainly is liberating to write a bunch of CSS in a file and it be automatically scoped to the HTML in that same file, without it leaking out into other things.
 
 Like if I write...
 
-```
-body { background: red; }
+```css
+body {
+  background: red;
+}
 ```
 
 Then only the `<body>` element on that page will be red. That’s just neato.

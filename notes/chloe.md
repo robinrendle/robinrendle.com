@@ -4,11 +4,7 @@ title: Chloe
 date: 2014-07-10 18:24:00 -07:00
 tags:
   - personal
-extract:
-  I wanted to impress Chloe because thinking that she might be on the other
-  end of a long series of tubes and wires acknowledging my work and pointing me in
-  the right direction, that’s nothing short of inspiring. Her presence encouraged
-  me to write more eloquently, to sharpen my focus, and to try to return the favour.
+extract: I wanted to impress Chloe because thinking that she might be on the other end of a long series of tubes and wires acknowledging my work and pointing me in the right direction, that’s nothing short of inspiring. Her presence encouraged me to write more eloquently, to sharpen my focus, and to try to return the favour.
 update:
 city: Plymouth
 country: UK

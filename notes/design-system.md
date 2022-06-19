@@ -5,6 +5,8 @@ date: 2019-04-28 23:14:00 -07:00
 extract: And fighting for the middle ground.
 city: San Francisco
 country: California
+tags:
+  - designsystems
 ---
 
 I just re-read this piece from Ethan Marcotte [all about design systems](https://ethanmarcotte.com/wrote/design-system/) and how it’s kinda easy to forget that a system is really a collection of tools, and if those tools aren’t working then that’s a problem:

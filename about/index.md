@@ -7,7 +7,7 @@ title: About
 
 My name’s Robin, I’m a writer and web designer from the UK. Now I live in San Francisco where I do design at [Sentry](https://sentry.io). My work is always in the weird space between writing (blogging loudly), front-end development (bragging about how a website looks), and publishing (figuring out new ways to get words in front of people).
 
-```
+```html
 PSA: You can send compliments to robinjrendle@gmail.com if you wish
 ```
 
@@ -23,6 +23,6 @@ I’ve been working on this website since 2014 and I see it as a public office; 
 
 Once every couple of years I try to publish A Big Thing over in [/essays](/essays). This encourages me to work on longer writing projects than I’m typically used to. They often take weeks, months, years of research and thinking and being lazy about them and planning them out and designing them and then just winging it at all at the last second and hitting the big green publish button and hoping for the best. Some of them don’t really stand the test of time, some of them are pretty embarrassing, and some of them are the best things I’ve ever done. I’ll let you decide which is which.
 
-Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own. Typographically, everything is set in James Edmonson’s [Degular](https://ohnotype.co/fonts/degular). I like how wonky it is when you get up real close to it.
+Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own.
 
 Also, also! I tend to change the styles and typography of this website a lot, and sometimes multiple times a week. [Let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/), etc.

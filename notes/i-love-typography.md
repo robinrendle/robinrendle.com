@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: And their ever-so-good font catalogue.
+tags:
+  - typography
 ---
 
 For some daft reason I keep forgetting that you can buy fonts from [I Love Typography](https://fonts.ilovetypography.com/) now. They have [a growing catalogue](https://ilovetypography.com/2021/11/24/new-indie-foundries/) of foundries with buck wild designs and it’s worth coming back to see what just released.

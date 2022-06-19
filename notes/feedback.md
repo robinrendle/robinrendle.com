@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Feedback
 date: 2017-10-31 22:29:00 -07:00
 tags:
-  - personal
+  - design
 city: Denver
 country: "Colorado "
 extract: How do I become a great designer without becoming a giant asshole?

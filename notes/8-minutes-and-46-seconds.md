@@ -5,6 +5,8 @@ date: 2020-06-12T15:24:36.956Z
 city: San Francisco
 country: California
 extract: Dave Chappelle and the murder of George Floyd.
+tags:
+  - justice
 ---
 
 Dave Chappelle’s latest show on the murder of George Floyd, [8:46](https://www.youtube.com/watch?v=3tR6mKcBbT4):

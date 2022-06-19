@@ -5,6 +5,8 @@ date: 2020-07-31T15:55:38.176Z
 city: San Francisco
 country: California
 extract: I wonder if I can make a similar effect with SVG filters...
+tags:
+  - design
 ---
 
 For my birthday I played a game with some pals where, via Discord, we streamed one of us opening up Google Maps and walking to highschool via street view. It was extremely adorable and we started telling each other stories about these multi-year long walks; about our friends and families, how they changed over time, and how we were influenced by the geography of the place itself.

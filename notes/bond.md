@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Bond
 date: 2018-01-12 22:47:00 -08:00
 tags:
-  - personal
+  - talks
 city: San Francisco
 country: California
 ---

@@ -6,8 +6,7 @@ country: California
 extract: Just when I thought I was out...they pull me back in.
 layout: layouts/note.njk
 tags:
-  - design
-  - systems
+  - designsystems
   - storybook
   - figma
 ---

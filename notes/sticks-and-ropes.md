@@ -5,7 +5,7 @@ date: 2019-08-31 14:49:31
 city: San Francisco
 country: California
 tags:
-  - link
+  - videogames
 extract: Dave Rupert on the art of kindness.
 ---
 

@@ -6,7 +6,7 @@ city: San Francisco
 country: California
 extract: And why you can’t measure a design system.
 tags:
-  - design
+  - designsystems
 ---
 
 The other day I was talking to Jules about the 99% Invisible episode she’d [written about](https://julesforrest.com/the-anthropocene-reviewed). In that post, Jules excitedly quotes the episode with Hank Green where he says:

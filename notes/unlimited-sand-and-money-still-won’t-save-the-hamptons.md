@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: And empty mansions on the shore.
+tags:
+  - environment
 ---
 
 Here’s a great piece—wonderfully written and expertly illustrated with maps—about [how climate change is going to effect houses and beaches in the Hamptons](https://www.bloomberg.com/graphics/2021-hamptons-real-estate-beach-climate-proofing):

@@ -5,8 +5,6 @@ city: San Francisco
 country: California
 extract: Sweet, I must say, Christ.
 layout: layouts/note.njk
-tags:
-  - personal
 ---
 
 “So I sat there,” he said.

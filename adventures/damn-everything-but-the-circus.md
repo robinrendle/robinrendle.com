@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Damn everything but the circus
 date: 2019-09-05
+tags:
+  - typography
 ---
 
 Friends!

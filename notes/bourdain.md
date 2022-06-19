@@ -5,6 +5,8 @@ date: 2018-06-12 21:36:00 -07:00
 extract: Not a chef, barely even a cook, but a damn fine writer.
 city: San Francisco
 country: California
+tags:
+  - personal
 ---
 
 Over the past week a lot of friends have shared this story by Anthony Bourdain, supposedly his first published piece, called [Don’t Eat Before Reading This](https://www.newyorker.com/magazine/1999/04/19/dont-eat-before-reading-this) and in true Bourdainian style it’s lovely as all hell:

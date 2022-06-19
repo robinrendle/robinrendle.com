@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: Wrote a little thing for the CSS-Tricks newsletter.
+tags:
+  - webdesign
 ---
 
 For the CSS-Tricks newsletter, I wrote a bit about [all the weird browsers](https://css-tricks.com/newsletter/273-weird-browsers/) I’ve been seeing lately:

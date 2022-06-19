@@ -5,6 +5,8 @@ date: 2020-12-18T10:42:45.379Z
 city: San Francisco
 country: California
 extract: "Bury you heroes because they will disappoint you.  "
+tags:
+  - personal
 ---
 
 Borges was a racist. And Borges wrote beautiful things. The latter does not excuse the former but I struggle to live in a world where both of these things can be true. I've always struggled with it, in fact.

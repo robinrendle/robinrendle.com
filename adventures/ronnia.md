@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Ronnia
 date: 2018-02-02
+tags:
+  - typography
 ---
 
 There’s something about Ronnia that I completely adore. It’s a sans type family by [TypeTogether](https://www.type-together.com/) released in 2007 and it’s one of those times where I’ve stumbled upon something and then it’s sat patiently in an open tab for a couple of weeks. I find myself opening [the specimen website](https://www.type-together.com/ronnia-font) every couple of hours and just staring at it, longingly, and I’m not entirely certain why.

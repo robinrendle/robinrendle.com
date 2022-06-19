@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Blackletter type
 date: 2020-02-26
+tags:
+  - typography
 ---
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/affc2644-671a-4fce-b897-ea920d9572a6.JPEG)

@@ -3,11 +3,8 @@ layout: layouts/note.njk
 title: Isle of Dogs
 date: 2018-04-01 11:06:00 -07:00
 tags:
-  - personal
-extract:
-  All of the parts fit; the graphic design was outstanding, the music was lovely.
-  But most importantly, the characters all had motivations and narrative arcs and
-  all the things that I crave from a film.
+  - movies
+extract: All of the parts fit; the graphic design was outstanding, the music was lovely. But most importantly, the characters all had motivations and narrative arcs and all the things that I crave from a film.
 city: San Francisco
 country: California
 ---

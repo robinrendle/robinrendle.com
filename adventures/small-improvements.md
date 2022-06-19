@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: "Small improvements in the right direction"
 date: 2018-01-16
 tags:
-extract:
+  - typography
 ---
 
 There’s a tendency in web design circles to ditch the old in favor of the new: We’ll blow up the archives! We’ll cut loose all the legacy code! With a little bit of effort our work can feel fresh and exciting again! A new year, a clean slate, a _whole new thing_. Yet the more I work on the web, the more I recognize the benefits of tiny, iterative improvements.

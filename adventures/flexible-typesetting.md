@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Flexible Typesetting
 date: 2018-09-01
+tags:
+  - typography
 ---
 
 Genuine enthusiasm is hard to come by but especially when it comes to the web. As I sit here in this fabulously raucous café though, reading a real-life book about the web, I find myself cheering quietly to myself. And I can’t stop smiling.

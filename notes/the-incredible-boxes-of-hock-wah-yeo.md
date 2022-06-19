@@ -5,6 +5,8 @@ date: 2021-03-30T19:30:12.157Z
 city: San Francisco
 country: California
 extract: A fabulous piece about videogame box design.
+tags:
+  - videogames
 ---
 
 A fabulous piece about the videogame box design of Hock Wah Yeo. [Phil Salvador writes](https://obscuritory.com/essay/incredible-boxes-of-hock-wah-yeo/):

@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Reforma
 date: 2018-06-09
+tags:
+  - typography
 ---
 
 If ever there was an award for the type foundry with the best italics then Pampatype would be amongst the front runners. It might come as no surprise then that when I stumbled over a piece they’d written about a new type family designed for Argentina’s Universidad Nacional de Córdoba called [Reforma](https://pampatype.com/blog/reforma) (which is simply beautiful in every which way) I was especially excited to see the italics:

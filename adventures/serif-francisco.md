@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Serif Francisco
 date: 2018-03-18
+tags:
+  - typography
 ---
 
 ![](https://buttondown.s3.us-west-2.amazonaws.com/images/d6c0dffb-a87e-400a-a44c-28aa59e4cf18.jpg)

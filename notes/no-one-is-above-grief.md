@@ -5,6 +5,8 @@ date: 2020-07-28T15:00:21.916Z
 city: San Francisco
 country: California
 extract: Jon Lovett on the passing of John McCain.
+tags:
+  - writing
 ---
 
 I somehow stumbled upon a piece this morning called [_Mourning a Patriot Whose Politics You Hate_](https://crooked.com/articles/john-mccain-death-politics/) by Jon Lovett. It’s written just after the death of Senator John McCain in August of 2018 and it’s about how although Jon disagrees with everything about McCain’s politics, there’s a shred of hope to be found in that disagreement:

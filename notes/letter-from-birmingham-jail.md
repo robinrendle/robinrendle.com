@@ -5,6 +5,8 @@ date: 2020-07-08T04:00:17.891Z
 city: San Francisco
 country: California
 extract: A beautifully typeset version of Dr. Martin Luther King Jr.’s letter.
+tags:
+  - justice
 ---
 
 On April 16th, 1963, Martin Luther King Jr. wrote a letter from jail, where he was imprisoned for marching against segregation, and Jason Pamental made [a rather lovely typeset version](https://letterfromjail.com). In fact, [Jason’s newsletter](https://rwt.io/newsletter) is a constant wellspring of lovely typeset things.

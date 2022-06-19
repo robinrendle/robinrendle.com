@@ -5,6 +5,8 @@ date: 2021-05-05T14:58:42.882Z
 city: San Francisco
 country: California
 extract: A typeface designed by Charles Mazé.
+tags:
+  - typography
 ---
 
 [Mercure](https://www.abyme.net/catalogue/mercure/) looks bloody lovely. Not entirely sure what it is that I like about it, besides it’s obvious elegance and quietness. I adore the capital, Trojan-esque characters and the _shhhh_-ness of the text when in long, bookish columns.

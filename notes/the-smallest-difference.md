@@ -3,6 +3,8 @@ layout: layouts/note.njk
 title: The Smallest Difference
 date: 2019-11-12 20:38:04
 tags:
+  - designsystems
+  - typography
   - design
 extract: And the small wonder of OpenType fonts.
 country: California

@@ -4,10 +4,7 @@ title: The 2nd Trip to Portland
 date: 2018-09-28 17:45:00 -07:00
 city: San Francisco
 country: California
-extract:
-  "It’s just the right amount of time for you to admire the romance of flight
-  and the wonder that is unaccosted flight through American airspace without coming
-  to the conclusion that you’re stuck in a floating metal sky prison. "
+extract: "It’s just the right amount of time for you to admire the romance of flight and the wonder that is unaccosted flight through American airspace without coming to the conclusion that you’re stuck in a floating metal sky prison. "
 ---
 
 The flight from Portland to San Francisco is perfect. It’s just the right amount of time for you to admire the romance of flight and the wonder that is unaccosted flight through American airspace without coming to the conclusion that you’re stuck in a floating metal sky prison.

@@ -5,6 +5,8 @@ date: 2021-04-29T16:14:33.787Z
 city: Oakland
 country: California
 extract: And at just the right moment he looks at the camera.
+tags:
+  - personal
 ---
 
 A few months ago I couldn't stop looking at a photograph. It was taken at Fort Riley in Kansas around 1918 and shows an enormous, cavernous room stacked full of patients lying on beds; soldiers stricken with the Spanish Flu. Hats, masks, no phones. Doctors and nurses make their rounds.

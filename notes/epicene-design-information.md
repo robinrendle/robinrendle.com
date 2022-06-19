@@ -5,6 +5,8 @@ city: San Francisco
 country: California
 layout: layouts/note.njk
 extract: New fonts, new essay.
+tags:
+  - typography
 ---
 
 Bookmarking this post from Kris Sowersby all about his new type family, [Epicene](https://klim.co.nz/blog/epicene-design-information/):

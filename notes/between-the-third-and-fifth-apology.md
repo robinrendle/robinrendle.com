@@ -5,6 +5,8 @@ date: 2020-06-10T15:27:36.582Z
 city: San Francisco
 country: California
 extract: And starting therapy again.
+tags:
+  - personal
 ---
 
 “I’m sorry,” I repeat for the sixth or maybe even the seventh time. The bespectacled figure on the video tilts his head, looks up from his notes at me. Somewhere between the third and fifth apology I notice that he has all the discipline of timeless and inanimate matter; he doesn’t get uncomfortable no matter how paralyzing the silence becomes. But I must fill the space, because it’s me: “I am...uhhh...,” I laugh nervously. “...I’m extremely sorry.” I say once again, for good measure.

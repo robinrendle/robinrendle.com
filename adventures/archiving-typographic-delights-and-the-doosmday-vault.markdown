@@ -4,6 +4,8 @@ title: Archiving, Typographic Delights and the Doomsday Vault
 date: 2016-07-31 21:21:00 -07:00
 Country: California
 City: San Francisco
+tags:
+  - typography
 ---
 
 <p>This week my thoughts have been revolving around the topic of preservation and archiving thanks to an article by Rebecca Capua, a print conservation expert at the Metropolitan Museum of Art in New York. She wrote about <a href="http://www.metmuseum.org/blogs/now-at-the-met/2016/new-life-for-book-of-the-dead">the long journey to renovate the Ptolemaic galleries of Egyptian Art</a> and she goes on to describe her work in restoring <a href="http://www.metmuseum.org/art/collection/search/551786">the Book of the Dead of the Priest of Horus</a>.<br/>

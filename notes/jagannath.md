@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Jagannath
 date: 2018-04-23 21:11:00 -07:00
 tags:
-  - book
+  - books
 extract: Karin Tidbeck’s collection of stories is a haunting and eerie delight.
 city: San Francisco
 country: California

@@ -5,6 +5,8 @@ date: 2020-09-30T04:46:20.354Z
 city: San Francisco
 country: California
 extract: Just never let go.
+tags:
+  - personal
 ---
 
 I helped my quarantine pal move out of her apartment today. She’s leaving San Francisco and it was tough yada yada shut up. But as we're packing up her place, I start to make fun of her a bit. “Everything is a story, huh,” I said, pointing to a pencil that says ‘Huh’ on it. “What's the story behind this?” I point to a painting of a cat. “Or this?” I say, holding the last written note that her best friend would send her.

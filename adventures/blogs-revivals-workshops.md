@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: "Blogs, revivals, and workshops"
 date: 2018-01-16
+tags:
+  - typography
 ---
 
 This weekend I’ve updated the fonts on my blog like it’s 2009 and for this version I’ve chosen Commercial Type’s excellent [Caponi Display](https://commercialtype.com/catalog/caponi/caponi_display) and [Caponi Text](https://commercialtype.com/catalog/caponi/caponi_text) to replace David Jonathan Ross’ [Output](https://djr.com/output/) (which I still thoroughly adore and will most certainly forever live on as one of my favorite typefaces of all time).

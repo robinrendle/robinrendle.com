@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Planet Hearth
 date: 2020-04-04 13:03:03
 tags:
-  - personal
+  - music
 extract: The latest album from Calibre.
 country: California
 city: San Francisco

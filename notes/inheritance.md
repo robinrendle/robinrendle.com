@@ -5,6 +5,8 @@ date: 2021-02-27T18:30:10.060Z
 city: Oakland
 country: California
 extract: Donny Trương asks about the future of his website.
+tags:
+  - websites
 ---
 
 I imagine reading the blog of my grandmother: What did she do on her thirtieth birthday? How did she feel when she met my mom? What did she struggle with? Who did she love? What did her voice sound like?

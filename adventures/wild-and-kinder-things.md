@@ -2,6 +2,8 @@
 layout: layouts/note.njk
 title: Wild and Kinder Things
 date: 2018-02-19
+tags:
+  - typography
 ---
 
 Every so often I stumble upon a typeface that draws a loud and cartoonish gasp of excitement from me. It’s the sort of typeface that happens to be so weird that I spend hours scanning each and every letter and it’s the sort where I’ll keep finding something new that jolts me awake as if I’ve drunk one too many pints of coffee.

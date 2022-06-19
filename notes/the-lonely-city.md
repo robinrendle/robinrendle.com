@@ -5,6 +5,8 @@ date: 2020-06-13T19:21:09.597Z
 city: San Francisco
 country: California
 extract: And having failed to make contact.
+tags:
+  - books
 ---
 
 I’ve been struggling to read for quite some time as my focus can barely hold on long enough to grasp a paragraph or two. And this is only made worse by a crush; a few weeks ago I started flirting with someone that I’ve known for a decade (I’ve read everything she’s ever written) and so when we started talking she recommended a string of upsettingly lovely books to me.

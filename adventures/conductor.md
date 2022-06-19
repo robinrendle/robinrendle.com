@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: A short note on Conductor
 date: 2018-01-22
 tags:
-extract:
+  - typography
 ---
 
 There are fonts and then there are _fonts_.

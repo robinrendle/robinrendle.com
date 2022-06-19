@@ -5,6 +5,8 @@ date: 2019-07-13 11:23:11
 city: San Francisco
 country: California
 extract: I am a tough and confident boy.
+tags:
+  - personal
 ---
 
 I’m hurtling through Northern California up to Oregon. I want to see if I can travel alone out here and I have everything I need; a backpack, a motorcycle, a couple of t-shirts, a book. But do I have the confidence to charm my way through this place? Do I have what it takes to navigate and solve problems on the road? How long can I last out here on my own with no backup, no friends along for the ride? Can I stand the desolation of this place, too?
