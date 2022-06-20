@@ -30,6 +30,15 @@ layout: layouts/base.njk
 </details> 
 
 <details>
+  <summary>Design</summary>
+  <ul>
+  {%- for post in collections.design | reverse -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {%- endfor -%}
+  </ul>
+</details> 
+
+<details>
   <summary>Writing</summary>
   <ul>
   {%- for post in collections.writing | reverse -%}

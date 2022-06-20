@@ -2,8 +2,6 @@
 layout: layouts/note.njk
 title: Tahoe
 date: 2018-03-19 23:31:00 -07:00
-tags:
-  - personal
 extract: The lake was the darkest of greens.
 city: San Francisco
 country: California

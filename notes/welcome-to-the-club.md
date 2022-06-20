@@ -2,8 +2,6 @@
 layout: layouts/note.njk
 title: Welcome to the club
 date: 2014-11-23 06:39:00 -08:00
-tags:
-  - personal
 extract: Make a note of your favourite writers. Now, read their first names aloud.
 update:
 city: Plymouth

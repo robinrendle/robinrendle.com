@@ -2,8 +2,6 @@
 layout: layouts/note.njk
 title: Tourist
 date: 2014-11-15 16:34:00 -08:00
-tags:
-  - personal
 extract:
   For a while now I’ve been toying with a story. It’s a quick thought that
   stretched into an idea which might, maybe, perhaps, possibly turn into a BIG thing.

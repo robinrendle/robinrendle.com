@@ -6,7 +6,6 @@ country: California
 extract: We type like hell, and hope that the typing will make us heroes.
 layout: layouts/note.njk
 tags:
-  - work
   - design
 ---
 

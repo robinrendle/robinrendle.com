@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: Advice for a young systems designer
 date: 2018-04-08 19:05:00 -07:00
 tags:
-  - design
+  - designsystems
 city: San Francisco
 country: California
 extract: There are no heroes or parades for you in this line of work.
