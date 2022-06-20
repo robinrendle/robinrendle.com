@@ -27,6 +27,6 @@ That beautiful boy was a preposterous beast; towering above the herd and built l
 
 But goddamn is it a beautiful evening tonight, even with all the crying. Tonight is an evening of evenings. A worthy end for the boy of boys.
 
-He would have loved this place, this evening; the sun is rising over the hills, the air is crisp and warm. I know that he would stand at my window and glare at everyone on the street, not out of anger but out of friendship—there’s so many potential new friends right out there! Do you see them all! Do you see!
+He would have loved this place, this evening; the sun is rising over the hills, the air is crisp and warm. I know that he would stand at my window and glare at everyone on the street, not out of anger but out of friendship—there’s so many potential new friends right out there! Do you see them all!
 
-He would have loved this place, this evening; and so I must do his job of loving everything that much now. I must carry that burden of love and love and love it all the more.
+Do you see!

@@ -4,7 +4,7 @@ layout: layouts/base.njk
 
 <header class="home-header">
 <h1>Robin Rendle</h1>
-<h2>Writer, designer, cursed front-end developer, and satanic .woff enthusiast.</h1>
+<h2>Writer, designer, and satanic .woff enthusiast.</h1>
 </header>
 
 <h3>Notes from the field</h3>
@@ -12,12 +12,12 @@ layout: layouts/base.njk
 <details>
   <summary>Books</summary>
   <ul>
-{%- for post in collections.books | reverse -%}
-  <li>
-    <a href="{{ post.url }}">{{ post.data.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
+    {%- for post in collections.books | reverse -%}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </details>
 
 <details>

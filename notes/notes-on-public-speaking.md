@@ -4,7 +4,7 @@ title: Notes on public speaking
 date: 2013-09-24 14:01:00 -07:00
 tags:
   - talks
-extract: "Here are some quick fire notes I’ve been making over and over again at speaking events and larger conferences.  This isn’t a ‘I know better than you’ post – it’s simply a reminder for whenever I do my own talks. "
+extract: "Here are some quick fire notes I’ve been making over and over again at speaking events and larger conferences.  This isn’t a ‘I know better than you’ post – it’s simply a reminder for whenever I do my own talks."
 city: Nottingham
 country: UK
 ---

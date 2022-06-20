@@ -9,10 +9,28 @@
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     {# <link rel="stylesheet" href="{{ '/css/index.css' | url }}"> #}
     <style>
+      @font-face {
+        font-family: "GT Alpina";
+        src: url("/fonts/alpina/GT-Alpina-Standard-Regular.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "GT Alpina";
+        src: url("/fonts/alpina/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2");
+        font-style: italic;
+      }
+
+      @font-face {
+        font-family: "GT Alpina";
+        font-weight: 600;
+        src: url("/fonts/alpina/GT-Alpina-Standard-Bold.woff2") format("woff2");
+      }
+
       :root {
         --color-cream: #FAE8DA;
         --color-text: #222; 
         --color-gray: #888;
+        --color-link: #2e6f5e;
         --space-5: 96px;
         --space-4: 48px;
         --space-3: 24px;
@@ -21,13 +39,13 @@
         --font-size-small: 14px;
         --monospace: ui-monospace, SFMono-Regular, monospace;
         --sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
+        --serif: "GT Alpina", ui-serif, system-ui, serif;
       }
 
       img, iframe, video, figure {
         max-width: 100%;
       }
 
-      {# Dangit, Safari. This was so close to being cool. #}
       html { 
         min-height: 100%;
         margin: 0;
@@ -38,6 +56,8 @@
 
       @media screen and (min-width: 600px) {
         html {
+          border-top: 20px solid var(--color-cream);
+          border-bottom: 20px solid var(--color-cream);
           border-left: 20px solid var(--color-cream);
           border-right: 20px solid var(--color-cream);
         }
@@ -48,12 +68,11 @@
       }
 
       body {
-        padding: 20px 0 var(--space-5) 0;
+        padding: 0 0 var(--space-5) 0;
         margin: 0;
-        font: clamp(1rem, 3vw, 1.2rem)/1.4 var(--sans);
-        width: min(95%, 50ch);
-        margin-inline: auto;
+        font: clamp(1.2rem, 3vw, 1.4rem)/1.35 var(--serif);
         color: var(--text);
+        font-variant-numeric: oldstyle-nums;
       }
 
       body p {
@@ -64,15 +83,32 @@
         hyphenate-limit-zone: 8%;
       }
 
+      body a {
+        color: var(--color-link);
+      }
+
+      main {
+        width: min(95%, 50ch);
+        margin-inline: auto;
+        margin-top: var(--space-3);
+      }
+
       h1 {
         font-size: clamp(2rem, 3vw, 2.8rem);
+        line-height: 1.2;
+        font-feature-settings: "ss06";
+      }
+
+      h2 {
+        font-size: clamp(1.6rem, 2.4vw, 2rem);
         line-height: 1.2;
       }
 
       blockquote {
         margin-left: 0;
-        padding-left: var(--space-2);
-        border-left: 3px solid var(--color-cream);
+        padding-left: var(--space-3);
+        border-left: 2px solid var(--color-text);
+        font-style: italic;
       }
 
       hr {
@@ -125,21 +161,46 @@
         color: var(--color-gray);
       }
 
-      nav {
-        display: flex;
-        gap: var(--space-2);
+      .nav-wrapper {
+        border-bottom: 2px solid var(--color-cream);
       }
 
-      .home-header {
-        margin-top: var(--space-3);
+      nav {
+        width: min(95%, 50ch);
+        margin-inline: auto;
+        padding: 10px 0;
+        display: flex;
+        gap: var(--space-2);
+        text-align: center;
+        margin: 0 auto;
+        font-variant-caps: small-caps;
+        text-transform: lowercase;
+        font-weight: 400;
+        align-items: center;
+      }
+
+      nav a {
+        font-size: 18px;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a.nav-home {
+        color: var(--color-link);
+        font-size: 2rem;
       }
 
       .home-header h1 {
         margin: 0;
       }
+
       .home-header h2 {
         margin-top: 0;
         font-weight: 400;
+      }
+
+      summary:hover {
+        cursor: pointer;
       }
     </style>
     {# Note styles #}
@@ -344,18 +405,16 @@
   </head>
   <body>
     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #} 
-    <nav>
-      <a href="/">⬥</a>
-      <a href="/about">About</a>
-      <a href="/notes">Notes</a>
-      <a href="/essays">Essays</a>
-      <a href="/newsletter">Newsletter</a>
-      <a href="/adventures">Adventures</a>
-    </nav>
-    {# <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-    </header> #}
 
+    <div class="nav-wrapper">
+      <nav>
+        <a class="nav-home" href="/">⬥</a>
+        <a href="/about">About</a>
+        <a href="/notes">Notes</a>
+        <a href="/essays">Essays</a>
+        <a href="/newsletter">Newsletter</a>
+      </nav>
+    </div>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
