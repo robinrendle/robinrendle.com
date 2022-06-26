@@ -2,14 +2,9 @@
 layout: layouts/note.njk
 title: Dora
 date: 2017-12-18 00:25:00 -08:00
-tags:
-  - personal
 city: San Francisco
 country: "California "
-extract:
-  "As she moves on from Gusto I’ll be sure to miss Dora dearly but if she has
-  a motto that I can take to heart and apply to my work without her then it ought
-  to be this: care for, and question, everything."
+extract: "As she moves on from Gusto I’ll be sure to miss Dora dearly but if she has a motto that I can take to heart and apply to my work without her then it ought to be this: care for, and question, everything."
 ---
 
 This is just the sort of thing she would hate.

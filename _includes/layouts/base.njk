@@ -30,13 +30,14 @@
         --color-cream: #FAE8DA;
         --color-text: #222; 
         --color-gray: #888;
+        --color-border: #aaa;
         --color-link: #2e6f5e;
         --space-5: 96px;
         --space-4: 48px;
         --space-3: 24px;
         --space-2: 16px;
         --space-1: 8px;
-        --font-size-small: 14px;
+        --font-size-small: 16px;
         --monospace: ui-monospace, SFMono-Regular, monospace;
         --sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
         --serif: "GT Alpina", ui-serif, system-ui, serif;
@@ -56,10 +57,10 @@
 
       @media screen and (min-width: 600px) {
         html {
-          border-top: 20px solid var(--color-cream);
-          border-bottom: 20px solid var(--color-cream);
-          border-left: 20px solid var(--color-cream);
-          border-right: 20px solid var(--color-cream);
+          border-top: 10px solid var(--color-cream);
+          border-bottom: 10px solid var(--color-cream);
+          border-left: 10px solid var(--color-cream);
+          border-right: 10px solid var(--color-cream);
         }
       }
 
@@ -84,30 +85,37 @@
       }
 
       body a {
+        color: inherit;
+        text-decoration-color: var(--color-border);
+        transition: all .3s ease;
+      }
+
+      body a:hover {
         color: var(--color-link);
+        text-decoration-color: var(--color-link);
       }
 
       main {
         width: min(95%, 50ch);
         margin-inline: auto;
-        margin-top: var(--space-3);
+        margin-top: var(--space-4);
       }
 
       h1 {
-        font-size: clamp(2rem, 3vw, 2.8rem);
+        font-size: clamp(2rem, 3vw, 2.1rem);
         line-height: 1.2;
         font-feature-settings: "ss06";
       }
 
       h2 {
-        font-size: clamp(1.6rem, 2.4vw, 2rem);
+        font-size: clamp(1.6rem, 2.4vw, 1.8rem);
         line-height: 1.2;
       }
 
       blockquote {
         margin-left: 0;
         padding-left: var(--space-3);
-        border-left: 2px solid var(--color-text);
+        border-left: 2px solid var(--color-border);
         font-style: italic;
       }
 
@@ -400,6 +408,29 @@
         background: var(--color-cream);
         padding: 2px 3px;
         border-radius: 3px;
+      }
+    </style>
+    <style>
+      .about-img {
+        left: 50%;
+        margin-top: -50px;
+        margin-left: calc(-50vw); 
+        margin-right: -50vw;
+        max-width: calc(100vw);
+        position: relative;
+        right: 50%;
+        width: 100vw;
+      }
+      @media screen and (min-width: 600px) {
+        .about-img {
+          left: 50%;
+          margin-left: calc(-50vw + 10px); 
+          margin-right: -50vw;
+          max-width: calc(100vw - 20px);
+          position: relative;
+          right: 50%;
+          width: 100vw;
+        }
       }
     </style>
   </head>

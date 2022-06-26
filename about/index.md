@@ -3,7 +3,7 @@ layout: layouts/base
 title: About
 ---
 
-<img src="/images/me/robin-rendle.webp" alt="A photograph of me smiling at the camera, taken on a cold, sunny day on an outlook over the ocean. Plymouth, February 2022." />
+<img class="about-img" src="/images/me/robin-rendle.webp" alt="A photograph of me smiling at the camera, taken on a cold, sunny day on an outlook over the ocean. Plymouth, February 2022." />
 
 My name’s Robin, I’m a writer and web designer from the UK. Now I live in San Francisco where I do design at [Sentry](https://sentry.io). My work is always in the weird space between writing (blogging loudly), front-end development (bragging about how a website looks), and publishing (figuring out new ways to get words in front of people).
 

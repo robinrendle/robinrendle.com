@@ -2,8 +2,6 @@
 layout: layouts/note.njk
 title: Further than we’ve ever walked
 date: 2020-03-21 11:57:13
-tags:
-  - personal
 extract: “Absolutely halcyon days. Perfect.”
 country: California
 city: San Francisco
