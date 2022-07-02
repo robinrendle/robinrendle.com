@@ -17,10 +17,7 @@ city: Plymouth
 country: UK
 ---
 
-On returning home at the start of the Christmas holidays I found the [Arion
-Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition
-of _Moby Dick_ waiting for me. However, unlike the majority of other books, you
-cannot but instantly remark upon how special it is.
+On returning home at the start of the Christmas holidays I found the [Arion Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition of _Moby Dick_ waiting for me. However, unlike the majority of other books, you cannot but instantly remark upon how special it is.
 
 An unusual thing happened whilst I read it though. The story became, over time, somehow indivisible with the shape and format of its container. The way that pages creak as they’re turned, their thickness, the initials that sink into wide columns of text, they all blend deeply into the narrative. These individual pieces combine to give the book both graceful and savage characterizes, oozing with the memories of those horrifying and blood curling moments of man, ocean and beast. The fear of what lurks beneath those depths, but the simultaneous wonder of it too, is captured by the format, by the design. That complex emotional bombardment is further intensified by the hand carved illustrations and the weight of the object; the book feels as if it’s pushing back as you read it, and so I can’t help but think of Leon Weiseltier’s description of his own personal library here:
 
