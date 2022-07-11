@@ -30,7 +30,8 @@
         --color-cream: #FAE8DA;
         --color-text: #222; 
         --color-gray: #888;
-        --color-border: #aaa;
+        --color-border: #ccc;
+        --color-link-border: #222;
         --color-link: #2e6f5e;
         --space-5: 96px;
         --space-4: 48px;
@@ -41,6 +42,13 @@
         --monospace: ui-monospace, SFMono-Regular, monospace;
         --sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
         --serif: "GT Alpina", ui-serif, system-ui, serif;
+        --container-margin: 0 auto;
+      }
+
+      @media screen and (min-width: 750px) {
+        :root {
+          --container-margin: 0 0 0 100px;
+        }
       }
 
       img, iframe, video, figure {
@@ -86,7 +94,7 @@
 
       body a {
         color: inherit;
-        text-decoration-color: var(--color-border);
+        text-decoration-color: var(--color-link-border);
         transition: all .3s ease;
       }
 
@@ -97,8 +105,9 @@
 
       main {
         width: min(95%, 50ch);
-        margin-inline: auto;
+        margin: var(--container-margin);
         margin-top: var(--space-4);
+        padding: 0 5px;
       }
 
       h1 {
@@ -114,6 +123,7 @@
 
       blockquote {
         margin-left: 0;
+        margin-right: 0;
         padding-left: var(--space-3);
         border-left: 2px solid var(--color-border);
         font-style: italic;
@@ -175,7 +185,6 @@
 
       nav {
         width: min(95%, 50ch);
-        margin-inline: auto;
         padding: 10px 0;
         display: flex;
         gap: var(--space-2);
@@ -185,6 +194,7 @@
         text-transform: lowercase;
         font-weight: 400;
         align-items: center;
+        margin: var(--container-margin);
       }
 
       nav a {
@@ -210,6 +220,10 @@
       summary:hover {
         cursor: pointer;
       }
+
+      .direct-link {
+        display: none;
+      }
     </style>
     {# Note styles #}
     <style>
@@ -218,12 +232,16 @@
       }
       
       .note-meta {
-         font-size: var(--font-size-small);
+        font-size: var(--font-size-small);
         color: var(--color-gray);
       }
 
       .note-title {
         margin-bottom: 0;
+      }
+
+      .extract {
+        font-style: italic;
       }
     </style>
 

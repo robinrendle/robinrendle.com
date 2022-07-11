@@ -7,16 +7,17 @@
   <meta name="author" content="Robin Rendle" />
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="author" href="https://plus.google.com/104389809267012182640" />
-
-  <!-- Feed -->
   <link href="https://robinrendle.com/feed.xml" rel="alternate" type="application/atom+xml" />
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
 
-  <link rel="alternate icon" href="/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="/images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+
 
   <style>
     *, *:before, *:after { box-sizing: border-box; }
@@ -30,45 +31,119 @@
 
     :root {
       --font-family: "Hex Franklin", ui-sans-serif;
-      --frame-border: 3px solid black;
-      --frame-bg: rgba(255,255,255,0.85);
+      --body-bg: #eee;
+      --frame-border: 5px solid black;
+      --frame-bg: rgba(255,255,255,1);
       --frame-blur: blur(10px);
+      --color-text: #111;
       --color-subtext: #777;
       --space-1: 20px;
-      --font: clamp(1.2rem, 3vw, 1.35rem)/1.35 var(--font-family);
+      --font: clamp(1.4rem, 3vw, 1.4rem)/1.35 var(--font-family);
+      --frame-width: 100%;
+      --frame-max-width: 100%;
+      --frame-height: calc(100vh);
+      --noise: url('/images/noise.png');
+    }
+
+    @media screen and (min-width: 500px) {
+      :root {
+        --frame-max-width: 373px;
+        --frame-height: calc(100vh - 80px);
+      }
     }
 
     html, body { margin: 0; padding: 0; }
 
+    html {
+      height: -webkit-fill-available;
+    }
+
     body {
-      {# MAYBE A GRADIENT SHOULD GO HERE??? #}
-      background: #CCC;
+      background: var(--body-bg);
       font: var(--font);
+      position: relative;
+      color: var(--color-text);
+      overflow: hidden;
+      min-height: -webkit-fill-available;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+    }
+
+    @media screen and (min-width:500px) {
+      body {
+        padding-top: var(--space-1);
+        padding-left: var(--space-1);
+        padding-right: var(--space-1);
+        padding-bottom: var(--space-1);
+      }
     }
 
     .container {
       display: flex;
-      width: 100%;
+      width: calc(var(--frame-width) + 8px);
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
       overflow: scroll;
-      gap: var(--space-1);
+      scroll-snap-type: x mandatory;
+      gap: 5px;
+      margin: 0 0 0 -3px;
+      border: var(--frame-border);
+      background: black;
+      -ms-overflow-style: none;  
+      scrollbar-width: none;  
+    }
+
+    @media screen and (min-width:500px) {
+      .container {
+        max-width: var(--frame-max-width);
+        margin: 0 auto;
+      }
+    }
+
+    .container:after {
+      content: "";
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      opacity: 0.2;
+      background: url('/images/noise.png');
+    }
+
+    .container::-webkit-scrollbar { 
+      display: none;  
     }
 
     h1 {
       font-stretch: 1%;
-      font-size: clamp(2rem, 4.4vw, 4.4rem);
+      font-size: clamp(4rem, 6.4vw, 4.5rem);
       line-height: 0.9;
+      font-weight: 600;
       margin-top: 0;
+      margin-bottom: 100px;
     }
 
     .frame {
-      border: var(--frame-border);
-      max-width: 390px;
-      max-height: 844px;
-      height: 844px;
-      min-width: 390px;
+      scroll-snap-align: start;
       display: grid;
       place-items: center;
       position: relative;
+      min-width: var(--frame-width);
+      min-height: 100vh;
+      min-height: -webkit-fill-available;
+      {# height: calc(var(--frame-height) - 10px); #}
+      {# max-height: 844px; #}
+    }
+
+    @media screen and (min-width:500px) {
+      .container {
+        width: var(--frame-max-width);
+        margin: 0 auto;
+      }
     }
 
     .frame img {
@@ -96,6 +171,26 @@
       backdrop-filter: var(--frame-blur);  
     }
 
+    .frame-text-welcome {
+      display: grid;
+      place-items: center;
+      z-index: 3;
+      position: relative;
+      margin-top: 50%;
+      margin-bottom: auto;
+      width: 100%;
+      text-align: center;
+      padding: 0px 25px;
+      font-weight: 600;
+      font-size: 80%;
+      text-transform: uppercase;
+    }
+
+    .frame-text-welcome svg {
+      max-width: 100px;
+      margin: 0 auto 20px auto;
+    }
+
     .frame-text p {
       margin-top: 0;
     }
@@ -108,37 +203,89 @@
       margin: 0;
     }
 
+    blockquote p {
+      hyphens: auto;
+    }
+
     blockquote:after,
     blockquote:before {
+      opacity: 0.2;
       line-height: 0;
       display: block;
       font-size: 5em;
-      color: var(--color-subtext);
+      color: var(--color-text);
       position: absolute;
     }
 
     blockquote:before {
       content: "“";
-      top: 20px;
-      left: 20px;
+      top: 52px;
+      left: 15px;
     }
     
     blockquote:after {
       content: "”";
-      bottom: 20px;
+      bottom: 10px;
       right: 20px;
     }
 
     .meta {
       color: var(--color-subtext);
+      font-size: 90%;
     }
+
+    a {
+      color: inherit; 
+      transition: font-weight 0.3s ease;
+    }
+
+    a:hover {
+      font-weight: 900;
+    }
+
+    .input-email, .input-submit {
+      font-family: var(--font-family);
+      padding: 5px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .input-email {
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      height: 45px;
+    }
+
+    .input-submit {
+      background-color: #111;
+      color: white;
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+      height: 45px;
+      border: none;
+      border-radius: 3px;
+    }
+
+    .input-submit:hover {
+      cursor: pointer;
+    }
+
+    .center { text-align: center; }
   </style>
 </head>
-<body>
+<body style="background: linear-gradient(-139deg, #111 -6%, #999 100% );">
 {# ------------------------------ CONTAINER ------------------------------ #}
   <div class="container">
-
     <div class="frame">
+      <img src="/images/essays/shadows/0-final.webp" alt="" /> 
+      <div class="frame-text center">
+        <p>Scroll or swipe to begin</p>
+      </div>
+    </div>
+
+    <div class="frame frame-title">
       <img src="/images/essays/shadows/1.webp" alt="" /> 
       <div class="frame-text">
         <h1>In Praise of Shadows</h1>
@@ -175,171 +322,168 @@
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/6.webp" alt="" /> 
       <div class="frame-text">
         <p>I want photographs that have been truly and thoroughly dunked in shadow. But not just any ol’ shadow!</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/7.webp" alt="" /> 
       <div class="frame-text">
         <p>I want photographs that look like a deep and murky pond. I demand desaturation! Vignettes! Filmy darkness that covers light like a veil!</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/8.webp" alt="" /> 
       <div class="frame-text">
         <p>And so for years I’ve struggled taking murky-pond-pictures like the ones I admire.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/9.webp" alt="" /> 
       <div class="frame-text">
         <p>That is, until I picked up the FujiFilm X100V.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/10.webp" alt="" /> 
       <div class="frame-text">
         <p>But before we get into that, let’s take a step back.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/11.webp" alt="" /> 
       <div class="frame-text">
         <p>How would you describe the perfect camera? What do all cameras secretly hope to be?</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/12.webp" alt="" /> 
       <div class="frame-text">
         <p>Okay, first off: they should be compact...</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/13.webp" alt="" /> 
       <div class="frame-text">
         <p>&hellip;lightweight&hellip;</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/14.webp" alt="" /> 
       <div class="frame-text">
         <p>&hellip;and rugged as hell.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/15.webp" alt="" /> 
       <div class="frame-text">
         <p>Cameras should be indestructible! They’re not for sitting on shelves, looking cool, and gathering dust. Cameras are for throwing into backpacks and then hiking up mountains.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/16.webp" alt="" /> 
       <div class="frame-text">
-        <p>Next: a camera should always be ready to get to work at a moment’s notice. Tiny adjustments, viewing images, taking pictures, editing on the go, everything; lightning-fast. Faster-than-fast.</p>
+        <p>Next: a camera should always be ready at a moment’s notice. Tiny adjustments, viewing images, taking pictures, editing on the go, everything; lightning-fast. Faster-than-fast.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/17.webp" alt="" /> 
       <div class="frame-text">
         <p>Finally, the complexity of a camera should be hidden away. No one should be overwhelmed with dials, buttons, and settings. But each time we pick up a camera we should learn something new.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/18.webp" alt="" /> 
       <div class="frame-text">
         <p>(The difficulty of a camera should scale with us.)</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/19.webp" alt="" /> 
       <div class="frame-text">
-        <p>So: this is what the X100V is.</p>
-        <p>It’s the camera that every camera hopes to be; the Chosen One who was foretold in the Great Kodak Prophecy.</p>
+        <p>This is what the X100V is: it’s the camera that every camera hopes to be, The Chosen One who was foretold in the Great Kodak Prophecy.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/20.webp" alt="" /> 
       <div class="frame-text">
         <p>The build of it! The heft and potential in your hands! The way it’s always cold to the touch!</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/21.webp" alt="" /> 
       <div class="frame-text">
-        <p>And yet it never feels too precious or fragile to take off the shelf.</p>
-        <p>The X100V was custom built for hauling up mountains.</p>
+        <p>And yet it never feels too precious or fragile to take off the shelf: the X100V was custom built for hauling up mountains.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/22.webp" alt="" /> 
       <div class="frame-text">
         <p>Then, of course, there’s the photographs.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/23.webp" alt="" /> 
       <div class="frame-text">
         <p>Each picture has the FujiFilm look that’s hard to describe but even an amatuer like me can notice the gorgeous filmy sheen.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/24.webp" alt="" /> 
       <div class="frame-text">
-        <p>Not only that, but it’s lightning-in-a-bottle-fast. You never have to wait for a menu to load or for a glitch to work itself out because the camera is always go go go.</p>
+        <p>It’s also lightning-in-a-bottle-fast. You never have to wait for a menu to load or for a glitch to work itself out because the camera is always go go go.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/25.webp" alt="" /> 
       <div class="frame-text">
-        <p>But, most important of all: <strong>the shadows</strong>.</p>
-        <p>This thing captures shadows like it’s Bane, born in shadow, master of shadows.</p>
+        <p>But, most important of all: <strong>the shadows</strong>. This thing captures shadows like it’s Bane, born in shadow, master of shadows.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/26.webp" alt="" /> 
       <div class="frame-text">
         <p>What was a batch of random sticks and leaves just a moment ago—click!—is now a complex web of marvelous shadows.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/27.webp" alt="" /> 
       <div class="frame-text">
-        <p>The filmy gloss through the window, the light along the fence, the patchwork shapes warped across fabric&hellip;</p>
+        <p>The filmy gloss through the window, the light along the fence, the patchwork shapes warped across fabric.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/28.webp" alt="" /> 
       <div class="frame-text">
         <p>Look at everything I missed! Look at the shadows!</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/29.webp" alt="" /> 
       <div class="frame-text">
         <p>To put it simply: this camera is in constant shhhh mode.</p>
         <p>And through this constant shhhh-ing, it encourages you to perk up and look closely.</p>
@@ -347,51 +491,58 @@
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/30.webp" alt="" /> 
       <div class="frame-text">
-        <p>Yet despite the X100V being the best murky-pond-picture-taker of them all, this thing constantly shows me the limits of my skill.</p>
+        <p>Yet despite the X100V being the best murky-pond-picture-taker of them all, this camera constantly shows me the limits of my skill.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/31.webp" alt="" /> 
       <div class="frame-text">
-        <p>For example: I have no eye for a good crop or a good subject—and sweet heavens I have no idea where to put my feet. </p>
+        <p>For example: I have no eye for a good crop or a good subject and sweet heavens I have no idea where to put my feet. </p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/32.webp" alt="" /> 
       <div class="frame-text">
-        <p>But each day my eyes adjust; slowly, gradually, ever-so-incrementally, I’ve become alert to the shapes and colors and shadows nearby.</p>
+        <p>But each day my eyes adjust. Slowly, gradually, ever-so-incrementally, I’ve become alert to the shapes and colors and shadows nearby.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/33.webp" alt="" /> 
       <div class="frame-text">
         <p>On my morning walks I see how shadows climb up fences and gates or lazily stretch up along the sides of buildings&hellip;</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/34.webp" alt="" /> 
       <div class="frame-text">
-        <p>Then there’s the dark and solemn realms of foliage, trees, and hedges, each with their own private network 
-of shadows.</p>
+        <p>&hellip;and I’m more sensitive to hints of color now; oranges pushed up close to bright greens, the color wheel made visible.</p>
+      </div>
+    </div>
+
+
+    <div class="frame">
+      <img src="/images/essays/shadows/35.webp" alt="" /> 
+      <div class="frame-text">
+        <p>Then there’s the dark and solemn realms of foliage, trees, and hedges, each with their own private network of shadows.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/36.webp" alt="" /> 
       <div class="frame-text">
         <p>Lately I’ve noticed the shadows found in unusual places, too.</p>
-        <p>(Like those found inbetween the bones of prehistoric whales.)</p>
+        <p>(Like those inbetween the bones of prehistoric whales.)</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/37.webp" alt="" /> 
       <div class="frame-text">
         <p>Once the X100V shows you these things, it’s hard to ignore them. Nothing is just a tiny detail anymore.</p>
         <p>Everything is important.</p>
@@ -399,35 +550,35 @@ of shadows.</p>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/38.webp" alt="" /> 
       <div class="frame-text">
         <p>Which reminds me&hellip;</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/39.webp" alt="" /> 
       <div class="frame-text">
         <p>&hellip;many years ago I read an essay by Jun'ichirō Tanizaki called <strong>In Praise of Shadows</strong>.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/40.webp" alt="" /> 
       <div class="frame-text">
-        <p>Written in 1933, Tanizaki is obsessed with shadows; he argues that gold can only be seen clearly in a poorly lit room, and that food always tastes better in a dark and candle-lit restaurant.</p>
+        <p>Written in 1933, Tanizaki is obsessed with shadows; he argues that gold can only be seen clearly in a poorly lit room, and that food always tastes better in a candle-lit restaurant.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/41.webp" alt="" /> 
       <div class="frame-text">
         <p>Perhaps the best part of Tanazaki’s essay is when he argues against bright, overhead lighting and how it’s a curse upon humanity:</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/42.webp" alt="" /> 
       <div class="frame-text">
         <blockquote>
           <p>&hellip;the beauty of a Japanese room depends on a variation of shadows, heavy shadows against light shadows—it has nothing else.</p>
@@ -436,38 +587,37 @@ of shadows.</p>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/43.webp" alt="" /> 
       <div class="frame-text">
         <blockquote>
-          <p>Westerners are amazed at the simplicity of Japanese rooms, perceiving in them no more than ashen walls bereft of ornament. Their reaction is understandable, but it betrays a failure to comprehend the mystery of shadows.</p>
+          <p>Westerners are amazed at the simplicity of Japanese rooms, perceiving in them no more than ashen walls bereft of ornament [...] but it betrays a failure to comprehend the mystery of shadows.</p>
         </blockquote>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/44.webp" alt="" /> 
       <div class="frame-text">
         <p>Does this essay satisfy my inner weeb? Absolutely. Have I watched every episode of Naruto? Of course. But when I first read Tanizaki’s little rant about shadows, something about the world clicked for me, something that I hadn’t put into words before.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/45.webp" alt="" /> 
       <div class="frame-text">
-        <p>I noticed that shadows are unwelcome  everywhere; carelessly dismissed and discarded with overhead lighting.</p>
-        <p>The ambience be damned.</p>
+        <p>I noticed that shadows are unwelcome everywhere; they’re carelessly washed away, the ambience lost in all that fluorescent light.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/46.webp" alt="" /> 
       <div class="frame-text">
         <p>Here’s Tanizaki again:</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/47.webp" alt="" /> 
       <div class="frame-text">
         <blockquote>
           <p>So benumbed are we nowadays by electric lights that we have become utterly insensitive to the evils of excessive illumination.</p>
@@ -476,78 +626,77 @@ of shadows.</p>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/48.webp" alt="" /> 
       <div class="frame-text">
-        <p>The same can be said of photography, too!</p>
-        <p>We throw photos into Instagram or some other app and then turn the brightness and saturation up to eleven.</p>
+        <p>Now I’m not trying to make Tanizaki into some kind of heroic Shadow King, and we all need lights just to survive, but that bit about “excessive illumination” certainly applies to photography.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/49.webp" alt="" /> 
       <div class="frame-text">
-        <p>And thanks to this excessive illumination: no shadows, no mysteries.</p>
+        <p>We throw photos into Instagram or some other app and then turn the brightness and saturation up to eleven. Yet thanks to this excessive illumination: no shadows, no mysteries.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/50.webp" alt="" /> 
       <div class="frame-text">
-        <p>Perhaps this is why I’m annoyed by the little cameras on our phones; it feels like they’ve restricted my vision to what only the apps can see: bright, bright, bright!</p>
+        <p>Perhaps this is why I’m annoyed by the little cameras on our phones. It feels like they’ve restricted my vision to what only the apps can see: bright, bright, bright!</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/51.webp" alt="" /> 
       <div class="frame-text">
         <p>Hardware-wise, the cameras on our phones are spectacular though, and so we really don’t need to spend a bunch of money on a fancy camera. </p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/52.webp" alt="" /> 
       <div class="frame-text">
-        <p>But what I’m getting with the X100V is not more camera but less phone. I desperately need fewer distractions because I want to take a picture without thinking about how many likes I’ll get once I upload it. </p>
+        <p>However, what I’m getting with the X100V is not more camera but less phone. I desperately need fewer distractions because I want to take a picture without thinking about how many likes I’ll get once I upload it. </p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/53.webp" alt="" /> 
       <div class="frame-text">
-        <p>Separating the act of taking a picture from the process of publishing it makes all of this fun again to me. Since when photography and publishing are so close together (like on my phone) I’m listening to all the wrong incentives.</p>
+        <p>Separating the act of taking a picture from the process of publishing it makes all of this fun again because when photography and publishing are too close together (like on my phone) I’m paying attention to all the wrong incentives.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/54.webp" alt="" /> 
       <div class="frame-text">
-        <p>The difficulty of publishing photos from a camera like the X100V then is a feature and not a bug; the ~lack~ of social networktivity encourages me to take pictures I otherwise wouldn’t with all that peer pressure of likes and retweets, etc.</p>
+        <p>In fact, the difficulty of publishing photos from the X100V is a feature and not a bug. The lack of social networktivity encourages me to take pictures I otherwise wouldn’t with all that peer pressure of likes and retweets, etc.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/55.webp" alt="" /> 
       <div class="frame-text">
-        <p>That’s important because the more time spent thinking about the likes or retweets or whatevers of a photograph is less time spent praising the lights and the colors and the gosh darn shadows!</p>
+        <p>That’s important because the more time spent thinking about the likes or retweets of a photograph is less time spent praising the lights, colors, and shadows.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/56.webp" alt="" /> 
       <div class="frame-text">
-        <p>So there’s the excessive illumination of our phones—think tacky filters, bad lenses for low light and what not—but there’s also a kind of <strong>network excess</strong> with a phone, because the device is connected to every other person in the whole dang world.</p>
+        <p>So there’s the excessive illumination of our phones—think tacky filters, bad lenses for low light and what not—but there’s also a kind of <strong>network excess</strong> with a phone, because the device is connected to every other sentient being in the universe.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/57.webp" alt="" /> 
       <div class="frame-text">
-        <p>The X100V puts a healthy distance me and the infinite network of the world wide web. Oh and I’m saying this despite being a web designer, where I once believed that more internet was always a good thing.</p>
+        <p>The X100V puts a healthy distance me and all that. And I’m saying this despite being a web designer, where I once believed that more internet was always a good thing.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/58.webp" alt="" /> 
       <div class="frame-text">
         <p>So: screw the likes, the audience, and the art. I want pictures just for me.</p>
         <p>(Pictures with deep, beautiful shadows, etc. etc.)</p>
@@ -555,80 +704,128 @@ of shadows.</p>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/59.webp" alt="" /> 
       <div class="frame-text">
         <p>Because although this little machine hasn’t shown me how to take a good photograph&hellip;</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/60.webp" alt="" /> 
       <div class="frame-text">
         <p>(Yet.)</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/61.webp" alt="" /> 
       <div class="frame-text">
         <p>&hellip;the X100V has shown me something else: why we should stand still, catch our breath, and take a photograph in the first place.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/62.webp" alt="" /> 
       <div class="frame-text">
-        <p>However, most important of all, the X100V has also revealed this complex and strange world of shadows that we live in.</p>
+        <p>However, most important of all, the X100V has revealed this complex and strange world of shadows that we live in.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/63.webp" alt="" /> 
       <div class="frame-text">
         <p>And that, for me, is enough.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/64.webp" alt="" /> 
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/65.webp" alt="" /> 
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/66.webp" alt="" /> 
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/67.webp" alt="" /> 
       <div class="frame-text">
         <p>Sign up to my newsletter because blah blah you get it.
-        <input type="email"/>
-        <button>Sign up</button>
+
+        <form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form astro-2WPH57EV">
+          <div class="inputs astro-2WPH57EV">
+            <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="input-email" />
+            <input type="submit" value="Subscribe" class="input-submit">
+          </div>
+        </form>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/68.webp" alt="" /> 
       <div class="frame-text">
-        <p><a href="https://hex.xyz/HEX_Franklin/">Hex Franklin</a> is the typeface for this lil website and it was designed by Nick Sherman. There’s this great feature where no matter what weight you use, the letters are always the same width.</p>
-        <p>Neat, huh?</p>
+        <p><a href="https://hex.xyz/HEX_Franklin/">Hex Franklin</a> is the typeface for this lil website and it was designed by Nick Sherman. There’s this great feature where no matter what weight you use, the letters are <strong>always the same width</strong>. Neat, huh?</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/69.webp" alt="" /> 
       <div class="frame-text">
         <p>Now go away.</p>
       </div>
     </div>
 
     <div class="frame">
-      <img src="/images/essays/shadows/1.webp" alt="" /> 
+      <img src="/images/essays/shadows/70.webp" alt="" /> 
     </div>
-
   </div>
+
+  <script>
+    const container = document.querySelector('.container');
+    const emailInput = document.querySelector('.input-email');
+    const emailSubmit = document.querySelector('.input-submit');
+    const gradientValue = getComputedStyle(document.documentElement)
+    .getPropertyValue('--gradient');
+
+    function turnPageForward() {
+      container.scrollLeft = container.scrollLeft + 200;
+    }
+
+    function turnPageBack() {
+      container.scrollLeft = container.scrollLeft - 200;
+    }
+
+    document.addEventListener("click", (e) => {
+      if(e.clientX > window.innerWidth / 2) {
+        turnPageForward();
+      }
+
+      if(e.clientX < window.innerWidth / 2) {
+        turnPageBack();
+      }
+    });
+
+    emailInput.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+
+    emailSubmit.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (event.keyCode === 37) { 
+        e.preventDefault();
+        turnPageBack();
+      }
+      if ((event.keyCode === 39) || (event.keyCode === 32)) { 
+        e.preventDefault();
+        turnPageForward();
+      }
+    });
+  </script>
 </body>
 </html>

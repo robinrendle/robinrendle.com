@@ -3,7 +3,7 @@
   <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
     <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
 
-    <p>{{note.data.extract}}</p>
+    <p class="extract">{{note.data.extract}}</p>
     <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
   </li>
 {% endfor %}
