@@ -5,6 +5,8 @@ date: 2022-07-11
 city: San Francisco
 country: California
 extract: And a dev tool.
+tags:
+  - websites
 ---
 
 Whenever I open up DevTools and inspect a website I feel this overwhelming sense of lost potential. Here’s just one example: today I wanted to buy a pillow so I went to casper dot com, and saw this lovely animated gradient on a banner trying to sell me something. Interesting! I popped open Chrome’s DevTools to see how they were doing it with CSS and this is what I could see...

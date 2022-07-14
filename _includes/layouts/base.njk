@@ -112,7 +112,7 @@
 
       h1 {
         font-size: clamp(2rem, 3vw, 2.1rem);
-        line-height: 1.2;
+        line-height: 1;
         font-feature-settings: "ss06";
       }
 
@@ -432,22 +432,27 @@
       .about-img {
         left: 50%;
         margin-top: -50px;
-        margin-left: calc(-50vw); 
+        margin-left: -50vw; 
         margin-right: -50vw;
-        max-width: calc(100vw);
+        max-width: 100vw;
         position: relative;
         right: 50%;
         width: 100vw;
       }
       @media screen and (min-width: 600px) {
         .about-img {
-          left: 50%;
+          margin-right: 0;
           margin-left: calc(-50vw + 10px); 
-          margin-right: -50vw;
           max-width: calc(100vw - 20px);
-          position: relative;
-          right: 50%;
-          width: 100vw;
+        }
+      }
+      @media screen and (min-width: 760px) {
+        .about-img {
+          left: 0%;
+          margin-left: -105px; 
+          margin-right: 0;
+          right: 0%;
+          max-width: calc(100vw - 20px);
         }
       }
     </style>
