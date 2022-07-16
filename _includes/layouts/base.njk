@@ -63,7 +63,7 @@
 
       @media (prefers-color-scheme: dark) {
         :root {
-          --color-web-wrapper: white;
+          --color-web-wrapper: #555;
           --color-text: #bbb; 
           --color-heading: #fff;
           --color-gray: #888;
@@ -101,8 +101,8 @@
         min-height: 100%;
         margin: 0;
         padding: 0;
-        border-top: 10px solid var(--color-web-wrapper);
-        border-bottom: 10px solid var(--color-web-wrapper);
+        border-top: 0px solid var(--color-web-wrapper);
+        border-bottom: 0px solid var(--color-web-wrapper);
       }
 
       @media screen and (min-width: 600px) {
@@ -169,10 +169,9 @@
 
       .extract-text {
         hyphens: auto;
-      }
-
-      .extract-text:nth-child(2n + 2) {
-        {# font-weight: 800; #}
+        font-size: clamp(2.3rem, 6vw, 3.5rem);
+        text-decoration: none;
+        color: #ddd;
       }
 
       @media screen and (min-width: 500px) {
@@ -255,7 +254,13 @@
       }
 
       .nav-wrapper {
-        border-bottom: 2px solid var(--color-web-wrapper);
+        border-bottom: 1px solid var(--color-border);
+      }
+      
+      @media screen and (min-width: 600px) {
+        .nav-wrapper {
+          border-bottom: 2px solid var(--color-web-wrapper);
+        }
       }
 
       nav {
@@ -298,11 +303,6 @@
 
       .direct-link {
         display: none;
-      }
-
-      .extract-text {
-        font-size: 5vw;
-        text-decoration: none;
       }
     </style>
     {# Note styles #}
@@ -529,10 +529,13 @@
       @media screen and (min-width: 760px) {
         .about-img {
           left: 0%;
-          margin-left: -105px; 
+          {# margin-left: ;  #}
           margin-right: 0;
           right: 0%;
-          max-width: calc(100vw - 20px);
+          margin-left: 0;
+          margin-top: 0;
+          margin-right: 100px;
+          width: calc(100vw - 200px);
         }
       }
     </style>
