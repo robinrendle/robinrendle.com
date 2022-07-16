@@ -122,9 +122,15 @@
         background: var(--color-bg);
         padding: 0 0 var(--space-5) 0;
         margin: 0;
-        font: clamp(1.2rem, 3vw, 1.3rem)/1.37 var(--serif);
+        font: clamp(1.2rem, 3vw, 1.3rem)/1.2 var(--serif);
         color: var(--color-text);
         font-variant-numeric: oldstyle-nums;
+      }
+
+      @media screen and (min-width: 600px) {
+        body {
+          font: clamp(1.2rem, 3vw, 1.3rem)/1.37 var(--serif);
+        }
       }
 
       body p {
@@ -529,12 +535,11 @@
       @media screen and (min-width: 760px) {
         .about-img {
           left: 0%;
-          {# margin-left: ;  #}
           margin-right: 0;
           right: 0%;
           margin-left: 0;
           margin-top: 0;
-          margin-right: 100px;
+          {# margin-right: 100px; #}
           width: calc(100vw - 200px);
         }
       }
