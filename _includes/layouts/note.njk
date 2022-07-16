@@ -7,7 +7,11 @@ templateClass: tmpl-post
 
 
   <div class="note-meta">
-    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> / {{city}}, {{country}}
+    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> 
+
+    {% if city %}
+      / {{city}}, {{country}}
+    {% endif %}
   </div>
 </header>
 

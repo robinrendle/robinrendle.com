@@ -21,7 +21,7 @@ Big news! [Hot off the press](https://css-tricks.com/css-tricks-is-joining-digit
 
 I’ve already said goodbye in this week’s newsletter, but I think it’s the right time to celebrate CSS-Tricks and everything that Chris has done for the web community over the years. Because I can’t think of another website that I’ve grown up with that’s continued to be such an important part of my life.
 
-Whenever I’ve been stuck on a front-end problem or whenever I hit a snag with something, there is an almost 100% chance that Chris would’ve already written about the problem and the 18 different solutions to it. Or the answer would’ve been found in one of CSS-Tricks’ enormous and highly detailed guides. But solving my front-end problems has only been way way in which CSS-Tricks is important.
+Whenever I’ve been stuck on a front-end problem or whenever I hit a snag with something, there is an almost 100% chance that Chris would’ve already written about the problem and the 18 different solutions to it. Or the answer would’ve been found in one of CSS-Tricks’ enormous and highly detailed guides. But solving my front-end problems has only been one way in which CSS-Tricks is important.
 
 Chris has always been a mentor. Not just to me, but I think pretty much everyone working on the web these days. Not only is he fabulous writer that makes me mad with jealousy—to the point, funny, never taking the easy way out—Chris also showed me how to be a person on the internet. Don’t get into dumb fights. Treat people with respect. Kindness is the most important thing, etc. He built the team around CSS-Tricks and was always honorable, always did the right thing. If I ever end up running my own company or becoming a manager I’ll ask myself the same question every day:
 

@@ -4,7 +4,7 @@ title: A playground, a wellspring
 date: 2022-07-11
 city: San Francisco
 country: California
-extract: And a dev tool.
+extract: DevTools is a dead end.
 tags:
   - websites
 ---

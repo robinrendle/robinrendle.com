@@ -4,7 +4,7 @@ title: Getting the easy stuff right
 date: 2019-10-13 09:36:04
 city: San Francisco
 country: California
-extract: Scott Galloway’s secret to a happy life
+extract: The secret to a happy life.
 ---
 
 I’ve been following Scott Galloway’s work for the last couple of days; reading his excellent blog posts about [the collective madness of WeWork](https://www.profgalloway.com/wewtf) and how we should be [kinder than our parents](https://www.profgalloway.com/mueller-night-invasions), as well as watching his videos on how Amazon’s HQ2 was [nothing short of a fiasco](https://www.youtube.com/watch?v=3baKe4B3eyI) or [why startups have bonkers mission statements](https://www.youtube.com/watch?v=pqFnmhqReRM) that make little to no sense whatsoever.

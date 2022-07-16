@@ -3,7 +3,7 @@ title: An incoherent rant about design systems
 date: 2022-02-28T05:33:40.978Z
 city: San Francisco
 country: California
-extract: What your design system is and isn’t
+extract: What your design system is and isn’t.
 layout: layouts/note.njk
 tags:
   - designsystems

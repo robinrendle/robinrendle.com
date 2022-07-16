@@ -19,7 +19,7 @@ It’s so thin and fragile! My eyes refuse to read it at that size. But at large
 
 ![Now an example of both typefaces at a much larger size](/images/display-size.webp)
 
-Why? The answer is because typefaces have to be designed for a certain size or a range of sizes. So, in the past, whenever you’re setting text, you’d need to be careful picking the right font depending on whatever it was that you were designing. That’s why so many type families will have micro, text, book, display, and banner variants.
+Why? Typefaces have to be designed for a certain size or a range of sizes. So, in the past, whenever you’re setting text, you’d need to be careful picking the right font depending on whatever it was that you were designing. That’s why so many type families will have micro, text, book, display, and banner variants.
 
 It sure gets complicated, but having this flexibility is dead useful.
 

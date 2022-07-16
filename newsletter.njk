@@ -9,6 +9,15 @@ permalink: /newsletter/
 
 <h1>Newsletter</h1>
 
+<p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
+
+<form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form astro-2WPH57EV">
+  <div class="inputs astro-2WPH57EV">
+    <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="astro-2WPH57EV">
+    <input type="submit" value="Subscribe" class="astro-2WPH57EV">
+  </div>
+</form>
+
 <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for note in collections.newsletter | reverse %}
   <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">

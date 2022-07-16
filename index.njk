@@ -1,15 +1,15 @@
 ---
 layout: layouts/base.njk
+templateClass: full
 ---
 
-<header class="home-header">
-<h1>Robin Rendle</h1>
-<h2>Writer, designer, and satanic .woff enthusiast.</h1>
-</header>
+<div class="home-container">
+  {%- for post in collections.notes | reverse | head(30)  -%}
+    <a class="extract-text {{loop.index}}" href="{{ post.url }}">{{ post.data.extract }} </a>
+  {%- endfor -%}
+</div>
 
-<h3>Notes from the field</h3>
-
-<details>
+{# <details>
   <summary>Books</summary>
   <ul>
     {%- for post in collections.books | reverse -%}
@@ -100,4 +100,4 @@ layout: layouts/base.njk
     <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="astro-2WPH57EV">
     <input type="submit" value="Subscribe" class="astro-2WPH57EV">
   </div>
-</form>
+</form> #}

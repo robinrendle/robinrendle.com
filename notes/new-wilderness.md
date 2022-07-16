@@ -4,7 +4,7 @@ title: The New Wilderness
 date: 2019-06-14 00:02:12
 city: San Francisco
 country: California
-extract: The surveillance economy and the environment
+extract: The surveillance economy and the environment.
 ---
 
 Maciej Cegłowski on [why the surveillance economy should be dismantled by the government](http://idlewords.com/2019/06/the_new_wilderness.htm):

@@ -6,7 +6,7 @@ city: San Francisco
 tags:
   - blog
 country: California
-extract: This Memorial weekend I updated this very website to use the static site generator Eleventy and Netlify as the publishing process. Oh boy was it a dream.
+extract: Oh boy was it a dream.
 ---
 
 Facing a three day break over the Memorial Day weekend, it dawned on me: it was time to redesign this website. Not the visuals or design, as [I don’t believe in redesigning personal websites like that](/notes/blogging-and-atrophy). Instead, I needed to rethink how I publish writing and in the process I wanted to completely overhaul the technical underpinnings of it all.

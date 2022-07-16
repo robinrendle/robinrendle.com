@@ -7,7 +7,13 @@
     {# <meta name="color-scheme" content="light dark"> #}
     <meta name="description" content="{{ description or metadata.description }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
-    {# <link rel="stylesheet" href="{{ '/css/index.css' | url }}"> #}
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <style>
       @font-face {
         font-family: "GT Alpina";
@@ -26,13 +32,22 @@
         src: url("/fonts/alpina/GT-Alpina-Standard-Bold.woff2") format("woff2");
       }
 
+      @font-face {
+        font-family: "Hex Franklin";
+        src: url('/fonts/hex-franklin/hex-franklin-0.2.woff2') format("woff2");
+        font-weight: 1 999;
+        font-stretch: 0% 100%;
+      }
+
       :root {
-        --color-cream: #FAE8DA;
-        --color-text: #222; 
+        --color-web-wrapper: #000;
+        --color-text: #aaa; 
+        --color-heading: #fff;
         --color-gray: #888;
-        --color-border: #ccc;
-        --color-link-border: #222;
-        --color-link: #2e6f5e;
+        --color-border: #555;
+        --color-link-border: #666;
+        --color-link: #FFC227;
+        --color-bg: #111;
         --space-5: 96px;
         --space-4: 48px;
         --space-3: 24px;
@@ -40,9 +55,36 @@
         --space-1: 8px;
         --font-size-small: 16px;
         --monospace: ui-monospace, SFMono-Regular, monospace;
-        --sans: ui-sans-serif, system-ui, -apple-system, sans-serif;
+        --sans: "Hex Franklin", ui-sans-serif, system-ui, -apple-system, sans-serif;
         --serif: "GT Alpina", ui-serif, system-ui, serif;
         --container-margin: 0 auto;
+      }
+
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --color-web-wrapper: white;
+          --color-text: #bbb; 
+          --color-heading: #fff;
+          --color-gray: #888;
+          --color-border: #555;
+          --color-link-border: #666;
+          --color-link: #FFC227;
+          --color-bg: #111;
+        }
+      }
+
+      @media (prefers-color-scheme: light) {
+        :root {
+          --color-web-wrapper: #FFC227;
+          --color-text: #333; 
+          --color-heading: #111;
+          --color-gray: #888;
+          --color-border: #555;
+          --color-link-border: #ddd;
+          --color-link: #FFC227;
+          --color-bg: #fff;
+        }
       }
 
       @media screen and (min-width: 750px) {
@@ -59,16 +101,16 @@
         min-height: 100%;
         margin: 0;
         padding: 0;
-        border-top: 10px solid var(--color-cream);
-        border-bottom: 10px solid var(--color-cream);
+        border-top: 10px solid var(--color-web-wrapper);
+        border-bottom: 10px solid var(--color-web-wrapper);
       }
 
       @media screen and (min-width: 600px) {
         html {
-          border-top: 10px solid var(--color-cream);
-          border-bottom: 10px solid var(--color-cream);
-          border-left: 10px solid var(--color-cream);
-          border-right: 10px solid var(--color-cream);
+          border-top: 10px solid var(--color-web-wrapper);
+          border-bottom: 10px solid var(--color-web-wrapper);
+          border-left: 10px solid var(--color-web-wrapper);
+          border-right: 10px solid var(--color-web-wrapper);
         }
       }
 
@@ -77,10 +119,11 @@
       }
 
       body {
+        background: var(--color-bg);
         padding: 0 0 var(--space-5) 0;
         margin: 0;
-        font: clamp(1.2rem, 3vw, 1.3rem)/1.35 var(--serif);
-        color: var(--text);
+        font: clamp(1.2rem, 3vw, 1.3rem)/1.37 var(--serif);
+        color: var(--color-text);
         font-variant-numeric: oldstyle-nums;
       }
 
@@ -110,10 +153,42 @@
         padding: 0 5px;
       }
 
+      main.full {
+        width: 100%;
+        margin: 0;
+        padding: 20px 20px;
+      }
+
+      .home-container {
+        max-width: 100%;
+        font-family: var(--sans);
+        font-weight: 50;
+        font-stretch: 10%;
+        line-height: 1.2;
+      }
+
+      .extract-text {
+        hyphens: auto;
+      }
+
+      .extract-text:nth-child(2n + 2) {
+        {# font-weight: 800; #}
+      }
+
+      @media screen and (min-width: 500px) {
+        main {
+          padding: 0;
+        }
+      }
+
       h1 {
         font-size: clamp(2rem, 3vw, 2.1rem);
         line-height: 1;
         font-feature-settings: "ss06";
+      }
+
+      h1, h2, h3, h4 {
+        color: var(--color-heading);
       }
 
       h2 {
@@ -131,7 +206,7 @@
 
       hr {
         border: none;
-        border-top: 1px solid var(--color-cream);
+        border-top: 1px solid var(--color-web-wrapper);
       }
 
       pre code {
@@ -180,7 +255,7 @@
       }
 
       .nav-wrapper {
-        border-bottom: 2px solid var(--color-cream);
+        border-bottom: 2px solid var(--color-web-wrapper);
       }
 
       nav {
@@ -224,6 +299,11 @@
       .direct-link {
         display: none;
       }
+
+      .extract-text {
+        font-size: 5vw;
+        text-decoration: none;
+      }
     </style>
     {# Note styles #}
     <style>
@@ -237,7 +317,7 @@
       }
 
       .note-title {
-        margin-bottom: 0;
+        margin-bottom: 5px;
       }
 
       .extract {
