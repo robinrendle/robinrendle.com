@@ -7,6 +7,7 @@ country: California
 extract: Writing, aritificial intelligence, and divination.
 ---
 
+How is writing going to be affected by AI tools like [Sudowrite](https://www.sudowrite.com/)? Josh Dzieza has written this fabulous piece for the Verge called [The Great Fiction](https://www.theverge.com/c/23194235/ai-fiction-writing-amazon-kindle-sudowrite-jasper) of AI in hope of finding some answers. He tells the story of Jennifer Lepp, a fiction writer who uses these tools to help her crank out books faster:
 
 > Gradually, Lepp figured out how to steer the AI. She likened the process to divination. She had to edit and revise its output. But, even then, she found that it lightened the load of a job that, as much as she loved it, was mentally draining. She no longer ended each day struggling to summon the prose she needed to hit her target, exhausted. The words came easier.
 
