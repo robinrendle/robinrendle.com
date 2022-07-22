@@ -4,7 +4,7 @@ templateClass: full
 ---
 
 <div class="home-container">
-  {%- for post in collections.notes | reverse | head(30)  -%}
+  {%- for post in collections.notes | reverse | head(50)  -%}
     <a class="extract-text {{loop.index}}" href="{{ post.url }}">{{ post.data.extract }} </a>
   {%- endfor -%}
 </div>
