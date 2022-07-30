@@ -6,7 +6,7 @@
     <title>{{ title or metadata.title }}</title>
     {# <meta name="color-scheme" content="light dark"> #}
     <meta name="description" content="{{ description or metadata.description }}">
-    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
@@ -14,6 +14,7 @@
     <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
     <style>
       @font-face {
         font-family: "GT Alpina";
@@ -122,7 +123,7 @@
         background: var(--color-bg);
         padding: 0 0 var(--space-5) 0;
         margin: 0;
-        font: clamp(1.2rem, 3vw, 1.3rem)/1.2 var(--serif);
+        font: clamp(1.2rem, 3vw, 1.3rem)/1.35 var(--serif);
         color: var(--color-text);
         font-variant-numeric: oldstyle-nums;
       }
@@ -515,6 +516,9 @@
       }
     </style>
     <style>
+      .about-img.no-margin {
+        margin-top: 0;
+      }
       .about-img {
         left: 50%;
         margin-top: -50px;
