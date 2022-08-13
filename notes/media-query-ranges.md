@@ -7,9 +7,11 @@ country: California
 extract: A rant about CSS media queries.
 ---
 
-I was trawling the interweb the other night and I saw someone mention “ranged media queries.” My immediate thought was how dare anyone ship ranged media queries without consulting me first and my second thought was what the heck is that?
+I was trawling through the interweb the other night and I saw someone mention “ranged media queries.” My immediate thought was how dare anyone ship ranged media queries without consulting me and then my second thought was what the heck is that?
 
-Bramus has, of course, written an excellent piece already describing [what media query ranges are](https://www.bram.us/2021/10/26/media-queries-level-4-media-query-range-contexts/) but effectively they’re a kind of shorthand. So here’s an example of what we’d write today:
+Bramus has, of course, written an excellent piece already describing [what media query ranges are](https://www.bram.us/2021/10/26/media-queries-level-4-media-query-range-contexts/) but effectively they’re a kind of shorthand.
+
+So here’s an example of what we’d write today:
 
 ```css
 @media (min-width: 700px) {
@@ -29,14 +31,15 @@ When the browser window is larger than 700px the `div` will have a red backgroun
 }
 ```
 
-You can use mathematical operators to set the conditions which is a tiny bit nicer but it also means you can do something a bit more complicated, just like in Bramus’s example:
+How strange! Soon we’ll be able to use mathematical operators to set the conditions which is a tiny bit nicer but it also means you can do something a bit more complicated, just like in Bramus’s example:
 
 ```css
 @media (300px <= width <= 750px) {
+  /* styles go here */
 }
 ```
 
-What this’ll do is only turn these styles on in the range between 300px and 750px. That’s kinda neat! I’m not sure how often I’d need to do that because I only believe in writing mobile styles first and then adding `min-width` media queries progressively to support larger screens but this is a nice to have I suppose.
+What this’ll do is only turn these styles on in the range between 300px and 750px. That’s kinda neat! I’m not sure how often I’d need to do that because I only believe in writing mobile styles first and then adding `min-width` media queries progressively to support larger screens but this is definitely a nice to have.
 
 What I really want though is to be able to nest media queries because today I have to write this...
 
