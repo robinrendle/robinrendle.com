@@ -75,24 +75,16 @@
         }
       } #}
 
-      {# @media (prefers-color-scheme: light) { #}
-        :root {
-          --color-web-wrapper: #FFC227;
-          --color-text: #333; 
-          --color-heading: #111;
-          --color-gray: #888;
-          --color-border: #ccc;
-          --color-link-border: #ddd;
-          --color-link: #FFC227;
-          --color-bg: #fff;
-        }
-      {# } #}
-
-      {# @media screen and (min-width: 750px) {
-        :root {
-          --container-margin: 0 0 0 100px;
-        }
-      } #}
+      :root {
+        --color-web-wrapper: #FFC227;
+        --color-text: #333; 
+        --color-heading: #111;
+        --color-gray: #888;
+        --color-border: #ccc;
+        --color-link-border: #ddd;
+        --color-link: #FFC227;
+        --color-bg: #fff;
+      }
 
       img, iframe, video, figure {
         max-width: 100%;
@@ -195,12 +187,14 @@
       }
 
       h1 {
-        font-size: clamp(2rem, 3vw, 2.1rem);
+        font-size: clamp(1.8rem, 2vw, 2rem);
         line-height: 1.2;
         font-feature-settings: "ss06";
+        font-weight: 650;
       }
 
       h1, h2, h3, h4 {
+        font-family: var(--sans);
         color: var(--color-heading);
       }
 
@@ -251,21 +245,43 @@
         display: flex;
         flex-direction: column;
         margin-bottom: var(--space-3);
+        border-bottom: 1px solid var(--color-border);
+        padding-bottom: var(--space-3);
+      }
+
+      .notelist-item div {
+        width: 100%;
+      }
+
+      @media screen and (min-width: 700px) {
+        .notelist-item {
+          flex-direction: row-reverse;
+        }
       }
 
       .notelist-item p {
         margin: 0;
       }
 
-      figure {
-        margin: 0;
-      }
-
       .notelist-date {
         font-size: 80%;
         color: var(--color-gray);
+        flex-shrink: 0;
       }
 
+      @media screen and (min-width: 700px) {
+        .notelist-date {
+          margin-right: var(--space-3);
+          width: 100px;
+          position: relative;
+          padding-top: 3px;
+        }
+      }
+
+      figure {
+        margin: 0;
+      }
+    
       .nav-wrapper {
         background: var(--color-heading);
         color: white;
@@ -322,15 +338,23 @@
       .note-meta {
         font-size: var(--font-size-small);
         color: var(--color-gray);
+        font-family: var(--sans);
       }
 
       .note-title {
         margin-bottom: 5px;
       }
 
-      .extract {
-        font-style: italic;
+      .postlist-link {
+        font-family: var(--sans);
+        font-weight: 600;
+        font-size: clamp(1.3rem, 2vw, 1.4rem);
       }
+
+      .notelist-date {
+        font-family: var(--sans);
+      }
+
     </style>
 
     {# Code Styles #}
@@ -510,7 +534,7 @@
       {# Code generated from markdown back ticks: `<html>` #}
       code {
         font-family: var(--monospace);
-        font-size: 14px;
+        font-size: 16px;
         background: var(--color-cream);
         padding: 2px 3px;
         border-radius: 3px;
