@@ -23,7 +23,7 @@ Once every couple of years I try to publish A Big Thing over in [/essays](/essay
 
 Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own.
 
-## Typesetting
+### Typesetting
 
 [Hex Franklin](https://www.futurefonts.xyz/hex/hex-franklin) is what I use when I want to pack a punch, whilst [GT Alpina](https://www.grillitype.com/typeface/gt-alpina) is used for body copy and small headings. It’s cute and curious and excellent! Look at the ? and the lowercase a! Wondrous. You can download free trials from Grilli Type of [their entire font catalogue](https://www.grillitype.com/free-trial-fonts) and you should absolutely go do that.
 
