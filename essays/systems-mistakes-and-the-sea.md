@@ -6,5 +6,7 @@ city: San Francisco
 country: California
 footer: "Shipwreck off Nantucket (Wreck off Nantucket after a Storm)
 ca. 1860–61 William Bradford"
-extract: A note about design systems, boats, and hyperobjects.
+extract: This is the hyperobject.
+hero: /images/essays/home/systems.webp
+tags: featured
 ---

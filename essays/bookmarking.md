@@ -2,15 +2,14 @@
 layout: layouts/note.njk
 title: Bookmarking
 date: 2013-01-20
-tags:
-  - design
 extract: And traces of our reading.
 update: Designed by the author Joost Grootens, <cite><a href="http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all">I swear I use no art at all</a></cite> is a secret, work-in-progress love letter to book design. Borderline autobiographical in nature, the author revisits his notes and diagrams of the dozens of printed materials and thousands of pages he published over the years, each meticulously and elaborately detailed.
 city: Nottingham
 country: UK
+tags: unfeatured
 ---
 
-Designed by the author Joost Grootens, [_I swear I use no art at all_](http://thisispaper.com Joost-Grootens-I-swear-I-use-no-art-at-all) is a secret, work-in-progress love letter to book design. Borderline autobiographical in nature, the author revisits his notes and diagrams of the dozens of printed materials and thousands of pages he published over the years, each meticulously and elaborately detailed.
+Designed by the author Joost Grootens, [I swear I use no art at all](http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all) is a secret, work-in-progress love letter to book design. Borderline autobiographical in nature, the author revisits his notes and diagrams of the dozens of printed materials and thousands of pages he published over the years, each meticulously and elaborately detailed.
 
 The author also carefully outlines his design process whilst on the way exploring hidden patterns in the data. Yet before we can enjoy this particular book for ourselves, Grootens requires something of us. He asks only for a small contribution.
 

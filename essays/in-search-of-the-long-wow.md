@@ -4,11 +4,10 @@ title: In Search of the Long Wow
 date: 2016-04-08
 categories:
   - kindle
-extract:
-  Where was our literary and technological revolution? Where was the future
-  book?
+extract: Where was the future book?
 country: UK
 city: Plymouth
+tags: unfeatured
 ---
 
 If it’s possible to draw my life onto a timeline then every major event would be accompanied by a book. Although, despite what my shelves might tell you, I don’t hoard them.

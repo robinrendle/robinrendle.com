@@ -7,25 +7,40 @@ permalink: /essays/
   key: Archive
   order: 2 #}
 
-<h1>Essays</h1>
-
-
 {% set noteslist = collections.essays %}
 
-<ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-{% for note in collections.essays | reverse %}
-  <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
-    <div>
-    <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
-
-    <p class="extract">{{ note.data.extract }}</p>
-    </div>
-    <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
-    {# {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {% endfor %} #}
+<ol reversed class="essays" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+{% for note in collections.featured | reverse %}
+  <li class="essays-item essays-item-{{loop.index}}">
+    <a href="{{ note.url | url }}">
+      {% if note.data.hero %}
+        <img class="essays-item-img" src="{{note.data.hero}}" />
+      {% endif %}
+      <div class="essays-item-content">
+        <h2 class="essays-item-title">{{ note.data.title }}</h2>
+        <p class="extract">
+          {{ note.data.extract }}
+        </p>
+        {# <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time> #}
+      </div>
+    </a>
   </li>
 {% endfor %}
 </ol>
+
+<div class="cell-t80">
+  <h2>The Archive of Forbidden Essays</h2>
+
+  <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+  {% for note in collections.unfeatured | reverse %}
+    <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
+      <div>
+        <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
+        <p class="extract">{{note.data.extract}}</p>
+      </div>
+      <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
+    </li>
+  {% endfor %}
+  </ol>
+</div>
 

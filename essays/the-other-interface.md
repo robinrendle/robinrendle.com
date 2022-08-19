@@ -9,12 +9,10 @@ aside: |-
   - [CSS tools for massive websites](http://talks.webstock.org.nz/speakers/nicole-sullivan/css-tools-massive-websites/),  Nicole Sullivan, Webstock 2011
 
   *This post was originally published and edited by the fine folks at [Smashing Magazine](http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/) on August 2nd 2013.*
-extract:
-  The directories, files and partials, as well as all of the code and documentation
-  that makes up our front-end development system, is an interface. It’s high time
-  we started thinking about its usability – for the sake of developers and users alike.
+extract: Directories, files, and partials.
 city: Nottingham
 country: UK
+tags: unfeatured
 ---
 
 As front-end developers and designers, we’re constantly refining two interfaces simultaneously: one for visitors who load the website, the other for developers who have to tackle the code in the future, when adjustments or full-scale redesigns must be made. Yet we tend to assign the role of “user” to the first group, often forgetting that the code we write must work for developers in a similar way. We shouldn’t forget that developers are users, too.

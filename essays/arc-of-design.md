@@ -4,7 +4,8 @@ title: The Arc of Design
 date: 2020-07-24 09:00:00 -08:00
 city: San Francisco
 country: California
-extract: Do no harm. Make things clear. Show us the future.
+extract: Show us the future.
+tags: unfeatured
 ---
 
 In any videogame you’ll spot it right away. Equip an object like a grenade or a stone—anything you want to throw at an enemy—and you’ll see the arc: dotted lines reveal the path that the object will take through the air. Pretty much every game uses this visual trick for two reasons; first, because perceiving depth in a three-dimensional game is difficult (this is why Nintendo de-emphasized perfectly timed jumps in Mario 64 onwards and it’s why the two dimensional platformer Super Meat Boy requires near pixel-perfect timing). But second, this throwing-arc is important because, well…

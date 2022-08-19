@@ -2,7 +2,7 @@
 layout: layouts/note.njk
 title: Book design and emotional information
 date: 2011-09-21
-extract: The journey from reader to writer is a perilous one.
+extract: A perilous journey.
 update:
   Removing the book from its dusty place, I instantly recalled why I had forgotten
   it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness
@@ -10,6 +10,7 @@ update:
   the memory of its boring and conventional typesetting.
 city: Plymouth
 country: UK
+tags: unfeatured
 ---
 
 Removing the book from its dusty place, I instantly recalled why I had forgotten it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness and weight. My eyes glanced over its feeble, advertising stricken body and summoned the memory of its boring and conventional typesetting.
