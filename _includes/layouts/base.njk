@@ -363,6 +363,10 @@
         padding: 0;
         display: grid;
         gap: var(--space-2);
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        height: auto;
+        margin-top: -20px;
       }
 
       @media screen and (min-width: 600px){
@@ -393,7 +397,6 @@
       .essays-item {
         position: relative;
         border: 2px solid black;
-        min-height: 450px;
         transition: all .2s ease-in;
         border-radius: 3px;
       }
@@ -437,6 +440,7 @@
       .essays-item-img {
         object-fit: cover;
         height: 100%;
+        width: 100%;
       }
 
       .essays-item-title {
