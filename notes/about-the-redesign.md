@@ -21,7 +21,7 @@ I was also thinking about how a lot of homepages are kinda the same thing over a
 
 > (Emoji) Hi! My name is X and I work at Company B. I have previously worked at Organization C and Generic Tech Thing D.
 
-Many times over the years my website has falled into this same boring trap but there’s no room for mystery or strangeness or obfuscation! And considering I don’t need to make a single cent here on this website I can do things much more weirdly than I otherwise might. No introduction! No link to the newsletter! Just tiny extracts and quotes from the notes I’ve written lately.
+Many times over the years my website has fallen into this same boring trap but there’s no room for mystery or strangeness or obfuscation! And considering I don’t need to make a single cent here on this website I can do things much more weirdly than I otherwise might. No introduction! No link to the newsletter! Just tiny extracts and quotes from the notes I’ve written lately.
 
 I can definitely do something more visually interesting here though and push things much further typographically: What if I properly justify the text somehow? What if each line in this block were to be styled differently? etc. etc.
 
