@@ -1,7 +1,7 @@
 ---
 layout: layouts/note.njk
 title: Snark Pass
-date: 2022-08-21
+date: 2022-08-21 09:51:00
 city: San Francisco
 country: California
 extract: Getting in the way of a story well told.
