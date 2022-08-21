@@ -19,13 +19,13 @@ title: Test
 
 It will be seen that this mere _painstaking burrower and grub-worm_ of a poor devil of a Sub-Sub appears to have gone through the long Vaticans and street-stalls of the earth, picking up whatever random allusions to whales he could anyways find in any book whatsoever, sacred or profane.
 
-Therefore you must not, in every case at least, take the higgledy-piggledy whale statements, however authentic, **in these extracts**, for veritable gospel cetology. Far from it. As touching the ancient authors generally, as well as the poets here appearing, these extracts are solely valuable or entertaining, as affording a glancing bird’s eye view of what has been promiscuously said, thought, fancied, and sung of [Leviathan](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm), by many nations and generations, including our own.
-
 > “Here they saw such huge troops of whales, that they were forced to proceed with a great deal of caution for fear they should run their ship upon them.”
 
+Therefore you must not, in every case at least, take the higgledy-piggledy whale statements, however authentic, **in these extracts**, for veritable gospel cetology. Far from it. As touching the ancient authors generally, as well as the poets here appearing, these extracts are solely valuable or entertaining, as affording a glancing bird’s eye view of what has been promiscuously said, thought, fancied, and sung of [Leviathan](https://www.gutenberg.org/files/2701/2701-h/2701-h.htm), by many nations and generations, including our own.
+
 ```css
-.whale {
-  display: grid;
+.whale:after {
+  content: "🐋";
 }
 ```
 
@@ -40,7 +40,14 @@ Some leaning against the spiles; some seated upon the pier-heads; some looking o
   <figcaption>Shipwreck off Nantucket (Wreck off Nantucket after a Storm), ca. 1860–61, William Bradford</figcaption>
 </figure>
 
-The opposite wall of this entry was hung all over with a heathenish array of monstrous clubs and spears. Some were thickly set with glittering teeth resembling ivory saws; others were tufted with knots of human hair; and one was sickle-shaped, with a vast handle sweeping round like the segment made in the new-mown grass by a long-armed mower. You shuddered as you gazed, and wondered what monstrous cannibal and savage could ever have gone a death-harvesting with such a hacking, horrifying implement. Mixed with these were rusty old whaling lances and harpoons all broken and deformed.
+The opposite wall of this entry was hung all over with a heathenish array of monstrous clubs and spears. Some were thickly set with glittering teeth resembling ivory saws; others were tufted with knots of human hair; and one was sickle-shaped, with a vast handle sweeping round like the segment made in the new-mown grass by a long-armed mower.
+
+<figure class="about-img no-margin">
+  <img src="/images/boat.jpg" />
+  <figcaption>Shipwreck off Nantucket (Wreck off Nantucket after a Storm), ca. 1860–61, William Bradford</figcaption>
+</figure>
+
+You shuddered as you gazed, and wondered what monstrous cannibal and savage could ever have gone a death-harvesting with such a hacking, horrifying implement. Mixed with these were rusty old whaling lances and harpoons all broken and deformed.
 
 Some were storied weapons. With this once long lance, now wildly elbowed, fifty years ago did Nathan Swain kill fifteen whales between a sunrise and a sunset. And that harpoon—so like a corkscrew now—was flung in Javan seas, and run away with by a whale, years afterwards slain off the Cape of Blanco. The original iron entered nigh the tail, and, like a restless needle sojourning in the body of a man, travelled full forty feet, and at last was found imbedded in the hump.
 
