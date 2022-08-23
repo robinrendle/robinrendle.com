@@ -11,7 +11,7 @@ I missed this 2022 update for MD System and [this particularly lovely specimen w
 
 > MD System’s standard width is designed for running text and punchy titles alike. Its proportions are geared towards readability and an overall natural balance, rather than the rigid uniformity of many similar grotesque typefaces.
 
-I’ve used MD System only once before, in [an old essay](http://localhost:8080/essays/dartmoor-death-stranding-and-me/), and I loved the absolute heck out of it. I reckon the more condensed variants are my favorite for reasons I can’t explain though.
+I’ve used MD System only once before, in [an old essay](/essays/dartmoor-death-stranding-and-me/), and I loved the absolute heck out of it. I reckon the more condensed variants are my favorite for reasons I can’t explain though.
 
 But this is a heck of a website!
 
