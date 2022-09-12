@@ -4,7 +4,7 @@ title: Take Care of Your Blog
 date: 2022-09-11T10:25:14-07:00
 city: San Francisco
 country: California
-extract: Everything is worthy of your blog. Everything.
+extract: Everything is worthy of your blog.
 ---
 
 Someone asked me for advice about their career a while ago and even though I absolutely do not feel qualified enough to give advice to anyone about this, here goes nothin’:
