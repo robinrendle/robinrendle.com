@@ -9,6 +9,8 @@ permalink: /essays/
 
 {% set noteslist = collections.essays %}
 
+<h1>Essays</h1>
+
 <ol reversed class="essays" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for note in collections.featured | reverse %}
   <li class="essays-item essays-item-{{loop.index}}">
