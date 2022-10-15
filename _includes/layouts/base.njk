@@ -672,6 +672,9 @@
       .about-img.no-margin {
         margin-top: 0;
       }
+      .about-img img {
+        min-width: 100%;
+      }
       .about-img {
         left: 50%;
         margin-top: -50px;
@@ -695,6 +698,17 @@
         margin-bottom: 40px;
       }
     </style>
+
+    <script>
+      try {
+        if (document.referrer) {
+          const ref = new URL(document.referrer);
+          if (ref.host === 'news.ycombinator.com') {
+            window.location.href = 'https://google.com/';
+          }
+        }
+      } catch (e) { }
+    </script>
   </head>
   <body>
     {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #} 
