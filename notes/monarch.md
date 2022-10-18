@@ -1,7 +1,7 @@
 ---
 layout: layouts/note.njk
 title: Monarch
-date: 2022-10-10T16:47:00-07:00
+date: 2022-10-17T16:47:00-07:00
 city: San Francisco
 country: California
 extract: Perhaps he knew of things much worse.
