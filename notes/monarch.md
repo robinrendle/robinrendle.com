@@ -17,31 +17,6 @@ My great grandfather is in here somewhere though, I know it.
 
 </figure>
 
-<!--
-Maybe he’s the chap over there, three in from the top right. That guy stands proudly, angrily looking away from the camera. He has dark eyebrows, deep-set eyes, and a serious expression.
-
-<figure class="about-img no-margin">
-
-![A black and white picture of seventy captains in the British army sitting for a photograph in India, 1934](/images/monarch-2.png)
-
-</figure>
-
-Or maybe four down from him? This chap is much less serious but not much happier. No—his ears don’t fit with the rest of the Rendle clan. This can’t be my great grandfather.
-
-<figure class="about-img no-margin">
-
-![A black and white picture of seventy captains in the British army sitting for a photograph in India, 1934](/images/monarch-3.png)
-
-</figure>
-
-What about on the other side? This chap has a familiar lankiness to him, his suit ill-fitting, just like how suits don’t fit me. It’s hard to say whether he has a cheeky grin or whether he’s biting his lip but he looks uncomfortably Rendlish.
-
-<figure class="about-img no-margin">
-
-![A black and white picture of seventy captains in the British army sitting for a photograph in India, 1934](/images/monarch-4.png)
-
-</figure> -->
-
 I’ve always walked by this picture, framed proudly in my parents’ kitchen and there was always a dose of pride in it for me: _look, my family is a part of history_! But the more I look at this photograph the more it haunts me. At the very top of the picture, a caption notes that these men were all officers and, at the bottom, another note reads:
 
 _Rawalpindi, India, October 1934._
