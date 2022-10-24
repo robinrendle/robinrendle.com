@@ -13,7 +13,7 @@ I finally watched _Everything Everywhere All At Once_ last night and I have neve
 
 That reminded me of a question that Rutger Bregman asks in his book _Humankind_ that still haunts me months after reading it: what if we got the theory of human evolution all wrong? What if it wasn’t the survival of the fittest that made us into who we are and what if our intelligence wasn’t what helped us survive?
 
-There’s an interesting tale in the book about the souce of animal and human intelligence where studies have shown that when animals are domesticated they not only get fuzzier—think wild pig’s tails curling over generations or wolf hair fluffing up as they Poké-evolve into dogs—but when you select kindness in animal breeding, there’s another side affect: animals also become more intelligent.
+There’s an interesting tale in the book about the source of animal and human intelligence where studies have shown that when animals are domesticated they not only get fuzzier—think wild pig’s tails curling over generations or wolf hair fluffing up as they Poké-evolve into dogs—but when you select kindness in animal breeding, there’s another side affect: animals also become more intelligent.
 
 This implies that intelligence is a side-effect of kindness and not the other way round! If that’s true, then our smarts isn’t why we’re successful and intelligence is simply a biological afterthought.
 

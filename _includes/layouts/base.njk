@@ -116,6 +116,8 @@
       }
 
       body {
+        max-width: 100vw;
+        overflow-x: hidden;
         background: var(--color-bg);
         padding: 0 0 var(--space-5) 0;
         margin: 0;
@@ -233,6 +235,10 @@
         display: flex;
         margin: auto;
         height: 100%;
+      }
+
+      input {
+        font-family: "Hex Franklin";
       }
 
       input[type="email"] {
@@ -366,7 +372,7 @@
         padding: 0;
         display: grid;
         gap: var(--space-2);
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         position: relative;
         height: auto;
         margin-top: -20px;
@@ -388,12 +394,6 @@
       @media screen and (min-width: 1000px){
         .essays {
           grid-template-columns: 1fr 1fr 1fr;
-        }
-      }
-
-      @media screen and (min-width: 1350px){
-        .essays {
-          grid-template-columns: 1fr 1fr 1fr 1fr;
         }
       }
 
@@ -474,6 +474,75 @@
 
       abbr {
         font-variant: small-caps;
+      }
+
+      .title {
+        display: block;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -50vw;
+        margin-bottom: 10px;
+        max-width: 100vw;
+        margin-right: -50vw;
+        position: relative;
+        right: 50%;
+        width: 100vw;
+        height: auto;
+        font-stretch: 10%;
+        font-size: 43vw;
+        line-height: 0.8;
+        z-index: 999;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: -5px;
+        pointer-events: none;
+        margin-bottom: 100px;
+        margin-top: 10px;
+      }
+
+      @media screen and (min-width: 600px) {
+        .title {
+          margin-left: calc(-50vw + 5px);
+          max-width: calc(100vw - 10px);
+          margin-bottom: 100px;
+        }
+      }
+
+      .newsletter {
+        --color-link-border: #888;
+        background: #ddd;
+        padding: 30px;
+        border-radius: 4px;
+        transform: rotate(0.4deg);
+        margin-bottom: 40px;
+      }
+
+      .newsletter:nth-child(even) {
+        transform: rotate(-0.4deg);
+      }
+
+      .newsletter input[type="email"] {
+        border: none;
+        border-bottom: 1px solid #111;
+        background: transparent;
+        padding-left: 0;
+      }
+
+      .newsletter input[type="submit"] {
+        background: black;
+        border: none;
+        border-radius: 4px;
+        color: white;
+      }
+
+      .newsletter input[type="email"]:focus {
+        border-bottom: 3px solid #111;
+        padding-left: 5px;
+        transition: all .3s ease;
+      }
+
+      .newsletter p {
+        margin-top: 0;
       }
     </style>
 

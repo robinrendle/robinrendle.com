@@ -7,16 +7,59 @@ permalink: /newsletter/
   key: Archive
   order: 2 #}
 
-<h1>Newsletter</h1>
+<h1 class="title">Newsletter</h1>
 
-<p>Behold! My newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned.</p>
+<p>I have three newsletters because I live for drama.</p>
+  
+<div class="newsletter">
+  <p><em><a href="https://hownottomakeabook.com/">How Not To Make A Book</a></em> is a weekly newsletter where I document what I’ve learned and what I’ve screwed up along the way of making a physical book for the first time: <a href="https://buttondown.email/hownottomakeabook/archive/beware-the-sharpest-edge/">Prototypes!</a> <a href="https://buttondown.email/hownottomakeabook/archive/format-format-format/">Book sizes and formats!</a> <a href="https://buttondown.email/hownottomakeabook/archive/who-is-this-book-for-1565/">Audience anxiety!</a></p>
 
-<form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form astro-2WPH57EV">
-  <div class="inputs astro-2WPH57EV">
-    <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="astro-2WPH57EV">
-    <input type="submit" value="Subscribe" class="astro-2WPH57EV">
-  </div>
-</form>
+  <p>Check out the <a href="https://buttondown.email/hownottomakeabook/archive/">full archives</a> or sign up below for weekly updates:</p>
+
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/hownottomakeabook"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/hownottomakeabook', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <div class="inputs">
+      <input type="email" placeholder="Email address" name="email" id="bd-email" />
+      <input type="submit" value="Subscribe" /> 
+    </div>
+  </form>
+</div>
+
+<div class="newsletter">
+  <p><em><a href="https://buttondown.email/adventures/archive/">Adventures in Typography</a></em> is a newsletter about fonts sent infrequently. Topics include: calligraphy, lettering, display type, books about fonts, type specimens, neon lights, posters, morse code, stamps, literature, web design, and books about seeds.</p>
+
+  <p>Read the <a href="https://buttondown.email/adventures/archive/">archives</a> or sign up here:</p>
+
+
+  <form
+    action="https://buttondown.email/api/emails/embed-subscribe/hownottomakeabook"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.email/hownottomakeabook', 'popupwindow')"
+    class="embeddable-buttondown-form"
+  >
+    <div class="inputs">
+      <input type="email" placeholder="Email address" name="email" id="bd-email" />
+      <input type="submit" value="Subscribe" />
+    </div>
+  </form>
+</div>
+
+<div class="newsletter">
+  <p>My private newsletter—sent infrequently—about new things that I’m working on. Every so often it contains notes about web design and publishing things that I’m interested in, too. It’s eclectic, a little odd, and won’t always be about web design or fonts. You have been warned:</p>
+
+  <form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')" class="embeddable-buttondown-form astro-2WPH57EV">
+    <div class="inputs astro-2WPH57EV">
+      <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="astro-2WPH57EV">
+      <input type="submit" value="Subscribe" class="astro-2WPH57EV">
+    </div>
+  </form>
+</div>
 
 {# <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for note in collections.newsletter | reverse %}

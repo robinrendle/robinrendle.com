@@ -3,11 +3,7 @@ layout: layouts/base.njk
 permalink: /notes/
 ---
 
-{# eleventyNavigation:
-  key: Archive
-  order: 2 #}
-
-<h1>Notes</h1>
+<h1 class="title">Notes</h1>
 
 {% set noteslist = collections.notes %}
 {% include "noteslist.njk" %}

@@ -6,5 +6,5 @@ city: San Francisco
 country: California
 extract: And the skills we need.
 hero: /images/essays/home/futures.webp
-tags: featured
+tags: unfeatured
 ---
