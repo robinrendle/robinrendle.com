@@ -1,7 +1,7 @@
 ---
 layout: layouts/note.njk
 title: Novelist as a Vocation
-date: 2022-12-14T19:34:40-08:00
+date: 2022-12-14T19:34:40
 city: Mendocino
 country: California
 extract: And letting time pass over your work.
