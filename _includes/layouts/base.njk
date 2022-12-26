@@ -181,7 +181,8 @@
         transition: all .3s ease;
       }
 
-      .extract-text:hover {
+      .extract-text:hover,
+      .extract-text:focus {
         font-weight: 999;
         text-decoration: underline var(--color-link);
         color: var(--color-heading);
@@ -512,7 +513,7 @@
           margin-bottom: 100px;
         }
       }
-
+    
       .newsletter {
         --color-link-border: #888;
         background: #ddd;
@@ -538,6 +539,10 @@
         border: none;
         border-radius: 4px;
         color: white;
+      }
+
+      .newsletter input[type="submit"]:hover {
+        filter: url(#noise);
       }
 
       .newsletter input[type="email"]:focus {
@@ -771,6 +776,19 @@
         padding-left: 20px;
         margin-bottom: 40px;
       }
+
+      .title {
+	      filter: url(#noise);
+      }
+
+      .hidden-svg {
+        position: absolute;
+      }
+
+      .add-distortion {
+        filter: url(#noise);
+      }
+
     </style>
 
     <script>
@@ -799,5 +817,29 @@
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
+
+    <svg class="hover-svg">
+      <defs>
+        <filter id='noise' x='0%' y='0%' width='100%' height='100%'>
+          <feTurbulence baseFrequency="0.01 0.01" numOctaves="1" result="noise"  />
+			    <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="R">
+        </filter>
+      </defs>
+    </svg>
+    
+    <script> 
+      const links = document.querySelectorAll('a');
+
+      links.forEach(link => {
+        link.addEventListener("mouseenter", function (e) {
+          link.classList.add("add-distortion");
+        });
+
+        link.addEventListener("mouseleave", function (e) {
+          link.classList.remove("add-distortion");
+        });
+
+      });
+    </script>
   </body>
 </html>
