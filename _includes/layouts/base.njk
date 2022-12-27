@@ -798,6 +798,10 @@
         filter: url(#noise);
       }
 
+      .hover-svg {
+        position: absolute;
+      }
+
     </style>
 
     <script>
@@ -812,7 +816,14 @@
     </script>
   </head>
   <body>
-    {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #} 
+    <svg class="hover-svg">
+      <defs>
+        <filter id='noise' x='0%' y='0%' width='100%' height='100%'>
+          <feTurbulence baseFrequency="0.01 0.01" numOctaves="1" result="noise"  />
+			    <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="R">
+        </filter>
+      </defs>
+    </svg>
 
     <div class="nav-wrapper">
       <nav>
@@ -827,16 +838,7 @@
       {{ content | safe }}
     </main>
 
-    <svg class="hover-svg">
-      <defs>
-        <filter id='noise' x='0%' y='0%' width='100%' height='100%'>
-          <feTurbulence baseFrequency="0.01 0.01" numOctaves="1" result="noise"  />
-			    <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="R">
-        </filter>
-      </defs>
-    </svg>
-
-    <script> 
+    <script async> 
       const links = document.querySelectorAll('a');
 
       links.forEach(link => {
