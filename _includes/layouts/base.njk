@@ -444,7 +444,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        background: var(--color-link);
+        {# background: var(--color-link); #}
         opacity: 0.2;
         z-index: 3;
       }
@@ -794,12 +794,16 @@
         position: absolute;
       }
 
-      .add-distortion {
+      a:hover {
         filter: url(#noise);
       }
 
       .hover-svg {
         position: absolute;
+      }
+
+      .tmpl-post h2 {
+        margin-top: var(--space-4);
       }
 
     </style>
@@ -818,7 +822,7 @@
   <body>
     <svg class="hover-svg">
       <defs>
-        <filter id='noise' x='0%' y='0%' width='100%' height='100%'>
+        <filter id='noise' x='0%' y='0%' width='150%' height='150%'>
           <feTurbulence baseFrequency="0.01 0.01" numOctaves="1" result="noise"  />
 			    <feDisplacementMap in="SourceGraphic" in2="noise" scale="10" xChannelSelector="R" yChannelSelector="R">
         </filter>
@@ -837,20 +841,5 @@
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
       {{ content | safe }}
     </main>
-
-    <script async> 
-      const links = document.querySelectorAll('a');
-
-      links.forEach(link => {
-        link.addEventListener("mouseenter", function (e) {
-          link.classList.add("add-distortion");
-        });
-
-        link.addEventListener("mouseleave", function (e) {
-          link.classList.remove("add-distortion");
-        });
-
-      });
-    </script>
   </body>
 </html>
