@@ -219,6 +219,14 @@
         line-height: 1.2;
       }
 
+      h3 {
+        font-size: clamp(1.1rem, 2vw, 1.3rem);
+        line-height: 1.2;
+        margin-top: var(--space-4);
+        color: var(--color-border);
+      }
+
+
       blockquote {
         margin-left: 0;
         margin-right: 0;
@@ -789,16 +797,13 @@
       .title {
 	      filter: url(#noise);
       }
-
-      .hidden-svg {
-        position: absolute;
-      }
-
+      
       a:hover {
         filter: url(#noise);
       }
 
       .hover-svg {
+        pointer-events: none;
         position: absolute;
       }
 
