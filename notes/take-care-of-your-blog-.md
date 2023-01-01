@@ -11,7 +11,7 @@ Someone asked me for advice about their career a while ago and even though I abs
 
 Blog!
 
-Blog your heart! Blog about something you’ve learned, blog about something you’re interested in. Blog about cameras or HTML or that one browser bug you’ve noticed this morning or blog about the sky above you right this very second. How many clouds are up there? Blog about your annoying kids and your fucked up relationship and blog about that terrifying time when you went to the beach with some people you weren’t really friends with and you got drunk and then it got real dark and you didn’t have a tent so you slept on a sand dune all night long.
+Blog your heart out! Blog about something you’ve learned, blog about something you’re interested in. Blog about cameras or HTML or that one browser bug you’ve noticed this morning or blog about the sky above you right this very second. How many clouds are up there? Blog about your annoying kids and your fucked up relationship and blog about that terrifying time when you went to the beach with some people you weren’t really friends with and you got drunk and then it got real dark and you didn’t have a tent so you slept on a sand dune all night long.
 
 I say again to ye: just blog!
 
