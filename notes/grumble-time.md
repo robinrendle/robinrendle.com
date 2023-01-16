@@ -11,7 +11,7 @@ It’s hard to be a person this morning. I find myself tired and angry, unsure o
 
 I usually burst into the apartment and start ranting at my fiancé: _Did you hear about the Fall of Constantinople and how the Ottoman Empire [dragged their boats onto land](https://www.flickr.com/photos/distan/5023033060) and lifted them over the hills to then drop them into the Golden Horn???_
 
-But not today. I’m just mopey, I guess. A phased-out, turned-off sort of feeling with a headache off in far the distance; apathy has got its nasty grip on me.
+But not today. I’m just mopey, I guess. A phased-out, turned-off sort of feeling with a headache off far in the distance; apathy has got its nasty grip on me.
 
 Today I am the preface to _Delight_ by J.B. Priestley:
 
