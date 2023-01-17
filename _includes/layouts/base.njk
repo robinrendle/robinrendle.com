@@ -306,12 +306,11 @@
       }
 
       nav {
-        width: min(95%, 52ch);
+        width: min(95%, 48ch);
         padding: 10px 0;
         display: flex;
         gap: var(--space-2);
         text-align: center;
-        margin: 0 auto;
         font-variant-caps: small-caps;
         text-transform: lowercase;
         font-weight: 400;
@@ -320,12 +319,28 @@
         padding: var(--container-padding);
         padding-top: 10px;
         padding-bottom: 10px;
+        font-family: var(--sans);
+        font-weight: 600;
       }
 
       nav a {
-        font-size: 18px;
+        font-size: 16px;
         text-decoration: none;
         color: inherit;
+      }
+
+      @media screen and (min-width:767px) {
+        nav a {
+          font-size: 18px;
+        }
+      }
+
+      .footer-links {
+        margin-top: 150px;
+        padding: 0;
+        width: 100%;
+        font-family: var(--sans);
+        font-weight: 600;
       }
 
       a.nav-home {
