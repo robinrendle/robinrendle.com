@@ -251,4 +251,4 @@ This stuff is beautiful to me, the perfect compliment to the CSS language. Conta
 
 I feel like we need a name for this era, when CSS started getting real good. There’s a clear cut off point somewhere in the Before Times and the period we live in now, The Great CSS-ing. Perhaps it started with flexbox, or when CSS Grid launched, maybe that’s when things began to really accelerate. But typography is no longer a series of cool hacks and instead now a fully fledged citizen in the browser as of 2023. Us web typographers can finally create the relationships that we’ve always needed: font-size, line-height, measure.
 
-My endless grumbles have come to end.
+My endless grumbles have come to an end.
