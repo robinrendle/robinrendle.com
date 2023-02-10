@@ -332,10 +332,13 @@
 
       .footer-links {
         margin-top: 150px;
-        padding: 0;
+        padding: 20px 10px;
+        background: black;
+        color: white;
         width: 100%;
         font-family: var(--sans);
         font-weight: 600;
+        filter: url(#noise);
       }
 
       a.nav-home {
@@ -461,7 +464,6 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        {# background: var(--color-link); #}
         opacity: 0.2;
         z-index: 3;
       }
@@ -825,17 +827,6 @@
       }
 
     </style>
-
-    <script>
-      try {
-        if (document.referrer) {
-          const ref = new URL(document.referrer);
-          if (ref.host === 'news.ycombinator.com') {
-            window.location.href = 'https://google.com/';
-          }
-        }
-      } catch (e) { }
-    </script>
   </head>
   <body>
     <svg class="hover-svg">
