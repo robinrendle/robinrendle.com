@@ -25,7 +25,7 @@ I guess customers could tell us the answer, right? Well, no. Sure, you can talk 
 
 See, I don’t think you can build a great product for customers. Yes, yes, yes; you can make billions of dollars building something for customers and go live on a beach in the south of France. But you’ll have built junk in the process; the product will suffer if you build it for customers. You’ll spend every waking moment trying to measure user happiness and score feelings in a spreadsheet and not improving the product.
 
-In every product org it feels as if folks mistake qualitative data—stuff that can’t be measured like feelings—with quantitative data—stuff that can be measured like numbers or time or temperature. They’ll say “this user is 4.5% happy” and, okay, great. No what? This numerical value sure is bullshit but it’s not even helpful bullshit because these numbers never explain why things suck.
+In every product org it feels as if folks mistake qualitative data—stuff that can’t be measured like feelings—with quantitative data—stuff that can be measured like numbers or time or temperature. They’ll say “this user is 4.5% happy” and, okay, great. Now what? This numerical value sure is bullshit but it’s not even helpful bullshit because these numbers never explain why things suck.
 
 (Just look at the product and it will tell you why it sucks.)
 
