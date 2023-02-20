@@ -21,6 +21,6 @@ The story that led to breaking the code of the hieroglyphs is fascinating, and _
 
 > Though writing was invented independently several times—in China, the Middle East, and the New World—scholars believe that the alphabet was invented only once and then spread across the globe.
 
-The alphabet sounds so rudimentary—how can it be a technology?—but it wasn’t until a few hundred years ago that was an established _order_ given to the alphabet in English (a, b, c, etc.). What makes this even more interesting is that letters that can fit together to make words weren’t invented by any single person but evolved like an organism over thousands of years.
+The alphabet sounds so rudimentary—how can it be a technology?—but it wasn’t until a few hundred years ago that there was an established _order_ given to the alphabet in English (a, b, c, etc.). What makes this even more interesting is that letters weren’t invented by any single person but evolved like an organism over thousands of years.
 
 And Egyptian hieroglyphs were at the very beginning of this alphabetic breakthrough.
