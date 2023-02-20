@@ -17,7 +17,7 @@ Thinking of a language as a technology or a product is strange at first but the 
 
 Before reading Dolnick’s book, I had no idea that in order to read hieroglyphs you needed to know this vast library of puns and visual cues; sometimes a glyph could stand for a sound, sometimes for words unrelated to the picture, and sometimes they stand for the act they’re portraying, like walking.
 
-The story that led to breaking the code of the hieroglyphs is fascinating, and _The Writing of the Gods_ details the discovery of the Rosetta Stone, the plunder of a country, and Napoleon’s bonkers failed expedition into the desert. But although each story that makes up this book are fabulous, I can’t stop thinking about Dolnick’s argument that the alphabet is a technology:
+The story that led to breaking the code of the hieroglyphs is fascinating, and _The Writing of the Gods_ details the discovery of the Rosetta Stone, the plunder of a country, and Napoleon’s bonkers failed expedition into the desert. But although each story that makes up this book is fabulous, I can’t stop thinking about Dolnick’s argument that the alphabet is a technology:
 
 > Though writing was invented independently several times—in China, the Middle East, and the New World—scholars believe that the alphabet was invented only once and then spread across the globe.
 
