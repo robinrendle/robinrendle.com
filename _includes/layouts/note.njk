@@ -5,7 +5,6 @@ templateClass: tmpl-post
 <header class="note-header">
   <h1 class="note-title">{{ title }}</h1>
 
-
   <div class="note-meta">
     <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> 
 
@@ -20,7 +19,9 @@ templateClass: tmpl-post
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %} #}
 
-{{ content | safe }}
+<article>
+  {{ content | safe }}
+</article>
 
 {# {%- if collections.posts %}
 {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
@@ -34,8 +35,8 @@ templateClass: tmpl-post
 {%- endif %}
 {%- endif %} #}
 
-<nav class="footer-links">
+{# <nav class="footer-links">
   <a href="mailto:robinjrendle@gmail.com">Reply via email</a>
   <a href="https://hownottomakeabook.com">Newsletter</a>
   <a href="https://sfba.social/@fonts">Mastodon</a>
-</nav>
+</nav> #}
