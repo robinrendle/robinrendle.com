@@ -4,7 +4,7 @@ title: The Mountain in the Sea
 date: 2023-04-09T19:12:58-07:00
 city: Sonoma
 country: California
-extract: THE WORLD STILL CONTAINS MIRACLES, DESPITE EVERYTHING THAT HAS BEEN DONE TO IT.
+extract: The world still contains miracles, despite everything that has been done to it.
 ---
 
 We’re in Sonoma this weekend and I’m sat by the pool with one objective: finish Ray Nayler’s electric, goosebump-inducing novel [_The Mountain in the Sea_](https://bookshop.org/p/books/the-mountain-in-the-sea-ray-nayler/17839986?ean=9780374605957). I’ve been sat in the sun for far too long but I can’t stop turning the page, can’t stop thinking about this frightening, potential future that Nayler has drawn here.
