@@ -9,7 +9,7 @@ extract: The fifth planet in the solar system.
 
 Have you seen those fancy cards that pop open when ya click em and reveal more info? I think I saw em on Apple dot com not so long ago although now I can’t find a good example. Well, this morning I realized we don’t need a ton of JavaScript and CSS fanciness to get those big beautiful cards and here’s the proof: the ever-so-powerful and perfect `<details>` element can be used to make this effect.
 
-Here, click this lil card to expand:
+Here, click this lil card to expand it:
 
 <p class="codepen" data-height="600" data-default-tab="result" data-slug-hash="RwerqaV" data-user="robinrendle" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/robinrendle/pen/RwerqaV">
