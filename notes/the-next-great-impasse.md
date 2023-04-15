@@ -13,4 +13,4 @@ Those feelings might temporarily soften and quiet down but you’ll constantly b
 
 But it only lasts a moment or two; the Next Great Impasse is always just as big and as terrifying as the last one.
 
-The only solace you can get is knowing that you dealt with the Last Great Impasse. You hit that terrifying career change or broke off that fucked up relationship—your life veering off into another place and direction and velocity altogether—but you came out okay the other end.
+The only solace you can get is knowing that you dealt with the Last Great Impasse. You hit that terrifying career change or broke off that fucked up relationship—your life veering off into another place and direction and velocity altogether—but you came out the other end okay.
