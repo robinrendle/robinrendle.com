@@ -158,10 +158,6 @@
 
       .home-container {
         max-width: 100%;
-        font-family: var(--sans);
-        font-weight: 50;
-        font-stretch: 10%;
-        line-height: 1.2;
       }
 
       .extract-text {
@@ -170,6 +166,10 @@
         text-decoration: none;
         color: var(--color-heading);
         transition: all .3s ease;
+        font-family: var(--sans);
+        font-weight: 50;
+        font-stretch: 10%;
+        line-height: 1.2;
       }
 
       .extract-text:hover,
@@ -178,12 +178,6 @@
         text-decoration: underline var(--color-link);
         color: var(--color-heading);
       }
-
-      {# @media screen and (min-width: 500px) {
-        main {
-          padding: 0;
-        }
-      } #}
 
       h1 {
         font-size: var(--font-size-1);
@@ -366,10 +360,12 @@
         border-radius: 3px;
       }
 
-      .cp_embed_wrapper {
-        width: 80vw;
-        margin-left: 20%;
-        transform: translateX(-30%);
+      @media screen and (width: 700px) {
+        .cp_embed_wrapper {
+          width: 80vw;
+          margin-left: 20%;
+          transform: translateX(-30%);
+        }
       }
     </style>
     {# Note styles #}
