@@ -3,6 +3,7 @@ const fs = require("fs");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const { execSync } = require("child_process");
 
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
@@ -16,6 +17,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
+
+  eleventyConfig.on("eleventy.after", () => {
+    execSync(`npx pagefind --source _site --glob \"**/*.html\"`, {
+      encoding: "utf-8",
+    });
+  });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
@@ -95,23 +102,40 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
-  // Override Browsersync defaults (used only with --serve)
-  eleventyConfig.setBrowserSyncConfig({
-    callbacks: {
-      ready: function (err, browserSync) {
-        const content_404 = fs.readFileSync("_site/404.html");
+  module.exports = function (eleventyConfig) {
+    eleventyConfig.setServerOptions({
+      // Whether the live reload snippet is used
+      liveReload: true,
 
-        browserSync.addMiddleware("*", (req, res) => {
-          // Provides the 404 content without redirect.
-          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
-          res.write(content_404);
-          res.end();
-        });
+      // Whether DOM diffing updates are applied where possible instead of page reloads
+      domDiff: true,
+
+      // The starting port number
+      // Will increment up to (configurable) 10 times if a port is already in use.
+      port: 8080,
+
+      // Additional files to watch that will trigger server updates
+      // Accepts an Array of file paths or globs (passed to `chokidar.watch`).
+      // Works great with a separate bundler writing files to your output folder.
+      // e.g. `watch: ["_site/**/*.css"]`
+      watch: [],
+
+      // Show local network IP addresses for device testing
+      showAllHosts: true,
+
+      // Use a local key/certificate to opt-in to local HTTP/2 with https
+      https: {
+        // key: "./localhost.key",
+        // cert: "./localhost.cert",
       },
-    },
-    ui: false,
-    ghostMode: false,
-  });
+
+      // Change the default file encoding for reading/serving files
+      encoding: "utf-8",
+
+      // Show the dev server version number on the command line
+      showVersion: false,
+    });
+  };
 
   return {
     // Control which files Eleventy will process
