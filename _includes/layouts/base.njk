@@ -36,9 +36,10 @@
 
       @font-face {
         font-family: "Hex Franklin";
-        src: url('/fonts/hex-franklin/hex-franklin-0.2.woff2') format("woff2");
+        src: url('/fonts/hex-franklin/HEX_Franklin_v0.2_Variable.woff2') format("woff2");
         font-weight: 1 999;
         font-stretch: 0% 100%;
+        font-style: normal;
       }
 
       :root {
@@ -61,7 +62,7 @@
         --font-size-8: 0.8rem;
         --font-size-small: 1rem;
         --monospace: ui-monospace, SFMono-Regular, monospace;
-        --sans: "Hex Franklin", ui-sans-serif, system-ui, -apple-system, sans-serif;
+        --sans: "Hex Franklin", Helvetica, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
         --serif: "GT Alpina", ui-serif, system-ui, serif;
         --container-margin: 0 auto;
         --container-padding: 0 8px;
@@ -81,7 +82,7 @@
         min-height: 100%;
         margin: 0;
         padding: 0;
-        border-top: 0px solid var(--color-web-wrapper);
+        border-top: 2px solid var(--color-web-wrapper);
         border-bottom: 0px solid var(--color-web-wrapper);
         background: var(--color-link);
         overflow-x: hidden;
@@ -162,14 +163,21 @@
 
       .extract-text {
         hyphens: auto;
-        font-size: clamp(2.3rem, 6vw, 3.5rem);
         text-decoration: none;
         color: var(--color-heading);
         transition: all .3s ease;
         font-family: var(--sans);
-        font-weight: 50;
-        font-stretch: 10%;
-        line-height: 1.2;
+        font-size: 1.1em;
+      }
+
+      {# IOS SAFARI HACK FOR STUPID FONT-STRETCH BUG #}
+      @media screen and (min-width: 767px) {
+        .extract-text {
+          font-weight: 300;
+          font-stretch: 10%;
+          font-size: clamp(2.3rem, 6vw, 3.5rem);
+          line-height: 1.2;
+        }
       }
 
       .extract-text:hover,
@@ -308,11 +316,11 @@
         padding-top: 20px;
         padding-bottom: 20px;
         font-family: var(--sans);
-        font-weight: 600;
+        font-weight: 500;
       }
 
       nav a {
-        font-size: 16px;
+        font-size: 17px;
         text-decoration: none;
         color: inherit;
       }
