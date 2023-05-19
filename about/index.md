@@ -19,12 +19,6 @@ Once every couple of years I try to publish A Big Thing over in [/essays](/essay
 
 Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own.
 
-## CSS-Tricks
-
-In 2014, I joined [CSS-Tricks](https://css-tricks.com/) as a staff writer. For almost eight years I wrote about all sorts of CSS-related things; incoherent ramblings about the [peculiar magic of flexbox and auto margins](https://css-tricks.com/the-peculiar-magic-of-flexbox-and-auto-margins/), what the heck [grid-auto-flow](https://css-tricks.com/grid-auto-flow-css-grid-flex-direction-flexbox/) is, or [why CSS is frustrating](https://css-tricks.com/why-is-css-frustrating/). For a good long while I focused on [the newsletter](https://css-tricks.com/newsletters/) where each week I took the latest news in the front-end development world and tried to make sense of it. Altogether I wrote almost 300 of them which is around ~300,000 words or 2.3 Silmarillions (!) over 5 years.
-
-On that note, I make a lot of demos in [Codepen](https://codepen.io). For example! I’ve made [3D animated type demos](https://codepen.io/robinrendle/pen/mdMgVeM) and [fun variable font experiments](https://codepen.io/robinrendle/details/PomGKyG). I’ve spent many evenings trying to figure out the [backdrop-filter](https://codepen.io/robinrendle/pen/LmzLEL) CSS property, creating [a CSS loading bar](https://codepen.io/robinrendle/pen/wKqmbW), or making [a weird sci-fi Pokemon dashboard](https://codepen.io/robinrendle/pen/QBaLzv). What I’ve learned over the years is that Codepen is an excellent notebook; it’s the best place to tinker with ideas and try some peculiar web thing.
-
 ## Typesetting
 
 [Hex Franklin](https://www.futurefonts.xyz/hex/hex-franklin) is what I use when I want to pack a punch, whilst [GT Alpina](https://www.grillitype.com/typeface/gt-alpina) is used for body copy and small headings. It’s cute and curious and excellent! Look at the ? and the lowercase a! Wondrous. You can download free trials from Grilli Type of [their entire font catalogue](https://www.grillitype.com/free-trial-fonts) and you should absolutely go do that.
