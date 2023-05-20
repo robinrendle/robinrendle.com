@@ -23,6 +23,12 @@ I’ll keep adding to this list, so [lemme know](mailto:robinjrendle@gmail.com) 
 
 ![The Maku typeface](/images/maku.webp)
 
+## Inkwell
+
+→ [typography.com](https://www.typography.com/fonts/inkwell/overview)
+
+![Inkwell](/images/inkwell.webp)
+
 ## Scribo
 
 → [underware.nl](https://www.underware.nl/fonts/scribo/)
