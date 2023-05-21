@@ -26,7 +26,7 @@ date: 2023-04-28 09:00:00
   </figure>
 
   <figure>
-  <img src="/images/work/css-tricks/articles-examples.svg" alt="A grid of articles that I’ve written over the years"/>
+  <img class="img-tall" src="/images/work/css-tricks/articles-examples.svg" alt="A grid of articles that I’ve written over the years"/>
     <figcaption>Over the years I wrote about a wide range of topics; from design systems best practices, to the tiniest CSS curiosity.</figcaption>
   </figure>
 

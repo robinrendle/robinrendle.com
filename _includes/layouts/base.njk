@@ -43,7 +43,6 @@
       }
 
       :root {
-        --color-border: #eee;
         --color-web-wrapper: #FFC227;
         --color-text: #333; 
         --color-heading: #111;
@@ -59,9 +58,10 @@
         --space-2: 16px;
         --space-1: 8px;
         --font-size-1: clamp(1.6rem, 3vw, 1.8rem);
+        --font-size-3: clamp(1rem, 3vw, 1.15rem);
         --font-size-8: 0.8rem;
         --font-size-small: 1rem;
-        --monospace: ui-monospace, SFMono-Regular, monospace;
+        --monospace: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
         --sans: "Hex Franklin", Helvetica, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
         --serif: "GT Alpina", ui-serif, system-ui, serif;
         --container-margin: 0 auto;
@@ -170,6 +170,12 @@
         font-size: 1.1em;
       }
 
+      {# .extract-text:after {
+        content: "/";
+        opacity: 0.2;
+        padding-right: 10px;
+      } #}
+
       {# IOS SAFARI HACK FOR STUPID FONT-STRETCH BUG #}
       @media screen and (min-width: 767px) {
         .extract-text {
@@ -211,7 +217,6 @@
         margin-top: var(--space-4);
         color: var(--color-border);
       }
-
 
       blockquote {
         margin-left: 0;
@@ -853,7 +858,7 @@
         <a href="/about">About</a>
         <a href="/notes">Notes</a>
         <a href="/essays">Essays</a>
-        {# <a href="/work">Work</a> #}
+        <a href="/work">Work</a>
         <a href="/newsletter">Newsletter</a>
       </nav>
     </div>
