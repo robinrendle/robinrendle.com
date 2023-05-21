@@ -21,7 +21,7 @@ date: 2023-05-02 09:00:00
   </figure>
   <figure>
     <img src="/images/work/sentry-status/old-issues.webp" alt="A list of old issues in the Sentry app"/>
-    <figcaption>But larger engineering teams had to scroll through an endless list of old issues, just to get to the issues that were relevant to them.</figcaption>
+    <figcaption>But larger engineering teams had to scroll through an endless list of old issues, just to find more relevant issues.</figcaption>
   </figure>
   <figure>
     <img src="/images/work/sentry-status/ignore.webp" alt="A screenshot of all the Ignore actions available for an issue"/>
