@@ -19,9 +19,14 @@ title: Work
   }
 
   .work {
-    width: 90vw;
     font-family: var(--sans);
+    font-size: 90%;
+    width: 95vw;
+  }
+
+  @media screen and (min-width: 800px) {
     font-size: 85%;
+    width: 90vw;
   }
 
   .work-item {
@@ -264,7 +269,7 @@ title: Work
   @media screen and (max-width: 800px){
     .carousel figcaption {
       background: white;
-      padding: 20px 30px;
+      padding: 15px 25px;
       height: 100%;
       display: flex;
       align-items: center;
@@ -278,12 +283,12 @@ title: Work
   }
 
   .carousel figure {
-    display: flex;
+    display: grid;
     margin: 0;
-    flex-direction: column;
     min-width: 100%;
     background: var(--carousel-bg);
     scroll-snap-align: start;
+    grid-template-rows: 1.5fr 1fr;
   }
 
   @media screen and (min-width: 800px){
