@@ -7,7 +7,8 @@
     "subtitle": "Notes from the field.",
     "filename": "feed.xml",
     "path": "/feed.xml",
-    "id": "https://robinrendle.com/"
+    "id": "https://robinrendle.com/",
+    "newsletter": "/newsletterfeed.xml"
   },
   "jsonfeed": {
     "path": "/feed.json",

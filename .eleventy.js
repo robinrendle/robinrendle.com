@@ -76,8 +76,8 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("adventures/*.md");
   });
 
-  eleventyConfig.addCollection("work", function (collection) {
-    return collection.getFilteredByGlob("work/*.md");
+  eleventyConfig.addCollection("projects", function (collection) {
+    return collection.getFilteredByGlob("projects/*.md");
   });
 
   // Create an array of all tags

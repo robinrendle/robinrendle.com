@@ -4,50 +4,25 @@ permalink: /newsletter/
 title: Newsletter
 ---
 
-<h1 class="title">Newsletter</h1>
-  
-<div class="newsletter">
-  <p>My newsletter comes out pretty infrequently and I ramble about my work and personal life. If you want to stay up to date on relationship drama and work stuff, this is the one for you.</p>
-
-  <form
-    action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-    class="embeddable-buttondown-form"
-  >
-    <div class="inputs">    
-      <input type="email" placeholder="Email address"  name="email" id="bd-email" />
-      <input type="submit" value="Subscribe" />
-    </div>
-  </form>
+<div class="intro-wrapper">
+  <h1 class="title" id="heading">Newsletter</h1>
 </div>
 
-<div class="newsletter">
-  <p><em><a href="https://hownottomakeabook.com/">How Not To Make A Book</a></em> is a newsletter where I document what I’ve learned and what I’ve screwed up along the way of making a physical book for the first time: <a href="https://buttondown.email/hownottomakeabook/archive/beware-the-sharpest-edge/">Prototypes!</a> <a href="https://buttondown.email/hownottomakeabook/archive/format-format-format/">Book sizes and formats!</a> <a href="https://buttondown.email/hownottomakeabook/archive/who-is-this-book-for-1565/">Audience anxiety!</a></p>
-
-  <form
-    action="https://buttondown.email/api/emails/embed-subscribe/hownottomakeabook"
-    method="post"
-    target="popupwindow"
-    onsubmit="window.open('https://buttondown.email/hownottomakeabook', 'popupwindow')"
-    class="embeddable-buttondown-form"
-  >
-    <div class="inputs">
-      <input type="email" placeholder="Email address" name="email" id="bd-email" />
-      <input type="submit" value="Subscribe" /> 
-    </div>
-  </form>
+<div class="main-content">
+  <div class="content-list cell-t40">
+    <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+    {% for note in collections.newsletter | reverse %}
+      <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
+        <div>
+          <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
+          <p class="extract">{{note.data.extract}}</p>
+        </div>
+        <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
+      </li>
+    {% endfor %}
+    </ol>
+  </div>
 </div>
 
-{# <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-{% for note in collections.newsletter | reverse %}
-  <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}"> 
-    <div>
-    <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
-    </div>
-    <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
-  </li>
-{% endfor %}
-</ol> #}
+
 

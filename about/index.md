@@ -1,15 +1,17 @@
 ---
-layout: layouts/base
+layout: layouts/note.njk
+templateClass: about-page
 title: About
+date: 2023-06-12T15:24:36.956Z
+city: San Francisco
+country: California
 ---
 
-<h1 class="title">About</h1>
-
-<img class="about-img" src="/images/me/robin-rendle-2.webp" alt="A photograph of me smiling at the camera, taken on a cold, sunny day on an outlook over the ocean. Plymouth, February 2022." width="2200" height="1188"/>
-
-Allo! I’m Robin, a writer and web designer from the UK. Now I live in San Francisco where I design things at [Sentry](https://sentry.io). My work is always in the weird space between writing (blogging loudly), front-end development (bragging about how a website looks), and publishing (figuring out new ways to get words in front of people).
+<p class="article-intro">Allo! I’m Robin, a writer and web designer from the UK. Now I live in San Francisco where I design things at [please dear god hire me]. My work is always in the weird gap between writing, web design, and publishing.</p>
 
 Please direct all compliments to robinjrendle@gmail.com
+
+<img class="full-width" src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England">
 
 ## About this website
 
@@ -19,8 +21,10 @@ Once every couple of years I try to publish A Big Thing over in [/essays](/essay
 
 Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own.
 
+This website doesn’t collect any information from you, there’s no cookies, cus I respect ya and don’t want to grift ya.
+
 ## Typesetting
 
-[Hex Franklin](https://www.futurefonts.xyz/hex/hex-franklin) is what I use when I want to pack a punch, whilst [GT Alpina](https://www.grillitype.com/typeface/gt-alpina) is used for body copy and small headings. It’s cute and curious and excellent! Look at the ? and the lowercase a! Wondrous. You can download free trials from Grilli Type of [their entire font catalogue](https://www.grillitype.com/free-trial-fonts) and you should absolutely go do that.
+[Fakir](https://www.underware.nl/fonts/fakir/preface) is for headings and [Hex Franklin](https://hex.xyz/HEX_Franklin/) is used for body copy and small headings.
 
 Also, also! I tend to change the styles and typography of this website a lot, and sometimes multiple times a week. [Let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/), etc.

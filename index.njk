@@ -3,7 +3,7 @@ layout: layouts/base.njk
 templateClass: full
 ---
 
-<div class="home-container">
+<div class="home-container intro-wrapper">
   {%- for post in collections.notes | reverse | head(50)  -%}
     <a class="extract-text {{loop.index}}" href="{{ post.url }}">{{ post.data.extract }} </a>
   {%- endfor -%}

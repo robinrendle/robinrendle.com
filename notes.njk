@@ -4,7 +4,13 @@ permalink: /notes/
 title: Notes
 ---
 
-<h1 class="title">Notes</h1>
+<div class="intro-wrapper">
+  <h1 class="title" id="heading">Notes</h1>
+</div>
 
-{% set noteslist = collections.notes %}
-{% include "noteslist.njk" %}
+<div class="main-content">
+  <div class="content-list">
+    {% set noteslist = collections.notes %}
+    {% include "noteslist.njk" %}
+  </div>
+</div>

@@ -10,7 +10,9 @@ title: Essays
 
 {% set noteslist = collections.essays %}
 
-<h1 class="title">Essays</h1>
+<header class="intro-wrapper">
+  <h1 class="title" id="heading">Essays</h1>
+</header>
 
 <ol reversed class="essays" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for note in collections.featured | reverse %}
@@ -31,17 +33,18 @@ title: Essays
 {% endfor %}
 </ol>
 
-<div class="cell-t80">
-  <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-  {% for note in collections.unfeatured | reverse %}
-    <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
-      <div>
-        <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
-        <p class="extract">{{note.data.extract}}</p>
-      </div>
-      <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
-    </li>
-  {% endfor %}
-  </ol>
+<div class="main-content">
+  <div class="cell-t40 content-list">
+    <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+    {% for note in collections.unfeatured | reverse %}
+      <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
+        <div>
+          <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
+          <p class="extract">{{note.data.extract}}</p>
+        </div>
+        <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
+      </li>
+    {% endfor %}
+    </ol>
+  </div>
 </div>
-

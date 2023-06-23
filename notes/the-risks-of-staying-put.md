@@ -31,7 +31,7 @@ On that note, Mandy writes:
 
 > I had spent months chewing on the various dangers and risks of each step I could take, and had not at all considered the dangers and risks of staying put.
 
-I was thinking this way for months. But really there’s an « enormous» risk to staying put in an unhealthy relationship, whether that’s a professional or a sexy one. At some point I realized I was being turned into a thin mulch paste and that the risk to my health far outweighed whatever fear I had for the unknown out there. Each morning I felt weaker than the day before and I could feel my optimism fading. One day last week I woke up, looked in the mirror, and realized that I was an old man; a true, sour bastard.
+I was thinking this way for months. But really there’s an «enormous» risk to staying put in an unhealthy relationship, whether that’s a professional or a sexy one. At some point I realized I was being turned into a thin mulch paste and that the risk to my health far outweighed whatever fear I had for the unknown out there. Each morning I felt weaker than the day before and I could feel my optimism fading. One day last week I woke up, looked in the mirror, and realized that I was an old man; a true, sour bastard.
 
 So yeah, I’m scared right now. I fear living in one of the most expensive cities in the world without a job. I fear the economy buckling under my feet. I fear all the layoffs and the terrible jobs out there building a bunch of tech nothings.
 
