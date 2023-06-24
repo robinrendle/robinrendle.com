@@ -88,7 +88,7 @@
 
       @media screen and (min-width: 900px) {
         :root {
-          --content-max-width: 52rem;
+          --content-max-width: 54rem;
           --grid-space: 0;
           --banner-height: 388px;
           --grid-article-columns: 3/11;
@@ -202,6 +202,10 @@
         padding-top: var(--space-3);
         padding-bottom: var(--space-5);
         min-height: 60vh;
+      }
+
+      .article img, .article iframe, .article pre[class*="language-"] {
+        margin-bottom: var(--space-3);
       }
 
       @media screen and (min-width: 800px) {

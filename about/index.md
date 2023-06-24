@@ -1,5 +1,5 @@
 ---
-layout: layouts/note.njk
+layout: layouts/about.njk
 templateClass: about-page
 title: About
 date: 2023-06-12T15:24:36.956Z
@@ -7,11 +7,11 @@ city: San Francisco
 country: California
 ---
 
-<p class="article-intro">Allo! I’m Robin, a writer and web designer from the UK. Now I live in San Francisco where I design things at [please dear god hire me]. My work is always in the weird gap between writing, web design, and publishing.</p>
+<img class="full-width" src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England">
+
+Allo! I’m Robin, a writer and web designer from the UK. Now I live in San Francisco where I design things at [please dear god hire me]. My work is always in the weird gap between writing, web design, and publishing.
 
 Please direct all compliments to robinjrendle@gmail.com
-
-<img class="full-width" src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England">
 
 ## About this website
 
@@ -28,3 +28,7 @@ This website doesn’t collect any information from you, there’s no cookies, c
 [Fakir](https://www.underware.nl/fonts/fakir/preface) is for headings and [Hex Franklin](https://hex.xyz/HEX_Franklin/) is used for body copy and small headings.
 
 Also, also! I tend to change the styles and typography of this website a lot, and sometimes multiple times a week. [Let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/), etc.
+
+<br />
+
+<small class="cell-t60">— June 2023, San Francisco CA</small>
