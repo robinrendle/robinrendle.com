@@ -7,14 +7,14 @@ country: California
 extract: New day, new website.
 ---
 
-Fixed a few things around these parts today; I started using [Fakir](https://www.underware.nl/fonts/fakir/preface) for headings and tidied up a lot of stuff on smaller screens. But the biggest change is that the headings now change size depending on the width of the container that they’re in, like this:
+Fixed a few things around these parts today; I started using [Fakir](https://www.underware.nl/fonts/fakir/preface) for headings and tidied up a lot of stuff on smaller screens. The biggest change is that the headings now change size depending on the width of the container that they’re in, like this:
 
 ```css
 .title-wrapper {
   container-type: inline-size;
 }
 
-h1 {
+.title-wrapper h1 {
   font-size: 15cqw;
 }
 ```
@@ -29,7 +29,7 @@ So I’m kinda forced to write a bunch of logic that takes into consideration...
 - Long, one word titles that need to be medium-sized
 - Real long sentences that need to be smallish-sized to fit
 
-That convinced me that I should just write a whole bunch of hacky JavaScript that detects how many words and letters are in the `h1` and then slap a CSS class on it:
+That convinced me that I should just write a whole bunch of hacky JavaScript that detects how many words and letters are in the `h1` and then slaps a CSS class on it:
 
 ```javascript
 const title = document.querySelectorAll("#heading")[0];
