@@ -7,7 +7,7 @@ city: San Francisco
 country: California
 ---
 
-<img class="full-width" src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England">
+<img class="full-width" src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England" height="473" width="878">
 
 Allo! I’m Robin, a writer and web designer from the UK. Now I live in San Francisco where I design things at [please dear god hire me]. My work is always in the weird gap between writing, web design, and publishing.
 
