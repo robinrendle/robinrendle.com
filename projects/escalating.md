@@ -1,9 +1,10 @@
 ---
 layout: layouts/projects/project.njk
-title: Escalating Issues
+title: Escalating
 company: Sentry
 extract: Helping engineers find important issues in their apps.
 date: 2023-05-02 09:00:00
+dateRange: 2023
 ---
 
 <div class="carousel">
