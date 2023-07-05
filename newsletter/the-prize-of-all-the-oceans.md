@@ -9,7 +9,7 @@ extract: You foul sea-dogs.
 
 Friends! Sailors!
 
-Salman Rushdie had written a cracking failure of a novel in his twenties; imitative of the books he loved, too much like Pynchon. He knew it was a terrible thing, unpublishable even, and so into a drawer this book went, never to be mentioned again.
+Salman Rushdie was in his twenties and wrote a cracking failure of a novel; imitative of the books he loved, too much like Pynchon. He knew it was a terrible thing, unpublishable even, and so into a drawer this book went, never to be mentioned again.
 
 Thirty years later, he digs it out and confidently, with a smile, reads a snippet of the book. Now I would be devastated to have written a novel that went nowhere. I wouldn’t be talking about it, although I would be holding this nowhere-novel around my neck like an albatross. But not Salman: “at least,” he says, “I knew not to take it any further. My shit-detector was working.”
 
