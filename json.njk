@@ -1,6 +1,6 @@
 ---
 # Metadata comes from _data/metadata.json
-permalink: "{{ metadata.jsonfeed.path }}"
+permalink: "{{ metadata.feed.json }}"
 eleventyExcludeFromCollections: true
 ---
 {
@@ -8,7 +8,7 @@ eleventyExcludeFromCollections: true
   "title": "{{ metadata.title }}",
   "language": "{{ metadata.language }}",
   "home_page_url": "{{ metadata.url }}",
-  "feed_url": "{{ metadata.jsonfeed.url }}",
+  "feed_url": "{{ metadata.feed.jsonURL }}",
   "description": "{{ metadata.description }}",
   "author": {
     "name": "{{ metadata.author.name }}",

@@ -2,17 +2,24 @@
   "title": "Robin Rendle",
   "url": "https://robinrendle.com/",
   "language": "en",
-  "description": "Blogger, font man",
+  "description": "Writer, designer",
   "feed": {
     "subtitle": "Notes from the field.",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "id": "https://robinrendle.com/",
-    "newsletter": "/newsletterfeed.xml"
+    "json": "/feed.json",
+    "jsonURL": "https://robinrendle.com/feed/feed.json"
   },
-  "jsonfeed": {
-    "path": "/feed.json",
-    "url": "https://robinrendle.com/feed/feed.json"
+  "newsletterfeed": {
+    "subtitle": "Newsletters",
+    "filename": "newsletterfeed.xml",
+    "path": "/newsletterfeed.xml"
+  },
+  "essaysfeed": {
+    "subtitle": "Essays",
+    "filename": "essayfeed.xml",
+    "path": "/essayfeed.xml"
   },
   "author": {
     "name": "Robin Rendle",

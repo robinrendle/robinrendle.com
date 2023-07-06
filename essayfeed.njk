@@ -1,13 +1,13 @@
 ---
 # Metadata comes from _data/metadata.json
-permalink: "{{ metadata.newsletterfeed.path }}"
+permalink: "{{ metadata.essaysfeed.path }}"
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>{{ metadata.title }}</title>
 	<subtitle>{{ metadata.feed.subtitle }}</subtitle>
-	{% set absoluteUrl %}{{ metadata.newsletterfeed.path | url | absoluteUrl(metadata.url) }}{% endset %}
+	{% set absoluteUrl %}{{ metadata.essaysfeed.path | url | absoluteUrl(metadata.url) }}{% endset %}
 	<link href="{{ absoluteUrl }}" rel="self"/>
 	<link href="{{ metadata.url }}"/>
 	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
@@ -16,14 +16,16 @@ eleventyExcludeFromCollections: true
 		<name>{{ metadata.author.name }}</name>
 		<email>{{ metadata.author.email }}</email>
 	</author>
-	{%- for post in collections.newsletter | reverse %}
+	{%- for post in collections.essays | reverse %}
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
 	<entry>
 		<title>{{ post.data.title }}</title>
 		<link href="{{ absolutePostUrl }}"/>
 		<updated>{{ post.date | rssDate }}</updated>
 		<id>{{ absolutePostUrl }}</id>
-		<content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+		<content type="html">
+      {{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}
+    </content>
 	</entry>
 	{%- endfor %}
 </feed>
