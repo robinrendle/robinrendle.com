@@ -1,6 +1,6 @@
 ---
 layout: layouts/note.njk
-title: The Handsome Young Men
+title: These Handsome Young Men
 date: 2023-07-12T15:47:52-07:00
 city: San Francisco
 country: California
