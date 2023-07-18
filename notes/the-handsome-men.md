@@ -13,7 +13,7 @@ I am here for my first tailor-made suit.
 
 Shaking their hands in turn, still stunned by the industrial beauty of these young men, and now, as they offer me an espresso, I am suddenly/extremely/painfully aware of the golf pants I’m wearing from Target (my god these pants are so comfortable though — the big secret of men’s fashion was golf pants all along, who knew?).
 
-These handsome boys are here to tell me how to see fabrics and textiles — see this, how the fabric almost bends in the light? Or this one, where the gray is only visible in the flannel when a photograph is taken? — and they handsomely ask me questions about the big day. Where am I from? Where am I getting married? What color? How many pieces in the suit?
+These handsome boys are here to tell me how to see fabrics and textiles — see this, how the fabric almost bends in the light? Or this one, where the gray is only visible in the flannel when a photograph is taken? — and they handsomely ask me questions about the big day. Where am I from? Where am I getting married? What color? How many pieces in the suit?
 
 England, I tell them. San Francisco City Hall. Green. Three.
 
