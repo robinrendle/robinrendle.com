@@ -61,7 +61,7 @@ We were all teleported back three hundred years to when some baron or other owne
 
 As we take pictures and run around with my nephew I wonder where my righteous indignation has run off to. Where was the England that I remember? The one full of sadness and despair? The country that felt unbearably hopeless in my teen years and made me run away in my early 20s?
 
-This isn’t what I remember at all. In this new, alien place there are lovely little chapels and bright green fields and clean meadows. There’s museums where grimy old pubs used to sit and a beautiful city perched on a bay that looks as glorious as San Francisco does at its peak and when its showing off.
+This isn’t what I remember at all. In this new, alien place there are lovely little chapels and bright green fields and clean meadows. There’s museums where grimy old pubs used to sit and a beautiful city perched on a bay that looks as glorious as San Francisco does at its peak when it’s showing off.
 
 There’s a whole country full of things to see and do and places to be quiet in.
 
