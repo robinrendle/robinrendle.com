@@ -27,9 +27,7 @@ I’ve been working on this website since 2014 and I see it as a public office; 
 
 Once every couple of years I try to publish A Big Thing over in [/essays](/essays). This encourages me to work on longer writing projects than I’m typically used to. They often take weeks, months, years of research and thinking and being lazy about them and planning them out and designing them and then just winging it all at the last second and hitting the big green publish button and hoping for the best. Some of them don’t really stand the test of time, some of them are pretty embarrassing, and some of them are the best things I’ve ever done. I’ll let you decide which is which.
 
-Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own.
-
-This website doesn’t collect any information from you, there’s no cookies, cus I respect ya and don’t want to grift ya.
+Also! This website was built with [Eleventy](https://www.11ty.dev/) and published via [Netlify](https://netlify.com). You can view all the code [over on GitHub](https://github.com/robinrendle/robinrendle.com) if you want to take any inspiration for a website of your own. Oh, and this website doesn’t collect any information from you, there’s no cookies, cus I respect ya and don’t want to grift ya.
 
 Also, also! I tend to change the styles and typography of this website a lot, and sometimes multiple times a week. [Let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/), etc.
 
