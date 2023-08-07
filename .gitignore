@@ -2,3 +2,6 @@ _site/
 node_modules/
 package-lock.json
 .DS_Store
+images/work/.DS_Store
+fonts/.DS_Store
+images/.DS_Store
