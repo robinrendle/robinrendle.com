@@ -2,16 +2,13 @@
 layout: layouts/base.njk
 templateClass: tmpl-project
 ---
+
+
 <header class="intro-wrapper">
   <h1 id="heading" id="heading">{{ title }}</h1>
-
   <div class="intro-meta">
-    <div class="intro-meta-content">
-      {{dateRange}}
-
-      {% if city %}
-        / {{city}}, {{country}}
-      {% endif %}
+    <div class="intro-meta-content intro-meta-content-wide">
+      <a href="https://{{website}}">{{website}}</a> / {{dateRange}}
     </div>
   </div>
 </header>
@@ -20,9 +17,10 @@ templateClass: tmpl-project
   {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {%- endfor %} #}
-<div class="main-content main-content--wide">
-  <article class="article">
+<div class="main-content">
+  <article class="article article-wide">
     {{ content | safe }}
+  </div>
   </article>
 {# 
   <aside class="aside">

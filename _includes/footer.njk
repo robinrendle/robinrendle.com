@@ -1,94 +1,20 @@
-<style>
-  .footer {
-    container-type: inline-size;
-    display: grid;
-    place-items: center;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr, 1fr;
-    gap: 20px;
-    height: 500px;
-    background: #000;
-  }
-
-  @media screen and (min-width: 500px) {
-    .footer {
-      height: 300px;
-    }
-  }
-
-  .footer-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    grid-column: 1/13;
-    grid-row-start: 1;
-  }
-
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    grid-column: var(--grid-article-columns);
-    padding-top: 0;
-    padding-left: var(--grid-space);
-    padding-bottom: var(--grid-space);
-    width: 100%;
-    grid-column: 1/12;
-    grid-row-start: 2;
-  }
-
-  @media screen and (min-width: 500px) {
-    .footer-img {
-      display: block;
-      grid-column: 1/6;
-      grid-row: 1;
-    }
-    .footer-content {
-      grid-row: 1;
-      grid-column: 6/12;
-      padding-left: 0;
-    }
-  }
-
-  .footer p a {
-    color: var(--color-gray);
-    text-decoration-color: var(--color-gray);
-  }
-
-  .footer p {
-    color: var(--color-gray);
-    margin-top: 0;
-    margin-bottom: 25px;
-    font-family: var(--sans);
-    font-size: 1.1rem;
-  }
-
-  @media screen and (min-width: 700px) {
-    font-size: 1.3rem;
-  }
-
-  .footer-title {
-    margin: 0;
-    font-family: var(--title);
-    font-size: 5cqw;
-  }
-</style>
-
 <footer class="footer">
-  <img class="footer-img" src="/images/footer-image.webp" alt="A sailor holding an axe awaits the leg of an octupus crawling down the ship’s stair" /> 
   <div class="footer-content">
-    <p>My <a href="/newsletter">weekly newsletter</a> is all the Robin you’ll ever need.</p>
-    <form
-      action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-      class="embeddable-buttondown-form"
-    >
-      <div class="inputs">    
-        <input type="email" placeholder="Email address" name="email" id="bd-email" />
-        <input type="submit" value="Subscribe" />
-      </div>
-    </form>
+    <h2 class="footer-title">Newsletter.</h2>
+    <div class="input-wrapper">
+      {# <p>My <a href="/newsletter">newsletter</a> is all the Robin you’ll ever need.</p> #}
+      <form
+        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+        class="embeddable-buttondown-form"
+      >
+        <div class="inputs">    
+          <input type="email" placeholder="Email address" name="email" id="bd-email" required/>
+          <input type="submit" value="Subscribe" />
+        </div>
+      </form>
+    </div>
   </div>
 </footer>

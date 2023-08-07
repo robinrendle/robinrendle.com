@@ -6,16 +6,8 @@ templateClass: tmpl-post
   <h1 id="heading" id="heading">{{ title }}</h1>
 </header>
 
-{# {%- for tag in tags | filterTagList -%}
-  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %} #}
 <div class="main-content">
-  <article class="article">
+  <article class="article article-wide">
     {{ content | safe }}
   </article>
-{# 
-  <aside class="aside">
-    <img src="https://placehold.it/500x500" />
-  </aside> #}
 </div>

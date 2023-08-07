@@ -10,19 +10,22 @@ title: Newsletter
 
 <div class="main-content">
   <div class="content-list cell-t40">
-    <ol reversed class="notes-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-    {% for note in collections.newsletter | reverse %}
-      <li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
-        <div>
-          <a href="{{ note.url | url }}" class="postlist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
-          <p class="extract">{{note.data.extract}}</p>
-        </div>
-        <time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate }}</time>
-      </li>
-    {% endfor %}
+    <ol reversed class="article-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+      {% for note in collections.newsletter | reverse %}
+        <li class="article-list-item">
+          <a class="article-list-link" href="{{ note.url | url }}">
+            <div class="article-list-item-title">
+              {% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}
+              <div class="article-list-item-extract">{{note.data.extract}}</div>
+            </div>
+            <div class="notelist-date">{{note.data.dateRange}}</div>
+          </a>
+        </li>
+      {% endfor %}
     </ol>
   </div>
 </div>
+
 
 
 

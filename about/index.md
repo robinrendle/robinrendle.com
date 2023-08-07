@@ -7,15 +7,23 @@ city: San Francisco
 country: California
 ---
 
-<img class="full-width" src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England" height="473" width="878">
+<div class="columns-full">
+  <img src="/images/me/robin-rendle-2.webp" alt="A photograph of me, smiling like a real pillock, on the shore in the south west of England" height="473" width="878" />
+</div>
 
-Allo! I’m Robin, a writer and web designer from the UK. Now I live in San Francisco where I design things at [please dear god hire me]. My work is always in the weird gap between writing, web design, and publishing.
+<div class="columns-1-8">
 
-Please direct all compliments to robinjrendle@gmail.com
+<p class="intro">I’m Robin, a designer and writer from San Francisco and my work sits in the weird gap between web design and publishing. I’m currently open to full-time product design roles or freelance design gigs.</p>
 
-## About this website
+Please send all compliments to robinjrendle@gmail.com
 
-I’ve been working on this website since 2014 and I see it as a public office; notes spread out everywhere in every direction—and whoa! don’t move that—those books and papers over there are super important! Jeez! The idea is that you can stop by and see what I’m working on at any given moment. This helps me refine my work, learn about web design and typography, and hone my writing skills a bit. It’s also a record of where I was and who I was back in, say, 2018 when [everything was falling apart](https://www.robinrendle.com/notes/potential-and-loss/).
+</div>
+
+<div class="columns-1-8">
+
+<h2 class="margin-top-0">About this website</h2>
+
+I’ve been working on this website since 2014 and I see it as a public office; notes spread out everywhere in every direction—and whoa! don’t move that—those books and papers over there are super important! Jeez!
 
 Once every couple of years I try to publish A Big Thing over in [/essays](/essays). This encourages me to work on longer writing projects than I’m typically used to. They often take weeks, months, years of research and thinking and being lazy about them and planning them out and designing them and then just winging it all at the last second and hitting the big green publish button and hoping for the best. Some of them don’t really stand the test of time, some of them are pretty embarrassing, and some of them are the best things I’ve ever done. I’ll let you decide which is which.
 
@@ -23,12 +31,28 @@ Also! This website was built with [Eleventy](https://www.11ty.dev/) and publishe
 
 This website doesn’t collect any information from you, there’s no cookies, cus I respect ya and don’t want to grift ya.
 
-## Typesetting
-
-[Fakir](https://www.underware.nl/fonts/fakir/preface) is for headings and [Hex Franklin](https://hex.xyz/HEX_Franklin/) is used for body copy and small headings.
-
 Also, also! I tend to change the styles and typography of this website a lot, and sometimes multiple times a week. [Let a website be a worry stone](https://ethanmarcotte.com/wrote/let-a-website-be-a-worry-stone/), etc.
+
+</div>
+
+<div class="columns-1-8">
+
+<h2 class="margin-top-0">Typesetting</h2>
+
+I adore [Söhne](https://klim.co.nz/retail-fonts/soehne/), use it everywhere on this site, and I can’t really say why. Like, I mostly roll my eyes at big chunky neo-grotesques since they’re _everywhere_ and they look mean and mechanical in a way that I find unpleasant. But Söhne has this other thing going on. It has this warmth to it that’s missing in a lot of siblings of the Akzidenz-Grotesk legacy. The designer of Söhne, Kris Sowersby, even mentions this in his elaborate and lovely [design notes](https://klim.co.nz/blog/soehne-design-information/):
+
+> Akzidenz-Grotesk feels noble, humble and authentic. Nobody knows who designed it. Someone cut its forms, decided on spacing and christened it the most quotidian of names. Its anonymity cements its authenticity. [...] Helvetica, however, nowadays has the whiff of corporate slickness, a digital default that both sustains and saps the spirit.
+
+I hope that the design of this here site pays homage to that history.
 
 <br />
 
-<small class="cell-t60">— June 2023, San Francisco CA</small>
+<small class="cell-t60">— August 2023, San Francisco CA</small>
+
+</div>
+
+<div class="columns-8-13 container">
+  <div class="letter">
+    Aa
+  </div>
+</div>
