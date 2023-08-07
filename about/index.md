@@ -39,7 +39,7 @@ Also, also! I tend to change the styles and typography of this website a lot, an
 
 <h2 class="margin-top-0">Typesetting</h2>
 
-I adore [Söhne](https://klim.co.nz/retail-fonts/soehne/), use it everywhere on this site, and I can’t really say why. Like, I mostly roll my eyes at big chunky neo-grotesques since they’re _everywhere_ and they look mean and mechanical in a way that I find unpleasant. But Söhne has this other thing going on. It has this warmth to it that’s missing in a lot of siblings of the Akzidenz-Grotesk legacy. The designer of Söhne, Kris Sowersby, even mentions this in his elaborate and lovely [design notes](https://klim.co.nz/blog/soehne-design-information/):
+I adore [Söhne](https://klim.co.nz/retail-fonts/soehne/), using it everywhere on this here website, but I can’t really say why. I mostly roll my eyes at big chunky neo-grotesques since they’re _everywhere_ and they look mean and mechanical in a way that I find unpleasant. But Söhne has this other thing going on: there’s a warmth to it that’s missing in the other descendants of Akzidenz-Grotesk. The designer of Söhne, Kris Sowersby, even mentions this in his elaborate and lovely [design notes](https://klim.co.nz/blog/soehne-design-information/):
 
 > Akzidenz-Grotesk feels noble, humble and authentic. Nobody knows who designed it. Someone cut its forms, decided on spacing and christened it the most quotidian of names. Its anonymity cements its authenticity. [...] Helvetica, however, nowadays has the whiff of corporate slickness, a digital default that both sustains and saps the spirit.
 
