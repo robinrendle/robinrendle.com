@@ -8,10 +8,18 @@ dateRange: 2019
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/gusto/gusto-rebrand.webp" alt="A screenshot of the new Gusto homepage after the rebrand"/>
-  <img src="/images/projects/gusto/tabular-numbers.svg" loading="lazy"/> 
-  <img src="/images/projects/gusto/typographic-scales.svg" loading="lazy"/> 
-  <img src="/images/projects/gusto/spreadsheet.webp" loading="lazy"/> 
+  <a href="/images/projects/gusto/gusto-rebrand.webp">
+    <img src="/images/projects/gusto/gusto-rebrand.webp" alt="A screenshot of the new Gusto homepage after the rebrand"/>
+  </a>
+  <a href="/images/projects/gusto/tabular-numbers.svg">
+    <img src="/images/projects/gusto/tabular-numbers.svg" loading="lazy"/> 
+  </a>
+  <a href="/images/projects/gusto/typographic-scales.svg">
+    <img src="/images/projects/gusto/typographic-scales.svg" loading="lazy"/> 
+  </a>
+  <a href="/images/projects/gusto/spreadsheet.webp">
+    <img src="/images/projects/gusto/spreadsheet.webp" loading="lazy"/> 
+  </a>
 </div>
 
 <div class="columns-1-7">

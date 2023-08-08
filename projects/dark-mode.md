@@ -9,9 +9,15 @@ website: sentry.io
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/dark-mode/dark-mode-01.webp" alt=""/>
-  <img src="/images/projects/dark-mode/dark-mode-02.webp" alt=""/>
-  <img src="/images/projects/dark-mode/dark-mode-03.webp" alt=""/>
+  <a href="/images/projects/dark-mode/dark-mode-01.webp">
+    <img src="/images/projects/dark-mode/dark-mode-01.webp" alt=""/>
+  </a>
+  <a href="/images/projects/dark-mode/dark-mode-02.webp">
+    <img src="/images/projects/dark-mode/dark-mode-02.webp" alt=""/>
+  </a>
+  <a href="/images/projects/dark-mode/dark-mode-03.webp">
+    <img src="/images/projects/dark-mode/dark-mode-03.webp" alt=""/>
+  </a>
 </div>
 
 <div class="columns-1-7">

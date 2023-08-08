@@ -8,9 +8,15 @@ dateRange: 2022
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/alerts/alerts-01.webp" alt=""/>
-  <img src="/images/projects/alerts/alerts-02.webp" alt=""/> 
-  <img src="/images/projects/alerts/alerts-04.webp" alt=""/> 
+  <a href="/images/projects/alerts/alerts-01.webp">
+    <img src="/images/projects/alerts/alerts-01.webp" alt=""/>
+  </a>
+  <a href="/images/projects/alerts/alerts-02.webp">
+    <img src="/images/projects/alerts/alerts-02.webp" alt=""/> 
+  </a>
+  <a href="/images/projects/alerts/alerts-04.webp">
+    <img src="/images/projects/alerts/alerts-04.webp" alt=""/> 
+  </a>
 </div>
 
 <div class="columns-1-7">

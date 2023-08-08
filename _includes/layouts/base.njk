@@ -124,7 +124,8 @@
       }
 
       body {
-        max-width: 100vw;
+        position: relative; 
+        width: 100dvw;
         overflow-x: hidden;
         background: var(--color-bg);
         padding: 0;
@@ -132,7 +133,7 @@
         font: var(--font-size-body)/1.4 var(--sans);
         color: var(--color-text);
         font-variant-numeric: oldstyle-nums;
-        min-height: 100vh;
+        min-height: 100dvh;
         border: var(--border);
       }
 
@@ -140,6 +141,22 @@
         body {
           line-height: 1.45;
         }
+      }
+
+      .lightbox {}
+
+      .lightbox:after {
+        content: '';
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        height: 100%;
+        width: 100%;
+        backdrop-filter: blur(5px);
       }
 
       body p {
@@ -911,7 +928,7 @@
     .article-list-link:hover, .article-list-link:focus {
       background: var(--color-real-black);
       color: var(--color-text) !important;
-      transform: scale(1.02);
+      {# transform: scale(1.02); #}
       border-color: transparent;
     }
 
@@ -933,21 +950,97 @@
 
     .carousel {
       display: flex;
-      overflow-y: scroll;
-      overflow-x: hidden;
+      flex-direction: column;
+      gap: 10px;
+      order: 2;
       margin-bottom: 30px;
     }
 
     .carousel img {
-      margin-bottom: 5px;
+      display: block;
+      margin-bottom: 0;
       background: var(--color-img-bg);
+      border: 1px solid var(--color-img-bg);
       padding: 12px;
+    }
+
+    .carousel a:hover img {
+      border: 1px solid var(--color-border);
+    }
+
+    .carousel:not(.carousel-expanded) a {
+      display: block;
+      transition: none;
+    }
+
+    {# .carousel a img {
+      transition: 0.3s linear
+    } #}
+
+    {# .carousel a:hover {
+      transform: scale(1.04);
+    } #}
+
+    .carousel:not(.carousel-expanded) a {
+      position: relative;
+    }
+
+    .carousel:not(.carousel-expanded) a:hover, .carousel:not(.carousel-expanded):focus {
+      cursor: zoom-in;
+    }
+    
+    .carousel a:not(:first-of-type) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+      .carousel a:not(:first-of-type) {
+        display: block;
+      }
     }
 
     @media screen and (min-width: 1200px) {
       .carousel {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
         overflow: unset;
+      }
+    }
+
+    .expand {
+      position: fixed;
+      {# max-height: 80dvh; #}
+      width: 90dvw;
+      margin-left: 0;
+      margin-top: 0;
+      top: 10dvh;
+      left: 5dvw;
+      right: 0;
+      bottom: 0;
+      z-index: 3;
+      cursor: unset;
+      aspect-ratio: auto;
+      transition: none;
+      animation: zoom .2s linear forwards;
+    }
+
+    .expand:hover {
+      cursor: zoom-out;
+    }
+
+    .expand img {
+      border: var(--border);
+      margin: 0 auto;
+      max-height: 80dvh;
+      width: auto;
+    }
+
+    @keyframes zoom {
+      0% {
+        transform: scale(0.6);
+      } 100% {
+        transform: scale(1);
       }
     }
   </style>
@@ -1177,5 +1270,53 @@
       {{ content | safe }}
     </main>
     {% include "footer.njk" %}
+
+
+    <script>
+      const carousel = document.querySelector('.carousel');
+      const body = document.body;
+
+      body.addEventListener('click', function(e) {
+        if(body.classList.contains('lightbox')) {
+          closeDialog();
+        }
+      });
+
+      carousel.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const showDialog = () => {
+          const scrollY = document.documentElement.style.getPropertyValue('--scroll-y');
+          console.log(scrollY);
+          document.body.style.top = `-${window.scrollY}px`;
+          document.body.style.minHeight = `calc(100dvh + ${window.scrollY}px`;
+          body.style.position = 'fixed';
+          body.classList.add('lightbox');
+          carousel.classList.add('carousel-expanded');
+          e.srcElement.parentElement.classList.add('expand');
+        };
+
+        const closeDialog = () => {
+          const scrollY = body.style.top;
+          body.style.position = '';
+          body.style.top = '';
+          window.scrollTo(0, parseInt(scrollY || '0') * -1);
+
+          for (const img of document.querySelectorAll('.expand')) {
+            img.classList.remove('expand')
+          }
+
+          body.classList.remove('lightbox');
+          carousel.classList.remove('carousel-expanded');
+        };
+
+        if(carousel.classList.contains('carousel-expanded')) {
+          closeDialog();
+        } else {
+          showDialog();
+        }
+      });
+    </script>
   </body>
 </html>

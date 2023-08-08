@@ -8,10 +8,18 @@ dateRange: 2023
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/search-concepts/search-concepts-01.webp" alt="Concept designs showing the Sentry interface" />
-  <img src="/images/projects/search-concepts/search-concepts-02.webp" alt="Concept designs showing the Sentry interface" />
-  <img src="/images/projects/search-concepts/search-concepts-03.webp" alt="Concept designs showing the Sentry interface" />
-  <img src="/images/projects/search-concepts/search-concepts-04.webp" alt="Concept designs showing the Sentry interface" />
+  <a href="/images/projects/search-concepts/search-concepts-01.webp">
+    <img src="/images/projects/search-concepts/search-concepts-01.webp" alt="Concept designs showing the Sentry interface" />
+  </a>
+  <a href="/images/projects/search-concepts/search-concepts-02.webp">
+    <img src="/images/projects/search-concepts/search-concepts-02.webp" alt="Concept designs showing the Sentry interface" />
+  </a>
+  <a href="/images/projects/search-concepts/search-concepts-03.webp">
+    <img src="/images/projects/search-concepts/search-concepts-03.webp" alt="Concept designs showing the Sentry interface" />
+  </a>
+  <a href="/images/projects/search-concepts/search-concepts-04.webp">
+    <img src="/images/projects/search-concepts/search-concepts-04.webp" alt="Concept designs showing the Sentry interface" />
+  </a>
 </div>
 
 <div class="columns-1-7">

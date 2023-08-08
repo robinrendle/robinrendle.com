@@ -8,9 +8,15 @@ dateRange: 2021
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/notifications/notifications-01.webp" alt=""/>
-  <img src="/images/projects/notifications/notifications-02.webp" alt=""/>
-  <img src="/images/projects/notifications/notifications-03.webp" alt=""/>
+  <a href="/images/projects/notifications/notifications-01.webp">
+    <img src="/images/projects/notifications/notifications-01.webp" alt=""/>
+  </a>
+  <a href="/images/projects/notifications/notifications-02.webp">
+    <img src="/images/projects/notifications/notifications-02.webp" alt=""/>
+  </a>
+  <a href="/images/projects/notifications/notifications-03.webp">
+    <img src="/images/projects/notifications/notifications-03.webp" alt=""/>
+  </a>
 </div>
 
 <div class="columns-1-7">

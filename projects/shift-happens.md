@@ -9,8 +9,12 @@ dateRange: 2023
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/shift-happens/shift-happens-02.webp" alt="A photograph of the physical book"/>
-  <img src="/images/projects/shift-happens/shift-happens-01.webp" alt="A screenshot of Marcin and I laughing at some nerdy book thing"/>
+  <a href="/images/projects/shift-happens/shift-happens-02.webp">
+    <img src="/images/projects/shift-happens/shift-happens-02.webp" alt="A photograph of the physical book"/>
+  </a>
+  <a href="/images/projects/shift-happens/shift-happens-01.webp">
+    <img src="/images/projects/shift-happens/shift-happens-01.webp" alt="A screenshot of Marcin and I laughing at some nerdy book thing"/>
+  </a>
 </div>
 
 <div class="columns-1-7">

@@ -8,8 +8,12 @@ website: css-tricks.com
 ---
 
 <div class="carousel columns-7-13">
-  <img src="/images/projects/css-tricks/css-tricks-04.webp" alt="A screenshot of an article I wrote"/>
-  <img src="/images/projects/css-tricks/css-tricks-01.webp" alt="The CSS-Tricks homepage"/>
+  <a href="/images/projects/css-tricks/css-tricks-04.webp">
+    <img src="/images/projects/css-tricks/css-tricks-04.webp" alt="A screenshot of an article I wrote"/>
+  </a>
+  <a href="/images/projects/css-tricks/css-tricks-01.webp">
+    <img src="/images/projects/css-tricks/css-tricks-01.webp" alt="The CSS-Tricks homepage"/>
+  </a>
 </div>
 
 <div class="columns-1-7">
