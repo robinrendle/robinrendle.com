@@ -285,11 +285,18 @@
         color: var(--color-text);
         hyphens: auto;
         transition: all .3s ease;
-        line-height: 0.8;
+        line-height: 1.2;
         font-family: var(--title);
-        font-size: clamp(1.6rem, 6vw, 2rem);
+        font-size: clamp(2rem, 6vw, 2.1rem);
         font-weight: 600 !important;
         filter: url(#noise);
+      }
+
+      @media screen and (min-width: 600px) {
+        .extract-text {
+          line-height: 0.8;
+          font-size: clamp(1.6rem, 6vw, 2rem);
+        }
       }
 
       .extract-text:hover {
