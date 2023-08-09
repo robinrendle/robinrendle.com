@@ -7,7 +7,7 @@ country: California
 extract: A new website (again).
 ---
 
-Last month I redesigned my website, so it’s about time to do it again. This one includes a bunch of details that might be interesting to talk through but perhaps it’s better to call this a “reshuffle” more than a “redesign.”
+Last month I redesigned my website, so it’s about time to do it again. This one includes a bunch of interesting details to talk through but perhaps it’s better to call this a “reshuffle” more than a “redesign.”
 
 ### i.
 
