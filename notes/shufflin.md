@@ -13,11 +13,9 @@ Last month I redesigned my website, so it’s about time to do it again. This on
 
 I’ve replaced everything with Söhne, my typographic kudzu: I spotted these beautiful letters a few months ago and every time I return to them they grow on me a little more. Which is odd since because Helvetica was everywhere growing up, I’ve never looked kindly upon neo-grotesques. Every poster and movie and every logo and website used some flavor of Helvetica. As a budding designer, it felt like Helvetica was a problem, an antagonist, the typographic equivalent of a lazy metaphor that’s best avoided.
 
-As Helvetica was everywhere and used for everything it didn’t really mean _anything_ to me.
-
 If you put Helvetica right up next to Söhne then most folks probably wouldn’t notice the difference. And yet...Söhne is still a constant surprise. It has this warmth and elegance that is especially [Klim](https://klim.co.nz/), capturing the printed feeling of Akzidenz-Grotesk—the great grandfather of Helveticas.
 
-<p style="font-family: 'Helvetica Neue', Helvetica, Arial;">Here’s a paragraph set in Helvetica Neue. A lot of folks argue about the differences between Arial and Helvetica and the Neue version but it’s all the same to me. There’s a mechanical bite, maybe even a lack of humanity in these shapes. There’s nothing to point to exactly to prove my point, it’s more a gut feeling.</p>
+<p style="font-family: 'Helvetica Neue', Helvetica, Arial;">Here’s a paragraph set in Helvetica Neue. A lot of folks argue about the differences between Arial and Helvetica and the Neue version but it’s all the same to me. There’s a mechanical bite, maybe even a lack of humanity in these shapes. There’s nothing to point to exactly, it’s more a gut feeling.</p>
 
 See how the difference is so slight between these two paragraphs and yet you can feel it, right? Maybe it’s in the letter spacing. Either way, I hear chalkboards screeching when paragraphs of text are set in the Helveticas. Söhne is somehow more graceful and kinder on the eyes: I can read it all day long and still want to read more.
 
