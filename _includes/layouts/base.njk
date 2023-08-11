@@ -302,7 +302,7 @@
         text-decoration: none;
         color: var(--color-text);
         hyphens: auto;
-        transition: all .3s ease;
+        transition: color .3s ease;
         line-height: 1.2;
         font-family: var(--title);
         font-size: clamp(2rem, 6vw, 2.1rem);
@@ -928,8 +928,10 @@
     .article-list-link:hover, .article-list-link:focus {
       background: var(--color-real-black);
       color: var(--color-text) !important;
-      {# transform: scale(1.02); #}
+      transform: scale(1.02);
       border-color: transparent;
+      margin-top: -1px;
+      margin-bottom: 1px;
     }
 
     .notelist-date {
