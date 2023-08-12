@@ -7,7 +7,9 @@ country: California
 extract: Speed is a measurement of empathy.
 ---
 
-Friends!
+Friends! Pals! Digital librarians!
+
+![A picture of the Judd Foundation Library website](/images/library.png)
 
 I’ve been thinking about what makes a website cool and it all started with this [note from Henry](https://front-end.social/@henry/110787420208650070):
 
@@ -15,7 +17,7 @@ I’ve been thinking about what makes a website cool and it all started with thi
 
 I couldn’t agree more since my tabs have been full of funky URLs lately, like the [Judd Foundation Library](https://library.juddfoundation.org/) which—brace yourself—is marvelously web two-point-oh-ey. It’s a website where you can zoom around the library like a ghost. Make sure to scroll down a bit that page and you can select a set of bookshelves to examine, zoom in, and from there you can tap a book on the shelf and see more info about it.
 
-Isn’t this incredible? I can’t help but look at websites like this and think “Ah, yes. This is really what the web is for.” This is the web at it’s very best; the web as a liberator for information, the web as a fountain of knowledge and wisdom and kindness.
+Isn’t this incredible? I can’t help but look at websites like this and think “Ah, yes. This is really what the web is for.” This is the web at its very best; the web as a liberator for information, the web as a fountain of knowledge and wisdom and kindness.
 
 The web is just so cool!
 
