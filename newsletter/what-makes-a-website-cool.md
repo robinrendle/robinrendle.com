@@ -25,7 +25,7 @@ Sometimes a website like this can ruin my whole day because there are _sigh_ web
 
 So what makes a website cool? URLs first and foremost, yes. I think that’s a good sign. Next up would have to be speed. I wrote about [how important speed](https://robinrendle.com/notes/marmite-defontes/) is when I spotted this new typefoundry website called [Marmite Defontes](https://marmitedefontes.com/). Playing around with that site reminded me how cool speed is and that, perhaps, it’s the most important quality. I’ll take a website without p3 colors, or a website with a bad URL, or a website with confusing writing if it means that I get a fast website down the wire.
 
-Speed has to be the easiest way to make your website cool because it’s simply a matter of saying “no” over and over again. Making a website really fast isn’t particularly hard, it’s just a matter of focus and attention (if ya don’t care about speed then your website will be slow). But when a website loads in under 500ms I feel that the people behind this website care about me more than just a number in a spreadsheet or a pixel in a dashboard. When it comes to web design speed is a measurement of empathy.
+Speed has to be the easiest way to make your website cool because it’s simply a matter of saying “no” over and over again. Making a website really fast isn’t particularly hard, it’s just a matter of focus and attention (if ya don’t care about speed then your website will be slow). But when a website loads in under 500ms I feel that the people behind this website care about me more than just a number in a spreadsheet or a pixel in a dashboard. When it comes to web design, speed is a measurement of empathy.
 
 So: URLs, speed. Okay, what else makes a website cool?
 
