@@ -15,7 +15,7 @@ I’ve been thinking about what makes a website cool and it all started with thi
 
 > the coolness of the url is inversely proportional to the coolness of the web project. the best website you'll ever find is gonna be something like libra.v2.progrecali.​edu/oct2023/dept/manifesto.html, but going to etherzone​.ooo or, say, x.​com will be the worst experience of your life
 
-I couldn’t agree more since my tabs have been full of funky URLs lately, like the [Judd Foundation Library](https://library.juddfoundation.org/) which—brace yourself—is marvelously web two-point-oh-ey. It’s a website where you can zoom around the library like a ghost. Make sure to scroll down a bit that page and you can select a set of bookshelves to examine, zoom in, and from there you can tap a book on the shelf and see more info about it.
+I couldn’t agree more since my tabs have been full of funky URLs lately, like the [Judd Foundation Library](https://library.juddfoundation.org/) which—brace yourself—is marvelously web two-point-oh-ey. It’s a website where you can zoom around the library like a ghost. Make sure to scroll down a bit on that page and you can select a set of bookshelves to examine, zoom in, and from there you can tap a book on the shelf and see more info about it.
 
 Isn’t this incredible? I can’t help but look at websites like this and think “Ah, yes. This is really what the web is for.” This is the web at its very best; the web as a liberator for information, the web as a fountain of knowledge and wisdom and kindness.
 
