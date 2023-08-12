@@ -9,17 +9,7 @@ extract: Speed is a measurement of empathy.
 
 Friends!
 
-Short update this week:
-
-- Wrapping up an exciting freelance project
-- Redesigned my site, [wrote about it](https://robinrendle.com/notes/shufflin/)
-- Did an interview for a thing about blogging
-- Applied to a thousand product design gigs
-- Played the heck out of Baldur’s Gate 3 and hot damn is it the best writing in a videogame huh.
-
----
-
-I’ve been thinking about what makes a website cool. It all started with this [note from Henry](https://front-end.social/@henry/110787420208650070):
+I’ve been thinking about what makes a website cool and it all started with this [note from Henry](https://front-end.social/@henry/110787420208650070):
 
 > the coolness of the url is inversely proportional to the coolness of the web project. the best website you'll ever find is gonna be something like libra.v2.progrecali.​edu/oct2023/dept/manifesto.html, but going to etherzone​.ooo or, say, x.​com will be the worst experience of your life
 
