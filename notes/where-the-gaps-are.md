@@ -24,6 +24,6 @@ Look, as a designer, you should always be building your portfolio. That sounds l
 
 Also, every project that disappears off the face of the earth or every project that isn’t good enough or doesn’t eventually ship can hurt you in the future. I’ve spent _years_ working on projects that don’t ship and this looks bad on you in interviews. That’s incredibly stupid, yes, but it’s how design interviews work. If you think a team or a project is a dead-end then you need to jump ship as politely as possible. Not just for your mental health, but also for future gigs you want to apply to.
 
-Because your portfolio is the door and the key. It opens and unlocks all the future possibilities in your career, and in this jerk’s opinion it’s the second most valuable asset we have besides a blog. Your portfolio can be plain spoken, or silly, or magnificent, gargantuan and hulking, with in-depth case studies and fantastic animations. That doesn’t really matter though.
+Because your portfolio is the door and the key. It opens and unlocks all the future possibilities in your career, and in this jerk’s opinion it’s the second most valuable asset we have besides a blog. Your portfolio can be plain spoken, or silly, or magnificent, gargantuan and hulking, with in-depth case studies and fantastic animations. That doesn’t really matter though. You just need to tend to your portfolio every once and while, it’ll pay off eventually.
 
-Yes, me, I’m looking squarely at you. You need to take care of your portfolio so that, at some point in the future, it can take care of you.
+Because yes, me, I’m looking squarely at you. You need to take care of your portfolio so that, at some point in the future, it can take care of you.
