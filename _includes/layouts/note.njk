@@ -7,7 +7,7 @@ templateClass: tmpl-post
 
   <div class="intro-meta">
     <div class="intro-meta-content">
-      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time> 
+      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time> 
 
       {% if city %}
         / {{city}}, {{country}}

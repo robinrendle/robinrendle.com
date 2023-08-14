@@ -8,7 +8,7 @@ templateClass: tmpl-project
   <h1 id="heading" id="heading">{{ title }}</h1>
   <div class="intro-meta">
     <div class="intro-meta-content intro-meta-content-wide">
-      <a href="https://{{website}}">{{website}}</a> / {{dateRange}}
+      <a href="https://{{website}}">{{website}}</a> / <time datetime="{{ page.date | htmlDateString }}">{{ page.date | projectsDate }}</time> 
     </div>
   </div>
 </header>
