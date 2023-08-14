@@ -5,7 +5,10 @@ company: Shift Happens
 website: shifthappens.site
 extract: A chat with Marcin Wichary.
 date: 2023-03-15 09:00:00
-dateRange: 2023
+dateRange: 02/23
+images:
+  - shift-happens/shift-happens-01.webp
+  - shift-happens/shift-happens-02.webp
 ---
 
 <div class="carousel columns-7-13">
@@ -25,6 +28,6 @@ My role here was simple: ask smart questions, look extremely handsome, and gasp 
 
 Perhaps my favorite part of this conversation is towards the end when Marcin talks about the database of images, ephemera, and general typewriter information that he created to support his writing. It’s a fascinating look into what it takes to make a book on this scale, at this level, from a writer/designer who I admire so very much.
 
-[Watch the interview](https://www.youtube.com/embed/ktIuUa0uf7E)
+[Watch the interview](https://www.youtube.com/watch?v=ktIuUa0uf7E)
 
 </div>

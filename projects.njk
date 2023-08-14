@@ -6,28 +6,43 @@ title: Projects
 
 <header class="intro-wrapper">
   <h1 class="title" id="heading">Projects</h1>
-  <div class="intro-meta">
-    <div class="intro-meta-content intro-meta-content-wide">
-      8 Projects / 27,000 Caffeinated Beverages
-    </div>
-  </div>
 </header>
 
-<div class="main-content">
-  <div class="content-list">
-    <ul reversed class="article-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-    {% for note in collections.projects | reverse %}
-      <li class="article-list-item">
-        <a class="article-list-link" href="{{ note.url | url }}">
-          <div class="article-list-item-title">
-            {% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}
-            <div class="article-list-item-extract">{{note.data.extract}}</div>
+<div class="main-content main-content-full">
+  <div class="article article-wide article-projects">
+    <div reversed class="content-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+  
+      <div class="project-list">
+        {# Can’t figure out a way to push the calendar to the right without this absolute garbage HTML, sorry Jeremy please don’t tell my mom #}
+        <a class="project">
+          <div class="project-date">
+            <div class="project-date-content">
+              XXXX
+            </div>
           </div>
-          <div class="notelist-date">{{note.data.dateRange}}</div>
         </a>
-      </li>
-    {% endfor %}
-    </ul>
+        {% for note in collections.projects | reverse %}
+          <a class="project" href="{{ note.url | url }}">
+            <div class="project-date">
+              <div class="project-date-content">
+                {{note.data.dateRange}}
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-carousel">
+                {% for item in note.data.images | head(1) %}
+                  <img src="/images/projects/{{item}}" />
+                {% endfor %}
+              </div>
+              <div class="project-meta">
+                <h2 class="project-title">{{ note.data.title }}</h2>
+                <p class="project-extract">{{note.data.extract}}</p>
+              </div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
 

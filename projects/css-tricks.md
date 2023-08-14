@@ -2,9 +2,12 @@
 layout: layouts/projects/project.njk
 title: CSS-Tricks
 extract: Writing for the best website ever made.
-date: 2021-04-28 09:00:00
-dateRange: 2014–2022
+date: 2022-03-28 09:00:00
+dateRange: 03/22
 website: css-tricks.com
+images:
+  - css-tricks/css-tricks-04.webp
+  - css-tricks/css-tricks-01.webp
 ---
 
 <div class="carousel columns-7-13">

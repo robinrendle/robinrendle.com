@@ -4,7 +4,12 @@ title: Search Concepts
 website: sentry.io
 extract: Improving search at Sentry.
 date: 2023-04-28 09:00:00
-dateRange: 2023
+dateRange: 04/23
+images:
+  - search-concepts/search-concepts-01.webp
+  - search-concepts/search-concepts-02.webp
+  - search-concepts/search-concepts-03.webp
+  - search-concepts/search-concepts-04.webp
 ---
 
 <div class="carousel columns-7-13">

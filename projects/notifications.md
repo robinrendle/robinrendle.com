@@ -2,9 +2,13 @@
 layout: layouts/projects/project.njk
 title: Notifications Concepts
 website: sentry.io
-extract: Showing important Sentry messages at just the right time.
-date: 2021-06-10 09:00:00
-dateRange: 2021
+extract: The right message at the right time.
+date: 2021-09-10 09:00:00
+dateRange: 09/21
+images:
+  - notifications/notifications-01.webp
+  - notifications/notifications-02.webp
+  - notifications/notifications-03.webp
 ---
 
 <div class="carousel columns-7-13">

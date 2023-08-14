@@ -2,9 +2,13 @@
 layout: layouts/projects/project.njk
 title: Alerts
 website: sentry.io
-extract: Detecting important problems with Sentry.
+extract: Detecting problems with Sentry.
 date: 2022-04-29 09:00:00
-dateRange: 2022
+dateRange: 08/22
+images:
+  - alerts/alerts-02.webp
+  - alerts/alerts-01.webp
+  - alerts/alerts-04.webp
 ---
 
 <div class="carousel columns-7-13">

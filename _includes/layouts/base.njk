@@ -205,6 +205,11 @@
         margin-bottom: 2rem;
       }
 
+      .main-content-full {
+        max-width: 100%;
+        padding: 0;
+      }
+
       {# for images/iframes etc. #}
       .full-width {
         width: calc(100vw - 50px);
@@ -216,6 +221,7 @@
 
       .content-full {
         grid-column: 1/13;
+        margin-top: 30px;
       }
 
       .content-list {
@@ -371,6 +377,7 @@
       h1, h2, h3, h4 {
         font-family: var(--sans);
         color: var(--color-title);
+        -webkit-font-smoothing: antialiased;
       }
 
       h1 {
@@ -517,7 +524,7 @@
           padding: 14px 30px 16px 30px;
           font-size: 20px;
           height: 65px;
-          width: 132px;
+          min-width: 132px;
         }
       }
 
@@ -538,6 +545,7 @@
         align-items: center;
         height: 60px;
         width: 60px;
+        min-width: 60px;
       }
 
       @media screen and (min-width: 800px) {
@@ -546,6 +554,7 @@
           padding-left: 25px;     
           height: 65px; 
           width: 65px;
+          min-width: 65px;
         }
       }
 
@@ -778,6 +787,13 @@
         margin: 0 auto;
       }
 
+      .date-wrapper {
+        padding: var(--space-2) var(--grid-space); 
+        color: var(--color-meta);
+        font-size: var(--font-size-8);
+        background: var(--color-nav-background);
+      }
+
       .intro-meta-content {
         font-size: var(--font-size-8);
         color: var(--color-meta);
@@ -874,16 +890,6 @@
       }
     }
 
-    .main-content--wide .aside {
-      width: 30%;
-      float: right;
-    }
-
-    .main-content--wide .main {
-      width: 70%;
-      float: left;
-    }
-
     p img {
       margin-bottom: 0 !important;
     }
@@ -891,6 +897,14 @@
     .article-list {
       grid-column: var(--grid-article-columns);
       padding: 0;
+    }
+
+    .article-projects {
+      padding-top: 0;
+    }
+
+    .article-projects .content-list {
+      margin-top: 0;
     }
     
     .article-list-item {
@@ -946,6 +960,7 @@
       .notelist-date {
         align-self: center;
         text-align: right;
+        margin-top: 0;
         opacity: 1;
       }
     }
@@ -1045,9 +1060,165 @@
         transform: scale(1);
       }
     }
+
+    .project-list {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      overflow: scroll;
+      padding-top: 0;
+    }
+
+    @media screen and (min-width: 900px) {
+      .project-list {
+        gap: 80px;
+      }
+    }
+
+    .project-list::-webkit-scrollbar {
+      display: none;
+    }
+
+    .project {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      text-decoration: none;
+      position: relative;
+      width: 280px;
+      min-width: 280px;
+      max-width: 280px;
+    }
+
+    @media screen and (min-width: 900px) {
+      .project {
+        width: 700px;
+        min-width: 700px;
+        max-width: 700px;
+      }
+    }
+
+    {# fake project that pushes the calendar to the right ughhhhhh #}
+    .project:first-of-type {
+      width: 5px;
+      min-width: 5px;
+      max-width: 5px;
+      margin-left: -20px;
+    }
+
+    .project:first-of-type .project-date-content {
+      color: transparent; 
+    }
+
+    .project:first-of-type .project-date:after {
+      display: none;
+    }
+
+    .project-content {
+      padding-left: 0;
+      padding-top: 40px;
+    }
+
+    .project-title {
+      margin: 0;
+      font-size: var(--font-size-3);
+    }
+
+    .project-extract {
+      margin: 0;
+      color: var(--color-meta);
+    }
+  
+    .project-meta {
+      padding-top: 10px;
+      margin-bottom: 50px;
+      font-size: 100%;
+    }
+
+    .project-meta p {
+      font-size: var(--font-size-small);
+    }
+
+    @keyframes metacontent {
+      from {
+        opacity: 0;
+        transform: translate(-10px, 0px);
+      } 
+    }
+
+    .project-date {
+      color: var(--color-meta);
+      font-size: var(--font-size-4);
+      position: relative;
+      background-color: var(--color-nav-background);
+      padding: 14px var(--grid-space);
+      border-bottom: var(--border);
+      background-repeat: repeat-x;
+      background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDUwIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxsaW5lIHgxPSIwLjUiIHkxPSIyLjE4NTUyZS0wOCIgeDI9IjAuNSIgeTI9IjkiIHN0cm9rZT0iIzM0MzQzNCIvPgo8bGluZSB4MT0iMTAuNSIgeTE9IjIuMTg1NTJlLTA4IiB4Mj0iMTAuNSIgeTI9IjkiIHN0cm9rZT0iIzM0MzQzNCIvPgo8bGluZSB4MT0iMjAuNSIgeTE9IjIuMTg1NTJlLTA4IiB4Mj0iMjAuNSIgeTI9IjkiIHN0cm9rZT0iIzM0MzQzNCIvPgo8bGluZSB4MT0iMzAuNSIgeTE9IjIuMTg1NTJlLTA4IiB4Mj0iMzAuNSIgeTI9IjkiIHN0cm9rZT0iIzM0MzQzNCIvPgo8bGluZSB4MT0iNDAuNSIgeTE9IjIuMTg1NTJlLTA4IiB4Mj0iNDAuNSIgeTI9IjkiIHN0cm9rZT0iIzM0MzQzNCIvPgo8L3N2Zz4K");
+      background-position: bottom;
+      left: -25px;
+      width: calc(100% + 61px);
+      height: 55px;
+    }
+
+    @media screen and (min-width: 900px) {
+      .project-date {
+        width: calc(100% + 101px);
+      }
+    }
+
+    .project-date-content {
+      text-align: center;
+      width: 50px;
+      text-wrap: nowrap;
+    }
+
+    .project-date:after {
+      content: "";
+      width: 1px;
+      height: 9px;
+      background-color: var(--color-white);
+      position: absolute;
+      bottom: 0;
+      left: 25px;
+      z-index: 2;
+    }
+
+    .project-carousel {
+      display: flex;
+      gap: 20px;
+    }
+
+    .project-carousel img {
+      max-height: 180px;
+      height: 180px;
+      width: auto;
+      width: fit-content;
+      border-radius: 2px;
+      margin: 0;
+      padding: 10px;
+      background: var(--color-bg);
+      margin-bottom: 10px;
+      transition: 0.3s all linear;
+      border: 1px solid transparent;
+      background: var(--color-img-bg);
+    }
+
+    @media screen and (min-width: 900px) {
+      .project-carousel img {
+        max-height: 400px;
+        height: 400px;
+      }
+    }
+
+    .project:hover .project-carousel img {
+      opacity: 1;
+      transform: scale(1.01);
+      border: 1px solid var(--color-border);
+    }
   </style>
     {# Code Styles #}
-    <style>
+  <style>
       /*
       Name: Duotone Dark
       Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
@@ -1266,6 +1437,7 @@
         <a href="/notes" class="{% if '/notes' in page.url %}active{% endif %}">Notes</a>
         <a href="/essays" class="{% if '/essays' in page.url %}active{% endif %}">Essays</a>
         <a href="/projects" class="{% if '/projects' in page.url %}active{% endif %}">Projects</a>
+        <a href="/newsletter" class="{% if '/newsletter' in page.url %}active{% endif %}">Newsletter</a>
       </nav>
     </div>
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>

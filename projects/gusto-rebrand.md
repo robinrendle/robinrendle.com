@@ -1,10 +1,15 @@
 ---
 layout: layouts/projects/project.njk
-title: Gusto Rebrand
+title: Design Systems
 website: gusto.com
 extract: Rebranding the Gusto web app.
 date: 2019-04-29 09:00:00
-dateRange: 2019
+dateRange: 07/19
+images:
+  - gusto/gusto-rebrand.webp
+  - gusto/tabular-numbers.svg
+  - gusto/typographic-scales.svg
+  - gusto/spreadsheet.webp
 ---
 
 <div class="carousel columns-7-13">

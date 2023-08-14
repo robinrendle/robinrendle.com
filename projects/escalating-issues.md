@@ -3,8 +3,12 @@ layout: layouts/projects/project.njk
 title: Escalating Issues
 website: sentry.io
 extract: Helping engineers find relevant issues.
-date: 2023-04-29 09:00:00
-dateRange: 2023
+date: 2023-03-29 09:00:00
+dateRange: 03/23
+images:
+  - escalating-issues/escalating-issues-01.webp
+  - escalating-issues/escalating-issues-03.webp
+  - escalating-issues/escalating-issues-02.webp
 ---
 
 <div class="carousel columns-7-13">
