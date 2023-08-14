@@ -20,7 +20,7 @@ And it feels pretty nice! I like being able to scan over my work and, instead of
 
 This portfolio is also a good reminder of a few places where I’ve slipped up over the years. Career hiccups, if you will. You won’t? Rude.
 
-Look, as a designer, you should always be building your portfolio. That sounds lame and boring but you need to make sure you record everything; copy all your docs from your design tool of choice and keep a private record of every SVG and napkin sketch. Ensure that you have all those high definition assets stored safe for later because you’ll eventually need them and keep things organized! Treat your portfolio as you would any client project (I’m especially bad at this).
+Look, as a designer, you should always be building your portfolio. That sounds lame and boring but you need to make sure you record everything; copy all your docs from your design tool of choice and keep a private record of every SVG and napkin sketch. Ensure that you have all those high definition assets stored safe for later because you’ll eventually need them. Oh and keep things organized! Treat your portfolio as you would any client project (I’m especially bad at this).
 
 Also, every project that disappears off the face of the earth or every project that isn’t good enough or doesn’t eventually ship can hurt you in the future. I’ve spent _years_ working on projects that don’t ship and this looks bad on you in interviews. That’s incredibly stupid, yes, but it’s how design interviews work. If you think a team or a project is a dead-end then you need to jump ship as politely as possible. Not just for your mental health, but also for future gigs you want to apply to.
 
