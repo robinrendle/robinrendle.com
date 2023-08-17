@@ -13,7 +13,7 @@ country: California
 
 <div class="columns-1-8">
 
-<p class="intro">I’m Robin, a designer and writer, and my work sits in the weird gap between web design and publishing. I’m currently open to full-time product design roles or freelance design gigs.</p>
+<p class="intro">I’m Robin, a designer and writer. I’m currently open to full-time product design roles or freelance design gigs.</p>
 
 Please send all compliments to robinjrendle@gmail.com
 
