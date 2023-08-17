@@ -19,7 +19,7 @@ Please send all compliments to robinjrendle@gmail.com
 
 </div>
 
-<div class="columns-1-8">
+<div class="columns-1-7">
 
 <h2 class="margin-top-0">About this website</h2>
 
@@ -33,7 +33,7 @@ Also, also! I tend to change the styles and typography of this website a lot, an
 
 </div>
 
-<div class="columns-1-8">
+<div class="columns-1-7">
 
 <h2 class="margin-top-0">Typesetting</h2>
 
@@ -47,10 +47,4 @@ I hope that the design of this here site pays homage to that history.
 
 <small class="cell-t60">— August 2023, San Francisco CA</small>
 
-</div>
-
-<div class="columns-8-13 container">
-  <div class="letter">
-    Aa
-  </div>
 </div>
