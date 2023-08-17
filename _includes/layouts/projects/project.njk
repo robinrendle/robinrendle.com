@@ -3,29 +3,112 @@ layout: layouts/base.njk
 templateClass: tmpl-project
 ---
 
+{# {% set firstPost = collections.projects | limit:1 %} #}
+{# {% set lastPost = collections.projects | limit:1 %} #}
+{% set previousPost = collections.projects | getPreviousCollectionItem %}
+{% set nextPost = collections.projects | getNextCollectionItem %}
 
 <header class="intro-wrapper">
   <h1 id="heading" id="heading">{{ title }}</h1>
   <div class="intro-meta">
     <div class="intro-meta-content intro-meta-content-wide">
-      <a href="https://{{website}}">{{website}}</a> / <time datetime="{{ page.date | htmlDateString }}">{{ page.date | projectsDate }}</time> 
+      <div>
+        <a href="https://{{website}}">{{website}}</a> / <time datetime="{{ page.date | htmlDateString }}">{{ page.date | projectsDate }}</time> 
+      </div>
     </div>
   </div>
 </header>
-
-{# {%- for tag in tags | filterTagList -%}
-  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %} #}
 <div class="main-content">
   <article class="article article-wide">
     {{ content | safe }}
-  </div>
   </article>
-{# 
-  <aside class="aside">
-    <img src="https://placehold.it/500x500" />
-  </aside> #}
 </div>
+
+<div class="main-content main-content-full no-margin">
+  <div class="pagination"> 
+    {% if nextPost %}
+      <a href="{{ nextPost.url }}">
+        <svg class="arrow arrow-left" width="118" height="97" viewBox="0 0 118 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50.194 0L0 47.1833L48.653 97L66.4851 79.4434L47.3321 61.2285L118 59.9118V35.552H47.3321L67.806 16.6787L50.194 0Z" fill="white"/>
+        </svg>
+        <div>
+          <span>Westbound</span>
+          {{nextPost.data.title}}
+        </div>
+      </a>
+      {% else %}
+      <a class="end-of-line">
+        <svg class="arrow arrow-left" width="118" height="97" viewBox="0 0 118 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50.194 0L0 47.1833L48.653 97L66.4851 79.4434L47.3321 61.2285L118 59.9118V35.552H47.3321L67.806 16.6787L50.194 0Z" fill="white"/>
+        </svg>
+        <div>
+          <span>Westbound</span>
+          End of Line
+        </div>
+      </a>
+    {% endif %}
+    {% if previousPost %}
+      <a href="{{ previousPost.url }}">
+        <div>
+          <span>Eastbound</span>
+          {{previousPost.data.title}}
+        </div>
+        <svg class="arrow arrow-right" width="118" height="97" viewBox="0 0 118 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50.194 0L0 47.1833L48.653 97L66.4851 79.4434L47.3321 61.2285L118 59.9118V35.552H47.3321L67.806 16.6787L50.194 0Z" fill="white"/>
+        </svg>
+      </a>
+      {% else %}
+      <a class="end-of-line">
+        <div>
+          <span>Eastbound</span>
+          End of Line
+        </div>
+        <svg class="arrow arrow-right" width="118" height="97" viewBox="0 0 118 97" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50.194 0L0 47.1833L48.653 97L66.4851 79.4434L47.3321 61.2285L118 59.9118V35.552H47.3321L67.806 16.6787L50.194 0Z" fill="white"/>
+        </svg>
+      </a>
+    {% endif %}
+  </div>
+</div>
+
+
+
+
+{# <div class="main-content main-content-full no-margin border-top">
+  <div class="article article-wide article-projects no-padding">
+    <div reversed class="content-list no-margin bg-nav" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+      <div class="project-list">
+        <a class="project">
+          <div class="project-date">
+            <div class="project-date-content">
+              XXXX
+            </div>
+          </div>
+        </a>
+        {% for note in collections.projects | reverse %}
+          <a id="{{note.data.title}}" class="project no-margin" href="{{ note.url | url }}">
+            <div class="project-date">
+              <div class="project-date-content">
+                {{note.data.dateRange}}
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-carousel">
+                {% for item in note.data.images | head(1) %}
+                  <img src="/images/projects/{{item}}" />
+                {% endfor %}
+              </div>
+              <div class="project-meta no-margin">
+                <h2 class="project-title">{{ note.data.title }}</h2>
+                <p class="project-extract">{{note.data.extract}}</p>
+              </div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div> #}
+
 
 

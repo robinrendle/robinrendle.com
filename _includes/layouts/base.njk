@@ -64,7 +64,7 @@
         --border-radius: 2px;
         --content-max-width: 40rem;
         --font-size-body: clamp(1.1rem, 3vw, 1.15rem);
-        --font-size-1: clamp(10vw, 40vw, 100vw);
+        --font-size-1: clamp(2.7rem, 7vw, 5rem);
         --font-size-2: clamp(1.3rem, 10vw, 1.4rem);
         --font-size-3: clamp(1rem, 3vw, 1.3rem);
         --font-size-4: clamp(1rem, 3vw, 1.15rem);
@@ -239,7 +239,7 @@
       
       .article {
         padding-top: var(--space-3);
-        padding-bottom: var(--space-5);
+        padding-bottom: var(--space-3);
         min-height: 60vh;
       }
 
@@ -756,6 +756,10 @@
         margin-top: var(--space-4);
       }
 
+      .tmpl-project footer {
+        display: none;
+      }
+
       .intro-wrapper {
         background: var(--color-nav-background);
         container-type: inline-size;
@@ -805,6 +809,8 @@
         font-size: var(--font-size-8);
         color: var(--color-meta);
         max-width: var(--content-max-width);
+        display: flex;
+        justify-content: space-between;
       }
 
       .intro-meta-content a {
@@ -908,6 +914,7 @@
 
     .article-projects {
       padding-top: 0;
+      padding-bottom: 0;
     }
 
     .article-projects .content-list {
@@ -1031,7 +1038,7 @@
         overflow: unset;
       }
     }
-
+  
     .expand {
       position: fixed;
       {# max-height: 80dvh; #}
@@ -1124,6 +1131,7 @@
     .project-content {
       padding-left: 0;
       padding-top: 40px;
+      transition: transform 0.3s ease;
     }
 
     .project-title {
@@ -1134,16 +1142,6 @@
     .project-extract {
       margin: 0;
       color: var(--color-meta);
-    }
-  
-    .project-meta {
-      padding-top: 10px;
-      margin-bottom: 50px;
-      font-size: 100%;
-    }
-
-    .project-meta p {
-      font-size: var(--font-size-small);
     }
 
     @keyframes metacontent {
@@ -1222,32 +1220,184 @@
     }
 
     .project-carousel img {
-      max-height: 180px;
-      height: 180px;
-      width: auto;
-      width: fit-content;
+      width: 100%;
       border-radius: 2px;
       margin: 0;
       padding: 10px;
-      background: var(--color-bg);
-      margin-bottom: 10px;
+      margin-bottom: 0;
       transition: 0.3s all linear;
       border: 1px solid transparent;
-      background: var(--color-img-bg);
+      filter: saturate(0);
     }
 
-    @media screen and (min-width: 900px) {
-      .project-carousel img {
-        max-height: 400px;
-        height: 400px;
-      }
+    .project:active .project-content {
+      transform: translate(0, 5px);
     }
 
     .project:hover .project-carousel img {
       opacity: 1;
       transform: scale(1.01);
       border: 1px solid var(--color-border);
+      background: var(--color-img-bg);
+      filter: saturate(1);
     }
+
+    .project-meta {
+      padding-top: 10px;
+      margin-bottom: 50px;
+      font-size: 100%;
+      padding: 15px;
+      border-radius: 0 0 3px 3px;
+      transition: all .3s linear;
+      border: 1px solid transparent;
+    }
+
+    .project-meta p {
+      font-size: var(--font-size-small);
+    }
+
+    .project:hover .project-meta {
+      background: var(--color-img-bg);
+      transform: scale(1.01);
+      border: 1px solid var(--color-border);
+    }
+
+    {# Helpers #}
+
+    .no-margin {
+      margin: 0 !important;
+    }
+
+    .no-padding {
+      padding: 0 !important;
+    }
+
+    .bg-nav {
+      background-color: var(--color-nav-background) !important;
+    }
+
+    .border-top {
+      border-top: var(--border);
+    }
+
+    .pagination {
+      background: var(--color-nav-background);
+      display: flex;
+      width: 100%;
+      grid-column: 1/13;
+      border-top: var(--border);
+      overflow: hidden;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    @media screen and (min-width: 800px) {
+      .pagination a {
+        display: flex;
+      }
+    }
+
+    .pagination a {
+      text-decoration: none;
+      container-type: inline-size;
+      font-weight: 600;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1;
+      text-wrap: nowrap;
+      transition: all 0.2s linear;
+      color: var(--color-white);
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pagination a:first-of-type {
+      justify-content: flex-start;
+    }
+
+    .pagination a:last-of-type {
+      justify-content: flex-end;
+    }
+
+    .pagination .arrow {
+      width: 60px;
+      min-width: 60px;
+      order: -1;
+    }
+
+    .arrow-right {
+      transform: rotate(180deg);
+    }
+
+    @media screen and (min-width: 600px) {
+      .pagination {
+        gap: 20px;
+        padding: 20px;
+        flex-direction: row;
+      }
+
+      .pagination a {
+        border-radius: 5px;
+        {# align-items: center; #}
+        width: 50%;
+      }
+
+      .pagination .arrow {
+        width: 100px;
+        min-width: 100px;
+      }
+    } 
+
+    @media screen and (min-width: 1200px) {
+      .pagination a {
+        flex-direction: row;
+      }
+
+      .pagination .arrow {
+        order: initial;
+      }
+    }
+
+
+    .pagination a:hover {
+      {# transform: scale(1.01); #}
+      color: var(--color-white);
+      background: var(--color-img-bg);
+    }
+
+    .pagination a svg path {
+      fill: var(--color-white) !important;
+    }
+
+    .pagination a span {
+      display: block;
+      font-size: 70%;
+      color: var(--color-meta);
+    }
+
+    .end-of-line {
+      display: none !important;
+    }
+
+    @media screen and (min-width: 600px) {
+      .end-of-line {
+        display: flex !important;
+      }
+    }
+
+    .end-of-line svg {
+      transform: rotate(-90deg);
+    }
+
+    .pagination a.end-of-line div, .pagination a.end-of-line span, .pagination a.end-of-line svg path {
+      color: var(--color-border) !important;
+      fill: var(--color-border) !important;
+      cursor: not-allowed;
+    }
+
   </style>
     {# Code Styles #}
   <style>
@@ -1433,7 +1583,7 @@
       }
     </style>
   </head>
-  <body>
+  <body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
     <svg class="hover-svg">
       <defs>
         <filter id='noise' x='0%' y='0%' width='150%' height='150%'>
@@ -1472,7 +1622,7 @@
         <a href="/newsletter" class="{% if '/newsletter' in page.url %}active{% endif %}">Newsletter</a>
       </nav>
     </div>
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+    <main>
       {{ content | safe }}
     </main>
     {% include "footer.njk" %}

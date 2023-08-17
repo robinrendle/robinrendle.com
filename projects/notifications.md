@@ -1,8 +1,8 @@
 ---
 layout: layouts/projects/project.njk
-title: Notifications Concepts
+title: Notifications
 website: sentry.io
-extract: The right message at the right time.
+extract: Design concepts for in-app messages.
 date: 2021-09-10 09:00:00
 dateRange: 09/21
 images:

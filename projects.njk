@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 permalink: /projects/
 title: Projects
+templateClass: tmpl-project
 ---
 
 <header class="intro-wrapper">
@@ -10,8 +11,7 @@ title: Projects
 
 <div class="main-content main-content-full">
   <div class="article article-wide article-projects">
-    <div reversed class="content-list" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-  
+    <div reversed class="content-list no-margin" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
       <div class="project-list">
         {# Can’t figure out a way to push the calendar to the right without this absolute garbage HTML, sorry Jeremy please don’t tell my mom #}
         <a class="project">
@@ -22,7 +22,7 @@ title: Projects
           </div>
         </a>
         {% for note in collections.projects | reverse %}
-          <a class="project" href="{{ note.url | url }}">
+          <a id="{{note.data.title}}" class="project" href="{{ note.url | url }}">
             <div class="project-date">
               <div class="project-date-content">
                 {{note.data.dateRange}}

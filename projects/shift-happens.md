@@ -1,9 +1,9 @@
 ---
 layout: layouts/projects/project.njk
-title: Shift Happens Interview
+title: Shift Happens
 company: Shift Happens
 website: shifthappens.site
-extract: A chat with Marcin Wichary.
+extract: An interview with Marcin.
 date: 2023-03-15 09:00:00
 dateRange: 02/23
 images:

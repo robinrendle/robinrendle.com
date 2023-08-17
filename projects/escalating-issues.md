@@ -1,8 +1,8 @@
 ---
 layout: layouts/projects/project.njk
-title: Escalating Issues
+title: Issue Status
 website: sentry.io
-extract: Helping engineers find relevant issues.
+extract: Showing relevant problems.
 date: 2023-03-29 09:00:00
 dateRange: 03/23
 images:

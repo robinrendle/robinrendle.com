@@ -7,11 +7,13 @@ templateClass: tmpl-post
 
   <div class="intro-meta">
     <div class="intro-meta-content">
-      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time> 
+      <div>
+        <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time> 
 
-      {% if city %}
-        / {{city}}, {{country}}
-      {% endif %}
+        {% if city %}
+          / {{city}}, {{country}}
+        {% endif %}
+      </div>
     </div>
   </div>
 </header>
