@@ -1299,9 +1299,8 @@
 
     .pagination a {
       text-decoration: none;
-      container-type: inline-size;
       font-weight: 600;
-      font-size: clamp(2rem, 5vw, 4rem);
+      font-size: clamp(2rem, 4vw, 3.2rem);
       line-height: 1;
       text-wrap: nowrap;
       transition: all 0.2s linear;
@@ -1309,7 +1308,6 @@
       justify-content: space-between;
       gap: 20px;
       padding: 20px;
-      width: 100%;
       display: flex;
       flex-direction: column;
     }
@@ -1341,13 +1339,12 @@
 
       .pagination a {
         border-radius: 5px;
-        {# align-items: center; #}
-        width: 50%;
+        align-items: center;
       }
 
       .pagination .arrow {
-        width: 100px;
-        min-width: 100px;
+        width: 80px;
+        min-width: 80px;
       }
     } 
 
@@ -1363,7 +1360,6 @@
 
 
     .pagination a:hover {
-      {# transform: scale(1.01); #}
       color: var(--color-white);
       background: var(--color-img-bg);
     }
