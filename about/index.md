@@ -13,7 +13,7 @@ country: California
 
 <div class="columns-1-8">
 
-<p class="intro">I’m Robin, a designer and writer. I’m currently open to full-time product design roles or freelance design gigs.</p>
+<p class="intro">I’m Robin, a designer and writer from the UK. Now I live in San Francisco and I’m currently open to full-time product design roles or freelance design gigs.</p>
 
 Please send all compliments to robinjrendle@gmail.com
 
