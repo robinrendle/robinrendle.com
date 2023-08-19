@@ -7,9 +7,7 @@ date: 2021-04-28 09:00:00
 dateRange: 04/21
 website: sentry.io
 images:
-  - dark-mode/dark-mode-01.webp
-  - dark-mode/dark-mode-02.webp
-  - dark-mode/dark-mode-03.webp
+  - dark-mode/dark-mode-intro.webp
 ---
 
 <div class="carousel columns-7-13">

@@ -6,9 +6,7 @@ extract: Design concepts for in-app messages.
 date: 2021-09-10 09:00:00
 dateRange: 09/21
 images:
-  - notifications/notifications-01.webp
-  - notifications/notifications-02.webp
-  - notifications/notifications-03.webp
+  - notifications/notifications-intro.webp
 ---
 
 <div class="carousel columns-7-13">
