@@ -27,7 +27,7 @@ One time, years ago, I was in an interview with a dozen folks for a portfolio re
 
 But also I know that job would’ve sucked! I would’ve been working with a bunch of folks who don’t agree with me about what’s funny, who don’t agree with me about what’s important in the work itself.
 
-So one of the hardest parts of being an adult and working with strangers is learning that sometimes it’s going to absolutely suck and there’s nothing you can do about it. There’s no convincing them, there’s no charming them, there’s no amount of change on your end that will make this relationship will work. You really just have to walk away and learn what you can from it.
+So one of the hardest parts of being an adult and working with strangers is learning that sometimes it’s going to absolutely suck and there’s nothing you can do about it. There’s no convincing them, there’s no charming them, there’s no amount of change on your end that will make this relationship work. You really just have to walk away and learn what you can from it.
 
 Same with dating, you have to be confident in yourself and realize that hey just this isn’t gonna work. And this is coming from me, with years and years of me pretending to be someone else. I’d be whatever the person in the bar wanted—a cool biker, a drinker, a smooth talker, a flirt. Instead of who I really am, the guy who just played Baldur’s Gate 3 for six days straight and is very excited to tell you about how he beat the matriarch phase spider.
 
