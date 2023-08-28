@@ -37,6 +37,6 @@ Concept #1 gives customers the ability to customize the page for their workflow.
 
 Let’s be honest though: devs don’t want to go hunting for bugs and they don’t wanna use search, ever. Ideally they just want to be told clearly and concisely that release X caused bug Y and it’s affecting N users.
 
-That’s where [the next project](/projects/escalating-issues) comes in.
+That’s where [the next project](/projects/issue-status) comes in.
 
 </div>
