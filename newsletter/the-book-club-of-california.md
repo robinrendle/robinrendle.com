@@ -65,7 +65,7 @@ After the three hour walkthrough I headed home, my mind spinning with fonts, and
 
 Sadly I couldn’t make it to other sessions since I didn’t feel so grand the next two days, so I was effectively locked in my apartment playing Baldur’s Gate 3 and feeling sad for myself.
 
-What did I learn from this little trip through? A few things. There’s this tiny boy energy about me that makes me want to believe I know everything about typography at this point. That I’ve already become the grand master, the old sage, the font guy. Talking with Paul reminded me that I know so very, very little about typography. Both in terms of style—what was available and when—but also technically, too. Wood type is a whole universe, a dimension filled with universes in fact, that I have basically no knowledge of whatsoever.
+What did I learn from this little trip through? A few things. There’s this tiny boy energy about me that believes I know everything about typography at this point. That I’ve already become the grand master, the old sage, the font guy. Talking with Paul reminded me that I know so very, very little about typography. Both in terms of style—what was available and when—but also technically, too. Wood type is a whole universe, a dimension filled with universes in fact, that I have basically no knowledge of whatsoever.
 
 This trip to the Book Club of California was a reminder then that I should always be the intern. I should always keep my eyes open, ask dumb questions, and find even more Pauls to teach me.
 
