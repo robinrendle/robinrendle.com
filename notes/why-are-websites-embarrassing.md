@@ -39,6 +39,6 @@ I have two reasons beyond the obvious answers.
 
 First, I think great web design requires discipline. And that’s really the hardest thing about making a website. In this field there are a thousand yes’s for every no because, and here’s the second reason: it’s impossible to hold a website in your hand. It’s hard and sometimes tedious to see all the variations of your work across the infinitude of devices and circumstances that might touch your site. When making a website it sometimes feel like you’re thinking in four dimensions instead of three.
 
-But really the baseline of web design is so low because there’s a lack of tenderness, care, and empathy. It’s because we don’t see the making of a website as a worthy profession. It’s bcause we hope to squeeze the last bit of juice from the orange by mulching people in between modals and pop ups and cookie banners.
+But really the baseline of web design is so low because there’s a lack of tenderness, care, and empathy. It’s because we don’t see the making of a website as a worthy profession. It’s because we hope to squeeze the last bit of juice from the orange by mulching people in between modals and pop ups and cookie banners.
 
 So how do we do better? How do we take better care of our websites?
