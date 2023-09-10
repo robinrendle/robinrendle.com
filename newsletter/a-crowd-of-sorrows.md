@@ -14,7 +14,7 @@ Friends! Comrades of the Eternal Gloom!
   <figcaption><a href="">Etidorhpa, or, The end of earth</a> p. 101, John August Knapp.</figcaption>
 </figure>
 
-This week I’ve been mopey—”Off Balance” if we’re going to describe our emotions with Baldur’s Gate 3 status descriptions—and it’s been rough-going for a few reasons but we’re going push through it all, screaming as we go, pretending that everything is okay together.
+This week I’ve been mopey—“Off Balance” if we’re going to describe our emotions with Baldur’s Gate 3 status descriptions—and it’s been rough-going for a few reasons but we’re going push through it all, screaming as we go, pretending that everything is okay together.
 
 But, I have to admit, things aren’t okay.
 
