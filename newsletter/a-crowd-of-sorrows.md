@@ -72,7 +72,7 @@ I’m reminded here of a poem by Rumi called The Guest House:
 > because each has been sent
 > as a guide from beyond.
 
-I can’t think of much advice from the 13th century that I take to heart but all this feels right to me. “Don’t be sad!” is a troubled, childish way to tackle grief and yet Rumi and my brother—who I’ve lovingly called Crick since I was two years old—shows us an alternative here: how to welcome that crowd of sorrows without being carried away by them.
+I can’t think of much advice from the 13th century that I take to heart but all this feels right to me. “Don’t be sad!” is a troubled, childish way to tackle grief and yet Rumi and my brother—who I’ve lovingly called Crick since I was two years old—show us an alternative here: how to welcome that crowd of sorrows without being carried away by them.
 
 There’s a kindness here that I find difficult to articulate, but it’s there all the same.
 
