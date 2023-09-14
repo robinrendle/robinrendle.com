@@ -11,6 +11,8 @@ update:
 city: Plymouth
 country: UK
 tags: unfeatured
+hero: /images/essays/home/emotional.webp
+alt: “Wood engraving by Charles Barbant, L'île mystérieuse. People are busy around a hot air balloon tethered on a city square and straining on its ropes.”
 ---
 
 Removing the book from its dusty place, I instantly recalled why I had forgotten it. My fingers remembered the rough paper and cheap binding, its unnecessary thickness and weight. My eyes glanced over its feeble, advertising stricken body and summoned the memory of its boring and conventional typesetting.

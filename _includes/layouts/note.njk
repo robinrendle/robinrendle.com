@@ -2,28 +2,19 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<header class="intro-wrapper">
-  <h1 id="heading" id="heading">{{ title }}</h1>
 
-  <div class="intro-meta">
-    <div class="intro-meta-content">
-      <div>
-        <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time> 
-
-        {% if city %}
-          / {{city}}, {{country}}
-        {% endif %}
+<div class="grid">
+  <article class="window grid-column-12">
+    <div class="window-title">
+      <h1 id="heading">{{ title }}</h1>  
+      <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | fullDate }}
+      </time>
+    </div>
+    <div class="window-content">
+      <div class="article-wrapper">
+        {{ content | safe }}
       </div>
     </div>
-  </div>
-</header>
-
-{# {%- for tag in tags | filterTagList -%}
-  {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{%- endfor %} #}
-<div class="main-content">
-  <article class="article">
-    {{ content | safe }}
   </article>
 </div>

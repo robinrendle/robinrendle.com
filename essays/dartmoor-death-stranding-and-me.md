@@ -6,4 +6,6 @@ extract: This place is not in favor of you.
 country: California
 city: San Francisco
 tags: unfeatured
+hero: /images/essays/home/dartmoor.webp
+alt: "Engraved by Charles Barbant. A man wearing a hat and carrying a canvas cover rolled up under his arm walks against the wind in a hail storm."
 ---

@@ -6,4 +6,6 @@ extract: First you notice the letter.
 city: Plymouth
 country: UK
 tags: unfeatured
+hero: /images/essays/home/lexicon.webp
+alt: "Engraved by Charles Barbant. A group of men stands at the entrance of a rocky tunnel. One of them has climbed onto a large rock lying on the ground and holds a torch high above his head, peering into the depths ahead of him."
 ---

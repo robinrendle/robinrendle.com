@@ -16,6 +16,8 @@ update:
 city: Plymouth
 country: UK
 tags: unfeatured
+hero: /images/essays/home/interactivity.webp
+alt: "Victor Rose in Les merveilles de la science, supplement 1. A standing woman, answering a call."
 ---
 
 On returning home at the start of the Christmas holidays I found the [Arion Press](http://fontsinuse.com/uses/30/moby-dick-the-arion-press-edition) trade edition of _Moby Dick_ waiting for me. However, unlike the majority of other books, you cannot but instantly remark upon how special it is.

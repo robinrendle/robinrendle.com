@@ -7,6 +7,8 @@ update: Designed by the author Joost Grootens, <cite><a href="http://thisispaper
 city: Nottingham
 country: UK
 tags: unfeatured
+hero: /images/essays/home/bookmarking.webp
+alt: "Wood engraving by Adolphe François Pannemaker. A man in a tropical forest happens upon a small bird caught in the web of a large spider."
 ---
 
 Designed by the author Joost Grootens, [I swear I use no art at all](http://thisispaper.com/Joost-Grootens-I-swear-I-use-no-art-at-all) is a secret, work-in-progress love letter to book design. Borderline autobiographical in nature, the author revisits his notes and diagrams of the dozens of printed materials and thousands of pages he published over the years, each meticulously and elaborately detailed.

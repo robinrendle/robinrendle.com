@@ -13,6 +13,8 @@ extract: Directories, files, and partials.
 city: Nottingham
 country: UK
 tags: unfeatured
+hero: /images/essays/home/interface.webp
+alt: "Engraved by Charles Barbant. On a ship, a man naked from the waist up and carrying a gun is stopped by the captain holding up a lantern to his face."
 ---
 
 As front-end developers and designers, we’re constantly refining two interfaces simultaneously: one for visitors who load the website, the other for developers who have to tackle the code in the future, when adjustments or full-scale redesigns must be made. Yet we tend to assign the role of “user” to the first group, often forgetting that the code we write must work for developers in a similar way. We shouldn’t forget that developers are users, too.

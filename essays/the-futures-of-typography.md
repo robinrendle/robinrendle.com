@@ -6,5 +6,6 @@ city: San Francisco
 country: California
 extract: And the skills we need.
 hero: /images/essays/home/futures.webp
-tags: unfeatured
+tags: featured
+alt: Frank Dicksee, The Cornhill magazine, vol. 39. In an untidy studio, a woman holds a print and shows it to the man standing behind her.
 ---

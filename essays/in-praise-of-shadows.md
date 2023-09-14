@@ -7,4 +7,5 @@ city: San Francisco
 country: California
 hero: /images/essays/home/shadows.webp
 tags: featured
+alt: Doré, Gustave. The days of chivalry, or the legend of Croquemitaine. A man wearing a suit of armor stands facing a towering and spectral figure holding a candle as other similar figures are leaving the scene in the background.
 ---
