@@ -25,7 +25,7 @@ There are some quirks that you have to put up with, sure. Like each ebook has to
 
 Every time I pick this thing up though I can’t help think about that future-of-the-book stuff. The annoying what-if stuff. Like, what if ebooks were just a little better? What if the physical design of the Kobo was a little more Teenage Engineering and less generic, throw-away-able plastic? Where is the fun in the interface? Where is the (ugh) _delight_ in the heft of this thing as an object? Why can’t I quickly pull in every book from Project Gutenberg? Why can’t I navigate the web but in a super-focused, monochromatic way?
 
-Years ago I argued that RSS is the promised land. Not just for the web, but for e-readers too. So I wish this device wasn’t land-locked into a paywalled garden of selling you half-baked text docs called ebooks. I wish RSS was a cor parts of this device somehow and I wish that connecting with writers wasn’t...like this.
+Years ago I argued that RSS is the promised land. Not just for the web, but for e-readers too. So I wish this device wasn’t land-locked into a paywalled garden of selling you half-baked text docs called ebooks. I wish RSS was a core part of this device somehow and I wish that connecting with writers wasn’t...like this.
 
 There’s still that hypothetical future-device in my head, a truly beautiful one; a device that builds off the open web, a device that connects you with other readers and writers, bringing in great industrial design and [all the ideas from Readmill](https://medium.com/digital-humanities/readmill-a-review-c7936e96bbac) before it tragically died.
 
