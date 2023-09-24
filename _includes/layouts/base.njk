@@ -98,21 +98,21 @@
         --color-diagram: #272727;
       }
 
-      html[data-theme='field'] {
+      html[data-theme='space'] {
         --color-nav-background: #000;
         --color-nav-text: #fff;
-        --color-body-background: #101A38;
-        --color-window-border: #fff;
-        --color-window-title-background: #fff;
-        --color-window-title-text: #101010;
-        --color-window-content-background: #c0caf1;
-        --color-window-hover: #111;
-        --color-text: #111;
-        --color-text-meta: #757575;
-        --color-gray: #6F6A6A;
-        --color-diagram: #272727;
+        --color-body-background: #3b3a3a;
+        --color-window-border: #222;
+        --color-window-title-background: #111;
+        --color-window-title-text: #FFE38A;
+        --color-window-content-background: #FFE38A;
+        --color-window-hover: #fff;
+        --color-text: #222;
+        --color-text-meta: #444;
+        --color-gray: #070707;
+        --color-diagram: #ffecae;
       }
-
+      
       html { 
         min-height: 100%;
         overflow-x: hidden;
@@ -140,6 +140,11 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
+        cursor: url('/images/cursor.svg'), auto;
+      }
+
+      body, a, a:hover {
+        cursor: url('/images/cursor.svg'), auto;
       }
 
       @media screen and (min-width: 600px) {
@@ -417,7 +422,7 @@
         font-weight: 600;
         -webkit-font-smoothing: auto;
         padding: 1rem 10px 2rem 10px;
-        color: var(--color-window-title-background);
+        color: var(--color-text);
       }
 
       @media screen and (min-width: 830px) {
@@ -787,7 +792,6 @@
         appearance: none;
         background: none;
         border: none;
-        cursor: pointer;
         padding: 12px 10px;
         margin-right: -10px;
         display: grid;
@@ -1172,6 +1176,10 @@
 
         if (currentTheme === "light") {
             targetTheme = "dark";
+        }
+
+        if (currentTheme === "dark") {
+            targetTheme = "space";
         }
 
         document.documentElement.setAttribute('data-theme', targetTheme);
