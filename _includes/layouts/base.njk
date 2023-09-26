@@ -98,19 +98,19 @@
         --color-diagram: #272727;
       }
 
-      html[data-theme='space'] {
+      html[data-theme='cyber'] { 
         --color-nav-background: #000;
         --color-nav-text: #fff;
-        --color-body-background: #3b3a3a;
-        --color-window-border: #222;
-        --color-window-title-background: #111;
-        --color-window-title-text: #FFE38A;
-        --color-window-content-background: #FFE38A;
-        --color-window-hover: #fff;
-        --color-text: #222;
-        --color-text-meta: #444;
-        --color-gray: #070707;
-        --color-diagram: #ffecae;
+        --color-body-background: #1C0001;
+        --color-window-border: #FF3D43;
+        --color-window-title-background: #FF3D43;
+        --color-window-title-text: #000;
+        --color-window-content-background: #1C0001;
+        --color-window-hover: #2e0a0b;
+        --color-text: #fff;
+        --color-text-meta: #FF3D43;
+        --color-gray: #530f11;
+        --color-diagram: #401113;
       }
       
       html { 
@@ -186,9 +186,6 @@
         color: var(--color-text);
       }
       
-      .nav-theme-switcher {
-         
-      }
       
       /* WINDOW */
       .window {
@@ -425,6 +422,16 @@
         color: var(--color-text);
       }
 
+      html[data-theme='cyber'] .window-content-salutations {
+        color: var(--color-window-title-background);
+        text-shadow:
+          0 0 2px var(--color-window-title-background),
+          0 0 3px var(--color-window-title-background),
+          0 0 4px var(--color-window-title-background),
+          0 0 22px var(--color-window-title-background),
+          0 0 32px var(--color-window-title-background);
+      }
+
       @media screen and (min-width: 830px) {
         .window-content-salutations {
           line-height: 1.3;
@@ -555,6 +562,11 @@
         object-fit: cover;
         width: 100%;
         height: 450px;
+      }
+
+      html[data-theme='cyber'] .essays-item-link img, 
+      html[data-theme='cyber'] .about-photo img {
+        mix-blend-mode: screen;
       }
 
       @media screen and (min-width: 700px) {
@@ -1179,7 +1191,7 @@
         }
 
         if (currentTheme === "dark") {
-            targetTheme = "space";
+            targetTheme = "cyber";
         }
 
         document.documentElement.setAttribute('data-theme', targetTheme);
