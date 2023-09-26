@@ -424,12 +424,19 @@
 
       html[data-theme='cyber'] .window-content-salutations {
         color: var(--color-window-title-background);
-        text-shadow:
-          0 0 2px var(--color-window-title-background),
+        animation: flicker 1.5s infinite alternate;
+      }
+
+      @keyframes flicker {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+          text-shadow:
           0 0 3px var(--color-window-title-background),
-          0 0 4px var(--color-window-title-background),
-          0 0 22px var(--color-window-title-background),
-          0 0 32px var(--color-window-title-background);
+          0 0 82px var(--color-window-title-background),
+          0 0 12px var(--color-window-title-background);
+        }
+        20%, 24%, 55% {       
+          text-shadow: none;
+        }
       }
 
       @media screen and (min-width: 830px) {
