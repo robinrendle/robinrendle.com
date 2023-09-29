@@ -2,12 +2,18 @@
 layout: layouts/base.njk
 ---
 
-<div class="intro-wrapper">
-  <h1 class="title" id="heading">Four-oh-Four</h1>
-</div>
-
-<div class="main-content">
-  <article class="article">
-    {{ content | safe }}
+<div class="grid">
+  <article class="window grid-column-12">
+    <div class="window-title">
+      <h1 id="heading">404</h1>  
+      <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | fullDate }}
+      </time>
+    </div>
+    <div class="window-content">
+      <div class="article-wrapper">
+        {{ content | safe }}
+      </div>
+    </div>
   </article>
 </div>
