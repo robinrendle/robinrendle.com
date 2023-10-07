@@ -21,6 +21,11 @@
     "filename": "essayfeed.xml",
     "path": "/essayfeed.xml"
   },
+  "cascadefeed": {
+    "subtitle": "The Cascade",
+    "filename": "cascadefeed.xml",
+    "path": "/cascadefeed.xml"
+  },
   "author": {
     "name": "Robin Rendle",
     "email": "robinjrendle@gmail.com.com",

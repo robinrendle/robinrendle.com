@@ -504,7 +504,7 @@
       }
       
       .notes-list-extract {
-        margin: 0;
+        margin: 0 !important;
         line-height: 1.2;
         color: var(--color-text-meta);
         font-size: var(--font-size-meta);
@@ -912,6 +912,7 @@
         padding: calc(var(--space) / 2);
         font-size: var(--font-size-meta);
         outline: none;
+        font-family: var(--sans);
       }
 
       .inputs input[type="submit"] {
@@ -962,6 +963,42 @@
         padding-right: calc(var(--space) / 2);
         background: var(--color-window-content-background);
       }
+
+      .cursor-wrapper {
+        display: flex;
+        gap: -4px;
+      }
+
+      .icon-hourglass {
+        width: 50px;
+        fill: var(--color-text) !important;
+        height: 50px;
+        display: grid;
+        place-items: center;
+        animation: 5s turntime linear infinite;
+        margin-bottom: 5px;
+      }
+
+      .newsletter-title {
+        margin: 0;
+        line-height: 1.3;
+      }
+
+      @keyframes turntime {
+        0% {
+          transform: rotate(0deg);
+        } 50% {
+          transform: rotate(180deg);
+        } 60% {
+          transform: rotate(1 80deg);
+        }
+        100% {
+          transform: rotate(180deg);
+        }
+      }    
+      .inputs {
+        margin-top: 20px;
+      } 
   </style>
   {# Code Styles #}
   <style>
@@ -1014,7 +1051,7 @@
       /* Code blocks */
       pre[class*="language-"] {
         padding: 1em;
-        margin: .5em 0;
+        margin: 2rem 0;
         overflow: auto;
       }
 
@@ -1160,8 +1197,7 @@
         <a href="/" class="nav-list-item {% if '/about' in page.url %}active{% endif %}">About</a>
         <a href="/notes" class="nav-list-item {% if '/notes' in page.url %}active{% endif %}">Notes</a>
         <a href="/essays" class="nav-list-item {% if '/essays' in page.url %}active{% endif %}">Essays</a>
-        {# <a href="/projects" class="nav-list-item {% if '/projects' in page.url %}active{% endif %}">Projects</a> #}
-        <a href="/newsletter" class="nav-list-item {% if '/projects' in page.url %}active{% endif %}">Newsletter</a>
+        <a href="/the-cascade" class="nav-list-item {% if '/projects' in page.url %}active{% endif %}">The Cascade</a>
       </nav>
       <div>
         <button id="theme-toggle" class="theme-toggle" type="button">
