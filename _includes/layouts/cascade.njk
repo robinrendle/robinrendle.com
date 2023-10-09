@@ -11,10 +11,9 @@ templateClass: no-footer
   }
   
   h1 {
-    height: 150px;
-    display: grid;
-    align-items: center;
-    font-size: clamp(3rem, 18vw, 8rem)
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
   }
 
   .window-content p {
@@ -104,9 +103,9 @@ templateClass: no-footer
 <div class="grid">
   <div class="window grid-column-8">
     <div class="window-title">
-      {# <h2>About</h2> #}
     </div>
     <div class="window-content window-content-wrapper">
+      <h1>The Cascade</h1>
       <h2 class="newsletter-title">The Cascade is a newsletter about the past, present, and future of CSS by your friendly neighborhood Robin Rendle.</h2>
 
       <form
@@ -1796,7 +1795,6 @@ templateClass: no-footer
   <div class="grid">
   <div class="window grid-column-8">
     <div class="window-title">
-      <h2>Latest</h2>
     </div>
     <div class="window-content">
       <ol class="notes-list">
