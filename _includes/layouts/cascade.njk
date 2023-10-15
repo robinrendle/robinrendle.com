@@ -1801,7 +1801,6 @@ templateClass: no-footer
         {% for post in collections.cascade | reverse %}
           <li>
             <a class="notes-list-item notes-list-item-numbered {{loop.index}}" href="{{ post.url }}">
-
               {% set total = loop.length - loop.index %}
               <div class="notes-list-item-index">{{total}}</div>
               <div>
