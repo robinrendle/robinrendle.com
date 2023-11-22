@@ -81,6 +81,7 @@
         --color-text-meta: #757575;
         --color-gray: #C5C5C5;
         --color-diagram: #E3E3E3;
+        --color-link-hover: #FF4F01;
       }
 
       html[data-theme='dark'] {
@@ -96,6 +97,7 @@
         --color-text-meta: #757575;
         --color-gray: #6F6A6A;
         --color-diagram: #272727;
+        --color-link-hover: #FF4F01;
       }
 
       html[data-theme='cyber'] { 
@@ -111,6 +113,7 @@
         --color-text-meta: #FF3D43;
         --color-gray: #530f11;
         --color-diagram: #401113;
+        --color-link-hover: #FF3D43;
       }
       
       html { 
@@ -140,11 +143,6 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeLegibility;
-        cursor: url('/images/cursor.svg'), auto;
-      }
-
-      body, a, a:hover, button {
-        cursor: url('/images/cursor.svg'), auto;
       }
 
       @media screen and (min-width: 600px) {
@@ -264,6 +262,12 @@
       .window-title-link:hover,
       .window-title-link:focus {
         color: var(--color-window-title-text);
+        background-color: var(--color-link-hover);
+      }
+
+      .window-link:hover .window-title-link,
+      .window-link:focus .window-title-link {
+        background-color: var(--color-link-hover);
       }
       
       .window-title-icon {
@@ -321,7 +325,7 @@
         max-width: var(--content-width);
         margin: 0 auto;
         padding: calc(var(--space) * 1) var(--space) calc(var(--space) * 4) var(--space);
-        line-height: 1.45;
+        line-height: 1.5;
       }
 
       @media screen and (min-width: 700px) {
@@ -1197,7 +1201,6 @@
         <a href="/" class="nav-list-item {% if '/about' in page.url %}active{% endif %}">About</a>
         <a href="/notes" class="nav-list-item {% if '/notes' in page.url %}active{% endif %}">Notes</a>
         <a href="/essays" class="nav-list-item {% if '/essays' in page.url %}active{% endif %}">Essays</a>
-        <a href="/the-cascade" class="nav-list-item {% if '/projects' in page.url %}active{% endif %}">The Cascade</a>
       </nav>
       <div>
         <button id="theme-toggle" class="theme-toggle" type="button">
