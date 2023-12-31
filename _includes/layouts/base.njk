@@ -150,6 +150,11 @@
           line-height: 1.45;
         }
       }
+
+      hr {
+        border: 1px solid var(--color-gray);
+        margin: 2rem 0;
+      }
       
       img, iframe, video {
         max-width: 100%;
@@ -351,8 +356,17 @@
 
       .article-wrapper iframe, 
       .article-wrapper figure,
-      .article-wrapper pre {
+      .article-wrapper pre,
+      .article-wrapper img {
         margin: calc(var(--space) * 1.5) 0;
+      }
+
+      .article-wrapper img + hr {
+        margin-top: 0;
+      }
+
+      .article-wrapper hr + img {
+        margin-top: 0;
       }
 
       a {
