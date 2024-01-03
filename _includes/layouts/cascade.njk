@@ -112,8 +112,8 @@ templateClass: no-footer
   </defs>
 </svg>
 
-<div class="grid">
-  <div class="window grid-column-8">
+<c-grid>
+  <c-window class="grid-column-8">
     <div class="window-title">
       <h1>The Cascade</h1>
     </div>
@@ -133,8 +133,8 @@ templateClass: no-footer
         </div>
       </form>
     </div>
-  </div>
-  <div class="window grid-column-4">
+  </c-window>
+  <c-window class="grid-column-4">
     <div class="window-content window-content-wrapper">
       <div class="cursor-wrapper">
         <svg class="icon-hourglass" width="200" height="200" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
@@ -793,20 +793,22 @@ templateClass: no-footer
         </svg>
       </div>
     </div>
-  </div>
-</div>
+  </c-window>
+</c-grid>
 
-<div class="grid">
+<c-grid>
   {% for post in collections.cascade | reverse %}
-    <a class="window window-link window-cascade-post grid-column-4 {{loop.index}}" href="{{ post.url }}">
-      <div class="window-content window-content-wrapper">
-        {% set total = loop.length - loop.index %}
-        <div class="notes-list-item-index">{{total}}</div>
-        <div>
-          <h3 class="notes-list-title">{{ post.data.title }}</h3>
-          <p class="notes-list-extract">{{ post.data.extract }}</p>
+    <c-window class="grid-column-4 window-link">
+      <a class="window-cascade-post {{loop.index}}" href="{{ post.url }}">
+        <div class="window-content window-content-wrapper">
+          {% set total = loop.length - loop.index %}
+          <div class="notes-list-item-index">{{total}}</div>
+          <div>
+            <h3 class="notes-list-title">{{ post.data.title }}</h3>
+            <p class="notes-list-extract">{{ post.data.extract }}</p>
+          </div>
         </div>
-      </div>
-    </a>
+      </a>
+    </c-window>
   {% endfor %}
-</div>
+</c-grid>

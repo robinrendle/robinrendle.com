@@ -6,8 +6,8 @@ templateClass: no-footer
 {% set previousPost = collections.projects | getPreviousCollectionItem %}
 {% set nextPost = collections.projects | getNextCollectionItem %}
 
-<div class="grid">
-  <article class="window window-project-detail grid-column-12">
+<c-grid>
+  <c-window class="window-project-detail grid-column-12">
     <div class="window-title">
       <h1>{{ title }}</h1>
       <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">{{ page.date | projectsDate }}</time> 
@@ -24,5 +24,5 @@ templateClass: no-footer
         {{ content | safe }}
       </div>
     </div>
-  </article>
-</div>
+  </c-window>
+</c-grid>

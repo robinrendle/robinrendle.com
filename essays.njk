@@ -6,9 +6,9 @@ title: Essays
 
 <h1 class="hidden">Essays</h1>
 
-<div class="grid">
+<c-grid>
   {% for note in collections.essays | reverse %}
-    <div class="window window-essay window-link grid-column-4">
+    <c-window class="window-essay window-link grid-column-4">
       <a class="window-title window-title-link" href="{{ note.url }}" class="essays-item-link">
         <h2>{{note.data.title}}</h2>
         <svg viewBox="0 0 14 14" class="window-title-icon">
@@ -20,14 +20,14 @@ title: Essays
           <img alt="{{note.data.alt}}" class="essays-item-img" width="1028px" height="1500px" src="{{note.data.hero}}" />
         </a>
       </div>
-    </div>
+    </c-window>
   {% endfor %}
-  <div class="window grid-column-8">
+  <c-window class="grid-column-8">
     <div class="window-title">
       <h2>Illustrations</h2>
     </div>
     <div class="window-content window-content-wrapper">
       Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a>, the source of all these lovely woodcut and metal engravings you see above.
     </div>
-  </div>
-</div>
+  </c-window>
+</c-grid>

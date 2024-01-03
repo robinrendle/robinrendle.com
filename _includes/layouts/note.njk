@@ -3,8 +3,8 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<div class="grid">
-  <article class="window grid-column-12">
+<c-grid>
+  <c-window class="grid-column-12">
     <div class="window-title">
       <h1 id="heading">{{ title }}</h1>  
       <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">
@@ -16,5 +16,5 @@ templateClass: tmpl-post
         {{ content | safe }}
       </div>
     </div>
-  </article>
-</div>
+  </c-window>
+</c-grid>

@@ -110,7 +110,7 @@
         --color-window-content-background: #1C0001;
         --color-window-hover: #2e0a0b;
         --color-text: #fff;
-        --color-text-meta: #FF3D43;
+        --color-text-meta: #751317;
         --color-gray: #530f11;
         --color-diagram: #401113;
         --color-link-hover: var(--color-window-title-background);
@@ -166,7 +166,8 @@
       }
 
       figure img {
-        margin-top: 0;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
       }
       
       main {
@@ -177,37 +178,50 @@
       
       /* NAVIGATION */
       .nav {
-        background-color: var(--color-nav-background);
         margin-bottom: var(--space-nav);
-        padding: 0 var(--space);
+        padding: 0 var(--space) 0 0;
+
+        @media screen and (min-width: 700px) {
+          padding: 0 var(--space);
+        }
       }
       
       .nav-list {
         display: flex;
-        gap: var(--space);
+      }
+
+      .small {
+        font-size: var(--font-size-small);
       }
       
       .nav-list-item {
         text-decoration: none;
         font-weight: 600;
         color: var(--color-text);
+        padding: 0 1rem;
+        color: var(--color-text-meta);
+      }
+
+      .nav-list-item:hover, 
+      .nav-list-item:focus {
+        background: var(--color-window-content-background);
+        color: var(--color-text);
       }
       
-      
       /* WINDOW */
-      .window {
+      c-window {
         border: var(--window-border);
         display: flex;
         flex-direction: column;
         min-height: 100%;
       }
 
-      .window + .window {
+      c-window + c-window {
         margin-top: var(--space);
       }
 
       @media screen and (min-width: 700px) {
-        .window + .window {
+        c-window + c-window {
           margin-top: 0;
         }
       }
@@ -609,23 +623,19 @@
       .window-content-type {
         display: grid;
         place-items: center;
-        padding: 20px;
-        height: 200px; /* nasty ios/safari hack */
+        padding: 20px; 
       }
 
       @media screen and (min-width: 700px) {
         .window-content-type {
           padding: 20px 50px 50px 50px;
-          height: 400px;
-        }
-        .window-content-type svg {
-          height: 340px;
         }
       }
 
       .window-content-type svg {
         max-width: 100%;
-        {# height: 200px; #}
+        aspect-ratio: 3/1;
+        height: 100%;
       }
 
       .window-content-type path {
@@ -637,7 +647,7 @@
         stroke: var(--color-window-border);
       }
 
-      .window-content-typesetting .grid {
+      .window-content-typesetting c-grid {
         margin-bottom: 0;
         font-size: var(--font-size-meta);
       }
@@ -726,8 +736,8 @@
         padding: 5px 0 20px 0;
       }
       
-      /* GRID */
-      .grid {
+      /* c-GRID */
+      c-grid {
         gap: var(--space);
         grid-template-columns: repeat(12, 1fr);
         margin-bottom: var(--space);
@@ -735,15 +745,19 @@
       }
 
       @media screen and (min-width: 700px) {
-        .grid {
+        c-grid {
           display: grid;
           padding: 0 var(--space);
         } 
       }
 
-      .grid .grid {
+      c-grid c-grid {
         padding-left: 0;
         padding-right: 0;
+      }
+
+      c-grid:only-of-type {
+        margin-bottom: 0;
       }
       
       .grid-column-4 {
@@ -753,9 +767,17 @@
       .grid-column-6 {
         grid-column: span 6;
       }
-      
+
+      .grid-column-7 {
+        grid-column: span 7;
+      }
+
       .grid-column-8 {
         grid-column: span 8;
+      }
+      
+      .grid-column-9 {
+        grid-column: span 9;
       }
       
       .grid-column-12 {
@@ -969,6 +991,7 @@
       .about-photo {
         position: relative;
         display: flex;
+        height: 100%;
       }
 
       .about-photo img {
@@ -1224,10 +1247,14 @@
       {# Code generated from markdown back ticks: `<html>` #}
       code {
         font-family: var(--monospace);
-        font-size: 16px;
+        font-size: 85%;
         background: var(--color-cream);
         padding: 2px 3px;
         border-radius: 3px;
+      }
+
+      .theme-toggle:hover {
+        cursor: pointer;
       }
     </style>
   </head>
@@ -1241,7 +1268,7 @@
   </svg>
     <div class="nav">
       <nav class="nav-list">
-        <a href="/" class="nav-list-item {% if '/about' in page.url %}active{% endif %}">About</a>
+        <a href="/" class="nav-list-item {% if '/' in page.url %}active{% endif %}">About</a>
         <a href="/notes" class="nav-list-item {% if '/notes' in page.url %}active{% endif %}">Notes</a>
         <a href="/essays" class="nav-list-item {% if '/essays' in page.url %}active{% endif %}">Essays</a>
       </nav>

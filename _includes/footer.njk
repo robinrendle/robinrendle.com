@@ -1,6 +1,29 @@
 <footer>
-  <div class="grid">
-    <div class="window window-link grid-column-4">
+  <c-grid>
+    <c-window class="grid-column-8">
+      <a class="window-title window-title-link" href="/newsletter">
+        <h2>Subscribe</h2>
+        <svg viewBox="0 0 14 14" class="window-title-icon">
+          <use xlink:href="#icon-arrow"></use>
+        </svg>
+      </a>
+      <div class="window-content window-content-wrapper">
+        <p>I jot down a few notes about what I’ve been up to in my newsletter and if you’re interested in keeping up to date with my work, this is the way. Sent out maybe just a few times a year.</p>
+        <form
+        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+        class="embeddable-buttondown-form"
+        >
+          <div class="inputs">    
+            <input type="email" placeholder="Email address" name="email" id="bd-email" required/>
+            <input type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </c-window>
+    <c-window class="window-link grid-column-4">
       <a class="window-title window-title-link" href="mailto:robinjrendle@gmail.com">
         <h2>Email</h2>
         <svg viewBox="0 0 14 14" class="window-title-icon">
@@ -21,30 +44,30 @@
           </svg>
         </a>
       </div>
-    </div>
-
-    <div class="window grid-column-8">
-      <a class="window-title window-title-link" href="/newsletter">
+    </c-window>
+  </c-grid>
+  <c-grid>
+    <c-window class="window-notes grid-column-12">
+      <div class="window-title">
         <h2>Newsletter</h2>
-        <svg viewBox="0 0 14 14" class="window-title-icon">
-          <use xlink:href="#icon-arrow"></use>
-        </svg>
-      </a>
-      <div class="window-content window-content-wrapper">
-        <p>Every once in a while I send out a roundup of links from this very website and scratch a few notes down about what I’m thinking about and what I’ve been working on lately.</p>
-        <form
-        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-        class="embeddable-buttondown-form"
-        >
-          <div class="inputs">    
-            <input type="email" placeholder="Email address" name="email" id="bd-email" required/>
-            <input type="submit" value="Subscribe" />
-          </div>
-        </form>
       </div>
-    </div>
-  </div>
+      <div class="window-content">
+        <ol class="notes-list">
+          {% for post in collections.newsletter | reverse %}
+            <li>
+              <a class="notes-list-item notes-list-item-numbered {{loop.index}}" href="{{ post.url }}">
+
+                {% set total = loop.length - loop.index %}
+                <div class="notes-list-item-index">{{total}}</div>
+                <div>
+                  <h3 class="notes-list-title">{{ post.data.title }}</h3>
+                  <p class="notes-list-extract">{{ post.data.extract }}</p>
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    </c-window>
+  </c-grid>
 </footer>
