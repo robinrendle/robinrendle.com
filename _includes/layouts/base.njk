@@ -42,7 +42,7 @@
       
       :root {        
         --space: 1rem;
-        --space-nav: 0;
+        --space-nav: var(--space);
         --window-title-padding: calc(var(--space)/2) var(--space);
         --window-border: 1px solid var(--color-window-border);
         --content-width: 38rem;
@@ -54,7 +54,7 @@
         --font-size-body: clamp(1.05rem, 3vw, 1.25rem);
         --font-size-meta: 0.9rem; 
         --font-size-small: 0.8rem; 
-        --font-size-window-header: clamp(1.1rem, 3vw, 1.15rem);
+        --font-size-window-header: clamp(1rem, 3vw, 1.15rem);
         
         --monospace: 'MD IO', 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
         --sans: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
@@ -63,7 +63,7 @@
 
       @media screen and (min-width: 700px) {
         :root {
-          --space-nav: 3rem;
+          --space-nav: 2.5rem;
           --space: 1.25rem;
         }
       }
@@ -142,7 +142,6 @@
       body {
         position: relative; 
         width: 100dvw;
-        {# overflow-x: hidden; #}
         font: var(--font-size-body)/1.4 var(--sans);
         color: var(--color-text);
         font-variant-numeric: oldstyle-nums;
@@ -194,8 +193,16 @@
         max-width: var(--wrapper-width);
         margin: 0 auto;
         padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: var(--space);
+
+        {# @media screen and (min-width: 500px) {
+          display: block;
+          gap: auto;
+        }   #}
       }
-      
+    
       /* NAVIGATION */
       .nav {
         background: var(--color-nav-background);
@@ -380,13 +387,14 @@
       /* NOTES */
       .article-wrapper {
         max-width: var(--content-width);
-        margin: 0 auto;
+        margin: calc(var(--space) / 1.5) auto 0 auto;
         padding: calc(var(--space) * 1) var(--space) calc(var(--space) * 4) var(--space);
-        line-height: 1.5;
+        line-height: 1.4;
       }
 
       @media screen and (min-width: 700px) {
         .article-wrapper {
+          margin: 0 auto;
           padding: calc(var(--space) * 3) 0 calc(var(--space) * 6) 0;
         }
       }
@@ -766,14 +774,13 @@
       c-grid {
         gap: var(--space);
         grid-template-columns: repeat(12, 1fr);
-        margin-bottom: var(--space);
-        padding: 0 var(--space);
+        margin-bottom: 0;
+        margin: 0 var(--space);
       }
 
       @media screen and (min-width: 700px) {
         c-grid {
           display: grid;
-          padding: 0 var(--space);
         } 
       }
 
@@ -885,7 +892,22 @@
         margin-right: -10px;
         display: grid;
         place-items: center;
+        stroke: var(--color-nav-text);
+        height: var(--nav-height);
       }
+
+      .theme-toggle:hover, .theme-toggle:focus {
+        background: var(--color-window-content-background);
+        stroke: var(--color-text);
+
+        circle {
+          stroke: var(--color-text);
+        }
+        
+        g circle {
+          fill: var(--color-text);
+        }
+      } 
 
       .theme-toggle circle {
         stroke: var(--color-nav-text);
@@ -1054,6 +1076,7 @@
         margin: 0;
         line-height: 1.3;
         font-weight: 400;
+        font-size: 1.4rem;
       }
 
       @keyframes turntime {
