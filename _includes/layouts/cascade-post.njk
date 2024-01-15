@@ -705,17 +705,21 @@ templateClass: no-footer
 
 <c-grid>
   {% for post in collections.cascade | reverse %}
-    <c-window>
-      <a class="window-link window-cascade-post grid-column-4 {{loop.index}}" href="{{ post.url }}">
+    <c-window class="grid-column-4 window-link">
+      <a class="window-cascade-post {{loop.index}}" href="{{ post.url }}">
         <div class="window-content window-content-wrapper">
           {% set total = loop.length - loop.index %}
           <div class="notes-list-item-index">{{total}}</div>
           <div>
-            <h3 class="notes-list-title">{{ post.data.title }}</h3>
-            <p class="notes-list-extract">{{ post.data.extract }}</p>
+            <h3 class="notes-list-title">
+              {{ post.data.title }}
+            </h3>
+            <p class="notes-list-extract">
+              {{ post.data.extract }}
+            </p>
           </div>
         </div>
       </a>
     </c-window>
   {% endfor %}
-</div>
+</c-grid>

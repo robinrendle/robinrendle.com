@@ -44,8 +44,13 @@ title: Designer and writer.
         {% for post in collections.notes | reverse | head(50) %}
           <li>
             <a class="notes-list-item {{loop.index}}" href="{{ post.url }}">
-              <h3 class="notes-list-title">{{ post.data.title }}</h3>
-              <p class="notes-list-extract">{{ post.data.extract }}</p>
+              <div>
+                <h3 class="notes-list-title">{{ post.data.title }}</h3>
+                <p class="notes-list-extract">{{ post.data.extract }}</p>
+              </div>
+              <time class="font-code notes-list-extract" datetime="{{ post.data.date | htmlDateString }}">
+                {{ post.data.date | shortDate }}
+              </time>
             </a>
           </li>
         {% endfor %}
@@ -79,7 +84,7 @@ title: Designer and writer.
     </div>
     <div class="window-content">
       <figure class="about-photo">
-        <img style="object-fit: cover;" width='618px' height="412px" src="/images/55.webp" alt="A picture of Robin Rendle, taking a photo of himself from a gloomy hallway in February 2022"/>
+        <img style="object-fit: cover;" width='618px' height="412px" src="/images/about/robin-rendle.png" alt="A picture of Robin Rendle, taking a photo of himself from a gloomy hallway in February 2022"/>
       </figure>
     </div>
   </c-window>

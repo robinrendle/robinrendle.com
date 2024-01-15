@@ -49,8 +49,13 @@ title: Notes
         {% for post in collections.notes | reverse %}
           <li>
             <a class="notes-list-item {{loop.index}}" href="{{ post.url }}">
-              <h3 class="notes-list-title">{{ post.data.title }}</h3>
-              <p class="notes-list-extract">{{ post.data.extract }}</p>
+              <div>
+                <h3 class="notes-list-title">{{ post.data.title }}</h3>
+                <p class="notes-list-extract">{{ post.data.extract }}</p>
+              </div>
+              <time class="font-code notes-list-data" datetime="{{ post.data.date | htmlDateString }}">
+                {{ post.data.date | shortDate }}
+              </time>
             </a>
           </li>
         {% endfor %}
