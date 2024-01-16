@@ -23,19 +23,19 @@ Perhaps my favorite essay in this collection is when Pullman compares his novels
 
 Philip writes in a loving, careful, featherweight way about everything in this book except for how poetry is butchered in high school and college:
 
-...many poems are interrogated until they confess, and what they confess is usually worthless, as the results of torture always are: broken little scraps of information, platitudes, banalities. Never mind! The work has been done according to instructions, and the result of the interrogation is measured and recorded and tabulated in line with government target; and this is the process we call education.
-
-[...] No one had told such people that poetry is in fact enchantment.
+> ...many poems are interrogated until they confess, and what they confess is usually worthless, as the results of torture always are: broken little scraps of information, platitudes, banalities. Never mind! The work has been done according to instructions, and the result of the interrogation is measured and recorded and tabulated in line with government target; and this is the process we call education.
+>
+> [...] No one had told such people that poetry is in fact enchantment.
 
 But besides this very necessary snark, Philip walks through why reading Milton out loud is so important, even if you don’t really understand what’s happening with every word:
 
-To see these things and hear them most vividly, I found that I had to take the lines in my mouth and utter them aloud. A whisper will do; you don’t have to bellow it, and annoy the neighbors; but air has to pass across your tongue and through your lips. Your body has to be involved.
-
-[...] The experience of reading poetry aloud when you don’t fully understand it is a curious and complicated one. It’s like suddenly discovering that you can play the organ.
-
-[...] The sound is part of the meaning, and that part only comes alive when you speak it.
-
-It’s clear to me now that even the genre-distinction between music and poetry is silly when you’re reading Milton out loud to yourself. Like, take this absolute whopper of a line and whisper it to yourself: “abashed the devil stood, / And felt how awful goodness is.”
+> To see these things and hear them most vividly, I found that I had to take the lines in my mouth and utter them aloud. A whisper will do; you don’t have to bellow it, and annoy the neighbors; but air has to pass across your tongue and through your lips. Your body has to be involved.
+> 
+> [...] The experience of reading poetry aloud when you don’t fully understand it is a curious and complicated one. It’s like suddenly discovering that you can play the organ.
+>
+> [...] The sound is part of the meaning, and that part only comes alive when you speak it.
+> 
+> It’s clear to me now that even the genre-distinction between music and poetry is silly when you’re reading Milton out loud to yourself. Like, take this absolute whopper of a line and whisper it to yourself: “abashed the devil stood, / And felt how awful goodness is.”
 
 Just! Yes!
 
