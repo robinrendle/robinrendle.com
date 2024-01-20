@@ -46,28 +46,4 @@
       </div>
     </c-window>
   </c-grid>
-  <c-grid>
-    <c-window class="window-notes grid-column-12">
-      <div class="window-title">
-        <h2>Newsletter</h2>
-      </div>
-      <div class="window-content">
-        <ol class="notes-list">
-          {% for post in collections.newsletter | reverse %}
-            <li>
-              <a class="notes-list-item notes-list-item-numbered {{loop.index}}" href="{{ post.url }}">
-
-                {% set total = loop.length - loop.index %}
-                <div class="notes-list-item-index">{{total}}</div>
-                <div>
-                  <h3 class="notes-list-title">{{ post.data.title }}</h3>
-                  <p class="notes-list-extract">{{ post.data.extract }}</p>
-                </div>
-              </a>
-            </li>
-          {% endfor %}
-        </ol>
-      </div>
-    </c-window>
-  </c-grid>
 </footer>

@@ -8,13 +8,23 @@
       name="description"
       content="The website of Robin Rendle, a designer and writer from the UK."
     />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    {# <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
     <link rel="manifest" href="/images/favicons/site.webmanifest">
     <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#ffbf00">
     <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> #}
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons3/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons3/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons3/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicons3/site.webmanifest">
+    <link rel="mask-icon" href="/images/favicons3/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+
+    
     <link rel="alternate" type="application/rss+xml" title="Notes" href="/feed.xml">
     <link rel="alternate" type="application/rss+xml" title="Newsletter" href="/newsletterfeed.xml">
     <link rel="alternate" type="application/rss+xml" title="Essays" href="/essayfeed.xml">
@@ -227,7 +237,7 @@
         color: var(--color-nav-text);
         text-decoration: none;
         font-weight: 600;
-        padding: 0 1rem;
+        padding: 0 calc(var(--space) / 2);
       }
       
       .nav-list {
@@ -519,7 +529,7 @@
 
       /* NOTES */
       .window-notes .window-content {
-        height: 400px;
+        max-height: 500px;
         overflow: scroll;
       }
       
@@ -663,7 +673,7 @@
 
       @media screen and (min-width: 700px) {
         .window-content-type {
-          padding: 20px 50px 50px 50px;
+          padding: 10px 20px 30px 20px;
         }
       }
 
@@ -1041,10 +1051,12 @@
         position: relative;
         display: flex;
         height: 100%;
+        max-height: 500px;
       }
 
       .about-photo img {
         height: auto;
+        object-position: bottom;
       }
 
       .about-photo figcaption {
