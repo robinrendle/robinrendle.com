@@ -8,14 +8,6 @@
       name="description"
       content="The website of Robin Rendle, a designer and writer from the UK."
     />
-    {# <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/images/favicons/safari-pinned-tab.svg" color="#ffbf00">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff"> #}
-
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons3/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons3/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons3/favicon-16x16.png">
@@ -23,8 +15,6 @@
     <link rel="mask-icon" href="/images/favicons3/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    
     <link rel="alternate" type="application/rss+xml" title="Notes" href="/feed.xml">
     <link rel="alternate" type="application/rss+xml" title="Newsletter" href="/newsletterfeed.xml">
     <link rel="alternate" type="application/rss+xml" title="Essays" href="/essayfeed.xml">
@@ -62,6 +52,7 @@
 
         --font-size-intro: clamp(1.1rem, 4vw, 1.5rem);
         --font-size-body: clamp(1.05rem, 3vw, 1.25rem);
+        --font-size-caption: clamp(0.9rem, 3vw, 1.1rem);
         --font-size-meta: 0.9rem; 
         --font-size-small: 0.8rem; 
         --font-size-window-header: clamp(1rem, 3vw, 1.15rem);
@@ -438,6 +429,14 @@
 
       .article-wrapper hr + img {
         margin-top: 0;
+      }
+
+      .article-wrapper ol {
+        padding-inline-start: 0;
+
+        li {
+          margin-bottom: 1rem;
+        }
       }
 
       a {
