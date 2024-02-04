@@ -1,8 +1,0 @@
----
-layout: layouts/cascade-post.njk
-title: 
-date: 2024-01-14T18:41:32-08:00
-city: San Francisco
-country: California
-extract: And a warm mountain bath.
----
