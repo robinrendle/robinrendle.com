@@ -1,3 +1,4 @@
+<!-- If every website is a manifesto, then here’s mine. -->
 <!DOCTYPE html>
 <html lang="en" data-theme="light" class={{templateClass}}>
   <head>
@@ -197,27 +198,18 @@
         display: flex;
         flex-direction: column;
         gap: var(--space);
-
-        {# @media screen and (min-width: 500px) {
-          display: block;
-          gap: auto;
-        }   #}
       }
     
       /* NAVIGATION */
       .nav {
         background: var(--color-nav-background);
         margin-bottom: var(--space-nav);
-        padding: 0 var(--space) 0 0;
+        padding: 0 var(--space);
         display: flex;
         justify-content: space-between;
         position: sticky;
         top: 0;
         z-index: 9;
-
-        @media screen and (min-width: 700px) {
-          padding: 0 var(--space);
-        }
       }
       
       .nav-list-item {
@@ -703,6 +695,14 @@
       .no-footer footer {
         display: none;
       }
+
+      .no-footer-home main {
+        padding-bottom: 0;
+      }
+      
+      .no-footer-home footer {
+        display: none;
+      }
       
       /* PLACE */
 
@@ -797,7 +797,7 @@
           display: grid;
         } 
       }
-
+      
       c-grid c-grid {
         padding-left: 0;
         padding-right: 0;
@@ -1336,6 +1336,7 @@
         <a href="/" class="nav-list-item {% if '/' in page.url %}active{% endif %}">About</a>
         <a href="/notes" class="nav-list-item {% if '/notes' in page.url %}active{% endif %}">Notes</a>
         <a href="/essays" class="nav-list-item {% if '/essays' in page.url %}active{% endif %}">Essays</a>
+        <a href="/the-cascade" class="nav-list-item {% if '/the-cascade' in page.url %}active{% endif %}">Newsletter</a>
       </nav>
       <div>
         <button id="theme-toggle" class="theme-toggle" type="button">
