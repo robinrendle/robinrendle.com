@@ -7,9 +7,9 @@ country: California
 extract: A mighty fine morning for a rant.
 ---
 
-A few months ago I found a ton of old Hypercard assets, along with the illustrations (some from Susan Kare) of the original Mac team, too. I wondered how to repurpose them, how to give them new life.
+A few months ago I found a ton of old HyperCard assets, along with the illustrations (some from Susan Kare) of the original Mac team, too. I wondered how to repurpose them, how to give them new life.
 
-So this mighty fine morning I released an update to my site that’s been cooking for a bit: [a new homepage](https://robinrendle.com) that describes what this place is. It’s a fun mini-manifesto about how I think about personal blogs and the state of the web in 2024 and how it relates back to Hypercard. There’s a feeling I’m trying to capture here of frustration and sadness of the modern web, whilst comparing that to the joyous, absolute freedom of making software on the net.
+So this mighty fine morning I released an update to my site that’s been cooking for a bit: [a new homepage](https://robinrendle.com) that describes what this place is. It’s a fun mini-manifesto about how I think about personal blogs and the state of the web in 2024 and how it relates back to HyperCard. There’s a feeling I’m trying to capture here of frustration and sadness of the modern web, whilst comparing that to the joyous, absolute freedom of making software on the net.
 
 The web can be both things at once!
 
