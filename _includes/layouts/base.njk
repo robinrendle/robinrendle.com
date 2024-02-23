@@ -281,11 +281,16 @@
       }
 
       .window-title-article {
-        min-height: 80vh;
+        min-height: 60vh;
+        max-height: var(--wrapper-width);
         place-items: center;
         justify-content: center;
         display: flex;
         flex-direction: column !important;
+        
+        @media screen and (min-width: 700px) {
+          min-height: 80vh;
+        }
       }
 
       @media screen and (min-width: 700px) {
@@ -699,7 +704,7 @@
       .no-footer-home main {
         padding-bottom: 0;
       }
-      
+
       .no-footer-home footer {
         display: none;
       }
