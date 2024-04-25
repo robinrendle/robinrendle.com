@@ -4,7 +4,7 @@ title: Sleepless in San Francisco
 date: 2024-04-25T02:40:37-07:00
 city: San Francisco
 country: California
-extract: Put that shit down, you beautiful, frazzled, anxious idiot.
+extract: What the fuck was up with the mosquito spray?
 ---
 
 “Are you okay, dad?”
@@ -27,4 +27,4 @@ He never really slept either. Throughout my childhood I just assumed that all me
 
 He always had a frantic energy to him. My dad, I mean. There was always something rattling around in the back of his head, something taking him somewhere else. He’d never be with you in the room, not really, as some great big money problem he never told us about was looming above like the great, inescapable clouds haunting the skies of England. Total eclipse. Nothing in the world mattered besides the next scheme, the next client, the next something or other that was right around the corner—and it was vital, _vital_, to catapult our family through this cloud and into the next one.
 
-It makes me so very sad for him now, thinking that he never really made it out. He was a bit older than me now when he was sat at that kitchen table, worried so much about the world and how he might scribble his way out of it. So I wish I could close my eyes now and walk back into that kitchen and tell him that I love him and that everything will be ok but also it will be terrible but in an okay sort of way and I’m ever so sorry and I miss him so very much. But most of all, I want to say this: dad, seriously, what the fuck was up with the mosquito spray? Put that shit down you beautiful, anxious, frazzled idiot.
+It makes me so very sad for him now, thinking that he never really made it out. He was a bit older than me now when he was sat at that kitchen table, worried so much about the world and how he might scribble his way out of it. So I wish I could close my eyes now and walk back into that kitchen and tell him that I love him and that everything will be ok but also it will be terrible but in an okay sort of way and I’m ever so sorry and I miss him so very much. But most of all, I want to say this: dad, seriously, what the fuck was up with the mosquito spray?
