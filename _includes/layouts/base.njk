@@ -45,7 +45,7 @@
       
       :root {        
         --space: 1rem;
-        --space-nav: var(--space);
+        --space-nav: 2px;
         --window-title-padding: calc(var(--space)/2) var(--space);
         --window-border: 1px solid var(--color-window-border);
         --content-width: 38rem;
@@ -67,7 +67,7 @@
 
       @media screen and (min-width: 700px) {
         :root {
-          --space-nav: 2.5rem;
+          --space-nav: 1.25rem;
           --space: 1.25rem;
         }
       }
@@ -389,7 +389,7 @@
         max-width: var(--content-width);
         margin: calc(var(--space) / 1.5) auto 0 auto;
         padding: calc(var(--space) * 1) var(--space) calc(var(--space) * 4) var(--space);
-        line-height: 1.45;
+        line-height: 1.5;
       }
 
       @media screen and (min-width: 700px) {
@@ -805,12 +805,13 @@
         gap: var(--space);
         grid-template-columns: repeat(12, 1fr);
         margin-bottom: 0;
-        margin: 0 var(--space);
+        margin: 0 2px;
       }
 
       @media screen and (min-width: 700px) {
         c-grid {
           display: grid;
+          margin: 0 var(--space);
         } 
       }
       
