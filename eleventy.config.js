@@ -3,26 +3,24 @@ const fs = require("fs");
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const { execSync } = require("child_process");
 
+const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
-  eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("fonts");
+
+  eleventyConfig.addPassthroughCopy({
+    "./public/": "/",
+  });
 
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-
-  eleventyConfig.on("eleventy.after", () => {
-    execSync(`npx pagefind --source _site --glob \"**/*.html\"`, {
-      encoding: "utf-8",
-    });
-  });
+  eleventyConfig.addPlugin(pluginBundle);
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
@@ -108,7 +106,7 @@ module.exports = function (eleventyConfig) {
     return filterTagList([...tagSet]);
   });
 
-  // Customize Markdown library and settings:
+  // Customize Markdown library and settings
   let markdownLibrary = markdownIt({
     html: true,
     breaks: true,
@@ -122,42 +120,8 @@ module.exports = function (eleventyConfig) {
     }),
     slugify: eleventyConfig.getFilter("slug"),
   });
+
   eleventyConfig.setLibrary("md", markdownLibrary);
-
-  module.exports = function (eleventyConfig) {
-    eleventyConfig.setServerOptions({
-      // Whether the live reload snippet is used
-      liveReload: true,
-
-      // Whether DOM diffing updates are applied where possible instead of page reloads
-      domDiff: true,
-
-      // The starting port number
-      // Will increment up to (configurable) 10 times if a port is already in use.
-      port: 8080,
-
-      // Additional files to watch that will trigger server updates
-      // Accepts an Array of file paths or globs (passed to `chokidar.watch`).
-      // Works great with a separate bundler writing files to your output folder.
-      // e.g. `watch: ["_site/**/*.css"]`
-      watch: [],
-
-      // Show local network IP addresses for device testing
-      showAllHosts: true,
-
-      // Use a local key/certificate to opt-in to local HTTP/2 with https
-      https: {
-        // key: "./localhost.key",
-        // cert: "./localhost.cert",
-      },
-
-      // Change the default file encoding for reading/serving files
-      encoding: "utf-8",
-
-      // Show the dev server version number on the command line
-      showVersion: false,
-    });
-  };
 
   return {
     // Control which files Eleventy will process
