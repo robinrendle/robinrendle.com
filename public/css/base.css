@@ -49,8 +49,8 @@
 }
 
 html[data-theme='light'] {
-  --color-nav-background: #FF4F01;
-  --color-nav-text: #fff;
+  --color-nav-background: #FFF;
+  --color-nav-text: #111;
   --color-body-background: #D9D9D9;
   --color-window-border: #000;
   --color-window-title-background: #111;
@@ -94,6 +94,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background-image: url("data:image/svg+xml,%3Csvg width='4' height='4' viewBox='0 0 4 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_240_7083)'%3E%3Crect width='4' height='4' fill='white'/%3E%3Crect width='1' height='1' fill='%23D9D9D9'/%3E%3Crect x='1' y='1' width='1' height='1' fill='%23D9D9D9'/%3E%3Crect x='2' width='1' height='1' fill='%23D9D9D9'/%3E%3Crect x='3' y='1' width='1' height='1' fill='%23D9D9D9'/%3E%3Crect x='2' y='2' width='1' height='1' fill='%23D9D9D9'/%3E%3Crect x='1' y='3' width='1' height='1' fill='%23D9D9D9'/%3E%3Crect y='2' width='1' height='1' fill='%23D9D9D9'/%3E%3Crect x='3' y='3' width='1' height='1' fill='%23D9D9D9'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_240_7083'%3E%3Crect width='4' height='4' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  background-size: 15px;
 }
 
 .font-code {
