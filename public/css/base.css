@@ -989,7 +989,7 @@ input[type="range" i]::-webkit-slider-thumb {
   .inputs {
     display: flex;
     flex-direction: row;
-    gap: 0;
+    gap: 10px;
   }
 }
 
@@ -1003,16 +1003,11 @@ input[type="range" i]::-webkit-slider-thumb {
   font-size: var(--font-size-meta);
   outline: none;
   font-family: var(--sans);
+  border-radius: 6px;
 }
 
 .inputs input[type="submit"] {
   background-color: var(--color-diagram);
-}
-
-@media screen and (min-width: 700px) {
-  .inputs input[type="submit"] {
-    border-left: none;
-  }
 }
 
 .inputs input[type="email"] {
