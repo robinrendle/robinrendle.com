@@ -52,7 +52,7 @@ html[data-theme='light'] {
   --color-nav-background: #FFF;
   --color-nav-text: #111;
   --color-body-background: #D9D9D9;
-  --color-window-border: #000;
+  --color-window-border: hsl(240, 0%, 85%);
   --color-window-title-background: #fff;
   --color-window-title-text: #111;
   --color-window-content-background: #fff;
@@ -195,6 +195,8 @@ c-window {
   border: var(--window-border);
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
   {
     # min-height: 100%;
     #;
@@ -239,7 +241,7 @@ c-window + c-window {
   flex-direction: column;
   justify-content: space-between;
   padding: var(--window-title-padding);
-  border-bottom: 1px solid var(--color-window-title-text);
+  border-bottom: 1px solid var(--color-window-border);
 }
 
 .window-title-article {
