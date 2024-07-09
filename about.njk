@@ -14,10 +14,14 @@ title: Designer and writer.
     overflow: hidden;
     gap: 20px;
     scroll-snap-type: x mandatory;
-    margin-top: calc(var(--space-nav) * -1);
+    margin-top: calc(var(--space-nav) * -7);
     background-image: url("/images/home-essay/pixel-background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    
+    @media screen and (min-width: 550px) {
+      margin-top: calc(var(--space-nav) * -1.7);
+    }
   }
 
   .card {
