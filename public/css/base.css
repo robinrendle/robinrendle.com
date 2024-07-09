@@ -48,6 +48,10 @@
   }
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 html[data-theme='light'] {
   --color-nav-background: #FFF;
   --color-nav-text: #111;
