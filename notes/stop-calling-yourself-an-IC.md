@@ -17,9 +17,11 @@ But besides the tone and _feeling_ of this cruel abbreviation, there’s two rea
 
 First, it’s buck wild to me that managers don’t need an abbreviation or shorthand. This tells you something about how they think about the labor of employees, that they can be so easily abbreviated. 
 
-Second, there’s no such thing as “individual” contributions! All work, all labor—regardless of job or industry—is a collective. The problem here really starts at school, as they set you up in competition with your classmates and you have to see yourself as the hero that has to do everything for yourself. But actual, real work outside of school requires collective effort to get anything meaningful done. 
+Second, there’s no such thing as “individual” contributions! All work, all labor—regardless of job or industry—is a collective. The problem here really starts at school, as they set you up in competition with your classmates and you have to see yourself as the hero that has to do everything for yourself. But actual, real work outside of school requires collective effort to get anything meaningful done.
 
-I was chatting with [Mike](https://www.mikemonteiro.com/) about how much I hate this term and he said this: 
+(Companies are likewise incentivized to see your work in a silo, to better isolate you from your coworkers.) 
+
+Anyway, I was chatting with [Mike](https://www.mikemonteiro.com/) about how much I hate this term and he said this: 
 
 > What we call things is important. Orwell taught us that!
 > 
