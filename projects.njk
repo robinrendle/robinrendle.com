@@ -8,6 +8,7 @@ templateClass: no-footer
 <style>
 :root {
   --carousel-padding: 40px;
+  --carousel-height: 90dvh;
 }
 
 .nav {
@@ -16,6 +17,7 @@ templateClass: no-footer
 
 main {
   padding: 0;
+  max-width: 100%;
 }
   
 c-projects {
@@ -24,6 +26,7 @@ c-projects {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: calc(100dvh - 40px);
+  padding-bottom: 30px;
 }
   
 c-project {
@@ -33,7 +36,9 @@ c-project {
   position: relative;
   display: block;
   width: 100%;
-  padding-top: 5dvh;
+  min-height: calc(var(--carousel-height) + 2dvh);
+  overflow: hidden;
+  padding-top: 2dvh;
 }
 
 @keyframes animate-in-and-out {
@@ -65,54 +70,94 @@ c-carousel {
   position: relative;
   background: white;
   margin: 20px;
-  height: 80dvh;
-  cursor: e-resize;
-  border-radius: 1.25rem;
+  margin-top: 0;
+  height: var(--carousel-height);
+  border-radius: 30px;
+  position: relative;
+  scroll-behavior: auto;
   
   .sentry & {
     background: hsl(264, 28%, 48%);
   }
   
   .retool & {
-    background: hsl(211, 70%, 29%);
+    background: hsl(211, 70%, 34%);
   }
   
   .gusto & {
-    background: hsl(5, 72%, 58%);
+    background: hsl(180, 89%, 26%);
   }
   
   .my-favorite-book & {
-    background: hsl(0, 0%, 80%);
+    background: hsl(216, 27%, 36%);
   }
   
   .css-tricks & {
-    background: hsl(17, 76%, 57%);
+    background: hsl(163, 89%, 26%);
+  }
+}
+
+c-carousel-header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  min-width: calc(100dvw - 40px);
+  width: calc(100dvw - 40px);
+  height: 90px;
+  top: 0;
+  left: 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  padding: 30px 30px;
+  line-height: 1.15;
+  align-self: flex-start;
+  z-index: 999;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  
+  h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-inverse);
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: var(--color-text-inverse-copy);
+    font-weight: 600;
+    margin: 0;
   }
 }
   
 c-carousel-item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   overflow: hidden;
-  scroll-behavior: smooth;
   scroll-snap-align: start;
   width: 100%;
+  padding-top: 90px;
   min-width: 100%;
   height: 100%;
   border-radius: 0;
+  gap: 35px;
+  
+  /* @media screen and (min-width: 800px) { */
+    justify-content: space-between;
+  /* } */
   
   div {
-    padding-left: 20px;
-    padding-top: 20px;
-  }
-  
-  h2 {
-    font-size: 1.45rem;
-    font-weight: 600;
-    color: var(--color-text-inverse);
-    padding: 0;
-    margin: 0;
+    @media screen and (max-width: 800px) {
+      padding-right: 30px;
+    }
+    padding-left: 30px;
+    padding-top: 30px;
   }
   
   span {
@@ -126,21 +171,94 @@ c-carousel-item {
     line-height: 1.2;
     padding: 0;
     margin: 0;
-    max-width: 450px;
+    max-width: 500px;
     color: var(--color-text-inverse-copy);
   }
   
-  img {
-    object-fit: contain;
+  img, video {
+    object-fit: cover;
+    object-position: top left;
     border-radius: 6px;
     overflow: hidden;
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     align-self: center;
     margin: 0 auto;
-    height: auto;
+    margin-left: 30px;
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    
+    @media screen and (min-width: 800px) {
+      object-position: top;
+      width: calc(100% - 60px);
+      /* margin-left: 0; */
+      height: auto;
+    }
   }
 }
+
+  c-carousel-item.right {
+    @media screen and (min-width: 800px) {
+      flex-direction: row;
+      
+      div {
+        padding-top: 0;
+        align-self: center;
+      }
+      
+      img, video {
+        object-position: 0 0;
+        margin: 0;
+        margin-top: 60px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+        height: 100%;
+      }
+    }
+  }
+
+  c-carousel-item.left {
+    img, video {
+      object-position: 97% 0;
+      margin-left: 0;
+      margin-right: 60px;
+    }
+    
+    @media screen and (min-width: 800px) {
+      flex-direction: row-reverse;
+      
+      div {
+        align-self: center;
+        padding-left: 0;
+        padding-top: 0px;
+        padding-right: 30px;
+      }
+      img, video {
+        object-position: 100% 0%;
+        margin: 0;
+        margin-top: 60px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+        height: 100%;
+      }
+    }
+  }
+  
+  c-carousel-item.text-top {
+    @media screen and (min-width: 800px) {
+      div {
+        padding-top: 30px;
+        align-self: flex-start;
+      }
+    }
+  }
 
 .sr-only {
   position: absolute;
@@ -153,190 +271,273 @@ c-carousel-item {
   white-space: nowrap;
   border-width: 0;
 }
+
+c-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+c-carousel-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+  a {
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
+    display: grid;
+    place-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-image: url('/images/projects/nav-left.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: opacity .2s linear;
+    opacity: 0.8;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  
+  a:hover, a:active {
+    cursor: pointer;
+    opacity: 1;
+  }
+  
+  a:nth-of-type(2) {
+    background-image: url('/images/projects/nav-right.svg');
+  }
+}
 </style>
 
 <c-projects>
   <c-project class="retool">
     <c-carousel>
-      <c-carousel-item>
-        <img id="photo1" src="" height="640" width="857">
+      <c-carousel-header>
+        <c-logo>
+          <img width="40" height="40" src="/images/projects/retool/retool-logo.svg" alt="Retool logo">
+          <div>
+            <h2>Retool</h2>
+            <p class="description">Senior product designer</p>
+          </div>
+        </c-logo>
+        <c-carousel-nav>
+          <a href="#" class="prev"><span class="sr-only">Previous</span></a>
+          <a href="#" class="next"><span class="sr-only">Next</span></a>
+        </c-carousel-nav>
+      </c-carousel-header>
+      <c-carousel-item class="right text-top">
         <div>
-          <h2>Retool</h2>
-          <p>I help engineers build internal apps as a senior product designer.</p>
+          <p><span>A unified theory of everything.</span> Create queries, import data, and add components with just a tap. Search for an integration or quickly drag and drop a query you’ve previously created, too.</p>
         </div>
+        <video autoplay muted loop src="/images/projects/retool/building-blocks.mp4" height="640" width="857" alt="A video of a redesigned Retool interface that lets you build UI way faster">
       </c-carousel-item>
       <c-carousel-item>
-        <img id="photo1" src="/images/projects/retool/retool-ui.webp" height="640" width="857">
         <div>
-          <p><span>Less clicking, stat.</span> Writing code, adding components, and importing data required way too much clicking, so I explored concepts to consolidate things into one menu.</p>
+          <p><span>The mother of all demos.</span> A cursor guides your hand and gives you interactive side quests to complete whilst you learn the basics of Retool.</p>
         </div>
+        <video autoplay muted loop src="/images/projects/retool/cursor.mp4" height="640" width="857" alt="A video showing the new onboarding experience at Retool, where a cursor helps you with the basics">
+      </c-carousel-item>
+      <c-carousel-item class="right">
+        <div>
+          <p><span>An infinite canvas.</span> Snap complex layouts together and add interactive logic between components without having to write a single line of code.</p>
+        </div>
+        <video autoplay muted loop src="/images/projects/retool/quick-actions.mp4" height="640" width="857" alt="A video showing how to add suggested components one after another">
+      </c-carousel-item>
+      <c-carousel-item class="left">
+        <div>
+          <p><span>Welcome home.</span> A fresh new homepage helps you navigate your library of apps and resources—or quickly get started on something new.</p>
+        </div>
+        <img id="photo2" src="/images/projects/retool/homepage-redesign.webp" height="640" width="857" alt="A screenshot of the new homepage">
       </c-carousel-item>
       <c-carousel-item>
         <div>
-          <p><span>Onboarding sucks.</span> It’s important to grok the basics of Retool, so I tried my best to avoid the grueling learning experience common to many apps today.</p>
+          <p><span>Code like the wind.</span> A redesigned query editor lets you focus on the bare essentials for writing code and getting your data into Retool as fast as possible.</p>
         </div>
+        <img src="/images/projects/retool/query-editor.webp" height="640" width="857" alt="A screenshot of the redesigned Retool query editor">
       </c-carousel-item>
-      <c-carousel-item>
-        <img id="photo2" src="/images/projects/retool/retool-homepage-slide.webp" height="640" width="857">
+      <c-carousel-item class="right">
         <div>
-          <p><span>Welcome home.</span> The goal of this homepage redesign was to help customers navigate their library of internal apps—or quickly get started on something new.</p>
+          <p><span>All together, now.</span> Find help, learn about keyboard shortcuts, and toggle important settings with the new app menu.</p>
         </div>
-      </c-carousel-item>
-      <c-carousel-item>
-        <img id="photo2" src="/images/projects/retool/retool-quick-actions.webp" height="640" width="857">
-        <div>
-          <p><span>Quick actions.</span> Engineers struggled to snap interfaces together efficiently and quick actions was the first big step to speed things up.</p>
-        </div>
-      </c-carousel-item>
-      <c-carousel-item>
-        <img id="photo2" src="" height="640" width="857">
-        <div>
-          <p><span>Code like the wind.</span> I noticed how customers would nervously scroll the query editor, looking for the setting they needed so I redesigned things with a focus on the bare essentials of writing code.</p>
-        </div>
+        <video autoplay muted loop src="/images/projects/retool/endless-settings.mp4" height="640" width="857" alt="A video of a redesigned and consolidated menu">
       </c-carousel-item>
     </c-carousel>
   </c-project>
-  
   <c-project class="sentry">
     <c-carousel>
-      <c-carousel-item>
-        <img src="" height="640" width="857">
+      <c-carousel-header>
+        <c-logo>
+          <img width="40" height="40" src="/images/projects/sentry/sentry-logo.svg" alt="Sentry logo">
+          <div>
+            <h2>Sentry</h2>
+            <p>Senior product designer</p>
+          </div>
+        </c-logo>
+        <c-carousel-nav>
+          <a href="#" class="prev"><span class="sr-only">Previous</span></a>
+          <a href="#" class="next"><span class="sr-only">Next</span></a>
+        </c-carousel-nav>
+      </c-carousel-header>
+      <c-carousel-item class="right text-top">
         <div>
-          <h2>Sentry</h2>
-          <p>I helped engineers find incidents, outages, and bugs in their code.</p>
+          <p><span>Dumpster fire detected.</span> Create a custom alert to monitor incidents or performance regressions and then investigate the problem with a handy timeline of events.</p>
         </div>
-      </c-carousel-item>
-      <c-carousel-item>
         <img src="/images/projects/sentry/alerts/alerts-02.webp" height="640" width="857">
-        <div>
-          <p><span>Dumpster fire.</span> I designed Sentry alerts to identify the who, why, what, where, and when of an incident but I soon found that the thorniest design problem was trying to point engineers in the right direction of a fix.</p>
-        </div>
-      </c-carousel-item>
-      <c-carousel-item>
-        <img src="/images/projects/sentry/alerts/after.webp" height="640" width="857">
-        <div>
-          <p><span>Alert fatigue.</span> With a redesigned Alerts homepage, engineers could now see which problem required their attention first. No more scrolling to find the most important problem.</p>
-        </div>
       </c-carousel-item>
     <c-carousel-item>
+      <div>
+        <p><span>Hakuna matata.</span> When an issue has a large number of events in a short period of time, it’s automatically flagged as escalating and notifies you right away.</p>
+      </div>
       <img src="/images/projects/sentry/issue-status/issue-status-01.webp" height="640" width="857">
-      <div>
-        <p><span>Escalating issues.</span> I explored concepts to automatically flag issues when they had a large number of events in a short period of time.</p>
-      </div>
     </c-carousel-item>
-    <c-carousel-item>
-      <img src="/images/projects/sentry/search-concepts/search-concepts-01.webp" height="640" width="857">
+    <c-carousel-item class="left">
       <div>
-        <p><span>No more haystack.</span> Searching for issues with a specific property was way harder than it ought to be, so I designed search suggestions to surface the most common keys.</p>
+        <p><span>Autocompleted.</span> Search across your errors by assignee, device, or custom tag. Or search for issues that affect certain pages and customers.</p>
       </div>
-    </c-carousel-item>
-    <c-carousel-item>
       <img src="/images/projects/sentry/search-concepts/search-concepts-04.webp" height="640" width="857">
+    </c-carousel-item>
+    <c-carousel-item>
       <div>
-        <p><span>Auto...complete.</span> I pitched and designed dozens of small autocomplete improvements so that folks didn’t have to type out the full search string.</p>
+        <p><span>All needle, no haystack.</span> The most common search terms are now right at your fingertips with handy suggestions as you type.</p>
       </div>
+      <img src="/images/projects/sentry/search-concepts/search-concepts-01.webp" height="640" width="857">
     </c-carousel-item>
     </c-carousel>
   </c-project>
   
   <c-project class="gusto">
     <c-carousel>
-      <c-carousel-item>
-      <img src="/images/projects/gusto/payroll-dashboard.webp" height="640" width="857">
+      <c-carousel-header>
+      <c-logo>
+       <img width="40" height="40" src="/images/projects/gusto/gusto-logo.svg" alt="Gusto">
         <div>
           <h2>Gusto</h2>
-          <p>I was a product designer on payroll and built the first design system with a crew of talented folks.</p>
-      </div>
-    </c-carousel-item>
-    <c-carousel-item>
-      <img src="/images/projects/gusto/gusto-slider-page.webp" height="640" width="857">
-        <div>
-          <p><span>A new design system.</span> We refactored dozens of components and thousands of lines of code in preparation of a brand refresh. This set a new standard for UI design and development.</p>
-      </div>
-    </c-carousel-item>
-    <c-carousel-item>
-      <img src="/images/projects/gusto/design-system-05.webp" height="640" width="857">
-        <div>
-          <p><span>Design, documented.</span> We worked closely with the design and engineering teams to consolidate our core components. We also wrote documentation for our shared component library and design patterns in Figma.</p>
+          <p>Product designer</p>
         </div>
-    </c-carousel-item>
-    </c-carousel>
-  </c-project>
-  
-  <c-project class="my-favorite-book">
-    <c-carousel>
-      <c-carousel-item>
-        <img src="" height="640" width="857">
+      </c-logo>
+      <c-carousel-nav>
+        <a href="#" class="prev"><span class="sr-only">Previous</span></a>
+        <a href="#" class="next"><span class="sr-only">Next</span></a>
+      </c-carousel-nav>
+      </c-carousel-header>
+      <c-carousel-item class="right text-top">
         <div>
-            <h2>Buttondown</h2>
-            <p>I worked on some concepts for a yet-to-be released publication called My Favorite Book.</p>
+          <p><span>Run payroll from the beach.</span> Gusto’s new component library and redesigned interface lets you run payroll from anywhere in the galaxy.</p>
         </div>
+        <img src="/images/projects/gusto/design-system-01.webp" height="640" width="857">
       </c-carousel-item>
       <c-carousel-item>
-        <img src="/images/projects/my-favorite-book/my-favorite-book-1.webp" height="640" width="857">
         <div>
-            <p><span>Lo,l, the big lol. </span> I worked on some concepts for a yet-to-be released publication called My Favorite Book.</p>
-        </div>
-      </c-carousel-item>
-      <c-carousel-item>
-        <img src="/images/projects/my-favorite-book/my-favorite-book-2.webp" height="640" width="857">
+          <p><span>Design systems go.</span> Almost every component has been refactored, consolidated, and documented to make sure that you can trust every tap when running payroll or adding new employees.</p>
+          </div>
+        <img src="/images/projects/gusto/design-system-05.webp" height="640" width="857">
       </c-carousel-item>
     </c-carousel>
   </c-project>
-  
+
   <c-project class="css-tricks">
     <c-carousel>
-      <c-carousel-item>
-        <img src="/images/projects/css-tricks/Slide.webp" height="640" width="857">
+      <c-carousel-header>
+        <c-logo>
+         <img width="40" height="40" src="/images/projects/css-tricks/css-tricks-logo.svg" alt="CSS-Tricks logo">
+          <div>
+            <h2>CSS-Tricks</h2>
+            <p>Staff writer</p>
+          </div>
+        </c-logo>
+        <c-carousel-nav>
+          <a href="#" class="prev"><span class="sr-only">Previous</span></a>
+          <a href="#" class="next"><span class="sr-only">Next</span></a>
+        </c-carousel-nav>
+      </c-carousel-header>
+      <c-carousel-item class="right text-top">
+        <div>
+          <p><span>The hottest front-end drama.</span> For CSS-Tricks I wrote dozens of tutorials over the years about everything from flexbox and grid to CSS filters and container queries.</p>
+          </div>
+        <img src="/images/projects/css-tricks/css-tricks-screenshot.webp" height="640" width="857">
       </c-carousel-item>
       <c-carousel-item>
-        <img src="/images/projects/css-tricks/Slide-1.webp" height="640" width="857">
-      </c-carousel-item>
-      <c-carousel-item>
-        <img src="/images/projects/css-tricks/Slide-2.webp" height="640" width="857">
+        <div>
+          <p><span>The past, present, and future of CSS.</span> The newsletter went out to more than 80,000 readers each week where I wrote smaller missives about the direction of the industry and what CSS properties were coming down the line.</p>
+        </div>
+        <img src="/images/projects/css-tricks/css-carousel.webp" height="640" width="857">
       </c-carousel-item>
     </c-carousel>
   </c-project>
 </c-projects>
 
 <script>
- class FancyCarousel extends HTMLElement {  
-    constructor() {
+  class FancyCarousel extends HTMLElement {
+   constructor() {
      super();
      this._currentSlide = 0;
-     this._maxSlides = this.children.length - 2;
-   } 
-    connectedCallback() {
-      this.addEventListener("click", this.#handleClick);
-    }
-   
+     this._maxSlides = this.children.length - 3;
+     this.next = this.querySelector('.next');
+     this.prev = this.querySelector('.prev');
+   }
+
+   connectedCallback() {
+     this.next.addEventListener('click', this);
+     this.prev.addEventListener('click', this);
+     document.addEventListener('keydown', this);
+   }
+
    disconnectedCallback() {
-     this.removeEventListener("click", this.#handleClick);
+     this.next.removeEventListener('click', this);
+     this.prev.removeEventListener('click', this);
+     document.removeEventListener('keydown', this);
+   }
+
+   handleEvent(event) {
+     this[`on${event.type}`](event);
+   }
+
+   onclick(event) {
+     event.preventDefault();
+     this.nextSlide(event);
    }
    
-   #handleClick(event) {
-     this.#nextSlide();
+   onkeydown(event) {
+     this.nextSlide(event);
    }
-   
-   #resetSlides() {
+
+   resetSlides() {
      this._currentSlide = 0;
      this.scrollLeft -= 1000000;
    }
 
-   #nextSlide() {
-    if (this._currentSlide <= this._maxSlides) {
-      this._currentSlide = this._currentSlide + 1; 
-      console.log(this._currentSlide);
-      console.log(this._maxSlides);
-      this.scrollLeft += 1000;   
-    } else {
-      this.#resetSlides();
-    }
-   } 
-   
-   #prevSlide() {
-     this.scrollLeft -= 1000;
-    } 
+   nextSlide(event) {
+     console.log(event.keyCode);
+     
+     if (event.keyCode === 9) {
+       return;
+     }
+     if (event.target.classList.contains('next') || event.keyCode === 39) {
+       if (this._currentSlide <= this._maxSlides) {
+         this._currentSlide = this._currentSlide + 1;
+         this.scrollBy({
+           left: 1000,
+           // behavior: 'smooth',
+         });
+       } else if (this._currentSlide > this._maxSlides) {
+         this.resetSlides();
+       }
+     } else if (event.target.classList.contains('prev') || event.keyCode === 37) {
+       if (this._currentSlide === 0) {
+         this._currentSlide = this._maxSlides;
+         this.scrollBy({
+           left: +9000,
+           // behavior: 'smooth',
+         });
+       } else {
+         this._currentSlide = this._currentSlide - 1;
+         this.scrollBy({
+           left: -1000,
+           // behavior: 'smooth',
+         });
+       }
+     }
+   }
  }
  
  customElements.define("c-carousel", FancyCarousel);
