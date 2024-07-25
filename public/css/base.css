@@ -1325,3 +1325,28 @@ code {
 .theme-toggle:hover {
   cursor: pointer;
 }
+
+.big-picture {
+  display: block;
+  margin-bottom: 5px !important; 
+  /* margin-top: 10px !important; */
+  @media screen and (min-width: 800px) {
+    width: 65rem;
+    max-width: 65rem;
+    margin-left: calc(50% - 32.5rem) !important;  
+  }
+}
+
+.big-picture:first-of-type {
+  margin-top: 20px !important;
+}
+
+.big-picture + .big-picture {
+  /* margin-top: 0 !important; */
+  margin-bottom: 0 !important;
+  margin-top: 0px;
+}
+
+.big-picture + p {
+  margin-top: 40px;
+}
