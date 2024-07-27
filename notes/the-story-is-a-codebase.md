@@ -9,7 +9,7 @@ extract: Obsidian’s graph view rules.
 
 I’ve been using Obsidian to write a story, partly for fun, partly as a de-stresser, but also to try my hand at a different form of writing. And one feature that I adore is the [graph view](https://help.obsidian.md/Plugins/Graph+view) which shows the relationships between your documents. 
 
-so in each Obsidian doc, you can add links to another like this: 
+So in each Obsidian doc, you can add links to another like this: 
 
 ```md
 [[Jupiter]] was a demi-god that befriended old [[Ansel]].
