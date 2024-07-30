@@ -367,7 +367,7 @@ c-window + c-window {
   max-width: var(--content-width);
   margin: calc(var(--space) / 1.5) auto 0 auto;
   padding: calc(var(--space) * 1) var(--space) calc(var(--space) * 4) var(--space);
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 @media screen and (min-width: 700px) {
