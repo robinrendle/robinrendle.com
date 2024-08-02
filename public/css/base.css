@@ -29,7 +29,7 @@
   --wrapper-width: 65rem;
   --nav-height: 2.8rem;
 
-  --font-size-intro: clamp(1.1rem, 4vw, 1.5rem);
+  --font-size-intro: clamp(1.1rem, 4vw, 1.4rem);
   --font-size-body: clamp(1.05rem, 3vw, 1.23rem);
   --font-size-caption: clamp(0.9rem, 3vw, 1.1rem);
   --font-size-meta: 0.9rem;

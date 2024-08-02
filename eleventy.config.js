@@ -12,6 +12,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy({ 'public/robots.txt': '/robots.txt' });
 
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
