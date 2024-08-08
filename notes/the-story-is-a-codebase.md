@@ -17,7 +17,7 @@ So in each Obsidian doc, you can add links to another like this:
 
 The more links you add, the more the graph view will swarm with connections, like this:
 
-![A screenshot of Obsidian’s graph view with lines connecting documents](/images/graph-view.webp)
+<img src="/images/graph-view.webp" alt="A screenshot of Obsidian’s graph view with lines connecting documents" loading="lazy">
 
 Graph views like this aren’t handy for writing blog posts or essays, and I don’t usually like mind maps of things because they’re a bad way of organizing information. In fact, they kinda stress me out. But for writing fiction and stories this view is super handy. I can see where two characters aren’t connected or where a scene just sits out there in the void, disconnected from all other characters and events and plot points.
 

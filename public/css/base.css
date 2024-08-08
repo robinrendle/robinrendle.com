@@ -12,13 +12,6 @@
   font-weight: bold;
 }
 
-@font-face {
-  font-family: "MD IO";
-  src: url("/fonts/md-io/MDIO-Regular.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal;
-}
-
 :root {
   --space: 1rem;
   --space-nav: 2px;
@@ -36,7 +29,7 @@
   --font-size-small: 0.8rem;
   --font-size-window-header: clamp(1rem, 3vw, 1.1rem);
 
-  --monospace: 'MD IO', 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
+  --monospace: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
   --sans: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   --title: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 }

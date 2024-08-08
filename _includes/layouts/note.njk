@@ -11,7 +11,7 @@ templateClass: tmpl-post
     <div class="window-content">
       <div class="article-wrapper">
         {{ content | safe }}
-        <time class="font-code notes-list-extract" datetime="{{ page.date | htmlDateString }}">
+        <time class="notes-list-extract" datetime="{{ page.date | htmlDateString }}">
           — {{ page.date | fullDate }}
         </time>
       </div>

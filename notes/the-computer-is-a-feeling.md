@@ -11,7 +11,7 @@ As I was walking around [The Computer History Museum](https://computerhistory.or
 
 Instinctively, intuitively, I know what that computer-feeling is. I’ve sort of built my whole life around it, to some degree. When you figure out a big programming problem, that’s the computer-feeling. Or when you hit publish on a website: pure, distilled computerness. But when I try to break it down and describe what it means in words and why some computers give me that feeling and others don’t, I start to give myself a headache.
 
-<img class="big-picture" src="/images/computer-museum-7.webp" alt="A photograph of an old keyboard"/> 
+<img loading="lazy" class="big-picture" src="/images/computer-museum-7.webp" alt="A photograph of an old keyboard"/> 
 
 I realize walking around the museum that some computers are _computers_ to me and some are just...infrastructure.
 
@@ -19,7 +19,7 @@ I realize walking around the museum that some computers are _computers_ to me an
 
 “Sorry,” I wanted to say to the ENIAC as I walked away.
 
-<img class="big-picture" src="/images/computer-museum-1.webp" alt="A photograph of the ENIAC"/> 
+<img loading="lazy" class="big-picture" src="/images/computer-museum-1.webp" alt="A photograph of the ENIAC"/> 
 
 The Computer History Museum is real neat because you realize that the difference between a calculator, or even an abacus, and a full-fledged super computer in your pocket is not one lone technological revolution. 
 
@@ -31,7 +31,7 @@ Since humans were a thing, computers were there too.
 
 It just depends on what you call a computer.
 
-<img class="big-picture" src="/images/computer-museum-2.webp" alt="A photograph of a glass case containing posters with the word 'THINK'—a slogan used at IBM"/>
+<img loading="lazy" class="big-picture" src="/images/computer-museum-2.webp" alt="A photograph of a glass case containing posters with the word 'THINK'—a slogan used at IBM"/>
 
 Most of the folks who built these machines weren’t as romantic as me. The computer-feeling for many was economic or perhaps it was the joy of installing a room-sized machine designed to count things that help kill people.
 
@@ -43,7 +43,7 @@ Instead, the feeling I get is fear: look at how little of the world I know! Befo
 
 I don’t know nothin’.
  
-<img class="big-picture" src="/images/computer-museum-3.webp" alt="A photograph of an old IBM computer"/> 
+<img loading="lazy" class="big-picture" src="/images/computer-museum-3.webp" alt="A photograph of an old IBM computer"/> 
 
 My head spins when I think about the enormous effort put into all these machines. And not even all the programming and manufacturing of the products themselves but the machine around the machine: the ads, the writers, and even the musicians and poets. 
 
@@ -51,16 +51,16 @@ In one glass box dedicated to IBM there’s a book of poetry written by the comp
 
 Let’s build the future of computing together! Here are some socks!
 
-<img class="big-picture" src="/images/computer-museum-4.webp" alt="A photograph of the Silent 700, a computer on the verge of the computer-typewriter transition"/> 
+<img loading="lazy" class="big-picture" src="/images/computer-museum-4.webp" alt="A photograph of the Silent 700, a computer on the verge of the computer-typewriter transition"/> 
 
 Imagine rooms and rooms of these things, clacking away! 
 
-<img class="big-picture" src="/images/computer-museum-8.webp" alt="A photograph of the IMSAI 8080" />
+<img loading="lazy" class="big-picture" src="/images/computer-museum-8.webp" alt="A photograph of the IMSAI 8080" />
 
 As I walk through these halls I get this other kind of feeling though: it’s as if we’re all whittling down the same chunks of raw materials together, collaborating on something so enormous—THE COMPUTER—that we don’t even realize we’re working together to build it. Every new programming language and front-end framework, every new device that launches and then bombs—it’s all part of this enormous collaboration to build a computer.
 
 In a place like this, all those petty squabbles between competing typewriting manufacturers and web browsers feels so silly and unnecessary. Everything behind glass here was pushing towards a future they couldn’t see, but they had to feel instead.
 
-<img class="big-picture" src="/images/computer-museum-5.webp" alt="Rows of dials, switches, lights"/> 
+<img loading="lazy" class="big-picture" src="/images/computer-museum-5.webp" alt="Rows of dials, switches, lights"/> 
 
 Do you feel it, too? 
