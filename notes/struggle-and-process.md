@@ -15,10 +15,12 @@ extract: It’s all a mess.
 > 
 > It’s messy and I wouldn’t have it any other way.
 
-I remember this chap at design school who got full marks every time. Full scores all the way through. But whenever I sat down and looked at his work I was shocked at how dry and boring it was, how _average_ it felt. The work was okay! It did the job! It was better than mine! 
+(Good design is improv!)
+
+I remember this chap at design school who got full marks every time. Full scores all the way through. But whenever I looked at this chap’s work I was shocked at how dry and boring it was, how _average_ it felt. The work was okay! It did the job! It was better than mine! 
 
 But the work didn’t _sing_, ya know?
 
-It feels like a lot of design process stuff is the same kinda thing. It’s trying to go for full marks for showing the thinking, showing the process — pretending to be a science when this whole thing is way, way more art. But the way to get to a great anything is messy and stupid and wrong right up until the point when it ain’t. 
+It feels like a lot of design process stuff is the same kinda thing. It’s trying to go for full marks for showing the thinking, showing the process — pretending to be a science when this whole thing is way, way more art than we’d like to admit. But the way to get to a great anything is messy and stupid and wrong right up until the point when it ain’t. 
 
-The only sure-fire process to creating a really good thing is [struggling for a very long time](https://rachsmith.com/comfortable-with-the-struggle/). 
+I reckon the only sure-fire process for creating a really good thing is [struggling for a very long time](https://rachsmith.com/comfortable-with-the-struggle/). 
