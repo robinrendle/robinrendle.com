@@ -10,6 +10,7 @@
   src: url("/fonts/soehne/soehne-kraftig.woff2") format("woff2");
   font-style: normal;
   font-weight: bold;
+  font-display: swap;
 }
 
 :root {
