@@ -2,402 +2,317 @@
 layout: layouts/base.njk
 title: Designer and writer.
 ---
-<c-grid>
-  <c-window class="grid-column-12">
-    <div class="window-content">
-      <figure class="about-photo">
-        <img style="object-fit: cover;" width='618px' height="412px" src="/images/memememe.avif" alt="A picture of the shockingly handsome author, taken by his wife on a visit to Plymouth, UK. February 2022."/>
-      </figure>
-    </div>
-  </c-window>
-</c-grid>
 
 <c-grid>
-  <c-window class="grid-column-8">
-    <div class="window-title">
-      <h2>About</h2>
-    </div>
-    <div class="window-content window-content-wrapper">
-      <p class="intro">I’m Robin, a designer and writer. This is where I experiment with e-publishing, rant about typography, and work in public. My current side project is <a href="https://csscade.com">The Cascade</a>.</p>
-    </div>
-  </c-window>
-  <c-window class="grid-column-4">
-    <div class="window-title">
-      <h2>Abilities</h2>
-    </div>
-    <div class="window-content window-content-wrapper">
-      <div class="ability">
-        <label for="intel">Dexterity</label>
-        <input type="range" id="intel" name="intel" min="0" value="4" max="100" disabled/>
-      </div>
-      <div class="ability">
-        <label for="opinions">Annoying font opinions</label>
-        <input type="range" id="opinions" name="opinions" min="0" value="90" max="100" disabled/>
-      </div>
-    </div>
-  </c-window>
-</c-grid>
-
-<c-grid>
-  <c-window class="window-notes grid-column-12">
-    <a class="window-title window-title-link" href="/notes">
-      <h2>Notes</h2>
-      <svg viewBox="0 0 14 14" class="window-title-icon">
-        <use xlink:href="#icon-arrow"></use>
-      </svg>
-    </a>
-    <div class="window-content">
-      <ol class="notes-list">
-        {% for post in collections.notes | reverse | head(50) %}
-          <li>
-            <a class="notes-list-item {{loop.index}}" href="{{ post.url }}">
-              <div>
-                <h3 class="notes-list-title">{{ post.data.title }}</h3>
-                <p class="notes-list-extract">{{ post.data.extract }}</p>
-              </div>
-              <time class="font-code notes-list-extract" datetime="{{ post.data.date | htmlDateString }}">
-                {{ post.data.date | shortDate }}
-              </time>
+  <div class="grid-column-8">
+    {% for post in collections.notes | reverse | head(10) %}
+      <c-window>
+        <article>
+            <a class="window-title window-title-link {{loop.index}}" href="{{ post.url }}">
+              <h2>{{ post.data.title }}</h2>
+              <svg viewBox="0 0 14 14" class="window-title-icon">
+                <use xlink:href="#icon-arrow"></use>
+              </svg>
             </a>
-          </li>
-        {% endfor %}
-      </ol>
-    </div>
-  </c-window>
-</c-grid>
-
-<c-grid>
-  {% for note in collections.featured | reverse | head(3) %}
-    <c-window class="window-link grid-column-4">
-      <a class="window-title window-title-link" href="{{ note.url }}" class="essays-item-link">
-        <h2>{{note.data.title}}</h2>
-        <svg viewBox="0 0 14 14" class="window-title-icon">
-          <use xlink:href="#icon-arrow"></use>
-        </svg>
-      </a>
-      <div class="window-content window-content-link">
-        <a href="{{ note.url }}" class="essays-item-link">
-          <img class="essays-item-img" src="{{note.data.hero}}"/>
-        </a>
+          <div class="window-content">
+            <div class="article-wrapper">
+              {{ post.content | safe }}
+              
+              <time class="font-code notes-list-extract" datetime="{{ post.data.date | htmlDateString }}">
+                — {{ post.data.date | fullDate }}
+              </time>
+            </div>
+          </div>
+        </article>
+      </c-window>
+    {% endfor %}
+  </div>
+  <div class="grid-column-4">
+    <c-window>
+      <div class="window-title">
+        <h1>Robin Rendle</h1>
+      </div>
+      <img src="/images/memememe.avif" alt="A photograph of Robin (that’s me) looking out at the horizon, with his finger on his nose">
+    </c-window>
+    <c-window class="window-about">
+      <div class="window-title">
+        <h2>About</h2>
+      </div>
+      <div class="window-content window-content-wrapper">
+        <p class="tiny-text">I’m Robin, a designer and writer, and this blog is where I experiment with publishing, make weird web projects, and work in public.</p>
+        <p class="tiny-text">These days I’m a product designer at Retool and work on <a href="https://csscade.com">The Cascade</a>, a blog about the past, present, and future of CSS.</p>
+        <p class="tiny-text">Previously I was a product designer at Sentry and for almost ten years I was a staff writer at CSS-Tricks aka the best website ever made.</p>
       </div>
     </c-window>
-  {% endfor %}
-</c-grid>
-
-{# <c-grid>
-  <c-window class="window-blogroll grid-column-4">
-    <div class="window-title">
-      <h2>Blogroll</h2>
-    </div>
-    <div class="window-content window-content-wrapper">
-      <ul class="list-blogroll">
-        <li>
-          <a href="https://lucybellwood.com">Lucy Bellwood</a>
-        </li>
-        <li>
-          <a href="https://www.jezburrows.com/">Jez Burrows</a>
-        </li>
-        <li>
-          <a href="https://chriscoyier.net/">Chris Coyier</a>
-        </li>
-        <li>
-          <a href="https://email-is-good.com/">Email is Good</a>
-        </li>
-        <li>
-          <a href="https://erinkissane.com/">Erin Kissane</a>
-        </li>
-        <li>
-          <a href="https://waxy.org/">Andy Baio</a>
-        </li>
-        <li>
-          <a href="https://daverupert.com/">Dave Rupert</a>
-        </li>
-        <li>
-          <a href="https://scottjehl.com/">Scott Jehl</a>
-        </li>
-        <li>
-          <a href="https://wattenberger.com/">Amelia Wattenberger</a>
-        </li>
-        <li>
-          <a href="https://ethanmarcotte.com/">Ethan Marcotte</a>
-        </li>
-        <li>
-          <a href="https://aegir.org/">Aegir</a>
-        </li>
-        <li>
-          <a href="https://ia.net/news">iA</a>
-        </li>
-        <li>
-          <a href="https://going-medieval.com/">Going Medieval</a>
-        </li>
-        <li>
-          <a href="https://goodonpaper.com/">Andy McMillan</a>
-        </li>
-        <li>
-          <a href="https://jasonsantamaria.com/">Jason Santa Maria</a>
-        </li>
-        <li>
-          <a href="https://una.im/">Una Kravets</a>
-        </li>
-        <li>
-          <a href="https://blog.jim-nielsen.com/">Jim Nielsen</a>
-        </li>
-        <li>
-          <a href="https://jonas.do/">Jonas Downey</a>
-        </li>
-        <li>
-          <a href="https://realdougwilson.com/">Doug Wilson</a>
-        </li>
-        <li>
-          <a href="https://jmduke.com/">Justin Duke</a>
-        </li>
-        <li>
-          <a href="https://blog.stephaniestimac.com/">Stephanie Stimac</a>
-        </li>
-        <li>
-          <a href="https://adactio.com">Jeremy Keith</a>
-        </li>
-        <li>
-          <a href="https://chloeweil.com/index.html">Chloe Weil</a>
-        </li>
-        <li>
-          <a href="https://kellysutton.com/">Kelly Sutton</a>
-        </li>
-        <li>
-          <a href="https://www.kickscondor.com/">Kicks Condor</a>
-        </li>
-        <li>
-          <a href="https://maya.land/">maya.land</a>
-        </li>
-        <li>
-          <a href="https://craigmod.com">Craig Mod</a>
-        </li>
-        <li>
-          <a href="https://klim.co.nz/">Klim Type Foundry</a>
-        </li>
-        <li>
-          <a href="https://lynnandtonic.com/">Lynn Fisher</a>
-        </li>
-        <li>
-          <a href="https://marco.org/about">Marco Arment</a>
-        </li>
-        <li>
-          <a href="https://nicoleslaw.com/">Nicole Fenton</a>
-        </li>
-        <li>
-          <a href="https://glog.glennf.com/">Glenn Fleishmann</a>
-        </li>
-        <li>
-          <a href="https://www.aliburnett.com/">Ali Burnett</a>
-        </li>
-        <li>
-          <a href="https://paulrobertlloyd.com/">Paul Robert Lloyd</a>
-        </li>
-        <li>
-          <a href="https://piperhaywood.com/">Piper Haywood</a>
-        </li>
-        <li>
-          <a href="https://pixelambacht.nl/">Pixel Ambacht</a>
-        </li>
-        <li>
-          <a href="http://quietbabylon.com/">Quiet Babylon</a>
-        </li>
-        <li>
-          <a href="https://aresluna.org/">Marcin Wichary</a>
-        </li>
-        <li>
-          <a href="https://rachsmith.com/">Rach Smith</a>
-        </li>
-        <li>
-          <a href="https://matthiasott.com/">Matthias Ott </a>
-        </li>
-        <li>
-          <a href="https://rachelandrew.co.uk/">Rachel Andrew</a>
-        </li>
-        <li>
-          <a href="https://robinsloan.com">Robin Sloan</a>
-        </li>
-        <li>
-          <a href="https://shadycharacters.co.uk/">Shady Characters</a>
-        </li>
-        <li>
-          <a href="https://rwt.io/">Jason Pamental</a>
-        </li>
-        <li>
-          <a href="https://cassidoo.co/">Cassidy Williams</a>
-        </li>
-        <li>
-          <a href="https://colly.com/">Simon Collison</a>
-        </li>
-        <li>
-          <a href="https://carenlitherland.com/">Caren Litherland</a>
-        </li>
-        <li>
-          <a href="https://stewf.tumblr.com/">Stephen Coles</a>
-        </li>
-        <li>
-          <a href="https://stuntbox.com/">David Sleight</a>
-        </li>
-        <li>
-          <a href="https://motd.co/">Casey Kolderup</a>
-        </li>
-        <li>
-          <a href="https://www.susanjeanrobertson.com/">Susan Jean Robinson</a>
-        </li>
-        <li>
-          <a href="https://brr.fyi/">brr</a>
-        </li>
-        <li>
-          <a href="https://alicebartlett.co.uk/">Alice Bartlett</a>
-        </li>
-        <li>
-          <a href="https://meyerweb.com/">Eric Meyer</a>
-        </li>
-        <li>
-          <a href="https://trentwalton.com/">Trent Walton</a>
-        </li>
-        <li>
-          <a href="https://clagnut.com/">Richard Rutter</a>
-        </li>
-        <li>
-          <a href="https://csswizardry.com/">Harry Roberts</a>
-        </li>
-        <li>
-          <a href="https://typographica.org/">Typographica</a>
-        </li>
-        <li>
-          <a href="https://weblog.rogueamoeba.com/">Rogue Amoeba</a>
-        </li>
-        <li>
-          <a href="https://www.lspencerstudio.com/">Leah Spencer</a>
-        </li>
-        <li>
-          <a href="https://www.zachleat.com/">Zach Leatherman</a>
-        </li>
-        <li>
-          <a href="https://www.cassie.codes/">Cassie Evans</a>
-        </li>
-        <li>
-          <a href="https://chasem.co/">Chase McCoy</a>
-        </li>
-        <li>
-          <a href="https://bradfrost.com/">Brad Frost</a>
-        </li>
-        <li>
-          <a href="https://bitsofco.de/">Ire Aderinokun</a>
-        </li>
-        <li>
-          <a href="https://www.alphabettes.org/">Alphabettes</a>
-        </li>
-        <li>
-          <a href="https://www.sarahmakesmaps.com/blog">Sarah Makes Maps</a>
-        </li>
-        <li>
-          <a href="https://bobulate.com/">Bobulate</a>
-        </li>
-        <li>
-          <a href="https://www.bram.us/">Bramus Van Damme</a>
-        </li>
-        <li>
-          <a href="https://www.stubbornella.org/">Nicole Sullivan</a>
-        </li>
-        <li>
-          <a href="https://cabel.com/">Cabel Sasser</a>
-        </li>
-        <li>
-          <a href="https://chenhuijing.com">Chen Hui Jing</a>
-        </li>
-        <li>
-          <a href="https://css-irl.info/">CSS in Real Life</a>
-        </li>
-        <li>
-          <a href="https://jakearchibald.com/">Jake Archibald</a>
-        </li>
-        <li>
-          <a href="https://katydecorah.com/">Katy Decorah</a>
-        </li>
-        <li>
-          <a href="https://kevinclark.ca/">Kevin Clark</a>
-        </li>
-        <li>
-          <a href="https://kayserifserif.place/">Katherine Yang</a>
-        </li>
-        <li>
-          <a href="https://macwright.com/">Tom MacWright</a>
-        </li>
-        <li>
-          <a href="https://www.miriamsuzanne.com/">Miriam Suzanne</a>
-        </li>
-        <li>
-          <a href="https://henry.codes/">Henry Desroches</a>
-        </li>
-        <li>
-          <a href="https://geoffgraham.me/">Geoff Graham</a>
-        </li>
-        <li>
-          <a href="https://www.baldurbjarnason.com/">Baldur Bjarnason</a>
-        </li>
-      </ul>
-    </div>
-  </c-window>
-</c-grid> #}
-
-<c-grid>
-  <c-window class="grid-column-12">
-    <a class="window-title window-title-link" href="https://klim.co.nz/collections/soehne/">
-      <h2>Söhne</h2>
-      <svg viewBox="0 0 14 14" class="window-title-icon">
-        <use xlink:href="#icon-arrow"></use>
-      </svg>
-    </a>
-    <div class="window-content window-content-type">
-      <c-grid>
-        <div class="grid-column-12">
-          <svg class="type-illustration" width="893" height="142" viewBox="0 0 893 342" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M68.5308 94.962H103.476L169.028 268H137.939L122.997 228.476H48.2869L33.5858 268H2.97885L68.5308 94.962ZM85.4009 129.184L58.4088 201.484H112.875L85.4009 129.184ZM220.116 270.169C196.016 270.169 177.459 255.468 177.459 232.814C177.459 208.714 195.534 198.11 219.875 193.049L254.82 185.819V183.65C254.82 171.6 248.554 164.129 233.13 164.129C219.393 164.129 212.163 170.395 208.789 182.686L181.556 176.42C187.822 155.453 206.379 139.065 234.335 139.065C264.701 139.065 283.017 153.525 283.017 182.686V237.152C283.017 244.382 286.15 246.551 294.103 245.587V268C273.136 270.41 262.05 266.313 257.712 255.95C249.759 264.867 236.504 270.169 220.116 270.169ZM254.82 223.415V207.991L227.587 213.775C215.296 216.426 206.138 220.282 206.138 231.609C206.138 241.49 213.368 247.033 224.454 247.033C239.878 247.033 254.82 238.839 254.82 223.415ZM315.853 268V94.962H384.538C421.652 94.962 441.414 111.109 441.414 140.511C441.414 161.96 428.882 173.046 416.832 177.866C434.907 183.65 446.957 198.592 446.957 219.8C446.957 250.166 424.544 268 388.876 268H315.853ZM345.496 166.539H381.646C401.408 166.539 412.253 158.827 412.253 143.644C412.253 128.461 401.408 120.99 381.646 120.99H345.496V166.539ZM345.496 192.567V241.972H387.189C406.71 241.972 417.314 231.85 417.314 217.149C417.314 202.689 406.71 192.567 387.189 192.567H345.496ZM533.879 270.651C517.491 270.651 505.441 264.144 497.488 254.745V268H468.568V94.962H497.488V154.971C505.441 145.572 517.491 139.065 533.879 139.065C569.306 139.065 589.55 168.949 589.55 204.858C589.55 240.767 569.306 270.651 533.879 270.651ZM496.765 201.243V208.714C496.765 232.091 510.261 245.346 528.095 245.346C549.062 245.346 560.389 228.958 560.389 204.858C560.389 180.758 549.062 164.37 528.095 164.37C510.261 164.37 496.765 177.384 496.765 201.243ZM635.033 181.481C635.033 218.836 655.277 243.418 683.715 243.418C703.959 243.418 718.66 231.127 723.962 210.883L752.882 220.764C742.76 251.371 718.66 270.651 683.715 270.651C637.684 270.651 604.185 234.019 604.185 181.481C604.185 128.943 637.684 92.311 683.715 92.311C718.66 92.311 742.76 111.591 752.882 142.198L723.962 152.079C718.66 131.835 703.959 119.544 683.715 119.544C655.277 119.544 635.033 144.126 635.033 181.481ZM793.609 204.858C793.609 230.645 807.105 245.587 826.867 245.587C842.291 245.587 851.69 235.465 855.305 221.487L880.128 234.019C873.621 254.504 854.341 270.651 826.867 270.651C790.717 270.651 764.689 243.9 764.689 204.858C764.689 165.816 790.717 139.065 826.867 139.065C854.1 139.065 872.898 154.489 879.646 174.733L855.305 187.988C851.69 174.251 842.291 163.888 826.867 163.888C807.105 163.888 793.609 179.071 793.609 204.858Z" fill="#101010"/>
-            <path class="footnotes" d="M113.5 90L171 32.5H213.5" stroke="#101010" stroke-linecap="round" stroke-dasharray="2 2"/>
-            <path class="footnotes" d="M259.5 281L317 323H359.5" stroke="#101010" stroke-linecap="round" stroke-dasharray="2 2"/>
-            <path class="footnotes" d="M761.5 124L819 98H861.5" stroke="#101010" stroke-linecap="round" stroke-dasharray="2 2"/>
-            <path d="M225.096 36V33.576L222.492 27.72H223.608L225.06 31.104L225.456 32.436H225.78L226.176 31.104L227.628 27.72H228.708L226.104 33.576V36H225.096ZM232.903 36.12C231.127 36.12 230.119 34.956 230.119 32.88C230.119 30.804 231.139 29.64 232.939 29.64C234.667 29.64 235.675 30.684 235.435 33.012H231.151C231.199 34.536 231.763 35.208 232.939 35.208C233.707 35.208 234.331 34.932 234.475 34.212H235.423C235.291 35.352 234.319 36.12 232.903 36.12ZM232.903 30.516C231.895 30.516 231.343 31.08 231.187 32.184H234.475C234.487 31.128 233.971 30.516 232.903 30.516ZM239.991 36.12C238.659 36.12 237.543 35.64 237.483 34.152H238.455C238.503 34.92 239.079 35.22 240.003 35.22C240.999 35.22 241.563 34.872 241.563 34.236C241.563 33.768 241.251 33.48 240.627 33.348L239.199 33.048C238.155 32.832 237.711 32.28 237.711 31.476C237.711 30.324 238.599 29.64 240.063 29.64C241.239 29.64 242.391 30.096 242.475 31.464H241.539C241.467 30.816 240.903 30.528 240.063 30.528C239.175 30.528 238.695 30.84 238.695 31.392C238.695 31.8 238.959 32.04 239.463 32.148L240.879 32.448C242.043 32.7 242.571 33.24 242.571 34.164C242.571 35.412 241.611 36.12 239.991 36.12Z" fill="#101010"/>
-            <path d="M369.596 326V323.576L366.992 317.72H368.108L369.56 321.104L369.956 322.436H370.28L370.676 321.104L372.128 317.72H373.208L370.604 323.576V326H369.596ZM377.403 326.12C375.627 326.12 374.619 324.956 374.619 322.88C374.619 320.804 375.639 319.64 377.439 319.64C379.167 319.64 380.175 320.684 379.935 323.012H375.651C375.699 324.536 376.263 325.208 377.439 325.208C378.207 325.208 378.831 324.932 378.975 324.212H379.923C379.791 325.352 378.819 326.12 377.403 326.12ZM377.403 320.516C376.395 320.516 375.843 321.08 375.687 322.184H378.975C378.987 321.128 378.471 320.516 377.403 320.516ZM384.491 326.12C383.159 326.12 382.043 325.64 381.983 324.152H382.955C383.003 324.92 383.579 325.22 384.503 325.22C385.499 325.22 386.063 324.872 386.063 324.236C386.063 323.768 385.751 323.48 385.127 323.348L383.699 323.048C382.655 322.832 382.211 322.28 382.211 321.476C382.211 320.324 383.099 319.64 384.563 319.64C385.739 319.64 386.891 320.096 386.975 321.464H386.039C385.967 320.816 385.403 320.528 384.563 320.528C383.675 320.528 383.195 320.84 383.195 321.392C383.195 321.8 383.459 322.04 383.963 322.148L385.379 322.448C386.543 322.7 387.071 323.24 387.071 324.164C387.071 325.412 386.111 326.12 384.491 326.12Z" fill="#101010"/>
-            <path d="M873.596 102V99.576L870.992 93.72H872.108L873.56 97.104L873.956 98.436H874.28L874.676 97.104L876.128 93.72H877.208L874.604 99.576V102H873.596ZM881.403 102.12C879.627 102.12 878.619 100.956 878.619 98.88C878.619 96.804 879.639 95.64 881.439 95.64C883.167 95.64 884.175 96.684 883.935 99.012H879.651C879.699 100.536 880.263 101.208 881.439 101.208C882.207 101.208 882.831 100.932 882.975 100.212H883.923C883.791 101.352 882.819 102.12 881.403 102.12ZM881.403 96.516C880.395 96.516 879.843 97.08 879.687 98.184H882.975C882.987 97.128 882.471 96.516 881.403 96.516ZM888.491 102.12C887.159 102.12 886.043 101.64 885.983 100.152H886.955C887.003 100.92 887.579 101.22 888.503 101.22C889.499 101.22 890.063 100.872 890.063 100.236C890.063 99.768 889.751 99.48 889.127 99.348L887.699 99.048C886.655 98.832 886.211 98.28 886.211 97.476C886.211 96.324 887.099 95.64 888.563 95.64C889.739 95.64 890.891 96.096 890.975 97.464H890.039C889.967 96.816 889.403 96.528 888.563 96.528C887.675 96.528 887.195 96.84 887.195 97.392C887.195 97.8 887.459 98.04 887.963 98.148L889.379 98.448C890.543 98.7 891.071 99.24 891.071 100.164C891.071 101.412 890.111 102.12 888.491 102.12Z" fill="#101010"/>
+    <c-window class="window-blogroll">
+      <div class="window-title">
+        <h2>Blogroll</h2>
+      </div>
+      <div class="window-content window-content-wrapper">
+        <ul class="list-blogroll">
+          <li>
+            <a href="https://lucybellwood.com">Lucy Bellwood</a>
+          </li>
+          <li>
+            <a href="https://www.jezburrows.com/">Jez Burrows</a>
+          </li>
+          <li>
+            <a href="https://chriscoyier.net/">Chris Coyier</a>
+          </li>
+          <li>
+            <a href="https://email-is-good.com/">Email is Good</a>
+          </li>
+          <li>
+            <a href="https://erinkissane.com/">Erin Kissane</a>
+          </li>
+          <li>
+            <a href="https://waxy.org/">Andy Baio</a>
+          </li>
+          <li>
+            <a href="https://daverupert.com/">Dave Rupert</a>
+          </li>
+          <li>
+            <a href="https://scottjehl.com/">Scott Jehl</a>
+          </li>
+          <li>
+            <a href="https://wattenberger.com/">Amelia Wattenberger</a>
+          </li>
+          <li>
+            <a href="https://ethanmarcotte.com/">Ethan Marcotte</a>
+          </li>
+          <li>
+            <a href="https://aegir.org/">Aegir</a>
+          </li>
+          <li>
+            <a href="https://ia.net/news">iA</a>
+          </li>
+          <li>
+            <a href="https://going-medieval.com/">Going Medieval</a>
+          </li>
+          <li>
+            <a href="https://goodonpaper.com/">Andy McMillan</a>
+          </li>
+          <li>
+            <a href="https://jasonsantamaria.com/">Jason Santa Maria</a>
+          </li>
+          <li>
+            <a href="https://una.im/">Una Kravets</a>
+          </li>
+          <li>
+            <a href="https://blog.jim-nielsen.com/">Jim Nielsen</a>
+          </li>
+          <li>
+            <a href="https://jonas.do/">Jonas Downey</a>
+          </li>
+          <li>
+            <a href="https://realdougwilson.com/">Doug Wilson</a>
+          </li>
+          <li>
+            <a href="https://jmduke.com/">Justin Duke</a>
+          </li>
+          <li>
+            <a href="https://blog.stephaniestimac.com/">Stephanie Stimac</a>
+          </li>
+          <li>
+            <a href="https://adactio.com">Jeremy Keith</a>
+          </li>
+          <li>
+            <a href="https://chloeweil.com/index.html">Chloe Weil</a>
+          </li>
+          <li>
+            <a href="https://kellysutton.com/">Kelly Sutton</a>
+          </li>
+          <li>
+            <a href="https://www.kickscondor.com/">Kicks Condor</a>
+          </li>
+          <li>
+            <a href="https://maya.land/">maya.land</a>
+          </li>
+          <li>
+            <a href="https://craigmod.com">Craig Mod</a>
+          </li>
+          <li>
+            <a href="https://klim.co.nz/">Klim Type Foundry</a>
+          </li>
+          <li>
+            <a href="https://lynnandtonic.com/">Lynn Fisher</a>
+          </li>
+          <li>
+            <a href="https://marco.org/about">Marco Arment</a>
+          </li>
+          <li>
+            <a href="https://nicoleslaw.com/">Nicole Fenton</a>
+          </li>
+          <li>
+            <a href="https://glog.glennf.com/">Glenn Fleishmann</a>
+          </li>
+          <li>
+            <a href="https://www.aliburnett.com/">Ali Burnett</a>
+          </li>
+          <li>
+            <a href="https://paulrobertlloyd.com/">Paul Robert Lloyd</a>
+          </li>
+          <li>
+            <a href="https://piperhaywood.com/">Piper Haywood</a>
+          </li>
+          <li>
+            <a href="https://pixelambacht.nl/">Pixel Ambacht</a>
+          </li>
+          <li>
+            <a href="http://quietbabylon.com/">Quiet Babylon</a>
+          </li>
+          <li>
+            <a href="https://aresluna.org/">Marcin Wichary</a>
+          </li>
+          <li>
+            <a href="https://rachsmith.com/">Rach Smith</a>
+          </li>
+          <li>
+            <a href="https://matthiasott.com/">Matthias Ott </a>
+          </li>
+          <li>
+            <a href="https://rachelandrew.co.uk/">Rachel Andrew</a>
+          </li>
+          <li>
+            <a href="https://robinsloan.com">Robin Sloan</a>
+          </li>
+          <li>
+            <a href="https://shadycharacters.co.uk/">Shady Characters</a>
+          </li>
+          <li>
+            <a href="https://rwt.io/">Jason Pamental</a>
+          </li>
+          <li>
+            <a href="https://cassidoo.co/">Cassidy Williams</a>
+          </li>
+          <li>
+            <a href="https://colly.com/">Simon Collison</a>
+          </li>
+          <li>
+            <a href="https://carenlitherland.com/">Caren Litherland</a>
+          </li>
+          <li>
+            <a href="https://stewf.tumblr.com/">Stephen Coles</a>
+          </li>
+          <li>
+            <a href="https://stuntbox.com/">David Sleight</a>
+          </li>
+          <li>
+            <a href="https://motd.co/">Casey Kolderup</a>
+          </li>
+          <li>
+            <a href="https://www.susanjeanrobertson.com/">Susan Jean Robinson</a>
+          </li>
+          <li>
+            <a href="https://brr.fyi/">brr</a>
+          </li>
+          <li>
+            <a href="https://alicebartlett.co.uk/">Alice Bartlett</a>
+          </li>
+          <li>
+            <a href="https://meyerweb.com/">Eric Meyer</a>
+          </li>
+          <li>
+            <a href="https://trentwalton.com/">Trent Walton</a>
+          </li>
+          <li>
+            <a href="https://clagnut.com/">Richard Rutter</a>
+          </li>
+          <li>
+            <a href="https://csswizardry.com/">Harry Roberts</a>
+          </li>
+          <li>
+            <a href="https://typographica.org/">Typographica</a>
+          </li>
+          <li>
+            <a href="https://weblog.rogueamoeba.com/">Rogue Amoeba</a>
+          </li>
+          <li>
+            <a href="https://www.lspencerstudio.com/">Leah Spencer</a>
+          </li>
+          <li>
+            <a href="https://www.zachleat.com/">Zach Leatherman</a>
+          </li>
+          <li>
+            <a href="https://www.cassie.codes/">Cassie Evans</a>
+          </li>
+          <li>
+            <a href="https://chasem.co/">Chase McCoy</a>
+          </li>
+          <li>
+            <a href="https://bradfrost.com/">Brad Frost</a>
+          </li>
+          <li>
+            <a href="https://bitsofco.de/">Ire Aderinokun</a>
+          </li>
+          <li>
+            <a href="https://www.alphabettes.org/">Alphabettes</a>
+          </li>
+          <li>
+            <a href="https://www.sarahmakesmaps.com/blog">Sarah Makes Maps</a>
+          </li>
+          <li>
+            <a href="https://bobulate.com/">Bobulate</a>
+          </li>
+          <li>
+            <a href="https://www.bram.us/">Bramus Van Damme</a>
+          </li>
+          <li>
+            <a href="https://www.stubbornella.org/">Nicole Sullivan</a>
+          </li>
+          <li>
+            <a href="https://cabel.com/">Cabel Sasser</a>
+          </li>
+          <li>
+            <a href="https://chenhuijing.com">Chen Hui Jing</a>
+          </li>
+          <li>
+            <a href="https://css-irl.info/">CSS in Real Life</a>
+          </li>
+          <li>
+            <a href="https://jakearchibald.com/">Jake Archibald</a>
+          </li>
+          <li>
+            <a href="https://katydecorah.com/">Katy Decorah</a>
+          </li>
+          <li>
+            <a href="https://kevinclark.ca/">Kevin Clark</a>
+          </li>
+          <li>
+            <a href="https://kayserifserif.place/">Katherine Yang</a>
+          </li>
+          <li>
+            <a href="https://macwright.com/">Tom MacWright</a>
+          </li>
+          <li>
+            <a href="https://www.miriamsuzanne.com/">Miriam Suzanne</a>
+          </li>
+          <li>
+            <a href="https://henry.codes/">Henry Desroches</a>
+          </li>
+          <li>
+            <a href="https://geoffgraham.me/">Geoff Graham</a>
+          </li>
+          <li>
+            <a href="https://www.baldurbjarnason.com/">Baldur Bjarnason</a>
+          </li>
+        </ul>
+      </div>
+    </c-window>    
+    {# {% for note in collections.featured | reverse | head(3) %}
+      <c-window class="window-link ">
+        <a class="window-title window-title-link" href="{{ note.url }}" class="essays-item-link">
+          <h2>{{note.data.title}}</h2>
+          <svg viewBox="0 0 14 14" class="window-title-icon">
+            <use xlink:href="#icon-arrow"></use>
           </svg>
+        </a>
+        <div class="window-content window-content-link">
+          <a href="{{ note.url }}" class="essays-item-link">
+            <img class="essays-item-img" src="{{note.data.hero}}"/>
+          </a>
         </div>
-        <div class="grid-column-7">
-          <p class="small">
-            <a href="https://klim.co.nz/collections/soehne/">Söhne</a> by Klim Type is perfect but I can’t say why since I mostly roll my eyes at big chunky neo-grotesques. You see them all the time and they look mean in a way that I find unpleasant. But Söhne has a warmth to it that’s missing in the other descendants of Akzidenz-Grotesk. It’s just lovely.</p>
-        </div>
-      </c-grid>
-    </div>
-  </c-window>
-</c-grid>
-
-<c-grid>
-  <c-window class="window grid-column-12">
-    <a class="window-title window-title-link" href="https://mass-driver.com/typefaces/md-io">
-      <h2>MD IO</h2>
-      <svg viewBox="0 0 14 14" class="window-title-icon">
-        <use xlink:href="#icon-arrow"></use>
-      </svg>
-    </a>
-    <div class="window-content window-content-type">
-      <c-grid>
-        <div class="grid-column-12">
-          <svg class="type-illustration" width="869" height="142" viewBox="0 0 869 347" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M95.9364 293.79C74.7284 293.79 63.1604 282.704 63.1604 261.737V249.928C28.2154 245.831 11.8274 219.08 11.8274 164.614C11.8274 105.087 31.3484 77.854 73.2824 77.854C115.216 77.854 134.737 105.087 134.737 164.614C134.737 218.357 118.831 244.867 85.0914 249.687V260.773C85.0914 270.413 88.4654 273.305 99.7924 273.305H113.77V293.79H95.9364ZM73.2824 228.72C98.5874 228.72 109.191 210.645 109.191 164.855C109.191 120.029 98.1054 100.99 73.2824 100.99C48.4594 100.99 37.6144 120.029 37.6144 164.855C37.6144 210.645 47.9774 228.72 73.2824 228.72ZM245.503 293.79V251.133L247.19 236.432L240.924 234.986C229.115 248 220.198 250.41 210.317 250.41C179.71 250.41 160.912 227.756 160.912 185.099C160.912 142.442 179.71 119.788 210.799 119.788C220.68 119.788 229.597 121.957 241.406 135.212H247.913L250.805 122.198H269.121V293.79H245.503ZM217.788 228.72C235.381 228.72 245.503 219.321 245.503 201.728V168.47C245.503 150.877 235.381 141.478 217.788 141.478C196.098 141.478 186.217 155.456 186.217 185.099C186.217 214.742 196.098 228.72 217.788 228.72ZM307.587 248V81.71H361.812C400.131 81.71 419.17 97.134 419.17 127.5C419.17 149.19 409.771 165.578 383.261 171.603V177.869L392.178 187.75L423.026 248H395.07L361.089 178.11H331.928V248H307.587ZM362.294 103.4H331.928V156.661H364.463C384.948 156.661 393.865 148.226 393.865 129.669C393.865 110.871 384.948 103.4 362.294 103.4ZM449.683 248V227.274H487.279V142.924H454.021V122.198H505.354L508.005 135.212H514.512C526.562 121.957 534.756 119.788 548.493 119.788H570.183V141.96H540.058C521.019 141.96 510.897 151.118 510.897 168.47V227.274H551.626V248H449.683ZM650.824 251.856C613.951 251.856 592.743 234.263 591.779 201.246H616.361C617.084 219.562 629.857 229.202 651.547 229.202C672.273 229.202 685.287 220.526 685.287 202.692C685.287 190.401 678.539 182.448 663.356 177.869L632.99 168.47C607.926 160.758 596.358 147.744 596.358 125.331C596.358 94.242 619.735 77.854 651.547 77.854C683.359 77.854 705.531 94.242 706.736 123.162H683.118C681.431 108.22 669.14 100.026 650.824 100.026C632.749 100.026 621.181 108.22 621.181 123.162C621.181 134.489 627.688 141.237 640.22 145.093L670.345 154.251C696.855 162.445 710.592 174.977 710.592 201.005C710.592 235.95 685.528 251.856 650.824 251.856ZM795.812 250.41C766.651 250.41 744.479 240.288 743.274 210.404H766.892C767.856 224.864 778.701 230.648 796.294 230.648C814.851 230.648 825.455 224.141 825.455 212.332C825.455 203.897 819.671 198.595 808.103 196.185L778.46 190.16C757.011 185.822 747.612 174.495 747.612 157.625C747.612 133.525 765.928 119.788 797.017 119.788C822.804 119.788 845.699 129.428 847.145 156.902H824.491C823.045 144.611 812.441 139.309 796.535 139.309C780.147 139.309 771.23 145.093 771.23 155.215C771.23 162.686 776.05 167.265 785.449 169.193L814.369 174.977C838.71 180.038 849.555 191.124 849.555 210.404C849.555 236.191 830.034 250.41 795.812 250.41Z" fill="#101010"/>
-            <path  class="footnotes" d="M251.5 105L309 47.5H351.5" stroke="#101010" stroke-linecap="round" stroke-dasharray="2 2"/>
-            <path d="M360.936 51L360.096 42.72H361.08L361.74 50.076L362.052 50.1L362.784 45.24H364.428L365.16 50.1L365.472 50.076L366.132 42.72H367.104L366.264 51H364.464L363.768 46.152H363.432L362.736 51H360.936ZM368.323 51V42.12H369.283V44.76L369.223 45.336L369.523 45.408C369.955 44.868 370.459 44.64 371.227 44.64C372.619 44.64 373.291 45.36 373.291 46.752V51H372.331V47.016C372.331 46.032 371.875 45.576 370.879 45.576C369.835 45.576 369.283 46.08 369.283 47.016V51H368.323ZM377.991 51.12C376.227 51.12 375.231 49.956 375.231 47.88C375.231 45.804 376.227 44.64 377.991 44.64C379.755 44.64 380.751 45.804 380.751 47.88C380.751 49.956 379.755 51.12 377.991 51.12ZM377.991 50.208C379.155 50.208 379.695 49.464 379.695 47.88C379.695 46.296 379.155 45.552 377.991 45.552C376.827 45.552 376.287 46.296 376.287 47.88C376.287 49.464 376.827 50.208 377.991 50.208ZM384.61 51.12C383.338 51.12 382.618 50.448 382.618 49.344C382.618 48.18 383.434 47.508 384.814 47.508H386.554V46.908C386.554 45.924 386.11 45.552 385.198 45.552C384.43 45.552 383.89 45.828 383.83 46.572H382.906C382.906 45.42 383.71 44.64 385.306 44.64C386.77 44.64 387.514 45.276 387.514 46.668V51H386.746L386.626 50.352H386.314C385.786 50.916 385.342 51.12 384.61 51.12ZM384.85 50.244C385.906 50.244 386.554 49.68 386.554 48.744V48.228H384.946C384.082 48.228 383.614 48.576 383.614 49.26C383.614 49.836 383.938 50.244 384.85 50.244ZM391.925 48.24L391.829 42.72H392.933L392.837 48.24H391.925ZM392.381 51.12C391.757 51.12 391.481 50.832 391.481 50.268C391.481 49.704 391.757 49.416 392.381 49.416C393.005 49.416 393.281 49.704 393.281 50.268C393.281 50.832 393.005 51.12 392.381 51.12Z" fill="#101010"/>
-            <path  class="footnotes" d="M522.5 105L580 61H622.5" stroke="#101010" stroke-linecap="round" stroke-dasharray="2 2"/>
-            <path  class="footnotes" d="M232.5 269L175 336L132.5 336" stroke="#101010" stroke-linecap="round" stroke-dasharray="2 2"/>
-            <path d="M634.436 64L633.596 55.72H634.58L635.24 63.076L635.552 63.1L636.284 58.24H637.928L638.66 63.1L638.972 63.076L639.632 55.72H640.604L639.764 64H637.964L637.268 59.152H636.932L636.236 64H634.436ZM641.823 64V55.12H642.783V57.76L642.723 58.336L643.023 58.408C643.455 57.868 643.959 57.64 644.727 57.64C646.119 57.64 646.791 58.36 646.791 59.752V64H645.831V60.016C645.831 59.032 645.375 58.576 644.379 58.576C643.335 58.576 642.783 59.08 642.783 60.016V64H641.823ZM650.915 64.12C649.643 64.12 648.923 63.448 648.923 62.344C648.923 61.18 649.739 60.508 651.119 60.508H652.859V59.908C652.859 58.924 652.415 58.552 651.503 58.552C650.735 58.552 650.195 58.828 650.135 59.572H649.211C649.211 58.42 650.015 57.64 651.611 57.64C653.075 57.64 653.819 58.276 653.819 59.668V64H653.051L652.931 63.352H652.619C652.091 63.916 651.647 64.12 650.915 64.12ZM651.155 63.244C652.211 63.244 652.859 62.68 652.859 61.744V61.228H651.251C650.387 61.228 649.919 61.576 649.919 62.26C649.919 62.836 650.243 63.244 651.155 63.244ZM659.886 64C658.122 64 657.402 63.244 657.402 61.408V58.624H655.83V57.76H657.402V55.912H658.362V57.76H661.422V58.624H658.362V61.408C658.362 62.632 658.782 63.136 659.97 63.136H661.242V64H659.886ZM664.969 61.24V59.32H665.425C666.505 59.32 667.141 59.032 667.141 57.976C667.141 56.92 666.505 56.632 665.425 56.632H663.961V55.72H665.365C667.165 55.72 668.209 56.38 668.209 57.976C668.209 59.404 667.381 60.052 665.917 60.172L665.881 61.24H664.969ZM665.497 64.12C664.873 64.12 664.597 63.832 664.597 63.268C664.597 62.704 664.873 62.416 665.497 62.416C666.121 62.416 666.397 62.704 666.397 63.268C666.397 63.832 666.121 64.12 665.497 64.12Z" fill="#101010"/>
-            <path d="M84.436 342L83.596 333.72H84.58L85.24 341.076L85.552 341.1L86.284 336.24H87.928L88.66 341.1L88.972 341.076L89.632 333.72H90.604L89.764 342H87.964L87.268 337.152H86.932L86.236 342H84.436ZM94.4033 342.12C92.6273 342.12 91.6193 340.956 91.6193 338.88C91.6193 336.804 92.6393 335.64 94.4393 335.64C96.1673 335.64 97.1753 336.684 96.9353 339.012H92.6513C92.6993 340.536 93.2633 341.208 94.4393 341.208C95.2073 341.208 95.8313 340.932 95.9753 340.212H96.9233C96.7913 341.352 95.8193 342.12 94.4033 342.12ZM94.4033 336.516C93.3953 336.516 92.8433 337.08 92.6873 338.184H95.9753C95.9873 337.128 95.4713 336.516 94.4033 336.516ZM101.707 334.488C101.143 334.488 100.903 334.272 100.903 333.78C100.903 333.288 101.143 333.072 101.707 333.072C102.271 333.072 102.511 333.288 102.511 333.78C102.511 334.272 102.271 334.488 101.707 334.488ZM98.8146 342V341.136H101.251V336.624H99.0546V335.76H102.211V341.136H104.407V342H98.8146ZM105.89 342V341.136H107.822V336.624H106.106V335.76H108.59L108.71 336.408H109.022C109.646 335.748 110.042 335.64 110.726 335.64H111.83V336.576H110.378C109.334 336.576 108.782 337.08 108.782 338.016V341.136H110.81V342H105.89ZM115.629 342.12C114.093 342.12 113.121 340.956 113.121 338.88C113.121 336.804 114.093 335.64 115.629 335.64C116.109 335.64 116.541 335.748 117.153 336.408L117.453 336.336L117.393 335.76V333.12H118.353V342H117.585L117.465 341.352H117.153C116.541 342.012 116.109 342.12 115.629 342.12ZM115.881 341.184C116.841 341.184 117.393 340.68 117.393 339.744V338.016C117.393 337.08 116.841 336.576 115.881 336.576C114.717 336.576 114.177 337.32 114.177 338.88C114.177 340.44 114.717 341.184 115.881 341.184ZM122.621 339.24L122.525 333.72H123.629L123.533 339.24H122.621ZM123.077 342.12C122.453 342.12 122.177 341.832 122.177 341.268C122.177 340.704 122.453 340.416 123.077 340.416C123.701 340.416 123.977 340.704 123.977 341.268C123.977 341.832 123.701 342.12 123.077 342.12Z" fill="#101010"/>
-          </svg>
-        </div>
-        <div class="grid-column-7">
-          <p class="small">
-            <a href="https://mass-driver.com/typefaces/md-io">MD IO</a> by Mass Driver is another favorite and I use it for captions and code blocks. It’s sort of in the same category as Söhne where I’ve seen endless mono typefaces and shrugged but this one makes me snap to attention. Oh, and make sure to check out the excellent <a href="https://mass-driver.com/typefaces/md-io">type specimen site</a>, too.</p>
-        </div>
-      </c-grid>
-    </div>
-  </c-window>
+      </c-window>
+    {% endfor %} #}
+  </div>
 </c-grid>

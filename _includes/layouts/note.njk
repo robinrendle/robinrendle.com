@@ -7,13 +7,13 @@ templateClass: tmpl-post
   <c-window class="grid-column-12">
     <div class="window-title window-title-article">
       <h1 id="heading">{{ title }}</h1>  
-      <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">
-        {{ page.date | fullDate }}
-      </time>
     </div>
     <div class="window-content">
       <div class="article-wrapper">
         {{ content | safe }}
+        <time class="font-code notes-list-extract" datetime="{{ page.date | htmlDateString }}">
+          — {{ page.date | fullDate }}
+        </time>
       </div>
     </div>
   </c-window>
