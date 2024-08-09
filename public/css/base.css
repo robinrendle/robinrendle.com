@@ -378,16 +378,18 @@ c-window[class*="grid-column"] {
   }
   
   @container window (min-width: 700px) {
+    line-height: 1.45;
     padding: calc(var(--space) * 3) 0 calc(var(--space) * 6) 0;
+    margin: 0 auto;    
   }
 }
 
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
   .article-wrapper {
     margin: 0 auto;
     line-height: 1.4;
   }
-}
+} */
 
 .article-wrapper p em {
   font-style: normal;
