@@ -7,7 +7,9 @@ country: California
 extract: Notes on universal basic income.
 --- 
 
-The other day I was wondering what it would feel like to live my life with the comfort and safety of universal basic income: it would open up so many doors! Opportunities! Space to breathe and think!  I likely wouldn’t quit my job, but I would take way more time off for my health, and I might go back to school or find a writing residency. I would still be productive at my day job, but I’d spend a lot more time experimenting, building, exploring stuff just for me: side projects and what not.
+The other day I was wondering what it would feel like to live my life with the comfort and safety of universal basic income: it would open up so many doors! Opportunities! Space to breathe and think!  I likely wouldn’t quit my job, but I would take way more time off for my health, and I might go back to school or find a writing residency. 
+
+I would still be productive at my day job, but I’d spend a lot more time experimenting, building, exploring stuff just for me: side projects and what not.
 
 But then I remembered that I already _have_ experienced universal basic income before and never even considered it. This was back in the UK when I was in high school and it was called the Education Maintenance Allowance which provided a small but not inconsiderable amount of money and gave it to kids from low income backgrounds. 
 

@@ -375,6 +375,7 @@ c-window[class*="grid-column"] {
   
   @container window (min-width: 400px) {
     padding: calc(var(--space) * 1.5) calc(var(--space) * 1.7) calc(var(--space) * 4) calc(var(--space) * 1.7);
+    line-height: 1.45;
   }
   
   @container window (min-width: 700px) {
