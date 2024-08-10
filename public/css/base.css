@@ -818,7 +818,7 @@ c-grid {
   margin: 0 2px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 900px) {
   c-grid {
     display: grid;
     margin: 0 var(--space);
