@@ -1,22 +1,17 @@
----
-title: Robin Rendle
-description: The home of Robin Rendle, a writer and designer from the UK.
----
-
 <!-- If every website is a manifesto, then here’s mine. -->
 <!DOCTYPE html>
 <html lang="en" data-theme="light" class={{templateClass}}>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1">
-    <title>{{ title or metadata.title }}</title>
+    <title>{{ title }}</title>
     <meta
       name="description"
-      content={{extract or metadata.description}}}/>
+      content="{{ extract or metadata.description }}"/>
     <meta property="og:url" content="https://robinrendle.com">
     <meta property="og:type" content="website">
-    <meta property="og:title" content={{title or metadata.title}}>
-    <meta property="og:description" content={{extract or metadata.description}}>
+    <meta property="og:title" content="{{title }}">
+    <meta property="og:description" content="{{ extract or metadata.description }}">
     <meta property="og:image" content="/images/favicons4/bird1.png">
     
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons4/apple-touch-icon.png">
