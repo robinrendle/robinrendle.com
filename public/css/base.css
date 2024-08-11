@@ -427,8 +427,8 @@ a {
 
 a:focus,
 a:hover {
-  text-decoration-color: var(--color-window-border);
-  color: var(--color-window-border);
+  text-decoration-color: var(--color-text);
+  color:  var(--color-text);
 }
 
 blockquote {
