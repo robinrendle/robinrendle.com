@@ -7,8 +7,13 @@
     <title>{{ title or metadata.title }}</title>
     <meta
       name="description"
-      content="The website of Robin Rendle, a designer and writer from the UK."/>
-    <meta name="view-transition" content="same-origin"/>
+      content={{extract or metadata.title}}}/>
+    <meta property="og:url" content="https://robinrendle.com">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content={{title or metadata.title}}>
+    <meta property="og:description" content={{extract or metadata.title}}>
+    <meta property="og:image" content="/images/favicons4/bird1.png">
+    
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons4/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons4/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons4/favicon-16x16.png">
