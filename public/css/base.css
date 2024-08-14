@@ -20,7 +20,7 @@
   --window-border: 1px solid var(--color-window-border);
   --content-width: 36rem;
 
-  --wrapper-width: 65rem;
+  --wrapper-width: 78rem;
   --nav-height: 2.8rem;
 
   --font-size-intro: clamp(1.1rem, 4vw, 1.4rem);
@@ -676,7 +676,6 @@ html[data-theme='cyber'] .about-photo img {
 @media screen and (min-width: 700px) {
   .essays-item-img {
     height: auto;
-    max-height: 400px;
   }
 }
 
@@ -1363,11 +1362,14 @@ code {
 }
 
 .big-picture + .big-picture {
-  /* margin-top: 0 !important; */
   margin-bottom: 0 !important;
   margin-top: 0px;
 }
 
 .big-picture + p {
   margin-top: 40px;
+}
+
+.window-essay {
+  aspect-ratio: 1 / 1.3;
 }
