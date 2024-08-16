@@ -97,6 +97,10 @@ c-carousel {
   }
 }
 
+h1 {
+  color: var(--color-text-inverse);
+}
+
 c-carousel-header {
   display: flex;
   justify-content: space-between;
@@ -202,63 +206,99 @@ c-carousel-item {
   }
 }
 
-  c-carousel-item.right {
-    @media screen and (min-width: 800px) {
-      flex-direction: row;
-      
-      div {
-        padding-top: 0;
-        align-self: center;
-      }
-      
-      img, video {
-        object-position: 0 0;
-        margin: 0;
-        margin-top: 60px;
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 6px;
-        border-bottom-left-radius: 6px;
-        height: 100%;
-      }
-    }
-  }
-
-  c-carousel-item.left {
-    img, video {
-      object-position: 97% 0;
-      margin-left: 0;
-      margin-right: 60px;
+c-carousel-item.right {
+  @media screen and (min-width: 800px) {
+    flex-direction: row;
+    
+    div {
+      padding-top: 0;
+      align-self: center;
     }
     
+    img, video {
+      object-position: 0 0;
+      margin: 0;
+      margin-top: 60px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      height: 100%;
+    }
+  }
+}
+
+c-carousel-item.left {
+  img, video {
+    object-position: 97% 0;
+    margin-left: 0;
+    margin-right: 60px;
+  }
+  
+  @media screen and (min-width: 800px) {
+    flex-direction: row-reverse;
+    
+    div {
+      align-self: center;
+      padding-left: 0;
+      padding-top: 0px;
+      padding-right: 30px;
+    }
+    img, video {
+      object-position: 100% 0%;
+      margin: 0;
+      margin-top: 60px;
+      border-top-left-radius: 0;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      height: 100%;
+    }
+  }
+}
+  
+c-carousel-item.text-top {
+  @media screen and (min-width: 800px) {
+    div {
+      padding-top: 30px;
+      align-self: flex-start;
+    }
+  }
+}
+  
+c-carousel-item.full {
+
+  img, video {
+    position: absolute;
+    object-fit: cover;
+    object-position: 20% 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    
     @media screen and (min-width: 800px) {
-      flex-direction: row-reverse;
-      
-      div {
-        align-self: center;
-        padding-left: 0;
-        padding-top: 0px;
-        padding-right: 30px;
-      }
-      img, video {
-        object-position: 100% 0%;
-        margin: 0;
-        margin-top: 60px;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 6px;
-        border-bottom-left-radius: 6px;
-        height: 100%;
-      }
+      object-position: 100%;
     }
   }
   
-  c-carousel-item.text-top {
-    @media screen and (min-width: 800px) {
-      div {
-        padding-top: 30px;
-        align-self: flex-start;
-      }
+  h1 {
+    margin: 0;
+    color: transparent;
+  }
+  
+  div {
+    text-align: center;
+    z-index: 1;
+    align-self: flex-start;
+    margin: 0 auto;
+    @media screen and (min-width: 800px) { */
+      padding: 0;
     }
   }
+}
 
 .sr-only {
   position: absolute;
@@ -310,6 +350,17 @@ c-carousel-nav {
 </style>
 
 <c-projects>
+  <c-project class="about">
+  <c-carousel>
+    <c-carousel-item class="right full">
+      <div>
+        <h1>Projects</h1>
+        <p><span>Howdy, my name’s Robin and I have more than 10 years of experience designing and building complex web applications. Here’s a sample of my work.</span></p>
+      </div>
+      <img src="/images/me/memememe.jpg" height="640" width="857" alt="">
+    </c-carousel-item>
+  </c-carousel>
+</c-project>
   <c-project class="retool">
     <c-carousel>
       <c-carousel-header>
