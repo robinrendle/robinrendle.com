@@ -4,7 +4,7 @@ templateClass: tmpl-post
 ---
 
 <c-grid>
-  <c-window class="grid-column-12">
+  <c-window class="grid-column-8">
     <div class="window-title window-title-article">
       <h1 id="heading">{{ title }}</h1>  
     </div>
@@ -12,7 +12,7 @@ templateClass: tmpl-post
       <div class="article-wrapper">
         {{ content | safe }}
         <time class="notes-list-extract" datetime="{{ page.date | htmlDateString }}">
-          — {{ page.date | fullDate }}
+          ↳ {{ page.date | fullDate }}
         </time>
       </div>
     </div>
