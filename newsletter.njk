@@ -7,55 +7,6 @@ title: Newsletter
 <c-grid>
   <c-window class="grid-column-8">
     <div class="window-title">
-      <h1>Newsletter</h1>
-    </div>
-    <div class="window-content window-content-wrapper">
-      <p class="newsletter-title ">
-        If you’re interested in keeping up to date with my work, this is the way. Sent out just a few times a year.
-      </p>
-      <form
-      action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-      method="post"
-      target="popupwindow"
-      onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-      class="embeddable-buttondown-form"
-      >
-        <div class="inputs">
-          <input type="email" placeholder="Email address" name="email" id="bd-email" required/>
-          <input type="submit" value="Subscribe"/>
-        </div>
-      </form>
-    </div>
-  </c-window>
-  <c-window class="window-link grid-column-4">
-    <a href="/cascadefeed.xml" class="window-title window-title-link">
-      <h2>RSS</h2>
-      <svg viewBox="0 0 14 14" class="window-title-icon">
-        <use xlink:href="#icon-arrow"></use>
-      </svg>
-    </a>
-    <div class="window-content window-content-link">
-      <a style="padding: 30px;" href="/newsletterfeed.xml">
-        <svg width="51" height="61" viewBox="0 0 51 61" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_193_508)">
-            <path d="M1 1H39.0858L50 11.9142V60H1V1Z" stroke="#A6A6A6" stroke-width="2"/>
-            <path d="M13.832 36V27.03H16.978C19.058 27.03 20.124 27.901 20.124 29.565C20.124 30.696 19.63 31.554 18.291 31.892V32.269L18.824 32.854L20.28 36H18.421L16.874 32.438H15.509V36H13.832ZM16.939 28.473H15.509V31.008H17.03C18.005 31.008 18.421 30.618 18.421 29.721C18.421 28.837 18.005 28.473 16.939 28.473ZM24.6819 36.208C22.5759 36.208 21.4189 35.207 21.3669 33.361H23.0309C23.0699 34.245 23.6549 34.713 24.7079 34.713C25.6699 34.713 26.2679 34.31 26.2679 33.504C26.2679 32.945 25.9559 32.581 25.2539 32.373L23.5899 31.853C22.2249 31.424 21.5749 30.709 21.5749 29.461C21.5749 27.758 22.8229 26.822 24.6689 26.822C26.5279 26.822 27.7109 27.758 27.7889 29.37H26.1899C26.0989 28.668 25.5139 28.278 24.6299 28.278C23.7849 28.278 23.2519 28.642 23.2519 29.318C23.2519 29.825 23.5509 30.124 24.1359 30.306L25.7739 30.813C27.2689 31.268 27.9969 31.97 27.9969 33.387C27.9969 35.298 26.6839 36.208 24.6819 36.208ZM32.4768 36.208C30.3708 36.208 29.2138 35.207 29.1618 33.361H30.8258C30.8648 34.245 31.4498 34.713 32.5028 34.713C33.4648 34.713 34.0628 34.31 34.0628 33.504C34.0628 32.945 33.7508 32.581 33.0488 32.373L31.3848 31.853C30.0198 31.424 29.3698 30.709 29.3698 29.461C29.3698 27.758 30.6178 26.822 32.4638 26.822C34.3228 26.822 35.5058 27.758 35.5838 29.37H33.9848C33.8938 28.668 33.3088 28.278 32.4248 28.278C31.5798 28.278 31.0468 28.642 31.0468 29.318C31.0468 29.825 31.3458 30.124 31.9308 30.306L33.5688 30.813C35.0638 31.268 35.7918 31.97 35.7918 33.387C35.7918 35.298 34.4788 36.208 32.4768 36.208Z" fill="#A6A6A6"/>
-            <path d="M39 1V12H50" stroke="#A6A6A6" stroke-width="2"/>
-          </g>
-          <defs>
-            <clipPath id="clip0_193_508">
-              <rect width="51" height="61" fill="white"/>
-            </clipPath>
-          </defs>
-        </svg>
-      </a>
-    </div>
-  </c-window>
-</c-grid>
-
-<c-grid>
-  <c-window class="grid-column-8">
-    <div class="window-title">
       <h2>Latest</h2>
     </div>
     <div class="window-content">
@@ -76,4 +27,52 @@ title: Newsletter
       </ol>
     </div>
   </c-window>
+  <div class="grid-column-4">
+    <c-window>
+      <div class="window-title">
+        <h1>Newsletter</h1>
+      </div>
+      <div class="window-content window-content-wrapper">
+        <p class="tiny-text">
+          If you’re interested in keeping up to date with my work, this is the way. Sent out just a few times a year.
+        </p>
+        <form
+        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+        class="embeddable-buttondown-form"
+        >
+          <div class="inputs">
+            <input type="email" placeholder="Email" name="email" id="bd-email" required autocomplete="off"/>
+            <input type="submit" value="Subscribe"/>
+          </div>
+        </form>
+      </div>
+    </c-window>
+    <c-window class="window-link">
+      <a href="/cascadefeed.xml" class="window-title window-title-link">
+        <h2>RSS</h2>
+        <svg viewBox="0 0 14 14" class="window-title-icon">
+          <use xlink:href="#icon-arrow"></use>
+        </svg>
+      </a>
+      <div class="window-content window-content-link">
+        <a style="padding: 30px;" href="/newsletterfeed.xml">
+          <svg width="51" height="61" viewBox="0 0 51 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_193_508)">
+              <path d="M1 1H39.0858L50 11.9142V60H1V1Z" stroke="#A6A6A6" stroke-width="2"/>
+              <path d="M13.832 36V27.03H16.978C19.058 27.03 20.124 27.901 20.124 29.565C20.124 30.696 19.63 31.554 18.291 31.892V32.269L18.824 32.854L20.28 36H18.421L16.874 32.438H15.509V36H13.832ZM16.939 28.473H15.509V31.008H17.03C18.005 31.008 18.421 30.618 18.421 29.721C18.421 28.837 18.005 28.473 16.939 28.473ZM24.6819 36.208C22.5759 36.208 21.4189 35.207 21.3669 33.361H23.0309C23.0699 34.245 23.6549 34.713 24.7079 34.713C25.6699 34.713 26.2679 34.31 26.2679 33.504C26.2679 32.945 25.9559 32.581 25.2539 32.373L23.5899 31.853C22.2249 31.424 21.5749 30.709 21.5749 29.461C21.5749 27.758 22.8229 26.822 24.6689 26.822C26.5279 26.822 27.7109 27.758 27.7889 29.37H26.1899C26.0989 28.668 25.5139 28.278 24.6299 28.278C23.7849 28.278 23.2519 28.642 23.2519 29.318C23.2519 29.825 23.5509 30.124 24.1359 30.306L25.7739 30.813C27.2689 31.268 27.9969 31.97 27.9969 33.387C27.9969 35.298 26.6839 36.208 24.6819 36.208ZM32.4768 36.208C30.3708 36.208 29.2138 35.207 29.1618 33.361H30.8258C30.8648 34.245 31.4498 34.713 32.5028 34.713C33.4648 34.713 34.0628 34.31 34.0628 33.504C34.0628 32.945 33.7508 32.581 33.0488 32.373L31.3848 31.853C30.0198 31.424 29.3698 30.709 29.3698 29.461C29.3698 27.758 30.6178 26.822 32.4638 26.822C34.3228 26.822 35.5058 27.758 35.5838 29.37H33.9848C33.8938 28.668 33.3088 28.278 32.4248 28.278C31.5798 28.278 31.0468 28.642 31.0468 29.318C31.0468 29.825 31.3458 30.124 31.9308 30.306L33.5688 30.813C35.0638 31.268 35.7918 31.97 35.7918 33.387C35.7918 35.298 34.4788 36.208 32.4768 36.208Z" fill="#A6A6A6"/>
+              <path d="M39 1V12H50" stroke="#A6A6A6" stroke-width="2"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_193_508">
+                <rect width="51" height="61" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </c-window>
+  </div>
 </c-grid>

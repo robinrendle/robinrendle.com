@@ -1059,7 +1059,6 @@ input[type="range" i]::-webkit-slider-thumb {
 }
 
 .inputs input[type="email"] {
-  min-width: 300px;
   width: 100%;
 }
 

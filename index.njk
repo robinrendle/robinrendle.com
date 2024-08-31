@@ -34,5 +34,25 @@ title: Robin Rendle
         <p class="tiny-text">I’m Robin, a designer and writer, and this blog is where I experiment with publishing, make weird web projects, and work in public.</p>
       </div>
     </c-window>
+    <c-window>
+      <a class="window-title window-title-link" href="/newsletter">
+        <h2>Newsletter</h2>
+      </a>
+      <div class="window-content window-content-wrapper">
+        <p class="tiny-text">If you’re interested in keeping up to date with my work, this is the way. Sent out maybe just a few times a year.</p>
+        <form
+        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
+        class="embeddable-buttondown-form"
+        >
+          <div class="inputs">
+            <input type="email" placeholder="Email address" name="email" id="bd-email" required autocomplete="off" data-1p-ignore />
+            <input type="submit" value="Subscribe"/>
+          </div>
+        </form>
+      </div>
+    </c-window>
   </div>
 </c-grid>
