@@ -74,6 +74,7 @@ c-carousel {
   height: var(--carousel-height);
   position: relative;
   scroll-behavior: auto;
+  border: 1px solid black;
   
   .sentry & {
     background: hsl(264, 28%, 48%);
@@ -105,12 +106,12 @@ c-carousel-header {
   justify-content: space-between;
   position: sticky;
   min-width: calc(100dvw - 40px);
-  width: calc(100dvw - 40px);
+  width: 100%;
   height: 90px;
   top: 0;
   left: 0;
   background: transparent;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.14); */
   padding: 30px 30px;
   line-height: 1.15;
   align-self: flex-start;
@@ -146,7 +147,7 @@ c-carousel-item {
   scroll-snap-align: start;
   width: 100%;
   padding-top: 90px;
-  min-width: 100%;
+  min-width: calc(100% + 2px);
   height: 100%;
   border-radius: 0;
   gap: 35px;
@@ -195,10 +196,13 @@ c-carousel-item {
     @media screen and (min-width: 800px) {
       object-position: top;
       width: calc(100% - 60px);
-      /* margin-left: 0; */
       height: auto;
     }
   }
+}
+
+c-carousel-item:last-of-type {
+  background: red !important;
 }
 
 c-carousel-item.right {
@@ -259,6 +263,7 @@ c-carousel-item.full {
     position: absolute;
     object-fit: cover;
     object-position: 20% 100%;
+    background-size: 100%;
     left: 0;
     top: 0;
     bottom: 0;
@@ -346,7 +351,7 @@ c-carousel-nav {
         <h1>Projects</h1>
         <p><span>Howdy, my name’s Robin and I have more than 10 years of experience designing and building complex web applications. Here’s a sample of my work.</span></p>
       </div>
-      <img src="/images/me/memememe.jpg" height="640" width="857" alt="">
+      <img src="/images/me/memememe.webp" height="640" width="857" alt="">
     </c-carousel-item>
   </c-carousel>
 </c-project>
@@ -547,8 +552,6 @@ c-carousel-nav {
    }
 
    nextSlide(event) {
-     console.log(event.keyCode);
-     
      if (event.keyCode === 9) {
        return;
      }
