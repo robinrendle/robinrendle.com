@@ -193,7 +193,19 @@ main {
   align-items: center;
   border-bottom: var(--window-border);
   height: 50px;
-  backdrop-filter: blur(10px)
+  backdrop-filter: blur(10px);
+  
+  &:after {
+    content: '';
+    background: #fff;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 .nav-list-item {
@@ -211,6 +223,7 @@ main {
 }
 
 .nav-list {
+  z-index: 1;
   display: flex;
 }
 
