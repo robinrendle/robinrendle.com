@@ -47,7 +47,7 @@
 }
 
 html[data-theme='light'] {
-  --color-nav-background: hsl(0, 0%, 68%);
+  --color-nav-background: hsl(0, 0%, 100%);
   --color-nav-text: #111;
   --color-text-hover: #eee;
   --color-body-background: #D9D9D9;
@@ -183,6 +183,7 @@ main {
 
 /* NAVIGATION */
 .nav {
+  background: var(--color-nav-background);
   margin-bottom: var(--space-nav);
   padding: 0 calc(var(--space) / 2);
   display: flex;
@@ -193,19 +194,6 @@ main {
   align-items: center;
   border-bottom: var(--window-border);
   height: 50px;
-  backdrop-filter: blur(10px);
-  
-  &:after {
-    content: '';
-    background: #fff;
-    opacity: 0.3;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-  }
 }
 
 .nav-list-item {
