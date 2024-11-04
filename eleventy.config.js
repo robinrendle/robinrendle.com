@@ -30,7 +30,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("projectsDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MMMM yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("fullDate", (dateObj) => {
@@ -79,6 +79,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("essays", function (collection) {
     return collection.getFilteredByGlob("essays/*.md");
+  });
+  
+  eleventyConfig.addCollection("featured", function(collection) {
+    return collection.getAll().filter(function(item) {
+      return "featured" in (item.data.tags || []);
+    });
   });
 
   eleventyConfig.addCollection("newsletter", function (collection) {

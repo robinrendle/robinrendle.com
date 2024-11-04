@@ -4,10 +4,6 @@ title: Design Systems
 website: gusto.com
 extract: Rebranding the Gusto web app.
 date: 2019-04-29 09:00:00
-dateRange: 07/19
-heroImg: true
-images:
-  - gusto/design-system-01.webp
 ---
 
 <p class="intro">Rebranding the Gusto web app required a lot more than simply changing colors and updating the fonts. In the end we built a robust design system, consolidated our design patterns, and fixed hundreds of accessibility problems.</p>
@@ -15,6 +11,12 @@ images:
 We began with our core components: colors, typography, tables, buttons, forms, and layouts.
 
 The problem was that a lot of custom components and assets had been introduced over the years which meant that each team had its own best practices for building things. Our goal then wasn’t just to refactor all our core components to the updated brand guidelines, but it was also to bring all the teams together under one roof.
+
+<figure class="project-figure">
+  <img src="/images/projects/gusto/design-system-01.webp" />
+  <figcaption>Figure 1. We started with redesigning components in our Figma UI kit.</figcaption>
+</figure>
+
 
 <figure class="project-figure">
   <img src="/images/projects/gusto/design-system-05.webp" />

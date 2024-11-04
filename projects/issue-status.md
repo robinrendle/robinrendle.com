@@ -1,16 +1,24 @@
 ---
 layout: layouts/projects/project.njk
 title: Issue Status
-website: sentry.io
 extract: Showing relevant problems.
 date: 2023-03-29 09:00:00
-dateRange: 03/23
-heroImg: true
-images:
-  - issue-status/issue-status-01.webp
-  - issue-status/issue-status-03.webp
-  - issue-status/issue-status-02.webp
 ---
+
+
+<figure class="project-figure">
+  <img src="/images/projects/issue-status/issue-status-01.webp">
+  <figcaption>Figure 1. A diagram showing potential new issue statuses.</figcaption>
+</figure>
+<figure class="project-figure">
+  <img src="/images/projects/issue-status/issue-status-02.webp">
+  <figcaption>Figure 1. A diagram showing potential new issue statuses.</figcaption>
+</figure>
+<figure class="project-figure">
+  <img src="/images/projects/issue-status/issue-status-03.web">
+  <figcaption>Figure 1. A diagram showing potential new issue statuses.</figcaption>
+</figure>
+
 
 <p class="intro">It’s magic when an engineer ships busted code and Sentry sends them a notification about the problem. But engineers often struggled to find relevant issues in an ocean of old bugs.</p>
 

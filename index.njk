@@ -3,56 +3,102 @@ layout: layouts/base.njk
 title: Robin Rendle
 ---
 
-<c-grid>
-  <div class="grid-column-8">
-    {% for post in collections.notes | reverse | head(10) %}
-      <c-window>
-        <article>
-            <a class="window-title window-title-link {{loop.index}}" href="{{ post.url }}">
-              <h2>{{ post.data.title }}</h2>
-              ↗
-            </a>
-          <div class="window-content">
-            <div class="article-wrapper">
-              {{ post.content | safe }}
-              
-              <time class="notes-list-extract" datetime="{{ post.data.date | htmlDateString }}">
-                ↳ {{ post.data.date | fullDate }}
-              </time>
-            </div>
-          </div>
-        </article>
-      </c-window>
-    {% endfor %}
-  </div>
-  <div class="grid-column-4">
-    {# <c-window class="window-about">
-      <div class="window-title">
-        <h2>About</h2>
-      </div>
-      <div class="window-content window-content-wrapper">
-        <p class="tiny-text">I’m Robin, a designer and writer, and this blog is where I experiment with publishing, make weird web projects, and work in public.</p>
-      </div>
-    </c-window> #}
-    <c-window>
-      <a class="window-title window-title-link" href="/newsletter">
-        <h2>Newsletter</h2>
-      </a>
-      <div class="window-content window-content-wrapper">
-        <p class="tiny-text">If you’re interested in keeping up to date with my work, this is the way. Sent out maybe just a few times a year.</p>
-        <form
-        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-        class="embeddable-buttondown-form"
-        >
-          <div class="inputs">
-            <input type="email" placeholder="Email address" name="email" id="bd-email" required autocomplete="off" data-1p-ignore />
-            <input type="submit" value="Subscribe"/>
-          </div>
+<c-page style="--primary: oklch(70.36% 0.15650784384579877 257.13241640145225);">
+  <page-content>
+    <div class="title-header">
+      <h2 class="text-title text-title-numbered">About</h2>
+    </div>
+    <div class="prose flow">
+      <p class="intro">I’m Robin, a designer from the UK, and this is my blog, portfolio, and evil laboratory. It’s also the home of all my half-baked ideas and thoroughly embarrassing e-essays.</p>
+      <p>Currently I’m a senior product designer at <a href="https://retool.com">Retool</a> where I help folks build punk rock software. In my spare time I also work on <a href="https://csscade.com">The Cascade</a>, a blog about CSS and front-end development.</p> 
+      <p>Previously I was a staff writer at <a href="https://css-tricks.com">CSS-Tricks</a> where I wrote about the latest news in design systems, front-end development, and UI design on the web, making all sorts of <a href="https://codepen.io/robinrendle">neat demos</a> along the way.</p>
+      <p>Although I grew up in the southwest of England, I now live in San Francisco where I hike around the cloudy hills of my neighborhood, brooding about websites and fonts. You can send me <a mailto="mailto:robinjrendle@gmail.com">e-mail</a> or find me on <a href="https://sfba.social/@fonts">Mastodon</a>.</p>
+    </div>
+  </page-content>
+</c-page>
+
+{# NOTES #}
+<c-page>
+  <page-content>
+    <div class="title-header">
+      <h2 class="text-title text-title-numbered">Notes</h2>
+    </div>
+    <ol class="notes">
+      {% for post in collections.notes | reverse | head(10) %}
+        <li>
+          <a href="{{ post.url }}">
+            <h3>{{ post.data.title }}</h3>
+            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
+          </a>
+        </li>
+      {% endfor %}
+      <li>
+        <a href="/notes">
+          <h3>View archives</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="currentColor" d="m20.78 12.531-6.75 6.75a.75.75 0 1 1-1.06-1.061l5.47-5.47H3.75a.75.75 0 1 1 0-1.5h14.69l-5.47-5.469a.75.75 0 1 1 1.06-1.061l6.75 6.75a.748.748 0 0 1 0 1.061Z"/></svg>
+        </a>
+      </li>
+    </ol>
+  </page-content>
+</c-page>
+
+<c-page style="--primary: oklch(46.78% 0.09 165.36);">
+  <page-content>
+    <div class="title-header">
+      <h2 class="text-title text-title-numbered" id="projects">Projects</h2>
+    </div>
+    <ol class="notes">
+      {% for post in collections.projects | reverse | head(10) %}
+        <li>
+          <a href="{{ post.url }}" data-hero="{{post.data.heroImg}}">
+            <h3>{{ post.data.title }}</h3>
+            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | projectsDate }}</time>
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </page-content>
+</c-page>
+
+<c-page style="--primary: oklch(46.78% 0.09 165.36);">
+  <page-content>
+    <div class="title-header">
+      <h2 class="text-title text-title-numbered">Stories</h2>
+    </div>
+    <ul class="story-list">
+      {% for essay in collections.essays | reverse | head(6) %}
+        <a href="{{ essay.url }}" class="story">
+          <h2>{{essay.data.title}}</h2>
+          <img style="background: url('/images/essays/heros/clean/{{essay.data.hero}}')" src="/images/essays/heros/pixels/{{essay.data.hero}}"/>
+        </a>
+      {% endfor %}
+    </ul>
+  </page-content>
+</c-page>
+
+<c-page style="--primary: oklch(92.39% 0.0319 52.13);">
+  <page-content>
+    <div class="title-header">
+      <h2 class="text-title text-title-numbered">Newsletter</h2>
+    </div>
+    <div class="prose flow">
+      <p class="intro">If you’re interested in keeping up to date with my work, this is the way. Sent out maybe just a few times a year.</p>
+      <div class="newsletter">
+        <form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')">
+          <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="input-email" />
+          <input type="submit" value="Subscribe" class="input-submit">
         </form>
       </div>
-    </c-window>
-  </div>
-</c-grid>
+    </div>
+    <ol class="notes">
+      {% for post in collections.newsletter | reverse | head(8) %}
+        <li>
+          <a href="{{ post.url }}">
+            <h3>{{ post.data.title }}</h3>
+            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </page-content>
+</c-page>

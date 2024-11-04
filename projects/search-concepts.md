@@ -1,15 +1,10 @@
 ---
 layout: layouts/projects/project.njk
 title: Search Concepts
-website: sentry.io
 extract: Improving search at Sentry.
 date: 2023-04-28 09:00:00
 dateRange: 04/23
-heroImg: true
-images:
-  - search-concepts/search-concepts-01.webp
-  - search-concepts/search-concepts-03.webp
-  - search-concepts/search-concepts-04.webp
+heroImg: 
 ---
 
 <p class="intro">Searching for problems sucks, especially when it requires a lot of unnecessary clicking and typing. So these concepts were designed to help Sentry customers spend more time fixing bugs and less time searching for relevant issues.</p>
