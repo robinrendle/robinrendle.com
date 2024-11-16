@@ -49,17 +49,17 @@ Here’s the kicker though. They’re not cool because of the way they look or h
 
 It was a devastating insult and undid several years of therapy in a flash. But _wow_, _sure_, _okay_, I thought to myself. I might very well be a nerd, a loser, perhaps even a cyclist now but no matter how much I love this machine it will never be truly cool. 
 
-But isn’t that...fine?
+But isn’t that..._fine_?
 
-<p>Cool tech is overrated anyway as we tend to think of ‘cool’ in all the wrong ways. We only see loudness and speed and aluminum, presented on stage to glorious fanfare as cool. We see minimalism and a hefty price tag or the unrealistic, bewildering promises that can’t possibly be kept and we think that’s cool.</p> 
+<p>Cool tech is overrated anyway as we tend to think of ‘cool’ in all the wrong ways. We only see loudness and speed and aluminum, presented on stage to glorious fanfare as cool. We see minimalism and a hefty price tag or the unrealistic, bewildering promises that can’t possibly be kept and we think that’s cool, too.</p> 
   
-<p>We tend not to think about hearing aids or <abbr>MRI</abbr> machines or clean drinking water or contact lenses. We don’t think of small, meaningful progress as cool. We can only see the revolutions, the money, the once-in-a-lifetime technologies as cool and I think this limits our understanding of what tech is capable of and what it should hope to do.</p>
+<p>We don’t often think of hearing aids or <abbr>MRI</abbr> machines or clean drinking water or contact lenses. We don’t think of small, meaningful progress as cool. We can only see the revolutions, the money, the once-in-a-lifetime technologies as cool and I think this limits our understanding of what tech is capable of and what it should hope to do.</p>
 
 I reckon this is important because a lot of folks in tech today are terrified of making something merely useful and equally terrified of that kid’s devastating, life-crushing, therapy-inducing L. Powerful tech folks are scared of not being cool because cool is essential for their ego, being cool is essential for their power. But I don’t think that being cool is essential for making something great.
 
-So I wonder if technology can only truly progress if we ignore what’s cool. Imagine no more handsome, turtlenecked speeches or rapturous fanfare and applause. Imagine no more tech revolutions with the goal only to add a few zeroes to a spreadsheet or a bank account.
+So I wonder if technology can only progress if we ignore what’s cool. Imagine no more handsome, turtlenecked speeches or rapturous fanfare and applause. Imagine no more tech revolutions with the goal only to add a few zeroes to a spreadsheet or a bank account.
 
-My little bicycle with an electric motor forces me to ask a much bigger question:
+My little bicycle with an electric motor forces me to ask a much bigger question, I think:
 
 
 ## What if we make something useful instead?
