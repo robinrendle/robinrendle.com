@@ -1,7 +1,55 @@
 ---
-layout: layouts/base
+layout: layouts/note
 title: Test
 ---
+
+<table style="color: white; border: none; padding: 0; margin: 0; width: 100%; font-weight: 400; text-align: center; border-spacing: 0;">
+  <tr>
+      <th style="background-color: oklch(from var(--primary) var(--900));">Primary</th>
+      <th style="background-color: oklch(from var(--primary) var(--900));">Neutral</th>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--900));">900</td>
+      <td style="background-color: oklch(from var(--neutral) var(--900));">900</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--800));">800</td>
+      <td style="background-color: oklch(from var(--neutral) var(--800));">800</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--700));">700</td>
+      <td style="background-color: oklch(from var(--neutral) var(--700));">700</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--600));">600</td>
+      <td style="background-color: oklch(from var(--neutral) var(--600));">600</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--500));">500</td>
+      <td style="background-color: oklch(from var(--neutral) var(--500));">500</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--400));">400</td>
+      <td style="background-color: oklch(from var(--neutral) var(--400));">400</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--300));">300</td>
+      <td style="background-color: oklch(from var(--neutral) var(--300));">300</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--200));">200</td>
+      <td style="background-color: oklch(from var(--neutral) var(--200));">200</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--100));">100</td>
+      <td style="background-color: oklch(from var(--neutral) var(--100));">100</td>
+  </tr>
+  <tr>
+      <td style="background-color: oklch(from var(--primary) var(--50));">50</td>
+      <td style="background-color: oklch(from var(--neutral) var(--50));">50</td>
+  </tr>
+</table>
+
 
 # Heading 1
 
@@ -9,13 +57,9 @@ title: Test
 
 ### Heading 3
 
-### Heading 4
+#### Heading 4
 
-### Heading 5
-
-<div class="note-meta">
-  <time datetime="2022-08-13">13 Aug 2022</time> / San Francisco, California
-</div>
+##### Heading 5
 
 It will be seen that this mere _painstaking burrower and grub-worm_ of a poor devil of a Sub-Sub appears to have gone through the long Vaticans and street-stalls of the earth, picking up whatever random allusions to whales he could anyways find in any book whatsoever, sacred or profane.
 
@@ -25,7 +69,7 @@ Therefore you must not, in every case at least, take the higgledy-piggledy whale
 
 ```css
 .whale:after {
-  content: "🐋";
+  content: "moby";
 }
 ```
 
@@ -42,12 +86,20 @@ Some leaning against the spiles; some seated upon the pier-heads; some looking o
 
 The opposite wall of this entry was hung all over with a heathenish array of monstrous clubs and spears. Some were thickly set with glittering teeth resembling ivory saws; others were tufted with knots of human hair; and one was sickle-shaped, with a vast handle sweeping round like the segment made in the new-mown grass by a long-armed mower.
 
-<figure class="about-img no-margin">
-  <img src="/images/boat.jpg" />
-  <figcaption>Shipwreck off Nantucket (Wreck off Nantucket after a Storm), ca. 1860–61, William Bradford</figcaption>
-</figure>
-
 You shuddered as you gazed, and wondered what monstrous cannibal and savage could ever have gone a death-harvesting with such a hacking, horrifying implement. Mixed with these were rusty old whaling lances and harpoons all broken and deformed.
+
+```css
+.element {
+  animation: move 2s infinite;
+  transform: translateX(10px);
+}
+
+@keyframes move {
+  to {
+    transform: translateX(100px);
+  }
+}
+```
 
 Some were storied weapons. With this once long lance, now wildly elbowed, fifty years ago did Nathan Swain kill fifteen whales between a sunrise and a sunset. And that harpoon—so like a corkscrew now—was flung in Javan seas, and run away with by a whale, years afterwards slain off the Cape of Blanco. The original iron entered nigh the tail, and, like a restless needle sojourning in the body of a man, travelled full forty feet, and at last was found imbedded in the hump.
 

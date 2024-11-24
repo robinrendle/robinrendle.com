@@ -151,21 +151,18 @@ c-carousel-item {
   height: 100%;
   border-radius: 0;
   gap: 35px;
+  justify-content: space-between;
   
   &:last-of-type {
     min-width: calc(100% + 0.4dvw);
   }
   
-  /* @media screen and (min-width: 800px) { */
-    justify-content: space-between;
-  /* } */
-  
   div {
+    padding-left: 30px;
+    padding-top: 30px;
     @media screen and (max-width: 800px) {
       padding-right: 30px;
     }
-    padding-left: 30px;
-    padding-top: 30px;
   }
   
   span {
@@ -349,7 +346,7 @@ c-carousel-nav {
     <c-carousel-item class="right full">
       <div>
         <h1>Projects</h1>
-        <p><span>Howdy, my name’s Robin and I have more than 10 years of experience designing and building complex web applications. Here’s a sample of my work.</span></p>
+        <p><span>Howdy! My name’s Robin and I have more than 10 years of experience designing and building complex web applications. Here’s a sample of my work.</span></p>
       </div>
       <img src="/images/me/memememe.webp" height="640" width="857" alt="">
     </c-carousel-item>

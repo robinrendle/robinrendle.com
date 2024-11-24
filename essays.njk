@@ -7,28 +7,22 @@ templateClass: no-footer
 
 <h1 class="hidden">Essays</h1>
 
-<c-grid>
-  {% for note in collections.essays | reverse %}
-    <c-window class="window-essay window-link grid-column-4">
-      <a class="window-title window-title-link" href="{{ note.url }}" class="essays-item-link">
-        <h2>{{note.data.title}}</h2>
-        <svg viewBox="0 0 14 14" class="window-title-icon">
-          <use xlink:href="#icon-arrow"></use>
-        </svg>
-      </a>
-      <div class="window-content window-content-link window-content-essay">
-        <a href="{{ note.url }}" class="essays-item-link">
-          <img alt="{{note.data.alt}}" class="essays-item-img" width="1028px" height="1500px" src="{{note.data.hero}}" />
-        </a>
-      </div>
-    </c-window>
-  {% endfor %}
-  <c-window class="grid-column-8">
-    <div class="window-title">
+
+{% for note in collections.essays | reverse %}
+  <a class="window-title window-title-link" href="{{ note.url }}" class="essays-item-link">
+    <h2>{{note.data.title}}</h2>
+    <svg viewBox="0 0 14 14" class="window-title-icon">
+      <use xlink:href="#icon-arrow"></use>
+    </svg>
+  </a>
+  <a href="{{ note.url }}" class="essays-item-link">
+    <img alt="{{note.data.alt}}" class="essays-item-img" width="1028px" height="1500px" src="{{note.data.hero}}" />
+  </a>
+{% endfor %}
+  
+    {# <div class="window-title">
       <h2>Illustrations</h2>
     </div>
     <div class="window-content window-content-wrapper">
       Special thanks to <a href="https://www.oldbookillustrations.com/">Old Book Illustrations</a>, the source of all these lovely woodcut and metal engravings you see above.
-    </div>
-  </c-window>
-</c-grid>
+    </div> #}

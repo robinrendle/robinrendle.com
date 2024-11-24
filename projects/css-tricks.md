@@ -3,11 +3,7 @@ layout: layouts/projects/project.njk
 title: CSS-Tricks
 extract: Writing for the best website ever made.
 date: 2022-03-28 09:00:00
-dateRange: 03/22
 website: css-tricks.com
-heroImg: false
-images:
-  - css-tricks/css-tricks-01.webp
 ---
 
 <p class="intro">CSS-Tricks is a popular website by Chris Coyier with articles about CSS, HTML, JavaScript, and all things related to web design and development. In 2014 I joined the team as a staff writer and had free rein to write about whatever I wanted. It was a dream gig.</p>

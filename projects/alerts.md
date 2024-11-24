@@ -4,10 +4,6 @@ title: Alerts
 website: sentry.io
 extract: Detecting problems with Sentry.
 date: 2022-04-29 09:00:00
-dateRange: 08/22
-heroImg: true
-images:
-  - alerts/alerts-02.webp
 ---
 
 <p class="intro">Sentry customers wanted to detect specific problems with their applications; from a slow checkout page to a crash on mobile devices and everything in between. The Alerts feature made that possible.</p>
@@ -15,6 +11,12 @@ images:
 I joined Sentry part way through this project, as the feature was being slowly rolled out to early batches of customers. But there were a lot of confusion about the setup process for an alert and it was difficult to know what to fix once an alert had been triggered.
 
 There were three places to look into improving here: the alerts homepage, the onboarding experience, and the alert details page.
+
+<figure class="project-figure">
+  <img src="/images/projects/alerts/alerts-02.webp">
+  <figcaption>Figure 1. Customers had to hunt for the alert rules they’d created.</figcaption>
+</figure>
+
 
 <figure class="project-figure">
   <img src="/images/projects/alerts/before.webp">

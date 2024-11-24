@@ -6,7 +6,7 @@ city: San Francisco
 country: California
 extract: Show us the future.
 tags: unfeatured
-hero: /images/essays/home/arc.webp
+hero: light.webp
 alt: "Wood engraving by Auguste Trichon. A terrified man is falling through the sky, desperately clinging to a tangled winged apparatus as the hot-air balloon from which his flying attempt was launched can be seen hovering above."
 ---
 
