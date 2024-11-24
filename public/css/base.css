@@ -6,7 +6,7 @@
 }
 
 :root {
-  --flow-space: 1.3rem;
+  --flow-space: 1.4rem;
 
   --font-size-1: 2rem;
   --font-size-2: 1.75rem;
@@ -248,6 +248,10 @@ hr {
 blockquote {
   padding: 18px 22px;
   background: oklch(from var(--neutral) var(--50));
+  
+  p {
+    line-height: 1.45;
+  }
 }
 
 iframe,
@@ -299,7 +303,7 @@ c-page:first-child page-content {
 
 page-content {
   display: block;
-  max-width: 37rem;
+  max-width: 38rem;
   position: relative;
   margin: 0 auto;
   padding-top: 100px;
@@ -452,6 +456,11 @@ page-img.project {
   }
 }
 
+p img {
+  margin-top: var(--space);
+  margin-bottom: var(--space);
+}
+
 .notes {
   list-style: none;
   padding: 0;
@@ -486,7 +495,7 @@ page-img.project {
       transform: translate(-16px);
       width: calc(100% + 32px);
       border-radius: var(--radius-md);
-      background-color: oklch(from var(--primary) var(--50));
+      background-color: oklch(from var(--primary) var(--100));
       border-bottom-color: transparent;
       color: oklch(from var(--primary) var(--500));
     }
