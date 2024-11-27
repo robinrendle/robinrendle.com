@@ -4,7 +4,7 @@ title: Safety and stability
 date: 2024-11-27T04:41:34.752Z
 city: San Francisco
 country: California
-extract: A remarkable website.
+extract: When the world feels so unstable I find solace in the work.
 tags:
   - personal
 ---
