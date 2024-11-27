@@ -120,7 +120,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
-  
+
   @media screen and (min-width: 600px) {
     line-height: 1.45;
   }
@@ -146,10 +146,10 @@ body:before {
 .tiny-text {
   font-size: var(--font-size-caption);
   line-height: 1.3;
- 
+
   & + .tiny-text {
     margin-top: calc(var(--space) * 0.7) !important;
-  } 
+  }
 }
 
 .font-code {
@@ -157,7 +157,7 @@ body:before {
 }
 
 hr {
-  border: 1px solid var(--color-gray);
+  border: 1px solid var(--color-button-bg);
   margin: 2rem 0;
 }
 
@@ -291,7 +291,7 @@ c-window[class*="grid-column"] {
 
 .window-title-link {
   flex-direction: row !important;
-  
+
   svg {
     opacity: 60%;
     width: 12px;
@@ -418,16 +418,16 @@ c-window[class*="grid-column"] {
   margin: 0 auto 0 auto;
   line-height: 1.4;
   padding: calc(var(--space) * 1.5) calc(var(--space) * 1) calc(var(--space) * 4) calc(var(--space) * 1);
-  
+
   @container window (min-width: 400px) {
     padding: calc(var(--space) * 1.5) calc(var(--space) * 1.7) calc(var(--space) * 4) calc(var(--space) * 1.7);
     line-height: 1.45;
   }
-  
+
   @container window (min-width: 700px) {
     line-height: 1.45;
     padding: calc(var(--space) * 3) 0 calc(var(--space) * 6) 0;
-    margin: 0 auto;    
+    margin: 0 auto;
   }
 }
 
@@ -1395,11 +1395,11 @@ code {
 
 .big-picture {
   display: block;
-  margin-bottom: 5px !important; 
+  margin-bottom: 5px !important;
   @media screen and (min-width: 800px) {
     width: 65rem;
     max-width: 65rem;
-    margin-left: calc(50% - 32.5rem) !important;  
+    margin-left: calc(50% - 32.5rem) !important;
   }
 }
 
@@ -1418,17 +1418,17 @@ code {
 
 .window-essay {
   aspect-ratio: 1 / 1.3;
-  
+
   &:hover, &:focus {
     img {
       opacity: 0.6;
-    }    
+    }
   }
-  
+
   .window-content {
     background: black;
   }
-  
+
   img {
     transition: opacity 0.3s linear;
     opacity: 0.4;
