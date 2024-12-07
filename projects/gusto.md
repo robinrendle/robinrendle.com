@@ -1,7 +1,6 @@
 ---
 layout: layouts/projects/project.njk
-title: Design Systems
-website: gusto.com
+title: Gusto
 extract: Rebranding the Gusto web app.
 date: 2019-04-29 09:00:00
 ---

@@ -3,33 +3,15 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<c-page 
-  {% if heroColor %}
-    style="--primary: {{heroColor}}; --background: oklch(from var(--neutral) var(--0));"
-  {% else%}
-    style="--background: oklch(from var(--neutral) var(--0));"
-  {% endif %}  
->
-  {% if heroImg %}
-    <page-img class="{{heroOverlay}}">
-      <img src="{{heroImg}}" alt="{{page.heroDescription}}" width="372" height="461" />
-    </page-img>
-  {% else %}
-
-  {% endif %}
-  
+<c-page>
   <page-content>
-    <header class="title-header">
-      <h1 class="text-title ">{{ title }}</h1>
-      <time class="text-meta" datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
-    </header>
     <div class="prose flow">
       {{ content | safe }}
     </div>
   </page-content>
 </c-page>
 
-<c-page style="--background: oklch(from var(--neutral) var(--25));">
+<c-page style="--background: oklch(from var(--primary) var(--50));">
   <page-content>
     <div class="title-header">
       <h2 class="text-title">Notes</h2>

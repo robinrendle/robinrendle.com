@@ -15,20 +15,26 @@
   --font-size-5: 1.2rem;
   --font-size-6: 1.125rem;
   --font-size-7: 1rem;
-  
-  --radius-sm: 6px ;
+
+  --radius-sm: 6px;
   --radius-md: 6px;
   --radius-lg: 15px;
-  
-  --bg-image: url('/images/about/robin-rendle.webp');
 
-  --font-mono: 'SF Mono', SFMono-Regular, ui-monospace, 'DejaVu Sans Mono', Menlo, Consolas, monospace;
-  --font-text: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  --font-title: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  
+  --bg-image: url("/images/about/robin-rendle.webp");
+
+  --font-mono: "SF Mono", SFMono-Regular, ui-monospace, "DejaVu Sans Mono",
+    Menlo, Consolas, monospace;
+  --font-text: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+  --font-title: "Soehne", -apple-system, BlinkMacSystemFont, avenir next,
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
+    noto, arial, sans-serif;
+
   --primary: oklch(57.57% 0.1605 315.55);
   --neutral: oklch(90% 0 0);
-  
+  --shadow-1: 0px -4px 4px 0px rgba(0, 0, 0, 0.03);
+
   --0: 100% 0 h;
   --25: 98% 0 h;
   --50: 97% calc(c/16) h;
@@ -41,7 +47,7 @@
   --700: 30% c h;
   --800: 20% calc(c/1.5) h;
   --900: 0 c h;
-  
+
   --color-title: oklch(from var(--neutral) var(--900));
   --color-text: var(--primary);
   --color-text-meta: oklch(from var(--neutral) var(--300));
@@ -66,7 +72,31 @@ html {
   min-height: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6, address, p, hr, pre, blockquote, ol, ul, li, dl, dt, dd, figure, figcaption, div, table, caption, form, fieldset {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+address,
+p,
+hr,
+pre,
+blockquote,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+figure,
+figcaption,
+div,
+table,
+caption,
+form,
+fieldset {
   margin: 0;
 }
 
@@ -97,15 +127,19 @@ body {
   line-height: 1.45;
   text-decoration-skip-ink: auto;
   font-optical-sizing: auto;
-  font-variant-ligatures: common-ligatures no-discretionary-ligatures no-historical-ligatures contextual;
+  font-variant-ligatures: common-ligatures no-discretionary-ligatures
+    no-historical-ligatures contextual;
   font-kerning: normal;
 }
 
-button, input, label { 
+button,
+input,
+label {
   line-height: 1.1;
 }
 
-.flow > * + *, .flow > blockquote > * + * {
+.flow > * + *,
+.flow > blockquote > * + * {
   margin-block-start: var(--flow-space, 1em);
 }
 
@@ -116,49 +150,50 @@ button, input, label {
   -webkit-hyphenate-limit-lines: 2;
   hyphens: auto;
   hyphenate-limit-chars: 7 4 3;
-  hyphenate-limit-lines: 2;    
+  hyphenate-limit-lines: 2;
   hyphenate-limit-zone: 8%;
   hyphenate-limit-last: always;
   font-size: var(--font-size-5);
   line-height: 1.4;
-  
+
   h2 {
     font-size: var(--font-size-4);
   }
-  
+
   h3 {
     font-size: var(--font-size-5);
   }
-  
+
   em {
     font-style: normal;
   }
-  
+
   .intro {
     font-size: var(--font-size-4);
     color: var(--color-title);
     line-height: 1.3;
   }
-  
+
   a {
     text-decoration: underline;
     color: inherit;
-    
-    &:hover, &:focus {
+
+    &:hover,
+    &:focus {
       text-decoration-color: oklch(var(--primary) var(--600));
       color: oklch(from var(--primary) var(--500));
     }
   }
-  
+
   ul {
     padding-left: 20px;
     position: relative;
-    
+
     li {
       list-style: none;
       margin-bottom: 10px;
     }
-    
+
     li:before {
       position: absolute;
       left: 0px;
@@ -178,24 +213,38 @@ a.fancy-link {
   background-color: oklch(from var(--primary) var(--50));
   padding: 4px 8px;
   margin: 0;
-  
-  &:hover, &:focus {
+
+  &:hover,
+  &:focus {
     border: 1px solid oklch(from var(--primary) var(--200));
     color: oklch(from var(--primary) var(--500));
     background-color: oklch(from var(--primary) var(--100));
   }
 }
 
-.prose pre, .prose code, .prose var, .prose samp, .prose kbd,
-.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-    -webkit-hyphens: manual;
-    hyphens: manual;
+.prose pre,
+.prose code,
+.prose var,
+.prose samp,
+.prose kbd,
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4,
+.prose h5,
+.prose h6 {
+  -webkit-hyphens: manual;
+  hyphens: manual;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight: 400;
   font-family: var(--text);
-  
+
   .direct-link {
     display: none;
   }
@@ -215,7 +264,7 @@ h1, h2, h3, h4, h5 {
 .text-title-numbered {
   display: flex;
   gap: 1rem;
-  
+
   &:before {
     counter-increment: headings;
     content: "0" counter(headings);
@@ -230,7 +279,7 @@ h1, h2, h3, h4, h5 {
 
 .title-header {
   margin-bottom: 2rem;
-  
+
   .text-title {
     margin-bottom: 4px;
   }
@@ -242,13 +291,12 @@ hr {
   height: 16px;
   width: 58px;
   opacity: 0.5;
-  background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2216%22%20fill%3D%22none%22%3E%3Cg%20fill%3D%22%23000%22%20clip-path%3D%22url(%23a)%22%3E%3Cpath%20d%3D%22m13.488%207.475-4.329%204.379a.5.5%200%200%201-.353.146H4.013V7.207a.5.5%200%200%201%20.146-.354l2.854-2.82V9l1.5-1.5%204.975-.025Z%22%20opacity%3D%22.2%22%2F%3E%3Cpath%20d%3D%22M13.83%202.172a4%204%200%200%200-5.656%200L3.793%206.5a.994.994%200%200%200-.293.707v4.586l-1.854%201.853a.5.5%200%200%200%20.708.708L4.207%2012.5h4.587a.995.995%200%200%200%20.706-.292l4.327-4.375a4%204%200%200%200%20.003-5.661Zm-4.95.707A3%203%200%200%201%2013.236%207h-3.53l2.148-2.146a.5.5%200%200%200-.708-.708L7.5%207.793V4.242l1.38-1.363ZM4.5%207.209l2-1.979v3.563l-2%202V7.209ZM8.794%2011.5H5.207l3.5-3.5h3.546l-3.46%203.5Z%22%2F%3E%3Cpath%20d%3D%22m33.488%207.475-4.33%204.379a.5.5%200%200%201-.352.146h-4.793V7.207a.5.5%200%200%201%20.146-.354l2.854-2.82V9l1.5-1.5%204.975-.025Z%22%20opacity%3D%22.2%22%2F%3E%3Cpath%20d%3D%22M33.83%202.172a4%204%200%200%200-5.656%200L23.793%206.5a.994.994%200%200%200-.293.707v4.586l-1.854%201.853a.5.5%200%200%200%20.707.708l1.854-1.854h4.587a.996.996%200%200%200%20.706-.292l4.327-4.375a4%204%200%200%200%20.003-5.661Zm-4.95.707A3%203%200%200%201%2033.236%207h-3.53l2.148-2.146a.5.5%200%200%200-.708-.708L27.5%207.793V4.242l1.38-1.363Zm-4.38%204.33%202-1.979v3.563l-2%202V7.209Zm4.294%204.291h-3.587l3.5-3.5h3.547l-3.46%203.5Z%22%2F%3E%3Cpath%20d%3D%22m53.488%207.475-4.33%204.379a.5.5%200%200%201-.352.146h-4.793V7.207a.5.5%200%200%201%20.146-.354l2.854-2.82V9l1.5-1.5%204.975-.025Z%22%20opacity%3D%22.2%22%2F%3E%3Cpath%20d%3D%22M53.83%202.172a4%204%200%200%200-5.656%200L43.793%206.5a.994.994%200%200%200-.293.707v4.586l-1.854%201.853a.5.5%200%200%200%20.707.708l1.854-1.854h4.587a.996.996%200%200%200%20.706-.292l4.327-4.375a4%204%200%200%200%20.003-5.661Zm-4.95.707A3%203%200%200%201%2053.236%207h-3.53l2.148-2.146a.5.5%200%200%200-.708-.708L47.5%207.793V4.242l1.38-1.363Zm-4.38%204.33%202-1.979v3.563l-2%202V7.209Zm4.294%204.291h-3.587l3.5-3.5h3.547l-3.46%203.5Z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CclipPath%20id%3D%22a%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%200h56v16H0z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3C%2Fsvg%3E');
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2256%22%20height%3D%2216%22%20fill%3D%22none%22%3E%3Cg%20fill%3D%22%23000%22%20clip-path%3D%22url(%23a)%22%3E%3Cpath%20d%3D%22m13.488%207.475-4.329%204.379a.5.5%200%200%201-.353.146H4.013V7.207a.5.5%200%200%201%20.146-.354l2.854-2.82V9l1.5-1.5%204.975-.025Z%22%20opacity%3D%22.2%22%2F%3E%3Cpath%20d%3D%22M13.83%202.172a4%204%200%200%200-5.656%200L3.793%206.5a.994.994%200%200%200-.293.707v4.586l-1.854%201.853a.5.5%200%200%200%20.708.708L4.207%2012.5h4.587a.995.995%200%200%200%20.706-.292l4.327-4.375a4%204%200%200%200%20.003-5.661Zm-4.95.707A3%203%200%200%201%2013.236%207h-3.53l2.148-2.146a.5.5%200%200%200-.708-.708L7.5%207.793V4.242l1.38-1.363ZM4.5%207.209l2-1.979v3.563l-2%202V7.209ZM8.794%2011.5H5.207l3.5-3.5h3.546l-3.46%203.5Z%22%2F%3E%3Cpath%20d%3D%22m33.488%207.475-4.33%204.379a.5.5%200%200%201-.352.146h-4.793V7.207a.5.5%200%200%201%20.146-.354l2.854-2.82V9l1.5-1.5%204.975-.025Z%22%20opacity%3D%22.2%22%2F%3E%3Cpath%20d%3D%22M33.83%202.172a4%204%200%200%200-5.656%200L23.793%206.5a.994.994%200%200%200-.293.707v4.586l-1.854%201.853a.5.5%200%200%200%20.707.708l1.854-1.854h4.587a.996.996%200%200%200%20.706-.292l4.327-4.375a4%204%200%200%200%20.003-5.661Zm-4.95.707A3%203%200%200%201%2033.236%207h-3.53l2.148-2.146a.5.5%200%200%200-.708-.708L27.5%207.793V4.242l1.38-1.363Zm-4.38%204.33%202-1.979v3.563l-2%202V7.209Zm4.294%204.291h-3.587l3.5-3.5h3.547l-3.46%203.5Z%22%2F%3E%3Cpath%20d%3D%22m53.488%207.475-4.33%204.379a.5.5%200%200%201-.352.146h-4.793V7.207a.5.5%200%200%201%20.146-.354l2.854-2.82V9l1.5-1.5%204.975-.025Z%22%20opacity%3D%22.2%22%2F%3E%3Cpath%20d%3D%22M53.83%202.172a4%204%200%200%200-5.656%200L43.793%206.5a.994.994%200%200%200-.293.707v4.586l-1.854%201.853a.5.5%200%200%200%20.707.708l1.854-1.854h4.587a.996.996%200%200%200%20.706-.292l4.327-4.375a4%204%200%200%200%20.003-5.661Zm-4.95.707A3%203%200%200%201%2053.236%207h-3.53l2.148-2.146a.5.5%200%200%200-.708-.708L47.5%207.793V4.242l1.38-1.363Zm-4.38%204.33%202-1.979v3.563l-2%202V7.209Zm4.294%204.291h-3.587l3.5-3.5h3.547l-3.46%203.5Z%22%2F%3E%3C%2Fg%3E%3Cdefs%3E%3CclipPath%20id%3D%22a%22%3E%3Cpath%20fill%3D%22%23fff%22%20d%3D%22M0%200h56v16H0z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3C%2Fsvg%3E");
 }
 
 blockquote {
-  padding: 18px 22px;
-  background: oklch(from var(--neutral) var(--50));
-  
+  padding: 0 22px;
+
   p {
     line-height: 1.45;
   }
@@ -280,7 +328,7 @@ c-page {
   background: var(--background);
   display: block;
   padding-bottom: 100px;
-  
+
   &.c-page-offwhite {
     page-content {
       @media screen and (min-width: 800px) {
@@ -288,7 +336,7 @@ c-page {
       }
     }
   }
-  
+
   &.c-page-img-full {
     padding: 0;
     @media screen and (min-width: 800px) {
@@ -298,36 +346,36 @@ c-page {
 }
 
 c-page:first-child page-content {
-  padding-top: 15dvh;
+  padding-top: 10dvh;
 }
 
 page-content {
   display: block;
-  max-width: 38rem;
+  max-width: 37rem;
   position: relative;
   margin: 0 auto;
   padding-top: 100px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 50px;
-  
+
   @media screen and (min-width: 800px) {
     width: 100%;
     margin: auto;
     height: min-content;
   }
-  
+
   *::selection {
-      background: oklch(from var(--primary) var(--100));
-      color: oklch(from var(--primary) var(--600));
+    background: oklch(from var(--primary) var(--100));
+    color: oklch(from var(--primary) var(--600));
   }
   *::-moz-selection {
-      background: oklch(from var(--primary) var(--100));
-      color: oklch(from var(--primary) var(--600));
+    background: oklch(from var(--primary) var(--100));
+    color: oklch(from var(--primary) var(--600));
   }
   *::-webkit-selection {
-      background: oklch(from var(--primary) var(--100));
-      color: oklch(from var(--primary) var(--600));
+    background: oklch(from var(--primary) var(--100));
+    color: oklch(from var(--primary) var(--600));
   }
 }
 
@@ -342,13 +390,13 @@ page-img {
   @media screen and (min-width: 800px) {
     height: 100%;
   }
-  
+
   img {
     object-fit: cover;
     max-height: 250px;
-    
-    @media screen and (min-width: 800px) {  
-      position: sticky; 
+
+    @media screen and (min-width: 800px) {
+      position: sticky;
       width: 100cqw;
       max-height: 100%;
       height: 100cqh;
@@ -356,9 +404,9 @@ page-img {
       left: 0;
       right: 0;
       bottom: 0;
-      
+
       .c-page-img-full & {
-        position: static; 
+        position: static;
         height: auto;
         max-height: 100%;
         object-fit: contain;
@@ -374,7 +422,7 @@ page-img {
   page-content {
     position: absolute;
     bottom: 0;
-    
+
     p {
       max-width: 450px;
     }
@@ -386,7 +434,7 @@ page-img.overlay {
     opacity: 0.3;
   }
   &:before {
-    content: '';
+    content: "";
     background: oklch(from var(--primary) var(--300));
     mix-blend-mode: overlay;
     position: absolute;
@@ -408,7 +456,7 @@ page-img.bg-primary {
   background: oklch(from var(--primary) var(--50));
 }
 
-page-img.project {  
+page-img.project {
   img {
     height: auto;
     width: auto;
@@ -431,7 +479,7 @@ page-img.project {
   display: flex;
   width: 100%;
   transition: transform 0.2s linear;
-  
+
   img {
     opacity: 0.5;
     image-rendering: pixelated;
@@ -440,7 +488,7 @@ page-img.project {
     background-size: contain !important;
     transition: opacity 0.2s linear;
   }
-  
+
   &:hover {
     transform: scale(1.05);
     img {
@@ -449,9 +497,9 @@ page-img.project {
       background-position: 0 0 !important;
     }
   }
-  
+
   h2 {
-    height: 0; 
+    height: 0;
     display: none;
   }
 }
@@ -464,22 +512,22 @@ p img {
 .notes {
   list-style: none;
   padding: 0;
-  
+
   li:has(+ li:hover) {
     a {
       border-bottom-color: transparent;
     }
   }
-  
+
   li:only-child {
     padding-top: 60px;
     margin-bottom: -100px;
-    
+
     a {
       border-top: 1px solid var(--color-border);
     }
   }
-  
+
   li a {
     color: inherit;
     text-decoration: none;
@@ -487,8 +535,8 @@ p img {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid var(--color-border);
-    padding: 1rem 0; 
-    
+    padding: 1rem 0;
+
     &:hover {
       padding-left: 16px;
       padding-right: 16px;
@@ -499,7 +547,7 @@ p img {
       border-bottom-color: transparent;
       color: oklch(from var(--primary) var(--500));
     }
-    
+
     h3 {
       font-weight: 400;
       line-height: 1.3;
@@ -518,20 +566,20 @@ p img {
 
 .newsletter {
   margin-bottom: 40px;
-  
+
   form {
     display: flex;
     gap: 5px;
   }
-  
+
   input[type="submit"] {
     border-radius: var(--radius-sm);
     background: oklch(from var(--primary) var(--400));
-    color: oklch(from var(--primary) var(--50));  
+    color: oklch(from var(--primary) var(--50));
     border: none;
     padding: 0.5rem 0.75rem;
   }
-  
+
   input[type="email"] {
     border-radius: var(--radius-sm);
     color: oklch(from var(--primary) var(--700));
@@ -539,20 +587,20 @@ p img {
     padding: 0.75rem;
     width: 100%;
     background: oklch(from var(--primary) var(--100));
-    
+
     &::placeholder {
-      color: oklch(from var(--primary) var(--400));  
+      color: oklch(from var(--primary) var(--400));
     }
   }
 }
 
 .visually-hidden:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 
@@ -572,14 +620,14 @@ p img {
   left: calc(50% - 50dvw);
   margin-left: 10px;
   padding-top: 80px;
-  padding-bottom: 80px;  
+  padding-bottom: 80px;
   margin-top: calc(var(--flow-space) * 4);
   margin-bottom: calc(var(--flow-space) * 4);
-  
+
   & + .project-img {
     margin-top: 10px !important;
   }
-  
+
   figcaption {
     max-width: 700px;
     margin: 0 auto;
@@ -588,15 +636,14 @@ p img {
     margin-top: 40px;
     margin-bottom: 0 !important;
   }
-  
-  img, video {
+
+  img,
+  video {
     border-radius: var(--radius-sm);
     max-width: 900px;
     margin: 0 auto;
     display: block;
-    filter: drop-shadow(
-      1px 2px 8px var(--shadow-color)
-    );
+    filter: drop-shadow(1px 2px 8px var(--shadow-color));
   }
 }
 
@@ -771,8 +818,16 @@ pre > code.highlight {
 */
 .line-highlight.line-highlight {
   background: rgba(224, 145, 66, 0.2);
-  background: -webkit-linear-gradient(left, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
-  background: linear-gradient(to right, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
+  background: -webkit-linear-gradient(
+    left,
+    rgba(224, 145, 66, 0.2) 70%,
+    rgba(224, 145, 66, 0)
+  );
+  background: linear-gradient(
+    to right,
+    rgba(224, 145, 66, 0.2) 70%,
+    rgba(224, 145, 66, 0)
+  );
 }
 
 code {
