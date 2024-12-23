@@ -694,12 +694,13 @@ page-footer {
   transform: translate(-50%, 0%);
   margin-bottom: -45px;
   margin-top: auto;
-  padding: 15px 25px;
+  padding: 15px 20px;
   background: var(--color-surface);
   border-top: 1px solid var(--color-border);
 
   @media screen and (min-width: 700px) {
     width: calc(100dvw - 20px);
+    padding: 15px 25px;
   }
 
   &.cover {
