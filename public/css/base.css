@@ -23,7 +23,7 @@
   color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
-  --font-size-1: clamp(4rem, 15vw, 7rem);
+  --font-size-1: clamp(5rem, 15vw, 7rem);
   --font-size-2: clamp(3rem, 8vw, 4.5rem);
   --font-size-3: clamp(1.25rem, 3vw, 1.45rem);
   --font-size-4: clamp(1.2rem, 3vw, 1.375rem);
