@@ -6,23 +6,16 @@ templateClass: no-footer
 {% set previousPost = collections.projects | getPreviousCollectionItem %}
 {% set nextPost = collections.projects | getNextCollectionItem %}
 
-<c-grid>
-  <c-window class="window-project-detail grid-column-12">
-    <div class="window-title">
-      <h1>{{ title }}</h1>
-      <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">{{ page.date | projectsDate }}</time> 
+{# <nav class="project-nav">
+  <a href="{{nextPost.url}}">></a>
+  <a href="{{previousPost.url}}"><</a>
+</nav> #}
+
+<c-page>
+  <page-content>
+    <h1 class="">{{ title }}</h1>
+    <div class="prose flow">
+      {{ content | safe }}
     </div>
-    <div class="window-content">
-      {% for item in images | head(1) %}
-        {% if heroImg === true %}
-          <figure class="project-hero">
-            <img src="/images/projects/{{item}}" />
-          </figure>
-        {% endif %}
-      {% endfor %}
-      <div class="article-wrapper">
-        {{ content | safe }}
-      </div>
-    </div>
-  </c-window>
-</c-grid>
+  </page-content>
+</c-page>

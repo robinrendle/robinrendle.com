@@ -5,6 +5,10 @@ date: 2024-10-05T12:18:03-07:00
 city: San Francisco
 country: California
 extract: In the bowels of a giant machine.
+heroImg: /images/IMG_0197 1.webp
+heroDescription: A photograph of the NYC skyline.
+heroColor: oklch(79.4% 0.1708 71.06)
+heroOverlay: overlay
 ---
 
 

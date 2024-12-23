@@ -3,18 +3,19 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<c-grid>
-  <c-window class="grid-column-8">
-    <div class="window-title window-title-article">
-      <h1 id="heading">{{ title }}</h1>  
+<c-page>
+  <page-content>
+    <div class="prose flow">
+      <header class="title-header">
+        <h1>{{ title }}</h1>
+      </header>
+      {{ content | safe }}
     </div>
-    <div class="window-content">
-      <div class="article-wrapper">
-        {{ content | safe }}
-        <time class="notes-list-extract" datetime="{{ page.date | htmlDateString }}">
-          ↳ {{ page.date | fullDate }}
-        </time>
+    <page-footer>
+      <div class="color-text-meta">
+        <a class="button-text" href="/notes">Notes</a> / <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
       </div>
-    </div>
-  </c-window>
-</c-grid>
+      <a class="button" href="mailto:robinjrendle@gmail.com">Contact</a>
+    </page-footer>
+  </page-content>
+</c-page>

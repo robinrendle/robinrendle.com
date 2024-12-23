@@ -1,4 +1,4 @@
-<!-- If every website is a manifesto, then here’s mine. -->
+<!-- Every website is a manifesto. -->
 <!DOCTYPE html>
 <html lang="en" data-theme="light" class={{templateClass}}>
   <head>
@@ -12,15 +12,15 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{title }}">
     <meta property="og:description" content="{{ extract or metadata.description }}">
-    <meta property="og:image" content="/images/favicons4/bird1.png">
-    
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons4/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons4/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons4/favicon-16x16.png">
-    <link rel="manifest" href="/images/favicons4/site.webmanifest">
-    <link rel="mask-icon" href="/images/favicons4/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <meta property="og:image" content="/images/favicons5/bird1.png">
+    <meta name="color-scheme" content="light dark">
+
+    <link rel="icon" type="image/png" href="/images/favicons5/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicons5/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicons5/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons5/apple-touch-icon.png" />
+    <link rel="manifest" href="/images/favicons5/site.webmanifest" />
+
     <link rel="alternate" type="application/rss+xml" title="Notes" href="/feed.xml">
     <link rel="alternate" type="application/rss+xml" title="The Cascade" href="/cascadefeed.xml">
     <link rel="alternate" type="application/rss+xml" title="Personal newsletter" href="/newsletterfeed.xml">
@@ -33,27 +33,7 @@
     </style>
   </head>
   <body>
-    <svg class="arrow-link" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <g id="icon-arrow">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M6 0H14V8H12V3.41421L1.70711 13.7071L0.292892 12.2929L10.5858 2H6V0Z" fill="white"/>
-        </g>
-      </defs>
-    </svg>
-    <div class="nav">
-      <a href="/" class="nav-logo" title="Home">
-        <svg version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
-         <path d="m859.2 333.6c0 9.2773-7.5195 16.797-16.801 16.797-9.2773 0-16.797-7.5195-16.797-16.797 0-9.2812 7.5195-16.801 16.797-16.801 9.2812 0 16.801 7.5195 16.801 16.801"/>
-         <path d="m950.4 388.8c1.1992-4.8008 2.3984-9.6016 3.6016-14.398 24-1.1992 48-19.199 48-24 0-4.8008-21.602-28.801-45.602-33.602-2.3984-21.602-9.6016-42-20.398-60-25.199-45.602-72-78-128.4-84-39.602-3.6016-78 4.8008-108 26.398-39.602 27.602-92.398 104.4-92.398 104.4l-427.2 546s74.398 18 171.6 13.199l-21.602 46.801s103.2 0 193.2-52.801c34.801 22.801 74.398 39.602 118.8 46.801l28.801 81.602h-216v36h536.4v-36h-144l-34.801-97.203c73.199-27.602 133.2-81.602 170.4-150 0-1.1992 1.1992-1.1992 1.1992-2.3984 1.1992-1.1992 1.1992-2.3984 2.3984-3.6016 3.6016-7.1992 7.1992-14.398 9.6016-21.602-2.3984 4.8008-3.6016 8.3984-6 13.199 14.398-31.199 25.199-66 28.801-103.2 8.4023-85.199-17.996-168-68.398-231.6zm-242.4 597.6-27.602-76.801c33.602 2.3984 66-1.1992 97.199-9.6016l31.199 86.398c0.003906 0.003907-100.8 0.003907-100.8 0.003907zm285.6-366c-3.6016 36-14.398 70.801-30 103.2v2.3984c-62.402-53.996-201.6-194.39-201.6-194.39-63.602-64.801-64.801-166.8-4.8008-230.4 32.398-34.801 74.398-52.801 121.2-52.801 7.1992 0 15.602 0 22.801 1.1992 4.8008 6 9.6016 13.199 13.199 20.398l2.3984 3.6016c13.199 25.199 18 52.801 15.602 80.398-1.1992 9.6016-3.6016 19.199-6 28.801l-3.6016 12 8.3984 9.6016c49.203 61.199 70.805 138 62.406 216z"/>
-        </svg>
-      </a>
-      <nav class="nav-list">
-        <a href="/about" class="nav-list-item {% if '/' in page.url %}active{% endif %}">About</a>
-        <a href="/notes" class="nav-list-item {% if '/notes' in page.url %}active{% endif %}">Notes</a>
-        <a href="/essays" class="nav-list-item {% if '/essays' in page.url %}active{% endif %}">Essays</a>
-        <a href="/newsletter" class="nav-list-item {% if '/the-cascade' in page.url %}active{% endif %}">Newsletter</a>
-      </nav>
-    </div>
+    {% include "header.njk" %}
     <main>
       {{ content | safe }}
     </main>

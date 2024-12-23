@@ -4,7 +4,7 @@ permalink: /projects/
 title: Projects
 templateClass: no-footer
 ---
-
+<!--
 <style>
 :root {
   --carousel-padding: 40px;
@@ -19,7 +19,7 @@ main {
   padding: 0;
   max-width: 100%;
 }
-  
+
 c-projects {
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ c-projects {
   height: calc(100dvh - 40px);
   padding-bottom: 30px;
 }
-  
+
 c-project {
   scroll-snap-align: start;
   animation: linear animate-in-and-out;
@@ -45,23 +45,23 @@ c-project {
   entry 0%  {
     filter: saturate(0);
     border-radius: 0;
-    opacity: 0; 
+    opacity: 0;
   }
   entry 100%  {
     border-radius: 1.25rem;
     filter: saturate(1);
-    opacity: 1; 
+    opacity: 1;
   }
   exit 0% {
     filter: saturate(1);
-    opacity: 1; 
+    opacity: 1;
   }
   exit 100% {
     filter: saturate(0);
-    opacity: 0; 
+    opacity: 0;
   }
 }
-  
+
 c-carousel {
   display: flex;
   gap: 20px;
@@ -75,23 +75,23 @@ c-carousel {
   position: relative;
   scroll-behavior: auto;
   border: 1px solid black;
-  
+
   .sentry & {
     background: hsl(264, 28%, 48%);
   }
-  
+
   .retool & {
     background: hsl(211, 70%, 34%);
   }
-  
+
   .gusto & {
     background: hsl(180, 89%, 26%);
   }
-  
+
   .my-favorite-book & {
     background: hsl(216, 27%, 36%);
   }
-  
+
   .css-tricks & {
     background: hsl(163, 89%, 26%);
   }
@@ -118,7 +118,7 @@ c-carousel-header {
   z-index: 999;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  
+
   h2 {
     font-size: 1rem;
     font-weight: 600;
@@ -126,12 +126,12 @@ c-carousel-header {
     padding: 0;
     margin: 0;
   }
-  
+
   img {
     width: 40px;
     height: 40px;
   }
-  
+
   p {
     font-size: 1rem;
     color: var(--color-text-inverse-copy);
@@ -139,7 +139,7 @@ c-carousel-header {
     margin: 0;
   }
 }
-  
+
 c-carousel-item {
   display: flex;
   flex-direction: column;
@@ -151,27 +151,24 @@ c-carousel-item {
   height: 100%;
   border-radius: 0;
   gap: 35px;
-  
+  justify-content: space-between;
+
   &:last-of-type {
     min-width: calc(100% + 0.4dvw);
   }
-  
-  /* @media screen and (min-width: 800px) { */
-    justify-content: space-between;
-  /* } */
-  
+
   div {
+    padding-left: 30px;
+    padding-top: 30px;
     @media screen and (max-width: 800px) {
       padding-right: 30px;
     }
-    padding-left: 30px;
-    padding-top: 30px;
   }
-  
+
   span {
     color: var(--color-text-inverse);
   }
-  
+
   p {
     letter-spacing: 0.1px;
     font-weight: 600;
@@ -182,7 +179,7 @@ c-carousel-item {
     max-width: 500px;
     color: var(--color-text-inverse-copy);
   }
-  
+
   img, video {
     object-fit: cover;
     object-position: top left;
@@ -196,7 +193,7 @@ c-carousel-item {
     padding: 0;
     height: 100%;
     overflow: hidden;
-    
+
     @media screen and (min-width: 800px) {
       object-position: top;
       width: calc(100% - 60px);
@@ -208,12 +205,12 @@ c-carousel-item {
 c-carousel-item.right {
   @media screen and (min-width: 800px) {
     flex-direction: row;
-    
+
     div {
       padding-top: 0;
       align-self: center;
     }
-    
+
     img, video {
       object-position: 0 0;
       margin: 0;
@@ -229,10 +226,10 @@ c-carousel-item.left {
     margin-left: 0;
     margin-right: 60px;
   }
-  
+
   @media screen and (min-width: 800px) {
     flex-direction: row-reverse;
-    
+
     div {
       align-self: center;
       padding-left: 0;
@@ -247,7 +244,7 @@ c-carousel-item.left {
     }
   }
 }
-  
+
 c-carousel-item.text-top {
   @media screen and (min-width: 800px) {
     div {
@@ -256,7 +253,7 @@ c-carousel-item.text-top {
     }
   }
 }
-  
+
 c-carousel-item.full {
 
   img, video {
@@ -272,17 +269,17 @@ c-carousel-item.full {
     width: 100%;
     height: 100%;
     z-index: 0;
-    
+
     @media screen and (min-width: 800px) {
       object-position: 100%;
     }
   }
-  
+
   h1 {
     margin: 0;
     color: transparent;
   }
-  
+
   div {
     text-align: center;
     z-index: 1;
@@ -316,7 +313,7 @@ c-carousel-nav {
   display: flex;
   align-items: center;
   gap: 10px;
-  
+
   a {
     box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.08);
     display: grid;
@@ -331,25 +328,75 @@ c-carousel-nav {
     opacity: 0.8;
     border: 1px solid rgba(255,255,255,0.3);
   }
-  
+
   a:hover, a:active {
     cursor: pointer;
     opacity: 1;
   }
-  
+
   a:nth-of-type(2) {
     background-image: url('/images/projects/nav-right.svg');
   }
 }
-</style>
+</style> -->
 
+
+<c-page>
+  <page-content>
+    <header class="title-header">
+      <h1 class="text-title">Projects</h1>
+    </header>
+    <div class="prose flow">
+      <!-- <p class="intro text-center">Currently I’m a senior product designer at Retool but here’s some things I’ve worked on over the years.</p> -->
+      <ol class="notes">
+        {% for post in collections.projects | reverse %}
+          <li>
+            <a href="{{ post.url }}">
+              <h3>{{ post.data.title }}</h3>
+              <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | yearDate }}</time>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </page-content>
+</c-page>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <c-projects>
   <c-project class="about">
   <c-carousel>
     <c-carousel-item class="right full">
       <div>
         <h1>Projects</h1>
-        <p><span>Howdy, my name’s Robin and I have more than 10 years of experience designing and building complex web applications. Here’s a sample of my work.</span></p>
+        <p><span>Howdy! My name’s Robin and I have more than 10 years of experience designing and building complex web applications. Here’s a sample of my work.</span></p>
       </div>
       <img src="/images/me/memememe.webp" height="640" width="857" alt="">
     </c-carousel-item>
@@ -449,7 +496,7 @@ c-carousel-nav {
     </c-carousel-item>
     </c-carousel>
   </c-project>
-  
+
   <c-project class="gusto">
     <c-carousel>
       <c-carousel-header>
@@ -509,9 +556,9 @@ c-carousel-nav {
       </c-carousel-item>
     </c-carousel>
   </c-project>
-</c-projects>
+</c-projects> -->
 
-<script>
+<!--<script>
   class FancyCarousel extends HTMLElement {
    constructor() {
      super();
@@ -541,7 +588,7 @@ c-carousel-nav {
      event.preventDefault();
      this.nextSlide(event);
    }
-   
+
    onkeydown(event) {
      this.nextSlide(event);
    }
@@ -582,6 +629,6 @@ c-carousel-nav {
      }
    }
  }
- 
+
  customElements.define("c-carousel", FancyCarousel);
-</script>
+</script>-->

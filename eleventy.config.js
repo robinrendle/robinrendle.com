@@ -12,7 +12,7 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy({ 'public/robots.txt': '/robots.txt' });
+  eleventyConfig.addPassthroughCopy({ "public/robots.txt": "/robots.txt" });
 
   eleventyConfig.addPassthroughCopy({
     "./public/": "/",
@@ -25,18 +25,22 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLL yyyy"
+      "dd LLL yyyy",
     );
   });
 
   eleventyConfig.addFilter("projectsDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MMMM yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("fullDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "MMMM d, yyyy"
+      "MMMM d, yyyy",
     );
+  });
+
+  eleventyConfig.addFilter("yearDate", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
   });
 
   eleventyConfig.addFilter("shortDate", (dateObj) => {
@@ -67,7 +71,7 @@ module.exports = function (eleventyConfig) {
 
   function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1,
     );
   }
 
@@ -77,8 +81,14 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob("notes/*.md");
   });
 
-  eleventyConfig.addCollection("essays", function (collection) {
-    return collection.getFilteredByGlob("essays/*.md");
+  eleventyConfig.addCollection("stories", function (collection) {
+    return collection.getFilteredByGlob("stories/*.md");
+  });
+
+  eleventyConfig.addCollection("featured", function (collection) {
+    return collection.getAll().filter(function (item) {
+      return "featured" in (item.data.tags || []);
+    });
   });
 
   eleventyConfig.addCollection("newsletter", function (collection) {

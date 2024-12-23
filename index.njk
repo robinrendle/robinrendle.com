@@ -3,56 +3,14 @@ layout: layouts/base.njk
 title: Robin Rendle
 ---
 
-<c-grid>
-  <div class="grid-column-8">
-    {% for post in collections.notes | reverse | head(10) %}
-      <c-window>
-        <article>
-            <a class="window-title window-title-link {{loop.index}}" href="{{ post.url }}">
-              <h2>{{ post.data.title }}</h2>
-              ↗
-            </a>
-          <div class="window-content">
-            <div class="article-wrapper">
-              {{ post.content | safe }}
-              
-              <time class="notes-list-extract" datetime="{{ post.data.date | htmlDateString }}">
-                ↳ {{ post.data.date | fullDate }}
-              </time>
-            </div>
-          </div>
-        </article>
-      </c-window>
-    {% endfor %}
-  </div>
-  <div class="grid-column-4">
-    {# <c-window class="window-about">
-      <div class="window-title">
-        <h2>About</h2>
-      </div>
-      <div class="window-content window-content-wrapper">
-        <p class="tiny-text">I’m Robin, a designer and writer, and this blog is where I experiment with publishing, make weird web projects, and work in public.</p>
-      </div>
-    </c-window> #}
-    <c-window>
-      <a class="window-title window-title-link" href="/newsletter">
-        <h2>Newsletter</h2>
-      </a>
-      <div class="window-content window-content-wrapper">
-        <p class="tiny-text">If you’re interested in keeping up to date with my work, this is the way. Sent out maybe just a few times a year.</p>
-        <form
-        action="https://buttondown.email/api/emails/embed-subscribe/robinrendle"
-        method="post"
-        target="popupwindow"
-        onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')"
-        class="embeddable-buttondown-form"
-        >
-          <div class="inputs">
-            <input type="email" placeholder="Email address" name="email" id="bd-email" required autocomplete="off" data-1p-ignore />
-            <input type="submit" value="Subscribe"/>
-          </div>
-        </form>
-      </div>
-    </c-window>
-  </div>
-</c-grid>
+<c-page style="--color-surface: var(--color-cover)">
+  <page-content class="cover">
+    <header style="color-scheme: dark">
+      <h1 class="text-center">I’m Robin, a British designer, writer, and typographic nuisance from San Francisco.</h1>
+    </header>
+    {% include "footer.njk" %}
+    <figure class="project-img cover-img">
+      <img src="/images/me/robin-rendle-2.webp"/>
+    </figure>
+  </page-content>
+</c-page>

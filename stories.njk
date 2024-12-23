@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+permalink: /stories/
+title: Stories
+templateClass: no-footer
+---
+
+<c-page>
+  <page-content>
+    <div class="title-header">
+      <h1 class="text-title">Stories</h1>
+    </div>
+    <ol class="stories">
+    {% for post in collections.stories | reverse %}
+        <li>
+          <a href="{{ post.url }}">
+            <h3 class="visually-hidden">{{ post.data.title }}</h3>
+            <img src="/images/essays/home/{{ post.data.hero }}" alt="{{ post.data.alt }}">
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  </page-content>
+</c-page>
