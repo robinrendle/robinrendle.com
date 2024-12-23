@@ -1,12 +1,12 @@
 ---
-layout: layouts/essays/arc.njk
+layout: layouts/stories/arc.njk
 title: The Arc of Design
 date: 2020-07-24 09:00:00 -08:00
 city: San Francisco
 country: California
 extract: Show us the future.
 tags: unfeatured
-hero: light.webp
+hero: arc.webp
 alt: "Wood engraving by Auguste Trichon. A terrified man is falling through the sky, desperately clinging to a tangled winged apparatus as the hot-air balloon from which his flying attempt was launched can be seen hovering above."
 ---
 

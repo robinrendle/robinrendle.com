@@ -13,7 +13,7 @@ extract: Directories, files, and partials.
 city: Nottingham
 country: UK
 tags: unfeatured
-hero: /images/essays/home/interface.webp
+hero: interface.webp
 alt: "Engraved by Charles Barbant. On a ship, a man naked from the waist up and carrying a gun is stopped by the captain holding up a lantern to his face."
 ---
 

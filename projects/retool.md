@@ -1,58 +1,36 @@
 ---
 layout: layouts/projects/project.njk
 title: Retool
-extract: A unified theory of everything.
+extract: Building web apps with web apps.
 company: Retool
 date: 2023-10-28 09:00:00
-heroImg: /images/projects/retool/command-bar/editor-01.webp
-heroAlt: The new command bar in Retool.
-color: oklch(70.36% 0.15650784384579877 257.13241640145225);
 ---
 
-<p class="intro">Search components, import data, and perform actions.</p>
-
-<figure class="project-img">
-  <img src="/images/projects/retool/command-bar/editor-01.webp" />
-</figure>
-
-<figure class="project-img">
-  <img src="/images/projects/retool/command-bar/retool-interface.webp" />
-  <figcaption>A jam-packed navigation on the far left hid important concepts.</figcaption>
-</figure>
-
-<figure class="project-img">
-  <img src="/images/projects/retool/command-bar/retool-interface-2 - 01.webp" />
-  <figcaption>Important actions were hidden behind a series of annoying clicks.</figcaption>
-</figure>
-
-<figure class="project-img">
-  <img src="/images/projects/retool/command-bar/editor-mocks.webp" />
-  <figcaption>An early, awful sketch.</figcaption>
-</figure>
-
-<figure class="project-img">
-  <video width="250" loop autoplay muted>
-  <source src="/images/projects/retool/command-bar/command-bar-000.mp4" type="video/mp4"/>
-  </video>
-  <figcaption>An early prototype combined code, components, and data all into one tab.</figcaption>
-</figure>
+<p class="intro text-center">Retool helps engineers make internal web apps. My job was to simplify the building blocks.</p>
 
 <figure class="project-img">
   <img src="/images/projects/retool/command-bar/editor-03.webp" />
-  <figcaption>The second prototype I built felt right on track.</figcaption>
+</figure>
+
+Since 2023 I’ve worked as a senior product designer at Retool and so far I’ve redesigned the core product, shipped new features, and helped untangle the design system.
+
+Retool is incredibly powerful but complicated.
+
+<figure class="project-img">
+  <img src="/images/projects/retool/command-bar/editor-03.webp" />
 </figure>
 
 <figure class="project-img">
   <img src="/images/projects/retool/command-bar/editor-scripts-v1.webp" />
-  <figcaption>The new scripts tab.</figcaption>
+  <figcaption>This would help folks navigate, search, and write code.</figcaption>
 </figure>
 
 <figure class="project-img">
-  <img src="/images/projects/retool/command-bar/editor-search.webp" />
-  <figcaption>editor-search.webp.</figcaption>
+  <img src="/images/projects/retool/command-bar/editor-01.webp" />
+  <figcaption>Later designs focused on making the interface keyboard-first as you’d expect from an IDE.</figcaption>
 </figure>
 
-<figure class="project-img">
-  <img src="/images/projects/retool/command-bar/editor-scripts.webp" />
-  <figcaption>The new scripts tab in the command bar.</figcaption>
-</figure>
+
+- Add data here instead?
+- RetoolDB
+- Toolbook

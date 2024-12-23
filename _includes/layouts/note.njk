@@ -6,31 +6,16 @@ templateClass: tmpl-post
 <c-page>
   <page-content>
     <div class="prose flow">
+      <header class="title-header">
+        <h1>{{ title }}</h1>
+      </header>
       {{ content | safe }}
     </div>
-  </page-content>
-</c-page>
-
-<c-page style="--background: oklch(from var(--primary) var(--50));">
-  <page-content>
-    <div class="title-header">
-      <h2 class="text-title">Notes</h2>
-    </div>
-    <ol class="notes">
-      {% for post in collections.notes | reverse | head(10) %}
-        <li>
-          <a href="{{ post.url }}">
-            <h3>{{ post.data.title }}</h3>
-            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
-          </a>
-        </li>
-      {% endfor %}
-      <li>
-        <a href="/notes">
-          <h3>View archives</h3>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="currentColor" d="m20.78 12.531-6.75 6.75a.75.75 0 1 1-1.06-1.061l5.47-5.47H3.75a.75.75 0 1 1 0-1.5h14.69l-5.47-5.469a.75.75 0 1 1 1.06-1.061l6.75 6.75a.748.748 0 0 1 0 1.061Z"/></svg>
-        </a>
-      </li>
-    </ol>
+    <page-footer>
+      <div class="color-text-meta">
+        <a class="button-text" href="/notes">Notes</a> / <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
+      </div>
+      <a class="button" href="mailto:robinjrendle@gmail.com">Contact</a>
+    </page-footer>
   </page-content>
 </c-page>

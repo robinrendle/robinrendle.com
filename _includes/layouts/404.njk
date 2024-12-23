@@ -2,18 +2,9 @@
 layout: layouts/base.njk
 ---
 
-<c-grid>
-  <c-window class="grid-column-12">
-    <div class="window-title">
-      <h1 id="heading">404</h1>  
-      <time class="window-title-meta" datetime="{{ page.date | htmlDateString }}">
-        {{ page.date | fullDate }}
-      </time>
-    </div>
-    <div class="window-content">
-      <div class="article-wrapper">
-        {{ content | safe }}
-      </div>
-    </div>
-  </c-window>
-</c-grid>
+<c-page class="full-screen">
+  <page-content>
+    <header class="window-title">
+      <h1 class="full-screen-text">404</h1>
+    </page-content>
+  </c-page>

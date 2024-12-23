@@ -8,7 +8,7 @@ extract: Where was the future book?
 country: UK
 city: Plymouth
 tags: unfeatured
-hero: /images/essays/home/wow.webp
+hero: wow.webp
 alt: “Wood engraving by Arthur Boyd Houghton from North coast, and other poems. A young woman stands on a doorstep with her back to the door and holds up a lantern in front of her to peer into the night.”
 ---
 

@@ -11,35 +11,11 @@ templateClass: no-footer
   <a href="{{previousPost.url}}"><</a>
 </nav> #}
 
-
-<c-page style="--primary: {{color}}">
-  <figure class="project-img">
-    <img src="{{heroImg}}" alt="{{heroAlt}}" />
-  </figure>
+<c-page>
   <page-content>
-    <header class="title-header">
-      <h1 class="text-title text-title-numbered">{{ title }}</h1>
-    </header>
+    <h1 class="">{{ title }}</h1>
     <div class="prose flow">
       {{ content | safe }}
     </div>
-  </page-content>
-</c-page>
-
-<c-page style="--primary: oklch(46.78% 0.09 165.36);">
-  <page-content>
-    <div class="title-header">
-      <h2 class="text-title text-title-numbered" id="projects">Projects</h2>
-    </div>
-    <ol class="notes">
-      {% for post in collections.projects | reverse | head(10) %}
-        <li>
-          <a href="{{ post.url }}" data-hero="{{post.data.heroImg}}">
-            <h3>{{ post.data.title }}</h3>
-            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | projectsDate }}</time>
-          </a>
-        </li>
-      {% endfor %}
-    </ol>
   </page-content>
 </c-page>

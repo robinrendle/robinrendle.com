@@ -7,7 +7,7 @@ update: Designed by the author Joost Grootens, <cite><a href="http://thisispaper
 city: Nottingham
 country: UK
 tags: unfeatured
-hero: /images/essays/home/bookmarking.webp
+hero: bookmarking.webp
 alt: "Wood engraving by Adolphe François Pannemaker. A man in a tropical forest happens upon a small bird caught in the web of a large spider."
 ---
 

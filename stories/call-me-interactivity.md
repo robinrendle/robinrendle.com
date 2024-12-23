@@ -16,7 +16,7 @@ update:
 city: Plymouth
 country: UK
 tags: unfeatured
-hero: /images/essays/home/interactivity.webp
+hero: interactivity.webp
 alt: "Victor Rose in Les merveilles de la science, supplement 1. A standing woman, answering a call."
 ---
 
