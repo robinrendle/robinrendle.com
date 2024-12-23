@@ -1283,7 +1283,7 @@ pre > code.highlight {
 }
 
 code {
-  font-family: var(--monospace);
+  font-family: var(--font-mono);
   font-size: 85%;
   background: var(--color-cream);
   padding: 2px 3px;
