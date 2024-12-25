@@ -112,14 +112,19 @@
     oklch(from var(--neutral) var(--200))
   );
 
+  --color-link-underline: light-dark(
+    oklch(from var(--color-text) var(--200)),
+    oklch(from var(--color-text) var(--500))
+  );
+
   --color-link-hover-underline: light-dark(
     oklch(from var(--primary) var(--400)),
-    oklch(from var(--primary) var(--400))
+    oklch(from var(--neutral) var(--100))
   );
 
   --color-link-hover: light-dark(
     oklch(from var(--primary) var(--400)),
-    oklch(from var(--primary) var(--300))
+    oklch(from var(--neutral) var(--100))
   );
 
   --color-text-meta: light-dark(
@@ -323,6 +328,7 @@ h1 {
 
   a {
     text-decoration: underline;
+    text-decoration-color: var(--color-link-underline);
     color: inherit;
 
     &:hover,
@@ -404,7 +410,8 @@ h5 {
   }
 }
 
-.visually-hidden:not(:focus):not(:active) {
+.visually-hidden:not(:focus):not(:active),
+.hidden-title h1:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
@@ -412,6 +419,27 @@ h5 {
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.hidden-title {
+  .title-header {
+    margin: 0;
+  }
+
+  .project-img:first-of-type {
+    margin-top: 0;
+  }
+
+  page-content {
+    padding-top: 60px !important;
+    @media screen and (min-width: 800px) {
+      padding-top: 70px !important;
+    }
+  }
+
+  & + .project-img {
+    margin-top: 0 !important;
+  }
 }
 
 .text-title,
@@ -1059,6 +1087,7 @@ p img {
   margin-left: 0;
   width: 100dvw;
   left: calc(50% - 50dvw);
+  margin-bottom: calc(var(--flow-space) * 2);
 
   @media screen and (min-width: 720px) {
     margin-left: 10px;
@@ -1072,8 +1101,8 @@ p img {
   }
 
   @media screen and (min-width: 700px) {
-    margin-top: calc(var(--flow-space) * 3);
-    margin-bottom: calc(var(--flow-space) * 3);
+    margin-top: calc(var(--flow-space) * 2);
+    margin-bottom: calc(var(--flow-space) * 2);
   }
 
   & + .project-img {
