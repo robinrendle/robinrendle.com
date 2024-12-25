@@ -15,7 +15,7 @@ title: Designer and writer.
     gap: 20px;
     scroll-snap-type: x mandatory;
     margin-top: calc(var(--space-nav) * -7);
-    
+
     @media screen and (min-width: 550px) {
       margin-top: calc(var(--space-nav) * -1.7);
     }
@@ -127,6 +127,8 @@ title: Designer and writer.
   }
 </style>
 
+<c-page>
+<page-content>
 <c-grid class="container">
   <div class="card">
     <c-window>
@@ -291,6 +293,8 @@ title: Designer and writer.
     <button id="next">Next</button>
   </nav>
 </c-grid>
+</c-page>
+</page-content>
 
 <script>
   let currentPosition = 0;
