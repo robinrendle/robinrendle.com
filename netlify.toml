@@ -11,9 +11,11 @@
   to = "/stories"
 
 [[redirects]]
-  from = "/essays/*"
-  to = "/stories/*"
-
-[[redirects]]
   from = "/feed.xml"
   to = "/feed/feed.xml"
+
+[[redirects]]
+  from = "/essays/*"
+  to = "/stories/:splat"
+  status = 301
+  force = true
