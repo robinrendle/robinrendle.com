@@ -64,6 +64,7 @@
   --500: 50% c h;
   --600: 40% c h;
   --700: 30% c h;
+  --750: 25% c h;
   --800: 20% calc(c/1.5) h;
   --900: 0 c h;
 
@@ -94,12 +95,12 @@
 
   --color-surface: light-dark(
     oklch(from var(--neutral) var(--25)),
-    oklch(from var(--neutral) var(--700))
+    oklch(from var(--neutral) var(--750))
   );
 
   --color-elevated: light-dark(
     oklch(from var(--neutral) var(--100)),
-    oklch(from var(--neutral) var(--600))
+    oklch(from var(--neutral) var(--700))
   );
 
   --color-title: light-dark(
@@ -1187,8 +1188,8 @@ code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1em;
-  margin: 1rem 0;
+  padding: 1.5rem 1rem;
+  margin: calc(var(--flow-space) * 1.25) 0;
   overflow: auto;
 }
 
@@ -1322,7 +1323,7 @@ pre > code.highlight {
 code {
   font-family: var(--font-mono);
   font-size: 85%;
-  background: var(--color-cream);
+  background: var(--color-elevated);
   padding: 2px 3px;
   border-radius: 3px;
 }
