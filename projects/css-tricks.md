@@ -4,6 +4,7 @@ title: CSS-Tricks
 extract: Writing for the best website ever made.
 date: 2014-03-28 09:00:00
 website: css-tricks.com
+hero: '/images/projects/css-tricks/css-tricks-01.webp'
 ---
 
 <p class="intro text-center">CSS-Tricks is a website about making websites. In 2014 I joined the team as a staff writer.</p>

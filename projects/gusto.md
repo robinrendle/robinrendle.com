@@ -1,8 +1,9 @@
 ---
 layout: layouts/projects/project.njk
 title: Gusto
-extract: Designing systems for running payroll
+extract: Designing systems for running payroll.
 date: 2016-06-29 09:00:00
+hero: '/images/projects/gusto/design-system-01.webp'
 ---
 
 <p class="intro text-center">Gusto helps customers run payroll and pay taxes. <br/> I worked on the design system under the hood.</p>
@@ -39,6 +40,6 @@ Previously I had assumed I could sit alone in a dark corner of the office and fi
 
 Ultimately this work led to [the Gusto rebrand](https://gusto.com/about/news/corporate/gusto-brand-refresh) which required refactoring every component, primitive, and asset in our library. Now with a team of four, we could tackle everything from colors and typography to tables and buttons, simplifying the system bit by bit. But were we successful?
 
-Well, hot take alert: it’s impossible to measure the success of a design system with numbers or metrics alone. Who cares how many lines of code are written or how many components are referenced if the UI at the end is junk or the design team hates working with the team? What really matters is this: does the interface feel better? Is it faster? Is it responsive? Are the animations locked in and are the icons aligned correctly? Can you navigate the interface with a keyboard or a screen reader? Can a customer run payroll from their phone?
+Well, hot take alert: it’s impossible to measure the success of a design system with numbers or metrics alone. Who cares how many lines of code are written or how many components are referenced if the UI at the end is junk or the design team hates working with the system? What really matters is this: does the interface feel better? Is it faster? Is it responsive? Are the animations locked in and are the icons aligned correctly? Can you navigate the interface with a keyboard or a screen reader? Can a customer run payroll from their phone?
 
 At the end of the Gusto rebrand project we answered these questions with a resounding “heck yes.”

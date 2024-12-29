@@ -50,7 +50,7 @@
     avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
     noto, arial, sans-serif;
 
-  --primary: oklch(57.57% 0.1605 315.55);
+  --primary: oklch(71.91% 0.14730563905521737 257.4163653871743);
   --neutral: oklch(90% 0 0);
   --shadow-1: 0px -4px 4px 0px rgba(0, 0, 0, 0.03);
 
@@ -745,7 +745,7 @@ page-footer {
     justify-content: start;
     overflow: scroll;
     gap: 4px;
-    background: var(--color-cover);
+    background: var(--color-surface);
 
     @media screen and (min-width: 500px) {
       padding-left: 40px;
@@ -1135,6 +1135,18 @@ p img {
 
 .full-size-text {
   align-self: center;
+}
+
+.full-width {
+  position: relative;
+  width: 100dvw;
+  margin-left: calc(50% - 50dvw);
+
+  .full-width-child {
+    position: relative;
+    margin: 0 auto;
+    max-width: var(--max-width-content);
+  }
 }
 
 /*
