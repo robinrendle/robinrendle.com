@@ -6,7 +6,7 @@ templateClass: hidden-title
 ---
 
 <figure class="project-img">
-  <img src="/images/me/memememe.webp" alt="A photograph of the author, pondering big thoughts">
+  <img src="/images/me/memememe.webp" width="832" height="554" alt="A photograph of the author, pondering big thoughts">
 </figure>
 
 <p class="intro">Your friendly neighborhood Robin Rendle here. This is where I make <a href="/notes">notes</a> about my work and prototype in public, although every so often I publish more thoughtful <a href="/stories">stories</a>. You can email me at <a href="mailto:robinjrendle@gmail.com?subject=Why%20Must%20You%20Disturb%20My%20Slumber">robinjrendle@gmail.com</a>.</p>
