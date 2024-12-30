@@ -2,8 +2,3 @@ _site/
 node_modules/
 package-lock.json
 .DS_Store
-/images/essays/.DS_Store
-*/.DS_Store
-*/*/.DS_Store
-.DS_Store
-.DS_Store
