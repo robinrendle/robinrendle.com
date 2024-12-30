@@ -6,42 +6,42 @@
     <meta content="Robin Rendle" name="author" />
     <meta content="An essay about e-bikes" name="description" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <style>      
+    <style>
       @font-face {
         font-family: "Alpina";
         src: url("/fonts/alpina/GT-Alpina-Standard-Regular.woff2") format("woff2");
         font-style: normal;
         font-weight: normal;
       }
-      
+
       @font-face {
         font-family: "Alpina";
         src: url("/fonts/alpina/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2");
         font-style: italic;
         font-weight: normal;
       }
-      
+
       @font-face {
         font-family: "Lofi";
         src: url("/fonts/lofi-forest/LofiForest_W-Bold.woff2") format("woff2");
         font-style: normal;
         font-weight: normal;
       }
-      
+
       :root {
         --space: 1rem;
-        --wrapper-width: 36rem;
-        --font-size-header: clamp(3rem, 14dvw, 9rem); 
+        --wrapper-width: 40rem;
+        --font-size-header: clamp(3rem, 14dvw, 9rem);
         --font-size-2: clamp(3rem, 8vw, 7rem);
-        --font-size-3: clamp(1.1rem, 4vw, 1.3rem);
-        --font-size-drop-cap: clamp(5rem, 12vw, 8rem);
+        --font-size-3: clamp(1.3rem, 4vw, 1.5rem);
+        --font-size-drop-cap: clamp(5.3rem, 12.1vw, 6.3rem);
         --color-text: #00012E;
         --color-bg: rgba(255,255,255,0.95);
-      
+
         --text: "Alpina", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
         --title: "Lofi", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
       }
-      
+
       body {
         color: var(--color-text);
         font-family: var(--text);
@@ -51,13 +51,13 @@
         -moz-osx-font-smoothing: grayscale;
         background-color: var(--color-bg);
       }
-      
+
       h1, h2, h3, h4, h5 {
         font-family: var(--title);
         font-weight: 400;
         text-wrap: balance;
       }
-      
+
       h1 {
         font-size: var(--font-size-header);
         text-align: center;
@@ -66,7 +66,7 @@
         margin: 0 auto;
         max-width: 900px;
       }
-      
+
       h2 {
         font-size: var(--font-size-2);
         width: 100vw;
@@ -78,45 +78,46 @@
         background-size: cover;
         color: #30315E;
       }
-      
+
       p {
         font-size: var(--font-size-3);
         hyphens: auto;
       }
-      
+
       .intro {
         &::first-letter {
           font-family: var(--title);
           font-variant-caps: initial;
         }
       }
-      
+
       .intro::first-line {
         font-variant-caps: small-caps;
+        font-size: 95%;
       }
-      
+
       abbr {
         font-variant-caps: small-caps;
         text-transform: lowercase;
       }
-      
+
       .intro:first-letter {
         float: left;
         color: #30315E;
         font-size: var(--font-size-drop-cap);
         line-height: 0.7;
         padding-top: 0;
-        margin-top: 10px;
+        margin-top: 13px;
         margin-left: 0rem;
         margin-right: 0.5rem;
         aspect-ratio: 1/1;
         text-align: center;
       }
-      
+
       .direct-link {
         display: none;
       }
-      
+
       header {
         background-image: url('/images/essays/this-glorious-machine/heading-1.png');
         background-size: cover;
@@ -126,13 +127,13 @@
         place-items: center;
         margin-bottom: 6rem;
       }
-      
+
       main {
         max-width: var(--wrapper-width);
         margin: 0 auto;
         padding: 0 15px;
       }
-      
+
       .footer-img {
         display: block;
         margin-bottom: 0;
