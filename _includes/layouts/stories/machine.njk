@@ -40,7 +40,7 @@
         --space: 1rem;
         --wrapper-width: 40rem;
         --font-size-header: clamp(3rem, 14dvw, 9rem);
-        --font-size-2: clamp(3rem, 8vw, 7rem);
+        --font-size-2: clamp(5rem, 8vw, 7rem);
         --font-size-3: clamp(1.3rem, 4vw, 1.5rem);
         --font-size-drop-cap: clamp(5.3rem, 12.1vw, 6.3rem);
         --color-text: #00012E;
@@ -79,7 +79,7 @@
         font-size: var(--font-size-2);
         width: 100vw;
         margin-left: calc(50% - 50vw);
-        height: 60dvh;
+        min-height: 60dvh;
         display: grid;
         place-items: center;
         text-align: center;
@@ -94,14 +94,18 @@
 
       .intro {
         &::first-letter {
-          font-family: var(--title);
-          font-variant-caps: initial;
+          @media screen and (min-width: 600px) {
+            font-family: var(--title);
+            font-variant-caps: initial;
+          }
         }
       }
 
       .intro::first-line {
-        font-variant-caps: small-caps;
-        font-size: 95%;
+        @media screen and (min-width: 600px) {
+          font-variant-caps: small-caps;
+          font-size: 95%;
+        }
       }
 
       abbr {
@@ -110,16 +114,18 @@
       }
 
       .intro:first-letter {
-        float: left;
-        color: #30315E;
-        font-size: var(--font-size-drop-cap);
-        line-height: 0.7;
-        padding-top: 0;
-        margin-top: 13px;
-        margin-left: 0rem;
-        margin-right: 0.5rem;
-        aspect-ratio: 1/1;
-        text-align: center;
+        @media screen and (min-width: 600px) {
+          float: left;
+          color: #30315E;
+          font-size: var(--font-size-drop-cap);
+          line-height: 0.7;
+          padding-top: 0;
+          margin-top: 13px;
+          margin-left: 0rem;
+          margin-right: 0.5rem;
+          aspect-ratio: 1/1;
+          text-align: center;
+        }
       }
 
       .direct-link {
