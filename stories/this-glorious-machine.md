@@ -1,10 +1,10 @@
 ---
-layout: layouts/essays/machine.njk
+layout: layouts/stories/machine.njk
 title: This Glorious Machine
 date: 2024-11-03
 city: San Francisco
 country: California
-hero: /images/essays/home/this-glorious-machine.webp
+hero: glorious-machine.webp
 ---
 
 <p class="intro">Riding an e-bike is like discovering a long forgotten secret of the universe or, perhaps, inventing something worthy of a heartfelt “eureka.” Look: zipping through traffic on my first e-bike, blitzing past the stuffy tin cans all around me, I’ve become master of the four winds. Now first place in a triathlon, now a mythical creature that can move at the speed of thought. Upon my trusty electric 6-gear steed I am Hermes, lord of heavenly motion.</p>
