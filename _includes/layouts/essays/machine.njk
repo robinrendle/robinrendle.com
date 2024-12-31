@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>This Glorious Machine</title>
+    <meta content="Robin Rendle" name="author" />
+    <meta content="An essay about e-bikes" name="description" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="fediverse:creator" content="@fonts@sfba.social">
+
+    <link rel="icon" type="image/png" href="/images/favicons5/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicons5/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicons5/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons5/apple-touch-icon.png" />
+    <link rel="manifest" href="/images/favicons5/site.webmanifest" />
+    <meta property="og:image" content="/images/essays/this-glorious-machine/nautical-velocipede-1600 1.png">
+    <style>
+      @font-face {
+        font-family: "Alpina";
+        src: url("/fonts/alpina/GT-Alpina-Standard-Regular.woff2") format("woff2");
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: "Alpina";
+        src: url("/fonts/alpina/GT-Alpina-Standard-Regular-Italic.woff2") format("woff2");
+        font-style: italic;
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: "Lofi";
+        src: url("/fonts/lofi-forest/LofiForest_W-Bold.woff2") format("woff2");
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      :root {
+        --space: 1rem;
+        --wrapper-width: 40rem;
+        --font-size-header: clamp(3rem, 14dvw, 9rem);
+        --font-size-2: clamp(3rem, 8vw, 7rem);
+        --font-size-3: clamp(1.3rem, 4vw, 1.5rem);
+        --font-size-drop-cap: clamp(5.3rem, 12.1vw, 6.3rem);
+        --color-text: #00012E;
+        --color-bg: rgba(255,255,255,0.95);
+
+        --text: "Alpina", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+        --title: "Lofi", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+      }
+
+      body {
+        color: var(--color-text);
+        font-family: var(--text);
+        margin: 0;
+        line-height: 1.25;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        background-color: var(--color-bg);
+      }
+
+      h1, h2, h3, h4, h5 {
+        font-family: var(--title);
+        font-weight: 400;
+        text-wrap: balance;
+      }
+
+      h1 {
+        font-size: var(--font-size-header);
+        text-align: center;
+        color: white;
+        line-height: 1.1;
+        margin: 0 auto;
+        max-width: 900px;
+      }
+
+      h2 {
+        font-size: var(--font-size-2);
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        height: 60dvh;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-size: cover;
+        color: #30315E;
+      }
+
+      p {
+        font-size: var(--font-size-3);
+        hyphens: auto;
+      }
+
+      .intro {
+        &::first-letter {
+          font-family: var(--title);
+          font-variant-caps: initial;
+        }
+      }
+
+      .intro::first-line {
+        font-variant-caps: small-caps;
+        font-size: 95%;
+      }
+
+      abbr {
+        font-variant-caps: small-caps;
+        text-transform: lowercase;
+      }
+
+      .intro:first-letter {
+        float: left;
+        color: #30315E;
+        font-size: var(--font-size-drop-cap);
+        line-height: 0.7;
+        padding-top: 0;
+        margin-top: 13px;
+        margin-left: 0rem;
+        margin-right: 0.5rem;
+        aspect-ratio: 1/1;
+        text-align: center;
+      }
+
+      .direct-link {
+        display: none;
+      }
+
+      header {
+        background-image: url('/images/essays/this-glorious-machine/heading-1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100dvh;
+        display: grid;
+        place-items: center;
+        margin-bottom: 1rem;
+
+        @media screen and (min-width: 700px) {
+          margin-bottom: 6rem;
+        }
+      }
+
+      main {
+        max-width: var(--wrapper-width);
+        margin: 0 auto;
+        padding: 0 15px;
+      }
+
+      .footer-img {
+        display: block;
+        margin-bottom: 0;
+        margin-top: 200px;
+        width: 100dvw;
+        margin-left: calc(50% - 50vw);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>This Glorious Machine</h1>
+    </header>
+    <main>
+      {{ content | safe }}
+      <img class="footer-img" src="/images/essays/this-glorious-machine/footer.png" alt=""/>
+    </main>
+  </body>
+</html>
