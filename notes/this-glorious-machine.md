@@ -11,6 +11,6 @@ I just hit the publish button on a new story all about technology, e-bikes, and 
 
 <a href="https://robinrendle.com/stories/this-glorious-machine/">https://robinrendle.com/stories/this-glorious-machine/</a>
 
-I got an e-bike about a year ago and made a draft of this story immediately. But boy oh boy did this thing took a long while to get into a readable state. All my feelings were messy and complicated and as I used my e-bike I realized that the city of San Francisco itself—and its relationship to technology—has failed us. We’re a town producing mostly junk but e-bikes show us a way out.
+I got an e-bike about a year ago and made a draft of this story immediately. But boy oh boy did this thing take a long while to get into a readable state. All my feelings were messy and complicated and as I used my e-bike I realized that the city of San Francisco itself—and its relationship to technology—has failed us. We’re a town producing mostly junk but e-bikes show us a way out.
 
 E-bikes show us what technology should strive to be and where all our work should eventually lead.
