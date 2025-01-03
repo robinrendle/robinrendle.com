@@ -1,72 +1,78 @@
 <style>
-.header {
-  display: flex;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9;
-  box-shadow: var(--shadow-1);
-  backdrop-filter: blur(17px);
-  padding: 5px 20px;
-  justify-content: space-between;
-  align-items: center;
-  max-width: var(--max-width-content);
-  left: 50%;
-  transform: translate(-50%, 0%);
+  .header {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    box-shadow: var(--shadow-1);
+    backdrop-filter: blur(17px);
+    padding: 5px 20px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: var(--max-width-content);
+    left: 50%;
+    transform: translate(-50%, 0%);
 
-  h1, h2 {
-    color: var(--color-title);
-    font-size: initial;
-    line-height: initial;
-    margin: initial;
-    padding: initial;
-    font-weight: initial;
-    margin-right: auto;
-  }
-}
-
-.logo {
-  color: var(--color-title);
-  border: 1px solid transparent;
-  justify-self: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-  svg {
-    color: oklch(from var(--neutral) var(--900));
-    width: 28px;
-
-    @media screen and (min-width: 700px) {
-      width: 40px;
+    h1,
+    h2 {
+      color: var(--color-title);
+      font-size: initial;
+      line-height: initial;
+      margin: initial;
+      padding: initial;
+      font-weight: initial;
+      margin-right: auto;
     }
   }
 
-  a {
+  .logo {
+    color: var(--color-title);
+    border: 1px solid transparent;
+    justify-self: center;
+    width: 100%;
     display: flex;
     justify-content: center;
-    color: inherit;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    gap: 0.7rem;
-    text-decoration: none;
-    padding: 10px;
 
-    &:hover, &:focus {
-      background: rgba(0,0,0,0.1);
+    svg {
+      color: oklch(from var(--neutral) var(--900));
+      width: 28px;
+
+      @media screen and (min-width: 700px) {
+        width: 40px;
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      color: inherit;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      text-decoration: none;
+      padding: 10px;
+
+      &:focus,
+      &:hover {
+        background: rgba(0,0,0,0.1);
+      }
     }
   }
-}
 </style>
 
 <div class="header">
   <div class="logo">
     <a href="/">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none"><g clip-path="url(#a)">
-        <rect width="28" height="28" fill="#fff" rx="14"/><path fill="currentColor" d="M16.763 12.068a.784.784 0 1 1-1.568 0 .784.784 0 0 1 1.568 0Z"/><path fill="currentColor" d="m21.019 14.644.168-.672c1.12-.056 2.24-.896 2.24-1.12 0-.224-1.008-1.344-2.128-1.568a6.937 6.937 0 0 0-.952-2.8c-1.176-2.128-3.36-3.64-5.992-3.92-1.848-.168-3.64.224-5.04 1.232-1.848 1.288-4.312 4.872-4.312 4.872l-19.936 25.48s3.472.84 8.008.616l-1.008 2.184s4.816 0 9.016-2.464c1.624 1.064 3.472 1.848 5.544 2.184l1.344 3.808H-2.11v1.68h25.032v-1.68h-6.72l-1.624-4.536c3.416-1.288 6.216-3.808 7.952-7 0-.056.056-.056.056-.112.056-.056.056-.112.112-.168.168-.336.336-.672.448-1.008-.112.224-.168.392-.28.616.672-1.456 1.176-3.08 1.344-4.816.392-3.976-.84-7.84-3.192-10.808ZM9.707 42.532l-1.288-3.584c1.568.112 3.08-.056 4.536-.448l1.456 4.032H9.707Zm13.328-17.08c-.168 1.68-.672 3.304-1.4 4.816v.112c-2.912-2.52-9.408-9.072-9.408-9.072-2.968-3.024-3.024-7.784-.224-10.752 1.512-1.624 3.472-2.464 5.656-2.464.336 0 .728 0 1.064.056.224.28.448.616.616.952l.112.168c.616 1.176.84 2.464.728 3.752-.056.448-.168.896-.28 1.344l-.168.56.392.448c2.296 2.856 3.304 6.44 2.912 10.08Z"/></g><rect width="27" height="27" x=".5" y=".5" stroke="currentColor" rx="13.5"/><defs><clipPath id="a"><rect width="28" height="28" fill="#fff" rx="14"/></clipPath></defs>
-        </svg>
-      </a>
-    </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+        <g clip-path="url(#a)">
+          <rect width="28" height="28" fill="#fff" rx="14"/><path fill="currentColor" d="M16.763 12.068a.784.784 0 1 1-1.568 0 .784.784 0 0 1 1.568 0Z"/><path fill="currentColor" d="m21.019 14.644.168-.672c1.12-.056 2.24-.896 2.24-1.12 0-.224-1.008-1.344-2.128-1.568a6.937 6.937 0 0 0-.952-2.8c-1.176-2.128-3.36-3.64-5.992-3.92-1.848-.168-3.64.224-5.04 1.232-1.848 1.288-4.312 4.872-4.312 4.872l-19.936 25.48s3.472.84 8.008.616l-1.008 2.184s4.816 0 9.016-2.464c1.624 1.064 3.472 1.848 5.544 2.184l1.344 3.808H-2.11v1.68h25.032v-1.68h-6.72l-1.624-4.536c3.416-1.288 6.216-3.808 7.952-7 0-.056.056-.056.056-.112.056-.056.056-.112.112-.168.168-.336.336-.672.448-1.008-.112.224-.168.392-.28.616.672-1.456 1.176-3.08 1.344-4.816.392-3.976-.84-7.84-3.192-10.808ZM9.707 42.532l-1.288-3.584c1.568.112 3.08-.056 4.536-.448l1.456 4.032H9.707Zm13.328-17.08c-.168 1.68-.672 3.304-1.4 4.816v.112c-2.912-2.52-9.408-9.072-9.408-9.072-2.968-3.024-3.024-7.784-.224-10.752 1.512-1.624 3.472-2.464 5.656-2.464.336 0 .728 0 1.064.056.224.28.448.616.616.952l.112.168c.616 1.176.84 2.464.728 3.752-.056.448-.168.896-.28 1.344l-.168.56.392.448c2.296 2.856 3.304 6.44 2.912 10.08Z"/></g><rect width="27" height="27" x=".5" y=".5" stroke="currentColor" rx="13.5"/>
+        <defs>
+          <clipPath id="a"><rect width="28" height="28" fill="#fff" rx="14"/></clipPath>
+        </defs>
+      </svg>
+    </a>
+  </div>
 </div>

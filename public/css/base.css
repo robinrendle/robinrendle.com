@@ -47,8 +47,8 @@
     segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
   --font-title: "Irregardless", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
-    noto, arial, sans-serif;
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
 
   --primary: oklch(71.91% 0.14730563905521737 257.4163653871743);
   --neutral: oklch(90% 0 0);
@@ -1242,7 +1242,7 @@ pre[class*="language-"] {
 .token.atrule-id,
 .token.selector,
 .token.tag-id {
-  color: #eeebff;
+  color: var(--color-text);
 }
 
 .token.attr-name,

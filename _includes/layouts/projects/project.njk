@@ -6,11 +6,6 @@ templateClass: no-footer
 {% set previousPost = collections.projects | getPreviousCollectionItem %}
 {% set nextPost = collections.projects | getNextCollectionItem %}
 
-{# <nav class="project-nav">
-  <a href="{{nextPost.url}}">></a>
-  <a href="{{previousPost.url}}"><</a>
-</nav> #}
-
 <c-page>
   <page-content>
     <h1 class="">{{ title }}</h1>
