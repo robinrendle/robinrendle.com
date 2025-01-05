@@ -93,6 +93,11 @@
     oklch(from var(--neutral) var(--800))
   );
 
+  --color-banner: light-dark(
+    oklch(from var(--neutral) var(--0)),
+    oklch(from var(--neutral) var(--900))
+  );
+
   --color-surface: light-dark(
     oklch(from var(--neutral) var(--25)),
     oklch(from var(--neutral) var(--750))
@@ -729,6 +734,7 @@ page-content {
 }
 
 page-footer {
+  background: var(--color-banner);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -741,7 +747,6 @@ page-footer {
   margin-bottom: -45px;
   margin-top: auto;
   padding: 15px 20px;
-  background: var(--color-surface);
   border-top: 1px solid var(--color-border);
 
   @media screen and (min-width: 700px) {
