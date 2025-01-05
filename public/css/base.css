@@ -377,7 +377,6 @@ h1 {
   display: flex;
   align-items: center;
   gap: 4px;
-  height: 50px;
 
   span {
     margin-right: 4px;
@@ -733,6 +732,7 @@ page-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-height: 50px;
   position: relative;
   width: 100dvw;
   max-width: var(--max-width-content);
@@ -746,7 +746,7 @@ page-footer {
 
   @media screen and (min-width: 700px) {
     width: calc(100dvw - 20px);
-    padding: 15px 25px;
+    padding: 15px 15px;
   }
 
   &.cover {
