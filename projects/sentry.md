@@ -12,7 +12,7 @@ hero: '/images/projects/issue-status/issue-status-01.webp'
   <img src="/images/projects/issue-status/issue-status-01.webp">
 </figure>
 
-<p class="intro">Customers couldn’t find important problems in their code and were forced to wade through a list of unorganized problems. This wasted their time and made it difficult to find the issues that they cared about.</p>
+<p class="intro">Engineers couldn’t find important problems in their code and were forced to wade through a list of unorganized problems. This wasted their time and made it difficult to find the issues that they cared about.</p>
 
 When I joined the team in 2019 there was already a project in motion to fix this: Alerts. Engineers would be able to create custom rules that triggered when a condition was met such as a high error count or when the checkout page was slow. The thinking here was that engineers could tell Sentry which problems were important and turn off the existing noisy notifications they received.
 

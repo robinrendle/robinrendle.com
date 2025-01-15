@@ -39,7 +39,11 @@
 
     nav {
       display: flex;
-      gap: 10px;
+      gap: 5px;
+
+      @media screen and (min-width: 600px) {
+        gap: 10px;
+      }
 
       a {
         color: var(--color-text);
