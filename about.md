@@ -2,20 +2,11 @@
 title: About
 layout: layouts/note.njk
 eleventyExcludeFromCollections: true
-templateClass: hidden-title
 ---
 
-<figure class="project-img">
-  <img src="/images/me/memememe.webp" width="832" height="554" alt="A photograph of the author, pondering big thoughts">
-</figure>
+<p class="intro">There’s many ways to think about a personal website but to explain how I see this place we have to go back to 1987.</p>
 
-<p class="intro">Your friendly neighborhood Robin Rendle here. This is where I make <a href="/notes">notes</a> about my work and prototype in public, although every so often I publish more thoughtful <a href="/stories">stories</a>. You can email me at <a href="mailto:robinjrendle@gmail.com?subject=Why%20Must%20You%20Disturb%20My%20Slumber">robinjrendle@gmail.com</a>.</p>
-
-Currently I’m a product designer at Retool but previously I was a staff writer at CSS-Tricks where I wrote about the web and front-end development. In the past I’ve designed things at Sentry and Gusto, as well as for clients such as Buttondown and XOXO.
-
-## About this website
-
-There’s many ways to think about a personal website but to explain how I see this place we have to go back to 1987. In the summer of that year, a proto-internet emerged called HyperCard. (Yes, this is how I greet people at parties). It was designed to help folks write apps—or “stacks” as they called them—and it was way ahead of its time. With HyperCard you could bundle stories and games together, or even learn how to program from scratch. It was a beautiful mess.
+<p>In the summer of that year, a proto-internet emerged called HyperCard. (Yes, this is how I greet people at parties). It was designed to help folks write apps—or “stacks” as they called them—and it was way ahead of its time. With HyperCard you could bundle stories and games together, or even learn how to program from scratch. It was a beautiful mess.</p>
 
 I’ve always loved that word though—stacks!—and it’s perfect to describe this website of mine: bundles of disorganized and chaotic gatherings of pure, raw stuff. It’s all so messy! And embarrassing!
 

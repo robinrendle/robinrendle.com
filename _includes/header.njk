@@ -12,8 +12,19 @@
     justify-content: space-between;
     align-items: center;
     max-width: var(--max-width-content);
+    height: 50px;
     left: 50%;
     transform: translate(-50%, 0%);
+    background: var(--color-banner);
+    border-bottom: 1px solid var(--color-border);
+
+    span {
+      display: none;
+
+      @media screen and (min-width: 700px) {
+        display: block;
+      }
+    }
 
     h1,
     h2 {
@@ -25,6 +36,16 @@
       font-weight: initial;
       margin-right: auto;
     }
+
+    nav {
+      display: flex;
+      gap: 10px;
+
+      a {
+        color: var(--color-text);
+        text-decoration: none;
+      }
+    }
   }
 
   .logo {
@@ -33,14 +54,13 @@
     justify-self: center;
     width: 100%;
     display: flex;
-    justify-content: center;
 
     svg {
       color: oklch(from var(--neutral) var(--900));
-      width: 28px;
+      width: 26px;
 
       @media screen and (min-width: 700px) {
-        width: 40px;
+        width: 26px;
       }
     }
 
@@ -48,12 +68,12 @@
       display: flex;
       justify-content: center;
       color: inherit;
-      border-radius: 50%;
+      border-radius: 6px;
       display: flex;
       align-items: center;
       gap: 0.7rem;
       text-decoration: none;
-      padding: 10px;
+      padding: 6px;
 
       &:focus,
       &:hover {
@@ -73,6 +93,13 @@
           <clipPath id="a"><rect width="28" height="28" fill="#fff" rx="14"/></clipPath>
         </defs>
       </svg>
+      <span>Robin Rendle</span>
     </a>
   </div>
+    <nav>
+      <a href="/about" class="button-text">About</a>
+      <a href="/notes" class="button-text">Notes</a>
+      <a href="/stories" class="button-text">Stories</a>
+      <a href="/newsletter" class="button-text">Newsletter</a>
+    </nav>
 </div>

@@ -3,6 +3,7 @@ layout: layouts/projects/project.njk
 title: Buttondown
 extract:
 date: 2023-03-28 09:00:00
+published: false
 ---
 
 <p class="intro text-center">The best newsletter service in town.</p>
@@ -29,7 +30,7 @@ I also worked on designs for the default newsletter theme, with the idea being t
 
 Along the way I also came up with some concepts for an in-house publication called My Favorite Book, a website dedicated
 
-<figure class="project-img">
+<!-- <figure class="project-img">
   <img src="/images/projects/buttondown/page-01.webp" alt="">
 </figure>
 
@@ -40,4 +41,4 @@ Along the way I also came up with some concepts for an in-house publication call
 
 <figure class="project-img">
   <img src="/images/projects/buttondown/page-03.webp" alt="">
-</figure>
+</figure> -->

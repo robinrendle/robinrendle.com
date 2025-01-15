@@ -23,7 +23,7 @@
   color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
-  --font-size-1: clamp(5rem, 15vw, 7rem);
+  --font-size-1: clamp(5rem, 15vw, 9rem);
   --font-size-2: clamp(3rem, 8vw, 4.5rem);
   --font-size-3: clamp(1.25rem, 3vw, 1.45rem);
   --font-size-4: clamp(1.2rem, 3vw, 1.375rem);
@@ -95,7 +95,7 @@
 
   --color-banner: light-dark(
     oklch(from var(--neutral) var(--0)),
-    oklch(from var(--neutral) var(--900))
+    oklch(from var(--neutral) var(--800))
   );
 
   --color-surface: light-dark(
@@ -140,7 +140,7 @@
 
   --color-border: light-dark(
     oklch(from var(--neutral) var(--100)),
-    oklch(from var(--neutral) var(--600))
+    oklch(from var(--neutral) var(--700))
   );
 
   --color-hint-text: light-dark(
@@ -337,9 +337,14 @@ h1 {
     text-decoration-color: var(--color-link-underline);
     color: inherit;
 
+    p:hover & {
+      color: var(--color-title);
+      text-decoration-color: var(--color-title);
+    }
+
     &:hover,
     &:focus {
-      text-decoration-color: var(--color-link-hover-underline);
+      text-decoration-color: var(--color-link-hover-underline) !important;
       color: var(--color-link-hover) !important;
     }
   }
@@ -395,7 +400,7 @@ h1 {
   align-items: center;
   text-decoration: none;
   color: var(--color-text);
-  padding: 4px 6px 4px 8px;
+  padding: 4px 6px 6px 8px;
   border-radius: var(--radius-md);
 
   &:hover,
@@ -453,9 +458,9 @@ h5 {
   }
 
   page-content {
-    padding-top: 60px !important;
+    padding-top: 50px !important;
     @media screen and (min-width: 800px) {
-      padding-top: 70px !important;
+      padding-top: 50px !important;
     }
   }
 
@@ -468,7 +473,7 @@ h5 {
 h1 {
   font-weight: 400;
   color: var(--color-title);
-  line-height: 1;
+  line-height: 0.95;
   font-size: var(--font-size-1);
   text-wrap: balance;
   justify-self: center;
@@ -587,8 +592,10 @@ c-page:before {
   width: 100%;
   opacity: 0.2;
   background-image: url(/images/home-essay/pixel-background.png);
+  background-size: cover;
   image-rendering: pixelated;
   z-index: 0;
+  background-color: oklch(from var(--primary) var(--0));
 }
 
 c-page {
@@ -635,7 +642,8 @@ c-page {
 }
 
 c-page:first-child page-content {
-  padding-top: calc(var(--flow-space) * 5);
+  padding-top: calc(var(--flow-space) * 4);
+  padding-bottom: calc(var(--flow-space) * 1);
 }
 
 page-content {
@@ -649,6 +657,11 @@ page-content {
   padding-right: 20px;
   padding-bottom: 0;
   background: var(--color-surface);
+
+  & + page-content {
+    padding-top: 40px !important;
+    min-height: auto !important;
+  }
 
   @media screen and (min-width: 500px) {
     padding-left: 40px;
@@ -758,8 +771,6 @@ page-footer {
     --color-surface: oklch(from var(--neutral) var(--900));
     color-scheme: dark;
     border-top: 1px solid var(--color-border);
-    padding-top: 5px;
-    padding-bottom: 5px;
     margin-top: 30px;
     margin-bottom: 0;
     padding-left: 20px;
@@ -784,7 +795,7 @@ page-footer {
       font-size: var(--font-size-5);
       color: var(--color-title);
       text-decoration: none;
-      padding: 10px 20px;
+      padding: 3px 12px;
 
       &:hover,
       &:focus {
