@@ -13,10 +13,10 @@ templateClass: no-footer
     <div class="prose flow">
       <ol class="notes">
         {% for post in collections.projects | reverse %}
-          <li>
+          <li class="project">
             <a href="{{ post.url }}">
               <h3>{{ post.data.title }}</h3>
-              <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | yearDate }}</time>
+              <img src="{{ post.data.hero }}" />
             </a>
           </li>
         {% endfor %}

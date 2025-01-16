@@ -478,7 +478,7 @@ h5 {
 h1 {
   font-weight: 400;
   color: var(--color-title);
-  line-height: 0.95;
+  line-height: 1;
   font-size: var(--font-size-1);
   text-wrap: balance;
   justify-self: center;
@@ -1119,6 +1119,22 @@ p img {
       min-height: 650px;
     }
   }
+}
+
+.notes:has(.project) {
+  background: red;
+  margin: 0 auto;
+}
+
+.project a {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-elevated);
+  padding: 50px;
+  width: 100dvw;
+  left: calc(50% - 50dvw);
+  position: relative;
+  max-width: var(--max-width-content);
 }
 
 .project-img {
