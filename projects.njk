@@ -15,7 +15,7 @@ templateClass: no-footer
         {% for post in collections.projects | reverse %}
           <li class="project">
             <a href="{{ post.url }}">
-              <h3>{{ post.data.title }}</h3>
+              <h3 class="project-title">{{ post.data.title }}</h3>
               <img src="{{ post.data.hero }}" />
             </a>
           </li>

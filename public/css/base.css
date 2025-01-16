@@ -1135,14 +1135,19 @@ p img {
   left: calc(50% - 50dvw);
   width: 100dvw;
   position: relative;
-  max-width: var(--max-width-content);
+  align-items: center;
+}
+
+.project-title {
+  font-size: var(--font-size-1) !important;
+  font-family: var(--font-title);
 }
 
 .project a {
   display: block;
+  max-width: var(--max-width-content);
   flex-direction: column;
   background: var(--color-elevated);
-  margin: 0 auto;
   padding: 20px;
 
   img {
