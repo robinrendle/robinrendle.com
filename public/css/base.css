@@ -1122,19 +1122,33 @@ p img {
 }
 
 .notes:has(.project) {
-  background: red;
   margin: 0 auto;
 }
 
-.project a {
+/* PROJECTS INDEX */
+
+.projects {
   display: flex;
   flex-direction: column;
-  background: var(--color-elevated);
-  padding: 50px;
-  width: 100dvw;
+  padding: 0;
+  list-style: none;
   left: calc(50% - 50dvw);
+  width: 100dvw;
   position: relative;
   max-width: var(--max-width-content);
+}
+
+.project a {
+  display: block;
+  flex-direction: column;
+  background: var(--color-elevated);
+  margin: 0 auto;
+  padding: 20px;
+
+  img {
+    padding: 0 20px;
+    max-width: var(--max-width-content);
+  }
 }
 
 .project-img {

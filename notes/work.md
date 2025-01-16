@@ -27,4 +27,4 @@ But his relationship with work was different than mine.
 
 Whereas my job is always tied up with my ego and self esteem, for him the work was just the work. To be treated from a distance, to not be discussed outside of working hours. At the office he was a dynamo of productivity—setting a high bar for himself and everyone around him—but once the day was up he returned to being a person. The work was over. He could be himself again. He didn’t want to talk about work because yuck why would you?
 
-So I’m asking a lot of questions out loud here: what kind of relationship do I want with my work? Is it ok to let my entire mood and personality be dominated by my job? And is it healthy to care this much about something than can never care for me in return?
+So I’m asking a lot of questions out loud here: what kind of relationship do I want with my work? Is it ok to let my entire mood and personality be dominated by my job? And is it healthy to care this much about something that can never care for me in return?
