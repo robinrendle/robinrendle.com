@@ -1,6 +1,6 @@
 ---
 layout: layouts/note.njk
-title: Work is just the work
+title: Work is just work
 date: 2025-01-16T08:44:26-08:00
 city: San Francisco
 country: California
