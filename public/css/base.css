@@ -272,6 +272,11 @@ body {
     no-historical-ligatures contextual;
   font-kerning: normal;
   background: var(--color-background);
+
+  @media screen and (min-width: 600px) {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
 }
 
 button,
