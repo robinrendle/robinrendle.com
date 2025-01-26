@@ -10,7 +10,7 @@ templateClass: no-footer
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1">
-    <title>Projects – Robin Rendle</title>
+    <title>Projects</title>
     <meta
       name="description"
       content="A designer and engineer from San Francisco."/>
@@ -31,11 +31,17 @@ templateClass: no-footer
       :root {
         --color-text: #111;
         --color-meta: #888;
-        --font-size-text: 1.8rem;
+        --font-size-text: 1.4rem;
         --pagination-height: 11px;
         --font-text: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir,
         segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
         sans-serif;
+        --font-size-title: 1rem;
+
+        @media screen and (min-width: 600px) {
+          --font-size-text: 1.8rem;
+          --font-size-title: 1rem;
+        }
       }
 
       html {
@@ -77,7 +83,6 @@ templateClass: no-footer
         scrollbar-width: none;
         scroll-timeline: --carousel x;
         timeline-scope: --carousel;
-        transition: all .3s ease-in;
       }
 
       .fuzzy-bg:before {
@@ -103,6 +108,7 @@ templateClass: no-footer
         animation: linear fade-in-fuzzy both;
         animation-timeline: --revealing-fuzzy;
         animation-range: entry 50% cover 50%;
+        will-change: opacity;
       }
 
       @keyframes fade-in-fuzzy {
@@ -119,15 +125,25 @@ templateClass: no-footer
         display: flex;
         position: relative;
         padding: 0 20px;
+        will-change: scroll-position;
       }
 
       carousel-text {
         display: block;
         position: absolute;
-        left: 40px;
-        top: 40px;
+        left: 20px;
+        top: 30px;
         opacity: 1;
         max-width: 550px;
+        padding-right: 20px;
+        line-height: 1.2;
+
+        @media screen and (min-width: 600px) {
+          left: 40px;
+          top: 40px;
+          line-height: 1.2;
+          max-width: 500px;
+        }
 
         p {
           margin: 0;
@@ -161,7 +177,8 @@ templateClass: no-footer
         justify-content: space-between;
         background: white;
         width: 392px;
-        height: 224px;
+        height: auto;
+        aspect-ratio: 392 / 224;
         margin: auto;
         z-index: 999;
         position: relative;
@@ -200,6 +217,7 @@ templateClass: no-footer
         border-radius: 6px;
         overflow: hidden;
         opacity: 1;
+        will-change: transform;
         box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
         view-timeline-axis: inline;
         view-timeline-name: --revealing-image;
@@ -211,6 +229,10 @@ templateClass: no-footer
           display: block;
           margin: 0;
           max-width: 100%;
+
+          @media screen and (max-height: 500px) {
+            max-height: 70dvh;
+          }
         }
       }
 
@@ -233,8 +255,12 @@ templateClass: no-footer
         width: calc(100dvw - 20px);
         left: 10px;
         display: flex;
-        gap: 10px;
+        gap: 4px;
         z-index: 3;
+
+        @media screen and (min-width: 600px) {
+          gap: 10px;
+        }
 
         &:hover + carousel-title-wrapper,
         &:hover + carousel-title-wrapper + pagination-controls {
@@ -355,6 +381,7 @@ templateClass: no-footer
         animation-delay: 2s;
         animation-timeline: --carousel;
         animation-range: calc((var(--b) - 1) * 11.1111111111%) calc(var(--b) * 11.1111111111% + 1px);
+        font-size: var(--font-size-title);
 
         &:nth-child(1) {
           --b: 1;
@@ -433,7 +460,7 @@ templateClass: no-footer
 <carousel-wrapper>
   <carousel-item id="carousel_about">
     <carousel-text>
-      <p><span>I’m Robin, a designer and engineer from San Francisco.</span> Over the last decade I’ve shipped some neat products.</p>
+      <p><span>I’m Robin, a designer and engineer from San Francisco.</span> Over the last ten years I’ve built some neat things.</p>
     </carousel-text>
   </carousel-item>
   <carousel-item class="fuzzy-bg fade-in-fuzzy" id="carousel_ide">
@@ -518,8 +545,8 @@ templateClass: no-footer
   <carousel-title-wrapper>
     <carousel-title>About</carousel-title>
     <carousel-title>Retool / IDE</carousel-title>
-    <carousel-title>Retool / Database browser</carousel-title>
-    <carousel-title>Retool / Natural language queries</carousel-title>
+    <carousel-title>Retool / Database</carousel-title>
+    <carousel-title>Retool / Query concepts</carousel-title>
     <carousel-title>Sentry / Alerts</carousel-title>
     <carousel-title>Sentry / Issues</carousel-title>
     <carousel-title>CSS-Tricks</carousel-title>
@@ -543,8 +570,10 @@ templateClass: no-footer
 
 <script>
   const carousel = document.querySelector('carousel-wrapper');
+  const carouselItems = document.querySelectorAll('carousel-item');
   const right = document.querySelector('pagination-right');
   const left = document.querySelector('pagination-left');
+  let viewportWidth = window.innerWidth;
 
   left.addEventListener('click', function(e) {
     turnLeft();
@@ -567,16 +596,22 @@ templateClass: no-footer
   });
 
   function turnRight() {
-    carousel.scrollLeft = carousel.scrollLeft + 1000;
+    carousel.scrollLeft += viewportWidth;
   }
 
   function turnLeft() {
-    carousel.scrollLeft = carousel.scrollLeft - 1000;
+    carousel.scrollLeft -= viewportWidth;
   }
 
-  // get carousel-wrapper
-  // scroll when
-  // wait 45 seconds
+  function updateViewportWidth() {
+    viewportWidth = window.innerWidth;
+    console.log(viewportWidth);
+    carouselItems.forEach(element => {
+      carousel.scrollLeft -= viewportWidth / 6;
+    });
+  }
+
+  window.addEventListener('resize', updateViewportWidth);
 </script>
 </body>
 </html>
