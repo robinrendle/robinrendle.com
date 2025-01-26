@@ -258,6 +258,18 @@ templateClass: no-footer
         gap: 4px;
         z-index: 3;
 
+        @supports not (animation-timeline: --carousel) {
+          &:before {
+            content: "Projects";
+            position: fixed;
+            bottom: calc(var(--pagination-height) + 10px);
+            left: 10px;
+            height: 30px;
+            width: 200px;
+            color: white;
+          }
+        }
+
         @media screen and (min-width: 600px) {
           gap: 10px;
         }
@@ -379,9 +391,15 @@ templateClass: no-footer
         color: rgba(255,255,255,0.7);
         animation: reveal-text linear;
         animation-delay: 2s;
+        font-size: var(--font-size-title);
         animation-timeline: --carousel;
         animation-range: calc((var(--b) - 1) * 11.1111111111%) calc(var(--b) * 11.1111111111% + 1px);
-        font-size: var(--font-size-title);
+
+        @supports not (animation-timeline: --carousel) {
+          opacity: 0;
+          width: 100dvw;
+          position: absolute;
+        }
 
         &:nth-child(1) {
           --b: 1;
