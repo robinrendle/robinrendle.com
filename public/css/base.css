@@ -23,7 +23,7 @@
   color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
-  --font-size-1: clamp(6.4rem, 15vw, 9rem);
+  --font-size-1: clamp(6.4rem, 15vw, 7rem);
   --font-size-2: clamp(3rem, 8vw, 4.5rem);
   --font-size-3: clamp(1.25rem, 3vw, 1.45rem);
   --font-size-4: clamp(1.2rem, 3vw, 1.375rem);
@@ -47,8 +47,8 @@
     segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
   --font-title: "Irregardless", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
-    noto, arial, sans-serif;
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
+    arial, sans-serif;
 
   --primary: oklch(71.91% 0.14730563905521737 257.4163653871743);
   --neutral: oklch(90% 0 0);
@@ -339,13 +339,9 @@ h1 {
 
   a {
     text-decoration: underline;
-    text-decoration-color: var(--color-link-underline);
+    text-decoration-color: inherit;
     color: inherit;
-
-    p:hover & {
-      color: var(--color-title);
-      text-decoration-color: var(--color-title);
-    }
+    text-underline-offset: 3px;
 
     &:hover,
     &:focus {
@@ -752,7 +748,7 @@ page-content {
 }
 
 page-footer {
-  background: var(--color-banner);
+  background: var(--color-surface);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1197,7 +1193,6 @@ p img {
     max-width: var(--max-width-content);
     margin: 0 auto;
     display: block;
-    filter: drop-shadow(1px 2px 8px var(--color-shadow));
     width: 100%;
     height: auto;
   }
