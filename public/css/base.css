@@ -47,8 +47,8 @@
     segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
   --font-title: "Irregardless", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-    arial, sans-serif;
+    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
+    noto, arial, sans-serif;
 
   --primary: oklch(71.91% 0.14730563905521737 257.4163653871743);
   --neutral: oklch(90% 0 0);
@@ -684,8 +684,8 @@ page-content {
   }
 
   @media screen and (min-width: 1000px) {
-    padding-left: 145px;
-    padding-right: 145px;
+    padding-left: 140px;
+    padding-right: 140px;
   }
 
   &.cover {
@@ -760,12 +760,12 @@ page-footer {
   transform: translate(-50%, 0%);
   margin-bottom: -45px;
   margin-top: auto;
-  padding: 15px 10px;
+  padding: 15px 20px;
   border-top: 1px solid var(--color-border);
 
   @media screen and (min-width: 700px) {
     width: calc(100dvw - 20px);
-    padding: 15px 15px;
+    padding: 15px 20px;
   }
 
   &.cover {

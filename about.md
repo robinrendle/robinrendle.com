@@ -2,6 +2,9 @@
 title: About
 layout: layouts/note.njk
 eleventyExcludeFromCollections: true
+date: 2024-03-17 09:03:28
+country: California
+city: San Francisco
 ---
 
 <p class="intro">There’s many ways to think about a personal website but to explain how I see this place we have to go back to 1987.</p>
