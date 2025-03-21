@@ -341,7 +341,7 @@ h1 {
     text-decoration: underline;
     text-decoration-color: inherit;
     color: inherit;
-    text-underline-offset: 3px;
+    text-underline-offset: 2px;
 
     &:hover,
     &:focus {
