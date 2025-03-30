@@ -4,7 +4,7 @@ title: Humiliation
 date: 2025-03-15T09:09:40-07:00
 city: San Francisco
 country: California
-extract:
+extract: Or, being a fan.
 ---
 
 Here’s [Johanna Hedva](https://www.thewhitereview.org/feature/theyre-really-close-to-my-body/):

@@ -4,7 +4,7 @@ title: Notes on blogging
 date: 2025-02-01T13:00:44-08:00
 city: San Francisco
 country: California
-extract:
+extract: Get a blog, man.
 ---
 
 The ever-so-great-and-interesting [Katherine](https://kayserifserif.place/posts/2025/ive-been-tagged) answered some questions about blogging and tagged me to do the same.
