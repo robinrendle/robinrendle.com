@@ -459,9 +459,9 @@ h5 {
   }
 
   page-content {
-    padding-top: 50px !important;
+    padding-top: 0px !important;
     @media screen and (min-width: 800px) {
-      padding-top: 50px !important;
+      padding-top: 0px !important;
     }
   }
 
@@ -517,6 +517,10 @@ h1 {
 .title-header {
   margin-bottom: calc(var(--flow-space) * 2);
   text-align: center;
+
+  & + .project-img {
+    margin-top: -30px !important;
+  }
 
   date {
     display: block;
@@ -643,8 +647,10 @@ c-page {
 }
 
 c-page:first-child page-content {
-  padding-top: calc(var(--flow-space) * 4);
-  padding-bottom: calc(var(--flow-space) * 1);
+  border-radius: 6px;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: calc(var(--flow-space) * 2);
 }
 
 page-content {

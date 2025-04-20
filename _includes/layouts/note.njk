@@ -3,19 +3,15 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<c-page>
-  <page-content>
-    <div class="prose flow">
-      <header class="title-header">
-        <h1>{{ title }}</h1>
-      </header>
-      {{ content | safe }}
-    </div>
-    <page-footer>
-      <nav class="footer-nav">
-        <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
-      </nav>
-      {{ city }}, {{ country }}
-    </page-footer>
-  </page-content>
-</c-page>
+<div class="prose flow">
+  <header class="title-header">
+    <h1>{{ title }}</h1>
+  </header>
+  {{ content | safe }}
+</div>
+<page-footer>
+  <nav class="footer-nav">
+    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
+  </nav>
+  {{ city }}, {{ country }}
+</page-footer>

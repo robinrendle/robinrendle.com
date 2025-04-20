@@ -4,20 +4,16 @@ permalink: /notes/
 title: Notes
 ---
 
-<c-page>
-  <page-content>
-    <div class="title-header">
-      <h1 class="text-title">Notes</h1>
-    </div>
-    <ol class="notes">
-      {% for post in collections.notes | reverse %}
-        <li>
-          <a href="{{ post.url }}">
-            <h3>{{ post.data.title }}</h3>
-            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
-          </a>
-        </li>
-      {% endfor %}
-    </ol>
-  </page-content>
-</c-page>
+<div class="title-header">
+  <h1 class="text-title">Notes</h1>
+</div>
+<ol class="notes">
+  {% for post in collections.notes | reverse %}
+    <li>
+      <a href="{{ post.url }}">
+        <h3>{{ post.data.title }}</h3>
+        <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
+      </a>
+    </li>
+  {% endfor %}
+</ol>

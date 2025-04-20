@@ -1,4 +1,4 @@
-<!-- Every website is a manifesto. -->
+<!-- Hi.  -->
 <!DOCTYPE html>
 <html lang="en" data-theme="light" class={{templateClass}}>
   <head>
@@ -34,9 +34,13 @@
     </style>
   </head>
   <body>
-    {% include "header.njk" %}
     <main>
-      {{ content | safe }}
+      <c-page>
+        <page-content>
+          {% include "header.njk" %}
+          {{ content | safe }}
+        </page-content>
+      </c-page>
     </main>
   </body>
 </html>

@@ -3,13 +3,9 @@ layout: layouts/base.njk
 title: Robin Rendle
 ---
 
-<c-page>
-  <page-content>
-    <div class="prose flow">
-      <header class="title-header">
-        <h1>{{ title }}</h1>
-      </header>
-      {{ content | safe }}
-    </div>
-  </page-content>
-</c-page>
+<div class="prose flow">
+  <header class="title-header">
+    <h1>{{ title }}</h1>
+  </header>
+  {{ content | safe }}
+</div>

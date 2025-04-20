@@ -2,23 +2,35 @@
   .header {
     display: flex;
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     z-index: 9;
     box-shadow: var(--shadow-1);
     backdrop-filter: blur(17px);
     padding: 5px 15px 5px 10px;
     justify-content: space-between;
     align-items: center;
-    max-width: var(--max-width-content);
     height: 50px;
-    left: 50%;
-    transform: translate(-50%, 0%);
+    width: 100dvw;
+    margin-left: calc(50% - 50vw);
     border-bottom: 1px solid var(--color-border);
+    max-width: var(--max-width-content);
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-left: -20px;
+
+    @media screen and (min-width: 500px) {
+      margin-left: -40px;
+    }
 
     @media screen and (min-width: 600px) {
-      top: 50px;
+      margin-left: -80px;
+    }
+
+    @media screen and (min-width: 800px) {
+      margin-left: -130px;
+    }
+
+    @media screen and (min-width: 1000px) {
+      margin-left: -140px;
     }
 
     span {
