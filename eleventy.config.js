@@ -64,6 +64,21 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, n);
   });
 
+  eleventyConfig.addFilter("isActive", function (currentUrl, linkUrl) {
+    // Normalize trailing slashes
+    const normalize = (url) => (url.endsWith("/") ? url : url + "/");
+    currentUrl = normalize(currentUrl);
+    linkUrl = normalize(linkUrl);
+
+    if (linkUrl === "/") {
+      // Only mark homepage as active when exactly on "/"
+      return currentUrl === "/" ? "active" : "";
+    }
+
+    // For other links, allow subpath matching
+    return currentUrl.startsWith(linkUrl) ? "active" : "";
+  });
+
   // Return the smallest number argument
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
