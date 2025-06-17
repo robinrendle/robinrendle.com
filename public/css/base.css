@@ -763,7 +763,7 @@ page-content {
   padding: 0 20px;
   list-style: none;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
+  gap: 10px;
 
   @media screen and (min-width: 500px) {
     grid-template-columns: repeat(3, 1fr);
@@ -776,10 +776,9 @@ page-content {
   li a {
     display: flex;
     opacity: 0.5;
-    border-radius: 0;
+    border-radius: 4px;
     overflow: hidden;
     transition: all 0.1s linear;
-    border: 1px solid rgba(255, 255, 255, 0.3);
 
     img {
       object-fit: cover;
