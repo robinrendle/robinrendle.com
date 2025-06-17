@@ -632,7 +632,7 @@ main:before {
   background-size: cover;
   image-rendering: pixelated;
   z-index: -1;
-  background-color: oklch(from var(--neutral) var(--800));
+  background-color: oklch(from var(--neutral) var(--400));
 }
 
 c-page {
