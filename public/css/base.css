@@ -1064,10 +1064,6 @@ p img {
       border-radius: 8px;
       background: var(--color-hint-background);
       color: var(--color-text) !important;
-
-      time {
-        color: var(--color-hint-text);
-      }
     }
 
     h3 {
