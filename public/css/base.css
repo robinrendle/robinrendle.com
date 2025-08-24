@@ -126,7 +126,7 @@
   );
 
   --color-text-bright: light-dark(
-    oklch(from var(--neutral) var(--600)),
+    oklch(from var(--neutral) var(--800)),
     oklch(from var(--neutral) var(--100))
   );
 
@@ -146,12 +146,12 @@
   );
 
   --color-text-meta: light-dark(
-    oklch(from var(--neutral) var(--400)),
+    oklch(from var(--neutral) var(--600)),
     oklch(from var(--neutral) var(--300))
   );
 
   --color-border: light-dark(
-    oklch(from var(--neutral) var(--200)),
+    oklch(from var(--neutral) var(--100)),
     oklch(from var(--neutral) var(--700))
   );
 
@@ -570,7 +570,6 @@ h1 {
 
 hr {
   border: none;
-  filter: invert(1);
   margin: 0 auto;
   height: 16px;
   width: 57px;
@@ -643,7 +642,6 @@ main:before {
 }
 
 c-page {
-  /* background: var(--color-background); */
   display: block;
   border-radius: 6px;
 
@@ -1083,6 +1081,7 @@ p img {
 }
 
 .newsletter {
+  font-size: 80%;
   margin-top: 30px;
   margin-bottom: 40px;
 
@@ -1093,7 +1092,7 @@ p img {
 
   input[type="submit"] {
     border-radius: var(--radius-sm);
-    background: oklch(from var(--primary) var(--400));
+    background: oklch(from var(--primary) var(--300));
     color: oklch(from var(--neutral) var(--50));
     border: none;
     padding: 0.5rem 0.75rem;
