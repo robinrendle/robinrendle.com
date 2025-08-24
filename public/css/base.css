@@ -163,7 +163,7 @@
 
   --color-hint-background: light-dark(
     oklch(from var(--primary) var(--200)),
-    oklch(from var(--primary) var(--500))
+    oklch(from var(--neutral) var(--700))
   );
 }
 
@@ -1047,6 +1047,7 @@ p img {
     color: var(--color-text);
     text-decoration: none;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
