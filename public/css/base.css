@@ -20,8 +20,7 @@
 }
 
 :root {
-  /* color-scheme: light dark; */
-  color-scheme: dark;
+  color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
   --font-size-1: clamp(4.4rem, 15vw, 5.5rem);
@@ -162,7 +161,7 @@
   );
 
   --color-hint-background: light-dark(
-    oklch(from var(--primary) var(--200)),
+    oklch(from var(--neutral) var(--100)),
     oklch(from var(--neutral) var(--700))
   );
 }
