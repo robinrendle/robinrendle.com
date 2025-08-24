@@ -77,12 +77,12 @@
 
   --color-select-text: light-dark(
     oklch(from var(--primary) var(--600)),
-    oklch(from var(--primary) var(--100))
+    oklch(from var(--neutral) var(--300))
   );
 
   --color-select-background: light-dark(
     oklch(from var(--primary) var(--100)),
-    oklch(from var(--primary) var(--500))
+    oklch(from var(--neutral) var(--500))
   );
 
   --color-shadow: light-dark(
@@ -117,7 +117,7 @@
 
   --color-title: light-dark(
     oklch(from var(--neutral) var(--900)),
-    oklch(from var(--primary) var(--300))
+    oklch(from var(--neutral) var(--100))
   );
 
   --color-text: light-dark(
