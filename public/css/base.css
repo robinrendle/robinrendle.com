@@ -1021,13 +1021,9 @@ p img {
   }
 
   time {
-    opacity: 0;
     font-size: var(--font-size-7);
     color: var(--color-text-meta);
-
-    @media screen and (min-width: 700px) {
-      opacity: 0.4;
-    }
+    opacity: 0.4;
   }
 
   li:only-child {
