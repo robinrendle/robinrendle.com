@@ -14,7 +14,7 @@ Over the past couple of years I’ve noticed that 90% of my design feedback come
 2. Ditch those words!
 3. Ditch those words!
 
-It’s the fastest way to make a design more easily understood. Almost every interface tries to explain too much at the wrong time and every interface today is far too yappy. Modern interface design is made up of sentences and sentences of needless information, over-explaining every detail and presenting too many ideas and concepts at the wrong time.
+It’s the fastest way to make a design more easily understood because almost every interface tries to explain too much at the wrong time and is far too yappy. Modern interface design is made up of sentences and sentences of needless information, over-explaining every detail and presenting too many ideas and concepts at the wrong time.
 
 It’s strange because as an annoying book person I believe in words! I want more and more words. I want fancy words and long-winded words and difficult words. I demand complexity! I want to think and ponder and struggle with a sentence that is trying to drag me along with it on a rip-roaring ride that I can barely comprehend. This, to me, is the textbook definition of fun.
 
