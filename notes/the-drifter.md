@@ -21,6 +21,6 @@ Last week a childhood rush of excitement hit me at full force from start to fini
 
 And because it’s an adventure game we also get a cast of fantastic characters, too. I particularly love the protagonist, Mick Carter. Mick is a guy who can’t stay in place, who unforgivably abandons everyone he loves. You return home with him after years of running away only to stumble into a murder and a deeply satisfying sci-fi adventure that slowly builds in weirdness over the course of the game.
 
-So if you grew up playing Broken Sword or Monkey Island, and then were awe-struck by Disco Elysium, I reckon this text adventure game is going to whisk you off your feet. The writing? Brilliant. Art? Stellar. Animations? Sick as hell.
+So if you grew up playing Broken Sword or Monkey Island, and then were awe-struck by Disco Elysium, I reckon this adventure game is going to whisk you off your feet. The writing? Brilliant. Art? Stellar. Animations? Sick as hell.
 
 And the music? [Fan-damn-tastic](https://youtu.be/IULpbn6a6P8).
