@@ -3,10 +3,15 @@ layout: layouts/base.njk
 title: Robin Rendle
 ---
 
-<div class="prose flow">
-  <header class="title-header">
-    <h1 class="font-size-1">Robin Rendle</h1>
-  </header>
+<img src="/images/me/robin-rendle-2.webp" class="home-img full-bleed" />
 
-  {{ content | safe }}
-</div>
+<ol class="notes">
+  {% for post in collections.notes | reverse %}
+    <li>
+      <a href="{{ post.url }}" class="note-link">
+        <h3 class="h-1">{{ post.data.title }}</h3>
+        <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | dinkyDate }}</time>
+      </a>
+    </li>
+  {% endfor %}
+</ol>

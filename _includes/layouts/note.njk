@@ -3,15 +3,32 @@ layout: layouts/base.njk
 templateClass: tmpl-post
 ---
 
-<div class="prose flow">
+{%- set notes = collections.notes | reverse -%}
+{%- set currentIndex = -1 -%}
+{%- for post in notes -%}
+  {%- if post.url == page.url -%}
+    {%- set currentIndex = loop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- set nextPost = notes[currentIndex + 1] if currentIndex >= 0 and currentIndex + 1 < notes.length else null -%}
+
+<article class="note-article" data-url="{{ page.url }}" data-title="{{ title }}" data-next-url="{% if nextPost %}{{ nextPost.url }}{% endif %}">
   <header class="title-header">
     <h1>{{ title }}</h1>
+    {% if extract %}
+      <h2 class="text-subtitle">{{ extract }}</h2>
+    {% endif %}
   </header>
-  {{ content | safe }}
+
+  <div class="prose flow">
+    {{ content | safe }}
+
+    <div class="note-date">
+      — <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
+    </div>
+  </div>
+</article>
+
+<div id="infinite-scroll-loader" style="display: none; text-align: center; padding: 2rem; color: var(--color-text-meta);">
+  Loading next post...
 </div>
-<page-footer>
-  <nav class="footer-nav">
-    <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
-  </nav>
-  <span>{{ city }}, {{ country }}</span>
-</page-footer>

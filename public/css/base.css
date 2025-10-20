@@ -1,21 +1,21 @@
 @font-face {
-  font-family: "Soehne";
-  src: url("/fonts/soehne/soehne-buch.woff2") format("woff2");
+  font-family: "MD IO";
+  src: url("/fonts/md-io/MDIO-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Soehne";
-  src: url("/fonts/soehne/soehne-kraftig.woff2") format("woff2");
+  font-family: "Edgar";
+  src: url("/fonts/edgar/Edgar-Light.woff2") format("woff2");
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: "BradleyDJR";
-  src: url("/fonts/bradley/BradleyDJR-Display.woff2") format("woff2");
-  font-style: normal;
+  font-family: "Edgar";
+  src: url("/fonts/edgar/Edgar-LightItalic.woff2") format("woff2");
+  font-style: italic;
   font-weight: 400;
 }
 
@@ -23,33 +23,35 @@
   color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
-  --font-size-1: clamp(4.4rem, 15vw, 5.5rem);
-  --font-size-2: clamp(3rem, 8vw, 4.5rem);
+  --font-size-1: clamp(1.8rem, 4vw, 2rem);
+  --font-size-2: clamp(1.3rem, 8vw, 1.6rem);
   --font-size-3: clamp(1.25rem, 3vw, 1.45rem);
   --font-size-4: clamp(1.35rem, 3vw, 1.4rem);
-  --font-size-5: clamp(1.1rem, 3vw, 1.25rem);
+  --font-size-5: clamp(1.2rem, 3vw, 1.3rem);
   --font-size-6: clamp(1rem, 3vw, 1.125rem);
   --font-size-7: 1rem;
 
   --max-width-content: 42rem;
 
   @media screen and (min-width: 800px) {
-    --font-size-1: clamp(5.5rem, 15vw, 6.5rem);
-    --max-width-content: 52rem;
+    --max-width-content: 43rem;
   }
 
   --radius-sm: 6px;
   --radius-md: 6px;
   --radius-lg: 15px;
 
-  --font-mono: "SF Mono", SFMono-Regular, ui-monospace, "DejaVu Sans Mono",
-    Menlo, Consolas, monospace;
-  --font-text: "Soehne", -apple-system, BlinkMacSystemFont, avenir next, avenir,
-    segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+  --font-mono:
+    "MD IO", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas,
+    monospace;
+  --font-text:
+    "Edgar", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
-  --font-title: "BradleyDJR", -apple-system, BlinkMacSystemFont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto,
-    noto, arial, sans-serif;
+  --font-title:
+    "Edgar", -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
 
   --primary: oklch(0.8358 0.141057 85.3174);
   --neutral: oklch(90% 0 0);
@@ -71,7 +73,7 @@
   --900: 0 c h;
 
   --color-cover: light-dark(
-    oklch(from var(--neutral) var(--900)),
+    oklch(from var(--neutral) var(--0)),
     oklch(from var(--neutral) var(--900))
   );
 
@@ -107,7 +109,7 @@
 
   --color-surface: light-dark(
     oklch(from var(--neutral) var(--25)),
-    oklch(from var(--neutral) var(--750))
+    oklch(from var(--neutral) var(--900))
   );
 
   --color-elevated: light-dark(
@@ -136,12 +138,12 @@
   );
 
   --color-link-hover-underline: light-dark(
-    oklch(from var(--primary) var(--400)),
+    oklch(from var(--primary) var(--300)),
     oklch(from var(--neutral) var(--100))
   );
 
   --color-link-hover: light-dark(
-    oklch(from var(--primary) var(--400)),
+    oklch(from var(--primary) var(--300)),
     oklch(from var(--neutral) var(--100))
   );
 
@@ -272,6 +274,10 @@ html {
   padding: 0;
 }
 
+html {
+  background: var(--color-surface);
+}
+
 body {
   overflow-x: hidden;
   font-size: 100%;
@@ -283,11 +289,107 @@ body {
   font-variant-ligatures: common-ligatures no-discretionary-ligatures
     no-historical-ligatures contextual;
   font-kerning: normal;
-  background: var(--color-surface);
+  display: flex;
+  flex-direction: column;
 
   @media screen and (min-width: 600px) {
-    padding-top: 0;
-    padding-bottom: 100px;
+    flex-direction: row;
+  }
+}
+
+.sidebar {
+  background: var(--color-cover);
+  display: flex;
+  background: var(--primary);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: 0.2s linear background-color;
+
+  &:hover,
+  &:focus {
+    background-color: var(--neutral);
+  }
+
+  @media screen and (min-width: 600px) {
+    width: 60px;
+    height: 100dvh;
+    position: fixed;
+  }
+}
+
+.sidebar-link {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 16px 8px;
+  @media screen and (min-width: 600px) {
+    padding: 16px 0 16px;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+  }
+}
+
+.sidebar-title,
+.sidebar-name {
+  font-size: var(--font-size-5);
+  color: var(--color-title);
+  opacity: 0.5;
+  @media screen and (min-width: 600px) {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    display: block;
+    line-height: 1;
+    white-space: nowrap;
+    position: relative;
+    left: -2px;
+  }
+}
+
+.sidebar-name {
+  line-height: 1.8;
+}
+
+.sidebar-title {
+  display: none;
+  font-style: italic;
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
+}
+
+.full-bleed {
+  min-width: 100dvw;
+  margin-left: calc(50% - 50vw);
+}
+
+.home-img {
+  width: 100dvw;
+  height: calc(100dvh - 50px);
+  min-width: 100dvw;
+  object-fit: cover;
+  z-index: -1;
+  margin-left: 0;
+  margin-bottom: 100px;
+  margin-top: 0;
+  object-position: 30%;
+  margin-left: -20px;
+  margin-top: 50px;
+
+  @media screen and (min-width: 600px) {
+    margin-left: calc(45% - 50dvw);
+    margin-top: 0;
+    object-position: 30%;
+    width: 100dvw;
+    height: calc(100dvh);
+    min-width: 100dvw;
+  }
+
+  @media screen and (min-width: 800px) {
+    margin-left: calc(50% - 52dvw);
   }
 }
 
@@ -299,11 +401,7 @@ label {
 
 .flow > * + *,
 .flow > blockquote > * + * {
-  margin-block-start: 1lh;
-}
-
-h1 {
-  font-size: var(--font-size-3);
+  margin-block-start: 0.8lh;
 }
 
 .prose {
@@ -319,6 +417,7 @@ h1 {
   font-size: var(--font-size-5);
   line-height: 1.35;
   margin-bottom: calc(var(--flow-space) * 3);
+  padding-bottom: 0px;
 
   .home & {
     margin-top: -1rem;
@@ -335,33 +434,14 @@ h1 {
   }
 
   em {
-    font-style: normal;
-  }
-
-  .big-text {
-    color: var(--color-title);
-    font-size: var(--font-size-2);
-    font-family: var(--font-title);
-    text-align: center;
-    text-wrap: balance;
-    line-height: 1.1;
-    width: 90vw;
-  }
-
-  .intro {
-    font-size: var(--font-size-4);
-    line-height: 1.3;
-    color: var(--color-text-bright);
-
-    a {
-      text-decoration-color: oklch(from var(--color-text) var(--300));
-    }
+    font-style: italic;
   }
 
   a {
     text-decoration: underline;
     text-decoration-color: oklch(from var(--color-text) var(--300));
     color: inherit;
+    text-decoration-thickness: 1px;
     text-underline-offset: 2px;
 
     &:hover,
@@ -402,16 +482,6 @@ h1 {
   &:hover,
   &:focus {
     background-color: oklch(from var(--color-elevated) var(--200));
-  }
-}
-
-.footer-nav {
-  display: flex;
-  align-items: center;
-  gap: 0px;
-
-  span {
-    margin-right: 4px;
   }
 }
 
@@ -493,13 +563,6 @@ h5 {
     margin-top: 0;
   }
 
-  /* page-content {
-    padding-top: 0px !important;
-    @media screen and (min-width: 800px) {
-      padding-top: 0px !important;
-    }
-  } */
-
   & + .project-img {
     margin-top: 0 !important;
   }
@@ -509,13 +572,28 @@ h5 {
 h1 {
   font-weight: 400;
   color: var(--color-title);
-  line-height: 1;
+  line-height: 1.2;
   font-size: var(--font-size-1);
-  text-wrap: balance;
-  justify-self: center;
+  margin-top: 5.5rem;
   margin-bottom: 1rem;
   font-family: var(--font-title);
-  text-align: center;
+
+  @media screen and (min-width: 600px) {
+    margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 800px) {
+    margin-top: 6rem;
+  }
+}
+
+.text-subtitle {
+  font-family: var(--font-title);
+  font-size: var(--font-size-2) !important;
+  color: var(--color-text-meta);
+  line-height: 1.15;
+  font-weight: 400;
+  margin-top: 0.1rem;
 }
 
 .text-title-numbered {
@@ -539,7 +617,6 @@ h1 {
   div {
     max-width: var(--max-width-content);
     height: 450px;
-    background: red;
     margin: 0 auto;
   }
 }
@@ -552,8 +629,7 @@ h1 {
 
 .title-header {
   margin-top: 0px;
-  margin-bottom: calc(var(--flow-space) * 1.5);
-  text-align: center;
+  margin-bottom: calc(var(--flow-space) * 3);
 
   .home & {
     margin-bottom: 60px;
@@ -585,8 +661,8 @@ hr {
 }
 
 blockquote {
-  /* background: var(--color-elevated); */
   padding: 0 20px 0;
+  font-style: italic;
   border-left: 2px solid var(--color-border);
 
   & + figcaption {
@@ -618,6 +694,10 @@ figcaption {
 main {
   margin: 0 auto;
   counter-reset: headings;
+
+  @media screen and (min-width: 600px) {
+    padding-left: 60px;
+  }
 }
 
 .full-screen-text {
@@ -625,7 +705,7 @@ main {
   line-height: 0.5;
 }
 
-main:before {
+html:before {
   display: block;
   content: "";
   z-index: -1;
@@ -638,68 +718,10 @@ main:before {
   height: 100%;
   width: 100%;
   opacity: 0.2;
-  background-image: url(/images/home-essay/pixel-background.png);
   background-size: cover;
   image-rendering: pixelated;
   z-index: -1;
-  background-color: oklch(from var(--neutral) var(--400));
-}
-
-c-page {
-  display: block;
-  border-radius: 6px;
-
-  &:only-of-type page-content {
-    .home & {
-      min-height: auto;
-      padding-bottom: 4rem;
-    }
-  }
-
-  &.full-screen {
-    height: 100dvh;
-    padding: 0;
-    display: flex;
-
-    page-content {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 0 !important;
-    }
-  }
-
-  &.no-padding,
-  &.no-padding page-content {
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-
-  &.c-page-offwhite {
-    page-content {
-      @media screen and (min-width: 800px) {
-        padding-top: 100px;
-      }
-    }
-  }
-
-  &.c-page-img-full {
-    padding: 0;
-    @media screen and (min-width: 800px) {
-      grid-template-columns: 1fr;
-    }
-  }
-}
-
-c-page:first-child page-content {
-  border-radius: 0;
-  margin-top: 0;
-  padding-bottom: calc(var(--flow-space) * 2);
-
-  @media screen and (min-width: 700px) {
-    margin-top: 40px;
-    border-radius: 0;
-  }
+  background: white;
 }
 
 page-content {
@@ -708,44 +730,23 @@ page-content {
   max-width: var(--max-width-content);
   position: relative;
   margin: 0 auto;
-  padding-top: 100px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 0;
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
 
   & + page-content {
-    padding-top: 40px !important;
     min-height: auto !important;
   }
 
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 600px) {
     padding-left: 40px;
     padding-right: 40px;
   }
 
-  @media screen and (min-width: 600px) {
-    padding-left: 80px;
-    padding-right: 80px;
-  }
-
   @media screen and (min-width: 800px) {
-    max-width: var(--max-width-content);
     width: 100%;
     margin: auto;
     height: min-content;
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-
-  &.cover {
-    --color-surface: var(--color-cover);
-    padding-bottom: 0;
-  }
-
-  &.wide {
-    max-width: 100%;
   }
 
   *::selection {
@@ -806,13 +807,7 @@ page-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 50px;
   position: relative;
-  width: 100dvw;
-  max-width: var(--max-width-content);
-  left: 50%;
-  transform: translate(-50%, 0%);
-  margin-bottom: -45px;
   margin-top: auto;
   padding: 15px 20px;
   border-top: 1px solid var(--color-border);
@@ -828,14 +823,14 @@ page-footer {
   }
 
   @media screen and (min-width: 700px) {
-    width: calc(100dvw - 20px);
+    /*width: calc(100dvw - 20px);*/
     padding: 15px 20px;
     background: transparent;
   }
 
   &.cover {
     --color-surface: oklch(from var(--neutral) var(--900));
-    color-scheme: dark;
+    color-scheme: light dark;
     border-top: 1px solid var(--color-border);
     margin-top: 30px;
     margin-bottom: 0;
@@ -1006,9 +1001,38 @@ p img {
   margin-bottom: calc(var(--flow-space) / 3);
 }
 
+.note-date {
+  display: block;
+  font-size: var(--font-size-6);
+  color: var(--color-text-meta);
+  margin-top: calc(var(--flow-space) * 2);
+}
+
 .notes {
+  display: flex;
+  flex-direction: column;
   list-style: none;
   padding: 0;
+
+  .note-link {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--color-border);
+
+    &:hover,
+    &:focus {
+      background-color: var(--color-hint-background);
+    }
+
+    h3 {
+      font-size: var(--font-size-5);
+
+      @media screen and (min-width: 600px) {
+        font-size: var(--font-size-5);
+      }
+    }
+  }
 
   li:first-of-type a {
     border-top-color: transparent;
@@ -1021,18 +1045,14 @@ p img {
   }
 
   time {
-    font-size: var(--font-size-7);
+    font-size: var(--font-size-6);
     color: var(--color-text-meta);
-    opacity: 0.4;
+    opacity: 0.8;
   }
 
   li:only-child {
     padding-top: 60px;
     margin-bottom: -100px;
-
-    a {
-      border-top: 1px solid var(--color-border);
-    }
   }
 
   li:hover + li a {
@@ -1040,26 +1060,19 @@ p img {
   }
 
   li a {
-    border-top: 1px solid var(--color-border);
+    display: block;
     color: var(--color-text);
     text-decoration: none;
-    display: flex;
-    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
     font-size: var(--font-size-6);
+    border-radius: 6px;
 
     &:hover,
     &:focus {
       border-top-color: transparent;
       border-bottom-color: transparent;
-      padding-left: 24px;
-      padding-right: 24px;
-      transform: translate(-24px);
-      width: calc(100% + 48px);
-      border-radius: 8px;
-      background: var(--color-hint-background);
       color: var(--color-text) !important;
     }
 
@@ -1449,4 +1462,17 @@ code {
 
 .m-t-0 {
   margin-top: 0 !important;
+}
+
+.note-article {
+  padding-bottom: 30vh;
+}
+
+.note-article + .note-article {
+  padding-top: 10rem;
+  margin-top: 6rem;
+}
+
+#infinite-scroll-loader {
+  opacity: 0.6;
 }
