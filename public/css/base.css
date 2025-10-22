@@ -368,18 +368,19 @@ body {
 
 .home-img {
   width: 100dvw;
-  height: calc(100dvh - 50px);
+  height: calc(40dvh);
   min-width: 100dvw;
   object-fit: cover;
   z-index: -1;
   margin-left: 0;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   margin-top: 0;
   object-position: 30%;
   margin-left: -20px;
   margin-top: 50px;
 
   @media screen and (min-width: 600px) {
+    margin-bottom: 100px;
     margin-left: calc(45% - 50dvw);
     margin-top: 0;
     object-position: 30%;
@@ -629,7 +630,11 @@ h1 {
 
 .title-header {
   margin-top: 0px;
-  margin-bottom: calc(var(--flow-space) * 3);
+  margin-bottom: calc(var(--flow-space) * 1.6);
+
+  @media screen and (min-width: 600px) {
+    margin-bottom: calc(var(--flow-space) * 3);
+  }
 
   .home & {
     margin-bottom: 60px;
@@ -1269,6 +1274,10 @@ p img {
   }
 }
 
+img.full-width {
+  min-width: 100dvw;
+}
+
 /*
 Name: Duotone Dark
 Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
@@ -1285,6 +1294,7 @@ pre[class*="language-"] {
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
+  position: relative;
 
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -1298,6 +1308,29 @@ pre[class*="language-"] {
   color: var(--color-text);
 }
 
+pre[class*="language-"] {
+  padding-left: 50px !important;
+}
+
+pre[class*="language-"]:before {
+  content: "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100";
+  width: 32px;
+  position: absolute;
+  top: 1.02rem;
+  left: 8px;
+  bottom: 17px;
+  color: var(--color-text-meta);
+  opacity: 0.5;
+  white-space: pre-line;
+  overflow: hidden;
+  text-align: right;
+  font-family: var(--font-mono);
+  font-size: 1em;
+  line-height: 1.375;
+  padding-right: 12px;
+  z-index: 999;
+}
+
 pre > code[class*="language-"] {
   font-size: 1em;
 }
@@ -1307,7 +1340,6 @@ pre[class*="language-"] ::-moz-selection,
 code[class*="language-"]::-moz-selection,
 code[class*="language-"] ::-moz-selection {
   text-shadow: none;
-  /*background: #6a51e6;*/
 }
 
 pre[class*="language-"]::selection,
@@ -1315,12 +1347,11 @@ pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
   text-shadow: none;
-  /*background: #6a51e6;*/
 }
 
 /* Code blocks */
 pre[class*="language-"] {
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
   margin: calc(var(--flow-space) * 1.25) 0;
   overflow: auto;
 }
