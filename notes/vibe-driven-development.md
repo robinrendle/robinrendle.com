@@ -5,6 +5,7 @@ date: 2023-02-19T09:57:18-08:00
 city: San Francisco
 country: California
 extract: It’s all about the vibes, man.
+tags: featured
 ---
 
 Building a great product is a matter of two questions: How should we measure progress? And what should we build next?

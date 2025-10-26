@@ -5,8 +5,7 @@ date: 2021-07-22
 city: San Francisco
 country: California
 extract: And the boy of boys.
-tags:
-  - personal
+tags: featured
 ---
 
 I’m sat at my desk crying. A beautiful light is washing over the bay right now and I’m crying because his name was Crease and he was a good boy. The boyest of boys, the goodest of goods.

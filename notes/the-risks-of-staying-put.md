@@ -5,6 +5,7 @@ date: 2023-06-09T19:32:13-07:00
 city: San Francisco
 country: California
 extract: “…just because a situation is familiar doesn’t mean it’s the best that you can do.”
+tags: featured
 ---
 
 Last month Mandy Brown wrote about [how she struggled to quit her job](https://everythingchanges.us/blog/the-devil-you-know/) and this bit hit me like a sledgehammer: “I assumed that all the risk was in moving, that by definition staying put was the prudent option.” Same! For months I’ve been paralyzed with indecision about quitting my job. What happens if I have nothing else lined up afterwards? Shouldn’t I stay and wait until things get less stressful? Staying is the sensible thing to do, whilst quitting feels unreasonable or extreme.

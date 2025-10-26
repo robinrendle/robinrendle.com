@@ -5,6 +5,7 @@ date: 2023-08-28T15:58:05-07:00
 city: San Francisco
 country: California
 extract: In Shar We Trust.
+tags: featured
 ---
 
 Friends! Book pals! Fellow worshipers of Shar!

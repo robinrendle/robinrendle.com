@@ -5,6 +5,8 @@ date: 2025-09-20T16:11:19-07:00
 city: San Francisco
 country: California
 extract:
+tags:
+  - videogames
 ---
 
 Have you played [Viewfinder](https://store.steampowered.com/app/1382070/Viewfinder/) yet? I picked it up last night on a whim and I wasn’t prepared for how brilliantly designed and creative and straight-up weird it all is. Here’s the gist: the game is about solving little puzzles by taking photographs and then “pasting” those objects into the real world. So a photo of a wall, once turned on its side, can be used as a bridge that helps you cross a void. It’s all super smart.

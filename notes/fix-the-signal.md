@@ -4,7 +4,7 @@ title: Fix the Signal
 date: 2025-08-23T10:20:41-07:00
 city: San Francisco
 country: California
-extract:
+extract: Reasons for optimism.
 ---
 
 It often feels like optimism is an act of revenge, an act of spite or rebellion, because optimism requires diligence and effort whilst pessimism feels like the default, the thing requiring no energy or effort. Mike Monteiro wrote along similar lines in [How to stay hopeful](https://buttondown.com/monteiro/archive/how-to-stay-hopeful/):

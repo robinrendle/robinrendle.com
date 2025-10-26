@@ -5,6 +5,8 @@ date: 2025-10-05T08:57:38-07:00
 city: San Francisco
 country: California
 extract: Fan-damn-tastic.
+tags:
+  - videogames
 ---
 
 Adventure games had all the best characters growing up: George Stobbart. Nico Collard. Guybrush Threepwood. Elaine Marley. Then a few decades later we got Harry Dubois and Kim Kitsuragi. I love adventure games because they consistently do this magic thing where you enter into the minds of these characters. Just like a novel, you can hear what they want and what they struggle with. You hear them think forbidden thoughts and watch them creep into forbidden places.

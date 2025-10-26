@@ -5,6 +5,7 @@ date: 2024-04-25T02:40:37-07:00
 city: San Francisco
 country: California
 extract: What the fuck was up with the mosquito spray?
+tags: featured
 ---
 
 “Are you okay, dad?”

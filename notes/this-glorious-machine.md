@@ -4,7 +4,7 @@ title: This Glorious Machine
 date: 2024-12-31T11:42:44-08:00
 city: San Francisco
 country: California
-extract:
+extract: A new essay.
 ---
 
 I just hit the publish button on a new story all about technology, e-bikes, and the future. Here, look:

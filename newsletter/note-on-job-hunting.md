@@ -5,6 +5,7 @@ date: 2023-08-19T11:47:18-07:00
 city: San Francisco
 country: California
 extract: ...it’s going to absolutely suck and there’s nothing you can do about it.
+tags: featured
 ---
 
 This week: a few quick notes on job hunting. But first, a blog update. This week I wrote about...

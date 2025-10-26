@@ -5,6 +5,7 @@ date: 2022-04-23
 city: San Francisco
 country: California
 extract: And a fine, deckle edge.
+tags: featured
 ---
 
 My parents and I are stood in a graveyard, looking up at a church in the perfect center of a quiant British countryside town. Everything around us is older than America; every brick and cobblestone path, every hedge and waist-high wall. And the lettering! (Each of the graves nearby are lettered by an expert hand.) And the food! (I’m happy because I’ve just eaten a much-needed full English breakfast.)

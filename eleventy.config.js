@@ -48,7 +48,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("dinkyDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MM.dd");
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MM.dd.yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
@@ -106,7 +106,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("featured", function (collection) {
     return collection.getAll().filter(function (item) {
-      return "featured" in (item.data.tags || []);
+      return (item.data.tags || []).includes("featured");
+    }).sort(function (a, b) {
+      return a.date - b.date; // ascending order (oldest first)
     });
   });
 

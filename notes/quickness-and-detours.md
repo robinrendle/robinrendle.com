@@ -4,7 +4,7 @@ title: Quickness and Detours
 date: 2014-01-01 13:21:00 -08:00
 tags:
   - books
-extract: In Six Memos for the Next Millennium Italo Calvino outlines all of the attributes and properties of great writing that he believed ought to thrive into the distant future of literature.
+extract: Lightness in writing.
 update:
 city: Nottingham
 country: UK

@@ -5,6 +5,7 @@ date: 2023-08-29T10:07:16-07:00
 city: San Francisco
 country: California
 extract: I don’t even trust the back button any more.
+tags: featured
 ---
 
 A few years ago I walked into a bookstore and noticed something peculiar: I found that every book was okay. In fact, books had gotten pretty damn good! A random book in a random bookstore is likely to have an interesting cover with good typography inside. They’re not beautiful objects or anything and, sure, the paper is ehhhh and okay yes they’re using the same boring book fonts that you’ve seen ten million times but there’s nothing about these books that get in the way of my reading. So the baseline for modern book design is pretty high.

@@ -4,7 +4,8 @@ title: The Last Walk
 date: 2022-12-09T10:09:47-08:00
 city: San Francisco
 country: California
-extract: I struggle to keep my voice steady, I struggle to say the words.
+extract: And the kindest thing.
+tags: featured
 ---
 
 As we walk in the twilight-sunset-dark I find myself sniffling, then crying, then that other kind of crying. You know the kind, that overwhelming and heaving motion that takes full control but no matter how strong and disciplined I want to be for my partner I can’t find it in myself to stop. I’m crying because although here we are, together in this beautiful crisp evening, with this little dog by our side, tomorrow there’ll be no more walks, no more laughing at how awkward this round dog is, no more giggling when he waddles to his favorite bush. There’ll be no more grunts or awkward side-eyes, no more floppy ears and tongues poking between teeth. This is the last time, the last flickering moments of us together, and our last walk.

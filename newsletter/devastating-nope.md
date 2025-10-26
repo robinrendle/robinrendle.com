@@ -5,6 +5,7 @@ date: 2024-09-29
 city: San Francisco
 country: CA
 extract: I just did a big and scary thing.
+tags: featured
 ---
 
 
@@ -48,4 +49,4 @@ _Ed Wood’s_ big idea is that perhaps, instead, we shouldn’t spend our lives 
 
 So this is a reminder to myself here: stop looking for prestige, stop looking for fame and attention. Push back against any signs of a fragile ego and try not to chase accolades from people who aren’t your people. That will only lead to more rejection, more frustration, and a life spent trying to be someone you just ain’t.
 
-Instead: find your weirdos. They’re out there, somewhere. 
+Instead: find your weirdos. They’re out there, somewhere.

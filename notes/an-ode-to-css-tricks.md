@@ -9,6 +9,7 @@ tags:
   - web
   - front-end
   - css-tricks
+  - featured
 ---
 
 Big news! [Hot off the press](https://css-tricks.com/css-tricks-is-joining-digitalocean/), Chris writes:

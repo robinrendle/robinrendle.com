@@ -4,7 +4,7 @@ title: Poverty, By America
 date: 2025-09-07T09:03:15-07:00
 city: San Francisco
 country: California
-extract:
+extract: We can fix this.
 ---
 
 There are books and then there are _books_. The kind where you can’t put down until they’re finished with you. The kind that captures every atom of your attention and changes something deep down. You walk away altered, the words having not really been words or sentences but something else altogether.

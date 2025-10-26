@@ -5,6 +5,7 @@ date: 2023-12-06T07:51:40-08:00
 city: San Francisco
 country: California
 extract: And the boring corporate handshake.
+tags: featured
 ---
 
 A personal website sits on the blurry line between a corporate entity and a skate park. Because a personal website has everything in its future; career connections and maybe weirdo web friends out there, potential ad money to be squeezed out of it or analytics to be siphoned. These constraints and incentives push our websites to be reserved or fabulous and there’s really no right answer here since a personal website can be anything we want it to be.

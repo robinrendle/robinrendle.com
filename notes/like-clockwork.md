@@ -9,6 +9,7 @@ tags:
   - celine
   - relationship
   - personal
+  - featured
 ---
 
 A clock arrived one day at our door. A special clock. But the mechanism inside had failed in some way. We checked the batteries, examined the little gears, everything looked fine. But no tick, no tock. The clock was busted.

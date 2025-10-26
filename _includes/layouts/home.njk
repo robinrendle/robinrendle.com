@@ -3,15 +3,31 @@ layout: layouts/base.njk
 title: Robin Rendle
 ---
 
-<img src="/images/me/robin-rendle-2.webp" class="home-img full-bleed" />
+{%- set notes = collections.notes | reverse -%}
+{%- set firstPost = notes[0] -%}
+{%- set nextPost = notes[1] if notes.length > 1 else null -%}
 
-<ol class="notes">
-  {% for post in collections.notes | reverse %}
-    <li>
-      <a href="{{ post.url }}" class="note-link">
-        <h3 class="h-1">{{ post.data.title }}</h3>
-        <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | dinkyDate }}</time>
-      </a>
-    </li>
-  {% endfor %}
-</ol>
+<article class="note-article" data-url="{{ firstPost.url }}" data-title="{{ firstPost.data.title }}" data-next-url="{% if nextPost %}{{ nextPost.url }}{% endif %}">
+  <header class="title-header">
+    <h1>
+      <a href="{{ firstPost.url }}">{{ firstPost.data.title }}</a>
+    </h1>
+    {% if firstPost.data.extract %}
+      <h2 class="text-subtitle">
+        {{ firstPost.data.extract }}
+      </h2>
+    {% endif %}
+  </header>
+
+  <div class="prose flow">
+    {{ firstPost.templateContent | safe }}
+
+    <div class="note-date">
+      — <time datetime="{{ firstPost.data.date | htmlDateString }}">{{ firstPost.data.date | fullDate }}</time>
+    </div>
+  </div>
+</article>
+
+<div id="infinite-scroll-loader" style="display: none; text-align: center; padding: 2rem; color: var(--color-text-meta);">
+  Loading next post...
+</div>
