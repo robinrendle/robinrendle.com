@@ -21,7 +21,7 @@ templateClass: nav-page
     {% set delay = (loop.index0 + 0.5) * 0.05 %}
     <div class="sidebar" style="--color-sidebar: light-dark(oklch(from var(--primary) l c {{ hue }}), oklch({{ lightness }} 0.00 0)); animation-delay: {{ delay }}s;">
       <a class="sidebar-link"href="{{ post.url }}">
-        <svg width="36" height="36">
+        <svg width="36" height="36" class="sidebar-logo">
           <use xlink:href="#logo"></use>
         </svg>
         <div class="sidebar-title">

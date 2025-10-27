@@ -319,6 +319,11 @@ body {
 
   body {
     overflow-x: scroll;
+    gap: 1px;
+
+    @media screen and (min-width: 600px) {
+      gap: 0;
+    }
   }
 
   .sidebar-main {
@@ -436,6 +441,7 @@ body {
   line-height: 1.8;
   opacity: 0.3;
   margin-left: auto;
+  font-size: var(--font-size-6);
 
   @media screen and (min-width: 600px) {
     margin-left: 0;
