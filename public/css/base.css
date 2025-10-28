@@ -30,10 +30,10 @@
   color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
-  --font-size-1: clamp(1.8rem, 4vw, 2rem);
-  --font-size-2: clamp(1.3rem, 8vw, 1.6rem);
-  --font-size-3: clamp(1.25rem, 3vw, 1.45rem);
-  --font-size-4: clamp(1.35rem, 3vw, 1.4rem);
+  --font-size-1: clamp(1.6rem, 4vw, 2rem);
+  --font-size-2: clamp(1.3rem, 4vw, 1.6rem);
+  --font-size-3: clamp(1.2rem, 3vw, 1.45rem);
+  --font-size-4: clamp(1.3rem, 3vw, 1.4rem);
   --font-size-5: clamp(1.2rem, 3vw, 1.3rem);
   --font-size-6: clamp(1rem, 3vw, 1.125rem);
   --font-size-7: 1rem;
