@@ -30,11 +30,11 @@
   color-scheme: light dark;
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
-  --font-size-1: clamp(1.6rem, 4vw, 2rem);
+  --font-size-1: clamp(1.6rem, 4vw, 1.8rem);
   --font-size-2: clamp(1.3rem, 4vw, 1.6rem);
-  --font-size-3: clamp(1.2rem, 3vw, 1.45rem);
-  --font-size-4: clamp(1.3rem, 3vw, 1.4rem);
-  --font-size-5: clamp(1.2rem, 3vw, 1.3rem);
+  --font-size-3: clamp(1.3rem, 3vw, 1.5rem);
+  --font-size-4: clamp(1.3rem, 3vw, 1.5rem);
+  --font-size-5: clamp(1.25rem, 3vw, 1.3rem);
   --font-size-6: clamp(1rem, 3vw, 1.125rem);
   --font-size-7: 1rem;
 
@@ -285,6 +285,7 @@ html {
 }
 
 body {
+  background: var(--color-surface);
   overflow-x: hidden;
   font-size: 100%;
   font-family: var(--font-text);
@@ -317,8 +318,13 @@ body {
 .nav-page {
   background: oklch(from var(--neutral) var(--900));
 
+  .sidebar-title {
+    display: block;
+  }
+
   body {
     overflow-x: scroll;
+    background: oklch(from var(--neutral) var(--900));
     gap: 1px;
 
     @media screen and (min-width: 600px) {
@@ -449,7 +455,7 @@ body {
 }
 
 .sidebar-title {
-  /*display: none;*/
+  display: none;
   color: var(--color-title) !important;
   opacity: 1;
   @media screen and (min-width: 600px) {
@@ -679,17 +685,7 @@ h1 {
   color: var(--color-title);
   line-height: 1.2;
   font-size: var(--font-size-1);
-  margin-top: 5.5rem;
-  margin-bottom: 1rem;
   font-family: var(--font-title);
-
-  @media screen and (min-width: 600px) {
-    margin-top: 1rem;
-  }
-
-  @media screen and (min-width: 800px) {
-    margin-top: 6rem;
-  }
 }
 
 .text-subtitle {
@@ -733,8 +729,16 @@ h1 {
 }
 
 .title-header {
-  margin-top: 0px;
-  margin-bottom: calc(var(--flow-space) * 1.6);
+  margin-top: 6rem;
+  margin-bottom: calc(var(--flow-space) * 2);
+
+  @media screen and (min-width: 600px) {
+    margin-bottom: calc(var(--flow-space) * 1.6);
+  }
+
+  @media screen and (min-width: 800px) {
+    margin-top: 6rem;
+  }
 
   a {
     color: var(--color-text);
