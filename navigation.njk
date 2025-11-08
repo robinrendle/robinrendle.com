@@ -16,7 +16,7 @@ templateClass: nav-page
 
 <div class="nav-wrapper">
   {% for post in collections.featured | reverse %}
-    {% set hue = 150 + (loop.index0 * 5) %}
+    {% set hue = 215 + (loop.index0 * 5) %}
     {% set lightness = 0.2 + (loop.index0 * 0.02) %}
     {% set delay = (loop.index0 + 0.5) * 0.05 %}
     <div class="sidebar" style="--color-sidebar: light-dark(oklch(from var(--primary) l c {{ hue }}), oklch({{ lightness }} 0.00 0)); animation-delay: {{ delay }}s;">

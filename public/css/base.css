@@ -54,7 +54,7 @@
   --font-text: "Edgar", Georgia, serif;
   --font-title: "Edgar", Georgia, serif;
 
-  --primary: oklch(0.4423 0.1347 154.69);
+  --primary: oklch(0.7 0.1 210);
   --neutral: oklch(90% 0 0);
 
   --shadow-1: 0px -4px 4px 0px rgba(0, 0, 0, 0.03);
@@ -336,10 +336,10 @@ body {
     overflow: visible;
     position: static !important;
     margin-right: 1px;
-    --color-sidebar: light-dark(
+    /*--color-sidebar: light-dark(
       oklch(from var(--primary) l c 145),
       oklch(0.175 0 0)
-    );
+    );*/
   }
 
   /* FOUL HACKS BEWARE */
@@ -381,7 +381,7 @@ body {
 
   &:hover,
   &:focus {
-    background-color: oklch(from var(--color-sidebar) var(--600));
+    background-color: oklch(from var(--color-sidebar) var(--400));
 
     .sidebar-title {
       color: var(--color-title);
