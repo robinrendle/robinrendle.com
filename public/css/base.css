@@ -451,6 +451,7 @@ body {
 
   @media screen and (min-width: 600px) {
     margin-left: 0;
+    height: 1rem;
   }
 }
 
