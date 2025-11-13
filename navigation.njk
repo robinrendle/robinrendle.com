@@ -15,7 +15,7 @@ templateClass: nav-page
 </svg>
 
 <div class="nav-wrapper">
-  {% for post in collections.featured | reverse %}
+  {% for post in collections.notes | reverse %}
     {% set hue = 215 + (loop.index0 * 5) %}
     {% set lightness = 0.2 + (loop.index0 * 0.02) %}
     {% set delay = (loop.index0 + 0.5) * 0.05 %}

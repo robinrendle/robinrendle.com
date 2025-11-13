@@ -6,23 +6,16 @@
 }
 
 @font-face {
-  font-family: "Edgar";
-  src: url("/fonts/edgar/Edgar-Light.woff2") format("woff2");
+  font-family: "Montreuil";
+  src: url("/fonts/montreuil/Montreuil-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Edgar";
-  src: url("/fonts/edgar/Edgar-LightItalic.woff2") format("woff2");
+  font-family: "Montreuil";
+  src: url("/fonts/montreuil/Montreuil-Italic.woff2") format("woff2");
   font-style: italic;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Sohne";
-  src: url("/fonts/soehne/soehne-buch.woff2") format("woff2");
-  font-style: normal;
   font-weight: 400;
 }
 
@@ -31,7 +24,7 @@
   --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
   --font-size-1: clamp(1.6rem, 4vw, 1.8rem);
-  --font-size-2: clamp(1.3rem, 4vw, 1.6rem);
+  --font-size-2: clamp(1.3rem, 4vw, 1.55rem);
   --font-size-3: clamp(1.3rem, 3vw, 1.5rem);
   --font-size-4: clamp(1.3rem, 3vw, 1.5rem);
   --font-size-5: clamp(1.25rem, 3vw, 1.3rem);
@@ -51,8 +44,8 @@
   --font-mono:
     "MD IO", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas,
     monospace;
-  --font-text: "Edgar", Georgia, serif;
-  --font-title: "Edgar", Georgia, serif;
+  --font-text: "Montreuil", Georgia, serif;
+  --font-title: "Montreuil", Georgia, serif;
 
   --primary: oklch(0.7 0.1 210);
   --neutral: oklch(90% 0 0);
@@ -149,8 +142,8 @@
   );
 
   --color-text-meta: light-dark(
-    oklch(from var(--neutral) var(--600)),
-    oklch(from var(--neutral) var(--300))
+    oklch(from var(--neutral) var(--400)),
+    oklch(from var(--neutral) var(--400))
   );
 
   --color-border: light-dark(
@@ -307,11 +300,59 @@ body {
 @keyframes slideInFromLeft {
   from {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translate3d(-100px, 0, 0);
   }
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes hueShift {
+  0% {
+    background-color: oklch(from var(--primary) l c 210);
+  }
+  7% {
+    background-color: oklch(from var(--primary) l c 240);
+  }
+  14% {
+    background-color: oklch(from var(--primary) l c 280);
+  }
+  21% {
+    background-color: oklch(from var(--primary) l c 320);
+  }
+  28% {
+    background-color: oklch(from var(--primary) l c 350);
+  }
+  35% {
+    background-color: oklch(from var(--primary) l c 0);
+  }
+  42% {
+    background-color: oklch(from var(--primary) l c 20);
+  }
+  49% {
+    background-color: oklch(from var(--primary) l c 40);
+  }
+  56% {
+    background-color: oklch(from var(--primary) l c 60);
+  }
+  63% {
+    background-color: oklch(from var(--primary) l c 80);
+  }
+  70% {
+    background-color: oklch(from var(--primary) l c 110);
+  }
+  77% {
+    background-color: oklch(from var(--primary) l c 140);
+  }
+  84% {
+    background-color: oklch(from var(--primary) l c 170);
+  }
+  91% {
+    background-color: oklch(from var(--primary) l c 200);
+  }
+  100% {
+    background-color: oklch(from var(--primary) l c 210);
   }
 }
 
@@ -367,6 +408,7 @@ body {
     position: static;
     opacity: 0;
     animation: slideInFromLeft 0.05s ease-out forwards;
+    will-change: transform, opacity;
   }
 }
 
@@ -393,6 +435,13 @@ body {
     width: 60px;
     height: 100dvh;
     position: fixed;
+  }
+}
+
+.sidebar-main:not(.nav-page .sidebar-main) {
+  &:hover,
+  &:focus {
+    animation: hueShift 4s ease-in-out infinite;
   }
 }
 
@@ -448,6 +497,7 @@ body {
   opacity: 0.3;
   margin-left: auto;
   font-size: var(--font-size-6);
+  text-transform: uppercase;
 
   @media screen and (min-width: 600px) {
     margin-left: 0;
@@ -462,11 +512,14 @@ body {
   @media screen and (min-width: 600px) {
     display: block;
     transition: color 0.2s linear;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 
 .intro {
-  font-size: var(--font-size-1);
+  font-size: var(--font-size-3);
 }
 
 .full-bleed {
@@ -788,7 +841,7 @@ hr {
 
 blockquote {
   padding: 0 20px 0;
-  font-style: italic;
+  font-style: normal;
   border-left: 2px solid var(--color-border);
 
   & + figcaption {
@@ -1469,6 +1522,10 @@ pre[class*="language-"] {
   color: #6c6783;
 }*/
 
+.token.comment {
+  color: var(--color-text-meta);
+}
+
 .token.namespace {
   opacity: 0.7;
 }
@@ -1582,7 +1639,6 @@ pre > code.highlight {
 code {
   font-family: var(--font-mono);
   font-size: 85%;
-  background: var(--color-elevated);
   padding: 2px 3px;
   border-radius: 3px;
 }

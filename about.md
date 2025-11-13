@@ -1,6 +1,6 @@
 ---
 title: About
-extract: This is a thing.
+extract: Who, what, why, when, how.
 layout: layouts/note.njk
 eleventyExcludeFromCollections: true
 date: 2024-03-17 09:03:28

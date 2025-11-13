@@ -23,7 +23,7 @@ Mmmmm. Okay so I guess I should only use a single header on the page? Years ago 
 
 So no `<header>` in my default layout, got it. All I need then is something like this:
 
-```
+```html
 <article>
   <!-- time goes here -->
   <h1>Title of blog post</h1>
@@ -36,7 +36,7 @@ That makes sense to me. I guess the question now is: do we add the container tha
 
 Mmmmm...if I do that then not all pages in the site will be affected. Ya know what? Let’s just set this on the body for now and be done with it.
 
-```
+```css
 body {
   padding: 0 10px;
   max-width: 45rem;

@@ -1,10 +1,10 @@
 ---
 layout: layouts/note.njk
-title: We’re Not Going Back to the Time Before Roe. We’re Going Somewhere Worse
+title: We’re Not Going Back to the Time Before Roe
 date: 2022-07-03
 city: San Francisco
 country: California
-extract: Abortion as a precondition for justice.
+extract: We’re Going Somewhere Worse.
 ---
 
 [Jia Tolentino](https://www.newyorker.com/magazine/2022/07/04/we-are-not-going-back-to-the-time-before-roe-we-are-going-somewhere-worse):
