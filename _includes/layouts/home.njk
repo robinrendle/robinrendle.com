@@ -29,31 +29,10 @@ templateClass: nav-page
           <use xlink:href="#logo"></use>
         </svg>-->
         <div class="sidebar-title">
-          {{ post.data.title }}
+          <h2>{{ post.data.title }}</h2>
           <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | dinkyDate }}</time>
         </div>
       </a>
     </div>
   {% endfor %}
 </div>
-
-
-<!--{%- set notes = collections.notes | reverse -%}
-{%- set firstPost = notes[0] -%}
-{%- set nextPost = notes[1] if notes.length > 1 else null -%}
-
-<article class="note-article" data-url="{{ firstPost.url }}" data-title="{{ firstPost.data.title }}" data-next-url="{% if nextPost %}{{ nextPost.url }}{% endif %}">
-  <header class="title-header">
-    <h1>
-      <a href="{{ firstPost.url }}">{{ firstPost.data.title }}</a>
-    </h1>
-  </header>
-
-  <div class="prose flow">
-    {{ firstPost.templateContent | safe }}
-  </div>
-</article>
-
-<div id="infinite-scroll-loader" style="display: none; text-align: center; padding: 2rem; color: var(--color-text-meta);">
-  Loading next post...
-</div>-->
