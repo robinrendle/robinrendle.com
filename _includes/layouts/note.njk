@@ -12,20 +12,18 @@ templateClass: tmpl-post
 {%- endfor -%}
 {%- set nextPost = notes[currentIndex + 1] if currentIndex >= 0 and currentIndex + 1 < notes.length else null -%}
 
-<article class="note-article" data-url="{{ page.url }}" data-title="{{ title }}" data-next-url="{% if nextPost %}{{ nextPost.url }}{% endif %}">
+<article class="note-article" data-url="{{ page.url }}" data-title="{{ title }}" data-next-url="{% if nextPost %}{{ nextPost.url }}{% endif %}" data-time="{{ page.date | dinkyDate }}" data-datetime="{{ page.date | htmlDateString }}">
+
+  {% if heroImg %}
+    <img src="{{ heroImg }}" alt="{{ title }}" class="hero-img full-bleed">
+  {% endif %}
+
   <header class="title-header">
     <h1>{{ title }}</h1>
-    {% if extract %}
-      <h2 class="text-subtitle">{{ extract }}</h2>
-    {% endif %}
   </header>
 
   <div class="prose flow">
     {{ content | safe }}
-
-    <div class="note-date">
-      — <time datetime="{{ page.date | htmlDateString }}">{{ page.date | fullDate }}</time>
-    </div>
   </div>
 </article>
 

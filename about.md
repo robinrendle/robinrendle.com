@@ -1,27 +1,25 @@
 ---
 title: About
-extract: Who, what, why, when, how.
+extract: A British designer, writer, and typographic nuisance.
 layout: layouts/note.njk
 eleventyExcludeFromCollections: true
-date: 2024-03-17 09:03:28
+date: 2025-11-25 09:03:28
 country: California
 city: San Francisco
 templateClass: about
+heroImg: "/images/me/robin-rendle-2.webp"
 ---
 
-<img src="/images/me/robin-rendle-2.webp" class="about-img full-width">
+I’m Robin, a British designer, writer, and typographic nuisance but now I call San Francisco home. It’s where I’ve lived for a decade, shuffling up and down the peninsula, writing words and building software. Along the way I’ve worked for smart folks at Retool, Sentry, and Gusto as well as for handsome clients like XOXO and Buttondown. Today I’m a software designer at Apple.
 
-<p class="intro">I’m Robin, a British designer, writer, and typographic nuisance from San Francisco. Today I’m a designer at <a href="https://apple.com">Apple</a> although previously I’ve made software at <a href="https://retool.com">Retool</a>, <a href="https://sentry.io">Sentry</a>, and <a href="https://gusto.com">Gusto</a> as well as for clients like <a href="https://buttondown.email">Buttondown</a> and <a href="https://xoxofest.com">XOXO</a>.</p>
+You can buzz me at <a href="mailto:robinjrendle@gmail.com">robinjrendle@gmail.com</a>
 
-For the best part of a decade I was a staff writer at [CSS-Tricks](https://css-tricks.com/) where I wrote about front-end development and UI engineering on the web. Prototypes! Accessibility! Complex layouts and design systems! Over the years I wrote about almost everything when it comes to making a website.
+From 2014–2022 I was a staff writer at CSS-Tricks. Over the years I learned how to poke at words until they made sense and how to break up big concepts into teeny tiny interactive demos. Eventually I took the helm of the CSS-Tricks newsletter—my first beat—and it became like a punk rock writer’s residency. Years later, and I’m still proud of all that work we did together. 
 
-You can keep up with the notes and stories that I publish here [via RSS](/feed.xml) or through the extremely slow publishing schedule of the ol’ [newsletter](/newsletter/). You can also reach out via [Mastodon](https://sfba.social/@fonts), [Bluesky](https://bsky.app/profile/robinrendle.bsky.social), or <a href="mailto:robinjrendle@gmail.com?subject=Why%20Must%20You%20Disturb%20My%20Slumber">email</a>.
+I studied Information Design at Reading University and snuck into every class about typography and letter-making that I could. For a kid who always wanted to be in publishing, the Department of Typography and Graphic Communication was like stumbling into a typographic time machine. Every wall and cabinet drawer is filled to the brim with precious artifacts: metal type and wood engravings, type posters and famous Bauhaus treasures. It’s a special place with some very special people.
 
-You can buzz me at <a href="mailto:robinjrendle@gmail.com?subject=Why%20Must%20You%20Disturb%20My%20Slumber">robinjrendle@gmail.com</a>
+Since 2012 this website has been a blog—sure, yes, okay—but I’ve always seen it as a printing press first. Every once in a while I’ll publish an e-essay about whatever it is I’m currently obsessed with, whether that’s typography, design systems, photography, the magic of e-bikes, or the messy present of writing on the web and what it means for writers.
 
+Today, if I tilt my head a bit, I see all this work merely continuing the stuff I made as a kid; rolling around in the sun, making comic books for hours on end. 
 
-## Colophon
-
-Body text is [Söhne](https://klim.co.nz/collections/soehne/) by Klim Type and I can’t think of anything else to read my words in. The ever-so-lovely headings are set in [Bradley](https://djr.com/notes/bradley-djr-font-of-the-month/) by David Jonathan Ross which have the perfect amount of charm.
-
-Under the hood, everything is powered by [Eleventy](https://www.11ty.dev/) which just happens to be my favorite tool for publishing websites.
+It’s all just publishing, man.

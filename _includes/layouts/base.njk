@@ -32,9 +32,9 @@
       {% getBundle "css" %}
     </style>
   </head>
-  <body>
+  <body class="{% if heroImg %}hero-img-active{% endif %}">
     <nav class="sidebar sidebar-main">
-      <a href="{% if page.url == '/table-of-contents/' %}/{% else %}/table-of-contents/{% endif %}" class="sidebar-link">
+      <a href="{% if page.url == '/' %}/about{% else %}/{% endif %}" class="sidebar-link">
         <svg id="logo" class="sidebar-logo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="36" height="37" viewBox="0 0 36 37" fill="none">
           <path d="M35.2 18.1992C35.2 8.69992 27.4993 0.999219 18 0.999219C8.5007 0.999219 0.8 8.69992 0.8 18.1992C0.8 27.6985 8.5007 35.3992 18 35.3992C27.4993 35.3992 35.2 27.6985 35.2 18.1992Z" fill="white"></path>
           <path fill-rule="evenodd" clip-rule="evenodd" d="M18 1.79922C8.94253 1.79922 1.6 9.14175 1.6 18.1992C1.6 27.2567 8.94253 34.5992 18 34.5992C27.0575 34.5992 34.4 27.2567 34.4 18.1992C34.4 9.14175 27.0575 1.79922 18 1.79922ZM0 18.1992C0 8.25809 8.05887 0.199219 18 0.199219C27.9411 0.199219 36 8.25809 36 18.1992C36 28.1403 27.9411 36.1992 18 36.1992C8.05887 36.1992 0 28.1403 0 18.1992Z" fill="black"></path>
@@ -42,13 +42,14 @@
           <path d="M20.7437 17.7045C21.3006 17.7045 21.7518 17.2533 21.7518 16.6967C21.7518 16.1398 21.3006 15.6886 20.7437 15.6886C20.1871 15.6886 19.7359 16.1398 19.7359 16.6967C19.7359 17.2533 20.1871 17.7045 20.7437 17.7045Z" fill="black"></path>
         </svg>
         <div class="sidebar-title">
-          {% if page.url == '/table-of-contents/' %}
-          Notes from the Field
+          {% if page.url == '/' %}
+          Robin Rendle is a British software designer, writer, and typographic nuisance from San Francisco.
           {% else %}
-            {{ title }}
+          Robin Rendle
+
+            <time datetime="{{ page.date | htmlDateString }}">{{ page.date | dinkyDate }}</time>
           {% endif %}
         </div>
-        <div class="sidebar-name">◆</div>
       </a>
     </nav>
     <main>
@@ -59,9 +60,7 @@
       </c-page>
     </main>
     <script>
-      // Infinite scroll for note posts
       (function() {
-        // Only run on note pages
         const firstArticle = document.querySelector('.note-article');
         if (!firstArticle) return;
 
@@ -94,20 +93,16 @@
             const response = await fetch(nextUrl);
             const html = await response.text();
 
-            // Parse the HTML
             const parser = new DOMParser();
             const doc = parser.parseFromString(html, 'text/html');
             const newArticle = doc.querySelector('.note-article');
 
             if (newArticle) {
-              // Add to loaded URLs
               loadedUrls.add(nextUrl);
 
-              // Append the new article
               pageContent.appendChild(newArticle);
               currentArticle = newArticle;
 
-              // If on homepage, wrap h1 in a link
               if (isHomepage) {
                 const h1 = newArticle.querySelector('h1');
                 if (h1 && !h1.querySelector('a')) {
@@ -119,20 +114,16 @@
                 }
               }
 
-              // Only update URL and title if not on homepage
               if (!isHomepage) {
-                // Update URL without page reload
                 history.pushState({ url: nextUrl }, '', nextUrl);
 
-                // Update page title
                 const newTitle = doc.querySelector('title').textContent;
                 document.title = newTitle;
 
-                // Update sidebar title
-                const sidebarTitle = document.querySelector('.sidebar-title');
-                const newH1 = newArticle.querySelector('h1');
-                if (sidebarTitle && newH1) {
-                  sidebarTitle.textContent = newH1.textContent;
+                const sidebarTime = document.querySelector('.sidebar-title time');
+                if (sidebarTime && newArticle.dataset.time) {
+                  sidebarTime.datetime = newArticle.dataset.datetime;
+                  sidebarTime.textContent = newArticle.dataset.time;
                 }
               }
             }
@@ -147,13 +138,11 @@
         function handleScroll() {
           const distance = getDistanceFromBottom();
 
-          // Load next post only when at the very bottom (within 10px)
           if (distance < 10 && !isLoading) {
             loadNextPost();
           }
         }
 
-        // Throttle scroll events
         let scrollTimeout;
         window.addEventListener('scroll', () => {
           if (scrollTimeout) return;
@@ -163,7 +152,6 @@
           }, 100);
         }, { passive: true });
 
-        // Handle browser back/forward buttons (only if not homepage)
         if (!isHomepage) {
           window.addEventListener('popstate', (event) => {
             if (event.state && event.state.url) {
@@ -171,7 +159,6 @@
             }
           });
 
-          // Initial state
           history.replaceState({ url: firstArticle.dataset.url }, '', firstArticle.dataset.url);
         }
       })();
