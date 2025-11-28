@@ -27,7 +27,7 @@
   --font-size-2: clamp(1.3rem, 4vw, 1.55rem);
   --font-size-3: clamp(1.3rem, 3vw, 1.5rem);
   --font-size-4: clamp(1.3rem, 3vw, 1.5rem);
-  --font-size-5: clamp(1.25rem, 3vw, 1.3rem);
+  --font-size-5: clamp(1.2rem, 3vw, 1.3rem);
   --font-size-6: clamp(1rem, 3vw, 1.125rem);
   --font-size-7: 1rem;
 
@@ -509,6 +509,7 @@ body {
   .hero-img {
     object-fit: cover;
     min-height: 50dvh;
+    max-height: 70dvh;
     margin-top: 2.5rem;
   }
   .title-header {
@@ -882,16 +883,16 @@ page-content {
 }
 
 .stories {
-  max-width: var(--max-width-content);
-  width: 100dvw;
-  transform: translate(-50%, 0%);
   display: grid;
   position: relative;
-  left: 50%;
   padding: 0 20px;
   list-style: none;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: 40px;
+  margin-bottom: 60px;
 
   @media screen and (min-width: 500px) {
     grid-template-columns: repeat(3, 1fr);
