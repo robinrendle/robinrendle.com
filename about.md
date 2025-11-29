@@ -14,7 +14,7 @@ I’ve lived in the Bay Area for a decade now, shuffling up and down the peninsu
 
 You can buzz me at <a href="mailto:robinjrendle@gmail.com">robinjrendle@gmail.com</a>
 
-From 2014–2022 I was a staff writer at CSS-Tricks. Over the years I learned how to poke at words until they made sense and how to break up big concepts into teeny tiny interactive demos. Eventually I took the helm of the CSS-Tricks newsletter—my first beat—and it became like a punk rock writer’s residency. Years later, and I’m still proud of all that work we did together. 
+From 2014–2022 I was a staff writer at CSS-Tricks. Over the years I learned how to poke at words until they made sense and how to break up big concepts into teeny tiny interactive demos. Eventually I took the helm of the CSS-Tricks newsletter—my first beat—and it became a punk rock writer’s residency. Years later, and I’m still proud of the work we did together. 
 
 I studied design at Reading University and I snuck into every class about typography and letter-making that I could. For a kid who always wanted to be in publishing, the Department of Typography and Graphic Communication was like stumbling into a typographic time machine. Every wall and cabinet drawer is filled to the brim with precious artifacts: metal type and wood engravings, type posters and famous Bauhaus treasures. It’s a special place with some very special people.
 
@@ -24,12 +24,14 @@ Here, take a look:
 
 <ol class="stories">
 {%- for post in collections.stories | reverse -%}
+{%- if "featured" in post.data.tags -%}
 <li>
 <a href="{{ post.url }}">
 <h3 class="visually-hidden">{{ post.data.title }}</h3>
 <img src="/images/essays/home/{{ post.data.hero }}" alt="{{ post.data.alt }}">
 </a>
 </li>
+{%- endif -%}
 {%- endfor -%}
 </ol>
 
