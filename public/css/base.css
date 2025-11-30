@@ -113,7 +113,7 @@
 
   --color-title: light-dark(
     oklch(from var(--neutral) var(--900)),
-    oklch(from var(--neutral) var(--100))
+    oklch(from var(--neutral) var(--0))
   );
 
   --color-text: light-dark(
