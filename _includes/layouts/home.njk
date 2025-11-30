@@ -26,9 +26,6 @@ templateClass: nav-page
     {% set delay = (loop.index0 + 0.5) * 0.05 %}
     <div class="sidebar" style="--color-sidebar: light-dark(oklch({{ lightnessLight }} 0.00 0), oklch({{ lightnessDark }} 0.00 0)); animation-delay: {{ delay }}s;">
       <a class="sidebar-link"href="{{ post.url }}">
-        <!--<svg width="36" height="36" class="sidebar-logo">
-          <use xlink:href="#logo"></use>
-        </svg>-->
         <div class="sidebar-title">
           <h2>{{ post.data.title }}</h2>
           <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | dinkyDate }}</time>
@@ -37,28 +34,3 @@ templateClass: nav-page
     </div>
   {% endfor %}
 </div>
-
-
-<!--<div class="nav-wrapper">
-  {% for post in collections.notes | reverse %}
-    {% set hue = 215 + (loop.index0 * 5) %}
-    {% set cyclePosition = loop.index0 % 60 %}
-    {% if cyclePosition < 30 %}
-      {% set lightness = 0.2 + (cyclePosition * 0.02) %}
-    {% else %}
-      {% set lightness = 0.8 - ((cyclePosition - 30) * 0.02) %}
-    {% endif %}
-    {% set delay = (loop.index0 + 0.5) * 0.05 %}
-    <div class="sidebar" style="--color-sidebar: light-dark(oklch(from var(--primary) l c {{ hue }}), oklch({{ lightness }} 0.00 0)); animation-delay: {{ delay }}s;">
-      <a class="sidebar-link"href="{{ post.url }}">
-        <!--<svg width="36" height="36" class="sidebar-logo">
-          <use xlink:href="#logo"></use>
-        </svg>-->
-        <!--<div class="sidebar-title">
-          <h2>{{ post.data.title }}</h2>
-          <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | dinkyDate }}</time>
-        </div>
-      </a>
-    </div>-->
-  <!--{% endfor %}-->
-<!--</div>-->
