@@ -405,7 +405,10 @@ body {
 
   &:hover,
   &:focus {
-    background-color: oklch(from var(--color-sidebar) var(--100));
+    background-color: light-dark(
+      oklch(from var(--color-sidebar) var(--100)),
+      oklch(from var(--color-sidebar) var(--900))
+    );
 
     .sidebar-title {
       color: var(--color-title);
