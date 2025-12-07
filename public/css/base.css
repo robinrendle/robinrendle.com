@@ -295,12 +295,12 @@ body {
 
 @keyframes slideInFromLeft {
   from {
-    opacity: 0;
-    transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100dvw, 0, 0);
+    visibility: visible;
   }
   to {
-    opacity: 1;
     transform: translate3d(0, 0, 0);
+    visibility: visible;
   }
 }
 
@@ -386,9 +386,9 @@ body {
 
   .sidebar {
     position: static;
-    opacity: 0;
-    animation: slideInFromLeft 0.05s ease-out forwards;
-    will-change: transform, opacity;
+    visibility: hidden;
+    animation: slideInFromLeft 0.05s ease-out both;
+    z-index: 999;
   }
 }
 
@@ -441,7 +441,11 @@ body {
   padding: 8px 16px 8px;
   align-items: center;
   gap: var(--flow-space);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
   max-width: 100dvw;
+  position: static;
 }
 
 .sidebar-about {
