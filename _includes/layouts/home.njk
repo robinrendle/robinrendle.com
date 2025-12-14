@@ -23,8 +23,8 @@ templateClass: nav-page
       {% set lightnessLight = 0.70 + ((cyclePosition - 30) * 0.01) %}
       {% set lightnessDark = 0.8 - ((cyclePosition - 30) * 0.02) %}
     {% endif %}
-    {% set delay = (loop.index0 + 0.5) * 0.05 %}
-    <div class="sidebar" style="--color-sidebar: light-dark(oklch({{ lightnessLight }} 0.00 0), oklch({{ lightnessDark }} 0.00 0)); animation-delay: {{ delay }}s;">
+
+    <div class="sidebar" style="--color-sidebar: light-dark(oklch({{ lightnessLight }} 0.00 0), oklch({{ lightnessDark }} 0.00 0)); --stack-order: {{ 1000 - loop.index0 }};">
       <a class="sidebar-link"href="{{ post.url }}">
         <div class="sidebar-title">
           <h2>{{ post.data.title }}</h2>

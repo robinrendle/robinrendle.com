@@ -293,17 +293,6 @@ body {
   flex-direction: column;
 }
 
-@keyframes slideInFromLeft {
-  from {
-    transform: translate3d(-100dvw, 0, 0);
-    visibility: visible;
-  }
-  to {
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-}
-
 .nav-page {
   background: oklch(from var(--neutral) var(--900));
 
@@ -386,11 +375,26 @@ body {
 
   .sidebar {
     position: static;
-    visibility: hidden;
-    animation: slideInFromLeft 0.05s ease-out both;
+    visibility: visible;
+    /*animation: foldInFromBelow linear both;*/
+    /*animation-timeline: view();*/
+    /*animation-range: cover 0% cover 0%;*/
     z-index: 999;
   }
 }
+
+/*@keyframes foldInFromBelow {
+  from {
+    transform: translate3d(0, -100dvh, 0);
+    visibility: visible;
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+}*/
 
 .sidebar {
   background: var(--color-sidebar);
@@ -424,9 +428,6 @@ body {
       oklch(from var(--neutral) var(--100)),
       oklch(0.175 0 0)
     );
-    /*svg {
-      mix-blend-mode: plus-lighter;
-    }*/
   }
 }
 
@@ -504,21 +505,27 @@ body {
   font-size: var(--font-size-3);
 }
 
+img.full-bleed {
+  min-width: 100vw;
+}
+
 .full-bleed {
-  min-width: 100dvw;
-  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .hero-img-active {
-  .hero-img {
-    object-fit: cover;
-    min-height: 50dvh;
-    max-height: 70dvh;
-    margin-top: 2.5rem;
-  }
   .title-header {
     margin-top: 2rem;
   }
+}
+
+.hero-img {
+  object-fit: cover;
+  min-height: 50dvh;
+  max-height: 70dvh;
+  margin-top: 2.5rem;
 }
 
 button,
@@ -888,7 +895,7 @@ page-content {
 .stories {
   display: grid;
   position: relative;
-  padding: 0 20px;
+  padding: 0 10px;
   list-style: none;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
@@ -1373,20 +1380,6 @@ p img {
 
 .full-size-text {
   align-self: center;
-}
-
-.full-width {
-  position: relative;
-  width: calc(100dvw + 20px);
-  margin-left: calc(50% - 50dvw);
-
-  @media screen and (min-width: 600px) {
-    margin-left: calc(50% - 53dvw);
-  }
-}
-
-img.full-width {
-  min-width: calc(100dvw + 20px);
 }
 
 /*

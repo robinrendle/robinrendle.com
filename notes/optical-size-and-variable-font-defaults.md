@@ -13,11 +13,11 @@ Choosing a font is always a problem of size. Sure, you want to pick a serif or a
 
 Here’s an example: Warbler Display vs. [Warbler Text](https://djr.com/notes/warbler-text-font-of-the-month). You can see below that at the same size, the Display version is nigh-on unreadable when compared to Text.
 
-<img src="/images/display-versus-text.webp" alt="An example of Warbler Display and Text versions side by side at really small size, showing how the Display version is basically unreadable" class="full-width" />
+<img src="/images/display-versus-text.webp" alt="An example of Warbler Display and Text versions side by side at really small size, showing how the Display version is basically unreadable" class="full-bleed" />
 
 It’s so thin and fragile! My eyes refuse to read it at that size. But at larger sizes, the opposite is true. All those fine details of Warbler Display that are lost become visible and crisp whereas Warbler Text (on the right) now feels too thick and clunky at this size...
 
-<img src="/images/display-size.webp" alt=" Now an example of both typefaces at a much larger size" class="full-width" />
+<img src="/images/display-size.webp" alt=" Now an example of both typefaces at a much larger size" class="full-bleed" />
 
 Why? Typefaces have to be designed for a certain size or a range of sizes. So, in the past, whenever you’re setting text, you’d need to be careful picking the right font depending on whatever it was that you were designing. That’s why so many type families will have micro, text, book, display, and banner variants.
 
