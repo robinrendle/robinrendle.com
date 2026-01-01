@@ -1,0 +1,11 @@
+---
+pagination:
+  data: allPhotos
+  size: 1
+  alias: photo
+permalink: "{{ photo.url }}"
+layout: layouts/photo.njk
+tags: photos
+eleventyComputed:
+  title: "{{ photo.filename }}"
+---

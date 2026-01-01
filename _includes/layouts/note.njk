@@ -1,32 +1,5 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
 ---
 
-{%- set notes = collections.notes | reverse -%}
-{%- set currentIndex = -1 -%}
-{%- for post in notes -%}
-  {%- if post.url == page.url -%}
-    {%- set currentIndex = loop.index0 -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- set nextPost = notes[currentIndex + 1] if currentIndex >= 0 and currentIndex + 1 < notes.length else null -%}
-
-<article class="note-article" data-url="{{ page.url }}" data-title="{{ title }}" data-next-url="{% if nextPost %}{{ nextPost.url }}{% endif %}" data-time="{{ page.date | dinkyDate }}" data-datetime="{{ page.date | htmlDateString }}">
-
-  {% if heroImg %}
-    <img src="{{ heroImg }}" alt="{{ title }}" class="hero-img full-bleed">
-  {% endif %}
-
-  <header class="title-header">
-    <h1>{{ title }}</h1>
-  </header>
-
-  <div class="prose flow">
-    {{ content | safe }}
-  </div>
-</article>
-
-<div id="infinite-scroll-loader" style="display: none; text-align: center; padding: 2rem; color: var(--color-text-meta);">
-  Loading next post...
-</div>
+{{ content | safe }}

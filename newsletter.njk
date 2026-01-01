@@ -4,24 +4,19 @@ permalink: /newsletter/
 title: Newsletter
 ---
 
-    <header
-      <h2 class="text-title">Newsletter</h2>
-    </header>
-    <div class="prose flow">
-      <div class="newsletter">
-        <form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')">
-          <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="input-email" autocomplete="off" />
-          <input type="submit" value="Subscribe" class="input-submit">
-        </form>
-      </div>
-    <ol class="notes">
-      {% for post in collections.newsletter | reverse | head(8) %}
-        <li>
-          <a href="{{ post.url }}">
-            <h3>{{ post.data.title }}</h3>
-            <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
-          </a>
-        </li>
-      {% endfor %}
-    </ol>
-  </div>
+<!--<form action="https://buttondown.email/api/emails/embed-subscribe/robinrendle" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/robinrendle', 'popupwindow')">
+  <input type="email" name="email" id="bd-email" required="" placeholder="Email address" class="input-email" autocomplete="off" />
+  <input type="submit" value="Subscribe" class="input-submit">
+</form>-->
+
+
+<ol>
+  {% for post in collections.newsletter | reverse | head(8) %}
+    <li>
+      <a href="{{ post.url }}">
+        <h3>{{ post.data.title }}</h3>
+        <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
+      </a>
+    </li>
+  {% endfor %}
+</ol>

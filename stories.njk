@@ -2,17 +2,13 @@
 layout: layouts/base.njk
 permalink: /stories/
 title: Stories
-templateClass: no-footer
 ---
 
-<div class="title-header">
-  <h1 class="text-title">Stories</h1>
-</div>
-<ol class="stories">
+<ol>
 {% for post in collections.stories | reverse %}
     <li>
       <a href="{{ post.url }}">
-        <h3 class="visually-hidden">{{ post.data.title }}</h3>
+        <h3>{{ post.data.title }}</h3>
         <img src="/images/essays/home/{{ post.data.hero }}" alt="{{ post.data.alt }}">
       </a>
     </li>

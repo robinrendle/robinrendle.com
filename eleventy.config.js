@@ -47,6 +47,14 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MM/dd/yyyy");
   });
 
+  eleventyConfig.addFilter("time", (dateObj) => {
+    return new Intl.DateTimeFormat("en-US", {
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }).format(dateObj);
+  });
+
   eleventyConfig.addFilter("dinkyDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MM.dd.yyyy");
   });
@@ -54,6 +62,26 @@ module.exports = function (eleventyConfig) {
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
+
+  eleventyConfig.addFilter("gitCommitHash", function(filePath) {
+    // Access gitHashes from global data
+    const gitHashes = this.ctx.gitHashes || {};
+    const info = gitHashes[filePath] || gitHashes["./" + filePath];
+    if (info && typeof info === "object") {
+      return info.hash || "unknown";
+    }
+    return info || "unknown";
+  });
+
+  eleventyConfig.addFilter("gitCommitDate", function(filePath) {
+    // Access gitHashes from global data
+    const gitHashes = this.ctx.gitHashes || {};
+    const info = gitHashes[filePath] || gitHashes["./" + filePath];
+    if (info && typeof info === "object" && info.date) {
+      return new Date(info.date);
+    }
+    return null;
   });
 
   // Get the first `n` elements of a collection.
@@ -69,21 +97,13 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter("isActive", function (currentUrl, linkUrl) {
-    // Normalize trailing slashes
     const normalize = (url) => (url.endsWith("/") ? url : url + "/");
     currentUrl = normalize(currentUrl);
     linkUrl = normalize(linkUrl);
 
-    if (linkUrl === "/") {
-      // Only mark homepage as active when exactly on "/"
-      return currentUrl === "/" ? "active" : "";
-    }
-
-    // For other links, allow subpath matching
-    return currentUrl.startsWith(linkUrl) ? "active" : "";
+    return currentUrl === linkUrl ? "active" : "";
   });
 
-  // Return the smallest number argument
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
   });
@@ -105,11 +125,14 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("featured", function (collection) {
-    return collection.getAll().filter(function (item) {
-      return (item.data.tags || []).includes("featured");
-    }).sort(function (a, b) {
-      return a.date - b.date; // ascending order (oldest first)
-    });
+    return collection
+      .getAll()
+      .filter(function (item) {
+        return (item.data.tags || []).includes("featured");
+      })
+      .sort(function (a, b) {
+        return a.date - b.date; // ascending order (oldest first)
+      });
   });
 
   eleventyConfig.addCollection("newsletter", function (collection) {
@@ -126,6 +149,46 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection("cascade", function (collection) {
     return collection.getFilteredByGlob("the-cascade/*.md");
+  });
+
+  eleventyConfig.addCollection("photos", function (collection) {
+    return collection.getFilteredByGlob("photos/**/*.njk").filter((item) => {
+      return (
+        !item.inputPath.includes("photos/index.njk") &&
+        !item.inputPath.includes("plymouth.njk") &&
+        item.data.photo
+      );
+    });
+  });
+
+  eleventyConfig.addCollection("photoFolders", function (collection) {
+    const allPages = collection.getAll();
+    const folderResult = {};
+
+    allPages.forEach((page) => {
+      // Find photo detail pages (not index pages)
+      if (
+        page.url &&
+        page.url.startsWith("/photos/") &&
+        !page.url.endsWith("/photos/") &&
+        page.url.split("/").filter((p) => p).length === 3 &&
+        page.data.photo
+      ) {
+        const urlParts = page.url.split("/").filter((p) => p);
+        const folderName = urlParts[1];
+
+        if (!folderResult[folderName]) {
+          folderResult[folderName] = {
+            name: folderName.charAt(0).toUpperCase() + folderName.slice(1),
+            slug: folderName,
+            photos: [],
+          };
+        }
+        folderResult[folderName].photos.push(page);
+      }
+    });
+
+    return Object.values(folderResult);
   });
 
   // Create an array of all tags

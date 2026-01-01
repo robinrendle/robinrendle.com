@@ -1,0 +1,412 @@
+<style>
+  .navigator {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
+  }
+
+  .navigator.open {
+    display: block !important;
+  }
+
+  .navigator.closed {
+    display: none !important;
+  }
+
+  .navigator {
+    position: relative;
+    height: 100dvh;
+    overflow: scroll;
+
+    @media screen and (min-width: 768px) {
+      min-width: 300px;
+      width: 300px;
+    }
+  }
+
+  .navigator-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .directory {
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+  }
+
+  .directory .active {
+    background: red;
+  }
+
+  .list-item-wrapper {
+    list-style: none;
+  }
+
+  .list-item {
+    display: block;
+    white-space: nowrap;
+
+    a {
+      display: block;
+    }
+  }
+
+  .navigator-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const sidebar = document.querySelector('.navigator');
+
+    // Restore sidebar scroll position or scroll to active item
+    const savedScrollPos = sessionStorage.getItem('sidebarScrollPos');
+    if (savedScrollPos !== null) {
+      sidebar.scrollTop = parseInt(savedScrollPos, 10);
+    } else {
+      const activeItem = document.querySelector('.directory li.list-item .active');
+      if (activeItem) {
+        activeItem.scrollIntoView({ block: 'start', behavior: 'instant' });
+      }
+    }
+
+    // Prevent details toggle when clicking summary links
+    document.querySelectorAll('.directory summary').forEach(summary => {
+      summary.addEventListener('click', (e) => {
+        if (e.target.tagName === 'A' || e.target.closest('a')) {
+          e.preventDefault();
+          const link = e.target.tagName === 'A' ? e.target : e.target.closest('a');
+          window.location.href = link.href;
+        }
+      });
+    });
+
+    // Toggle details
+    const toggleButton = document.querySelector('.toggle-details');
+    if (toggleButton) {
+      toggleButton.addEventListener('click', () => {
+        const allDetails = document.querySelectorAll('.directory details');
+        const anyOpen = Array.from(allDetails).some(details => details.open);
+
+        allDetails.forEach(details => {
+          details.open = !anyOpen;
+        });
+      });
+    }
+
+    // Toggle sidebar with localStorage persistence and responsive behavior
+    const breakpoint = 768;
+
+    function isSmallScreen() {
+      return window.innerWidth < breakpoint;
+    }
+
+    // Restore sidebar state based on screen size
+    function restoreSidebarState() {
+      const smallScreenOpen = localStorage.getItem('sidebarOpenSmall');
+      const largeScreenClosed = localStorage.getItem('sidebarClosedLarge');
+
+      // Clear both classes first
+      sidebar.classList.remove('open', 'closed');
+
+      if (isSmallScreen()) {
+        // On small screens, closed by default unless explicitly opened
+        if (smallScreenOpen === 'true') {
+          sidebar.classList.add('open');
+        }
+      } else {
+        // On large screens, open by default unless explicitly closed
+        if (largeScreenClosed === 'true') {
+          sidebar.classList.add('closed');
+        }
+      }
+    }
+
+    restoreSidebarState();
+
+    // Toggle and save state based on screen size
+    document.querySelectorAll('.toggle-sidebar').forEach(button => {
+      button.addEventListener('click', () => {
+        if (isSmallScreen()) {
+          sidebar.classList.toggle('open');
+          const isOpen = sidebar.classList.contains('open');
+          localStorage.setItem('sidebarOpenSmall', isOpen);
+        } else {
+          sidebar.classList.toggle('closed');
+          const isClosed = sidebar.classList.contains('closed');
+          localStorage.setItem('sidebarClosedLarge', isClosed);
+        }
+      });
+    });
+
+    // Handle window resize - restore state when crossing breakpoint
+    let wasSmallScreen = isSmallScreen();
+    window.addEventListener('resize', () => {
+      const nowSmallScreen = isSmallScreen();
+      if (wasSmallScreen !== nowSmallScreen) {
+        restoreSidebarState();
+        wasSmallScreen = nowSmallScreen;
+      }
+    });
+
+    // Save scroll position when clicking any link in sidebar
+    document.querySelectorAll('.navigator a').forEach(link => {
+      link.addEventListener('click', () => {
+        sessionStorage.setItem('sidebarScrollPos', sidebar.scrollTop);
+      });
+    });
+
+    // Close sidebar on mobile after clicking a link
+    sidebar.addEventListener('click', (e) => {
+      const link = e.target.closest('a');
+      if (link && isSmallScreen()) {
+        e.preventDefault();
+        sidebar.classList.remove('open');
+        localStorage.setItem('sidebarOpenSmall', 'false');
+        // Navigate after updating state
+        setTimeout(() => {
+          window.location.href = link.href;
+        }, 0);
+      }
+    });
+
+    // Navigate between sidebar items with left/right buttons
+    function getNavigableItems() {
+      const items = [];
+      const directory = document.querySelector('.directory');
+
+      // Get all direct children of directory (links and details)
+      directory.childNodes.forEach(node => {
+        if (node.nodeType === Node.ELEMENT_NODE) {
+          if (node.tagName === 'A') {
+            items.push(node);
+          } else if (node.tagName === 'DETAILS') {
+            // Add the summary link
+            const summaryLink = node.querySelector('summary a');
+            if (summaryLink) {
+              items.push(summaryLink);
+            }
+
+            // If details is open, add all child links
+            if (node.open) {
+              const childLinks = node.querySelectorAll('ol > li > a, ol > li > details');
+              childLinks.forEach(item => {
+                if (item.tagName === 'A') {
+                  items.push(item);
+                } else if (item.tagName === 'DETAILS') {
+                  const detailSummaryLink = item.querySelector('summary a');
+                  if (detailSummaryLink) {
+                    items.push(detailSummaryLink);
+                  }
+                  if (item.open) {
+                    const nestedLinks = item.querySelectorAll('ol > li > a');
+                    nestedLinks.forEach(link => items.push(link));
+                  }
+                }
+              });
+            }
+          }
+        }
+      });
+
+      return items;
+    }
+
+    function navigateToItem(direction) {
+      const items = getNavigableItems();
+      const currentActive = document.querySelector('.directory .active');
+
+      if (!currentActive || items.length === 0) return;
+
+      const currentIndex = items.indexOf(currentActive);
+      if (currentIndex === -1) return;
+
+      let nextIndex;
+      if (direction === 'left') {
+        nextIndex = currentIndex - 1;
+        if (nextIndex < 0) nextIndex = items.length - 1; // Wrap to end
+      } else {
+        nextIndex = currentIndex + 1;
+        if (nextIndex >= items.length) nextIndex = 0; // Wrap to start
+      }
+
+      const nextItem = items[nextIndex];
+      if (nextItem && nextItem.href) {
+        sessionStorage.setItem('sidebarScrollPos', sidebar.scrollTop);
+        window.location.href = nextItem.href;
+      }
+    }
+
+    // Attach navigation to buttons
+    const leftButton = document.querySelector('.toggle-left');
+    const rightButton = document.querySelector('.toggle-right');
+
+    if (leftButton) {
+      leftButton.addEventListener('click', () => navigateToItem('left'));
+    }
+
+    if (rightButton) {
+      rightButton.addEventListener('click', () => navigateToItem('right'));
+    }
+
+    // Search functionality
+    const searchInput = document.querySelector('.navigator-footer input');
+    const directory = document.querySelector('.directory');
+    let noResultsMessage = null;
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+
+        // Remove existing no results message
+        if (noResultsMessage) {
+          noResultsMessage.remove();
+          noResultsMessage = null;
+        }
+
+        if (query === '') {
+          // Reset: show all items and restore original details state
+          directory.querySelectorAll('a, details, li').forEach(el => {
+            el.style.display = '';
+          });
+          return;
+        }
+
+        // Open all details when searching
+        directory.querySelectorAll('details').forEach(details => {
+          details.open = true;
+        });
+
+        let hasResults = false;
+
+        // Search through all links
+        directory.querySelectorAll('a').forEach(link => {
+          const text = link.textContent.toLowerCase();
+          const listItem = link.closest('li');
+
+          if (text.includes(query)) {
+            link.style.display = '';
+            if (listItem) listItem.style.display = '';
+            hasResults = true;
+          } else {
+            link.style.display = 'none';
+            if (listItem) listItem.style.display = 'none';
+          }
+        });
+
+        // Hide empty details sections
+        directory.querySelectorAll('details').forEach(details => {
+          const visibleLinks = Array.from(details.querySelectorAll('a')).filter(
+            a => a.style.display !== 'none'
+          );
+          if (visibleLinks.length === 0) {
+            details.style.display = 'none';
+          } else {
+            details.style.display = '';
+          }
+        });
+
+        // Show "nah mate, nothin here" if no results
+        if (!hasResults) {
+          noResultsMessage = document.createElement('div');
+          noResultsMessage.textContent = 'nah mate, nothin here';
+          noResultsMessage.style.padding = '1rem';
+          directory.appendChild(noResultsMessage);
+        }
+      });
+    }
+  });
+</script>
+
+<section class="navigator">
+  <section class="navigator-header">
+    <a href="/">Robin Rendle</a> / v19
+    <button class="toggle-details">Details</button>
+    <button class="toggle-sidebar">Sidebar</button>
+  </section>
+
+  <nav class="directory">
+    <a href="/" class="{{ page.url | isActive('/') }}">README</a>
+    <details {% if page.url.startsWith('/notes/') and page.url != '/notes/' %}open{% endif %}>
+      <summary>
+        <a href="/notes" class="{{ page.url | isActive('/notes') }}">Notes</a>
+      </summary>
+      <ol class="list-item-wrapper">
+        {% for post in collections.notes | reverse %}
+          <li class="list-item">
+            <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
+              <h3>{{ post.data.title }}</h3>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </details>
+    <details {% if page.url.startsWith('/stories/') and page.url != '/stories/' %}open{% endif %}>
+      <summary>
+        <a href="/stories" class="{{ page.url | isActive('/stories') }}">Stories</a>
+      </summary>
+      <ol class="list-item-wrapper">
+        {% for post in collections.stories | reverse %}
+          <li class="list-item">
+            <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
+              <h3>{{ post.data.title }}</h3>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </details>
+    <details {% if page.url.startsWith('/newsletter/') and page.url != '/newsletter/' %}open{% endif %}>
+      <summary>
+        <a href="/newsletter" class="{{ page.url | isActive('/newsletter') }}">Newsletter</a>
+      </summary>
+      <ol class="list-item-wrapper">
+        {% for post in collections.newsletter | reverse %}
+          <li class="list-item">
+            <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
+              <h3>{{ post.data.title }}</h3>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </details>
+    <details {% if page.url.startsWith('/photos/') and page.url != '/photos/' %}open{% endif %}>
+      <summary>
+        <a href="/photos" class="{{ page.url | isActive('/photos') }}">Photos</a>
+      </summary>
+      <ol class="list-item-wrapper">
+        {% for folder in photoNav %}
+          <li class="list-item">
+            <details {% if page.url.startsWith('/photos/' + folder.slug + '/') and page.url != '/photos/' + folder.slug + '/' %}open{% endif %}>
+              <summary>
+                <a href="/photos/{{ folder.slug }}/" class="{{ page.url | isActive('/photos/' + folder.slug) }}">{{ folder.name }}</a>
+              </summary>
+              <ol class="list-item-wrapper">
+                {% for photo in folder.photos %}
+                  <li class="list-item">
+                    <a href="{{ photo.url }}" class="{{ page.url | isActive(photo.url) }}">
+                      {{ photo.title }}
+                    </a>
+                  </li>
+                {% endfor %}
+              </ol>
+            </details>
+          </li>
+        {% endfor %}
+      </ol>
+    </details>
+  </nav>
+
+  <section class="navigator-footer">
+    <input type="text" placeholder="Search...">
+  </section>
+</section>

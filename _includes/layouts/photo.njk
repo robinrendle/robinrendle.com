@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+
+<picture>
+  {% for format, images in photo.metadata %}
+    <source type="image/{{ format }}" srcset="{{ images[1].url }}">
+  {% endfor %}
+  <img src="{{ photo.metadata.jpeg[1].url }}" alt="{{ title }}">
+</picture>
