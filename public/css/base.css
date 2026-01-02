@@ -7,7 +7,6 @@
 
 :root {
   color-scheme: light dark;
-  --flow-space: clamp(1.2rem, 3vw, 1.4rem);
 
   --font-mono:
     "MD IO", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas,
@@ -21,19 +20,76 @@
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
 
-  --primary: oklch(0.7 0.1 210);
-  --neutral: oklch(90% 0 0);
-
   --neutral-100: light-dark(#fcfcfd, #111113);
-  /*--neutral-200: #F9F9FB;
-  --neutral-300: #EFF0F3;
-  --neutral-400: oklch(60% 0 0);
-  --neutral-500: oklch(50% 0 0);
-  --neutral-600: oklch(40% 0 0);
-  --neutral-700: oklch(30% 0 0);
-  --neutral-750: oklch(25% 0 0);
-  --neutral-800: oklch(20% 0 0);
-  --neutral-900: oklch(0% 0 0);*/
+  --neutral-200: light-dark(#f9f9fb, #19191b);
+  --neutral-300: light-dark(#eff0f3, #222325);
+  --neutral-400: light-dark(#e7e8ec, #292a2e);
+  --neutral-500: light-dark(#e0e1e6, #303136);
+  --neutral-600: light-dark(#d8d9e0, #393a3f);
+  --neutral-700: light-dark(#cdced7, #46484f);
+  --neutral-800: light-dark(#b9bbc6, #5f606a);
+  --neutral-900: light-dark(#8b8d98, #6c6e79);
+  --neutral-1000: light-dark(#80828d, #797b86);
+  --neutral-1100: light-dark(#62636c, #b2b3bd);
+  --neutral-1200: light-dark(#1e1f24, #eeeef0);
+
+  --primary-100: light-dark(#fcfdfe, #10111c);
+  --primary-200: light-dark(#f6fafe, #111725);
+  --primary-300: light-dark(#eaf3ff, #172447);
+  --primary-400: light-dark(#dceaff, #1d2e61);
+  --primary-500: light-dark(#cbe0ff, #243a74);
+  --primary-600: light-dark(#b5d3ff, #2d4484);
+  --primary-700: light-dark(#9dc1fd, #375098);
+  --primary-800: light-dark(#7aa8f4, #3f5eb2);
+  --primary-900: light-dark(#0056d6, #3e63dd);
+  --primary-1000: light-dark(#0045c5, #3f5bb0);
+  --primary-1100: light-dark(#1c5ece, #92b4ff);
+  --primary-1200: light-dark(#132f5f, #d4e2ff);
+
+  --neutral-text-soft: var(--neutral-900);
+  --neutral-text-normal: var(--neutral-1100);
+  --neutral-text-contrast: var(--neutral-1200);
+  --neutral-border-soft: var(--neutral-500);
+  --neutral-border-normal: var(--neutral-600);
+  --neutral-border-contrast: var(--neutral-800);
+  --neutral-base-soft: var(--neutral-100);
+  --neutral-base-normal: var(--neutral-200);
+  --neutral-base-contrast: var(--neutral-300);
+  --neutral-highlight-soft: var(--neutral-400);
+  --neutral-highlight-normal: var(--neutral-500);
+  --neutral-highlight-contrast: var(--neutral-600);
+  --neutral-btn-normal: var(--neutral-400);
+  --neutral-btn-contrast: var(--neutral-700);
+
+  --primary-text-soft: var(--primary-900);
+  --primary-text-normal: var(--primary-1100);
+  --primary-text-contrast: var(--primary-1200);
+  --primary-border-soft: var(--primary-500);
+  --primary-border-normal: var(--primary-600);
+  --primary-border-contrast: var(--primary-800);
+  --primary-base-soft: var(--primary-100);
+  --primary-base-normal: var(--primary-200);
+  --primary-base-contrast: var(--primary-300);
+  --primary-highlight-soft: var(--primary-400);
+  --primary-highlight-normal: var(--primary-500);
+  --primary-highlight-contrast: var(--primary-600);
+  --primary-btn-normal: var(--primary-400);
+  --primary-btn-contrast: var(--primary-700);
+
+  --space-half: 0.25rem;
+  --space: 0.5rem;
+  --space-flow: 1.25rem;
+  --space-1: 1rem;
+  --space-2: 2rem;
+  --space-3: 3rem;
+
+  --space-chrome: 2.25rem;
+  --border-radius: 0.375rem;
+
+  --font-size-base: 1rem;
+  --font-size-1: 0.75rem;
+  --font-size-2: 0.875rem;
+  --font-size-3: 0.9375rem;
 }
 
 @view-transition {
@@ -105,7 +161,7 @@ body {
   position: relative;
   font-size: 100%;
   font-family: var(--font-sans);
-  color: var(--color-text);
+  color: var(--neutral-text-normal);
   line-height: 1.45;
   text-decoration-skip-ink: auto;
   font-optical-sizing: auto;
@@ -162,20 +218,25 @@ video {
   width: 100%;
 }
 
+.btn svg {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
 figure {
   margin: 0;
 }
 
 .title-sidebar-btn {
   display: block;
+  margin-right: var(--space);
 }
 
-/* Hide button when sidebar is open on mobile */
 .navigator.open ~ .file .title-sidebar-btn {
   display: none;
 }
 
-/* Hide button when sidebar is open on desktop (not closed) */
 @media screen and (min-width: 768px) {
   .navigator:not(.closed) ~ .file .title-sidebar-btn {
     display: none;
@@ -196,6 +257,78 @@ main {
   height: 100dvh;
   min-height: 100dvh;
   padding-bottom: 100px;
+  background: var(--neutral-base-soft);
+  position: relative;
+  font-size: var(--font-size-3);
+
+  &.note {
+    padding-top: 24px;
+    padding-left: var(--space-3);
+    font-family: var(--font-mono);
+    color: var(--neutral-text-contrast);
+
+    blockquote {
+      color: var(--neutral-text-normal);
+    }
+
+    ul,
+    ol {
+      padding-left: var(--space-2);
+    }
+
+    a {
+      text-decoration-color: var(--neutral-text-soft);
+
+      &:hover {
+        text-decoration-color: var(--neutral-text-contrast);
+      }
+    }
+
+    hr {
+      border: none;
+      padding: var(--space) 0;
+
+      &:before {
+        height: 40px;
+        content: "–––";
+        display: block;
+        width: 100%;
+        color: var(--neutral-text-soft);
+      }
+    }
+
+    &:before {
+      padding-top: var(--space);
+      content: "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137";
+      font-family: var(--font-mono);
+      font-size: var(--font-size-2);
+      line-height: 1.75;
+      display: flex;
+      flex-direction: column;
+      color: var(--neutral-text-soft);
+      width: 1.5rem;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      text-align: right;
+      padding-right: var(--space-1);
+      padding-left: var(--space-1);
+    }
+
+    p,
+    ul,
+    ol {
+      max-width: 38rem;
+      margin-bottom: var(--space-flow);
+    }
+  }
+
+  .archive {
+  }
+
+  .photo {
+  }
 }
 
 .file-header {
@@ -204,28 +337,76 @@ main {
   z-index: 1;
   display: flex;
   align-items: center;
+  background: var(--neutral-base-normal);
+  border-bottom: 1px solid var(--neutral-border-soft);
+  border-top: 1px solid var(--neutral-border-soft);
+  color: var(--neutral-text-contrast);
+  font-size: var(--font-size-3);
+
+  min-height: var(--space-chrome);
+  height: var(--space-chrome);
+  padding-left: var(--space);
+  padding-right: var(--space);
 }
 
 .file-header-actions {
   display: flex;
   margin-left: auto;
+  gap: var(--space);
 }
 
-/**::selection {
-  background: var(--color-select-background);
-  color: var(--color-select-text);
+::selection {
+  background: var(--primary-highlight-normal);
 }
 *::-moz-selection {
-  background: var(--color-select-background);
-  color: var(--color-select-text);
+  background: var(--primary-highlight-normal);
 }
 *::-webkit-selection {
-  background: var(--color-select-background);
-  color: var(--color-select-text);
-}*/
+  background: var(--primary-highlight-normal);
+}
 
-.text-decoration-none {
+.btn {
+  background: var(--neutral-btn-normal);
+  color: var(--neutral-text-normal);
+  fill: var(--neutral-text-normal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  padding: var(--space-half) var(--space);
   text-decoration: none;
+  line-height: 1;
+  height: 24px;
+
+  &:hover {
+    background: var(--neutral-btn-contrast);
+    fill: var(--neutral-text-contrast);
+    color: var(--neutral-text-contrast);
+  }
+
+  svg {
+    pointer-events: none;
+  }
+}
+
+.btn-icon {
+  padding: var(--space-half);
+  width: 24px;
+  height: 24px;
+}
+
+.btn-subtle {
+  background: transparent;
+
+  &:hover {
+    background: var(--neutral-btn-normal);
+  }
+}
+
+.direct-link {
+  display: none;
 }
 
 /*
@@ -235,7 +416,6 @@ Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projec
 
 code[class*="language-"],
 pre[class*="language-"] {
-  border-radius: var(--radius-sm);
   font-family: var(--font-mono);
   font-size: clamp(0.85rem, 2vw, 0.95rem);
   line-height: 1.375;

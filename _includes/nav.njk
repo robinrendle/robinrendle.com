@@ -3,12 +3,12 @@
     display: none;
 
     @media screen and (min-width: 768px) {
-      display: block;
+      display: flex;
     }
   }
 
   .navigator.open {
-    display: block !important;
+    display: flex !important;
   }
 
   .navigator.closed {
@@ -16,57 +16,331 @@
   }
 
   .navigator {
+    flex-direction: column;
     position: relative;
     height: 100dvh;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background: var(--neutral-base-normal);
+    border-right: 1px solid var(--neutral-border-soft);
+    font-size: var(--font-size-3);
 
     @media screen and (min-width: 768px) {
-      min-width: 300px;
-      width: 300px;
+      min-width: 20rem;
+      width: 20rem;
     }
   }
 
   .navigator-header {
     position: sticky;
+    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    background: var(--neutral-base-normal);
+    border-top: 1px solid var(--neutral-border-soft);
+    border-bottom: 1px solid var(--neutral-border-soft);
+    font-size: var(--font-size-3);
+
+    min-height: var(--space-chrome);
+    height: var(--space-chrome);
+    padding-left: var(--space);
+    padding-right: var(--space);
+
+    a {
+      color: var(--neutral-text-contrast);
+      text-decoration: none;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  .navigator-header-profile {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: var(--space);
+    color: var(--neutral-text-soft);
+  }
+
+  .navigator-buttons {
+    display: flex;
+    gap: var(--space-half);
   }
 
   .directory {
     display: flex;
     flex-direction: column;
-    padding-top: 44px;
+    padding: var(--space-half);
+
+    a {
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        background: var(--neutral-highlight-normal);
+        color: var(--neutral-text-contrast);
+
+        iconcontainer svg {
+          fill: var(--neutral-text-contrast);
+        }
+      }
+    }
   }
 
-  .directory .active {
-    background: red;
+  .directory .active,
+  .directory .active:hover,
+  .directory .active:focus {
+    background: var(--primary-highlight-normal);
+    color: var(--primary-text-contrast);
+  }
+
+  .directory {
+    user-select: none;
+
+    details {
+      height: 1.75rem;
+      min-height: 1.75rem;
+      position: relative;
+      width: 100%;
+    }
+
+    details[open] {
+      top: 0;
+      height: initial;
+      min-height: initial;
+
+      details {
+        a {
+          padding-left: 24px;
+        }
+
+        .list-item a {
+          padding-left: 36px;
+        }
+      }
+
+      details[open] {
+        top: 1.75rem;
+      }
+    }
+  }
+
+  .list-item-group {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.75rem;
+    min-height: 1.75rem;
+
+    a {
+      height: 1.75rem;
+      min-height: 1.75rem;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      right: 0;
+      padding-left: 1rem;
+      padding-right: var(--space);
+      border-radius: var(--border-radius);
+    }
+  }
+
+  .list-item-group::before {
+    content: '';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 8px;
+    left: 2px;
+    height: 12px;
+    width: 12px;
+    z-index: 8;
+    cursor: pointer;
+    background-color: var(--neutral-text-soft);
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z'/%3E%3C/svg%3E");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+  }
+
+  details[open] > .list-item-group::before {
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z'/%3E%3C/svg%3E");
+  }
+
+  .list-item-group::marker {
+    color: transparent;
   }
 
   .list-item-wrapper {
+    display: flex;
+    flex-direction: column;
     list-style: none;
+    margin-top: 1.75rem;
+  }
+
+  .list-item-wrapper .list-item-group {
+    /* indent folders within folders*/
+    &:before {
+      left: 10px;
+    }
+  }
+
+  details .list-item a {
+    padding-left: 24px;
   }
 
   .list-item {
-    display: block;
+    display: flex;
     white-space: nowrap;
+    height: 1.75rem;
+    min-height: 1.75rem;
+    align-items: center;
+    width: 100%;
+    position: relative;
 
     a {
-      display: block;
+      border-radius: var(--border-radius);
+      padding-left: 1rem;
+      padding-right: var(--space);
+      text-decoration: none;
+      height: 100%;
+      align-items: center;
+      width: 100%;
+      min-width: 100%;
+      z-index: 5;
+      text-overflow: ellipsis;
+
+      h3 {
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+    }
+
+    .list-item {
+      a {
+        padding-left: var(--space-3);
+      }
+    }
+  }
+
+
+  iconcontainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    top: 2px;
+
+    h3 {
+      position: relative;
+      top: 1px;
+    }
+
+    .active & {
+      svg {
+        fill: var(--primary-text-contrast);
+      }
+    }
+
+    svg {
+      position: relative;
+      top: 1px;
+      flex-shrink: 0;
+      fill: var(--neutral-text-normal);
     }
   }
 
   .navigator-footer {
-    position: fixed;
+    margin-top: auto;
+    position: sticky;
+    z-index: 999;
     bottom: 0;
     left: 0;
     right: 0;
+    border-top: 1px solid var(--neutral-border-soft);
+    background: var(--neutral-base-normal);
+    display: flex;
+    align-items: center;
+    gap: var(--space-half);
+    padding-left: var(--space-half);
+
+    min-height: var(--space-chrome);
+    height: var(--space-chrome);
+    padding-left: var(--space);
+    padding-right: var(--space);
+
+    svg {
+      pointer-events: none;
+      fill: var(--neutral-text-soft);
+    }
+
+    input {
+      width: 100%;
+      padding: 0;
+      outline: none;
+      display: flex;
+      align-items: center;
+      background: transparent;
+      border: none;
+    }
   }
 </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    // Dark mode toggle
+    const darkModeButton = document.querySelector('.toggle-dark-mode');
+    const darkModeIcon = darkModeButton ? darkModeButton.querySelector('use') : null;
+    const html = document.documentElement;
+
+    function updateDarkModeIcon(scheme) {
+      if (!darkModeIcon) return;
+
+      if (scheme === 'dark') {
+        darkModeIcon.setAttribute('href', '#sun');
+      } else {
+        darkModeIcon.setAttribute('href', '#moon');
+      }
+    }
+
+    // Restore dark mode preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      html.style.colorScheme = 'dark';
+      updateDarkModeIcon('dark');
+    } else if (savedTheme === 'light') {
+      html.style.colorScheme = 'light';
+      updateDarkModeIcon('light');
+    }
+
+    if (darkModeButton) {
+      darkModeButton.addEventListener('click', () => {
+        const currentScheme = html.style.colorScheme;
+
+        if (currentScheme === 'dark') {
+          html.style.colorScheme = 'light';
+          localStorage.setItem('theme', 'light');
+          updateDarkModeIcon('light');
+        } else {
+          html.style.colorScheme = 'dark';
+          localStorage.setItem('theme', 'dark');
+          updateDarkModeIcon('dark');
+        }
+      });
+    }
+
     const sidebar = document.querySelector('.navigator');
 
     // Restore sidebar scroll position or scroll to active item
@@ -173,7 +447,7 @@
         e.preventDefault();
         sidebar.classList.remove('open');
         localStorage.setItem('sidebarOpenSmall', 'false');
-        // Navigate after updating state
+
         setTimeout(() => {
           window.location.href = link.href;
         }, 0);
@@ -185,11 +459,15 @@
       const items = [];
       const directory = document.querySelector('.directory');
 
-      // Get all direct children of directory (links and details)
+      // Get all direct children of directory (divs and details)
       directory.childNodes.forEach(node => {
         if (node.nodeType === Node.ELEMENT_NODE) {
-          if (node.tagName === 'A') {
-            items.push(node);
+          if (node.classList && node.classList.contains('list-item')) {
+            // It's a div.list-item - get the link inside
+            const link = node.querySelector('a');
+            if (link) {
+              items.push(link);
+            }
           } else if (node.tagName === 'DETAILS') {
             // Add the summary link
             const summaryLink = node.querySelector('summary a');
@@ -330,71 +608,125 @@
 
 <section class="navigator">
   <section class="navigator-header">
-    <a href="/">Robin Rendle</a> / v19
-    <button class="toggle-details">Details</button>
-    <button class="toggle-sidebar">Sidebar</button>
+    <div class="navigator-header-profile">
+      <img height="20" width="20" src="/images/me/avatar.png" alt="Robin Rendle" />
+      <a href="/">Robin Rendle</a> / v19
+    </div>
+
+    <div class="navigator-buttons">
+      <button class="btn btn-icon btn-subtle toggle-details" aria-label="Toggle Folders" type="button">
+        <svg height="20" width="20"><use href="#arrows-out-line-vertical"></use></svg>
+      </button>
+      <button class="btn btn-icon btn-subtle toggle-sidebar" aria-label="Toggle Sidebar" type="button">
+        <svg height="30" width="30"><use href="#sidebar-simple"></use></svg>
+      </button>
+    </div>
   </section>
 
   <nav class="directory">
-    <a href="/" class="{{ page.url | isActive('/') }}">README</a>
+    <div class="list-item">
+      <a href="/" class="{{ page.url | isActive('/') }}">
+        <iconcontainer>
+          <svg class="icon" height="18" width="18"><use href="#file-md"></use></svg>
+          <h3>README</h3>
+        </iconcontainer>
+      </a>
+    </div>
     <details {% if page.url.startsWith('/notes/') and page.url != '/notes/' %}open{% endif %}>
-      <summary>
-        <a href="/notes" class="{{ page.url | isActive('/notes') }}">Notes</a>
+      <summary class="list-item-group">
+        <a href="/notes" class="{{ page.url | isActive('/notes') }}">
+          <iconcontainer>
+            <svg class="icon" height="18" width="18"><use href="#folder"></use></svg>
+            <h3>Notes</h3>
+          </iconcontainer>
+        </a>
       </summary>
       <ol class="list-item-wrapper">
         {% for post in collections.notes | reverse %}
           <li class="list-item">
             <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
-              <h3>{{ post.data.title }}</h3>
+              <iconcontainer>
+                <svg class="icon" height="18" width="18"><use href="#note"></use></svg>
+                <h3>{{ post.data.title }}</h3>
+              </iconcontainer>
             </a>
           </li>
         {% endfor %}
       </ol>
     </details>
     <details {% if page.url.startsWith('/stories/') and page.url != '/stories/' %}open{% endif %}>
-      <summary>
-        <a href="/stories" class="{{ page.url | isActive('/stories') }}">Stories</a>
+      <summary class="list-item-group">
+        <a href="/stories" class="{{ page.url | isActive('/stories') }}">
+          <iconcontainer>
+            <svg class="icon" height="18" width="18"><use href="#folder"></use></svg>
+          <h3>Stories</h3>
+          </iconcontainer>
+        </a>
       </summary>
       <ol class="list-item-wrapper">
         {% for post in collections.stories | reverse %}
           <li class="list-item">
             <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
-              <h3>{{ post.data.title }}</h3>
+              <iconcontainer>
+                <svg class="icon" height="18" width="18"><use href="#scroll"></use></svg>
+                <h3>{{ post.data.title }}</h3>
+              </iconcontainer>
             </a>
           </li>
         {% endfor %}
       </ol>
     </details>
     <details {% if page.url.startsWith('/newsletter/') and page.url != '/newsletter/' %}open{% endif %}>
-      <summary>
-        <a href="/newsletter" class="{{ page.url | isActive('/newsletter') }}">Newsletter</a>
+      <summary class="list-item-group">
+        <a href="/newsletter" class="{{ page.url | isActive('/newsletter') }}">
+          <iconcontainer>
+            <svg class="icon" height="18" width="18"><use href="#folder"></use></svg>
+            <h3>Newsletter</h3>
+          </iconcontainer>
+        </a>
       </summary>
       <ol class="list-item-wrapper">
         {% for post in collections.newsletter | reverse %}
           <li class="list-item">
             <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
-              <h3>{{ post.data.title }}</h3>
+              <iconcontainer>
+                <svg class="icon" height="18" width="18"><use href="#envelope-simple"></use></svg>
+                <h3>{{ post.data.title }}</h3>
+              </iconcontainer>
             </a>
           </li>
         {% endfor %}
       </ol>
     </details>
     <details {% if page.url.startsWith('/photos/') and page.url != '/photos/' %}open{% endif %}>
-      <summary>
-        <a href="/photos" class="{{ page.url | isActive('/photos') }}">Photos</a>
+      <summary class="list-item-group">
+        <a href="/photos" class="{{ page.url | isActive('/photos') }}">
+          <iconcontainer>
+            <svg class="icon" height="18" width="18"><use href="#folder"></use></svg>
+            <h3>Photos</h3>
+          </iconcontainer>
+        </a>
       </summary>
       <ol class="list-item-wrapper">
         {% for folder in photoNav %}
           <li class="list-item">
             <details {% if page.url.startsWith('/photos/' + folder.slug + '/') and page.url != '/photos/' + folder.slug + '/' %}open{% endif %}>
-              <summary>
-                <a href="/photos/{{ folder.slug }}/" class="{{ page.url | isActive('/photos/' + folder.slug) }}">{{ folder.name }}</a>
+              <summary class="list-item-group">
+                <a href="/photos/{{ folder.slug }}/" class="{{ page.url | isActive('/photos/' + folder.slug) }}">
+                  <iconcontainer>
+                    <svg class="icon" height="18" width="18"><use href="#folder"></use></svg>
+                    <h3>{{ folder.name }}</h3>
+                  </iconcontainer>
+                </a>
               </summary>
               <ol class="list-item-wrapper">
                 {% for photo in folder.photos %}
                   <li class="list-item">
                     <a href="{{ photo.url }}" class="{{ page.url | isActive(photo.url) }}">
-                      {{ photo.title }}
+                      <iconcontainer>
+                        <svg class="icon" height="18" width="18"><use href="#image"></use></svg>
+                        <h3>{{ photo.title }}</h3>
+                      </iconcontainer>
                     </a>
                   </li>
                 {% endfor %}
@@ -407,6 +739,7 @@
   </nav>
 
   <section class="navigator-footer">
-    <input type="text" placeholder="Search...">
+    <svg height="18" width="18"><use href="#magnifying-glass"></use></svg>
+    <input type="text" placeholder="Search">
   </section>
 </section>

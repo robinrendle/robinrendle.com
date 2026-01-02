@@ -7,10 +7,19 @@
     background: white;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid var(--neutral-border-soft);
+    background: var(--neutral-base-normal);
+    font-size: var(--font-size-3);
+
+    min-height: var(--space-chrome);
+    height: var(--space-chrome);
+    padding-left: var(--space);
+    padding-right: var(--space);
   }
 
   .content-footer-info {
     display: flex;
+    gap: var(--space);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -25,13 +34,24 @@
   <ul class="content-footer-info">
     {% set commitDate = page.inputPath | gitCommitDate %}
     {% if commitDate %}
-    <li><time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | shortDate }}</time></li>
-    <li><time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | time }}</time></li>
+    <li>
+      <svg height="18" width="18"><use href="#git-commit"></use></svg>
+      <time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | shortDate }}</time>
+    </li>
+    <li>
+      <svg height="18" width="18"><use href="#clock"></use></svg>
+      <time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | time }}</time>
+    </li>
     {% else %}
     <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | shortDate }}</time></li>
     <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | time }}</time></li>
     {% endif %}
-    <li><a href="https://github.com/robinrendle/robinrendle.com/commit/{{ page.inputPath | gitCommitHash }}" target="_blank" rel="noopener">{{ page.inputPath | gitCommitHash }}</a></li>
+    <li>
+      <a href="https://github.com/robinrendle/robinrendle.com/commit/{{ page.inputPath | gitCommitHash }}" target="_blank" rel="noopener">
+        <svg height="18" width="18"><use href="#git-commit"></use></svg>
+        {{ page.inputPath | gitCommitHash }}
+      </a>
+    </li>
   </ul>
-  <a href="mailto:robin@robinrendle.com">Email</a>
+  <a class="btn" href="mailto:robin@robinrendle.com">Email</a>
 </footer>
