@@ -4,10 +4,25 @@ title: Photos
 template: photo
 ---
 
-{% for folder in photoNav %}
-  {% for photo in folder.photos %}
-    <a class="gallery-item" href="{{ photo.url }}">
-      <img class="gallery-img" src="{{ photo.src }}" alt="{{ photo.title }}">
-    </a>
+<style>
+  .grid-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+
+    picture {
+      display: flex;
+      height: 100%;
+    }
+  }
+</style>
+
+<section class="grid-photos">
+  {% for folder in photoNav | reverse %}
+    {% for photo in folder.photos | reverse %}
+      <a class="gallery-item" href="{{ photo.url }}">
+        <img class="gallery-img" src="{{ photo.src }}" alt="{{ photo.title }}">
+      </a>
+    {% endfor %}
   {% endfor %}
-{% endfor %}
+</section>
