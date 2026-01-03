@@ -72,6 +72,10 @@
     align-items: center;
     gap: var(--space);
     color: var(--neutral-text-soft);
+
+    picture {
+      display: flex;
+    }
   }
 
   .navigator-buttons {
@@ -132,7 +136,8 @@
       }
 
       details[open] {
-        top: 1.75rem;
+        position: static;
+        top: auto;
       }
     }
   }
@@ -207,7 +212,6 @@
   .list-item {
     display: flex;
     white-space: nowrap;
-    height: 1.75rem;
     min-height: 1.75rem;
     align-items: center;
     width: 100%;
@@ -224,6 +228,7 @@
       min-width: 100%;
       z-index: 5;
       text-overflow: ellipsis;
+      height: 1.75rem;
 
       h3 {
         display: flex;
@@ -299,6 +304,21 @@
       align-items: center;
       background: transparent;
       border: none;
+    }
+  }
+
+  .directory.searching {
+    .filtered-out {
+      display: none;
+    }
+    .list-item-group {
+      display: none;
+    }
+    .list-item-wrapper {
+      margin-top: 0;
+    }
+    .list-item a {
+      padding-left: var(--space) !important;
     }
   }
 </style>
@@ -605,8 +625,8 @@
         if (query === '') {
           // Reset: show all items and restore original details state
           directory.classList.remove('searching', 'no-results');
-          directory.querySelectorAll('a, details, li').forEach(el => {
-            el.style.display = '';
+          directory.querySelectorAll('li, details').forEach(el => {
+            el.classList.remove('filtered-out');
           });
           return;
         }
@@ -621,30 +641,31 @@
 
         let hasResults = false;
 
-        // Search through all links
+        // Search through all links (only filter individual items, not folders)
         directory.querySelectorAll('a').forEach(link => {
           const text = link.textContent.toLowerCase();
           const listItem = link.closest('li');
 
-          if (text.includes(query)) {
-            link.style.display = '';
-            if (listItem) listItem.style.display = '';
-            hasResults = true;
-          } else {
-            link.style.display = 'none';
-            if (listItem) listItem.style.display = 'none';
+          // Only filter items that are in <li> elements (not folder summaries)
+          if (listItem && !link.closest('summary')) {
+            if (text.includes(query)) {
+              listItem.classList.remove('filtered-out');
+              hasResults = true;
+            } else {
+              listItem.classList.add('filtered-out');
+            }
           }
         });
 
         // Hide empty details sections
         directory.querySelectorAll('details').forEach(details => {
-          const visibleLinks = Array.from(details.querySelectorAll('a')).filter(
-            a => a.style.display !== 'none'
+          const visibleLinks = Array.from(details.querySelectorAll('li')).filter(
+            li => !li.classList.contains('filtered-out')
           );
           if (visibleLinks.length === 0) {
-            details.style.display = 'none';
+            details.classList.add('filtered-out');
           } else {
-            details.style.display = '';
+            details.classList.remove('filtered-out');
           }
         });
 
@@ -666,7 +687,7 @@
 <section class="navigator">
   <section class="navigator-header">
     <div class="navigator-header-profile">
-      <img height="20" width="20" src="/images/me/avatar.png" alt="Robin Rendle" />
+      <img height="40" width="40" src="/images/me/avatar.png" alt="Robin Rendle" />
       <a href="/">Robin Rendle</a> / v19
     </div>
 
@@ -681,14 +702,16 @@
   </section>
 
   <nav class="directory">
-    <div class="list-item">
-      <a href="/" class="{{ page.url | isActive('/') }}">
-        <iconcontainer>
-          <svg class="icon" height="18" width="18"><use href="#file-md"></use></svg>
-          <h3>README</h3>
-        </iconcontainer>
-      </a>
-    </div>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      <li class="list-item">
+        <a href="/" class="{{ page.url | isActive('/') }}">
+          <iconcontainer>
+            <svg class="icon" height="18" width="18"><use href="#file-md"></use></svg>
+            <h3>README</h3>
+          </iconcontainer>
+        </a>
+      </li>
+    </ul>
     <details {% if page.url.startsWith('/notes/') and page.url != '/notes/' %}open{% endif %}>
       <summary class="list-item-group">
         <a href="/notes" class="{{ page.url | isActive('/notes') }}">
@@ -765,7 +788,7 @@
         </a>
       </summary>
       <ol class="list-item-wrapper">
-        {% for folder in photoNav %}
+        {% for folder in photoNav | reverse %}
           <li class="list-item">
             <details {% if page.url.startsWith('/photos/' + folder.slug + '/') and page.url != '/photos/' + folder.slug + '/' %}open{% endif %}>
               <summary class="list-item-group">
@@ -796,7 +819,7 @@
   </nav>
 
   <section class="navigator-footer">
-    <svg height="18" width="18"><use href="#magnifying-glass"></use></svg>
-    <input type="text" placeholder="Search">
+    <svg height="18" width="18"><use href="#funnel-simple"></use></svg>
+    <input type="text" placeholder="Filter">
   </section>
 </section>
