@@ -17,17 +17,21 @@
 
   .navigator {
     flex-direction: column;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
     height: 100dvh;
     overflow-x: hidden;
     overflow-y: scroll;
     background: var(--neutral-base-normal);
     border-right: 1px solid var(--neutral-border-soft);
     font-size: var(--font-size-3);
+    z-index: 999;
 
     @media screen and (min-width: 768px) {
-      min-width: 20rem;
-      width: 20rem;
+      min-width: var(--size-navigator);
+      width: var(--size-navigator);
     }
   }
 
@@ -46,8 +50,8 @@
     border-bottom: 1px solid var(--neutral-border-soft);
     font-size: var(--font-size-3);
 
-    min-height: var(--space-chrome);
-    height: var(--space-chrome);
+    min-height: var(--size-chrome);
+    height: var(--size-chrome);
     padding-left: var(--space);
     padding-right: var(--space);
 
@@ -273,15 +277,16 @@
     background: var(--neutral-base-normal);
     display: flex;
     align-items: center;
-    gap: var(--space-half);
+    gap: var(--space);
     padding-left: var(--space-half);
 
-    min-height: var(--space-chrome);
-    height: var(--space-chrome);
+    min-height: var(--size-chrome);
+    height: var(--size-chrome);
     padding-left: var(--space);
     padding-right: var(--space);
 
     svg {
+      margin-left: var(--space-half);
       pointer-events: none;
       fill: var(--neutral-text-soft);
     }
@@ -365,6 +370,48 @@
       });
     });
 
+    // Restore details state from localStorage
+    function getDetailsKey(details) {
+      const link = details.querySelector('summary a');
+      return link ? link.getAttribute('href') : null;
+    }
+
+    function saveDetailsState() {
+      const state = {};
+      document.querySelectorAll('.directory details').forEach(details => {
+        const key = getDetailsKey(details);
+        if (key) {
+          state[key] = details.open;
+        }
+      });
+      localStorage.setItem('detailsState', JSON.stringify(state));
+    }
+
+    function restoreDetailsState() {
+      const savedState = localStorage.getItem('detailsState');
+      if (!savedState) return;
+
+      try {
+        const state = JSON.parse(savedState);
+        document.querySelectorAll('.directory details').forEach(details => {
+          const key = getDetailsKey(details);
+          if (key && state.hasOwnProperty(key)) {
+            details.open = state[key];
+          }
+        });
+      } catch (e) {
+        console.error('Failed to restore details state:', e);
+      }
+    }
+
+    // Restore state on page load
+    restoreDetailsState();
+
+    // Save state whenever a details element is toggled
+    document.querySelectorAll('.directory details').forEach(details => {
+      details.addEventListener('toggle', saveDetailsState);
+    });
+
     // Toggle details
     const toggleButton = document.querySelector('.toggle-details');
     if (toggleButton) {
@@ -375,6 +422,9 @@
         allDetails.forEach(details => {
           details.open = !anyOpen;
         });
+
+        // Save the new state after toggling all
+        saveDetailsState();
       });
     }
 
@@ -554,11 +604,15 @@
 
         if (query === '') {
           // Reset: show all items and restore original details state
+          directory.classList.remove('searching', 'no-results');
           directory.querySelectorAll('a, details, li').forEach(el => {
             el.style.display = '';
           });
           return;
         }
+
+        // Add searching class
+        directory.classList.add('searching');
 
         // Open all details when searching
         directory.querySelectorAll('details').forEach(details => {
@@ -594,12 +648,15 @@
           }
         });
 
-        // Show "nah mate, nothin here" if no results
+        // Add/remove no-results class and show message
         if (!hasResults) {
+          directory.classList.add('no-results');
           noResultsMessage = document.createElement('div');
           noResultsMessage.textContent = 'nah mate, nothin here';
           noResultsMessage.style.padding = '1rem';
           directory.appendChild(noResultsMessage);
+        } else {
+          directory.classList.remove('no-results');
         }
       });
     }
@@ -690,7 +747,7 @@
           <li class="list-item">
             <a href="{{ post.url }}" class="{{ page.url | isActive(post.url) }}">
               <iconcontainer>
-                <svg class="icon" height="18" width="18"><use href="#envelope-simple"></use></svg>
+                <svg class="icon" height="18" width="18"><use href="#note"></use></svg>
                 <h3>{{ post.data.title }}</h3>
               </iconcontainer>
             </a>

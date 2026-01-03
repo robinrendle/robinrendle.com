@@ -1,14 +1,14 @@
 {
-  "name": "robinrendlev2",
-  "version": "1.0.0",
+  "name": "robinrendle",
+  "version": "19.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx @11ty/eleventy",
+    "build": "NODE_OPTIONS='--max-old-space-size=8192' npx @11ty/eleventy",
     "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve",
+    "watch": "NODE_OPTIONS='--max-old-space-size=8192' npx @11ty/eleventy --watch",
+    "serve": "NODE_OPTIONS='--max-old-space-size=8192' npx @11ty/eleventy --serve",
+    "start": "NODE_OPTIONS='--max-old-space-size=8192' npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx @11ty/eleventy"
   },
   "author": {
@@ -19,7 +19,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-bundle": "^1.0.4",

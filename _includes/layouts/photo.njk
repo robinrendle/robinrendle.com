@@ -3,9 +3,6 @@ layout: layouts/base.njk
 template: photo
 ---
 
-<picture>
-  {% for format, images in photo.metadata %}
-    <source type="image/{{ format }}" srcset="{{ images[1].url }}">
-  {% endfor %}
-  <img src="{{ photo.metadata.jpeg[1].url }}" alt="{{ title }}">
-</picture>
+<div class="gallery-item">
+  <img class="gallery-img" src="{{ photo.src }}" alt="{{ title }}">
+</div>

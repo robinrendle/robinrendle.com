@@ -5,6 +5,13 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "MD IO";
+  src: url("/fonts/md-io/MDIO-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+
 :root {
   color-scheme: light dark;
 
@@ -82,8 +89,13 @@
   --space-1: 1rem;
   --space-2: 2rem;
   --space-3: 3rem;
+  --space-4: 4rem;
+  --space-5: 5rem;
 
-  --space-chrome: 2.25rem;
+  --size-navigator: 20rem;
+  --size-content-width: 40rem;
+  --size-chrome: 2.25rem;
+
   --border-radius: 0.375rem;
 
   --font-size-base: 1rem;
@@ -156,7 +168,7 @@ html {
 }
 
 body {
-  background: var(--color-surface);
+  background: var(--neutral-base-contrast);
   overflow-x: hidden;
   position: relative;
   font-size: 100%;
@@ -168,9 +180,6 @@ body {
   font-variant-ligatures: common-ligatures no-discretionary-ligatures
     no-historical-ligatures contextual;
   font-kerning: normal;
-  min-height: 100dvh;
-  height: 100dvh;
-  overflow: hidden;
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -202,35 +211,36 @@ h5 {
   width: 1px;
 }
 
-hr {
-}
-
-blockquote {
-  padding: 0 20px 0;
-  font-style: normal;
-  border-left: 2px solid var(--color-border);
-}
-
 iframe,
 img,
 video {
   max-width: 100%;
   width: 100%;
-}
-
-.btn svg {
-  width: 30px;
-  height: 30px;
-  display: block;
+  height: auto;
 }
 
 figure {
   margin: 0;
 }
 
+figcaption {
+  color: var(--neutral-text-soft);
+  margin-top: 3px;
+
+  a {
+    color: inherit;
+    text-decoration-color: var(--neutral-text-soft);
+
+    &:hover,
+    &:focus {
+      text-decoration-color: var(--neutral-text-soft) !important;
+    }
+  }
+}
+
 .title-sidebar-btn {
   display: block;
-  margin-right: var(--space);
+  margin-right: var(--space-half);
 }
 
 .navigator.open ~ .file .title-sidebar-btn {
@@ -247,33 +257,53 @@ figure {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100dvh;
   position: relative;
-  overflow: hidden;
+  padding-top: var(--size-chrome);
+
+  @media screen and (min-width: 768px) {
+    .navigator:not(.closed) ~ & {
+      margin-left: var(--size-navigator);
+    }
+  }
 }
 
 main {
-  overflow: scroll;
-  height: 100dvh;
-  min-height: 100dvh;
-  padding-bottom: 100px;
+  padding-bottom: 2.2rem;
   background: var(--neutral-base-soft);
-  position: relative;
   font-size: var(--font-size-3);
+  min-height: 100dvh;
 
   &.note {
-    padding-top: 24px;
-    padding-left: var(--space-3);
+    padding-top: 1rem;
+    padding-left: 3.2rem;
     font-family: var(--font-mono);
     color: var(--neutral-text-contrast);
+    position: relative;
+
+    .content-area {
+      position: relative;
+    }
 
     blockquote {
       color: var(--neutral-text-normal);
+      padding: 0 1lh;
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    img {
+      border-radius: 4px;
     }
 
     ul,
     ol {
       padding-left: var(--space-2);
+
+      li::marker {
+        color: var(--neutral-text-soft);
+      }
     }
 
     a {
@@ -286,10 +316,13 @@ main {
 
     hr {
       border: none;
-      padding: var(--space) 0;
+      padding: 0;
+      margin-bottom: 1lh;
+      display: flex;
+      align-items: center;
 
       &:before {
-        height: 40px;
+        height: 1lh;
         content: "–––";
         display: block;
         width: 100%;
@@ -298,41 +331,76 @@ main {
     }
 
     &:before {
-      padding-top: var(--space);
-      content: "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137";
-      font-family: var(--font-mono);
-      font-size: var(--font-size-2);
-      line-height: 1.75;
+      content: "1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9\A 10\A 11\A 12\A 13\A 14\A 15\A 16\A 17\A 18\A 19\A 20\A 21\A 22\A 23\A 24\A 25\A 26\A 27\A 28\A 29\A 30\A 31\A 32\A 33\A 34\A 35\A 36\A 37\A 38\A 39\A 40\A 41\A 42\A 43\A 44\A 45\A 46\A 47\A 48\A 49\A 50\A 51\A 52\A 53\A 54\A 55\A 56\A 57\A 58\A 59\A 60\A 61\A 62\A 63\A 64\A 65\A 66\A 67\A 68\A 69\A 70\A 71\A 72\A 73\A 74\A 75\A 76\A 77\A 78\A 79\A 80\A 81\A 82\A 83\A 84\A 85\A 86\A 87\A 88\A 89\A 90\A 91\A 92\A 93\A 94\A 95\A 96\A 97\A 98\A 99\A 100\A 101\A 102\A 103\A 104\A 105\A 106\A 107\A 108\A 109\A 110\A 111\A 112\A 113\A 114\A 115\A 116\A 117\A 118\A 119\A 120\A 121\A 122\A 123\A 124\A 125\A 126\A 127\A 128\A 129\A 130\A 131\A 132\A 133\A 134\A 135\A 136\A 137\A 138\A 139\A 140\A 141\A 142\A 143\A 144\A 145\A 146\A 147\A 148\A 149\A 150\A 151\A 152\A 153\A 154\A 155\A 156\A 157\A 158\A 159\A 160\A 161\A 162\A 163\A 164\A 165\A 166\A 167\A 168\A 169\A 170\A 171\A 172\A 173\A 174\A 175\A 176\A 177\A 178\A 179\A 180\A 181\A 182\A 183\A 184\A 185\A 186\A 187\A 188\A 189\A 190\A 191\A 192\A 193\A 194\A 195\A 196\A 197\A 198\A 199\A 200\A 201\A 202\A 203\A 204\A 205\A 206\A 207\A 208\A 209\A 210\A 211\A 212\A 213\A 214\A 215\A 216\A 217\A 218\A 219\A 220\A 221\A 222\A 223\A 224\A 225\A 226\A 227\A 228\A 229\A 230\A 231\A 232\A 233\A 234\A 235\A 236\A 237\A 238\A 239\A 240\A 241\A 242\A 243\A 244\A 245\A 246\A 247\A 248\A 249\A 250\A 251\A 252\A 253\A 254\A 255\A 256\A 257\A 258\A 259\A 260\A 261\A 262\A 263\A 264\A 265\A 266\A 267\A 268\A 269\A 270\A 271\A 272\A 273\A 274\A 275\A 276\A 277\A 278\A 279\A 280\A 281\A 282\A 283\A 284\A 285\A 286\A 287\A 288\A 289\A 290\A 291\A 292\A 293\A 294\A 295\A 296\A 297\A 298\A 299\A 300\A 301\A 302\A 303\A 304\A 305\A 306\A 307\A 308\A 309\A 310\A 311\A 312\A 313\A 314\A 315\A 316\A 317\A 318\A 319\A 320\A 321\A 322\A 323\A 324\A 325\A 326\A 327\A 328\A 329\A 330\A 331\A 332\A 333\A 334\A 335\A 336\A 337\A 338\A 339\A 340\A 341\A 342\A 343\A 344\A 345\A 346\A 347\A 348\A 349\A 350\A 351\A 352\A 353\A 354\A 355\A 356\A 357\A 358\A 359\A 360\A 361\A 362\A 363\A 364\A 365\A 366\A 367\A 368\A 369\A 370\A 371\A 372\A 373\A 374\A 375\A 376\A 377\A 378\A 379\A 380\A 381\A 382\A 383\A 384\A 385\A 386\A 387\A 388\A 389\A 390\A 391\A 392\A 393\A 394\A 395\A 396\A 397\A 398\A 399\A 400\A 401\A 402\A 403\A 404\A 405\A 406\A 407\A 408\A 409\A 410\A 411\A 412\A 413\A 414\A 415\A 416\A 417\A 418\A 419\A 420\A 421\A 422\A 423\A 424\A 425\A 426\A 427\A 428\A 429\A 430\A 431\A 432\A 433\A 434\A 435\A 436\A 437\A 438\A 439\A 440\A 441\A 442\A 443\A 444\A 445\A 446\A 447\A 448\A 449\A 450\A 451\A 452\A 453\A 454\A 455\A 456\A 457\A 458\A 459\A 460\A 461\A 462\A 463\A 464\A 465\A 466\A 467\A 468\A 469\A 470\A 471\A 472\A 473\A 474\A 475\A 476\A 477\A 478\A 479\A 480\A 481\A 482\A 483\A 484\A 485\A 486\A 487\A 488\A 489\A 490\A 491\A 492\A 493\A 494\A 495\A 496\A 497\A 498\A 499\A 500\A 501\A 502\A 503\A 504\A 505\A 506\A 507\A 508\A 509\A 510\A 511\A 512\A 513\A 514\A 515\A 516\A 517\A 518\A 519\A 520\A 521\A 522\A 523\A 524\A 525\A 526\A 527\A 528\A 529\A 530\A 531\A 532\A 533\A 534\A 535\A 536\A 537\A 538\A 539\A 540\A 541\A 542\A 543\A 544\A 545\A 546\A 547\A 548\A 549\A 550\A 551\A 552\A 553\A 554\A 555\A 556\A 557\A 558\A 559\A 560\A 561\A 562\A 563\A 564\A 565\A 566\A 567\A 568\A 569\A 570\A 571\A 572\A 573\A 574\A 575\A 576\A 577\A 578\A 579\A 580\A 581\A 582\A 583\A 584\A 585\A 586\A 587\A 588\A 589\A 590\A 591\A 592\A 593\A 594\A 595\A 596\A 597\A 598\A 599\A 600\A 601\A 602\A 603\A 604\A 605\A 606\A 607\A 608\A 609\A 610\A 611\A 612\A 613\A 614\A 615\A 616\A 617\A 618\A 619\A 620\A 621\A 622\A 623\A 624\A 625\A 626\A 627\A 628\A 629\A 630\A 631\A 632\A 633\A 634\A 635\A 636\A 637\A 638\A 639\A 640\A 641\A 642\A 643\A 644\A 645\A 646\A 647\A 648\A 649\A 650\A 651\A 652\A 653\A 654\A 655\A 656\A 657\A 658\A 659\A 660\A 661\A 662\A 663\A 664\A 665\A 666\A 667\A 668\A 669\A 670\A 671\A 672\A 673\A 674\A 675\A 676\A 677\A 678\A 679\A 680\A 681\A 682\A 683\A 684\A 685\A 686\A 687\A 688\A 689\A 690\A 691\A 692\A 693\A 694\A 695\A 696\A 697\A 698\A 699\A 700";
+      width: 32px;
       display: flex;
-      flex-direction: column;
-      color: var(--neutral-text-soft);
-      width: 1.5rem;
       position: absolute;
-      left: 0;
-      top: 0;
+      top: 1rem;
+      left: 6px;
       bottom: 0;
+      color: var(--neutral-text-soft);
+      opacity: 0.5;
+      white-space: pre-line;
       text-align: right;
-      padding-right: var(--space-1);
-      padding-left: var(--space-1);
+      font-family: var(--font-mono);
+      font-size: 1em;
+      line-height: 1.45;
+      padding-right: 12px;
+      overflow: hidden;
     }
 
     p,
     ul,
-    ol {
-      max-width: 38rem;
-      margin-bottom: var(--space-flow);
+    ol,
+    figure,
+    pre,
+    blockquote {
+      max-width: var(--size-content-width);
+      margin-bottom: 1lh;
+    }
+
+    h2,
+    h3 {
+      margin-bottom: 1lh;
+    }
+
+    pre[class*="language-"] {
+      padding: 1lh;
+      background: var(--neutral-base-contrast);
+      color: var(--neutral-text-normal);
+      font-size: var(--font-size-3);
+      margin: 1lh 0;
     }
   }
 
   .archive {
   }
 
-  .photo {
+  &.photo {
+    background: var(--neutral-base-contrast);
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-1);
+    padding-bottom: var(--space-3);
+    gap: var(--space);
+
+    .gallery-item {
+      display: block;
+    }
+
+    .gallery-img {
+      object-fit: cover;
+      margin-bottom: 0;
+      width: 100%;
+      min-width: 100%;
+      border-radius: 4px;
+      height: auto;
+    }
   }
 }
 
 .file-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 1;
   display: flex;
@@ -342,11 +410,32 @@ main {
   border-top: 1px solid var(--neutral-border-soft);
   color: var(--neutral-text-contrast);
   font-size: var(--font-size-3);
-
-  min-height: var(--space-chrome);
-  height: var(--space-chrome);
+  min-height: var(--size-chrome);
+  height: var(--size-chrome);
   padding-left: var(--space);
   padding-right: var(--space);
+  width: 100%;
+
+  .navigator.closed ~ .file & {
+    h1 {
+      display: flex;
+      gap: 4px;
+      &:before {
+        position: relative;
+        content: "|";
+        display: block;
+        height: 20px;
+        width: 8px;
+        color: var(--neutral-text-soft);
+      }
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .navigator:not(.closed) ~ .file & {
+      width: calc(100% - var(--size-navigator));
+    }
+  }
 }
 
 .file-header-actions {
@@ -373,6 +462,7 @@ main {
   align-items: center;
   justify-content: center;
   border: none;
+  gap: var(--space-half);
   border-radius: var(--border-radius);
   cursor: pointer;
   padding: var(--space-half) var(--space);
@@ -409,6 +499,68 @@ main {
   display: none;
 }
 
+.archive-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, auto));
+}
+
+.archive-head,
+.archive-row {
+  gap: var(--space);
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+  border-bottom: 1px solid var(--neutral-border-soft);
+  padding: 0 var(--space);
+  align-items: center;
+  height: var(--size-chrome);
+}
+
+.archive-head {
+  position: sticky;
+  top: var(--size-chrome);
+  background: var(--neutral-base-normal);
+}
+
+.archive-row {
+  background: var(--neutral-base-soft);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    background: var(--neutral-base-contrast);
+    color: var(--neutral-text-contrast);
+  }
+}
+
+.archive-column {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.visited-marker {
+  display: flex;
+  align-items: center;
+  gap: var(--space);
+  &:before {
+    content: "";
+    display: block;
+    height: var(--space);
+    width: var(--space);
+    background: var(--primary-800);
+    border-radius: 50%;
+  }
+}
+
+.archive-row:visited .visited-marker:before {
+  background: var(--neutral-800);
+}
+
 /*
 Name: Duotone Dark
 Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
@@ -417,8 +569,7 @@ Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projec
 code[class*="language-"],
 pre[class*="language-"] {
   font-family: var(--font-mono);
-  font-size: clamp(0.85rem, 2vw, 0.95rem);
-  line-height: 1.375;
+  line-height: 1lh;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -439,30 +590,7 @@ pre[class*="language-"] {
 }
 
 pre[class*="language-"] {
-  padding-left: 50px !important;
-}
-
-pre[class*="language-"]:before {
-  content: "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100";
-  width: 32px;
-  position: absolute;
-  top: 1.02rem;
-  left: 8px;
-  bottom: 17px;
-  color: var(--color-text-meta);
-  opacity: 0.5;
-  white-space: pre-line;
-  overflow: hidden;
-  text-align: right;
-  font-family: var(--font-mono);
-  font-size: 1em;
-  line-height: 1.375;
-  padding-right: 12px;
-  z-index: 998;
-}
-
-pre > code[class*="language-"] {
-  font-size: 1em;
+  padding: 1lh;
 }
 
 pre[class*="language-"]::-moz-selection,
@@ -477,12 +605,6 @@ pre[class*="language-"] ::selection,
 code[class*="language-"]::selection,
 code[class*="language-"] ::selection {
   text-shadow: none;
-}
-
-pre[class*="language-"] {
-  padding: 1rem 1rem;
-  margin: calc(var(--flow-space) * 1.25) 0;
-  overflow: auto;
 }
 
 :not(pre) > code[class*="language-"] {
@@ -554,7 +676,4 @@ pre > code.highlight {
 
 code {
   font-family: var(--font-mono);
-  font-size: 85%;
-  padding: 2px 3px;
-  border-radius: 3px;
 }

@@ -35,8 +35,6 @@ YOU’RE USING THE WRONG COLOR SPACE, BUD.
 
 Okay, fine. So which color space should I use? Again, this question also depends on what kind of gradient you want. [Here’s a demo](https://codepen.io/robinrendle/pen/yLGrRqR?editors=1100) I made whilst listening to Una and Adam that helped me visualize how all these color spaces express the same gradient—from blue to red—but in a completely different way:
 
-![CleanShot 2023-10-14 at 09.16.12@2x.png](https://buttondown.imgix.net/images/c43a1f79-491d-4d38-b3a2-736c5647d02b.png?w=960&fit=max)
-
 See how they all look and feel completely different? rgb is a bit muddy in the middle, hsl is pretty intense, lch isn’t as intense but takes longer to become red, lab has a pleasantly medium middle, olkch feels like what I’d expect to see in a gradient, and oklab is pretty desaturated in the center. There’s no “correct” way to interpolate a gradient which is frustrating but sometimes things are frustrating for a reason and you just have to sit down and learn how all these things work together.
 
 What color space would I pick for gradients? It depends. If I wanted my gradient to be vibrant, then I’d pick lch(). But in most cases I reckon I’m gonna stick with oklch.
@@ -92,8 +90,6 @@ For example here Adam inverts the colors of an element with just a single line o
 Wow this whole post is just a tribute to Adam, huh. How _dare_ he explain things in a way that makes it click for me.
 
 I didn’t truly realize how much I’d buried my head in the sand with all this stuff though until Una mentioned the [color-mix()](https://developer.chrome.com/blog/css-color-mix/) function in CSS. I had never even heard of this but it seems so very handy. It’s even got [pretty great browser support](https://caniuse.com/?search=color-mix), too. Here’s [another fantastic demo](https://codepen.io/web-dot-dev/pen/JjBZLrm) (this time by, ugh, Adam) of how color-mix() can take any two colors from any color space and blend them into a single color:
-
-![CleanShot 2023-10-14 at 09.02.42@2x.png](https://buttondown.imgix.net/images/449abe2d-7be6-40df-8e49-8c9b306dd087.png?w=960&fit=max)
 
 If you’re interested in learning more about what’s now possible with colors in CSS then I’d also highly recommend reading Brian Smith’s post about [everything new in CSS Colors Module Level 4](https://developer.mozilla.org/en-US/blog/css-color-module-level-4/).
 

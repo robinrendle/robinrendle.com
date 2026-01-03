@@ -1,7 +1,7 @@
 <style>
   .content-footer {
     display: flex;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background: white;
@@ -11,21 +11,36 @@
     background: var(--neutral-base-normal);
     font-size: var(--font-size-3);
 
-    min-height: var(--space-chrome);
-    height: var(--space-chrome);
+    min-height: var(--size-chrome);
+    height: var(--size-chrome);
     padding-left: var(--space);
     padding-right: var(--space);
+
+    @media screen and (min-width: 768px) {
+      .navigator:not(.closed) ~ .file & {
+        width: calc(100% - var(--size-navigator));
+      }
+    }
   }
 
   .content-footer-info {
     display: flex;
-    gap: var(--space);
+    gap: var(--space-1);
     list-style: none;
     margin: 0;
     padding: 0;
+    font-variant-numeric: tabular-nums;
 
     li {
-      display: block;
+      display: flex;
+      gap: var(--space-half);
+      align-items: center;
+      line-height: 1;
+      font-size: var(--font-size-2);
+
+      svg {
+        fill: var(--neutral-text-normal);
+      }
     }
   }
 </style>
@@ -35,23 +50,20 @@
     {% set commitDate = page.inputPath | gitCommitDate %}
     {% if commitDate %}
     <li>
-      <svg height="18" width="18"><use href="#git-commit"></use></svg>
-      <time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | shortDate }}</time>
+      <svg height="17" width="17"><use href="#calendar-blank"></use></svg>
+      <time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | dinkyDate }}</time>
     </li>
     <li>
-      <svg height="18" width="18"><use href="#clock"></use></svg>
+      <svg height="17" width="17"><use href="#clock"></use></svg>
       <time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | time }}</time>
     </li>
     {% else %}
-    <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | shortDate }}</time></li>
+    <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | dinkyDate }}</time></li>
     <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | time }}</time></li>
     {% endif %}
-    <li>
-      <a href="https://github.com/robinrendle/robinrendle.com/commit/{{ page.inputPath | gitCommitHash }}" target="_blank" rel="noopener">
-        <svg height="18" width="18"><use href="#git-commit"></use></svg>
-        {{ page.inputPath | gitCommitHash }}
-      </a>
-    </li>
   </ul>
-  <a class="btn" href="mailto:robin@robinrendle.com">Email</a>
+  <a class="btn btn-subtle" href="https://github.com/robinrendle/robinrendle.com/commit/{{ page.inputPath | gitCommitHash }}" target="_blank" rel="noopener">
+    <svg height="18" width="18"><use href="#git-commit"></use></svg>
+    {{ page.inputPath | gitCommitHash }}
+  </a>
 </footer>

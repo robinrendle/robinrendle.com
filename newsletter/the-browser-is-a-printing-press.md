@@ -7,11 +7,6 @@ country: California
 extract: Publisher first.
 ---
 
-<figure>
-  <img alt="Three-quarter view of a press for electrotype molds as marketed by Hoe & Co. in 1881 and priced at $325." src="https://buttondown.imgix.net/images/4911c11a-4f75-40a4-8520-acfda19149da.jpg?w=960&fit=max">
-<figcaption>Three-quarter view of a press for electrotype molds as marketed by Hoe & Co. in 1881 and priced at $325. <a href="https://www.oldbookillustrations.com/illustrations/press-electrotype-moulds/">Source</a>.</figcaption>
-</figure>
-
 Friends! 
 
 It’s been a hot minute and the last few weeks have been busy with blogging and redesigning my website and doing interviews. Let’s take a look:
@@ -25,11 +20,6 @@ Besides that I spotted three lovely typographic things for your perusal. The fir
 Okay, that was the round up. What else was going on in my noggin’ this week?
 
 ---
-
-<figure>
-<img alt="A few men sit around a print shop making things." src="https://buttondown.imgix.net/images/93f2aa88-c29a-447e-bfe6-ce88b8a8063e.jpg?w=960&fit=max" />
-<figcaption>A bunch of lads building a website together. <a href="https://www.oldbookillustrations.com/illustrations/dickinson-lorenz-machines/">Source</a></figcaption>
-</figure>
 
 So I’ve never seen myself as a designer or engineer or writer, but as a third thing. It’s sort of pompous and silly to call myself this word though, so I avoid it, but deep down it’s what I’m always thinking whenever someone asks what I do. But here, in this secret society of the newsletter, I will admit to you: 
 
@@ -46,8 +36,3 @@ Instead, there are browsers and browsers and browsers.
 
 Until next week, <br/>
 ✌️ Robin
-
-
-
-
-

@@ -9,8 +9,6 @@ extract: Or go to the damn library.
 
 Hi hi hi. [Robin](https://robinrendle.com) here.
 
-![sf.jpg](https://buttondown.imgix.net/images/32482220-f9eb-49f8-8fe4-e4573a657b86.jpg?w=960&fit=max)
-
 It’s Saturday. I’m up early, dressed, eated, walked. Now: under an awning outside my favorite cafe in the city, with the rain making a racket all around me. Who cares though? I’m deep in the stack of writing and CSS-ing and there’s simply no amount of screaming kids, howling dogs, or thundering rain that can stop me.
 
 I’m invincible right now because I’m building an archive.

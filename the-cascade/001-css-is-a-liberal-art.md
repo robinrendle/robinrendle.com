@@ -51,13 +51,9 @@ Okay, trigonometry is scarier to this here English student than any movie monste
 
 My first lazy thought before I saw any code was “wow, I will never use any of this stuff” but my second thought was “I bet Ana Tudor could do something punk rock with this.” And [I was right!](https://codepen.io/thebabydino/pen/wvybyMo)
 
-![2023-10-07 10.01.17.gif](https://buttondown-attachments.s3.us-west-2.amazonaws.com/images/da790edd-011a-4c14-bac4-4054e0602d97.gif?w=960&fit=max)
-
 Back in March, Bramus also wrote a great piece [with a bunch of examples](https://web.dev/css-trig-functions/) and it seems like trig functions in CSS are great for moving elements on a circular path or more video-gamey applications rather than common interface problems that we bump into every day. I can see it being super useful for fancy animations and data visualization, too.
 
 One example of this is Mads Stoumann’s nifty [animated clock](https://css-tricks.com/creating-a-clock-with-the-new-css-sin-and-cos-trigonometry-functions/):
-
-![CleanShot 2023-10-07 at 10.05.14@2x.png](https://buttondown.imgix.net/images/922d2a63-8d1e-463e-9c0c-b496178c072c.png?w=960&fit=max)
 
 Another another example I spotted whilst sweating bullets trying to understand what impact this has on the language was this post by Dan Wilson on [improving CSS shapes](https://danielcwilson.com/posts/css-shapes-with-trig-functions/). He argues that it’s not easy to create shapes with curves in CSS and that’s where trig functions come in handy.
 
@@ -73,8 +69,3 @@ That’s what makes CSS, well, CSS.
 
 See you in the cascade, <br />
 Robin
-
-<br />
-<br />
-<br />
-<br />

@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
@@ -8,10 +9,12 @@ const pluginBundle = require("@11ty/eleventy-plugin-bundle");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("fonts");
+  eleventyConfig.addPassthroughCopy("photos");
   eleventyConfig.addPassthroughCopy({ "public/robots.txt": "/robots.txt" });
 
   eleventyConfig.addPassthroughCopy({
@@ -22,6 +25,85 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginBundle);
+
+  // Image transform plugin for all images (photos, notes, etc.)
+  // In dev mode: processes images on-demand (fast rebuilds)
+  // In build mode: processes all images upfront (for production)
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+    formats: ["webp", "jpeg"],
+    widths: ["auto"],
+    urlPath: "/img/",
+    outputDir: "./_site/img/",
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+      alt: "", // Default empty alt if none provided
+    },
+    errorOnMissing: false, // Don't fail build on missing images
+    transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve", // On-demand in dev, upfront in production
+  });
+
+  // Global data: simple photo directory listing
+  eleventyConfig.addGlobalData("photoNav", () => {
+    const photosDir = path.join(__dirname, 'photos');
+    const folders = fs.readdirSync(photosDir).filter(item => {
+      const fullPath = path.join(photosDir, item);
+      return fs.statSync(fullPath).isDirectory();
+    });
+
+    const result = [];
+
+    for (const folder of folders) {
+      const folderPath = path.join(photosDir, folder);
+      const imageFiles = fs.readdirSync(folderPath).filter(file =>
+        [".jpg", ".jpeg", ".png", ".webp"].includes(
+          path.extname(file).toLowerCase()
+        )
+      );
+
+      const photos = [];
+      for (const file of imageFiles) {
+        const basename = path.basename(file, path.extname(file));
+        const slug = basename.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
+        photos.push({
+          filename: file,
+          title: file,
+          url: `/photos/${folder}/${slug}/`,
+          src: `/photos/${folder}/${file}`
+        });
+      }
+
+      if (photos.length > 0) {
+        result.push({
+          name: folder.charAt(0).toUpperCase() + folder.slice(1),
+          slug: folder,
+          photos: photos
+        });
+      }
+    }
+
+    return result;
+  });
+
+  // Global data: flatten all photos from all folders
+  eleventyConfig.addGlobalData("allPhotos", () => {
+    const photoNav = eleventyConfig.globalData.photoNav();
+    const allPhotos = [];
+
+    photoNav.forEach(folder => {
+      folder.photos.forEach(photo => {
+        allPhotos.push({
+          ...photo,
+          folderSlug: folder.slug,
+          folderName: folder.name
+        });
+      });
+    });
+
+    return allPhotos;
+  });
 
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
@@ -64,7 +146,7 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
   });
 
-  eleventyConfig.addFilter("gitCommitHash", function(filePath) {
+  eleventyConfig.addFilter("gitCommitHash", function (filePath) {
     // Access gitHashes from global data
     const gitHashes = this.ctx.gitHashes || {};
     const info = gitHashes[filePath] || gitHashes["./" + filePath];
@@ -74,7 +156,7 @@ module.exports = function (eleventyConfig) {
     return info || "unknown";
   });
 
-  eleventyConfig.addFilter("gitCommitDate", function(filePath) {
+  eleventyConfig.addFilter("gitCommitDate", function (filePath) {
     // Access gitHashes from global data
     const gitHashes = this.ctx.gitHashes || {};
     const info = gitHashes[filePath] || gitHashes["./" + filePath];

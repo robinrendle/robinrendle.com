@@ -5,12 +5,13 @@ pagination:
   alias: folder
 permalink: "/photos/{{ folder.slug }}/"
 layout: layouts/base.njk
+template: photo
 eleventyComputed:
   title: "{{ folder.name }}"
 ---
 
 {% for photo in folder.photos %}
-  <a href="{{ photo.url }}">
-    <img src="{{ photo.metadata.jpeg[0].url }}" alt="{{ photo.filename }}">
+  <a class="gallery-item" href="{{ photo.url }}">
+    <img class="gallery-img" src="{{ photo.src }}" alt="{{ photo.filename }}">
   </a>
 {% endfor %}

@@ -5,13 +5,17 @@ title: Notes
 template: archive
 ---
 
-<ol class="notes">
+<section class="archive-list">
+  <div class="archive-head">
+    <div class="archive-head-item">Title</div>
+    <div class="archive-head-item align-right">Published</div>
+  </div>
   {% for post in collections.notes | reverse %}
-    <li>
-      <a class="note-link" href="{{ post.url }}">
-        <h3>{{ post.data.title }}</h3>
-        <time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | shortDate }}</time>
-      </a>
-    </li>
+    <a class="archive-row" href="{{ post.url }}">
+        <div class="archive-column visited-marker">
+          {{ post.data.title }}
+        </div>
+        <div class="archive-column align-right"><time datetime="{{ post.data.date | htmlDateString }}">{{ post.data.date | dinkyDate }}</time></div>
+    </a>
   {% endfor %}
-</ol>
+</section>

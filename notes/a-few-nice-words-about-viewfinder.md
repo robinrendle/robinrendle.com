@@ -4,7 +4,7 @@ title: A Few Nice Words about Viewfinder
 date: 2025-09-20T16:11:19-07:00
 city: San Francisco
 country: California
-extract:
+extract: "The world is a big playground."
 tags:
   - videogames
 ---

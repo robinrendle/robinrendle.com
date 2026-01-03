@@ -11,8 +11,6 @@ tags:
 
 Today we saw [the Parthenon Sculptures](https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/parthenon-sculptures) in the British Museum in London. They are beautiful; 6000 year old marble panels which tell a comic book story of a Greek mythological war between Centaurs and Lapiths, with the gods watching from the stands.
 
-![A photograph of the Parthenon Sculptures](/images/img_9126-1.jpg)
-
 The British Museum is a difficult place to be, this room especially. You’re aware at all times that a theft took place and the spoils are on display. Standing in this breathtaking room, a genuine wonder of human engineering before you, yet you can’t really enjoy the experience. If you know how these handsome marble sculptures found their way to London and why they are on display here, then you cannot feel anything but anger.
 
 The marbles were stolen from the [Parthenon](https://en.wikipedia.org/wiki/Parthenon) in 1803 by Thomas Bruce, the 7th Earl of Elgin, in order to pay off his debts—and even this he screwed up, as he didn’t get back the money it took to steal them. Since then, the British Museum tends to describe the marbles as if they were rescued by a crack team of scientists under laboratory conditions, saviors of a national treasure, and not by a bunch of debt-riddled goons who then struggled to sell them off once they returned to London.
