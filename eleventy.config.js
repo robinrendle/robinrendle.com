@@ -12,7 +12,6 @@ const pluginNavigation = require("@11ty/eleventy-navigation");
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("photos");
   eleventyConfig.addPassthroughCopy({ "public/robots.txt": "/robots.txt" });
@@ -32,14 +31,21 @@ module.exports = function (eleventyConfig) {
     extensions: "html",
     formats: ["webp", "jpeg", "jpg", "png"],
     widths: ["auto"],
-    urlPath: "/img/",
+    urlPath: "/images/",
+    inputDir: ".",
     outputDir: "./_site/images/",
+    dryRun: false,
+    failOnError: false,
+    cacheOptions: {
+      duration: "4w", // Keep processed images for 4 weeks
+      directory: ".cache", // Matches the .cache folder in your screenshot
+      removeDotDontMerge: false,
+    },
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
       alt: "",
     },
-    transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve",
   });
 
   eleventyConfig.addGlobalData("photoNav", () => {
