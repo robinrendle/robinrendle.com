@@ -11,7 +11,7 @@ I’m happy with this here website for the first time in years. There’s still 
 
 Let’s take a look! First up, the new homepage:
 
-![A screenshot of the homepage](/images/homepage.webp)
+<!--![A screenshot of the homepage](/images/homepage.webp)-->
 
 Of everything here I’m most proud of this page, and it went through a bunch of different iterations before settling on this big wall of text. I kicked things off by asking what I can do with variable fonts since I’ve never used them for the site before and I spotted [HEX Franklin](https://hex.xyz/HEX_Franklin/) whilst writing [_Shadows_](http://localhost:8080/essays/in-praise-of-shadows/).
 

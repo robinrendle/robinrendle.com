@@ -388,9 +388,10 @@ main {
     gap: var(--space);
 
     .gallery-item {
-      display: block;
+      display: flex;
       height: 100%;
       object-fit: cover;
+      min-height: 100%;
     }
 
     .gallery-img {
