@@ -32,7 +32,7 @@ module.exports = function (eleventyConfig) {
     extensions: "html",
     formats: ["webp", "jpeg", "jpg", "png"],
     widths: ["auto"],
-    urlPath: "/images/",
+    urlPath: "/img/",
     outputDir: "./_site/images/",
     defaultAttributes: {
       loading: "lazy",
