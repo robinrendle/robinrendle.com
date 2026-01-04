@@ -8,7 +8,7 @@ template: photo
   .grid-photos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
+    gap: 2px;
 
     picture {
       display: flex;
@@ -19,9 +19,9 @@ template: photo
 
 <section class="grid-photos">
   {% for folder in photoNav | reverse %}
-    {% for photo in folder.photos | reverse %}
+    {% for photo in folder.photos %}
       <a class="gallery-item" href="{{ photo.url }}">
-        <img class="gallery-img" src="{{ photo.src }}" alt="{{ photo.title }}">
+        <img class="gallery-img" src="{{ photo.src }}" alt="{{ photo.title }}" width="400" height="auto">
       </a>
     {% endfor %}
   {% endfor %}
