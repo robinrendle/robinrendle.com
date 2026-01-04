@@ -38,12 +38,11 @@ module.exports = function (eleventyConfig) {
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
-      alt: "", // Default empty alt if none provided
+      alt: "",
     },
-    transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve", // On-demand in dev, upfront in production
+    transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve",
   });
 
-  // Global data: simple photo directory listing
   eleventyConfig.addGlobalData("photoNav", () => {
     const photosDir = path.join(__dirname, "photos");
     const folders = fs.readdirSync(photosDir).filter((item) => {
