@@ -379,9 +379,6 @@ main {
     }
   }
 
-  .archive {
-  }
-
   &.photo {
     background: var(--neutral-base-contrast);
     display: flex;
@@ -392,6 +389,8 @@ main {
 
     .gallery-item {
       display: block;
+      height: 100%;
+      object-fit: cover;
     }
 
     .gallery-img {
