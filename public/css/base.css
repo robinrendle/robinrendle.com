@@ -276,6 +276,7 @@ main {
   &.note {
     padding-top: 1rem;
     padding-left: 3.2rem;
+    padding-right: 2rem;
     font-family: var(--font-mono);
     color: var(--neutral-text-contrast);
     position: relative;
@@ -349,12 +350,17 @@ main {
       overflow: hidden;
     }
 
+    picture {
+      display: block;
+    }
+
     p,
     ul,
     ol,
     figure,
     pre,
-    blockquote {
+    blockquote,
+    picture {
       max-width: var(--size-content-width);
       margin-bottom: 1lh;
     }
@@ -416,6 +422,30 @@ main {
   padding-right: var(--space);
   width: 100%;
 
+  h1 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    &:before {
+      content: "";
+      position: relative;
+      display: block;
+      height: 12px;
+      width: 1px;
+      color: var(--neutral-text-soft);
+      background: var(--neutral-text-soft);
+      margin-right: 4px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .navigator:not(.closed) ~ .file & {
+      h1:before {
+        content: none;
+      }
+    }
+  }
+  /*
   .navigator.closed ~ .file & {
     h1 {
       display: flex;
@@ -429,7 +459,7 @@ main {
         color: var(--neutral-text-soft);
       }
     }
-  }
+  }*/
 
   @media screen and (min-width: 768px) {
     .navigator:not(.closed) ~ .file & {
