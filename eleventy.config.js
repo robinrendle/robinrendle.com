@@ -33,24 +33,20 @@ module.exports = function (eleventyConfig) {
     extensions: "html",
     formats: ["webp", "jpeg"],
     widths: ["auto"],
-    urlPath: "/img/",
-    outputDir: "./_site/img/",
+    urlPath: "/images/",
+    outputDir: "./_site/images/",
     defaultAttributes: {
       loading: "lazy",
       decoding: "async",
       alt: "", // Default empty alt if none provided
-    },
-    // Skip transformation for images in /images/ directory - they're already optimized
-    dryRun: (src) => {
-      return src.startsWith('/images/') || src.startsWith('images/');
     },
     transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve", // On-demand in dev, upfront in production
   });
 
   // Global data: simple photo directory listing
   eleventyConfig.addGlobalData("photoNav", () => {
-    const photosDir = path.join(__dirname, 'photos');
-    const folders = fs.readdirSync(photosDir).filter(item => {
+    const photosDir = path.join(__dirname, "photos");
+    const folders = fs.readdirSync(photosDir).filter((item) => {
       const fullPath = path.join(photosDir, item);
       return fs.statSync(fullPath).isDirectory();
     });
@@ -59,22 +55,24 @@ module.exports = function (eleventyConfig) {
 
     for (const folder of folders) {
       const folderPath = path.join(photosDir, folder);
-      const imageFiles = fs.readdirSync(folderPath).filter(file =>
-        [".jpg", ".jpeg", ".png", ".webp"].includes(
-          path.extname(file).toLowerCase()
-        )
-      );
+      const imageFiles = fs
+        .readdirSync(folderPath)
+        .filter((file) =>
+          [".jpg", ".jpeg", ".png", ".webp"].includes(
+            path.extname(file).toLowerCase(),
+          ),
+        );
 
       const photos = [];
       for (const file of imageFiles) {
         const basename = path.basename(file, path.extname(file));
-        const slug = basename.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+        const slug = basename.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
         photos.push({
           filename: file,
           title: file,
           url: `/photos/${folder}/${slug}/`,
-          src: `/photos/${folder}/${file}`
+          src: `/photos/${folder}/${file}`,
         });
       }
 
@@ -82,7 +80,7 @@ module.exports = function (eleventyConfig) {
         result.push({
           name: folder.charAt(0).toUpperCase() + folder.slice(1),
           slug: folder,
-          photos: photos
+          photos: photos,
         });
       }
     }
@@ -95,12 +93,12 @@ module.exports = function (eleventyConfig) {
     const photoNav = eleventyConfig.globalData.photoNav();
     const allPhotos = [];
 
-    photoNav.forEach(folder => {
-      folder.photos.forEach(photo => {
+    photoNav.forEach((folder) => {
+      folder.photos.forEach((photo) => {
         allPhotos.push({
           ...photo,
           folderSlug: folder.slug,
-          folderName: folder.name
+          folderName: folder.name,
         });
       });
     });
