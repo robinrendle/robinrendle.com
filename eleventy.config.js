@@ -40,7 +40,14 @@ module.exports = function (eleventyConfig) {
       decoding: "async",
       alt: "", // Default empty alt if none provided
     },
-    errorOnMissing: false, // Don't fail build on missing images
+    // Resolve image paths relative to the project root
+    resolveSourcePath: (src, outputPath) => {
+      // If path starts with /, it's relative to project root
+      if (src.startsWith('/')) {
+        return path.join(__dirname, src.slice(1));
+      }
+      return src;
+    },
     transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve", // On-demand in dev, upfront in production
   });
 
