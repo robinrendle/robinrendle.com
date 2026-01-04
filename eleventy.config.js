@@ -26,9 +26,21 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginBundle);
 
-  // In dev mode: processes images on-demand (fast rebuilds)
-  // In build mode: processes all images upfront (for production)
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+  // Image transform plugin - DISABLED
+  // Images in /images/ are already optimized and just need passthrough copy
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    extensions: "html",
+    formats: ["webp", "jpeg", "jpg", "png"],
+    widths: ["auto"],
+    urlPath: "/images/",
+    outputDir: "./_site/images/",
+    defaultAttributes: {
+      loading: "lazy",
+      decoding: "async",
+      alt: "",
+    },
+    transformOnRequest: process.env.ELEVENTY_RUN_MODE === "serve",
+  });
 
   eleventyConfig.addGlobalData("photoNav", () => {
     const photosDir = path.join(__dirname, "photos");

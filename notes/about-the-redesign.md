@@ -11,7 +11,7 @@ I’m happy with this here website for the first time in years. There’s still 
 
 Let’s take a look! First up, the new homepage:
 
-![A screenshot of the homepage](images/homepage.webp)
+![A screenshot of the homepage](./images/homepage.webp)
 
 Of everything here I’m most proud of this page, and it went through a bunch of different iterations before settling on this big wall of text. I kicked things off by asking what I can do with variable fonts since I’ve never used them for the site before and I spotted [HEX Franklin](https://hex.xyz/HEX_Franklin/) whilst writing [_Shadows_](http://localhost:8080/essays/in-praise-of-shadows/).
 
@@ -29,7 +29,7 @@ But for now, I’m happy with it.
 
 Next up: the about page.
 
-![A screenshot of the about page](images/about.webp)
+![A screenshot of the about page](./images/about.webp)
 
 Ugh. About pages are hard. What do people really need to know about me? Does anyone really want to read this stuff? I struggle with that all the time but I think about what I’d like to learn from my favorite web people and then try to jot that down; a simple black and white photograph to make the yellow borders stick out, write a bit about my previous work, describe what the site is. And that’s it.
 
@@ -41,13 +41,13 @@ There was a timeline here but that got scrapped. It was a cheesy breakdown of my
 
 Onto the notes page!
 
-![A screenshot of the notes page](images/notes.webp)
+![A screenshot of the notes page](./images/notes.webp)
 
 So this page definitely needs some love. I sort of want this to feel like an archive that allows spelunking, like diving into someone’s favorite music playlists and private files. I want it to feel personal and overwhelming! So searching and tagging and organizing these notes is really important but I just haven’t got round to building that stuff yet. For now this is just a simple reverse-chron list of every note I’ve written but I did manage to go through every note (100s now!) and update the tags for each one.
 
 To the essays page!
 
-![A screenshot of the essays page](images/essays.webp)
+![A screenshot of the essays page](./images/essays.webp)
 
 So I spent some time tidying this up last night. I love the idea that these essays are small lil books on the web, fancy pamphlets, [bootleg .mobi’s](https://www.robinrendle.com/notes/the-punk-rock-essay-machine/). I went through and read all these essays again to see which I should elevate as the official good stuff and I found a lot of them are embarrassing now. Shadows, Newsletters, Systems, and Futures still hold up—although Futures kinda goes off the deep end towards the midway point because I furiously wrote it from a hospital bed in a feverish panic.
 
