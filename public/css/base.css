@@ -417,6 +417,20 @@ main {
   }
 }
 
+.photo-single {
+  justify-content: center;
+
+  .gallery-item {
+    picture {
+      display: flex;
+
+      img {
+        object-fit: contain;
+      }
+    }
+  }
+}
+
 .file-header {
   position: fixed;
   top: 0;
