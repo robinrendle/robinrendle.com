@@ -58,8 +58,14 @@
       <time datetime="{{ commitDate | htmlDateString }}">{{ commitDate | time }}</time>
     </li>
     {% else %}
-    <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | dinkyDate }}</time></li>
-    <li><time datetime="{{ page.date | htmlDateString }}">{{ page.date | time }}</time></li>
+    <li>
+      <svg height="17" width="17"><use href="#calendar-blank"></use></svg>
+      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | dinkyDate }}</time>
+    </li>
+    <li>
+      <svg height="17" width="17"><use href="#clock"></use></svg>
+      <time datetime="{{ page.date | htmlDateString }}">{{ page.date | time }}</time>
+    </li>
     {% endif %}
   </ul>
   <a class="btn btn-subtle" href="https://github.com/robinrendle/robinrendle.com/commit/{{ page.inputPath | gitCommitHash }}" target="_blank" rel="noopener">
