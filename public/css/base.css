@@ -115,7 +115,7 @@ html {
   min-height: 100%;
 
   @media (pointer: coarse) {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
   }
 }
 
@@ -279,14 +279,15 @@ main {
 
   &.note {
     padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-family: var(--font-mono);
     color: var(--neutral-text-contrast);
     position: relative;
 
     @media screen and (min-width: 768px) {
       padding-left: 3.2rem;
+      padding-right: 2rem;
     }
 
     .content-area {
