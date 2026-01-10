@@ -425,6 +425,16 @@
     // Restore state on page load
     restoreDetailsState();
 
+    // Ensure folders containing the active page are always open
+    const activeLink = document.querySelector('.directory .active');
+    if (activeLink) {
+      let parent = activeLink.closest('details');
+      while (parent) {
+        parent.open = true;
+        parent = parent.parentElement.closest('details');
+      }
+    }
+
     // Save state whenever a details element is toggled
     document.querySelectorAll('.directory details').forEach(details => {
       details.addEventListener('toggle', saveDetailsState);
