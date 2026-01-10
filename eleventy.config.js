@@ -25,28 +25,30 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
   eleventyConfig.addPlugin(pluginBundle);
 
-  // Image transform plugin - DISABLED
-  // Images in /images/ are already optimized and just need passthrough copy
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    extensions: "html",
-    formats: ["webp", "jpeg", "jpg", "png"],
-    widths: ["auto"],
-    urlPath: "/images/",
-    inputDir: ".",
-    outputDir: "./_site/images/",
-    dryRun: false,
-    failOnError: false,
-    cacheOptions: {
-      duration: "4w", // Keep processed images for 4 weeks
-      directory: ".cache", // Matches the .cache folder in your screenshot
-      removeDotDontMerge: false,
-    },
-    defaultAttributes: {
-      loading: "lazy",
-      decoding: "async",
-      alt: "",
-    },
-  });
+  // Image transform plugin - Skip in dev mode for faster builds
+  // Only run image optimization in production builds
+  if (process.env.ELEVENTY_RUN_MODE !== "serve") {
+    eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+      extensions: "html",
+      formats: ["webp", "jpeg", "jpg", "png"],
+      widths: ["auto"],
+      urlPath: "/images/",
+      inputDir: ".",
+      outputDir: "./_site/images/",
+      dryRun: false,
+      failOnError: false,
+      cacheOptions: {
+        duration: "4w",
+        directory: ".cache",
+        removeDotDontMerge: false,
+      },
+      defaultAttributes: {
+        loading: "lazy",
+        decoding: "async",
+        alt: "",
+      },
+    });
+  }
 
   eleventyConfig.addGlobalData("photoNav", () => {
     const photosDir = path.join(__dirname, "photos");
