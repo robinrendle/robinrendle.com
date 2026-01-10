@@ -263,12 +263,12 @@ figcaption {
   flex-direction: column;
   position: relative;
   padding-top: var(--size-chrome);
-  transition: margin-left 0.3s ease-in-out;
-  will-change: margin-left;
+  transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
 
   @media screen and (min-width: 768px) {
     .navigator:not(.closed) ~ & {
       margin-left: var(--size-navigator);
+      width: calc(100% - var(--size-navigator));
     }
   }
 }
@@ -449,6 +449,7 @@ main {
   padding-left: var(--space);
   padding-right: var(--space);
   width: 100%;
+  transition: width 0.3s ease-in-out;
 
   h1 {
     display: flex;
