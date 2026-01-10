@@ -115,7 +115,7 @@ html {
   min-height: 100%;
 
   @media (pointer: coarse) {
-    font-size: 1.05rem;
+    font-size: 110%;
   }
 }
 
@@ -263,6 +263,8 @@ figcaption {
   flex-direction: column;
   position: relative;
   padding-top: var(--size-chrome);
+  transition: margin-left 0.3s ease-in-out;
+  will-change: margin-left;
 
   @media screen and (min-width: 768px) {
     .navigator:not(.closed) ~ & {
