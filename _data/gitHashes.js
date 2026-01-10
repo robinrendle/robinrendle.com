@@ -3,6 +3,11 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = function() {
+  // Skip in dev/serve mode for faster rebuilds
+  if (process.env.ELEVENTY_RUN_MODE === "serve") {
+    return {};
+  }
+
   const cacheFile = path.join(__dirname, ".git-hashes-cache.json");
 
   // Try to load existing cache
