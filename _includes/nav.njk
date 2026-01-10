@@ -1,21 +1,6 @@
 <style>
   .navigator {
-    display: none;
-
-    @media screen and (min-width: 768px) {
-      display: flex;
-    }
-  }
-
-  .navigator.open {
-    display: flex !important;
-  }
-
-  .navigator.closed {
-    display: none !important;
-  }
-
-  .navigator {
+    display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -30,11 +15,22 @@
     z-index: 999;
     width: 100dvw;
     max-width: 100dvw;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
 
     @media screen and (min-width: 768px) {
       min-width: var(--size-navigator);
       width: var(--size-navigator);
+      transform: translateX(0);
     }
+  }
+
+  .navigator.open {
+    transform: translateX(0);
+  }
+
+  .navigator.closed {
+    transform: translateX(-100%);
   }
 
   .navigator-header {
