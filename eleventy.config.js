@@ -141,11 +141,12 @@ module.exports = function (eleventyConfig) {
       hour: "numeric",
       minute: "2-digit",
       hour12: true,
+      timeZone: "America/Los_Angeles",
     }).format(dateObj);
   });
 
   eleventyConfig.addFilter("dinkyDate", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("MM.dd.yyyy");
+    return DateTime.fromJSDate(dateObj, { zone: "America/Los_Angeles" }).toFormat("MM.dd.yyyy");
   });
 
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
