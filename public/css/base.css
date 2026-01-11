@@ -113,9 +113,10 @@ html {
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
   min-height: 100%;
+  font-size: 110%;
 
-  @media (pointer: coarse) {
-    font-size: 110%;
+  @media screen and (min-width: 768px) {
+    font-size: 100%;
   }
 }
 
@@ -264,7 +265,9 @@ figcaption {
   position: relative;
   padding-top: var(--size-chrome);
   left: 0;
-  transition: left 0.3s ease-in-out, width 0.3s ease-in-out;
+  transition:
+    left 0.3s ease-in-out,
+    width 0.3s ease-in-out;
 
   @media screen and (min-width: 768px) {
     .navigator:not(.closed) ~ & {
@@ -406,7 +409,6 @@ main {
       display: flex;
       height: 100%;
       object-fit: cover;
-      min-height: 100%;
     }
 
     .gallery-img {
