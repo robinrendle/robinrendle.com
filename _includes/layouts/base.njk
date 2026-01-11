@@ -12,19 +12,16 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{title}}">
     <meta property="og:description" content="{{ extract | default(metadata.description) }}">
-    <meta property="og:image" content="">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: dark)">
     <meta name="fediverse:creator" content="@fonts@sfba.social">
-
     <link rel="icon" type="image/png" href="/images/favicons5/favicon-96x96.png" sizes="96x96"/>
     <link rel="icon" type="image/svg+xml" href="/images/favicons5/favicon.svg"/>
     <link rel="shortcut icon" href="/images/favicons5/favicon.ico"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons5/apple-touch-icon.png"/>
     <link rel="manifest" href="/images/favicons5/site.webmanifest"/>
     <link rel="alternate" type="application/rss+xml" title="Notes" href="/feed.xml">
-    <link rel="alternate" type="application/rss+xml" title="The Cascade" href="/cascadefeed.xml">
     <link rel="alternate" type="application/rss+xml" title="Personal newsletter" href="/newsletterfeed.xml">
     <link rel="alternate" type="application/rss+xml" title="Essays" href="/essayfeed.xml">
     {%- css %}{% include "public/css/base.css" %}{% endcss %}
@@ -34,7 +31,6 @@
   </head>
   <body>
     {% include "nav.njk" %}
-
     <svg style="display: none;" aria-hidden="true" width="0" height="0">
       <symbol id="caret-left" viewBox="0 0 256 256">
         <path d="M165.66,202.34a8,8,0,0,1-11.32,11.32l-80-80a8,8,0,0,1,0-11.32l80-80a8,8,0,0,1,11.32,11.32L91.31,128Z"></path>
@@ -91,7 +87,6 @@
         <path d="M200,136a8,8,0,0,1-8,8H64a8,8,0,0,1,0-16H192A8,8,0,0,1,200,136Zm32-56H24a8,8,0,0,0,0,16H232a8,8,0,0,0,0-16Zm-80,96H104a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16Z"></path>
       </symbol>
     </svg>
-
     <section class="file">
       <header class="file-header">
         <button class="btn btn-icon btn-subtle toggle-sidebar title-sidebar-btn" aria-label="Toggle Sidebar" type="button">
@@ -110,7 +105,6 @@
           </button>
         </div>
       </header>
-
       <main class="{{ template }}">
         {{ content | safe }}
       </main>
