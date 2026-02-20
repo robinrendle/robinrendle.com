@@ -25,6 +25,10 @@
     }
   }
 
+  .navigator.no-transition {
+    transition: none;
+  }
+
   .navigator.open {
     transform: translateX(0);
   }
@@ -181,6 +185,10 @@
     mask-position: center;
   }
 
+  .list-item-group::before:hover {
+    cursor: pointer;
+  }
+
   details[open] > .list-item-group::before {
     mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M216.49,104.49l-80,80a12,12,0,0,1-17,0l-80-80a12,12,0,0,1,17-17L128,159l71.51-71.52a12,12,0,0,1,17,17Z'/%3E%3C/svg%3E");
   }
@@ -197,7 +205,6 @@
   }
 
   .list-item-wrapper .list-item-group {
-    /* indent folders within folders*/
     &:before {
       left: 10px;
     }
@@ -319,11 +326,19 @@
       padding-left: var(--space) !important;
     }
   }
+
+  .no-results-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 100dvh;
+    width: 100%;
+  }
 </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    // Dark mode toggle
     const darkModeButton = document.querySelector('.toggle-dark-mode');
     const darkModeIcon = darkModeButton ? darkModeButton.querySelector('use') : null;
     const html = document.documentElement;
@@ -338,7 +353,6 @@
       }
     }
 
-    // Restore dark mode preference
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
       html.style.colorScheme = 'dark';
@@ -366,7 +380,6 @@
 
     const sidebar = document.querySelector('.navigator');
 
-    // Restore sidebar scroll position or scroll to active item
     const savedScrollPos = sessionStorage.getItem('sidebarScrollPos');
     if (savedScrollPos !== null) {
       sidebar.scrollTop = parseInt(savedScrollPos, 10);
@@ -377,7 +390,6 @@
       }
     }
 
-    // Prevent details toggle when clicking summary links
     document.querySelectorAll('.directory summary').forEach(summary => {
       summary.addEventListener('click', (e) => {
         if (e.target.tagName === 'A' || e.target.closest('a')) {
@@ -388,7 +400,6 @@
       });
     });
 
-    // Restore details state from localStorage
     function getDetailsKey(details) {
       const link = details.querySelector('summary a');
       return link ? link.getAttribute('href') : null;
@@ -422,10 +433,8 @@
       }
     }
 
-    // Restore state on page load
     restoreDetailsState();
 
-    // Ensure folders containing the active page are always open
     const activeLink = document.querySelector('.directory .active');
     if (activeLink) {
       let parent = activeLink.closest('details');
@@ -435,12 +444,10 @@
       }
     }
 
-    // Save state whenever a details element is toggled
     document.querySelectorAll('.directory details').forEach(details => {
       details.addEventListener('toggle', saveDetailsState);
     });
 
-    // Toggle details
     const toggleButton = document.querySelector('.toggle-details');
     if (toggleButton) {
       toggleButton.addEventListener('click', () => {
@@ -451,42 +458,59 @@
           details.open = !anyOpen;
         });
 
-        // Save the new state after toggling all
         saveDetailsState();
       });
     }
 
-    // Toggle sidebar with localStorage persistence and responsive behavior
     const breakpoint = 768;
 
     function isSmallScreen() {
       return window.innerWidth < breakpoint;
     }
 
-    // Restore sidebar state based on screen size
-    function restoreSidebarState() {
+    function restoreSidebarState(skipTransition = false) {
       const smallScreenOpen = localStorage.getItem('sidebarOpenSmall');
       const largeScreenClosed = localStorage.getItem('sidebarClosedLarge');
 
-      // Clear both classes first
+      if (skipTransition) {
+        sidebar.classList.add('no-transition');
+        const file = document.querySelector('.file');
+        const fileHeader = document.querySelector('.file-header');
+        const footer = document.querySelector('.content-footer');
+        if (file) file.classList.add('no-transition');
+        if (fileHeader) fileHeader.classList.add('no-transition');
+        if (footer) footer.classList.add('no-transition');
+      }
+
       sidebar.classList.remove('open', 'closed');
 
       if (isSmallScreen()) {
-        // On small screens, closed by default unless explicitly opened
         if (smallScreenOpen === 'true') {
           sidebar.classList.add('open');
         }
       } else {
-        // On large screens, open by default unless explicitly closed
         if (largeScreenClosed === 'true') {
           sidebar.classList.add('closed');
         }
       }
+
+      if (skipTransition) {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            sidebar.classList.remove('no-transition');
+            const file = document.querySelector('.file');
+            const fileHeader = document.querySelector('.file-header');
+            const footer = document.querySelector('.content-footer');
+            if (file) file.classList.remove('no-transition');
+            if (fileHeader) fileHeader.classList.remove('no-transition');
+            if (footer) footer.classList.remove('no-transition');
+          });
+        });
+      }
     }
 
-    restoreSidebarState();
+    restoreSidebarState(true);
 
-    // Toggle and save state based on screen size
     document.querySelectorAll('.toggle-sidebar').forEach(button => {
       button.addEventListener('click', () => {
         if (isSmallScreen()) {
@@ -501,7 +525,6 @@
       });
     });
 
-    // Handle window resize - restore state when crossing breakpoint
     let wasSmallScreen = isSmallScreen();
     window.addEventListener('resize', () => {
       const nowSmallScreen = isSmallScreen();
@@ -511,14 +534,12 @@
       }
     });
 
-    // Save scroll position when clicking any link in sidebar
     document.querySelectorAll('.navigator a').forEach(link => {
       link.addEventListener('click', () => {
         sessionStorage.setItem('sidebarScrollPos', sidebar.scrollTop);
       });
     });
 
-    // Close sidebar on mobile after clicking a link
     sidebar.addEventListener('click', (e) => {
       const link = e.target.closest('a');
       if (link && isSmallScreen()) {
@@ -532,28 +553,23 @@
       }
     });
 
-    // Navigate between sidebar items with left/right buttons
     function getNavigableItems() {
       const items = [];
       const directory = document.querySelector('.directory');
 
-      // Get all direct children of directory (divs and details)
       directory.childNodes.forEach(node => {
         if (node.nodeType === Node.ELEMENT_NODE) {
           if (node.classList && node.classList.contains('list-item')) {
-            // It's a div.list-item - get the link inside
             const link = node.querySelector('a');
             if (link) {
               items.push(link);
             }
           } else if (node.tagName === 'DETAILS') {
-            // Add the summary link
             const summaryLink = node.querySelector('summary a');
             if (summaryLink) {
               items.push(summaryLink);
             }
 
-            // If details is open, add all child links
             if (node.open) {
               const childLinks = node.querySelectorAll('ol > li > a, ol > li > details');
               childLinks.forEach(item => {
@@ -590,10 +606,10 @@
       let nextIndex;
       if (direction === 'left') {
         nextIndex = currentIndex - 1;
-        if (nextIndex < 0) nextIndex = items.length - 1; // Wrap to end
+        if (nextIndex < 0) nextIndex = items.length - 1;
       } else {
         nextIndex = currentIndex + 1;
-        if (nextIndex >= items.length) nextIndex = 0; // Wrap to start
+        if (nextIndex >= items.length) nextIndex = 0;
       }
 
       const nextItem = items[nextIndex];
@@ -603,7 +619,6 @@
       }
     }
 
-    // Attach navigation to buttons
     const leftButton = document.querySelector('.toggle-left');
     const rightButton = document.querySelector('.toggle-right');
 
@@ -615,7 +630,6 @@
       rightButton.addEventListener('click', () => navigateToItem('right'));
     }
 
-    // Search functionality
     const searchInput = document.querySelector('.navigator-footer input');
     const directory = document.querySelector('.directory');
     let noResultsMessage = null;
@@ -624,14 +638,12 @@
       searchInput.addEventListener('input', (e) => {
         const query = e.target.value.toLowerCase().trim();
 
-        // Remove existing no results message
         if (noResultsMessage) {
           noResultsMessage.remove();
           noResultsMessage = null;
         }
 
         if (query === '') {
-          // Reset: show all items and restore original details state
           directory.classList.remove('searching', 'no-results');
           directory.querySelectorAll('li, details').forEach(el => {
             el.classList.remove('filtered-out');
@@ -639,22 +651,18 @@
           return;
         }
 
-        // Add searching class
         directory.classList.add('searching');
 
-        // Open all details when searching
         directory.querySelectorAll('details').forEach(details => {
           details.open = true;
         });
 
         let hasResults = false;
 
-        // Search through all links (only filter individual items, not folders)
         directory.querySelectorAll('a').forEach(link => {
           const text = link.textContent.toLowerCase();
           const listItem = link.closest('li');
 
-          // Only filter items that are in <li> elements (not folder summaries)
           if (listItem && !link.closest('summary')) {
             if (text.includes(query)) {
               listItem.classList.remove('filtered-out');
@@ -665,7 +673,6 @@
           }
         });
 
-        // Hide empty details sections
         directory.querySelectorAll('details').forEach(details => {
           const visibleLinks = Array.from(details.querySelectorAll('li')).filter(
             li => !li.classList.contains('filtered-out')
@@ -677,12 +684,11 @@
           }
         });
 
-        // Add/remove no-results class and show message
         if (!hasResults) {
           directory.classList.add('no-results');
           noResultsMessage = document.createElement('div');
-          noResultsMessage.textContent = 'nah mate, nothin here';
-          noResultsMessage.style.padding = '1rem';
+          noResultsMessage.className = 'no-results-message';
+          noResultsMessage.textContent = 'No results found';
           directory.appendChild(noResultsMessage);
         } else {
           directory.classList.remove('no-results');

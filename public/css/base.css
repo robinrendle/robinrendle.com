@@ -277,6 +277,10 @@ figcaption {
   }
 }
 
+.file.no-transition {
+  transition: none;
+}
+
 main {
   padding-bottom: 2.2rem;
   background: var(--neutral-base-soft);
@@ -498,6 +502,10 @@ main {
       width: calc(100% - var(--size-navigator));
     }
   }
+}
+
+.file-header.no-transition {
+  transition: none;
 }
 
 .file-header-actions {

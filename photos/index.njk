@@ -9,10 +9,15 @@ template: photo
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: var(--space);
+    will-change: grid-template-columns;
 
     picture {
       display: flex;
       height: 100%;
+    }
+
+    img {
+      will-change: auto;
     }
   }
 </style>
