@@ -453,7 +453,7 @@ main {
   font-size: var(--font-size-3);
   min-height: var(--size-chrome);
   height: var(--size-chrome);
-  padding-left: var(--space);
+  padding-left: calc(var(--space) * 1.5);
   padding-right: var(--space);
   width: 100%;
   transition: width 0.3s ease-in-out;
