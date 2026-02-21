@@ -19,7 +19,7 @@ Alas! This increased the tappable area of the arrow but broke the surrounding la
 
 I _think_ it was [Chris Coyier](https://frontendmasters.com/blog/author/chriscoyier/) the other day who mentioned that there’s nothing left on his wish list for big CSS features but I realize that this is now at the top of mine: I wish in CSS there was something like an ~interactive-size~ property so instead of having to add padding to small elements to make them clickable we could just tell the browser “trigger events when I tap/hover/whatever 15px around this element”. 
 
-Despite being a genius with an uncompromising intellect, folks much smarter than me have already thought about this! [Christoper Kirk Nielsen](https://chriskirknielsen.com) pointed me to [a proposal](https://github.com/w3c/csswg-drafts/issues/4708) by [Tyler Sticka](https://tylersticka.com) for a new CSS property:
+Despite being a genius with an uncompromising intellect, folks much smarter than me have already thought about this! [Christopher Kirk Nielsen](https://chriskirknielsen.com) pointed me to [a proposal](https://github.com/w3c/csswg-drafts/issues/4708) by [Tyler Sticka](https://tylersticka.com) for a new CSS property:
 
 ```css
 .button {
