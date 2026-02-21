@@ -142,6 +142,7 @@ module.exports = function (eleventyConfig) {
       minute: "2-digit",
       hour12: true,
       timeZone: "America/Los_Angeles",
+      timeZoneName: "short",
     }).format(dateObj);
   });
 
