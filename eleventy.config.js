@@ -14,6 +14,7 @@ const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("photos");
+  eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy({ "public/robots.txt": "/robots.txt" });
 
   eleventyConfig.addPassthroughCopy({
