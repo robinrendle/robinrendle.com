@@ -3,3 +3,4 @@ node_modules/
 package-lock.json
 .DS_Store
 _data/.git-hashes-cache.json
+.cache/
