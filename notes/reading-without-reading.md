@@ -7,7 +7,7 @@ country: California
 extract: 
 ---
 
-Mass-Driver just released [MD UI](https://mass-driver.com/typefaces/md-ui/), a neo-grotesque  type family that’s been designed to compliment Rutherford Craze and Co.’s already [excellent mono-space](https://mass-driver.com/typefaces/md-io/). Just as the name implies, MD UI is designed for [a different kind of reading](https://mass-driver.com/article/md-ui-a-typeface-for-interfacing):
+Mass-Driver just released [MD UI](https://mass-driver.com/typefaces/md-ui/), a neo-grotesque  type family that’s been designed to compliment Rutherford Craze and Co.’s already [excellent mono-space](https://mass-driver.com/typefaces/md-io/). And just as the name implies, MD UI is designed for [a different kind of reading](https://mass-driver.com/article/md-ui-a-typeface-for-interfacing):
 
 > When we think about reading, we tend to picture books, or magazines, or business reports. Blocks of text, traversed from beginning to end. There’s another kind of reading, though, one which I think we do much more often without really noticing it.
 > 
