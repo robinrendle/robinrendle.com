@@ -31,8 +31,11 @@
     </style>
     <script>
       (function() {
-        if (localStorage.getItem('theme') === 'dark') {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark') {
           document.documentElement.style.colorScheme = 'dark';
+        } else if (theme === 'light') {
+          document.documentElement.style.colorScheme = 'light';
         }
       })();
     </script>
