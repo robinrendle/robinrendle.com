@@ -121,6 +121,7 @@ html {
   text-size-adjust: none;
   min-height: 100%;
   font-size: 110%;
+  background: var(--neutral-base-contrast);
 
   @media screen and (min-width: 768px) {
     font-size: 100%;
