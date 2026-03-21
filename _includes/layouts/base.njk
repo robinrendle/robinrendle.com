@@ -12,6 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{title}}">
     <meta property="og:description" content="{{ extract | default(metadata.description) }}">
+    <meta name="view-transition" content="same-origin">
     <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: dark)">
@@ -28,6 +29,13 @@
     <style>
       {% getBundle "css" %}
     </style>
+    <script>
+      (function() {
+        if (localStorage.getItem('theme') === 'dark') {
+          document.documentElement.style.colorScheme = 'dark';
+        }
+      })();
+    </script>
   </head>
   <body>
     {% include "nav.njk" %}
