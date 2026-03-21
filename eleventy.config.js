@@ -31,8 +31,8 @@ module.exports = function (eleventyConfig) {
   if (process.env.ELEVENTY_RUN_MODE !== "serve") {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
       extensions: "html",
-      formats: ["webp", "jpeg", "jpg", "png"],
-      widths: ["auto"],
+      formats: ["avif", "webp", "jpeg"],
+      widths: [400, 800, 1600, "auto"],
       urlPath: "/images/",
       inputDir: ".",
       outputDir: "./_site/images/",

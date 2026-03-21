@@ -12,6 +12,13 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: "MD UI";
+  src: url("/fonts/md-ui/MDUI-VF-subset.woff2") format("woff2");
+  font-style: oblique 0deg 12deg;
+  font-weight: 200 900;
+}
+
 :root {
   color-scheme: light dark;
 
@@ -19,7 +26,7 @@
     "MD IO", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas,
     monospace;
   --font-sans:
-    SF Pro Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "MD UI", SF Pro Text, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
   --font-title:
