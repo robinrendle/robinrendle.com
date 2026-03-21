@@ -4,7 +4,7 @@ title: README
 ---
 
 <figure>
-  <img height="40" width="40" src="/images/me/rr.png" alt="Robin Rendle" />
+  <img src="/images/me/rr.png" alt="Robin Rendle" />
 </figure>
 
 Howdy – Robin here. 
