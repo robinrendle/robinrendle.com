@@ -615,6 +615,10 @@ main {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+
+  time {
+    font-variant-numeric: tabular-nums;
+  }
 }
 
 .align-right {
