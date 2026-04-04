@@ -12,7 +12,7 @@ tags: unfeatured
     <c-window>
       <div class="window-content window-content-wrapper">
         <img src="/images/home-essay/hi.gif" alt="An animation of an old Mac screen with the words 'hi' flickering in many different fonts"/>
-        <p>I’m Robin, a software designer from the UK but now I live in San Francisco.</p>
+        <p>I’m Robin, a software designer and writer from the UK but these days I live in San Francisco.</p>
       </div>
     </c-window>
   </div>
