@@ -15,7 +15,7 @@ Second: Merlin has a whole chapter about [lichens](https://en.wikipedia.org/wiki
 
 All of this is gloriously sci-fi, as Merlin writes:
 
-> To talk about individuals made no sense anymore. Biology—the study of the relationships between living organisms—had transformed into ecology—the study of the relationships between living organisms.
+> To talk about individuals made no sense anymore. Biology—the study of living organisms—had transformed into ecology—the study of the relationships between living organisms.
 
 This reminds me of James Burke’s [_Connections_](https://en.wikipedia.org/wiki/Connections_(British_TV_series)) where he argues that what we think of as separate disciplines — like farming and math or subjects like biology and web design — aren’t separate things. Every discipline is a big soupy mess that gets blurrier and blurrier the closer you look at them. 
 
