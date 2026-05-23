@@ -75,6 +75,10 @@
     gap: var(--space);
     color: var(--neutral-text-soft);
 
+    a, a:hover {
+      cursor: default;
+    }
+
     picture {
       display: flex;
     }
@@ -163,6 +167,10 @@
       padding-left: 1rem;
       padding-right: var(--space);
       border-radius: var(--border-radius);
+
+      &, &:hover {
+        cursor: default;
+      }
     }
   }
 
@@ -177,7 +185,7 @@
     height: 16px;
     width: 14px;
     z-index: 8;
-    cursor: pointer;
+    cursor: default;
     background-color: var(--neutral-text-soft);
     mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath d='M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z'/%3E%3C/svg%3E");
     mask-size: contain;
@@ -235,6 +243,10 @@
       z-index: 5;
       text-overflow: ellipsis;
       height: 1.75rem;
+
+      &, &:hover {
+        cursor: default;
+      }
 
       h3 {
         display: flex;

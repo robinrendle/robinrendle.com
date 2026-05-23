@@ -421,6 +421,10 @@ main {
       display: flex;
       height: 100%;
       object-fit: cover;
+      &,
+      &:hover {
+        cursor: default;
+      }
     }
 
     .gallery-img {
@@ -543,11 +547,15 @@ main {
   border: none;
   gap: var(--space-half);
   border-radius: var(--border-radius);
-  cursor: pointer;
   padding: var(--space-half) var(--space);
   text-decoration: none;
   line-height: 1;
   height: 1.5rem;
+
+  &,
+  &:hover {
+    cursor: default;
+  }
 
   &:hover {
     background: var(--neutral-btn-contrast);
@@ -604,6 +612,11 @@ main {
 .archive-row {
   background: var(--neutral-base-soft);
   text-decoration: none;
+
+  &,
+  &:hover {
+    cursor: default;
+  }
 
   &:hover,
   &:focus {
