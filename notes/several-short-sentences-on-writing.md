@@ -9,7 +9,7 @@ extract:
 
 This is the sort of book I usually hate. By law books about writing are so desperate to explain the world to me that I struggle to keep my eyes open. I don’t have much patience when I feel someone’s talking down to me, with them having figured the universe out already. Isn’t it always more exciting when a writer is on the tip of their toes just a half step ahead of you? When you’re invited to participate rather than being yelled at?
 
-Verilyn Klinkenborg’s _Several short sentences on writing_ slips into that mode from time to time but has enough useful advice to recommend it. Like this first banger:
+Verlyn Klinkenborg’s _Several short sentences on writing_ slips into that mode from time to time but has enough useful advice to recommend it. Like this first banger:
 
 > A writer’s real work is the endless winnowing of sentences,
 > The relentless exploration of possibilities...
@@ -21,7 +21,7 @@ Excellent, yes! But okay — how do you do that?
 
 That’s not earth-shattering advice, but it’s helpful for me. The size of a project can be overwhelming and cutting the problem up into sentences frees me from the burden of all that future work that has to be done. 
 
-Or, as Verilyn puts it:
+Or, as Verlyn puts it:
 
 > I’m interested in the genre of the sentence, 
 > The genre that’s always overlooked.
@@ -34,7 +34,7 @@ Perhaps the strangest thing about this book is that it isn’t just writing advi
 
 Designers often struggle with this lack of focus on the “sentence” of interface design. But I struggle with it more whilst writing. I get overwhelmed with all the possibilities and my drafts folder is littered with dead projects because I forgot about the sentences and all I could see was the plot or the genre or anything else.
 
-But how do you get good at this though? This relentless focus? Here’s what Verilyn recommends:
+But how do you get good at this though? This relentless focus? Here’s what Verlyn recommends:
 
 > The urge to write is so strong. 
 > Aspiring writers want so badly to be pouring something out of themselves.
@@ -43,7 +43,7 @@ But how do you get good at this though? This relentless focus? Here’s what Ver
 > I think so.
 > But I also think it requires a suspension of yearning
 
-Sorry to interrupt you Verilyn, but !!! 
+Sorry to interrupt you Verlyn, but !!! 
 
 First: I’ve felt this yearning to be a writer and a designer deeply in my bones. But I’ve avoided the writing, the sentence, the interface design, and the actual work in favor of bragging about being a writer or a designer. It’s easy to let the titles and the ego get the best of you. But the sentences are what matter most. 
 
@@ -51,7 +51,7 @@ Second: this blog has always been that place for me to notice things. I write pu
 
 But when it comes to design it all needs to be locked up, private, sent into the [Hyperbolic Time Chamber](https://dragonball.fandom.com/wiki/Hyperbolic_Time_Chamber). The ideas are too embarrassing, too naive at the beginning. So early last year I started to keep a daily journal and began to fill it with junk: terrible, unforgivable ideas and scribbled drawings with words that make next to no sense. It’s a relief though, to have somewhere to notice things without it all being in the public record.
 
-Anyway, I quite like what Verilyn has to say about cutting longer sentences into shorter ones because I’ve always struggled with the need to show off in my writing, to prove I can write a sentence that never stops. Verilyn argues this is due to fear and maybe that’s true. Perhaps I’m afraid to put a full stop somewhere because it’s hard and I’m an undisciplined writer, because I fear that folks will stop reading if each and every sentence doesn’t do a backflip-720-no-scope: 
+Anyway, I quite like what Verlyn has to say about cutting longer sentences into shorter ones because I’ve always struggled with the need to show off in my writing, to prove I can write a sentence that never stops. Verlyn argues this is due to fear and maybe that’s true. Perhaps I’m afraid to put a full stop somewhere because it’s hard and I’m an undisciplined writer, because I fear that folks will stop reading if each and every sentence doesn’t do a backflip-720-no-scope: 
 
 > The obsession with transition negates a basic truth about writing,
 > A magical truth.
@@ -60,7 +60,7 @@ Anyway, I quite like what Verilyn has to say about cutting longer sentences into
 
 I love this! _You can get anywhere from anywhere_. Each sentence is a portal. Each sentence has potential. This is very exciting! Who knows where the next one will lead!
 
-But I also like the idea that cutting up long sentences isn’t just for the reader. A lot of Verilyn’s argument in the book is that writing isn’t solely to woo strangers. Instead, this act of revision should help us think more clearly:
+But I also like the idea that cutting up long sentences isn’t just for the reader. A lot of Verlyn’s argument in the book is that writing isn’t solely to woo strangers. Instead, this act of revision should help us think more clearly:
 
 > We assume that thought shapes the sentence.
 > But thought and sentence are always a collaboration...
