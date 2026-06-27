@@ -1,15 +1,15 @@
 ---
 layout: layouts/note.njk
-title: Several short sentences on writing
+title: Several short sentences about writing
 date: 2026-06-21T16:44:58-07:00
 city: San Francisco
 country: California
-extract: 
+extract: The relentless exploration of possibilities...
 ---
 
 This is the sort of book I usually hate. By law books about writing are so desperate to explain the world to me that I struggle to keep my eyes open. I don’t have much patience when I feel someone’s talking down to me, with them having figured the universe out already. Isn’t it always more exciting when a writer is on the tip of their toes just a half step ahead of you? When you’re invited to participate rather than being yelled at?
 
-Verlyn Klinkenborg’s _Several short sentences on writing_ slips into that mode from time to time but has enough useful advice to recommend it. Like this first banger:
+Verlyn Klinkenborg’s _Several short sentences about writing_ slips into that mode from time to time but has enough useful advice to recommend it. Like this first banger:
 
 > A writer’s real work is the endless winnowing of sentences,
 > The relentless exploration of possibilities...
