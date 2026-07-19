@@ -120,12 +120,8 @@ html {
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
   min-height: 100%;
-  font-size: 110%;
+  font-size: 100%;
   background: var(--neutral-base-contrast);
-
-  @media screen and (min-width: 768px) {
-    font-size: 100%;
-  }
 }
 
 body,
