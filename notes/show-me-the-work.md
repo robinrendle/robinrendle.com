@@ -21,4 +21,4 @@ Most fields have figured this out: even the biggest bozo in the world is unlikel
 
 So let’s get serious here: Wolverine does not introduce himself as an AI-Native Senior Principal X-Boy.
 
-He’s fucking _Wolverine_, my dude.
+He’s just fucking _Wolverine_, my dude.
