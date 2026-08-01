@@ -300,17 +300,25 @@ main {
   min-height: 100dvh;
 
   &.note {
-    padding-top: 3rem;
+    padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: var(--neutral-text-contrast);
     position: relative;
+    
+    @media screen and (min-width: 570px) {
+      padding-top: 2rem;
+    }
 
     @media screen and (min-width: 768px) {
-      padding-top: 5rem;
+      padding-top: 2rem;
       padding-left: 2rem;
       padding-right: 2rem;
       padding-bottom: 4rem;
+    }
+    
+    @media screen and (min-width: 100px) {
+      padding-top: 3rem;
     }
 
     .content-area {
@@ -357,7 +365,7 @@ main {
       display: flex;
       align-items: center;
       width: 45px;
-      margin: 0.5lh auto 0.5lh;
+      margin: 0.5lh 0 0.5lh;
       font-weight: 200;
       
       @media screen and (min-width: 1000px) {
@@ -672,6 +680,18 @@ pre[class*="language-"] {
 p code {
   font-family: var(--font-mono);
   font-size: 1rem;
+}
+
+figure.home-img {
+  margin-top: -1rem !important;
+}
+
+figure.home-img, 
+figure.home-img picture,
+figure.home-img img {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  max-width: 100% !important;
 }
 
 /**

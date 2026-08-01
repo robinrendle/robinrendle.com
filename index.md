@@ -3,7 +3,7 @@ layout: layouts/note.njk
 title: README
 ---
 
-<figure>
+<figure class="home-img">
   <img src="/images/me/rr.png" alt="Robin Rendle" />
 </figure>
 
