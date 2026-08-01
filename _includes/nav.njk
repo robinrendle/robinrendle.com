@@ -16,17 +16,12 @@
     width: 100dvw;
     max-width: 100dvw;
     transform: translateX(-100%);
-    transition: transform 0.3s ease-in-out;
 
     @media screen and (min-width: 768px) {
       min-width: var(--size-navigator);
       width: var(--size-navigator);
       transform: translateX(0);
     }
-  }
-
-  .navigator.no-transition {
-    transition: none;
   }
 
   .navigator.open {
@@ -482,19 +477,9 @@
       return window.innerWidth < breakpoint;
     }
 
-    function restoreSidebarState(skipTransition = false) {
+    function restoreSidebarState() {
       const smallScreenOpen = localStorage.getItem('sidebarOpenSmall');
       const largeScreenClosed = localStorage.getItem('sidebarClosedLarge');
-
-      if (skipTransition) {
-        sidebar.classList.add('no-transition');
-        const file = document.querySelector('.file');
-        const fileHeader = document.querySelector('.file-header');
-        const footer = document.querySelector('.content-footer');
-        if (file) file.classList.add('no-transition');
-        if (fileHeader) fileHeader.classList.add('no-transition');
-        if (footer) footer.classList.add('no-transition');
-      }
 
       sidebar.classList.remove('open', 'closed');
 
@@ -507,23 +492,9 @@
           sidebar.classList.add('closed');
         }
       }
-
-      if (skipTransition) {
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            sidebar.classList.remove('no-transition');
-            const file = document.querySelector('.file');
-            const fileHeader = document.querySelector('.file-header');
-            const footer = document.querySelector('.content-footer');
-            if (file) file.classList.remove('no-transition');
-            if (fileHeader) fileHeader.classList.remove('no-transition');
-            if (footer) footer.classList.remove('no-transition');
-          });
-        });
-      }
     }
 
-    restoreSidebarState(true);
+    restoreSidebarState();
 
     document.querySelectorAll('.toggle-sidebar').forEach(button => {
       button.addEventListener('click', () => {
@@ -540,35 +511,12 @@
     });
 
     let wasSmallScreen = isSmallScreen();
-    let resizeEndTimeout;
     window.addEventListener('resize', () => {
-      // While the window is actively being dragged, the sidebar's own
-      // width/transform keep tracking the viewport on every resize tick.
-      // Letting the 0.3s transition run at the same time makes it fight
-      // that continuous change, which is what reads as juddery. So we
-      // suspend the transition for the duration of the drag and only
-      // let it animate once resizing has settled.
-      sidebar.classList.add('no-transition');
-      const file = document.querySelector('.file');
-      const fileHeader = document.querySelector('.file-header');
-      const footer = document.querySelector('.content-footer');
-      if (file) file.classList.add('no-transition');
-      if (fileHeader) fileHeader.classList.add('no-transition');
-      if (footer) footer.classList.add('no-transition');
-
       const nowSmallScreen = isSmallScreen();
       if (wasSmallScreen !== nowSmallScreen) {
         restoreSidebarState();
         wasSmallScreen = nowSmallScreen;
       }
-
-      clearTimeout(resizeEndTimeout);
-      resizeEndTimeout = setTimeout(() => {
-        sidebar.classList.remove('no-transition');
-        if (file) file.classList.remove('no-transition');
-        if (fileHeader) fileHeader.classList.remove('no-transition');
-        if (footer) footer.classList.remove('no-transition');
-      }, 150);
     });
 
     document.querySelectorAll('.navigator a').forEach(link => {
