@@ -540,12 +540,35 @@
     });
 
     let wasSmallScreen = isSmallScreen();
+    let resizeEndTimeout;
     window.addEventListener('resize', () => {
+      // While the window is actively being dragged, the sidebar's own
+      // width/transform keep tracking the viewport on every resize tick.
+      // Letting the 0.3s transition run at the same time makes it fight
+      // that continuous change, which is what reads as juddery. So we
+      // suspend the transition for the duration of the drag and only
+      // let it animate once resizing has settled.
+      sidebar.classList.add('no-transition');
+      const file = document.querySelector('.file');
+      const fileHeader = document.querySelector('.file-header');
+      const footer = document.querySelector('.content-footer');
+      if (file) file.classList.add('no-transition');
+      if (fileHeader) fileHeader.classList.add('no-transition');
+      if (footer) footer.classList.add('no-transition');
+
       const nowSmallScreen = isSmallScreen();
       if (wasSmallScreen !== nowSmallScreen) {
         restoreSidebarState();
         wasSmallScreen = nowSmallScreen;
       }
+
+      clearTimeout(resizeEndTimeout);
+      resizeEndTimeout = setTimeout(() => {
+        sidebar.classList.remove('no-transition');
+        if (file) file.classList.remove('no-transition');
+        if (fileHeader) fileHeader.classList.remove('no-transition');
+        if (footer) footer.classList.remove('no-transition');
+      }, 150);
     });
 
     document.querySelectorAll('.navigator a').forEach(link => {
