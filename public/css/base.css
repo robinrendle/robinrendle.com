@@ -672,7 +672,10 @@ p code {
 }
 
 figure.home-img {
-  margin-top: -1rem !important;
+  
+  @media screen and (min-width: 600px) {
+    margin-top: -1rem !important;
+  }
 }
 
 figure.home-img, 
