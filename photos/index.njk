@@ -8,7 +8,8 @@ template: photo
   .grid-photos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--space);
+    grid-auto-rows: 200px;
+    gap: 2px;
     will-change: grid-template-columns;
 
     picture {
